@@ -124,7 +124,7 @@ export default function Home() {
       <section className="bg-emerald-50 py-14">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-black text-gray-800 mb-4">왜 여행의 파도인가요?</h2>
-          <p className="text-gray-500 text-lg mb-10">1인 전문 여행사이기 때문에 가능한 것들이 있습니다</p>
+          <p className="text-gray-500 text-lg mb-10">골프여행 전문가이기 때문에 가능한 것들이 있습니다</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {

@@ -6,7 +6,7 @@ import KakaoFloat from "@/components/KakaoFloat";
 
 export const metadata: Metadata = {
   title: "여행의 파도 | 골프여행 전문",
-  description: "일본, 태국, 코타키나발루, 필리핀, 중국 골프여행 전문. 1인 전문 여행사. 카카오톡으로 편하게 문의하세요.",
+  description: "일본, 태국, 코타키나발루, 필리핀, 중국 골프여행 전문 여행사. 카카오톡으로 편하게 문의하세요.",
   keywords: "골프여행, 일본골프여행, 후쿠오카골프, 홋카이도골프, 태국골프, 코타키나발루골프, 여행의파도",
 };
 

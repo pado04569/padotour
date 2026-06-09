@@ -15,7 +15,7 @@ export default function Header() {
           <Image src="/images/logo.png" alt="여행의 파도" width={52} height={52} className="rounded-full" />
           <div>
             <div className="text-xl font-bold text-blue-700 leading-tight">여행의 파도</div>
-            <div className="text-xs text-gray-500">골프여행 전문</div>
+            <div className="text-xs text-gray-500">골프여행 전문 여행사</div>
           </div>
         </Link>
 
