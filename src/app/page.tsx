@@ -58,18 +58,6 @@ export default function Home() {
         </Link>
       </div>
 
-      {/* 하단 공통 문의 */}
-      <div className="mt-12 text-center">
-        <p className="text-gray-400 text-sm mb-3">출발지 무관하게 바로 문의하기</p>
-        <a
-          href="https://pf.kakao.com/_bxoxnXxj/chat"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-black px-8 py-3.5 rounded-full text-lg transition-colors shadow"
-        >
-          💬 카카오톡으로 바로 문의
-        </a>
-      </div>
     </div>
   );
 }
