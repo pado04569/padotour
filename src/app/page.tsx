@@ -26,22 +26,6 @@ export default function Home() {
 
       {/* 출발지 선택 카드 */}
       <div className="flex flex-col sm:flex-row gap-6 w-full max-w-xl">
-        {/* 부산출발 */}
-        <Link
-          href="/busan"
-          className="flex-1 group bg-white border-2 border-gray-200 hover:border-blue-500 rounded-3xl p-8 text-center shadow-md hover:shadow-xl transition-all duration-200 cursor-pointer"
-        >
-          <div className="text-5xl mb-4">✈️</div>
-          <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">김해공항</div>
-          <div className="text-2xl font-black text-gray-800 group-hover:text-blue-600 transition-colors">
-            부산 출발
-          </div>
-          <div className="mt-4 text-sm text-gray-400">부산·경남 지역 골프여행</div>
-          <div className="mt-5 inline-block bg-blue-500 group-hover:bg-blue-600 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">
-            부산출발 상품 보기 →
-          </div>
-        </Link>
-
         {/* 인천출발 */}
         <Link
           href="/incheon"
@@ -55,6 +39,22 @@ export default function Home() {
           <div className="mt-4 text-sm text-gray-400">수도권·전국 골프여행</div>
           <div className="mt-5 inline-block bg-emerald-500 group-hover:bg-emerald-600 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">
             인천출발 상품 보기 →
+          </div>
+        </Link>
+
+        {/* 부산출발 */}
+        <Link
+          href="/busan"
+          className="flex-1 group bg-white border-2 border-gray-200 hover:border-blue-500 rounded-3xl p-8 text-center shadow-md hover:shadow-xl transition-all duration-200 cursor-pointer"
+        >
+          <div className="text-5xl mb-4">✈️</div>
+          <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">김해공항</div>
+          <div className="text-2xl font-black text-gray-800 group-hover:text-blue-600 transition-colors">
+            부산 출발
+          </div>
+          <div className="mt-4 text-sm text-gray-400">부산·경남 지역 골프여행</div>
+          <div className="mt-5 inline-block bg-blue-500 group-hover:bg-blue-600 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">
+            부산출발 상품 보기 →
           </div>
         </Link>
       </div>
