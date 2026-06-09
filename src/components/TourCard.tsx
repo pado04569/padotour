@@ -1,17 +1,23 @@
 import { Tour } from "@/data/tours";
+import Image from "next/image";
 
 export default function TourCard({ tour }: { tour: Tour }) {
   return (
     <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden group">
       {/* 이미지 영역 */}
-      <div className="relative h-52 bg-gradient-to-br from-emerald-400 to-emerald-700 overflow-hidden flex items-center justify-center">
-        <span className="text-7xl opacity-30">⛳</span>
+      <div className="relative h-52 bg-emerald-100 overflow-hidden">
+        <Image
+          src={tour.image}
+          alt={tour.title}
+          fill
+          className="object-cover group-hover:scale-105 transition-transform duration-300"
+        />
         {tour.badge && (
-          <span className="absolute top-3 left-3 bg-red-500 text-white text-sm font-bold px-3 py-1 rounded-full">
+          <span className="absolute top-3 left-3 bg-red-500 text-white text-sm font-bold px-3 py-1 rounded-full z-10">
             {tour.badge}
           </span>
         )}
-        <span className="absolute top-3 right-3 bg-emerald-700 text-white text-sm font-medium px-3 py-1 rounded-full">
+        <span className="absolute top-3 right-3 bg-emerald-700 text-white text-sm font-medium px-3 py-1 rounded-full z-10">
           {tour.country}
         </span>
       </div>

@@ -12,11 +12,10 @@ export default function Home() {
   return (
     <div>
       {/* ===== 히어로 섹션 ===== */}
-      <section className="relative bg-gradient-to-br from-emerald-800 to-emerald-600 text-white py-20 md:py-32 overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 left-10 text-9xl">⛳</div>
-          <div className="absolute bottom-10 right-10 text-9xl">🏌️</div>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[200px]">⛳</div>
+      <section className="relative text-white py-20 md:py-32 overflow-hidden">
+        <div className="absolute inset-0">
+          <img src="/images/golf-main.jpg" alt="골프여행" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-black/55"></div>
         </div>
         <div className="relative max-w-5xl mx-auto px-4 text-center">
           <div className="inline-block bg-yellow-400 text-gray-900 text-sm font-bold px-4 py-1.5 rounded-full mb-6">

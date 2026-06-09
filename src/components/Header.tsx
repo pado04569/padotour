@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Header() {
@@ -11,9 +12,9 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* 로고 */}
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-2xl">⛳</span>
+          <Image src="/images/logo.png" alt="여행의 파도" width={52} height={52} className="rounded-full" />
           <div>
-            <div className="text-xl font-bold text-emerald-700 leading-tight">여행의 파도</div>
+            <div className="text-xl font-bold text-blue-700 leading-tight">여행의 파도</div>
             <div className="text-xs text-gray-500">골프여행 전문</div>
           </div>
         </Link>

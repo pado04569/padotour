@@ -31,7 +31,7 @@ export const tours: Tour[] = [
     includes: ["항공", "숙박", "골프 2라운드", "조식", "공항 셔틀"],
     excludes: ["중식/석식", "캐디피", "카트피", "개인 경비"],
     price: "문의",
-    image: "/images/fukuoka.jpg",
+    image: "/images/japan-1.jpg",
     badge: "인기",
   },
   {
@@ -48,7 +48,7 @@ export const tours: Tour[] = [
     includes: ["항공", "숙박", "골프 3라운드", "조식", "공항 셔틀"],
     excludes: ["중식/석식", "캐디피", "카트피", "개인 경비"],
     price: "문의",
-    image: "/images/hokkaido.jpg",
+    image: "/images/japan-2.jpg",
     badge: "여름 추천",
   },
   {
@@ -65,7 +65,7 @@ export const tours: Tour[] = [
     includes: ["항공", "숙박", "골프 2라운드", "조식", "도고온천 입욕"],
     excludes: ["중식/석식", "캐디피", "카트피", "개인 경비"],
     price: "문의",
-    image: "/images/matsuyama.jpg",
+    image: "/images/japan-matsuyama.jpg",
   },
   {
     id: "china-hainan",
@@ -81,7 +81,7 @@ export const tours: Tour[] = [
     includes: ["항공", "숙박", "골프 3라운드", "조식", "리조트 시설"],
     excludes: ["중식/석식", "캐디피", "카트피", "개인 경비"],
     price: "문의",
-    image: "/images/hainan.jpg",
+    image: "/images/china.jpg",
   },
   {
     id: "malaysia-kota",
@@ -113,7 +113,7 @@ export const tours: Tour[] = [
     includes: ["항공", "숙박", "골프 3라운드", "조식", "리조트 시설"],
     excludes: ["중식/석식", "캐디피", "카트피", "개인 경비"],
     price: "문의",
-    image: "/images/cebu.jpg",
+    image: "/images/philippines.jpg",
   },
   {
     id: "thailand-bangkok",
@@ -129,7 +129,7 @@ export const tours: Tour[] = [
     includes: ["항공", "숙박", "골프 4라운드", "조식", "공항 픽업"],
     excludes: ["중식/석식", "캐디피", "카트피", "개인 경비"],
     price: "문의",
-    image: "/images/bangkok.jpg",
+    image: "/images/thailand.jpg",
   },
 ];
 
