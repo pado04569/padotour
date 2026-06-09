@@ -1,248 +1,76 @@
 import Link from "next/link";
-import TourCard from "@/components/TourCard";
-import { tours } from "@/data/tours";
-import { reviews } from "@/data/reviews";
-import { notices } from "@/data/reviews";
+import Image from "next/image";
 
 export default function Home() {
-  const japanTours = tours.filter((t) => t.countryCode === "japan").slice(0, 3);
-  const latestReviews = reviews.slice(0, 3);
-  const latestNotices = notices.slice(0, 3);
-
   return (
-    <div>
-      {/* ===== 히어로 섹션 ===== */}
-      <section className="relative text-white py-20 md:py-32 overflow-hidden">
-        <div className="absolute inset-0">
-          <img src="/images/golf-main.jpg" alt="골프여행" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-black/55"></div>
+    <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4">
+      {/* 로고 & 타이틀 */}
+      <div className="text-center mb-12">
+        <div className="flex justify-center mb-4">
+          <Image
+            src="/images/logo.png"
+            alt="여행의 파도"
+            width={90}
+            height={90}
+            className="rounded-full"
+          />
         </div>
-        <div className="relative max-w-5xl mx-auto px-4 text-center">
-          <div className="inline-block bg-yellow-400 text-gray-900 text-sm font-bold px-4 py-1.5 rounded-full mb-6">
-            ⛳ 골프여행 전문 여행사
-          </div>
-          <h1 className="text-4xl md:text-6xl font-black leading-tight mb-6">
-            여행의 파도와 함께<br />
-            <span className="text-yellow-300">특별한 골프여행</span>을<br />
-            떠나세요
-          </h1>
-          <p className="text-lg md:text-xl text-emerald-100 mb-4 max-w-2xl mx-auto">
-            일본 · 태국 · 코타키나발루 · 필리핀 · 중국<br />
-            골프여행 전문가가 직접 설계합니다
-          </p>
-          <p className="text-emerald-200 mb-10 text-base">
-            항공 + 숙박 + 골프장 일괄 예약 | 소수 정예 맞춤 여행
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://pf.kakao.com/_bxoxnXxj/chat"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-black px-8 py-4 rounded-full text-xl transition-colors shadow-lg"
-            >
-              💬 카카오톡으로 문의하기
-            </a>
-            <Link
-              href="/tours"
-              className="bg-white/20 hover:bg-white/30 text-white font-bold px-8 py-4 rounded-full text-xl transition-colors border-2 border-white/50"
-            >
-              ⛳ 상품 보러가기
-            </Link>
-          </div>
+        <h1 className="text-3xl md:text-4xl font-black text-gray-800 mb-2">여행의 파도</h1>
+        <p className="text-gray-500 text-lg">골프여행 전문 여행사</p>
+      </div>
 
-          {/* 신뢰 지표 */}
-          <div className="mt-12 flex flex-wrap justify-center gap-8 text-center">
-            {[
-              { icon: "🏆", label: "골프여행", value: "전문 여행사" },
-              { icon: "🌏", label: "운영 국가", value: "6개국" },
-              { icon: "⭐", label: "고객 만족", value: "5.0점" },
-              { icon: "👥", label: "동반 여행", value: "소수 정예" },
-            ].map((item) => (
-              <div key={item.label} className="bg-white/10 rounded-2xl px-6 py-4">
-                <div className="text-3xl mb-1">{item.icon}</div>
-                <div className="text-2xl font-black">{item.value}</div>
-                <div className="text-emerald-200 text-sm">{item.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* 안내 문구 */}
+      <p className="text-gray-600 text-xl font-semibold mb-8 text-center">
+        출발지를 선택해주세요 ✈️
+      </p>
 
-      {/* ===== 국가별 빠른 탭 ===== */}
-      <section className="bg-white border-b border-gray-100 py-6">
-        <div className="max-w-6xl mx-auto px-4">
-          <div className="flex gap-3 overflow-x-auto pb-2">
-            {[
-              { label: "🇯🇵 일본", href: "/tours?country=japan" },
-              { label: "🇨🇳 중국", href: "/tours?country=china" },
-              { label: "🇲🇾 코타키나발루", href: "/tours?country=malaysia" },
-              { label: "🇵🇭 필리핀", href: "/tours?country=philippines" },
-              { label: "🇹🇭 태국", href: "/tours?country=thailand" },
-            ].map((item) => (
-              <Link
-                key={item.label}
-                href={item.href}
-                className="flex-shrink-0 bg-gray-50 hover:bg-emerald-50 hover:text-emerald-700 border border-gray-200 hover:border-emerald-300 text-gray-700 font-medium px-5 py-2.5 rounded-full text-base transition-colors"
-              >
-                {item.label}
-              </Link>
-            ))}
+      {/* 출발지 선택 카드 */}
+      <div className="flex flex-col sm:flex-row gap-6 w-full max-w-xl">
+        {/* 부산출발 */}
+        <Link
+          href="/busan"
+          className="flex-1 group bg-white border-2 border-gray-200 hover:border-blue-500 rounded-3xl p-8 text-center shadow-md hover:shadow-xl transition-all duration-200 cursor-pointer"
+        >
+          <div className="text-5xl mb-4">✈️</div>
+          <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">김해공항</div>
+          <div className="text-2xl font-black text-gray-800 group-hover:text-blue-600 transition-colors">
+            부산 출발
           </div>
-        </div>
-      </section>
+          <div className="mt-4 text-sm text-gray-400">부산·경남 지역 골프여행</div>
+          <div className="mt-5 inline-block bg-blue-500 group-hover:bg-blue-600 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">
+            부산출발 상품 보기 →
+          </div>
+        </Link>
 
-      {/* ===== 인기 상품 (일본) ===== */}
-      <section className="max-w-6xl mx-auto px-4 py-14">
-        <div className="flex items-center justify-between mb-8">
-          <div>
-            <h2 className="text-3xl font-black text-gray-800">🇯🇵 인기 일본 골프여행</h2>
-            <p className="text-gray-500 mt-1">전체 예약의 70%를 차지하는 베스트 상품</p>
+        {/* 인천출발 */}
+        <Link
+          href="/incheon"
+          className="flex-1 group bg-white border-2 border-gray-200 hover:border-emerald-500 rounded-3xl p-8 text-center shadow-md hover:shadow-xl transition-all duration-200 cursor-pointer"
+        >
+          <div className="text-5xl mb-4">✈️</div>
+          <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">인천공항</div>
+          <div className="text-2xl font-black text-gray-800 group-hover:text-emerald-600 transition-colors">
+            인천 출발
           </div>
-          <Link
-            href="/tours?country=japan"
-            className="text-emerald-600 hover:text-emerald-700 font-medium text-base hidden sm:flex items-center gap-1"
-          >
-            전체보기 →
-          </Link>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {japanTours.map((tour) => (
-            <TourCard key={tour.id} tour={tour} />
-          ))}
-        </div>
-        <div className="text-center mt-8">
-          <Link
-            href="/tours"
-            className="inline-block border-2 border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white font-bold px-8 py-3 rounded-full text-lg transition-colors"
-          >
-            전체 골프여행 상품 보기
-          </Link>
-        </div>
-      </section>
+          <div className="mt-4 text-sm text-gray-400">수도권·전국 골프여행</div>
+          <div className="mt-5 inline-block bg-emerald-500 group-hover:bg-emerald-600 text-white font-bold px-6 py-2.5 rounded-full text-sm transition-colors">
+            인천출발 상품 보기 →
+          </div>
+        </Link>
+      </div>
 
-      {/* ===== 여행의 파도 소개 ===== */}
-      <section className="bg-emerald-50 py-14">
-        <div className="max-w-5xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-black text-gray-800 mb-4">왜 여행의 파도인가요?</h2>
-          <p className="text-gray-500 text-lg mb-10">골프여행 전문가이기 때문에 가능한 것들이 있습니다</p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              {
-                icon: "🏌️",
-                title: "골프 전문 설계",
-                desc: "코스 난이도, 그린피, 이동 동선까지\n골프에 최적화된 일정만 만듭니다",
-              },
-              {
-                icon: "📞",
-                title: "1:1 맞춤 상담",
-                desc: "대형 여행사와 달리 대표가 직접 상담합니다.\n인원·예산·선호 코스에 맞게 조율해드립니다",
-              },
-              {
-                icon: "💰",
-                title: "합리적인 요금",
-                desc: "불필요한 옵션 없이\n필요한 것만 포함한 실속 있는 가격",
-              },
-            ].map((item) => (
-              <div key={item.title} className="bg-white rounded-2xl p-8 shadow-sm">
-                <div className="text-5xl mb-4">{item.icon}</div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">{item.title}</h3>
-                <p className="text-gray-600 whitespace-pre-line leading-relaxed">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ===== 최근 후기 ===== */}
-      <section className="max-w-6xl mx-auto px-4 py-14">
-        <div className="flex items-center justify-between mb-8">
-          <div>
-            <h2 className="text-3xl font-black text-gray-800">⭐ 고객 후기</h2>
-            <p className="text-gray-500 mt-1">실제 여행을 다녀오신 고객님들의 이야기</p>
-          </div>
-          <Link
-            href="/reviews"
-            className="text-emerald-600 hover:text-emerald-700 font-medium text-base hidden sm:flex items-center gap-1"
-          >
-            전체보기 →
-          </Link>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {latestReviews.map((review) => (
-            <div key={review.id} className="bg-white rounded-2xl shadow-md p-6 border border-gray-100">
-              <div className="flex items-center gap-1 mb-3">
-                {Array.from({ length: review.rating }).map((_, i) => (
-                  <span key={i} className="text-yellow-400 text-xl">★</span>
-                ))}
-              </div>
-              <p className="text-gray-700 leading-relaxed mb-4 text-base">"{review.comment}"</p>
-              <div className="flex items-center justify-between text-sm text-gray-400">
-                <span className="font-medium text-gray-600">{review.name}</span>
-                <span>{review.country} · {review.date}</span>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ===== 공지/이벤트 ===== */}
-      <section className="bg-gray-50 py-14">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="flex items-center justify-between mb-8">
-            <h2 className="text-3xl font-black text-gray-800">📢 공지 · 특가 이벤트</h2>
-            <Link href="/notice" className="text-emerald-600 hover:text-emerald-700 font-medium text-base">
-              전체보기 →
-            </Link>
-          </div>
-          <div className="space-y-3">
-            {latestNotices.map((notice) => (
-              <div
-                key={notice.id}
-                className="bg-white rounded-xl p-5 shadow-sm flex items-start justify-between gap-4 border border-gray-100"
-              >
-                <div className="flex items-start gap-3 flex-1">
-                  {notice.isEvent && (
-                    <span className="flex-shrink-0 bg-red-100 text-red-600 text-xs font-bold px-2 py-1 rounded-md mt-0.5">
-                      이벤트
-                    </span>
-                  )}
-                  <div>
-                    <p className="font-semibold text-gray-800 text-base">{notice.title}</p>
-                    <p className="text-gray-500 text-sm mt-1">{notice.content}</p>
-                  </div>
-                </div>
-                <span className="text-gray-400 text-sm flex-shrink-0">{notice.date}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ===== CTA 배너 ===== */}
-      <section className="bg-emerald-700 text-white py-16">
-        <div className="max-w-3xl mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-black mb-4">
-            골프여행, 망설이지 마세요
-          </h2>
-          <p className="text-emerald-200 text-lg mb-8">
-            카카오톡으로 지역·날짜·인원만 알려주시면<br />
-            바로 견적을 드립니다. 부담 없이 문의하세요.
-          </p>
-          <a
-            href="https://pf.kakao.com/_bxoxnXxj/chat"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-black px-10 py-5 rounded-full text-2xl transition-colors shadow-xl"
-          >
-            💬 지금 바로 카카오톡 문의
-          </a>
-          <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4 text-emerald-300 text-sm">
-            <span>📞 010-5301-5250</span>
-            <span>📞 02-6401-5252 (인천)</span>
-            <span>📞 070-4798-5252 (부산)</span>
-          </div>
-        </div>
-      </section>
+      {/* 하단 공통 문의 */}
+      <div className="mt-12 text-center">
+        <p className="text-gray-400 text-sm mb-3">출발지 무관하게 바로 문의하기</p>
+        <a
+          href="https://pf.kakao.com/_bxoxnXxj/chat"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-black px-8 py-3.5 rounded-full text-lg transition-colors shadow"
+        >
+          💬 카카오톡으로 바로 문의
+        </a>
+      </div>
     </div>
   );
 }

@@ -14,6 +14,7 @@ export type Tour = {
   price: string;
   image: string;
   badge?: string;
+  departure: "incheon" | "busan" | "both";
 };
 
 export const tours: Tour[] = [
@@ -33,6 +34,7 @@ export const tours: Tour[] = [
     price: "문의",
     image: "/images/japan-1.jpg",
     badge: "인기",
+    departure: "both",
   },
   {
     id: "japan-hokkaido",
@@ -50,6 +52,7 @@ export const tours: Tour[] = [
     price: "문의",
     image: "/images/japan-2.jpg",
     badge: "여름 추천",
+    departure: "incheon",
   },
   {
     id: "japan-matsuyama",
@@ -66,6 +69,7 @@ export const tours: Tour[] = [
     excludes: ["중식/석식", "캐디피", "카트피", "개인 경비"],
     price: "문의",
     image: "/images/japan-matsuyama.jpg",
+    departure: "incheon",
   },
   {
     id: "china-hainan",
@@ -82,6 +86,7 @@ export const tours: Tour[] = [
     excludes: ["중식/석식", "캐디피", "카트피", "개인 경비"],
     price: "문의",
     image: "/images/china.jpg",
+    departure: "both",
   },
   {
     id: "malaysia-kota",
@@ -98,6 +103,7 @@ export const tours: Tour[] = [
     excludes: ["중식/석식", "캐디피", "카트피", "개인 경비"],
     price: "문의",
     image: "/images/kota.jpg",
+    departure: "incheon",
   },
   {
     id: "philippines-cebu",
@@ -114,6 +120,7 @@ export const tours: Tour[] = [
     excludes: ["중식/석식", "캐디피", "카트피", "개인 경비"],
     price: "문의",
     image: "/images/philippines.jpg",
+    departure: "incheon",
   },
   {
     id: "thailand-bangkok",
@@ -130,6 +137,7 @@ export const tours: Tour[] = [
     excludes: ["중식/석식", "캐디피", "카트피", "개인 경비"],
     price: "문의",
     image: "/images/thailand.jpg",
+    departure: "both",
   },
 ];
 
