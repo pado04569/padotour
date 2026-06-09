@@ -5,18 +5,17 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4">
       {/* 로고 & 타이틀 */}
-      <div className="text-center mb-12">
-        <div className="flex justify-center mb-4">
+      <div className="text-center mb-10">
+        <div className="flex justify-center mb-5">
           <Image
             src="/images/logo.png"
             alt="여행의 파도"
-            width={90}
-            height={90}
+            width={150}
+            height={150}
             className="rounded-full"
           />
         </div>
-        <h1 className="text-3xl md:text-4xl font-black text-gray-800 mb-2">여행의 파도</h1>
-        <p className="text-gray-500 text-lg">골프여행 전문 여행사</p>
+        <p className="text-gray-400 text-sm tracking-widest">골프여행 전문 여행사</p>
       </div>
 
       {/* 안내 문구 */}
