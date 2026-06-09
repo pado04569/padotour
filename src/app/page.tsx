@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div className="relative max-w-5xl mx-auto px-4 text-center">
           <div className="inline-block bg-yellow-400 text-gray-900 text-sm font-bold px-4 py-1.5 rounded-full mb-6">
-            ⛳ 골프여행 전문 1인 여행사
+            ⛳ 골프여행 전문 여행사
           </div>
           <h1 className="text-4xl md:text-6xl font-black leading-tight mb-6">
             여행의 파도와 함께<br />
