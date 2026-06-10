@@ -30,14 +30,6 @@ export default function Header() {
           <Link href="/notice" className="text-gray-700 hover:text-emerald-600 font-medium text-lg transition-colors">
             공지/이벤트
           </Link>
-          <a
-            href="https://pf.kakao.com/_bxoxnXxj/chat"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold px-5 py-2.5 rounded-full text-lg transition-colors flex items-center gap-2"
-          >
-            <span>💬</span> 카카오톡 상담
-          </a>
         </nav>
 
         {/* 모바일 메뉴 버튼 */}
@@ -80,14 +72,6 @@ export default function Header() {
           >
             📢 공지/이벤트
           </Link>
-          <a
-            href="https://pf.kakao.com/_bxoxnXxj/chat"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-2 bg-yellow-400 text-gray-900 font-bold px-5 py-3 rounded-full text-lg text-center"
-          >
-            💬 카카오톡 상담하기
-          </a>
         </div>
       )}
     </header>

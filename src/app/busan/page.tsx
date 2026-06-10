@@ -232,38 +232,6 @@ export default function BusanHome() {
         </div>
       </section>
 
-      {/* ===== CTA 배너 ===== */}
-      <section className="bg-blue-700 text-white py-12 md:py-16">
-        <div className="max-w-3xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-4xl font-black mb-3 md:mb-4">
-            골프여행, 망설이지 마세요
-          </h2>
-          <p className="text-blue-200 text-base md:text-lg mb-6 md:mb-8">
-            카카오톡으로 지역·날짜·인원만 알려주시면<br />
-            바로 견적을 드립니다. 부담 없이 문의하세요.
-          </p>
-          <a
-            href="https://pf.kakao.com/_bxoxnXxj/chat"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-black px-8 py-4 md:px-10 md:py-5 rounded-full text-xl md:text-2xl transition-colors shadow-xl"
-          >
-            💬 지금 바로 카카오톡 문의
-          </a>
-          <div className="mt-5 md:mt-6 flex flex-col sm:flex-row justify-center gap-2 md:gap-4 text-blue-300 text-sm">
-            <span>📞 010-5301-5250</span>
-            <span>📞 070-4798-5252 (부산)</span>
-          </div>
-          <div className="mt-4 flex justify-center gap-4 text-sm">
-            <a href="https://blog.naver.com/padoro-52so" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-white transition-colors flex items-center gap-1">
-              📝 네이버 블로그
-            </a>
-            <a href="https://band.us/@padoro52so" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-white transition-colors flex items-center gap-1">
-              📣 네이버 밴드
-            </a>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

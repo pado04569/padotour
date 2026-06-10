@@ -64,40 +64,29 @@ export default function Footer({ departure }: FooterProps) {
           {/* 연락처 */}
           <div>
             <h3 className="text-white font-bold text-lg mb-3">연락처</h3>
-            <div className="space-y-2 text-sm">
-              <p className="flex items-start gap-2">
-                <span className="mt-0.5">📞</span>
-                <span className="text-gray-300 space-y-1">
-                  {d.phones.map((p) => (
-                    <a key={p.href} href={p.href} className="hover:text-white transition-colors block font-medium">
-                      {p.label}
-                    </a>
-                  ))}
-                </span>
-              </p>
-              <p className="flex items-center gap-2 mt-2">
-                <span>💬</span>
-                <a
-                  href="https://pf.kakao.com/_bxoxnXxj/chat"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-white transition-colors"
-                >
-                  카카오톡 채널 상담
+            <div className="space-y-3">
+              {d.phones.map((p) => (
+                <a key={p.href} href={p.href} className="flex items-center gap-2 group">
+                  <span className="text-yellow-400 text-lg">📞</span>
+                  <span className="text-yellow-300 group-hover:text-yellow-200 font-bold text-lg transition-colors">
+                    {p.label}
+                  </span>
                 </a>
-              </p>
-              <p className="flex items-center gap-2">
-                <span>📝</span>
-                <a href={d.blog} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                  네이버 블로그
-                </a>
-              </p>
-              <p className="flex items-center gap-2">
-                <span>📣</span>
-                <a href={d.band} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                  네이버 밴드
-                </a>
-              </p>
+              ))}
+              <a
+                href="https://pf.kakao.com/_bxoxnXxj/chat"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-white transition-colors text-sm text-gray-400 mt-1"
+              >
+                <span>💬</span> 카카오톡 채널 상담
+              </a>
+              <a href={d.blog} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors text-sm text-gray-400">
+                <span>📝</span> 네이버 블로그
+              </a>
+              <a href={d.band} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors text-sm text-gray-400">
+                <span>📣</span> 네이버 밴드
+              </a>
             </div>
           </div>
 
@@ -109,14 +98,6 @@ export default function Footer({ departure }: FooterProps) {
               <p>토요일: 오전 9시 ~ 오후 2시</p>
               <p>일요일·공휴일: 카톡 문의</p>
             </div>
-            <a
-              href="https://pf.kakao.com/_bxoxnXxj/chat"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-4 inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold px-4 py-2.5 rounded-full text-sm transition-colors"
-            >
-              💬 카카오톡 상담하기
-            </a>
           </div>
         </div>
 
