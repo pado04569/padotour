@@ -52,7 +52,7 @@ export default function BusanHome() {
           <div className="flex justify-center">
             <Link
               href="/tours?departure=busan"
-              className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-black px-10 py-4 rounded-full text-xl transition-colors shadow-lg"
+              className="bg-blue-500 hover:bg-blue-400 text-white font-bold px-8 py-3 rounded-full text-lg transition-colors shadow-lg border-2 border-blue-300/50"
             >
               ⛳ 상품 보러가기
             </Link>
