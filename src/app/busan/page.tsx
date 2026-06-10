@@ -49,18 +49,10 @@ export default function BusanHome() {
           <p className="text-blue-200 mb-7 md:mb-10 text-sm md:text-base">
             항공 + 숙박 + 골프장 일괄 예약 | 소수 정예 맞춤 여행
           </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a
-              href="https://pf.kakao.com/_bxoxnXxj/chat"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-black px-7 py-3.5 md:px-8 md:py-4 rounded-full text-lg md:text-xl transition-colors shadow-lg"
-            >
-              💬 카카오톡으로 문의하기
-            </a>
+          <div className="flex justify-center">
             <Link
               href="/tours?departure=busan"
-              className="bg-white/20 hover:bg-white/30 text-white font-bold px-7 py-3.5 md:px-8 md:py-4 rounded-full text-lg md:text-xl transition-colors border-2 border-white/50"
+              className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-black px-10 py-4 rounded-full text-xl transition-colors shadow-lg"
             >
               ⛳ 상품 보러가기
             </Link>
