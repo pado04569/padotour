@@ -57,7 +57,7 @@ export default function Footer({ departure }: FooterProps) {
               <p>상호명: 여행의 파도</p>
               <p>대표: 이지안</p>
               <p>사업자번호: 372-57-00613</p>
-              <p>관광사업등록번호: (등록번호 입력)</p>
+              <p>관광사업등록번호: 제 2022-000029 호</p>
             </div>
           </div>
 
