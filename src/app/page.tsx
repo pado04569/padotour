@@ -10,13 +10,13 @@ export default function Home() {
           <Image
             src="/images/logo.png"
             alt="여행의 파도"
-            width={130}
-            height={130}
+            width={155}
+            height={155}
             className="rounded-full"
           />
         </div>
-        <p className="text-gray-400 text-xs tracking-widest mb-3">골프여행 전문 여행사</p>
-        <p className="text-gray-600 text-lg font-semibold">출발지를 선택해주세요 ✈️</p>
+        <p className="text-gray-400 text-xs tracking-widest mb-1">골프전문 여행사</p>
+        <p className="text-gray-600 text-lg font-semibold">출발지를 선택해주세요</p>
       </div>
 
       {/* 출발지 선택 카드 */}
