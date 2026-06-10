@@ -44,7 +44,7 @@ export default function BusanHome() {
           </h1>
           <p className="text-base md:text-xl text-blue-100 mb-3 md:mb-4 max-w-2xl mx-auto">
             일본 · 태국 · 중국<br />
-            부산·경남 출발 골프여행 전문가가 직접 설계합니다
+            골프여행 전문가가 직접 설계합니다
           </p>
           <p className="text-blue-200 mb-7 md:mb-10 text-sm md:text-base">
             항공 + 숙박 + 골프장 일괄 예약 | 소수 정예 맞춤 여행
