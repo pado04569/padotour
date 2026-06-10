@@ -5,23 +5,19 @@ export default function Home() {
   return (
     <div className="h-screen bg-white flex flex-col items-center justify-center px-4">
       {/* 로고 & 출발지 선택 한 블록으로 */}
-      <div className="text-center mb-4">
-        <div className="flex justify-center mb-1">
+      <div className="text-center mb-5">
+        <div className="flex justify-center mb-2">
           <Image
             src="/images/logo.png"
             alt="여행의 파도"
-            width={110}
-            height={110}
+            width={130}
+            height={130}
             className="rounded-full"
           />
         </div>
-        <p className="text-gray-400 text-xs tracking-widest">골프여행 전문 여행사</p>
+        <p className="text-gray-400 text-xs tracking-widest mb-3">골프여행 전문 여행사</p>
+        <p className="text-gray-600 text-lg font-semibold">출발지를 선택해주세요 ✈️</p>
       </div>
-
-      {/* 안내 문구 */}
-      <p className="text-gray-600 text-lg font-semibold mb-5 text-center">
-        출발지를 선택해주세요 ✈️
-      </p>
 
       {/* 출발지 선택 카드 */}
       <div className="flex flex-col sm:flex-row gap-3 w-full max-w-sm sm:max-w-lg">
