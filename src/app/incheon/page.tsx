@@ -256,6 +256,14 @@ export default function IncheonHome() {
             <span>📞 010-5301-5250</span>
             <span>📞 02-6401-5252 (인천)</span>
           </div>
+          <div className="mt-4 flex justify-center gap-4 text-sm">
+            <a href="https://blog.naver.com/pado-tour-" target="_blank" rel="noopener noreferrer" className="text-emerald-300 hover:text-white transition-colors flex items-center gap-1">
+              📝 네이버 블로그
+            </a>
+            <a href="https://band.us/@padotour" target="_blank" rel="noopener noreferrer" className="text-emerald-300 hover:text-white transition-colors flex items-center gap-1">
+              📣 네이버 밴드
+            </a>
+          </div>
         </div>
       </section>
     </div>

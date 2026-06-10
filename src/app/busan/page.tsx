@@ -254,6 +254,14 @@ export default function BusanHome() {
             <span>📞 010-5301-5250</span>
             <span>📞 070-4798-5252 (부산)</span>
           </div>
+          <div className="mt-4 flex justify-center gap-4 text-sm">
+            <a href="https://blog.naver.com/padoro-52so" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-white transition-colors flex items-center gap-1">
+              📝 네이버 블로그
+            </a>
+            <a href="https://band.us/@padoro52so" target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-white transition-colors flex items-center gap-1">
+              📣 네이버 밴드
+            </a>
+          </div>
         </div>
       </section>
     </div>
