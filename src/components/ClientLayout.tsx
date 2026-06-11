@@ -4,6 +4,7 @@ import { usePathname } from "next/navigation";
 import Header from "./Header";
 import Footer from "./Footer";
 import KakaoFloat from "./KakaoFloat";
+import KakaoPopup from "./KakaoPopup";
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -25,6 +26,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
       <main className="flex-1">{children}</main>
       <Footer departure={departure} />
       <KakaoFloat />
+      {departure && <KakaoPopup departure={departure} />}
     </>
   );
 }
