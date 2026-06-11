@@ -116,8 +116,8 @@ export default function Header({ departure }: HeaderProps) {
             </div>
           </Link>
 
-          {/* 검색창 — 중앙, 최대 너비 제한 */}
-          <div className="flex-1 max-w-xs md:max-w-sm">
+          {/* 검색창 — 로고 옆부터 우측 끝까지 */}
+          <div className="flex-1">
             {/* 데스크톱 */}
             <form onSubmit={handleSearch} className="hidden md:flex items-center border-2 border-gray-200 focus-within:border-emerald-500 rounded-lg overflow-hidden transition-colors">
               <input
@@ -135,14 +135,6 @@ export default function Header({ departure }: HeaderProps) {
             </form>
           </div>
 
-          {/* SGI 배지 — 우측 끝 (데스크톱) */}
-          <div className="hidden lg:flex flex-shrink-0 items-center gap-2 border border-blue-200 bg-blue-50 rounded-lg px-3 py-2">
-            <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-black">S</div>
-            <div className="text-xs leading-tight">
-              <div className="font-bold text-blue-800">SGI 서울보증보험</div>
-              <div className="text-blue-600">가입여행사</div>
-            </div>
-          </div>
 
           {/* 모바일 아이콘 */}
           <div className="md:hidden flex items-center gap-1 flex-shrink-0">
@@ -182,6 +174,17 @@ export default function Header({ departure }: HeaderProps) {
 
             {/* 구분선 */}
             <div className="w-px h-6 bg-white/20 mx-2" />
+
+            {/* SGI 서울보증보험 배지 */}
+            <div className="flex flex-col items-center justify-center px-4 py-1">
+              <div className="flex items-center gap-1.5 bg-white/10 hover:bg-white/20 rounded px-3 py-1.5 transition-colors">
+                <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center text-blue-700 text-[11px] font-black flex-shrink-0">S</div>
+                <div className="text-xs leading-tight text-white/90">
+                  <div className="font-bold whitespace-nowrap">SGI 서울보증보험</div>
+                  <div className="text-white/70 text-[10px]">가입여행사</div>
+                </div>
+              </div>
+            </div>
 
             {/* 커뮤니티 드롭다운 */}
             <div
