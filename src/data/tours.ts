@@ -25,7 +25,8 @@ export const countries = [
   { code: "all", label: "전체" },
   { code: "japan", label: "일본" },
   { code: "china", label: "중국" },
-  { code: "malaysia", label: "코타키나발루" },
-  { code: "philippines", label: "필리핀" },
   { code: "thailand", label: "태국" },
+  { code: "vietnam", label: "베트남" },
+  { code: "malaysia", label: "말레이시아" },
+  { code: "philippines", label: "필리핀" },
 ];

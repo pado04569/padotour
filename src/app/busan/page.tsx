@@ -2,8 +2,6 @@ import Link from "next/link";
 import TourCard from "@/components/TourCard";
 import HeroSlider from "@/components/HeroSlider";
 import { tours } from "@/data/tours";
-import { reviews } from "@/data/reviews";
-import { notices } from "@/data/reviews";
 
 const slides = [
   {
@@ -44,9 +42,6 @@ export default function BusanHome() {
   const allBusanTours = tours.filter(
     (t) => t.departure === "busan" || t.departure === "both"
   );
-
-  const latestReviews = reviews.slice(0, 3);
-  const latestNotices = notices.slice(0, 3);
 
   return (
     <div>
@@ -186,76 +181,6 @@ export default function BusanHome() {
         </div>
       </section>
 
-      {/* ===== 왜 여행의 파도인가요 ===== */}
-      <section className="bg-blue-50 py-10 md:py-14">
-        <div className="max-w-5xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-black text-gray-800 mb-3">왜 여행의 파도인가요?</h2>
-          <p className="text-gray-500 text-base mb-8">골프여행 전문가이기 때문에 가능한 것들이 있습니다</p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[
-              { icon: "🏌️", title: "골프 전문 설계", desc: "코스 난이도, 그린피, 이동 동선까지\n골프에 최적화된 일정만 만듭니다" },
-              { icon: "📞", title: "1:1 맞춤 상담", desc: "대형 여행사와 달리 대표가 직접 상담합니다.\n인원·예산·선호 코스에 맞게 조율해드립니다" },
-              { icon: "💰", title: "합리적인 요금", desc: "불필요한 옵션 없이\n필요한 것만 포함한 실속 있는 가격" },
-            ].map((item) => (
-              <div key={item.title} className="bg-white rounded-2xl p-6 md:p-8 shadow-sm">
-                <div className="text-4xl mb-3">{item.icon}</div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">{item.title}</h3>
-                <p className="text-gray-600 whitespace-pre-line leading-relaxed text-sm">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ===== 최근 후기 ===== */}
-      <section className="max-w-6xl mx-auto px-4 py-10 md:py-14">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-xl md:text-2xl font-black text-gray-800">⭐ 고객 후기</h2>
-          <Link href="/reviews" className="text-blue-600 hover:text-blue-700 font-medium text-sm hidden sm:flex items-center gap-1">전체보기 →</Link>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {latestReviews.map((review) => (
-            <div key={review.id} className="bg-white rounded-2xl shadow-md p-5 border border-gray-100">
-              <div className="flex items-center gap-1 mb-3">
-                {Array.from({ length: review.rating }).map((_, i) => (
-                  <span key={i} className="text-yellow-400 text-lg">★</span>
-                ))}
-              </div>
-              <p className="text-gray-700 leading-relaxed mb-3 text-sm">"{review.comment}"</p>
-              <div className="flex items-center justify-between text-xs text-gray-400">
-                <span className="font-medium text-gray-600">{review.name}</span>
-                <span>{review.country} · {review.date}</span>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ===== 공지/이벤트 ===== */}
-      <section className="bg-gray-50 py-10 md:py-14">
-        <div className="max-w-4xl mx-auto px-4">
-          <div className="flex items-center justify-between mb-6">
-            <h2 className="text-xl md:text-2xl font-black text-gray-800">📢 공지 · 특가 이벤트</h2>
-            <Link href="/notice" className="text-blue-600 hover:text-blue-700 font-medium text-sm">전체보기 →</Link>
-          </div>
-          <div className="space-y-3">
-            {latestNotices.map((notice) => (
-              <div key={notice.id} className="bg-white rounded-xl p-4 shadow-sm flex items-start justify-between gap-3 border border-gray-100">
-                <div className="flex items-start gap-2 flex-1">
-                  {notice.isEvent && (
-                    <span className="flex-shrink-0 bg-red-100 text-red-600 text-xs font-bold px-2 py-1 rounded-md mt-0.5">이벤트</span>
-                  )}
-                  <div>
-                    <p className="font-semibold text-gray-800 text-sm">{notice.title}</p>
-                    <p className="text-gray-500 text-xs mt-0.5">{notice.content}</p>
-                  </div>
-                </div>
-                <span className="text-gray-400 text-xs flex-shrink-0">{notice.date}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
