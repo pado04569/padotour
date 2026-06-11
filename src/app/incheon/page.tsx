@@ -28,11 +28,12 @@ const slides = [
 ];
 
 const subTabs = [
-  { label: "일본 홋카이도 골프", href: "/tours?country=japan&departure=incheon" },
-  { label: "일본 후쿠오카 골프", href: "/tours?country=japan&departure=incheon" },
-  { label: "일본 마쓰야마 골프", href: "/tours?country=japan&departure=incheon" },
-  { label: "태국 방콕 골프", href: "/tours?country=thailand&departure=incheon" },
-  { label: "중국 하이난 골프", href: "/tours?country=china&departure=incheon" },
+  { label: "일본", href: "/tours?country=japan&departure=incheon" },
+  { label: "중국", href: "/tours?country=china&departure=incheon" },
+  { label: "태국", href: "/tours?country=thailand&departure=incheon" },
+  { label: "베트남", href: "/tours?country=vietnam&departure=incheon" },
+  { label: "말레이시아", href: "/tours?country=malaysia&departure=incheon" },
+  { label: "필리핀", href: "/tours?country=philippines&departure=incheon" },
 ];
 
 export default function IncheonHome() {

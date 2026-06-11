@@ -28,10 +28,12 @@ const slides = [
 ];
 
 const subTabs = [
-  { label: "일본 후쿠오카 골프", href: "/tours?country=japan&departure=busan" },
-  { label: "일본 오사카 골프", href: "/tours?country=japan&departure=busan" },
-  { label: "태국 방콕 골프", href: "/tours?country=thailand&departure=busan" },
-  { label: "중국 하이난 골프", href: "/tours?country=china&departure=busan" },
+  { label: "일본", href: "/tours?country=japan&departure=busan" },
+  { label: "중국", href: "/tours?country=china&departure=busan" },
+  { label: "태국", href: "/tours?country=thailand&departure=busan" },
+  { label: "베트남", href: "/tours?country=vietnam&departure=busan" },
+  { label: "말레이시아", href: "/tours?country=malaysia&departure=busan" },
+  { label: "필리핀", href: "/tours?country=philippines&departure=busan" },
 ];
 
 export default function BusanHome() {
