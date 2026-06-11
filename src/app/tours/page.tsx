@@ -31,26 +31,28 @@ function ToursContent() {
         </div>
       </section>
 
-      {/* 국가 탭 */}
-      <section className="bg-white border-b border-gray-200 sticky top-[73px] z-40 shadow-sm">
-        <div className="max-w-6xl mx-auto px-4 py-2.5 md:py-3">
-          <div className="flex gap-2 overflow-x-auto scrollbar-hide">
-            {countries.map((c) => (
-              <button
-                key={c.code}
-                onClick={() => setSelected(c.code)}
-                className={`flex-shrink-0 px-4 py-2 md:px-5 md:py-2.5 rounded-full font-medium text-sm md:text-base transition-colors ${
-                  selected === c.code
-                    ? "bg-emerald-600 text-white shadow-md"
-                    : "bg-gray-100 text-gray-700 hover:bg-emerald-50 hover:text-emerald-700"
-                }`}
-              >
-                {c.label}
-              </button>
-            ))}
+      {/* 국가 탭 — region이 선택된 경우 숨김 */}
+      {!regionParam && (
+        <section className="bg-white border-b border-gray-200 sticky top-[73px] z-40 shadow-sm">
+          <div className="max-w-6xl mx-auto px-4 py-2.5 md:py-3">
+            <div className="flex gap-2 overflow-x-auto scrollbar-hide">
+              {countries.map((c) => (
+                <button
+                  key={c.code}
+                  onClick={() => setSelected(c.code)}
+                  className={`flex-shrink-0 px-4 py-2 md:px-5 md:py-2.5 rounded-full font-medium text-sm md:text-base transition-colors ${
+                    selected === c.code
+                      ? "bg-emerald-600 text-white shadow-md"
+                      : "bg-gray-100 text-gray-700 hover:bg-emerald-50 hover:text-emerald-700"
+                  }`}
+                >
+                  {c.label}
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* 상품 그리드 */}
       <section className="max-w-6xl mx-auto px-4 py-8 md:py-10">
