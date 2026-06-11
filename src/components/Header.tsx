@@ -107,8 +107,8 @@ export default function Header({ departure }: HeaderProps) {
       <div className="border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-4 py-2.5 md:py-3 flex items-center gap-4">
 
-          {/* 로고 */}
-          <Link href={homeHref} className="flex items-center gap-2 flex-shrink-0">
+          {/* 로고 — 일본+중국 열 너비만큼 고정폭으로 검색창 시작점을 태국 위치로 맞춤 */}
+          <Link href={homeHref} className="flex items-center gap-2 flex-shrink-0 w-56 md:w-64">
             <Image src="/images/logo.png" alt="여행의 파도" width={44} height={44} className="rounded-full md:w-[52px] md:h-[52px]" />
             <div className="hidden sm:block">
               <div className="text-base md:text-lg font-black text-gray-800 leading-tight">여행의 파도</div>
@@ -135,6 +135,15 @@ export default function Header({ departure }: HeaderProps) {
             </form>
           </div>
 
+
+          {/* SGI 배지 — 우측 끝 (데스크톱) */}
+          <div className="hidden lg:flex flex-shrink-0 items-center gap-2 border border-blue-200 bg-blue-50 rounded-lg px-3 py-2">
+            <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-black">S</div>
+            <div className="text-xs leading-tight">
+              <div className="font-bold text-blue-800">SGI 서울보증보험</div>
+              <div className="text-blue-600">가입여행사</div>
+            </div>
+          </div>
 
           {/* 모바일 아이콘 */}
           <div className="md:hidden flex items-center gap-1 flex-shrink-0">
@@ -174,17 +183,6 @@ export default function Header({ departure }: HeaderProps) {
 
             {/* 구분선 */}
             <div className="w-px h-6 bg-white/20 mx-2" />
-
-            {/* SGI 서울보증보험 배지 */}
-            <div className="flex flex-col items-center justify-center px-4 py-1">
-              <div className="flex items-center gap-1.5 bg-white/10 hover:bg-white/20 rounded px-3 py-1.5 transition-colors">
-                <div className="w-5 h-5 bg-white rounded-full flex items-center justify-center text-blue-700 text-[11px] font-black flex-shrink-0">S</div>
-                <div className="text-xs leading-tight text-white/90">
-                  <div className="font-bold whitespace-nowrap">SGI 서울보증보험</div>
-                  <div className="text-white/70 text-[10px]">가입여행사</div>
-                </div>
-              </div>
-            </div>
 
             {/* 커뮤니티 드롭다운 */}
             <div
