@@ -136,7 +136,7 @@ export default function Header({ departure }: HeaderProps) {
 
 
           {/* SGI 배지 — 커뮤니티 열 너비에 맞춰 우측 정렬 */}
-          <div className="hidden lg:flex flex-shrink-0 w-[130px] justify-center items-center gap-2 border border-blue-200 bg-blue-50 rounded-lg px-3 py-2">
+          <div className="hidden lg:flex flex-shrink-0 w-[160px] justify-center items-center gap-2 border border-blue-200 bg-blue-50 rounded-lg px-3 py-2 ml-4">
             <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-black">S</div>
             <div className="text-xs leading-tight">
               <div className="font-bold text-blue-800">SGI 서울보증보험</div>
