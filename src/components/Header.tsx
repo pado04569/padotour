@@ -83,12 +83,6 @@ export default function Header({ departure }: HeaderProps) {
             </span>
           </div>
           <div className="hidden md:flex flex-shrink-0 items-center gap-3">
-            <Link href="/admin" className="hover:text-white transition-colors">로그인</Link>
-            <span className="text-gray-600">|</span>
-            <a href="https://pf.kakao.com/_bxoxnXxj/chat" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-              회원가입
-            </a>
-            <span className="text-gray-600">|</span>
             <a
               href="https://pf.kakao.com/_bxoxnXxj/chat"
               target="_blank"
