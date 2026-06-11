@@ -137,7 +137,7 @@ export default function Header({ departure }: HeaderProps) {
 
 
           {/* SGI 배지 — 검색창 바로 오른쪽 */}
-          <div className="hidden lg:flex flex-shrink-0 items-center gap-2 border border-blue-200 bg-blue-50 rounded-lg px-3 py-2 ml-8">
+          <div className="hidden lg:flex flex-shrink-0 w-[118px] justify-center items-center gap-2 border border-blue-200 bg-blue-50 rounded-lg px-2 py-2">
             <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-black">S</div>
             <div className="text-xs leading-tight">
               <div className="font-bold text-blue-800 whitespace-nowrap">SGI 서울보증보험</div>
@@ -185,7 +185,7 @@ export default function Header({ departure }: HeaderProps) {
               onMouseEnter={() => setCommunityOpen(true)}
               onMouseLeave={() => setCommunityOpen(false)}
             >
-              <button className="flex items-center gap-1 text-white/85 hover:text-white hover:bg-white/20 font-semibold px-5 py-3 text-sm transition-colors whitespace-nowrap">
+              <button className="flex items-center justify-center gap-1 text-white/85 hover:text-white hover:bg-white/20 font-semibold w-[118px] py-3 text-sm transition-colors whitespace-nowrap">
                 커뮤니티
                 <svg className="w-3 h-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
