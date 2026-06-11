@@ -137,7 +137,7 @@ export default function Header({ departure }: HeaderProps) {
 
 
           {/* SGI 배지 — 검색창 바로 오른쪽 */}
-          <div className="hidden lg:flex flex-shrink-0 items-center gap-2 border border-blue-200 bg-blue-50 rounded-lg px-3 py-2">
+          <div className="hidden lg:flex flex-shrink-0 items-center gap-2 border border-blue-200 bg-blue-50 rounded-lg px-3 py-2 ml-8">
             <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-black">S</div>
             <div className="text-xs leading-tight">
               <div className="font-bold text-blue-800 whitespace-nowrap">SGI 서울보증보험</div>
