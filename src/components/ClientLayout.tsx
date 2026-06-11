@@ -22,7 +22,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
 
   return (
     <>
-      <Header />
+      <Header departure={departure} />
       <main className="flex-1">{children}</main>
       <Footer departure={departure} />
       <KakaoFloat />
