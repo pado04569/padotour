@@ -105,7 +105,7 @@ export default function Header({ departure }: HeaderProps) {
 
       {/* ══ 2단: 로고(좌) + 검색창(중앙) + SGI(우) ══ */}
       <div className="border-b border-gray-100">
-        <div className="max-w-6xl mx-auto px-4 py-2.5 md:py-3 flex items-center gap-4">
+        <div className="max-w-6xl mx-auto px-3 md:px-4 py-2 md:py-3 flex items-center gap-2 md:gap-4">
 
           {/* 로고 — 일본+중국 열 너비만큼 고정폭으로 검색창 시작점을 태국 위치로 맞춤 */}
           <Link href={homeHref} className="flex items-center gap-2 flex-shrink-0 md:w-[340px]">
