@@ -10,30 +10,35 @@ type HeaderProps = {
 };
 
 const countryNavIncheon = [
-  { label: "🇯🇵 일본", href: "/tours?country=japan&departure=incheon" },
-  { label: "🇨🇳 중국", href: "/tours?country=china&departure=incheon" },
-  { label: "🇹🇭 태국", href: "/tours?country=thailand&departure=incheon" },
-  { label: "🌏 동남아", href: "/tours?country=malaysia&departure=incheon" },
-  { label: "⛳ 전체상품", href: "/tours?departure=incheon" },
+  { label: "일본", href: "/tours?country=japan&departure=incheon" },
+  { label: "중국", href: "/tours?country=china&departure=incheon" },
+  { label: "태국", href: "/tours?country=thailand&departure=incheon" },
+  { label: "동남아", href: "/tours?country=malaysia&departure=incheon" },
+  { label: "미주", href: "/tours?country=america&departure=incheon" },
+  { label: "맞춤골프", href: "/tours?departure=incheon" },
 ];
 
 const countryNavBusan = [
-  { label: "🇯🇵 일본", href: "/tours?country=japan&departure=busan" },
-  { label: "🇨🇳 중국", href: "/tours?country=china&departure=busan" },
-  { label: "🇹🇭 태국", href: "/tours?country=thailand&departure=busan" },
-  { label: "⛳ 전체상품", href: "/tours?departure=busan" },
+  { label: "일본", href: "/tours?country=japan&departure=busan" },
+  { label: "중국", href: "/tours?country=china&departure=busan" },
+  { label: "태국", href: "/tours?country=thailand&departure=busan" },
+  { label: "동남아", href: "/tours?country=malaysia&departure=busan" },
+  { label: "미주", href: "/tours?country=america&departure=busan" },
+  { label: "맞춤골프", href: "/tours?departure=busan" },
 ];
 
 const countryNavDefault = [
-  { label: "🇯🇵 일본", href: "/tours?country=japan" },
-  { label: "🇨🇳 중국", href: "/tours?country=china" },
-  { label: "🇹🇭 태국", href: "/tours?country=thailand" },
-  { label: "🌏 동남아", href: "/tours?country=malaysia" },
-  { label: "⛳ 전체상품", href: "/tours" },
+  { label: "일본", href: "/tours?country=japan" },
+  { label: "중국", href: "/tours?country=china" },
+  { label: "태국", href: "/tours?country=thailand" },
+  { label: "동남아", href: "/tours?country=malaysia" },
+  { label: "미주", href: "/tours?country=america" },
+  { label: "맞춤골프", href: "/tours" },
 ];
 
 export default function Header({ departure }: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [communityOpen, setCommunityOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchOpen, setSearchOpen] = useState(false);
   const router = useRouter();
@@ -48,15 +53,12 @@ export default function Header({ departure }: HeaderProps) {
     departure === "busan" ? "bg-blue-600" :
     "bg-gray-800";
 
-  const accentHover =
-    departure === "incheon" ? "hover:bg-emerald-500" :
-    departure === "busan" ? "hover:bg-blue-500" :
-    "hover:bg-gray-700";
-
   const homeHref =
     departure === "incheon" ? "/incheon" :
     departure === "busan" ? "/busan" :
     "/";
+
+  const depParam = departure ? `?departure=${departure}` : "";
 
   function handleSearch(e: React.FormEvent) {
     e.preventDefault();
@@ -69,19 +71,17 @@ export default function Header({ departure }: HeaderProps) {
   return (
     <header className="bg-white shadow-md sticky top-0 z-50">
 
-      {/* ══ 1단: 공지바 (모바일: 공지만 / 데스크톱: 공지+우측링크) ══ */}
+      {/* ══ 1단: 공지바 ══ */}
       <div className="bg-gray-800 text-gray-300 text-xs">
         <div className="max-w-6xl mx-auto px-4 py-1.5 flex items-center justify-between gap-2">
-          {/* 공지 텍스트 */}
           <div className="flex items-center gap-2 overflow-hidden min-w-0">
             <span className="flex-shrink-0 bg-emerald-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wide">
               NOTICE
             </span>
             <span className="truncate text-[11px] md:text-xs">
-              골프여행 전문 · 서울보증보험 가입 · 관광사업등록 제 2022-000029 호
+              🔔 여행의 파도 골프여행 전문 여행사 · 서울보증보험 가입 여행사
             </span>
           </div>
-          {/* 우측 링크 (데스크톱만) */}
           <div className="hidden md:flex flex-shrink-0 items-center gap-3">
             <Link href="/admin" className="hover:text-white transition-colors">로그인</Link>
             <span className="text-gray-600">|</span>
@@ -98,21 +98,20 @@ export default function Header({ departure }: HeaderProps) {
               예약확인
             </a>
           </div>
-          {/* 모바일 예약확인만 */}
           <a
             href="https://pf.kakao.com/_bxoxnXxj/chat"
             target="_blank"
             rel="noopener noreferrer"
-            className="md:hidden flex-shrink-0 bg-emerald-600 text-white text-[11px] font-bold px-2.5 py-1 rounded transition-colors"
+            className="md:hidden flex-shrink-0 bg-emerald-600 text-white text-[11px] font-bold px-2.5 py-1 rounded"
           >
             예약확인
           </a>
         </div>
       </div>
 
-      {/* ══ 2단: 로고 + 검색 + 서울보증보험 ══ */}
+      {/* ══ 2단: 로고(좌) + 검색창(중앙) + SGI(우) ══ */}
       <div className="border-b border-gray-100">
-        <div className="max-w-6xl mx-auto px-4 py-2.5 md:py-3 flex items-center gap-3">
+        <div className="max-w-6xl mx-auto px-4 py-2.5 md:py-3 flex items-center gap-4">
 
           {/* 로고 */}
           <Link href={homeHref} className="flex items-center gap-2 flex-shrink-0">
@@ -123,9 +122,9 @@ export default function Header({ departure }: HeaderProps) {
             </div>
           </Link>
 
-          {/* 검색창 (데스크톱: 항상 표시 / 모바일: 아이콘 눌러서 열림) */}
+          {/* 검색창 — 중앙 flex-1 */}
           <div className="flex-1">
-            {/* 데스크톱 검색 */}
+            {/* 데스크톱 */}
             <form onSubmit={handleSearch} className="hidden md:flex items-center border-2 border-gray-200 focus-within:border-emerald-500 rounded-lg overflow-hidden transition-colors">
               <input
                 type="text"
@@ -140,8 +139,7 @@ export default function Header({ departure }: HeaderProps) {
                 </svg>
               </button>
             </form>
-
-            {/* 모바일 검색 확장 */}
+            {/* 모바일 확장 검색 */}
             {searchOpen && (
               <form onSubmit={handleSearch} className="md:hidden flex items-center border-2 border-emerald-400 rounded-lg overflow-hidden">
                 <input
@@ -161,7 +159,7 @@ export default function Header({ departure }: HeaderProps) {
             )}
           </div>
 
-          {/* 서울보증보험 (데스크톱만) */}
+          {/* SGI 배지 — 우측 끝 (데스크톱) */}
           <div className="hidden lg:flex flex-shrink-0 items-center gap-2 border border-blue-200 bg-blue-50 rounded-lg px-3 py-2">
             <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-black">S</div>
             <div className="text-xs leading-tight">
@@ -170,24 +168,14 @@ export default function Header({ departure }: HeaderProps) {
             </div>
           </div>
 
-          {/* 모바일 우측 아이콘들 */}
+          {/* 모바일 아이콘 */}
           <div className="md:hidden flex items-center gap-1 flex-shrink-0">
-            {/* 검색 아이콘 */}
-            <button
-              onClick={() => setSearchOpen(!searchOpen)}
-              className="p-2 text-gray-600 hover:text-emerald-600 transition-colors"
-              aria-label="검색"
-            >
+            <button onClick={() => setSearchOpen(!searchOpen)} className="p-2 text-gray-600" aria-label="검색">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
             </button>
-            {/* 햄버거 */}
-            <button
-              onClick={() => setMenuOpen(!menuOpen)}
-              className="p-2 text-gray-700"
-              aria-label="메뉴"
-            >
+            <button onClick={() => setMenuOpen(!menuOpen)} className="p-2 text-gray-700" aria-label="메뉴">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {menuOpen
                   ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -199,34 +187,62 @@ export default function Header({ departure }: HeaderProps) {
         </div>
       </div>
 
-      {/* ══ 3단: 국가 네비게이션 (데스크톱만) ══ */}
+      {/* ══ 3단: 국가 네비 (데스크톱) — 균등 배치 ══ */}
       <div className={`${accentColor} hidden md:block`}>
         <div className="max-w-6xl mx-auto px-4">
-          <div className="flex items-center gap-1">
-            {navItems.map((item) => (
-              <Link
-                key={item.label}
-                href={item.href}
-                className="text-white/80 hover:text-white hover:bg-white/20 font-semibold px-5 py-3 text-sm transition-colors whitespace-nowrap"
-              >
-                {item.label}
-              </Link>
-            ))}
-            <div className="flex-1" />
-            <Link href="/reviews" className="text-white/80 hover:text-white hover:bg-white/20 font-semibold px-5 py-3 text-sm transition-colors">
-              ⭐ 여행후기
-            </Link>
-            <Link href="/notice" className="text-white/80 hover:text-white hover:bg-white/20 font-semibold px-5 py-3 text-sm transition-colors">
-              📢 공지/이벤트
-            </Link>
+          <div className="flex items-center justify-between">
+            {/* 국가 메뉴 — 균등 분배 */}
+            <div className="flex flex-1 items-center justify-evenly">
+              {navItems.map((item) => (
+                <Link
+                  key={item.label}
+                  href={item.href}
+                  className="text-white/85 hover:text-white hover:bg-white/20 font-semibold px-4 py-3 text-sm transition-colors whitespace-nowrap"
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+
+            {/* 구분선 */}
+            <div className="w-px h-6 bg-white/20 mx-2" />
+
+            {/* 커뮤니티 드롭다운 */}
+            <div
+              className="relative"
+              onMouseEnter={() => setCommunityOpen(true)}
+              onMouseLeave={() => setCommunityOpen(false)}
+            >
+              <button className="flex items-center gap-1 text-white/85 hover:text-white hover:bg-white/20 font-semibold px-5 py-3 text-sm transition-colors whitespace-nowrap">
+                커뮤니티
+                <svg className="w-3 h-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+              {communityOpen && (
+                <div className="absolute right-0 top-full w-36 bg-white shadow-xl rounded-b-lg overflow-hidden border border-gray-100 z-50">
+                  <Link
+                    href="/reviews"
+                    className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors border-b border-gray-100"
+                  >
+                    ⭐ 여행후기
+                  </Link>
+                  <Link
+                    href="/notice"
+                    className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors"
+                  >
+                    📢 공지/이벤트
+                  </Link>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>
 
-      {/* ══ 모바일 드롭다운 메뉴 ══ */}
+      {/* ══ 모바일 드롭다운 ══ */}
       {menuOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 shadow-lg">
-          {/* 국가 탭 그리드 */}
           <div className="grid grid-cols-3 gap-px bg-gray-100 border-b border-gray-200">
             {navItems.map((item) => (
               <Link
@@ -239,7 +255,6 @@ export default function Header({ departure }: HeaderProps) {
               </Link>
             ))}
           </div>
-          {/* 나머지 메뉴 */}
           <div className="flex flex-col">
             <Link href="/reviews" className="px-4 py-3.5 text-gray-700 font-medium text-sm border-b border-gray-100 flex items-center gap-2" onClick={() => setMenuOpen(false)}>
               ⭐ 여행후기
@@ -251,7 +266,6 @@ export default function Header({ departure }: HeaderProps) {
               💬 카카오톡 상담
             </a>
           </div>
-          {/* 하단 서울보증보험 */}
           <div className="px-4 py-3 bg-blue-50 border-t border-blue-100 flex items-center gap-2">
             <div className="w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center text-white text-[10px] font-black">S</div>
             <span className="text-xs text-blue-700 font-semibold">SGI 서울보증보험 가입여행사</span>
