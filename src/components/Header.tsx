@@ -116,19 +116,18 @@ export default function Header({ departure }: HeaderProps) {
             </div>
           </Link>
 
-          {/* 검색창 — 로고 옆부터 우측 끝까지 */}
+          {/* 검색창 — 모바일/데스크톱 모두 항상 표시 */}
           <div className="flex-1">
-            {/* 데스크톱 */}
-            <form onSubmit={handleSearch} className="hidden md:flex items-center border-2 border-gray-200 focus-within:border-emerald-500 rounded-lg overflow-hidden transition-colors">
+            <form onSubmit={handleSearch} className="flex items-center border-2 border-gray-200 focus-within:border-emerald-500 rounded-lg overflow-hidden transition-colors">
               <input
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="여행지, 골프장, 국가명으로 검색"
-                className="flex-1 px-4 py-2.5 text-sm outline-none bg-white"
+                className="flex-1 px-3 py-2 md:px-4 md:py-2.5 text-sm outline-none bg-white min-w-0"
               />
-              <button type="submit" className="px-4 py-2.5 bg-gray-50 hover:bg-emerald-50 text-gray-500 hover:text-emerald-600 transition-colors border-l border-gray-200">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <button type="submit" className="px-3 py-2 md:px-4 md:py-2.5 bg-gray-50 hover:bg-emerald-50 text-gray-500 hover:text-emerald-600 transition-colors border-l border-gray-200 flex-shrink-0">
+                <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
               </button>
@@ -145,13 +144,8 @@ export default function Header({ departure }: HeaderProps) {
             </div>
           </div>
 
-          {/* 모바일 아이콘 */}
-          <div className="md:hidden flex items-center gap-1 flex-shrink-0">
-            <button onClick={() => { setSearchOpen(!searchOpen); setMenuOpen(false); }} className="p-2 text-gray-600" aria-label="검색">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
-            </button>
+          {/* 모바일 햄버거 */}
+          <div className="md:hidden flex items-center flex-shrink-0">
             <button onClick={() => { setMenuOpen(!menuOpen); setSearchOpen(false); }} className="p-2 text-gray-700" aria-label="메뉴">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {menuOpen
