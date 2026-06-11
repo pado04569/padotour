@@ -34,7 +34,48 @@ export default function Footer({ departure }: FooterProps) {
   const d = departure ? info[departure] : info.default;
 
   return (
-    <footer className="bg-gray-800 text-gray-300 py-10 mt-16">
+    <footer className="mt-16">
+      {/* ── 예약문의 / 운영시간 상단 바 ── */}
+      <div className="bg-white border-t border-b border-gray-200">
+        <div className="max-w-6xl mx-auto px-4 py-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0 divide-y md:divide-y-0 md:divide-x divide-gray-200">
+            {/* 예약문의 */}
+            <div className="text-center pb-6 md:pb-0 md:pr-8">
+              <h3 className="text-base font-black text-gray-700 mb-3 pb-2 border-b border-gray-200">예약문의</h3>
+              <div className="space-y-1">
+                {d.phones.map((p) => (
+                  <a key={p.href} href={p.href} className="block">
+                    <span className="text-xl font-black text-gray-800 hover:text-emerald-600 transition-colors">
+                      T. {p.label}
+                    </span>
+                  </a>
+                ))}
+              </div>
+              <a
+                href="https://pf.kakao.com/_bxoxnXxj/chat"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 mt-3 border border-gray-300 hover:border-yellow-400 text-gray-600 hover:text-gray-800 text-sm px-4 py-1.5 rounded transition-colors"
+              >
+                💬 카카오톡 채널 상담
+              </a>
+            </div>
+            {/* 운영시간 */}
+            <div className="text-center pt-6 md:pt-0 md:pl-8">
+              <h3 className="text-base font-black text-gray-700 mb-3 pb-2 border-b border-gray-200">운영시간</h3>
+              <div className="space-y-1 text-sm text-gray-600">
+                <p>평일 : AM 9:00 ~ PM 6:00</p>
+                <p>토요일 : AM 9:00 ~ PM 2:00</p>
+              </div>
+              <p className="mt-2 text-xs text-gray-400 border border-gray-200 rounded px-3 py-1.5 inline-block">
+                일요일 · 공휴일은 카톡으로 문의해주세요
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div className="bg-gray-800 text-gray-300 py-10">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           {/* 여행사 정보 */}
@@ -106,6 +147,7 @@ export default function Footer({ departure }: FooterProps) {
           <p className="mt-1">골프여행 예약은 항공·숙박·골프장 상황에 따라 요금이 변동될 수 있습니다.</p>
         </div>
       </div>
+    </div>
     </footer>
   );
 }
