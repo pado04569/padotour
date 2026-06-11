@@ -108,7 +108,7 @@ export default function Header({ departure }: HeaderProps) {
         <div className="max-w-6xl mx-auto px-4 py-2.5 md:py-3 flex items-center gap-4">
 
           {/* 로고 — 일본+중국 열 너비만큼 고정폭으로 검색창 시작점을 태국 위치로 맞춤 */}
-          <Link href={homeHref} className="flex items-center gap-2 flex-shrink-0 w-56 md:w-64">
+          <Link href={homeHref} className="flex items-center gap-2 flex-shrink-0 w-40 md:w-[340px]">
             <Image src="/images/logo.png" alt="여행의 파도" width={44} height={44} className="rounded-full md:w-[52px] md:h-[52px]" />
             <div className="hidden sm:block">
               <div className="text-base md:text-lg font-black text-gray-800 leading-tight">여행의 파도</div>
