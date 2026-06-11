@@ -8,9 +8,16 @@ import { useSearchParams } from "next/navigation";
 function ToursContent() {
   const searchParams = useSearchParams();
   const initialCountry = searchParams.get("country") || "all";
+  const regionParam = searchParams.get("region") || "";
   const [selected, setSelected] = useState(initialCountry);
 
-  const filtered = selected === "all" ? tours : tours.filter((t) => t.countryCode === selected);
+  const filtered = (() => {
+    let result = selected === "all" ? tours : tours.filter((t) => t.countryCode === selected);
+    if (regionParam) {
+      result = result.filter((t) => t.region && t.region.includes(regionParam));
+    }
+    return result;
+  })();
 
   return (
     <div>
@@ -18,7 +25,9 @@ function ToursContent() {
       <section className="bg-gradient-to-r from-emerald-700 to-emerald-500 text-white py-10 md:py-12">
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">⛳ 골프여행 상품</h1>
-          <p className="text-emerald-100 text-sm md:text-lg">일본·중국·동남아 골프여행 전문 패키지</p>
+          <p className="text-emerald-100 text-sm md:text-lg">
+            {regionParam ? `${regionParam} 골프여행 패키지` : "일본·중국·동남아 골프여행 전문 패키지"}
+          </p>
         </div>
       </section>
 
