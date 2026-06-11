@@ -13,27 +13,30 @@ const countryNavIncheon = [
   { label: "일본", href: "/tours?country=japan&departure=incheon" },
   { label: "중국", href: "/tours?country=china&departure=incheon" },
   { label: "태국", href: "/tours?country=thailand&departure=incheon" },
-  { label: "동남아", href: "/tours?country=malaysia&departure=incheon" },
-  { label: "미주", href: "/tours?country=america&departure=incheon" },
-  { label: "맞춤골프", href: "/tours?departure=incheon" },
+  { label: "베트남", href: "/tours?country=vietnam&departure=incheon" },
+  { label: "말레이시아", href: "/tours?country=malaysia&departure=incheon" },
+  { label: "필리핀", href: "/tours?country=philippines&departure=incheon" },
+  { label: "기타", href: "/tours?departure=incheon" },
 ];
 
 const countryNavBusan = [
   { label: "일본", href: "/tours?country=japan&departure=busan" },
   { label: "중국", href: "/tours?country=china&departure=busan" },
   { label: "태국", href: "/tours?country=thailand&departure=busan" },
-  { label: "동남아", href: "/tours?country=malaysia&departure=busan" },
-  { label: "미주", href: "/tours?country=america&departure=busan" },
-  { label: "맞춤골프", href: "/tours?departure=busan" },
+  { label: "베트남", href: "/tours?country=vietnam&departure=busan" },
+  { label: "말레이시아", href: "/tours?country=malaysia&departure=busan" },
+  { label: "필리핀", href: "/tours?country=philippines&departure=busan" },
+  { label: "기타", href: "/tours?departure=busan" },
 ];
 
 const countryNavDefault = [
   { label: "일본", href: "/tours?country=japan" },
   { label: "중국", href: "/tours?country=china" },
   { label: "태국", href: "/tours?country=thailand" },
-  { label: "동남아", href: "/tours?country=malaysia" },
-  { label: "미주", href: "/tours?country=america" },
-  { label: "맞춤골프", href: "/tours" },
+  { label: "베트남", href: "/tours?country=vietnam" },
+  { label: "말레이시아", href: "/tours?country=malaysia" },
+  { label: "필리핀", href: "/tours?country=philippines" },
+  { label: "기타", href: "/tours" },
 ];
 
 export default function Header({ departure }: HeaderProps) {
