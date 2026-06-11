@@ -37,7 +37,7 @@ export default function HeroSlider({ slides, departure }: Props) {
   const accentBg = departure === "busan" ? "bg-blue-500" : "bg-emerald-500";
 
   return (
-    <div className="relative w-full overflow-hidden" style={{ height: "420px" }}>
+    <div className="relative w-full overflow-hidden" style={{ height: "clamp(260px, 55vw, 460px)" }}>
       {/* 배경 이미지 */}
       {slides.map((s, i) => (
         <div
@@ -64,10 +64,10 @@ export default function HeroSlider({ slides, departure }: Props) {
           <div className="w-16 md:w-24 h-px bg-white/50" />
         </div>
 
-        <h2 className="text-4xl md:text-6xl font-black tracking-wider mb-3 drop-shadow-lg">
+        <h2 className="text-3xl md:text-6xl font-black tracking-wider mb-2 md:mb-3 drop-shadow-lg">
           {slide.regionEn}
         </h2>
-        <p className="text-lg md:text-xl text-white/90 mb-6 drop-shadow">{slide.tagline}</p>
+        <p className="text-sm md:text-xl text-white/90 mb-5 md:mb-6 drop-shadow px-4">{slide.tagline}</p>
         <Link
           href={slide.href}
           className={`${accentBg} hover:opacity-90 text-white font-bold px-8 py-3 rounded-full text-base transition-opacity shadow-lg`}
