@@ -101,7 +101,6 @@ export default function IncheonHome() {
                     src={tour.image || "/images/golf-main.jpg"}
                     alt={tour.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    onError={(e) => { (e.target as HTMLImageElement).src = "/images/golf-main.jpg"; }}
                   />
                 </div>
                 <div className="p-3">
