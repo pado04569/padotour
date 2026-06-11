@@ -55,14 +55,6 @@ export default function IncheonHome() {
 
   return (
     <div>
-      {/* ===== 출발지 배너 ===== */}
-      <div className="bg-emerald-600 text-white text-center py-2 text-xs md:text-sm font-semibold tracking-wide">
-        ✈️ 인천공항 출발 골프여행 전문 &nbsp;|&nbsp;
-        <Link href="/" className="underline hover:text-emerald-200 transition-colors">
-          출발지 변경
-        </Link>
-      </div>
-
       {/* ===== 히어로 슬라이더 ===== */}
       <HeroSlider slides={slides} departure="incheon" />
 
