@@ -135,14 +135,6 @@ export default function Header({ departure }: HeaderProps) {
           </div>
 
 
-          {/* SGI 배지 — 커뮤니티 열 너비에 맞춰 우측 정렬 */}
-          <div className="hidden lg:flex flex-shrink-0 w-[160px] justify-center items-center gap-2 border border-blue-200 bg-blue-50 rounded-lg px-3 py-2 ml-4">
-            <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-black">S</div>
-            <div className="text-xs leading-tight">
-              <div className="font-bold text-blue-800">SGI 서울보증보험</div>
-              <div className="text-blue-600">가입여행사</div>
-            </div>
-          </div>
 
           {/* 모바일 햄버거 */}
           <div className="md:hidden flex items-center flex-shrink-0">
@@ -178,13 +170,21 @@ export default function Header({ departure }: HeaderProps) {
             {/* 구분선 */}
             <div className="w-px h-6 bg-white/20 mx-2" />
 
-            {/* 커뮤니티 드롭다운 */}
+            {/* SGI + 커뮤니티 세로 묶음 */}
             <div
-              className="relative"
+              className="relative flex flex-col items-center"
               onMouseEnter={() => setCommunityOpen(true)}
               onMouseLeave={() => setCommunityOpen(false)}
             >
-              <button className="flex items-center gap-1 text-white/85 hover:text-white hover:bg-white/20 font-semibold px-5 py-3 text-sm transition-colors whitespace-nowrap">
+              {/* SGI 배지 — 커뮤니티 바로 위 */}
+              <div className="hidden lg:flex items-center gap-1.5 border border-blue-300 bg-blue-50 rounded-md px-3 py-1 mb-0.5 w-full justify-center">
+                <div className="w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center text-white text-[11px] font-black flex-shrink-0">S</div>
+                <div className="text-[11px] leading-tight whitespace-nowrap">
+                  <div className="font-bold text-blue-800">SGI 서울보증보험</div>
+                  <div className="text-blue-500 text-[10px]">가입여행사</div>
+                </div>
+              </div>
+              <button className="flex items-center gap-1 text-white/85 hover:text-white hover:bg-white/20 font-semibold px-5 py-3 text-sm transition-colors whitespace-nowrap w-full justify-center">
                 커뮤니티
                 <svg className="w-3 h-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
