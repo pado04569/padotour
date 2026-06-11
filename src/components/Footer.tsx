@@ -93,7 +93,7 @@ export default function Footer({ departure }: FooterProps) {
                 </span>
               )}
             </div>
-            <p className="text-sm text-gray-400 mb-4">골프여행 전문 여행사</p>
+            <p className="text-sm text-gray-400 mb-4">골프전문 여행사</p>
             <div className="space-y-1 text-sm">
               <p>상호명: 여행의 파도</p>
               <p>대표: 이지안</p>
