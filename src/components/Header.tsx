@@ -117,7 +117,7 @@ export default function Header({ departure }: HeaderProps) {
           </Link>
 
           {/* 검색창 — 모바일/데스크톱 모두 항상 표시 */}
-          <div className="flex-1">
+          <div className="flex-1 min-w-0">
             <form onSubmit={handleSearch} className="flex items-center border-2 border-gray-200 focus-within:border-emerald-500 rounded-lg overflow-hidden transition-colors">
               <input
                 type="text"
