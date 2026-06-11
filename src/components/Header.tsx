@@ -112,12 +112,12 @@ export default function Header({ departure }: HeaderProps) {
             <Image src="/images/logo.png" alt="여행의 파도" width={44} height={44} className="rounded-full md:w-[52px] md:h-[52px]" />
             <div className="hidden sm:block">
               <div className="text-base md:text-lg font-black text-gray-800 leading-tight">여행의 파도</div>
-              <div className="text-[11px] text-gray-500">골프전문 여행사</div>
+              <div className="text-[11px] text-gray-500">골프전문여행사</div>
             </div>
           </Link>
 
-          {/* 검색창 — 중앙 flex-1 */}
-          <div className="flex-1">
+          {/* 검색창 — 중앙, 최대 너비 제한 */}
+          <div className="flex-1 max-w-xs md:max-w-sm">
             {/* 데스크톱 */}
             <form onSubmit={handleSearch} className="hidden md:flex items-center border-2 border-gray-200 focus-within:border-emerald-500 rounded-lg overflow-hidden transition-colors">
               <input
