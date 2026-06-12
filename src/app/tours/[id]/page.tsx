@@ -132,7 +132,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                 {tour.courseImages.map((img, i) => (
                   <div key={i} className="overflow-hidden rounded-xl aspect-[4/3] bg-gray-100">
-                    <img src={img} alt={`${tour.golfCourse} ${i + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                    <img src={img} alt={`${tour.golfCourse} ${i + 1}`} className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
                 ))}
               </div>
