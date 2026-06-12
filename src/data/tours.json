@@ -1,5 +1,57 @@
 [
   {
+    "id": "japan-beppu-kamenoi",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "후쿠오카",
+    "title": "벳부 카메노이호텔 & 벳부골프클럽",
+    "subtitle": "노천온천과 2색 굿 샷! 라운딩",
+    "nights": 3,
+    "days": 4,
+    "courses": 2,
+    "roundsIncluded": 3,
+    "holes": 54,
+    "minPeople": 4,
+    "period": "2월 17일 ~ 10월 28일 출발",
+    "hotel": "벳부 카메노이호텔",
+    "hotelDesc": "벳부역 도보 3분 · 노천온천 · 대욕장 · 조식뷔페",
+    "golfCourse": "벳부골프클럽 (유후코스 & 쯔루미코스)",
+    "golfCourseDesc": "36홀 · 규슈 산맥 뷰 · 최고의 코스 컨디션",
+    "schedule": [
+      { "day": "1일차", "label": "인천→기타큐슈", "desc": "인천공항 LJ349 15:45 출발 → 기타큐슈공항 17:15 도착 → 호텔 체크인 → 온천욕" },
+      { "day": "2~3일차", "label": "라운딩", "desc": "조식 → 벳부GC 18홀 라운딩 → 노천 온천욕" },
+      { "day": "4일차", "label": "기타큐슈→인천", "desc": "조식 → 체크아웃 → 벳부GC 18홀 라운딩 → LJ350 18:15 출발 → 19:40 인천공항 도착" }
+    ],
+    "highlights": ["벳부역 도보 3분 카메노이호텔", "유후코스&쯔루미코스 54홀", "노천온천 매일 입욕 포함", "기타큐슈 직항 (인천↔기타큐슈 1시간 30분)"],
+    "includes": ["왕복 항공", "공항세·유류세", "호텔 3박·조식", "그린피·카트비", "공항/호텔-골프장 셔틀", "입욕료"],
+    "excludes": ["중식·석식", "현지케어 1인 8천엔(사전지불)", "개인 경비"],
+    "cancelPolicy": [
+      "예약 후: 12만원",
+      "출발 30일 전: 15%",
+      "출발 21일 전: 25%",
+      "출발 14일 전: 35%",
+      "출발 10일 전: 40%",
+      "출발 7일 전: 50%",
+      "출발 4일 전: 70%",
+      "출발 3일 전: 80%",
+      "출발 2일 전~: 100%"
+    ],
+    "price": "88.9만원부터",
+    "image": "/images/beppu/course-1.jpg",
+    "images": [
+      "/images/beppu/course-1.jpg",
+      "/images/beppu/course-2.jpg",
+      "/images/beppu/course-3.jpg",
+      "/images/beppu/hotel-exterior.jpg",
+      "/images/beppu/hotel-room.jpg",
+      "/images/beppu/onsen-outdoor.jpg",
+      "/images/beppu/onsen-indoor.jpg",
+      "/images/beppu/breakfast.jpg"
+    ],
+    "badge": "인기",
+    "departure": "incheon"
+  },
+  {
     "id": "japan-fukuoka",
     "country": "일본",
     "countryCode": "japan",
