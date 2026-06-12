@@ -28,7 +28,7 @@ export default function ContactOptions() {
             </div>
           </a>
           <a
-            href="https://pf.kakao.com/_bxoxnXxj/chat"
+            href="https://open.kakao.com/me/pado-tour"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 px-5 py-4 hover:bg-yellow-50 transition-colors border-b border-gray-100"
