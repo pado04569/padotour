@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { tours } from "@/data/tours";
 import { notFound } from "next/navigation";
+import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
 
 export async function generateStaticParams() {
   return tours.map((t) => ({ id: t.id }));
@@ -60,22 +61,33 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           ))}
         </div>
 
-        {/* ── 가격 + 예약 CTA ── */}
-        <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div>
-            <p className="text-sm text-gray-500 mb-0.5">인천출발 기준</p>
-            <p className="text-3xl md:text-4xl font-black text-emerald-700">{tour.price}</p>
-            <p className="text-xs text-gray-400 mt-1">※ 출발일에 따라 요금이 상이합니다</p>
+        {/* ── 출발일 캘린더 + 요금 ── */}
+        {tour.departurePrices && tour.departurePrices.length > 0 ? (
+          <div className="mb-8">
+            <DeparturePriceCalendar
+              departurePrices={tour.departurePrices}
+              nights={tour.nights}
+              days={tour.days}
+            />
           </div>
-          <a
-            href="https://pf.kakao.com/_bxoxnXxj/chat"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full md:w-auto bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-black px-8 py-4 rounded-full text-lg text-center transition-colors"
-          >
-            💬 카카오톡 예약 문의
-          </a>
-        </div>
+        ) : (
+          /* ── 가격 + 예약 CTA (출발일 데이터 없을 때) ── */
+          <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div>
+              <p className="text-sm text-gray-500 mb-0.5">인천출발 기준</p>
+              <p className="text-3xl md:text-4xl font-black text-emerald-700">{tour.price}</p>
+              <p className="text-xs text-gray-400 mt-1">※ 출발일에 따라 요금이 상이합니다</p>
+            </div>
+            <a
+              href="https://pf.kakao.com/_bxoxnXxj/chat"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full md:w-auto bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-black px-8 py-4 rounded-full text-lg text-center transition-colors"
+            >
+              💬 카카오톡 예약 문의
+            </a>
+          </div>
+        )}
 
         {/* ── 이미지 갤러리 ── */}
         {allImages.length > 1 && (
