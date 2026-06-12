@@ -12,7 +12,7 @@
     "roundsIncluded": 3,
     "holes": 54,
     "minPeople": 4,
-    "period": "2월 17일 ~ 10월 28일 출발",
+    "period": "6월 1일 ~ 10월 28일 출발",
     "hotel": "벳부 카메노이호텔",
     "hotelDesc": "벳부역 도보 3분 · 노천온천 · 대욕장 · 조식뷔페",
     "golfCourse": "벳부골프클럽 (유후코스 & 쯔루미코스)",
@@ -467,7 +467,21 @@
       }
     ],
     "badge": "인기",
-    "departure": "incheon"
+    "departure": "incheon",
+    "hotelImages": [
+      "/images/beppu/hotel-exterior.jpg",
+      "/images/beppu/hotel-room.jpg",
+      "/images/beppu/onsen-indoor.jpg",
+      "/images/beppu/onsen-outdoor.jpg",
+      "/images/beppu/breakfast.jpg"
+    ],
+    "courseImages": [
+      "/images/beppu/course-main.jpg",
+      "/images/beppu/course-1.jpg",
+      "/images/beppu/course-2.jpg",
+      "/images/beppu/course-3.jpg",
+      "/images/beppu/course-4.jpg"
+    ]
   },
   {
     "id": "japan-fukuoka",

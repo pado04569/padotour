@@ -2,6 +2,7 @@ import Link from "next/link";
 import { tours } from "@/data/tours";
 import { notFound } from "next/navigation";
 import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
+import ContactOptions from "@/components/ContactOptions";
 
 export async function generateStaticParams() {
   return tours.map((t) => ({ id: t.id }));
@@ -13,10 +14,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   if (!tour) notFound();
 
   const dep = tour.departure === "incheon" ? "incheon" : tour.departure === "busan" ? "busan" : undefined;
-  const accentColor = dep === "busan" ? "emerald" : "emerald";
   const backHref = dep ? `/${dep}` : "/";
-
-  const allImages = tour.images && tour.images.length > 0 ? tour.images : [tour.image];
+  const heroImage = tour.images && tour.images.length > 0 ? tour.images[0] : tour.image;
 
   return (
     <div className="bg-white">
@@ -24,10 +23,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
       {/* ── 히어로 이미지 ── */}
       <div className="relative w-full h-64 md:h-96 bg-gray-200 overflow-hidden">
         <img
-          src={allImages[0]}
+          src={heroImage}
           alt={tour.title}
           className="w-full h-full object-cover"
-          onError={undefined}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-5 md:p-8 text-white">
@@ -61,6 +59,15 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           ))}
         </div>
 
+        {/* ── 상품 요약 박스 ── */}
+        <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8">
+          <p className="text-xs text-gray-500 mb-1">상품 구성</p>
+          <p className="text-xl md:text-2xl font-black text-emerald-800 leading-snug">
+            벳부cc &nbsp;{tour.roundsIncluded}회 라운딩 &nbsp;·&nbsp; 카메노이 호텔 숙박
+          </p>
+          {tour.subtitle && <p className="text-sm text-gray-600 mt-1.5">{tour.subtitle}</p>}
+        </div>
+
         {/* ── 출발일 캘린더 + 요금 ── */}
         {tour.departurePrices && tour.departurePrices.length > 0 ? (
           <div className="mb-8">
@@ -71,34 +78,11 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             />
           </div>
         ) : (
-          /* ── 가격 + 예약 CTA (출발일 데이터 없을 때) ── */
           <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8 flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
               <p className="text-sm text-gray-500 mb-0.5">인천출발 기준</p>
               <p className="text-3xl md:text-4xl font-black text-emerald-700">{tour.price}</p>
               <p className="text-xs text-gray-400 mt-1">※ 출발일에 따라 요금이 상이합니다</p>
-            </div>
-            <a
-              href="https://pf.kakao.com/_bxoxnXxj/chat"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full md:w-auto bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-black px-8 py-4 rounded-full text-lg text-center transition-colors"
-            >
-              💬 카카오톡 예약 문의
-            </a>
-          </div>
-        )}
-
-        {/* ── 이미지 갤러리 ── */}
-        {allImages.length > 1 && (
-          <div className="mb-8">
-            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📸 여행 갤러리</h2>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
-              {allImages.slice(1).map((img, i) => (
-                <div key={i} className="overflow-hidden rounded-xl aspect-[4/3] bg-gray-100">
-                  <img src={img} alt={`${tour.title} ${i + 2}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
-              ))}
             </div>
           </div>
         )}
@@ -116,43 +100,43 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           </div>
         </div>
 
-        {/* ── 여행 일정 ── */}
-        {tour.schedule && tour.schedule.length > 0 && (
-          <div className="mb-8">
-            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📋 여행 일정</h2>
-            <div className="space-y-3">
-              {tour.schedule.map((s, i) => (
-                <div key={i} className="flex gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
-                  <div className="flex-shrink-0 text-center">
-                    <div className="bg-emerald-600 text-white text-xs font-black px-2 py-1 rounded-lg whitespace-nowrap">{s.day}</div>
-                    <div className="text-xs text-emerald-600 font-semibold mt-1 whitespace-nowrap">{s.label}</div>
-                  </div>
-                  <div className="text-sm text-gray-700 leading-relaxed pt-0.5">{s.desc}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* ── 호텔 정보 ── */}
+        {/* ── 호텔 정보 + 사진 ── */}
         {tour.hotel && (
           <div className="mb-8">
             <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">🏨 숙박 호텔</h2>
-            <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100">
+            <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100 mb-3">
               <div className="font-black text-gray-800 text-base mb-1">{tour.hotel}</div>
               <div className="text-sm text-gray-600">{tour.hotelDesc}</div>
             </div>
+            {tour.hotelImages && tour.hotelImages.length > 0 && (
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+                {tour.hotelImages.map((img, i) => (
+                  <div key={i} className="overflow-hidden rounded-xl aspect-[4/3] bg-gray-100">
+                    <img src={img} alt={`${tour.hotel} ${i + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         )}
 
-        {/* ── 골프장 정보 ── */}
+        {/* ── 골프장 정보 + 사진 ── */}
         {tour.golfCourse && (
           <div className="mb-8">
             <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">⛳ 골프장 정보</h2>
-            <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100">
+            <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100 mb-3">
               <div className="font-black text-gray-800 text-base mb-1">{tour.golfCourse}</div>
               <div className="text-sm text-gray-600">{tour.golfCourseDesc}</div>
             </div>
+            {tour.courseImages && tour.courseImages.length > 0 && (
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+                {tour.courseImages.map((img, i) => (
+                  <div key={i} className="overflow-hidden rounded-xl aspect-[4/3] bg-gray-100">
+                    <img src={img} alt={`${tour.golfCourse} ${i + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         )}
 
@@ -184,6 +168,24 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           </div>
         </div>
 
+        {/* ── 여행 일정 ── */}
+        {tour.schedule && tour.schedule.length > 0 && (
+          <div className="mb-8">
+            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📋 여행 일정</h2>
+            <div className="space-y-3">
+              {tour.schedule.map((s, i) => (
+                <div key={i} className="flex gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
+                  <div className="flex-shrink-0 text-center">
+                    <div className="bg-emerald-600 text-white text-xs font-black px-2 py-1 rounded-lg whitespace-nowrap">{s.day}</div>
+                    <div className="text-xs text-emerald-600 font-semibold mt-1 whitespace-nowrap">{s.label}</div>
+                  </div>
+                  <div className="text-sm text-gray-700 leading-relaxed pt-0.5">{s.desc}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* ── 취소/환불 규정 ── */}
         {tour.cancelPolicy && tour.cancelPolicy.length > 0 && (
           <div className="mb-8">
@@ -201,26 +203,11 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           </div>
         )}
 
-        {/* ── 하단 CTA ── */}
-        <div className="bg-gray-800 rounded-2xl p-6 md:p-8 text-center text-white mb-8">
-          <h3 className="text-xl font-black mb-2">예약 문의 · 맞춤 견적</h3>
+        {/* ── 예약 문의 · 맞춤 견적 ── */}
+        <div className="bg-gray-800 rounded-2xl p-6 md:p-8 text-white mb-8">
+          <h3 className="text-xl font-black mb-1">예약 문의 · 맞춤 견적</h3>
           <p className="text-gray-300 text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a
-              href="https://pf.kakao.com/_bxoxnXxj/chat"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-black px-8 py-3.5 rounded-full text-base transition-colors"
-            >
-              💬 카카오톡 상담
-            </a>
-            <a
-              href="tel:01053015250"
-              className="bg-white/10 hover:bg-white/20 text-white font-bold px-8 py-3.5 rounded-full text-base transition-colors border border-white/20"
-            >
-              📞 010-5301-5250
-            </a>
-          </div>
+          <ContactOptions />
         </div>
 
         {/* ── 뒤로가기 ── */}

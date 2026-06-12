@@ -23,9 +23,12 @@ export type Tour = {
   includes: string[];
   excludes: string[];
   cancelPolicy?: string[];
+  departurePrices?: { date: string; price: number }[];
   price: string;
   image: string;
   images?: string[];
+  hotelImages?: string[];
+  courseImages?: string[];
   badge?: string;
   departure: "incheon" | "busan" | "both";
 };
