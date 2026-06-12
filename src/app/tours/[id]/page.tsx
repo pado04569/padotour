@@ -6,8 +6,9 @@ export async function generateStaticParams() {
   return tours.map((t) => ({ id: t.id }));
 }
 
-export default function TourDetailPage({ params }: { params: { id: string } }) {
-  const tour = tours.find((t) => t.id === params.id);
+export default async function TourDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const tour = tours.find((t) => t.id === id);
   if (!tour) notFound();
 
   const dep = tour.departure === "incheon" ? "incheon" : tour.departure === "busan" ? "busan" : undefined;
