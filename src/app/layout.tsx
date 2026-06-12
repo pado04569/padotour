@@ -22,6 +22,12 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap"
           rel="stylesheet"
         />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#0f5fa6" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="여행의 파도" />
+        <link rel="apple-touch-icon" href="/images/logo.png" />
       </head>
       <body className="min-h-screen flex flex-col antialiased">
         <ClientLayout>{children}</ClientLayout>

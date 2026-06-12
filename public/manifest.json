@@ -1,0 +1,22 @@
+{
+  "name": "여행의 파도 | 골프여행 전문",
+  "short_name": "여행의 파도",
+  "description": "일본, 태국, 베트남, 필리핀 골프여행 전문 여행사",
+  "start_url": "/incheon",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f5fa6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
