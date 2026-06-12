@@ -176,7 +176,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               {tour.schedule.map((s, i) => (
                 <div key={i} className="flex gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
                   <div className="flex-shrink-0 text-center">
-                    <div className="bg-emerald-600 text-white text-xs font-black px-2 py-1 rounded-lg whitespace-nowrap">{s.day}</div>
+                    <div className="bg-emerald-600 text-white text-xs font-black px-2 py-1 rounded-lg whitespace-nowrap min-w-[56px] text-center">{s.day}</div>
                     <div className="text-xs text-emerald-600 font-semibold mt-1 whitespace-nowrap">{s.label}</div>
                   </div>
                   <div className="text-sm text-gray-700 leading-relaxed pt-0.5">{s.desc}</div>
