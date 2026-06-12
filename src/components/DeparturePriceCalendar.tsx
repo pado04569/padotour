@@ -11,7 +11,7 @@ type Props = {
 };
 
 function formatPrice(p: number) {
-  return (p / 10000).toFixed(1) + "만원";
+  return p.toLocaleString("ko-KR") + "원";
 }
 
 
