@@ -32,19 +32,14 @@ export default function ContactOptions() {
             </div>
           </a>
 
-          {/* 카카오톡 1:1 채팅 */}
-          <a
-            href="https://open.kakao.com/me/pado-tour"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-4 px-5 py-4 hover:bg-yellow-50 transition-colors border-b border-gray-100"
-          >
+          {/* 카카오톡 ID */}
+          <div className="flex items-center gap-4 px-5 py-4 border-b border-gray-100">
             <div className="w-10 h-10 bg-yellow-100 rounded-full flex items-center justify-center text-xl flex-shrink-0">💬</div>
             <div>
-              <div className="font-black text-gray-800 text-sm">카카오톡 1:1 채팅</div>
-              <div className="text-yellow-600 font-bold text-sm">ID: pado-tour &nbsp;→</div>
+              <div className="font-black text-gray-800 text-sm">카카오톡 ID</div>
+              <div className="text-gray-800 font-bold text-base">pado-tour</div>
             </div>
-          </a>
+          </div>
 
           {/* QR코드로 추가 */}
           <button
