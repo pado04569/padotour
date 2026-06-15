@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import nodemailer from "nodemailer";
+import { Resend } from "resend";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: NextRequest) {
   const { tourTitle, departureDate, nights, days, people, phone } = await req.json();
@@ -8,20 +10,10 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "필수 항목 누락" }, { status: 400 });
   }
 
-  const transporter = nodemailer.createTransport({
-    host: "smtp.naver.com",
-    port: 465,
-    secure: true,
-    auth: {
-      user: process.env.NAVER_EMAIL,
-      pass: process.env.NAVER_PASSWORD,
-    },
-  });
+  const formattedDate = departureDate.replace(/(\d{4})-(\d{2})-(\d{2})/, "$1년 $2월 $3일");
 
-  const formattedDate = departureDate.replace(/-/g, ".").replace(/(\d{4})\.(\d{2})\.(\d{2})/, "$1년 $2월 $3일");
-
-  await transporter.sendMail({
-    from: `"여행의 파도 예약문의" <${process.env.NAVER_EMAIL}>`,
+  const { error } = await resend.emails.send({
+    from: "여행의 파도 예약문의 <onboarding@resend.dev>",
     to: "pado-tour-@naver.com",
     subject: `[예약문의] ${tourTitle} - ${formattedDate} 출발`,
     html: `
@@ -56,6 +48,11 @@ export async function POST(req: NextRequest) {
       </div>
     `,
   });
+
+  if (error) {
+    console.error("Resend error:", error);
+    return NextResponse.json({ error: "이메일 전송 실패" }, { status: 500 });
+  }
 
   return NextResponse.json({ ok: true });
 }
