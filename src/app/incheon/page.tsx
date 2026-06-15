@@ -37,9 +37,11 @@ const subTabs = [
 ];
 
 export default function IncheonHome() {
-  const monthlyTours = tours
-    .filter((t) => t.departure === "incheon" || t.departure === "both")
-    .slice(0, 4);
+  const featuredIds = ["japan-beppu-kamenoi", "japan-oita-pacific", "japan-tokyo-itako"];
+  const monthlyTours = [
+    ...tours.filter((t) => featuredIds.includes(t.id)),
+    ...tours.filter((t) => !featuredIds.includes(t.id) && (t.departure === "incheon" || t.departure === "both")),
+  ].slice(0, 4);
 
   const japanTours = tours
     .filter((t) => (t.departure === "incheon" || t.departure === "both") && t.countryCode === "japan")

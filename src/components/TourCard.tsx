@@ -1,8 +1,10 @@
 import { Tour } from "@/data/tours";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function TourCard({ tour }: { tour: Tour }) {
   return (
+    <Link href={`/tours/${tour.id}`} className="block">
     <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden group">
       {/* 이미지 영역 */}
       <div className="relative h-52 bg-emerald-100 overflow-hidden">
@@ -62,5 +64,6 @@ export default function TourCard({ tour }: { tour: Tour }) {
         </div>
       </div>
     </div>
+    </Link>
   );
 }
