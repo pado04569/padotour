@@ -1,5 +1,183 @@
 [
   {
+    "id": "japan-oita-pacific",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "후쿠오카",
+    "title": "오이타 퍼시픽블루 골프 & 리조트",
+    "subtitle": "제주항공 직항 · 오이타 IN/OUT · 4인 팀단위 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": 72,
+    "minPeople": 4,
+    "period": "2026년 6월 23일 ~ 9월 10일",
+    "hotel": "퍼시픽블루 리조트",
+    "hotelDesc": "골프장 내 숙박 리조트 · 실내 온천 · 클럽하우스 레스토랑 · 일식 다이닝 · 녹음 가득한 자연 속 힐링",
+    "golfCourse": "퍼시픽 블루CC (18홀)",
+    "golfCourseDesc": "오이타 바다 전망의 명문 코스 18홀 · 체류일 매일 9홀 추가 서비스 · 셀프 승용카트 라운드 · 티업시간 배정 없이 자유롭게 플레이",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "출발일",
+        "desc": "인천국제공항 10:00 출발(7C1811) → 오이타 공항 11:45 도착 → 현지인 기사 미팅 후 퍼시픽블루CC 이동 → 퍼시픽 블루CC 18홀 스루 플레이(일몰게임) → 라운드 후 호텔 체크인 → 석식 후 투숙 및 휴식"
+      },
+      {
+        "day": "2~3일차",
+        "label": "체류일",
+        "desc": "클럽조식 → 퍼시픽 블루CC 18홀 라운드 + 9홀 서비스(셀프 승용카트, 티업시간 배정 없음) → 라운드 후 자유시간 및 휴식 → 석식 후 투숙\n※ 3박4일: 체류일 2회 / 4박5일: 체류일 3회 / 5박6일: 체류일 4회 진행"
+      },
+      {
+        "day": "귀국일",
+        "label": "귀국일",
+        "desc": "체크아웃 후 클럽조식 → 공항 이동차량 탑승(정시출발 10:00) → 오이타 공항 12:45 출발(7C1812) → 인천국제공항 15:10 도착"
+      }
+    ],
+    "highlights": [
+      "제주항공 직항 오이타 IN/OUT - 빠르고 편리한 이동",
+      "1일차 도착 당일 바로 18홀 라운드 (일몰게임)",
+      "체류일 매일 18홀 + 9홀 추가 서비스",
+      "셀프 승용카트로 자유롭게 나만의 페이스 라운드",
+      "리조트 내 실내 온천 포함",
+      "3박4일 / 4박5일 / 5박6일 일정 선택 가능"
+    ],
+    "includes": [
+      "왕복 항공권 (수하물 20kg 포함)",
+      "호텔 숙박 (2인1실 기준)",
+      "조식 · 석식",
+      "골프 그린피 (체류일 9홀 서비스 포함)",
+      "카트비",
+      "공항 송영 차량",
+      "여행자보험"
+    ],
+    "excludes": [
+      "중식"
+    ],
+    "cancelPolicy": [],
+    "departurePrices": [
+      {
+        "date": "2026-06-23",
+        "price": 1299000
+      },
+      {
+        "date": "2026-06-25",
+        "price": 1499000
+      },
+      {
+        "date": "2026-06-27",
+        "price": 1099000
+      },
+      {
+        "date": "2026-06-30",
+        "price": 1299000
+      },
+      {
+        "date": "2026-07-02",
+        "price": 1499000
+      },
+      {
+        "date": "2026-07-04",
+        "price": 1099000
+      },
+      {
+        "date": "2026-07-07",
+        "price": 1299000
+      },
+      {
+        "date": "2026-07-09",
+        "price": 1499000
+      },
+      {
+        "date": "2026-07-11",
+        "price": 1099000
+      },
+      {
+        "date": "2026-07-21",
+        "price": 1299000
+      },
+      {
+        "date": "2026-07-23",
+        "price": 1499000
+      },
+      {
+        "date": "2026-07-25",
+        "price": 1099000
+      },
+      {
+        "date": "2026-07-28",
+        "price": 1299000
+      },
+      {
+        "date": "2026-08-06",
+        "price": 1499000
+      },
+      {
+        "date": "2026-08-20",
+        "price": 1499000
+      },
+      {
+        "date": "2026-08-22",
+        "price": 1099000
+      },
+      {
+        "date": "2026-08-25",
+        "price": 1299000
+      },
+      {
+        "date": "2026-08-27",
+        "price": 1499000
+      },
+      {
+        "date": "2026-08-29",
+        "price": 1099000
+      },
+      {
+        "date": "2026-09-01",
+        "price": 1299000
+      },
+      {
+        "date": "2026-09-03",
+        "price": 1499000
+      },
+      {
+        "date": "2026-09-05",
+        "price": 1099000
+      },
+      {
+        "date": "2026-09-08",
+        "price": 1299000
+      },
+      {
+        "date": "2026-09-10",
+        "price": 1499000
+      }
+    ],
+    "price": "1,099,000원부터",
+    "image": "/images/oita-pacific/course-4.jpg",
+    "images": [
+      "/images/oita-pacific/course-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/oita-pacific/hotel-1.jpg",
+      "/images/oita-pacific/hotel-2.jpg",
+      "/images/oita-pacific/hotel-3.jpg",
+      "/images/oita-pacific/hotel-4.jpg",
+      "/images/oita-pacific/hotel-5.jpg",
+      "/images/oita-pacific/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/oita-pacific/course-1.jpg",
+      "/images/oita-pacific/course-2.jpg",
+      "/images/oita-pacific/course-3.jpg",
+      "/images/oita-pacific/course-4.jpg",
+      "/images/oita-pacific/course-5.jpg",
+      "/images/oita-pacific/course-6.jpg"
+    ],
+    "badge": "인천출발 전용",
+    "departure": "incheon"
+  },
+  {
     "id": "japan-beppu-kamenoi",
     "country": "일본",
     "countryCode": "japan",
