@@ -1014,5 +1014,123 @@
     ],
     "badge": "인천출발 전용",
     "departure": "incheon"
+  },
+  {
+    "id": "japan-hokkaido-niseko",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "홋카이도",
+    "title": "북해도 니세코 힐튼 골프패키지 3박4일",
+    "subtitle": "부산↔삿포로 직항 7C 제주항공 · 힐튼 니세코 빌리지 · 54홀 All 포함",
+    "nights": 3,
+    "days": 4,
+    "courses": 1,
+    "roundsIncluded": 2,
+    "holes": 54,
+    "minPeople": 4,
+    "period": "2026년 6월 ~ 8월",
+    "hotel": "힐튼 니세코 빌리지 호텔 (특급)",
+    "hotelDesc": "니세코 최고급 힐튼 호텔 3박 · 전일정 조식·석식 포함 · 온천 입욕료 포함 · 2인1실 기준",
+    "golfCourse": "니세코 C.C (빌리지 코스 / 골프 코스)",
+    "golfCourseDesc": "27홀 × 2라운드 = 54홀 · 4인 1카트 포함 · 홋카이도 여름 평균 26도 쾌적한 라운딩 · 그린피+카트비 All 포함",
+    "productSummary": "니세코 C.C  54홀 2라운드 · 힐튼 니세코 빌리지 3박",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산출발",
+        "desc": "부산 김해공항 7C1551 11:00 출발 → 삿포로 치토세 국제공항 13:30 도착 → 현지인 안내원 미팅 후 셔틀차량 이동(2시간 소요) → 니세코 힐튼 호텔 체크인 및 휴식 → 석식 후 호텔 투숙 및 온천욕"
+      },
+      {
+        "day": "2일차",
+        "label": "니세코 라운딩",
+        "desc": "호텔 조식 후 골프장으로 이동 → 니세코 C.C 27홀 라운딩(빌리지 코스 / 골프 코스 중) → 라운딩 후 석식 및 개별일정 → 호텔 투숙 및 온천욕"
+      },
+      {
+        "day": "3일차",
+        "label": "니세코 라운딩",
+        "desc": "호텔 조식 후 골프장으로 이동 → 니세코 C.C 27홀 라운딩(빌리지 코스 / 골프 코스 중) → 라운딩 후 석식 및 개별일정 → 호텔 투숙 및 온천욕"
+      },
+      {
+        "day": "4일차",
+        "label": "귀국",
+        "desc": "호텔 조식 후 체크아웃 → 셔틀버스로 공항 이동(2시간 소요) → 치토세 공항 도착 및 출국수속 → 7C1552 14:30 출발 → 부산 17:15 도착"
+      }
+    ],
+    "highlights": [
+      "부산↔삿포로 직항 7C 제주항공 · 그룹석 수하물 20kg 무료",
+      "최고급 힐튼 니세코 빌리지 3박 · 전일정 조식·석식·온천 포함",
+      "54홀 그린피 + 4인1카트 + 셔틀차량 All 포함",
+      "여름 골프의 성지 홋카이도 · 평균 26도 시원한 라운딩",
+      "노쇼핑·노옵션·노가이드 자유여행 스타일",
+      "※ 7/20·8/11 라운딩 포함 출발일은 1인 40,000원 추가"
+    ],
+    "includes": [
+      "왕복 항공권 (유류관련 총택스 포함)",
+      "왕복 셔틀버스",
+      "힐튼 니세코 빌리지 3박",
+      "전일정 조식·석식",
+      "54홀 그린피 (0+27+27+0홀)",
+      "4인 1카트",
+      "입욕료",
+      "현지인 안내원"
+    ],
+    "excludes": [
+      "클럽 중식",
+      "클럽 렌탈",
+      "노캐디·싱글차지",
+      "여행자보험·개인 경비",
+      "매너팁·써차지"
+    ],
+    "cancelPolicy": [
+      "출발 21~8일전: 50%",
+      "출발 7일~당일: 100%"
+    ],
+    "departurePrices": [
+      { "date": "2026-06-18", "price": 1399000 },
+      { "date": "2026-06-21", "price": 1249000 },
+      { "date": "2026-06-25", "price": 1399000 },
+      { "date": "2026-07-02", "price": 1629000 },
+      { "date": "2026-07-03", "price": 1549000 },
+      { "date": "2026-07-05", "price": 1399000 },
+      { "date": "2026-07-09", "price": 1629000 },
+      { "date": "2026-07-10", "price": 1549000 },
+      { "date": "2026-07-12", "price": 1399000 },
+      { "date": "2026-07-19", "price": 1439000 },
+      { "date": "2026-07-23", "price": 1629000 },
+      { "date": "2026-07-24", "price": 1549000 },
+      { "date": "2026-07-26", "price": 1599000 },
+      { "date": "2026-07-30", "price": 1699000 },
+      { "date": "2026-08-02", "price": 1599000 },
+      { "date": "2026-08-06", "price": 1779000 },
+      { "date": "2026-08-09", "price": 1714000 },
+      { "date": "2026-08-13", "price": 1804000 },
+      { "date": "2026-08-23", "price": 1449000 },
+      { "date": "2026-08-27", "price": 1549000 },
+      { "date": "2026-08-30", "price": 1449000 }
+    ],
+    "hotelImages": [
+      "/images/hokkaido-niseko/hotel-1.jpg",
+      "/images/hokkaido-niseko/hotel-2.jpg",
+      "/images/hokkaido-niseko/hotel-3.jpg",
+      "/images/hokkaido-niseko/hotel-4.jpg",
+      "/images/hokkaido-niseko/hotel-5.jpg",
+      "/images/hokkaido-niseko/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/hokkaido-niseko/course-1.jpg",
+      "/images/hokkaido-niseko/course-2.jpg",
+      "/images/hokkaido-niseko/course-3.jpg",
+      "/images/hokkaido-niseko/course-4.jpg",
+      "/images/hokkaido-niseko/course-5.jpg",
+      "/images/hokkaido-niseko/course-6.jpg"
+    ],
+    "price": "1,249,000원~",
+    "image": "/images/hokkaido-niseko/course-1.jpg",
+    "images": [
+      "/images/hokkaido-niseko/course-1.jpg",
+      "/images/hokkaido-niseko/hotel-1.jpg"
+    ],
+    "badge": "부산출발 전용",
+    "departure": "busan"
   }
 ]

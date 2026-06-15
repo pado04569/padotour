@@ -37,9 +37,11 @@ const subTabs = [
 ];
 
 export default function BusanHome() {
-  const monthlyTours = tours
-    .filter((t) => t.departure === "busan" || t.departure === "both")
-    .slice(0, 4);
+  const featuredIds = ["japan-hokkaido-niseko"];
+  const monthlyTours = [
+    ...tours.filter((t) => featuredIds.includes(t.id)),
+    ...tours.filter((t) => !featuredIds.includes(t.id) && (t.departure === "busan" || t.departure === "both")),
+  ].slice(0, 4);
 
   const allBusanTours = tours.filter(
     (t) => t.departure === "busan" || t.departure === "both"
