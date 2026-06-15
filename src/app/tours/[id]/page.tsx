@@ -75,6 +75,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               departurePrices={tour.departurePrices}
               nights={tour.nights}
               days={tour.days}
+              tourTitle={tour.title}
             />
           </div>
         ) : (
