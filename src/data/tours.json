@@ -895,5 +895,124 @@
     "image": "/images/thailand.jpg",
     "badge": "",
     "departure": "both"
+  },
+  {
+    "id": "japan-tokyo-itako",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "도쿄",
+    "title": "동경 이타코 골프 5박6일",
+    "subtitle": "아시아나항공 OZ 직항 · 후지야 호텔 · 선넘은 특가",
+    "nights": 5,
+    "days": 6,
+    "courses": 3,
+    "roundsIncluded": 5,
+    "holes": 126,
+    "minPeople": 2,
+    "period": "2026년 6월 28일 ~ 8월 23일",
+    "hotel": "후지야 호텔 (2인1실)",
+    "hotelDesc": "이타코 지역 위치 · 일본 전통 다다미 객실 · 대욕장 · 골프장 인접 · 조식·중식·석식 포함",
+    "golfCourse": "아소CC / 센트릴CC / 뉴센트릴CC",
+    "golfCourseDesc": "이타코 지역 명문 골프장 3개 코스 선택 라운드 · 매일 18홀+9홀 서비스 · 셀프 승용카트 · 골프장 클럽하우스 중식 제공",
+    "productSummary": "아소CC/센트릴CC/뉴센트릴CC  5라운드 · 후지야 호텔 숙박",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천→동경",
+        "desc": "인천국제공항 OZ106 15:45 출발 → 나리타 국제공항 18:25 도착 → 직원 미팅 후 송영차량으로 호텔 이동(약 30분) → 석식 후 후지야 호텔 투숙 (7층 대욕장 무료 이용 가능)"
+      },
+      {
+        "day": "2일차",
+        "label": "이타코 라운드",
+        "desc": "호텔 조식 → 호텔 차량으로 골프장 이동 → 아소CC 또는 센트릴CC 또는 뉴센트릴CC 18홀+9홀 서비스 → 골프장 클럽하우스에서 중식 제공 → 석식 후 후지야 호텔 투숙 (7층 대욕장 무료 이용 가능)"
+      },
+      {
+        "day": "3일차",
+        "label": "이타코 라운드",
+        "desc": "호텔 조식 → 호텔 차량으로 골프장 이동 → 아소CC 또는 센트릴CC 또는 뉴센트릴CC 18홀+9홀 서비스 → 골프장 클럽하우스에서 중식 제공 → 석식 후 후지야 호텔 투숙"
+      },
+      {
+        "day": "4일차",
+        "label": "이타코 라운드",
+        "desc": "호텔 조식 → 호텔 차량으로 골프장 이동 → 아소CC 또는 센트릴CC 또는 뉴센트릴CC 18홀+9홀 서비스 → 골프장 클럽하우스에서 중식 제공 → 석식 후 후지야 호텔 투숙"
+      },
+      {
+        "day": "5일차",
+        "label": "이타코 라운드",
+        "desc": "호텔 조식 → 호텔 차량으로 골프장 이동 → 아소CC 또는 센트릴CC 또는 뉴센트릴CC 18홀+9홀 서비스 → 골프장 클럽하우스에서 중식 제공 → 석식 후 후지야 호텔 투숙"
+      },
+      {
+        "day": "6일차",
+        "label": "동경→인천",
+        "desc": "호텔 조식 → 아소CC 또는 센트릴CC 또는 뉴센트릴CC 18홀 라운드 → 송영차량으로 나리타 국제공항 이동 → OZ105 19:45 출발 → 인천공항 22:15 도착"
+      }
+    ],
+    "highlights": [
+      "아시아나항공 OZ 직항 이용 (인천↔나리타)",
+      "5박6일 5라운드 (0·27·27·27·27·18홀) 알찬 구성",
+      "후지야 호텔 2인1실 · 조식·중식·석식 전일 포함",
+      "아소CC / 센트릴CC / 뉴센트릴CC 3개 코스 선택 라운드",
+      "무료 셔틀버스 운행 (골프장, 동경호텔, 약국 경유)",
+      "미팅샌딩비 포함 · 현지 인솔 서비스",
+      "시내투어 운행: 매일 오후 7시 출발 (골프프, 동경호텔, 약국 경유)",
+      "가성비 끝판왕! 6월~8월 선넘은 특가"
+    ],
+    "includes": [
+      "항공료 및 제세금",
+      "호텔 2인1실 (후지야 호텔)",
+      "조식·중식·석식 (골프장 중식 포함)",
+      "골프 그린피 + 카트비",
+      "미팅샌딩비",
+      "무료 셔틀버스"
+    ],
+    "excludes": [
+      "여행자보험 (선택사항)",
+      "개인 경비",
+      "2인·3인 플레이어 추가 요금 (주중 1인/17,000원, 주말 1인/44,000원, 3인/11,000원)",
+      "클럽 렌탈 1일 5,500엔",
+      "싱글룸 차지 (후지야 호텔 50,000원/인박)"
+    ],
+    "cancelPolicy": [
+      "출발 10일전: 지상비 50%",
+      "출발 4일전: 지상비 50%",
+      "출발 3일전: 100%",
+      "당일 취소: 100%",
+      "수수기 30~8일전: 총금액 50%",
+      "수수기 7일전: 100%"
+    ],
+    "departurePrices": [
+      { "date": "2026-06-28", "price": 1890000 },
+      { "date": "2026-07-05", "price": 1890000 },
+      { "date": "2026-07-12", "price": 1890000 },
+      { "date": "2026-07-19", "price": 1790000 },
+      { "date": "2026-07-26", "price": 1940000 },
+      { "date": "2026-08-02", "price": 1990000 },
+      { "date": "2026-08-16", "price": 1890000 },
+      { "date": "2026-08-23", "price": 1890000 }
+    ],
+    "hotelImages": [
+      "/images/tokyo-itako/hotel-1.jpg",
+      "/images/tokyo-itako/hotel-2.jpg",
+      "/images/tokyo-itako/hotel-3.jpg",
+      "/images/tokyo-itako/hotel-4.jpg",
+      "/images/tokyo-itako/hotel-5.jpg",
+      "/images/tokyo-itako/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/tokyo-itako/course-1.jpg",
+      "/images/tokyo-itako/course-2.jpg",
+      "/images/tokyo-itako/course-3.jpg",
+      "/images/tokyo-itako/course-4.jpg",
+      "/images/tokyo-itako/course-5.jpg",
+      "/images/tokyo-itako/course-6.jpg"
+    ],
+    "price": "1,890,000원~",
+    "image": "/images/tokyo-itako/course-1.jpg",
+    "images": [
+      "/images/tokyo-itako/course-1.jpg",
+      "/images/tokyo-itako/hotel-1.jpg"
+    ],
+    "badge": "인천출발 전용",
+    "departure": "incheon"
   }
 ]
