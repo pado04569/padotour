@@ -204,7 +204,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         )}
 
         {/* ── 예약 문의 · 맞춤 견적 ── */}
-        <div className="bg-gray-800 rounded-2xl p-6 md:p-8 text-white mb-8">
+        <div className="bg-blue-900 rounded-2xl p-6 md:p-8 text-white mb-8">
           <h3 className="text-xl font-black mb-1">예약 문의 · 맞춤 견적</h3>
           <p className="text-gray-300 text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
           <ContactOptions />

@@ -99,13 +99,8 @@ export default function Header({ departure }: HeaderProps) {
 
   const navItems = buildNav(departure);
 
-  const accentColor =
-    departure === "incheon" ? "bg-emerald-600" :
-    departure === "busan" ? "bg-blue-600" :
-    "bg-gray-800";
-
-  const hoverAccent =
-    departure === "busan" ? "hover:bg-blue-700" : "hover:bg-emerald-700";
+  const accentColor = "bg-blue-900";
+  const hoverAccent = "hover:bg-blue-800";
 
   const homeHref =
     departure === "incheon" ? "/incheon" :
@@ -123,7 +118,7 @@ export default function Header({ departure }: HeaderProps) {
     <header className="bg-white shadow-md sticky top-0 z-50">
 
       {/* ══ 1단: 공지바 ══ */}
-      <div className="bg-gray-800 text-gray-300 text-xs">
+      <div className="bg-blue-900 text-blue-100 text-xs">
         <div className="max-w-6xl mx-auto px-4 py-1.5 flex items-center justify-between gap-2">
           <div className="flex items-center gap-2 overflow-hidden min-w-0">
             <span className="flex-shrink-0 bg-emerald-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wide">
