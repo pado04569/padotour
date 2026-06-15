@@ -67,7 +67,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
     if (!selected || !phone.trim()) return;
     setSending(true);
     try {
-      await fetch("/api/inquiry", {
+      const res = await fetch("/api/inquiry", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -79,9 +79,13 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
           phone: phone.trim(),
         }),
       });
-      setSent(true);
+      if (res.ok) {
+        setSent(true);
+      } else {
+        alert("전송 중 오류가 발생했습니다. 전화(010-5301-5250)로 문의해 주세요.");
+      }
     } catch {
-      alert("전송 중 오류가 발생했습니다. 전화로 문의해 주세요.");
+      alert("전송 중 오류가 발생했습니다. 전화(010-5301-5250)로 문의해 주세요.");
     } finally {
       setSending(false);
     }
