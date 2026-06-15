@@ -1019,7 +1019,7 @@
     "id": "japan-hokkaido-niseko",
     "country": "일본",
     "countryCode": "japan",
-    "region": "홋카이도",
+    "region": "북해도",
     "title": "북해도 니세코 힐튼 골프패키지 3박4일",
     "subtitle": "부산↔삿포로 직항 7C 제주항공 · 힐튼 니세코 빌리지 · 54홀 All 포함",
     "nights": 3,
@@ -1125,9 +1125,9 @@
       "/images/hokkaido-niseko/course-6.jpg"
     ],
     "price": "1,249,000원~",
-    "image": "/images/hokkaido-niseko/course-1.jpg",
+    "image": "/images/hokkaido-niseko/course-4.jpg",
     "images": [
-      "/images/hokkaido-niseko/course-1.jpg",
+      "/images/hokkaido-niseko/course-4.jpg",
       "/images/hokkaido-niseko/hotel-1.jpg"
     ],
     "badge": "부산출발 전용",
