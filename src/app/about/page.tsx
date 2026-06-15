@@ -89,10 +89,10 @@ export default function AboutPage() {
               💬 카카오톡 문의
             </a>
             <a
-              href="tel:010-5301-5250"
+              href="tel:02-5301-5250"
               className="bg-white/20 hover:bg-white/30 text-white font-bold px-6 py-3 rounded-full text-sm transition-colors"
             >
-              📞 010-5301-5250
+              📞 02-5301-5250
             </a>
           </div>
         </section>

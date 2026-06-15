@@ -5,7 +5,7 @@ type FooterProps = {
 const info = {
   incheon: {
     phones: [
-      { href: "tel:01053015250", label: "010-5301-5250" },
+      { href: "tel:0253015250", label: "02-5301-5250" },
       { href: "tel:0264015252", label: "02-6401-5252 (인천)" },
     ],
     blog: "https://blog.naver.com/pado-tour-",
@@ -13,7 +13,7 @@ const info = {
   },
   busan: {
     phones: [
-      { href: "tel:01053015250", label: "010-5301-5250" },
+      { href: "tel:0253015250", label: "02-5301-5250" },
       { href: "tel:07047985252", label: "070-4798-5252 (부산)" },
     ],
     blog: "https://blog.naver.com/padoro-52so",
@@ -21,7 +21,7 @@ const info = {
   },
   default: {
     phones: [
-      { href: "tel:01053015250", label: "010-5301-5250" },
+      { href: "tel:0253015250", label: "02-5301-5250" },
       { href: "tel:0264015252", label: "02-6401-5252 (인천)" },
       { href: "tel:07047985252", label: "070-4798-5252 (부산)" },
     ],

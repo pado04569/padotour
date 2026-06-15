@@ -22,13 +22,13 @@ export default function ContactOptions() {
 
           {/* 전화 문의 */}
           <a
-            href="tel:01053015250"
+            href="tel:0253015250"
             className="flex items-center gap-4 px-5 py-4 hover:bg-gray-50 transition-colors border-b border-gray-100"
           >
             <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-xl flex-shrink-0">📞</div>
             <div>
               <div className="font-black text-gray-800 text-sm">전화 문의</div>
-              <div className="text-blue-600 font-bold text-base">010-5301-5250</div>
+              <div className="text-blue-600 font-bold text-base">02-5301-5250</div>
             </div>
           </a>
 
