@@ -1132,5 +1132,214 @@
     ],
     "badge": "부산출발 전용",
     "departure": "busan"
+  },
+  {
+    "id": "thailand-chiangmai-4n6d",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "치앙마이",
+    "title": "태국 치앙마이 자유골프 4박6일",
+    "subtitle": "부산출발 이스타항공 ZE · 가산CC + 로얄CC 4라운드 · NO가이드",
+    "nights": 4,
+    "days": 6,
+    "courses": 2,
+    "roundsIncluded": 4,
+    "holes": 72,
+    "minPeople": 4,
+    "period": "2026년 7월 ~ 10월",
+    "hotel": "푸라마 호텔 치앙마이 (준특급)",
+    "hotelDesc": "치앙마이 시내 중심 위치 · 루프탑 레스토랑 · 수영장 · 전일정 조식 포함 · 2인1실 기준",
+    "golfCourse": "가산CC (레거시/파노라마/쿤탄) · 로얄CC",
+    "golfCourseDesc": "가산CC 레거시·파노라마·쿤탄 코스 + 로얄CC 18홀 4회 라운딩 · 전용차량 이동 · NO가이드 자유 라운딩",
+    "productSummary": "가산CC + 로얄CC  4라운드 72홀 · 푸라마 호텔 4박",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산출발",
+        "desc": "김해 국제 공항 출발 ZE917 18:55 → 태국 치앙마이 국제공항 도착 22:10 → 전용차량으로 호텔 이동 및 투숙 (준특급) 푸라마 호텔 동급 (2인1실)"
+      },
+      {
+        "day": "2·3·4일차",
+        "label": "치앙마이 라운딩",
+        "desc": "호텔 조식 후 → 가산(레거시, 파노라마, 쿤탄), 로얄 18홀 라운딩 → 라운딩 후 개별 자유시간 → 호텔 투숙 및 휴식"
+      },
+      {
+        "day": "5일차",
+        "label": "라운딩 후 출발",
+        "desc": "호텔 조식 후 → 가산(레거시, 파노라마, 쿤탄), 로얄 18홀 라운딩 → 라운딩 후 개별 자유시간 → 석식 후 공항으로 이동 → 치앙마이 출발 ZE918 23:10"
+      },
+      {
+        "day": "6일차",
+        "label": "부산도착",
+        "desc": "부산 국제공항 도착 06:15"
+      }
+    ],
+    "highlights": [
+      "부산 김해공항 출발 이스타항공 직항 · 수하물 15kg 포함",
+      "가산CC(레거시·파노라마·쿤탄) + 로얄CC 4라운드 72홀",
+      "준특급 푸라마 호텔 4박 · 전일정 조식 포함",
+      "NO가이드·노쇼핑·노옵션 완전 자유 골프여행",
+      "전용차량 전일정 포함",
+      "2명 출발시 +6만원/인, 3명 출발시 +4만원/인 (4명 기본요금)"
+    ],
+    "includes": [
+      "왕복 항공권 + TAX",
+      "전일정 호텔 (2인1실)",
+      "그린피 18홀 × 4회",
+      "전일정 조식",
+      "전용차량",
+      "수하물 15kg"
+    ],
+    "excludes": [
+      "여행자보험",
+      "중식·석식",
+      "캐디팁 (400바트/18홀)",
+      "개인경비·매너팁",
+      "미/샌딩비 ($60/4인 이상, $80/3인, $120/2인)",
+      "전동카트+캐디피 72홀 4,400바트"
+    ],
+    "cancelPolicy": [
+      "출발 30일전: 총금액 50%",
+      "출발 7일전: 100%"
+    ],
+    "departurePrices": [
+      { "date": "2026-07-05", "price": 929000 },
+      { "date": "2026-07-12", "price": 879000 },
+      { "date": "2026-07-19", "price": 929000 },
+      { "date": "2026-07-26", "price": 1079000 },
+      { "date": "2026-08-02", "price": 1179000 },
+      { "date": "2026-08-16", "price": 949000 },
+      { "date": "2026-08-23", "price": 999000 },
+      { "date": "2026-08-30", "price": 999000 },
+      { "date": "2026-09-06", "price": 929000 },
+      { "date": "2026-09-13", "price": 929000 },
+      { "date": "2026-09-20", "price": 929000 },
+      { "date": "2026-10-11", "price": 1079000 }
+    ],
+    "hotelImages": [
+      "/images/chiangmai-golf/hotel-1.jpg",
+      "/images/chiangmai-golf/hotel-2.jpg",
+      "/images/chiangmai-golf/hotel-3.jpg",
+      "/images/chiangmai-golf/hotel-4.jpg",
+      "/images/chiangmai-golf/hotel-5.jpg",
+      "/images/chiangmai-golf/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/chiangmai-golf/course-1.jpg",
+      "/images/chiangmai-golf/course-2.jpg",
+      "/images/chiangmai-golf/course-3.jpg",
+      "/images/chiangmai-golf/course-4.jpg",
+      "/images/chiangmai-golf/course-5.jpg",
+      "/images/chiangmai-golf/course-6.jpg"
+    ],
+    "price": "879,000원~",
+    "image": "/images/chiangmai-golf/course-1.jpg",
+    "images": [
+      "/images/chiangmai-golf/course-1.jpg",
+      "/images/chiangmai-golf/hotel-1.jpg"
+    ],
+    "badge": "부산출발 전용",
+    "departure": "busan"
+  },
+  {
+    "id": "thailand-chiangmai-3n5d",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "치앙마이",
+    "title": "태국 치앙마이 자유골프 3박5일",
+    "subtitle": "부산출발 이스타항공 ZE · 가산CC 3라운드 · NO가이드",
+    "nights": 3,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": 54,
+    "minPeople": 4,
+    "period": "2026년 7월 ~ 10월",
+    "hotel": "푸라마 호텔 치앙마이 (준특급)",
+    "hotelDesc": "치앙마이 시내 중심 위치 · 루프탑 레스토랑 · 수영장 · 전일정 조식 포함 · 2인1실 기준",
+    "golfCourse": "가산CC (레거시/파노라마/쿤탄)",
+    "golfCourseDesc": "가산CC 레거시·파노라마·쿤탄 코스 18홀 3회 라운딩 · 전용차량 이동 · NO가이드 자유 라운딩",
+    "productSummary": "가산CC  3라운드 54홀 · 푸라마 호텔 3박",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산출발",
+        "desc": "김해 국제 공항 출발 ZE917 18:55 → 태국 치앙마이 국제공항 도착 22:10 → 전용차량으로 호텔 이동 및 투숙 (준특급) 푸라마 호텔 동급 (2인1실)"
+      },
+      {
+        "day": "2·3일차",
+        "label": "치앙마이 라운딩",
+        "desc": "호텔 조식 후 → 가산(레거시, 파노라마, 쿤탄) 18홀 라운딩 → 라운딩 후 개별 자유시간 → 호텔 투숙 및 휴식"
+      },
+      {
+        "day": "4일차",
+        "label": "라운딩 후 출발",
+        "desc": "호텔 조식 후 → 가산(레거시, 파노라마, 쿤탄) 18홀 라운딩 → 라운딩 후 개별 자유시간 → 석식 후 공항으로 이동 → 치앙마이 출발 ZE918 23:10"
+      },
+      {
+        "day": "5일차",
+        "label": "부산도착",
+        "desc": "부산 국제공항 도착 06:15"
+      }
+    ],
+    "highlights": [
+      "부산 김해공항 출발 이스타항공 직항 · 수하물 15kg 포함",
+      "가산CC(레거시·파노라마·쿤탄) 3라운드 54홀",
+      "준특급 푸라마 호텔 3박 · 전일정 조식 포함",
+      "NO가이드·노쇼핑·노옵션 완전 자유 골프여행",
+      "전용차량 전일정 포함",
+      "2명 출발시 +5만원/인, 3명 출발시 +2만원/인 (4명 기본요금)"
+    ],
+    "includes": [
+      "왕복 항공권 + TAX",
+      "전일정 호텔 (2인1실)",
+      "그린피 18홀 × 3회",
+      "전일정 조식",
+      "전용차량",
+      "수하물 15kg"
+    ],
+    "excludes": [
+      "여행자보험",
+      "중식·석식",
+      "캐디팁 (400바트/18홀)",
+      "개인경비·매너팁",
+      "미/샌딩비 ($50/4인 이상, $70/3인, $100/2인)",
+      "전동카트+캐디피 54홀 3,300바트"
+    ],
+    "cancelPolicy": [
+      "출발 30일전: 총금액 50%",
+      "출발 7일전: 100%"
+    ],
+    "departurePrices": [
+      { "date": "2026-07-02", "price": 899000 },
+      { "date": "2026-08-06", "price": 999000 },
+      { "date": "2026-09-03", "price": 929000 },
+      { "date": "2026-09-17", "price": 899000 },
+      { "date": "2026-10-15", "price": 1079000 }
+    ],
+    "hotelImages": [
+      "/images/chiangmai-golf/hotel-1.jpg",
+      "/images/chiangmai-golf/hotel-2.jpg",
+      "/images/chiangmai-golf/hotel-3.jpg",
+      "/images/chiangmai-golf/hotel-4.jpg",
+      "/images/chiangmai-golf/hotel-5.jpg",
+      "/images/chiangmai-golf/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/chiangmai-golf/course-1.jpg",
+      "/images/chiangmai-golf/course-2.jpg",
+      "/images/chiangmai-golf/course-3.jpg",
+      "/images/chiangmai-golf/course-4.jpg",
+      "/images/chiangmai-golf/course-5.jpg",
+      "/images/chiangmai-golf/course-6.jpg"
+    ],
+    "price": "899,000원~",
+    "image": "/images/chiangmai-golf/course-1.jpg",
+    "images": [
+      "/images/chiangmai-golf/course-1.jpg",
+      "/images/chiangmai-golf/hotel-1.jpg"
+    ],
+    "badge": "부산출발 전용",
+    "departure": "busan"
   }
 ]
