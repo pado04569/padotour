@@ -175,7 +175,8 @@
       "/images/oita-pacific/course-6.jpg"
     ],
     "badge": "인천출발 전용",
-    "departure": "incheon"
+    "departure": "incheon",
+    "productSummary": "퍼시픽블루CC  3회 라운딩  ·  퍼시픽블루 리조트 숙박"
   },
   {
     "id": "japan-beppu-kamenoi",
@@ -661,7 +662,8 @@
       "/images/beppu/course-3.jpg",
       "/images/beppu/course-4.jpg",
       "/images/beppu/course-5.jpg"
-    ]
+    ],
+    "productSummary": "벳부cc  3회 라운딩  ·  카메노이 호텔 숙박"
   },
   {
     "id": "japan-fukuoka",

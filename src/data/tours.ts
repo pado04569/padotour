@@ -27,6 +27,7 @@ export type Tour = {
   price: string;
   image: string;
   images?: string[];
+  productSummary?: string;
   hotelImages?: string[];
   courseImages?: string[];
   badge?: string;

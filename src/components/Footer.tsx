@@ -75,7 +75,7 @@ export default function Footer({ departure }: FooterProps) {
         </div>
       </div>
 
-    <div className="bg-blue-900 text-blue-100 py-10">
+    <div className="bg-blue-600 text-white/90 py-10">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           {/* 여행사 정보 */}
@@ -87,13 +87,13 @@ export default function Footer({ departure }: FooterProps) {
                 <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${
                   departure === "incheon"
                     ? "bg-emerald-600 text-emerald-100"
-                    : "bg-blue-700 text-blue-100"
+                    : "bg-blue-700 text-white/90"
                 }`}>
                   {departure === "incheon" ? "인천출발" : "부산출발"}
                 </span>
               )}
             </div>
-            <p className="text-sm text-blue-300 mb-4">골프전문 여행사</p>
+            <p className="text-sm text-white/90 mb-4">골프전문 여행사</p>
             <div className="space-y-1 text-sm">
               <p>상호명: 여행의 파도</p>
               <p>대표: 이지안</p>
@@ -142,7 +142,7 @@ export default function Footer({ departure }: FooterProps) {
           </div>
         </div>
 
-        <div className="border-t border-blue-800 mt-8 pt-6 text-xs text-blue-400 text-center">
+        <div className="border-t border-blue-500 mt-8 pt-6 text-xs text-blue-200 text-center">
           <p>© 2025 여행의 파도. All rights reserved.</p>
           <p className="mt-1">골프여행 예약은 항공·숙박·골프장 상황에 따라 요금이 변동될 수 있습니다.</p>
         </div>

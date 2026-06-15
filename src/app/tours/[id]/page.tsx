@@ -63,7 +63,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8">
           <p className="text-xs text-gray-500 mb-1">상품 구성</p>
           <p className="text-xl md:text-2xl font-black text-emerald-800 leading-snug">
-            벳부cc &nbsp;{tour.roundsIncluded}회 라운딩 &nbsp;·&nbsp; 카메노이 호텔 숙박
+            {tour.productSummary ?? `${tour.golfCourse ?? ""} ${tour.roundsIncluded}회 라운딩 · ${tour.hotel ?? ""} 숙박`}
           </p>
           {tour.subtitle && <p className="text-sm text-gray-600 mt-1.5">{tour.subtitle}</p>}
         </div>
@@ -204,7 +204,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         )}
 
         {/* ── 예약 문의 · 맞춤 견적 ── */}
-        <div className="bg-blue-900 rounded-2xl p-6 md:p-8 text-white mb-8">
+        <div className="bg-blue-600 rounded-2xl p-6 md:p-8 text-white mb-8">
           <h3 className="text-xl font-black mb-1">예약 문의 · 맞춤 견적</h3>
           <p className="text-gray-300 text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
           <ContactOptions />
