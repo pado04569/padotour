@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useState } from "react";
 
@@ -12,7 +12,7 @@ type Props = {
 };
 
 function formatPrice(p: number) {
-  return p.toLocaleString("ko-KR") + "??;
+  return p.toLocaleString("ko-KR") + "원";
 }
 
 export default function DeparturePriceCalendar({ departurePrices, nights, days, tourTitle }: Props) {
@@ -60,7 +60,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
     return `${d.getMonth() + 1}/${d.getDate()}`;
   })() : null;
 
-  const weekDays = ["??, "??, "??, "??, "紐?, "湲?, "??];
+  const weekDays = ["일", "월", "화", "수", "목", "금", "토"];
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -71,7 +71,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          tourTitle: tourTitle ?? "怨⑦봽?ы뻾 ?곹뭹",
+          tourTitle: tourTitle ?? "골프여행 상품",
           departureDate: selected,
           nights,
           days,
@@ -82,10 +82,10 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
       if (res.ok) {
         setSent(true);
       } else {
-        alert("?꾩넚 以??ㅻ쪟媛 諛쒖깮?덉뒿?덈떎. ?꾪솕(02-6401-5252)濡?臾몄쓽??二쇱꽭??");
+        alert("전송 중 오류가 발생했습니다. 전화(02-6401-5252)로 문의해 주세요.");
       }
     } catch {
-      alert("?꾩넚 以??ㅻ쪟媛 諛쒖깮?덉뒿?덈떎. ?꾪솕(02-6401-5252)濡?臾몄쓽??二쇱꽭??");
+      alert("전송 중 오류가 발생했습니다. 전화(02-6401-5252)로 문의해 주세요.");
     } finally {
       setSending(false);
     }
@@ -93,10 +93,10 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
 
   return (
     <div>
-      <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">?뱟 異쒕컻???좏깮 쨌 ?붽툑 ?뺤씤</h2>
+      <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📅 출발일 선택 · 요금 확인</h2>
 
       <div className="bg-gray-50 rounded-2xl p-4 md:p-5 border border-gray-100">
-        {/* ???대룞 踰꾪듉 */}
+        {/* 월 이동 버튼 */}
         <div className="flex items-center justify-between mb-4">
           <button
             onClick={() => setBaseMonth(b => {
@@ -106,7 +106,8 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
             })}
             className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-200 text-gray-600 font-bold"
           >
-            ??          </button>
+            ‹
+          </button>
           <span className="text-sm font-bold text-gray-600">
             {months[0].year}.{String(months[0].month + 1).padStart(2, "0")} ~ {months[2].year}.{String(months[2].month + 1).padStart(2, "0")}
           </span>
@@ -118,10 +119,11 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
             })}
             className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-200 text-gray-600 font-bold"
           >
-            ??          </button>
+            ›
+          </button>
         </div>
 
-        {/* 罹섎┛??3媛?*/}
+        {/* 캘린더 3개 */}
         <div className="flex gap-4 overflow-x-auto pb-2">
           {months.map(({ year, month }) => {
             const totalDays = getDaysInMonth(year, month);
@@ -176,28 +178,28 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
         </div>
 
         <div className="flex items-center gap-4 mt-3 text-xs text-gray-500">
-          <span className="flex items-center gap-1"><span className="w-4 h-4 bg-emerald-100 rounded inline-block" /> 異쒕컻媛??/span>
-          <span className="flex items-center gap-1"><span className="w-4 h-4 bg-emerald-600 rounded inline-block" /> ?좏깮??/span>
+          <span className="flex items-center gap-1"><span className="w-4 h-4 bg-emerald-100 rounded inline-block" /> 출발가능</span>
+          <span className="flex items-center gap-1"><span className="w-4 h-4 bg-emerald-600 rounded inline-block" /> 선택됨</span>
         </div>
       </div>
 
-      {/* ?좏깮???좎쭨 ?붽툑 ?쒖떆 */}
+      {/* 선택된 날짜 요금 표시 */}
       {selected && selectedPrice ? (
         <div className="mt-4 bg-emerald-50 border-2 border-emerald-400 rounded-2xl p-5">
           <div className="flex items-start justify-between gap-4 flex-wrap">
             <div>
-              <p className="text-sm text-gray-500 mb-1">?좏깮??異쒕컻??/p>
+              <p className="text-sm text-gray-500 mb-1">선택한 출발일</p>
               <p className="text-xl font-black text-gray-800">
-                {selected.replace(/-/g, ".")} 異쒕컻
+                {selected.replace(/-/g, ".")} 출발
               </p>
               <p className="text-sm text-gray-500 mt-0.5">
-                {nights}諛?{days}??쨌 洹援?{returnDate}
+                {nights}박 {days}일 · 귀국 {returnDate}
               </p>
             </div>
             <div className="text-right">
-              <p className="text-xs text-gray-500 mb-1">1???붽툑 (?깆씤쨌2???댁긽)</p>
+              <p className="text-xs text-gray-500 mb-1">1인 요금 (성인·2인 이상)</p>
               <p className="text-3xl font-black text-emerald-700">{formatPrice(selectedPrice)}</p>
-              <p className="text-xs text-gray-400 mt-0.5">?좊쪟?좎쬆猷??ы븿</p>
+              <p className="text-xs text-gray-400 mt-0.5">유류할증료 포함</p>
             </div>
           </div>
 
@@ -207,32 +209,32 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                 onClick={() => setShowForm(true)}
                 className="w-full block text-center bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-black px-6 py-3.5 rounded-full text-base transition-colors"
               >
-                ?뱥 {selected.replace(/-/g, ".")} 異쒕컻 ?덉빟 臾몄쓽
+                📋 {selected.replace(/-/g, ".")} 출발 예약 문의
               </button>
             ) : sent ? (
               <div className="bg-blue-50 border border-blue-200 rounded-2xl p-5 text-center">
-                <div className="text-3xl mb-2">??/div>
-                <p className="font-black text-blue-800 text-base">臾몄쓽 ?묒닔 ?꾨즺!</p>
-                <p className="text-sm text-gray-600 mt-1">?대떦?먭? 移댁뭅?ㅽ넚?쇰줈 寃ъ쟻?쒕? 蹂대궡?쒕┰?덈떎.</p>
+                <div className="text-3xl mb-2">✅</div>
+                <p className="font-black text-blue-800 text-base">문의 접수 완료!</p>
+                <p className="text-sm text-gray-600 mt-1">담당자가 카카오톡으로 견적서를 보내드립니다.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-3">
-                <p className="text-sm font-bold text-gray-700 mb-2">?뱥 ?덉빟 臾몄쓽 ?뺣낫 ?낅젰</p>
+                <p className="text-sm font-bold text-gray-700 mb-2">📋 예약 문의 정보 입력</p>
                 <div className="flex gap-3">
                   <div className="flex-1">
-                    <label className="text-xs text-gray-500 mb-1 block">?몄썝??/label>
+                    <label className="text-xs text-gray-500 mb-1 block">인원수</label>
                     <select
                       value={people}
                       onChange={e => setPeople(e.target.value)}
                       className="w-full border border-gray-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-emerald-500"
                     >
                       {[2,3,4,5,6,7,8,9,10,11,12].map(n => (
-                        <option key={n} value={n}>{n}紐?/option>
+                        <option key={n} value={n}>{n}명</option>
                       ))}
                     </select>
                   </div>
                   <div className="flex-[2]">
-                    <label className="text-xs text-gray-500 mb-1 block">?대???踰덊샇</label>
+                    <label className="text-xs text-gray-500 mb-1 block">휴대폰 번호</label>
                     <input
                       type="tel"
                       value={phone}
@@ -249,26 +251,26 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                     onClick={() => setShowForm(false)}
                     className="flex-1 border border-gray-200 text-gray-500 font-bold py-3 rounded-full text-sm"
                   >
-                    痍⑥냼
+                    취소
                   </button>
                   <button
                     type="submit"
                     disabled={sending || !phone.trim()}
                     className="flex-[2] bg-blue-600 hover:bg-blue-700 disabled:bg-gray-300 text-white font-black py-3 rounded-full text-sm transition-colors"
                   >
-                    {sending ? "?꾩넚 以?.." : "臾몄쓽 ?묒닔?섍린"}
+                    {sending ? "전송 중..." : "문의 접수하기"}
                   </button>
                 </div>
-                <p className="text-[11px] text-gray-400 text-center">?대떦?먭? 移댁뭅?ㅽ넚?쇰줈 寃ъ쟻?쒕? 諛쒖넚???쒕┰?덈떎</p>
+                <p className="text-[11px] text-gray-400 text-center">담당자가 카카오톡으로 견적서를 발송해 드립니다</p>
               </form>
             )}
           </div>
         </div>
       ) : (
         <div className="mt-4 bg-gray-50 border border-gray-200 rounded-2xl p-4 text-center text-gray-400 text-sm">
-          異쒕컻 媛?ν븳 ?좎쭨(珥덈줉??瑜??좏깮?섎㈃ ?붽툑???쒖떆?⑸땲??        </div>
+          출발 가능한 날짜(초록색)를 선택하면 요금이 표시됩니다
+        </div>
       )}
     </div>
   );
 }
-
