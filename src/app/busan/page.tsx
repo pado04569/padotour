@@ -9,7 +9,7 @@ const slides = [
     region: "후쿠오카",
     regionEn: "FUKUOKA",
     tagline: "가장 가까운 일본 · 규슈 명문 코스",
-    href: "/tours?country=japan&departure=busan",
+    href: "/tours?country=japan&region=후쿠오카&departure=busan",
   },
   {
     image: "/images/golf-main.jpg",

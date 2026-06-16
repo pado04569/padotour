@@ -9,7 +9,7 @@ const slides = [
     region: "홋카이도",
     regionEn: "HOKKAIDO",
     tagline: "한여름 평균 26도 시원시원한 라운딩",
-    href: "/tours?country=japan&departure=incheon",
+    href: "/tours?country=japan&region=북해도&departure=incheon",
   },
   {
     image: "/images/golf-main.jpg",
