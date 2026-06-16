@@ -37,7 +37,7 @@ const subTabs = [
 ];
 
 export default function BusanHome() {
-  const featuredIds = ["japan-beppu-kamenoi-busan", "japan-hokkaido-niseko", "thailand-chiangmai-4n6d", "thailand-chiangmai-3n5d"];
+  const featuredIds = ["japan-matsuyama-juraku-hiyori-busan", "japan-beppu-kamenoi-busan", "japan-hokkaido-niseko", "thailand-chiangmai-4n6d"];
   const monthlyTours = [
     ...tours.filter((t) => featuredIds.includes(t.id)),
     ...tours.filter((t) => !featuredIds.includes(t.id) && (t.departure === "busan" || t.departure === "both")),
