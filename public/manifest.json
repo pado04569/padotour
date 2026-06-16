@@ -2,7 +2,7 @@
   "name": "여행의 파도 | 골프여행 전문",
   "short_name": "여행의 파도",
   "description": "일본, 태국, 베트남, 필리핀 골프여행 전문 여행사",
-  "start_url": "/incheon",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0f5fa6",
