@@ -37,7 +37,7 @@ const subTabs = [
 ];
 
 export default function IncheonHome() {
-  const featuredIds = ["japan-hokkaido-sapporo-comfort", "japan-beppu-kamenoi", "japan-oita-pacific", "japan-tokyo-itako"];
+  const featuredIds = ["japan-matsuyama-juraku-hiyori", "japan-hokkaido-sapporo-comfort", "japan-beppu-kamenoi", "japan-oita-pacific"];
   const monthlyTours = [
     ...tours.filter((t) => featuredIds.includes(t.id)),
     ...tours.filter((t) => !featuredIds.includes(t.id) && (t.departure === "incheon" || t.departure === "both")),
