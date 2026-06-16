@@ -9,12 +9,16 @@ function ToursContent() {
   const searchParams = useSearchParams();
   const initialCountry = searchParams.get("country") || "all";
   const regionParam = searchParams.get("region") || "";
+  const departureParam = searchParams.get("departure") || "";
   const [selected, setSelected] = useState(initialCountry);
 
   const filtered = (() => {
     let result = selected === "all" ? tours : tours.filter((t) => t.countryCode === selected);
     if (regionParam) {
       result = result.filter((t) => t.region && t.region.includes(regionParam));
+    }
+    if (departureParam) {
+      result = result.filter((t) => t.departure === departureParam || t.departure === "both");
     }
     return result;
   })();
