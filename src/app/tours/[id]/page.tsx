@@ -190,17 +190,22 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 취소/환불 규정 ── */}
         {tour.cancelPolicy && tour.cancelPolicy.length > 0 && (
           <div className="mb-8">
-            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📌 취소·환불 규정</h2>
-            <div className="bg-yellow-50 border border-yellow-200 rounded-2xl p-5">
-              <p className="text-xs text-gray-500 mb-3">※ 항공 선발권 구매 후 취소 시 항공 취소수수료 별도 발생</p>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
-                {tour.cancelPolicy.map((item, i) => (
-                  <div key={i} className="bg-white rounded-lg px-3 py-2 text-xs text-gray-700 border border-yellow-100 text-center">
-                    {item}
-                  </div>
-                ))}
+            <details className="group bg-gray-50 border border-gray-200 rounded-xl">
+              <summary className="cursor-pointer list-none px-4 py-2.5 text-xs font-bold text-gray-500 flex items-center gap-1.5">
+                📌 취소·환불 규정 보기
+                <span className="text-gray-400 group-open:rotate-180 transition-transform">▾</span>
+              </summary>
+              <div className="px-4 pb-4">
+                <p className="text-[11px] text-gray-400 mb-2">※ 항공 선발권 구매 후 취소 시 항공 취소수수료 별도 발생</p>
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-1.5">
+                  {tour.cancelPolicy.map((item, i) => (
+                    <div key={i} className="bg-white rounded-md px-2 py-1.5 text-[11px] text-gray-500 border border-gray-100 text-center">
+                      {item}
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
+            </details>
           </div>
         )}
 
