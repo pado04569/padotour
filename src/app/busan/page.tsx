@@ -113,9 +113,9 @@ export default function BusanHome() {
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent flex items-center px-8 md:px-12">
             <div className="text-white">
-              <div className="text-xs md:text-sm font-bold text-yellow-300 mb-1">🇯🇵 일본 골프</div>
+              <div className="text-xs md:text-sm font-bold text-yellow-300 mb-1">일본 골프</div>
               <div className="text-xl md:text-3xl font-black leading-tight">
-                후쿠오카 · 오사카<br />
+                후쿠오카 · 삿포로 · 마쓰야마<br />
                 <span className="text-yellow-300">프리미엄 골프여행</span>
               </div>
               <div className="text-white/80 mt-1.5 text-xs md:text-sm">부산·김해공항 출발 · 항공 + 숙박 + 골프장 일괄 예약</div>
