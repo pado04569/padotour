@@ -1341,5 +1341,159 @@
     ],
     "badge": "부산출발 전용",
     "departure": "busan"
+  },
+  {
+    "id": "japan-hokkaido-sapporo-comfort",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "북해도",
+    "title": "삿포로 스스키노 컴포트호텔 3색54홀 골프패키지 3박4일",
+    "subtitle": "인천출발 진에어 LJ · 스스키노 사거리 도보 2분 컴포트호텔 · 신치토세+선파크+치산제니바꼬 3색54홀",
+    "nights": 3,
+    "days": 4,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": 54,
+    "minPeople": 4,
+    "period": "2026년 6월 ~ 9월",
+    "hotel": "컴포트호텔 삿포로 스스키노 (트윈룸)",
+    "hotelDesc": "삿포로 스스키노 사거리 도보 2분 · 시내 접근성 최고 · 조식 포함 · 2인1실 기준",
+    "golfCourse": "신치토세 C.C · 선파크 C.C · 치산제니바꼬 동급 C.C",
+    "golfCourseDesc": "18홀 × 3라운드 = 54홀 · 그린피+카트비 All 포함 · 공항/호텔-골프장 셔틀 포함",
+    "productSummary": "신치토세·선파크·치산제니바꼬 3색 54홀 · 컴포트호텔 스스키노 3박",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천출발",
+        "desc": "인천공항 08:00 출발 → 신치토세 공항 10:55 도착 → 현지 스탭 미팅 → 신치토세 C.C 18홀 라운딩 → 호텔 체크인 → 자유 산책(스스키노 사거리 도보 2분)"
+      },
+      {
+        "day": "2일차",
+        "label": "선파크 라운딩",
+        "desc": "호텔 조식 후 골프장 이동 → 선파크 C.C(동급) 18홀 라운딩 → 라운딩 후 자유 관광/쇼핑몰/맛집 탐방 → 호텔 투숙"
+      },
+      {
+        "day": "3일차",
+        "label": "치산제니바꼬 라운딩",
+        "desc": "호텔 조식 후 골프장 이동 → 치산제니바꼬 C.C(동급) 18홀 라운딩 → 라운딩 후 자유 관광/쇼핑몰/맛집 탐방 → 호텔 투숙"
+      },
+      {
+        "day": "4일차",
+        "label": "귀국",
+        "desc": "호텔 조식 후 체크아웃 → 공항으로 이동 → 신치토세 공항 11:55 출발 → 인천공항 14:45 도착"
+      }
+    ],
+    "highlights": [
+      "인천출발 진에어 LJ · 청주/김해 동급 항공사 이용 가능",
+      "스스키노 사거리 도보 2분 컴포트호텔 · 시내 접근성 최고",
+      "신치토세·선파크·치산제니바꼬 3색 54홀 그린피+카트비 All 포함",
+      "라운딩 후 해물천국·니조시장·삿포로타워·삿포로 맥주가든 등 자유 관광",
+      "최소 4인부터 출발 가능 · 6월~9월 시원한 여름 골프"
+    ],
+    "includes": [
+      "왕복 항공권 (유류관련 총택스 포함)",
+      "공항/호텔-골프장 간 셔틀",
+      "컴포트호텔 스스키노 3박 (트윈룸)",
+      "전일정 조식",
+      "54홀 그린피 (18+18+18홀)",
+      "카트비"
+    ],
+    "excludes": [
+      "중식·석식",
+      "현지 케어비 1인 8,000엔 (사전 지불)",
+      "여행자보험·개인 경비",
+      "매너팁·써차지"
+    ],
+    "cancelPolicy": [
+      "예약 후: 100,000원",
+      "출발 30일전: 15% / 21일전: 25% / 14일전: 40%",
+      "출발 10일전: 60% / 7일전: 70% / 4일전: 80% / 3일전: 90% / 2일전부터: 100%",
+      "※ 항공 선발권 후 캔슬할 경우 항공 캔슬차지 별도 발생"
+    ],
+    "departurePrices": [
+      { "date": "2026-06-14", "price": 1399000 },
+      { "date": "2026-06-16", "price": 1649000 },
+      { "date": "2026-06-17", "price": 1569000 },
+      { "date": "2026-06-18", "price": 1669000 },
+      { "date": "2026-06-19", "price": 1749000 },
+      { "date": "2026-06-21", "price": 1549000 },
+      { "date": "2026-06-22", "price": 1599000 },
+      { "date": "2026-06-23", "price": 1399000 },
+      { "date": "2026-06-24", "price": 1499000 },
+      { "date": "2026-06-25", "price": 1649000 },
+      { "date": "2026-06-26", "price": 1749000 },
+      { "date": "2026-06-28", "price": 1599000 },
+      { "date": "2026-06-29", "price": 1569000 },
+      { "date": "2026-06-30", "price": 1899000 },
+      { "date": "2026-07-05", "price": 1549000 },
+      { "date": "2026-07-07", "price": 1599000 },
+      { "date": "2026-07-08", "price": 1649000 },
+      { "date": "2026-07-09", "price": 1899000 },
+      { "date": "2026-07-12", "price": 1549000 },
+      { "date": "2026-07-14", "price": 1599000 },
+      { "date": "2026-07-15", "price": 1929000 },
+      { "date": "2026-07-20", "price": 1569000 },
+      { "date": "2026-07-21", "price": 1649000 },
+      { "date": "2026-07-22", "price": 1779000 },
+      { "date": "2026-07-23", "price": 1999000 },
+      { "date": "2026-07-26", "price": 1869000 },
+      { "date": "2026-07-27", "price": 1829000 },
+      { "date": "2026-07-28", "price": 1869000 },
+      { "date": "2026-07-29", "price": 1949000 },
+      { "date": "2026-07-30", "price": 2149000 },
+      { "date": "2026-07-31", "price": 2099000 },
+      { "date": "2026-08-02", "price": 1999000 },
+      { "date": "2026-08-03", "price": 1899000 },
+      { "date": "2026-08-04", "price": 1829000 },
+      { "date": "2026-08-06", "price": 1949000 },
+      { "date": "2026-08-07", "price": 2049000 },
+      { "date": "2026-08-08", "price": 1999000 },
+      { "date": "2026-08-10", "price": 1749000 },
+      { "date": "2026-08-11", "price": 1749000 },
+      { "date": "2026-08-12", "price": 1699000 },
+      { "date": "2026-08-14", "price": 2249000 },
+      { "date": "2026-08-16", "price": 1699000 },
+      { "date": "2026-08-17", "price": 1549000 },
+      { "date": "2026-08-18", "price": 1449000 },
+      { "date": "2026-08-19", "price": 1549000 },
+      { "date": "2026-08-20", "price": 1799000 },
+      { "date": "2026-08-22", "price": 1699000 },
+      { "date": "2026-08-23", "price": 1549000 },
+      { "date": "2026-08-24", "price": 1499000 },
+      { "date": "2026-08-25", "price": 1449000 },
+      { "date": "2026-08-26", "price": 1499000 },
+      { "date": "2026-08-27", "price": 1799000 },
+      { "date": "2026-08-30", "price": 1449000 },
+      { "date": "2026-08-31", "price": 1349000 },
+      { "date": "2026-09-01", "price": 1349000 },
+      { "date": "2026-09-03", "price": 1779000 },
+      { "date": "2026-09-06", "price": 1399000 },
+      { "date": "2026-09-07", "price": 1349000 },
+      { "date": "2026-09-08", "price": 1349000 }
+    ],
+    "hotelImages": [
+      "/images/hokkaido-sapporo-comfort/hotel-1.jpg",
+      "/images/hokkaido-sapporo-comfort/hotel-2.jpg",
+      "/images/hokkaido-sapporo-comfort/hotel-3.jpg",
+      "/images/hokkaido-sapporo-comfort/hotel-4.jpg",
+      "/images/hokkaido-sapporo-comfort/hotel-5.jpg",
+      "/images/hokkaido-sapporo-comfort/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/hokkaido-sapporo-comfort/course-1.jpg",
+      "/images/hokkaido-sapporo-comfort/course-2.jpg",
+      "/images/hokkaido-sapporo-comfort/course-3.jpg",
+      "/images/hokkaido-sapporo-comfort/course-4.jpg",
+      "/images/hokkaido-sapporo-comfort/course-5.jpg",
+      "/images/hokkaido-sapporo-comfort/course-6.jpg"
+    ],
+    "price": "1,349,000원~",
+    "image": "/images/hokkaido-sapporo-comfort/course-6.jpg",
+    "images": [
+      "/images/hokkaido-sapporo-comfort/course-6.jpg",
+      "/images/hokkaido-sapporo-comfort/hotel-1.jpg"
+    ],
+    "badge": "인천출발 전용",
+    "departure": "incheon"
   }
 ]
