@@ -5,13 +5,14 @@ import path from "path";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
 
-const ADMIN_PASSWORD = "pado2025";
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
 const DATA_DIR = path.join(process.cwd(), "src", "data");
 
 // ===== 인증 =====
 export async function loginAction(formData: FormData) {
   const pw = formData.get("password") as string;
-  if (pw === ADMIN_PASSWORD) {
+  // 환경변수에 비밀번호가 설정돼 있어야만 로그인 허용 (미설정 시 항상 거부)
+  if (ADMIN_PASSWORD && pw === ADMIN_PASSWORD) {
     const cookieStore = await cookies();
     cookieStore.set("admin_auth", "true", {
       httpOnly: true,
