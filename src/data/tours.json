@@ -3371,19 +3371,18 @@
       "/images/takamatsu-shido/sarai-2.jpg"
     ],
     "courseImages": [
-      "/images/takamatsu-shido/course-1.jpg",
-      "/images/takamatsu-shido/course-2.jpg",
       "/images/takamatsu-shido/course-3.jpg",
       "/images/takamatsu-shido/course-4.jpg",
+      "/images/takamatsu-shido/course-6.jpg",
       "/images/takamatsu-shido/course-5.jpg",
-      "/images/takamatsu-shido/course-6.jpg"
+      "/images/takamatsu-shido/course-2.jpg"
     ],
     "price": "1,049,000원~",
-    "image": "/images/takamatsu-shido/course-1.jpg",
+    "image": "/images/takamatsu-shido/course-3.jpg",
     "images": [
-      "/images/takamatsu-shido/course-1.jpg",
-      "/images/takamatsu-shido/course-2.jpg",
-      "/images/takamatsu-shido/course-3.jpg"
+      "/images/takamatsu-shido/course-3.jpg",
+      "/images/takamatsu-shido/course-4.jpg",
+      "/images/takamatsu-shido/course-6.jpg"
     ],
     "badge": "인천출발 신규",
     "departure": "incheon"

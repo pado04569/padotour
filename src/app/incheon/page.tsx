@@ -41,11 +41,7 @@ export default function IncheonHome() {
   const monthlyTours = [
     ...tours.filter((t) => featuredIds.includes(t.id)),
     ...tours.filter((t) => !featuredIds.includes(t.id) && (t.departure === "incheon" || t.departure === "both")),
-  ].slice(0, 4);
-
-  const japanTours = tours
-    .filter((t) => (t.departure === "incheon" || t.departure === "both") && t.countryCode === "japan")
-    .slice(0, 3);
+  ].slice(0, 8);
 
   const allIncheonTours = tours.filter(
     (t) => t.departure === "incheon" || t.departure === "both"
@@ -128,58 +124,9 @@ export default function IncheonHome() {
         </Link>
       </section>
 
-      {/* ===== 추천 리조트 (3단) ===== */}
+      {/* ===== 전체 상품 보기 ===== */}
       <section className="max-w-6xl mx-auto px-4 mb-10 md:mb-14">
-        <h2 className="text-xl md:text-2xl font-black text-gray-800 mb-5 pb-2 border-b-2 border-emerald-500 inline-block">
-          추천 골프 리조트
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          {[
-            {
-              image: "/images/golf-main.jpg",
-              tag: "일본 홋카이도",
-              title: "루스츠 리조트",
-              subtitle: "일본 여름골프 No.1",
-              desc: "72홀 대규모 종합 골프리조트",
-              href: "/tours?country=japan&departure=incheon",
-              color: "from-blue-900/70",
-            },
-            {
-              image: "/images/golf-main.jpg",
-              tag: "태국 방콕",
-              title: "알파인 골프클럽",
-              subtitle: "아시아 탑 100 명문 코스",
-              desc: "합리적인 그린피 · 수준급 코스 컨디션",
-              href: "/tours?country=thailand&departure=incheon",
-              color: "from-emerald-900/70",
-            },
-            {
-              image: "/images/golf-main.jpg",
-              tag: "코타키나발루",
-              title: "수테라 하버 리조트",
-              subtitle: "석양이 아름다운 해변 골프",
-              desc: "열대 밀림 뷰 · 18홀 챔피언십 코스",
-              href: "/tours?country=malaysia&departure=incheon",
-              color: "from-orange-900/70",
-            },
-          ].map((item) => (
-            <Link key={item.title} href={item.href} className="group block relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-shadow">
-              <img
-                src={item.image}
-                alt={item.title}
-                className="w-full h-52 md:h-64 object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className={`absolute inset-0 bg-gradient-to-t ${item.color} to-transparent`} />
-              <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
-                <div className="text-xs font-bold text-yellow-300 mb-1">[{item.tag}]</div>
-                <div className="text-lg md:text-xl font-black leading-tight">{item.title}</div>
-                <div className="text-white/90 text-xs mt-0.5">{item.subtitle}</div>
-                <div className="text-white/70 text-xs mt-0.5">{item.desc}</div>
-              </div>
-            </Link>
-          ))}
-        </div>
-        <div className="text-center mt-6">
+        <div className="text-center">
           <Link
             href="/tours?departure=incheon"
             className="inline-block border-2 border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white font-bold px-8 py-3 rounded-full text-base transition-colors"
