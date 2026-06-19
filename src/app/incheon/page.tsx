@@ -6,8 +6,8 @@ import { tours } from "@/data/tours";
 const slides = [
   {
     image: "/images/golf-main.jpg",
-    region: "홋카이도",
-    regionEn: "HOKKAIDO",
+    region: "북해도",
+    regionEn: "SAPPORO",
     tagline: "한여름 평균 26도 시원시원한 라운딩",
     href: "/tours?country=japan&region=북해도&departure=incheon",
   },
