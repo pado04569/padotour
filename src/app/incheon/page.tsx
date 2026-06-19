@@ -37,10 +37,10 @@ const subTabs = [
 ];
 
 export default function IncheonHome() {
-  const featuredIds = ["japan-matsuyama-juraku-hiyori", "japan-hokkaido-sapporo-comfort", "japan-beppu-kamenoi", "japan-oita-pacific"];
+  const featuredIds = ["japan-takamatsu-shido", "japan-matsuyama-juraku-hiyori", "japan-hokkaido-sapporo-comfort", "japan-beppu-kamenoi", "japan-oita-pacific"];
   const monthlyTours = [
     ...tours.filter((t) => featuredIds.includes(t.id)),
-    ...tours.filter((t) => !featuredIds.includes(t.id) && (t.departure === "incheon" || t.departure === "both")),
+    ...tours.filter((t) => !featuredIds.includes(t.id) && (t.departure === "incheon" || t.departure === "both") && t.price !== "문의"),
   ].slice(0, 8);
 
   const allIncheonTours = tours.filter(

@@ -40,7 +40,7 @@ export default function BusanHome() {
   const featuredIds = ["japan-matsuyama-juraku-hiyori-busan", "japan-beppu-kamenoi-busan", "japan-hokkaido-niseko", "thailand-chiangmai-4n6d"];
   const monthlyTours = [
     ...tours.filter((t) => featuredIds.includes(t.id)),
-    ...tours.filter((t) => !featuredIds.includes(t.id) && (t.departure === "busan" || t.departure === "both")),
+    ...tours.filter((t) => !featuredIds.includes(t.id) && (t.departure === "busan" || t.departure === "both") && t.price !== "문의"),
   ].slice(0, 8);
 
   const allBusanTours = tours.filter(
