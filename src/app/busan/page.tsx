@@ -129,7 +129,7 @@ export default function BusanHome() {
         <div className="text-center">
           <Link
             href="/tours?departure=busan"
-            className="inline-block border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-bold px-8 py-3 rounded-full text-base transition-colors"
+            className="inline-block min-w-[340px] border-2 border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-700 font-bold px-8 py-3 rounded-full text-base transition-colors"
           >
             전체 상품 보기 ({allBusanTours.length}개)
           </Link>

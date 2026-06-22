@@ -125,7 +125,7 @@ export default function Header({ departure }: HeaderProps) {
               NOTICE
             </span>
             <span className="truncate text-[11px] md:text-xs">
-              🔔 여행의 파도 골프전문 여행사 · 서울보증보험 가입 여행사
+              여행의 파도 골프전문 여행사 · 서울보증보험 가입 여행사
             </span>
           </div>
           <a
