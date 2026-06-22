@@ -73,14 +73,14 @@ export default function Footer({ departure }: FooterProps) {
         </div>
       </div>
 
-    <div className="bg-blue-600 text-white/90 py-10">
+    <div className="bg-gray-100 text-gray-600 py-10 border-t border-gray-200">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           {/* 여행사 정보 */}
           <div>
             <div className="flex items-center gap-2 mb-3">
               <span className="text-2xl">⛳</span>
-              <span className="text-white text-xl font-bold">여행의 파도</span>
+              <span className="text-gray-800 text-xl font-bold">여행의 파도</span>
               {departure && (
                 <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${
                   departure === "incheon"
@@ -102,12 +102,12 @@ export default function Footer({ departure }: FooterProps) {
 
           {/* 연락처 */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-3">연락처</h3>
+            <h3 className="text-gray-800 font-bold text-lg mb-3">연락처</h3>
             <div className="space-y-3">
               {d.phones.map((p) => (
                 <a key={p.href} href={p.href} className="flex items-center gap-2 group">
-                  <span className="text-yellow-400 text-lg">📞</span>
-                  <span className="text-yellow-300 group-hover:text-yellow-200 font-bold text-lg transition-colors">
+                  <span className="text-emerald-600 text-lg">📞</span>
+                  <span className="text-emerald-600 group-hover:text-emerald-700 font-bold text-lg transition-colors">
                     {p.label}
                   </span>
                 </a>
@@ -116,14 +116,14 @@ export default function Footer({ departure }: FooterProps) {
                 href="https://pf.kakao.com/_bxoxnXxj/chat"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:text-white transition-colors text-sm text-gray-400 mt-1"
+                className="flex items-center gap-2 hover:text-gray-800 transition-colors text-sm text-gray-500 mt-1"
               >
                 <span>💬</span> 카카오톡 채널 상담
               </a>
-              <a href={d.blog} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors text-sm text-gray-400">
+              <a href={d.blog} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-gray-800 transition-colors text-sm text-gray-500">
                 <span>📝</span> 네이버 블로그
               </a>
-              <a href={d.band} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors text-sm text-gray-400">
+              <a href={d.band} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-gray-800 transition-colors text-sm text-gray-500">
                 <span>📣</span> 네이버 밴드
               </a>
             </div>
@@ -131,7 +131,7 @@ export default function Footer({ departure }: FooterProps) {
 
           {/* 상담 시간 */}
           <div>
-            <h3 className="text-white font-bold text-lg mb-3">상담 시간</h3>
+            <h3 className="text-gray-800 font-bold text-lg mb-3">상담 시간</h3>
             <div className="space-y-1 text-sm">
               <p>평일: 오전 9시 ~ 오후 6시</p>
               <p>토요일: 오전 9시 ~ 오후 2시</p>
@@ -140,7 +140,7 @@ export default function Footer({ departure }: FooterProps) {
           </div>
         </div>
 
-        <div className="border-t border-blue-500 mt-8 pt-6 text-xs text-blue-200 text-center">
+        <div className="border-t border-gray-200 mt-8 pt-6 text-xs text-gray-400 text-center">
           <p>© 2025 여행의 파도. All rights reserved.</p>
           <p className="mt-1">골프여행 예약은 항공·숙박·골프장 상황에 따라 요금이 변동될 수 있습니다.</p>
         </div>
