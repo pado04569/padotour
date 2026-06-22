@@ -66,7 +66,6 @@ export default function Footer({ departure }: FooterProps) {
             <div className="space-y-3">
               {d.phones.map((p) => (
                 <a key={p.href} href={p.href} className="flex items-center gap-2 group">
-                  <span className="text-emerald-600 text-lg">📞</span>
                   <span className="text-emerald-600 group-hover:text-emerald-700 font-bold text-lg transition-colors">
                     {p.label}
                   </span>
@@ -78,13 +77,13 @@ export default function Footer({ departure }: FooterProps) {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-gray-800 transition-colors text-sm text-gray-500 mt-1"
               >
-                <span>💬</span> 카카오톡 채널 상담
+카카오톡 채널 상담
               </a>
               <a href={d.blog} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-gray-800 transition-colors text-sm text-gray-500">
-                <span>📝</span> 네이버 블로그
+네이버 블로그
               </a>
               <a href={d.band} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-gray-800 transition-colors text-sm text-gray-500">
-                <span>📣</span> 네이버 밴드
+네이버 밴드
               </a>
             </div>
           </div>

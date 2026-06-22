@@ -121,7 +121,7 @@ export default function Header({ departure }: HeaderProps) {
       <div className="bg-white text-gray-600 text-xs border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-4 py-1.5 flex items-center justify-between gap-2">
           <div className="flex items-center gap-2 overflow-hidden min-w-0">
-            <span className="flex-shrink-0 bg-emerald-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wide">
+            <span className="flex-shrink-0 bg-blue-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wide">
               NOTICE
             </span>
             <span className="truncate text-[11px] md:text-xs">
@@ -132,7 +132,7 @@ export default function Header({ departure }: HeaderProps) {
             href="https://pf.kakao.com/_bxoxnXxj/chat"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-shrink-0 bg-emerald-600 hover:bg-emerald-500 text-white text-[11px] font-bold px-3 py-0.5 rounded transition-colors"
+            className="flex-shrink-0 bg-blue-600 hover:bg-blue-500 text-white text-[11px] font-bold px-3 py-0.5 rounded transition-colors"
           >
             예약확인
           </a>

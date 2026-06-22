@@ -125,7 +125,7 @@ export default function IncheonHome() {
       </section>
 
       {/* ===== 전체 상품 보기 ===== */}
-      <section className="max-w-6xl mx-auto px-4 mb-6">
+      <section className="max-w-6xl mx-auto px-4 py-12">
         <div className="text-center">
           <Link
             href="/tours?departure=incheon"
