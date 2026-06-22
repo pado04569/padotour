@@ -90,7 +90,7 @@ export default function IncheonHome() {
                   />
                 </div>
                 <div className="p-3">
-                  <p className="text-sm text-gray-800 font-medium leading-snug line-clamp-2 group-hover:text-emerald-600 transition-colors">
+                  <p className="text-sm text-gray-800 font-medium leading-snug line-clamp-2 min-h-[2.5rem] group-hover:text-emerald-600 transition-colors">
                     {tour.title}
                   </p>
                   <p className="text-emerald-600 font-bold text-sm mt-1.5">
@@ -109,7 +109,7 @@ export default function IncheonHome() {
           <img
             src="/images/golf-main.jpg"
             alt="일본 골프여행 특가"
-            className="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-500"
+            className="w-full h-56 md:h-96 object-cover group-hover:scale-105 transition-transform duration-500"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent flex items-center px-8 md:px-12">
             <div className="text-white">
