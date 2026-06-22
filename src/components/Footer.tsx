@@ -32,7 +32,7 @@ export default function Footer({ departure }: FooterProps) {
   const d = departure ? info[departure] : info.default;
 
   return (
-    <footer className="mt-16">
+    <footer className="mt-8">
     <div className="bg-gray-100 text-gray-600 py-10 border-t border-gray-200">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between gap-8">
