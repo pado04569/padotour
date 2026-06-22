@@ -99,8 +99,8 @@ export default function Header({ departure }: HeaderProps) {
 
   const navItems = buildNav(departure);
 
-  const accentColor = "bg-blue-600";
-  const hoverAccent = "hover:bg-blue-500";
+  const accentColor = "bg-white";
+  const hoverAccent = "hover:bg-gray-100";
 
   const homeHref =
     departure === "incheon" ? "/incheon" :
@@ -118,7 +118,7 @@ export default function Header({ departure }: HeaderProps) {
     <header className="bg-white shadow-md sticky top-0 z-50">
 
       {/* ══ 1단: 공지바 ══ */}
-      <div className="bg-blue-600 text-white/90 text-xs">
+      <div className="bg-white text-gray-600 text-xs border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-4 py-1.5 flex items-center justify-between gap-2">
           <div className="flex items-center gap-2 overflow-hidden min-w-0">
             <span className="flex-shrink-0 bg-emerald-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wide">
@@ -190,7 +190,7 @@ export default function Header({ departure }: HeaderProps) {
       </div>
 
       {/* ══ 3단: 국가 네비 (데스크톱) ══ */}
-      <div className={`${accentColor} hidden md:block`}>
+      <div className={`${accentColor} border-b border-gray-200 hidden md:block`}>
         <div className="max-w-6xl mx-auto px-4">
           <div className="flex items-center justify-between">
             <div className="flex flex-1 items-center justify-evenly">
@@ -203,7 +203,7 @@ export default function Header({ departure }: HeaderProps) {
                 >
                   <Link
                     href={item.href}
-                    className={`block text-white/85 hover:text-white ${hoverAccent} font-semibold px-4 py-3 text-sm transition-colors whitespace-nowrap`}
+                    className={`block text-gray-700 hover:text-black ${hoverAccent} font-semibold px-4 py-3 text-sm transition-colors whitespace-nowrap`}
                   >
                     {item.label}
                   </Link>
@@ -224,14 +224,14 @@ export default function Header({ departure }: HeaderProps) {
               ))}
             </div>
 
-            <div className="w-px h-6 bg-white/20 mx-2" />
+            <div className="w-px h-6 bg-gray-200 mx-2" />
 
             <div
               className="relative"
               onMouseEnter={() => setCommunityOpen(true)}
               onMouseLeave={() => setCommunityOpen(false)}
             >
-              <button className={`flex items-center justify-center gap-1 text-white/85 hover:text-white ${hoverAccent} font-semibold w-[118px] py-3 text-sm transition-colors whitespace-nowrap`}>
+              <button className={`flex items-center justify-center gap-1 text-gray-700 hover:text-black ${hoverAccent} font-semibold w-[118px] py-3 text-sm transition-colors whitespace-nowrap`}>
                 커뮤니티
                 <svg className="w-3 h-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
