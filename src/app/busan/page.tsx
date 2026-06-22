@@ -109,7 +109,7 @@ export default function BusanHome() {
           <img
             src="/images/golf-main.jpg"
             alt="일본 골프여행 특가"
-            className="w-full h-32 md:h-44 object-cover group-hover:scale-105 transition-transform duration-500"
+            className="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-500"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent flex items-center px-8 md:px-12">
             <div className="text-white">
@@ -131,7 +131,7 @@ export default function BusanHome() {
             href="/tours?departure=busan"
             className="inline-block border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-bold px-8 py-3 rounded-full text-base transition-colors"
           >
-            부산출발 전체 상품 보기 ({allBusanTours.length}개)
+            전체 상품 보기 ({allBusanTours.length}개)
           </Link>
         </div>
       </section>

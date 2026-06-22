@@ -109,7 +109,7 @@ export default function IncheonHome() {
           <img
             src="/images/golf-main.jpg"
             alt="일본 골프여행 특가"
-            className="w-full h-32 md:h-44 object-cover group-hover:scale-105 transition-transform duration-500"
+            className="w-full h-48 md:h-72 object-cover group-hover:scale-105 transition-transform duration-500"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent flex items-center px-8 md:px-12">
             <div className="text-white">
@@ -131,7 +131,7 @@ export default function IncheonHome() {
             href="/tours?departure=incheon"
             className="inline-block border-2 border-emerald-600 text-emerald-600 hover:bg-emerald-600 hover:text-white font-bold px-8 py-3 rounded-full text-base transition-colors"
           >
-            인천출발 전체 상품 보기 ({allIncheonTours.length}개)
+            전체 상품 보기 ({allIncheonTours.length}개)
           </Link>
         </div>
       </section>

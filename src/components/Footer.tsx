@@ -39,7 +39,7 @@ export default function Footer({ departure }: FooterProps) {
           {/* 여행사 정보 */}
           <div>
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-2xl">⛳</span>
+              <img src="/images/logo.png" alt="여행의 파도" className="w-9 h-9 rounded-full" />
               <span className="text-gray-800 text-xl font-bold">여행의 파도</span>
               {departure && (
                 <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${
@@ -51,7 +51,7 @@ export default function Footer({ departure }: FooterProps) {
                 </span>
               )}
             </div>
-            <p className="text-sm text-white/90 mb-4">골프전문 여행사</p>
+            <p className="text-sm text-gray-700 mb-4">골프전문 여행사</p>
             <div className="space-y-1 text-sm">
               <p>상호명: 여행의 파도</p>
               <p>대표: 이지안</p>
