@@ -5493,5 +5493,302 @@
     ],
     "badge": "인천출발 신규",
     "departure": "incheon"
+  },
+  {
+    "id": "china-hainan-missionhills",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "하이난",
+    "title": "하이난 미션힐스 남코스 골프 3박4일 (180홀 메머드급)",
+    "subtitle": "기네스북 등재 세계 최대 골프 리조트 · 아시아 No.1 프리미엄 코스 · 대한항공",
+    "nights": 3,
+    "days": 4,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": 72,
+    "minPeople": 2,
+    "period": "2026년 5월 ~ 10월 (수·금 출발)",
+    "hotel": "미션힐스 리조트 본관 (2인1실)",
+    "hotelDesc": "기네스북에 등재된 미션힐스 리조트 본관 3박(2인1실). 최고의 서비스와 완벽한 휴식을 갖춘 럭셔리 리조트로, 골프와 휴양을 동시에 즐기실 수 있습니다.",
+    "golfCourse": "미션힐스 남코스 (180홀 메머드급, 아시아 No.1)",
+    "golfCourseDesc": "세계 최대 규모 180홀 메머드급의 미션힐스 남코스에서 라운딩(2일차 27홀, 3일차 27홀, 4일차 18홀). 아시아 No.1으로 평가받는 프리미엄 골프 코스에서 완벽한 라운드를 경험하실 수 있습니다.",
+    "productSummary": "미션힐스 남코스 180홀 메머드급  ·  리조트 본관 3박  ·  대한항공",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 해구",
+        "desc": "인천공항 수속 후 대한항공 21:15 탑승 → 해구 공항 00:35(익일) 도착 → 입국수속 후 가이드 미팅 → 리조트 이동 및 체크인 → 석식 후 휴식 [석: 현지식 또는 한식]"
+      },
+      {
+        "day": "2일차",
+        "label": "하이난 (미션힐스 남코스 27홀)",
+        "desc": "조식 후 가이드 미팅 → 미션힐스 남코스 27홀 라운딩 → 라운딩 후 리조트 복귀 → 석식 후 휴식 [조: 호텔식 / 중: 불포함 / 석: 현지식 또는 한식]"
+      },
+      {
+        "day": "3일차",
+        "label": "하이난 (미션힐스 남코스 27홀)",
+        "desc": "조식 후 가이드 미팅 → 미션힐스 남코스 27홀 라운딩 → 라운딩 후 리조트 복귀 → 석식 후 휴식 [조: 호텔식 / 중: 불포함 / 석: 현지식 또는 한식]"
+      },
+      {
+        "day": "4일차",
+        "label": "하이난 → 인천 (미션힐스 남코스 18홀)",
+        "desc": "조식 후 미션힐스 남코스 18홀 라운딩 → 리조트 체크아웃 → 공항 이동 → 해구 공항 15:05 출발 → 인천국제공항 20:10 도착 / 개별 해산 [조: 호텔식 / 중: 불포함]"
+      }
+    ],
+    "highlights": [
+      "기네스북 등재 세계 최대 골프 리조트 미션힐스",
+      "180홀 메머드급 · 아시아 No.1 프리미엄 골프 코스",
+      "미션힐스 리조트 본관 3박 · 럭셔리 휴식",
+      "대한항공 · 수·금 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (유류세·TAX 포함)",
+      "미션힐스 리조트 본관 숙박 (2인1실)",
+      "전 일정 식사 (조식·석식)",
+      "그린피",
+      "전 일정 차량",
+      "가이드 및 기사팁"
+    ],
+    "excludes": [
+      "카트 + 캐디피 1일 $75 (1인) · 현지 지불",
+      "중식 1회 $15 · 현지 지불",
+      "미팅·샌딩비 $50 (1인) · 현지 지불"
+    ],
+    "cancelPolicy": [
+      "수·금 출발 기준, 추석 연휴 출발은 별도 문의",
+      "현지 지불 금액(카트·캐디피·중식·미팅샌딩비)은 현지 사정에 따라 변동될 수 있음",
+      "상기 일정은 항공 및 현지 사정에 따라 변경될 수 있음"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-05-01",
+        "price": 690000
+      },
+      {
+        "date": "2026-05-06",
+        "price": 690000
+      },
+      {
+        "date": "2026-05-08",
+        "price": 690000
+      },
+      {
+        "date": "2026-05-13",
+        "price": 690000
+      },
+      {
+        "date": "2026-05-15",
+        "price": 690000
+      },
+      {
+        "date": "2026-05-20",
+        "price": 690000
+      },
+      {
+        "date": "2026-05-22",
+        "price": 690000
+      },
+      {
+        "date": "2026-05-27",
+        "price": 690000
+      },
+      {
+        "date": "2026-05-29",
+        "price": 690000
+      },
+      {
+        "date": "2026-06-03",
+        "price": 690000
+      },
+      {
+        "date": "2026-06-05",
+        "price": 690000
+      },
+      {
+        "date": "2026-06-10",
+        "price": 690000
+      },
+      {
+        "date": "2026-06-12",
+        "price": 690000
+      },
+      {
+        "date": "2026-06-17",
+        "price": 690000
+      },
+      {
+        "date": "2026-06-19",
+        "price": 690000
+      },
+      {
+        "date": "2026-06-24",
+        "price": 690000
+      },
+      {
+        "date": "2026-06-26",
+        "price": 690000
+      },
+      {
+        "date": "2026-07-01",
+        "price": 740000
+      },
+      {
+        "date": "2026-07-03",
+        "price": 740000
+      },
+      {
+        "date": "2026-07-08",
+        "price": 740000
+      },
+      {
+        "date": "2026-07-10",
+        "price": 740000
+      },
+      {
+        "date": "2026-07-15",
+        "price": 740000
+      },
+      {
+        "date": "2026-07-17",
+        "price": 740000
+      },
+      {
+        "date": "2026-07-22",
+        "price": 740000
+      },
+      {
+        "date": "2026-07-24",
+        "price": 740000
+      },
+      {
+        "date": "2026-07-29",
+        "price": 740000
+      },
+      {
+        "date": "2026-07-31",
+        "price": 740000
+      },
+      {
+        "date": "2026-08-05",
+        "price": 740000
+      },
+      {
+        "date": "2026-08-07",
+        "price": 740000
+      },
+      {
+        "date": "2026-08-12",
+        "price": 740000
+      },
+      {
+        "date": "2026-08-14",
+        "price": 740000
+      },
+      {
+        "date": "2026-08-19",
+        "price": 740000
+      },
+      {
+        "date": "2026-08-21",
+        "price": 740000
+      },
+      {
+        "date": "2026-08-26",
+        "price": 740000
+      },
+      {
+        "date": "2026-08-28",
+        "price": 740000
+      },
+      {
+        "date": "2026-09-02",
+        "price": 770000
+      },
+      {
+        "date": "2026-09-04",
+        "price": 770000
+      },
+      {
+        "date": "2026-09-09",
+        "price": 770000
+      },
+      {
+        "date": "2026-09-11",
+        "price": 770000
+      },
+      {
+        "date": "2026-09-16",
+        "price": 770000
+      },
+      {
+        "date": "2026-09-18",
+        "price": 770000
+      },
+      {
+        "date": "2026-09-30",
+        "price": 770000
+      },
+      {
+        "date": "2026-10-02",
+        "price": 770000
+      },
+      {
+        "date": "2026-10-07",
+        "price": 770000
+      },
+      {
+        "date": "2026-10-09",
+        "price": 770000
+      },
+      {
+        "date": "2026-10-14",
+        "price": 770000
+      },
+      {
+        "date": "2026-10-16",
+        "price": 770000
+      },
+      {
+        "date": "2026-10-21",
+        "price": 770000
+      },
+      {
+        "date": "2026-10-23",
+        "price": 770000
+      },
+      {
+        "date": "2026-10-28",
+        "price": 770000
+      },
+      {
+        "date": "2026-10-30",
+        "price": 770000
+      }
+    ],
+    "hotelImages": [
+      "/images/hainan-missionhills/hotel-1.jpg",
+      "/images/hainan-missionhills/hotel-2.jpg",
+      "/images/hainan-missionhills/hotel-3.jpg",
+      "/images/hainan-missionhills/hotel-4.jpg",
+      "/images/hainan-missionhills/hotel-5.jpg",
+      "/images/hainan-missionhills/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/hainan-missionhills/course-1.jpg",
+      "/images/hainan-missionhills/course-2.jpg",
+      "/images/hainan-missionhills/course-3.jpg",
+      "/images/hainan-missionhills/course-4.jpg",
+      "/images/hainan-missionhills/course-5.jpg",
+      "/images/hainan-missionhills/course-6.jpg"
+    ],
+    "price": "690,000원~",
+    "image": "/images/hainan-missionhills/course-1.jpg",
+    "images": [
+      "/images/hainan-missionhills/course-1.jpg",
+      "/images/hainan-missionhills/course-2.jpg",
+      "/images/hainan-missionhills/course-3.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon"
   }
 ]
