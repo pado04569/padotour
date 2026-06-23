@@ -11,7 +11,7 @@ export default function ContactOptions() {
     <div className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className="w-full bg-blue-500 hover:bg-blue-700 text-white font-black px-8 py-4 rounded-2xl text-base transition-colors flex items-center justify-center gap-2"
+        className="w-full bg-blue-100 hover:bg-blue-200 text-blue-700 border border-blue-200 font-black px-8 py-4 rounded-2xl text-base transition-colors flex items-center justify-center gap-2"
       >
         📞 예약 문의 · 맞춤 견적
         <span className={`transition-transform duration-200 ${open ? "rotate-180" : ""}`}>▼</span>
