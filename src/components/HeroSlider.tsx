@@ -74,6 +74,22 @@ export default function HeroSlider({ slides }: Props) {
         </Link>
       </div>
 
+      {/* 좌우 화살표 (PC 전용 — 모바일은 스와이프) */}
+      <button
+        onClick={() => goTo(-1)}
+        aria-label="이전"
+        className="hidden md:flex absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white w-12 h-12 rounded-full items-center justify-center text-2xl transition-colors"
+      >
+        ‹
+      </button>
+      <button
+        onClick={() => goTo(1)}
+        aria-label="다음"
+        className="hidden md:flex absolute right-4 lg:right-8 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white w-12 h-12 rounded-full items-center justify-center text-2xl transition-colors"
+      >
+        ›
+      </button>
+
       {/* 하단 점 인디케이터 */}
       <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2">
         {slides.map((_, i) => (
