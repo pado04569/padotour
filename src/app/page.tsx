@@ -20,15 +20,15 @@ export default function Home() {
       </div>
 
       {/* 출발지 선택 카드 */}
-      <div className="flex flex-col sm:flex-row gap-3 w-full max-w-sm sm:max-w-lg">
+      <div className="flex flex-col sm:flex-row gap-5 w-full max-w-md sm:max-w-2xl">
         {/* 인천출발 */}
         <Link
           href="/incheon"
-          className="flex-1 group bg-white border-2 border-gray-200 hover:border-blue-500 rounded-2xl p-5 text-center shadow-md hover:shadow-xl transition-all duration-200"
+          className="flex-1 group bg-white border-2 border-gray-200 hover:border-blue-500 rounded-2xl p-8 md:p-10 text-center shadow-md hover:shadow-xl transition-all duration-200"
         >
-          <div className="text-3xl mb-2">✈️</div>
+          <div className="text-2xl mb-3">✈️</div>
           <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">인천공항</div>
-          <div className="text-xl font-black text-gray-800 group-hover:text-blue-600 transition-colors">
+          <div className="text-2xl font-black text-gray-800 group-hover:text-blue-600 transition-colors">
             인천 출발
           </div>
           <div className="mt-3 inline-block border-2 border-blue-600 bg-white group-hover:bg-blue-50 text-blue-600 font-bold px-5 py-2 rounded-full text-sm transition-colors">
@@ -39,11 +39,11 @@ export default function Home() {
         {/* 부산출발 */}
         <Link
           href="/busan"
-          className="flex-1 group bg-white border-2 border-gray-200 hover:border-blue-500 rounded-2xl p-5 text-center shadow-md hover:shadow-xl transition-all duration-200"
+          className="flex-1 group bg-white border-2 border-gray-200 hover:border-blue-500 rounded-2xl p-8 md:p-10 text-center shadow-md hover:shadow-xl transition-all duration-200"
         >
-          <div className="text-3xl mb-2">✈️</div>
+          <div className="text-2xl mb-3">✈️</div>
           <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">김해공항</div>
-          <div className="text-xl font-black text-gray-800 group-hover:text-blue-600 transition-colors">
+          <div className="text-2xl font-black text-gray-800 group-hover:text-blue-600 transition-colors">
             부산 출발
           </div>
           <div className="mt-3 inline-block bg-blue-500 group-hover:bg-blue-600 text-white font-bold px-5 py-2 rounded-full text-sm transition-colors">
