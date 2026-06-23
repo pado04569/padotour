@@ -33,14 +33,22 @@ function buildNav(dep?: string): NavItem[] {
     {
       label: "중국",
       href: `/tours?country=china${q}`,
-      sub: [
-        { label: "연태", href: `/tours?country=china&region=연태${q}` },
-        { label: "위해", href: `/tours?country=china&region=위해${q}` },
-        { label: "청도(칭다오)", href: `/tours?country=china&region=청도${q}` },
-        { label: "하이난(해남도)", href: `/tours?country=china&region=하이난${q}` },
-        { label: "하문(셔먼)", href: `/tours?country=china&region=하문${q}` },
-        { label: "광저우/심천", href: `/tours?country=china&region=광저우${q}` },
-      ],
+      sub: dep === "busan"
+        ? [
+            { label: "청도", href: `/tours?country=china&region=청도${q}` },
+            { label: "연태", href: `/tours?country=china&region=연태${q}` },
+            { label: "베이징/천진", href: `/tours?country=china&region=베이징${q}` },
+            { label: "하문(셔먼)", href: `/tours?country=china&region=하문${q}` },
+            { label: "광저우/심천", href: `/tours?country=china&region=광저우${q}` },
+          ]
+        : [
+            { label: "연태", href: `/tours?country=china&region=연태${q}` },
+            { label: "위해", href: `/tours?country=china&region=위해${q}` },
+            { label: "청도(칭다오)", href: `/tours?country=china&region=청도${q}` },
+            { label: "하이난(해남도)", href: `/tours?country=china&region=하이난${q}` },
+            { label: "하문(셔먼)", href: `/tours?country=china&region=하문${q}` },
+            { label: "광저우/심천", href: `/tours?country=china&region=광저우${q}` },
+          ],
     },
     {
       label: "태국",
