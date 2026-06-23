@@ -18,6 +18,7 @@ type Props = {
 
 export default function HeroSlider({ slides }: Props) {
   const [current, setCurrent] = useState(0);
+  const [touchStartX, setTouchStartX] = useState<number | null>(null);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -28,8 +29,26 @@ export default function HeroSlider({ slides }: Props) {
 
   const slide = slides[current];
 
+  function goTo(dir: number) {
+    setCurrent((c) => (c + dir + slides.length) % slides.length);
+  }
+  function onTouchStart(e: React.TouchEvent) {
+    setTouchStartX(e.touches[0].clientX);
+  }
+  function onTouchEnd(e: React.TouchEvent) {
+    if (touchStartX === null) return;
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(dx) > 50) goTo(dx < 0 ? 1 : -1);
+    setTouchStartX(null);
+  }
+
   return (
-    <div className="relative w-full overflow-hidden" style={{ height: "clamp(420px, 82vh, 860px)" }}>
+    <div
+      className="relative w-full overflow-hidden h-[56vh] min-h-[360px] md:h-[80vh] md:max-h-[860px]"
+      style={{ touchAction: "pan-y" }}
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
+    >
       {/* 배경 이미지 */}
       {slides.map((s, i) => (
         <div
