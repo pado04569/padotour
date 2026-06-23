@@ -24,14 +24,14 @@ export default function Home() {
         {/* 인천출발 */}
         <Link
           href="/incheon"
-          className="flex-1 group bg-white border-2 border-gray-200 hover:border-emerald-500 rounded-2xl p-5 text-center shadow-md hover:shadow-xl transition-all duration-200"
+          className="flex-1 group bg-white border-2 border-gray-200 hover:border-blue-500 rounded-2xl p-5 text-center shadow-md hover:shadow-xl transition-all duration-200"
         >
           <div className="text-3xl mb-2">✈️</div>
           <div className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">인천공항</div>
-          <div className="text-xl font-black text-gray-800 group-hover:text-emerald-600 transition-colors">
+          <div className="text-xl font-black text-gray-800 group-hover:text-blue-600 transition-colors">
             인천 출발
           </div>
-          <div className="mt-3 inline-block bg-emerald-500 group-hover:bg-emerald-600 text-white font-bold px-5 py-2 rounded-full text-sm transition-colors">
+          <div className="mt-3 inline-block border-2 border-blue-600 bg-white group-hover:bg-blue-50 text-blue-600 font-bold px-5 py-2 rounded-full text-sm transition-colors">
             상품 보기 →
           </div>
         </Link>

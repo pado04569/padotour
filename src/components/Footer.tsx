@@ -5,6 +5,7 @@ type FooterProps = {
 const info = {
   incheon: {
     phones: [
+      { href: "tel:01053015250", label: "010-5301-5250" },
       { href: "tel:0264015252", label: "02-6401-5252" },
     ],
     blog: "https://blog.naver.com/pado-tour-",
@@ -44,7 +45,7 @@ export default function Footer({ departure }: FooterProps) {
               {departure && (
                 <span className={`text-xs font-bold px-2 py-0.5 rounded-full ${
                   departure === "incheon"
-                    ? "bg-emerald-600 text-emerald-100"
+                    ? "border border-blue-600 bg-white text-blue-600"
                     : "bg-blue-700 text-white/90"
                 }`}>
                   {departure === "incheon" ? "인천출발" : "부산출발"}
@@ -66,7 +67,7 @@ export default function Footer({ departure }: FooterProps) {
             <div className="space-y-3">
               {d.phones.map((p) => (
                 <a key={p.href} href={p.href} className="flex items-center gap-2 group">
-                  <span className="text-emerald-600 group-hover:text-emerald-700 font-bold text-lg transition-colors">
+                  <span className="text-blue-600 group-hover:text-blue-700 font-bold text-lg transition-colors">
                     {p.label}
                   </span>
                 </a>
