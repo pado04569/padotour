@@ -137,14 +137,22 @@ export default function Header({ departure }: HeaderProps) {
               여행의 파도 골프전문 여행사 · 서울보증보험 가입 여행사
             </span>
           </div>
-          <a
-            href="https://pf.kakao.com/_bxoxnXxj/chat"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex-shrink-0 bg-blue-50 border border-blue-200 text-blue-700 hover:bg-blue-100 text-[11px] font-bold px-3 py-0.5 rounded transition-colors"
-          >
-            예약확인
-          </a>
+          <div className="flex items-center gap-1.5 flex-shrink-0">
+            <Link
+              href="/"
+              className="hidden sm:inline-block bg-white border border-gray-300 text-gray-600 hover:bg-gray-50 text-[11px] font-bold px-2.5 py-0.5 rounded transition-colors whitespace-nowrap"
+            >
+              출발지 변경
+            </Link>
+            <a
+              href="https://pf.kakao.com/_bxoxnXxj/chat"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-50 border border-blue-200 text-blue-700 hover:bg-blue-100 text-[11px] font-bold px-3 py-0.5 rounded transition-colors"
+            >
+              예약확인
+            </a>
+          </div>
         </div>
       </div>
 
@@ -267,6 +275,13 @@ export default function Header({ departure }: HeaderProps) {
       {/* ══ 모바일 드롭다운 ══ */}
       {menuOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 shadow-lg max-h-[75vh] overflow-y-auto">
+          <Link
+            href="/"
+            className="flex items-center justify-center gap-2 px-4 py-3.5 text-blue-700 font-bold text-sm bg-blue-50 border-b border-blue-100"
+            onClick={() => setMenuOpen(false)}
+          >
+            출발지 변경 (인천 · 부산 선택)
+          </Link>
           {navItems.map((item) => (
             <div key={item.label} className="border-b border-gray-100">
               <button
