@@ -768,34 +768,99 @@
     "id": "thailand-bangkok",
     "country": "태국",
     "countryCode": "thailand",
-    "region": "방콕",
-    "title": "방콕 골프여행",
-    "nights": 4,
+    "region": "방콕/파타야",
+    "title": "[인천출발] 파타야 27홀 3색골프 3박5일 (81홀)",
+    "subtitle": "티웨이항공 직항 · 파타야 시내 크리스탈팰리스(준5성) · 그린우드/트레져힐/파타비아 3색 코스 · 노옵션 노쇼핑",
+    "nights": 3,
     "days": 5,
     "courses": 3,
-    "roundsIncluded": 4,
+    "roundsIncluded": 3,
+    "holes": 81,
+    "minPeople": 4,
+    "period": "2026년 7월 15일 ~ 10월 28일",
+    "hotel": "크리스탈팰리스 호텔 (준5성, 디럭스룸 2인1실)",
+    "hotelDesc": "파타야 시내에 위치한 준5성급 크리스탈팰리스 호텔(디럭스룸, 2인1실). 마사지숍·펍·편의점·현지 음식점이 가까워 라운드 후 도보로 파타야 시내를 자유롭게 즐길 수 있는 휴양형 호텔입니다. 한국인 직원이 호텔 내에서 안내를 도와드립니다.",
+    "golfCourse": "그린우드 / 트레져힐 / 파타비아 CC (각 27홀, 총 81홀)",
+    "golfCourseDesc": "파타야를 대표하는 3색 코스 그린우드·트레져힐·파타비아 컨트리클럽에서 매일 다른 코스로 27홀씩, 총 81홀을 라운딩합니다. 한 곳만 반복하지 않고 색깔이 다른 명문 코스를 매일 경험하는 프리미엄 일정입니다.",
+    "productSummary": "그린우드·트레져힐·파타비아 27홀×3(81홀)  ·  파타야 시내 크리스탈팰리스(준5성) 3박  ·  티웨이항공 직항  ·  노옵션 노쇼핑",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 방콕 → 파타야",
+        "desc": "인천국제공항 출발 티웨이항공 TW101 18:00 → 방콕국제공항 22:35 도착 → 기사 미팅 후 전용차량(밴)으로 파타야 호텔 이동 → 한국인 직원 미팅 후 체크인 및 휴식 [크리스탈팰리스 호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "파타야 (그린우드CC 27홀)",
+        "desc": "호텔 조식 후 골프장 이동 → 그린우드CC 27홀 라운딩 → 호텔 이동 후 투숙 및 휴식 (라운드 후 파타야 시내 마사지·펍·야시장 자유) [조: 호텔식]"
+      },
+      {
+        "day": "3일차",
+        "label": "파타야 (트레져힐CC 27홀)",
+        "desc": "호텔 조식 후 골프장 이동 → 트레져힐CC 27홀 라운딩 → 호텔 이동 후 투숙 및 휴식 [조: 호텔식]"
+      },
+      {
+        "day": "4일차",
+        "label": "파타야 (파타비아CC 27홀)",
+        "desc": "호텔 조식 후 골프장 이동 → 파타비아CC 27홀 라운딩 → 라운딩 종료 후 공항으로 이동 [조: 호텔식]"
+      },
+      {
+        "day": "5일차",
+        "label": "방콕 → 인천",
+        "desc": "방콕국제공항 출발 티웨이항공 TW102 00:05 → 인천국제공항 07:40 도착"
+      }
+    ],
     "highlights": [
-      "아시아 최고의 골프 천국",
-      "합리적인 그린피",
-      "맛있는 태국 음식"
+      "티웨이항공 인천 직항 (컷 15만원)",
+      "파타야 3색 코스 그린우드·트레져힐·파타비아 81홀",
+      "파타야 시내 크리스탈팰리스 준5성 호텔 (도보로 마사지·펍·야시장)",
+      "노옵션·노쇼핑 / 전용차량(밴) / 한국인 직원 안내"
     ],
     "includes": [
-      "항공",
-      "숙박",
-      "골프 4라운드",
-      "조식",
-      "공항 픽업"
+      "왕복 항공료(유류세 포함), 수하물 20kg",
+      "호텔 3박 (2인1실, 디럭스룸)",
+      "호텔 조식 3회",
+      "81홀 그린피",
+      "공항-호텔-골프장 전용 이동차량(밴)",
+      "한국인 직원 호텔 내 안내"
     ],
     "excludes": [
-      "중식/석식",
-      "캐디피",
-      "카트피",
-      "개인 경비"
+      "캐디피 (27홀 600바트)",
+      "전동카트 (27홀 1,200바트)",
+      "캐디팁 (27홀 600바트)",
+      "중식·석식",
+      "미팅샌딩비 (4인 기준 1인 $60)",
+      "개인 경비 및 매너팁"
     ],
-    "price": "문의",
-    "image": "/images/thailand.jpg",
-    "badge": "",
-    "departure": "both"
+    "cancelPolicy": [
+      "토/일요일·공휴일 라운딩 시 1회당 2만원 추가",
+      "노옵션·노쇼핑 / 4인부터 출발 가능",
+      "싱글룸 사용 시 1박 3만원 추가",
+      "태국 공휴일(7/28·29, 10/13·23 등) 일부 일정 변동 가능",
+      "상기 일정은 현지 및 항공사 사정에 의해 변동될 수 있습니다"
+    ],
+    "departurePrices": [],
+    "hotelImages": [
+      "/images/bangkok-pattaya/hotel-1.jpg",
+      "/images/bangkok-pattaya/hotel-2.jpg",
+      "/images/bangkok-pattaya/hotel-3.jpg",
+      "/images/bangkok-pattaya/hotel-4.jpg"
+    ],
+    "courseImages": [
+      "/images/bangkok-pattaya/course-1.jpg",
+      "/images/bangkok-pattaya/course-2.jpg",
+      "/images/bangkok-pattaya/course-3.jpg",
+      "/images/bangkok-pattaya/course-4.jpg"
+    ],
+    "price": "990,000원~",
+    "image": "/images/bangkok-pattaya/main.jpg",
+    "images": [
+      "/images/bangkok-pattaya/main.jpg",
+      "/images/bangkok-pattaya/course-1.jpg",
+      "/images/bangkok-pattaya/course-2.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon"
   },
   {
     "id": "japan-tokyo-itako",
