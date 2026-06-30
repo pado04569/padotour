@@ -54,7 +54,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             <div key={item.label} className="bg-gray-50 rounded-xl p-3 md:p-4 text-center border border-gray-100">
               <div className="text-2xl mb-1">{item.icon}</div>
               <div className="text-xs text-gray-500 mb-0.5">{item.label}</div>
-              <div className="text-sm font-bold text-gray-800">{item.value}</div>
+              <div className="text-sm font-bold text-gray-800 break-keep">{item.value}</div>
             </div>
           ))}
         </div>
