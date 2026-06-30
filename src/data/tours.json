@@ -849,16 +849,19 @@
       "/images/bangkok-pattaya/hotel-6.jpg"
     ],
     "courseImages": [
+      "/images/bangkok-pattaya/course-4.jpg",
+      "/images/bangkok-pattaya/course-5.jpg",
+      "/images/bangkok-pattaya/course-6.jpg",
       "/images/bangkok-pattaya/course-1.jpg",
       "/images/bangkok-pattaya/course-2.jpg",
       "/images/bangkok-pattaya/course-3.jpg"
     ],
     "price": "990,000원~",
-    "image": "/images/bangkok-pattaya/course-1.jpg",
+    "image": "/images/bangkok-pattaya/course-4.jpg",
     "images": [
-      "/images/bangkok-pattaya/course-1.jpg",
-      "/images/bangkok-pattaya/course-2.jpg",
-      "/images/bangkok-pattaya/course-3.jpg"
+      "/images/bangkok-pattaya/course-4.jpg",
+      "/images/bangkok-pattaya/course-5.jpg",
+      "/images/bangkok-pattaya/course-6.jpg"
     ],
     "badge": "인천출발 신규",
     "departure": "incheon"
