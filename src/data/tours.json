@@ -6561,19 +6561,21 @@
       "/images/bangkok-pattaya-busan/hotel-1.jpg",
       "/images/bangkok-pattaya-busan/hotel-2.jpg",
       "/images/bangkok-pattaya-busan/hotel-3.jpg",
-      "/images/bangkok-pattaya-busan/hotel-4.jpg"
+      "/images/bangkok-pattaya-busan/hotel-4.jpg",
+      "/images/bangkok-pattaya-busan/hotel-5.jpg",
+      "/images/bangkok-pattaya-busan/hotel-6.jpg"
     ],
     "courseImages": [
-      "/images/bangkok-pattaya-busan/course-1.jpg",
-      "/images/bangkok-pattaya-busan/course-2.jpg",
-      "/images/bangkok-pattaya-busan/course-3.jpg"
+      "/images/bangkok-pattaya/course-4.jpg",
+      "/images/bangkok-pattaya/course-5.jpg",
+      "/images/bangkok-pattaya/course-6.jpg"
     ],
     "price": "899,000원~",
-    "image": "/images/bangkok-pattaya-busan/course-1.jpg",
+    "image": "/images/bangkok-pattaya-busan/hotel-3.jpg",
     "images": [
-      "/images/bangkok-pattaya-busan/course-1.jpg",
-      "/images/bangkok-pattaya-busan/course-2.jpg",
-      "/images/bangkok-pattaya-busan/course-3.jpg"
+      "/images/bangkok-pattaya-busan/hotel-3.jpg",
+      "/images/bangkok-pattaya-busan/hotel-1.jpg",
+      "/images/bangkok-pattaya-busan/hotel-2.jpg"
     ],
     "badge": "부산출발 신규",
     "departure": "busan"
