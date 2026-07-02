@@ -7085,6 +7085,8 @@
       }
     ],
     "hotelImages": [
+      "/images/chiangmai-maejo/hotel-6.jpg",
+      "/images/chiangmai-maejo/hotel-5.jpg",
       "/images/chiangmai-maejo/hotel-1.jpg",
       "/images/chiangmai-maejo/hotel-2.jpg",
       "/images/chiangmai-maejo/hotel-3.jpg",
@@ -7093,14 +7095,17 @@
     "courseImages": [
       "/images/chiangmai-maejo/course-1.jpg",
       "/images/chiangmai-maejo/course-2.jpg",
-      "/images/chiangmai-maejo/course-3.jpg"
+      "/images/chiangmai-maejo/course-3.jpg",
+      "/images/chiangmai-maejo/course-4.jpg",
+      "/images/chiangmai-maejo/course-5.jpg",
+      "/images/chiangmai-maejo/course-6.jpg"
     ],
     "price": "899,000원~",
-    "image": "/images/chiangmai-maejo/hotel-1.jpg",
+    "image": "/images/chiangmai-maejo/hotel-6.jpg",
     "images": [
-      "/images/chiangmai-maejo/hotel-1.jpg",
-      "/images/chiangmai-maejo/hotel-2.jpg",
-      "/images/chiangmai-maejo/hotel-3.jpg"
+      "/images/chiangmai-maejo/hotel-6.jpg",
+      "/images/chiangmai-maejo/course-3.jpg",
+      "/images/chiangmai-maejo/hotel-5.jpg"
     ],
     "badge": "인천출발 신규",
     "departure": "incheon"
