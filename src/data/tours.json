@@ -666,39 +666,6 @@
     "productSummary": "벳부cc  3회 라운딩  ·  카메노이 호텔 숙박"
   },
   {
-    "id": "china-hainan",
-    "country": "중국",
-    "countryCode": "china",
-    "region": "하이난",
-    "title": "하이난 골프여행",
-    "nights": 4,
-    "days": 5,
-    "courses": 3,
-    "roundsIncluded": 3,
-    "highlights": [
-      "중국의 하와이",
-      "세계 수준 리조트 코스",
-      "따뜻한 날씨 연중 가능"
-    ],
-    "includes": [
-      "항공",
-      "숙박",
-      "골프 3라운드",
-      "조식",
-      "리조트 시설"
-    ],
-    "excludes": [
-      "중식/석식",
-      "캐디피",
-      "카트피",
-      "개인 경비"
-    ],
-    "price": "문의",
-    "image": "/images/china.jpg",
-    "badge": "",
-    "departure": "both"
-  },
-  {
     "id": "malaysia-kota",
     "country": "코타키나발루",
     "countryCode": "malaysia",
