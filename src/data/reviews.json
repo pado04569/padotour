@@ -1,5 +1,22 @@
 [
   {
+    "id": "18",
+    "title": "[여행의파도 이용후기] 1월5일출발 가오슝골프여행 후기",
+    "name": "도○○ 님",
+    "country": "대만 가오슝",
+    "countryCode": "taiwan",
+    "rating": 5,
+    "comment": "25년 1월5일~8일, 3박4일, 가오슝 VIP 골프여행, 4분 골프여정 다녀오신 도OO님의 골프후기입니다.\n\n덕분에 아주 알차고 즐거운 라운딩이었습니다.\n\n가이드님 끝까지 항상 친절하시고 좋았습니다. 골프장에따라 캐디분이 한국어 잘하시고 라이 잘봐주시는 분이 있는가하면 그냥 운전만 해주시는 분도 있어서 그게 좀 아쉬웠던 점이네요~\n\n담에 또 좋은 상품으로 함께 하고싶네요~ 감사했습니다^^\n\n25년 1월5일~8일 가오슝 VIP 골프여행 다녀오신 고객님의 여행후기 입니다.\n아쉬우셨던 점 다시한번 현지 전달하여 불편하신 점없는 골프여정 될 수 있도록 신경 쓰겠습니다.\n다시한 번 저희 여행의파도 믿고 진행해 주셔서 감사드립니다^^",
+    "date": "2025.01",
+    "images": [
+      "/images/reviews/kaohsiung-jan5-main.jpg",
+      "/images/reviews/kaohsiung-jan5-course.jpg",
+      "/images/reviews/kaohsiung-jan5-schedule.jpg"
+    ],
+    "kakaoImage": "/images/reviews/kaohsiung-jan5-kakao1.png",
+    "hashtags": ["여행의파도", "이용후기", "가오슝골프여행후기", "가오슝골프여행"]
+  },
+  {
     "id": "17",
     "title": "[여행의파도 이용후기]12월27일출발 마쓰야마 골프여행 후기",
     "name": "문○○ 님",
