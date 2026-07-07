@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { reviews } from "@/data/reviews";
 
 export default function ReviewsPage() {
@@ -20,6 +21,15 @@ export default function ReviewsPage() {
                 ))}
               </div>
               <p className="text-gray-700 leading-relaxed mb-4 md:mb-6 text-sm md:text-lg">"{review.comment}"</p>
+              {review.images && review.images.length > 0 && (
+                <div className="grid grid-cols-3 gap-2 mb-4 md:mb-6">
+                  {review.images.map((src, i) => (
+                    <div key={i} className="relative aspect-square rounded-xl overflow-hidden">
+                      <Image src={src} alt={`${review.name} 후기 사진 ${i + 1}`} fill className="object-cover" />
+                    </div>
+                  ))}
+                </div>
+              )}
               <div className="flex items-center justify-between text-xs md:text-sm text-gray-400 border-t pt-3 md:pt-4">
                 <span className="font-bold text-gray-700 text-sm md:text-base">{review.name}</span>
                 <span>{review.country} · {review.date}</span>

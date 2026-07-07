@@ -34,5 +34,18 @@
     "rating": 5,
     "comment": "도고온천에서 피로를 풀고 다음날 라운딩하는 일정이 최고였습니다. 사장님이 직접 코스 추천도 해주시고 정말 전문가십니다.",
     "date": "2025.07"
+  },
+  {
+    "id": "5",
+    "name": "조○○ 님",
+    "country": "중국 청도",
+    "countryCode": "china",
+    "rating": 5,
+    "comment": "이번에 청도 캐슬렉스 골프여행 다녀왔어요. 여행의파도 담당자님의 친절한 안내로 3박4일 내내 넘 즐겁게 보내고 왔어요. 담에도 꼬~~옥 이용할게요 ~~^^",
+    "date": "2024.04",
+    "images": [
+      "/images/reviews/qingdao-castellex-1.jpg",
+      "/images/reviews/qingdao-castellex-2.jpg"
+    ]
   }
 ]

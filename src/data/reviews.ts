@@ -10,6 +10,7 @@ export type Review = {
   comment: string;
   date: string;
   image?: string;
+  images?: string[];
 };
 
 export type Notice = {
