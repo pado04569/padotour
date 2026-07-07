@@ -45,7 +45,10 @@
     "date": "2024.04",
     "images": [
       "/images/reviews/qingdao-castellex-1.jpg",
-      "/images/reviews/qingdao-castellex-2.jpg"
-    ]
+      "/images/reviews/qingdao-castellex-2.jpg",
+      "/images/reviews/qingdao-castellex-3.jpg",
+      "/images/reviews/qingdao-castellex-4.jpg"
+    ],
+    "kakaoImage": "/images/reviews/qingdao-castellex-kakao.png"
   }
 ]

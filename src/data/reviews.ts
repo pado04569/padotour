@@ -11,6 +11,7 @@ export type Review = {
   date: string;
   image?: string;
   images?: string[];
+  kakaoImage?: string;
 };
 
 export type Notice = {

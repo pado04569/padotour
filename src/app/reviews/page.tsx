@@ -15,19 +15,19 @@ export default function ReviewsPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
           {reviews.map((review) => (
             <div key={review.id} className="bg-white rounded-2xl shadow-md p-5 md:p-8 border border-gray-100">
-              <div className="flex items-center gap-1 mb-3">
-                {Array.from({ length: review.rating }).map((_, i) => (
-                  <span key={i} className="text-yellow-400 text-xl md:text-2xl">★</span>
-                ))}
-              </div>
               <p className="text-gray-700 leading-relaxed mb-4 md:mb-6 text-sm md:text-lg">"{review.comment}"</p>
               {review.images && review.images.length > 0 && (
-                <div className="grid grid-cols-3 gap-2 mb-4 md:mb-6">
+                <div className="grid grid-cols-2 gap-2 mb-4 md:mb-6">
                   {review.images.map((src, i) => (
                     <div key={i} className="relative aspect-square rounded-xl overflow-hidden">
                       <Image src={src} alt={`${review.name} 후기 사진 ${i + 1}`} fill className="object-cover" />
                     </div>
                   ))}
+                </div>
+              )}
+              {review.kakaoImage && (
+                <div className="relative w-full mb-4 md:mb-6 rounded-xl overflow-hidden border border-gray-200">
+                  <Image src={review.kakaoImage} alt={`${review.name} 카카오톡 후기`} width={800} height={400} className="w-full h-auto" />
                 </div>
               )}
               <div className="flex items-center justify-between text-xs md:text-sm text-gray-400 border-t pt-3 md:pt-4">
