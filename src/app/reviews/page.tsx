@@ -46,6 +46,13 @@ export default function ReviewsPage() {
                     fill
                     className="object-cover group-hover:opacity-90 transition-opacity"
                   />
+                ) : review.kakaoImage ? (
+                  <Image
+                    src={review.kakaoImage}
+                    alt={review.title}
+                    fill
+                    className="object-cover group-hover:opacity-90 transition-opacity"
+                  />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-4xl">⛳</div>
                 )}
