@@ -64,7 +64,12 @@ export default function ReviewsPage() {
               className="bg-white rounded-2xl shadow-md p-5 md:p-8 border border-gray-100 scroll-mt-24"
             >
               <h3 className="font-bold text-gray-900 text-base md:text-lg mb-3">{review.title}</h3>
-              <p className="text-gray-700 leading-relaxed mb-4 md:mb-6 text-sm md:text-lg">"{review.comment}"</p>
+              {review.kakaoImage && (
+                <div className="relative w-full mb-4 md:mb-6 rounded-xl overflow-hidden border border-gray-200">
+                  <Image src={review.kakaoImage} alt={`${review.name} 카카오톡 후기`} width={800} height={400} className="w-full h-auto" />
+                </div>
+              )}
+              <p className="text-gray-700 leading-relaxed mb-4 md:mb-6 text-sm md:text-lg whitespace-pre-line">"{review.comment}"</p>
               {review.images && review.images.length > 0 && (
                 <div className="grid grid-cols-2 gap-2 mb-4 md:mb-6">
                   {review.images.map((src, i) => (
@@ -74,9 +79,11 @@ export default function ReviewsPage() {
                   ))}
                 </div>
               )}
-              {review.kakaoImage && (
-                <div className="relative w-full mb-4 md:mb-6 rounded-xl overflow-hidden border border-gray-200">
-                  <Image src={review.kakaoImage} alt={`${review.name} 카카오톡 후기`} width={800} height={400} className="w-full h-auto" />
+              {review.hashtags && review.hashtags.length > 0 && (
+                <div className="flex flex-wrap gap-2 mb-4 md:mb-6">
+                  {review.hashtags.map((tag) => (
+                    <span key={tag} className="text-xs md:text-sm text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full">#{tag}</span>
+                  ))}
                 </div>
               )}
               <div className="flex items-center justify-between text-xs md:text-sm text-gray-400 border-t pt-3 md:pt-4">

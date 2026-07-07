@@ -13,6 +13,7 @@ export type Review = {
   image?: string;
   images?: string[];
   kakaoImage?: string;
+  hashtags?: string[];
 };
 
 export type Notice = {
