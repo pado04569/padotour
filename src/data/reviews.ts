@@ -3,6 +3,7 @@ import noticesData from "./notices.json";
 
 export type Review = {
   id: string;
+  title: string;
   name: string;
   country: string;
   countryCode: string;

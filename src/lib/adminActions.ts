@@ -112,6 +112,7 @@ export async function saveReview(formData: FormData) {
 
   const review = {
     id,
+    title: formData.get("title") as string,
     name: formData.get("name") as string,
     country: formData.get("country") as string,
     countryCode: formData.get("countryCode") as string,

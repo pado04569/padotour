@@ -19,6 +19,11 @@ export default async function NewReviewPage() {
           <form action={saveReview} className="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 space-y-4">
             <input type="hidden" name="id" value={newId} />
 
+            <div>
+              <label className="block text-sm font-semibold text-gray-700 mb-1">후기 제목</label>
+              <input name="title" required placeholder="예: 후쿠오카 골프여행 후기" className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500" />
+            </div>
+
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <label className="block text-sm font-semibold text-gray-700 mb-1">고객명</label>

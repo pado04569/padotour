@@ -12,9 +12,58 @@ export default function ReviewsPage() {
       </section>
 
       <section className="max-w-6xl mx-auto px-4 py-10 md:py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+        <h2 className="text-lg md:text-xl font-black text-gray-800 mb-4 md:mb-6">
+          여행의 파도 이용후기 {reviews.length}개의 글
+        </h2>
+
+        {/* 네이버 블로그 스타일 목록 */}
+        <div className="border-t-2 border-gray-800 mb-8 md:mb-10">
           {reviews.map((review) => (
-            <div key={review.id} className="bg-white rounded-2xl shadow-md p-5 md:p-8 border border-gray-100">
+            <a
+              key={review.id}
+              href={`#review-${review.id}`}
+              className="flex items-center gap-2 py-3 md:py-4 border-b border-gray-200 hover:bg-gray-50 transition-colors"
+            >
+              <span className="flex-1 text-gray-800 text-sm md:text-base truncate">{review.title}</span>
+              <span className="text-xs md:text-sm text-gray-400 flex-shrink-0">{review.country}</span>
+            </a>
+          ))}
+        </div>
+
+        {/* 썸네일 갤러리 */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-10 md:mb-14">
+          {reviews.map((review) => (
+            <a
+              key={review.id}
+              href={`#review-${review.id}`}
+              className="group"
+            >
+              <div className="relative aspect-square rounded-xl overflow-hidden bg-emerald-50">
+                {review.images && review.images.length > 0 ? (
+                  <Image
+                    src={review.images[0]}
+                    alt={review.title}
+                    fill
+                    className="object-cover group-hover:opacity-90 transition-opacity"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center text-4xl">⛳</div>
+                )}
+              </div>
+              <p className="mt-1.5 text-xs md:text-sm text-gray-700 line-clamp-2 leading-snug">{review.title}</p>
+            </a>
+          ))}
+        </div>
+
+        {/* 상세 후기 카드 */}
+        <div className="space-y-5 md:space-y-6">
+          {reviews.map((review) => (
+            <div
+              key={review.id}
+              id={`review-${review.id}`}
+              className="bg-white rounded-2xl shadow-md p-5 md:p-8 border border-gray-100 scroll-mt-24"
+            >
+              <h3 className="font-bold text-gray-900 text-base md:text-lg mb-3">{review.title}</h3>
               <p className="text-gray-700 leading-relaxed mb-4 md:mb-6 text-sm md:text-lg">"{review.comment}"</p>
               {review.images && review.images.length > 0 && (
                 <div className="grid grid-cols-2 gap-2 mb-4 md:mb-6">
