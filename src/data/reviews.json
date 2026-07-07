@@ -1,5 +1,22 @@
 [
   {
+    "id": "8",
+    "title": "6월7일출발 코타키나발루3박5일-여행의파도 이용후기",
+    "name": "김○○ 님",
+    "country": "말레이시아 코타키나발루",
+    "countryCode": "malaysia",
+    "rating": 5,
+    "comment": "23년 6/7~6/11, 코타키나발루 3박5일 2분 골프여정 다녀오신 김OO님의 여행후기입니다.\n\n남편과 결혼기념일에 첫 해외골프여행을 다녀왔습니다. 최고의 리조트에서 첫 해외라운딩 추억을 아름답게 간직할 수 있게 해주신 여행의파도 여행사에게 감사드립니다!\n\n김oo 고객님께서 보내주신 여행사진을 보니, 코타키나발루 선셋이 세계 3대 석양이란 얘기가 괜한 말이 아니네요~ 이렇게 아름다운 곳에서 결혼기념 골프여행~ 여행사를 운영하는 입장에서도 너무 부럽습니다 ^^\n\n아름다운 사진과 여행후기 보내주셔서 감사드립니다 ^^",
+    "date": "2024.04",
+    "images": [
+      "/images/reviews/kotakinabalu-1.jpg",
+      "/images/reviews/kotakinabalu-2.jpg",
+      "/images/reviews/kotakinabalu-3.jpg"
+    ],
+    "kakaoImage": "/images/reviews/kotakinabalu-kakao.jpg",
+    "hashtags": ["여행의파도이용후기", "코타키나발루골프후기", "코타키나발루골프여행", "여행의파도"]
+  },
+  {
     "id": "7",
     "title": "4월7일출발 마쓰야마 3박4일 여행의파도 이용후기",
     "name": "김○○ 님",
