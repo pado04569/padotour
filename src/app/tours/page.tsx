@@ -65,7 +65,11 @@ function ToursContent() {
         </p>
         {filtered.length > 0 ? (
           regionParam && filtered.length <= 2 ? (
-            <div className={`grid grid-cols-1 ${filtered.length === 2 ? "sm:grid-cols-2" : ""} gap-4 md:gap-6`}>
+            <div
+              className={`grid grid-cols-1 ${
+                filtered.length === 2 ? "sm:grid-cols-2 max-w-3xl" : "max-w-sm"
+              } gap-4 md:gap-6 mx-auto`}
+            >
               {filtered.map((tour) => (
                 <TourCard key={tour.id} tour={tour} />
               ))}
