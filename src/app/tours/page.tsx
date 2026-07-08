@@ -68,7 +68,7 @@ function ToursContent() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 max-w-3xl mx-auto">
               {filtered.map((tour) => (
                 <div key={tour.id} className={filtered.length === 1 ? "sm:col-span-2" : ""}>
-                  <TourCard tour={tour} />
+                  <TourCard tour={tour} featured={filtered.length === 1} />
                 </div>
               ))}
             </div>
