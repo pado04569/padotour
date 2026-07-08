@@ -28,6 +28,7 @@ function buildNav(dep?: string): NavItem[] {
         { label: "다카마쓰", href: `/tours?country=japan&region=다카마쓰${q}` },
         { label: "북해도", href: `/tours?country=japan&region=북해도${q}` },
         { label: "도쿄/이바라키", href: `/tours?country=japan&region=도쿄${q}` },
+        { label: "구마모토", href: `/tours?country=japan&region=구마모토${q}` },
       ],
     },
     {
