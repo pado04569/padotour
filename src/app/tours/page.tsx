@@ -27,7 +27,7 @@ function ToursContent() {
     <div>
       {/* 헤더 */}
       {regionParam ? (
-        <section className="bg-emerald-600 text-white py-3 md:py-4">
+        <section className="bg-emerald-600 text-white py-2">
           <div className="max-w-6xl mx-auto px-4">
             <p className="text-white font-bold text-base md:text-lg">{regionParam} 골프여행 패키지</p>
           </div>
@@ -65,8 +65,8 @@ function ToursContent() {
       )}
 
       {/* 상품 그리드 */}
-      <section className={`max-w-6xl mx-auto px-4 ${regionParam && filtered.length === 1 ? "py-3 md:py-4" : "py-8 md:py-10"}`}>
-        <p className={`text-gray-500 text-sm md:text-base ${regionParam && filtered.length === 1 ? "mb-2" : "mb-4 md:mb-6"}`}>
+      <section className={`max-w-6xl mx-auto px-4 ${regionParam && filtered.length === 1 ? "pt-1 pb-3" : "py-8 md:py-10"}`}>
+        <p className={`text-gray-500 text-sm md:text-base ${regionParam && filtered.length === 1 ? "mb-1" : "mb-4 md:mb-6"}`}>
           총 <span className="font-bold text-emerald-700">{filtered.length}개</span> 상품
         </p>
         {filtered.length > 0 ? (
