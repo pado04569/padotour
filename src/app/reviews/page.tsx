@@ -17,7 +17,7 @@ export default function ReviewsPage() {
         </h2>
 
         {/* 네이버 블로그 스타일 목록 */}
-        <div className="border-t-2 border-gray-800 mb-8 md:mb-10">
+        <div className="border-t-2 border-gray-800 mb-10 md:mb-14">
           {reviews.map((review) => (
             <a
               key={review.id}
@@ -26,38 +26,6 @@ export default function ReviewsPage() {
             >
               <span className="flex-1 text-gray-800 text-sm md:text-base truncate">{review.title}</span>
               <span className="text-xs md:text-sm text-gray-400 flex-shrink-0">{review.country}</span>
-            </a>
-          ))}
-        </div>
-
-        {/* 썸네일 갤러리 */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-10 md:mb-14">
-          {reviews.map((review) => (
-            <a
-              key={review.id}
-              href={`#review-${review.id}`}
-              className="group"
-            >
-              <div className="relative aspect-square rounded-xl overflow-hidden bg-emerald-50">
-                {review.images && review.images.length > 0 ? (
-                  <Image
-                    src={review.images[0]}
-                    alt={review.title}
-                    fill
-                    className="object-cover group-hover:opacity-90 transition-opacity"
-                  />
-                ) : review.kakaoImage ? (
-                  <Image
-                    src={review.kakaoImage}
-                    alt={review.title}
-                    fill
-                    className="object-cover group-hover:opacity-90 transition-opacity"
-                  />
-                ) : (
-                  <div className="w-full h-full flex items-center justify-center text-4xl">⛳</div>
-                )}
-              </div>
-              <p className="mt-1.5 text-xs md:text-sm text-gray-700 line-clamp-2 leading-snug">{review.title}</p>
             </a>
           ))}
         </div>
