@@ -65,8 +65,8 @@ function ToursContent() {
       )}
 
       {/* 상품 그리드 */}
-      <section className="max-w-6xl mx-auto px-4 py-8 md:py-10">
-        <p className="text-gray-500 mb-4 md:mb-6 text-sm md:text-base">
+      <section className={`max-w-6xl mx-auto px-4 ${regionParam && filtered.length === 1 ? "py-3 md:py-4" : "py-8 md:py-10"}`}>
+        <p className={`text-gray-500 text-sm md:text-base ${regionParam && filtered.length === 1 ? "mb-2" : "mb-4 md:mb-6"}`}>
           총 <span className="font-bold text-emerald-700">{filtered.length}개</span> 상품
         </p>
         {filtered.length > 0 ? (
