@@ -64,11 +64,19 @@ function ToursContent() {
           총 <span className="font-bold text-emerald-700">{filtered.length}개</span> 상품
         </p>
         {filtered.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-            {filtered.map((tour) => (
-              <TourCard key={tour.id} tour={tour} />
-            ))}
-          </div>
+          regionParam && filtered.length <= 2 ? (
+            <div className={`grid grid-cols-1 ${filtered.length === 2 ? "sm:grid-cols-2" : ""} gap-4 md:gap-6`}>
+              {filtered.map((tour) => (
+                <TourCard key={tour.id} tour={tour} />
+              ))}
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+              {filtered.map((tour) => (
+                <TourCard key={tour.id} tour={tour} />
+              ))}
+            </div>
+          )
         ) : (
           <div className="text-center py-16 md:py-20 text-gray-400">
             <div className="text-5xl md:text-6xl mb-4">⛳</div>
