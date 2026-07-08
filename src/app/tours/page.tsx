@@ -26,14 +26,20 @@ function ToursContent() {
   return (
     <div>
       {/* 헤더 */}
-      <section className="bg-gradient-to-r from-emerald-700 to-emerald-500 text-white py-10 md:py-12">
-        <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">⛳ 골프여행 상품</h1>
-          <p className="text-emerald-100 text-sm md:text-lg">
-            {regionParam ? `${regionParam} 골프여행 패키지` : "일본·중국·동남아 골프여행 전문 패키지"}
-          </p>
-        </div>
-      </section>
+      {regionParam ? (
+        <section className="bg-emerald-600 text-white py-3 md:py-4">
+          <div className="max-w-6xl mx-auto px-4">
+            <p className="text-white font-bold text-base md:text-lg">{regionParam} 골프여행 패키지</p>
+          </div>
+        </section>
+      ) : (
+        <section className="bg-gradient-to-r from-emerald-700 to-emerald-500 text-white py-10 md:py-12">
+          <div className="max-w-6xl mx-auto px-4">
+            <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">⛳ 골프여행 상품</h1>
+            <p className="text-emerald-100 text-sm md:text-lg">일본·중국·동남아 골프여행 전문 패키지</p>
+          </div>
+        </section>
+      )}
 
       {/* 국가 탭 — region이 선택된 경우 숨김 */}
       {!regionParam && (
@@ -89,17 +95,16 @@ function ToursContent() {
       </section>
 
       {/* 문의 안내 */}
-      <section className="bg-emerald-50 py-10 md:py-12">
-        <div className="max-w-3xl mx-auto px-4 text-center">
-          <h2 className="text-xl md:text-2xl font-black text-gray-800 mb-2 md:mb-3">원하는 상품이 없나요?</h2>
-          <p className="text-gray-600 mb-5 md:mb-6 text-base md:text-lg">
-            지역·날짜·인원을 알려주시면 맞춤 견적을 바로 드립니다.
+      <section className="bg-emerald-50 py-2.5 md:py-3">
+        <div className="max-w-3xl mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center">
+          <p className="text-gray-700 font-bold text-sm md:text-base">
+            원하는 상품이 없나요? 지역·날짜·인원을 알려주시면 맞춤 견적을 바로 드립니다.
           </p>
           <a
             href="https://pf.kakao.com/_bxoxnXxj/chat"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-black px-7 py-3.5 md:px-8 md:py-4 rounded-full text-lg md:text-xl transition-colors"
+            className="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold px-4 py-1.5 rounded-full text-sm transition-colors whitespace-nowrap"
           >
             💬 카카오톡 맞춤 견적 문의
           </a>
