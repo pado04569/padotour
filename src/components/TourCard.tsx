@@ -7,7 +7,7 @@ export default function TourCard({ tour, featured = false }: { tour: Tour; featu
     <Link href={`/tours/${tour.id}`} className="block">
     <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden group">
       {/* 이미지 영역 */}
-      <div className={`relative ${featured ? "h-56 md:h-72" : "h-52"} bg-emerald-100 overflow-hidden`}>
+      <div className={`relative ${featured ? "h-72 md:h-96" : "h-52"} bg-emerald-100 overflow-hidden`}>
         <Image
           src={tour.image}
           alt={tour.title}
@@ -26,8 +26,8 @@ export default function TourCard({ tour, featured = false }: { tour: Tour; featu
 
       {/* 내용 */}
       <div className={featured ? "p-4 md:p-5" : "p-4"}>
-        <h3 className={`font-bold text-gray-800 mb-1 leading-snug line-clamp-2 ${featured ? "text-lg md:text-xl h-12 md:h-14" : "text-sm h-10"}`}>{tour.title}</h3>
-        <p className={`text-gray-400 mb-1 ${featured ? "text-sm md:text-base" : "text-xs"}`}>
+        <h3 className={`font-bold text-gray-800 leading-snug line-clamp-2 ${featured ? "text-lg md:text-xl h-12 md:h-14 mb-0.5" : "text-sm h-10 mb-1"}`}>{tour.title}</h3>
+        <p className={`text-gray-400 ${featured ? "text-sm md:text-base mb-0.5" : "text-xs mb-1"}`}>
           {tour.nights}박{tour.days}일 · {tour.roundsIncluded}라운드
         </p>
         <p className={`font-bold text-emerald-700 ${featured ? "text-xl md:text-2xl" : "text-base"}`}>{tour.price}</p>
