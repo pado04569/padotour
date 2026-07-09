@@ -25,11 +25,13 @@ export default function TourCard({ tour, featured = false }: { tour: Tour; featu
       </div>
 
       {/* 내용 */}
-      <div className={featured ? "p-4 md:p-5" : "p-4"}>
+      <div className={featured ? "p-2.5 md:p-3" : "p-4"}>
         <h3 className={`font-bold text-gray-800 leading-snug line-clamp-2 ${featured ? "text-lg md:text-xl h-12 md:h-14 mb-0.5" : "text-sm h-10 mb-1"}`}>{tour.title}</h3>
-        <p className={`text-gray-400 ${featured ? "text-sm md:text-base mb-0.5" : "text-xs mb-1"}`}>
-          {tour.nights}박{tour.days}일 · {tour.roundsIncluded}라운드
-        </p>
+        {!featured && (
+          <p className="text-gray-400 text-xs mb-1">
+            {tour.nights}박{tour.days}일 · {tour.roundsIncluded}라운드
+          </p>
+        )}
         <p className={`font-bold text-emerald-700 ${featured ? "text-xl md:text-2xl" : "text-base"}`}>{tour.price}</p>
       </div>
     </div>
