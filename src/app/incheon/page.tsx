@@ -5,7 +5,7 @@ import { tours } from "@/data/tours";
 
 const slides = [
   {
-    image: "/images/golf-main.jpg",
+    image: "/images/hero-sapporo.jpg",
     region: "북해도",
     regionEn: "SAPPORO",
     tagline: "한여름 평균 26도 시원시원한 라운딩",
@@ -19,7 +19,7 @@ const slides = [
     href: "/tours?country=thailand&departure=incheon",
   },
   {
-    image: "/images/golf-main.jpg",
+    image: "/images/hero-kota.jpg",
     region: "코타키나발루",
     regionEn: "KOTA KINABALU",
     tagline: "열대 밀림 속 환상적인 석양 골프",

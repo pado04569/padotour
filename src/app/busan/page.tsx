@@ -5,11 +5,11 @@ import { tours } from "@/data/tours";
 
 const slides = [
   {
-    image: "/images/golf-main.jpg",
-    region: "후쿠오카",
-    regionEn: "FUKUOKA",
-    tagline: "가장 가까운 일본 · 규슈 명문 코스",
-    href: "/tours?country=japan&region=후쿠오카&departure=busan",
+    image: "/images/hero-sapporo.jpg",
+    region: "북해도",
+    regionEn: "SAPPORO",
+    tagline: "한여름 평균 26도 시원시원한 라운딩",
+    href: "/tours?country=japan&region=북해도&departure=busan",
   },
   {
     image: "/images/golf-main.jpg",
@@ -19,11 +19,11 @@ const slides = [
     href: "/tours?country=thailand&departure=busan",
   },
   {
-    image: "/images/golf-main.jpg",
-    region: "하이난",
-    regionEn: "HAINAN",
-    tagline: "중국의 하와이 · 세계 수준 리조트 코스",
-    href: "/tours?country=china&departure=busan",
+    image: "/images/hero-kota.jpg",
+    region: "코타키나발루",
+    regionEn: "KOTA KINABALU",
+    tagline: "열대 밀림 속 환상적인 석양 골프",
+    href: "/tours?country=malaysia&departure=busan",
   },
 ];
 
