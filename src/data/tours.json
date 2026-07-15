@@ -8873,10 +8873,31 @@
       }
     ],
     "price": "1,390,000원~",
-    "image": "",
-    "images": [],
-    "hotelImages": [],
-    "courseImages": [],
+    "image": "/images/vietnam-halongbay-3color/course-5.jpg",
+    "images": [
+      "/images/vietnam-halongbay-3color/course-5.jpg",
+      "/images/vietnam-halongbay-3color/hotel-exterior-day.jpg",
+      "/images/vietnam-halongbay-3color/course-3.jpg",
+      "/images/vietnam-halongbay-3color/hotel-room.jpg",
+      "/images/vietnam-halongbay-3color/course-1.jpg",
+      "/images/vietnam-halongbay-3color/hotel-restaurant-1.jpg"
+    ],
+    "hotelImages": [
+      "/images/vietnam-halongbay-3color/hotel-exterior-day.jpg",
+      "/images/vietnam-halongbay-3color/hotel-exterior-night.jpg",
+      "/images/vietnam-halongbay-3color/hotel-room.jpg",
+      "/images/vietnam-halongbay-3color/hotel-bathroom.jpg",
+      "/images/vietnam-halongbay-3color/hotel-restaurant-1.jpg",
+      "/images/vietnam-halongbay-3color/hotel-restaurant-2.jpg"
+    ],
+    "courseImages": [
+      "/images/vietnam-halongbay-3color/course-1.jpg",
+      "/images/vietnam-halongbay-3color/course-2.jpg",
+      "/images/vietnam-halongbay-3color/course-3.jpg",
+      "/images/vietnam-halongbay-3color/course-4.jpg",
+      "/images/vietnam-halongbay-3color/course-5.jpg",
+      "/images/vietnam-halongbay-3color/course-6.jpg"
+    ],
     "badge": "인천출발 신규",
     "departure": "incheon"
   }
