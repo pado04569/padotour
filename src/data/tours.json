@@ -956,14 +956,13 @@
     ],
     "images": [
       "/images/malaysia-kota/course-1.jpg",
-      "/images/malaysia-kota/hotel-exterior-1.jpg",
+      "/images/malaysia-kota/hotel-exterior-2.jpg",
       "/images/malaysia-kota/course-2.jpg",
       "/images/malaysia-kota/hotel-pool.jpg",
       "/images/malaysia-kota/hotel-room-1.jpg",
-      "/images/malaysia-kota/food-1.jpg"
+      "/images/malaysia-kota/course-5.jpg"
     ],
     "hotelImages": [
-      "/images/malaysia-kota/hotel-exterior-1.jpg",
       "/images/malaysia-kota/hotel-exterior-2.jpg",
       "/images/malaysia-kota/hotel-pool.jpg",
       "/images/malaysia-kota/hotel-room-1.jpg",
@@ -974,7 +973,10 @@
     "courseImages": [
       "/images/malaysia-kota/course-1.jpg",
       "/images/malaysia-kota/course-2.jpg",
-      "/images/malaysia-kota/course-3.jpg"
+      "/images/malaysia-kota/course-3.jpg",
+      "/images/malaysia-kota/course-4.jpg",
+      "/images/malaysia-kota/course-5.jpg",
+      "/images/malaysia-kota/course-6.jpg"
     ]
   },
   {
