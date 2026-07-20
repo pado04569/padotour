@@ -45,6 +45,7 @@ function buildNav(dep?: string): NavItem[] {
             { label: "위해", href: `/tours?country=china&region=위해${q}` },
             { label: "청도(칭다오)", href: `/tours?country=china&region=청도${q}` },
             { label: "하이난(해남도)", href: `/tours?country=china&region=하이난${q}` },
+            { label: "곡부", href: `/tours?country=china&region=곡부${q}` },
           ],
     },
     {

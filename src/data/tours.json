@@ -9481,5 +9481,118 @@
     ],
     "badge": "여름특가 한정출발",
     "departure": "incheon"
+  },
+  {
+    "id": "china-qufu-goldwoo",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "곡부",
+    "title": "[인천출발] 추석연휴 곡부 골프여행 3박4일 석문산 골드우CC 무제한 라운드",
+    "subtitle": "산동항공 인천 직항 · 석문산 골프 리조트(2인 1실) · 그린피·캐디피·카트 무제한 포함 · 9월 23·24·25일 추석연휴 한정 출발",
+    "nights": "3",
+    "days": "4",
+    "courses": "석문산 골드우CC",
+    "roundsIncluded": "무제한",
+    "holes": "36홀+18홀 (의무라운드 없음, 출발 전 라운드수 지정 가능)",
+    "minPeople": "2인",
+    "period": "2026년 9월 23·24·25일 (추석연휴 한정 출발)",
+    "hotel": "석문산 골프 리조트 (또는 동급, 2인 1실)",
+    "hotelDesc": "석문산 골드우CC 골프장 내 위치한 리조트에서 2인 1실로 전 일정 숙박하며, 조식·중식·석식이 클럽식으로 제공되고 무제한 삼겹살 특식이 1회 포함됩니다.",
+    "golfCourse": "석문산 골드우CC",
+    "golfCourseDesc": "중국 산둥성 곡부 인근에 위치한 석문산 골드우CC는 의무 라운드 없이 출발 전 원하는 라운드 수를 지정해 무제한으로 즐길 수 있는 것이 가장 큰 특징입니다. 리조트에서 골프장까지 도보로 이동 가능해 라운딩 동선이 편리합니다.",
+    "productSummary": "산동항공 인천 직항으로 떠나는 추석연휴 한정 곡부 골프 패키지입니다. 석문산 골드우CC에서 그린피·캐디피·카트 무제한, 유네스코 세계유산 공자의 마을 곡부 자유관광도 가능합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 제남",
+        "desc": "인천국제공항 출발(SC8004, 23:40) → 제남국제공항 도착(익일 00:15) → 가이드 미팅 후 리조트로 이동(약 90분) → 리조트 체크인 및 투숙 [석식 기내식]"
+      },
+      {
+        "day": "2일차",
+        "label": "석문산 골드우CC 36홀",
+        "desc": "조식 후 골프장으로 이동(도보) → 석문산 골드우CC 36홀 라운드(의무라운드 없음, 출발 전 원하는 라운드수 지정 필수) → 리조트 투숙 및 휴식 [조식·중식·석식 클럽식]"
+      },
+      {
+        "day": "3일차",
+        "label": "석문산 골드우CC 36홀 + 곡부 자유관광",
+        "desc": "조식 후 골프장으로 이동 → 석문산 골드우CC 36홀 라운드 → 유네스코 세계문화유산 공자의 마을 \"곡부\" 자유관광 가능(왕복 차량비용 인당 50위안) → 리조트 투숙 및 휴식 [조식·중식 클럽식 / 석식 무제한 삼겹살 특식]"
+      },
+      {
+        "day": "마지막날",
+        "label": "석문산 골드우CC 18홀 → 제남 → 인천",
+        "desc": "조식 후 골프장으로 이동 → 석문산 골드우CC 18홀 라운드 → 레이트체크아웃 무료서비스(16시까지) → 공항으로 이동 → 제남국제공항 출발(SC8013, 20:10) → 인천국제공항 도착(22:40)"
+      }
+    ],
+    "highlights": [
+      "산동항공 인천-제남 직항 (추석연휴 한정 출발)",
+      "석문산 골드우CC 그린피·캐디피·카트 무제한",
+      "의무라운드 없이 출발 전 라운드수 지정 가능",
+      "유네스코 세계문화유산 \"곡부\" 자유관광 가능",
+      "전 일정 식사 포함 (무제한 삼겹살 특식 1회)",
+      "한국어 상주직원 안내, 레이트체크아웃 무료"
+    ],
+    "includes": [
+      "왕복 항공권 (TAX + 유류세, 무료수하물 23KG)",
+      "골프 리조트 (2인 1실)",
+      "전 일정 식사 (무제한 삼겹살 특식 1회 포함)",
+      "그린피, 캐디피, 카트 (무제한)",
+      "한국어 상주직원 안내",
+      "레이트체크아웃 무료서비스"
+    ],
+    "excludes": [
+      "공항 미팅·샌딩비 (인당 350위안)",
+      "캐디팁 (인당/18홀 100위안)"
+    ],
+    "cancelPolicy": [
+      "싱글룸 이용 시 인당/박당 4만원이 추가됩니다.",
+      "싱글카트 이용 시 18홀 기준 100위안이 추가됩니다.",
+      "의무라운드가 없으며, 출발 전 원하시는 라운드수를 지정하실 수 있습니다.",
+      "일정 내 식사·라운드를 모두 이용하지 않으셔도 환불되는 금액은 없습니다.",
+      "자사 보유 항공 마감 시 요금이 인상될 수 있습니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 다소 변경될 수 있습니다.",
+      "2명부터 예약 가능한 상품입니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-09-23",
+        "price": 1299000
+      },
+      {
+        "date": "2026-09-24",
+        "price": 1299000
+      },
+      {
+        "date": "2026-09-25",
+        "price": 1299000
+      }
+    ],
+    "price": "1,299,000원~",
+    "image": "/images/china-qufu-goldwoo/course-2.jpg",
+    "images": [
+      "/images/china-qufu-goldwoo/course-2.jpg",
+      "/images/china-qufu-goldwoo/hotel-exterior-1.jpg",
+      "/images/china-qufu-goldwoo/course-4.jpg",
+      "/images/china-qufu-goldwoo/hotel-room-1.jpg",
+      "/images/china-qufu-goldwoo/hotel-restaurant.jpg",
+      "/images/china-qufu-goldwoo/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-qufu-goldwoo/hotel-exterior-1.jpg",
+      "/images/china-qufu-goldwoo/hotel-exterior-2.jpg",
+      "/images/china-qufu-goldwoo/hotel-room-1.jpg",
+      "/images/china-qufu-goldwoo/hotel-room-2.jpg",
+      "/images/china-qufu-goldwoo/hotel-bathroom.jpg",
+      "/images/china-qufu-goldwoo/hotel-restaurant.jpg"
+    ],
+    "courseImages": [
+      "/images/china-qufu-goldwoo/course-1.jpg",
+      "/images/china-qufu-goldwoo/course-2.jpg",
+      "/images/china-qufu-goldwoo/course-3.jpg",
+      "/images/china-qufu-goldwoo/course-4.jpg",
+      "/images/china-qufu-goldwoo/course-5.jpg",
+      "/images/china-qufu-goldwoo/course-6.jpg"
+    ],
+    "badge": "추석연휴 한정출발",
+    "departure": "incheon"
   }
 ]
