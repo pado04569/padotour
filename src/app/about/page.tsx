@@ -11,7 +11,8 @@ export default function AboutPage() {
 
       <div className="max-w-3xl mx-auto px-4 py-12">
 
-        {/* 대표자의 말 */}
+        {/* 대표자의 말 — 사진·글 준비되면 아래 주석 해제 */}
+        {false && (
         <section className="mb-14">
           <h2 className="text-xl font-black text-gray-800 mb-6 pb-2 border-b-2 border-emerald-500 inline-block">
             대표자의 말
@@ -42,6 +43,7 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
+        )}
 
         {/* 회사 소개 */}
         <section className="mb-14">
