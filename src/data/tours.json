@@ -9354,5 +9354,132 @@
     ],
     "badge": "부산출발 신규",
     "departure": "busan"
+  },
+  {
+    "id": "saipan-coralocean-pic",
+    "country": "사이판",
+    "countryCode": "other",
+    "region": "괌/사이판",
+    "title": "[인천출발] 사이판 골프여행 7일 코랄오션CC 90홀 PIC리조트 디럭스룸",
+    "subtitle": "제주항공 인천 직항 · PIC리조트 디럭스룸(2인 1실) · 전 일정 조식·석식·그린피·전동카트 포함 · 7/24~8/1 특정일 출발",
+    "nights": "6",
+    "days": "7",
+    "courses": "코랄오션CC",
+    "roundsIncluded": "5",
+    "holes": "90홀 (18홀 x 5회)",
+    "minPeople": "2인",
+    "period": "2026년 7월 24·25·26·27·28·29·31일, 8월 1일 출발 (특정일 한정)",
+    "hotel": "PIC리조트 (또는 동급, 디럭스룸 2인 1실)",
+    "hotelDesc": "사이판 대표 리조트인 PIC리조트 디럭스룸에서 2인 1실로 전 일정 숙박하며, 조식과 석식이 매일 리조트에서 제공됩니다. 리조트에서 골프장까지는 무료 셔틀로 약 10~15분 거리입니다.",
+    "golfCourse": "코랄오션CC (Coral Ocean Golf Club)",
+    "golfCourseDesc": "사이판을 대표하는 오션뷰 골프장으로, 바다와 맞닿은 절벽 지형 위에 조성되어 있어 페어웨이 곳곳에서 탁 트인 남태평양 전망을 즐길 수 있습니다. 7일 일정 동안 매일 18홀씩 총 90홀(5라운드)을 라운딩하는 알찬 구성입니다.",
+    "productSummary": "제주항공 인천-사이판 직항으로 떠나는 여름휴가 특집 골프 패키지. 코랄오션CC에서 90홀(5라운드), PIC리조트 디럭스룸 7일 일정입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 사이판",
+        "desc": "인천국제공항 출발(7C3211, 20:20) → 사이판국제공항 도착(익일 02:00) → 현지직원 미팅 후 골프장으로 이동(약 15분) → 리조트 체크인 및 휴식 [호텔: PIC리조트 또는 동급]"
+      },
+      {
+        "day": "2~6일차",
+        "label": "사이판 (코랄오션CC 라운딩)",
+        "desc": "조식 후 골프장으로 이동(10분) → 코랄오션CC 18홀 라운드 → 리조트 투숙 및 휴식 [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "마지막날(7일차)",
+        "label": "사이판 → 인천",
+        "desc": "공항으로 이동 → 사이판국제공항 출발(7C3212, 03:05) → 인천국제공항 도착(06:50) 후 해산"
+      }
+    ],
+    "highlights": [
+      "제주항공 인천-사이판 직항 (무료 수하물 23KG*1개)",
+      "코랄오션CC 90홀 (18홀 x 5라운드)",
+      "PIC리조트 디럭스룸 2인 1실",
+      "전 일정 조식·석식 포함",
+      "리조트-골프장 무료 셔틀",
+      "여름휴가 특집 한정 출발일"
+    ],
+    "includes": [
+      "왕복 항공권 (TAX + 유류세)",
+      "리조트 숙박 (2인 1실 디럭스룸)",
+      "전 일정 조식·석식",
+      "그린피, 전동카트 (90홀)",
+      "리조트-골프장 무료 셔틀",
+      "레이트 체크아웃 (공항 이동 시간 전까지)"
+    ],
+    "excludes": [
+      "미팅·샌딩비 (인당 $25)",
+      "중식",
+      "여행자보험"
+    ],
+    "cancelPolicy": [
+      "싱글룸 이용 시 인당/박당 $60 + 레이트체크아웃 인당 $60이 별도 추가됩니다.",
+      "9홀 추가 시 인당 $70, 18홀 추가 시 인당 $90이며 사전 예약이 필수입니다.",
+      "자사 보유 항공 마감 시 요금이 인상될 수 있습니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 다소 변경될 수 있습니다.",
+      "2명부터 예약 가능한 상품입니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-07-24",
+        "price": 1799000
+      },
+      {
+        "date": "2026-07-25",
+        "price": 1799000
+      },
+      {
+        "date": "2026-07-26",
+        "price": 1799000
+      },
+      {
+        "date": "2026-07-27",
+        "price": 1799000
+      },
+      {
+        "date": "2026-07-28",
+        "price": 1799000
+      },
+      {
+        "date": "2026-07-29",
+        "price": 1799000
+      },
+      {
+        "date": "2026-07-31",
+        "price": 1799000
+      },
+      {
+        "date": "2026-08-01",
+        "price": 1799000
+      }
+    ],
+    "price": "1,799,000원~",
+    "image": "/images/saipan-coralocean/course-2.jpg",
+    "images": [
+      "/images/saipan-coralocean/course-2.jpg",
+      "/images/saipan-coralocean/hotel-pool-2.jpg",
+      "/images/saipan-coralocean/course-3.jpg",
+      "/images/saipan-coralocean/hotel-pool-4.jpg",
+      "/images/saipan-coralocean/hotel-room.jpg",
+      "/images/saipan-coralocean/food-1.jpg"
+    ],
+    "hotelImages": [
+      "/images/saipan-coralocean/hotel-pool-2.jpg",
+      "/images/saipan-coralocean/hotel-pool-1.jpg",
+      "/images/saipan-coralocean/hotel-pool-3.jpg",
+      "/images/saipan-coralocean/hotel-pool-4.jpg",
+      "/images/saipan-coralocean/hotel-room.jpg",
+      "/images/saipan-coralocean/food-1.jpg"
+    ],
+    "courseImages": [
+      "/images/saipan-coralocean/course-1.jpg",
+      "/images/saipan-coralocean/course-2.jpg",
+      "/images/saipan-coralocean/course-3.jpg",
+      "/images/saipan-coralocean/course-4.jpg",
+      "/images/saipan-coralocean/course-5.jpg",
+      "/images/saipan-coralocean/course-6.jpg"
+    ],
+    "badge": "여름특가 한정출발",
+    "departure": "incheon"
   }
 ]
