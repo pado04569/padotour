@@ -29,7 +29,7 @@ function ToursContent() {
       {regionParam ? (
         <section className="bg-emerald-600 text-white py-2">
           <div className="max-w-6xl mx-auto px-4">
-            <p className="text-white font-bold text-base md:text-lg">{regionParam} 골프여행 패키지</p>
+            <p className="text-white font-bold text-base md:text-lg">{regionParam === "괌" ? "괌/사이판" : regionParam} 골프여행 패키지</p>
           </div>
         </section>
       ) : (
