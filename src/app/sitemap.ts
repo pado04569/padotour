@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { tours } from "@/data/tours";
+import { courses } from "@/data/courses";
 
 const BASE_URL = "https://www.padotour.com";
 
@@ -9,6 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/incheon`, priority: 0.9 },
     { url: `${BASE_URL}/busan`, priority: 0.9 },
     { url: `${BASE_URL}/tours`, priority: 0.9 },
+    { url: `${BASE_URL}/guide/matsuyama`, priority: 0.9 },
+    { url: `${BASE_URL}/courses`, priority: 0.8 },
     { url: `${BASE_URL}/reviews`, priority: 0.7 },
     { url: `${BASE_URL}/notice`, priority: 0.5 },
     { url: `${BASE_URL}/about`, priority: 0.5 },
@@ -24,5 +27,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...tourPages];
+  const coursePages = courses.map((course) => ({
+    url: `${BASE_URL}/courses/${course.slug}`,
+    lastModified: new Date(),
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...tourPages, ...coursePages];
 }

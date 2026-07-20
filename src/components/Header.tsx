@@ -254,6 +254,9 @@ export default function Header({ departure }: HeaderProps) {
               </button>
               {communityOpen && (
                 <div className="absolute right-0 top-full w-36 bg-white shadow-xl rounded-b-lg overflow-hidden border border-gray-100 z-50">
+                  <Link href="/courses" className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors border-b border-gray-100">
+                    ⛳ 골프장 소개
+                  </Link>
                   <Link href="/reviews" className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors border-b border-gray-100">
                     ⭐ 여행후기
                   </Link>
@@ -310,6 +313,11 @@ export default function Header({ departure }: HeaderProps) {
               )}
             </div>
           ))}
+          <div className="border-b border-gray-100">
+            <Link href="/courses" className="flex items-center gap-2 px-4 py-3.5 text-gray-700 font-medium text-sm" onClick={() => setMenuOpen(false)}>
+              ⛳ 골프장 소개
+            </Link>
+          </div>
           <div className="border-b border-gray-100">
             <Link href="/reviews" className="flex items-center gap-2 px-4 py-3.5 text-gray-700 font-medium text-sm" onClick={() => setMenuOpen(false)}>
               ⭐ 여행후기
