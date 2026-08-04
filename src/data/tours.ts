@@ -34,7 +34,17 @@ export type Tour = {
   departure: "incheon" | "busan" | "both";
 };
 
-export const tours: Tour[] = toursData as Tour[];
+const allTours: Tour[] = toursData as Tour[];
+
+// 출발일이 모두 지난 상품(=예약 불가능한 상품)은 자동으로 목록에서 제외
+function isTourActive(tour: Tour): boolean {
+  if (!tour.departurePrices || tour.departurePrices.length === 0) return true;
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  return tour.departurePrices.some((dp) => new Date(dp.date) >= today);
+}
+
+export const tours: Tour[] = allTours.filter(isTourActive);
 
 export const countries = [
   { code: "all", label: "전체" },

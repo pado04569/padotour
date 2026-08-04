@@ -9534,5 +9534,106 @@
     ],
     "badge": "추석연휴 한정출발",
     "departure": "incheon"
+  },
+  {
+    "id": "philippines-manila-alabang",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "region": "마닐라",
+    "title": "[인천출발] 추석 마닐라 알라방 골프여행 3박5일 이글릿지·스플랜디도·셔우드CC 54홀 · 비베레호텔",
+    "subtitle": "대한항공 인천 직항 · 5성급 비베레호텔(2인 1실) · 이글릿지·스플랜디도·셔우드CC 중 3색 54홀 · 전일정 단독차량·단독가이드",
+    "nights": "3",
+    "days": "5",
+    "courses": "이글릿지CC / 스플랜디도CC / 셔우드CC 중 3색",
+    "roundsIncluded": "3",
+    "holes": "54홀 (18홀 x 3회)",
+    "minPeople": "2인",
+    "period": "2026년 9월 23일 ~ 27일 (추석연휴 한정 출발)",
+    "hotel": "알라방 비베레호텔 (또는 동급, 5성급 2인 1실)",
+    "hotelDesc": "마닐라 부촌으로 꼽히는 알라방에 위치한 5성급 비베레호텔에서 2인 1실로 전 일정 숙박하며, 호텔 조식이 매일 제공됩니다.",
+    "golfCourse": "이글릿지CC / 스플랜디도CC / 셔우드CC",
+    "golfCourseDesc": "마닐라 알라방 인근의 이글릿지CC, 스플랜디도CC, 셔우드CC 중 3개 코스를 선택해 총 54홀(3라운드)을 즐기는 3색 골프 패키지입니다. 골프장 순서는 랜덤 배정되며, 마감 시 동급 골프장으로 변경될 수 있습니다.",
+    "productSummary": "필리핀 마닐라 부촌 알라방으로 떠나는 추석연휴 한정 3색 골프여행입니다. 이글릿지·스플랜디도·셔우드CC 54홀, 5성급 비베레호텔, 전일정 단독차량·단독가이드가 포함됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 마닐라",
+        "desc": "인천국제공항 출발(KE625, 20:30) → 마닐라국제공항 도착(23:59) → 현지직원 미팅 후 골프장으로 이동(약 40분) → 호텔 체크인 후 석식 및 휴식 [호텔: 알라방 비베레호텔 또는 동급 / 석식 기내식]"
+      },
+      {
+        "day": "2~4일차",
+        "label": "알라방 3색 골프 (이글릿지·스플랜디도·셔우드CC)",
+        "desc": "골프장으로 이동(40~80분) → 이글릿지·스플랜디도·셔우드CC 중 18홀 라운드(9홀 추가 시 주중 $60/주말 $80, 그린피·캐디피·카트 포함) → 호텔 투숙 및 휴식. 석식은 호텔에서 10분 거리 대형쇼핑몰 자유 맛집투어 가능 [조식 호텔식 / 중식 불포함 / 석식 자유식]. 4일차는 아시아 최대 쇼핑몰 \"몰 오브 아시아\"에서 자유쇼핑 2시간 후 공항으로 이동(마지막날 늦은 티업시 불가)"
+      },
+      {
+        "day": "마지막날",
+        "label": "마닐라 → 인천",
+        "desc": "마닐라국제공항 출발(KE626, 01:00) → 인천국제공항 도착(06:15) [조식 기내식]"
+      }
+    ],
+    "highlights": [
+      "대한항공 인천-마닐라 직항 (추석연휴 한정 출발)",
+      "이글릿지·스플랜디도·셔우드CC 중 3색 54홀",
+      "5성급 알라방 비베레호텔 2인 1실",
+      "전일정 단독차량 + 단독 가이드·기사",
+      "아시아 최대 쇼핑몰 \"몰 오브 아시아\" 자유쇼핑 2시간",
+      "그린피·캐디피·카트 54홀 포함"
+    ],
+    "includes": [
+      "왕복 항공권 (TAX + 유류할증료, 무료수하물 23KG)",
+      "5성급 호텔 (2인 1실)",
+      "호텔 조식",
+      "그린피, 캐디피, 카트 (54홀)",
+      "전일정 단독차량 (공항-호텔-골프장-석식당)",
+      "전일정 단독 가이드, 기사",
+      "아시아 최대 쇼핑몰(몰 오브 아시아) 자유쇼핑 2시간"
+    ],
+    "excludes": [
+      "중식, 석식",
+      "개인경비 및 캐디 매너팁"
+    ],
+    "cancelPolicy": [
+      "2인 출발 시 인당 $100이 추가됩니다.",
+      "1인 1실 사용 시 인당/1박 $55가 추가됩니다.",
+      "싱글카트 이용 시 18홀 기준 $20이 추가됩니다.",
+      "골프장별 의무식사 컨슈머비가 있습니다 (400~600페소).",
+      "골프장 순서는 랜덤 배정되며, 마감 시 동급 골프장으로 변경될 수 있습니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변동될 수 있습니다.",
+      "2명부터 예약 가능한 상품입니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-09-23",
+        "price": 1599000
+      }
+    ],
+    "price": "1,599,000원~",
+    "image": "/images/philippines-manila-alabang/course-4.jpg",
+    "images": [
+      "/images/philippines-manila-alabang/course-4.jpg",
+      "/images/philippines-manila-alabang/hotel-exterior-1.jpg",
+      "/images/philippines-manila-alabang/course-1.jpg",
+      "/images/philippines-manila-alabang/hotel-pool.jpg",
+      "/images/philippines-manila-alabang/hotel-room.jpg",
+      "/images/philippines-manila-alabang/food-1.jpg"
+    ],
+    "hotelImages": [
+      "/images/philippines-manila-alabang/hotel-exterior-1.jpg",
+      "/images/philippines-manila-alabang/hotel-exterior-2.jpg",
+      "/images/philippines-manila-alabang/hotel-pool.jpg",
+      "/images/philippines-manila-alabang/hotel-room.jpg",
+      "/images/philippines-manila-alabang/hotel-dining.jpg",
+      "/images/philippines-manila-alabang/hotel-ballroom.jpg",
+      "/images/philippines-manila-alabang/food-1.jpg"
+    ],
+    "courseImages": [
+      "/images/philippines-manila-alabang/course-1.jpg",
+      "/images/philippines-manila-alabang/course-2.jpg",
+      "/images/philippines-manila-alabang/course-3.jpg",
+      "/images/philippines-manila-alabang/course-4.jpg",
+      "/images/philippines-manila-alabang/course-5.jpg"
+    ],
+    "badge": "추석특가",
+    "departure": "incheon"
   }
 ]
