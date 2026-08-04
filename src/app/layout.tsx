@@ -16,9 +16,9 @@ export const metadata: Metadata = {
     locale: "ko_KR",
     images: [
       {
-        url: "/images/logo-original.png",
-        width: 800,
-        height: 800,
+        url: "/images/og-logo.png",
+        width: 1200,
+        height: 630,
         alt: "여행의 파도 골프전문 여행사",
       },
     ],
