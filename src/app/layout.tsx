@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "여행의 파도",
     title: "여행의파도 | 골프여행 전문 여행사",
-    description: "일본·태국·중국·필리핀 골프여행 전문. 인천·부산 출발 상품과 일정·요금을 확인하세요.",
+    description: "여행의파도 | 일본·태국·중국·필리핀 골프여행 전문. 인천·부산 출발 상품과 일정·요금을 확인하세요.",
     url: "https://www.padotour.com",
     locale: "ko_KR",
     images: [
