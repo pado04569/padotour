@@ -4,14 +4,14 @@ import ClientLayout from "@/components/ClientLayout";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.padotour.com"),
-  title: "여행의 파도 | 골프여행 전문",
-  description: "여행의파도 - 일본, 태국, 코타키나발루, 필리핀, 중국 골프여행 전문 여행사. 카카오톡으로 편하게 문의하세요.",
-  keywords: "골프여행, 일본골프여행, 후쿠오카골프, 홋카이도골프, 태국골프, 코타키나발루골프, 여행의파도",
+  title: "여행의파도 | 골프여행 전문 여행사",
+  description: "여행의파도는 일본, 태국, 중국, 필리핀, 코타키나발루 골프여행을 전문으로 운영하는 골프전문 여행사입니다. 인천·부산 출발 해외골프 상품과 요금, 일정, 골프장 정보를 안내합니다.",
+  keywords: "골프여행, 일본골프여행, 후쿠오카골프, 홋카이도골프, 태국골프, 코타키나발루골프, 중국골프, 필리핀골프, 여행의파도",
   openGraph: {
     type: "website",
     siteName: "여행의 파도",
-    title: "여행의 파도 | 골프전문 여행사",
-    description: "일본·태국·중국·코타키나발루 골프여행 전문. 인천·부산 출발, 합리적인 견적은 카카오톡·전화(010-5301-5250)로 편하게 문의하세요.",
+    title: "여행의파도 | 골프여행 전문 여행사",
+    description: "여행의파도는 일본, 태국, 중국, 필리핀, 코타키나발루 골프여행을 전문으로 운영하는 골프전문 여행사입니다. 인천·부산 출발 해외골프 상품과 요금, 일정, 골프장 정보를 안내합니다.",
     url: "https://www.padotour.com",
     locale: "ko_KR",
     images: [
