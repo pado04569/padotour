@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="h-screen bg-white flex flex-col items-center justify-center px-4">
+    <div className="min-h-screen bg-white flex flex-col items-center justify-center px-4 py-10">
       {/* 로고 & 출발지 선택 한 블록으로 */}
       <div className="text-center mb-5">
         <div className="flex justify-center mb-2">
@@ -50,6 +50,42 @@ export default function Home() {
             상품 보기 →
           </div>
         </Link>
+      </div>
+
+      {/* 공식 채널 & 사업자 정보 */}
+      <div className="mt-10 text-center">
+        <div className="flex items-center justify-center gap-5 text-sm">
+          <a
+            href="https://blog.naver.com/pado-tour-"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:text-blue-600 font-semibold transition-colors"
+          >
+            네이버 블로그
+          </a>
+          <span className="text-gray-300">|</span>
+          <a
+            href="https://band.us/@padotour"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:text-blue-600 font-semibold transition-colors"
+          >
+            네이버 밴드
+          </a>
+          <span className="text-gray-300">|</span>
+          <a
+            href="https://pf.kakao.com/_bxoxnXxj/chat"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-500 hover:text-blue-600 font-semibold transition-colors"
+          >
+            카카오톡 상담
+          </a>
+        </div>
+        <div className="mt-4 text-xs text-gray-400 leading-relaxed">
+          <p>여행의 파도 · 대표 이지안 · 사업자번호 372-57-00613</p>
+          <p>관광사업등록번호 제2022-000029호 · 서울 마포구 토정로35길 11 인우빌딩</p>
+        </div>
       </div>
     </div>
   );
