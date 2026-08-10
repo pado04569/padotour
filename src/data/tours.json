@@ -9435,7 +9435,7 @@
     "roundsIncluded": "무제한",
     "holes": "36홀+18홀 (의무라운드 없음, 출발 전 라운드수 지정 가능)",
     "minPeople": "2인",
-    "period": "2026년 9월 23·24·25일 (추석연휴 한정 출발)",
+    "period": "2026년 9월 23·24·25일(추석), 10월 2일(개천절), 10월 8일(한글날)",
     "hotel": "석문산 골프 리조트 (또는 동급, 2인 1실)",
     "hotelDesc": "석문산 골드우CC 골프장 내 위치한 리조트에서 2인 1실로 전 일정 숙박하며, 조식·중식·석식이 클럽식으로 제공되고 무제한 삼겹살 특식이 1회 포함됩니다.",
     "golfCourse": "석문산 골드우CC",
@@ -9495,18 +9495,26 @@
     "departurePrices": [
       {
         "date": "2026-09-23",
-        "price": 1299000
+        "price": 1199000
       },
       {
         "date": "2026-09-24",
-        "price": 1299000
+        "price": 1199000
       },
       {
         "date": "2026-09-25",
-        "price": 1299000
+        "price": 1199000
+      },
+      {
+        "date": "2026-10-02",
+        "price": 1099000
+      },
+      {
+        "date": "2026-10-08",
+        "price": 1059000
       }
     ],
-    "price": "1,299,000원~",
+    "price": "1,059,000원~",
     "image": "/images/china-qufu-goldwoo/course-2.jpg",
     "images": [
       "/images/china-qufu-goldwoo/course-2.jpg",
@@ -9532,7 +9540,7 @@
       "/images/china-qufu-goldwoo/course-5.jpg",
       "/images/china-qufu-goldwoo/course-6.jpg"
     ],
-    "badge": "추석연휴 한정출발",
+    "badge": "황금연휴 한정출발",
     "departure": "incheon"
   },
   {
