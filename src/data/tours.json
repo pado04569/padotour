@@ -10283,5 +10283,168 @@
     ],
     "badge": "부산출발 신규",
     "departure": "busan"
+  },
+  {
+    "id": "japan-kumamoto-busan",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "구마모토",
+    "title": "[부산출발] 구마모토 아소스카이블루 골프텔 3박4일·4박5일 천연온천",
+    "subtitle": "이스타항공 부산(김해) 직항 · 아소스카이블루 골프 리조트(2인 1실) · 그린피·카트·공항왕복셔틀 포함 · 토요일 3박4일 / 화요일 4박5일",
+    "nights": "3~4",
+    "days": "4~5",
+    "courses": "아소스카이블루GC",
+    "roundsIncluded": "3~4",
+    "holes": "18홀 규모 (9홀 서비스 라운드 추가)",
+    "minPeople": "2인",
+    "period": "2026년 9월 ~ 10월 (토요일 3박4일 / 화요일 4박5일)",
+    "hotel": "아소 스카이 블루 골프 리조트 (2인 1실)",
+    "hotelDesc": "해발 900m에 위치한 골프 리조트로, 아소의 활화산에서 분출하는 100% 천연온천을 이용할 수 있습니다. 클럽하우스·프로샵·락커룸·사우나·레스토랑·온천 등 부대시설을 갖추고 있으며, 마운틴뷰 트윈룸이 우선 배정됩니다.",
+    "golfCourse": "아소스카이블루GC",
+    "golfCourseDesc": "18홀 규모의 아소스카이블루GC는 전동카트 4인 1카트로 운영되며 캐디 없이 셀프 플레이로 진행됩니다(카트는 페어웨이 진입 불가). 연평균 16도의 온화한 기후로 여름에도 쾌적하게 라운딩할 수 있습니다.",
+    "productSummary": "이스타항공 부산-구마모토 직항으로 떠나는 아소스카이블루 골프텔 패키지입니다. 천연온천을 갖춘 해발 900m 리조트에서 토요일 3박4일 또는 화요일 4박5일 중 선택할 수 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 구마모토",
+        "desc": "김해국제공항 출발(ZE967, 12:30) → 구마모토국제공항 도착(13:50) → 일본인 송영기사 미팅 후 리조트로 이동(약 50분) → 호텔 체크인 후 온천욕 및 석식 후 자유일정 [중식 불포함 / 석식 호텔식]"
+      },
+      {
+        "day": "2~3일차 (또는 2~4일차)",
+        "label": "아소스카이블루GC 18홀 + 9홀 서비스 라운드",
+        "desc": "호텔 조식 후 골프장으로 이동 → 18홀 라운딩(셀프+카트플레이) → 중식(불포함) → 9홀 서비스 라운드(셀프&카트플레이) → 라운드 종료 후 온천욕 및 석식 후 자유일정 [조식 호텔식 / 중식 불포함 / 석식 호텔식]"
+      },
+      {
+        "day": "마지막날",
+        "label": "구마모토 → 부산",
+        "desc": "호텔 조식 후 9홀 라운드(셀프&카트플레이) → 셔틀버스로 공항 이동(약 50분) → 구마모토국제공항 출발(ZE968, 14:50) → 김해국제공항 도착(15:55) [조식 호텔식 / 중식 불포함]"
+      }
+    ],
+    "highlights": [
+      "이스타항공 부산(김해)-구마모토 직항 (매일 운항)",
+      "아소스카이블루GC 18홀 + 9홀 서비스 라운드",
+      "해발 900m 100% 천연온천 골프 리조트",
+      "토요일 출발 3박4일 / 화요일 출발 4박5일 중 선택",
+      "그린피·카트·공항 왕복 셔틀 포함",
+      "2명부터 출발 가능"
+    ],
+    "includes": [
+      "왕복 항공, 유류관련 총텍스 (8월 기준)",
+      "공항 왕복 송영차량",
+      "전일정 호텔",
+      "호텔 조식 + 호텔 석식",
+      "일정 내 그린피 + 카트",
+      "수하물 20KG"
+    ],
+    "excludes": [
+      "여행자보험, 개인경비, 매너팁",
+      "유류할증료 변동분",
+      "클럽 중식, 클럽 렌탈",
+      "노캐디 (캐디 없음)",
+      "싱글차지 (박당 3만원~, 객실별 상이)",
+      "2인 플레이 시 1인 기준 9홀 10,000원"
+    ],
+    "cancelPolicy": [
+      "4박5일(화요일 출발) 요금: 9/1·8·15·29 1,260,000원 · 9/22 1,500,000원 · 10/6 1,470,000원 · 10/13·20 1,480,000원.",
+      "2인 진행 시 송영 조인 조건이며, 비조인 시 송영 추가금이 발생합니다.",
+      "노가이드 상품입니다 (골프장 내 현지인 매니저가 응대합니다).",
+      "일정은 골프장 사정에 의해 순서 및 동급 골프장으로 변동될 수 있습니다.",
+      "출발일 기준 여권 만료일이 6개월 이상 남아있어야 합니다.",
+      "환율 및 인원 변동 시 요금이 변동될 수 있으며, 유류할증료 인상 시 추가 금액이 청구됩니다.",
+      "천재지변을 제외한 개인사정 또는 우천 시 캔슬의 경우 그린피 환불은 불가합니다. 대부분 해외 골프장은 한국과 달리 우천 시 라운딩 조건이며, 천재지변으로 라운드를 못 할 경우에만 환불이 가능합니다.",
+      "9홀 추가 시 주중 35,000원/인, 주말 50,000원/인이 추가됩니다.",
+      "마운틴뷰 트윈룸이 우선 배정됩니다.",
+      "일본 입국 패스트트랙(Fast Track) 등록을 권장하며, 비짓재팬웹 필수 등록사항은 아니고 입국신고서·세관신고서 작성으로 대체 가능합니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-09-01",
+        "price": 1260000
+      },
+      {
+        "date": "2026-09-05",
+        "price": 1085000
+      },
+      {
+        "date": "2026-09-08",
+        "price": 1260000
+      },
+      {
+        "date": "2026-09-12",
+        "price": 1085000
+      },
+      {
+        "date": "2026-09-15",
+        "price": 1260000
+      },
+      {
+        "date": "2026-09-19",
+        "price": 1085000
+      },
+      {
+        "date": "2026-09-22",
+        "price": 1500000
+      },
+      {
+        "date": "2026-09-26",
+        "price": 1075000
+      },
+      {
+        "date": "2026-09-29",
+        "price": 1260000
+      },
+      {
+        "date": "2026-10-03",
+        "price": 1525000
+      },
+      {
+        "date": "2026-10-06",
+        "price": 1470000
+      },
+      {
+        "date": "2026-10-10",
+        "price": 1375000
+      },
+      {
+        "date": "2026-10-13",
+        "price": 1480000
+      },
+      {
+        "date": "2026-10-17",
+        "price": 1285000
+      },
+      {
+        "date": "2026-10-20",
+        "price": 1480000
+      }
+    ],
+    "price": "1,075,000원~",
+    "image": "/images/japan-kumamoto-busan/course-4.jpg",
+    "images": [
+      "/images/japan-kumamoto-busan/course-4.jpg",
+      "/images/japan-kumamoto-busan/hotel-onsen-1.jpg",
+      "/images/japan-kumamoto-busan/course-6.jpg",
+      "/images/japan-kumamoto-busan/hotel-exterior.jpg",
+      "/images/japan-kumamoto-busan/hotel-room-western.jpg",
+      "/images/japan-kumamoto-busan/course-1.jpg"
+    ],
+    "hotelImages": [
+      "/images/japan-kumamoto-busan/hotel-exterior.jpg",
+      "/images/japan-kumamoto-busan/hotel-room-western.jpg",
+      "/images/japan-kumamoto-busan/hotel-room-japanese.jpg",
+      "/images/japan-kumamoto-busan/hotel-onsen-1.jpg",
+      "/images/japan-kumamoto-busan/hotel-onsen-2.jpg",
+      "/images/japan-kumamoto-busan/hotel-onsen-3.jpg"
+    ],
+    "courseImages": [
+      "/images/japan-kumamoto-busan/course-1.jpg",
+      "/images/japan-kumamoto-busan/course-2.jpg",
+      "/images/japan-kumamoto-busan/course-3.jpg",
+      "/images/japan-kumamoto-busan/course-4.jpg",
+      "/images/japan-kumamoto-busan/course-5.jpg",
+      "/images/japan-kumamoto-busan/course-6.jpg"
+    ],
+    "badge": "부산출발 신규",
+    "departure": "busan"
   }
 ]
