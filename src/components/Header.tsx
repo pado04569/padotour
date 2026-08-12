@@ -30,6 +30,7 @@ function buildNav(dep?: string): NavItem[] {
         { label: "도쿄/이바라키", href: `/tours?country=japan&region=도쿄${q}` },
         { label: "구마모토", href: `/tours?country=japan&region=구마모토${q}` },
         { label: "나고야", href: `/tours?country=japan&region=나고야${q}` },
+        { label: "야마구치", href: `/tours?country=japan&region=야마구치${q}` },
       ],
     },
     {
