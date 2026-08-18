@@ -23,7 +23,7 @@ export type Tour = {
   includes: string[];
   excludes: string[];
   cancelPolicy?: string[];
-  departurePrices?: { date: string; price: number }[];
+  departurePrices?: { date: string; price: number; nights?: number; days?: number }[];
   price: string;
   image: string;
   images?: string[];

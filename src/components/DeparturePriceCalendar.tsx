@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-type PriceEntry = { date: string; price: number };
+type PriceEntry = { date: string; price: number; nights?: number; days?: number };
 
 type Props = {
   departurePrices: PriceEntry[];
@@ -33,6 +33,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
   const [sent, setSent] = useState(false);
 
   const priceMap = new Map(departurePrices.map(p => [p.date, p.price]));
+  const entryMap = new Map(departurePrices.map(p => [p.date, p]));
 
   const months = [0, 1, 2].map(offset => {
     let month = baseMonth.month + offset;
@@ -54,9 +55,12 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
   }
 
   const selectedPrice = selected ? priceMap.get(selected) : null;
+  const selectedEntry = selected ? entryMap.get(selected) : null;
+  const selectedNights = selectedEntry?.nights ?? nights;
+  const selectedDays = selectedEntry?.days ?? days;
   const returnDate = selected ? (() => {
     const d = new Date(selected);
-    d.setDate(d.getDate() + days - 1);
+    d.setDate(d.getDate() + selectedDays - 1);
     return `${d.getMonth() + 1}/${d.getDate()}`;
   })() : null;
 
@@ -73,8 +77,8 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
         body: JSON.stringify({
           tourTitle: tourTitle ?? "골프여행 상품",
           departureDate: selected,
-          nights,
-          days,
+          nights: selectedNights,
+          days: selectedDays,
           people,
           phone: phone.trim(),
         }),
@@ -193,7 +197,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                 {selected.replace(/-/g, ".")} 출발
               </p>
               <p className="text-sm text-gray-500 mt-0.5">
-                {nights}박 {days}일 · 귀국 {returnDate}
+                {selectedNights}박 {selectedDays}일 · 귀국 {returnDate}
               </p>
             </div>
             <div className="text-right">

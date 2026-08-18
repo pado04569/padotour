@@ -8026,135 +8026,201 @@
     "departurePrices": [
       {
         "date": "2026-07-03",
-        "price": 1490000
+        "price": 1490000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-07-06",
-        "price": 1690000
+        "price": 1690000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-07-10",
-        "price": 1490000
+        "price": 1490000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-07-13",
-        "price": 1690000
+        "price": 1690000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-07-17",
-        "price": 1540000
+        "price": 1540000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-07-20",
-        "price": 1740000
+        "price": 1740000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-07-24",
-        "price": 1540000
+        "price": 1540000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-07-27",
-        "price": 1740000
+        "price": 1740000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-07-31",
-        "price": 1540000
+        "price": 1540000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-08-03",
-        "price": 1740000
+        "price": 1740000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-08-07",
-        "price": 1540000
+        "price": 1540000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-08-10",
-        "price": 1740000
+        "price": 1740000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-08-14",
-        "price": 1540000
+        "price": 1540000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-08-17",
-        "price": 1690000
+        "price": 1690000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-08-21",
-        "price": 1490000
+        "price": 1490000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-08-24",
-        "price": 1690000
+        "price": 1690000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-08-28",
-        "price": 1490000
+        "price": 1490000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-08-31",
-        "price": 1690000
+        "price": 1690000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-09-04",
-        "price": 1490000
+        "price": 1490000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-09-07",
-        "price": 1690000
+        "price": 1690000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-09-11",
-        "price": 1490000
+        "price": 1490000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-09-14",
-        "price": 1690000
+        "price": 1690000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-09-18",
-        "price": 1490000
+        "price": 1490000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-09-21",
-        "price": 1690000
+        "price": 1690000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-09-25",
-        "price": 1690000
+        "price": 1690000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-09-28",
-        "price": 1740000
+        "price": 1740000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-10-02",
-        "price": 1540000
+        "price": 1540000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-10-05",
-        "price": 1740000
+        "price": 1740000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-10-09",
-        "price": 1540000
+        "price": 1540000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-10-12",
-        "price": 1740000
+        "price": 1740000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-10-16",
-        "price": 1540000
+        "price": 1540000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-10-19",
-        "price": 1740000
+        "price": 1740000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-10-23",
-        "price": 1540000
+        "price": 1540000,
+        "nights": 3,
+        "days": 4
       }
     ],
     "price": "1,490,000원~",
@@ -9651,71 +9717,105 @@
     "departurePrices": [
       {
         "date": "2026-07-01",
-        "price": 1229000
+        "price": 1229000,
+        "nights": 3,
+        "days": 5
       },
       {
         "date": "2026-07-04",
-        "price": 1329000
+        "price": 1329000,
+        "nights": 4,
+        "days": 6
       },
       {
         "date": "2026-07-08",
-        "price": 1229000
+        "price": 1229000,
+        "nights": 3,
+        "days": 5
       },
       {
         "date": "2026-07-11",
-        "price": 1199000
+        "price": 1199000,
+        "nights": 4,
+        "days": 6
       },
       {
         "date": "2026-07-15",
-        "price": 1269000
+        "price": 1269000,
+        "nights": 3,
+        "days": 5
       },
       {
         "date": "2026-07-18",
-        "price": 1219000
+        "price": 1219000,
+        "nights": 4,
+        "days": 6
       },
       {
         "date": "2026-07-22",
-        "price": 1169000
+        "price": 1169000,
+        "nights": 3,
+        "days": 5
       },
       {
         "date": "2026-07-25",
-        "price": 1509000
+        "price": 1509000,
+        "nights": 4,
+        "days": 6
       },
       {
         "date": "2026-07-29",
-        "price": 1289000
+        "price": 1289000,
+        "nights": 3,
+        "days": 5
       },
       {
         "date": "2026-08-01",
-        "price": 1589000
+        "price": 1589000,
+        "nights": 4,
+        "days": 6
       },
       {
         "date": "2026-08-05",
-        "price": 1349000
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
       },
       {
         "date": "2026-08-08",
-        "price": 1409000
+        "price": 1409000,
+        "nights": 4,
+        "days": 6
       },
       {
         "date": "2026-08-12",
-        "price": 1309000
+        "price": 1309000,
+        "nights": 3,
+        "days": 5
       },
       {
         "date": "2026-08-15",
-        "price": 1409000
+        "price": 1409000,
+        "nights": 4,
+        "days": 6
       },
       {
         "date": "2026-08-19",
-        "price": 1269000
+        "price": 1269000,
+        "nights": 3,
+        "days": 5
       },
       {
         "date": "2026-08-22",
-        "price": 1369000
+        "price": 1369000,
+        "nights": 4,
+        "days": 6
       },
       {
         "date": "2026-08-26",
-        "price": 1269000
+        "price": 1269000,
+        "nights": 3,
+        "days": 5
       }
     ],
     "price": "1,169,000원~",
@@ -10808,63 +10908,93 @@
     "departurePrices": [
       {
         "date": "2026-09-01",
-        "price": 1260000
+        "price": 1260000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-09-05",
-        "price": 1085000
+        "price": 1085000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-09-08",
-        "price": 1260000
+        "price": 1260000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-09-12",
-        "price": 1085000
+        "price": 1085000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-09-15",
-        "price": 1260000
+        "price": 1260000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-09-19",
-        "price": 1085000
+        "price": 1085000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-09-22",
-        "price": 1500000
+        "price": 1500000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-09-26",
-        "price": 1075000
+        "price": 1075000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-09-29",
-        "price": 1260000
+        "price": 1260000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-10-03",
-        "price": 1525000
+        "price": 1525000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-10-06",
-        "price": 1470000
+        "price": 1470000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-10-10",
-        "price": 1375000
+        "price": 1375000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-10-13",
-        "price": 1480000
+        "price": 1480000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-10-17",
-        "price": 1285000
+        "price": 1285000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-10-20",
-        "price": 1480000
+        "price": 1480000,
+        "nights": 4,
+        "days": 5
       }
     ],
     "price": "1,075,000원~",
@@ -11671,23 +11801,33 @@
     "departurePrices": [
       {
         "date": "2026-09-10",
-        "price": 1550000
+        "price": 1550000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-09-14",
-        "price": 1490000
+        "price": 1490000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-09-17",
-        "price": 1490000
+        "price": 1490000,
+        "nights": 4,
+        "days": 5
       },
       {
         "date": "2026-09-18",
-        "price": 1290000
+        "price": 1290000,
+        "nights": 3,
+        "days": 4
       },
       {
         "date": "2026-09-27",
-        "price": 1190000
+        "price": 1190000,
+        "nights": 3,
+        "days": 4
       }
     ],
     "price": "1,190,000원~",
