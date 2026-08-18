@@ -11959,5 +11959,375 @@
     ],
     "badge": "9월 시즌엔드 특가",
     "departure": "incheon"
+  },
+  {
+    "id": "china-xiamen-nantaiwu-3n4d",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "샤먼",
+    "title": "[부산출발] 샤먼(하문) 골프여행 3박4일 남태무CC·동방CC 54홀 IHG화이호텔",
+    "subtitle": "이스타항공 부산 직항 · 정5성급 IHG 화이호텔(2인 1실) · 남태무CC+동방CC 2색 54홀 · 목요일 출발",
+    "nights": "3",
+    "days": "4",
+    "courses": "남태무CC + 동방CC(오리엔트 샤먼CC)",
+    "roundsIncluded": "3",
+    "holes": "54홀 (18홀 x 3회)",
+    "minPeople": "2인",
+    "period": "2026년 10월 29일 ~ 2027년 3월 25일 (매주 목요일 출발)",
+    "hotel": "정5성급 IHG 화이호텔 (2인 1실)",
+    "hotelDesc": "샤먼 시내 중심에 위치한 정5성급 IHG 화이호텔에서 2인 1실로 숙박하며, 조식·석식이 전 일정 포함됩니다. 쇼핑센터·식당가가 10분 이내 거리에 있어 접근성이 좋습니다.",
+    "golfCourse": "남태무CC, 동방CC(오리엔트 샤먼CC)",
+    "golfCourseDesc": "남태무CC와 동방CC(오리엔트 샤먼CC) 2색으로 구성된 골프 패키지입니다. 호텔에서 골프장까지 약 10~30분 거리로 접근성이 좋으며, 겨울철 평균기온이 약 20도로 쾌적하게 라운딩할 수 있습니다.",
+    "productSummary": "이스타항공 부산-샤먼 직항(약 2시간 40분)으로 떠나는 실속 골프 패키지입니다. 남태무CC·동방CC 2색 골프와 정5성급 IHG 화이호텔을 합리적인 비용으로 즐길 수 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 샤먼",
+        "desc": "출발 3시간 전 김해공항 도착, 개별 탑승 수속 → 이스타항공 탑승 후 샤먼 향발(ZE975, 11:00) → 샤먼공항 도착(12:50) → 호텔로 이동(약 20분 소요) → 호텔 체크인 후 중준안 야시장 관광(구랑위 관광 시 300위안/인 추가) → 호텔 이동 후 휴식 [중식 XXXX / 석식 현지식]. 호텔: 정5성 IHG 화이호텔(2인 1실)"
+      },
+      {
+        "day": "2~3일차",
+        "label": "남태무CC 18홀",
+        "desc": "조식 후 골프장으로 이동(약 35분 소요) → 남태무CC 18홀 T/O → 석식 후 호텔 투숙 및 휴식 [조식 호텔식 / 중식 XXXX / 석식 삼겹살·현지식]"
+      },
+      {
+        "day": "마지막 라운드일",
+        "label": "오리엔트 샤먼(동방)CC 18홀",
+        "desc": "조식 후 골프장으로 이동(약 10분 소요) → 오리엔트 샤먼(동방)CC 18홀 T/O → 라운드 후 공항으로 이동 → 이스타항공 탑승 후 부산 향발(ZE976, 13:50) → 김해공항 도착(17:20) 후 해산 [조식 호텔식 / 중식 XXXX]"
+      }
+    ],
+    "highlights": [
+      "이스타항공 부산-샤먼 직항 (약 2시간 40분)",
+      "남태무CC + 동방CC(오리엔트 샤먼CC) 2색 골프",
+      "정5성급 IHG 화이호텔 2인 1실",
+      "오전 출발·오후 귀국의 최적 스케줄",
+      "겨울 평균기온 약 20도, 쾌적한 라운딩",
+      "호텔-골프장 약 10~30분, 쇼핑센터·식당가 10분 이내"
+    ],
+    "includes": [
+      "왕복 항공료 (유류할증료, TAX, 공항이용료)",
+      "전 일정 숙박 (정5성 IHG 화이호텔 2인 1실)",
+      "전 일정 그린피",
+      "전 일정 호텔 조식 / 석식",
+      "차량 및 기사 경비 등 일체",
+      "위탁 수하물 15KG",
+      "여행자보험"
+    ],
+    "excludes": [
+      "미팅 & 샌딩비 (400위안/1인, 2인부터 출발 확정 시 추가요금 없음)",
+      "카트비 + 캐디피 (300위안/18홀/손님 1인, 2인 1카트)",
+      "캐디팁 (150위안/18홀/손님 1인, 2인 1캐디)",
+      "클럽 중식",
+      "현지 개인경비"
+    ],
+    "cancelPolicy": [
+      "2인부터 출발 확정이며, 추가요금은 없습니다.",
+      "현지 도착 시 캐디피+카트비 일괄 지불 조건이며, 미라운딩 시에도 환불되지 않습니다.",
+      "싱글 카트 이용 시 18홀 100위안이 발생합니다.",
+      "싱글룸 이용 시 1박당 6만원 추가됩니다(2/5~2/13 구정연휴 별도).",
+      "모든 차량은 다른 손님들과 동승 조건입니다.",
+      "2인 라운드는 가능하나 골프장 예약 상황에 따라 조인될 수도 있습니다.",
+      "천재지변 또는 개인사정에 의하여 라운딩을 못하셔도 환불이 불가합니다.",
+      "단독행사 진행 가능하며, 2인 단독 8만원/인, 4인 단독 4만원/인 추가됩니다.",
+      "남태무 18홀 → 9홀 추가 시 주중 6만원, 주말 8만원 인상됩니다.",
+      "남태무 18홀 → 동방 18홀 변경 시 주중 7만원, 주말 9만원 인상됩니다.",
+      "남태무 18홀 → 해서 18홀 변경 시 주중 8만원, 주말 10만원 인상됩니다.",
+      "12/31, 2/4, 2/7, 2/11 출발일은 별도 문의 바랍니다.",
+      "8월 발권 조건으로 이후 요금이 변동될 수 있습니다.",
+      "18홀 후 반나절 관광(4인 기준): 남정트로 관광 450위안/인(차량+입장권+가이드), 구랑위 관광 300위안/인(차량+입장권+일광암+피아노박물관+가이드)."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-10-29",
+        "price": 1249000
+      },
+      {
+        "date": "2026-11-05",
+        "price": 1249000
+      },
+      {
+        "date": "2026-11-12",
+        "price": 1249000
+      },
+      {
+        "date": "2026-11-19",
+        "price": 1249000
+      },
+      {
+        "date": "2026-11-26",
+        "price": 1279000
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1279000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1279000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1349000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1429000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1399000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1419000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1419000
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-25",
+        "price": 1299000
+      }
+    ],
+    "price": "1,249,000원~",
+    "image": "/images/china-xiamen-nantaiwu/course-1.jpg",
+    "images": [
+      "/images/china-xiamen-nantaiwu/course-1.jpg",
+      "/images/china-xiamen-nantaiwu/hotel-exterior.jpg",
+      "/images/china-xiamen-nantaiwu/course-3.jpg",
+      "/images/china-xiamen-nantaiwu/hotel-room.jpg",
+      "/images/china-xiamen-nantaiwu/food-1.jpg",
+      "/images/china-xiamen-nantaiwu/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-xiamen-nantaiwu/hotel-exterior.jpg",
+      "/images/china-xiamen-nantaiwu/hotel-room.jpg",
+      "/images/china-xiamen-nantaiwu/hotel-bathroom.jpg",
+      "/images/china-xiamen-nantaiwu/food-1.jpg",
+      "/images/china-xiamen-nantaiwu/food-2.jpg",
+      "/images/china-xiamen-nantaiwu/food-3.jpg"
+    ],
+    "courseImages": [
+      "/images/china-xiamen-nantaiwu/course-1.jpg",
+      "/images/china-xiamen-nantaiwu/course-2.jpg",
+      "/images/china-xiamen-nantaiwu/course-3.jpg",
+      "/images/china-xiamen-nantaiwu/course-4.jpg",
+      "/images/china-xiamen-nantaiwu/course-5.jpg",
+      "/images/china-xiamen-nantaiwu/course-6.jpg"
+    ],
+    "badge": "부산출발 신규",
+    "departure": "busan"
+  },
+  {
+    "id": "china-xiamen-nantaiwu-4n5d",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "샤먼",
+    "title": "[부산출발] 샤먼(하문) 골프여행 4박5일 남태무CC·동방CC 72홀 IHG화이호텔",
+    "subtitle": "이스타항공 부산 직항 · 정5성급 IHG 화이호텔(2인 1실) · 남태무CC+동방CC 2색 72홀 · 일요일 출발",
+    "nights": "4",
+    "days": "5",
+    "courses": "남태무CC + 동방CC(오리엔트 샤먼CC)",
+    "roundsIncluded": "4",
+    "holes": "72홀 (18홀 x 4회)",
+    "minPeople": "2인",
+    "period": "2026년 11월 1일 ~ 2027년 3월 21일 (매주 일요일 출발)",
+    "hotel": "정5성급 IHG 화이호텔 (2인 1실)",
+    "hotelDesc": "샤먼 시내 중심에 위치한 정5성급 IHG 화이호텔에서 2인 1실로 숙박하며, 조식·석식이 전 일정 포함됩니다. 쇼핑센터·식당가가 10분 이내 거리에 있어 접근성이 좋습니다.",
+    "golfCourse": "남태무CC, 동방CC(오리엔트 샤먼CC)",
+    "golfCourseDesc": "남태무CC와 동방CC(오리엔트 샤먼CC) 2색으로 구성된 골프 패키지입니다. 호텔에서 골프장까지 약 10~30분 거리로 접근성이 좋으며, 겨울철 평균기온이 약 20도로 쾌적하게 라운딩할 수 있습니다.",
+    "productSummary": "이스타항공 부산-샤먼 직항(약 2시간 40분)으로 떠나는 실속 골프 패키지입니다. 남태무CC·동방CC 2색 골프와 정5성급 IHG 화이호텔을 합리적인 비용으로 즐길 수 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 샤먼",
+        "desc": "출발 3시간 전 김해공항 도착, 개별 탑승 수속 → 이스타항공 탑승 후 샤먼 향발(ZE975, 11:00) → 샤먼공항 도착(12:50) → 호텔로 이동(약 20분 소요) → 호텔 체크인 후 중준안 야시장 관광(구랑위 관광 시 300위안/인 추가) → 호텔 이동 후 휴식 [중식 XXXX / 석식 현지식]. 호텔: 정5성 IHG 화이호텔(2인 1실)"
+      },
+      {
+        "day": "2~3일차",
+        "label": "남태무CC 18홀",
+        "desc": "조식 후 골프장으로 이동(약 35분 소요) → 남태무CC 18홀 T/O → 석식 후 호텔 투숙 및 휴식 [조식 호텔식 / 중식 XXXX / 석식 삼겹살·현지식]"
+      },
+      {
+        "day": "마지막 라운드일",
+        "label": "오리엔트 샤먼(동방)CC 18홀",
+        "desc": "조식 후 골프장으로 이동(약 10분 소요) → 오리엔트 샤먼(동방)CC 18홀 T/O → 라운드 후 공항으로 이동 → 이스타항공 탑승 후 부산 향발(ZE976, 13:50) → 김해공항 도착(17:20) 후 해산 [조식 호텔식 / 중식 XXXX]"
+      }
+    ],
+    "highlights": [
+      "이스타항공 부산-샤먼 직항 (약 2시간 40분)",
+      "남태무CC + 동방CC(오리엔트 샤먼CC) 2색 골프",
+      "정5성급 IHG 화이호텔 2인 1실",
+      "오전 출발·오후 귀국의 최적 스케줄",
+      "겨울 평균기온 약 20도, 쾌적한 라운딩",
+      "호텔-골프장 약 10~30분, 쇼핑센터·식당가 10분 이내"
+    ],
+    "includes": [
+      "왕복 항공료 (유류할증료, TAX, 공항이용료)",
+      "전 일정 숙박 (정5성 IHG 화이호텔 2인 1실)",
+      "전 일정 그린피",
+      "전 일정 호텔 조식 / 석식",
+      "차량 및 기사 경비 등 일체",
+      "위탁 수하물 15KG",
+      "여행자보험"
+    ],
+    "excludes": [
+      "미팅 & 샌딩비 (400위안/1인, 2인부터 출발 확정 시 추가요금 없음)",
+      "카트비 + 캐디피 (300위안/18홀/손님 1인, 2인 1카트)",
+      "캐디팁 (150위안/18홀/손님 1인, 2인 1캐디)",
+      "클럽 중식",
+      "현지 개인경비"
+    ],
+    "cancelPolicy": [
+      "2인부터 출발 확정이며, 추가요금은 없습니다.",
+      "현지 도착 시 캐디피+카트비 일괄 지불 조건이며, 미라운딩 시에도 환불되지 않습니다.",
+      "싱글 카트 이용 시 18홀 100위안이 발생합니다.",
+      "싱글룸 이용 시 1박당 6만원 추가됩니다(2/5~2/13 구정연휴 별도).",
+      "모든 차량은 다른 손님들과 동승 조건입니다.",
+      "2인 라운드는 가능하나 골프장 예약 상황에 따라 조인될 수도 있습니다.",
+      "천재지변 또는 개인사정에 의하여 라운딩을 못하셔도 환불이 불가합니다.",
+      "단독행사 진행 가능하며, 2인 단독 8만원/인, 4인 단독 4만원/인 추가됩니다.",
+      "남태무 18홀 → 9홀 추가 시 주중 6만원, 주말 8만원 인상됩니다.",
+      "남태무 18홀 → 동방 18홀 변경 시 주중 7만원, 주말 9만원 인상됩니다.",
+      "남태무 18홀 → 해서 18홀 변경 시 주중 8만원, 주말 10만원 인상됩니다.",
+      "12/31, 2/4, 2/7, 2/11 출발일은 별도 문의 바랍니다.",
+      "8월 발권 조건으로 이후 요금이 변동될 수 있습니다.",
+      "18홀 후 반나절 관광(4인 기준): 남정트로 관광 450위안/인(차량+입장권+가이드), 구랑위 관광 300위안/인(차량+입장권+일광암+피아노박물관+가이드)."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-01",
+        "price": 1239000
+      },
+      {
+        "date": "2026-11-08",
+        "price": 1239000
+      },
+      {
+        "date": "2026-11-15",
+        "price": 1239000
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1269000
+      },
+      {
+        "date": "2026-11-29",
+        "price": 1269000
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1269000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1329000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1329000
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1369000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1369000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1369000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1369000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1369000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1369000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1399000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1399000
+      },
+      {
+        "date": "2027-02-28",
+        "price": 1399000
+      },
+      {
+        "date": "2027-03-07",
+        "price": 1349000
+      },
+      {
+        "date": "2027-03-14",
+        "price": 1349000
+      },
+      {
+        "date": "2027-03-21",
+        "price": 1349000
+      }
+    ],
+    "price": "1,239,000원~",
+    "image": "/images/china-xiamen-nantaiwu/course-1.jpg",
+    "images": [
+      "/images/china-xiamen-nantaiwu/course-1.jpg",
+      "/images/china-xiamen-nantaiwu/hotel-exterior.jpg",
+      "/images/china-xiamen-nantaiwu/course-3.jpg",
+      "/images/china-xiamen-nantaiwu/hotel-room.jpg",
+      "/images/china-xiamen-nantaiwu/food-1.jpg",
+      "/images/china-xiamen-nantaiwu/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-xiamen-nantaiwu/hotel-exterior.jpg",
+      "/images/china-xiamen-nantaiwu/hotel-room.jpg",
+      "/images/china-xiamen-nantaiwu/hotel-bathroom.jpg",
+      "/images/china-xiamen-nantaiwu/food-1.jpg",
+      "/images/china-xiamen-nantaiwu/food-2.jpg",
+      "/images/china-xiamen-nantaiwu/food-3.jpg"
+    ],
+    "courseImages": [
+      "/images/china-xiamen-nantaiwu/course-1.jpg",
+      "/images/china-xiamen-nantaiwu/course-2.jpg",
+      "/images/china-xiamen-nantaiwu/course-3.jpg",
+      "/images/china-xiamen-nantaiwu/course-4.jpg",
+      "/images/china-xiamen-nantaiwu/course-5.jpg",
+      "/images/china-xiamen-nantaiwu/course-6.jpg"
+    ],
+    "badge": "부산출발 신규",
+    "departure": "busan"
   }
 ]
