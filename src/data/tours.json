@@ -11732,19 +11732,125 @@
     "departure": "incheon"
   },
   {
-    "id": "japan-aomori-lakewood",
+    "id": "japan-aomori-lakewood-3n4d",
     "country": "일본",
     "countryCode": "japan",
     "region": "아오모리",
-    "title": "[인천출발] 9월 시즌엔드 특가 아오모리 락우드 36홀 골프 3박4일·4박5일",
+    "title": "[인천출발] 9월 시즌엔드 특가 아오모리 락우드 36홀 골프 3박4일",
     "subtitle": "대한항공 인천 직항 · 락우드 호텔&스파 트윈객실 · Arnold Palmer 설계 코스 · 체류일 36홀 라운드 · 온천&뷔페 리조트 · 샤브샤브 가이세키 정식 1회 업그레이드",
-    "nights": "3~4",
-    "days": "4~5",
+    "nights": "3",
+    "days": "4",
     "courses": "아오모리 스프링 골프코스",
-    "roundsIncluded": "2~3",
+    "roundsIncluded": "3",
     "holes": "36홀 (Arnold Palmer 설계)",
     "minPeople": "4인 (2~3인은 추가요금)",
-    "period": "2026년 9월 (9/10·14·17·18·27 한정 출발)",
+    "period": "2026년 9월 (9/18·27 한정 출발)",
+    "hotel": "락우드 호텔 & 스파 (트윈객실)",
+    "hotelDesc": "아오모리 락우드 호텔&스파에서 트윈객실로 숙박하며, 조식·석식(기본 뷔페식)과 입욕료(온천)가 포함됩니다. 이번 프로모션 기간에는 석식 1회가 샤브샤브 가이세키 정식(1인 4,400엔 상당)으로 업그레이드됩니다.",
+    "golfCourse": "아오모리 스프링 골프코스",
+    "golfCourseDesc": "아놀드 파머(Arnold Palmer)가 설계한 36홀 명문 코스로, 체류일 하루에 18홀 x 2회(36홀)를 라운딩하는 알찬 구성입니다. 체류일 라운드는 대회 등 골프장 사정에 따라 18홀만 가능한 경우도 있으며, 이 경우 사전에 안내드립니다.",
+    "productSummary": "대한항공 인천-아오모리 직항으로 떠나는 9월 시즌엔드 특가 상품입니다. 아놀드 파머 설계의 락우드 36홀 코스와 온천&뷔페 리조트를 함께 즐길 수 있습니다.",
+    "schedule": [
+      {
+        "day": "출발일",
+        "label": "인천 → 아오모리",
+        "desc": "인천국제공항 출발(KE2193, 08:10) → 아오모리국제공항 도착(10:30) → 기사 미팅 후 골프장으로 이동(약 60분) → 골프장 도착 후 환복, 캐리어는 프론트 보관(호텔로 옮겨드림) → 점심식사 후 라운드 시작 → 아오모리 스프링 골프코스 9홀(셀프+카트, 일몰플레이) → 체크인 후 레스토랑에서 식사(뷔페식) 및 온천욕 [중식 불포함 / 석식 뷔페식]. 호텔: 락우드 호텔 & 스파"
+      },
+      {
+        "day": "체류일",
+        "label": "아오모리 스프링 골프코스 36홀",
+        "desc": "호텔 조식 후 차량으로 골프장 이동(약 5분) → 아오모리 스프링 골프코스 18홀+18홀 서비스(셀프+카트) — 골프장 사정에 따라 18홀만 가능한 경우도 있음(사전 안내) → 호텔 복귀 후 레스토랑에서 식사(뷔페식) 및 온천욕 [조식 뷔페식 / 중식 불포함 / 석식 뷔페식]"
+      },
+      {
+        "day": "도착일",
+        "label": "아오모리 → 인천",
+        "desc": "호텔 조식 후 체크아웃, 공항으로 이동(약 60분) → 아오모리국제공항 출발(KE2194, 12:40) → 인천국제공항 도착(15:15) [조식 뷔페식 / 중식 불포함]"
+      }
+    ],
+    "highlights": [
+      "대한항공 인천-아오모리 직항",
+      "아놀드 파머 설계 아오모리 스프링 36홀 코스",
+      "락우드 호텔 & 스파 트윈객실, 온천&뷔페 리조트",
+      "샤브샤브 가이세키 정식 1회 업그레이드 (1인 4,400엔 상당)",
+      "2B(2인 1카트) 추가금 없음 (조인플레이 진행)",
+      "3박4일(3라운드) / 4박5일(더 여유로운 일정) 중 선택"
+    ],
+    "includes": [
+      "항공료",
+      "락우드 호텔 트윈객실",
+      "조식 + 석식",
+      "입욕료",
+      "그린피 + 카트비",
+      "1일차 카트피",
+      "공항-호텔-골프장 간 송영차량"
+    ],
+    "excludes": [
+      "클럽 중식",
+      "여행자보험 (각자 가입)",
+      "체류일 락카 이용 시 락카피는 개별 정산 (250엔/1회)"
+    ],
+    "cancelPolicy": [
+      "4인 이상 출발 요금이며, 3인 출발 시 4,000엔/인, 2인 출발 시 6,000엔/인이 추가됩니다(송영비용).",
+      "2인 예약 시, 주말 라운드가 포함되는 경우 조인 모객이 없으면 2인플레이 비용이 발생합니다(1인 1일 15,000원).",
+      "싱글룸 사용 시 8,000원/1인/1박이 추가됩니다(트윈룸 싱글 유즈).",
+      "저녁식사는 기본 뷔페식이며, 호텔 숙박인원이 적을 경우 일식세트로 예고 없이 변경될 수 있습니다.",
+      "식사 업그레이드: 1인 4,400엔 추가 시 샤브샤브 가이세키코스 또는 양식코스요리 선택 가능(최소 1주일 전 사전예약).",
+      "체류일 36홀은 대회 등에 의해 18홀만 가능한 경우도 있으며, 사전에 안내드립니다.",
+      "18홀 또는 27홀만 하고 끝내시는 경우는 클럽하우스에 말씀해주시면 차량을 배차해드립니다(환불금 없음)."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-09-18",
+        "price": 1290000
+      },
+      {
+        "date": "2026-09-27",
+        "price": 1190000
+      }
+    ],
+    "price": "1,190,000원~",
+    "image": "/images/japan-aomori-lakewood/course-4.jpg",
+    "images": [
+      "/images/japan-aomori-lakewood/course-4.jpg",
+      "/images/japan-aomori-lakewood/hotel-onsen-1.jpg",
+      "/images/japan-aomori-lakewood/course-1.jpg",
+      "/images/japan-aomori-lakewood/hotel-room-1.jpg",
+      "/images/japan-aomori-lakewood/food-1.jpg",
+      "/images/japan-aomori-lakewood/course-2.jpg"
+    ],
+    "hotelImages": [
+      "/images/japan-aomori-lakewood/hotel-room-1.jpg",
+      "/images/japan-aomori-lakewood/hotel-room-2.jpg",
+      "/images/japan-aomori-lakewood/hotel-onsen-1.jpg",
+      "/images/japan-aomori-lakewood/hotel-onsen-2.jpg",
+      "/images/japan-aomori-lakewood/food-1.jpg",
+      "/images/japan-aomori-lakewood/food-2.jpg"
+    ],
+    "courseImages": [
+      "/images/japan-aomori-lakewood/course-1.jpg",
+      "/images/japan-aomori-lakewood/course-2.jpg",
+      "/images/japan-aomori-lakewood/course-3.jpg",
+      "/images/japan-aomori-lakewood/course-4.jpg",
+      "/images/japan-aomori-lakewood/course-5.jpg",
+      "/images/japan-aomori-lakewood/course-6.jpg"
+    ],
+    "badge": "9월 시즌엔드 특가",
+    "departure": "incheon"
+  },
+  {
+    "id": "japan-aomori-lakewood-4n5d",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "아오모리",
+    "title": "[인천출발] 9월 시즌엔드 특가 아오모리 락우드 36홀 골프 4박5일",
+    "subtitle": "대한항공 인천 직항 · 락우드 호텔&스파 트윈객실 · Arnold Palmer 설계 코스 · 체류일 36홀 라운드 · 온천&뷔페 리조트 · 샤브샤브 가이세키 정식 1회 업그레이드",
+    "nights": "4",
+    "days": "5",
+    "courses": "아오모리 스프링 골프코스",
+    "roundsIncluded": "3~4",
+    "holes": "36홀 (Arnold Palmer 설계)",
+    "minPeople": "4인 (2~3인은 추가요금)",
+    "period": "2026년 9월 (9/10·14·17 한정 출발)",
     "hotel": "락우드 호텔 & 스파 (트윈객실)",
     "hotelDesc": "아오모리 락우드 호텔&스파에서 트윈객실로 숙박하며, 조식·석식(기본 뷔페식)과 입욕료(온천)가 포함됩니다. 이번 프로모션 기간에는 석식 1회가 샤브샤브 가이세키 정식(1인 4,400엔 상당)으로 업그레이드됩니다.",
     "golfCourse": "아오모리 스프링 골프코스",
@@ -11801,36 +11907,18 @@
     "departurePrices": [
       {
         "date": "2026-09-10",
-        "price": 1550000,
-        "nights": 4,
-        "days": 5
+        "price": 1550000
       },
       {
         "date": "2026-09-14",
-        "price": 1490000,
-        "nights": 4,
-        "days": 5
+        "price": 1490000
       },
       {
         "date": "2026-09-17",
-        "price": 1490000,
-        "nights": 4,
-        "days": 5
-      },
-      {
-        "date": "2026-09-18",
-        "price": 1290000,
-        "nights": 3,
-        "days": 4
-      },
-      {
-        "date": "2026-09-27",
-        "price": 1190000,
-        "nights": 3,
-        "days": 4
+        "price": 1490000
       }
     ],
-    "price": "1,190,000원~",
+    "price": "1,490,000원~",
     "image": "/images/japan-aomori-lakewood/course-4.jpg",
     "images": [
       "/images/japan-aomori-lakewood/course-4.jpg",
