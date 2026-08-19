@@ -12822,10 +12822,31 @@
       }
     ],
     "price": "1,499,000원~",
-    "image": "",
-    "images": [],
-    "hotelImages": [],
-    "courseImages": [],
+    "image": "/images/saipan-2color-pic/course-5.jpg",
+    "images": [
+      "/images/saipan-2color-pic/course-5.jpg",
+      "/images/saipan-2color-pic/hotel-exterior.jpg",
+      "/images/saipan-2color-pic/course-6.jpg",
+      "/images/saipan-2color-pic/hotel-pool-1.jpg",
+      "/images/saipan-2color-pic/hotel-room.jpg",
+      "/images/saipan-2color-pic/food-1.jpg"
+    ],
+    "hotelImages": [
+      "/images/saipan-2color-pic/hotel-exterior.jpg",
+      "/images/saipan-2color-pic/hotel-pool-1.jpg",
+      "/images/saipan-2color-pic/hotel-pool-2.jpg",
+      "/images/saipan-2color-pic/hotel-room.jpg",
+      "/images/saipan-2color-pic/food-1.jpg",
+      "/images/saipan-2color-pic/food-2.jpg"
+    ],
+    "courseImages": [
+      "/images/saipan-2color-pic/course-1.jpg",
+      "/images/saipan-2color-pic/course-2.jpg",
+      "/images/saipan-2color-pic/course-3.jpg",
+      "/images/saipan-2color-pic/course-4.jpg",
+      "/images/saipan-2color-pic/course-5.jpg",
+      "/images/saipan-2color-pic/course-6.jpg"
+    ],
     "badge": "황금연휴 조기마감주의",
     "departure": "incheon"
   }
