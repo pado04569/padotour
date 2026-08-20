@@ -14055,10 +14055,31 @@
       }
     ],
     "price": "1,119,000원~",
-    "image": "",
-    "images": [],
-    "hotelImages": [],
-    "courseImages": [],
+    "image": "/images/japan-beppu-grandmercure-busan/hotel-exterior.jpg",
+    "images": [
+      "/images/japan-beppu-grandmercure-busan/hotel-exterior.jpg",
+      "/images/japan-beppu-grandmercure-busan/course-1.jpg",
+      "/images/japan-beppu-grandmercure-busan/hotel-onsen.jpg",
+      "/images/japan-beppu-grandmercure-busan/course-6.jpg",
+      "/images/japan-beppu-grandmercure-busan/hotel-room.jpg",
+      "/images/japan-beppu-grandmercure-busan/food-1.jpg"
+    ],
+    "hotelImages": [
+      "/images/japan-beppu-grandmercure-busan/hotel-exterior.jpg",
+      "/images/japan-beppu-grandmercure-busan/hotel-lobby.jpg",
+      "/images/japan-beppu-grandmercure-busan/hotel-room.jpg",
+      "/images/japan-beppu-grandmercure-busan/hotel-onsen.jpg",
+      "/images/japan-beppu-grandmercure-busan/food-1.jpg",
+      "/images/japan-beppu-grandmercure-busan/food-2.jpg"
+    ],
+    "courseImages": [
+      "/images/japan-beppu-grandmercure-busan/course-1.jpg",
+      "/images/japan-beppu-grandmercure-busan/course-2.jpg",
+      "/images/japan-beppu-grandmercure-busan/course-3.jpg",
+      "/images/japan-beppu-grandmercure-busan/course-4.jpg",
+      "/images/japan-beppu-grandmercure-busan/course-5.jpg",
+      "/images/japan-beppu-grandmercure-busan/course-6.jpg"
+    ],
     "badge": "부산출발 신규",
     "departure": "busan"
   }
