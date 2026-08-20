@@ -34,6 +34,7 @@ function buildNav(dep?: string): NavItem[] {
         { label: "가고시마", href: `/tours?country=japan&region=가고시마${q}` },
         { label: "아오모리", href: `/tours?country=japan&region=아오모리${q}` },
         { label: "오사카", href: `/tours?country=japan&region=오사카${q}` },
+        { label: "시즈오카", href: `/tours?country=japan&region=시즈오카${q}` },
       ],
     },
     {
