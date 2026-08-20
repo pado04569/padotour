@@ -14255,10 +14255,31 @@
       }
     ],
     "price": "1,290,000원~",
-    "image": "",
-    "images": [],
-    "hotelImages": [],
-    "courseImages": [],
+    "image": "/images/japan-shizuoka-fujieda/course-2.jpg",
+    "images": [
+      "/images/japan-shizuoka-fujieda/course-2.jpg",
+      "/images/japan-shizuoka-fujieda/hotel-exterior.jpg",
+      "/images/japan-shizuoka-fujieda/course-5.jpg",
+      "/images/japan-shizuoka-fujieda/hotel-room-1.jpg",
+      "/images/japan-shizuoka-fujieda/hotel-onsen-1.jpg",
+      "/images/japan-shizuoka-fujieda/course-1.jpg"
+    ],
+    "hotelImages": [
+      "/images/japan-shizuoka-fujieda/hotel-exterior.jpg",
+      "/images/japan-shizuoka-fujieda/hotel-room-1.jpg",
+      "/images/japan-shizuoka-fujieda/hotel-room-2.jpg",
+      "/images/japan-shizuoka-fujieda/hotel-onsen-1.jpg",
+      "/images/japan-shizuoka-fujieda/hotel-onsen-2.jpg",
+      "/images/japan-shizuoka-fujieda/hotel-onsen-3.jpg"
+    ],
+    "courseImages": [
+      "/images/japan-shizuoka-fujieda/course-1.jpg",
+      "/images/japan-shizuoka-fujieda/course-2.jpg",
+      "/images/japan-shizuoka-fujieda/course-3.jpg",
+      "/images/japan-shizuoka-fujieda/course-4.jpg",
+      "/images/japan-shizuoka-fujieda/course-5.jpg",
+      "/images/japan-shizuoka-fujieda/course-6.jpg"
+    ],
     "badge": "8/31 선발권 특가",
     "departure": "incheon"
   }
