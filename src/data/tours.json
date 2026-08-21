@@ -14893,10 +14893,31 @@
       }
     ],
     "price": "1,390,000원~",
-    "image": "",
-    "images": [],
-    "hotelImages": [],
-    "courseImages": [],
+    "image": "/images/japan-kagoshima-kedoin/course-5.jpg",
+    "images": [
+      "/images/japan-kagoshima-kedoin/course-5.jpg",
+      "/images/japan-kagoshima-kedoin/hotel-exterior-1.jpg",
+      "/images/japan-kagoshima-kedoin/course-3.jpg",
+      "/images/japan-kagoshima-kedoin/hotel-onsen-indoor.jpg",
+      "/images/japan-kagoshima-kedoin/hotel-room.jpg",
+      "/images/japan-kagoshima-kedoin/hotel-pool.jpg"
+    ],
+    "hotelImages": [
+      "/images/japan-kagoshima-kedoin/hotel-exterior-1.jpg",
+      "/images/japan-kagoshima-kedoin/hotel-exterior-2.jpg",
+      "/images/japan-kagoshima-kedoin/hotel-room.jpg",
+      "/images/japan-kagoshima-kedoin/hotel-pool.jpg",
+      "/images/japan-kagoshima-kedoin/hotel-onsen-indoor.jpg",
+      "/images/japan-kagoshima-kedoin/hotel-onsen-outdoor.jpg"
+    ],
+    "courseImages": [
+      "/images/japan-kagoshima-kedoin/course-1.jpg",
+      "/images/japan-kagoshima-kedoin/course-2.jpg",
+      "/images/japan-kagoshima-kedoin/course-3.jpg",
+      "/images/japan-kagoshima-kedoin/course-4.jpg",
+      "/images/japan-kagoshima-kedoin/course-5.jpg",
+      "/images/japan-kagoshima-kedoin/course-6.jpg"
+    ],
     "badge": "8/31 선발권 특가",
     "departure": "incheon"
   }
