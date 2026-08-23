@@ -195,7 +195,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 여행 일정 ── */}
         {tour.schedule && tour.schedule.length > 0 && (
           <div className="mb-8">
-            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📋 {tour.region} 골프 {tour.nights}박{tour.days}일 여행 일정</h2>
+            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📋 {tour.region} 골프여행 {tour.nights}박{tour.days}일 일정</h2>
             <div className="space-y-3">
               {tour.schedule.map((s, i) => (
                 <div key={i} className="flex gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
