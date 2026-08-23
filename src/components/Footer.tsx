@@ -4,9 +4,9 @@ type FooterProps = {
 
 // 아직 확인되지 않은 사업자 정보는 빈 값으로 두세요 — 값이 있을 때만 화면에 표시됩니다.
 const businessInfo = {
-  address: "",
-  mailOrderNumber: "", // 통신판매업신고번호
-  email: "",
+  address: "서울특별시 마포구 토정로35길 11, 5층 5427호(용강동, 인우빌딩)",
+  mailOrderNumber: "", // 통신판매업 미신고
+  email: "pado-tour-@naver.com",
 };
 
 const info = {

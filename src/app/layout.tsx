@@ -40,6 +40,14 @@ const travelAgencyJsonLd = {
   logo: "https://www.padotour.com/images/logo.png",
   image: "https://www.padotour.com/images/og-logo.png",
   telephone: "+82-10-5301-5250",
+  email: "pado-tour-@naver.com",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "토정로35길 11, 5층 5427호(용강동, 인우빌딩)",
+    addressLocality: "마포구",
+    addressRegion: "서울특별시",
+    addressCountry: "KR",
+  },
   description: "일본·태국·중국·베트남·말레이시아·필리핀 등 해외 골프여행 전문 여행사. 인천·부산 출발 골프 패키지 상품을 안내합니다.",
   sameAs: [
     "https://blog.naver.com/pado-tour-",
