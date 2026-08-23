@@ -14,7 +14,10 @@
       "/images/beppu/course-4.jpg",
       "/images/beppu/course-5.jpg"
     ],
-    "relatedTourIds": ["japan-beppu-kamenoi", "japan-beppu-kamenoi-busan"]
+    "relatedTourIds": [
+      "japan-beppu-kamenoi",
+      "japan-beppu-kamenoi-busan"
+    ]
   },
   {
     "slug": "niseko-cc",
@@ -31,7 +34,9 @@
       "/images/hokkaido-niseko/course-5.jpg",
       "/images/hokkaido-niseko/course-6.jpg"
     ],
-    "relatedTourIds": ["japan-hokkaido-niseko"]
+    "relatedTourIds": [
+      "japan-hokkaido-niseko"
+    ]
   },
   {
     "slug": "karambunai-cc",
@@ -48,7 +53,10 @@
       "/images/malaysia-kota/course-5.jpg",
       "/images/malaysia-kota/course-6.jpg"
     ],
-    "relatedTourIds": ["malaysia-kota", "malaysia-kota-busan"]
+    "relatedTourIds": [
+      "malaysia-kota",
+      "malaysia-kota-busan"
+    ]
   },
   {
     "slug": "pineeast-golf",
@@ -64,7 +72,10 @@
       "/images/guam-pineeast/course-4.jpg",
       "/images/guam-pineeast/course-5.jpg"
     ],
-    "relatedTourIds": ["guam-pineeast", "guam-pineeast-busan"]
+    "relatedTourIds": [
+      "guam-pineeast",
+      "guam-pineeast-busan"
+    ]
   },
   {
     "slug": "coral-ocean-cc",
@@ -81,6 +92,27 @@
       "/images/saipan-coralocean/course-5.jpg",
       "/images/saipan-coralocean/course-6.jpg"
     ],
-    "relatedTourIds": ["saipan-coralocean-pic"]
+    "relatedTourIds": [
+      "saipan-coralocean-pic"
+    ]
+  },
+  {
+    "slug": "kedoin-cc",
+    "name": "케도인CC",
+    "region": "가고시마",
+    "country": "일본",
+    "countryCode": "japan",
+    "description": "일본 골프 다이제스트가 선정한 \"일본 베스트 골프장 TOP10\"에 오른 가고시마의 명문 코스입니다. 토너먼트 코스 레이아웃으로 설계되어 정교한 공략이 필요한 도전적인 18홀을 갖추고 있습니다.\n\n케도인 리조트에서 골프장까지 도보로 이동할 수 있어 이동 부담이 없으며, 셀프+카트 플레이로 하루 18홀씩 라운딩합니다. 리조트에는 한국인 지배인이 상주해 일본어가 익숙하지 않아도 편안하게 이용할 수 있습니다.\n\n라운드 후에는 피부에 좋은 천연온천 미인탕에서 피로를 풀 수 있고, 조식(뷔페 또는 정식)과 함께 와카이세키·화양카이세키·흑돼지 샤브샤브 등 정갈한 석식이 제공됩니다. 이스타항공 인천-가고시마 직항으로 편하게 오갈 수 있어 명문 코스와 온천을 함께 즐기려는 골퍼에게 추천하는 리조트형 골프장입니다.",
+    "images": [
+      "/images/japan-kagoshima-kedoin/course-1.jpg",
+      "/images/japan-kagoshima-kedoin/course-3.jpg",
+      "/images/japan-kagoshima-kedoin/course-5.jpg",
+      "/images/japan-kagoshima-kedoin/hotel-onsen-outdoor.jpg",
+      "/images/japan-kagoshima-kedoin/hotel-exterior-1.jpg",
+      "/images/japan-kagoshima-kedoin/hotel-room.jpg"
+    ],
+    "relatedTourIds": [
+      "japan-kagoshima-kedoin"
+    ]
   }
 ]

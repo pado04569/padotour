@@ -32,6 +32,10 @@ export type Tour = {
   courseImages?: string[];
   badge?: string;
   departure: "incheon" | "busan" | "both";
+  /** 검색엔진용 서술형 한 줄 소개 (제목 아래 렌더링, meta description으로도 사용) */
+  seoIntro?: string;
+  /** 검색엔진용 키워드 태그 목록 (상품 구성 아래 회색 텍스트로 렌더링) */
+  seoKeywords?: string[];
 };
 
 const allTours: Tour[] = toursData as Tour[];

@@ -1,11 +1,28 @@
 import Link from "next/link";
 import { tours } from "@/data/tours";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
 import ContactOptions from "@/components/ContactOptions";
 
 export async function generateStaticParams() {
   return tours.map((t) => ({ id: t.id }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const tour = tours.find((t) => t.id === id);
+  if (!tour) return {};
+  const description = tour.seoIntro ?? tour.subtitle ?? tour.productSummary ?? tour.title;
+  return {
+    title: `${tour.title} | 여행의 파도`,
+    description,
+    openGraph: {
+      title: tour.title,
+      description,
+      images: tour.image ? [{ url: tour.image }] : undefined,
+    },
+  };
 }
 
 export default async function TourDetailPage({ params }: { params: Promise<{ id: string }> }) {
@@ -37,6 +54,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             </div>
             <h1 className="text-2xl md:text-4xl font-black leading-tight">{tour.title}</h1>
             {tour.subtitle && <p className="text-white/90 mt-1 text-sm md:text-base">{tour.subtitle}</p>}
+            {tour.seoIntro && <p className="text-white/80 mt-2 text-sm md:text-base leading-relaxed">{tour.seoIntro}</p>}
           </div>
         </div>
       </div>
@@ -61,11 +79,16 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
         {/* ── 상품 요약 박스 ── */}
         <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8">
-          <p className="text-xs text-gray-500 mb-1">상품 구성</p>
+          <p className="text-xs text-gray-500 mb-1">{tour.region} 골프여행 상품 구성</p>
           <p className="text-xl md:text-2xl font-black text-emerald-800 leading-snug">
             {tour.productSummary ?? `${tour.golfCourse ?? ""} ${tour.roundsIncluded}회 라운딩 · ${tour.hotel ?? ""} 숙박`}
           </p>
           {tour.subtitle && <p className="text-sm text-gray-600 mt-1.5">{tour.subtitle}</p>}
+          {tour.seoKeywords && tour.seoKeywords.length > 0 && (
+            <p className="text-xs text-gray-400 mt-2">
+              {tour.seoKeywords.map((k) => `#${k}`).join(" ")}
+            </p>
+          )}
         </div>
 
         {/* ── 출발일 캘린더 + 요금 ── */}
@@ -104,7 +127,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 호텔 정보 + 사진 ── */}
         {tour.hotel && (
           <div className="mb-8">
-            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">🏨 숙박 호텔</h2>
+            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">🏨 {tour.region} 골프여행 숙박 호텔</h2>
             <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100 mb-3">
               <div className="font-black text-gray-800 text-base mb-1">{tour.hotel}</div>
               <div className="text-sm text-gray-600">{tour.hotelDesc}</div>
@@ -124,7 +147,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 골프장 정보 + 사진 ── */}
         {tour.golfCourse && (
           <div className="mb-8">
-            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">⛳ 골프장 정보</h2>
+            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">⛳ {tour.region} 골프장 정보</h2>
             <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100 mb-3">
               <div className="font-black text-gray-800 text-base mb-1">{tour.golfCourse}</div>
               <div className="text-sm text-gray-600">{tour.golfCourseDesc}</div>
@@ -172,7 +195,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 여행 일정 ── */}
         {tour.schedule && tour.schedule.length > 0 && (
           <div className="mb-8">
-            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📋 여행 일정</h2>
+            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📋 {tour.region} 골프 {tour.nights}박{tour.days}일 여행 일정</h2>
             <div className="space-y-3">
               {tour.schedule.map((s, i) => (
                 <div key={i} className="flex gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
