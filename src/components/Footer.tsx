@@ -2,6 +2,13 @@ type FooterProps = {
   departure?: "incheon" | "busan";
 };
 
+// 아직 확인되지 않은 사업자 정보는 빈 값으로 두세요 — 값이 있을 때만 화면에 표시됩니다.
+const businessInfo = {
+  address: "",
+  mailOrderNumber: "", // 통신판매업신고번호
+  email: "",
+};
+
 const info = {
   incheon: {
     phones: [
@@ -56,8 +63,11 @@ export default function Footer({ departure }: FooterProps) {
             <div className="space-y-1 text-sm">
               <p>상호명: 여행의 파도</p>
               <p>대표: 이지안</p>
+              {businessInfo.address && <p>주소: {businessInfo.address}</p>}
               <p>사업자번호: 372-57-00613</p>
+              {businessInfo.mailOrderNumber && <p>통신판매업신고번호: {businessInfo.mailOrderNumber}</p>}
               <p>관광사업등록번호: 제 2022-000029 호</p>
+              {businessInfo.email && <p>이메일: {businessInfo.email}</p>}
             </div>
           </div>
 

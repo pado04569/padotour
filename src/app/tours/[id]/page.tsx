@@ -34,8 +34,29 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const backHref = dep ? `/${dep}` : "/";
   const heroImage = tour.images && tour.images.length > 0 ? tour.images[0] : tour.image;
 
+  const priceNumber = parseInt(tour.price.replace(/[^0-9]/g, ""), 10) || undefined;
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: tour.title,
+    description: tour.seoIntro ?? tour.subtitle ?? tour.productSummary ?? tour.title,
+    image: tour.image ? `https://www.padotour.com${tour.image}` : undefined,
+    brand: { "@type": "Brand", name: "여행의 파도" },
+    offers: {
+      "@type": "Offer",
+      priceCurrency: "KRW",
+      price: priceNumber,
+      availability: "https://schema.org/InStock",
+      url: `https://www.padotour.com/tours/${tour.id}`,
+    },
+  };
+
   return (
     <div className="bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
+      />
 
       {/* ── 히어로 이미지 ── */}
       <div className="relative w-full h-64 md:h-96 bg-gray-200 overflow-hidden">

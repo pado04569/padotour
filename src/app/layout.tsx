@@ -23,9 +23,28 @@ export const metadata: Metadata = {
       },
     ],
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
   other: {
     "naver-site-verification": "bb7094b829a116cc7a20ff2d149e2b139ba43e72",
   },
+};
+
+const travelAgencyJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  name: "여행의 파도",
+  url: "https://www.padotour.com",
+  logo: "https://www.padotour.com/images/logo.png",
+  image: "https://www.padotour.com/images/og-logo.png",
+  telephone: "+82-10-5301-5250",
+  description: "일본·태국·중국·베트남·말레이시아·필리핀 등 해외 골프여행 전문 여행사. 인천·부산 출발 골프 패키지 상품을 안내합니다.",
+  sameAs: [
+    "https://blog.naver.com/pado-tour-",
+    "https://band.us/@padotour",
+  ],
 };
 
 export default function RootLayout({
@@ -48,6 +67,10 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="여행의 파도" />
         <link rel="apple-touch-icon" href="/images/logo.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(travelAgencyJsonLd) }}
+        />
       </head>
       <body className="min-h-screen flex flex-col antialiased">
         <ClientLayout>{children}</ClientLayout>
