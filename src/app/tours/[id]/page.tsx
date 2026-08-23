@@ -48,7 +48,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         <div className="absolute bottom-0 left-0 right-0 p-5 md:p-8 text-white">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-2 mb-2">
-              <span className="text-xs font-bold bg-emerald-500 text-white px-2 py-0.5 rounded">🇯🇵 {tour.country}</span>
+              <span className="text-xs font-bold bg-emerald-500 text-white px-2 py-0.5 rounded">{tour.country}</span>
               <span className="text-xs text-white/80">{tour.region}</span>
               {tour.badge && <span className="text-xs font-bold bg-red-500 text-white px-2 py-0.5 rounded">{tour.badge}</span>}
             </div>
@@ -62,10 +62,14 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
       <div className="max-w-4xl mx-auto px-4 py-8">
 
         {/* ── 핵심 정보 요약 ── */}
+        {(() => {
+          const holesRaw = tour.holes ?? `${tour.roundsIncluded * 18}`;
+          const holesText = String(holesRaw).includes("홀") ? String(holesRaw) : `${holesRaw}홀`;
+          return (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
           {[
             { icon: "🌙", label: "일정", value: `${tour.nights}박 ${tour.days}일` },
-            { icon: "⛳", label: "라운드", value: `${tour.roundsIncluded}라운드 ${tour.holes ?? tour.roundsIncluded * 18}홀` },
+            { icon: "⛳", label: "라운드", value: `${tour.roundsIncluded}라운드 ${holesText}` },
             { icon: "👥", label: "최소 인원", value: tour.minPeople ? `${tour.minPeople}인 이상` : "문의" },
             { icon: "📅", label: "출발 기간", value: tour.period ?? "연중 출발" },
           ].map((item) => (
@@ -76,6 +80,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             </div>
           ))}
         </div>
+          );
+        })()}
 
         {/* ── 상품 요약 박스 ── */}
         <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8">
