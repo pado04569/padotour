@@ -176,7 +176,16 @@
     ],
     "badge": "인천출발 전용",
     "departure": "incheon",
-    "productSummary": "퍼시픽블루CC  3회 라운딩  ·  퍼시픽블루 리조트 숙박"
+    "productSummary": "퍼시픽블루CC  3회 라운딩  ·  퍼시픽블루 리조트 숙박",
+    "seoIntro": "인천 출발 후쿠오카 골프여행 3박4일 상품으로, 총 72홀 라운드, 퍼시픽 블루CC에서 라운딩, 퍼시픽블루 리조트 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "후쿠오카골프",
+      "후쿠오카골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-beppu-kamenoi",
@@ -663,7 +672,16 @@
       "/images/beppu/course-4.jpg",
       "/images/beppu/course-5.jpg"
     ],
-    "productSummary": "벳부cc  3회 라운딩  ·  카메노이 호텔 숙박"
+    "productSummary": "벳부cc  3회 라운딩  ·  카메노이 호텔 숙박",
+    "seoIntro": "인천 출발 후쿠오카 골프여행 3박4일 상품으로, 총 54홀 라운드, 벳부골프클럽에서 라운딩, 벳부 카메노이호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "후쿠오카골프",
+      "후쿠오카골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "malaysia-kota",
@@ -990,6 +1008,15 @@
       "/images/malaysia-kota/course-4.jpg",
       "/images/malaysia-kota/course-5.jpg",
       "/images/malaysia-kota/course-6.jpg"
+    ],
+    "seoIntro": "인천 출발 코타키나발루 골프여행 3~4박4~5일 상품으로, 총 18홀 라운드, 가람부나이CC에서 라운딩, 넥서스 리조트 & 스파 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "코타키나발루골프",
+      "코타키나발루골프여행",
+      "말레이시아골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
     ]
   },
   {
@@ -1023,7 +1050,16 @@
     "price": "문의",
     "image": "/images/philippines.jpg",
     "badge": "",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 세부 골프여행 4박5일 상품입니다.",
+    "seoKeywords": [
+      "세부골프",
+      "세부골프여행",
+      "필리핀골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "thailand-bangkok",
@@ -1125,7 +1161,16 @@
       "/images/bangkok-pattaya/course-6.jpg"
     ],
     "badge": "인천출발 신규",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 방콕 골프여행 3박5일 상품으로, 총 81홀 라운드, 그린우드 / 트레져힐 / 파타비아에서 라운딩, 크리스탈팰리스 호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "방콕골프",
+      "방콕골프여행",
+      "태국골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-tokyo-itako",
@@ -1268,7 +1313,16 @@
       "/images/tokyo-itako/hotel-1.jpg"
     ],
     "badge": "인천출발 전용",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 도쿄 골프여행 5박6일 상품으로, 총 126홀 라운드, 아소CC / 센트릴CC / 뉴센트에서 라운딩, 후지야 호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "도쿄골프",
+      "도쿄골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-hokkaido-niseko",
@@ -1449,7 +1503,16 @@
       "/images/hokkaido-niseko/hotel-1.jpg"
     ],
     "badge": "부산출발 전용",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 북해도 골프여행 3박4일 상품으로, 총 54홀 라운드, 니세코 C.C에서 라운딩, 힐튼 니세코 빌리지 호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "북해도골프",
+      "북해도골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "thailand-chiangmai-4n6d",
@@ -1593,7 +1656,16 @@
       "/images/chiangmai-golf/hotel-1.jpg"
     ],
     "badge": "부산출발 전용",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 치앙마이 골프여행 4박6일 상품으로, 총 72홀 라운드, 가산CC에서 라운딩, 푸라마 호텔 치앙마이 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "치앙마이골프",
+      "치앙마이골프여행",
+      "태국골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "thailand-chiangmai-3n5d",
@@ -1709,7 +1781,16 @@
       "/images/chiangmai-golf/hotel-1.jpg"
     ],
     "badge": "부산출발 전용",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 치앙마이 골프여행 3박5일 상품으로, 총 54홀 라운드, 가산CC에서 라운딩, 푸라마 호텔 치앙마이 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "치앙마이골프",
+      "치앙마이골프여행",
+      "태국골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-hokkaido-sapporo-comfort",
@@ -2040,7 +2121,16 @@
       "/images/hokkaido-sapporo-comfort/hotel-1.jpg"
     ],
     "badge": "인천출발 전용",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 북해도 골프여행 3박4일 상품으로, 총 54홀 라운드, 신치토세 C.C · 선파크 C.C에서 라운딩, 컴포트호텔 삿포로 스스키노 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "북해도골프",
+      "북해도골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-matsuyama-juraku-hiyori",
@@ -3002,6 +3092,15 @@
       "/images/beppu/course-3.jpg",
       "/images/beppu/course-4.jpg",
       "/images/beppu/course-5.jpg"
+    ],
+    "seoIntro": "부산 출발 후쿠오카 골프여행 3박4일 상품으로, 총 54홀 라운드, 벳부골프클럽에서 라운딩, 벳부 카메노이호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "후쿠오카골프",
+      "후쿠오카골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
     ]
   },
   {
@@ -3434,7 +3533,16 @@
       "/images/matsuyama-juraku-hiyori/hiyori-1.jpg"
     ],
     "badge": "부산출발 전용",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 마쓰야마 골프여행 3박4일 상품으로, 총 36홀 라운드, 마쓰야마 / 국제 / 치산호조 /에서 라운딩, 쥬라쿠 스파리조트 신관 트윈 1박 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "마쓰야마골프",
+      "마쓰야마골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-takamatsu-shido",
@@ -3680,7 +3788,16 @@
       "/images/takamatsu-shido/course-6.jpg"
     ],
     "badge": "인천출발 신규",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 다카마쓰 골프여행 3박4일 상품으로, 총 63홀 라운드, 시도 컨트리클럽 27홀 외 다카마에서 라운딩, 사카이데 그랜드호텔 또는 우다쯔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "다카마쓰골프",
+      "다카마쓰골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "china-qingdao-3color",
@@ -4121,7 +4238,16 @@
       "/images/qingdao-3color/course-3.jpg"
     ],
     "badge": "인천출발 신규",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 청도 골프여행 2박3일 상품으로, 총 54홀 라운드, 천태 · 영해 · 화산 CC에서 라운딩, 포포인츠 바이 쉐라톤 청양 이스트 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "청도골프",
+      "청도골프여행",
+      "중국골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-takamatsu-shido-busan",
@@ -4251,7 +4377,16 @@
       "/images/takamatsu-shido/course-6.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 다카마쓰 골프여행 3박4일 상품으로, 총 63홀 라운드, 시도 컨트리클럽 27홀 외 다카마에서 라운딩, 사카이데 그랜드호텔 또는 우다쯔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "다카마쓰골프",
+      "다카마쓰골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "china-qingdao-bluehorizon-busan",
@@ -4941,7 +5076,16 @@
       "/images/qingdao-3color/course-3.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 청도 골프여행 3박4일 상품으로, 총 54홀 라운드, 영해 · 화산 · 캐슬렉스 CC에서 라운딩, 럭셔리 블루 호라이즌 호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "청도골프",
+      "청도골프여행",
+      "중국골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "china-yantai-6color",
@@ -5509,7 +5653,16 @@
       "/images/yantai-6color/course-3.jpg"
     ],
     "badge": "인천출발 신규",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 연태 골프여행 3박4일 상품으로, 총 72홀 라운드, 군정·취곡·취원·국제·불광·성지에서 라운딩, 천흥 호텔 또는 동급 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "연태골프",
+      "연태골프여행",
+      "중국골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-tokyo-ibaraki-2color-busan",
@@ -5870,7 +6023,16 @@
       "/images/tokyo-ibaraki-2color/course-3.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 도쿄 골프여행 3박4일 상품으로, 총 72홀 라운드, 마나CC · 센세이잔소CC에서 라운딩, 마나 골프 리조트 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "도쿄골프",
+      "도쿄골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "china-weihai-hilton-2color",
@@ -6215,7 +6377,16 @@
       "/images/weihai-hilton/course-3.jpg"
     ],
     "badge": "인천출발 신규",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 위해 골프여행 3박4일 상품으로, 총 54홀 라운드, 천익CC · 호당가CC에서 라운딩, 힐튼 호텔 또는 동급 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "위해골프",
+      "위해골프여행",
+      "중국골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "china-hainan-missionhills",
@@ -6512,7 +6683,16 @@
       "/images/hainan-missionhills/course-3.jpg"
     ],
     "badge": "인천출발 신규",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 하이난 골프여행 3박4일 상품으로, 총 72홀 라운드, 미션힐스 남코스에서 라운딩, 미션힐스 리조트 본관 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "하이난골프여행",
+      "중국골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "china-beijing-panshan-busan",
@@ -7028,7 +7208,16 @@
       "/images/beijing-panshan/course-3.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 베이징 골프여행 3박5일 상품으로, 총 81홀 라운드, 판산CC에서 라운딩, 판산 골프텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "베이징골프",
+      "베이징골프여행",
+      "중국골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "thailand-bangkok-pattaya-busan",
@@ -7235,7 +7424,16 @@
       "/images/bangkok-pattaya-busan/hotel-2.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 방콕 골프여행 3박5일 상품으로, 총 36홀 라운드, 그린우드 / 트레져힐 / 파타비아에서 라운딩, K-GOLF HOTEL CHONB 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "방콕골프",
+      "방콕골프여행",
+      "태국골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "thailand-chiangmai-maejo",
@@ -7762,7 +7960,16 @@
       "/images/chiangmai-maejo/hotel-5.jpg"
     ],
     "badge": "인천출발 신규",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 치앙마이 골프여행 3박5일 상품으로, 총 54홀 라운드, 메조 CC에서 라운딩, 메조 골프 리조트&스파 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "치앙마이골프",
+      "치앙마이골프여행",
+      "태국골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "thailand-chiangmai-maejo-busan",
@@ -7981,7 +8188,16 @@
       "/images/chiangmai-maejo/hotel-5.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 치앙마이 골프여행 3박5일 상품으로, 총 54홀 라운드, 메조 CC에서 라운딩, 메조 골프 리조트&스파 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "치앙마이골프",
+      "치앙마이골프여행",
+      "태국골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-kumamoto",
@@ -8272,7 +8488,16 @@
       "/images/kumamoto-aso/course-6.jpg"
     ],
     "badge": "인천출발 신규",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 구마모토 골프여행 3박4일~4박5일박4일~5일일 상품으로, 총 36홀 라운드, 아소리조트 그랑비리오 골프장에서 라운딩, 아소리조트 그랑비리오 호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "구마모토골프",
+      "구마모토골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "guam-pineeast",
@@ -8688,7 +8913,15 @@
       "/images/guam-pineeast/course-5.jpg"
     ],
     "badge": "인천출발 신규",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 괌 골프여행 3박5일 상품으로, 총 18홀 라운드, 파인이스트 골프장에서 라운딩, 괌 파인이스트 리조트 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "괌골프",
+      "괌골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "guam-pineeast-busan",
@@ -9132,7 +9365,15 @@
       "/images/guam-pineeast-busan/course-sign.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 괌 골프여행 3박5일 상품으로, 총 18홀 라운드, 파인이스트 골프장에서 라운딩, 괌 파인이스트 골프텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "괌골프",
+      "괌골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "vietnam-halongbay-3color",
@@ -9657,7 +9898,16 @@
       "/images/vietnam-halongbay-3color/course-6.jpg"
     ],
     "badge": "인천출발 신규",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 하노이 골프여행 3박5일 상품으로, 총 72홀 라운드, 드래곤링크스CC · FLC 하롱베에서 라운딩, 델라시 호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "하노이골프",
+      "하노이골프여행",
+      "베트남골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "malaysia-kota-busan",
@@ -9864,7 +10114,16 @@
       "/images/malaysia-kota-busan/course-6.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 코타키나발루 골프여행 3~4박5~6일 상품으로, 총 18홀 라운드, 가람부나이CC · 수트라하버CC에서 라운딩, 밍가든 호텔 또는 동급 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "코타키나발루골프",
+      "코타키나발루골프여행",
+      "말레이시아골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "saipan-coralocean-pic",
@@ -9991,7 +10250,16 @@
       "/images/saipan-coralocean/course-6.jpg"
     ],
     "badge": "여름특가 한정출발",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 괌 골프여행 6박7일 상품으로, 총 90홀 라운드, 코랄오션CC에서 라운딩, PIC리조트 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "괌골프",
+      "괌골프여행",
+      "사이판골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "china-qufu-goldwoo",
@@ -10112,7 +10380,16 @@
       "/images/china-qufu-goldwoo/course-6.jpg"
     ],
     "badge": "황금연휴 한정출발",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 곡부 골프여행 3박4일 상품으로, 총 36홀 라운드, 석문산 골드우CC에서 라운딩, 석문산 골프 리조트 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "곡부골프",
+      "곡부골프여행",
+      "중국골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "philippines-manila-alabang",
@@ -10213,7 +10490,16 @@
       "/images/philippines-manila-alabang/course-5.jpg"
     ],
     "badge": "추석특가",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 마닐라 골프여행 3박5일 상품으로, 총 54홀 라운드, 이글릿지CC / 스플랜디도CC /에서 라운딩, 알라방 비베레호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "마닐라골프",
+      "마닐라골프여행",
+      "필리핀골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-fukuoka-tosu",
@@ -10550,7 +10836,16 @@
       "/images/japan-fukuoka-tosu/course-6.jpg"
     ],
     "badge": "인천출발 신규",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 후쿠오카 골프여행 2박3일 상품으로, 총 18홀 라운드, 카오 / 싸이안 / 워너스 / 포에서 라운딩, 그린리치 호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "후쿠오카골프",
+      "후쿠오카골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-nagoya-adonis-busan",
@@ -10853,7 +11148,16 @@
       "/images/japan-nagoya-adonis-busan/course-6.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 나고야 골프여행 2~3박3~4일 상품으로, 총 36홀 라운드, 뉴아도니스CC, 코가야 체리크리크에서 라운딩, 호텔 루트인 에나 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "나고야골프",
+      "나고야골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-kumamoto-busan",
@@ -11046,7 +11350,16 @@
       "/images/japan-kumamoto-busan/course-6.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 구마모토 골프여행 3~4박4~5일 상품으로, 총 18홀 라운드, 아소스카이블루GC에서 라운딩, 아소 스카이 블루 골프 리조트 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "구마모토골프",
+      "구마모토골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-ube-choyo",
@@ -11165,7 +11478,16 @@
       "/images/japan-ube-choyo/course-6.jpg"
     ],
     "badge": "10월 연휴특가",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 야마구치 골프여행 2~3박3~4일 상품으로, 총 36홀 라운드, 초요CC에서 라운딩, 호텔 루트인 우베 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "야마구치골프",
+      "야마구치골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-kagoshima-takachiho",
@@ -11751,7 +12073,16 @@
       "/images/japan-kagoshima-takachiho/course-6.jpg"
     ],
     "badge": "인천출발 신규",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 가고시마 골프여행 3박4일 상품으로, 총 18홀 라운드, 타카치호CC에서 라운딩, 더 펄스 기리시마 호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "가고시마골프",
+      "가고시마골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-aomori-lakewood-3n4d",
@@ -11857,7 +12188,16 @@
       "/images/japan-aomori-lakewood/course-6.jpg"
     ],
     "badge": "9월 시즌엔드 특가",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 아오모리 골프여행 3박4일 상품으로, 총 36홀 라운드, 아오모리 스프링 골프코스에서 라운딩, 락우드 호텔 & 스파 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "아오모리골프",
+      "아오모리골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-aomori-lakewood-4n5d",
@@ -11967,7 +12307,16 @@
       "/images/japan-aomori-lakewood/course-6.jpg"
     ],
     "badge": "9월 시즌엔드 특가",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 아오모리 골프여행 4박5일 상품으로, 총 36홀 라운드, 아오모리 스프링 골프코스에서 라운딩, 락우드 호텔 & 스파 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "아오모리골프",
+      "아오모리골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "china-xiamen-nantaiwu-3n4d",
@@ -12150,7 +12499,16 @@
       "/images/china-xiamen-nantaiwu/course-6.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 샤먼 골프여행 3박4일 상품으로, 총 54홀 라운드, 남태무CC, 동방CC에서 라운딩, 정5성급 IHG 화이호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "샤먼골프",
+      "샤먼골프여행",
+      "중국골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "china-xiamen-nantaiwu-4n5d",
@@ -12337,7 +12695,16 @@
       "/images/china-xiamen-nantaiwu/course-6.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 샤먼 골프여행 4박5일 상품으로, 총 72홀 라운드, 남태무CC, 동방CC에서 라운딩, 정5성급 IHG 화이호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "샤먼골프",
+      "샤먼골프여행",
+      "중국골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-osaka-sis-3color",
@@ -12706,7 +13073,16 @@
       "/images/japan-osaka-sis-3color/course-6.jpg"
     ],
     "badge": "신상품 반짝특가",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 오사카 골프여행 2박3일 상품으로, 총 54홀 라운드, 간쿠클래식CC, 센난CC, 이즈미에서 라운딩, SIS 스타게이트 호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "오사카골프",
+      "오사카골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "saipan-2color-pic",
@@ -12857,7 +13233,16 @@
       "/images/saipan-2color-pic/course-6.jpg"
     ],
     "badge": "황금연휴 조기마감주의",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 괌 골프여행 3박5일 상품으로, 총 72홀 라운드, 코랄오션CC + 라오라오베이CC에서 라운딩, PIC리조트 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "괌골프",
+      "괌골프여행",
+      "사이판골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "thailand-pattaya-infinity-3n5d",
@@ -13095,7 +13480,16 @@
       "/images/thailand-pattaya-infinity/course-5.jpg"
     ],
     "badge": "풀빌라 골프특가",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 방콕 골프여행 3박5일 상품으로, 총 54홀 라운드, 세인트앤드류CC, 그린밸리CC에서 라운딩, 인피니티 풀빌라 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "방콕골프",
+      "방콕골프여행",
+      "태국골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "thailand-pattaya-infinity-4n6d",
@@ -13221,7 +13615,16 @@
       "/images/thailand-pattaya-infinity/course-5.jpg"
     ],
     "badge": "풀빌라 골프특가",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 방콕 골프여행 4박6일 상품으로, 총 54홀 라운드, 세인트앤드류CC, 그린밸리CC에서 라운딩, 인피니티 풀빌라 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "방콕골프",
+      "방콕골프여행",
+      "태국골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "china-zhangjiajie-tianmenshan-3n4d",
@@ -13518,7 +13921,16 @@
       "/images/china-zhangjiajie-tianmenshan/course-6.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 장가계 골프여행 3박4일 상품으로, 총 18홀 라운드, 천문산CC에서 라운딩, 선샤인호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "장가계골프",
+      "장가계골프여행",
+      "중국골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "china-zhangjiajie-tianmenshan-4n5d",
@@ -13799,7 +14211,16 @@
       "/images/china-zhangjiajie-tianmenshan/course-6.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 장가계 골프여행 4박5일 상품으로, 총 18홀 라운드, 천문산CC에서 라운딩, 선샤인호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "장가계골프",
+      "장가계골프여행",
+      "중국골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-beppu-grandmercure-busan",
@@ -14090,7 +14511,16 @@
       "/images/japan-beppu-grandmercure-busan/course-6.jpg"
     ],
     "badge": "부산출발 신규",
-    "departure": "busan"
+    "departure": "busan",
+    "seoIntro": "부산 출발 후쿠오카 골프여행 2박3일 상품으로, 총 54홀 라운드, 아마카세CC, 오이타써니힐CC에서 라운딩, 그랜드 머큐어 벳부 베이 리조트& 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "후쿠오카골프",
+      "후쿠오카골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "부산출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-shizuoka-fujieda",
@@ -14290,7 +14720,16 @@
       "/images/japan-shizuoka-fujieda/course-6.jpg"
     ],
     "badge": "8/31 선발권 특가",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 시즈오카 골프여행 3박4일 상품으로, 총 27홀 라운드, 후지에다CC에서 라운딩, 호텔 올레 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "시즈오카골프",
+      "시즈오카골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   },
   {
     "id": "japan-kagoshima-kedoin",
@@ -14928,6 +15367,15 @@
       "/images/japan-kagoshima-kedoin/course-6.jpg"
     ],
     "badge": "8/31 선발권 특가",
-    "departure": "incheon"
+    "departure": "incheon",
+    "seoIntro": "인천 출발 가고시마 골프여행 3박4일 상품으로, 총 18홀 라운드, 케도인CC에서 라운딩, 케도인 리조트 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "가고시마골프",
+      "가고시마골프여행",
+      "일본골프여행",
+      "해외골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   }
 ]
