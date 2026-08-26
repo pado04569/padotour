@@ -57,17 +57,13 @@ IMF 외환위기 때 금 모으기 운동에
 정성을 다해 모시는
 여행의파도가 되겠습니다.`}</p>
             </div>
-            <div className="mt-5 pt-4 border-t border-gray-200 text-right">
-              <p className="font-black text-gray-700 text-sm">여행의파도 대표 <span className="text-gray-800">이지안</span> 올림</p>
-            </div>
           </div>
 
           <div className="flex flex-col items-center mt-8">
             <div className="w-40 h-48 rounded-2xl overflow-hidden border border-gray-100">
               <img src="/images/about/ceo.jpg" alt="이지안 대표" className="w-full h-full object-cover" />
             </div>
-            <p className="text-center mt-3 font-black text-gray-800">이지안 대표</p>
-            <p className="text-center text-xs text-gray-500">여행의 파도</p>
+            <p className="text-center mt-2 text-xs text-gray-500">여행의파도 이지안 대표 올림</p>
           </div>
         </section>
 
