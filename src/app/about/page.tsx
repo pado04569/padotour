@@ -59,11 +59,11 @@ IMF 외환위기 때 금 모으기 운동에
             </div>
           </div>
 
-          <div className="flex flex-col items-center mt-8">
-            <div className="w-40 h-48 rounded-2xl overflow-hidden border border-gray-100">
+          <div className="flex flex-col items-end mt-8 max-w-2xl mx-auto">
+            <div className="w-56 h-64 rounded-2xl overflow-hidden border border-gray-100">
               <img src="/images/about/ceo.jpg" alt="이지안 대표" className="w-full h-full object-cover" />
             </div>
-            <p className="text-center mt-2 text-xs text-gray-500">여행의파도 이지안 대표 올림</p>
+            <p className="text-right mt-2 text-xs text-gray-500 w-56">여행의파도 이지안 대표 올림</p>
           </div>
         </section>
 
