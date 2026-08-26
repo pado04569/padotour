@@ -21,18 +21,6 @@ export default function AboutPage() {
             왜 &apos;여행의파도&apos;일까요?
           </h3>
 
-          <div className="flex justify-center mb-6">
-            <img src="/images/about/holeinone-trophy.png" alt="아버지의 홀인원 기념 트로피" className="max-w-[240px] w-full h-auto" />
-          </div>
-
-          <div className="flex flex-col items-center mb-8">
-            <div className="w-40 h-48 rounded-2xl overflow-hidden border border-gray-100">
-              <img src="/images/about/ceo.jpg" alt="이지안 대표" className="w-full h-full object-cover" />
-            </div>
-            <p className="text-center mt-3 font-black text-gray-800">이지안 대표</p>
-            <p className="text-center text-xs text-gray-500">여행의 파도</p>
-          </div>
-
           <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 max-w-xl mx-auto">
             <div className="space-y-4 text-gray-700 text-sm leading-relaxed whitespace-pre-line">
               <p>{`여행의파도 는
@@ -46,6 +34,11 @@ IMF 외환위기 때 금 모으기 운동에
 보태 지금은 남아있지 않지만,
 홀인원의 기쁨과 아버지의 마음은
 이 트로피에 고스란히 남아있습니다.`}</p>
+            </div>
+            <div className="my-6 flex justify-center">
+              <img src="/images/about/holeinone-trophy.png" alt="아버지의 홀인원 기념 트로피" className="max-w-[220px] w-full h-auto" />
+            </div>
+            <div className="space-y-4 text-gray-700 text-sm leading-relaxed whitespace-pre-line">
               <p>{`골프를 사랑한다는건 골프채를
 정성껏 닦는 일이기도 하고,
 꾸준히 퍼팅을 연습하는 일이기도 하며,
@@ -67,6 +60,14 @@ IMF 외환위기 때 금 모으기 운동에
             <div className="mt-5 pt-4 border-t border-gray-200 text-right">
               <p className="font-black text-gray-700 text-sm">여행의파도 대표 <span className="text-gray-800">이지안</span> 올림</p>
             </div>
+          </div>
+
+          <div className="flex flex-col items-center mt-8">
+            <div className="w-40 h-48 rounded-2xl overflow-hidden border border-gray-100">
+              <img src="/images/about/ceo.jpg" alt="이지안 대표" className="w-full h-full object-cover" />
+            </div>
+            <p className="text-center mt-3 font-black text-gray-800">이지안 대표</p>
+            <p className="text-center text-xs text-gray-500">여행의 파도</p>
           </div>
         </section>
 
