@@ -13,61 +13,59 @@ export default function AboutPage() {
 
         {/* 대표자의 말 */}
         <section className="mb-14">
-          <h2 className="text-xl font-black text-gray-800 mb-2 pb-2 border-b-2 border-emerald-500 inline-block">
+          <h2 className="text-xl font-black text-gray-800 mb-6 pb-2 border-b-2 border-emerald-500 inline-block">
             대표자의 말
           </h2>
-          <p className="text-sm text-gray-500 mt-3 mb-6">왜 &apos;여행의파도&apos;일까요?</p>
-          <div className="flex flex-col md:flex-row gap-8 items-start">
 
-            {/* 사진 */}
-            <div className="flex-shrink-0 mx-auto md:mx-0">
-              <div className="w-40 h-48 rounded-2xl overflow-hidden border border-gray-100">
-                <img src="/images/about/ceo.jpg" alt="이지안 대표" className="w-full h-full object-cover" />
-              </div>
-              <p className="text-center mt-3 font-black text-gray-800">이지안 대표</p>
-              <p className="text-center text-xs text-gray-500">여행의 파도</p>
+          <h3 className="text-2xl md:text-3xl font-black text-gray-800 text-center mb-8">
+            왜 &apos;여행의파도&apos;일까요?
+          </h3>
+
+          <div className="flex justify-center mb-6">
+            <img src="/images/about/holeinone-trophy.png" alt="아버지의 홀인원 기념 트로피" className="max-w-[240px] w-full h-auto" />
+          </div>
+
+          <div className="flex flex-col items-center mb-8">
+            <div className="w-40 h-48 rounded-2xl overflow-hidden border border-gray-100">
+              <img src="/images/about/ceo.jpg" alt="이지안 대표" className="w-full h-full object-cover" />
             </div>
+            <p className="text-center mt-3 font-black text-gray-800">이지안 대표</p>
+            <p className="text-center text-xs text-gray-500">여행의 파도</p>
+          </div>
 
-            {/* 인사말 */}
-            <div className="flex-1 bg-gray-50 rounded-2xl p-6 border border-gray-100">
-              <div className="space-y-4 text-gray-700 text-sm leading-relaxed whitespace-pre-line">
-                <p>{`여행의파도 는
+          <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 max-w-xl mx-auto">
+            <div className="space-y-4 text-gray-700 text-sm leading-relaxed whitespace-pre-line">
+              <p>{`여행의파도 는
 
 홀인원컵을 받으실 정도로 골프를
 사랑하셨던 아버지의 성함 이 판동 중
 이름 '판동' 에서 받침을뺀 '파도' 에서
 비롯 되었습니다.`}</p>
-                <p>{`홀인원 당시 받으신 황금 골프공은
+              <p>{`홀인원 당시 받으신 황금 골프공은
 IMF 외환위기 때 금 모으기 운동에
 보태 지금은 남아있지 않지만,
 홀인원의 기쁨과 아버지의 마음은
 이 트로피에 고스란히 남아있습니다.`}</p>
-              </div>
-              <div className="my-6 flex justify-center">
-                <img src="/images/about/holeinone-trophy.png" alt="아버지의 홀인원 기념 트로피" className="max-w-[220px] w-full h-auto" />
-              </div>
-              <div className="space-y-4 text-gray-700 text-sm leading-relaxed whitespace-pre-line">
-                <p>{`골프를 사랑한다는건 골프채를
+              <p>{`골프를 사랑한다는건 골프채를
 정성껏 닦는 일이기도 하고,
 꾸준히 퍼팅을 연습하는 일이기도 하며,
 어느새 연습 스윙이 몸에 밸 만큼 한결같은
 마음이라는 걸 아버지를 통해 배웠습니다.`}</p>
-                <p>{`골프여행을 앞두고, 골프화의
+              <p>{`골프여행을 앞두고, 골프화의
 먼지를 털어내고,
 골프백에 골프채를 정돈하시던
 아버지의 설레임이 담긴 손길과
 입가에 머물던 미소를 저는 아직도
 선명하게 기억하고 있습니다.`}</p>
-                <p>{`그러하기에,
+              <p>{`그러하기에,
 출발 전 고객님들이 품으셨던 설레임과
 미소가 골프 여정이 끝나는 날까지
 이어질 수 있도록 세심하게 준비하고
 정성을 다해 모시는
 여행의파도가 되겠습니다.`}</p>
-              </div>
-              <div className="mt-5 pt-4 border-t border-gray-200 text-right">
-                <p className="font-black text-gray-700 text-sm">여행의파도 대표 <span className="text-gray-800">이지안</span> 올림</p>
-              </div>
+            </div>
+            <div className="mt-5 pt-4 border-t border-gray-200 text-right">
+              <p className="font-black text-gray-700 text-sm">여행의파도 대표 <span className="text-gray-800">이지안</span> 올림</p>
             </div>
           </div>
         </section>
