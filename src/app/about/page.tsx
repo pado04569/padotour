@@ -19,11 +19,10 @@ export default function AboutPage() {
           <p className="text-sm text-gray-500 mt-3 mb-6">왜 &apos;여행의파도&apos;일까요?</p>
           <div className="flex flex-col md:flex-row gap-8 items-start">
 
-            {/* 사진 자리 */}
+            {/* 사진 */}
             <div className="flex-shrink-0 mx-auto md:mx-0">
-              <div className="w-40 h-48 bg-gray-100 rounded-2xl border-2 border-dashed border-gray-300 flex flex-col items-center justify-center text-gray-400">
-                <span className="text-4xl mb-2">👤</span>
-                <span className="text-xs text-center leading-relaxed">사진<br/>준비 중</span>
+              <div className="w-40 h-48 rounded-2xl overflow-hidden border border-gray-100">
+                <img src="/images/about/ceo.jpg" alt="이지안 대표" className="w-full h-full object-cover" />
               </div>
               <p className="text-center mt-3 font-black text-gray-800">이지안 대표</p>
               <p className="text-center text-xs text-gray-500">여행의 파도</p>
@@ -43,6 +42,11 @@ IMF 외환위기 때 금 모으기 운동에
 보태 지금은 남아있지 않지만,
 홀인원의 기쁨과 아버지의 마음은
 이 트로피에 고스란히 남아있습니다.`}</p>
+              </div>
+              <div className="my-6 flex justify-center">
+                <img src="/images/about/holeinone-trophy.png" alt="아버지의 홀인원 기념 트로피" className="max-w-[220px] w-full h-auto" />
+              </div>
+              <div className="space-y-4 text-gray-700 text-sm leading-relaxed whitespace-pre-line">
                 <p>{`골프를 사랑한다는건 골프채를
 정성껏 닦는 일이기도 하고,
 꾸준히 퍼팅을 연습하는 일이기도 하며,
