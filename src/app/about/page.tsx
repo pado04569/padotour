@@ -21,8 +21,8 @@ export default function AboutPage() {
             왜 &apos;여행의파도&apos;일까요?
           </h3>
 
-          <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 max-w-xl mx-auto">
-            <div className="space-y-4 text-gray-700 text-sm leading-relaxed whitespace-pre-line">
+          <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 max-w-2xl mx-auto">
+            <div className="space-y-4 text-gray-700 text-base leading-relaxed whitespace-pre-line">
               <p>{`여행의파도 는
 
 홀인원컵을 받으실 정도로 골프를
@@ -38,7 +38,7 @@ IMF 외환위기 때 금 모으기 운동에
             <div className="my-6 flex justify-center">
               <img src="/images/about/holeinone-trophy.png" alt="아버지의 홀인원 기념 트로피" className="max-w-[220px] w-full h-auto" />
             </div>
-            <div className="space-y-4 text-gray-700 text-sm leading-relaxed whitespace-pre-line">
+            <div className="space-y-4 text-gray-700 text-base leading-relaxed whitespace-pre-line">
               <p>{`골프를 사랑한다는건 골프채를
 정성껏 닦는 일이기도 하고,
 꾸준히 퍼팅을 연습하는 일이기도 하며,
@@ -64,18 +64,6 @@ IMF 외환위기 때 금 모으기 운동에
               <img src="/images/about/ceo.jpg" alt="이지안 대표" className="w-full h-full object-cover" />
             </div>
             <p className="text-center mt-2 text-xs text-gray-500">여행의파도 이지안 대표 올림</p>
-          </div>
-        </section>
-
-        {/* 회사 소개 */}
-        <section className="mb-14">
-          <h2 className="text-xl font-black text-gray-800 mb-6 pb-2 border-b-2 border-emerald-500 inline-block">
-            회사 소개
-          </h2>
-          <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 text-center text-gray-400 text-sm py-16">
-            <div className="text-4xl mb-3">🏢</div>
-            <p>회사 소개 내용이 이 곳에 들어갑니다.</p>
-            <p className="mt-1">글을 보내주시면 바로 업데이트해 드릴게요.</p>
           </div>
         </section>
 

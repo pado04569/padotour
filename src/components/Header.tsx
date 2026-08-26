@@ -272,7 +272,7 @@ export default function Header({ departure }: HeaderProps) {
                     📢 공지/이벤트
                   </Link>
                   <Link href="/about" className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors">
-                    🏢 회사 소개
+                    🏢 대표자의 말
                   </Link>
                 </div>
               )}
@@ -338,7 +338,7 @@ export default function Header({ departure }: HeaderProps) {
           </div>
           <div className="border-b border-gray-100">
             <Link href="/about" className="flex items-center gap-2 px-4 py-3.5 text-gray-700 font-medium text-sm" onClick={() => setMenuOpen(false)}>
-              🏢 회사 소개
+              🏢 대표자의 말
             </Link>
           </div>
           <div className="border-b border-gray-100">
