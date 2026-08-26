@@ -23,7 +23,7 @@ export default function AboutPage() {
 
           <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 max-w-2xl mx-auto">
             <div className="space-y-4 text-gray-700 text-base leading-relaxed whitespace-pre-line">
-              <p>{`여행의파도 는
+              <p><span className="font-bold">여행의파도</span>{` 는
 
 홀인원컵을 받으실 정도로 골프를
 사랑하셨던 아버지의 성함 이 판동 중
@@ -59,11 +59,11 @@ IMF 외환위기 때 금 모으기 운동에
             </div>
           </div>
 
-          <div className="flex flex-col items-end mt-8 max-w-2xl mx-auto">
+          <div className="flex flex-col items-center mt-8 max-w-2xl mx-auto">
             <div className="w-56 h-64 rounded-2xl overflow-hidden border border-gray-100">
               <img src="/images/about/ceo.jpg" alt="이지안 대표" className="w-full h-full object-cover" />
             </div>
-            <p className="text-right mt-2 text-xs text-gray-500 w-56">여행의파도 이지안 대표 올림</p>
+            <p className="text-center mt-2 text-xs text-gray-500 w-56">여행의파도 이지안 대표 올림</p>
           </div>
         </section>
 
