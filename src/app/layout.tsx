@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import ClientLayout from "@/components/ClientLayout";
 import { Analytics } from "@vercel/analytics/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.padotour.com"),
@@ -85,6 +86,7 @@ export default function RootLayout({
         <ClientLayout>{children}</ClientLayout>
         <Analytics />
       </body>
+      <GoogleAnalytics gaId="G-DG24CY8YLS" />
     </html>
   );
 }
