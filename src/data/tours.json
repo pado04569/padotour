@@ -15377,5 +15377,167 @@
       "인천출발",
       "골프패키지"
     ]
+  },
+  {
+    "id": "china-hainan-samgongli",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "하이난",
+    "title": "[인천출발] 하이난 삼공리CC 골프 3박4일 54홀｜하이난 3대명문코스",
+    "subtitle": "해남항공 인천 직항 · 풀만호텔(5성급, 2인 1실) · 삼공리CC 54홀 · 야외온천 무료이용",
+    "nights": "3",
+    "days": "4",
+    "courses": "삼공리CC",
+    "roundsIncluded": "3",
+    "holes": "54홀",
+    "minPeople": "2인",
+    "period": "2026년 10월 ~ 11월 (지정일 출발)",
+    "hotel": "풀만호텔 (또는 동급, 5성급 2인 1실)",
+    "hotelDesc": "하이난 5성급 풀만호텔(또는 동급)에서 2인 1실로 숙박하며, 전 일정 조식·석식(무제한 삼겹살 1회 포함)이 제공됩니다. 풀만호텔 및 야외온천은 무료로 이용 가능합니다.",
+    "golfCourse": "삼공리CC",
+    "golfCourseDesc": "하이난 3대 명문코스로 손꼽히는 삼공리CC에서 전 일정 54홀 라운드를 즐길 수 있습니다. 원하실 경우 미션힐, 서해안CC로 1회 변경도 가능합니다(인/3만원 추가).",
+    "productSummary": "해남항공 인천-하이난 직항으로 떠나는 삼공리CC 골프 패키지입니다. 5성급 풀만호텔 2인 1실, 전일정 54홀 라운드, 야외온천 무료이용까지 함께합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이난(해구)",
+        "desc": "출발 2시간 30분 전 인천국제공항 미팅 후 수속 → 인천국제공항 출발(HU450, 21:30) → 해구국제공항 도착(00:55+1) → 가이드 미팅 후 호텔로 이동(약 30분) → 호텔 체크인 및 휴식 [석식: 기내식]. 호텔: 풀만호텔 또는 동급"
+      },
+      {
+        "day": "2~3일차",
+        "label": "삼공리CC 18홀 라운드",
+        "desc": "조식 후 골프장으로 이동(약 30분) → 삼공리CC 18홀 라운드(9홀 추가 그린피 별도) → 호텔 투숙 및 휴식 [조식: 호텔식 / 중식: 불포함 / 석식: 한식&현지식, 3일차 무제한 삼겹살]. 호텔: 풀만호텔 또는 동급"
+      },
+      {
+        "day": "마지막날",
+        "label": "하이난(해구) → 인천",
+        "desc": "조식 후 체크아웃 → 골프장으로 이동(약 30분) → 삼공리CC 18홀 라운드(서해안CC·미션힐CC 변경 시 인/3만원 추가) → 해구국제공항 출발(HU449, 15:20) → 인천국제공항 도착(20:25) 후 해산 [조식: 호텔식 / 중식: 불포함 / 석식: 기내식]"
+      }
+    ],
+    "highlights": [
+      "해남항공 인천-하이난 직항",
+      "하이난 3대 명문코스 삼공리CC 54홀 라운드",
+      "풀만호텔(5성급) 2인 1실, 야외온천 무료이용",
+      "미션힐·서해안CC 1회 변경 가능(인/3만원 추가)",
+      "무제한 삼겹살 석식 1회 포함",
+      "2인부터 예약 가능"
+    ],
+    "includes": [
+      "왕복항공권(TAX+유류세)",
+      "5성급 호텔(2인 1실)",
+      "전일정 조식·석식(무제한 삼겹살 1회)",
+      "전일정 그린피(54홀)",
+      "전일정 기사&가이드팁"
+    ],
+    "excludes": [
+      "미팅·샌딩(인/400위안)",
+      "클럽 중식(인/식/100위안)",
+      "캐디피·카트(인/18홀/300위안)",
+      "캐디팁(인/18홀/150위안)"
+    ],
+    "cancelPolicy": [
+      "1인 1실 이용시 인/박/65,000원 추가.",
+      "싱글카트 이용시 18홀/100위안 추가(서해안CC는 180위안).",
+      "2인 1카트&4인 1캐디 기준 라운드입니다.",
+      "특식 외 석식은 인/식/50위안(1만원) 책정으로 추가 주문 시 식사 후 지불하시면 됩니다.",
+      "자사보유항공 마감 시 조기 마감될 수 있습니다.",
+      "골프 패키지 상품으로 라운딩, 호텔, 식사, 관광지를 가지 않으셔도 환불이 되지 않습니다.",
+      "여권은 유효기간 6개월 이상 남아있어야 합니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-10-09",
+        "price": 899000
+      },
+      {
+        "date": "2026-10-14",
+        "price": 899000
+      },
+      {
+        "date": "2026-10-16",
+        "price": 899000
+      },
+      {
+        "date": "2026-10-21",
+        "price": 899000
+      },
+      {
+        "date": "2026-10-23",
+        "price": 899000
+      },
+      {
+        "date": "2026-10-28",
+        "price": 899000
+      },
+      {
+        "date": "2026-10-30",
+        "price": 899000
+      },
+      {
+        "date": "2026-11-04",
+        "price": 1049000
+      },
+      {
+        "date": "2026-11-06",
+        "price": 1049000
+      },
+      {
+        "date": "2026-11-11",
+        "price": 1049000
+      },
+      {
+        "date": "2026-11-13",
+        "price": 1049000
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1049000
+      },
+      {
+        "date": "2026-11-20",
+        "price": 1049000
+      },
+      {
+        "date": "2026-11-27",
+        "price": 1049000
+      }
+    ],
+    "price": "899,000원~",
+    "image": "/images/china-hainan-samgongli/course-1.jpg",
+    "images": [
+      "/images/china-hainan-samgongli/course-1.jpg",
+      "/images/china-hainan-samgongli/course-2.jpg",
+      "/images/china-hainan-samgongli/course-3.jpg",
+      "/images/china-hainan-samgongli/hotel-1.jpg",
+      "/images/china-hainan-samgongli/hotel-2.jpg",
+      "/images/china-hainan-samgongli/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-hainan-samgongli/hotel-1.jpg",
+      "/images/china-hainan-samgongli/hotel-2.jpg",
+      "/images/china-hainan-samgongli/hotel-3.jpg",
+      "/images/china-hainan-samgongli/hotel-4.jpg",
+      "/images/china-hainan-samgongli/hotel-5.jpg",
+      "/images/china-hainan-samgongli/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/china-hainan-samgongli/course-1.jpg",
+      "/images/china-hainan-samgongli/course-2.jpg",
+      "/images/china-hainan-samgongli/course-3.jpg",
+      "/images/china-hainan-samgongli/course-4.jpg",
+      "/images/china-hainan-samgongli/course-5.jpg",
+      "/images/china-hainan-samgongli/course-6.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "seoIntro": "인천 출발 하이난 골프여행 3박4일 상품으로, 총 54홀 라운드, 삼공리CC에서 라운딩, 풀만호텔 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "하이난골프여행",
+      "삼공리CC",
+      "중국골프여행",
+      "인천출발",
+      "골프패키지"
+    ]
   }
 ]
