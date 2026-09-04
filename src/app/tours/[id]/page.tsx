@@ -52,8 +52,6 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               {tour.badge && <span className="text-xs font-bold bg-red-500 text-white px-2 py-0.5 rounded">{tour.badge}</span>}
             </div>
             <h1 className="text-2xl md:text-4xl font-black leading-tight">{tour.title}</h1>
-            {tour.subtitle && <p className="text-white/90 mt-1 text-sm md:text-base">{tour.subtitle}</p>}
-            {tour.seoIntro && <p className="text-white/80 mt-2 text-sm md:text-base leading-relaxed">{tour.seoIntro}</p>}
           </div>
         </div>
       </div>
@@ -204,11 +202,13 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             <div className="space-y-3">
               {tour.schedule.map((s, i) => (
                 <div key={i} className="flex gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
-                  <div className="flex-shrink-0 text-center w-20">
-                    <div className="bg-emerald-600 text-white text-xs font-black px-2 py-1 rounded-lg w-full text-center">{s.day}</div>
-                    <div className="text-xs text-emerald-600 font-semibold mt-1 break-keep">{s.label}</div>
+                  <div className="flex-shrink-0 w-16 flex items-start justify-center">
+                    <div className="bg-emerald-600 text-white text-xs font-black px-2 py-1 rounded-lg text-center">{s.day}</div>
                   </div>
-                  <div className="text-sm text-gray-700 leading-relaxed pt-0.5">{s.desc}</div>
+                  <div className="text-sm text-gray-700 leading-relaxed pt-0.5">
+                    <p className="font-bold text-emerald-700 mb-1">{s.label}</p>
+                    {s.desc}
+                  </div>
                 </div>
               ))}
             </div>
@@ -242,6 +242,15 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <h3 className="text-xl font-black mb-1">예약 문의 · 맞춤 견적</h3>
           <p className="text-blue-600 text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
           <ContactOptions />
+          {tour.priceUpdatedDate && (() => {
+            const d = new Date(tour.priceUpdatedDate);
+            const label = `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`;
+            return (
+              <p className="text-xs text-blue-400 mt-4 leading-relaxed">
+                ※ 이 상품은 {label}에 등록된 상품으로, 등록월 유류할증료가 반영된 요금입니다. {d.getMonth() + 1}월 이후 문의하실 경우 요금 변동이 있을 수 있는 점 안내드립니다.
+              </p>
+            );
+          })()}
         </div>
 
         {/* ── 뒤로가기 ── */}

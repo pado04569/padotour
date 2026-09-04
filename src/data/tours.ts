@@ -36,6 +36,7 @@ export type Tour = {
   seoIntro?: string;
   /** 검색엔진용 키워드 태그 목록 (상품 구성 아래 회색 텍스트로 렌더링) */
   seoKeywords?: string[];
+  priceUpdatedDate?: string;
 };
 
 const allTours: Tour[] = toursData as Tour[];
