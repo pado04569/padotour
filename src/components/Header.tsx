@@ -251,7 +251,7 @@ export default function Header({ departure }: HeaderProps) {
                 href="/courses"
                 className={`block text-gray-700 hover:text-black ${hoverAccent} font-semibold px-4 py-3 text-sm transition-colors whitespace-nowrap`}
               >
-                ⛳ 골프장
+                골프장 소개
               </Link>
             </div>
 
@@ -328,7 +328,7 @@ export default function Header({ departure }: HeaderProps) {
           ))}
           <div className="border-b border-gray-100">
             <Link href="/courses" className="flex items-center gap-2 px-4 py-3.5 text-gray-800 font-semibold text-sm" onClick={() => setMenuOpen(false)}>
-              ⛳ 골프장 소개
+              골프장 소개
             </Link>
           </div>
           <div className="border-b border-gray-100">

@@ -822,5 +822,58 @@
       "china-qingdao-3color",
       "china-qingdao-bluehorizon-busan"
     ]
+  },
+  {
+    "slug": "castlex-cc",
+    "name": "캐슬렉스CC",
+    "nameEn": "Castlex Country Club",
+    "region": "청도",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "스카이·힐·밸리·레이크 4개 코스, 총 36홀 파144·약 14,738야드 규모의 청도 대표 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "스카이·힐·밸리·레이크 4개 코스 (총 36홀)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파144 · 약 14,738야드 (36홀 합계)"
+      },
+      {
+        "label": "확장",
+        "value": "2009년 10월 18홀 추가 개장 (총 36홀)"
+      },
+      {
+        "label": "설계",
+        "value": "삼성 에버랜드 조경팀 참여"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 산둥성 청도, 청도 시내·공항에서 약 1시간 30분 거리"
+      }
+    ],
+    "description": "청도 캐슬렉스CC는 스카이·힐·밸리·레이크 4개 코스로 구성된 총 36홀 규모의 골프장으로, 삼성 에버랜드 조경팀이 코스 디자인에 참여했습니다. 2009년 10월 18홀이 추가 개장되며 지금의 36홀 체제를 갖췄습니다.\n\n청도 시내와 공항에서 약 1시간 30분 거리에 있으며, 최상의 잔디 상태를 꾸준히 유지하는 것으로 알려진 청도 대표 코스 중 하나입니다.\n\n여행의파도 청도 캐슬렉스 골프여행은 부산(김해)-청도 직항으로 이동하며, 체류 기간 내내 캐슬렉스CC를 무제한으로 라운딩할 수 있고 그린피·카트비·캐디피가 모두 포함되어 있어 추가 비용 부담 없이 골프에 집중할 수 있습니다.",
+    "images": [
+      "/images/china-qingdao-castlex/course-1.jpg",
+      "/images/china-qingdao-castlex/course-2.jpg",
+      "/images/china-qingdao-castlex/course-3.jpg",
+      "/images/china-qingdao-castlex/course-4.jpg",
+      "/images/china-qingdao-castlex/course-5.jpg",
+      "/images/china-qingdao-castlex/course-6.jpg"
+    ],
+    "hashtags": [
+      "캐슬렉스CC",
+      "청도골프장",
+      "청도골프여행",
+      "칭다오골프",
+      "중국골프여행",
+      "무제한골프",
+      "부산출발",
+      "해외골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-qingdao-castlex"
+    ]
   }
 ]

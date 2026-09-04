@@ -34,7 +34,7 @@ export default function CoursesPage() {
     <div>
       <section className="bg-gradient-to-r from-emerald-700 to-emerald-500 text-white py-10 md:py-12">
         <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">⛳ 해외 골프장 소개</h1>
+          <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">해외 골프장 소개</h1>
           <p className="text-emerald-100 text-sm md:text-lg">
             여행의 파도가 안내하는 나라별 골프장 — 홀 구성·전장·설계자까지 확인하고 상품으로 바로 이동하세요.
           </p>

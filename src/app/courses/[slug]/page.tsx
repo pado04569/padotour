@@ -87,7 +87,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
           <p className="text-emerald-100 text-sm mb-1">
             {course.country} · {course.region} 골프장 소개
           </p>
-          <h1 className="text-2xl md:text-4xl font-black">⛳ {course.name}</h1>
+          <h1 className="text-2xl md:text-4xl font-black">{course.name}</h1>
           {course.nameEn && <p className="text-emerald-100 text-sm md:text-base mt-1.5">{course.nameEn}</p>}
           {course.summary && (
             <p className="text-white/95 text-sm md:text-lg mt-3 max-w-3xl leading-relaxed">{course.summary}</p>
