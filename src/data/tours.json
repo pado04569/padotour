@@ -18868,31 +18868,7 @@
       }
     ],
     "price": "599,000원~",
-    "image": "/images/bangkok-pattaya-busan/course-1.jpg",
-    "images": [
-      "/images/bangkok-pattaya-busan/course-1.jpg",
-      "/images/bangkok-pattaya-busan/hotel-1.jpg",
-      "/images/bangkok-pattaya-busan/course-2.jpg",
-      "/images/bangkok-pattaya/hotel-2.jpg",
-      "/images/bangkok-pattaya-busan/hotel-3.jpg",
-      "/images/bangkok-pattaya/course-3.jpg"
-    ],
-    "hotelImages": [
-      "/images/bangkok-pattaya-busan/hotel-1.jpg",
-      "/images/bangkok-pattaya-busan/hotel-2.jpg",
-      "/images/bangkok-pattaya-busan/hotel-3.jpg",
-      "/images/bangkok-pattaya-busan/hotel-4.jpg",
-      "/images/bangkok-pattaya-busan/hotel-5.jpg",
-      "/images/bangkok-pattaya-busan/hotel-6.jpg"
-    ],
-    "courseImages": [
-      "/images/bangkok-pattaya-busan/course-1.jpg",
-      "/images/bangkok-pattaya-busan/course-2.jpg",
-      "/images/bangkok-pattaya-busan/course-3.jpg",
-      "/images/bangkok-pattaya/course-4.jpg",
-      "/images/bangkok-pattaya/course-5.jpg",
-      "/images/bangkok-pattaya/course-6.jpg"
-    ],
+    "image": "/images/thailand-bangkok-sunvalley-busan/course-1.jpg",
     "badge": "스팟특가",
     "departure": "busan",
     "seoIntro": "부산 출발 방콕 골프여행 3박5일 상품으로, 썬라이즈라군CC·스카이밸리CC 2색 무제한 라운딩, 한식뷔페 무제한 3식이 포함된 항공 포함 골프패키지입니다.",
@@ -18904,6 +18880,30 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
+    ],
+    "images": [
+      "/images/thailand-bangkok-sunvalley-busan/course-1.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/hotel-1.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-4.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/hotel-2.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-6.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/hotel-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/thailand-bangkok-sunvalley-busan/hotel-4.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/hotel-1.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/hotel-2.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/hotel-3.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/food-1.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/food-2.jpg"
+    ],
+    "courseImages": [
+      "/images/thailand-bangkok-sunvalley-busan/course-1.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-2.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-3.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-4.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-5.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-6.jpg"
     ]
   }
 ]
