@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 import ClientLayout from "@/components/ClientLayout";
-import { Analytics } from "@vercel/analytics/next";
+import VercelAnalytics from "@/components/VercelAnalytics";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import BehaviorTracker from "@/components/BehaviorTracker";
 
@@ -87,7 +87,7 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col antialiased">
         <ClientLayout>{children}</ClientLayout>
         <BehaviorTracker />
-        <Analytics />
+        <VercelAnalytics />
         <Script id="ms-clarity" strategy="afterInteractive">
           {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","ybxg4yht19");`}
         </Script>
