@@ -2,17 +2,46 @@
   {
     "slug": "beppu-golf-club",
     "name": "벳부골프클럽",
+    "nameEn": "Beppu Golf Club",
     "region": "벳부",
     "country": "일본",
     "countryCode": "japan",
-    "description": "36홀(동코스·서코스) 규모의 벳부 명문 골프장으로, 다양한 스타일의 코스 구성이 특징입니다. 벳부 시내와 온천 지역에서 가까워 라운딩 후 온천으로 이동하기 편리하며, 규슈 지역 골프 여행에서 꾸준히 인기 있는 코스입니다.",
+    "summary": "쯔루미·유후 두 코스 36홀, 1930년 문을 연 오이타현에서 가장 오래된 명문 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "쯔루미코스 18홀 · 유후코스 18홀 (총 36홀)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파144 · 13,699야드 (36홀 합계)"
+      },
+      {
+        "label": "개장",
+        "value": "1930년 (쯔루미코스)"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오이타현 벳부시"
+      }
+    ],
+    "description": "벳부골프클럽은 1930년 문을 연 오이타현에서 가장 오래된 골프장이자, 규슈 전체에서도 두 번째로 역사가 깊은 코스입니다. 쯔루미코스와 유후코스 각 18홀, 합계 36홀 파144·13,699야드 규모로 운영됩니다.\n\n코스 남쪽에 자리한 쯔루미코스는 페어웨이가 넓어 부담 없이 공략할 수 있고, 유후코스는 구주 연산과 야바케이 산줄기를 바라보며 도는 변화 많은 레이아웃입니다. 두 코스를 번갈아 돌면 같은 골프장 안에서도 전혀 다른 리듬의 라운드를 경험할 수 있습니다.\n\n여행의파도 벳부 골프여행은 벳부역에서 도보 3분 거리의 카메노이호텔에 묵으며 매일 노천온천 입욕이 포함됩니다. 인천–기타큐슈 직항이 1시간 30분이라 이동 부담이 적어, 라운드와 온천을 함께 묶기 좋은 일정입니다.",
     "images": [
-      "/images/beppu/course-main.jpg",
+      "/images/beppu/course-3.jpg",
       "/images/beppu/course-1.jpg",
       "/images/beppu/course-2.jpg",
-      "/images/beppu/course-3.jpg",
       "/images/beppu/course-4.jpg",
       "/images/beppu/course-5.jpg"
+    ],
+    "hashtags": [
+      "벳부골프장",
+      "벳부골프여행",
+      "벳부골프클럽",
+      "오이타골프",
+      "규슈골프여행",
+      "일본골프여행",
+      "온천골프",
+      "해외골프패키지"
     ],
     "relatedTourIds": [
       "japan-beppu-kamenoi",
@@ -22,10 +51,34 @@
   {
     "slug": "niseko-cc",
     "name": "니세코CC",
+    "nameEn": "Niseko Village Golf / Niseko Golf Course",
     "region": "니세코",
     "country": "일본",
     "countryCode": "japan",
-    "description": "히든밸리·오션밸리 27홀씩 총 2코스(54홀) 규모의 니세코 골프장으로, 2026년 신설된 코스를 포함해 홋카이도에서도 최고 수준으로 꼽힙니다. 4인 1카트로 라운딩하며 그린피·카트비가 모두 포함되어 있어 부담 없이 즐길 수 있습니다.",
+    "summary": "아놀드 파머가 설계한 니세코 빌리지의 두 개 코스, 요테이산을 정면에 두고 도는 여름 골프의 성지",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "니세코 빌리지 골프코스 18홀 · 니세코 골프코스 18홀"
+      },
+      {
+        "label": "파",
+        "value": "파73 (니세코 빌리지 골프코스)"
+      },
+      {
+        "label": "전장",
+        "value": "6,805야드 (니세코 골프코스)"
+      },
+      {
+        "label": "설계",
+        "value": "아놀드 파머 (Arnold Palmer)"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 홋카이도 아부타군 니세코초"
+      }
+    ],
+    "description": "니세코CC는 니세코 빌리지 리조트 안에 자리한 두 개의 18홀 코스를 함께 부르는 이름입니다. 힐튼 니세코 빌리지에 붙어 있는 니세코 빌리지 골프코스는 아놀드 파머가 설계한 파73 챔피언십 코스로, 기복 있는 그린과 버디·이글을 노려볼 만한 파3·파5 명물 홀이 이어집니다.\n\n또 하나의 니세코 골프코스는 전장 6,805야드로, 자작나무와 낙엽송이 홀과 홀 사이를 갈라 놓아 시야가 깨끗하고 요테이산과 니세코 연봉을 정면에 두고 치는 홀이 많습니다.\n\n여행의파도 니세코 일정은 두 코스를 묶어 54홀을 라운딩하며, 그린피와 4인 1카트 카트비가 모두 포함됩니다. 홋카이도의 여름 평균기온은 26도 안팎이라 한여름에도 더위 부담 없이 하루 종일 돌 수 있습니다.",
     "images": [
       "/images/hokkaido-niseko/course-4.jpg",
       "/images/hokkaido-niseko/course-2.jpg",
@@ -33,83 +86,68 @@
       "/images/hokkaido-niseko/course-5.jpg",
       "/images/hokkaido-niseko/course-6.jpg"
     ],
+    "hashtags": [
+      "니세코골프장",
+      "니세코CC",
+      "니세코골프여행",
+      "홋카이도골프",
+      "북해도골프여행",
+      "여름골프",
+      "일본골프여행",
+      "해외골프패키지"
+    ],
     "relatedTourIds": [
       "japan-hokkaido-niseko"
     ]
   },
   {
-    "slug": "karambunai-cc",
-    "name": "가람부나이CC",
-    "region": "코타키나발루",
-    "country": "말레이시아",
-    "countryCode": "malaysia",
-    "description": "넥서스 리조트 내에 위치한 국제 규격 18홀 파72 챔피언십 코스로, 세계적으로 유명한 미국 골프 코스 설계가 로널드 프림이 설계했습니다. 백만 년이 넘은 열대우림과 남중국해 해변 사이에 자리해 자연 경관이 뛰어난 코스로, 전반 9홀은 울창한 정글을 배경으로 전략적인 샷을 요구하고 후반 9홀은 바다와 해변 풍경을 함께 즐기며 라운딩할 수 있습니다. 페어웨이는 넓고 플레이어 친화적이면서도 물과 벙커 등 다양한 장애물로 도전을 주는, 코타키나발루에서 경관과 난이도 모두 높은 인기 골프장입니다.",
-    "images": [
-      "/images/malaysia-kota/course-1.jpg",
-      "/images/malaysia-kota/course-2.jpg",
-      "/images/malaysia-kota/course-3.jpg",
-      "/images/malaysia-kota/course-4.jpg",
-      "/images/malaysia-kota/course-5.jpg",
-      "/images/malaysia-kota/course-6.jpg"
-    ],
-    "relatedTourIds": [
-      "malaysia-kota",
-      "malaysia-kota-busan"
-    ]
-  },
-  {
-    "slug": "pineeast-golf",
-    "name": "파인이스트 골프장",
-    "region": "괌",
-    "country": "괌",
-    "countryCode": "other",
-    "description": "괌 파인이스트 리조트에 자리한 골프장으로 기본 18홀 라운드가 포함되며, 비수기 주중에는 서비스 9홀이 추가로 제공됩니다(현지 예약 상황에 따라 변동 가능). 리조트에서 골프장까지 도보 이동이 가능해 이동 부담이 적은 것이 큰 장점입니다.",
-    "images": [
-      "/images/guam-pineeast/course-1.jpg",
-      "/images/guam-pineeast/course-2.jpg",
-      "/images/guam-pineeast/course-3.jpg",
-      "/images/guam-pineeast/course-4.jpg",
-      "/images/guam-pineeast/course-5.jpg"
-    ],
-    "relatedTourIds": [
-      "guam-pineeast",
-      "guam-pineeast-busan"
-    ]
-  },
-  {
-    "slug": "coral-ocean-cc",
-    "name": "코랄오션CC",
-    "region": "사이판",
-    "country": "사이판",
-    "countryCode": "other",
-    "description": "사이판을 대표하는 오션뷰 골프장으로, 바다와 맞닿은 절벽 지형 위에 조성되어 있어 페어웨이 곳곳에서 탁 트인 남태평양 전망을 즐길 수 있습니다. 1988년 메이저 챔피언 래리 넬슨이 설계한 파72 챔피언십 코스이며, 7번·14번 홀은 바다를 향해 티샷하는 구간으로 특히 인상적입니다.",
-    "images": [
-      "/images/saipan-coralocean/course-1.jpg",
-      "/images/saipan-coralocean/course-2.jpg",
-      "/images/saipan-coralocean/course-3.jpg",
-      "/images/saipan-coralocean/course-4.jpg",
-      "/images/saipan-coralocean/course-5.jpg",
-      "/images/saipan-coralocean/course-6.jpg"
-    ],
-    "relatedTourIds": [
-      "saipan-coralocean-pic",
-      "saipan-2color-pic"
-    ]
-  },
-  {
     "slug": "kedoin-cc",
     "name": "케도인CC",
+    "nameEn": "Kedoin Golf Club (祁答院ゴルフ倶楽部)",
     "region": "가고시마",
     "country": "일본",
     "countryCode": "japan",
-    "description": "일본 골프 다이제스트가 선정한 \"일본 베스트 골프장 TOP10\"에 오른 가고시마의 명문 코스입니다. 토너먼트 코스 레이아웃으로 설계되어 정교한 공략이 필요한 도전적인 18홀을 갖추고 있습니다.\n\n케도인 리조트에서 골프장까지 도보로 이동할 수 있어 이동 부담이 없으며, 셀프+카트 플레이로 하루 18홀씩 라운딩합니다. 리조트에는 한국인 지배인이 상주해 일본어가 익숙하지 않아도 편안하게 이용할 수 있습니다.\n\n라운드 후에는 피부에 좋은 천연온천 미인탕에서 피로를 풀 수 있고, 조식(뷔페 또는 정식)과 함께 와카이세키·화양카이세키·흑돼지 샤브샤브 등 정갈한 석식이 제공됩니다. 이스타항공 인천-가고시마 직항으로 편하게 오갈 수 있어 명문 코스와 온천을 함께 즐기려는 골퍼에게 추천하는 리조트형 골프장입니다.",
+    "summary": "일본 베스트 골프장 TOP10에 오른 7,090야드 토너먼트 코스, 리조트에서 걸어서 첫 홀까지",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,090야드"
+      },
+      {
+        "label": "설계",
+        "value": "이시이 후지오 (石井富士夫)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "거의 평탄한 구릉 코스 · 전체 벙커 107개"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가고시마현 사쓰마센다이시 케도인초"
+      }
+    ],
+    "description": "케도인CC는 일본 골프 다이제스트가 선정한 \"일본 베스트 골프장 TOP10\"에 오른 가고시마의 명문 코스입니다. 18홀 파72에 전장 7,090야드로, 이시이 후지오가 설계한 토너먼트 코스답게 페어웨이가 넓고 거리가 충분히 확보돼 있습니다. 전체 107개에 이르는 벙커가 공략 루트를 나누고, IN코스 16번 홀은 오른쪽으로 90도 꺾이는 명물 홀입니다.\n\n케도인 리조트에서 골프장까지 도보로 이동할 수 있어 이동 부담이 없으며, 셀프+카트 플레이로 하루 18홀씩 라운딩합니다. 리조트에는 한국인 지배인이 상주해 일본어가 익숙하지 않아도 편하게 이용할 수 있습니다.\n\n라운드 후에는 피부에 좋은 천연온천 미인탕에서 피로를 풀 수 있고, 조식(뷔페 또는 정식)과 함께 와카이세키·화양카이세키·흑돼지 샤브샤브 중 하나가 석식으로 제공됩니다. 이스타항공 인천–가고시마 직항으로 오갑니다.",
     "images": [
       "/images/japan-kagoshima-kedoin/course-1.jpg",
+      "/images/japan-kagoshima-kedoin/course-6.jpg",
       "/images/japan-kagoshima-kedoin/course-3.jpg",
+      "/images/japan-kagoshima-kedoin/course-4.jpg",
       "/images/japan-kagoshima-kedoin/course-5.jpg",
-      "/images/japan-kagoshima-kedoin/hotel-onsen-outdoor.jpg",
-      "/images/japan-kagoshima-kedoin/hotel-exterior-1.jpg",
-      "/images/japan-kagoshima-kedoin/hotel-room.jpg"
+      "/images/japan-kagoshima-kedoin/course-2.jpg"
+    ],
+    "hashtags": [
+      "케도인CC",
+      "케도인골프장",
+      "가고시마골프",
+      "가고시마골프여행",
+      "규슈골프여행",
+      "온천골프",
+      "일본명문골프장",
+      "해외골프패키지"
     ],
     "relatedTourIds": [
       "japan-kagoshima-kedoin"
@@ -118,16 +156,46 @@
   {
     "slug": "kao-golf-club",
     "name": "카오CC",
+    "nameEn": "KAO Golf Club (KAOゴルフ倶楽部)",
     "region": "후쿠오카",
     "country": "일본",
     "countryCode": "japan",
-    "description": "각 홀에 자연적인 연못과 크리크를 배치하고 굴곡진 액티브한 레이아웃이 전략적인게 특징인 곳입니다. 자연을 품은 후쿠오카 대표 코스로 꼽힙니다.",
+    "summary": "6,790야드 파72 전략형 챔피언십 코스, 1,000년 역사의 야마가온천을 곁에 둔 규슈 명코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,790야드"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 구마모토현 야마가시 가오초"
+      },
+      {
+        "label": "접근",
+        "value": "규슈자동차도 기쿠스이IC 약 8km · 구마모토 시내에서 차로 약 30분"
+      }
+    ],
+    "description": "카오CC는 18홀 파72·6,790야드 규모의 전략형 챔피언십 코스입니다. 전통적인 설계 문법 위에 현대 골프의 재미와 난이도를 함께 담아낸 레이아웃으로, 각 홀에 자연 연못과 크리크를 배치해 티샷부터 세컨드샷까지 공략 루트를 계속 고민하게 만듭니다.\n\n행정구역상으로는 구마모토현 야마가시에 있으며, 1,000년 넘는 역사를 가진 야마가온천이 가깝고 구마모토 시내에서 차로 30분, 규슈자동차도 기쿠스이IC에서 약 8km로 접근성이 좋습니다.\n\n여행의파도 후쿠오카 도스 다색 골프여행에서 배정되는 코스 중 한 곳으로, 셀프 플레이 승용카트 라운드가 기준입니다. 골프장은 현지 사정에 따라 배정되며 지정은 불가합니다.",
     "images": [
-      "/images/japan-fukuoka-tosu/course-1.jpg",
       "/images/japan-fukuoka-tosu/course-2.jpg",
       "/images/japan-fukuoka-tosu/course-3.jpg",
+      "/images/japan-fukuoka-tosu/course-1.jpg",
       "/images/japan-fukuoka-tosu/course-4.jpg",
       "/images/japan-fukuoka-tosu/course-5.jpg"
+    ],
+    "hashtags": [
+      "카오CC",
+      "카오골프클럽",
+      "후쿠오카골프",
+      "후쿠오카골프여행",
+      "도스골프",
+      "구마모토골프",
+      "규슈골프여행",
+      "일본골프여행"
     ],
     "relatedTourIds": [
       "japan-fukuoka-tosu",
@@ -138,16 +206,50 @@
   {
     "slug": "forest-nankan-golf-club",
     "name": "포레스트낭칸CC",
+    "nameEn": "Forest Nankan Golf Club (구 中九州CC)",
     "region": "후쿠오카",
     "country": "일본",
     "countryCode": "japan",
-    "description": "페어웨이와 그린 상태가 우수하며, 전 홀에서 그린이 보이는 설계로 도전적인 골퍼들에게 인기가 높은 곳입니다. 숲으로 둘러싸인 자연 속에서 라운드를 즐길 수 있습니다.",
+    "summary": "2024년 리뉴얼 오픈한 6,542야드 구릉 코스, 원그린·고려잔디의 정통 세팅",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,542야드"
+      },
+      {
+        "label": "코스 특징",
+        "value": "구릉 코스 · 1그린 · 고려잔디"
+      },
+      {
+        "label": "리뉴얼",
+        "value": "2024년 3월 중큐슈CC에서 명칭 변경 후 리뉴얼 오픈"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 구마모토현 다마나군 난칸마치"
+      }
+    ],
+    "description": "포레스트낭칸CC는 2024년 3월 중큐슈 컨트리클럽에서 이름을 바꿔 리뉴얼 오픈한 18홀 파72·6,542야드 코스입니다. 구마모토현 다마나군 난칸마치의 숲에 둘러싸여 있어 코스 이름 그대로 라운드 내내 초록에 파묻힙니다.\n\n고저차가 있는 구릉 지형을 그대로 살린 전략형 레이아웃이며, 1그린·고려잔디 세팅이라 그린 읽기와 어프로치 정확도가 스코어를 가릅니다. 페어웨이와 그린 관리 상태가 좋아 도전적인 골퍼들에게 특히 평이 좋습니다.\n\n여행의파도 후쿠오카 도스 다색 골프여행에서 배정되는 코스 중 한 곳으로, 셀프 플레이 승용카트 라운드가 기준이며 골프장 지정은 불가합니다.",
     "images": [
-      "/images/japan-fukuoka-tosu/course-1.jpg",
-      "/images/japan-fukuoka-tosu/course-2.jpg",
-      "/images/japan-fukuoka-tosu/course-3.jpg",
+      "/images/japan-fukuoka-tosu/course-6.jpg",
       "/images/japan-fukuoka-tosu/course-4.jpg",
-      "/images/japan-fukuoka-tosu/course-5.jpg"
+      "/images/japan-fukuoka-tosu/course-5.jpg",
+      "/images/japan-fukuoka-tosu/course-1.jpg",
+      "/images/japan-fukuoka-tosu/course-3.jpg"
+    ],
+    "hashtags": [
+      "포레스트낭칸CC",
+      "포레스트난칸골프장",
+      "중큐슈CC",
+      "후쿠오카골프여행",
+      "도스골프",
+      "구마모토골프",
+      "규슈골프여행",
+      "일본골프여행"
     ],
     "relatedTourIds": [
       "japan-fukuoka-tosu",
@@ -158,16 +260,50 @@
   {
     "slug": "amagase-country-club",
     "name": "아마카세CC",
+    "nameEn": "Amagase Onsen Country Club (天瀬温泉カントリークラブ)",
     "region": "후쿠오카",
     "country": "일본",
     "countryCode": "japan",
-    "description": "산 위 자연 지형을 그대로 살린 코스로, 넓은 페어웨이와 정돈된 그린에서 편안한 플레이를 즐길 수 있습니다. 호수 전망이 펼쳐지는 쾌적한 라운드가 특징입니다.",
+    "summary": "6,450야드 파72 산악 코스, 만넨산과 샤카다케를 나눠 보며 도는 온천 마을 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,450야드"
+      },
+      {
+        "label": "그린",
+        "value": "벤트그라스 2그린"
+      },
+      {
+        "label": "코스 레이팅",
+        "value": "72.1 (OUT·IN 합계)"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오이타현 히타시 아마가세초"
+      }
+    ],
+    "description": "아마카세CC는 오이타현 서부 아마가세 온천 지역에 자리한 18홀 파72·6,450야드 산악 코스입니다. 자연 지형을 깎지 않고 그대로 살린 레이아웃이라 오르막·내리막 샷과 도그렉이 번갈아 나오며, 벤트그라스 2그린 세팅으로 그린 컨디션이 고르게 유지됩니다.\n\nOUT코스에서는 만넨산(万年山)이, IN코스에서는 샤카다케(釈迦岳)가 정면으로 보여 전·후반의 풍경이 확실히 달라집니다. 코스 레이팅은 OUT·IN 합계 72.1입니다.\n\n여행의파도 후쿠오카 도스 다색 골프여행에서 배정되는 코스 중 한 곳입니다. 골프장은 현지 사정에 따라 배정되며 지정은 불가합니다.",
     "images": [
-      "/images/japan-fukuoka-tosu/course-1.jpg",
-      "/images/japan-fukuoka-tosu/course-2.jpg",
       "/images/japan-fukuoka-tosu/course-3.jpg",
-      "/images/japan-fukuoka-tosu/course-4.jpg",
-      "/images/japan-fukuoka-tosu/course-5.jpg"
+      "/images/japan-fukuoka-tosu/course-5.jpg",
+      "/images/japan-fukuoka-tosu/course-1.jpg",
+      "/images/japan-fukuoka-tosu/course-6.jpg",
+      "/images/japan-fukuoka-tosu/course-2.jpg"
+    ],
+    "hashtags": [
+      "아마카세CC",
+      "천뢰온천CC",
+      "오이타골프",
+      "히타골프장",
+      "후쿠오카골프여행",
+      "도스골프",
+      "규슈골프여행",
+      "일본골프여행"
     ],
     "relatedTourIds": [
       "japan-fukuoka-tosu",
@@ -178,16 +314,46 @@
   {
     "slug": "winners-golf-club",
     "name": "위너스CC",
+    "nameEn": "CYKAN Winner's Golf Club (구 WITHIN STYLE G.C)",
     "region": "후쿠오카",
     "country": "일본",
     "countryCode": "japan",
-    "description": "확 트인 코스, 주변 경관이 빼어난 코스, 정교한 샷이 필요한 코스, 일본의 정원 같은 조경 코스로 각각의 다른 개성이 있는 곳입니다. 도전과 재미를 담은 밸런스 코스로 소개됩니다.",
+    "summary": "사가현 다쿠시의 18홀 파72·6,740야드 퍼블릭 코스, 홀마다 성격이 다른 밸런스 레이아웃",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 (퍼블릭 코스)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,740야드"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 사가현 다쿠시 기타타쿠초"
+      },
+      {
+        "label": "접근",
+        "value": "나가사키자동차도 다쿠IC 인근"
+      }
+    ],
+    "description": "위너스CC는 사가현 다쿠시에 자리한 18홀 파72·6,740야드 퍼블릭 코스입니다. 홀마다 성격이 뚜렷해, 정교하게 끊어 가야 하는 트리키한 홀과 시원하게 밀어붙이고 싶어지는 홀이 번갈아 나옵니다.\n\n그래서 여성 골퍼와 입문자부터 거리를 내는 상급자까지 폭넓게 선호하는 코스로 꼽힙니다. 나가사키자동차도 다쿠IC에서 가까워 도스 지역 숙소에서 이동하기도 편합니다.\n\n여행의파도 후쿠오카 도스 다색 골프여행에서 배정되는 코스 중 한 곳으로, 골프장은 현지 사정에 따라 배정되며 지정은 불가합니다.",
     "images": [
+      "/images/japan-fukuoka-tosu/course-5.jpg",
       "/images/japan-fukuoka-tosu/course-1.jpg",
-      "/images/japan-fukuoka-tosu/course-2.jpg",
-      "/images/japan-fukuoka-tosu/course-3.jpg",
       "/images/japan-fukuoka-tosu/course-4.jpg",
-      "/images/japan-fukuoka-tosu/course-5.jpg"
+      "/images/japan-fukuoka-tosu/course-3.jpg",
+      "/images/japan-fukuoka-tosu/course-6.jpg"
+    ],
+    "hashtags": [
+      "위너스CC",
+      "사이칸위너스",
+      "사가골프장",
+      "다쿠골프",
+      "후쿠오카골프여행",
+      "도스골프",
+      "규슈골프여행",
+      "일본골프여행"
     ],
     "relatedTourIds": [
       "japan-fukuoka-tosu",
@@ -198,16 +364,50 @@
   {
     "slug": "greenland-golf-club",
     "name": "그린랜드CC",
+    "nameEn": "Greenland Resort Golf Course",
     "region": "후쿠오카",
     "country": "일본",
     "countryCode": "japan",
-    "description": "확 트인 코스, 주변 경관이 빼어난 코스, 정교한 샷이 필요한 코스, 일본의 정원 같은 조경 코스로 각각의 다른 개성이 있는 곳입니다. 전략적인 플레이가 재미있는 코스로 소개됩니다.",
+    "summary": "아리아케해 너머 운젠다케를 바라보는 36홀 구릉 코스, 성격이 다른 세 코스로 구성",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "오렌지 18홀 · 화이트 9홀 · 그린 9홀 (총 36홀)"
+      },
+      {
+        "label": "파",
+        "value": "오렌지 파72 · 화이트 파36 (전체 파144)"
+      },
+      {
+        "label": "전장",
+        "value": "6,584야드 (오렌지 IN·화이트 기준)"
+      },
+      {
+        "label": "코스 타입",
+        "value": "구릉 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 구마모토현 아라오시"
+      }
+    ],
+    "description": "그린랜드CC는 구마모토현 아라오시에 있는 36홀 규모의 구릉 코스로, 오렌지·화이트·그린 세 코스로 나뉩니다. 전체 파144, 오렌지 IN과 화이트를 묶으면 6,584야드입니다.\n\n간판인 오렌지코스는 아리아케해 너머 운젠다케까지 트이는 조망이 자랑인 아메리칸 스타일 18홀입니다. 화이트코스는 페어웨이가 넓고 거리가 있어 롱히터에게 유리하고, 그린코스는 절묘한 레이아웃과 그린 언듈레이션으로 전략적인 플레이가 필요한 코스로 평가받습니다.\n\n여행의파도 후쿠오카 도스 다색 골프여행에서 배정되는 코스 중 한 곳입니다. 골프장은 현지 사정에 따라 배정되며 지정은 불가합니다.",
     "images": [
-      "/images/japan-fukuoka-tosu/course-1.jpg",
-      "/images/japan-fukuoka-tosu/course-2.jpg",
-      "/images/japan-fukuoka-tosu/course-3.jpg",
       "/images/japan-fukuoka-tosu/course-4.jpg",
-      "/images/japan-fukuoka-tosu/course-5.jpg"
+      "/images/japan-fukuoka-tosu/course-6.jpg",
+      "/images/japan-fukuoka-tosu/course-2.jpg",
+      "/images/japan-fukuoka-tosu/course-5.jpg",
+      "/images/japan-fukuoka-tosu/course-3.jpg"
+    ],
+    "hashtags": [
+      "그린랜드CC",
+      "그린랜드리조트골프",
+      "아라오골프장",
+      "구마모토골프",
+      "후쿠오카골프여행",
+      "도스골프",
+      "규슈골프여행",
+      "일본골프여행"
     ],
     "relatedTourIds": [
       "japan-fukuoka-tosu",
@@ -218,17 +418,47 @@
   {
     "slug": "choyo-cc",
     "name": "초요CC",
+    "nameEn": "Choyo Country Club",
     "region": "야마구치",
     "country": "일본",
     "countryCode": "japan",
-    "description": "야마구치현 우베 인근의 초요CC는 셀프+카트 라운드로 진행되는 캐디 없는(노캐디) 골프장으로, 재방문율 1위의 가성비 코스로 알려져 있습니다. 주중(월~금)에는 18홀에 9홀 추가 서비스가 제공되어 하루 27홀을 라운드할 수 있으며, 주말·휴일에는 18홀로 진행됩니다.\n\n초요CC 휴장일(매주 월요일)이나 예약이 어려운 날에는 인근 프레지던트GC 또는 아사GC로 사전 예고 없이 변경될 수 있습니다.",
+    "summary": "캐디 없이 셀프+카트로 도는 야마구치 가성비 코스, 주중 27홀 라운드 가능",
+    "specs": [
+      {
+        "label": "플레이 방식",
+        "value": "노캐디 셀프 + 승용카트"
+      },
+      {
+        "label": "라운드 구성",
+        "value": "주중(월~금) 18홀 + 서비스 9홀 = 27홀 / 주말·휴일 18홀"
+      },
+      {
+        "label": "휴장일",
+        "value": "매주 월요일"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 야마구치현 우베 인근"
+      }
+    ],
+    "description": "초요CC는 야마구치현 우베 인근의 골프장으로, 캐디 없이 셀프 플레이 + 승용카트로 라운드를 진행합니다. 여행의파도 야마구치 골프여행 이용객 사이에서 재방문율 1위를 기록한 가성비 코스입니다.\n\n주중(월~금)에는 18홀에 9홀이 서비스로 추가되어 하루 27홀까지 돌 수 있고, 주말·휴일에는 18홀로 진행됩니다. 2박3일 36홀, 3박4일 54홀 일정 중에서 고를 수 있습니다.\n\n초요CC 휴장일(매주 월요일)이거나 예약이 어려운 날에는 인근 프레지던트GC 또는 아사GC로 사전 예고 없이 변경될 수 있습니다. 숙소인 호텔 루트인 우베는 1인 1실로 이용하며 대욕장(온천)이 무료이고, 주변 식당·쇼핑몰·골프샵이 도보권입니다.",
     "images": [
       "/images/japan-ube-choyo/course-1.jpg",
       "/images/japan-ube-choyo/course-2.jpg",
       "/images/japan-ube-choyo/course-3.jpg",
       "/images/japan-ube-choyo/course-4.jpg",
-      "/images/japan-ube-choyo/course-5.jpg",
-      "/images/japan-ube-choyo/course-6.jpg"
+      "/images/japan-ube-choyo/course-6.jpg",
+      "/images/japan-ube-choyo/course-5.jpg"
+    ],
+    "hashtags": [
+      "초요CC",
+      "야마구치골프장",
+      "우베골프",
+      "야마구치골프여행",
+      "노캐디골프",
+      "셀프라운딩",
+      "일본골프여행",
+      "가성비골프패키지"
     ],
     "relatedTourIds": [
       "japan-ube-choyo",
@@ -237,80 +467,360 @@
     ]
   },
   {
-    "slug": "greenwood-cc",
-    "name": "그린우드CC",
-    "region": "파타야",
-    "country": "태국",
-    "countryCode": "thailand",
-    "description": "파타야를 대표하는 3색 코스 중 하나로, 트레져힐·파타비아CC와 함께 매일 다른 코스로 순환하며 27홀씩 라운딩하는 프리미엄 일정에 포함됩니다. 주중에는 하루 36홀, 주말·공휴일에는 18홀까지 컨디션에 맞춰 라운딩할 수 있습니다.",
+    "slug": "karambunai-cc",
+    "name": "가람부나이CC",
+    "nameEn": "Karambunai Country Club",
+    "region": "코타키나발루",
+    "country": "말레이시아",
+    "countryCode": "malaysia",
+    "summary": "열대우림과 남중국해 사이에 놓인 18홀 파72 챔피언십 코스, 로널드 프림 설계",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 (국제 규격 챔피언십 코스)"
+      },
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "설계",
+        "value": "로널드 프림 (Ronald Fream)"
+      },
+      {
+        "label": "위치",
+        "value": "넥서스 리조트 & 스파 보르네오 내"
+      },
+      {
+        "label": "소재지",
+        "value": "말레이시아 사바주 코타키나발루"
+      }
+    ],
+    "description": "가람부나이CC는 넥서스 리조트 & 스파 보르네오 안에 자리한 국제 규격 18홀 파72 챔피언십 코스로, 세계적인 미국 골프 코스 설계가 로널드 프림이 설계했습니다.\n\n백만 년이 넘은 열대우림과 남중국해 해변 사이에 놓여 있어 전반 9홀은 울창한 정글을 배경으로 전략적인 샷을 요구하고, 후반 9홀은 바다와 해변 풍경을 함께 즐기며 돌 수 있습니다. 페어웨이는 넓어 플레이어 친화적이지만 워터해저드와 벙커가 곳곳에 배치돼 스코어를 지키려면 클럽 선택이 중요합니다.\n\n여행의파도 코타키나발루 골프여행은 제주항공 인천 직항으로 이동하며, 전 일정 그린피와 골프장 보험이 포함됩니다. 숙소는 넥서스 리조트 & 스파 보르네오 가든뷰 2인 1실이고 3박4일·4박5일 중에서 고를 수 있습니다.",
     "images": [
-      "/images/bangkok-pattaya/course-1.jpg",
-      "/images/bangkok-pattaya/course-4.jpg",
-      "/images/bangkok-pattaya-busan/course-1.jpg",
-      "/images/bangkok-pattaya-busan/course-2.jpg",
-      "/images/bangkok-pattaya-busan/course-3.jpg"
+      "/images/malaysia-kota/course-1.jpg",
+      "/images/malaysia-kota/course-2.jpg",
+      "/images/malaysia-kota/course-3.jpg",
+      "/images/malaysia-kota/course-5.jpg",
+      "/images/malaysia-kota/course-6.jpg"
+    ],
+    "hashtags": [
+      "가람부나이CC",
+      "코타키나발루골프장",
+      "코타키나발루골프여행",
+      "말레이시아골프",
+      "넥서스리조트",
+      "오션뷰골프",
+      "해외골프여행",
+      "골프패키지"
     ],
     "relatedTourIds": [
-      "thailand-bangkok",
-      "thailand-bangkok-pattaya-busan"
+      "malaysia-kota",
+      "malaysia-kota-busan"
     ]
   },
   {
-    "slug": "treasure-hill-cc",
-    "name": "트레져힐CC",
-    "region": "파타야",
-    "country": "태국",
-    "countryCode": "thailand",
-    "description": "파타야를 대표하는 3색 코스 중 하나로, 그린우드·파타비아CC와 함께 매일 다른 코스로 순환하며 27홀씩 라운딩하는 프리미엄 일정에 포함됩니다. 주중에는 하루 36홀, 주말·공휴일에는 18홀까지 컨디션에 맞춰 라운딩할 수 있습니다.",
+    "slug": "pineeast-golf",
+    "name": "파인이스트 골프장",
+    "nameEn": "Finest Guam Golf & Resort (구 Starts Guam)",
+    "region": "괌",
+    "country": "괌",
+    "countryCode": "guam",
+    "summary": "괌 북부 이고의 USGA 공인 27홀 토너먼트 코스, 리조트에서 걸어서 이동",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "이스트 9홀 · 웨스트 9홀 · 노스 9홀 (총 27홀)"
+      },
+      {
+        "label": "전장",
+        "value": "이스트 3,552야드 · 웨스트 3,636야드 · 노스 3,285야드"
+      },
+      {
+        "label": "개장 / 리뉴얼",
+        "value": "1992년 개장 · 2024년 리노베이션"
+      },
+      {
+        "label": "인증",
+        "value": "미국골프협회(USGA) 공인 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "괌 북부 이고(Yigo)"
+      }
+    ],
+    "description": "파인이스트 골프장은 괌 북부 이고(Yigo)에 자리한 27홀 규모의 토너먼트급 코스로, 미국골프협회(USGA) 공인 코스입니다. 1992년 스타츠 괌 골프 리조트로 문을 열었고, 2024년 한국 기업이 인수해 코스와 리조트를 새로 단장했습니다.\n\n코스는 이스트(3,552야드)·웨스트(3,636야드)·노스(3,285야드) 세 개의 9홀로 구성됩니다. 이스트와 웨스트는 페어웨이와 러프가 넓고 거리가 길어 시원하게 칠 수 있고, 노스는 9홀 중 6홀이 연못을 넘겨야 해 정확한 클럽 선택과 코스 매니지먼트가 필요합니다.\n\n여행의파도 괌 골프여행은 기본 18홀 라운드에 비수기 주중 서비스 9홀이 더해지며(현지 예약 상황에 따라 변동), 그린피·카트비(2인 1카트)가 포함됩니다. 리조트에서 골프장까지 걸어서 이동할 수 있어 이동 부담이 거의 없습니다.",
     "images": [
-      "/images/bangkok-pattaya/course-1.jpg",
-      "/images/bangkok-pattaya/course-4.jpg",
-      "/images/bangkok-pattaya-busan/course-1.jpg",
-      "/images/bangkok-pattaya-busan/course-2.jpg",
-      "/images/bangkok-pattaya-busan/course-3.jpg"
+      "/images/guam-pineeast/course-4.jpg",
+      "/images/guam-pineeast/course-1.jpg",
+      "/images/guam-pineeast/course-2.jpg",
+      "/images/guam-pineeast/course-3.jpg",
+      "/images/guam-pineeast/course-5.jpg"
+    ],
+    "hashtags": [
+      "파인이스트골프장",
+      "괌골프장",
+      "괌골프여행",
+      "스타츠괌",
+      "이고골프",
+      "USGA공인코스",
+      "해외골프여행",
+      "골프패키지"
     ],
     "relatedTourIds": [
-      "thailand-bangkok",
-      "thailand-bangkok-pattaya-busan"
+      "guam-pineeast",
+      "guam-pineeast-busan"
     ]
   },
   {
-    "slug": "pattavia-cc",
-    "name": "파타비아CC",
-    "region": "파타야",
-    "country": "태국",
-    "countryCode": "thailand",
-    "description": "파타야를 대표하는 3색 코스 중 하나로, 그린우드·트레져힐CC와 함께 매일 다른 코스로 순환하며 27홀씩 라운딩하는 프리미엄 일정에 포함됩니다. 주중에는 하루 36홀, 주말·공휴일에는 18홀까지 컨디션에 맞춰 라운딩할 수 있습니다.",
+    "slug": "coral-ocean-cc",
+    "name": "코랄오션CC",
+    "nameEn": "Coral Ocean Golf Resort (Coral Ocean Point)",
+    "region": "사이판",
+    "country": "사이판",
+    "countryCode": "saipan",
+    "summary": "1988년 래리 넬슨이 설계한 파72 오션 코스, 절벽 위에서 남태평양을 향해 티샷",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 약 7,156야드"
+      },
+      {
+        "label": "개장",
+        "value": "1988년"
+      },
+      {
+        "label": "설계",
+        "value": "래리 넬슨 (Larry Nelson)"
+      },
+      {
+        "label": "소재지",
+        "value": "사이판 남서쪽 아깅안 포인트 해안"
+      }
+    ],
+    "description": "코랄오션CC는 사이판 남서쪽 아깅안 포인트(Agingan Point) 해안선을 따라 1988년에 조성된 18홀 파72 챔피언십 코스입니다. 메이저 챔피언 래리 넬슨이 설계했고 전장은 백티 기준 약 7,156야드입니다.\n\n바다와 맞닿은 절벽 지형 위에 놓여 있어 페어웨이 곳곳에서 남태평양이 그대로 트이며, 7번·14번 홀은 바다를 향해 티샷하는 구간이라 사이판을 대표하는 그림으로 꼽힙니다. 해풍이 상시 불어 거리 계산과 탄도 조절이 스코어를 가릅니다.\n\n여행의파도 사이판 골프여행은 제주항공 인천 직항으로 이동하며, PIC리조트 디럭스룸 2인 1실에 묵고 리조트–골프장 무료 셔틀이 운행됩니다. 7일 일정은 매일 18홀씩 총 90홀(5라운드)을 도는 구성입니다.",
     "images": [
-      "/images/bangkok-pattaya/course-1.jpg",
-      "/images/bangkok-pattaya/course-4.jpg",
-      "/images/bangkok-pattaya-busan/course-1.jpg",
-      "/images/bangkok-pattaya-busan/course-2.jpg",
-      "/images/bangkok-pattaya-busan/course-3.jpg"
+      "/images/saipan-coralocean/course-2.jpg",
+      "/images/saipan-coralocean/course-3.jpg",
+      "/images/saipan-coralocean/course-6.jpg",
+      "/images/saipan-coralocean/course-1.jpg",
+      "/images/saipan-coralocean/course-4.jpg",
+      "/images/saipan-coralocean/course-5.jpg"
+    ],
+    "hashtags": [
+      "코랄오션CC",
+      "사이판골프장",
+      "사이판골프여행",
+      "오션뷰골프",
+      "래리넬슨설계",
+      "PIC리조트",
+      "해외골프여행",
+      "골프패키지"
     ],
     "relatedTourIds": [
-      "thailand-bangkok",
-      "thailand-bangkok-pattaya-busan"
+      "saipan-coralocean-pic",
+      "saipan-2color-pic"
     ]
   },
   {
     "slug": "kansong-cc",
     "name": "가산CC",
+    "nameEn": "Gassan Golf Club (레거시 · 파노라마 · 쿤탄)",
     "region": "치앙마이",
     "country": "태국",
     "countryCode": "thailand",
-    "description": "치앙마이 가산CC는 레거시·파노라마·쿤탄 3개 코스로 구성되어 있으며, 코스별로 18홀씩 라운딩합니다. 전용차량으로 이동하며 가이드 없이 자유롭게 라운딩하는 NO가이드 일정에 포함되어 있습니다.",
+    "summary": "태국 북부 최대 골프 콤플렉스, 레거시·파노라마·쿤탄 세 개 18홀 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "레거시 18홀 · 파노라마 18홀 · 쿤탄 18홀 (총 54홀)"
+      },
+      {
+        "label": "파",
+        "value": "파72 (레거시)"
+      },
+      {
+        "label": "개장 / 리디자인",
+        "value": "2006년 개장 · 2014년 리 슈미트(Schmidt-Curley Design) 리디자인 — 레거시"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 람푼 반티 (치앙마이 남동쪽)"
+      }
+    ],
+    "description": "가산CC(Gassan Golf Club)는 레거시·파노라마·쿤탄 세 개의 18홀 코스를 운영하는 태국 북부 최대 규모의 골프 콤플렉스입니다. 행정구역상으로는 치앙마이 남동쪽 람푼(Lamphun) 반티 지역에 있으며, 도이 쿤탄 산자락이 코스를 둘러쌉니다.\n\n간판 코스인 가산 레거시는 2006년 파72 레이아웃으로 문을 열었고, 2014년 슈미트-컬리 디자인의 리 슈미트가 다시 설계했습니다. 거의 모든 홀에 물이 걸려 있지만 페어웨이가 넉넉하고 티박스가 여러 단으로 나뉘어 있어 실력에 맞춰 공략할 수 있습니다. 클럽하우스는 중앙 호수와 마무리 홀들을 내려다보는 자리에 있습니다.\n\n여행의파도 치앙마이 골프여행은 레거시·파노라마·쿤탄을 하루 한 코스씩 18홀 라운딩하며(3박5일 54홀 / 4박6일은 로얄CC를 더해 72홀), 전용차량으로 이동하는 NO가이드·노쇼핑·노옵션 자유 라운딩으로 진행됩니다.",
     "images": [
-      "/images/chiangmai-golf/course-1.jpg",
       "/images/chiangmai-golf/course-2.jpg",
-      "/images/chiangmai-golf/course-3.jpg",
-      "/images/chiangmai-golf/course-4.jpg",
-      "/images/chiangmai-golf/course-5.jpg",
+      "/images/chiangmai-golf/course-1.jpg",
       "/images/chiangmai-golf/course-6.jpg"
+    ],
+    "hashtags": [
+      "가산CC",
+      "가싼CC",
+      "가산레거시",
+      "가산파노라마",
+      "가산쿤탄",
+      "치앙마이골프장",
+      "치앙마이골프여행",
+      "태국골프여행"
     ],
     "relatedTourIds": [
       "thailand-chiangmai-4n6d",
       "thailand-chiangmai-3n5d"
+    ]
+  },
+  {
+    "slug": "maejo-cc",
+    "name": "메조CC",
+    "nameEn": "Mae Jo Golf Club & Resort",
+    "region": "치앙마이",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "과수원 계곡에 놓인 18홀 파72·6,730야드 코스, 골프텔이 코스에 붙어 있어 이동 0분",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,730야드"
+      },
+      {
+        "label": "개장",
+        "value": "2004년"
+      },
+      {
+        "label": "설계",
+        "value": "세니 티라왓 (Seni Thirawat)"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 치앙마이 산사이(San Sai) 파파이 — 시내에서 북쪽 약 20km · 차로 20분"
+      }
+    ],
+    "description": "메조CC(Mae Jo Golf Club & Resort)는 치앙마이 시내에서 북쪽으로 약 20km, 차로 20분 거리의 산사이(San Sai) 파파이 지역에 자리한 18홀 파72·6,730야드 코스입니다. 2004년 태국인 설계가 세니 티라왓의 손을 거쳐 문을 열었습니다.\n\n코스는 롱안·리치·포멜로·귤 과수원이 이어지는 산사이 계곡 사이에 놓여 있어 계절마다 페어웨이 주변 풍경이 달라지고, 뒤로는 산줄기가 병풍처럼 둘러싸 조용한 라운드가 가능합니다. 같은 부지 안에 메조 골프 리조트&스파가 붙어 있어 숙소에서 첫 홀까지 사실상 이동이 없습니다.\n\n여행의파도 치앙마이 메조골프텔 상품은 매일 18홀씩(3박5일 54홀 / 4박6일 72홀) 라운딩하며, 그린피·캐디피·전동카트가 모두 포함되어 라운드 중 따로 정산할 비용이 없습니다. 전 일정 조식·중식·석식도 골프텔에서 제공되고, 이스타항공 인천·부산 직항으로 오갑니다.",
+    "images": [
+      "/images/chiangmai-maejo/course-4.jpg",
+      "/images/chiangmai-maejo/course-2.jpg",
+      "/images/chiangmai-maejo/course-3.jpg",
+      "/images/chiangmai-maejo/course-1.jpg",
+      "/images/chiangmai-maejo/course-5.jpg",
+      "/images/chiangmai-maejo/hotel-6.jpg"
+    ],
+    "hashtags": [
+      "메조CC",
+      "메조골프텔",
+      "치앙마이골프장",
+      "치앙마이골프여행",
+      "올인클루시브골프",
+      "그린피캐디피포함",
+      "태국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "thailand-chiangmai-maejo",
+      "thailand-chiangmai-maejo-busan"
+    ]
+  },
+  {
+    "slug": "yeonghae-cc",
+    "name": "영해CC",
+    "nameEn": "Yeonghae Country Club",
+    "region": "청도",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "청도 3색 골프의 축이 되는 코스, 전 일정 18홀씩 3회 54홀 라운딩",
+    "specs": [
+      {
+        "label": "라운드 구성",
+        "value": "18홀 × 3회 (전 일정 54홀)"
+      },
+      {
+        "label": "함께 배정되는 코스",
+        "value": "화산CC · 천태CC (인천 출발) / 화산CC · 캐슬렉스CC (부산 출발)"
+      },
+      {
+        "label": "코스 배정",
+        "value": "현지 예약 상황에 따라 배정 · 지정 불가"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 산둥성 청도(칭다오)"
+      }
+    ],
+    "description": "영해CC는 여행의파도 청도 3색 골프 일정에서 화산CC와 함께 축을 이루는 코스입니다. 인천 출발 2박3일 상품에서는 영해·화산·천태 CC 중 한 곳으로, 부산 출발 3박4일 상품에서는 영해·화산·캐슬렉스 CC 중 한 곳으로 매 라운드 배정되며, 두 일정 모두 전 일정 18홀씩 3회, 총 54홀을 돕니다.\n\n코스 배정은 현지 예약 상황에 따라 이뤄지므로 특정 코스를 지정할 수는 없습니다. 부산 출발 상품에서 명문 천태CC로 변경을 원하실 경우 주중 6만원, 주말 8만원이 추가됩니다.\n\n부산 출발 일정은 김해공항에서 에어부산 직항으로 청도 교동(자오둥)국제공항까지 이동한 뒤 약 60분 만에 첫 라운드에 들어가며, 숙소는 2019년 문을 연 특5성급 럭셔리 블루 호라이즌 호텔입니다. 인천 출발 일정은 준5성급 포포인츠 바이 쉐라톤 청양 이스트에 묵고, 양꼬치와 칭따오 맥주가 특전으로 제공됩니다.",
+    "images": [
+      "/images/qingdao-3color/course-1.jpg",
+      "/images/qingdao-3color/course-2.jpg",
+      "/images/qingdao-3color/course-3.jpg",
+      "/images/qingdao-3color/course-4.jpg"
+    ],
+    "hashtags": [
+      "영해CC",
+      "청도골프장",
+      "청도골프여행",
+      "칭다오골프",
+      "중국골프여행",
+      "청도3색골프",
+      "부산출발골프",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-qingdao-3color",
+      "china-qingdao-bluehorizon-busan"
+    ]
+  },
+  {
+    "slug": "huasan-cc",
+    "name": "화산CC",
+    "nameEn": "Huashan Country Club",
+    "region": "청도",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "청도 3색 골프 코스 중 하나, 인천·부산 출발 상품 모두에 포함되는 기본 코스",
+    "specs": [
+      {
+        "label": "라운드 구성",
+        "value": "18홀 × 3회 (전 일정 54홀)"
+      },
+      {
+        "label": "함께 배정되는 코스",
+        "value": "영해CC · 천태CC (인천 출발) / 영해CC · 캐슬렉스CC (부산 출발)"
+      },
+      {
+        "label": "코스 배정",
+        "value": "현지 예약 상황에 따라 배정 · 지정 불가"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 산둥성 청도(칭다오)"
+      }
+    ],
+    "description": "화산CC는 여행의파도 청도 골프여행 상품 두 개 모두에 들어가는 코스입니다. 인천 출발 2박3일에서는 천태·영해 CC와, 부산 출발 3박4일에서는 영해·캐슬렉스 CC와 묶여 3색 골프를 구성합니다.\n\n라운드는 전 일정 18홀씩 3회, 총 54홀로 진행되며 매 라운드 코스는 현지 예약 상황에 따라 배정됩니다. 부산 출발 일정 기준 첫날은 공항에서 골프장까지 약 60분, 이후 호텔에서 골프장까지는 약 20분 거리라 3박4일 동안 이동에 쓰는 시간이 짧습니다.\n\n인천 출발 일정은 준5성급 포포인츠 바이 쉐라톤 청양 이스트에 묵고 양꼬치·칭따오 맥주가 제공되며, 부산 출발 일정은 특5성급 럭셔리 블루 호라이즌 호텔에 묵고 4인 기준 망고 10kg 특전이 붙습니다. 두 상품 모두 2인부터 출발합니다.",
+    "images": [
+      "/images/qingdao-3color/course-5.jpg",
+      "/images/qingdao-3color/course-6.jpg",
+      "/images/qingdao-3color/course-4.jpg",
+      "/images/qingdao-3color/course-3.jpg"
+    ],
+    "hashtags": [
+      "화산CC",
+      "청도골프장",
+      "청도골프여행",
+      "칭다오골프",
+      "중국골프여행",
+      "청도3색골프",
+      "인천출발골프",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-qingdao-3color",
+      "china-qingdao-bluehorizon-busan"
     ]
   }
 ]
