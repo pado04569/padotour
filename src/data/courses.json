@@ -93,7 +93,8 @@
       "/images/saipan-coralocean/course-6.jpg"
     ],
     "relatedTourIds": [
-      "saipan-coralocean-pic"
+      "saipan-coralocean-pic",
+      "saipan-2color-pic"
     ]
   },
   {
@@ -113,6 +114,204 @@
     ],
     "relatedTourIds": [
       "japan-kagoshima-kedoin"
+    ]
+  },
+  {
+    "slug": "kao-golf-club",
+    "name": "카오CC",
+    "region": "후쿠오카",
+    "country": "일본",
+    "countryCode": "japan",
+    "description": "각 홀에 자연적인 연못과 크리크를 배치하고 굴곡진 액티브한 레이아웃이 전략적인게 특징인 곳입니다. 자연을 품은 후쿠오카 대표 코스로 꼽힙니다.",
+    "images": [
+      "/images/japan-fukuoka-tosu/course-1.jpg",
+      "/images/japan-fukuoka-tosu/course-2.jpg",
+      "/images/japan-fukuoka-tosu/course-3.jpg",
+      "/images/japan-fukuoka-tosu/course-4.jpg",
+      "/images/japan-fukuoka-tosu/course-5.jpg"
+    ],
+    "relatedTourIds": [
+      "japan-fukuoka-tosu",
+      "japan-fukuoka-tosu-3n4d-am",
+      "japan-fukuoka-tosu-3n4d-pm"
+    ]
+  },
+  {
+    "slug": "forest-nankan-golf-club",
+    "name": "포레스트낭칸CC",
+    "region": "후쿠오카",
+    "country": "일본",
+    "countryCode": "japan",
+    "description": "페어웨이와 그린 상태가 우수하며, 전 홀에서 그린이 보이는 설계로 도전적인 골퍼들에게 인기가 높은 곳입니다. 숲으로 둘러싸인 자연 속에서 라운드를 즐길 수 있습니다.",
+    "images": [
+      "/images/japan-fukuoka-tosu/course-1.jpg",
+      "/images/japan-fukuoka-tosu/course-2.jpg",
+      "/images/japan-fukuoka-tosu/course-3.jpg",
+      "/images/japan-fukuoka-tosu/course-4.jpg",
+      "/images/japan-fukuoka-tosu/course-5.jpg"
+    ],
+    "relatedTourIds": [
+      "japan-fukuoka-tosu",
+      "japan-fukuoka-tosu-3n4d-am",
+      "japan-fukuoka-tosu-3n4d-pm"
+    ]
+  },
+  {
+    "slug": "amagase-country-club",
+    "name": "아마카세CC",
+    "region": "후쿠오카",
+    "country": "일본",
+    "countryCode": "japan",
+    "description": "산 위 자연 지형을 그대로 살린 코스로, 넓은 페어웨이와 정돈된 그린에서 편안한 플레이를 즐길 수 있습니다. 호수 전망이 펼쳐지는 쾌적한 라운드가 특징입니다.",
+    "images": [
+      "/images/japan-fukuoka-tosu/course-1.jpg",
+      "/images/japan-fukuoka-tosu/course-2.jpg",
+      "/images/japan-fukuoka-tosu/course-3.jpg",
+      "/images/japan-fukuoka-tosu/course-4.jpg",
+      "/images/japan-fukuoka-tosu/course-5.jpg"
+    ],
+    "relatedTourIds": [
+      "japan-fukuoka-tosu",
+      "japan-fukuoka-tosu-3n4d-am",
+      "japan-fukuoka-tosu-3n4d-pm"
+    ]
+  },
+  {
+    "slug": "winners-golf-club",
+    "name": "위너스CC",
+    "region": "후쿠오카",
+    "country": "일본",
+    "countryCode": "japan",
+    "description": "확 트인 코스, 주변 경관이 빼어난 코스, 정교한 샷이 필요한 코스, 일본의 정원 같은 조경 코스로 각각의 다른 개성이 있는 곳입니다. 도전과 재미를 담은 밸런스 코스로 소개됩니다.",
+    "images": [
+      "/images/japan-fukuoka-tosu/course-1.jpg",
+      "/images/japan-fukuoka-tosu/course-2.jpg",
+      "/images/japan-fukuoka-tosu/course-3.jpg",
+      "/images/japan-fukuoka-tosu/course-4.jpg",
+      "/images/japan-fukuoka-tosu/course-5.jpg"
+    ],
+    "relatedTourIds": [
+      "japan-fukuoka-tosu",
+      "japan-fukuoka-tosu-3n4d-am",
+      "japan-fukuoka-tosu-3n4d-pm"
+    ]
+  },
+  {
+    "slug": "greenland-golf-club",
+    "name": "그린랜드CC",
+    "region": "후쿠오카",
+    "country": "일본",
+    "countryCode": "japan",
+    "description": "확 트인 코스, 주변 경관이 빼어난 코스, 정교한 샷이 필요한 코스, 일본의 정원 같은 조경 코스로 각각의 다른 개성이 있는 곳입니다. 전략적인 플레이가 재미있는 코스로 소개됩니다.",
+    "images": [
+      "/images/japan-fukuoka-tosu/course-1.jpg",
+      "/images/japan-fukuoka-tosu/course-2.jpg",
+      "/images/japan-fukuoka-tosu/course-3.jpg",
+      "/images/japan-fukuoka-tosu/course-4.jpg",
+      "/images/japan-fukuoka-tosu/course-5.jpg"
+    ],
+    "relatedTourIds": [
+      "japan-fukuoka-tosu",
+      "japan-fukuoka-tosu-3n4d-am",
+      "japan-fukuoka-tosu-3n4d-pm"
+    ]
+  },
+  {
+    "slug": "choyo-cc",
+    "name": "초요CC",
+    "region": "야마구치",
+    "country": "일본",
+    "countryCode": "japan",
+    "description": "야마구치현 우베 인근의 초요CC는 셀프+카트 라운드로 진행되는 캐디 없는(노캐디) 골프장으로, 재방문율 1위의 가성비 코스로 알려져 있습니다. 주중(월~금)에는 18홀에 9홀 추가 서비스가 제공되어 하루 27홀을 라운드할 수 있으며, 주말·휴일에는 18홀로 진행됩니다.\n\n초요CC 휴장일(매주 월요일)이나 예약이 어려운 날에는 인근 프레지던트GC 또는 아사GC로 사전 예고 없이 변경될 수 있습니다.",
+    "images": [
+      "/images/japan-ube-choyo/course-1.jpg",
+      "/images/japan-ube-choyo/course-2.jpg",
+      "/images/japan-ube-choyo/course-3.jpg",
+      "/images/japan-ube-choyo/course-4.jpg",
+      "/images/japan-ube-choyo/course-5.jpg",
+      "/images/japan-ube-choyo/course-6.jpg"
+    ],
+    "relatedTourIds": [
+      "japan-ube-choyo",
+      "japan-ube-choyo-3n4d",
+      "japan-ube-choyo-4n5d"
+    ]
+  },
+  {
+    "slug": "greenwood-cc",
+    "name": "그린우드CC",
+    "region": "파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "description": "파타야를 대표하는 3색 코스 중 하나로, 트레져힐·파타비아CC와 함께 매일 다른 코스로 순환하며 27홀씩 라운딩하는 프리미엄 일정에 포함됩니다. 주중에는 하루 36홀, 주말·공휴일에는 18홀까지 컨디션에 맞춰 라운딩할 수 있습니다.",
+    "images": [
+      "/images/bangkok-pattaya/course-1.jpg",
+      "/images/bangkok-pattaya/course-4.jpg",
+      "/images/bangkok-pattaya-busan/course-1.jpg",
+      "/images/bangkok-pattaya-busan/course-2.jpg",
+      "/images/bangkok-pattaya-busan/course-3.jpg"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok",
+      "thailand-bangkok-pattaya-busan"
+    ]
+  },
+  {
+    "slug": "treasure-hill-cc",
+    "name": "트레져힐CC",
+    "region": "파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "description": "파타야를 대표하는 3색 코스 중 하나로, 그린우드·파타비아CC와 함께 매일 다른 코스로 순환하며 27홀씩 라운딩하는 프리미엄 일정에 포함됩니다. 주중에는 하루 36홀, 주말·공휴일에는 18홀까지 컨디션에 맞춰 라운딩할 수 있습니다.",
+    "images": [
+      "/images/bangkok-pattaya/course-1.jpg",
+      "/images/bangkok-pattaya/course-4.jpg",
+      "/images/bangkok-pattaya-busan/course-1.jpg",
+      "/images/bangkok-pattaya-busan/course-2.jpg",
+      "/images/bangkok-pattaya-busan/course-3.jpg"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok",
+      "thailand-bangkok-pattaya-busan"
+    ]
+  },
+  {
+    "slug": "pattavia-cc",
+    "name": "파타비아CC",
+    "region": "파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "description": "파타야를 대표하는 3색 코스 중 하나로, 그린우드·트레져힐CC와 함께 매일 다른 코스로 순환하며 27홀씩 라운딩하는 프리미엄 일정에 포함됩니다. 주중에는 하루 36홀, 주말·공휴일에는 18홀까지 컨디션에 맞춰 라운딩할 수 있습니다.",
+    "images": [
+      "/images/bangkok-pattaya/course-1.jpg",
+      "/images/bangkok-pattaya/course-4.jpg",
+      "/images/bangkok-pattaya-busan/course-1.jpg",
+      "/images/bangkok-pattaya-busan/course-2.jpg",
+      "/images/bangkok-pattaya-busan/course-3.jpg"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok",
+      "thailand-bangkok-pattaya-busan"
+    ]
+  },
+  {
+    "slug": "kansong-cc",
+    "name": "가산CC",
+    "region": "치앙마이",
+    "country": "태국",
+    "countryCode": "thailand",
+    "description": "치앙마이 가산CC는 레거시·파노라마·쿤탄 3개 코스로 구성되어 있으며, 코스별로 18홀씩 라운딩합니다. 전용차량으로 이동하며 가이드 없이 자유롭게 라운딩하는 NO가이드 일정에 포함되어 있습니다.",
+    "images": [
+      "/images/chiangmai-golf/course-1.jpg",
+      "/images/chiangmai-golf/course-2.jpg",
+      "/images/chiangmai-golf/course-3.jpg",
+      "/images/chiangmai-golf/course-4.jpg",
+      "/images/chiangmai-golf/course-5.jpg",
+      "/images/chiangmai-golf/course-6.jpg"
+    ],
+    "relatedTourIds": [
+      "thailand-chiangmai-4n6d",
+      "thailand-chiangmai-3n5d"
     ]
   }
 ]
