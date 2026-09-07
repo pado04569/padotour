@@ -874,5 +874,143 @@
     "relatedTourIds": [
       "china-qingdao-castlex"
     ]
+  },
+  {
+    "slug": "cheonik-cc",
+    "name": "천익CC",
+    "nameEn": "Shandong Weihai Tianyi Golf Club",
+    "region": "위해",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "위해공항에서 15분 거리, 산과 바다를 함께 조망하는 18홀 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "특징",
+        "value": "산·바다·호수를 함께 낀 지형, 다채로운 코스 레이아웃"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 산둥성 위해(웨이하이), 위해공항에서 약 15분 거리"
+      }
+    ],
+    "description": "천익CC는 위해공항에서 약 15분 거리에 있어 이동 부담이 적은 골프장입니다. 산과 바다, 호수가 어우러진 지형 위에 조성되어 있어 홀마다 다른 풍경을 볼 수 있고, 코스 레이아웃과 난이도가 다양하게 구성되어 있습니다.\n\n합리적인 가격대에도 페어웨이와 잔디 관리 상태가 좋은 편으로 알려져 있어, 위해 골프여행의 가성비 코스로 꼽힙니다.",
+    "images": [
+      "/images/china-weihai-3color/천익CC/KakaoTalk_20260906_220640169_13.jpg",
+      "/images/china-weihai-3color/천익CC/KakaoTalk_20260906_220640169_14.jpg",
+      "/images/china-weihai-3color/천익CC/KakaoTalk_20260906_220640169_15.jpg",
+      "/images/china-weihai-3color/천익CC/KakaoTalk_20260906_220640169_17.jpg",
+      "/images/china-weihai-3color/천익CC/KakaoTalk_20260906_220640169_18.jpg",
+      "/images/china-weihai-3color/천익CC/KakaoTalk_20260906_220640169_20.jpg"
+    ],
+    "hashtags": [
+      "천익CC",
+      "위해골프장",
+      "위해골프여행",
+      "웨이하이골프",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-weihai-3color"
+    ]
+  },
+  {
+    "slug": "weihai-point-cc",
+    "name": "포인트CC",
+    "nameEn": "Weihai Point Golf Club",
+    "region": "위해",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "황해로 1.5마일 돌출된 좁은 반도 위에 조성된 파72·6,450야드 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,450야드"
+      },
+      {
+        "label": "조성",
+        "value": "2000년 조성 (옛 이름 Pan China Golf Club, 2007년까지)"
+      },
+      {
+        "label": "설계",
+        "value": "Lu Jun 최초 설계, 2008년 David Dale 리디자인"
+      },
+      {
+        "label": "지형",
+        "value": "황해로 1.5마일 돌출된 좁은 반도 지형"
+      }
+    ],
+    "description": "포인트CC(웨이하이 포인트)는 황해 바다 쪽으로 1.5마일 돌출된 좁은 반도 지형 위에 조성된 파72, 6,450야드 규모의 18홀 코스입니다. 2000년에 조성되었으며, 2007년까지는 Pan China Golf Club이라는 이름으로 불렸습니다. Lu Jun이 처음 설계했고, 2008년 David Dale이 리디자인을 거쳤습니다.\n\n반도 지형 특성상 대부분의 홀에서 바다를 끼고 라운딩할 수 있어, 위해 골프장 중에서도 난이도·경관·플레이 리듬이 고르게 구성된 코스로 꼽힙니다.",
+    "images": [
+      "/images/china-weihai-3color/포인트CC/KakaoTalk_20260906_220637843_12.jpg",
+      "/images/china-weihai-3color/포인트CC/KakaoTalk_20260906_220637843_13.jpg",
+      "/images/china-weihai-3color/포인트CC/KakaoTalk_20260906_220637843_14.jpg",
+      "/images/china-weihai-3color/포인트CC/KakaoTalk_20260906_220637843_15.jpg",
+      "/images/china-weihai-3color/포인트CC/KakaoTalk_20260906_220637843_16.jpg",
+      "/images/china-weihai-3color/포인트CC/KakaoTalk_20260906_220637843_17.jpg"
+    ],
+    "hashtags": [
+      "포인트CC",
+      "위해골프장",
+      "위해골프여행",
+      "웨이하이골프",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-weihai-3color"
+    ]
+  },
+  {
+    "slug": "wego-bip-cc",
+    "name": "위고BIP CC",
+    "nameEn": "Wego-Tianan Hotspring Golf Club",
+    "region": "위해",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "온천 리조트와 함께 운영되는 27홀 평지형 코스, 옛 이름 BIP Golf Club",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀"
+      },
+      {
+        "label": "정식 명칭",
+        "value": "Wego-Tianan Hotspring Golf Club (옛 이름 BIP Golf Club)"
+      },
+      {
+        "label": "특징",
+        "value": "온천 리조트 병설, 평지형 코스"
+      }
+    ],
+    "description": "위고BIP CC는 정식 명칭이 Wego-Tianan Hotspring Golf Club으로, 오랫동안 BIP Golf Club이라는 이름으로 알려져 있던 27홀 골프장입니다. 온천 리조트와 함께 운영되는 것이 특징입니다.\n\n큰 업다운 없는 평지형 코스로 플레이 흐름이 안정적이고, 부담 없는 난이도와 빠른 진행으로 편안한 라운딩이 가능합니다.",
+    "images": [
+      "/images/china-weihai-3color/위고BIP/KakaoTalk_20260906_220637843_22.jpg",
+      "/images/china-weihai-3color/위고BIP/KakaoTalk_20260906_220637843_23.jpg",
+      "/images/china-weihai-3color/위고BIP/KakaoTalk_20260906_220637843_24.jpg",
+      "/images/china-weihai-3color/위고BIP/KakaoTalk_20260906_220637843_25.jpg",
+      "/images/china-weihai-3color/위고BIP/KakaoTalk_20260906_220640169_03.jpg",
+      "/images/china-weihai-3color/위고BIP/KakaoTalk_20260906_220640169_04.jpg"
+    ],
+    "hashtags": [
+      "위고BIP",
+      "위해골프장",
+      "위해골프여행",
+      "웨이하이골프",
+      "중국골프여행",
+      "온천골프",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-weihai-3color"
+    ]
   }
 ]
