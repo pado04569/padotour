@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
             </tr>
             <tr style="border-bottom: 1px solid #f3f4f6;">
               <td style="padding: 10px 0; color: #6b7280;">출발일</td>
-              <td style="padding: 10px 0; font-weight: bold; color: #2563eb;">${formattedDate} (${nights}박 ${days}일)</td>
+              <td style="padding: 10px 0; font-weight: bold; color: #2563eb;">${formattedDate}${nights && days ? ` (${nights}박 ${days}일)` : ""}</td>
             </tr>
             <tr style="border-bottom: 1px solid #f3f4f6;">
               <td style="padding: 10px 0; color: #6b7280;">인원수</td>

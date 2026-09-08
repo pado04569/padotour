@@ -241,7 +241,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 md:p-8 text-blue-700 mb-8">
           <h3 className="text-xl font-black mb-1">예약 문의 · 맞춤 견적</h3>
           <p className="text-blue-600 text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
-          <ContactOptions tourTitle={tour.title} />
+          <ContactOptions tourTitle={tour.title} nights={tour.nights} days={tour.days} />
           {tour.priceUpdatedDate && (() => {
             const d = new Date(tour.priceUpdatedDate);
             const label = `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`;

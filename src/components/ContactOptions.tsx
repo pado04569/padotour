@@ -3,7 +3,15 @@
 import { useState } from "react";
 import Image from "next/image";
 
-export default function ContactOptions({ tourTitle }: { tourTitle?: string }) {
+export default function ContactOptions({
+  tourTitle,
+  nights,
+  days,
+}: {
+  tourTitle?: string;
+  nights?: string | number;
+  days?: string | number;
+}) {
   const [open, setOpen] = useState(false);
   const [showQr, setShowQr] = useState(false);
 
@@ -27,6 +35,8 @@ export default function ContactOptions({ tourTitle }: { tourTitle?: string }) {
         body: JSON.stringify({
           tourTitle: tourTitle ?? "골프여행 상품",
           departureDate: date,
+          nights,
+          days,
           people,
           phone: phone.trim(),
         }),
