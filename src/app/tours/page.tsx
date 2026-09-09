@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, Suspense } from "react";
+import Link from "next/link";
 import TourCard from "@/components/TourCard";
 import { tours, countries } from "@/data/tours";
 import { useSearchParams } from "next/navigation";
@@ -11,6 +12,10 @@ function ToursContent() {
   const regionParam = searchParams.get("region") || "";
   const departureParam = searchParams.get("departure") || "";
   const [selected, setSelected] = useState(initialCountry);
+
+  // 목록에서 메인으로 돌아가는 링크 — 출발지로 들어온 경우 그 출발지 메인으로 보낸다
+  const homeHref =
+    departureParam === "incheon" ? "/incheon" : departureParam === "busan" ? "/busan" : "/";
 
   const filtered = (() => {
     let result = selected === "all" ? tours : tours.filter((t) => t.countryCode === selected);
@@ -92,6 +97,16 @@ function ToursContent() {
             <p className="mt-2 text-sm md:text-base">카카오톡으로 문의해 주세요!</p>
           </div>
         )}
+
+        {/* 메인으로 — 다른 나라 상품을 보러 돌아갈 수 있게 */}
+        <div className="text-center mt-8 md:mt-10">
+          <Link
+            href={homeHref}
+            className="text-emerald-600 hover:text-emerald-700 font-medium text-sm"
+          >
+            ← 메인 화면으로 (다른 나라 상품 보기)
+          </Link>
+        </div>
       </section>
 
       {/* 문의 안내 */}
