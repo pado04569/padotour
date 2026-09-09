@@ -19908,5 +19908,110 @@
       "인천출발",
       "골프패키지"
     ]
+  },
+  {
+    "id": "thailand-bangkok-lotusvalley-busan",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "방콕",
+    "title": "[부산출발] 방콕 로터스밸리CC 골프텔 3박5일 주중 최대 108홀",
+    "subtitle": "에어부산 김해 직항 · 사파야 호텔 바이 로터스밸리(4성급, 2인 1실) · 게리 플레이어 설계 로터스밸리CC",
+    "nights": "3",
+    "days": "5",
+    "courses": "로터스밸리CC",
+    "roundsIncluded": "3",
+    "holes": "9/28까지 출발 18홀 x 3회(54홀) / 10월 이후 출발 주중 36홀·주말 18홀(주중 3일 기준 최대 108홀)",
+    "minPeople": "2인",
+    "period": "상시 출발 (2인부터)",
+    "hotel": "사파야 호텔 바이 로터스밸리 (4성급, 2인 1실)",
+    "hotelDesc": "클럽하우스에서 약 150m 거리에 있어 라운드가 끝나면 걸어서 방으로 돌아올 수 있는 골프텔입니다. 신관은 디럭스 74실, 스위트 5실로 구성되어 있으며 창이 넓어 객실에서 코스가 보이는 방도 있습니다. 야외 수영장, 풀바, 마사지 숍, 레스토랑&바, 24시간 프런트, 스낵 자판기를 갖추고 있고 레스토랑에서는 태국 요리와 한식을 함께 맛볼 수 있습니다.",
+    "golfCourse": "로터스밸리CC",
+    "golfCourseDesc": "남아프리카의 전설적인 골퍼 게리 플레이어가 설계한 18홀 코스로, Par72·전장 7,015야드이며 추가 연습용 Par3·Par4 홀이 마련되어 있습니다. 호수로 둘러싸인 아일랜드 그린이 있어 티샷과 어프로치 모두 정확도가 필요하고, 페어웨이 옆 수로와 그린 앞 벙커가 반복해서 나와 거리보다 방향을 먼저 생각하게 되는 코스입니다. 태국 골프장 중에서는 드물게 카트가 페어웨이까지 진입할 수 있어 걷는 부담이 적습니다. 2014년 아시아 밸류 오브 익스피리언스 대상, 2019년 태국 베스트 골프 리조트에 선정된 이력이 있으며 한국인 직원이 상주합니다.",
+    "productSummary": "에어부산 김해-방콕 직항으로 떠나는 로터스밸리CC 골프텔 패키지입니다. 게리 플레이어가 설계한 로터스밸리CC에서 라운딩하며, 클럽하우스 바로 옆 사파야 호텔 3박5일 일정입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 방콕",
+        "desc": "출발 2시간 전 김해공항 국제선 1층에서 미팅 후 수속 → 김해국제공항 출발(BX725, 18:00, 10/25부터 BX545) → 방콕 수완나품국제공항 도착(21:45) → 가이드 미팅 후 전용차량으로 호텔 이동(약 1시간 10분, 차층사오 지역) → 호텔 체크인 및 휴식"
+      },
+      {
+        "day": "2~4일차",
+        "label": "로터스밸리CC 라운딩",
+        "desc": "호텔 조식 후 클럽하우스로 이동(도보 약 150m) → 로터스밸리CC 라운딩(9/28까지 출발 18홀, 10/1 이후 출발 주중 36홀·주말 18홀) → 라운딩 후 호텔 투숙 및 자유시간"
+      },
+      {
+        "day": "5일차",
+        "label": "방콕 → 부산",
+        "desc": "마지막 라운드 후 방콕 공항으로 이동 → 방콕 수완나품국제공항 출발(BX726, 22:55, 10/25부터 BX546) → 김해국제공항 도착(06:20)"
+      }
+    ],
+    "highlights": [
+      "에어부산 김해-방콕 직항",
+      "게리 플레이어 설계 로터스밸리CC (Par72·7,015야드, 아일랜드 그린)",
+      "클럽하우스에서 150m 거리 사파야 호텔(4성급) 2인 1실",
+      "카트 페어웨이 진입 가능, 한국인 직원 상주",
+      "9/28까지 출발 18홀 x 3회, 10월 이후 출발 주중 최대 108홀",
+      "2인부터 출발 가능"
+    ],
+    "includes": [
+      "왕복 항공료, 유류할증료",
+      "숙박 3박 (사파야 호텔 2인 1실)",
+      "그린피",
+      "여행자보험",
+      "10월 1일 이후 출발은 식사(조·중·석) 포함"
+    ],
+    "excludes": [
+      "개인경비 및 매너팁",
+      "카트비·캐디피 (1,200바트/18홀 3회, 1인 1카트·1캐디 조건)",
+      "캐디팁 (350바트/18홀/1인)",
+      "공항 미팅·샌딩비 (4인 기준 1인 $50 / 3인 팀당 $200 / 2인 단독차량 1인 $100)",
+      "9월 28일까지 출발은 식사 불포함 (현지 조·중·석식 세트 950바트 이용 가능)"
+    ],
+    "cancelPolicy": [
+      "9월 28일까지 출발은 18홀씩 3회(총 54홀), 10월 1일 이후 출발은 주중 36홀·주말 18홀 기준입니다 (주중 3일을 채우면 최대 108홀).",
+      "2인 1실을 1명이 사용하는 경우 싱글차지 1박 45,000원이 발생합니다.",
+      "4인 미만으로 출발할 경우 현지에서 조인 플레이로 진행됩니다.",
+      "그린피 추가 시 9홀 주중 20,000원/주말 30,000원, 18홀 주중 30,000원/주말 35,000원이며 현장 결제입니다.",
+      "10월부터 토·일 주말 라운딩은 1인 18홀당 50,000원이 추가됩니다.",
+      "예약 후 출발 2주 전까지 잔금을 완납해야 합니다.",
+      "10월 25일부터 항공편이 BX545/BX546으로 변경됩니다.",
+      "여권은 출발일 기준 유효기간이 6개월 이상 남아있어야 합니다."
+    ],
+    "price": "499,000원~",
+    "image": "/images/thailand-bangkok-lotusvalley-busan/course-1.jpg",
+    "images": [
+      "/images/thailand-bangkok-lotusvalley-busan/course-1.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/course-2.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/hotel-1.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/course-4.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/hotel-4.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/course-6.jpg"
+    ],
+    "hotelImages": [
+      "/images/thailand-bangkok-lotusvalley-busan/hotel-1.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/hotel-2.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/hotel-3.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/hotel-4.jpg"
+    ],
+    "courseImages": [
+      "/images/thailand-bangkok-lotusvalley-busan/course-1.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/course-2.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/course-3.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/course-4.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/course-5.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/course-6.jpg"
+    ],
+    "badge": "부산출발 신규",
+    "departure": "busan",
+    "priceUpdatedDate": "2026-09-09",
+    "seoIntro": "부산 출발 방콕 로터스밸리CC 골프텔 3박5일 상품으로, 게리 플레이어가 설계한 로터스밸리CC에서 라운딩하고 클럽하우스 바로 옆 사파야 호텔에 숙박하는 골프패키지입니다.",
+    "seoKeywords": [
+      "로터스밸리CC",
+      "로터스밸리골프텔",
+      "방콕골프텔",
+      "방콕골프여행",
+      "부산출발태국골프",
+      "골프패키지"
+    ]
   }
 ]
