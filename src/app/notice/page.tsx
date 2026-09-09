@@ -1,5 +1,19 @@
 import { notices } from "@/data/reviews";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "공지·이벤트 | 여행의 파도 골프여행",
+  description: "여행의 파도 골프여행 특가 소식과 신규 상품 안내입니다.",
+  alternates: { canonical: "https://www.padotour.com/notice" },
+  openGraph: {
+    title: "공지·이벤트 | 여행의 파도 골프여행",
+    description: "여행의 파도 골프여행 특가 소식과 신규 상품 안내입니다.",
+    url: "https://www.padotour.com/notice",
+  },
+};
+
+
 export default function NoticePage() {
   return (
     <div>

@@ -3,6 +3,20 @@ import TourCard from "@/components/TourCard";
 import HeroSlider from "@/components/HeroSlider";
 import { tours } from "@/data/tours";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "부산출발 골프여행 | 여행의 파도",
+  description: "김해공항 출발 해외 골프여행 패키지. 일본·태국·중국·베트남·필리핀 골프투어 일정과 요금을 확인하세요.",
+  alternates: { canonical: "https://www.padotour.com/busan" },
+  openGraph: {
+    title: "부산출발 골프여행 | 여행의 파도",
+    description: "김해공항 출발 해외 골프여행 패키지. 일본·태국·중국·베트남·필리핀 골프투어 일정과 요금을 확인하세요.",
+    url: "https://www.padotour.com/busan",
+  },
+};
+
+
 const slides = [
   {
     image: "/images/hero-sapporo.jpg",

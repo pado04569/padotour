@@ -19,9 +19,12 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   return {
     title: `${tour.title} | 여행의 파도`,
     description,
+    // UTM 파라미터가 붙은 주소가 따로 색인되지 않도록 대표 주소를 지정한다
+    alternates: { canonical: `https://www.padotour.com/tours/${tour.id}` },
     openGraph: {
       title: tour.title,
       description,
+      url: `https://www.padotour.com/tours/${tour.id}`,
       images: tour.image ? [{ url: tour.image }] : undefined,
     },
   };
@@ -40,8 +43,35 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   // 기존 cancelPolicy 에 섞여 있던 상품별 안내사항(추가요금·싱글룸·차량 조건 등)은 버리지 않고 따로 보여준다.
   const productNotes = (tour.cancelPolicy ?? []).filter((line) => !isCancelLadderLine(line));
 
+  // 구조화 데이터 — 여행 상품은 Product 가 아니라 TouristTrip 이 맞다.
+  // (Product 는 별점·리뷰를 요구해 서치콘솔 경고가 났었다. TouristTrip 은 요구하지 않는다.)
+  const tripJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "TouristTrip",
+    name: tour.title,
+    description: tour.seoIntro ?? tour.subtitle ?? tour.productSummary ?? tour.title,
+    url: `https://www.padotour.com/tours/${tour.id}`,
+    image: tour.image ? `https://www.padotour.com${tour.image}` : undefined,
+    touristType: "골프여행",
+    itinerary: {
+      "@type": "ItemList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: tour.region ?? tour.country },
+      ],
+    },
+    provider: {
+      "@type": "TravelAgency",
+      name: "여행의 파도",
+      url: "https://www.padotour.com",
+    },
+  };
+
   return (
     <div className="bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(tripJsonLd) }}
+      />
       <ViewItemTracker
         itemId={tour.id}
         itemName={tour.title}
