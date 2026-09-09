@@ -278,10 +278,10 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           </details>
         </div>
 
-        {/* ── 뒤로가기 ── */}
+        {/* ── 뒤로가기 (소 → 중) : 이 상품이 속한 나라 목록으로 ── */}
         <div className="text-center">
           <Link href={`/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}`} className="text-emerald-600 hover:text-emerald-700 font-medium text-sm">
-            ← 전체 상품 목록으로
+            ← {tour.country} 상품 목록으로
           </Link>
         </div>
       </div>
