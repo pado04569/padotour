@@ -1,9 +1,10 @@
 "use client";
 
 import { useState, Suspense } from "react";
+import Link from "next/link";
 import TourCard from "@/components/TourCard";
 import { tours, countries } from "@/data/tours";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 
 function ToursContent() {
   const searchParams = useSearchParams();
@@ -11,6 +12,24 @@ function ToursContent() {
   const regionParam = searchParams.get("region") || "";
   const departureParam = searchParams.get("departure") || "";
   const [selected, setSelected] = useState(initialCountry);
+
+  const router = useRouter();
+
+  // 뒤로가기 3단계 (소 → 중 → 대)
+  //   소: 상품 상세      → "← 태국 상품 목록으로"   (tours/[id]/page.tsx)
+  //   중: 나라별 목록    → "← 전체 상품 목록으로"
+  //   대: 전체 목록      → "← 메인 화면으로"
+  const homeHref =
+    departureParam === "incheon" ? "/incheon" : departureParam === "busan" ? "/busan" : "/";
+
+  // 나라 또는 지역으로 걸러진 상태인가
+  const isFiltered = selected !== "all" || regionParam !== "";
+
+  // 전체 목록으로 — 필터 상태(state)와 주소(URL)를 함께 되돌린다
+  function goAllProducts() {
+    setSelected("all");
+    router.push(departureParam ? `/tours?departure=${departureParam}` : "/tours");
+  }
 
   const filtered = (() => {
     let result = selected === "all" ? tours : tours.filter((t) => t.countryCode === selected);
@@ -92,6 +111,25 @@ function ToursContent() {
             <p className="mt-2 text-sm md:text-base">카카오톡으로 문의해 주세요!</p>
           </div>
         )}
+
+        {/* 뒤로가기 — 걸러진 목록이면 전체 목록으로(중→대), 전체 목록이면 메인으로(대→홈) */}
+        <div className="text-center mt-8 md:mt-10">
+          {isFiltered ? (
+            <button
+              onClick={goAllProducts}
+              className="text-emerald-600 hover:text-emerald-700 font-medium text-sm"
+            >
+              ← 전체 상품 목록으로
+            </button>
+          ) : (
+            <Link
+              href={homeHref}
+              className="text-emerald-600 hover:text-emerald-700 font-medium text-sm"
+            >
+              ← 메인 화면으로
+            </Link>
+          )}
+        </div>
       </section>
 
       {/* 문의 안내 */}

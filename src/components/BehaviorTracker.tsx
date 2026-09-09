@@ -2,18 +2,13 @@
 
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
-
-declare global {
-  interface Window {
-    gtag?: (...args: unknown[]) => void;
-  }
-}
+import { track } from "@/lib/analytics";
 
 /**
  * 여행의파도 자체 행동 데이터 수집기 (GA4 커스텀 이벤트)
  * - scroll_depth: 페이지를 25/50/75/100% 까지 읽었는지 (어디까지 읽고 이탈했나)
  * - contact_click: 전화·카톡·밴드·블로그 링크 클릭 (전환 신호)
- * 모든 페이지(유입 페이지 포함)에서 자동 작동. window.gtag(GA4)로 전송.
+ * 모든 페이지(유입 페이지 포함)에서 자동 작동. 전송은 lib/analytics 의 track() 으로만.
  */
 export default function BehaviorTracker() {
   const pathname = usePathname();
@@ -30,10 +25,7 @@ export default function BehaviorTracker() {
       for (const m of marks) {
         if (pct >= m && !fired.has(m)) {
           fired.add(m);
-          window.gtag?.("event", "scroll_depth", {
-            percent: m,
-            page_path: pathname,
-          });
+          track("scroll_depth", { percent: m, page_path: pathname });
         }
       }
     };
@@ -55,7 +47,7 @@ export default function BehaviorTracker() {
       else if (href.includes("band")) method = "band";
       else if (href.includes("blog.naver")) method = "blog";
       if (!method) return;
-      window.gtag?.("event", "contact_click", {
+      track("contact_click", {
         method,
         page_path: window.location.pathname,
         link_url: href,

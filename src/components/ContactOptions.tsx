@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
+import { track } from "@/lib/analytics";
 
 export default function ContactOptions({
   tourTitle,
@@ -24,6 +25,26 @@ export default function ContactOptions({
 
   const canSubmit = date !== "" && phone.trim() !== "" && !sending;
 
+  // 문의 영역 펼침 / 입력 시작은 각각 1회만 기록한다 (중복 전송 방지)
+  const openedOnce = useRef(false);
+  const startedOnce = useRef(false);
+
+  function toggleOpen() {
+    const next = !open;
+    setOpen(next);
+    if (next && !openedOnce.current) {
+      openedOnce.current = true;
+      track("inquiry_open", { item_name: tourTitle });
+    }
+  }
+
+  /** 폼에 처음 손을 댄 순간 1회 — 어디까지 왔다가 그만두는지 보기 위함 */
+  function markStart(field: "date" | "people" | "phone") {
+    if (startedOnce.current) return;
+    startedOnce.current = true;
+    track("inquiry_start", { item_name: tourTitle, first_field: field });
+  }
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!canSubmit) return;
@@ -41,9 +62,16 @@ export default function ContactOptions({
           phone: phone.trim(),
         }),
       });
-      if (res.ok) setSent(true);
-      else alert("전송 중 오류가 발생했습니다. 전화(010-5301-5250)로 문의해 주세요.");
+      if (res.ok) {
+        setSent(true);
+        // 전환 — 개인정보(연락처)는 보내지 않는다. 인원수는 규모 파악용.
+        track("generate_lead", { item_name: tourTitle, people });
+      } else {
+        track("inquiry_fail", { item_name: tourTitle, reason: `status_${res.status}` });
+        alert("전송 중 오류가 발생했습니다. 전화(010-5301-5250)로 문의해 주세요.");
+      }
     } catch {
+      track("inquiry_fail", { item_name: tourTitle, reason: "network" });
       alert("전송 중 오류가 발생했습니다. 전화(010-5301-5250)로 문의해 주세요.");
     } finally {
       setSending(false);
@@ -53,7 +81,7 @@ export default function ContactOptions({
   return (
     <div className="relative">
       <button
-        onClick={() => setOpen(!open)}
+        onClick={toggleOpen}
         className="w-full bg-blue-100 hover:bg-blue-200 text-blue-700 border border-blue-200 font-black px-8 py-4 rounded-2xl text-base transition-colors flex items-center justify-center gap-2"
       >
         📞 예약 문의 · 맞춤 견적
@@ -97,7 +125,7 @@ export default function ContactOptions({
                   <input
                     type="date"
                     value={date}
-                    onChange={(e) => setDate(e.target.value)}
+                    onChange={(e) => { markStart("date"); setDate(e.target.value); }}
                     className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
                     required
                   />
@@ -107,7 +135,7 @@ export default function ContactOptions({
                     <label className="text-xs text-gray-500 mb-1 block">인원수</label>
                     <select
                       value={people}
-                      onChange={(e) => setPeople(Number(e.target.value))}
+                      onChange={(e) => { markStart("people"); setPeople(Number(e.target.value)); }}
                       className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
                     >
                       {[2, 3, 4, 5, 6, 7, 8].map((n) => (
@@ -120,7 +148,7 @@ export default function ContactOptions({
                     <input
                       type="tel"
                       value={phone}
-                      onChange={(e) => setPhone(e.target.value)}
+                      onChange={(e) => { markStart("phone"); setPhone(e.target.value); }}
                       placeholder="010-0000-0000"
                       className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
                       required

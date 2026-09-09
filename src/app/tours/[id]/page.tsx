@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
 import ContactOptions from "@/components/ContactOptions";
+import ViewItemTracker from "@/components/ViewItemTracker";
+import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "@/data/cancelPolicy";
 
 export async function generateStaticParams() {
   return tours.map((t) => ({ id: t.id }));
@@ -34,17 +36,28 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const backHref = dep ? `/${dep}` : "/";
   const heroImage = tour.images && tour.images.length > 0 ? tour.images[0] : tour.image;
 
+  // 취소·환불 규정은 표준으로 통일한다(사장님 확정 2026-09-09).
+  // 기존 cancelPolicy 에 섞여 있던 상품별 안내사항(추가요금·싱글룸·차량 조건 등)은 버리지 않고 따로 보여준다.
+  const productNotes = (tour.cancelPolicy ?? []).filter((line) => !isCancelLadderLine(line));
+
   return (
     <div className="bg-white">
+      <ViewItemTracker
+        itemId={tour.id}
+        itemName={tour.title}
+        country={tour.country}
+        region={tour.region}
+      />
+
       {/* ── 히어로 이미지 ── */}
-      <div className="relative w-full h-64 md:h-96 bg-gray-200 overflow-hidden">
+      <div className="relative w-full h-72 md:h-96 bg-gray-200 overflow-hidden">
         <img
           src={heroImage}
           alt={tour.title}
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 p-5 md:p-8 text-white">
+        <div className="absolute bottom-0 left-0 right-0 px-5 pt-5 pb-7 md:p-8 text-white">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xs font-bold bg-emerald-500 text-white px-2 py-0.5 rounded">{tour.country}</span>
@@ -215,28 +228,6 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           </div>
         )}
 
-        {/* ── 취소/환불 규정 ── */}
-        {tour.cancelPolicy && tour.cancelPolicy.length > 0 && (
-          <div className="mb-8">
-            <details className="group bg-gray-50 border border-gray-200 rounded-xl">
-              <summary className="cursor-pointer list-none px-4 py-2.5 text-xs font-bold text-gray-500 flex items-center gap-1.5">
-                📌 취소·환불 규정 보기
-                <span className="text-gray-400 group-open:rotate-180 transition-transform">▾</span>
-              </summary>
-              <div className="px-4 pb-4">
-                <p className="text-[11px] text-gray-400 mb-2">※ 항공 선발권 구매 후 취소 시 항공 취소수수료 별도 발생</p>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-1.5">
-                  {tour.cancelPolicy.map((item, i) => (
-                    <div key={i} className="bg-white rounded-md px-2 py-1.5 text-[11px] text-gray-500 border border-gray-100 text-center">
-                      {item}
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </details>
-          </div>
-        )}
-
         {/* ── 예약 문의 · 맞춤 견적 ── */}
         <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 md:p-8 text-blue-700 mb-8">
           <h3 className="text-xl font-black mb-1">예약 문의 · 맞춤 견적</h3>
@@ -253,10 +244,44 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           })()}
         </div>
 
-        {/* ── 뒤로가기 ── */}
+        {/* ── 취소/환불 규정 ── (문의 아래에 둔다: 알아보는 단계 고객에게 부담을 주지 않기 위해)
+             표준 규정을 전 상품 공통으로 노출한다. 상품별 안내사항은 그 아래에 따로 남긴다. */}
+        <div className="mb-8">
+          <details className="group bg-gray-50 border border-gray-200 rounded-xl">
+            <summary className="cursor-pointer list-none px-4 py-2.5 text-xs font-bold text-gray-500 flex items-center gap-1.5">
+              📌 취소·환불 규정 보기
+              <span className="text-gray-400 group-open:rotate-180 transition-transform">▾</span>
+            </summary>
+            <div className="px-4 pb-4">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-1.5">
+                {STANDARD_CANCEL_POLICY.map((item, i) => (
+                  <div key={i} className="bg-white rounded-md px-2 py-1.5 text-[11px] text-gray-500 border border-gray-100 text-center">
+                    {item}
+                  </div>
+                ))}
+              </div>
+              <p className="text-[11px] text-gray-400 mt-2 leading-relaxed">{CANCEL_POLICY_NOTE}</p>
+
+              {productNotes.length > 0 && (
+                <>
+                  <p className="text-[11px] font-bold text-gray-500 mt-4 mb-1.5">이 상품의 추가 안내</p>
+                  <ul className="space-y-1">
+                    {productNotes.map((item, i) => (
+                      <li key={i} className="text-[11px] text-gray-500 leading-relaxed pl-2.5 relative before:content-['·'] before:absolute before:left-0">
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+            </div>
+          </details>
+        </div>
+
+        {/* ── 뒤로가기 (소 → 중) : 이 상품이 속한 나라 목록으로 ── */}
         <div className="text-center">
           <Link href={`/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}`} className="text-emerald-600 hover:text-emerald-700 font-medium text-sm">
-            ← 전체 상품 목록으로
+            ← {tour.country} 상품 목록으로
           </Link>
         </div>
       </div>
