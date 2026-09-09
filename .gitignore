@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 랜드사 원본 자료 인계 폴더 (공개 저장소이므로 커밋 금지)
+/_인계/

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
 import ContactOptions from "@/components/ContactOptions";
+import ViewItemTracker from "@/components/ViewItemTracker";
 
 export async function generateStaticParams() {
   return tours.map((t) => ({ id: t.id }));
@@ -36,15 +37,22 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
   return (
     <div className="bg-white">
+      <ViewItemTracker
+        itemId={tour.id}
+        itemName={tour.title}
+        country={tour.country}
+        region={tour.region}
+      />
+
       {/* ── 히어로 이미지 ── */}
-      <div className="relative w-full h-64 md:h-96 bg-gray-200 overflow-hidden">
+      <div className="relative w-full h-72 md:h-96 bg-gray-200 overflow-hidden">
         <img
           src={heroImage}
           alt={tour.title}
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 p-5 md:p-8 text-white">
+        <div className="absolute bottom-0 left-0 right-0 px-5 pt-5 pb-7 md:p-8 text-white">
           <div className="max-w-4xl mx-auto">
             <div className="flex items-center gap-2 mb-2">
               <span className="text-xs font-bold bg-emerald-500 text-white px-2 py-0.5 rounded">{tour.country}</span>
@@ -215,7 +223,23 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           </div>
         )}
 
-        {/* ── 취소/환불 규정 ── */}
+        {/* ── 예약 문의 · 맞춤 견적 ── */}
+        <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 md:p-8 text-blue-700 mb-8">
+          <h3 className="text-xl font-black mb-1">예약 문의 · 맞춤 견적</h3>
+          <p className="text-blue-600 text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
+          <ContactOptions tourTitle={tour.title} nights={tour.nights} days={tour.days} />
+          {tour.priceUpdatedDate && (() => {
+            const d = new Date(tour.priceUpdatedDate);
+            const label = `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`;
+            return (
+              <p className="text-xs text-blue-400 mt-4 leading-relaxed">
+                ※ 이 상품은 {label}에 등록된 상품으로, 등록월 유류할증료가 반영된 요금입니다. {d.getMonth() + 1}월 이후 문의하실 경우 요금 변동이 있을 수 있는 점 안내드립니다.
+              </p>
+            );
+          })()}
+        </div>
+
+        {/* ── 취소/환불 규정 ── (문의 아래에 둔다: 알아보는 단계 고객에게 부담을 주지 않기 위해) */}
         {tour.cancelPolicy && tour.cancelPolicy.length > 0 && (
           <div className="mb-8">
             <details className="group bg-gray-50 border border-gray-200 rounded-xl">
@@ -236,22 +260,6 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             </details>
           </div>
         )}
-
-        {/* ── 예약 문의 · 맞춤 견적 ── */}
-        <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 md:p-8 text-blue-700 mb-8">
-          <h3 className="text-xl font-black mb-1">예약 문의 · 맞춤 견적</h3>
-          <p className="text-blue-600 text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
-          <ContactOptions tourTitle={tour.title} nights={tour.nights} days={tour.days} />
-          {tour.priceUpdatedDate && (() => {
-            const d = new Date(tour.priceUpdatedDate);
-            const label = `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`;
-            return (
-              <p className="text-xs text-blue-400 mt-4 leading-relaxed">
-                ※ 이 상품은 {label}에 등록된 상품으로, 등록월 유류할증료가 반영된 요금입니다. {d.getMonth() + 1}월 이후 문의하실 경우 요금 변동이 있을 수 있는 점 안내드립니다.
-              </p>
-            );
-          })()}
-        </div>
 
         {/* ── 뒤로가기 ── */}
         <div className="text-center">
