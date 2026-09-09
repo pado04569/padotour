@@ -1,6 +1,20 @@
 import Image from "next/image";
 import { reviews } from "@/data/reviews";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "고객 후기 | 여행의 파도 골프여행",
+  description: "여행의 파도와 함께 해외 골프여행을 다녀오신 고객들의 실제 후기입니다.",
+  alternates: { canonical: "https://www.padotour.com/reviews" },
+  openGraph: {
+    title: "고객 후기 | 여행의 파도 골프여행",
+    description: "여행의 파도와 함께 해외 골프여행을 다녀오신 고객들의 실제 후기입니다.",
+    url: "https://www.padotour.com/reviews",
+  },
+};
+
+
 export default function ReviewsPage() {
   return (
     <div>
