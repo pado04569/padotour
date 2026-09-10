@@ -5,6 +5,7 @@ import type { Metadata } from "next";
 import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
 import ContactOptions from "@/components/ContactOptions";
 import ViewItemTracker from "@/components/ViewItemTracker";
+import ShareButton from "@/components/ShareButton";
 import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "@/data/cancelPolicy";
 
 export async function generateStaticParams() {
@@ -97,6 +98,13 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             <h1 className="text-2xl md:text-4xl font-black leading-tight">{tour.title}</h1>
           </div>
         </div>
+
+        {/* 공유 — 모바일에서 주소를 긁을 방법이 없어 우상단에 고정 배치 */}
+        <ShareButton
+          title={tour.title}
+          itemId={tour.id}
+          className="absolute top-4 right-4 bg-black/45 hover:bg-black/65 text-white font-bold text-xs px-3 py-2 rounded-full backdrop-blur-sm"
+        />
       </div>
 
       <div className="max-w-4xl mx-auto px-4 py-8">
@@ -263,6 +271,17 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <h3 className="text-xl font-black mb-1">예약 문의 · 맞춤 견적</h3>
           <p className="text-blue-600 text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
           <ContactOptions tourTitle={tour.title} nights={tour.nights} days={tour.days} />
+
+          {/* 같이 갈 일행에게 보내는 경로 — 골프여행은 대개 여럿이 간다 */}
+          <div className="mt-6">
+            <ShareButton
+              title={tour.title}
+              itemId={tour.id}
+              className="w-full bg-white hover:bg-blue-50 text-blue-700 border-2 border-blue-300 font-black px-8 py-4 rounded-2xl text-base"
+            />
+            <p className="text-xs text-blue-500 mt-2 text-center">함께 가실 분에게 이 상품을 보내보세요</p>
+          </div>
+
           {tour.priceUpdatedDate && (() => {
             const d = new Date(tour.priceUpdatedDate);
             const label = `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`;
