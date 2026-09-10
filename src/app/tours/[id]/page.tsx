@@ -277,7 +277,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             <ShareButton
               title={tour.title}
               itemId={tour.id}
-              className="w-full bg-white hover:bg-blue-50 text-blue-700 border-2 border-blue-300 font-black px-8 py-4 rounded-2xl text-base"
+              className="w-full bg-white hover:bg-blue-50 text-blue-700 border-2 border-blue-300 font-black px-8 py-2 rounded-xl text-sm"
             />
             <p className="text-xs text-blue-500 mt-2 text-center">함께 가실 분에게 이 상품을 보내보세요</p>
           </div>

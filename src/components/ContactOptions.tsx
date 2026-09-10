@@ -4,6 +4,15 @@ import { useState, useRef } from "react";
 import Image from "next/image";
 import { track } from "@/lib/analytics";
 
+/**
+ * 입력칸 공통 서식.
+ * select 와 input 은 기기(특히 iOS)마다 기본 높이가 달라 나란히 두면 어긋난다.
+ * h-11 로 높이를 못박고 세로 padding 을 쓰지 않는다.
+ */
+const FIELD =
+  "w-full h-11 border border-gray-300 rounded-lg px-3 text-sm bg-white text-gray-800 " +
+  "focus:outline-none focus:ring-2 focus:ring-blue-500";
+
 export default function ContactOptions({
   tourTitle,
   nights,
@@ -126,31 +135,38 @@ export default function ContactOptions({
                     type="date"
                     value={date}
                     onChange={(e) => { markStart("date"); setDate(e.target.value); }}
-                    className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className={FIELD}
                     required
                   />
                 </div>
-                <div className="grid grid-cols-2 gap-2.5">
-                  <div>
+                {/* 인원수는 좁게(2), 휴대폰 번호는 넓게(3) — 번호가 잘리지 않게 */}
+                <div className="grid grid-cols-5 gap-2.5">
+                  <div className="col-span-2">
                     <label className="text-xs text-gray-500 mb-1 block">인원수</label>
-                    <select
-                      value={people}
-                      onChange={(e) => { markStart("people"); setPeople(Number(e.target.value)); }}
-                      className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    >
-                      {[2, 3, 4, 5, 6, 7, 8].map((n) => (
-                        <option key={n} value={n}>{n}명</option>
-                      ))}
-                    </select>
+                    <div className="relative">
+                      <select
+                        value={people}
+                        onChange={(e) => { markStart("people"); setPeople(Number(e.target.value)); }}
+                        className={`${FIELD} appearance-none pr-7`}
+                      >
+                        {[2, 3, 4, 5, 6, 7, 8].map((n) => (
+                          <option key={n} value={n}>{n}명</option>
+                        ))}
+                      </select>
+                      {/* 기본 화살표는 기기마다 크기가 달라 높이를 흐트러뜨린다 → 직접 그린다 */}
+                      <span className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400 text-[10px]">
+                        ▼
+                      </span>
+                    </div>
                   </div>
-                  <div>
+                  <div className="col-span-3">
                     <label className="text-xs text-gray-500 mb-1 block">휴대폰 번호</label>
                     <input
                       type="tel"
                       value={phone}
                       onChange={(e) => { markStart("phone"); setPhone(e.target.value); }}
                       placeholder="010-0000-0000"
-                      className="w-full border border-gray-300 rounded-lg px-3 py-2.5 text-sm bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
+                      className={FIELD}
                       required
                     />
                   </div>
