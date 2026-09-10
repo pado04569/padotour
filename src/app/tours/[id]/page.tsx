@@ -165,7 +165,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               <div className={`font-bold text-gray-800 break-keep leading-snug space-y-0.5 ${
                 item.value.length > 45 ? "text-[11px]" : item.value.length > 24 ? "text-xs" : "text-sm"
               }`}>
-                {item.value.split(/\n|\s+\/\s+/).map((line, li) => (
+                {/* 줄 경계: 줄바꿈 / " / " / 기간의 " ~ " 앞.
+                    "36~54홀" 처럼 공백 없는 물결표는 나누지 않는다. */}
+                {item.value.split(/\n|\s+\/\s+|\s+(?=~\s)/).map((line, li) => (
                   <div key={li}>{line.trim()}</div>
                 ))}
               </div>
