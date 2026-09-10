@@ -118,7 +118,7 @@ export default function IncheonHome() {
       </section>
 
       {/* ===== 프로모션 배너 ===== */}
-      <section className="max-w-6xl mx-auto px-4 mb-8">
+      <section className="max-w-6xl mx-auto px-4">
         <Link href="/tours?country=japan&departure=incheon" className="block relative overflow-hidden rounded-xl group">
           <img
             src="/images/golf-main.jpg"
