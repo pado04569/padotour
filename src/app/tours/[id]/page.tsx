@@ -99,7 +99,12 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               {tour.badge && <span className="text-xs font-bold bg-red-500 text-white px-2 py-0.5 rounded">{tour.badge}</span>}
             </div>
             {/* break-keep — 한글 단어 중간에서 줄이 끊기지 않게 한다 */}
-            <h1 className="text-xl md:text-4xl font-black leading-snug break-keep">{tour.title}</h1>
+            {/* 제목에 "｜" 가 있으면 그 앞뒤로 줄을 나눈다. 검색용 제목(metadata)은 한 줄 그대로 */}
+            <h1 className="text-xl md:text-4xl font-black leading-snug break-keep">
+              {tour.title.split("｜").map((part, pi) => (
+                <span key={pi} className="block">{part.trim()}</span>
+              ))}
+            </h1>
           </div>
         </div>
 
@@ -117,12 +122,22 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {(() => {
           const holesRaw = tour.holes ?? `${tour.roundsIncluded * 18}`;
           const holesText = String(holesRaw).includes("홀") ? String(holesRaw) : `${holesRaw}홀`;
+
+          // 최소 인원 — 데이터가 숫자(2)일 때도, 문자열("4인 (2인 시 송영비 추가)")일 때도 맞게 보이도록.
+          // 예전에는 무조건 "인 이상"을 붙여 "2인인 이상"이 되었다.
+          const mp = tour.minPeople;
+          const mpStr = mp == null ? "" : String(mp).trim();
+          const mpMatch = mpStr.match(/^([^(]+?)\s*(\(.*\))?$/);
+          const mpHead = mpMatch ? mpMatch[1].trim() : mpStr;
+          const mpNote = mpMatch && mpMatch[2] ? mpMatch[2].trim() : "";
+          const mpBase = mpHead ? (/인$/.test(mpHead) ? `${mpHead} 이상` : `${mpHead}인 이상`) : "";
+          const minPeopleText = mpBase ? (mpNote ? `${mpBase}\n${mpNote}` : mpBase) : "문의";
           return (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
           {[
             { icon: "🌙", label: "일정", value: `${tour.nights}박 ${tour.days}일` },
             { icon: "⛳", label: "라운드", value: `${tour.roundsIncluded}라운드 ${holesText}` },
-            { icon: "👥", label: "최소 인원", value: tour.minPeople ? `${tour.minPeople}인 이상` : "문의" },
+            { icon: "👥", label: "최소 인원", value: minPeopleText },
             { icon: "📅", label: "출발 기간", value: tour.period ?? "연중 출발" },
           ].map((item) => (
             <div key={item.label} className="bg-gray-50 rounded-xl p-3 md:p-4 text-center border border-gray-100">
@@ -148,7 +163,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           {/* 한 덩어리로 붙어 있으면 읽기 어렵다 → 문장 단위로 줄을 나눈다 */}
           <div className="space-y-1.5">
             {(tour.productSummary ?? `${tour.golfCourse ?? ""} ${tour.roundsIncluded}회 라운딩 · ${tour.hotel ?? ""} 숙박`)
-              .split(/(?<=다\.)\s*/)
+              .split(/\n|(?<=다\.)\s*/)
               .map((s) => s.trim())
               .filter(Boolean)
               .map((sentence, i) => (
