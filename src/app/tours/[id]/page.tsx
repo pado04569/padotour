@@ -88,14 +88,15 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 px-5 pt-5 pb-7 md:p-8 text-white">
+        <div className="absolute bottom-0 left-0 right-0 px-5 pt-5 pb-10 md:p-8 text-white">
           <div className="max-w-4xl mx-auto">
-            <div className="flex items-center gap-2 mb-2">
+            <div className="flex items-center gap-2 mb-2.5">
               <span className="text-xs font-bold bg-emerald-500 text-white px-2 py-0.5 rounded">{tour.country}</span>
               <span className="text-xs text-white/80">{tour.region}</span>
               {tour.badge && <span className="text-xs font-bold bg-red-500 text-white px-2 py-0.5 rounded">{tour.badge}</span>}
             </div>
-            <h1 className="text-2xl md:text-4xl font-black leading-tight">{tour.title}</h1>
+            {/* break-keep — 한글 단어 중간에서 줄이 끊기지 않게 한다 */}
+            <h1 className="text-xl md:text-4xl font-black leading-snug break-keep">{tour.title}</h1>
           </div>
         </div>
 
@@ -133,10 +134,19 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
         {/* ── 상품 요약 박스 ── */}
         <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8">
-          <p className="text-xs text-gray-500 mb-1">{tour.region} 골프여행 상품 구성</p>
-          <p className="text-xl md:text-2xl font-black text-emerald-800 leading-snug">
-            {tour.productSummary ?? `${tour.golfCourse ?? ""} ${tour.roundsIncluded}회 라운딩 · ${tour.hotel ?? ""} 숙박`}
-          </p>
+          <p className="text-xs text-gray-500 mb-2">{tour.region} 골프여행 상품 구성</p>
+          {/* 한 덩어리로 붙어 있으면 읽기 어렵다 → 문장 단위로 줄을 나눈다 */}
+          <div className="space-y-1.5">
+            {(tour.productSummary ?? `${tour.golfCourse ?? ""} ${tour.roundsIncluded}회 라운딩 · ${tour.hotel ?? ""} 숙박`)
+              .split(/(?<=다\.)\s*/)
+              .map((s) => s.trim())
+              .filter(Boolean)
+              .map((sentence, i) => (
+                <p key={i} className="text-base md:text-xl font-bold text-emerald-800 leading-relaxed break-keep">
+                  {sentence}
+                </p>
+              ))}
+          </div>
           {tour.subtitle && <p className="text-sm text-gray-600 mt-1.5">{tour.subtitle}</p>}
           {tour.seoKeywords && tour.seoKeywords.length > 0 && (
             <p className="text-xs text-gray-400 mt-2">
