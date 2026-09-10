@@ -6,6 +6,7 @@ import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
 import ContactOptions from "@/components/ContactOptions";
 import ViewItemTracker from "@/components/ViewItemTracker";
 import ShareButton from "@/components/ShareButton";
+import { Sentences, Steps } from "@/components/ReadableText";
 import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "@/data/cancelPolicy";
 
 export async function generateStaticParams() {
@@ -87,15 +88,18 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           alt={tour.title}
           className="w-full h-full object-cover"
         />
+        {/* 사진을 가리지 않는 것이 우선 — 어둡게 덧씌우지 않는다 (사장님 확정 2026-09-10) */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 px-5 pt-5 pb-7 md:p-8 text-white">
-          <div className="max-w-4xl mx-auto">
-            <div className="flex items-center gap-2 mb-2">
+        {/* 모바일: 세로 가운데 정렬 / PC: 기존처럼 아래 정렬 */}
+        <div className="absolute inset-0 flex items-center md:items-end px-5 py-6 md:p-8 text-white">
+          <div className="max-w-4xl mx-auto w-full">
+            <div className="flex items-center gap-2 mb-2.5">
               <span className="text-xs font-bold bg-emerald-500 text-white px-2 py-0.5 rounded">{tour.country}</span>
               <span className="text-xs text-white/80">{tour.region}</span>
               {tour.badge && <span className="text-xs font-bold bg-red-500 text-white px-2 py-0.5 rounded">{tour.badge}</span>}
             </div>
-            <h1 className="text-2xl md:text-4xl font-black leading-tight">{tour.title}</h1>
+            {/* break-keep — 한글 단어 중간에서 줄이 끊기지 않게 한다 */}
+            <h1 className="text-xl md:text-4xl font-black leading-snug break-keep">{tour.title}</h1>
           </div>
         </div>
 
@@ -123,8 +127,15 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           ].map((item) => (
             <div key={item.label} className="bg-gray-50 rounded-xl p-3 md:p-4 text-center border border-gray-100">
               <div className="text-2xl mb-1">{item.icon}</div>
-              <div className="text-xs text-gray-500 mb-0.5">{item.label}</div>
-              <div className="text-sm font-bold text-gray-800 break-keep">{item.value}</div>
+              <div className="text-xs text-gray-500 mb-1">{item.label}</div>
+              {/* 내용이 길면 줄을 나누고 글자를 줄인다 — 칸 하나만 길어져 어색해지는 것을 막는다 */}
+              <div className={`font-bold text-gray-800 break-keep leading-snug space-y-0.5 ${
+                item.value.length > 45 ? "text-[11px]" : item.value.length > 24 ? "text-xs" : "text-sm"
+              }`}>
+                {item.value.split(/\n|\s+\/\s+/).map((line, li) => (
+                  <div key={li}>{line.trim()}</div>
+                ))}
+              </div>
             </div>
           ))}
         </div>
@@ -133,11 +144,21 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
         {/* ── 상품 요약 박스 ── */}
         <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8">
-          <p className="text-xs text-gray-500 mb-1">{tour.region} 골프여행 상품 구성</p>
-          <p className="text-xl md:text-2xl font-black text-emerald-800 leading-snug">
-            {tour.productSummary ?? `${tour.golfCourse ?? ""} ${tour.roundsIncluded}회 라운딩 · ${tour.hotel ?? ""} 숙박`}
-          </p>
-          {tour.subtitle && <p className="text-sm text-gray-600 mt-1.5">{tour.subtitle}</p>}
+          <p className="text-xs text-gray-500 mb-2">{tour.region} 골프여행 상품 구성</p>
+          {/* 한 덩어리로 붙어 있으면 읽기 어렵다 → 문장 단위로 줄을 나눈다 */}
+          <div className="space-y-1.5">
+            {(tour.productSummary ?? `${tour.golfCourse ?? ""} ${tour.roundsIncluded}회 라운딩 · ${tour.hotel ?? ""} 숙박`)
+              .split(/(?<=다\.)\s*/)
+              .map((s) => s.trim())
+              .filter(Boolean)
+              .map((sentence, i) => (
+                <p key={i} className="text-base md:text-xl font-bold text-emerald-800 leading-relaxed break-keep">
+                  {sentence}
+                </p>
+              ))}
+          </div>
+          {/* subtitle 은 화면에 쓰지 않는다 — 위 상품 구성과 아래 숙소 섹션에 같은 내용이 이미 있다.
+              데이터는 남겨둔다(검색용 설명의 예비값). 사장님 확정 2026-09-10 */}
           {tour.seoKeywords && tour.seoKeywords.length > 0 && (
             <p className="text-xs text-gray-400 mt-2">
               {tour.seoKeywords.map((k) => `#${k}`).join(" ")}
@@ -172,7 +193,12 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             {tour.highlights.map((h, i) => (
               <div key={i} className="flex items-start gap-3 bg-emerald-50 rounded-xl p-4">
                 <span className="text-emerald-500 font-black text-lg mt-0.5">✓</span>
-                <span className="text-gray-800 font-medium text-sm">{h}</span>
+                {/* 줄바꿈(\n)이 들어 있으면 그대로 나눈다. break-keep 으로 "2인 1실" 같은 말이 쪼개지지 않게 한다 */}
+                <span className="text-gray-800 font-medium text-sm leading-relaxed break-keep">
+                  {h.split("\n").map((line, li) => (
+                    <span key={li} className="block">{line.trim()}</span>
+                  ))}
+                </span>
               </div>
             ))}
           </div>
@@ -183,8 +209,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <div className="mb-8">
             <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">🏨 {tour.region} 골프여행 숙박 호텔</h2>
             <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100 mb-3">
-              <div className="font-black text-gray-800 text-base mb-1">{tour.hotel}</div>
-              <div className="text-sm text-gray-600">{tour.hotelDesc}</div>
+              <div className="font-black text-gray-800 text-base mb-2">{tour.hotel}</div>
+              {tour.hotelDesc && <Sentences text={tour.hotelDesc} />}
             </div>
             {tour.hotelImages && tour.hotelImages.length > 0 && (
               <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
@@ -203,8 +229,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <div className="mb-8">
             <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">⛳ {tour.region} 골프장 정보</h2>
             <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100 mb-3">
-              <div className="font-black text-gray-800 text-base mb-1">{tour.golfCourse}</div>
-              <div className="text-sm text-gray-600">{tour.golfCourseDesc}</div>
+              <div className="font-black text-gray-800 text-base mb-2">{tour.golfCourse}</div>
+              {tour.golfCourseDesc && <Sentences text={tour.golfCourseDesc} />}
             </div>
             {tour.courseImages && tour.courseImages.length > 0 && (
               <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
@@ -256,9 +282,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                   <div className="flex-shrink-0 w-16 flex items-start justify-center">
                     <div className="bg-emerald-600 text-white text-xs font-black px-2 py-1 rounded-lg text-center">{s.day}</div>
                   </div>
-                  <div className="text-sm text-gray-700 leading-relaxed pt-0.5">
-                    <p className="font-bold text-emerald-700 mb-1">{s.label}</p>
-                    {s.desc}
+                  <div className="pt-0.5 min-w-0">
+                    <p className="font-bold text-emerald-700 mb-1.5 text-sm">{s.label}</p>
+                    <Steps text={s.desc} />
                   </div>
                 </div>
               ))}
@@ -286,9 +312,10 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             const d = new Date(tour.priceUpdatedDate);
             const label = `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`;
             return (
-              <p className="text-xs text-blue-400 mt-4 leading-relaxed">
-                ※ 이 상품은 {label}에 등록된 상품으로, 등록월 유류할증료가 반영된 요금입니다. {d.getMonth() + 1}월 이후 문의하실 경우 요금 변동이 있을 수 있는 점 안내드립니다.
-              </p>
+              <div className="text-[11px] text-blue-400 mt-4 leading-relaxed space-y-1 break-keep">
+                <p>※ 이 상품은 {label}에 등록된 상품으로, 등록월 유류할증료가 반영된 요금입니다.</p>
+                <p>{d.getMonth() + 1}월 이후 문의하실 경우 요금 변동이 있을 수 있는 점 안내드립니다.</p>
+              </div>
             );
           })()}
         </div>
