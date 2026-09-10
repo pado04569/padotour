@@ -22,7 +22,8 @@ export type EventName =
   | "inquiry_open"      // 예약 문의 영역을 펼침
   | "inquiry_start"     // 문의 폼에 입력을 시작함
   | "generate_lead"     // 문의 제출 성공 (= 전환)
-  | "inquiry_fail";     // 문의 제출 실패 (메일 전송 오류 등)
+  | "inquiry_fail"      // 문의 제출 실패 (메일 전송 오류 등)
+  | "share";            // 상품 공유 (지인에게 전달 — 새 유입을 만드는 행동)
 
 type Params = Record<string, string | number | boolean | undefined>;
 
