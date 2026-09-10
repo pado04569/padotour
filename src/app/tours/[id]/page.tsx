@@ -193,7 +193,12 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             {tour.highlights.map((h, i) => (
               <div key={i} className="flex items-start gap-3 bg-emerald-50 rounded-xl p-4">
                 <span className="text-emerald-500 font-black text-lg mt-0.5">✓</span>
-                <span className="text-gray-800 font-medium text-sm">{h}</span>
+                {/* 줄바꿈(\n)이 들어 있으면 그대로 나눈다. break-keep 으로 "2인 1실" 같은 말이 쪼개지지 않게 한다 */}
+                <span className="text-gray-800 font-medium text-sm leading-relaxed break-keep">
+                  {h.split("\n").map((line, li) => (
+                    <span key={li} className="block">{line.trim()}</span>
+                  ))}
+                </span>
               </div>
             ))}
           </div>
@@ -307,7 +312,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             const d = new Date(tour.priceUpdatedDate);
             const label = `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`;
             return (
-              <div className="text-xs text-blue-400 mt-4 leading-relaxed space-y-1">
+              <div className="text-[11px] text-blue-400 mt-4 leading-relaxed space-y-1 break-keep">
                 <p>※ 이 상품은 {label}에 등록된 상품으로, 등록월 유류할증료가 반영된 요금입니다.</p>
                 <p>{d.getMonth() + 1}월 이후 문의하실 경우 요금 변동이 있을 수 있는 점 안내드립니다.</p>
               </div>
