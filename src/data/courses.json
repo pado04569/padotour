@@ -1012,5 +1012,257 @@
     "relatedTourIds": [
       "china-weihai-3color"
     ]
+  },
+  {
+    "slug": "gassan-legacy-cc",
+    "name": "가산 레거시CC",
+    "nameEn": "Gassan Legacy Golf Club",
+    "region": "치앙마이",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "슈미트-컬리가 다시 설계한 파72 7,089야드, 가산 3개 코스의 간판",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "약 7,089야드"
+      },
+      {
+        "label": "설계",
+        "value": "리 슈미트 (Schmidt-Curley Design)"
+      },
+      {
+        "label": "개장 / 리디자인",
+        "value": "2005년 개장 · 2014년 리디자인"
+      },
+      {
+        "label": "잔디",
+        "value": "패스팔럼"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 람푼 반티 (치앙마이 남동쪽)"
+      }
+    ],
+    "description": "가산 레거시CC는 가산CC 세 개 코스 가운데 간판으로 꼽히는 파72 코스입니다. 2005년 문을 연 뒤 2014년 미국 설계사 슈미트-컬리 디자인의 리 슈미트가 코스를 다시 손봤습니다.\n\n전장은 약 7,089야드로 뒤 티에서는 길지만, 페어웨이가 넉넉하고 티박스가 여러 단으로 나뉘어 있어 실력에 맞춰 공략할 수 있습니다. 거의 모든 홀에 물이 걸려 있어 거리보다 방향을 먼저 생각하게 되는 코스입니다. 그린과 페어웨이는 패스팔럼 잔디를 씁니다.\n\n클럽하우스가 중앙 호수와 마무리 홀들을 내려다보는 자리에 있어 라운드를 마치고 코스를 바라보며 쉴 수 있습니다. 행정구역상으로는 치앙마이 남동쪽 람푼(Lamphun) 반티 지역입니다.",
+    "images": [
+      "/images/gassan-legacy/course-1.jpg",
+      "/images/gassan-legacy/course-2.jpg",
+      "/images/gassan-legacy/course-3.jpg",
+      "/images/gassan-legacy/course-4.jpg"
+    ],
+    "hashtags": [
+      "가산레거시",
+      "가산레가시",
+      "가싼레가시",
+      "가산CC",
+      "치앙마이골프장",
+      "치앙마이골프여행",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-chiangmai-4n6d",
+      "thailand-chiangmai-3n5d"
+    ]
+  },
+  {
+    "slug": "gassan-panorama-cc",
+    "name": "가산 파노라마CC",
+    "nameEn": "Gassan Panorama Golf Club",
+    "region": "치앙마이",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "7,761야드 태국 최장급, 666야드 파6 홀이 있는 호수 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "약 7,761야드 (태국 최장급)"
+      },
+      {
+        "label": "특이 홀",
+        "value": "666야드 파6 홀"
+      },
+      {
+        "label": "개장",
+        "value": "2006년"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 람푼 (치앙마이 남동쪽)"
+      }
+    ],
+    "description": "가산 파노라마CC는 전장 약 7,761야드로 태국 골프장 가운데 가장 긴 축에 드는 코스입니다. 2006년 문을 열었습니다.\n\n큰 호수의 굴곡을 따라 홀이 배치되어 있고, 파5 홀 대신 뒤 티 기준 666야드짜리 파6 홀이 있는 것이 이 코스의 특징입니다. 파3 홀 여러 개가 물을 넘겨 치도록 되어 있고 좌우로 피할 자리를 마련해 두었습니다.\n\n벙커 규모가 크고 홀마다 길이와 생김새가 달라 같은 클럽을 반복해서 잡을 일이 적습니다. 산을 배경으로 코스가 펼쳐져 이름 그대로 시야가 넓은 곳입니다. 거리가 긴 만큼 티박스 선택을 신중히 하시는 편이 좋습니다.",
+    "images": [
+      "/images/gassan-panorama/course-1.jpg",
+      "/images/gassan-panorama/course-2.jpg",
+      "/images/gassan-panorama/course-3.jpg",
+      "/images/gassan-panorama/course-4.jpg"
+    ],
+    "hashtags": [
+      "가산파노라마",
+      "가싼파노라마",
+      "가산CC",
+      "치앙마이골프장",
+      "치앙마이골프여행",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-chiangmai-4n6d",
+      "thailand-chiangmai-3n5d"
+    ]
+  },
+  {
+    "slug": "gassan-khuntan-cc",
+    "name": "가산 쿤탄CC",
+    "nameEn": "Gassan Khuntan Golf & Resort",
+    "region": "치앙마이",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "도이 쿤탄 국립공원에 둘러싸인 27홀, 산·강·다리 세 개 코스",
+    "specs": [
+      {
+        "label": "홀 구성",
+        "value": "27홀 (9홀 × 3개 코스)"
+      },
+      {
+        "label": "코스",
+        "value": "화이트브릿지 파36 · 리버 파36 · 마운틴 파35"
+      },
+      {
+        "label": "개장",
+        "value": "2004년"
+      },
+      {
+        "label": "주변",
+        "value": "도이 쿤탄 국립공원"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 람푼 매타"
+      }
+    ],
+    "description": "가산 쿤탄CC는 도이 쿤탄 국립공원에 둘러싸인 27홀 코스입니다. 2004년 문을 열었습니다.\n\n9홀짜리 코스 세 개로 나뉘어 있습니다. 화이트브릿지(파36), 리버(파36), 마운틴(파35)이며, 이 가운데 두 개를 골라 18홀로 돌게 됩니다. 코스마다 성격이 달라 조합에 따라 난이도가 바뀝니다.\n\n가산 세 코스 중 산에 가장 가까워 라운드 내내 산 능선이 보입니다. 리조트와 스파를 함께 운영해 라운드 뒤 머물다 가는 손님도 있습니다. 조용한 편이라 여유 있게 도는 것을 좋아하시는 분들께 맞는 코스입니다.",
+    "images": [
+      "/images/gassan-khuntan/course-1.jpg",
+      "/images/gassan-khuntan/course-2.jpg",
+      "/images/gassan-khuntan/course-3.jpg",
+      "/images/gassan-khuntan/course-4.jpg"
+    ],
+    "hashtags": [
+      "가산쿤탄",
+      "가싼쿤탄",
+      "가산CC",
+      "치앙마이골프장",
+      "치앙마이골프여행",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-chiangmai-4n6d",
+      "thailand-chiangmai-3n5d"
+    ]
+  },
+  {
+    "slug": "royal-chiangmai-cc",
+    "name": "치앙마이 로얄CC",
+    "nameEn": "Royal Chiang Mai Golf Club & Resort",
+    "region": "치앙마이",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "브리티시오픈 5회 우승 피터 톰슨 설계, 산으로 둘러싸인 링크스 스타일",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "약 6,969야드"
+      },
+      {
+        "label": "설계",
+        "value": "피터 톰슨 (브리티시오픈 5회 우승)"
+      },
+      {
+        "label": "개장",
+        "value": "1996년 2월"
+      },
+      {
+        "label": "특징",
+        "value": "링크스 스타일 · 폭포와 개울"
+      }
+    ],
+    "description": "치앙마이 로얄CC는 브리티시오픈에서 다섯 번 우승한 피터 톰슨이 설계한 파72 코스입니다. 1996년 2월에 문을 열었습니다.\n\n링크스 스타일로 만들어졌고 전장은 뒤 티 기준 약 6,969야드입니다. 계곡 안에 자리를 잡아 사방이 산으로 둘러싸여 있으며, 코스 안에 폭포와 개울이 흐릅니다.\n\n가산 세 코스가 호수와 평지 위주라면 로얄CC는 지형의 높낮이와 물길을 쓰는 쪽에 가깝습니다. 그래서 치앙마이에서 여러 코스를 도실 때 성격이 겹치지 않는 코스로 넣기 좋습니다. 여행의파도 치앙마이 4박6일 상품에서 가산 세 코스와 함께 총 72홀 구성으로 들어갑니다.",
+    "images": [
+      "/images/chiangmai-royal/course-1.jpg",
+      "/images/chiangmai-royal/course-2.jpg",
+      "/images/chiangmai-royal/course-3.jpg"
+    ],
+    "hashtags": [
+      "치앙마이로얄",
+      "로얄치앙마이",
+      "치앙마이로얄CC",
+      "치앙마이골프장",
+      "치앙마이골프여행",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-chiangmai-4n6d"
+    ]
+  },
+  {
+    "slug": "northhill-cc",
+    "name": "노스힐CC",
+    "nameEn": "North Hill City Golf Club",
+    "region": "치앙마이",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "치앙마이공항에서 15분, 도이수텝을 배경으로 한 파클랜드 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "약 6,789야드"
+      },
+      {
+        "label": "형태",
+        "value": "파클랜드 스타일"
+      },
+      {
+        "label": "개장",
+        "value": "2011년 9홀 · 2014년 18홀 확장"
+      },
+      {
+        "label": "이동",
+        "value": "치앙마이국제공항에서 차로 약 15분"
+      }
+    ],
+    "description": "노스힐CC는 치앙마이국제공항에서 차로 약 15분 거리에 있는 파72 코스입니다. 2011년 9홀 코스로 시작해 2014년 18홀로 넓혔고, 이듬해부터 외부 손님을 받기 시작했습니다.\n\n전장은 약 6,789야드로 치앙마이 코스 가운데 긴 편은 아닙니다. 대신 벙커를 공략 지점마다 배치하고 물 장애를 섞어 두어, 멀리 치는 것보다 어디로 보낼지를 먼저 생각하게 만드는 파클랜드 코스입니다. 그린이 빠르고 굴곡이 분명한 편입니다.\n\n도이수텝 산자락을 배경으로 두고 있어 시야가 트여 있습니다. 공항에서 가까워 도착 당일이나 귀국 당일에 한 라운드를 넣기 좋은 위치입니다.",
+    "images": [
+      "/images/chiangmai-northhill/course-1.jpg",
+      "/images/chiangmai-northhill/course-2.jpg",
+      "/images/chiangmai-northhill/course-3.jpg",
+      "/images/chiangmai-northhill/course-4.jpg",
+      "/images/chiangmai-northhill/course-5.jpg",
+      "/images/chiangmai-northhill/course-6.jpg"
+    ],
+    "hashtags": [
+      "노스힐",
+      "노스힐CC",
+      "치앙마이노스힐",
+      "치앙마이골프장",
+      "치앙마이골프여행",
+      "태국골프여행"
+    ],
+    "relatedTourIds": []
   }
 ]
