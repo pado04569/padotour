@@ -45,6 +45,23 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   // 기존 cancelPolicy 에 섞여 있던 상품별 안내사항(추가요금·싱글룸·차량 조건 등)은 버리지 않고 따로 보여준다.
   const productNotes = (tour.cancelPolicy ?? []).filter((line) => !isCancelLadderLine(line));
 
+  /**
+   * 화면에 보일 제목을 줄 단위로 나눈다. (검색용 제목은 나누지 않는다)
+   *   ① "｜" 가 있으면 그 자리에서 나눈다.
+   *   ② 없으면 "3박4일" 뒤에서 나눈다. "3박4일·4박5일" 처럼 이어진 것은 한 덩어리로 본다.
+   *   ③ 뒤에 남는 것이 없거나 "(…)" 괄호뿐이면 나누지 않는다 — 짧은 꼬리가 혼자 남으면 더 지저분하다.
+   */
+  const titleLines = (() => {
+    const t = tour.title.trim();
+    if (t.includes("｜")) return t.split("｜").map((s) => s.trim()).filter(Boolean);
+    const m = t.match(/\d+박\s?\d+일(?:\s*·\s*\d+박\s?\d+일)*/);
+    if (!m) return [t];
+    const head = t.slice(0, m.index! + m[0].length).trim();
+    const tail = t.slice(m.index! + m[0].length).trim();
+    if (!tail || tail.startsWith("(")) return [t];
+    return [head, tail];
+  })();
+
   // 구조화 데이터 — 여행 상품은 Product 가 아니라 TouristTrip 이 맞다.
   // (Product 는 별점·리뷰를 요구해 서치콘솔 경고가 났었다. TouristTrip 은 요구하지 않는다.)
   const tripJsonLd = {
@@ -99,10 +116,11 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               {tour.badge && <span className="text-xs font-bold bg-red-500 text-white px-2 py-0.5 rounded">{tour.badge}</span>}
             </div>
             {/* break-keep — 한글 단어 중간에서 줄이 끊기지 않게 한다 */}
-            {/* 제목에 "｜" 가 있으면 그 앞뒤로 줄을 나눈다. 검색용 제목(metadata)은 한 줄 그대로 */}
+            {/* 제목 줄바꿈은 글자수가 아니라 의미로 판단한다 (사장님 확정 2026-09-10).
+                골프장 이름이 길 수 있어 길이 기준은 쓰지 않는다. 검색용 제목(metadata)은 한 줄 그대로. */}
             <h1 className="text-xl md:text-4xl font-black leading-snug break-keep">
-              {tour.title.split("｜").map((part, pi) => (
-                <span key={pi} className="block">{part.trim()}</span>
+              {titleLines.map((line, li) => (
+                <span key={li} className="block">{line}</span>
               ))}
             </h1>
           </div>
@@ -163,7 +181,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           {/* 한 덩어리로 붙어 있으면 읽기 어렵다 → 문장 단위로 줄을 나눈다 */}
           <div className="space-y-1.5">
             {(tour.productSummary ?? `${tour.golfCourse ?? ""} ${tour.roundsIncluded}회 라운딩 · ${tour.hotel ?? ""} 숙박`)
-              .split(/\n|(?<=다\.)\s*/)
+              .split(/\n|(?<=다\.)\s*|(?<=[며고],)\s+/)
               .map((s) => s.trim())
               .filter(Boolean)
               .map((sentence, i) => (
