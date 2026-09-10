@@ -59,16 +59,7 @@ export default function Footer({ departure }: FooterProps) {
                 </span>
               )}
             </div>
-            <p className="text-sm text-gray-700 mb-4">골프전문 여행사</p>
-            <div className="space-y-1 text-sm">
-              <p>상호명: 여행의 파도</p>
-              <p>대표: 이지안</p>
-              {businessInfo.address && <p>주소: {businessInfo.address}</p>}
-              <p>사업자번호: 372-57-00613</p>
-              {businessInfo.mailOrderNumber && <p>통신판매업신고번호: {businessInfo.mailOrderNumber}</p>}
-              <p>관광사업등록번호: 제 2022-000029 호</p>
-              {businessInfo.email && <p>이메일: {businessInfo.email}</p>}
-            </div>
+            <p className="text-sm text-gray-700">골프전문 여행사</p>
           </div>
 
           {/* 연락처 */}
@@ -107,6 +98,21 @@ export default function Footer({ departure }: FooterProps) {
               <p>토요일: 오전 9시 ~ 오후 2시</p>
               <p>일요일·공휴일: 카톡 문의</p>
             </div>
+          </div>
+        </div>
+
+        {/* 사업자 정보 — 연락처·상담시간 뒤로 내렸다.
+            휴대폰 번호를 찾는 고객이 사업자등록번호부터 읽고 내려오지 않게 하기 위함. */}
+        <div className="border-t border-gray-200 mt-8 pt-6">
+          <h3 className="text-gray-800 font-bold text-lg mb-3">상호명</h3>
+          <div className="space-y-1 text-sm">
+            <p>상호명: 여행의 파도</p>
+            <p>대표: 이지안</p>
+            {businessInfo.address && <p>주소: {businessInfo.address}</p>}
+            <p>사업자번호: 372-57-00613</p>
+            {businessInfo.mailOrderNumber && <p>통신판매업신고번호: {businessInfo.mailOrderNumber}</p>}
+            <p>관광사업등록번호: 제 2022-000029 호</p>
+            {businessInfo.email && <p>이메일: {businessInfo.email}</p>}
           </div>
         </div>
 

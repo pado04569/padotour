@@ -4,8 +4,8 @@ import { Suspense } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import Header from "./Header";
 import Footer from "./Footer";
-import KakaoFloat from "./KakaoFloat";
-import KakaoPopup from "./KakaoPopup";
+// 카카오 팝업·플로팅 버튼은 화면을 가려 제거함 (사장님 확정 2026-09-10).
+// 컴포넌트 파일은 남겨뒀으니 되살리려면 여기서 다시 불러오면 된다.
 
 function ClientLayoutInner({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -31,8 +31,6 @@ function ClientLayoutInner({ children }: { children: React.ReactNode }) {
       <Header departure={departure} />
       <main className="flex-1">{children}</main>
       <Footer departure={departure} />
-      <KakaoFloat />
-      {departure && <KakaoPopup departure={departure} />}
     </>
   );
 }
