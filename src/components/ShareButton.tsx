@@ -53,7 +53,7 @@ export default function ShareButton({
     <button
       onClick={handleShare}
       aria-label="이 상품 공유하기"
-      className={`inline-flex items-center justify-center gap-1.5 font-bold transition-colors ${className}`}
+      className={`inline-flex items-center justify-center gap-2 transition-colors ${className}`}
     >
       {copied ? (
         <>

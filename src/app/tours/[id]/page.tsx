@@ -103,7 +103,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         <ShareButton
           title={tour.title}
           itemId={tour.id}
-          className="absolute top-4 right-4 bg-black/45 hover:bg-black/65 text-white text-xs px-3 py-2 rounded-full backdrop-blur-sm"
+          className="absolute top-4 right-4 bg-black/45 hover:bg-black/65 text-white font-bold text-xs px-3 py-2 rounded-full backdrop-blur-sm"
         />
       </div>
 
@@ -273,13 +273,13 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <ContactOptions tourTitle={tour.title} nights={tour.nights} days={tour.days} />
 
           {/* 같이 갈 일행에게 보내는 경로 — 골프여행은 대개 여럿이 간다 */}
-          <div className="mt-3 text-center">
+          <div className="mt-6">
             <ShareButton
               title={tour.title}
               itemId={tour.id}
-              className="text-blue-600 hover:text-blue-800 text-sm underline underline-offset-4"
+              className="w-full bg-white hover:bg-blue-50 text-blue-700 border-2 border-blue-300 font-black px-8 py-4 rounded-2xl text-base"
             />
-            <p className="text-xs text-blue-400 mt-1">함께 가실 분에게 이 상품을 보내보세요</p>
+            <p className="text-xs text-blue-500 mt-2 text-center">함께 가실 분에게 이 상품을 보내보세요</p>
           </div>
 
           {tour.priceUpdatedDate && (() => {
