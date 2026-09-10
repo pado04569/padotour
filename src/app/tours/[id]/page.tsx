@@ -6,6 +6,7 @@ import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
 import ContactOptions from "@/components/ContactOptions";
 import ViewItemTracker from "@/components/ViewItemTracker";
 import ShareButton from "@/components/ShareButton";
+import { Sentences, Steps } from "@/components/ReadableText";
 import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "@/data/cancelPolicy";
 
 export async function generateStaticParams() {
@@ -196,8 +197,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <div className="mb-8">
             <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">🏨 {tour.region} 골프여행 숙박 호텔</h2>
             <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100 mb-3">
-              <div className="font-black text-gray-800 text-base mb-1">{tour.hotel}</div>
-              <div className="text-sm text-gray-600">{tour.hotelDesc}</div>
+              <div className="font-black text-gray-800 text-base mb-2">{tour.hotel}</div>
+              {tour.hotelDesc && <Sentences text={tour.hotelDesc} />}
             </div>
             {tour.hotelImages && tour.hotelImages.length > 0 && (
               <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
@@ -216,8 +217,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <div className="mb-8">
             <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">⛳ {tour.region} 골프장 정보</h2>
             <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100 mb-3">
-              <div className="font-black text-gray-800 text-base mb-1">{tour.golfCourse}</div>
-              <div className="text-sm text-gray-600">{tour.golfCourseDesc}</div>
+              <div className="font-black text-gray-800 text-base mb-2">{tour.golfCourse}</div>
+              {tour.golfCourseDesc && <Sentences text={tour.golfCourseDesc} />}
             </div>
             {tour.courseImages && tour.courseImages.length > 0 && (
               <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
@@ -269,9 +270,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                   <div className="flex-shrink-0 w-16 flex items-start justify-center">
                     <div className="bg-emerald-600 text-white text-xs font-black px-2 py-1 rounded-lg text-center">{s.day}</div>
                   </div>
-                  <div className="text-sm text-gray-700 leading-relaxed pt-0.5">
-                    <p className="font-bold text-emerald-700 mb-1">{s.label}</p>
-                    {s.desc}
+                  <div className="pt-0.5 min-w-0">
+                    <p className="font-bold text-emerald-700 mb-1.5 text-sm">{s.label}</p>
+                    <Steps text={s.desc} />
                   </div>
                 </div>
               ))}
@@ -299,9 +300,10 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             const d = new Date(tour.priceUpdatedDate);
             const label = `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`;
             return (
-              <p className="text-xs text-blue-400 mt-4 leading-relaxed">
-                ※ 이 상품은 {label}에 등록된 상품으로, 등록월 유류할증료가 반영된 요금입니다. {d.getMonth() + 1}월 이후 문의하실 경우 요금 변동이 있을 수 있는 점 안내드립니다.
-              </p>
+              <div className="text-xs text-blue-400 mt-4 leading-relaxed space-y-1">
+                <p>※ 이 상품은 {label}에 등록된 상품으로, 등록월 유류할증료가 반영된 요금입니다.</p>
+                <p>{d.getMonth() + 1}월 이후 문의하실 경우 요금 변동이 있을 수 있는 점 안내드립니다.</p>
+              </div>
             );
           })()}
         </div>
