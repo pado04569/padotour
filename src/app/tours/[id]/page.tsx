@@ -87,8 +87,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           alt={tour.title}
           className="w-full h-full object-cover"
         />
-        {/* 모바일은 제목이 가운데 오므로 가운데도 어둡게 깔아준다 */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-black/10 md:via-black/20 md:to-transparent" />
+        {/* 사진을 가리지 않는 것이 우선 — 어둡게 덧씌우지 않는다 (사장님 확정 2026-09-10) */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
         {/* 모바일: 세로 가운데 정렬 / PC: 기존처럼 아래 정렬 */}
         <div className="absolute inset-0 flex items-center md:items-end px-5 py-6 md:p-8 text-white">
           <div className="max-w-4xl mx-auto w-full">
