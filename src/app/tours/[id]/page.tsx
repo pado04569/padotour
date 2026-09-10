@@ -109,8 +109,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
         {/* 모바일: 세로 가운데 정렬 / PC: 기존처럼 아래 정렬 */}
         <div className="absolute inset-0 flex items-center md:items-end px-5 py-6 md:p-8 text-white">
-          <div className="max-w-4xl mx-auto w-full">
-            <div className="flex items-center gap-2 mb-2.5">
+          {/* 제목이 두 줄로 안정적으로 나뉘므로 가운데 정렬한다 (사장님 확정 2026-09-10) */}
+          <div className="max-w-4xl mx-auto w-full text-center">
+            <div className="flex items-center justify-center gap-2 mb-2.5">
               <span className="text-xs font-bold bg-emerald-500 text-white px-2 py-0.5 rounded">{tour.country}</span>
               <span className="text-xs text-white/80">{tour.region}</span>
               {tour.badge && <span className="text-xs font-bold bg-red-500 text-white px-2 py-0.5 rounded">{tour.badge}</span>}
