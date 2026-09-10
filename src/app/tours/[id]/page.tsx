@@ -127,8 +127,15 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           ].map((item) => (
             <div key={item.label} className="bg-gray-50 rounded-xl p-3 md:p-4 text-center border border-gray-100">
               <div className="text-2xl mb-1">{item.icon}</div>
-              <div className="text-xs text-gray-500 mb-0.5">{item.label}</div>
-              <div className="text-sm font-bold text-gray-800 break-keep">{item.value}</div>
+              <div className="text-xs text-gray-500 mb-1">{item.label}</div>
+              {/* 내용이 길면 줄을 나누고 글자를 줄인다 — 칸 하나만 길어져 어색해지는 것을 막는다 */}
+              <div className={`font-bold text-gray-800 break-keep leading-snug space-y-0.5 ${
+                item.value.length > 45 ? "text-[11px]" : item.value.length > 24 ? "text-xs" : "text-sm"
+              }`}>
+                {item.value.split(/\n|\s+\/\s+/).map((line, li) => (
+                  <div key={li}>{line.trim()}</div>
+                ))}
+              </div>
             </div>
           ))}
         </div>
