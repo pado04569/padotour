@@ -53,7 +53,6 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
    */
   const titleLines = (() => {
     const t = tour.title.trim();
-    if (t.includes("｜")) return t.split("｜").map((s) => s.trim()).filter(Boolean);
 
     // 자를 지점을 앞에서부터 찾는다: ① "골프여행" 뒤  ② "3박4일" 뒤
     const cutAfter = (text: string, re: RegExp): [string, string] | null => {
@@ -66,6 +65,16 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
       return [head, tail];
     };
 
+    const NIGHTS = /\d+박\s?\d+일(?:\s*·\s*\d+박\s?\d+일)*/;
+
+    // "｜" 는 사장님이 직접 지정한 줄바꿈이다. 그 경계는 그대로 두고,
+    // 첫 덩어리만 "골프여행" 뒤에서 한 번 더 나눈다.
+    if (t.includes("｜")) {
+      const segs = t.split("｜").map((s) => s.trim()).filter(Boolean);
+      const first = cutAfter(segs[0], /골프여행/);
+      return first ? [first[0], first[1], ...segs.slice(1)] : segs;
+    }
+
     const lines: string[] = [];
     let rest = t;
 
@@ -75,7 +84,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
       rest = byTrip[1];
     }
 
-    const byNights = cutAfter(rest, /\d+박\s?\d+일(?:\s*·\s*\d+박\s?\d+일)*/);
+    const byNights = cutAfter(rest, NIGHTS);
     if (byNights) {
       lines.push(byNights[0], byNights[1]);
     } else {
