@@ -54,12 +54,35 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const titleLines = (() => {
     const t = tour.title.trim();
     if (t.includes("｜")) return t.split("｜").map((s) => s.trim()).filter(Boolean);
-    const m = t.match(/\d+박\s?\d+일(?:\s*·\s*\d+박\s?\d+일)*/);
-    if (!m) return [t];
-    const head = t.slice(0, m.index! + m[0].length).trim();
-    const tail = t.slice(m.index! + m[0].length).trim();
-    if (!tail || tail.startsWith("(")) return [t];
-    return [head, tail];
+
+    // 자를 지점을 앞에서부터 찾는다: ① "골프여행" 뒤  ② "3박4일" 뒤
+    const cutAfter = (text: string, re: RegExp): [string, string] | null => {
+      const m = text.match(re);
+      if (!m || m.index === undefined) return null;
+      const head = text.slice(0, m.index + m[0].length).trim();
+      const tail = text.slice(m.index + m[0].length).trim();
+      // 뒤에 남는 게 없거나 괄호 부연뿐이면 자르지 않는다
+      if (!head || !tail || tail.startsWith("(")) return null;
+      return [head, tail];
+    };
+
+    const lines: string[] = [];
+    let rest = t;
+
+    const byTrip = cutAfter(rest, /골프여행/);
+    if (byTrip) {
+      lines.push(byTrip[0]);
+      rest = byTrip[1];
+    }
+
+    const byNights = cutAfter(rest, /\d+박\s?\d+일(?:\s*·\s*\d+박\s?\d+일)*/);
+    if (byNights) {
+      lines.push(byNights[0], byNights[1]);
+    } else {
+      lines.push(rest);
+    }
+
+    return lines;
   })();
 
   // 구조화 데이터 — 여행 상품은 Product 가 아니라 TouristTrip 이 맞다.
@@ -114,7 +137,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             <div className="flex items-center justify-center gap-2 mb-2.5">
               <span className="text-xs font-bold bg-emerald-500 text-white px-2 py-0.5 rounded">{tour.country}</span>
               <span className="text-xs text-white/80">{tour.region}</span>
-              {tour.badge && <span className="text-xs font-bold bg-red-500 text-white px-2 py-0.5 rounded">{tour.badge}</span>}
+              {/* "부산출발 신규" 빨간 뱃지는 빼둔다 — 제목에 이미 [부산출발]이 있고,
+                  홈페이지에서 신규 여부를 알릴 필요가 크지 않다. (사장님 확정 2026-09-10)
+                  목록 카드에는 그대로 남아 있다. */}
             </div>
             {/* break-keep — 한글 단어 중간에서 줄이 끊기지 않게 한다 */}
             {/* 제목 줄바꿈은 글자수가 아니라 의미로 판단한다 (사장님 확정 2026-09-10).
