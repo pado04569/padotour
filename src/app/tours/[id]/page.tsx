@@ -45,6 +45,55 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   // 기존 cancelPolicy 에 섞여 있던 상품별 안내사항(추가요금·싱글룸·차량 조건 등)은 버리지 않고 따로 보여준다.
   const productNotes = (tour.cancelPolicy ?? []).filter((line) => !isCancelLadderLine(line));
 
+  /**
+   * 화면에 보일 제목을 줄 단위로 나눈다. (검색용 제목은 나누지 않는다)
+   *   ① "｜" 가 있으면 그 자리에서 나눈다.
+   *   ② 없으면 "3박4일" 뒤에서 나눈다. "3박4일·4박5일" 처럼 이어진 것은 한 덩어리로 본다.
+   *   ③ 뒤에 남는 것이 없거나 "(…)" 괄호뿐이면 나누지 않는다 — 짧은 꼬리가 혼자 남으면 더 지저분하다.
+   */
+  const titleLines = (() => {
+    const t = tour.title.trim();
+
+    // 자를 지점을 앞에서부터 찾는다: ① "골프여행" 뒤  ② "3박4일" 뒤
+    const cutAfter = (text: string, re: RegExp): [string, string] | null => {
+      const m = text.match(re);
+      if (!m || m.index === undefined) return null;
+      const head = text.slice(0, m.index + m[0].length).trim();
+      const tail = text.slice(m.index + m[0].length).trim();
+      // 뒤에 남는 게 없거나 괄호 부연뿐이면 자르지 않는다
+      if (!head || !tail || tail.startsWith("(")) return null;
+      return [head, tail];
+    };
+
+    const NIGHTS = /\d+박\s?\d+일(?:\s*·\s*\d+박\s?\d+일)*/;
+
+    // "｜" 는 사장님이 직접 지정한 줄바꿈이다. 그 경계는 그대로 두고,
+    // 첫 덩어리만 "골프여행" 뒤에서 한 번 더 나눈다.
+    if (t.includes("｜")) {
+      const segs = t.split("｜").map((s) => s.trim()).filter(Boolean);
+      const first = cutAfter(segs[0], /골프여행/);
+      return first ? [first[0], first[1], ...segs.slice(1)] : segs;
+    }
+
+    const lines: string[] = [];
+    let rest = t;
+
+    const byTrip = cutAfter(rest, /골프여행/);
+    if (byTrip) {
+      lines.push(byTrip[0]);
+      rest = byTrip[1];
+    }
+
+    const byNights = cutAfter(rest, NIGHTS);
+    if (byNights) {
+      lines.push(byNights[0], byNights[1]);
+    } else {
+      lines.push(rest);
+    }
+
+    return lines;
+  })();
+
   // 구조화 데이터 — 여행 상품은 Product 가 아니라 TouristTrip 이 맞다.
   // (Product 는 별점·리뷰를 요구해 서치콘솔 경고가 났었다. TouristTrip 은 요구하지 않는다.)
   const tripJsonLd = {
@@ -92,14 +141,23 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
         {/* 모바일: 세로 가운데 정렬 / PC: 기존처럼 아래 정렬 */}
         <div className="absolute inset-0 flex items-center md:items-end px-5 py-6 md:p-8 text-white">
-          <div className="max-w-4xl mx-auto w-full">
-            <div className="flex items-center gap-2 mb-2.5">
+          {/* 제목이 두 줄로 안정적으로 나뉘므로 가운데 정렬한다 (사장님 확정 2026-09-10) */}
+          <div className="max-w-4xl mx-auto w-full text-center">
+            <div className="flex items-center justify-center gap-2 mb-2.5">
               <span className="text-xs font-bold bg-emerald-500 text-white px-2 py-0.5 rounded">{tour.country}</span>
               <span className="text-xs text-white/80">{tour.region}</span>
-              {tour.badge && <span className="text-xs font-bold bg-red-500 text-white px-2 py-0.5 rounded">{tour.badge}</span>}
+              {/* "부산출발 신규" 빨간 뱃지는 빼둔다 — 제목에 이미 [부산출발]이 있고,
+                  홈페이지에서 신규 여부를 알릴 필요가 크지 않다. (사장님 확정 2026-09-10)
+                  목록 카드에는 그대로 남아 있다. */}
             </div>
             {/* break-keep — 한글 단어 중간에서 줄이 끊기지 않게 한다 */}
-            <h1 className="text-xl md:text-4xl font-black leading-snug break-keep">{tour.title}</h1>
+            {/* 제목 줄바꿈은 글자수가 아니라 의미로 판단한다 (사장님 확정 2026-09-10).
+                골프장 이름이 길 수 있어 길이 기준은 쓰지 않는다. 검색용 제목(metadata)은 한 줄 그대로. */}
+            <h1 className="text-xl md:text-4xl font-black leading-snug break-keep">
+              {titleLines.map((line, li) => (
+                <span key={li} className="block">{line}</span>
+              ))}
+            </h1>
           </div>
         </div>
 
@@ -117,12 +175,22 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {(() => {
           const holesRaw = tour.holes ?? `${tour.roundsIncluded * 18}`;
           const holesText = String(holesRaw).includes("홀") ? String(holesRaw) : `${holesRaw}홀`;
+
+          // 최소 인원 — 데이터가 숫자(2)일 때도, 문자열("4인 (2인 시 송영비 추가)")일 때도 맞게 보이도록.
+          // 예전에는 무조건 "인 이상"을 붙여 "2인인 이상"이 되었다.
+          const mp = tour.minPeople;
+          const mpStr = mp == null ? "" : String(mp).trim();
+          const mpMatch = mpStr.match(/^([^(]+?)\s*(\(.*\))?$/);
+          const mpHead = mpMatch ? mpMatch[1].trim() : mpStr;
+          const mpNote = mpMatch && mpMatch[2] ? mpMatch[2].trim() : "";
+          const mpBase = mpHead ? (/인$/.test(mpHead) ? `${mpHead} 이상` : `${mpHead}인 이상`) : "";
+          const minPeopleText = mpBase ? (mpNote ? `${mpBase}\n${mpNote}` : mpBase) : "문의";
           return (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
           {[
             { icon: "🌙", label: "일정", value: `${tour.nights}박 ${tour.days}일` },
             { icon: "⛳", label: "라운드", value: `${tour.roundsIncluded}라운드 ${holesText}` },
-            { icon: "👥", label: "최소 인원", value: tour.minPeople ? `${tour.minPeople}인 이상` : "문의" },
+            { icon: "👥", label: "최소 인원", value: minPeopleText },
             { icon: "📅", label: "출발 기간", value: tour.period ?? "연중 출발" },
           ].map((item) => (
             <div key={item.label} className="bg-gray-50 rounded-xl p-3 md:p-4 text-center border border-gray-100">
@@ -132,7 +200,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               <div className={`font-bold text-gray-800 break-keep leading-snug space-y-0.5 ${
                 item.value.length > 45 ? "text-[11px]" : item.value.length > 24 ? "text-xs" : "text-sm"
               }`}>
-                {item.value.split(/\n|\s+\/\s+/).map((line, li) => (
+                {/* 줄 경계: 줄바꿈 / " / " / 기간의 " ~ " 앞.
+                    "36~54홀" 처럼 공백 없는 물결표는 나누지 않는다. */}
+                {item.value.split(/\n|\s+\/\s+|\s+(?=~\s)/).map((line, li) => (
                   <div key={li}>{line.trim()}</div>
                 ))}
               </div>
@@ -148,7 +218,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           {/* 한 덩어리로 붙어 있으면 읽기 어렵다 → 문장 단위로 줄을 나눈다 */}
           <div className="space-y-1.5">
             {(tour.productSummary ?? `${tour.golfCourse ?? ""} ${tour.roundsIncluded}회 라운딩 · ${tour.hotel ?? ""} 숙박`)
-              .split(/(?<=다\.)\s*/)
+              .split(/\n|(?<=다\.)\s*|(?<=[며고],)\s+/)
               .map((s) => s.trim())
               .filter(Boolean)
               .map((sentence, i) => (

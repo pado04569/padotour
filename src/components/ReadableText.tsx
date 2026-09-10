@@ -15,7 +15,7 @@ export function Sentences({
   className?: string;
 }) {
   const lines = text
-    .split(/(?<=[.!?])\s+/)
+    .split(/\n|(?<=[.!?])\s+/)
     .map((s) => s.trim())
     .filter(Boolean);
 
