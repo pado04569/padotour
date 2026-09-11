@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "여행의 파도 소개 | 골프여행 전문 여행사",
+  title: "여행의 파도 소개 | 골프전문 여행사",
   description: "여행의 파도는 해외 골프여행만 다루는 전문 여행사입니다. 서울보증보험 가입 여행사로 대표가 직접 상담합니다.",
   alternates: { canonical: "https://www.padotour.com/about" },
   openGraph: {
-    title: "여행의 파도 소개 | 골프여행 전문 여행사",
+    title: "여행의 파도 소개 | 골프전문 여행사",
     description: "여행의 파도는 해외 골프여행만 다루는 전문 여행사입니다. 서울보증보험 가입 여행사로 대표가 직접 상담합니다.",
     url: "https://www.padotour.com/about",
   },
