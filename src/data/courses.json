@@ -1269,5 +1269,237 @@
     "relatedTourIds": [
       "thailand-chiangmai-3color-busan"
     ]
+  },
+  {
+    "slug": "aoshima-gc",
+    "name": "아오시마 G.C",
+    "nameEn": "Aoshima Golf Club",
+    "region": "미야자키",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "파72·6,466야드, 바다 조망이 돋보이는 리조트형 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "약 6,466야드"
+      },
+      {
+        "label": "코스 특징",
+        "value": "바다 조망 리조트형 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 미야자키현"
+      }
+    ],
+    "description": "아오시마 G.C는 18홀 파72, 약 6,466야드 규모의 리조트형 코스입니다.\n\n바다 조망이 돋보이는 레이아웃으로, 초보자도 부담 없이 즐길 수 있는 편안한 라운드가 특징입니다.",
+    "images": [
+      "/images/aoshima-gc/course-1.jpg",
+      "/images/aoshima-gc/course-2.jpg",
+      "/images/aoshima-gc/course-3.jpg",
+      "/images/aoshima-gc/course-4.jpg",
+      "/images/aoshima-gc/course-5.jpg",
+      "/images/aoshima-gc/course-6.jpg",
+      "/images/aoshima-gc/course-7.jpg",
+      "/images/aoshima-gc/course-8.jpg"
+    ],
+    "hashtags": [
+      "아오시마GC",
+      "아오시마골프장",
+      "미야자키골프",
+      "미야자키골프여행",
+      "일본골프여행",
+      "규슈골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "miyazaki-lakeside-gc",
+    "name": "미야자키 레이크사이드 G.C",
+    "nameEn": "Miyazaki Lakeside Golf Club",
+    "region": "미야자키",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "파72·7,042야드, 숲의 지형을 살린 전략형 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "약 7,042야드"
+      },
+      {
+        "label": "코스 특징",
+        "value": "숲 지형을 살린 전략형 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 미야자키현"
+      }
+    ],
+    "description": "미야자키 레이크사이드 G.C는 18홀 파72, 약 7,042야드 규모의 전략형 코스입니다.\n\n숲의 지형을 그대로 살린 레이아웃으로, 초보자부터 상급자까지 만족도가 높은 코스로 꼽힙니다.",
+    "images": [
+      "/images/miyazaki-lakeside-gc/course-1.jpg",
+      "/images/miyazaki-lakeside-gc/course-2.jpg",
+      "/images/miyazaki-lakeside-gc/course-3.jpg"
+    ],
+    "hashtags": [
+      "미야자키레이크사이드",
+      "미야자키골프장",
+      "미야자키골프여행",
+      "일본골프여행",
+      "규슈골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "miyazaki-sunshine-cc",
+    "name": "미야자키 선샤인 C.C",
+    "nameEn": "Miyazaki Sunshine Country Club",
+    "region": "미야자키",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "파72·7,122야드, 각 홀 개성이 살아있는 전략형 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "약 7,122야드"
+      },
+      {
+        "label": "코스 특징",
+        "value": "홀마다 개성이 다른 전략형 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 미야자키현"
+      }
+    ],
+    "description": "미야자키 선샤인 C.C는 18홀 파72, 약 7,122야드 규모의 전략형 코스입니다.\n\n홀마다 개성이 뚜렷하게 설계되어 있고, 관리 상태가 뛰어난 인기 코스로 알려져 있습니다.",
+    "images": [
+      "/images/miyazaki-sunshine-cc/course-1.jpg",
+      "/images/miyazaki-sunshine-cc/course-2.jpg",
+      "/images/miyazaki-sunshine-cc/course-3.jpg",
+      "/images/miyazaki-sunshine-cc/course-4.jpg",
+      "/images/miyazaki-sunshine-cc/course-5.jpg"
+    ],
+    "hashtags": [
+      "미야자키선샤인",
+      "선샤인CC",
+      "미야자키골프장",
+      "미야자키골프여행",
+      "일본골프여행",
+      "규슈골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "umk-country-club",
+    "name": "UMK Country Club",
+    "nameEn": "UMK Country Club",
+    "region": "미야자키",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "1991년 개장, JLPGA AXA Ladies 개최 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "약 6,494야드"
+      },
+      {
+        "label": "개장",
+        "value": "1991년"
+      },
+      {
+        "label": "대회 이력",
+        "value": "JLPGA AXA Ladies 개최 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 미야자키현"
+      }
+    ],
+    "description": "UMK Country Club은 1991년 문을 연 18홀 파72, 약 6,494야드 규모의 토너먼트 코스입니다.\n\nJLPGA AXA Ladies 대회가 열렸던 코스로, 전략성과 품격을 갖춘 레이아웃이 특징입니다.",
+    "images": [
+      "/images/umk-country-club/course-1.jpg",
+      "/images/umk-country-club/course-2.jpg",
+      "/images/umk-country-club/course-3.jpg",
+      "/images/umk-country-club/course-4.jpg",
+      "/images/umk-country-club/course-5.jpg"
+    ],
+    "hashtags": [
+      "UMK컨트리클럽",
+      "UMKCC",
+      "미야자키골프장",
+      "미야자키골프여행",
+      "JLPGA개최코스",
+      "일본골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "miyazaki-country-club",
+    "name": "미야자키 Country Club",
+    "nameEn": "Miyazaki Country Club",
+    "region": "미야자키",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "1961년 개장, JLPGA 시즌파이널 개최 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "약 6,741야드"
+      },
+      {
+        "label": "개장",
+        "value": "1961년"
+      },
+      {
+        "label": "대회 이력",
+        "value": "JLPGA 시즌파이널 개최 코스"
+      },
+      {
+        "label": "코스 특징",
+        "value": "소나무 숲과 해안 풍광"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 미야자키현"
+      }
+    ],
+    "description": "미야자키 Country Club은 1961년 문을 연 18홀 파72, 약 6,741야드 규모의 명문 코스입니다.\n\nJLPGA 시즌 파이널이 열렸던 곳으로, 소나무 숲과 해안 풍광이 어우러진 코스로 꼽힙니다.",
+    "images": [
+      "/images/miyazaki-country-club/course-1.jpg",
+      "/images/miyazaki-country-club/course-2.jpg",
+      "/images/miyazaki-country-club/course-3.jpg",
+      "/images/miyazaki-country-club/course-4.jpg",
+      "/images/miyazaki-country-club/course-5.jpg"
+    ],
+    "hashtags": [
+      "미야자키컨트리클럽",
+      "미야자키CC",
+      "미야자키골프장",
+      "미야자키골프여행",
+      "JLPGA개최코스",
+      "일본골프여행"
+    ],
+    "relatedTourIds": []
   }
 ]
