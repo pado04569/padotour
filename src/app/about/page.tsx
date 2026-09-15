@@ -114,10 +114,10 @@ IMF 외환위기 때 금 모으기 운동에
               💬 카카오톡 문의
             </a>
             <a
-              href="tel:02-6401-5252"
+              href="tel:010-5301-5250"
               className="bg-white/20 hover:bg-white/30 text-white font-bold px-6 py-3 rounded-full text-sm transition-colors"
             >
-              📞 02-6401-5252
+              📞 010-5301-5250
             </a>
           </div>
         </section>

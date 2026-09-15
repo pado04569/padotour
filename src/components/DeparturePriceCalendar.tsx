@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { track } from "@/lib/analytics";
 
 type PriceEntry = { date: string; price: number; nights?: number; days?: number };
 
@@ -96,6 +97,26 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
 
   const weekDays = ["일", "월", "화", "수", "목", "금", "토"];
 
+  // 달력의 "출발 예약 문의" 폼도 문의 이벤트를 보낸다 (2026-09-15).
+  // 예전엔 아래쪽 ContactOptions 폼만 측정돼서, 이 폼으로 들어온 문의는 GA4 에 하나도 안 잡혔다.
+  // 이벤트 이름·방식은 ContactOptions 와 같게 하고, 어느 폼인지 method 로 구분한다.
+  const openedOnce = useRef(false);
+  const startedOnce = useRef(false);
+
+  function openForm() {
+    setShowForm(true);
+    if (!openedOnce.current) {
+      openedOnce.current = true;
+      track("inquiry_open", { item_name: tourTitle, method: "calendar" });
+    }
+  }
+
+  function markStart(field: "people" | "phone") {
+    if (startedOnce.current) return;
+    startedOnce.current = true;
+    track("inquiry_start", { item_name: tourTitle, first_field: field, method: "calendar" });
+  }
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!selected || !phone.trim()) return;
@@ -115,11 +136,15 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
       });
       if (res.ok) {
         setSent(true);
+        // 전환 — 연락처는 보내지 않는다. 인원수만.
+        track("generate_lead", { item_name: tourTitle, people: Number(people), method: "calendar" });
       } else {
-        alert("전송 중 오류가 발생했습니다. 전화(02-6401-5252)로 문의해 주세요.");
+        track("inquiry_fail", { item_name: tourTitle, reason: `status_${res.status}`, method: "calendar" });
+        alert("전송 중 오류가 발생했습니다. 전화(010-5301-5250)로 문의해 주세요.");
       }
     } catch {
-      alert("전송 중 오류가 발생했습니다. 전화(02-6401-5252)로 문의해 주세요.");
+      track("inquiry_fail", { item_name: tourTitle, reason: "network", method: "calendar" });
+      alert("전송 중 오류가 발생했습니다. 전화(010-5301-5250)로 문의해 주세요.");
     } finally {
       setSending(false);
     }
@@ -275,7 +300,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
           <div className="mt-4 pt-4 border-t border-emerald-200">
             {!showForm ? (
               <button
-                onClick={() => setShowForm(true)}
+                onClick={openForm}
                 className="w-full block text-center bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-black px-6 py-3.5 rounded-full text-base transition-colors"
               >
                 📋 {selected.replace(/-/g, ".")} 출발 예약 문의
@@ -294,7 +319,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                     <label className="text-xs text-gray-500 mb-1 block">인원수</label>
                     <select
                       value={people}
-                      onChange={e => setPeople(e.target.value)}
+                      onChange={e => { markStart("people"); setPeople(e.target.value); }}
                       className="w-full border border-gray-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-emerald-500"
                     >
                       {[2,3,4,5,6,7,8,9,10,11,12].map(n => (
@@ -307,7 +332,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                     <input
                       type="tel"
                       value={phone}
-                      onChange={e => setPhone(e.target.value)}
+                      onChange={e => { markStart("phone"); setPhone(e.target.value); }}
                       placeholder="010-0000-0000"
                       required
                       className="w-full border border-gray-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-emerald-500"
