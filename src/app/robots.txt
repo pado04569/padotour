@@ -1,0 +1,30 @@
+#DaumWebMasterTool:9ebcb0cea122405741f124a81d56c0104c2d6c7c777185c7ce46fcf267924aa7:sQJG/Wp2eeNqqbQj8JLcHA==
+
+# 검색엔진·AI 크롤러 규칙 (robots.ts 에서 옮김, 2026-09-15)
+# - 맨 윗줄은 다음(Daum) 웹마스터도구 소유확인 문구다. 지우면 다음 검색 노출 통계를 못 본다.
+#   robots.ts 로는 # 줄을 넣을 수 없어 정적 robots.txt 로 바꿨다.
+# - AI 크롤러(GPTBot, ClaudeBot, PerplexityBot 등)를 명시적으로 허용한다.
+#   규칙이 없어도 기본은 허용이지만, 명시해두면 "차단된 것 아니냐"는 오해가 없고
+#   ChatGPT·Perplexity 답변에 인용될 여지를 남긴다. (GEO)
+
+User-Agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+
+User-Agent: GPTBot
+User-Agent: OAI-SearchBot
+User-Agent: ChatGPT-User
+User-Agent: ClaudeBot
+User-Agent: Claude-User
+User-Agent: PerplexityBot
+User-Agent: Perplexity-User
+User-Agent: Google-Extended
+User-Agent: Applebot-Extended
+User-Agent: CCBot
+Allow: /
+Disallow: /admin
+Disallow: /api
+
+Host: https://www.padotour.com
+Sitemap: https://www.padotour.com/sitemap.xml
