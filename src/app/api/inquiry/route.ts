@@ -1,9 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(req: NextRequest) {
+  // 키가 없을 때 파일 맨 위에서 new Resend() 를 하면 빌드가 통째로 멈춘다(Missing API key).
+  // 문의가 실제로 들어올 때만 만든다 — 로컬 빌드는 통과하고, 키가 빠진 배포는 문의 때 500 으로 드러난다.
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    console.error("RESEND_API_KEY 가 설정되어 있지 않습니다");
+    return NextResponse.json({ error: "이메일 설정 누락" }, { status: 500 });
+  }
+  const resend = new Resend(apiKey);
+
   const { tourTitle, departureDate, nights, days, people, phone } = await req.json();
 
   if (!phone || !people || !departureDate) {
