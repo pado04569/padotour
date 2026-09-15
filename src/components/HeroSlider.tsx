@@ -19,6 +19,14 @@ type Props = {
 export default function HeroSlider({ slides }: Props) {
   const [current, setCurrent] = useState(0);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
+  // 첫 화면에는 첫 번째 사진만 받는다. 나머지는 잠시 뒤에 붙인다.
+  // 숨은 슬라이드도 화면 안(opacity 0)에 있어서 loading="lazy" 로는 안 미뤄진다 — 휴대폰 첫 화면 4초의 원인(2026-09-15 클래리티)
+  const [restReady, setRestReady] = useState(false);
+
+  useEffect(() => {
+    const t = setTimeout(() => setRestReady(true), 2500);
+    return () => clearTimeout(t);
+  }, []);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -55,7 +63,15 @@ export default function HeroSlider({ slides }: Props) {
           key={i}
           className={`absolute inset-0 transition-opacity duration-700 ${i === current ? "opacity-100" : "opacity-0"}`}
         >
-          <img src={s.image} alt={s.region} className="w-full h-full object-cover" />
+          {(i === 0 || i === current || restReady) && (
+            <img
+              src={s.image}
+              alt={s.region}
+              fetchPriority={i === 0 ? "high" : "low"}
+              decoding="async"
+              className="w-full h-full object-cover"
+            />
+          )}
           <div className="absolute inset-0 bg-black/45" />
         </div>
       ))}

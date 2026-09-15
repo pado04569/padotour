@@ -100,6 +100,8 @@ export default function BusanHome() {
                   <img
                     src={tour.image || "/images/golf-main.jpg"}
                     alt={tour.title}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
@@ -123,6 +125,8 @@ export default function BusanHome() {
           <img
             src="/images/golf-main.jpg"
             alt="일본 골프여행 특가"
+            loading="lazy"
+            decoding="async"
             className="w-full h-64 md:h-[32rem] object-cover group-hover:scale-105 transition-transform duration-500"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent flex items-center px-8 md:px-12">

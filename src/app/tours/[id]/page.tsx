@@ -132,9 +132,12 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
       {/* ── 히어로 이미지 ── */}
       <div className="relative w-full h-72 md:h-96 bg-gray-200 overflow-hidden">
+        {/* 첫 화면의 가장 큰 그림이라 먼저 받게 한다 (클래리티 LCP 4초, 2026-09-15) */}
         <img
           src={heroImage}
           alt={tour.title}
+          fetchPriority="high"
+          decoding="async"
           className="w-full h-full object-cover"
         />
         {/* 사진을 가리지 않는 것이 우선 — 어둡게 덧씌우지 않는다 (사장님 확정 2026-09-10) */}

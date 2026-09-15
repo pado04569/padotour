@@ -31,9 +31,36 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
   const [phone, setPhone] = useState("");
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
+  // 출발 없는 회색 날짜를 눌렀을 때 알려주는 안내.
+  // 예전엔 눌러도 아무 반응이 없어 클래리티 "반응 없는 클릭"으로 잡혔다 (2026-09-15)
+  const [hint, setHint] = useState<{ day: string; nearest: string | null } | null>(null);
 
   const priceMap = new Map(departurePrices.map(p => [p.date, p.price]));
   const entryMap = new Map(departurePrices.map(p => [p.date, p]));
+
+  const upcoming = departurePrices.map(p => p.date).filter(d => new Date(d) >= today).sort();
+  function nearestDeparture(ds: string) {
+    const t = new Date(ds).getTime();
+    let best: string | null = null;
+    for (const d of upcoming) {
+      if (best === null || Math.abs(new Date(d).getTime() - t) < Math.abs(new Date(best).getTime() - t)) best = d;
+    }
+    return best;
+  }
+  function shortDate(ds: string) {
+    const [, m, d] = ds.split("-");
+    return `${Number(m)}/${Number(d)}`;
+  }
+  function pickNearest(ds: string) {
+    const d = new Date(ds);
+    const y = d.getFullYear(), m = d.getMonth();
+    const visible = months.some(v => v.year === y && v.month === m);
+    if (!visible) setBaseMonth({ year: y, month: m });
+    setSelected(ds);
+    setShowForm(false);
+    setSent(false);
+    setHint(null);
+  }
 
   const months = [0, 1, 2].map(offset => {
     let month = baseMonth.month + offset;
@@ -58,9 +85,12 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
   const selectedEntry = selected ? entryMap.get(selected) : null;
   const selectedNights = selectedEntry?.nights ?? nights;
   const selectedDays = selectedEntry?.days ?? days;
-  const returnDate = selected ? (() => {
+  // tours.json 의 nights/days 는 글자("4")나 범위("3~4")로 들어 있는 상품이 많다(63개 중 38개, 2026-09-15).
+  // 글자 그대로 더하면 "5"+"4"="54" 가 되어 10/5 출발이 "귀국 11/22" 로 나왔다 → 숫자로 바꾸고, 한 숫자가 아니면 귀국일을 숨긴다.
+  const daysNum = Number(selectedDays);
+  const returnDate = selected && Number.isFinite(daysNum) && daysNum > 0 ? (() => {
     const d = new Date(selected);
-    d.setDate(d.getDate() + selectedDays - 1);
+    d.setDate(d.getDate() + daysNum - 1);
     return `${d.getMonth() + 1}/${d.getDate()}`;
   })() : null;
 
@@ -153,18 +183,32 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                     const isPast = new Date(ds) < today;
                     const dayOfWeek = (firstDay + day - 1) % 7;
 
-                    if (!price || isPast) {
+                    if (isPast) {
                       return (
-                        <div key={i} className={`text-center py-1 text-[11px] ${isPast ? "text-gray-300" : dayOfWeek === 0 ? "text-red-300" : dayOfWeek === 6 ? "text-blue-300" : "text-gray-300"}`}>
+                        <div key={i} className="text-center py-1 text-[11px] text-gray-300">
                           {day}
                         </div>
+                      );
+                    }
+
+                    if (!price) {
+                      return (
+                        <button
+                          key={i}
+                          type="button"
+                          aria-label={`${month + 1}월 ${day}일 출발 없음`}
+                          onClick={() => setHint({ day: ds, nearest: nearestDeparture(ds) })}
+                          className={`rounded text-center py-1 text-[11px] hover:bg-gray-200 ${hint?.day === ds ? "bg-gray-200" : ""} ${dayOfWeek === 0 ? "text-red-300" : dayOfWeek === 6 ? "text-blue-300" : "text-gray-300"}`}
+                        >
+                          {day}
+                        </button>
                       );
                     }
 
                     return (
                       <button
                         key={i}
-                        onClick={() => { setSelected(isSelected ? null : ds); setShowForm(false); setSent(false); }}
+                        onClick={() => { setSelected(isSelected ? null : ds); setShowForm(false); setSent(false); setHint(null); }}
                         className={`rounded text-center py-1 text-[11px] font-bold transition-colors ${
                           isSelected
                             ? "bg-emerald-600 text-white"
@@ -185,6 +229,27 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
           <span className="flex items-center gap-1"><span className="w-4 h-4 bg-emerald-100 rounded inline-block" /> 출발가능</span>
           <span className="flex items-center gap-1"><span className="w-4 h-4 bg-emerald-600 rounded inline-block" /> 선택됨</span>
         </div>
+
+        {hint && (
+          <div role="status" className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 rounded-xl bg-white border border-gray-200 px-3 py-2 text-sm text-gray-600">
+            <span><b className="text-gray-800">{shortDate(hint.day)}</b>은 출발이 없어요.</span>
+            {hint.nearest ? (
+              <span>
+                가까운 출발일은{" "}
+                <button
+                  type="button"
+                  onClick={() => pickNearest(hint.nearest!)}
+                  className="font-bold text-emerald-700 underline underline-offset-2 hover:text-emerald-800"
+                >
+                  {shortDate(hint.nearest)}
+                </button>
+                이에요.
+              </span>
+            ) : (
+              <span>남은 출발일이 없어요. 카톡으로 문의해 주세요.</span>
+            )}
+          </div>
+        )}
       </div>
 
       {/* 선택된 날짜 요금 표시 */}
@@ -197,7 +262,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                 {selected.replace(/-/g, ".")} 출발
               </p>
               <p className="text-sm text-gray-500 mt-0.5">
-                {selectedNights}박 {selectedDays}일 · 귀국 {returnDate}
+                {selectedNights}박 {selectedDays}일{returnDate ? ` · 귀국 ${returnDate}` : ""}
               </p>
             </div>
             <div className="text-right">
