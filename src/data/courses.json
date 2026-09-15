@@ -1315,7 +1315,9 @@
       "일본골프여행",
       "규슈골프여행"
     ],
-    "relatedTourIds": []
+    "relatedTourIds": [
+      "japan-miyazaki-onsen-2color"
+    ]
   },
   {
     "slug": "miyazaki-lakeside-gc",
@@ -1356,7 +1358,9 @@
       "일본골프여행",
       "규슈골프여행"
     ],
-    "relatedTourIds": []
+    "relatedTourIds": [
+      "japan-miyazaki-onsen-2color"
+    ]
   },
   {
     "slug": "miyazaki-sunshine-cc",
@@ -1400,7 +1404,9 @@
       "일본골프여행",
       "규슈골프여행"
     ],
-    "relatedTourIds": []
+    "relatedTourIds": [
+      "japan-miyazaki-onsen-2color"
+    ]
   },
   {
     "slug": "umk-country-club",
