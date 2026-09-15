@@ -122,9 +122,19 @@ export default function Header({ departure }: HeaderProps) {
     departure === "busan" ? "/busan" :
     "/";
 
+  // 검색어 없이 돋보기를 누르면 예전엔 아무 일도 없었다 — 클래리티 "반응 없는 클릭"(상품 목록 2회, 2026-09-15).
+  // 이제 입력칸으로 커서를 옮기고 안내 문구를 보여준다.
+  const [searchHint, setSearchHint] = useState(false);
+
   function handleSearch(e: React.FormEvent) {
     e.preventDefault();
-    if (!searchQuery.trim()) return;
+    if (!searchQuery.trim()) {
+      const input = (e.currentTarget as HTMLFormElement).querySelector("input");
+      input?.focus();
+      setSearchHint(true);
+      return;
+    }
+    setSearchHint(false);
     const dep = departure ? `&departure=${departure}` : "";
     router.push(`/tours?search=${encodeURIComponent(searchQuery.trim())}${dep}`);
   }
@@ -179,8 +189,10 @@ export default function Header({ departure }: HeaderProps) {
               <input
                 type="text"
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="여행지, 골프장, 국가명으로 검색"
+                onChange={(e) => { setSearchQuery(e.target.value); if (searchHint) setSearchHint(false); }}
+                onBlur={() => setSearchHint(false)}
+                placeholder={searchHint ? "검색어를 입력해 주세요 (예: 후쿠오카, 치앙마이)" : "여행지, 골프장, 국가명으로 검색"}
+                aria-invalid={searchHint || undefined}
                 className="flex-1 px-3 py-2 md:px-4 md:py-2.5 text-sm outline-none bg-white min-w-0"
               />
               <button type="submit" className="px-3 py-2 md:px-4 md:py-2.5 bg-gray-50 hover:bg-emerald-50 text-gray-500 hover:text-emerald-600 transition-colors border-l border-gray-200 flex-shrink-0">

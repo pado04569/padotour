@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { tours } from "@/data/tours";
+import PhotoGrid from "@/components/PhotoGrid";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
@@ -286,13 +287,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               {tour.hotelDesc && <Sentences text={tour.hotelDesc} />}
             </div>
             {tour.hotelImages && tour.hotelImages.length > 0 && (
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
-                {tour.hotelImages.map((img, i) => (
-                  <div key={i} className="overflow-hidden rounded-xl aspect-[4/3] bg-gray-100">
-                    <img src={img} alt={`${tour.hotel} ${i + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                  </div>
-                ))}
-              </div>
+              <PhotoGrid images={tour.hotelImages} altBase={tour.hotel} />
             )}
           </div>
         )}
@@ -306,13 +301,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               {tour.golfCourseDesc && <Sentences text={tour.golfCourseDesc} />}
             </div>
             {tour.courseImages && tour.courseImages.length > 0 && (
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
-                {tour.courseImages.map((img, i) => (
-                  <div key={i} className="overflow-hidden rounded-xl aspect-[4/3] bg-gray-100">
-                    <img src={img} alt={`${tour.golfCourse} ${i + 1}`} className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
-                  </div>
-                ))}
-              </div>
+              <PhotoGrid images={tour.courseImages} altBase={tour.golfCourse} objectTop />
             )}
           </div>
         )}
