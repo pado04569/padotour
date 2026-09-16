@@ -6,12 +6,15 @@ type Props = {
   images: string[];
   altBase: string;
   objectTop?: boolean;
+  /** hero — 상품 맨 위 큰 사진 한 장. 자리를 꽉 채우고 먼저 받는다. */
+  variant?: "grid" | "hero";
 };
 
 // 상품 상세의 호텔·골프장 사진 묶음. 누르면 크게 본다.
 // 예전엔 사진이 커지는 효과만 있고 눌러도 아무 일이 없어서
 // 클래리티 "반응 없는 클릭" 1위로 잡혔다 (골프장 사진 3회, 2026-09-15).
-export default function PhotoGrid({ images, altBase, objectTop }: Props) {
+// 맨 위 큰 사진도 같은 이유로 여기에 붙였다 (가고시마 9회, 2026-09-16).
+export default function PhotoGrid({ images, altBase, objectTop, variant = "grid" }: Props) {
   const [open, setOpen] = useState<number | null>(null);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
 
@@ -37,6 +40,22 @@ export default function PhotoGrid({ images, altBase, objectTop }: Props) {
 
   return (
     <>
+      {variant === "hero" ? (
+        <button
+          type="button"
+          onClick={() => setOpen(0)}
+          aria-label={`${altBase} 사진 크게 보기`}
+          className="absolute inset-0 w-full h-full cursor-zoom-in"
+        >
+          <img
+            src={images[0]}
+            alt={altBase}
+            fetchPriority="high"
+            decoding="async"
+            className="w-full h-full object-cover"
+          />
+        </button>
+      ) : (
       <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
         {images.map((img, i) => (
           <button
@@ -56,6 +75,7 @@ export default function PhotoGrid({ images, altBase, objectTop }: Props) {
           </button>
         ))}
       </div>
+      )}
 
       {open !== null && (
         <div

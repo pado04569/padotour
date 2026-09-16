@@ -134,17 +134,13 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
       {/* ── 히어로 이미지 ── */}
       <div className="relative w-full h-72 md:h-96 bg-gray-200 overflow-hidden">
         {/* 첫 화면의 가장 큰 그림이라 먼저 받게 한다 (클래리티 LCP 4초, 2026-09-15) */}
-        <img
-          src={heroImage}
-          alt={tour.title}
-          fetchPriority="high"
-          decoding="async"
-          className="w-full h-full object-cover"
-        />
+        {/* 눌러도 아무 일이 없어 손님이 계속 누른 자리였다 — 크게보기를 달았다 (클래리티 배달못한클릭 9회, 2026-09-16) */}
+        <PhotoGrid images={[heroImage]} altBase={tour.title} variant="hero" />
         {/* 사진을 가리지 않는 것이 우선 — 어둡게 덧씌우지 않는다 (사장님 확정 2026-09-10) */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+        {/* pointer-events-none — 덧씌운 층이 사진 클릭을 가로채지 않게 한다 */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent pointer-events-none" />
         {/* 모바일: 세로 가운데 정렬 / PC: 기존처럼 아래 정렬 */}
-        <div className="absolute inset-0 flex items-center md:items-end px-5 py-6 md:p-8 text-white">
+        <div className="absolute inset-0 flex items-center md:items-end px-5 py-6 md:p-8 text-white pointer-events-none">
           {/* 제목이 두 줄로 안정적으로 나뉘므로 가운데 정렬한다 (사장님 확정 2026-09-10) */}
           <div className="max-w-4xl mx-auto w-full text-center">
             <div className="flex items-center justify-center gap-2 mb-2.5">
