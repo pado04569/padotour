@@ -213,7 +213,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         })()}
 
         {/* ── 상품 요약 박스 ── */}
-        <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8">
+        {/* 카드처럼 보여 눌러도 반응 없는 클릭이 많았다(클래리티 배달못한클릭 20회, 2026-09-17) → 문의 폼으로 스크롤하게 만든다 */}
+        <Link href="#inquiry" className="block bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8 hover:bg-emerald-100 transition-colors">
           <p className="text-xs text-gray-500 mb-2">{tour.region} 골프여행 상품 구성</p>
           {/* 한 덩어리로 붙어 있으면 읽기 어렵다 → 문장 단위로 줄을 나눈다 */}
           <div className="space-y-1.5">
@@ -234,7 +235,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               {tour.seoKeywords.map((k) => `#${k}`).join(" ")}
             </p>
           )}
-        </div>
+          <p className="text-xs text-emerald-600 font-bold mt-3">👇 문의하기</p>
+        </Link>
 
         {/* ── 출발일 캘린더 + 요금 ── */}
         {tour.departurePrices && tour.departurePrices.length > 0 ? (
@@ -278,10 +280,11 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {tour.hotel && (
           <div className="mb-8">
             <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">🏨 {tour.region} 골프여행 숙박 호텔</h2>
-            <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100 mb-3">
+            {/* 골프장 정보 박스와 같은 이유로 문의 폼 링크를 단다 (클래리티 배달못한클릭, 2026-09-17) */}
+            <Link href="#inquiry" className="block bg-gray-50 hover:bg-gray-100 rounded-2xl p-5 border border-gray-100 mb-3 transition-colors">
               <div className="font-black text-gray-800 text-base mb-2">{tour.hotel}</div>
               {tour.hotelDesc && <Sentences text={tour.hotelDesc} />}
-            </div>
+            </Link>
             {tour.hotelImages && tour.hotelImages.length > 0 && (
               <PhotoGrid images={tour.hotelImages} altBase={tour.hotel} />
             )}
@@ -292,10 +295,11 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {tour.golfCourse && (
           <div className="mb-8">
             <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">⛳ {tour.region} 골프장 정보</h2>
-            <div className="bg-gray-50 rounded-2xl p-5 border border-gray-100 mb-3">
+            {/* 카드처럼 보여 눌러도 반응 없는 클릭이 많았다(클래리티 배달못한클릭 16회, 2026-09-17) → 문의 폼으로 스크롤하게 만든다 */}
+            <Link href="#inquiry" className="block bg-gray-50 hover:bg-gray-100 rounded-2xl p-5 border border-gray-100 mb-3 transition-colors">
               <div className="font-black text-gray-800 text-base mb-2">{tour.golfCourse}</div>
               {tour.golfCourseDesc && <Sentences text={tour.golfCourseDesc} />}
-            </div>
+            </Link>
             {tour.courseImages && tour.courseImages.length > 0 && (
               <PhotoGrid images={tour.courseImages} altBase={tour.golfCourse} objectTop />
             )}
@@ -351,7 +355,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         )}
 
         {/* ── 예약 문의 · 맞춤 견적 ── */}
-        <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 md:p-8 text-blue-700 mb-8">
+        {/* id="inquiry" — 위쪽 상품 요약/호텔/골프장 박스를 누르면 여기로 스크롤된다 */}
+        <div id="inquiry" className="bg-blue-50 border border-blue-200 rounded-2xl p-6 md:p-8 text-blue-700 mb-8 scroll-mt-4">
           <h3 className="text-xl font-black mb-1">예약 문의 · 맞춤 견적</h3>
           <p className="text-blue-600 text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
           <ContactOptions tourTitle={tour.title} nights={tour.nights} days={tour.days} />
