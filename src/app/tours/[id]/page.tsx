@@ -262,8 +262,10 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         <div className="mb-8">
           <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">✨ 이 상품의 특징</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {/* 카드처럼 보여 눌러도 반응 없는 클릭이 많았다(클래리티 배달못한클릭, 2026-09-21 녹화 확인:
+                "직항, 이동시간 단축" 2회 · "셀프+카트 라운드" 1회) → 문의 폼으로 스크롤하게 만든다 */}
             {tour.highlights.map((h, i) => (
-              <div key={i} className="flex items-start gap-3 bg-emerald-50 rounded-xl p-4">
+              <Link key={i} href="#inquiry" className="flex items-start gap-3 bg-emerald-50 hover:bg-emerald-100 rounded-xl p-4 transition-colors">
                 <span className="text-emerald-500 font-black text-lg mt-0.5">✓</span>
                 {/* 줄바꿈(\n)이 들어 있으면 그대로 나눈다. break-keep 으로 "2인 1실" 같은 말이 쪼개지지 않게 한다 */}
                 <span className="text-gray-800 font-medium text-sm leading-relaxed break-keep">
@@ -271,7 +273,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                     <span key={li} className="block">{line.trim()}</span>
                   ))}
                 </span>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -307,8 +309,10 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         )}
 
         {/* ── 포함/불포함 ── */}
+        {/* 두 박스도 카드처럼 보여 눌러도 반응이 없었다(클래리티 배달못한클릭, 2026-09-21 녹화 확인:
+            "그린피 + 카트피 + 락카피" 클릭) → 문의 폼으로 스크롤하게 만든다 */}
         <div className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="bg-green-50 rounded-2xl p-5 border border-green-100">
+          <Link href="#inquiry" className="block bg-green-50 hover:bg-green-100 rounded-2xl p-5 border border-green-100 transition-colors">
             <h3 className="font-black text-green-800 mb-3 flex items-center gap-2">
               <span className="text-lg">✅</span> 포함 내역
             </h3>
@@ -319,8 +323,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                 </li>
               ))}
             </ul>
-          </div>
-          <div className="bg-red-50 rounded-2xl p-5 border border-red-100">
+          </Link>
+          <Link href="#inquiry" className="block bg-red-50 hover:bg-red-100 rounded-2xl p-5 border border-red-100 transition-colors">
             <h3 className="font-black text-red-800 mb-3 flex items-center gap-2">
               <span className="text-lg">❌</span> 불포함 내역
             </h3>
@@ -331,7 +335,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                 </li>
               ))}
             </ul>
-          </div>
+          </Link>
         </div>
 
         {/* ── 여행 일정 ── */}

@@ -145,14 +145,16 @@ export default function Header({ departure }: HeaderProps) {
       {/* ══ 1단: 공지바 ══ */}
       <div className="bg-white text-gray-600 text-xs border-b border-gray-100">
         <div className="max-w-6xl mx-auto px-4 py-1.5 flex items-center justify-between gap-2">
-          <div className="flex items-center gap-2 overflow-hidden min-w-0">
+          {/* 네이버로 처음 들어온 손님이 회사가 믿을 만한지 보려고 이 줄을 눌렀다가 아무 일도 없어 나갔다
+              (클래리티 배달못한클릭, 2026-09-21 녹화 확인) → 회사 소개로 보낸다 */}
+          <Link href="/about" className="flex items-center gap-2 overflow-hidden min-w-0 hover:opacity-70 transition-opacity">
             <span className="flex-shrink-0 bg-blue-50 border border-blue-200 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wide">
               NOTICE
             </span>
             <span className="truncate text-[11px] md:text-xs">
               여행의 파도 골프전문 여행사 · 서울보증보험 가입 여행사
             </span>
-          </div>
+          </Link>
           <div className="flex items-center gap-1.5 flex-shrink-0">
             <Link
               href="/"
