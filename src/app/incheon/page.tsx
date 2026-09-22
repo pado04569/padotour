@@ -19,13 +19,6 @@ export const metadata: Metadata = {
 
 const slides = [
   {
-    image: "/images/hero-chiangmai-2.jpg",
-    region: "치앙마이",
-    regionEn: "CHIANG MAI",
-    tagline: "성수기에도 합리적인 가격, 태국 골프의 중심",
-    href: "/tours?country=thailand&region=치앙마이&departure=incheon",
-  },
-  {
     image: "/images/hero-kota.jpg",
     region: "코타키나발루",
     regionEn: "KOTA KINABALU",
@@ -36,8 +29,15 @@ const slides = [
     image: "/images/hero-saipan-coralocean-2.jpg",
     region: "괌·사이판",
     regionEn: "GUAM · SAIPAN",
-    tagline: "가깝고 편안한 남태평양 골프 여행",
+    tagline: "가을·겨울에도 부담 없는 괌·사이판, 가깝고 편안한 남태평양 골프",
     href: "/tours?country=other&departure=incheon",
+  },
+  {
+    image: "/images/hero-chiangmai-2.jpg",
+    region: "치앙마이",
+    regionEn: "CHIANG MAI",
+    tagline: "가을겨울 한국골퍼들이 가장 선호하는 치앙마이, 태국골프의 중심",
+    href: "/tours?country=thailand&region=치앙마이&departure=incheon",
   },
 ];
 
