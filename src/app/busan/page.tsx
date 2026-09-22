@@ -19,18 +19,11 @@ export const metadata: Metadata = {
 
 const slides = [
   {
-    image: "/images/hero-sapporo.jpg",
-    region: "북해도",
-    regionEn: "SAPPORO",
-    tagline: "한여름 평균 26도 시원시원한 라운딩",
-    href: "/tours?country=japan&region=북해도&departure=busan",
-  },
-  {
-    image: "/images/golf-main.jpg",
-    region: "방콕",
-    regionEn: "BANGKOK",
-    tagline: "아시아 최고의 골프 천국 · 합리적인 그린피",
-    href: "/tours?country=thailand&departure=busan",
+    image: "/images/chiangmai-golf/course-1.jpg",
+    region: "치앙마이",
+    regionEn: "CHIANG MAI",
+    tagline: "성수기에도 합리적인 가격, 태국 골프의 중심",
+    href: "/tours?country=thailand&region=치앙마이&departure=busan",
   },
   {
     image: "/images/hero-kota.jpg",
@@ -38,6 +31,13 @@ const slides = [
     regionEn: "KOTA KINABALU",
     tagline: "열대 밀림 속 환상적인 석양 골프",
     href: "/tours?country=malaysia&departure=busan",
+  },
+  {
+    image: "/images/guam-pineeast/course-1.jpg",
+    region: "괌·사이판",
+    regionEn: "GUAM · SAIPAN",
+    tagline: "가깝고 편안한 남태평양 골프 여행",
+    href: "/tours?country=other&departure=busan",
   },
 ];
 
