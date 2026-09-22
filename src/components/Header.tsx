@@ -104,6 +104,16 @@ function buildNav(dep?: string): NavItem[] {
   ];
 }
 
+/** 골프장 소개 드롭다운 — courses.json에 실제로 등록된 나라·지역만 나열한다 */
+const courseNavItems: { label: string; countryCode: string; regions: string[] }[] = [
+  { label: "일본", countryCode: "japan", regions: ["후쿠오카", "가고시마", "야마구치", "벳부", "니세코", "미야자키"] },
+  { label: "중국", countryCode: "china", regions: ["청도", "위해"] },
+  { label: "태국", countryCode: "thailand", regions: ["치앙마이"] },
+  { label: "말레이시아", countryCode: "malaysia", regions: ["코타키나발루"] },
+  { label: "괌", countryCode: "guam", regions: ["괌"] },
+  { label: "사이판", countryCode: "saipan", regions: ["사이판"] },
+];
+
 export default function Header({ departure }: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [communityOpen, setCommunityOpen] = useState(false);
@@ -111,6 +121,11 @@ export default function Header({ departure }: HeaderProps) {
   const [openMobileSub, setOpenMobileSub] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const router = useRouter();
+
+  // 골프장 소개: 나라 목록 드롭다운 + 지역 플라이아웃 (2단)
+  const [coursesOpen, setCoursesOpen] = useState(false);
+  const [hoveredCourseCountry, setHoveredCourseCountry] = useState<string | null>(null);
+  const [openMobileCourseCountry, setOpenMobileCourseCountry] = useState<string | null>(null);
 
   const navItems = buildNav(departure);
 
@@ -260,13 +275,56 @@ export default function Header({ departure }: HeaderProps) {
                 </div>
               ))}
 
-              {/* 골프장 소개: 나라 메뉴와 같은 줄의 최상위 메뉴 (커뮤니티 하위 아님) */}
-              <Link
-                href="/courses"
-                className={`block text-gray-700 hover:text-black ${hoverAccent} font-semibold px-4 py-3 text-sm transition-colors whitespace-nowrap`}
+              {/* 골프장 소개: 나라 메뉴와 같은 줄의 최상위 메뉴 (커뮤니티 하위 아님)
+                  나라에 마우스를 올리면 옆으로 지역 목록이 펼쳐진다 (사장님 요청 2026-09-22) */}
+              <div
+                className="relative"
+                onMouseEnter={() => setCoursesOpen(true)}
+                onMouseLeave={() => { setCoursesOpen(false); setHoveredCourseCountry(null); }}
               >
-                골프장 소개
-              </Link>
+                <Link
+                  href="/courses"
+                  className={`block text-gray-700 hover:text-black ${hoverAccent} font-semibold px-4 py-3 text-sm transition-colors whitespace-nowrap`}
+                >
+                  골프장 소개
+                </Link>
+                {coursesOpen && (
+                  <div className="absolute left-0 top-full w-40 bg-white shadow-xl rounded-b-lg overflow-hidden border border-gray-100 z-50">
+                    {courseNavItems.map((item) => (
+                      <div
+                        key={item.label}
+                        className="relative"
+                        onMouseEnter={() => setHoveredCourseCountry(item.label)}
+                      >
+                        <Link
+                          href={`/courses?country=${item.countryCode}`}
+                          className={`flex items-center justify-between px-4 py-2.5 text-sm transition-colors border-b border-gray-50 last:border-0 ${
+                            hoveredCourseCountry === item.label
+                              ? "bg-emerald-50 text-emerald-700"
+                              : "text-gray-700 hover:bg-emerald-50 hover:text-emerald-700"
+                          }`}
+                        >
+                          {item.label}
+                          {item.regions.length > 1 && <span className="text-gray-300">›</span>}
+                        </Link>
+                        {item.regions.length > 1 && hoveredCourseCountry === item.label && (
+                          <div className="absolute left-full top-0 w-40 bg-white shadow-xl rounded-lg overflow-hidden border border-gray-100">
+                            {item.regions.map((region) => (
+                              <Link
+                                key={region}
+                                href={`/courses?country=${item.countryCode}&region=${region}`}
+                                className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors border-b border-gray-50 last:border-0"
+                              >
+                                {region}
+                              </Link>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
 
             <div className="w-px h-6 bg-gray-200 mx-2" />
@@ -341,9 +399,72 @@ export default function Header({ departure }: HeaderProps) {
             </div>
           ))}
           <div className="border-b border-gray-100">
-            <Link href="/courses" className="flex items-center gap-2 px-4 py-3.5 text-gray-800 font-semibold text-sm" onClick={() => setMenuOpen(false)}>
-              골프장 소개
-            </Link>
+            <div className="flex items-center">
+              <Link
+                href="/courses"
+                className="flex-1 px-4 py-3.5 text-gray-800 font-semibold text-sm"
+                onClick={() => setMenuOpen(false)}
+              >
+                골프장 소개
+              </Link>
+              <button
+                className="px-4 py-3.5"
+                aria-label="골프장 나라별 보기"
+                onClick={() => setOpenMobileCourseCountry(openMobileCourseCountry === "__open" ? null : "__open")}
+              >
+                <svg
+                  className={`w-4 h-4 text-gray-400 transition-transform ${openMobileCourseCountry ? "rotate-180" : ""}`}
+                  fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
+            </div>
+            {openMobileCourseCountry && (
+              <div className="bg-gray-50 border-t border-gray-100">
+                {courseNavItems.map((item) =>
+                  item.regions.length > 1 ? (
+                    <div key={item.label}>
+                      <button
+                        className="w-full flex items-center justify-between px-8 py-2.5 text-sm text-gray-700 text-left"
+                        onClick={() => setOpenMobileCourseCountry(openMobileCourseCountry === item.label ? "__open" : item.label)}
+                      >
+                        <span>{item.label}</span>
+                        <svg
+                          className={`w-3.5 h-3.5 text-gray-400 transition-transform ${openMobileCourseCountry === item.label ? "rotate-180" : ""}`}
+                          fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </button>
+                      {openMobileCourseCountry === item.label && (
+                        <div className="bg-white border-t border-gray-100">
+                          {item.regions.map((region) => (
+                            <Link
+                              key={region}
+                              href={`/courses?country=${item.countryCode}&region=${region}`}
+                              className="block px-12 py-2 text-sm text-gray-600 hover:text-emerald-700 border-b border-gray-100 last:border-0"
+                              onClick={() => setMenuOpen(false)}
+                            >
+                              · {region}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <Link
+                      key={item.label}
+                      href={`/courses?country=${item.countryCode}`}
+                      className="block px-8 py-2.5 text-sm text-gray-700"
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      {item.label}
+                    </Link>
+                  )
+                )}
+              </div>
+            )}
           </div>
           <div className="border-b border-gray-100">
             <Link href="/reviews" className="flex items-center gap-2 px-4 py-3.5 text-gray-700 font-medium text-sm" onClick={() => setMenuOpen(false)}>

@@ -17,31 +17,54 @@ export const metadata: Metadata = {
 };
 
 /** 나라 → 지역 순으로 묶어 노출 (국가별 검색 유입 대응) */
-function groupByCountry() {
+function groupByCountry(list: typeof courses) {
   const map = new Map<string, typeof courses>();
-  for (const course of courses) {
-    const list = map.get(course.country) ?? [];
-    list.push(course);
-    map.set(course.country, list);
+  for (const course of list) {
+    const arr = map.get(course.country) ?? [];
+    arr.push(course);
+    map.set(course.country, arr);
   }
   return [...map.entries()];
 }
 
-export default function CoursesPage() {
-  const grouped = groupByCountry();
+export default async function CoursesPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ country?: string; region?: string }>;
+}) {
+  const { country, region } = await searchParams;
+
+  const filtered = courses.filter((c) => {
+    if (country && c.countryCode !== country) return false;
+    if (region && c.region !== region) return false;
+    return true;
+  });
+  const grouped = groupByCountry(filtered);
+  const isFiltered = Boolean(country || region);
+  const filterLabel = filtered[0] ? [filtered[0].country, region].filter(Boolean).join(" ") : null;
 
   return (
     <div>
       <section className="bg-gradient-to-r from-emerald-700 to-emerald-500 text-white py-10 md:py-12">
         <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">해외 골프장 소개</h1>
+          <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">
+            {isFiltered && filterLabel ? `${filterLabel} 골프장` : "해외 골프장 소개"}
+          </h1>
           <p className="text-emerald-100 text-sm md:text-lg">
             여행의 파도가 안내하는 나라별 골프장 — 홀 구성·전장·설계자까지 확인하고 상품으로 바로 이동하세요.
           </p>
+          {isFiltered && (
+            <Link href="/courses" className="inline-block mt-3 text-emerald-100 hover:text-white text-xs md:text-sm underline underline-offset-2">
+              ← 전체 골프장 보기
+            </Link>
+          )}
         </div>
       </section>
 
       <section className="max-w-6xl mx-auto px-4 py-8 md:py-10">
+        {grouped.length === 0 && (
+          <p className="text-gray-500 text-sm text-center py-12">해당 지역에 등록된 골프장이 아직 없습니다.</p>
+        )}
         {grouped.map(([country, list]) => (
           <div key={country} className="mb-10 md:mb-14 last:mb-0">
             <h2 className="text-xl md:text-2xl font-black text-gray-800 mb-1">{country} 골프장</h2>
