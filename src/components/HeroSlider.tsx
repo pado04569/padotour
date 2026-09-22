@@ -88,7 +88,7 @@ export default function HeroSlider({ slides }: Props) {
         </h2>
         {/* 영문 표기는 한글 제목 아래 한 줄로 작게 (사장님 요청 2026-09-23) */}
         <p
-          className="font-bold tracking-widest mb-3 md:mb-4 text-xl md:text-3xl lg:text-4xl"
+          className="font-bold tracking-widest mb-3 md:mb-4 text-lg md:text-2xl lg:text-3xl whitespace-nowrap"
           style={{ textShadow: "0 2px 12px rgba(0,0,0,0.65), 0 1px 4px rgba(0,0,0,0.5)" }}
         >
           {slide.regionEn}
