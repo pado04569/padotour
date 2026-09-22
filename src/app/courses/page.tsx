@@ -45,16 +45,13 @@ export default async function CoursesPage({
 
   return (
     <div>
-      <section className="bg-gradient-to-r from-emerald-700 to-emerald-500 text-white py-10 md:py-12">
+      <section className="bg-emerald-400 text-white py-5 md:py-6">
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">
             {isFiltered && filterLabel ? `${filterLabel} 골프장` : "해외 골프장 소개"}
           </h1>
-          <p className="text-emerald-100 text-sm md:text-lg">
-            여행의 파도가 안내하는 나라별 골프장 — 홀 구성·전장·설계자까지 확인하고 상품으로 바로 이동하세요.
-          </p>
           {isFiltered && (
-            <Link href="/courses" className="inline-block mt-3 text-emerald-100 hover:text-white text-xs md:text-sm underline underline-offset-2">
+            <Link href="/courses" className="inline-block text-emerald-50 hover:text-white text-xs md:text-sm underline underline-offset-2">
               ← 전체 골프장 보기
             </Link>
           )}
@@ -67,10 +64,12 @@ export default async function CoursesPage({
         )}
         {grouped.map(([country, list]) => (
           <div key={country} className="mb-10 md:mb-14 last:mb-0">
-            <h2 className="text-xl md:text-2xl font-black text-gray-800 mb-1">{country} 골프장</h2>
-            <p className="text-gray-400 text-xs md:text-sm mb-4 md:mb-6">
-              {[...new Set(list.map((c) => c.region))].join(" · ")} · 총 {list.length}곳
-            </p>
+            <div className="flex flex-wrap items-baseline gap-x-2 mb-4 md:mb-6">
+              <h2 className="text-lg md:text-xl font-black text-gray-800">{country}골프장</h2>
+              <p className="text-gray-500 text-base md:text-lg font-bold">
+                {[...new Set(list.map((c) => c.region))].join(" · ")} 총 {list.length}곳
+              </p>
+            </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
               {list.map((course) => (
