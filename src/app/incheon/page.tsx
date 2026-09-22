@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 const slides = [
   {
-    image: "/images/hero-chiangmai.jpg",
+    image: "/images/hero-chiangmai-2.jpg",
     region: "치앙마이",
     regionEn: "CHIANG MAI",
     tagline: "성수기에도 합리적인 가격, 태국 골프의 중심",
@@ -33,7 +33,7 @@ const slides = [
     href: "/tours?country=malaysia&departure=incheon",
   },
   {
-    image: "/images/hero-saipan-coralocean-notext.jpg",
+    image: "/images/hero-saipan-coralocean-2.jpg",
     region: "괌·사이판",
     regionEn: "GUAM · SAIPAN",
     tagline: "가깝고 편안한 남태평양 골프 여행",
