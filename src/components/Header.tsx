@@ -106,7 +106,7 @@ function buildNav(dep?: string): NavItem[] {
 
 /** 골프장 소개 드롭다운 — courses.json에 실제로 등록된 나라·지역만 나열한다 */
 const courseNavItems: { label: string; countryCode: string; regions: string[] }[] = [
-  { label: "일본", countryCode: "japan", regions: ["후쿠오카", "가고시마", "야마구치", "벳부", "니세코", "미야자키"] },
+  { label: "일본", countryCode: "japan", regions: ["후쿠오카", "가고시마", "야마구치", "벳부", "북해도", "미야자키"] },
   { label: "중국", countryCode: "china", regions: ["청도", "위해"] },
   { label: "태국", countryCode: "thailand", regions: ["치앙마이"] },
   { label: "말레이시아", countryCode: "malaysia", regions: ["코타키나발루"] },
