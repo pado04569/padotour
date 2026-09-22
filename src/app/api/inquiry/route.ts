@@ -1,6 +1,29 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import { SolapiMessageService } from "solapi";
+import { getRedis } from "@/lib/redis";
+
+// 전화번호로 예약문의 내역을 조회할 수 있도록 저장한다 (사장님 요청 2026-09-23).
+// 전화번호 숫자만 남긴 값을 키로 써서 사람마다 리스트로 쌓는다. Redis 연결이 없으면 조용히 건너뛴다.
+async function saveInquiry(record: {
+  tourTitle: string;
+  departureDate: string;
+  nights?: number;
+  days?: number;
+  people: number | string;
+  phone: string;
+}) {
+  const redis = getRedis();
+  if (!redis) return;
+  const key = `inquiries:${record.phone.replace(/\D/g, "")}`;
+  const entry = JSON.stringify({ ...record, submittedAt: new Date().toISOString() });
+  try {
+    await redis.lpush(key, entry);
+    await redis.ltrim(key, 0, 49); // 사람당 최근 50건만 보관
+  } catch (e) {
+    console.error("Redis save error:", e);
+  }
+}
 
 // 예약문의가 들어오면 사장님 휴대폰으로 카톡 알림톡을 보낸다 (2026-09-15 사장님 요청).
 // 솔라피 템플릿 "예약문의 접수" — 카테고리 업무알림 > 주문/예약(008001), 변수 4개.
@@ -127,6 +150,7 @@ export async function POST(req: NextRequest) {
       인원: `${people}명`,
       연락처: phone,
     }),
+    saveInquiry({ tourTitle, departureDate, nights, days, people, phone }),
   ]);
 
   if (!mailOk && !kakaoOk) {

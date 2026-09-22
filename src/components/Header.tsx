@@ -162,12 +162,12 @@ export default function Header({ departure }: HeaderProps) {
         <div className="max-w-6xl mx-auto px-4 py-1.5 flex items-center justify-between gap-2">
           {/* 네이버로 처음 들어온 손님이 회사가 믿을 만한지 보려고 이 줄을 눌렀다가 아무 일도 없어 나갔다
               (클래리티 배달못한클릭, 2026-09-21 녹화 확인) → 회사 소개로 보낸다 */}
-          <Link href="/about" className="flex items-center gap-2 overflow-hidden min-w-0 hover:opacity-70 transition-opacity">
+          <Link href="/about#why-padotour" className="flex items-center gap-2 overflow-hidden min-w-0 hover:opacity-70 transition-opacity">
             <span className="flex-shrink-0 bg-blue-50 border border-blue-200 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wide">
               NOTICE
             </span>
             <span className="truncate text-[11px] md:text-xs">
-              여행의 파도 골프전문 여행사 · 서울보증보험 가입 여행사
+              왜 여행의파도 인가요?
             </span>
           </Link>
           <div className="flex items-center gap-1.5 flex-shrink-0">
@@ -177,14 +177,12 @@ export default function Header({ departure }: HeaderProps) {
             >
               출발지 변경
             </Link>
-            <a
-              href="https://pf.kakao.com/_bxoxnXxj/chat"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/my-inquiries"
               className="bg-yellow-300 border border-yellow-400 text-gray-900 hover:bg-yellow-400 text-[11px] font-bold px-3 py-0.5 rounded transition-colors"
             >
               예약확인
-            </a>
+            </Link>
           </div>
         </div>
       </div>

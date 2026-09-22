@@ -30,7 +30,7 @@ export default function AboutPage() {
             대표자의 말
           </h2>
 
-          <h3 className="text-2xl md:text-3xl font-black text-gray-800 text-center mb-8">
+          <h3 id="why-padotour" className="text-2xl md:text-3xl font-black text-gray-800 text-center mb-8 scroll-mt-24">
             왜 &apos;여행의파도&apos;일까요?
           </h3>
 
