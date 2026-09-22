@@ -289,7 +289,8 @@ export default function Header({ departure }: HeaderProps) {
                   골프장 소개
                 </Link>
                 {coursesOpen && (
-                  <div className="absolute left-0 top-full w-40 bg-white shadow-xl rounded-b-lg overflow-hidden border border-gray-100 z-50">
+                  // overflow-hidden 이면 안의 지역 플라이아웃(옆으로 펼침)이 잘려서 안 보인다 (사장님 지적 2026-09-22)
+                  <div className="absolute left-0 top-full w-40 bg-white shadow-xl rounded-b-lg border border-gray-100 z-50">
                     {courseNavItems.map((item) => (
                       <div
                         key={item.label}
