@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 export default function NoticePage() {
   return (
     <div>
-      <section className="bg-gradient-to-r from-emerald-700 to-emerald-500 text-white py-10 md:py-12">
+      <section className="bg-emerald-400 text-white py-10 md:py-12">
         <div className="max-w-4xl mx-auto px-4">
           <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">📢 공지 · 이벤트</h1>
           <p className="text-emerald-100 text-sm md:text-lg">특가 소식과 새로운 상품 안내</p>
@@ -25,44 +25,39 @@ export default function NoticePage() {
       </section>
 
       <section className="max-w-4xl mx-auto px-4 py-10 md:py-12">
-        <div className="space-y-3 md:space-y-4">
+        {/* 특가·공지가 페이지의 주인공 — 가운데 정렬로 크게 보여준다 (사장님 요청 2026-09-23) */}
+        <div className="space-y-4 md:space-y-5">
           {notices.map((notice) => (
             <div
               key={notice.id}
-              className="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 md:p-6 hover:shadow-md transition-shadow"
+              className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-10 hover:shadow-md transition-shadow text-center"
             >
-              <div className="flex items-start gap-3">
-                <div className="flex items-start gap-2 md:gap-3 flex-1">
-                  {notice.isEvent ? (
-                    <span className="flex-shrink-0 bg-red-100 text-red-600 text-xs font-bold px-2.5 py-1 rounded-lg">
-                      이벤트
-                    </span>
-                  ) : (
-                    <span className="flex-shrink-0 bg-gray-100 text-gray-600 text-xs font-bold px-2.5 py-1 rounded-lg">
-                      공지
-                    </span>
-                  )}
-                  <div className="flex-1">
-                    <h3 className="font-bold text-gray-800 text-sm md:text-lg mb-1">{notice.title}</h3>
-                    <p className="text-gray-500 text-xs md:text-base">{notice.content}</p>
-                  </div>
-                </div>
-                <span className="text-gray-400 text-xs flex-shrink-0 mt-1">{notice.date}</span>
-              </div>
+              {notice.isEvent ? (
+                <span className="inline-block bg-red-100 text-red-600 text-xs font-bold px-2.5 py-1 rounded-lg mb-3">
+                  이벤트
+                </span>
+              ) : (
+                <span className="inline-block bg-gray-100 text-gray-600 text-xs font-bold px-2.5 py-1 rounded-lg mb-3">
+                  공지
+                </span>
+              )}
+              <h3 className="font-black text-gray-800 text-xl md:text-3xl mb-3 leading-snug">{notice.title}</h3>
+              <p className="text-gray-600 text-sm md:text-lg max-w-2xl mx-auto">{notice.content}</p>
+              <p className="text-gray-400 text-xs mt-4">{notice.date}</p>
             </div>
           ))}
         </div>
 
-        <div className="text-center mt-10 md:mt-12 bg-emerald-50 rounded-2xl p-6 md:p-10">
-          <h2 className="text-xl md:text-2xl font-black text-gray-800 mb-2 md:mb-3">🏌️ 특가 먼저 받아보세요</h2>
-          <p className="text-gray-600 mb-5 md:mb-6 text-sm md:text-base">카카오톡 채널을 추가하시면 특가 소식을 가장 먼저 받으실 수 있어요</p>
+        {/* 카카오톡 채널 유도는 작게 (사장님 요청 2026-09-23) */}
+        <div className="mt-8 md:mt-10 flex items-center justify-center gap-3 bg-emerald-50 rounded-full px-5 py-3 max-w-md mx-auto">
+          <span className="text-xs md:text-sm text-gray-600">특가 소식을 가장 먼저 받아보세요</span>
           <a
             href="https://pf.kakao.com/_bxoxnXxj/chat"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold px-7 py-3.5 md:px-8 md:py-4 rounded-full text-base md:text-lg transition-colors"
+            className="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold px-3 py-1.5 rounded-full text-xs whitespace-nowrap transition-colors"
           >
-            💬 카카오톡 채널 추가하기
+            💬 채널 추가
           </a>
         </div>
       </section>

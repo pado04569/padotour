@@ -75,7 +75,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
 
-      <section className="bg-gradient-to-r from-emerald-700 to-emerald-500 text-white py-10 md:py-12">
+      <section className="bg-emerald-400 text-white py-10 md:py-12">
         <div className="max-w-6xl mx-auto px-4">
           <nav aria-label="breadcrumb" className="text-emerald-100 text-xs md:text-sm mb-2">
             <Link href="/" className="hover:text-white">홈</Link>

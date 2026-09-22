@@ -181,7 +181,7 @@ export default function Header({ departure }: HeaderProps) {
               href="https://pf.kakao.com/_bxoxnXxj/chat"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-50 border border-blue-200 text-blue-700 hover:bg-blue-100 text-[11px] font-bold px-3 py-0.5 rounded transition-colors"
+              className="bg-yellow-400 border border-yellow-500 text-gray-900 hover:bg-yellow-500 text-[11px] font-bold px-3 py-0.5 rounded transition-colors"
             >
               예약확인
             </a>
@@ -220,13 +220,19 @@ export default function Header({ departure }: HeaderProps) {
             </form>
           </div>
 
-          <div className="hidden lg:flex flex-shrink-0 w-[118px] justify-center items-center gap-2 border border-blue-200 bg-blue-50 rounded-lg px-2 py-2">
+          {/* 관광사업 등록·보증보험 조회(문화체육관광부 관광사업정보시스템)로 연결 — 사장님 요청 2026-09-23 */}
+          <a
+            href="https://www.tourinfo.or.kr/v2/tourinfo/license_view.asp?page_no=1&pLino=184259&pLiTypeTxt=%B1%B9%B3%BB%BF%DC%BF%A9%C7%E0%BE%F7&pLiName=%BF%A9%C7%E0%C0%C7%C6%C4%B5%B5&pdtlStateNm=%BF%B5%BE%F7%C1%DF&sDateStart=&sDateEnd=&pLiLocal=&pLiSigun=&pLiType=%C0%FC%C3%BC"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden lg:flex flex-shrink-0 w-[118px] justify-center items-center gap-2 border border-blue-200 bg-blue-50 hover:bg-blue-100 rounded-lg px-2 py-2 transition-colors"
+          >
             <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-black">S</div>
             <div className="text-xs leading-tight">
               <div className="font-bold text-blue-800 whitespace-nowrap">SGI 서울보증보험</div>
               <div className="text-blue-600">가입여행사</div>
             </div>
-          </div>
+          </a>
 
           <div className="md:hidden flex items-center flex-shrink-0">
             <button onClick={() => setMenuOpen(!menuOpen)} className="p-2 text-gray-700" aria-label="메뉴">
@@ -487,10 +493,15 @@ export default function Header({ departure }: HeaderProps) {
               💬 카카오톡 상담
             </a>
           </div>
-          <div className="px-4 py-3 bg-blue-50 flex items-center gap-2">
+          <a
+            href="https://www.tourinfo.or.kr/v2/tourinfo/license_view.asp?page_no=1&pLino=184259&pLiTypeTxt=%B1%B9%B3%BB%BF%DC%BF%A9%C7%E0%BE%F7&pLiName=%BF%A9%C7%E0%C0%C7%C6%C4%B5%B5&pdtlStateNm=%BF%B5%BE%F7%C1%DF&sDateStart=&sDateEnd=&pLiLocal=&pLiSigun=&pLiType=%C0%FC%C3%BC"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-3 bg-blue-50 hover:bg-blue-100 flex items-center gap-2 transition-colors"
+          >
             <div className="w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center text-white text-[10px] font-black">S</div>
             <span className="text-xs text-blue-700 font-semibold">SGI 서울보증보험 가입여행사</span>
-          </div>
+          </a>
         </div>
       )}
     </header>

@@ -81,7 +81,7 @@ export default function HeroSlider({ slides }: Props) {
       {/* 텍스트 오버레이 */}
       <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
         <h2
-          className="text-4xl md:text-7xl lg:text-8xl font-black tracking-wider mb-2 md:mb-3"
+          className="text-2xl md:text-5xl lg:text-6xl font-black tracking-wider mb-2 md:mb-3"
           style={{ textShadow: "0 2px 12px rgba(0,0,0,0.65), 0 1px 4px rgba(0,0,0,0.5)" }}
         >
           {slide.region}

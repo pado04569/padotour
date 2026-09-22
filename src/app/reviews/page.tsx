@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function ReviewsPage() {
   return (
     <div>
-      <section className="bg-gradient-to-r from-emerald-700 to-emerald-500 text-white py-10 md:py-12">
+      <section className="bg-emerald-400 text-white py-10 md:py-12">
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">⭐ 고객 후기</h1>
           <p className="text-emerald-100 text-sm md:text-lg">여행의 파도와 함께 다녀오신 분들의 이야기</p>

@@ -52,7 +52,7 @@ function ToursContent() {
           </div>
         </section>
       ) : (
-        <section className="bg-gradient-to-r from-emerald-700 to-emerald-500 text-white py-10 md:py-12">
+        <section className="bg-emerald-400 text-white py-10 md:py-12">
           <div className="max-w-6xl mx-auto px-4">
             <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">⛳ 골프여행 상품</h1>
             <p className="text-emerald-100 text-sm md:text-lg">일본·중국·동남아 골프여행 전문 패키지</p>
