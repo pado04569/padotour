@@ -33,7 +33,7 @@ const slides = [
     href: "/tours?country=malaysia&departure=busan",
   },
   {
-    image: "/images/guam-pineeast/course-1.jpg",
+    image: "/images/hero-guam-saipan.jpg",
     region: "괌·사이판",
     regionEn: "GUAM · SAIPAN",
     tagline: "가깝고 편안한 남태평양 골프 여행",
