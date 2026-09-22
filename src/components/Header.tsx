@@ -181,7 +181,7 @@ export default function Header({ departure }: HeaderProps) {
               href="https://pf.kakao.com/_bxoxnXxj/chat"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-yellow-400 border border-yellow-500 text-gray-900 hover:bg-yellow-500 text-[11px] font-bold px-3 py-0.5 rounded transition-colors"
+              className="bg-yellow-300 border border-yellow-400 text-gray-900 hover:bg-yellow-400 text-[11px] font-bold px-3 py-0.5 rounded transition-colors"
             >
               예약확인
             </a>
