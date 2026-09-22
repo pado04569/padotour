@@ -72,16 +72,26 @@ export default function HeroSlider({ slides }: Props) {
               className="w-full h-full object-cover"
             />
           )}
-          <div className="absolute inset-0 bg-black/45" />
+          {/* 사진이 칙칙해 보인다는 지적(2026-09-22) — 검정 45% 오버레이를 20%로 낮춘다.
+              대신 아래 글씨에 그림자를 더 줘서 가독성을 보완한다 */}
+          <div className="absolute inset-0 bg-black/20" />
         </div>
       ))}
 
       {/* 텍스트 오버레이 */}
       <div className="relative h-full flex flex-col items-center justify-center text-white text-center px-4">
-        <h2 className="text-4xl md:text-7xl lg:text-8xl font-black tracking-wider mb-3 md:mb-4 drop-shadow-lg">
+        <h2
+          className="text-4xl md:text-7xl lg:text-8xl font-black tracking-wider mb-3 md:mb-4"
+          style={{ textShadow: "0 2px 12px rgba(0,0,0,0.65), 0 1px 4px rgba(0,0,0,0.5)" }}
+        >
           {slide.regionEn}
         </h2>
-        <p className="text-base md:text-2xl text-white/90 mb-6 md:mb-8 drop-shadow px-4">{slide.tagline}</p>
+        <p
+          className="text-base md:text-2xl text-white mb-6 md:mb-8 px-4"
+          style={{ textShadow: "0 1px 8px rgba(0,0,0,0.6)" }}
+        >
+          {slide.tagline}
+        </p>
         <Link
           href={slide.href}
           className="bg-white hover:bg-gray-100 text-black font-bold px-8 py-3 rounded-full text-base transition-colors shadow-lg"
