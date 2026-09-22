@@ -183,6 +183,15 @@ export default function Header({ departure }: HeaderProps) {
             >
               예약확인
             </Link>
+            {/* SGI 배지 — PC는 2단(로고 옆)에 큰 버전이 따로 있어 여기선 그 화면에서만 숨긴다 */}
+            <a
+              href="https://www.tourinfo.or.kr/v2/tourinfo/license_view.asp?page_no=1&pLino=184259&pLiTypeTxt=%B1%B9%B3%BB%BF%DC%BF%A9%C7%E0%BE%F7&pLiName=%BF%A9%C7%E0%C0%C7%C6%C4%B5%B5&pdtlStateNm=%BF%B5%BE%F7%C1%DF&sDateStart=&sDateEnd=&pLiLocal=&pLiSigun=&pLiType=%C0%FC%C3%BC"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="lg:hidden bg-blue-50 border border-blue-200 text-blue-700 hover:bg-blue-100 text-[11px] font-bold px-2.5 py-0.5 rounded transition-colors whitespace-nowrap"
+            >
+              SGI 서울보증보험
+            </a>
           </div>
         </div>
       </div>

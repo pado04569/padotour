@@ -66,6 +66,12 @@ export default function MyInquiriesPage() {
           </button>
         </form>
 
+        {/* 문의 후 연락 흐름 안내 — 사장님 요청 2026-09-23, 더 친절한 문구로 */}
+        <div className="bg-emerald-50 border border-emerald-100 rounded-xl px-4 py-3.5 mb-8 text-xs md:text-sm text-gray-600 leading-relaxed space-y-1">
+          <p>📞 담당자가 현지 확인을 마치는 대로, 문의하실 때 남겨주신 휴대폰 번호로 카카오톡을 통해 직접 연락드려요.</p>
+          <p>🕐 업무시간(평일 09:00~18:00) 이후에 접수해 주신 문의는 견적서가 다음 영업일에 전달될 수 있는 점 양해 부탁드립니다.</p>
+        </div>
+
         {error && (
           <p className="text-red-500 text-sm text-center mb-6">{error}</p>
         )}
