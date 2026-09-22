@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 const slides = [
   {
-    image: "/images/chiangmai-golf/course-1.jpg",
+    image: "/images/hero-chiangmai.jpg",
     region: "치앙마이",
     regionEn: "CHIANG MAI",
     tagline: "성수기에도 합리적인 가격, 태국 골프의 중심",
