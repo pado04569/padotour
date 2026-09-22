@@ -86,16 +86,13 @@ export default function HeroSlider({ slides }: Props) {
         >
           {slide.region}
         </h2>
-        {/* 영문 표기는 한글 제목 아래 작게 2줄로 (사장님 요청 2026-09-23) —
-            2줄 합친 높이가 예전 영문 한 줄 높이와 비슷하도록 크기를 줄인다 */}
-        <div
-          className="font-bold tracking-widest leading-tight mb-3 md:mb-4"
+        {/* 영문 표기는 한글 제목 아래 한 줄로 작게 (사장님 요청 2026-09-23) */}
+        <p
+          className="font-bold tracking-widest mb-3 md:mb-4 text-xl md:text-3xl lg:text-4xl"
           style={{ textShadow: "0 2px 12px rgba(0,0,0,0.65), 0 1px 4px rgba(0,0,0,0.5)" }}
         >
-          {slide.regionEn.split(/\s*·\s*|\s+/).filter(Boolean).map((word, i) => (
-            <div key={i} className="text-xl md:text-3xl lg:text-4xl">{word}</div>
-          ))}
-        </div>
+          {slide.regionEn}
+        </p>
         <p
           className="text-base md:text-2xl text-white mb-6 md:mb-8 px-4"
           style={{ textShadow: "0 1px 8px rgba(0,0,0,0.6)" }}
