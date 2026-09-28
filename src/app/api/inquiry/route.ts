@@ -12,6 +12,7 @@ async function saveInquiry(record: {
   days?: number;
   people: number | string;
   phone: string;
+  agreedPrivacy?: boolean;
 }) {
   const redis = getRedis();
   if (!redis) return;
@@ -133,10 +134,14 @@ export async function POST(req: NextRequest) {
   if (!body) {
     return NextResponse.json({ error: "잘못된 요청" }, { status: 400 });
   }
-  const { tourTitle, departureDate, nights, days, people, phone } = body;
+  const { tourTitle, departureDate, nights, days, people, phone, agreedPrivacy } = body;
 
   if (!phone || !people || !departureDate) {
     return NextResponse.json({ error: "필수 항목 누락" }, { status: 400 });
+  }
+  // 개인정보 수집·이용 동의 없이는 접수하지 않는다 (분쟁 대비, 사장님 요청 2026-09-28)
+  if (!agreedPrivacy) {
+    return NextResponse.json({ error: "개인정보 수집·이용에 동의해 주세요" }, { status: 400 });
   }
 
   const formattedDate = departureDate.replace(/(\d{4})-(\d{2})-(\d{2})/, "$1년 $2월 $3일");
@@ -150,7 +155,7 @@ export async function POST(req: NextRequest) {
       인원: `${people}명`,
       연락처: phone,
     }),
-    saveInquiry({ tourTitle, departureDate, nights, days, people, phone }),
+    saveInquiry({ tourTitle, departureDate, nights, days, people, phone, agreedPrivacy: true }),
   ]);
 
   if (!mailOk && !kakaoOk) {

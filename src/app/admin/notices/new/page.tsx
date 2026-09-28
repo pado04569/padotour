@@ -44,6 +44,12 @@ export default async function NewNoticePage() {
               </div>
             </div>
 
+            <div>
+              <label className="block text-sm font-semibold text-gray-700 mb-1">종료일 (선택)</label>
+              <input type="date" name="expiresAt" className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500" />
+              <p className="text-xs text-gray-400 mt-1">지정하면 이 날짜가 지난 뒤 홈페이지 공지·이벤트 목록에서 자동으로 사라집니다.</p>
+            </div>
+
             <div className="flex gap-3 pt-2">
               <button type="submit" className="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-2.5 rounded-xl text-sm transition-colors">저장하기</button>
               <Link href="/admin/notices" className="bg-gray-100 hover:bg-gray-200 text-gray-700 font-medium px-6 py-2.5 rounded-xl text-sm transition-colors">취소</Link>

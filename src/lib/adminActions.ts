@@ -150,12 +150,14 @@ export async function saveNotice(formData: FormData) {
   const id = formData.get("id") as string;
   const isEdit = notices.some((n: { id: string }) => n.id === id);
 
+  const expiresAt = formData.get("expiresAt") as string;
   const notice = {
     id,
     title: formData.get("title") as string,
     content: formData.get("content") as string,
     date: formData.get("date") as string,
     isEvent: formData.get("isEvent") === "true",
+    ...(expiresAt ? { expiresAt } : {}),
   };
 
   if (isEdit) {

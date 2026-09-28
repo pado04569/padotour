@@ -15,6 +15,10 @@ export const metadata: Metadata = {
 
 
 export default function NoticePage() {
+  // 날짜(expiresAt)가 지난 특가·공지는 자동으로 목록에서 뺀다 (사장님 지적 2026-09-28)
+  const today = new Date().toISOString().slice(0, 10);
+  const activeNotices = notices.filter((n) => !n.expiresAt || n.expiresAt >= today);
+
   return (
     <div>
       <section className="bg-emerald-400 text-white py-10 md:py-12">
@@ -26,8 +30,11 @@ export default function NoticePage() {
 
       <section className="max-w-4xl mx-auto px-4 py-10 md:py-12">
         {/* 특가·공지가 페이지의 주인공 — 가운데 정렬로 크게 보여준다 (사장님 요청 2026-09-23) */}
+        {activeNotices.length === 0 && (
+          <p className="text-gray-500 text-sm text-center py-12">현재 진행 중인 공지·이벤트가 없습니다.</p>
+        )}
         <div className="space-y-4 md:space-y-5">
-          {notices.map((notice) => (
+          {activeNotices.map((notice) => (
             <div
               key={notice.id}
               className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-10 hover:shadow-md transition-shadow text-center"

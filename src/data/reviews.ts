@@ -22,6 +22,7 @@ export type Notice = {
   content: string;
   date: string;
   isEvent: boolean;
+  expiresAt?: string; // 이 날짜(YYYY-MM-DD)가 지나면 공지·이벤트 목록에서 자동으로 내려간다
 };
 
 export const reviews: Review[] = reviewsData as Review[];
