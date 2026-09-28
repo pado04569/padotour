@@ -167,9 +167,22 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
           >
             ‹
           </button>
-          <span className="text-sm font-bold text-gray-600">
+          {/* 두 화살표 사이 텍스트라 눌러도 반응 없는 클릭이 잡혔다(클래리티 배달못한클릭 3회, 2026-09-28)
+              → 누르면 가장 가까운 출발 가능 달로 돌아가게 한다 */}
+          <button
+            type="button"
+            onClick={() => {
+              const first = departurePrices.find(p => new Date(p.date) >= today);
+              if (first) {
+                const d = new Date(first.date);
+                setBaseMonth({ year: d.getFullYear(), month: d.getMonth() });
+              }
+            }}
+            aria-label="가장 가까운 출발 가능 달로 이동"
+            className="text-sm font-bold text-gray-600 hover:text-emerald-600 hover:bg-gray-200 rounded-lg px-2 py-1 transition-colors"
+          >
             {months[0].year}.{String(months[0].month + 1).padStart(2, "0")} ~ {months[2].year}.{String(months[2].month + 1).padStart(2, "0")}
-          </span>
+          </button>
           <button
             onClick={() => setBaseMonth(b => {
               let m = b.month + 1; let y = b.year;
