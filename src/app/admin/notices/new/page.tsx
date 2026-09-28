@@ -47,7 +47,7 @@ export default async function NewNoticePage() {
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-1">종료일 (선택)</label>
               <input type="date" name="expiresAt" className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500" />
-              <p className="text-xs text-gray-400 mt-1">지정하면 이 날짜가 지난 뒤 홈페이지 공지·이벤트 목록에서 자동으로 사라집니다.</p>
+              <p className="text-xs text-gray-400 mt-1">지정하면 이 날짜가 지난 뒤 홈페이지 공지·이벤트 목록에서 자동으로 사라집니다. 특정 출발일 한정 특가는 출발일 당일이 아니라 <b>출발 2일 전</b>으로 넣어주세요 (임박 예약은 거의 없음).</p>
             </div>
 
             <div className="flex gap-3 pt-2">
