@@ -1651,7 +1651,9 @@
       "해외골프여행",
       "골프패키지"
     ],
-    "relatedTourIds": []
+    "relatedTourIds": [
+      "thailand-bangkok-pattaya-busan"
+    ]
   },
   {
     "slug": "burapha-golf-resort",
@@ -1692,7 +1694,9 @@
       "해외골프여행",
       "골프패키지"
     ],
-    "relatedTourIds": []
+    "relatedTourIds": [
+      "thailand-bangkok-pattaya-busan"
+    ]
   },
   {
     "slug": "khao-kheow-cc",
@@ -1737,6 +1741,8 @@
       "해외골프여행",
       "골프패키지"
     ],
-    "relatedTourIds": []
+    "relatedTourIds": [
+      "thailand-bangkok-pattaya-busan"
+    ]
   }
 ]
