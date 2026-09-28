@@ -515,7 +515,8 @@
     ],
     "relatedTourIds": [
       "malaysia-kota",
-      "malaysia-kota-busan"
+      "malaysia-kota-busan-3n5d",
+      "malaysia-kota-busan-4n6d"
     ]
   },
   {
@@ -1556,7 +1557,8 @@
       "골프패키지"
     ],
     "relatedTourIds": [
-      "malaysia-kota-busan"
+      "malaysia-kota-busan-3n5d",
+      "malaysia-kota-busan-4n6d"
     ]
   },
   {
@@ -1606,7 +1608,135 @@
       "골프패키지"
     ],
     "relatedTourIds": [
-      "malaysia-kota-busan"
+      "malaysia-kota-busan-3n5d",
+      "malaysia-kota-busan-4n6d"
     ]
+  },
+  {
+    "slug": "phoenix-gold-cc",
+    "name": "피닉스골드CC",
+    "nameEn": "Phoenix Gold Golf & Country Club",
+    "region": "파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "오션·레이크·마운틴 3개 나인홀로 구성된 27홀 코스, 파타야 인근 명문 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (오션·레이크·마운틴 나인)"
+      },
+      {
+        "label": "위치",
+        "value": "파타야 인근"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 촌부리주 파타야"
+      }
+    ],
+    "description": "피닉스골드CC는 오션·레이크·마운틴 3개 나인홀을 조합해 27홀로 운영되는 파타야 인근의 명문 골프장입니다.\n\n각 나인마다 다른 지형적 특징을 갖고 있어, 호수를 낀 홀과 구릉지를 활용한 홀을 함께 즐길 수 있는 것이 매력입니다. 방콕·파타야에서 접근이 편리해 여행의파도 태국 골프 패키지에서 자주 찾는 코스 중 하나입니다.",
+    "images": [
+      "/images/phoenix-gold-cc/course-1.png",
+      "/images/phoenix-gold-cc/course-2.png",
+      "/images/phoenix-gold-cc/course-3.png",
+      "/images/phoenix-gold-cc/course-4.png",
+      "/images/phoenix-gold-cc/course-5.png",
+      "/images/phoenix-gold-cc/course-6.png"
+    ],
+    "hashtags": [
+      "피닉스골드CC",
+      "파타야골프장",
+      "방콕파타야골프여행",
+      "태국골프",
+      "해외골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "burapha-golf-resort",
+    "name": "부라파CC",
+    "nameEn": "Burapha Golf & Resort",
+    "region": "파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "A·B·C·D 4개 나인홀, 45홀 규모의 태국 최대급 골프 리조트",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "45홀 (A·B·C·D 나인 조합)"
+      },
+      {
+        "label": "위치",
+        "value": "파타야 인근"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 촌부리주 파타야"
+      }
+    ],
+    "description": "부라파CC는 A·B·C·D 4개 나인홀을 조합해 45홀로 운영되는 태국 최대급 규모의 골프 리조트입니다.\n\n넓은 부지에 여러 코스가 배치되어 있어 매번 다른 조합으로 라운드를 구성할 수 있고, 관리 상태가 좋기로 알려져 있습니다. 파타야 지역 골프여행에서 대표적으로 찾는 코스 중 하나입니다.",
+    "images": [
+      "/images/burapha-golf-resort/course-1.jpg",
+      "/images/burapha-golf-resort/course-2.jpg",
+      "/images/burapha-golf-resort/course-3.jpg",
+      "/images/burapha-golf-resort/course-4.jpg",
+      "/images/burapha-golf-resort/course-5.jpg",
+      "/images/burapha-golf-resort/course-6.jpg"
+    ],
+    "hashtags": [
+      "부라파CC",
+      "파타야골프장",
+      "방콕파타야골프여행",
+      "태국골프",
+      "해외골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "khao-kheow-cc",
+    "name": "카오키여우CC",
+    "nameEn": "Khao Kheow Country Club",
+    "region": "파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "카오키여우산 자락에 자리한 27홀 구릉지 코스, 카오키여우 오픈주 인근",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀"
+      },
+      {
+        "label": "코스 특징",
+        "value": "산 자락의 굴곡진 지형"
+      },
+      {
+        "label": "위치",
+        "value": "카오키여우 오픈주(동물원) 인근"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 촌부리주 시라차"
+      }
+    ],
+    "description": "카오키여우CC는 카오키여우산 자락에 자리한 27홀 골프장으로, 굴곡진 구릉 지형 위에 코스가 조성되어 있어 홀마다 고저차가 있는 전략적인 플레이를 즐길 수 있습니다.\n\n인근에 카오키여우 오픈주(동물원)가 있어 초록이 우거진 자연 환경 속에서 라운드할 수 있는 것이 특징이며, 파타야·시라차 지역 골프여행에서 즐겨 찾는 코스입니다.",
+    "images": [
+      "/images/khao-kheow-cc/course-1.png",
+      "/images/khao-kheow-cc/course-2.png",
+      "/images/khao-kheow-cc/course-3.png",
+      "/images/khao-kheow-cc/course-4.png",
+      "/images/khao-kheow-cc/course-5.png",
+      "/images/khao-kheow-cc/course-6.png"
+    ],
+    "hashtags": [
+      "카오키여우CC",
+      "파타야골프장",
+      "방콕파타야골프여행",
+      "태국골프",
+      "해외골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
   }
 ]
