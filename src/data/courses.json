@@ -915,7 +915,8 @@
       "골프패키지"
     ],
     "relatedTourIds": [
-      "china-weihai-3color"
+      "china-weihai-3color",
+      "china-weihai-2color-unlimited"
     ]
   },
   {
@@ -1743,6 +1744,57 @@
     ],
     "relatedTourIds": [
       "thailand-bangkok-pattaya-busan"
+    ]
+  },
+  {
+    "slug": "hodangga-cc",
+    "name": "호당가CC",
+    "nameEn": "Homey Golf Club (好當家高尔夫俱乐部)",
+    "region": "위해",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "David Dale 설계, 바다·호수·산을 함께 볼 수 있는 36홀(해운·소나무숲) 국제대회급 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "해운(A)코스 18홀 · 소나무숲(B)코스 18홀 (총 36홀)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "해운코스 파72 · 7,207야드 (36홀 합계 14,415야드)"
+      },
+      {
+        "label": "설계",
+        "value": "David Dale (자연 지형·바닷바람을 고려해 설계)"
+      },
+      {
+        "label": "조성",
+        "value": "해안 저지대·습지를 매립해 조성"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 산둥성 위해"
+      }
+    ],
+    "description": "호당가CC(정식명 好當家, Homey Golf Club)는 해운(A)코스와 소나무숲(B)코스 각 18홀씩 총 36홀로 이루어진 국제대회급 골프장입니다. 세계적인 코스 디자이너 David Dale이 자연 지형과 바닷바람을 고려해 설계했으며, 해운코스는 파72·7,207야드, 36홀 전체 길이는 14,415야드에 이릅니다.\n\n원래 바닷가 저지대와 습지였던 땅을 매립해 조성한 코스로, 지대는 낮지만 산과 인공호수, 바다를 한 자리에서 모두 볼 수 있는 것이 특징입니다.\n\n여행의파도 위해 골프여행에서는 천익CC와 함께 체류 기간 내내 무제한으로 라운딩할 수 있는 코스 중 하나로 이용됩니다.",
+    "images": [
+      "/images/china-weihai-3color/호당가/course-1.jpg",
+      "/images/china-weihai-3color/호당가/course-2.jpg",
+      "/images/china-weihai-3color/호당가/course-3.jpg",
+      "/images/china-weihai-3color/호당가/course-4.jpg",
+      "/images/china-weihai-3color/호당가/course-5.jpg"
+    ],
+    "hashtags": [
+      "호당가CC",
+      "위해골프장",
+      "위해골프여행",
+      "웨이하이골프",
+      "중국골프여행",
+      "무제한골프",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-weihai-2color-unlimited"
     ]
   }
 ]

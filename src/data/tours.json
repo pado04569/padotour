@@ -22288,5 +22288,113 @@
       "일본골프여행",
       "인천출발"
     ]
+  },
+  {
+    "id": "china-weihai-2color-unlimited",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "위해",
+    "title": "[인천출발] 중국 위해 골프여행 2색 무제한 3박4일 549,000원부터",
+    "subtitle": "인천 직항(약 60분) · 위해 구룡성 백조호텔(정4성급, 2인 1실) · 천익CC·호당가CC 무제한 라운딩",
+    "nights": "3",
+    "days": "4",
+    "courses": "천익CC / 호당가CC",
+    "roundsIncluded": "무제한",
+    "holes": "원하는 만큼 선택\n54홀 · 72홀 · 90홀",
+    "minPeople": "24명 (선착순 한정)",
+    "period": "2026년 10월 25일 출발 (1회 한정)",
+    "hotel": "위해 구룡성 백조호텔 (정4성급, 2인 1실)",
+    "hotelDesc": "위해공항에서 약 30분 거리의 정4성급 호텔입니다. 주변에 마사지숍·백화점·꼬치집·과일가게 등이 있어 라운딩 후 도보로 즐길 거리가 많습니다. 호텔에서 호당가CC까지 15분, 천익CC까지 20분 거리로 이동이 짧습니다.",
+    "golfCourse": "천익CC / 호당가CC",
+    "golfCourseDesc": "위해 명문 2색 코스인 천익CC와 호당가CC에서 원하는 홀 수만큼 골라 라운딩하는 자유 선택 무제한 상품입니다. 54홀(18-18-18-0), 72홀(18-27-27-0), 90홀(18-36-36-0) 중 선택할 수 있습니다.",
+    "productSummary": "인천-위해 직항 약 60분으로 떠나는 위해 2색 무제한 골프 패키지입니다. 천익CC·호당가CC에서 원하는 홀수(54·72·90홀)를 골라 라운딩하고, 무제한 샤브샤브·삼겹살 식사와 정4성급 구룡성 백조호텔 3박4일이 함께합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 위해 → 천익CC",
+        "desc": "인천국제공항 출발(10:30) → 위해국제공항 도착(10:50, 비행시간 약 60분) → 현지 직원 미팅 후 골프장 이동(약 20분) → 천익CC 18홀 라운딩 → 호텔 이동(약 20분) → 체크인 및 휴식 [중식 불포함 / 석식 무제한 샤브샤브(주류 포함)]"
+      },
+      {
+        "day": "2일차",
+        "label": "호당가CC 18~36홀 라운딩",
+        "desc": "호텔 조식 후 골프장 이동(약 15분) → 호당가CC 18홀~36홀 라운딩(선택 홀수에 따라) → 석식 후 자유시간 및 휴식 [조식 호텔식 / 중식 불포함 / 석식 무제한 삼겹살]"
+      },
+      {
+        "day": "3일차",
+        "label": "천익CC 18~36홀 라운딩",
+        "desc": "호텔 조식 후 골프장 이동(약 20분) → 천익CC 18홀~36홀 라운딩(선택 홀수에 따라) → 석식 후 자유시간 및 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "4일차",
+        "label": "위해 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 공항 이동(약 30분) → 위해국제공항 출발(14:00) → 인천국제공항 도착 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "인천-위해 직항 약 60분, 공항-호텔 30분·호텔-골프장 15~20분 짧은 동선",
+      "천익CC·호당가CC 2색 무제한 라운딩, 54·72·90홀 중 선택",
+      "무제한 샤브샤브(주류 포함)·무제한 삼겹살 식사",
+      "수하물 20kg (추가 5kg 가능)",
+      "정4성급 구룡성 백조호텔, 도보권에 마사지숍·백화점·먹거리",
+      "10월 25일 1회 한정, 24명까지만 가능한 특가"
+    ],
+    "includes": [
+      "왕복항공료",
+      "숙박 3박 (구룡성 백조호텔, 2인 1실)",
+      "전일정 그린피·카트피",
+      "석식 무제한(샤브샤브·삼겹살 등, 선택 홀수에 포함된 일정 기준)",
+      "수하물 20kg",
+      "여행자보험"
+    ],
+    "excludes": [
+      "조식 외 별도 중식",
+      "캐디피·캐디팁",
+      "개인경비 및 매너팁",
+      "선택 홀수 초과 라운딩 추가요금"
+    ],
+    "cancelPolicy": [
+      "54홀(18-18-18-0) 549,000원 / 72홀(18-27-27-0) 579,000원 / 90홀(18-36-36-0) 599,000원 중 선택하실 수 있습니다.",
+      "24명 한정 특가로, 선착순 마감될 수 있습니다.",
+      "수하물은 20kg 기준이며 5kg 추가 가능합니다.",
+      "골프장 상황에 따라 코스 배정이 변경될 수 있습니다.",
+      "여권은 유효기간 6개월 이상 남아있어야 합니다."
+    ],
+    "price": "549,000원~",
+    "image": "/images/china-weihai-3color/호당가/course-3.jpg",
+    "images": [
+      "/images/china-weihai-3color/호당가/course-3.jpg",
+      "/images/china-weihai-3color/호당가/course-2.jpg",
+      "/images/china-weihai-3color/구룡성백조호텔/hotel-4.jpg",
+      "/images/china-weihai-3color/호당가/course-1.jpg",
+      "/images/china-weihai-3color/구룡성백조호텔/hotel-1.jpg",
+      "/images/china-weihai-3color/호당가/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-weihai-3color/구룡성백조호텔/hotel-1.jpg",
+      "/images/china-weihai-3color/구룡성백조호텔/hotel-2.jpg",
+      "/images/china-weihai-3color/구룡성백조호텔/hotel-3.jpg",
+      "/images/china-weihai-3color/구룡성백조호텔/hotel-4.jpg"
+    ],
+    "courseImages": [
+      "/images/china-weihai-3color/호당가/course-1.jpg",
+      "/images/china-weihai-3color/호당가/course-2.jpg",
+      "/images/china-weihai-3color/호당가/course-3.jpg",
+      "/images/china-weihai-3color/호당가/course-4.jpg",
+      "/images/china-weihai-3color/호당가/course-5.jpg",
+      "/images/china-weihai-3color/천익CC/KakaoTalk_20260906_220640169_13.jpg",
+      "/images/china-weihai-3color/천익CC/KakaoTalk_20260906_220640169_14.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-09-29",
+    "seoIntro": "인천 출발 위해 골프여행 3박4일 상품으로, 천익CC·호당가CC에서 54·72·90홀 중 원하는 만큼 무제한으로 라운딩하는 2색 골프패키지입니다.",
+    "seoKeywords": [
+      "위해골프",
+      "위해골프여행",
+      "웨이하이골프",
+      "무제한골프",
+      "중국골프여행",
+      "인천출발"
+    ]
   }
 ]
