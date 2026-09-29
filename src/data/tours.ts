@@ -25,8 +25,9 @@ export type Tour = {
   cancelPolicy?: string[];
   departurePrices?: { date: string; price: number; nights?: number; days?: number }[];
   /** 날짜별이 아니라 홀수(선택 라운딩량)에 따라 요금이 갈리는 상품용 — 예: 54/72/90홀 3단계 */
-  holePriceTiers?: { holes: number; pattern?: string; price: number }[];
-  /** holePriceTiers 상품의 실제 출발일(YYYY-MM-DD) — 문의 접수 시 departureDate로 사용 */
+  holePriceTiers?: { holes: number; pattern?: string; price: number; label?: string; nights?: number; days?: number }[];
+  /** holePriceTiers 상품의 실제 출발일(YYYY-MM-DD) — 문의 접수 시 departureDate로 사용.
+   *  단계에 nights가 있으면(박수별 요금 상품) departurePrices에서 그 박수의 출발일을 골라 쓴다. */
   holePriceDepartureDate?: string;
   price: string;
   image: string;

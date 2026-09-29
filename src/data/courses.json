@@ -1797,5 +1797,61 @@
     "relatedTourIds": [
       "china-weihai-2color-unlimited"
     ]
+  },
+  {
+    "slug": "pacific-blue-cc",
+    "name": "퍼시픽 블루CC",
+    "nameEn": "Pacific Blue Golf & Resort",
+    "region": "오이타",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "세베 바예스테로스 설계 18홀 7,085야드, 태평양을 내려다보는 오이타 오션뷰 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "7,085야드"
+      },
+      {
+        "label": "개장",
+        "value": "1991년"
+      },
+      {
+        "label": "설계",
+        "value": "세베 바예스테로스"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오이타현 쿠니사키시"
+      },
+      {
+        "label": "접근",
+        "value": "오이타공항에서 차로 약 20분"
+      }
+    ],
+    "description": "퍼시픽 블루CC는 1991년 문을 연 18홀 7,085야드 코스로, 스페인의 골프 전설 세베 바예스테로스가 설계했습니다. 규슈 오이타현 쿠니사키시에 있으며 오이타공항에서 차로 약 20분 거리입니다.\n\n코스 곳곳에서 태평양을 내려다볼 수 있는 오션뷰 레이아웃이 특징입니다. 제주 서귀포와 비슷한 위도라 연중 기후가 온화해 사계절 라운드가 가능하고, 길이 145m로 기네스북에 오른 전면 유리 클럽하우스에서 바다를 보며 식사할 수 있습니다.\n\n여행의파도 오이타 골프여행은 제주항공 인천-오이타 직항으로 도착 당일부터 18홀을 돌고, 골프장 안 퍼시픽블루 골프&리조트에 묵습니다. 3박4일 54홀·4박5일 72홀·5박6일 90홀 중 고를 수 있으며, 캐디 없이 셀프 승용카트로 라운드합니다.",
+    "images": [
+      "/images/oita-pacific/course-4.jpg",
+      "/images/oita-pacific/course-1.jpg",
+      "/images/oita-pacific/course-2.jpg",
+      "/images/oita-pacific/course-3.jpg",
+      "/images/oita-pacific/course-5.jpg",
+      "/images/oita-pacific/course-6.jpg"
+    ],
+    "hashtags": [
+      "퍼시픽블루CC",
+      "오이타골프장",
+      "오이타골프여행",
+      "규슈골프여행",
+      "일본골프여행",
+      "오션뷰골프장",
+      "해외골프패키지"
+    ],
+    "relatedTourIds": [
+      "japan-oita-pacific"
+    ]
   }
 ]

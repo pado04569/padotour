@@ -39,7 +39,15 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const tour = tours.find((t) => t.id === id);
   if (!tour) notFound();
 
-  const dep = tour.departure === "incheon" ? "incheon" : tour.departure === "busan" ? "busan" : undefined;
+  // 박수별 요금 상품(요금 단계에 nights가 있음) — 일정 칸·일정 제목을 "3박4일 · 4박5일 · 5박6일"로
+  const nightTiers = (tour.holePriceTiers ?? []).filter((t) => t.nights != null && t.days != null);
+  const tierNightsText = nightTiers.length > 0 ? nightTiers.map((t) => `${t.nights}박${t.days}일`).join(" · ") : undefined;
+  const tierNightsRange =
+    nightTiers.length > 1
+      ? `${nightTiers[0].nights}박${nightTiers[0].days}일 ~ ${nightTiers[nightTiers.length - 1].nights}박${nightTiers[nightTiers.length - 1].days}일`
+      : tierNightsText;
+
+  const dep =tour.departure === "incheon" ? "incheon" : tour.departure === "busan" ? "busan" : undefined;
   const backHref = dep ? `/${dep}` : "/";
   const heroImage = tour.images && tour.images.length > 0 ? tour.images[0] : tour.image;
 
@@ -189,7 +197,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           return (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
           {[
-            { icon: "🌙", label: "일정", value: `${tour.nights}박 ${tour.days}일` },
+            { icon: "🌙", label: "일정", value: tierNightsText ?? `${tour.nights}박 ${tour.days}일` },
             { icon: "⛳", label: "라운드", value: `${tour.roundsIncluded}라운드 ${holesText}` },
             { icon: "👥", label: "최소 인원", value: minPeopleText },
             { icon: "📅", label: "출발 기간", value: tour.period ?? "연중 출발" },
@@ -243,7 +251,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {tour.holePriceTiers && tour.holePriceTiers.length > 0 ? (
           <div className="mb-8">
             {tour.period && (
-              <p className="text-sm text-gray-500 mb-2">{tour.period} · 홀수 선택제 요금</p>
+              <p className="text-sm text-gray-500 mb-2">{tour.period} · {tierNightsText ? "일정 선택제 요금" : "홀수 선택제 요금"}</p>
             )}
             <HolePriceTierSelector
               tourTitle={tour.title}
@@ -251,6 +259,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               nights={tour.nights}
               days={tour.days}
               tiers={tour.holePriceTiers}
+              departurePrices={tour.departurePrices}
             />
           </div>
         ) : tour.departurePrices && tour.departurePrices.length > 0 ? (
@@ -355,7 +364,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 여행 일정 ── */}
         {tour.schedule && tour.schedule.length > 0 && (
           <div className="mb-8">
-            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📋 {tour.region} 골프여행 {tour.nights}박{tour.days}일 일정</h2>
+            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📋 {tour.region} 골프여행 {tierNightsRange ?? `${tour.nights}박${tour.days}일`} 일정</h2>
             <div className="space-y-3">
               {tour.schedule.map((s, i) => (
                 <div key={i} className="flex gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
