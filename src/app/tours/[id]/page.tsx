@@ -238,8 +238,24 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <p className="text-xs text-emerald-600 font-bold mt-3">👇 문의하기</p>
         </Link>
 
-        {/* ── 출발일 캘린더 + 요금 ── */}
-        {tour.departurePrices && tour.departurePrices.length > 0 ? (
+        {/* ── 출발일 캘린더 + 요금 / 홀수별 요금 ── */}
+        {tour.holePriceTiers && tour.holePriceTiers.length > 0 ? (
+          <div className="mb-8">
+            {tour.period && (
+              <p className="text-sm text-gray-500 mb-2">{tour.period} · 홀수 선택제 요금</p>
+            )}
+            <div className={`grid gap-3 ${tour.holePriceTiers.length === 3 ? "grid-cols-3" : "grid-cols-2"}`}>
+              {tour.holePriceTiers.map((tier) => (
+                <div key={tier.holes} className="bg-emerald-50 border border-emerald-200 rounded-2xl p-3 md:p-5 text-center">
+                  <p className="text-sm md:text-base font-black text-gray-800 mb-1">{tier.holes}홀</p>
+                  {tier.pattern && <p className="text-[11px] md:text-xs text-gray-400 mb-2">({tier.pattern})</p>}
+                  <p className="text-lg md:text-2xl font-black text-emerald-700">{tier.price.toLocaleString()}원</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-xs text-gray-400 mt-2">※ 선택한 홀 수에 따라 요금이 달라집니다</p>
+          </div>
+        ) : tour.departurePrices && tour.departurePrices.length > 0 ? (
           <div className="mb-8">
             <DeparturePriceCalendar
               departurePrices={tour.departurePrices}

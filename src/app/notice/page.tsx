@@ -42,7 +42,7 @@ export default function NoticePage() {
 
             if (linkedTour) {
               return (
-                <div key={notice.id} className="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 md:p-6 hover:shadow-md transition-shadow">
+                <div key={notice.id} className="bg-white rounded-2xl shadow-sm border border-gray-100 p-3 md:p-4 hover:shadow-md transition-shadow">
                   {notice.isEvent ? (
                     <span className="inline-block bg-red-100 text-red-600 text-xs font-bold px-2.5 py-1 rounded-lg mb-3">
                       이벤트
@@ -52,8 +52,8 @@ export default function NoticePage() {
                       공지
                     </span>
                   )}
-                  <div className="max-w-sm mx-auto">
-                    <TourCard tour={linkedTour} />
+                  <div className="max-w-none">
+                    <TourCard tour={linkedTour} featured />
                   </div>
                   <p className="text-gray-400 text-xs mt-4 text-center">{notice.date}</p>
                 </div>

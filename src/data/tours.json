@@ -22360,8 +22360,9 @@
       "여권은 유효기간 6개월 이상 남아있어야 합니다."
     ],
     "price": "549,000원~",
-    "image": "/images/china-weihai-3color/호당가/course-3.jpg",
+    "image": "/images/china-weihai-3color/호당가/course-6.jpg",
     "images": [
+      "/images/china-weihai-3color/호당가/course-6.jpg",
       "/images/china-weihai-3color/호당가/course-3.jpg",
       "/images/china-weihai-3color/호당가/course-2.jpg",
       "/images/china-weihai-3color/구룡성백조호텔/hotel-4.jpg",
@@ -22376,6 +22377,7 @@
       "/images/china-weihai-3color/구룡성백조호텔/hotel-4.jpg"
     ],
     "courseImages": [
+      "/images/china-weihai-3color/호당가/course-6.jpg",
       "/images/china-weihai-3color/호당가/course-1.jpg",
       "/images/china-weihai-3color/호당가/course-2.jpg",
       "/images/china-weihai-3color/호당가/course-3.jpg",
@@ -22395,6 +22397,23 @@
       "무제한골프",
       "중국골프여행",
       "인천출발"
+    ],
+    "holePriceTiers": [
+      {
+        "holes": 54,
+        "pattern": "18-18-18-0",
+        "price": 549000
+      },
+      {
+        "holes": 72,
+        "pattern": "18-27-27-0",
+        "price": 579000
+      },
+      {
+        "holes": 90,
+        "pattern": "18-36-36-0",
+        "price": 599000
+      }
     ]
   }
 ]

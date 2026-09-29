@@ -24,6 +24,8 @@ export type Tour = {
   excludes: string[];
   cancelPolicy?: string[];
   departurePrices?: { date: string; price: number; nights?: number; days?: number }[];
+  /** 날짜별이 아니라 홀수(선택 라운딩량)에 따라 요금이 갈리는 상품용 — 예: 54/72/90홀 3단계 */
+  holePriceTiers?: { holes: number; pattern?: string; price: number }[];
   price: string;
   image: string;
   images?: string[];
