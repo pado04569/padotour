@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
 import { track } from "@/lib/analytics";
 
@@ -49,19 +49,6 @@ export default function ContactOptions({
     }
   }
 
-  // 홀수별 요금 카드(PriceTierCard)를 누르면 스크롤뿐 아니라 이 박스를 바로 펼쳐준다
-  // (사장님 지적 2026-09-29: 파란 문의접수로 스크롤만 되는 게 아니라 노란 견적 폼이 바로 열려야 함)
-  useEffect(() => {
-    function openFromEvent() {
-      setOpen(true);
-      if (!openedOnce.current) {
-        openedOnce.current = true;
-        track("inquiry_open", { item_name: tourTitle });
-      }
-    }
-    window.addEventListener("padotour-open-inquiry", openFromEvent);
-    return () => window.removeEventListener("padotour-open-inquiry", openFromEvent);
-  }, [tourTitle]);
 
   /** 폼에 처음 손을 댄 순간 1회 — 어디까지 왔다가 그만두는지 보기 위함 */
   function markStart(field: "date" | "people" | "phone") {

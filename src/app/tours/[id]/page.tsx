@@ -4,7 +4,7 @@ import PhotoGrid from "@/components/PhotoGrid";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
-import PriceTierCard from "@/components/PriceTierCard";
+import HolePriceTierSelector from "@/components/HolePriceTierSelector";
 import ContactOptions from "@/components/ContactOptions";
 import ViewItemTracker from "@/components/ViewItemTracker";
 import ShareButton from "@/components/ShareButton";
@@ -245,12 +245,13 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             {tour.period && (
               <p className="text-sm text-gray-500 mb-2">{tour.period} · 홀수 선택제 요금</p>
             )}
-            <div className={`grid gap-3 ${tour.holePriceTiers.length === 3 ? "grid-cols-3" : "grid-cols-2"}`}>
-              {tour.holePriceTiers.map((tier) => (
-                <PriceTierCard key={tier.holes} holes={tier.holes} pattern={tier.pattern} price={tier.price} />
-              ))}
-            </div>
-            <p className="text-xs text-gray-400 mt-2">※ 선택한 홀 수에 따라 요금이 달라집니다 · 카드를 누르면 예약 문의·맞춤 견적이 바로 열립니다</p>
+            <HolePriceTierSelector
+              tourTitle={tour.title}
+              departureDate={tour.holePriceDepartureDate ?? ""}
+              nights={tour.nights}
+              days={tour.days}
+              tiers={tour.holePriceTiers}
+            />
           </div>
         ) : tour.departurePrices && tour.departurePrices.length > 0 ? (
           <div className="mb-8">
