@@ -246,14 +246,18 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             )}
             <div className={`grid gap-3 ${tour.holePriceTiers.length === 3 ? "grid-cols-3" : "grid-cols-2"}`}>
               {tour.holePriceTiers.map((tier) => (
-                <div key={tier.holes} className="bg-emerald-50 border border-emerald-200 rounded-2xl p-3 md:p-5 text-center">
+                <Link
+                  key={tier.holes}
+                  href="#inquiry"
+                  className="block bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 rounded-2xl p-3 md:p-5 text-center transition-colors"
+                >
                   <p className="text-sm md:text-base font-black text-gray-800 mb-1">{tier.holes}홀</p>
                   {tier.pattern && <p className="text-[11px] md:text-xs text-gray-400 mb-2">({tier.pattern})</p>}
-                  <p className="text-lg md:text-2xl font-black text-emerald-700">{tier.price.toLocaleString()}원</p>
-                </div>
+                  <p className="text-lg md:text-2xl font-black text-red-600">{tier.price.toLocaleString()}원</p>
+                </Link>
               ))}
             </div>
-            <p className="text-xs text-gray-400 mt-2">※ 선택한 홀 수에 따라 요금이 달라집니다</p>
+            <p className="text-xs text-gray-400 mt-2">※ 선택한 홀 수에 따라 요금이 달라집니다 · 카드를 누르면 문의 접수로 이동합니다</p>
           </div>
         ) : tour.departurePrices && tour.departurePrices.length > 0 ? (
           <div className="mb-8">
