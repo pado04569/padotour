@@ -7865,157 +7865,610 @@
       "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
     ],
     "departurePrices": [
-      { "date": "2026-11-01", "price": 1029000 },
-      { "date": "2026-11-02", "price": 1029000 },
-      { "date": "2026-11-03", "price": 1029000 },
-      { "date": "2026-11-04", "price": 1079000 },
-      { "date": "2026-11-05", "price": 1079000 },
-      { "date": "2026-11-06", "price": 1079000 },
-      { "date": "2026-11-07", "price": 1029000 },
-      { "date": "2026-11-08", "price": 1029000 },
-      { "date": "2026-11-09", "price": 1029000 },
-      { "date": "2026-11-10", "price": 1029000 },
-      { "date": "2026-11-11", "price": 1079000 },
-      { "date": "2026-11-12", "price": 1079000 },
-      { "date": "2026-11-13", "price": 1079000 },
-      { "date": "2026-11-14", "price": 1029000 },
-      { "date": "2026-11-15", "price": 1029000 },
-      { "date": "2026-11-16", "price": 1029000 },
-      { "date": "2026-11-17", "price": 1029000 },
-      { "date": "2026-11-18", "price": 1079000 },
-      { "date": "2026-11-19", "price": 1079000 },
-      { "date": "2026-11-20", "price": 1079000 },
-      { "date": "2026-11-21", "price": 1029000 },
-      { "date": "2026-11-22", "price": 1029000 },
-      { "date": "2026-11-23", "price": 1029000 },
-      { "date": "2026-11-24", "price": 1029000 },
-      { "date": "2026-11-25", "price": 1079000 },
-      { "date": "2026-11-26", "price": 1079000 },
-      { "date": "2026-11-27", "price": 1079000 },
-      { "date": "2026-11-28", "price": 1029000 },
-      { "date": "2026-11-29", "price": 1029000 },
-      { "date": "2026-11-30", "price": 1029000 },
-      { "date": "2026-12-01", "price": 1029000 },
-      { "date": "2026-12-02", "price": 1079000 },
-      { "date": "2026-12-03", "price": 1079000 },
-      { "date": "2026-12-04", "price": 1079000 },
-      { "date": "2026-12-05", "price": 1029000 },
-      { "date": "2026-12-06", "price": 1029000 },
-      { "date": "2026-12-07", "price": 1029000 },
-      { "date": "2026-12-08", "price": 1029000 },
-      { "date": "2026-12-09", "price": 1079000 },
-      { "date": "2026-12-10", "price": 1079000 },
-      { "date": "2026-12-11", "price": 1079000 },
-      { "date": "2026-12-12", "price": 1029000 },
-      { "date": "2026-12-13", "price": 1029000 },
-      { "date": "2026-12-14", "price": 1029000 },
-      { "date": "2026-12-15", "price": 1029000 },
-      { "date": "2026-12-16", "price": 1079000 },
-      { "date": "2026-12-17", "price": 1079000 },
-      { "date": "2026-12-18", "price": 1129000 },
-      { "date": "2026-12-19", "price": 1079000 },
-      { "date": "2026-12-20", "price": 1079000 },
-      { "date": "2026-12-21", "price": 1079000 },
-      { "date": "2026-12-22", "price": 1079000 },
-      { "date": "2026-12-23", "price": 1229000 },
-      { "date": "2026-12-24", "price": 1229000 },
-      { "date": "2026-12-25", "price": 1229000 },
-      { "date": "2026-12-26", "price": 1159000 },
-      { "date": "2026-12-27", "price": 1159000 },
-      { "date": "2026-12-28", "price": 1159000 },
-      { "date": "2026-12-29", "price": 1159000 },
-      { "date": "2026-12-30", "price": 1229000 },
-      { "date": "2026-12-31", "price": 1229000 },
-      { "date": "2027-01-01", "price": 1229000 },
-      { "date": "2027-01-02", "price": 1159000 },
-      { "date": "2027-01-03", "price": 1159000 },
-      { "date": "2027-01-04", "price": 1159000 },
-      { "date": "2027-01-05", "price": 1159000 },
-      { "date": "2027-01-06", "price": 1199000 },
-      { "date": "2027-01-07", "price": 1199000 },
-      { "date": "2027-01-08", "price": 1199000 },
-      { "date": "2027-01-09", "price": 1159000 },
-      { "date": "2027-01-10", "price": 1159000 },
-      { "date": "2027-01-11", "price": 1159000 },
-      { "date": "2027-01-12", "price": 1159000 },
-      { "date": "2027-01-13", "price": 1199000 },
-      { "date": "2027-01-14", "price": 1199000 },
-      { "date": "2027-01-15", "price": 1199000 },
-      { "date": "2027-01-16", "price": 1159000 },
-      { "date": "2027-01-17", "price": 1159000 },
-      { "date": "2027-01-18", "price": 1159000 },
-      { "date": "2027-01-19", "price": 1159000 },
-      { "date": "2027-01-20", "price": 1199000 },
-      { "date": "2027-01-21", "price": 1199000 },
-      { "date": "2027-01-22", "price": 1199000 },
-      { "date": "2027-01-23", "price": 1129000 },
-      { "date": "2027-01-24", "price": 1129000 },
-      { "date": "2027-01-25", "price": 1129000 },
-      { "date": "2027-01-26", "price": 1129000 },
-      { "date": "2027-01-27", "price": 1159000 },
-      { "date": "2027-01-28", "price": 1159000 },
-      { "date": "2027-01-29", "price": 1159000 },
-      { "date": "2027-01-30", "price": 1079000 },
-      { "date": "2027-01-31", "price": 1079000 },
-      { "date": "2027-02-01", "price": 1079000 },
-      { "date": "2027-02-02", "price": 1079000 },
-      { "date": "2027-02-03", "price": 1229000 },
-      { "date": "2027-02-04", "price": 1449000 },
-      { "date": "2027-02-05", "price": 1729000 },
-      { "date": "2027-02-06", "price": 1599000 },
-      { "date": "2027-02-07", "price": 1399000 },
-      { "date": "2027-02-08", "price": 1199000 },
-      { "date": "2027-02-09", "price": 1079000 },
-      { "date": "2027-02-10", "price": 1129000 },
-      { "date": "2027-02-11", "price": 1129000 },
-      { "date": "2027-02-12", "price": 1129000 },
-      { "date": "2027-02-13", "price": 1079000 },
-      { "date": "2027-02-14", "price": 1079000 },
-      { "date": "2027-02-15", "price": 1079000 },
-      { "date": "2027-02-16", "price": 1079000 },
-      { "date": "2027-02-17", "price": 1199000 },
-      { "date": "2027-02-18", "price": 1199000 },
-      { "date": "2027-02-19", "price": 1199000 },
-      { "date": "2027-02-20", "price": 1159000 },
-      { "date": "2027-02-21", "price": 1159000 },
-      { "date": "2027-02-22", "price": 1159000 },
-      { "date": "2027-02-23", "price": 1159000 },
-      { "date": "2027-02-24", "price": 1229000 },
-      { "date": "2027-02-25", "price": 1329000 },
-      { "date": "2027-02-26", "price": 1329000 },
-      { "date": "2027-02-27", "price": 1159000 },
-      { "date": "2027-02-28", "price": 1029000 },
-      { "date": "2027-03-01", "price": 1029000 },
-      { "date": "2027-03-02", "price": 1029000 },
-      { "date": "2027-03-03", "price": 1079000 },
-      { "date": "2027-03-04", "price": 1079000 },
-      { "date": "2027-03-05", "price": 1079000 },
-      { "date": "2027-03-06", "price": 1029000 },
-      { "date": "2027-03-07", "price": 1029000 },
-      { "date": "2027-03-08", "price": 1029000 },
-      { "date": "2027-03-09", "price": 1029000 },
-      { "date": "2027-03-10", "price": 1079000 },
-      { "date": "2027-03-11", "price": 1079000 },
-      { "date": "2027-03-12", "price": 1079000 },
-      { "date": "2027-03-13", "price": 1029000 },
-      { "date": "2027-03-14", "price": 1029000 },
-      { "date": "2027-03-15", "price": 1029000 },
-      { "date": "2027-03-16", "price": 1029000 },
-      { "date": "2027-03-17", "price": 1079000 },
-      { "date": "2027-03-18", "price": 1079000 },
-      { "date": "2027-03-19", "price": 1079000 },
-      { "date": "2027-03-20", "price": 1029000 },
-      { "date": "2027-03-21", "price": 1029000 },
-      { "date": "2027-03-22", "price": 1029000 },
-      { "date": "2027-03-23", "price": 1029000 },
-      { "date": "2027-03-24", "price": 1079000 },
-      { "date": "2027-03-25", "price": 1079000 },
-      { "date": "2027-03-26", "price": 1079000 },
-      { "date": "2027-03-27", "price": 1029000 },
-      { "date": "2027-03-28", "price": 1029000 },
-      { "date": "2027-03-29", "price": 1029000 },
-      { "date": "2027-03-30", "price": 1029000 },
-      { "date": "2027-03-31", "price": 1079000 }
+      {
+        "date": "2026-11-01",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-02",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-03",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-04",
+        "price": 1079000
+      },
+      {
+        "date": "2026-11-05",
+        "price": 1079000
+      },
+      {
+        "date": "2026-11-06",
+        "price": 1079000
+      },
+      {
+        "date": "2026-11-07",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-08",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-09",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-10",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-11",
+        "price": 1079000
+      },
+      {
+        "date": "2026-11-12",
+        "price": 1079000
+      },
+      {
+        "date": "2026-11-13",
+        "price": 1079000
+      },
+      {
+        "date": "2026-11-14",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-15",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-16",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-17",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1079000
+      },
+      {
+        "date": "2026-11-19",
+        "price": 1079000
+      },
+      {
+        "date": "2026-11-20",
+        "price": 1079000
+      },
+      {
+        "date": "2026-11-21",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-23",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-24",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-25",
+        "price": 1079000
+      },
+      {
+        "date": "2026-11-26",
+        "price": 1079000
+      },
+      {
+        "date": "2026-11-27",
+        "price": 1079000
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-29",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-30",
+        "price": 1029000
+      },
+      {
+        "date": "2026-12-01",
+        "price": 1029000
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1079000
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1079000
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1079000
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1029000
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1029000
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1029000
+      },
+      {
+        "date": "2026-12-08",
+        "price": 1029000
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1079000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1079000
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1079000
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1029000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1029000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1029000
+      },
+      {
+        "date": "2026-12-15",
+        "price": 1029000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1079000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1079000
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1129000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1079000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1079000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1079000
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1079000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1229000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1229000
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1229000
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1159000
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1159000
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1159000
+      },
+      {
+        "date": "2026-12-29",
+        "price": 1159000
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1229000
+      },
+      {
+        "date": "2026-12-31",
+        "price": 1229000
+      },
+      {
+        "date": "2027-01-01",
+        "price": 1229000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1129000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1129000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1129000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1129000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1159000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1079000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1079000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1079000
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1079000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1229000
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1449000
+      },
+      {
+        "date": "2027-02-05",
+        "price": 1729000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1599000
+      },
+      {
+        "date": "2027-02-07",
+        "price": 1399000
+      },
+      {
+        "date": "2027-02-08",
+        "price": 1199000
+      },
+      {
+        "date": "2027-02-09",
+        "price": 1079000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1129000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1129000
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1129000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1079000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1079000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1079000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1079000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1199000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1199000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1199000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1159000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1159000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1159000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1159000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1229000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1329000
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1329000
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1159000
+      },
+      {
+        "date": "2027-02-28",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-01",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-02",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-03",
+        "price": 1079000
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1079000
+      },
+      {
+        "date": "2027-03-05",
+        "price": 1079000
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-07",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-08",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-09",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-10",
+        "price": 1079000
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1079000
+      },
+      {
+        "date": "2027-03-12",
+        "price": 1079000
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-14",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-15",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-16",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-17",
+        "price": 1079000
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1079000
+      },
+      {
+        "date": "2027-03-19",
+        "price": 1079000
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-21",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-22",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-23",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-24",
+        "price": 1079000
+      },
+      {
+        "date": "2027-03-25",
+        "price": 1079000
+      },
+      {
+        "date": "2027-03-26",
+        "price": 1079000
+      },
+      {
+        "date": "2027-03-27",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-28",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-29",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-30",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-31",
+        "price": 1079000
+      }
     ],
     "hotelImages": [
       "/images/bangkok-pattaya-busan/hotel-lobby.webp",
@@ -8034,10 +8487,10 @@
       "/images/khao-kheow-cc/course-2.png"
     ],
     "price": "1,029,000원~",
-    "image": "/images/bangkok-pattaya-busan/hotel-pool.webp",
+    "image": "/images/phoenix-gold-cc/course-1.png",
     "images": [
-      "/images/bangkok-pattaya-busan/hotel-pool.webp",
       "/images/phoenix-gold-cc/course-1.png",
+      "/images/bangkok-pattaya-busan/hotel-pool.webp",
       "/images/burapha-golf-resort/course-1.jpg",
       "/images/khao-kheow-cc/course-1.png",
       "/images/bangkok-pattaya-busan/hotel-lobby.webp",
@@ -8573,8 +9026,9 @@
       "/images/chiangmai-maejo/course-6.jpg"
     ],
     "price": "899,000원~",
-    "image": "/images/chiangmai-maejo/hotel-6.jpg",
+    "image": "/images/chiangmai-maejo/course-1.jpg",
     "images": [
+      "/images/chiangmai-maejo/course-1.jpg",
       "/images/chiangmai-maejo/hotel-6.jpg",
       "/images/chiangmai-maejo/course-3.jpg",
       "/images/chiangmai-maejo/hotel-5.jpg"
@@ -8801,8 +9255,9 @@
       "/images/chiangmai-maejo/course-6.jpg"
     ],
     "price": "999,000원~",
-    "image": "/images/chiangmai-maejo/hotel-6.jpg",
+    "image": "/images/chiangmai-maejo/course-1.jpg",
     "images": [
+      "/images/chiangmai-maejo/course-1.jpg",
       "/images/chiangmai-maejo/hotel-6.jpg",
       "/images/chiangmai-maejo/course-3.jpg",
       "/images/chiangmai-maejo/hotel-5.jpg"
@@ -9960,10 +10415,10 @@
       }
     ],
     "price": "1,189,000원~",
-    "image": "/images/guam-pineeast-busan/hotel-exterior.jpg",
+    "image": "/images/guam-pineeast-busan/course-1.jpg",
     "images": [
-      "/images/guam-pineeast-busan/hotel-exterior.jpg",
       "/images/guam-pineeast-busan/course-1.jpg",
+      "/images/guam-pineeast-busan/hotel-exterior.jpg",
       "/images/guam-pineeast-busan/hotel-pool-1.jpg",
       "/images/guam-pineeast-busan/course-3.jpg",
       "/images/guam-pineeast-busan/hotel-room-1.jpg",
@@ -10608,27 +11063,72 @@
       "여권은 출발일 기준 만료일이 6개월 이상 남아있어야 합니다."
     ],
     "departurePrices": [
-      { "date": "2026-12-10", "price": 1529000 },
-      { "date": "2026-12-16", "price": 1529000 },
-      { "date": "2026-12-17", "price": 1529000 },
-      { "date": "2027-01-06", "price": 1649000 },
-      { "date": "2027-01-07", "price": 1649000 },
-      { "date": "2027-01-13", "price": 1649000 },
-      { "date": "2027-01-14", "price": 1649000 },
-      { "date": "2027-01-20", "price": 1649000 },
-      { "date": "2027-01-21", "price": 1649000 },
-      { "date": "2027-01-27", "price": 1609000 },
-      { "date": "2027-01-28", "price": 1609000 },
-      { "date": "2027-02-10", "price": 1569000 },
-      { "date": "2027-02-11", "price": 1569000 },
-      { "date": "2027-02-17", "price": 1649000 },
-      { "date": "2027-02-18", "price": 1649000 }
+      {
+        "date": "2026-12-10",
+        "price": 1529000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1529000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1529000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1609000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1609000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1569000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1569000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1649000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1649000
+      }
     ],
     "price": "1,529,000원~",
-    "image": "/images/malaysia-kota-busan/hotel-lobby.webp",
+    "image": "/images/dalit-bay-cc/course-1.jpg",
     "images": [
-      "/images/malaysia-kota-busan/hotel-lobby.webp",
       "/images/dalit-bay-cc/course-1.jpg",
+      "/images/malaysia-kota-busan/hotel-lobby.webp",
       "/images/malaysia-kota-busan/course-2.jpg",
       "/images/sutera-harbour-cc/course-1.jpg",
       "/images/malaysia-kota-busan/hotel-room-double.webp",
@@ -10740,32 +11240,92 @@
       "여권은 출발일 기준 만료일이 6개월 이상 남아있어야 합니다."
     ],
     "departurePrices": [
-      { "date": "2026-12-12", "price": 1759000 },
-      { "date": "2026-12-13", "price": 1759000 },
-      { "date": "2026-12-19", "price": 1799000 },
-      { "date": "2026-12-20", "price": 1799000 },
-      { "date": "2026-12-26", "price": 1879000 },
-      { "date": "2026-12-27", "price": 1879000 },
-      { "date": "2027-01-02", "price": 1879000 },
-      { "date": "2027-01-03", "price": 1879000 },
-      { "date": "2027-01-09", "price": 1879000 },
-      { "date": "2027-01-10", "price": 1879000 },
-      { "date": "2027-01-16", "price": 1879000 },
-      { "date": "2027-01-17", "price": 1879000 },
-      { "date": "2027-01-23", "price": 1839000 },
-      { "date": "2027-01-24", "price": 1839000 },
-      { "date": "2027-01-30", "price": 1799000 },
-      { "date": "2027-01-31", "price": 1799000 },
-      { "date": "2027-02-13", "price": 1799000 },
-      { "date": "2027-02-14", "price": 1799000 },
-      { "date": "2027-02-20", "price": 1879000 },
-      { "date": "2027-02-21", "price": 1879000 }
+      {
+        "date": "2026-12-12",
+        "price": 1759000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1759000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1799000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1799000
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1879000
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1879000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1879000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1879000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1879000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1879000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1879000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1879000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1839000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1839000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1799000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1799000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1799000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1799000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1879000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1879000
+      }
     ],
     "price": "1,759,000원~",
-    "image": "/images/malaysia-kota-busan/hotel-lobby.webp",
+    "image": "/images/dalit-bay-cc/course-1.jpg",
     "images": [
-      "/images/malaysia-kota-busan/hotel-lobby.webp",
       "/images/dalit-bay-cc/course-1.jpg",
+      "/images/malaysia-kota-busan/hotel-lobby.webp",
       "/images/malaysia-kota-busan/course-2.jpg",
       "/images/sutera-harbour-cc/course-1.jpg",
       "/images/malaysia-kota-busan/hotel-room-twin.webp",
@@ -14996,10 +15556,10 @@
       }
     ],
     "price": "1,119,000원~",
-    "image": "/images/japan-beppu-grandmercure-busan/hotel-exterior.jpg",
+    "image": "/images/japan-beppu-grandmercure-busan/course-1.jpg",
     "images": [
-      "/images/japan-beppu-grandmercure-busan/hotel-exterior.jpg",
       "/images/japan-beppu-grandmercure-busan/course-1.jpg",
+      "/images/japan-beppu-grandmercure-busan/hotel-exterior.jpg",
       "/images/japan-beppu-grandmercure-busan/hotel-onsen.jpg",
       "/images/japan-beppu-grandmercure-busan/course-6.jpg",
       "/images/japan-beppu-grandmercure-busan/hotel-room.jpg",
@@ -18581,12 +19141,12 @@
       }
     ],
     "price": "1,190,000원~",
-    "image": "/images/japan-kagoshima-tenmonkan/hotel-1.jpg",
+    "image": "/images/japan-kagoshima-tenmonkan/course-1.jpg",
     "images": [
+      "/images/japan-kagoshima-tenmonkan/course-1.jpg",
       "/images/japan-kagoshima-tenmonkan/hotel-1.jpg",
       "/images/japan-kagoshima-tenmonkan/hotel-2.jpg",
       "/images/japan-kagoshima-tenmonkan/hotel-3.jpg",
-      "/images/japan-kagoshima-tenmonkan/course-1.jpg",
       "/images/japan-kagoshima-tenmonkan/course-2.jpg",
       "/images/japan-kagoshima-tenmonkan/course-3.jpg"
     ],
@@ -21691,11 +22251,11 @@
       }
     ],
     "price": "1,590,000원~",
-    "image": "/images/japan-miyazaki-onsen-2color/hotel-1.jpg",
+    "image": "/images/aoshima-gc/course-1.jpg",
     "images": [
+      "/images/aoshima-gc/course-1.jpg",
       "/images/japan-miyazaki-onsen-2color/hotel-1.jpg",
       "/images/japan-miyazaki-onsen-2color/hotel-3.jpg",
-      "/images/aoshima-gc/course-1.jpg",
       "/images/miyazaki-lakeside-gc/course-1.jpg",
       "/images/japan-miyazaki-onsen-2color/hotel-4.jpg",
       "/images/miyazaki-sunshine-cc/course-1.jpg"
