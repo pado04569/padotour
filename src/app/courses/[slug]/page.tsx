@@ -1,10 +1,10 @@
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { courses } from "@/data/courses";
 import { tours } from "@/data/tours";
 import TourCard from "@/components/TourCard";
+import PhotoGrid from "@/components/PhotoGrid";
 
 const SITE_URL = "https://www.padotour.com";
 
@@ -96,12 +96,12 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
       </section>
 
       <section className="max-w-6xl mx-auto px-4 py-8 md:py-10">
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 mb-8 md:mb-10">
-          {course.images.map((src, i) => (
-            <div key={i} className={`relative aspect-square rounded-xl overflow-hidden ${i === 0 ? "col-span-2 row-span-2" : ""}`}>
-              <Image src={src} alt={`${course.country} ${course.region} ${course.name} 코스 사진 ${i + 1}`} fill className="object-cover" />
-            </div>
-          ))}
+        <div className="mb-8 md:mb-10">
+          <PhotoGrid
+            images={course.images}
+            altBase={`${course.country} ${course.region} ${course.name} 코스 사진`}
+            variant="feature"
+          />
         </div>
 
         {course.specs && course.specs.length > 0 && (

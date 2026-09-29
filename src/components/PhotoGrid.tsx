@@ -6,14 +6,16 @@ type Props = {
   images: string[];
   altBase: string;
   objectTop?: boolean;
-  /** hero — 상품 맨 위 큰 사진 한 장. 자리를 꽉 채우고 먼저 받는다. */
-  variant?: "grid" | "hero";
+  /** hero — 상품 맨 위 큰 사진 한 장. 자리를 꽉 채우고 먼저 받는다.
+   *  feature — 골프장 소개 페이지. 첫 장을 크게, 나머지는 정사각형으로. */
+  variant?: "grid" | "hero" | "feature";
 };
 
 // 상품 상세의 호텔·골프장 사진 묶음. 누르면 크게 본다.
 // 예전엔 사진이 커지는 효과만 있고 눌러도 아무 일이 없어서
 // 클래리티 "반응 없는 클릭" 1위로 잡혔다 (골프장 사진 3회, 2026-09-15).
 // 맨 위 큰 사진도 같은 이유로 여기에 붙였다 (가고시마 9회, 2026-09-16).
+// 골프장 소개 페이지 사진도 같은 이유로 붙였다 (천익CC 2회, 2026-09-29).
 export default function PhotoGrid({ images, altBase, objectTop, variant = "grid" }: Props) {
   const [open, setOpen] = useState<number | null>(null);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
@@ -55,6 +57,27 @@ export default function PhotoGrid({ images, altBase, objectTop, variant = "grid"
             className="w-full h-full object-cover"
           />
         </button>
+      ) : variant === "feature" ? (
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+        {images.map((img, i) => (
+          <button
+            key={i}
+            type="button"
+            onClick={() => setOpen(i)}
+            aria-label={`${altBase} ${i + 1} 크게 보기`}
+            className={`relative aspect-square rounded-xl overflow-hidden bg-gray-100 cursor-zoom-in focus-visible:outline focus-visible:outline-2 focus-visible:outline-emerald-500 ${i === 0 ? "col-span-2 row-span-2" : ""}`}
+          >
+            <img
+              src={img}
+              alt={`${altBase} ${i + 1}`}
+              loading={i === 0 ? "eager" : "lazy"}
+              fetchPriority={i === 0 ? "high" : undefined}
+              decoding="async"
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+            />
+          </button>
+        ))}
+      </div>
       ) : (
       <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
         {images.map((img, i) => (
