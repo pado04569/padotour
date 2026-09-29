@@ -32,7 +32,7 @@ export default function TourCard({ tour, featured = false }: { tour: Tour; featu
             {tour.nights}박{tour.days}일 · {tour.roundsIncluded}라운드
           </p>
         )}
-        <p className={`font-bold text-emerald-700 ${featured ? "text-xl md:text-2xl" : "text-base"}`}>{tour.price}</p>
+        <p className={`font-bold text-red-600 ${featured ? "text-xl md:text-2xl" : "text-base"}`}>{tour.price}</p>
       </div>
     </div>
     </Link>

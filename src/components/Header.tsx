@@ -129,6 +129,7 @@ export default function Header({ departure }: HeaderProps) {
   const [openMobileCourseCountry, setOpenMobileCourseCountry] = useState<string | null>(null);
 
   const navItems = buildNav(departure);
+  const p = departure ? `?departure=${departure}` : "";
 
   const accentColor = "bg-white";
   const hoverAccent = "hover:bg-gray-100";
@@ -360,7 +361,7 @@ export default function Header({ departure }: HeaderProps) {
                   <Link href="/reviews" className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors border-b border-gray-100">
                     ⭐ 여행후기
                   </Link>
-                  <Link href="/notice" className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors border-b border-gray-100">
+                  <Link href={`/notice${p}`} className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors border-b border-gray-100">
                     📢 공지/이벤트
                   </Link>
                   <Link href="/about" className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors">
@@ -487,7 +488,7 @@ export default function Header({ departure }: HeaderProps) {
             </Link>
           </div>
           <div className="border-b border-gray-100">
-            <Link href="/notice" className="flex items-center gap-2 px-4 py-3.5 text-gray-700 font-medium text-sm" onClick={() => setMenuOpen(false)}>
+            <Link href={`/notice${p}`} className="flex items-center gap-2 px-4 py-3.5 text-gray-700 font-medium text-sm" onClick={() => setMenuOpen(false)}>
               📢 공지/이벤트
             </Link>
           </div>

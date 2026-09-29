@@ -109,7 +109,7 @@ export default function BusanHome() {
                   <p className="text-sm text-gray-800 font-medium leading-snug line-clamp-2 min-h-[2.5rem] group-hover:text-blue-600 transition-colors">
                     {tour.title}
                   </p>
-                  <p className="text-blue-600 font-bold text-sm mt-1.5">
+                  <p className="text-red-600 font-bold text-sm mt-1.5">
                     {tour.price === "문의" ? "가격 문의" : tour.price}
                   </p>
                 </div>

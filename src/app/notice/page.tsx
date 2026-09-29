@@ -16,10 +16,24 @@ export const metadata: Metadata = {
 };
 
 
-export default function NoticePage() {
+export default async function NoticePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ departure?: string }>;
+}) {
+  const { departure } = await searchParams;
+
   // 날짜(expiresAt)가 지난 특가·공지는 자동으로 목록에서 뺀다 (사장님 지적 2026-09-28)
   const today = new Date().toISOString().slice(0, 10);
-  const activeNotices = notices.filter((n) => !n.expiresAt || n.expiresAt >= today);
+  const activeNotices = notices
+    .filter((n) => !n.expiresAt || n.expiresAt >= today)
+    // 인천/부산 출발지가 다른 공지는 안 보여준다 (사장님 지적 2026-09-29: 부산출발로 들어갔는데 인천출발 상품이 떴음)
+    .filter((n) => {
+      if (!departure || !n.tourId) return true;
+      const linkedTour = tours.find((t) => t.id === n.tourId);
+      if (!linkedTour) return true;
+      return linkedTour.departure === departure || linkedTour.departure === "both";
+    });
 
   return (
     <div>

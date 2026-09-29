@@ -305,7 +305,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
             </div>
             <div className="text-right">
               <p className="text-xs text-gray-500 mb-1">1인 요금 (성인·2인 이상)</p>
-              <p className="text-3xl font-black text-emerald-700">{formatPrice(selectedPrice)}</p>
+              <p className="text-3xl font-black text-red-600">{formatPrice(selectedPrice)}</p>
               <p className="text-xs text-gray-400 mt-0.5">유류할증료 포함</p>
             </div>
           </div>
