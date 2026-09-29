@@ -111,7 +111,7 @@ export default function HolePriceTierSelector({
               key={tierName(tier)}
               type="button"
               onClick={() => pick(tier)}
-              className={`rounded-2xl p-3 md:p-5 text-center border transition-colors ${
+              className={`rounded-2xl px-1.5 py-3 md:p-5 text-center border transition-colors ${
                 isSelected
                   ? "bg-emerald-600 border-emerald-600"
                   : "bg-emerald-50 hover:bg-emerald-100 border-emerald-200"
@@ -121,7 +121,10 @@ export default function HolePriceTierSelector({
               {tier.pattern && (
                 <p className={`text-[11px] md:text-xs mb-2 ${isSelected ? "text-emerald-100" : "text-gray-400"}`}>({tier.pattern})</p>
               )}
-              <p className={`text-lg md:text-2xl font-black ${isSelected ? "text-white" : "text-red-600"}`}>{tier.price.toLocaleString()}원</p>
+              {/* 휴대폰 3칸에서 "원"이 다음 줄로 떨어지지 않게 한 줄 고정 + 글자 축소 (사장님 요청 2026-09-29) */}
+              <p className={`text-[15px] md:text-2xl font-black whitespace-nowrap tracking-tight ${isSelected ? "text-white" : "text-red-600"}`}>
+                {tier.price.toLocaleString()}<span className="text-xs md:text-2xl">원</span>
+              </p>
             </button>
           );
         })}
