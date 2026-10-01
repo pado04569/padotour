@@ -66,6 +66,41 @@ async function notifyKakao(v: { 상품명: string; 출발일: string; 인원: st
   }
 }
 
+// 문의한 손님에게도 접수 안내 카톡을 보낸다 (2026-10-01 사장님 요청).
+// 솔라피 템플릿 "고객용 -문의접수" — 변수 없는 고정 문구, 심사 승인 완료.
+// 템플릿 ID 는 비밀값이 아니라 코드에 두고, 바꿔야 할 때만 환경변수로 덮어쓴다.
+// 카톡이 없는 손님에게는 같은 내용이 문자로 간다(disableSms: false — 사장님 확정).
+// 여기서 실패해도 문의 접수 결과에는 영향을 주지 않는다.
+const CUSTOMER_TEMPLATE_ID = "KA01TP260928074550640ssN2Fg7egCE";
+
+async function notifyCustomer(phone: string) {
+  const {
+    SOLAPI_API_KEY: apiKey,
+    SOLAPI_API_SECRET: apiSecret,
+    SOLAPI_PF_ID: pfId,
+    SOLAPI_FROM: from,
+    SOLAPI_CUSTOMER_TEMPLATE_ID: templateId = CUSTOMER_TEMPLATE_ID,
+  } = process.env;
+  if (!apiKey || !apiSecret || !pfId || !from) return false;
+
+  // 휴대폰 번호(010·011·016·017·018·019, 10~11자리)일 때만 보낸다. 유선번호·오타는 건너뛴다.
+  const to = phone.replace(/\D/g, "");
+  if (!/^01[016789]\d{7,8}$/.test(to)) return false;
+
+  try {
+    const solapi = new SolapiMessageService(apiKey, apiSecret);
+    await solapi.send({
+      to,
+      from: from.replace(/\D/g, ""),
+      kakaoOptions: { pfId, templateId, disableSms: false },
+    });
+    return true;
+  } catch (e) {
+    console.error("Solapi customer alimtalk error:", e);
+    return false;
+  }
+}
+
 async function sendMail(p: {
   tourTitle: string;
   formattedDate: string;
@@ -147,6 +182,7 @@ export async function POST(req: NextRequest) {
   const formattedDate = departureDate.replace(/(\d{4})-(\d{2})-(\d{2})/, "$1년 $2월 $3일");
 
   // 메일과 카톡을 함께 보낸다. 둘 중 하나라도 사장님께 닿으면 고객에게는 접수 성공으로 알린다.
+  // 손님 안내 카톡도 같이 보내지만, 그 결과는 접수 성공 여부에 넣지 않는다.
   const [mailOk, kakaoOk] = await Promise.all([
     sendMail({ tourTitle, formattedDate, nights, days, people, phone }),
     notifyKakao({
@@ -156,6 +192,7 @@ export async function POST(req: NextRequest) {
       연락처: phone,
     }),
     saveInquiry({ tourTitle, departureDate, nights, days, people, phone, agreedPrivacy: true }),
+    notifyCustomer(String(phone)),
   ]);
 
   if (!mailOk && !kakaoOk) {
