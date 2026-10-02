@@ -7,7 +7,7 @@ const FIELD =
   "w-full h-11 border border-gray-300 rounded-lg px-3 text-sm bg-white text-gray-800 " +
   "focus:outline-none focus:ring-2 focus:ring-emerald-500";
 
-type Tier = { holes: number; pattern?: string; price: number; label?: string; nights?: number; days?: number };
+type Tier = { holes: number; pattern?: string; price: number; label?: string; nights?: number; days?: number; dates?: string[] };
 
 const WEEKDAYS = ["일", "월", "화", "수", "목", "금", "토"];
 
@@ -46,12 +46,17 @@ export default function HolePriceTierSelector({
 
   const byNights = tiers.some((t) => t.nights != null);
   const todayStr = new Date().toLocaleDateString("sv-SE");
+  // 단계에 dates가 있으면 그 날짜만(같은 박수인데 요일별로 요금이 다른 상품), 없으면 같은 박수의 모든 출발일
   const dateOptions =
     selected && byNights && departurePrices
       ? departurePrices
-          .filter((dp) => dp.nights === selected.nights && dp.date > todayStr)
-          .map((dp) => dp.date)
-          .sort()
+          .filter(
+            (dp) =>
+              dp.nights === selected.nights &&
+              (!selected.dates || selected.dates.includes(dp.date)) &&
+              dp.date > todayStr
+          )
+          .sort((a, b) => a.date.localeCompare(b.date))
       : [];
   const chosenDate = byNights ? date : departureDate;
 
@@ -167,8 +172,10 @@ export default function HolePriceTierSelector({
                         required
                       >
                         <option value="">출발일을 선택해 주세요</option>
-                        {dateOptions.map((d) => (
-                          <option key={d} value={d}>{formatDate(d)} 출발</option>
+                        {dateOptions.map((dp) => (
+                          <option key={dp.date} value={dp.date}>
+                            {formatDate(dp.date)} 출발{dp.price !== selected.price ? ` · ${dp.price.toLocaleString()}원` : ""}
+                          </option>
                         ))}
                       </select>
                       <span className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400 text-[10px]">▼</span>
