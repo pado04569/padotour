@@ -9,6 +9,19 @@ const FIELD =
 
 type Tier = { holes: number; pattern?: string; price: number; label?: string; nights?: number; days?: number; dates?: string[] };
 
+// 선택 상자 오른쪽의 아래 화살표 — 눈에 띄도록 카카오 노랑으로 (사장님 요청 2026-10-02)
+function YellowArrow() {
+  return (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 14 9"
+      className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 w-4 h-3"
+    >
+      <path d="M1.5 1.5 L7 7.5 L12.5 1.5 Z" fill="#FAE100" stroke="#D9B800" strokeWidth="1.2" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 const WEEKDAYS = ["일", "월", "화", "수", "목", "금", "토"];
 
 // 카드 제목 — 박수별 요금 상품(오이타 등)은 "3박4일", 홀수별 요금 상품(위해 등)은 "54홀"
@@ -70,9 +83,11 @@ export default function HolePriceTierSelector({
     if (next) track("inquiry_open", { item_name: `${tourTitle} ${tierName(tier)}` });
   }
 
+  // 월·일을 두 자리로 맞춰 드롭다운에서 "(목)" 글자가 세로로 줄 맞게 한다 (사장님 지적 2026-10-02)
   function formatDate(d: string) {
     const [y, m, dd] = d.split("-").map(Number);
-    return `${m}/${dd}(${WEEKDAYS[new Date(y, m - 1, dd).getDay()]})`;
+    const p2 = (n: number) => String(n).padStart(2, "0");
+    return `${p2(m)}/${p2(dd)}(${WEEKDAYS[new Date(y, m - 1, dd).getDay()]})`;
   }
 
   async function handleSubmit(e: React.FormEvent) {
@@ -178,7 +193,7 @@ export default function HolePriceTierSelector({
                           </option>
                         ))}
                       </select>
-                      <span className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400 text-[10px]">▼</span>
+                      <YellowArrow />
                     </div>
                   ) : (
                     <p className="text-xs text-gray-600">남은 출발일이 없습니다. 전화(010-5301-5250)로 문의해 주세요.</p>
@@ -198,7 +213,7 @@ export default function HolePriceTierSelector({
                         <option key={n} value={n}>{n}명</option>
                       ))}
                     </select>
-                    <span className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400 text-[10px]">▼</span>
+                    <YellowArrow />
                   </div>
                 </div>
                 <div className="col-span-3">
