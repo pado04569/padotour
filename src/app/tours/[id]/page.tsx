@@ -202,7 +202,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             { icon: "👥", label: "최소 인원", value: minPeopleText },
             { icon: "📅", label: "출발 기간", value: tour.period ?? "연중 출발" },
           ].map((item) => (
-            <div key={item.label} className="bg-gray-50 rounded-xl p-3 md:p-4 text-center border border-gray-100">
+            // 카드처럼 보여 눌러도 반응 없는 클릭이 있었다(클래리티 배달못한클릭, 2026-10-02 "출발 기간" 칸) → 출발일·요금으로 스크롤
+            <Link key={item.label} href="#departure" className="block bg-gray-50 hover:bg-gray-100 transition-colors rounded-xl p-3 md:p-4 text-center border border-gray-100">
               <div className="text-2xl mb-1">{item.icon}</div>
               <div className="text-xs text-gray-500 mb-1">{item.label}</div>
               {/* 내용이 길면 줄을 나누고 글자를 줄인다 — 칸 하나만 길어져 어색해지는 것을 막는다 */}
@@ -215,7 +216,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                   <div key={li}>{line.trim()}</div>
                 ))}
               </div>
-            </div>
+            </Link>
           ))}
         </div>
           );
@@ -249,7 +250,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
         {/* ── 출발일 캘린더 + 요금 / 홀수별 요금 ── */}
         {tour.holePriceTiers && tour.holePriceTiers.length > 0 ? (
-          <div className="mb-8">
+          <div id="departure" className="mb-8 scroll-mt-4">
             {tour.period && (
               <p className="text-sm text-gray-500 mb-2">{tour.period} · {tierNightsText ? "일정 선택제 요금" : "홀수 선택제 요금"}</p>
             )}
@@ -263,7 +264,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             />
           </div>
         ) : tour.departurePrices && tour.departurePrices.length > 0 ? (
-          <div className="mb-8">
+          <div id="departure" className="mb-8 scroll-mt-4">
             <DeparturePriceCalendar
               departurePrices={tour.departurePrices}
               nights={tour.nights}
@@ -272,7 +273,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             />
           </div>
         ) : (
-          <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div id="departure" className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8 scroll-mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
               <p className="text-sm text-gray-500 mb-0.5">인천출발 기준</p>
               <p className="text-3xl md:text-4xl font-black text-red-600">{tour.price}</p>
