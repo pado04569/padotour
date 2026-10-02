@@ -6781,10 +6781,10 @@
       "/images/weihai-hilton/cheonik-3.jpg"
     ],
     "price": "499,000원~",
-    "image": "/images/china-weihai-3color/스톤베이CC/course-1.jpg",
+    "image": "/images/weihai-hilton/cheonik-1.jpg",
     "images": [
-      "/images/china-weihai-3color/스톤베이CC/course-1.jpg",
       "/images/weihai-hilton/cheonik-1.jpg",
+      "/images/china-weihai-3color/스톤베이CC/course-1.jpg",
       "/images/weihai-hilton/hotel-1.jpg",
       "/images/china-weihai-3color/스톤베이CC/course-3.jpg",
       "/images/weihai-hilton/hotel-3.jpg",
@@ -22797,8 +22797,9 @@
       }
     ],
     "price": "1,499,000원~",
-    "image": "/images/china-hainan-samgongli-winter/course-1.jpg",
+    "image": "/images/china-hainan-samgongli-winter/course-6.jpg",
     "images": [
+      "/images/china-hainan-samgongli-winter/course-6.jpg",
       "/images/china-hainan-samgongli-winter/course-1.jpg",
       "/images/china-hainan-samgongli-winter/course-2.jpg",
       "/images/china-hainan-samgongli/hotel-1.jpg",
