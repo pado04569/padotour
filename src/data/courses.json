@@ -2235,5 +2235,113 @@
       "china-hainan-samgongli-winter",
       "china-hainan-samgongli"
     ]
+  },
+  {
+    "slug": "kanucha-gc",
+    "name": "카누차 골프 코스",
+    "nameEn": "Kanucha Golf Course (カヌチャゴルフコース)",
+    "region": "오키나와",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "파72, 태평양을 낀 씨사이드 코스와 얀바루 숲을 도는 빌리지 코스로 이뤄진 오키나와 나고시의 리조트 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 (씨사이드 코스 · 빌리지 코스)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 백 티 6,937야드"
+      },
+      {
+        "label": "개장",
+        "value": "1993년"
+      },
+      {
+        "label": "설계",
+        "value": "Shizuaki Agata"
+      },
+      {
+        "label": "코스 특징",
+        "value": "태평양을 바라보는 씨사이드 코스, 얀바루 숲을 따라 도는 빌리지 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오키나와 나고시 아부"
+      }
+    ],
+    "description": "카누차 골프 코스는 1993년 문을 연 18홀 파72 코스로 백 티 기준 전장은 6,937야드입니다. 약 80만 평 규모의 카누차 리조트 부지 안에 있고 Shizuaki Agata가 설계했습니다.\n\n태평양을 마주하고 오우라만의 곶에서 샷을 하는 씨사이드 코스와, 오키나와 북부 얀바루 숲 사이를 지나는 빌리지 코스로 이뤄져 있습니다. 바다 바람과 파도를 보며 치는 홀과 숲속 홀의 분위기가 달라 라운드 내내 풍경이 바뀝니다.\n\n여행의파도 오키나와 골프여행에서는 카누차 베이 리조트에 묵으며 골프장까지 차량으로 약 2분 걸립니다. 셀프+카트 라운드로 하루 18홀씩 3일간 54홀을 돌고 리조트 안은 관내 카트로 이동합니다.",
+    "images": [
+      "/images/okinawa-kanucha/course-1.jpg",
+      "/images/okinawa-kanucha/course-2.jpg",
+      "/images/okinawa-kanucha/course-3.jpg",
+      "/images/okinawa-kanucha/course-4.jpg",
+      "/images/okinawa-kanucha/course-5.jpg",
+      "/images/okinawa-kanucha/course-6.jpg"
+    ],
+    "hashtags": [
+      "카누차골프",
+      "오키나와골프장",
+      "오키나와골프여행",
+      "나고골프",
+      "카누차리조트",
+      "일본골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "japan-okinawa-kanucha-asiana"
+    ]
+  },
+  {
+    "slug": "shigira-bay-cc",
+    "name": "시기라베이CC",
+    "nameEn": "Shigira Bay Country Club (シギラベイカントリークラブ)",
+    "region": "오키나와",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "미야코지마 시기라 리조트 안, 청록빛 바다를 끼고 도는 18홀 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파70 · 6,110야드"
+      },
+      {
+        "label": "개장",
+        "value": "2000년"
+      },
+      {
+        "label": "코스 특징",
+        "value": "바다 전망이 이어지는 리조트 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오키나와 미야코지마 우에노"
+      }
+    ],
+    "description": "시기라베이CC는 미야코지마 시기라 리조트 안에 있는 18홀 코스로 2000년에 문을 열었습니다. 파70에 전장은 6,110야드로 소개됩니다.\n\n에메랄드빛 바다를 곁에 두고 라운드하는 코스로 바다 전망이 이어지는 홀이 많습니다. 리조트 안에 있어 호텔에서 차량으로 약 5분이면 도착합니다.\n\n여행의파도 미야코지마 골프여행에서는 진에어로 도착한 첫날 바로 이 코스에서 라운드를 시작합니다. 산타모니카 골프텔에 3박 하며 하루 18홀씩 3일간 54홀을 셀프+카트로 돕고, 코스를 오션링크스나 에메랄드로 바꿀 수도 있습니다.",
+    "images": [
+      "/images/okinawa-miyako-shigira/course-1.jpg",
+      "/images/okinawa-miyako-shigira/course-2.jpg",
+      "/images/okinawa-miyako-shigira/course-3.jpg",
+      "/images/okinawa-miyako-shigira/course-4.jpg",
+      "/images/okinawa-miyako-shigira/course-5.jpg",
+      "/images/okinawa-miyako-shigira/course-6.jpg"
+    ],
+    "hashtags": [
+      "시기라베이CC",
+      "미야코지마골프",
+      "오키나와골프장",
+      "오키나와골프여행",
+      "시기라리조트",
+      "일본골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "japan-miyakojima-shigira-santamonica"
+    ]
   }
 ]
