@@ -240,7 +240,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
           {[
             { icon: "🌙", label: "일정", value: tierNightsText ?? `${tour.nights}박 ${tour.days}일` },
-            { icon: "⛳", label: "라운드", value: `${tour.roundsIncluded}라운드 ${holesText}` },
+            // 무제한 상품은 "무제한라운드 무제한 라운딩홀"처럼 겹쳐 보였다 → "무제한 라운드"만 (사장님 확정 2026-10-02)
+            { icon: "⛳", label: "라운드", value: String(tour.roundsIncluded).includes("무제한") ? "무제한 라운드" : `${tour.roundsIncluded}라운드 ${holesText}` },
             { icon: "👥", label: "최소 인원", value: minPeopleText },
             { icon: "📅", label: "출발 기간", value: tour.period ?? "연중 출발" },
           ].map((item) => (
