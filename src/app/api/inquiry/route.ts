@@ -39,7 +39,7 @@ async function notifyKakao(v: { 상품명: string; 출발일: string; 인원: st
     SOLAPI_FROM: from,
     INQUIRY_NOTIFY_TO: to,
   } = process.env;
-  if (!apiKey || !apiSecret || !pfId || !templateId || !from || !to) return false;
+  if (!apiKey || !apiSecret || !pfId || !templateId || !from || !to) throw new Error("솔라피 환경변수 누락");
 
   try {
     const solapi = new SolapiMessageService(apiKey, apiSecret);
@@ -62,7 +62,7 @@ async function notifyKakao(v: { 상품명: string; 출발일: string; 인원: st
   } catch (e) {
     // 모든 접수가 실패하면 SDK 가 MessageNotReceivedError 를 던진다
     console.error("Solapi alimtalk error:", e);
-    return false;
+    throw e;
   }
 }
 
@@ -114,7 +114,7 @@ async function sendMail(p: {
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {
     console.error("RESEND_API_KEY 가 설정되어 있지 않습니다");
-    return false;
+    throw new Error("RESEND_API_KEY 누락");
   }
   const resend = new Resend(apiKey);
   const { tourTitle, formattedDate, nights, days, people, phone } = p;
@@ -158,7 +158,7 @@ async function sendMail(p: {
 
   if (error) {
     console.error("Resend error:", error);
-    return false;
+    throw new Error(`${error.name}: ${error.message}`);
   }
   return true;
 }
@@ -183,20 +183,30 @@ export async function POST(req: NextRequest) {
 
   // 메일과 카톡을 함께 보낸다. 둘 중 하나라도 사장님께 닿으면 고객에게는 접수 성공으로 알린다.
   // 손님 안내 카톡도 같이 보내지만, 그 결과는 접수 성공 여부에 넣지 않는다.
+  // 어느 쪽이 왜 실패했는지 남긴다 (예외가 나도 500 으로 터지지 않고 아래에서 판단)
+  const why: { mail?: string; kakao?: string } = {};
+  const errText = (e: unknown) => (e instanceof Error ? e.message : String(e)).slice(0, 300);
   const [mailOk, kakaoOk] = await Promise.all([
-    sendMail({ tourTitle, formattedDate, nights, days, people, phone }),
+    sendMail({ tourTitle, formattedDate, nights, days, people, phone }).then(
+      () => true,
+      (e) => { why.mail = errText(e); return false; }
+    ),
     notifyKakao({
       상품명: tourTitle || "상품명 없음",
       출발일: `${formattedDate}${nights && days ? ` (${nights}박 ${days}일)` : ""}`,
       인원: `${people}명`,
       연락처: phone,
-    }),
+    }).then(
+      () => true,
+      (e) => { why.kakao = errText(e); return false; }
+    ),
     saveInquiry({ tourTitle, departureDate, nights, days, people, phone, agreedPrivacy: true }),
     notifyCustomer(String(phone)),
   ]);
 
   if (!mailOk && !kakaoOk) {
-    return NextResponse.json({ error: "문의 전달 실패" }, { status: 500 });
+    console.error("문의 전달 실패", why);
+    return NextResponse.json({ error: "문의 전달 실패", detail: why }, { status: 500 });
   }
 
   return NextResponse.json({ ok: true });
