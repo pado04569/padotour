@@ -247,7 +247,7 @@ export default function HolePriceTierSelector({
               <button
                 type="submit"
                 disabled={!canSubmit}
-                className="w-full bg-yellow-400 hover:bg-yellow-500 disabled:bg-gray-300 disabled:cursor-not-allowed text-gray-900 font-black py-3 rounded-lg text-sm transition-colors"
+                className="w-full bg-[#FAE100] hover:bg-[#F0D600] disabled:bg-gray-300 disabled:cursor-not-allowed text-gray-900 font-black py-3 rounded-lg text-sm transition-colors"
               >
                 {sending ? "접수 중..." : `📋 ${tierName(selected)} 예약 문의`}
               </button>

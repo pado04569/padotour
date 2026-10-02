@@ -314,7 +314,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
             {!showForm ? (
               <button
                 onClick={openForm}
-                className="w-full block text-center bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-black px-6 py-3.5 rounded-full text-base transition-colors"
+                className="w-full block text-center bg-[#FAE100] hover:bg-[#F0D600] text-gray-900 font-black px-6 py-3.5 rounded-full text-base transition-colors"
               >
                 📋 {selected.replace(/-/g, ".")} 출발 예약 문의
               </button>

@@ -182,7 +182,7 @@ export default function Header({ departure }: HeaderProps) {
             </Link>
             <Link
               href="/my-inquiries"
-              className="bg-yellow-300 border border-yellow-400 text-gray-900 hover:bg-yellow-400 text-[11px] font-bold px-3 py-0.5 rounded transition-colors"
+              className="bg-[#FAE100] border border-[#F0D600] text-gray-900 hover:bg-[#F0D600] text-[11px] font-bold px-3 py-0.5 rounded transition-colors"
             >
               예약확인
             </Link>
