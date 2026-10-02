@@ -6773,23 +6773,22 @@
       "/images/weihai-hilton/hotel-6.jpg"
     ],
     "courseImages": [
-      "/images/weihai-hilton/stonebay-1.jpg",
-      "/images/weihai-hilton/stonebay-2.jpg",
-      "/images/weihai-hilton/stonebay-3.jpg",
-      "/images/weihai-hilton/stonebay-4.jpg",
-      "/images/weihai-hilton/stonebay-5.jpg",
-      "/images/weihai-hilton/stonebay-6.jpg",
-      "/images/weihai-hilton/stonebay-7.jpg"
+      "/images/china-weihai-3color/스톤베이CC/course-1.jpg",
+      "/images/weihai-hilton/cheonik-1.jpg",
+      "/images/china-weihai-3color/스톤베이CC/course-3.jpg",
+      "/images/weihai-hilton/cheonik-2.jpg",
+      "/images/china-weihai-3color/스톤베이CC/course-5.jpg",
+      "/images/weihai-hilton/cheonik-3.jpg"
     ],
     "price": "499,000원~",
-    "image": "/images/weihai-hilton/stonebay-1.jpg",
+    "image": "/images/china-weihai-3color/스톤베이CC/course-1.jpg",
     "images": [
-      "/images/weihai-hilton/stonebay-1.jpg",
-      "/images/weihai-hilton/stonebay-2.jpg",
+      "/images/china-weihai-3color/스톤베이CC/course-1.jpg",
+      "/images/weihai-hilton/cheonik-1.jpg",
       "/images/weihai-hilton/hotel-1.jpg",
-      "/images/weihai-hilton/stonebay-3.jpg",
+      "/images/china-weihai-3color/스톤베이CC/course-3.jpg",
       "/images/weihai-hilton/hotel-3.jpg",
-      "/images/weihai-hilton/stonebay-4.jpg"
+      "/images/weihai-hilton/cheonik-2.jpg"
     ],
     "badge": "인천출발 신규",
     "departure": "incheon",
@@ -22391,16 +22390,20 @@
     "images": [
       "/images/philippines-clark-lakewood/course-1.jpg",
       "/images/philippines-clark-lakewood/course-2.jpg",
-      "/images/philippines-clark-lakewood/hotel-1.jpg",
+      "/images/philippines-clark-lakewood/hotel-microtel-1.jpg",
       "/images/philippines-clark-lakewood/course-3.jpg",
-      "/images/philippines-clark-lakewood/hotel-2.jpg",
+      "/images/philippines-clark-lakewood/hotel-lakewood-stay.jpg",
       "/images/philippines-clark-lakewood/course-4.jpg"
     ],
     "hotelImages": [
-      "/images/philippines-clark-lakewood/hotel-1.jpg",
-      "/images/philippines-clark-lakewood/hotel-2.jpg",
-      "/images/philippines-clark-lakewood/hotel-3.jpg",
-      "/images/philippines-clark-lakewood/hotel-4.jpg"
+      "/images/philippines-clark-lakewood/hotel-microtel-1.jpg",
+      "/images/philippines-clark-lakewood/hotel-microtel-2.jpg",
+      "/images/philippines-clark-lakewood/hotel-microtel-3.jpg",
+      "/images/philippines-clark-lakewood/hotel-microtel-4.jpg",
+      "/images/philippines-clark-lakewood/hotel-microtel-5.jpg",
+      "/images/philippines-clark-lakewood/hotel-microtel-6.jpg",
+      "/images/philippines-clark-lakewood/hotel-lakewood-stay.jpg",
+      "/images/philippines-clark-lakewood/hotel-acropolis.jpg"
     ],
     "courseImages": [
       "/images/philippines-clark-lakewood/course-1.jpg",

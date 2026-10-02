@@ -2084,5 +2084,53 @@
     "relatedTourIds": [
       "china-qufu-goldwoo"
     ]
+  },
+  {
+    "slug": "stonebay-cc",
+    "name": "스톤베이CC",
+    "nameEn": "Stone Bay Golf & Resort (石岛湾高尔夫)",
+    "region": "위해",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "스톤베이·아리랑 두 코스 36홀, 바다와 암반 호수를 낀 위해 석도의 챔피언십 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "스톤베이 코스 18홀 · 아리랑 코스 18홀 (총 36홀)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "스톤베이 코스 파72 · 7,204야드"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 산둥성 위해 석도(石岛) 개발구"
+      },
+      {
+        "label": "접근",
+        "value": "위해공항에서 약 30분"
+      }
+    ],
+    "description": "스톤베이CC는 위해 석도 개발구에 있는 36홀 리조트 코스입니다. 스톤베이 코스와 아리랑 코스 두 개 코스로 이뤄져 있고 스톤베이 코스는 18홀 파72, 전장 7,204야드입니다.\n\n바다와 가까운 지형에 암반과 호수, 갈대밭이 어우러져 홀마다 다른 풍경을 보여줍니다. 오르내림이 있는 레이아웃에 벙커와 연못이 곳곳에 놓여 있어 경관과 공략의 재미를 함께 즐길 수 있습니다.\n\n여행의파도 위해 골프여행에서는 첫날 스톤베이CC 18홀을 라운드하고 이튿날부터 천익CC로 이어집니다. 위해공항에서 골프장까지 차량으로 약 30~40분 걸립니다.",
+    "images": [
+      "/images/china-weihai-3color/스톤베이CC/course-1.jpg",
+      "/images/china-weihai-3color/스톤베이CC/course-2.jpg",
+      "/images/china-weihai-3color/스톤베이CC/course-3.jpg",
+      "/images/china-weihai-3color/스톤베이CC/course-4.jpg",
+      "/images/china-weihai-3color/스톤베이CC/course-5.jpg",
+      "/images/china-weihai-3color/스톤베이CC/course-6.jpg"
+    ],
+    "hashtags": [
+      "스톤베이CC",
+      "위해골프장",
+      "위해골프여행",
+      "웨이하이골프",
+      "석도골프",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-weihai-hilton-2color"
+    ]
   }
 ]
