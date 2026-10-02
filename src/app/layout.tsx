@@ -33,6 +33,8 @@ export const metadata: Metadata = {
   },
   other: {
     "naver-site-verification": "bb7094b829a116cc7a20ff2d149e2b139ba43e72",
+    // Bing 웹마스터 소유확인 — ChatGPT 검색이 Bing 색인을 많이 참고한다 (2026-10-02 등록). 지우면 Bing 통계를 못 본다.
+    "msvalidate.01": "1815D65AE24A21C021D313382FC8D2BD",
   },
 };
 
