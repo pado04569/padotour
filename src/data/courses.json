@@ -2182,5 +2182,58 @@
       "china-hainan-samgongli-winter",
       "china-hainan-samgongli"
     ]
+  },
+  {
+    "slug": "west-coast-cc-haikou",
+    "name": "서해안CC",
+    "nameEn": "Hainan West Coast Golf Club (海南西海岸高尔夫)",
+    "region": "하이난",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "파72 7,329야드, 해안 도로변에 있는 하이커우의 18홀 파크랜드 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,329야드 (블랙 티 기준)"
+      },
+      {
+        "label": "설계",
+        "value": "Perry Dye · Cynthia Dye McGarey"
+      },
+      {
+        "label": "코스 특징",
+        "value": "나무가 늘어선 파크랜드 스타일, 완만한 기복의 넓은 페어웨이"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 하이난 하이커우 빈하이대로"
+      }
+    ],
+    "description": "서해안CC는 하이난 하이커우 해안 도로변에 있는 18홀 파72 코스입니다. 블랙 티 기준 전장은 7,329야드이고 Perry Dye와 Cynthia Dye McGarey가 설계했습니다.\n\n나무가 늘어선 파크랜드 스타일로 완만한 기복 위에 넓은 페어웨이가 이어집니다. 야자수와 호수, 흰 모래 벙커가 어우러져 열대 해안 코스다운 풍경이 이어지고 고급 잔디가 깔린 페어웨이가 특징입니다.\n\n여행의파도 하이난 삼공리 골프여행에서는 일정 중 하루를 삼공리CC 대신 서해안CC로 바꿔 라운드할 수 있습니다.",
+    "images": [
+      "/images/서해안CC/course-1.jpg",
+      "/images/서해안CC/course-2.jpg",
+      "/images/서해안CC/course-3.jpg",
+      "/images/서해안CC/course-4.jpg",
+      "/images/서해안CC/course-5.jpg",
+      "/images/서해안CC/course-6.jpg"
+    ],
+    "hashtags": [
+      "서해안CC",
+      "하이난골프장",
+      "하이커우골프",
+      "하이난골프여행",
+      "해구골프",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-hainan-samgongli-winter",
+      "china-hainan-samgongli"
+    ]
   }
 ]
