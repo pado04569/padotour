@@ -2132,5 +2132,55 @@
     "relatedTourIds": [
       "china-weihai-hilton-2color"
     ]
+  },
+  {
+    "slug": "mission-hills-haikou",
+    "name": "미션힐스 하이커우",
+    "nameEn": "Mission Hills Haikou (观澜湖海口)",
+    "region": "하이난",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "18홀 코스 10개, 총 180홀로 기네스에 오른 세계 최대 규모 골프클럽의 하이커우 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 코스 10개 (총 180홀)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "하이난 화산암 지형을 살린 코스, 코스마다 다른 테마"
+      },
+      {
+        "label": "기록",
+        "value": "세계 최대 규모 골프클럽 (기네스 세계기록 인증)"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 하이난 하이커우"
+      }
+    ],
+    "description": "미션힐스 하이커우는 18홀 코스 10개, 총 180홀을 갖춘 골프클럽입니다. 규모가 세계에서 가장 커서 기네스 세계기록에 올라 있습니다.\n\n하이난의 화산암 지형을 코스마다 살렸고 각 코스가 저마다 테마를 갖고 있어 며칠을 돌아도 풍경이 겹치지 않습니다. 리조트에는 호텔과 클럽하우스, 골프 아카데미, 화산 온천 시설이 함께 있습니다.\n\n여행의파도 하이난 미션힐스 상품은 3박4일 동안 2일차 27홀, 3일차 27홀, 4일차 18홀로 총 72홀을 라운드합니다. 삼공리CC 상품에서도 일정 중 하루를 미션힐스나 서해안CC로 바꿀 수 있습니다.",
+    "images": [
+      "/images/hainan-missionhills/course-1.jpg",
+      "/images/hainan-missionhills/course-2.jpg",
+      "/images/hainan-missionhills/course-3.jpg",
+      "/images/hainan-missionhills/course-4.jpg",
+      "/images/hainan-missionhills/course-5.jpg",
+      "/images/hainan-missionhills/course-6.jpg"
+    ],
+    "hashtags": [
+      "미션힐스",
+      "하이난골프장",
+      "하이커우골프",
+      "하이난골프여행",
+      "180홀",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-hainan-missionhills",
+      "china-hainan-samgongli-winter",
+      "china-hainan-samgongli"
+    ]
   }
 ]
