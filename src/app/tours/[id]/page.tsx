@@ -11,6 +11,7 @@ import ShareButton from "@/components/ShareButton";
 import { Sentences, Steps } from "@/components/ReadableText";
 import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "@/data/cancelPolicy";
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
+import { tourFaqs } from "@/lib/tourFaq";
 
 export async function generateStaticParams() {
   return tours.map((t) => ({ id: t.id }));
@@ -109,6 +110,18 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const flights = flightInfo(tour);
   const departures = departureSummary(tour);
 
+  // 자주 묻는 질문 — 네이버 블로그는 AI 로봇을 막아두어, AI 검색이 읽을 수 있는 Q&A를 홈페이지에 둔다 (2026-10)
+  const faqs = tourFaqs(tour);
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((f) => ({
+      "@type": "Question",
+      name: f.q,
+      acceptedAnswer: { "@type": "Answer", text: f.a },
+    })),
+  };
+
   // 구조화 데이터 — 여행 상품은 Product 가 아니라 TouristTrip 이 맞다.
   // (Product 는 별점·리뷰를 요구해 서치콘솔 경고가 났었다. TouristTrip 은 요구하지 않는다.)
   const tripJsonLd = {
@@ -157,6 +170,10 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(tripJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <ViewItemTracker
         itemId={tour.id}
@@ -253,19 +270,19 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <dl className="bg-white border border-gray-200 rounded-2xl p-4 md:p-5 mb-8 space-y-2.5 text-sm break-keep">
             {flights.outbound && (
               <div className="flex gap-3">
-                <dt className="flex-shrink-0 w-16 font-bold text-gray-500">✈️ 가는 편</dt>
+                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500">✈️ 가는 편</dt>
                 <dd className="text-gray-800">{flights.outbound}</dd>
               </div>
             )}
             {flights.inbound && (
               <div className="flex gap-3">
-                <dt className="flex-shrink-0 w-16 font-bold text-gray-500">🛬 오는 편</dt>
+                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500">🛬 오는 편</dt>
                 <dd className="text-gray-800">{flights.inbound}</dd>
               </div>
             )}
             {departures && (
               <div className="flex gap-3">
-                <dt className="flex-shrink-0 w-16 font-bold text-gray-500">📅 출발일</dt>
+                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500">📅 출발일</dt>
                 <dd className="text-gray-800">
                   <Link href="#departure" className="hover:underline">
                     {departures.rangeText} · 최저 <span className="font-bold text-red-600">{departures.lowPriceText}</span>({departures.cheapestDateText} 출발)
@@ -435,6 +452,28 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             </div>
           </div>
         )}
+
+        {/* ── 자주 묻는 질문 ── */}
+        {/* 답은 전부 상품 데이터에서 뽑는다 — 데이터에 없는 질문은 나오지 않는다 (src/lib/tourFaq.ts) */}
+        <div className="mb-8">
+          <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">❓ {tour.region} 골프여행 자주 묻는 질문</h2>
+          <div className="space-y-2">
+            {faqs.map((f, i) => (
+              <details key={i} className="group bg-gray-50 border border-gray-100 rounded-xl">
+                <summary className="cursor-pointer list-none px-4 py-3 font-bold text-gray-800 text-sm flex items-start justify-between gap-3 break-keep">
+                  <span>Q. {f.q}</span>
+                  <span className="text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0">▾</span>
+                </summary>
+                {/* 요금은 사이트 전체에서 빨간색 — 답변 속 금액도 맞춘다 */}
+                <p className="px-4 pb-4 text-sm text-gray-700 leading-relaxed break-keep">
+                  {f.a.split(/(\d{1,3}(?:,\d{3})+원(?:부터|~)?)/).map((part, pi) =>
+                    pi % 2 === 1 ? <span key={pi} className="font-bold text-red-600">{part}</span> : part,
+                  )}
+                </p>
+              </details>
+            ))}
+          </div>
+        </div>
 
         {/* ── 예약 문의 · 맞춤 견적 ── */}
         {/* id="inquiry" — 위쪽 상품 요약/호텔/골프장 박스를 누르면 여기로 스크롤된다 */}
