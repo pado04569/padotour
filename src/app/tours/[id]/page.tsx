@@ -10,6 +10,7 @@ import ViewItemTracker from "@/components/ViewItemTracker";
 import ShareButton from "@/components/ShareButton";
 import { Sentences, Steps } from "@/components/ReadableText";
 import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "@/data/cancelPolicy";
+import { flightInfo, departureSummary } from "@/lib/tripFacts";
 
 export async function generateStaticParams() {
   return tours.map((t) => ({ id: t.id }));
@@ -104,22 +105,46 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
     return lines;
   })();
 
+  // 항공편·출발일 — 일정 문장 속에 묻혀 있어 AI 요약에서 빠졌다(ChatGPT로 온 손님이 비행시간을 몰랐음, 2026-10)
+  const flights = flightInfo(tour);
+  const departures = departureSummary(tour);
+
   // 구조화 데이터 — 여행 상품은 Product 가 아니라 TouristTrip 이 맞다.
   // (Product 는 별점·리뷰를 요구해 서치콘솔 경고가 났었다. TouristTrip 은 요구하지 않는다.)
   const tripJsonLd = {
     "@context": "https://schema.org",
     "@type": "TouristTrip",
     name: tour.title,
-    description: tour.seoIntro ?? tour.subtitle ?? tour.productSummary ?? tour.title,
+    description: [
+      tour.seoIntro ?? tour.subtitle ?? tour.productSummary ?? tour.title,
+      flights.outbound && `가는 편: ${flights.outbound}.`,
+      flights.inbound && `오는 편: ${flights.inbound}.`,
+      tour.period && `출발 기간: ${tour.period}.`,
+    ]
+      .filter(Boolean)
+      .join(" "),
     url: `https://www.padotour.com/tours/${tour.id}`,
     image: tour.image ? `https://www.padotour.com${tour.image}` : undefined,
     touristType: "골프여행",
     itinerary: {
       "@type": "ItemList",
-      itemListElement: [
-        { "@type": "ListItem", position: 1, name: tour.region ?? tour.country },
-      ],
+      itemListElement:
+        tour.schedule && tour.schedule.length > 0
+          ? tour.schedule.map((s, i) => ({ "@type": "ListItem", position: i + 1, name: `${s.day} ${s.label}` }))
+          : [{ "@type": "ListItem", position: 1, name: tour.region ?? tour.country }],
     },
+    offers: departures
+      ? {
+          "@type": "AggregateOffer",
+          priceCurrency: "KRW",
+          lowPrice: departures.lowPrice,
+          highPrice: departures.highPrice,
+          offerCount: departures.count,
+          availabilityStarts: departures.first,
+          availabilityEnds: departures.last,
+          url: `https://www.padotour.com/tours/${tour.id}#departure`,
+        }
+      : undefined,
     provider: {
       "@type": "TravelAgency",
       name: "여행의 파도",
@@ -221,6 +246,35 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         </div>
           );
         })()}
+
+        {/* ── 항공편·출발일 한눈에 ── */}
+        {/* 그림·달력이 아니라 글자로 둔다 — AI 검색이 이 문장을 그대로 읽어 간다 (2026-10, ChatGPT 유입 손님 사례) */}
+        {(flights.outbound || flights.inbound || departures) && (
+          <dl className="bg-white border border-gray-200 rounded-2xl p-4 md:p-5 mb-8 space-y-2.5 text-sm break-keep">
+            {flights.outbound && (
+              <div className="flex gap-3">
+                <dt className="flex-shrink-0 w-16 font-bold text-gray-500">✈️ 가는 편</dt>
+                <dd className="text-gray-800">{flights.outbound}</dd>
+              </div>
+            )}
+            {flights.inbound && (
+              <div className="flex gap-3">
+                <dt className="flex-shrink-0 w-16 font-bold text-gray-500">🛬 오는 편</dt>
+                <dd className="text-gray-800">{flights.inbound}</dd>
+              </div>
+            )}
+            {departures && (
+              <div className="flex gap-3">
+                <dt className="flex-shrink-0 w-16 font-bold text-gray-500">📅 출발일</dt>
+                <dd className="text-gray-800">
+                  <Link href="#departure" className="hover:underline">
+                    {departures.rangeText} · 최저 <span className="font-bold text-red-600">{departures.lowPriceText}</span>({departures.cheapestDateText} 출발)
+                  </Link>
+                </dd>
+              </div>
+            )}
+          </dl>
+        )}
 
         {/* ── 상품 요약 박스 ── */}
         {/* 카드처럼 보여 눌러도 반응 없는 클릭이 많았다(클래리티 배달못한클릭 20회, 2026-09-17) → 문의 폼으로 스크롤하게 만든다 */}

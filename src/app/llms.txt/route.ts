@@ -1,5 +1,6 @@
 import { tours } from "@/data/tours";
 import { courses } from "@/data/courses";
+import { flightInfo, departureSummary } from "@/lib/tripFacts";
 
 /**
  * /llms.txt — 생성형 AI(ChatGPT·Claude·Perplexity 등)가 사이트를 요약할 때 읽는 파일.
@@ -29,7 +30,16 @@ export function GET() {
     .map((t) => {
       const dep = t.departure === "incheon" ? "인천출발" : t.departure === "busan" ? "부산출발" : "인천·부산출발";
       const nights = t.nights && t.days ? ` ${t.nights}박${t.days}일` : "";
-      return `- [${t.title}](${BASE}/tours/${t.id}): ${t.country} ${t.region ?? ""} · ${dep}${nights} · ${t.price ?? "요금 문의"}`;
+      // 항공편·출발일을 따로 적는다 — AI 답변이 비행시간·출발 날짜를 빼먹지 않게 (2026-10, ChatGPT 유입 손님 사례)
+      const f = flightInfo(t);
+      const d = departureSummary(t);
+      const facts = [
+        f.outbound && `  - 가는 편: ${f.outbound}`,
+        f.inbound && `  - 오는 편: ${f.inbound}`,
+        d ? `  - 출발일: ${d.text}` : t.period && `  - 출발 기간: ${t.period}`,
+        t.minPeople != null && `  - 최소 인원: ${t.minPeople}${/인/.test(String(t.minPeople)) ? "" : "인"}`,
+      ].filter(Boolean);
+      return [`- [${t.title}](${BASE}/tours/${t.id}): ${t.country} ${t.region ?? ""} · ${dep}${nights} · ${t.price ?? "요금 문의"}`, ...facts].join("\n");
     })
     .join("\n");
 
