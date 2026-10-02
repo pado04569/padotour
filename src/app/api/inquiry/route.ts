@@ -206,7 +206,7 @@ export async function POST(req: NextRequest) {
 
   if (!mailOk && !kakaoOk) {
     console.error("문의 전달 실패", why);
-    return NextResponse.json({ error: "문의 전달 실패", detail: why }, { status: 500 });
+    return NextResponse.json({ error: "문의 전달 실패" }, { status: 500 });
   }
 
   return NextResponse.json({ ok: true });

@@ -30,6 +30,8 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
   const [showForm, setShowForm] = useState(false);
   const [people, setPeople] = useState("2");
   const [phone, setPhone] = useState("");
+  const [agreed, setAgreed] = useState(false);
+  const [showPrivacy, setShowPrivacy] = useState(false);
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
   // 출발 없는 회색 날짜를 눌렀을 때 알려주는 안내.
@@ -119,7 +121,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!selected || !phone.trim()) return;
+    if (!selected || !phone.trim() || !agreed) return;
     setSending(true);
     try {
       const res = await fetch("/api/inquiry", {
@@ -132,6 +134,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
           days: selectedDays,
           people,
           phone: phone.trim(),
+          agreedPrivacy: true,
         }),
       });
       if (res.ok) {
@@ -352,6 +355,36 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                     />
                   </div>
                 </div>
+                {/* 개인정보 수집·이용 동의 — 서버가 동의 없이는 접수를 거절한다(2026-09-28부터). 이 폼에만 빠져 있어 접수가 전부 오류였다 */}
+                <div>
+                  <label className="flex items-start gap-2 text-[11px] text-gray-600 cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={agreed}
+                      onChange={e => setAgreed(e.target.checked)}
+                      className="mt-0.5 w-3.5 h-3.5 flex-shrink-0"
+                      required
+                    />
+                    <span>
+                      개인정보 수집·이용에 동의합니다.{" "}
+                      <button
+                        type="button"
+                        onClick={e => { e.preventDefault(); setShowPrivacy(!showPrivacy); }}
+                        className="underline text-emerald-700"
+                      >
+                        {showPrivacy ? "내용 접기" : "내용 보기"}
+                      </button>
+                    </span>
+                  </label>
+                  {showPrivacy && (
+                    <div className="mt-1.5 bg-white border border-gray-200 rounded-lg px-3 py-2 text-[10px] text-gray-500 leading-relaxed space-y-0.5">
+                      <p>· 수집 항목: 휴대폰 번호, 출발 희망일, 인원수</p>
+                      <p>· 수집 목적: 예약 문의 상담 및 맞춤 견적 안내</p>
+                      <p>· 보유 기간: 문의 처리 완료 후 1년 (예약문의 내역 조회 서비스 제공을 위해 보관)</p>
+                      <p>· 동의를 거부하실 수 있으며, 이 경우 문의 접수가 제한됩니다.</p>
+                    </div>
+                  )}
+                </div>
                 <div className="flex gap-2">
                   <button
                     type="button"
@@ -362,7 +395,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                   </button>
                   <button
                     type="submit"
-                    disabled={sending || !phone.trim()}
+                    disabled={sending || !phone.trim() || !agreed}
                     className="flex-[2] bg-blue-600 hover:bg-blue-700 disabled:bg-gray-300 text-white font-black py-3 rounded-full text-sm transition-colors"
                   >
                     {sending ? "전송 중..." : "문의 접수하기"}
