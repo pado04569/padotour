@@ -42,6 +42,9 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
   const entryMap = new Map(departurePrices.map(p => [p.date, p]));
 
   const upcoming = departurePrices.map(p => p.date).filter(d => new Date(d) >= today).sort();
+  // 출발일 사이에 빠진 날(예: 10/8~10, 10/26~31)은 칸 안에 "없음"을 적어 눌러보기 전에 알 수 있게 한다.
+  // 마지막 출발일 뒤는 전부 비어 있어 표시하면 달력이 "없음"으로 덮이므로 출발 기간 안쪽만 (2026-10-05)
+  const lastDeparture = upcoming[upcoming.length - 1] ?? null;
   function nearestDeparture(ds: string) {
     const t = new Date(ds).getTime();
     let best: string | null = null;
@@ -233,15 +236,17 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                     }
 
                     if (!price) {
+                      const inGap = lastDeparture !== null && ds < lastDeparture;
                       return (
                         <button
                           key={i}
                           type="button"
                           aria-label={`${month + 1}월 ${day}일 출발 없음`}
                           onClick={() => setHint({ day: ds, nearest: nearestDeparture(ds) })}
-                          className={`rounded text-center py-1 text-[11px] hover:bg-gray-200 ${hint?.day === ds ? "bg-gray-200" : ""} ${dayOfWeek === 0 ? "text-red-300" : dayOfWeek === 6 ? "text-blue-300" : "text-gray-300"}`}
+                          className={`rounded text-center py-1 text-[11px] leading-tight hover:bg-gray-200 ${inGap ? "bg-gray-100" : ""} ${hint?.day === ds ? "bg-gray-200" : ""} ${dayOfWeek === 0 ? "text-red-300" : dayOfWeek === 6 ? "text-blue-300" : "text-gray-300"}`}
                         >
                           {day}
+                          {inGap && <span className="block text-[8px] text-gray-400 leading-none mt-0.5">없음</span>}
                         </button>
                       );
                     }
@@ -269,6 +274,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
         <div className="flex items-center gap-4 mt-3 text-xs text-gray-500">
           <span className="flex items-center gap-1"><span className="w-4 h-4 bg-emerald-100 rounded inline-block" /> 출발가능</span>
           <span className="flex items-center gap-1"><span className="w-4 h-4 bg-emerald-600 rounded inline-block" /> 선택됨</span>
+          <span className="flex items-center gap-1"><span className="w-4 h-4 bg-gray-100 border border-gray-200 rounded inline-block" /> 출발없음</span>
         </div>
 
         {hint && (
