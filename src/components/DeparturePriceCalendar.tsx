@@ -201,6 +201,11 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
           </button>
         </div>
 
+        {/* 휴대폰은 석 달이 옆으로 미는 띠라 월 제목을 눌러 달을 바꾸려는 손님이 있었다
+            (클래리티 배달못한클릭 '2026.10' 4회, 2026-10-04) → 미는 방법을 한 줄로 알려준다 (사장님 확정 2026-10-05) */}
+        <p className="md:hidden text-right text-xs font-bold text-emerald-600 mb-1.5">
+          옆으로 밀어 다음 달 보기 ›
+        </p>
         {/* 캘린더 3개 */}
         <div className="flex gap-4 overflow-x-auto pb-2">
           {months.map(({ year, month }) => {
