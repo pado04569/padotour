@@ -2630,5 +2630,437 @@
       "thailand-huahin-springfield",
       "thailand-huahin-springfield-busan"
     ]
+  },
+  {
+    "slug": "panshan-golf-club",
+    "name": "판산CC",
+    "nameEn": "Panshan Golf Club (盘山高尔夫)",
+    "region": "베이징",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "판산 풍경구 동쪽 산자락의 27홀, 골프텔에서 걸어서 하루 27홀씩",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (A·B·C 9홀 코스)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "A 구릉형 · B 평탄한 장거리 · C 옛 채석장 지형의 워터 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 톈진 지저우구 판산 풍경구 동쪽"
+      }
+    ],
+    "description": "판산CC는 톈진 지저우구의 5A급 관광지 판산(盘山) 풍경구 동쪽 산자락에 조성된 27홀 골프장입니다. 9홀 코스 세 개(A·B·C)로 이뤄져 있고, 중국 북부에서는 드문 산악형 코스로 꼽힙니다.\n\nA코스는 오르내림이 큰 구릉 지형, B코스는 비교적 평탄하지만 전장이 길어 거리 부담이 있는 코스, C코스는 옛 채석장 지형을 따라 돌며 거의 매 홀 물을 넘겨야 하는 코스로 세 코스의 성격이 뚜렷하게 다릅니다. 중국여자프로골프(CLPGA) 대회가 열린 곳이기도 합니다.\n\n여행의파도 베이징 판산 상품은 부산에서 대한항공 직항으로 출발해 판산 골프텔에 3박하며, 체류 3일 동안 매일 27홀씩 총 81홀을 칩니다. 숙소에서 골프장까지 걸어서 이동하므로 이동 시간 없이 라운드에 집중할 수 있습니다.",
+    "images": [
+      "/images/beijing-panshan/course-1.jpg",
+      "/images/beijing-panshan/course-2.jpg",
+      "/images/beijing-panshan/course-3.jpg",
+      "/images/beijing-panshan/course-4.jpg",
+      "/images/beijing-panshan/course-5.jpg",
+      "/images/beijing-panshan/course-6.jpg"
+    ],
+    "hashtags": [
+      "판산CC",
+      "판산골프장",
+      "베이징골프여행",
+      "톈진골프",
+      "중국골프여행",
+      "부산출발골프",
+      "무제한골프"
+    ],
+    "relatedTourIds": [
+      "china-beijing-panshan-busan"
+    ]
+  },
+  {
+    "slug": "aso-grandvrio-golf",
+    "name": "아소 그랑비리오 골프장",
+    "nameEn": "Aso Resort Grandvrio Hotel Golf Course (阿蘇リゾートグランヴィリオホテルゴルフ場)",
+    "aliases": [
+      "그랑비리오 골프장"
+    ],
+    "region": "구마모토",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "아놀드 파머 설계 36홀, 아소 외륜산을 바라보는 호텔 직결 리조트 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 (동·서 코스)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "서코스 6,863야드 · 동코스 6,614야드"
+      },
+      {
+        "label": "개장",
+        "value": "1990년"
+      },
+      {
+        "label": "설계",
+        "value": "아놀드 파머"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 구마모토현 아소시"
+      }
+    ],
+    "description": "아소 그랑비리오 골프장은 1990년 문을 연 36홀 리조트 코스로, 아놀드 파머가 설계했습니다. 서코스(6,863야드)와 동코스(6,614야드) 두 개의 18홀로 이뤄져 있습니다.\n\n구릉과 숲을 함께 쓰는 코스로, 홀마다 아소 외륜산과 아소다케 화산 쪽 풍경이 펼쳐지는 것이 가장 큰 특징입니다. 노캐디 셀프 플레이로 운영되며, 서코스는 카트가 페어웨이에 들어갈 수 있어 걷는 부담이 적습니다.\n\n여행의파도 구마모토 상품은 인천에서 티웨이항공 직항으로 출발해 골프장과 붙어 있는 아소리조트 그랑비리오 호텔(노천온천)에 묵습니다. 금요일 출발 3박4일, 월요일 출발 4박5일 일정으로 매일 18홀씩 라운드합니다.",
+    "images": [
+      "/images/kumamoto-aso/course-1.jpg",
+      "/images/kumamoto-aso/course-2.jpg",
+      "/images/kumamoto-aso/course-3.jpg",
+      "/images/kumamoto-aso/course-4.jpg",
+      "/images/kumamoto-aso/course-5.jpg",
+      "/images/kumamoto-aso/course-6.jpg"
+    ],
+    "hashtags": [
+      "그랑비리오골프장",
+      "아소골프",
+      "구마모토골프장",
+      "구마모토골프여행",
+      "일본골프여행",
+      "아놀드파머",
+      "온천골프"
+    ],
+    "relatedTourIds": [
+      "japan-kumamoto"
+    ]
+  },
+  {
+    "slug": "aso-sky-blue-golf",
+    "name": "아소스카이블루GC",
+    "nameEn": "Aso Sky Blue Golf Resort (阿蘇スカイブルーゴルフリゾート, 구 아소다카모리GC)",
+    "region": "구마모토",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "파72 7,055야드, 아소 외륜산 정상부에 펼쳐진 고원 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,055야드"
+      },
+      {
+        "label": "개장",
+        "value": "1992년"
+      },
+      {
+        "label": "코스 특징",
+        "value": "130m 터널 너머 3~7번 숲길, 나머지는 외륜산 정상 고원"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 구마모토현 아소군"
+      }
+    ],
+    "description": "아소스카이블루GC는 1992년 아소다카모리 골프클럽이라는 이름으로 문을 연 18홀 골프장입니다. 파72, 전장 7,055야드의 챔피언십 규모입니다.\n\n130m 터널을 지나면 나오는 3~7번 홀은 숲 사이를 지나고, 나머지 홀은 아소 외륜산 정상부의 고원 위에 펼쳐집니다. 페어웨이는 넓지만 일부러 평평한 곳을 줄여 잔잔한 굴곡이 계속 이어지는 것이 특징이고, 고지대라 여름에도 비교적 선선합니다.\n\n여행의파도 구마모토 부산출발 상품은 이스타항공 김해 직항으로 출발해 아소 스카이 블루 골프 리조트에 묵습니다. 4인 1카트 셀프 플레이로 18홀을 돌고 9홀 서비스 라운드가 더해지며, 토요일 3박4일·화요일 4박5일 일정이 있습니다.",
+    "images": [
+      "/images/japan-kumamoto-busan/course-1.jpg",
+      "/images/japan-kumamoto-busan/course-2.jpg",
+      "/images/japan-kumamoto-busan/course-3.jpg",
+      "/images/japan-kumamoto-busan/course-4.jpg",
+      "/images/japan-kumamoto-busan/course-5.jpg",
+      "/images/japan-kumamoto-busan/course-6.jpg"
+    ],
+    "hashtags": [
+      "아소스카이블루",
+      "아소골프",
+      "구마모토골프장",
+      "구마모토골프여행",
+      "일본골프여행",
+      "부산출발골프",
+      "골프텔"
+    ],
+    "relatedTourIds": [
+      "japan-kumamoto-busan"
+    ]
+  },
+  {
+    "slug": "takachiho-cc-kirishima",
+    "name": "타카치호CC",
+    "nameEn": "Takachiho Country Club (高千穂カントリー倶楽部)",
+    "region": "가고시마",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "파72 6,797야드, 기리시마 고원의 연못·계곡을 넘기는 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,797야드"
+      },
+      {
+        "label": "개장",
+        "value": "1978년"
+      },
+      {
+        "label": "설계",
+        "value": "고자사 쇼조"
+      },
+      {
+        "label": "코스 특징",
+        "value": "연못·계곡을 넘기는 홀, 대표 홀 5번"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가고시마현 기리시마시"
+      }
+    ],
+    "description": "타카치호CC는 1978년 문을 연 18홀 골프장으로, 고자사 쇼조(小笹昭三)가 설계했습니다. 파72, 전장 6,797야드입니다.\n\n기리시마 고원의 자연 지형을 그대로 살려 연못과 계곡을 넘겨 치는 홀이 이어지고, 코스 주변으로 미야마키리시마 같은 고산 식물이 피는 풍경을 볼 수 있습니다. 5번 홀이 이 코스의 대표 홀로 꼽힙니다.\n\n여행의파도 가고시마 상품은 인천에서 이스타항공 직항으로 출발해 더 펄스 기리시마 호텔(온천)에 3박하며, 호텔에서 골프장까지 걸어서 약 5분입니다. 셀프+카트로 18홀씩 2회 라운드하고, 매월 첫째·넷째 주 금요일 휴장일에는 기리시마CC 등으로 대체됩니다.",
+    "images": [
+      "/images/japan-kagoshima-takachiho/course-1.jpg",
+      "/images/japan-kagoshima-takachiho/course-2.jpg",
+      "/images/japan-kagoshima-takachiho/course-3.jpg",
+      "/images/japan-kagoshima-takachiho/course-4.jpg",
+      "/images/japan-kagoshima-takachiho/course-5.jpg",
+      "/images/japan-kagoshima-takachiho/course-6.jpg"
+    ],
+    "hashtags": [
+      "타카치호CC",
+      "기리시마골프",
+      "가고시마골프장",
+      "가고시마골프여행",
+      "일본골프여행",
+      "온천골프",
+      "큐슈골프"
+    ],
+    "relatedTourIds": [
+      "japan-kagoshima-takachiho"
+    ]
+  },
+  {
+    "slug": "aomori-spring-golf-club",
+    "name": "아오모리 스프링GC",
+    "nameEn": "Aomori Spring Golf Club (青森スプリング・ゴルフクラブ)",
+    "aliases": [
+      "아오모리 스프링 골프코스"
+    ],
+    "region": "아오모리",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "아놀드 파머 설계 파72 7,104야드, 이와키산 기슭의 투어 개최 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,104야드"
+      },
+      {
+        "label": "개장",
+        "value": "1994년"
+      },
+      {
+        "label": "설계",
+        "value": "아놀드 파머"
+      },
+      {
+        "label": "코스 특징",
+        "value": "일본 남자 투어 개최 이력, 이와키산 기슭"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 아오모리현 니시쓰가루군 아지가사와"
+      }
+    ],
+    "description": "아오모리 스프링GC는 1994년 문을 연 18홀 골프장으로, 아놀드 파머가 설계했습니다. 파72, 전장 7,104야드이며 일본 남자 정규 투어가 열린 적이 있는 코스입니다.\n\n이와키산 기슭에 자연 지형을 그대로 살려 만들었고, 시라카미 산지에 둘러싸여 동해(일본해) 쪽이 내려다보이는 위치입니다. 투어 개최 당시에 가까운 컨디션으로 관리되어 전략적으로 공략해야 하는 홀이 많습니다.\n\n여행의파도 아오모리 상품은 인천에서 대한항공 직항으로 출발해 골프장 안의 락우드 호텔&스파에 묵습니다. 체류일에는 18홀을 두 번 돌아 하루 36홀을 칩니다(골프장 사정으로 18홀만 가능한 날은 미리 안내).",
+    "images": [
+      "/images/japan-aomori-lakewood/course-1.jpg",
+      "/images/japan-aomori-lakewood/course-2.jpg",
+      "/images/japan-aomori-lakewood/course-3.jpg",
+      "/images/japan-aomori-lakewood/course-4.jpg",
+      "/images/japan-aomori-lakewood/course-5.jpg",
+      "/images/japan-aomori-lakewood/course-6.jpg"
+    ],
+    "hashtags": [
+      "아오모리스프링",
+      "아오모리골프장",
+      "아오모리골프여행",
+      "일본골프여행",
+      "아놀드파머",
+      "락우드호텔",
+      "동북골프"
+    ],
+    "relatedTourIds": [
+      "japan-aomori-lakewood-3n4d",
+      "japan-aomori-lakewood-4n5d"
+    ]
+  },
+  {
+    "slug": "fujieda-golf-club",
+    "name": "후지에다CC",
+    "nameEn": "Fujieda Golf Club (藤枝ゴルフクラブ)",
+    "region": "시즈오카",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "27홀 파108 구릉 코스, 시즈오카공항에서 가까운 후지산 조망 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (북·동·서 9홀 코스)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "27홀 합계 파108 · 9,946야드"
+      },
+      {
+        "label": "개장",
+        "value": "1975년"
+      },
+      {
+        "label": "설계",
+        "value": "미야자와 조헤이"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 시즈오카현 후지에다시"
+      }
+    ],
+    "description": "후지에다CC는 1975년 문을 연 27홀 골프장으로, 미야자와 조헤이가 설계했습니다. 북·동·서 세 개의 9홀 코스(각 3,300야드대)로 이뤄져 27홀 합계 파108, 9,946야드입니다.\n\n구릉 지형에 놓인 코스로 세 코스의 길이가 거의 같아 어느 조합으로 돌아도 난도 차이가 크지 않고, 맑은 날에는 후지산을 바라보며 라운드할 수 있습니다.\n\n여행의파도 시즈오카 상품은 인천에서 제주항공 직항으로 출발해 시내 호텔 올레에 묵고, 골프장까지는 차로 약 15분입니다. 체류일에는 셀프+카트 18홀에 9홀 서비스 라운드가 더해져 27홀을 치며 클럽 중식이 포함됩니다.",
+    "images": [
+      "/images/japan-shizuoka-fujieda/course-1.jpg",
+      "/images/japan-shizuoka-fujieda/course-2.jpg",
+      "/images/japan-shizuoka-fujieda/course-3.jpg",
+      "/images/japan-shizuoka-fujieda/course-4.jpg",
+      "/images/japan-shizuoka-fujieda/course-5.jpg",
+      "/images/japan-shizuoka-fujieda/course-6.jpg"
+    ],
+    "hashtags": [
+      "후지에다CC",
+      "후지에다골프",
+      "시즈오카골프장",
+      "시즈오카골프여행",
+      "일본골프여행",
+      "후지산골프",
+      "27홀"
+    ],
+    "relatedTourIds": [
+      "japan-shizuoka-fujieda"
+    ]
+  },
+  {
+    "slug": "zhangjiajie-tianmen-golf",
+    "name": "천문산CC",
+    "nameEn": "Zhangjiajie Tianmen Golf Club (张家界天门高尔夫球会)",
+    "region": "장가계",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "리처드 맨델 설계 산악형 18홀 7,166야드, 홀마다 천문동 조망",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 (27홀 계획 중 18홀 운영)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "7,166야드 (블랙티)"
+      },
+      {
+        "label": "개장",
+        "value": "2012년"
+      },
+      {
+        "label": "설계",
+        "value": "리처드 맨델"
+      },
+      {
+        "label": "코스 특징",
+        "value": "홀마다 장가계 명소 이름, 티·그린에서 천문동 조망"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 후난성 장가계시"
+      }
+    ],
+    "description": "천문산CC는 2012년 문을 연 장가계 최초의 골프장으로, 미국 설계가 리처드 맨델이 설계했습니다. 27홀로 계획되어 현재 18홀이 운영 중이며, 블랙티 기준 전장 7,166야드입니다.\n\n전형적인 산악형 코스로, 각 홀에 장가계 관광 명소의 이름이 붙어 있고 거의 모든 티잉 구역과 그린에서 천문산의 천문동이 보입니다.\n\n여행의파도 장가계 상품은 부산에서 에어부산 직항으로 출발해 정5성급 선샤인호텔에 묵으며, 천문산CC 18홀을 2회 라운드합니다. 천문산 케이블카와 칠성산 유리전망대 관광, 발·전신 마사지가 함께 들어 있는 노쇼핑 일정입니다.",
+    "images": [
+      "/images/china-zhangjiajie-tianmenshan/course-1.jpg",
+      "/images/china-zhangjiajie-tianmenshan/course-2.jpg",
+      "/images/china-zhangjiajie-tianmenshan/course-3.jpg",
+      "/images/china-zhangjiajie-tianmenshan/course-4.jpg",
+      "/images/china-zhangjiajie-tianmenshan/course-5.jpg",
+      "/images/china-zhangjiajie-tianmenshan/course-6.jpg"
+    ],
+    "hashtags": [
+      "천문산CC",
+      "장가계골프",
+      "장가계골프여행",
+      "중국골프여행",
+      "부산출발골프",
+      "골프관광",
+      "천문산"
+    ],
+    "relatedTourIds": [
+      "china-zhangjiajie-tianmenshan-3n4d",
+      "china-zhangjiajie-tianmenshan-4n5d"
+    ]
+  },
+  {
+    "slug": "lotus-valley-golf-resort",
+    "name": "로터스밸리CC",
+    "nameEn": "Lotus Valley Golf Resort",
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "게리 플레이어 설계 파72 7,015야드, 태국 유일의 게리 플레이어 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 (+연습용 파3·파4 홀)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,015야드"
+      },
+      {
+        "label": "개장",
+        "value": "1998년 (2008년 개보수 후 로터스밸리로 재개장)"
+      },
+      {
+        "label": "설계",
+        "value": "게리 플레이어"
+      },
+      {
+        "label": "코스 특징",
+        "value": "아일랜드 그린, 카트 페어웨이 진입 가능"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 차청사오주 (방콕 동쪽)"
+      }
+    ],
+    "description": "로터스밸리CC는 1998년 문을 연 코스를 2008년 개보수해 다시 연 18홀 골프장으로, 게리 플레이어가 설계한 태국 유일의 코스입니다. 파72, 전장 7,015야드이며 연습용 파3·파4 홀이 따로 있습니다.\n\n호수로 둘러싸인 아일랜드 그린이 있고, 페어웨이 옆 수로와 그린 앞 벙커가 반복해서 나와 거리보다 방향을 먼저 생각하게 되는 코스입니다. 태국 골프장으로는 드물게 카트가 페어웨이까지 들어갈 수 있습니다.\n\n여행의파도 로터스밸리 상품은 부산에서 에어부산 직항으로 출발해 골프장 안의 사파야 호텔 바이 로터스밸리(4성급)에 3박하며, 클럽하우스까지 걸어서 약 150m입니다. 10월 이후 출발은 주중 36홀, 주말 18홀까지 칠 수 있습니다.",
+    "images": [
+      "/images/thailand-bangkok-lotusvalley-busan/course-1.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/course-2.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/course-3.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/course-4.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/course-5.jpg",
+      "/images/thailand-bangkok-lotusvalley-busan/course-6.jpg"
+    ],
+    "hashtags": [
+      "로터스밸리CC",
+      "로터스밸리",
+      "방콕골프장",
+      "방콕골프여행",
+      "태국골프여행",
+      "게리플레이어",
+      "부산출발골프"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok-lotusvalley-busan"
+    ]
   }
 ]
