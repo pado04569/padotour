@@ -5053,8 +5053,8 @@
     "holes": 36,
     "minPeople": 4,
     "period": "2026년 10월 7일 ~ 2027년 3월 27일 (매일 출발)",
-    "hotel": "풀만 호텔 (5성급, 2인1실) 또는 동급",
-    "hotelDesc": "청도 풀만 호텔 또는 같은 등급의 5성급 호텔에서 2인 1실로 2박하며, 호텔 조식이 포함됩니다.",
+    "hotel": "풀만 칭다오 즈위에 호텔 (青岛紫玥铂尔曼酒店, 5성급, 2인1실) 또는 동급",
+    "hotelDesc": "청도 풀만 즈위에 호텔(青岛紫玥铂尔曼酒店) 또는 같은 등급의 5성급 호텔에서 2인 1실로 2박하며, 호텔 조식이 포함됩니다.",
     "golfCourse": "화산CC + 영해CC (36홀)",
     "golfCourseDesc": "첫날 화산CC 18홀, 둘째 날 영해CC 18홀을 돌아 2색 36홀을 즐깁니다. 전 일정 그린피가 포함됩니다.",
     "productSummary": "BX항공 부산-청도 직항으로 떠나는 2색 골프 2박3일 패키지입니다. 도착일 화산CC, 다음 날 영해CC에서 총 36홀을 돌며,\n5성급 풀만 호텔(또는 동급) 2인 1실 숙박과 호텔 조식이 포함됩니다.",
@@ -5717,6 +5717,13 @@
         "price": 579000
       }
     ],
+    "hotelImages": [
+      "/images/qingdao-pullman/hotel-1.jpg",
+      "/images/qingdao-pullman/hotel-2.jpg",
+      "/images/qingdao-pullman/hotel-3.jpg",
+      "/images/qingdao-pullman/hotel-4.jpg",
+      "/images/qingdao-pullman/hotel-5.jpg"
+    ],
     "courseImages": [
       "/images/qingdao-3color/course-1.jpg",
       "/images/qingdao-3color/course-2.jpg",
@@ -5731,7 +5738,9 @@
       "/images/qingdao-3color/course-5.jpg",
       "/images/qingdao-3color/course-1.jpg",
       "/images/qingdao-3color/course-6.jpg",
-      "/images/qingdao-3color/course-2.jpg"
+      "/images/qingdao-3color/course-2.jpg",
+      "/images/qingdao-pullman/hotel-1.jpg",
+      "/images/qingdao-pullman/hotel-4.jpg"
     ],
     "badge": "부산출발 신규",
     "departure": "busan",
