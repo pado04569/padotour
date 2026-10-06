@@ -5,8 +5,12 @@ import Image from "next/image";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
+export type CourseNavItem = { label: string; countryCode: string; regions: string[] };
+
 type HeaderProps = {
   departure?: "incheon" | "busan";
+  /** 골프장 소개 드롭다운 — layout(서버)에서 courses.json으로 만들어 내려준다 */
+  courseNavItems: CourseNavItem[];
 };
 
 type NavItem = {
@@ -106,17 +110,8 @@ function buildNav(dep?: string): NavItem[] {
   ];
 }
 
-/** 골프장 소개 드롭다운 — courses.json에 실제로 등록된 나라·지역만 나열한다 */
-const courseNavItems: { label: string; countryCode: string; regions: string[] }[] = [
-  { label: "일본", countryCode: "japan", regions: ["후쿠오카", "가고시마", "야마구치", "벳부", "북해도", "미야자키"] },
-  { label: "중국", countryCode: "china", regions: ["청도", "위해"] },
-  { label: "태국", countryCode: "thailand", regions: ["치앙마이"] },
-  { label: "말레이시아", countryCode: "malaysia", regions: ["코타키나발루"] },
-  { label: "괌", countryCode: "guam", regions: ["괌"] },
-  { label: "사이판", countryCode: "saipan", regions: ["사이판"] },
-];
 
-export default function Header({ departure }: HeaderProps) {
+export default function Header({ departure, courseNavItems }: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [communityOpen, setCommunityOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
