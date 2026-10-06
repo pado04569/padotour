@@ -3503,5 +3503,316 @@
     "aliases": [
       "아도니스CC"
     ]
+  },
+  {
+    "slug": "sunrise-lagoon-cc",
+    "name": "썬라이즈라군CC",
+    "nameEn": "Sunrise Lagoon Golf & Country Club",
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "파72 7,102야드, 2013 타일랜드 마스터스 개최 챔피언십 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,102야드"
+      },
+      {
+        "label": "코스 특징",
+        "value": "2013 타일랜드 마스터스 개최, 라군을 끼고 도는 홀"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 차청사오주 (방콕 동쪽)"
+      },
+      {
+        "label": "접근",
+        "value": "방콕 수완나품공항에서 차로 약 1시간"
+      }
+    ],
+    "description": "썬라이즈라군CC는 방콕 동쪽 차청사오주에 있는 파72, 전장 7,102야드의 18홀 챔피언십 코스입니다. 태국프로골프협회가 인정한 코스로, 2013년 타일랜드 마스터스가 열렸습니다.\n\n이름처럼 라군(호수)을 끼고 도는 홀이 많고 야자수가 늘어선 평지형 코스라, 물을 피해 방향을 잡는 것이 중요합니다. 골프장 안에 호텔이 있어 숙소에서 바로 티오프할 수 있습니다.\n\n여행의파도 썬라이즈라군 상품은 부산에서 에어부산 직항으로 출발해 썬라이즈라군 호텔에 묵으며, 체류 기간 동안 썬라이즈라군CC 또는 스카이밸리CC에서 무제한 라운딩합니다. 한식 뷔페 3식이 포함되고 한국인 직원이 상주합니다.",
+    "images": [
+      "/images/thailand-bangkok-sunvalley-busan/course-1.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-2.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-3.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-4.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-5.jpg"
+    ],
+    "hashtags": [
+      "썬라이즈라군CC",
+      "썬라이즈라군",
+      "방콕골프장",
+      "방콕골프여행",
+      "태국골프여행",
+      "무제한골프",
+      "부산출발골프"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok-sunvalley-busan"
+    ]
+  },
+  {
+    "slug": "sky-valley-cc",
+    "name": "스카이밸리CC",
+    "nameEn": "Sky Valley Country Club (331 Golf Club)",
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "파72 6,928야드, 좁은 페어웨이와 도그레그가 많은 차청사오 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,928야드"
+      },
+      {
+        "label": "코스 특징",
+        "value": "좁은 페어웨이, 도그레그와 워터 해저드"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 차청사오주 플랭야오"
+      }
+    ],
+    "description": "스카이밸리CC는 방콕에서 동쪽으로 약 115km 떨어진 차청사오주 플랭야오에 있는 파72, 전장 6,928야드의 18홀 골프장입니다.\n\n페어웨이가 좁고 도그레그 홀과 워터 해저드가 곳곳에 있어, 거리보다 정확도가 스코어를 좌우하는 코스입니다. 여행의파도 상품 조건으로는 스카이밸리 숙박 시 노캐디 라운딩이 가능합니다.\n\n여행의파도 썬라이즈라군 상품에서는 썬라이즈라군CC와 스카이밸리CC 두 곳을 무료 셔틀로 오가며 무제한 라운딩합니다(하루 한 골프장 기준). 숙소는 썬라이즈라군 호텔 또는 스카이밸리 골프텔입니다.",
+    "images": [
+      "/images/thailand-bangkok-sunvalley-busan/course-4.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-5.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-6.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-3.jpg",
+      "/images/thailand-bangkok-sunvalley-busan/course-1.jpg"
+    ],
+    "hashtags": [
+      "스카이밸리CC",
+      "스카이밸리",
+      "방콕골프장",
+      "방콕골프여행",
+      "태국골프여행",
+      "노캐디골프",
+      "무제한골프"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok-sunvalley-busan"
+    ]
+  },
+  {
+    "slug": "dragon-golf-links",
+    "name": "드래곤링크스CC",
+    "nameEn": "Dragon Golf Links (Do Son, Hai Phong)",
+    "aliases": [
+      "드래곤CC"
+    ],
+    "region": "하노이/하이퐁",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "그렉 노먼 설계 27홀, 하이퐁 도선 해안의 링크스 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "27홀 합계 10,604야드 (18홀 파72)"
+      },
+      {
+        "label": "개장",
+        "value": "2023년"
+      },
+      {
+        "label": "설계",
+        "value": "그렉 노먼"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 하이퐁 도선 (드래곤 오션 도선 단지)"
+      }
+    ],
+    "description": "드래곤링크스CC는 2023년 문을 연 27홀 골프장으로, 그렉 노먼이 설계했습니다. 하이퐁 도선의 드래곤 오션 도선 국제관광단지 안에 있으며 27홀 합계 전장은 10,604야드입니다.\n\n해안을 따라 놓인 링크스 스타일 코스로, 바닷바람과 언덕 지형이 함께 작용해 같은 홀도 날씨에 따라 전혀 다르게 칠 수 있습니다.\n\n여행의파도 하롱베이 3색 상품은 인천에서 비엣젯항공으로 하이퐁에 도착한 날 바로 드래곤링크스CC 18홀을 칩니다. 이후 뚜언쩌우CC 2회, FLC 하롱베이CC 1회를 더해 총 72홀이며, 숙소는 5성급 델라시 호텔입니다.",
+    "images": [
+      "/images/vietnam-halongbay-3color/course-3.jpg",
+      "/images/vietnam-halongbay-3color/course-2.jpg",
+      "/images/vietnam-halongbay-3color/course-4.jpg",
+      "/images/vietnam-halongbay-3color/course-6.jpg",
+      "/images/vietnam-halongbay-3color/course-1.jpg",
+      "/images/vietnam-halongbay-3color/course-5.jpg"
+    ],
+    "hashtags": [
+      "드래곤링크스",
+      "드래곤골프링크스",
+      "하이퐁골프",
+      "하롱베이골프여행",
+      "베트남골프여행",
+      "그렉노먼",
+      "27홀"
+    ],
+    "relatedTourIds": [
+      "vietnam-halongbay-3color"
+    ]
+  },
+  {
+    "slug": "flc-halong-bay-golf",
+    "name": "FLC 하롱베이CC",
+    "nameEn": "FLC Ha Long Bay Golf Club",
+    "region": "하노이/하이퐁",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "슈미트-컬리 설계 파71, 언덕 위에서 하롱베이를 내려다보는 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파71 · 6,092야드"
+      },
+      {
+        "label": "개장",
+        "value": "2017년"
+      },
+      {
+        "label": "설계",
+        "value": "슈미트-컬리"
+      },
+      {
+        "label": "코스 특징",
+        "value": "유네스코 세계유산 하롱베이 조망"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 꽝닌성 하롱"
+      }
+    ],
+    "description": "FLC 하롱베이CC는 2017년 문을 연 18홀 골프장으로, 슈미트-컬리가 설계했습니다. 파71, 전장 6,092야드로 길지 않은 대신 정교한 샷이 필요합니다.\n\n하롱 시내 뒤편 언덕에 자리해 여러 홀에서 유네스코 세계유산 하롱베이의 바다와 섬이 내려다보입니다. 고저 차가 있어 오르막·내리막에 따라 클럽 선택이 달라집니다.\n\n여행의파도 하롱베이 3색 상품에서는 마지막 날 FLC 하롱베이CC 18홀을 돌고 공항으로 이동합니다. 그린피·카트비·캐디피와 클럽 중식이 포함됩니다.",
+    "images": [
+      "/images/vietnam-halongbay-3color/course-1.jpg",
+      "/images/vietnam-halongbay-3color/course-6.jpg",
+      "/images/vietnam-halongbay-3color/course-2.jpg",
+      "/images/vietnam-halongbay-3color/course-4.jpg",
+      "/images/vietnam-halongbay-3color/course-3.jpg"
+    ],
+    "hashtags": [
+      "FLC하롱베이",
+      "하롱베이골프",
+      "하롱베이골프장",
+      "베트남골프여행",
+      "하이퐁골프",
+      "슈미트컬리",
+      "오션뷰골프"
+    ],
+    "relatedTourIds": [
+      "vietnam-halongbay-3color"
+    ]
+  },
+  {
+    "slug": "tuan-chau-golf-resort",
+    "name": "뚜언쩌우CC",
+    "nameEn": "Tuan Chau Golf Resort",
+    "region": "하노이/하이퐁",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "파72 챔피언십 코스, 하롱베이 뚜언쩌우섬 매립지의 해안 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72"
+      },
+      {
+        "label": "개장",
+        "value": "2021년"
+      },
+      {
+        "label": "설계",
+        "value": "퍼시픽 코스트 디자인"
+      },
+      {
+        "label": "코스 특징",
+        "value": "코스 절반이 하롱베이에 면함"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 꽝닌성 하롱 뚜언쩌우섬"
+      }
+    ],
+    "description": "뚜언쩌우CC는 2021년 문을 연 18홀 골프장으로, 퍼시픽 코스트 디자인이 설계한 파72 코스입니다.\n\n하롱베이 뚜언쩌우섬의 매립지 위에 만들어져 코스의 절반 가까이가 바다에 접해 있습니다. 바다를 따라가는 홀에서는 하롱베이의 섬들을 배경으로 치게 되고, 바닷바람이 변수가 됩니다.\n\n여행의파도 하롱베이 3색 상품에서는 뚜언쩌우CC를 두 번 라운드해 가장 많이 돕니다. 숙소인 델라시 호텔에서 이동하며 클럽 중식이 포함됩니다.",
+    "images": [
+      "/images/vietnam-halongbay-3color/course-5.jpg",
+      "/images/vietnam-halongbay-3color/course-4.jpg",
+      "/images/vietnam-halongbay-3color/course-6.jpg",
+      "/images/vietnam-halongbay-3color/course-3.jpg",
+      "/images/vietnam-halongbay-3color/course-2.jpg"
+    ],
+    "hashtags": [
+      "뚜언쩌우CC",
+      "뚜언쩌우골프",
+      "하롱베이골프장",
+      "하롱베이골프여행",
+      "베트남골프여행",
+      "해안골프",
+      "하이퐁골프"
+    ],
+    "relatedTourIds": [
+      "vietnam-halongbay-3color"
+    ]
+  },
+  {
+    "slug": "greenwood-golf-club",
+    "name": "그린우드CC",
+    "nameEn": "Greenwood Golf Club (구 Noble Place)",
+    "aliases": [
+      "그린우드"
+    ],
+    "region": "방콕/파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "피터 톰슨 설계 27홀, 1993년 개장한 파타야 근교 숲 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀"
+      },
+      {
+        "label": "개장",
+        "value": "1993년 (구 노블 플레이스)"
+      },
+      {
+        "label": "설계",
+        "value": "피터 톰슨"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 촌부리주 반붕"
+      }
+    ],
+    "description": "그린우드CC는 1993년 노블 플레이스라는 이름으로 문을 연 27홀 골프장으로, 디 오픈을 다섯 번 우승한 피터 톰슨이 설계했습니다.\n\n이름처럼 키 큰 나무가 페어웨이를 감싸는 숲 코스로, 9홀 코스 세 개를 조합해 하루 27홀을 모두 돌 수 있습니다.\n\n여행의파도 파타야 3색 상품은 인천에서 티웨이항공 직항으로 출발해 파타야 시내 크리스탈팰리스 호텔에 묵으며, 첫 라운드로 그린우드CC 27홀을 칩니다. 이후 트레져힐CC와 파타비아CC에서 27홀씩 돌아 총 81홀입니다.",
+    "images": [
+      "/images/bangkok-pattaya/course-6.jpg",
+      "/images/bangkok-pattaya/course-5.jpg",
+      "/images/bangkok-pattaya/course-4.jpg"
+    ],
+    "hashtags": [
+      "그린우드CC",
+      "그린우드골프",
+      "파타야골프장",
+      "파타야골프여행",
+      "태국골프여행",
+      "피터톰슨",
+      "27홀"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok"
+    ]
   }
 ]
