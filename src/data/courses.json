@@ -3814,5 +3814,642 @@
     "relatedTourIds": [
       "thailand-bangkok"
     ]
+  },
+  {
+    "slug": "matsuyama-golf-club",
+    "name": "마쓰야마GC",
+    "nameEn": "Matsuyama Golf Club (松山ゴルフ倶楽部)",
+    "region": "마쓰야마",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "우에다 오사무 설계, 1964년 18홀로 완성된 마쓰야마의 오래된 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "6,492야드 (백티)"
+      },
+      {
+        "label": "개장",
+        "value": "1958년 9홀 개장 · 1964년 18홀"
+      },
+      {
+        "label": "설계",
+        "value": "우에다 오사무"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 에히메현 도온시 (마쓰야마 근교)"
+      }
+    ],
+    "description": "마쓰야마GC는 1958년 9홀로 문을 열고 1964년 18홀로 완성된 골프장으로, 일본 골프 코스 설계의 1세대인 우에다 오사무가 설계했습니다. 백티 기준 전장은 6,492야드입니다.\n\n60년 넘게 다듬어진 숲 사이 코스로, 마쓰야마 바로 옆 도온시에 있어 마쓰야마 골프여행에서 이동 부담이 가장 적은 골프장 중 하나입니다.\n\n여행의파도 마쓰야마 상품은 인천(진에어)·부산(에어부산)에서 출발해 쥬라쿠 스파리조트 1박, 히요리호텔 2박을 하며, 마쓰야마GC·국제CC·치산호조·로얄·씨사이드 5개 코스 중에서 라운드합니다. 시내 숙소에서 마쓰야마GC까지는 약 10분입니다.",
+    "images": [
+      "/images/matsuyama-juraku-hiyori/course-1.jpg",
+      "/images/matsuyama-juraku-hiyori/course-2.jpg",
+      "/images/matsuyama-juraku-hiyori/course-3.jpg",
+      "/images/matsuyama-juraku-hiyori/course-4.jpg",
+      "/images/matsuyama-juraku-hiyori/course-5.jpg",
+      "/images/matsuyama-juraku-hiyori/course-6.jpg"
+    ],
+    "hashtags": [
+      "마쓰야마GC",
+      "마쓰야마골프장",
+      "마쓰야마골프여행",
+      "에히메골프",
+      "일본골프여행",
+      "시코쿠골프",
+      "도고온천"
+    ],
+    "relatedTourIds": [
+      "japan-matsuyama-juraku-hiyori",
+      "japan-matsuyama-juraku-hiyori-busan"
+    ]
+  },
+  {
+    "slug": "matsuyama-kokusai-gc",
+    "name": "마쓰야마 국제CC",
+    "nameEn": "Matsuyama Kokusai Golf Club (松山国際ゴルフ倶楽部)",
+    "region": "마쓰야마",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "마쓰야마 게이지 설계 파72, 산기슭에서 마쓰야마 시내와 세토내해를 내려다보는 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,669야드"
+      },
+      {
+        "label": "개장",
+        "value": "1970년"
+      },
+      {
+        "label": "설계",
+        "value": "마쓰야마 게이지"
+      },
+      {
+        "label": "코스 특징",
+        "value": "산기슭 코스, 시내·세토내해 조망"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 에히메현 도온시 (마쓰야마 근교)"
+      }
+    ],
+    "description": "마쓰야마 국제CC는 1970년 문을 연 18홀 골프장으로, 마쓰야마 게이지가 설계했습니다. 파72, 전장 6,669야드입니다.\n\n산기슭에 놓인 코스로, 높은 곳의 홀에서는 마쓰야마 시내와 세토내해가 내려다보입니다. 오르막·내리막이 있어 남은 거리보다 높낮이를 먼저 계산해야 합니다.\n\n여행의파도 마쓰야마 상품에서는 5개 코스 중 하나로 국제CC를 고를 수 있으며, 시내 숙소에서 약 10분 거리입니다. 라운드 뒤에는 도고온천 무료 입욕과 시내 관광이 이어집니다.",
+    "images": [
+      "/images/matsuyama-juraku-hiyori/course-6.jpg",
+      "/images/matsuyama-juraku-hiyori/course-3.jpg",
+      "/images/matsuyama-juraku-hiyori/course-1.jpg",
+      "/images/matsuyama-juraku-hiyori/course-2.jpg",
+      "/images/matsuyama-juraku-hiyori/course-4.jpg",
+      "/images/matsuyama-juraku-hiyori/course-5.jpg"
+    ],
+    "hashtags": [
+      "마쓰야마국제CC",
+      "국제CC",
+      "마쓰야마골프장",
+      "마쓰야마골프여행",
+      "에히메골프",
+      "일본골프여행",
+      "산악코스"
+    ],
+    "relatedTourIds": [
+      "japan-matsuyama-juraku-hiyori",
+      "japan-matsuyama-juraku-hiyori-busan"
+    ]
+  },
+  {
+    "slug": "chisan-cc-hojo",
+    "name": "치산CC 호조",
+    "nameEn": "Chisan Country Club Hojo (チサンカントリークラブ北条)",
+    "aliases": [
+      "치산호조CC"
+    ],
+    "region": "마쓰야마",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "파72 6,469야드, 세토내해를 내려다보는 언덕 위 평탄한 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,469야드"
+      },
+      {
+        "label": "개장",
+        "value": "1984년"
+      },
+      {
+        "label": "코스 특징",
+        "value": "바다 쪽 IN, 산 쪽 OUT 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 에히메현 마쓰야마시 호조"
+      }
+    ],
+    "description": "치산CC 호조는 1984년 문을 연 18홀 골프장입니다. 파72, 전장 6,469야드이며 마쓰야마시 북쪽 호조 지역에 있습니다.\n\n세토내해를 바라보는 언덕 위에 있지만 전체적으로 평탄하고 여유 있는 레이아웃입니다. 바다 쪽 IN 코스와 산 쪽 OUT 코스의 풍경이 달라 18홀 동안 지루하지 않습니다.\n\n여행의파도 마쓰야마 상품에서는 마쓰야마GC·국제CC·로얄·씨사이드와 함께 고를 수 있는 5개 코스 중 하나입니다. 숙소는 쥬라쿠 스파리조트와 히요리호텔입니다.",
+    "images": [
+      "/images/matsuyama-juraku-hiyori/course-4.jpg",
+      "/images/matsuyama-juraku-hiyori/course-6.jpg",
+      "/images/matsuyama-juraku-hiyori/course-5.jpg",
+      "/images/matsuyama-juraku-hiyori/course-1.jpg",
+      "/images/matsuyama-juraku-hiyori/course-2.jpg",
+      "/images/matsuyama-juraku-hiyori/course-3.jpg"
+    ],
+    "hashtags": [
+      "치산호조",
+      "치산CC",
+      "마쓰야마골프장",
+      "마쓰야마골프여행",
+      "에히메골프",
+      "일본골프여행",
+      "세토내해"
+    ],
+    "relatedTourIds": [
+      "japan-matsuyama-juraku-hiyori",
+      "japan-matsuyama-juraku-hiyori-busan"
+    ]
+  },
+  {
+    "slug": "matsuyama-royal-gc",
+    "name": "마쓰야마 로얄GC",
+    "nameEn": "Matsuyama Royal Golf Club (松山ロイヤルゴルフ倶楽部)",
+    "region": "마쓰야마",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "마쓰야마 게이지 설계 파72, 1974년 개장한 이요시 나카야마 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,547야드"
+      },
+      {
+        "label": "개장",
+        "value": "1974년"
+      },
+      {
+        "label": "설계",
+        "value": "마쓰야마 게이지"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 에히메현 이요시 나카야마초"
+      }
+    ],
+    "description": "마쓰야마 로얄GC는 1974년 문을 연 18홀 골프장으로, 국제CC와 같은 마쓰야마 게이지가 설계했습니다. 파72, 전장 6,547야드입니다.\n\n마쓰야마 남쪽 이요시 나카야마의 산간에 있는 코스로, 같은 설계자의 국제CC와 비교해 보는 재미가 있습니다.\n\n여행의파도 마쓰야마 상품에서는 5개 코스 중에서 로얄GC를 골라 칠 수 있습니다. 인천출발은 3색 54홀, 부산출발은 기본 36홀(54홀 추가 가능)입니다.",
+    "images": [
+      "/images/matsuyama-juraku-hiyori/course-5.jpg",
+      "/images/matsuyama-juraku-hiyori/course-4.jpg",
+      "/images/matsuyama-juraku-hiyori/course-2.jpg",
+      "/images/matsuyama-juraku-hiyori/course-6.jpg",
+      "/images/matsuyama-juraku-hiyori/course-3.jpg",
+      "/images/matsuyama-juraku-hiyori/course-1.jpg"
+    ],
+    "hashtags": [
+      "마쓰야마로얄",
+      "로얄GC",
+      "마쓰야마골프장",
+      "마쓰야마골프여행",
+      "에히메골프",
+      "일본골프여행",
+      "시코쿠골프"
+    ],
+    "relatedTourIds": [
+      "japan-matsuyama-juraku-hiyori",
+      "japan-matsuyama-juraku-hiyori-busan"
+    ]
+  },
+  {
+    "slug": "matsuyama-seaside-cc",
+    "name": "마쓰야마 씨사이드CC",
+    "nameEn": "Matsuyama Seaside Country Club (松山シーサイドカントリークラブ)",
+    "region": "마쓰야마",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "파72 7,051야드, 세토내해를 낀 7,000야드급 해안 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,051야드"
+      },
+      {
+        "label": "개장",
+        "value": "1977년"
+      },
+      {
+        "label": "코스 특징",
+        "value": "세토내해를 낀 해안 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 에히메현"
+      }
+    ],
+    "description": "마쓰야마 씨사이드CC는 1977년 문을 연 18홀 골프장입니다. 파72, 전장 7,051야드로 마쓰야마 지역 코스 가운데 가장 깁니다.\n\n세토내해를 낀 해안 코스라 육지 쪽과 바다 쪽 바람을 함께 읽어야 하고, 7,000야드가 넘는 전장 덕분에 장타자에게 잘 맞습니다.\n\n여행의파도 마쓰야마 상품에서는 5개 코스 중 하나로 씨사이드CC를 고를 수 있습니다. 라운드 외 일정에는 마쓰야마성 로프웨이와 도고온천 무료 관광이 포함됩니다.",
+    "images": [
+      "/images/matsuyama-juraku-hiyori/course-2.jpg",
+      "/images/matsuyama-juraku-hiyori/course-5.jpg",
+      "/images/matsuyama-juraku-hiyori/course-6.jpg",
+      "/images/matsuyama-juraku-hiyori/course-3.jpg",
+      "/images/matsuyama-juraku-hiyori/course-1.jpg",
+      "/images/matsuyama-juraku-hiyori/course-4.jpg"
+    ],
+    "hashtags": [
+      "마쓰야마씨사이드",
+      "씨사이드CC",
+      "마쓰야마골프장",
+      "마쓰야마골프여행",
+      "에히메골프",
+      "일본골프여행",
+      "해안골프"
+    ],
+    "relatedTourIds": [
+      "japan-matsuyama-juraku-hiyori",
+      "japan-matsuyama-juraku-hiyori-busan"
+    ]
+  },
+  {
+    "slug": "central-gc-aso",
+    "name": "센트럴GC 아소코스",
+    "nameEn": "Central Golf Club Aso Course (セントラルゴルフクラブ麻生コース)",
+    "aliases": [
+      "아소CC"
+    ],
+    "region": "도쿄",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "가스미가우라 호숫가 지형을 살린 18홀, 크고 작은 연못 9개",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "6,905야드"
+      },
+      {
+        "label": "개장",
+        "value": "1976년"
+      },
+      {
+        "label": "코스 특징",
+        "value": "가스미가우라 호반 지형, 연못 9개"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 이바라키현 나메가타시"
+      }
+    ],
+    "description": "센트럴GC 아소코스는 1976년 문을 연 18홀 골프장으로, 전장 6,905야드입니다. 이바라키현 나메가타시, 가스미가우라 호숫가에 있습니다.\n\n호숫가의 자연 지형을 그대로 살렸고, 크고 작은 연못 9개와 벙커가 공략 경로를 좁혀 생각보다 전략적인 코스입니다.\n\n여행의파도 이타코 상품은 인천에서 아시아나항공으로 나리타에 들어가 후지야 호텔에 묵으며, 아소코스·센트럴GC·센트럴GC NEW 중 한 곳에서 매일 18홀에 9홀 서비스 라운드를 더해 칩니다. 클럽하우스 중식이 포함됩니다.",
+    "images": [
+      "/images/tokyo-itako/course-4.jpg",
+      "/images/tokyo-itako/course-2.jpg",
+      "/images/tokyo-itako/course-3.jpg",
+      "/images/tokyo-itako/course-5.jpg",
+      "/images/tokyo-itako/course-6.jpg"
+    ],
+    "hashtags": [
+      "센트럴GC",
+      "아소코스",
+      "이타코골프",
+      "이바라키골프장",
+      "도쿄골프여행",
+      "일본골프여행",
+      "27홀"
+    ],
+    "relatedTourIds": [
+      "japan-tokyo-itako"
+    ]
+  },
+  {
+    "slug": "central-golf-club",
+    "name": "센트럴GC",
+    "nameEn": "Central Golf Club (セントラルゴルフクラブ)",
+    "aliases": [
+      "센트릴CC"
+    ],
+    "region": "도쿄",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "36홀 토너먼트 코스, 일본오픈 2회·일본프로 2회 개최",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 (동·서 코스)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "36홀 합계 파145 · 14,184야드"
+      },
+      {
+        "label": "개장",
+        "value": "1974년"
+      },
+      {
+        "label": "설계",
+        "value": "니시노 조스케"
+      },
+      {
+        "label": "코스 특징",
+        "value": "일본오픈·일본프로 등 주요 대회 개최"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 이바라키현 나메가타시"
+      }
+    ],
+    "description": "센트럴GC는 1974년 문을 연 36홀 골프장으로, 니시노 조스케가 설계했습니다. 동·서 두 코스 합계 파145, 14,184야드입니다.\n\n개장 이후 일본오픈 2회, 일본프로 2회, 간토오픈과 일본아마추어 등 주요 대회가 열린 토너먼트 코스입니다. 소나무와 자작나무로 둘러싸인 구릉 코스로, 동코스는 페어웨이가 넓지만 잔잔한 굴곡과 크로스 벙커가 까다롭습니다.\n\n여행의파도 이타코 상품에서는 후지야 호텔에서 차로 이동해 센트럴GC·아소코스·NEW코스 중 한 곳에서 하루 27홀(18홀+9홀 서비스)을 칩니다. 셀프 승용카트를 이용합니다.",
+    "images": [
+      "/images/tokyo-itako/course-2.jpg",
+      "/images/tokyo-itako/course-5.jpg",
+      "/images/tokyo-itako/course-3.jpg",
+      "/images/tokyo-itako/course-4.jpg",
+      "/images/tokyo-itako/course-6.jpg"
+    ],
+    "hashtags": [
+      "센트럴GC",
+      "센트럴골프클럽",
+      "이타코골프",
+      "이바라키골프장",
+      "도쿄골프여행",
+      "일본골프여행",
+      "일본오픈"
+    ],
+    "relatedTourIds": [
+      "japan-tokyo-itako"
+    ]
+  },
+  {
+    "slug": "central-gc-new",
+    "name": "센트럴GC NEW코스",
+    "nameEn": "Central Golf Club NEW Course (セントラルゴルフクラブNEWコース)",
+    "aliases": [
+      "뉴센트릴CC"
+    ],
+    "region": "도쿄",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "파72 6,817야드, 1999년 개장한 센트럴GC의 가장 새 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,817야드"
+      },
+      {
+        "label": "개장",
+        "value": "1999년"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 이바라키현 나메가타시"
+      }
+    ],
+    "description": "센트럴GC NEW코스는 1999년 문을 연 18홀 골프장입니다. 파72, 전장 6,817야드로, 센트럴GC 계열 코스 가운데 가장 늦게 생겼습니다.\n\n같은 나메가타시 안에 있는 센트럴GC·아소코스와 가까워, 이타코 지역에서 여러 날 머물며 코스를 바꿔 돌기 좋습니다.\n\n여행의파도 이타코 상품은 5박6일 동안 아소코스·센트럴GC·NEW코스를 오가며 매일 27홀을 치는 장기 체류형 일정입니다. 숙소는 후지야 호텔입니다.",
+    "images": [
+      "/images/tokyo-itako/course-5.jpg",
+      "/images/tokyo-itako/course-3.jpg",
+      "/images/tokyo-itako/course-4.jpg",
+      "/images/tokyo-itako/course-2.jpg",
+      "/images/tokyo-itako/course-6.jpg"
+    ],
+    "hashtags": [
+      "센트럴GCNEW",
+      "뉴센트럴",
+      "이타코골프",
+      "이바라키골프장",
+      "도쿄골프여행",
+      "일본골프여행",
+      "장기체류골프"
+    ],
+    "relatedTourIds": [
+      "japan-tokyo-itako"
+    ]
+  },
+  {
+    "slug": "kanku-classic-gc",
+    "name": "간쿠클래식CC",
+    "nameEn": "Kanku Classic Golf Club (関空クラシックゴルフ倶楽部, 구 스나가와국제GC)",
+    "region": "오사카",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "1965년 개장, 간사이공항 인근의 18홀",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "6,528야드"
+      },
+      {
+        "label": "개장",
+        "value": "1965년"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오사카부 센난 지역"
+      },
+      {
+        "label": "접근",
+        "value": "간사이공항 인근"
+      }
+    ],
+    "description": "간쿠클래식CC는 1965년 스나가와 국제골프클럽이라는 이름으로 문을 연 18홀 골프장으로, 전장 6,528야드입니다.\n\n간사이공항에서 가까워 비행기에서 내리자마자 라운드하기 좋은 위치이고, 오래된 코스답게 나무가 크게 자라 홀을 나눕니다.\n\n여행의파도 오사카 3색 상품은 부산에서 제주항공으로 간사이공항에 내려 바로 간쿠클래식CC 또는 센난CC로 이동해 첫 18홀을 칩니다. 숙소는 SIS 스타게이트 호텔이며 카트+셀프 플레이, 클럽 중식이 포함됩니다.",
+    "images": [
+      "/images/japan-osaka-sis-3color/course-1.jpg",
+      "/images/japan-osaka-sis-3color/course-2.jpg",
+      "/images/japan-osaka-sis-3color/course-3.jpg",
+      "/images/japan-osaka-sis-3color/course-4.jpg",
+      "/images/japan-osaka-sis-3color/course-5.jpg",
+      "/images/japan-osaka-sis-3color/course-6.jpg"
+    ],
+    "hashtags": [
+      "간쿠클래식",
+      "관공클래식",
+      "오사카골프장",
+      "오사카골프여행",
+      "간사이골프",
+      "일본골프여행",
+      "부산출발골프"
+    ],
+    "relatedTourIds": [
+      "japan-osaka-sis-3color"
+    ]
+  },
+  {
+    "slug": "sennan-cc",
+    "name": "센난CC",
+    "nameEn": "Sennan Country Club (泉南カンツリークラブ)",
+    "region": "오사카",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "1960년 개장, 오사카 남부 센난시의 오래된 회원제 코스",
+    "specs": [
+      {
+        "label": "개장",
+        "value": "1960년 (9홀) · 1961년 18홀"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오사카부 센난시"
+      }
+    ],
+    "description": "센난CC는 1960년 9홀로 문을 열고 이듬해 18홀이 된 오사카 남부 센난시의 회원제 골프장입니다. 오사카에서도 역사가 긴 편에 속하는 코스입니다.\n\n간사이공항과 가까운 센난 지역에 있어 도착일이나 출국일에 라운드를 넣기 좋습니다.\n\n여행의파도 오사카 3색 상품에서는 간쿠클래식CC·센난CC·이즈미사노CC·SAKAI CC 중 3곳을 하루 18홀씩 돌아 총 54홀을 칩니다. 숙소인 SIS 스타게이트 호텔에서 골프장까지 20~25분입니다.",
+    "images": [
+      "/images/japan-osaka-sis-3color/course-3.jpg",
+      "/images/japan-osaka-sis-3color/course-4.jpg",
+      "/images/japan-osaka-sis-3color/course-5.jpg",
+      "/images/japan-osaka-sis-3color/course-6.jpg",
+      "/images/japan-osaka-sis-3color/course-1.jpg",
+      "/images/japan-osaka-sis-3color/course-2.jpg"
+    ],
+    "hashtags": [
+      "센난CC",
+      "천남CC",
+      "오사카골프장",
+      "오사카골프여행",
+      "간사이골프",
+      "일본골프여행",
+      "회원제골프장"
+    ],
+    "relatedTourIds": [
+      "japan-osaka-sis-3color"
+    ]
+  },
+  {
+    "slug": "izumisano-cc",
+    "name": "이즈미사노CC",
+    "nameEn": "Izumisano Country Club (泉佐野カントリークラブ)",
+    "region": "오사카",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "27홀 9,384야드, 1972년 개장한 간사이공항 인근 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "27홀 합계 9,384야드"
+      },
+      {
+        "label": "개장",
+        "value": "1972년"
+      },
+      {
+        "label": "설계",
+        "value": "마치다 요시오"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오사카부 이즈미사노시"
+      }
+    ],
+    "description": "이즈미사노CC는 1972년 문을 연 27홀 골프장으로, 마치다 요시오가 설계했습니다. 27홀 합계 전장은 9,384야드입니다.\n\n9홀 코스 세 개를 조합해 도는 구성이라 같은 골프장이라도 날마다 다른 조합으로 칠 수 있고, 간사이공항이 있는 이즈미사노시에 있어 공항 접근이 좋습니다.\n\n여행의파도 오사카 3색 상품에서는 4개 코스 중 3곳을 골라 54홀을 치며, 마지막 날 라운드 후 공항까지 약 25분입니다.",
+    "images": [
+      "/images/japan-osaka-sis-3color/course-5.jpg",
+      "/images/japan-osaka-sis-3color/course-6.jpg",
+      "/images/japan-osaka-sis-3color/course-1.jpg",
+      "/images/japan-osaka-sis-3color/course-2.jpg",
+      "/images/japan-osaka-sis-3color/course-3.jpg",
+      "/images/japan-osaka-sis-3color/course-4.jpg"
+    ],
+    "hashtags": [
+      "이즈미사노CC",
+      "천좌야CC",
+      "오사카골프장",
+      "오사카골프여행",
+      "간사이골프",
+      "일본골프여행",
+      "27홀"
+    ],
+    "relatedTourIds": [
+      "japan-osaka-sis-3color"
+    ]
+  },
+  {
+    "slug": "sakai-cc",
+    "name": "SAKAI CC",
+    "nameEn": "Sakai Country Club (堺カントリークラブ)",
+    "aliases": [
+      "사카이CC"
+    ],
+    "region": "오사카",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "27홀 파108 9,773야드, 능선을 가로지르는 다케 코스가 특징",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (마쓰·다케·우메 9홀 코스)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "27홀 합계 파108 · 9,773야드"
+      },
+      {
+        "label": "개장",
+        "value": "1971년"
+      },
+      {
+        "label": "설계",
+        "value": "아사카와 요시오"
+      },
+      {
+        "label": "코스 특징",
+        "value": "평탄하고 넓은 페어웨이, 능선을 가로지르는 다케 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오사카부 사카이시"
+      }
+    ],
+    "description": "SAKAI CC(사카이 컨트리클럽)는 1971년 문을 연 27홀 골프장으로, 아사카와 요시오가 설계했습니다. 마쓰·다케·우메 세 개의 9홀 코스로 이뤄져 27홀 합계 파108, 9,773야드입니다.\n\n전체적으로 평탄하고 페어웨이가 넓은 편이라 편하게 칠 수 있습니다. 다케 코스는 능선을 가로지르는 독특한 배치라 완만한 오르막·내리막 샷을 함께 치게 됩니다.\n\n여행의파도 오사카 3색 상품에서는 4개 코스 중 하나로 SAKAI CC를 돌 수 있습니다. 카트+셀프 플레이에 클럽 중식이 포함되며, 숙소는 SIS 스타게이트 호텔입니다.",
+    "images": [
+      "/images/japan-osaka-sis-3color/course-6.jpg",
+      "/images/japan-osaka-sis-3color/course-1.jpg",
+      "/images/japan-osaka-sis-3color/course-2.jpg",
+      "/images/japan-osaka-sis-3color/course-3.jpg",
+      "/images/japan-osaka-sis-3color/course-4.jpg",
+      "/images/japan-osaka-sis-3color/course-5.jpg"
+    ],
+    "hashtags": [
+      "사카이CC",
+      "SAKAICC",
+      "오사카골프장",
+      "오사카골프여행",
+      "간사이골프",
+      "일본골프여행",
+      "27홀"
+    ],
+    "relatedTourIds": [
+      "japan-osaka-sis-3color"
+    ]
   }
 ]
