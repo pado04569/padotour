@@ -2573,5 +2573,62 @@
     "relatedTourIds": [
       "china-fuzhou-haixia-3n4d"
     ]
+  },
+  {
+    "slug": "springfield-royal-country-club",
+    "name": "스프링필드 로얄CC",
+    "nameEn": "Springfield Royal Country Club",
+    "region": "후아힌",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "잭 니클라우스 설계 27홀 파108, 후아힌 북쪽 차암 리조트 단지",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (마운틴·레이크·밸리 9홀 코스)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "27홀 합계 파108"
+      },
+      {
+        "label": "개장",
+        "value": "1993년 (밸리 9홀 2005년)"
+      },
+      {
+        "label": "설계",
+        "value": "잭 니클라우스 (밸리 9홀 리 슈미트·브라이언 컬리)"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 펫차부리주 차암 (후아힌 북쪽)"
+      },
+      {
+        "label": "접근",
+        "value": "후아힌 시내에서 차로 약 30분"
+      }
+    ],
+    "description": "스프링필드 로얄CC는 후아힌 북쪽 차암에 있는 27홀 골프장입니다. 1993년 잭 니클라우스 설계로 마운틴·레이크 18홀이 먼저 문을 열었고, 2005년 리 슈미트·브라이언 컬리가 설계한 밸리 9홀이 더해져 27홀 합계 파108이 되었습니다.\n\n코스 곳곳에 호수가 놓여 있고 산을 배경으로 한 조망이 특징이며, 골프다이제스트 태국 Top 10에 선정된 이력이 있습니다. 같은 단지에 스프링필드 빌리지 리조트가 있어 숙소와 골프장이 붙어 있습니다.\n\n여행의파도 후아힌 상품은 인천(이스타항공)과 부산(에어부산·진에어)에서 출발해 리조트 디럭스 자쿠지룸에 3박하며, 둘째 날부터 매일 18홀씩 3회 라운드합니다. 12월 출발부터는 하루 세 끼가 리조트에서 제공됩니다.",
+    "images": [
+      "/images/thailand-huahin-springfield/course-1.jpg",
+      "/images/thailand-huahin-springfield/course-2.jpg",
+      "/images/thailand-huahin-springfield/course-3.jpg",
+      "/images/thailand-huahin-springfield/course-4.jpg",
+      "/images/thailand-huahin-springfield/course-5.jpg",
+      "/images/thailand-huahin-springfield/course-6.jpg"
+    ],
+    "hashtags": [
+      "스프링필드CC",
+      "스프링필드로얄",
+      "후아힌골프장",
+      "후아힌골프",
+      "태국골프여행",
+      "잭니클라우스",
+      "태국골프텔"
+    ],
+    "relatedTourIds": [
+      "thailand-huahin-springfield",
+      "thailand-huahin-springfield-busan"
+    ]
   }
 ]

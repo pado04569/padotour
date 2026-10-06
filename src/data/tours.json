@@ -1,5 +1,2450 @@
 [
   {
+    "id": "china-xiamen-landin-3color-3n4d",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "샤먼",
+    "subtitle": "동방CC·천주CC·남태무CC 3색 54홀 · IHG 화이호텔 · 이스타항공 직항",
+    "nights": 3,
+    "days": 4,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "18홀 x 3회 (총 54홀)\n동방CC · 천주CC · 남태무CC",
+    "minPeople": 2,
+    "period": "2026년 10월 ~ 2027년 3월 (수·목 출발)",
+    "hotel": "IHG 화이호텔 또는 동급 (2인 1실)",
+    "hotelDesc": "샤먼 IHG 화이호텔(또는 동급)에서 2인 1실로 묵으며 전 일정 조식과 석식이 포함됩니다.",
+    "golfCourse": "동방CC · 천주CC · 남태무CC",
+    "golfCourseDesc": "샤먼에 도착한 날 바로 동방CC 18홀을 돌고, 이후 천주CC와 남태무CC에서 라운드해 3박4일 동안 총 54홀을 칩니다. 남태무CC와 천주CC는 9홀 추가 라운드를 신청할 수 있습니다.",
+    "productSummary": "인천에서 이스타항공 직항으로 약 2시간 50분, 샤먼의 동방CC·천주CC·남태무CC를 도는 3박4일 54홀 3색 상품입니다.\nIHG 화이호텔 2인 1실에 조식·석식과 그린피가 포함되고, 캐디피·카트비는 현지에서 냅니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 샤먼 · 동방CC 18홀",
+        "desc": "인천국제공항 출발(ZE891, 08:50) → 샤먼 국제공항 도착(11:10) → 직원 미팅 후 골프장 이동 → 동방CC 18홀 라운드 → 호텔 체크인 및 휴식 [석식 현지식] [호텔: IHG 화이호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "천주CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 천주CC 18홀 라운드 → 호텔로 이동 후 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "3일차",
+        "label": "남태무CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 남태무CC 18홀 라운드 → 호텔로 이동 후 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "4일차",
+        "label": "샤먼 → 인천",
+        "desc": "조식 후 체크아웃 → 샤먼 국제공항 이동 → 샤먼 국제공항 출발(ZE892, 12:10) → 인천국제공항 도착(16:10) 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "샤먼 동방CC·천주CC·남태무CC 3색 · 3박4일 54홀",
+      "도착 당일부터 동방CC 18홀 라운드",
+      "IHG 화이호텔 2인 1실 · 조식·석식 포함",
+      "이스타항공 인천↔샤먼 직항 · 2인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (TAX·유류할증료 포함)",
+      "IHG 화이호텔 또는 동급 (2인 1실)",
+      "전 일정 조식 · 석식",
+      "일정상 그린피",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디피+카트비 (18홀 300위안)",
+      "캐디팁 (18홀 150위안)",
+      "미팅·샌딩 (인 400위안)",
+      "클럽 중식 (인 100위안)"
+    ],
+    "cancelPolicy": [
+      "이스타항공 위탁수하물: 캐리어+골프백 합계 15kg, 기내 10kg",
+      "남태무CC 9홀 추가 그린피 주중 3만원·주말 5만원, 천주CC 9홀 추가 주중 4만원·주말 6만원 (캐디피·카트비 별도)",
+      "27홀 진행 시 캐디피+카트비 450위안, 캐디팁 225위안",
+      "싱글룸 1박·1인 5만원 추가, 싱글카트 18홀 100위안",
+      "현지 관광(4인 이상): 남정토루 500위안 / 구랑위 300위안",
+      "대한항공 이용은 별도 문의",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-10-28",
+        "price": 1199000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-10-29",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-04",
+        "price": 1199000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-05",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-11",
+        "price": 1199000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-12",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1199000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-19",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-25",
+        "price": 1199000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-26",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1219000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1269000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1219000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1269000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1219000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1269000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1239000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1289000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1239000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-31",
+        "price": 1289000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1239000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1289000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1239000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1289000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1239000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1289000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1239000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1289000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1239000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1239000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1289000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1239000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1289000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-03",
+        "price": 1199000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-10",
+        "price": 1199000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-17",
+        "price": 1199000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      }
+    ],
+    "image": "/images/china-xiamen-landin-3color/course-1.jpg",
+    "images": [
+      "/images/china-xiamen-landin-3color/course-1.jpg",
+      "/images/china-xiamen-landin-3color/course-2.jpg",
+      "/images/china-xiamen-landin-3color/hotel-1.jpg",
+      "/images/china-xiamen-landin-3color/course-3.jpg",
+      "/images/china-xiamen-landin-3color/hotel-2.jpg",
+      "/images/china-xiamen-landin-3color/course-4.jpg",
+      "/images/china-xiamen-landin-3color/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-xiamen-landin-3color/hotel-1.jpg",
+      "/images/china-xiamen-landin-3color/hotel-2.jpg",
+      "/images/china-xiamen-landin-3color/hotel-3.jpg",
+      "/images/china-xiamen-landin-3color/hotel-4.jpg",
+      "/images/china-xiamen-landin-3color/hotel-5.jpg",
+      "/images/china-xiamen-landin-3color/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/china-xiamen-landin-3color/course-1.jpg",
+      "/images/china-xiamen-landin-3color/course-2.jpg",
+      "/images/china-xiamen-landin-3color/course-3.jpg",
+      "/images/china-xiamen-landin-3color/course-4.jpg",
+      "/images/china-xiamen-landin-3color/course-5.jpg",
+      "/images/china-xiamen-landin-3color/course-6.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-06",
+    "seoIntro": "인천 출발 중국 샤먼 골프여행으로, 이스타항공 직항과 IHG 화이호텔, 동방·천주·남태무 3색 54홀을 묶은 골프패키지입니다.",
+    "seoKeywords": [
+      "샤먼골프",
+      "하문골프",
+      "샤먼골프여행",
+      "동방CC",
+      "남태무CC",
+      "천주CC",
+      "인천출발"
+    ],
+    "price": "1,199,000원~",
+    "title": "[인천출발] 중국 샤먼 골프여행 동방·천주·남태무CC 3색 3박4일 54홀 1,199,000원부터"
+  },
+  {
+    "id": "china-xiamen-landin-3color-4n5d",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "샤먼",
+    "subtitle": "동방CC·천주CC·남태무CC 3색 72홀 · IHG 화이호텔 · 이스타항공 직항",
+    "nights": 4,
+    "days": 5,
+    "courses": 3,
+    "roundsIncluded": 4,
+    "holes": "18홀 x 4회 (총 72홀)\n동방CC · 천주CC · 남태무CC",
+    "minPeople": 2,
+    "period": "2026년 10월 ~ 2027년 3월 (토·일 출발)",
+    "hotel": "IHG 화이호텔 또는 동급 (2인 1실)",
+    "hotelDesc": "샤먼 IHG 화이호텔(또는 동급)에서 2인 1실로 묵으며 전 일정 조식과 석식이 포함됩니다.",
+    "golfCourse": "동방CC · 천주CC · 남태무CC",
+    "golfCourseDesc": "샤먼에 도착한 날 바로 동방CC 18홀을 돌고, 이후 천주CC와 남태무CC에서 라운드해 4박5일 동안 총 72홀을 칩니다. 남태무CC와 천주CC는 9홀 추가 라운드를 신청할 수 있습니다.",
+    "productSummary": "인천에서 이스타항공 직항으로 약 2시간 50분, 샤먼의 동방CC·천주CC·남태무CC를 도는 4박5일 72홀 3색 상품입니다.\nIHG 화이호텔 2인 1실에 조식·석식과 그린피가 포함되고, 캐디피·카트비는 현지에서 냅니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 샤먼 · 동방CC 18홀",
+        "desc": "인천국제공항 출발(ZE891, 08:50) → 샤먼 국제공항 도착(11:10) → 직원 미팅 후 골프장 이동 → 동방CC 18홀 라운드 → 호텔 체크인 및 휴식 [석식 현지식] [호텔: IHG 화이호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "남태무CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 남태무CC 18홀 라운드 → 호텔로 이동 후 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "3일차",
+        "label": "천주CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 천주CC 18홀 라운드 → 호텔로 이동 후 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "4일차",
+        "label": "남태무CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 남태무CC 18홀 라운드 → 호텔로 이동 후 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "5일차",
+        "label": "샤먼 → 인천",
+        "desc": "조식 후 체크아웃 → 샤먼 국제공항 이동 → 샤먼 국제공항 출발(ZE892, 12:10) → 인천국제공항 도착(16:10) 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "샤먼 동방CC·천주CC·남태무CC 3색 · 4박5일 72홀",
+      "도착 당일부터 동방CC 18홀 라운드",
+      "IHG 화이호텔 2인 1실 · 조식·석식 포함",
+      "이스타항공 인천↔샤먼 직항 · 2인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (TAX·유류할증료 포함)",
+      "IHG 화이호텔 또는 동급 (2인 1실)",
+      "전 일정 조식 · 석식",
+      "일정상 그린피",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디피+카트비 (18홀 300위안)",
+      "캐디팁 (18홀 150위안)",
+      "미팅·샌딩 (인 400위안)",
+      "클럽 중식 (인 100위안)"
+    ],
+    "cancelPolicy": [
+      "이스타항공 위탁수하물: 캐리어+골프백 합계 15kg, 기내 10kg",
+      "남태무CC 9홀 추가 그린피 주중 3만원·주말 5만원, 천주CC 9홀 추가 주중 4만원·주말 6만원 (캐디피·카트비 별도)",
+      "27홀 진행 시 캐디피+카트비 450위안, 캐디팁 225위안",
+      "싱글룸 1박·1인 5만원 추가, 싱글카트 18홀 100위안",
+      "현지 관광(4인 이상): 남정토루 500위안 / 구랑위 300위안",
+      "대한항공 이용은 별도 문의",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-10-31",
+        "price": 1399000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-01",
+        "price": 1359000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-07",
+        "price": 1399000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-08",
+        "price": 1359000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-14",
+        "price": 1399000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-15",
+        "price": 1359000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-21",
+        "price": 1399000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1359000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1399000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-29",
+        "price": 1359000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1399000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1359000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1399000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1359000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1399000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1359000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1419000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1379000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1419000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1379000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1419000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1379000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1419000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1379000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1419000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1379000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1419000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1379000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1419000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1379000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1419000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1379000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1419000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-28",
+        "price": 1379000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1399000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-07",
+        "price": 1359000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1399000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-14",
+        "price": 1359000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1399000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-21",
+        "price": 1359000,
+        "nights": 4,
+        "days": 5
+      }
+    ],
+    "image": "/images/china-xiamen-landin-3color/course-1.jpg",
+    "images": [
+      "/images/china-xiamen-landin-3color/course-1.jpg",
+      "/images/china-xiamen-landin-3color/course-2.jpg",
+      "/images/china-xiamen-landin-3color/hotel-1.jpg",
+      "/images/china-xiamen-landin-3color/course-3.jpg",
+      "/images/china-xiamen-landin-3color/hotel-2.jpg",
+      "/images/china-xiamen-landin-3color/course-4.jpg",
+      "/images/china-xiamen-landin-3color/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-xiamen-landin-3color/hotel-1.jpg",
+      "/images/china-xiamen-landin-3color/hotel-2.jpg",
+      "/images/china-xiamen-landin-3color/hotel-3.jpg",
+      "/images/china-xiamen-landin-3color/hotel-4.jpg",
+      "/images/china-xiamen-landin-3color/hotel-5.jpg",
+      "/images/china-xiamen-landin-3color/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/china-xiamen-landin-3color/course-1.jpg",
+      "/images/china-xiamen-landin-3color/course-2.jpg",
+      "/images/china-xiamen-landin-3color/course-3.jpg",
+      "/images/china-xiamen-landin-3color/course-4.jpg",
+      "/images/china-xiamen-landin-3color/course-5.jpg",
+      "/images/china-xiamen-landin-3color/course-6.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-06",
+    "seoIntro": "인천 출발 중국 샤먼 골프여행으로, 이스타항공 직항과 IHG 화이호텔, 동방·천주·남태무 3색 72홀을 묶은 골프패키지입니다.",
+    "seoKeywords": [
+      "샤먼골프",
+      "하문골프",
+      "샤먼골프여행",
+      "동방CC",
+      "남태무CC",
+      "천주CC",
+      "인천출발"
+    ],
+    "price": "1,359,000원~",
+    "title": "[인천출발] 중국 샤먼 골프여행 동방·천주·남태무CC 3색 4박5일 72홀 1,359,000원부터"
+  },
+  {
+    "id": "thailand-huahin-springfield",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "후아힌",
+    "subtitle": "스프링필드 로얄CC 54홀 · 스프링필드 빌리지 리조트 · 골프텔",
+    "nights": 3,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "18홀 x 3회 (총 54홀)\n스프링필드 로얄CC 27홀 코스",
+    "minPeople": 2,
+    "period": "2026년 11월 ~ 2027년 3월",
+    "hotel": "스프링필드 빌리지 리조트 디럭스 자쿠지룸 (2인 1실)",
+    "hotelDesc": "골프장과 같은 단지에 있는 스프링필드 빌리지 리조트의 디럭스 자쿠지룸(55㎡)에 2인 1실로 묵습니다. 야외 수영장과 스파, 레스토랑이 있고 객실에서 나와 바로 라운드할 수 있어 매일 차로 이동할 필요가 없습니다.",
+    "golfCourse": "스프링필드 로얄CC",
+    "golfCourseDesc": "스프링필드 로얄CC는 후아힌 북쪽 차암에 있는 27홀(마운틴·레이크·밸리, 합계 파108) 코스입니다. 1993년 잭 니클라우스 설계로 18홀이 문을 열었고, 2005년 밸리 9홀이 더해졌습니다. 골프다이제스트 태국 Top 10에 선정된 이력이 있습니다. 둘째 날부터 매일 18홀씩 3회 라운드합니다.",
+    "productSummary": "후아힌 스프링필드 로얄CC 단지 안 리조트에 머물며 3박5일 동안 18홀씩 3회, 총 54홀을 도는 골프텔 상품입니다.\n항공권·숙박·그린피가 포함되고 12월 출발부터는 하루 세 끼가 리조트에서 제공됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 방콕 → 후아힌",
+        "desc": "인천국제공항 출발(이스타항공) → 방콕 국제공항 도착 → 미팅 후 후아힌으로 이동 → 골프텔 체크인 및 휴식 [호텔: 스프링필드 빌리지 리조트]"
+      },
+      {
+        "day": "2일차",
+        "label": "스프링필드 로얄CC 18홀",
+        "desc": "조식 후 스프링필드 로얄CC 18홀 라운드 → 골프텔로 이동 후 휴식 [조식 골프텔 / 중식·석식 골프텔(11월 불포함)]"
+      },
+      {
+        "day": "3일차",
+        "label": "스프링필드 로얄CC 18홀",
+        "desc": "조식 후 스프링필드 로얄CC 18홀 라운드 → 골프텔로 이동 후 휴식 [조식 골프텔 / 중식·석식 골프텔(11월 불포함)]"
+      },
+      {
+        "day": "4일차",
+        "label": "스프링필드 로얄CC 18홀 → 공항",
+        "desc": "조식 후 체크아웃 → 스프링필드 로얄CC 18홀 라운드 → 방콕 국제공항으로 이동 [조식 골프텔 / 중식·석식 골프텔(11월 불포함)]"
+      },
+      {
+        "day": "5일차",
+        "label": "방콕 → 인천",
+        "desc": "방콕 국제공항 출발 → 인천국제공항 도착 후 해산"
+      }
+    ],
+    "highlights": [
+      "잭 니클라우스 설계 스프링필드 로얄CC 27홀 · 3박5일 54홀",
+      "골프장 단지 안 스프링필드 빌리지 리조트 · 디럭스 자쿠지룸 55㎡",
+      "12월 출발부터 조식·중식·석식 포함",
+      "2인부터 출발 · 이스타항공"
+    ],
+    "includes": [
+      "왕복 항공권",
+      "스프링필드 빌리지 리조트 (2인 1실)",
+      "1일 18홀 그린피",
+      "조식 (12월부터 중식·석식 포함)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디피+전동카트 (18홀 1,200바트)",
+      "캐디팁 (18홀 300바트~)",
+      "미팅·샌딩 (4인 이상 인 $60 / 4인 미만 편도 총 $120)",
+      "11월 출발 중식·석식"
+    ],
+    "cancelPolicy": [
+      "11월 출발은 조식만 포함되고(중식·석식 불포함), 12월 출발부터 조식·중식·석식이 모두 포함됩니다.",
+      "4인 1조 티업이 원칙이며, 2인 티업 시 골프장에서 조인될 수 있습니다.",
+      "태풍·폭우 등 천재지변 시 골프장 규정에 따르며 환불되지 않습니다.",
+      "싱글룸 추가 및 9홀·18홀 추가 라운드는 별도 요금입니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-01",
+        "price": 1119000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-02",
+        "price": 1049000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-03",
+        "price": 1049000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-04",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-05",
+        "price": 1079000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-06",
+        "price": 1079000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-07",
+        "price": 1049000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-08",
+        "price": 1049000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-09",
+        "price": 1049000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-10",
+        "price": 1049000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-11",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-12",
+        "price": 1079000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-13",
+        "price": 1079000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-14",
+        "price": 1049000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-15",
+        "price": 1049000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-16",
+        "price": 1049000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-17",
+        "price": 1049000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-19",
+        "price": 1079000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-26",
+        "price": 1119000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-27",
+        "price": 1119000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1119000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-29",
+        "price": 1149000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-30",
+        "price": 1189000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-01",
+        "price": 1189000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1249000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1229000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1229000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1209000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1209000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1209000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-08",
+        "price": 1209000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1249000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1229000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1229000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1209000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1209000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1209000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-15",
+        "price": 1209000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1249000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1249000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1249000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1229000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1229000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1229000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1229000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1449000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1449000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1389000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1389000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1309000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1309000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-29",
+        "price": 1309000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1549000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-01",
+        "price": 1549000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1389000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1389000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1389000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1389000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1389000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1349000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1389000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1389000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1389000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1289000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1409000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1949000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-05",
+        "price": 1949000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1949000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-07",
+        "price": 1949000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-08",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-09",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1409000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1409000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1409000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1409000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1409000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1409000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1369000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1409000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1789000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1789000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1789000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-28",
+        "price": 1289000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-01",
+        "price": 1289000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-02",
+        "price": 1289000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-03",
+        "price": 1329000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1329000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-05",
+        "price": 1329000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1289000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-07",
+        "price": 1289000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-08",
+        "price": 1289000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-09",
+        "price": 1289000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-10",
+        "price": 1329000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1329000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-12",
+        "price": 1329000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1289000,
+        "nights": 3,
+        "days": 5
+      }
+    ],
+    "image": "/images/thailand-huahin-springfield/course-1.jpg",
+    "images": [
+      "/images/thailand-huahin-springfield/course-1.jpg",
+      "/images/thailand-huahin-springfield/course-2.jpg",
+      "/images/thailand-huahin-springfield/hotel-1.jpg",
+      "/images/thailand-huahin-springfield/course-3.jpg",
+      "/images/thailand-huahin-springfield/hotel-2.jpg",
+      "/images/thailand-huahin-springfield/course-4.jpg",
+      "/images/thailand-huahin-springfield/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/thailand-huahin-springfield/hotel-1.jpg",
+      "/images/thailand-huahin-springfield/hotel-2.jpg",
+      "/images/thailand-huahin-springfield/hotel-3.jpg",
+      "/images/thailand-huahin-springfield/hotel-4.jpg",
+      "/images/thailand-huahin-springfield/hotel-5.jpg",
+      "/images/thailand-huahin-springfield/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/thailand-huahin-springfield/course-1.jpg",
+      "/images/thailand-huahin-springfield/course-2.jpg",
+      "/images/thailand-huahin-springfield/course-3.jpg",
+      "/images/thailand-huahin-springfield/course-4.jpg",
+      "/images/thailand-huahin-springfield/course-5.jpg",
+      "/images/thailand-huahin-springfield/course-6.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-06",
+    "seoIntro": "인천 출발 태국 후아힌 골프여행으로, 잭 니클라우스 설계 스프링필드 로얄CC와 단지 안 리조트에서 3박5일 54홀을 즐기는 골프텔 상품입니다.",
+    "seoKeywords": [
+      "후아힌골프",
+      "후아힌골프여행",
+      "스프링필드CC",
+      "스프링필드로얄",
+      "태국골프텔",
+      "태국골프여행",
+      "인천출발"
+    ],
+    "price": "1,049,000원~",
+    "title": "[인천출발] 태국 후아힌 골프여행 스프링필드 로얄CC 골프텔 3박5일 54홀 1,049,000원부터"
+  },
+  {
+    "id": "thailand-huahin-springfield-busan",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "후아힌",
+    "subtitle": "스프링필드 로얄CC 54홀 · 스프링필드 빌리지 리조트 · 골프텔",
+    "nights": 3,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "18홀 x 3회 (총 54홀)\n스프링필드 로얄CC 27홀 코스",
+    "minPeople": 2,
+    "period": "2026년 11월 ~ 2027년 3월",
+    "hotel": "스프링필드 빌리지 리조트 디럭스 자쿠지룸 (2인 1실)",
+    "hotelDesc": "골프장과 같은 단지에 있는 스프링필드 빌리지 리조트의 디럭스 자쿠지룸(55㎡)에 2인 1실로 묵습니다. 야외 수영장과 스파, 레스토랑이 있고 객실에서 나와 바로 라운드할 수 있어 매일 차로 이동할 필요가 없습니다.",
+    "golfCourse": "스프링필드 로얄CC",
+    "golfCourseDesc": "스프링필드 로얄CC는 후아힌 북쪽 차암에 있는 27홀(마운틴·레이크·밸리, 합계 파108) 코스입니다. 1993년 잭 니클라우스 설계로 18홀이 문을 열었고, 2005년 밸리 9홀이 더해졌습니다. 골프다이제스트 태국 Top 10에 선정된 이력이 있습니다. 둘째 날부터 매일 18홀씩 3회 라운드합니다.",
+    "productSummary": "후아힌 스프링필드 로얄CC 단지 안 리조트에 머물며 3박5일 동안 18홀씩 3회, 총 54홀을 도는 골프텔 상품입니다.\n항공권·숙박·그린피가 포함되고 12월 출발부터는 하루 세 끼가 리조트에서 제공됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 방콕 → 후아힌",
+        "desc": "김해국제공항 출발(에어부산) → 방콕 국제공항 도착 → 미팅 후 후아힌으로 이동 → 골프텔 체크인 및 휴식 [호텔: 스프링필드 빌리지 리조트]"
+      },
+      {
+        "day": "2일차",
+        "label": "스프링필드 로얄CC 18홀",
+        "desc": "조식 후 스프링필드 로얄CC 18홀 라운드 → 골프텔로 이동 후 휴식 [조식 골프텔 / 중식·석식 골프텔(11월 불포함)]"
+      },
+      {
+        "day": "3일차",
+        "label": "스프링필드 로얄CC 18홀",
+        "desc": "조식 후 스프링필드 로얄CC 18홀 라운드 → 골프텔로 이동 후 휴식 [조식 골프텔 / 중식·석식 골프텔(11월 불포함)]"
+      },
+      {
+        "day": "4일차",
+        "label": "스프링필드 로얄CC 18홀 → 공항",
+        "desc": "조식 후 체크아웃 → 스프링필드 로얄CC 18홀 라운드 → 방콕 국제공항으로 이동 [조식 골프텔 / 중식·석식 골프텔(11월 불포함)]"
+      },
+      {
+        "day": "5일차",
+        "label": "방콕 → 부산",
+        "desc": "방콕 국제공항 출발 → 김해국제공항 도착 후 해산"
+      }
+    ],
+    "highlights": [
+      "잭 니클라우스 설계 스프링필드 로얄CC 27홀 · 3박5일 54홀",
+      "골프장 단지 안 스프링필드 빌리지 리조트 · 디럭스 자쿠지룸 55㎡",
+      "12월 출발부터 조식·중식·석식 포함",
+      "2인부터 출발 · 에어부산·진에어"
+    ],
+    "includes": [
+      "왕복 항공권",
+      "스프링필드 빌리지 리조트 (2인 1실)",
+      "1일 18홀 그린피",
+      "조식 (12월부터 중식·석식 포함)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디피+전동카트 (18홀 1,200바트)",
+      "캐디팁 (18홀 300바트~)",
+      "미팅·샌딩 (4인 이상 인 $60 / 4인 미만 편도 총 $120)",
+      "11월 출발 중식·석식"
+    ],
+    "cancelPolicy": [
+      "11월 출발은 조식만 포함되고(중식·석식 불포함), 12월 출발부터 조식·중식·석식이 모두 포함됩니다.",
+      "4인 1조 티업이 원칙이며, 2인 티업 시 골프장에서 조인될 수 있습니다.",
+      "태풍·폭우 등 천재지변 시 골프장 규정에 따르며 환불되지 않습니다.",
+      "싱글룸 추가 및 9홀·18홀 추가 라운드는 별도 요금입니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-01",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-02",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-03",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-04",
+        "price": 1139000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-05",
+        "price": 1139000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-06",
+        "price": 1139000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-07",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-08",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-09",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-10",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-11",
+        "price": 1139000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-12",
+        "price": 1139000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-13",
+        "price": 1139000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-14",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-15",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-16",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-17",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1139000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-19",
+        "price": 1139000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-20",
+        "price": 1139000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-21",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1099000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-26",
+        "price": 1139000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-27",
+        "price": 1139000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1129000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-29",
+        "price": 1169000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-30",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-01",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-08",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-15",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1279000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1399000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1399000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1399000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-29",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1399000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-01",
+        "price": 1399000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1279000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1279000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1279000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1279000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1399000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1599000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-07",
+        "price": 1389000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-09",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1279000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1279000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1279000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1399000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1499000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1499000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-28",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-01",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-02",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-03",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-05",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-07",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-08",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-09",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-10",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-12",
+        "price": 1239000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1199000,
+        "nights": 3,
+        "days": 5
+      }
+    ],
+    "image": "/images/thailand-huahin-springfield/course-1.jpg",
+    "images": [
+      "/images/thailand-huahin-springfield/course-1.jpg",
+      "/images/thailand-huahin-springfield/course-2.jpg",
+      "/images/thailand-huahin-springfield/hotel-1.jpg",
+      "/images/thailand-huahin-springfield/course-3.jpg",
+      "/images/thailand-huahin-springfield/hotel-2.jpg",
+      "/images/thailand-huahin-springfield/course-4.jpg",
+      "/images/thailand-huahin-springfield/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/thailand-huahin-springfield/hotel-1.jpg",
+      "/images/thailand-huahin-springfield/hotel-2.jpg",
+      "/images/thailand-huahin-springfield/hotel-3.jpg",
+      "/images/thailand-huahin-springfield/hotel-4.jpg",
+      "/images/thailand-huahin-springfield/hotel-5.jpg",
+      "/images/thailand-huahin-springfield/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/thailand-huahin-springfield/course-1.jpg",
+      "/images/thailand-huahin-springfield/course-2.jpg",
+      "/images/thailand-huahin-springfield/course-3.jpg",
+      "/images/thailand-huahin-springfield/course-4.jpg",
+      "/images/thailand-huahin-springfield/course-5.jpg",
+      "/images/thailand-huahin-springfield/course-6.jpg"
+    ],
+    "badge": "부산출발 신규",
+    "departure": "busan",
+    "priceUpdatedDate": "2026-10-06",
+    "seoIntro": "부산 출발 태국 후아힌 골프여행으로, 잭 니클라우스 설계 스프링필드 로얄CC와 단지 안 리조트에서 3박5일 54홀을 즐기는 골프텔 상품입니다.",
+    "seoKeywords": [
+      "후아힌골프",
+      "후아힌골프여행",
+      "스프링필드CC",
+      "스프링필드로얄",
+      "태국골프텔",
+      "태국골프여행",
+      "부산출발"
+    ],
+    "price": "1,099,000원~",
+    "title": "[부산출발] 태국 후아힌 골프여행 스프링필드 로얄CC 골프텔 3박5일 54홀 1,099,000원부터"
+  },
+  {
     "country": "중국",
     "countryCode": "china",
     "minPeople": 2,
