@@ -4451,5 +4451,358 @@
     "relatedTourIds": [
       "japan-osaka-sis-3color"
     ]
+  },
+  {
+    "slug": "eagle-ridge-golf",
+    "name": "이글릿지CC",
+    "nameEn": "Eagle Ridge Golf & Country Club",
+    "region": "마닐라",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "summary": "아오키·앤디 다이·닉 팔도·그렉 노먼 설계 4개 코스, 카비테 최대 골프 단지",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "72홀 (18홀 코스 4개)"
+      },
+      {
+        "label": "개장",
+        "value": "1997년 (닉 팔도 코스)"
+      },
+      {
+        "label": "설계",
+        "value": "아오키 이사오 · 앤디 다이 · 닉 팔도 · 그렉 노먼"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 카비테주 헤네랄트리아스 (마닐라 남쪽 약 50km)"
+      }
+    ],
+    "description": "이글릿지CC는 1997년 닉 팔도 코스를 시작으로 앤디 다이(1998년), 아오키 이사오(2000년), 그렉 노먼(2003년) 코스가 차례로 문을 연 골프 단지입니다. 18홀 코스 네 개가 모여 있어 카비테에서 가장 큰 규모입니다.\n\n설계자가 모두 달라 코스마다 성격이 다르고, 가장 긴 닉 팔도 코스는 7,400야드가 넘습니다. 마닐라에서 남쪽으로 약 50km 떨어진 헤네랄트리아스에 있습니다.\n\n여행의파도 마닐라 알라방 상품은 인천(아시아나항공)과 부산(필리핀항공)에서 출발해 알라방의 5성급 비베레호텔에 묵으며, 여러 코스 중 3곳을 하루 18홀씩 돌아 총 54홀을 칩니다. 전 일정 단독 차량과 단독 가이드가 함께합니다.",
+    "images": [
+      "/images/philippines-manila-alabang/course-5.jpg",
+      "/images/philippines-manila-alabang/course-1.jpg",
+      "/images/philippines-manila-alabang/course-3.jpg",
+      "/images/philippines-manila-alabang/course-4.jpg",
+      "/images/philippines-manila-alabang/course-2.jpg"
+    ],
+    "hashtags": [
+      "이글릿지CC",
+      "이글릿지",
+      "마닐라골프장",
+      "마닐라골프여행",
+      "필리핀골프여행",
+      "카비테골프",
+      "그렉노먼"
+    ],
+    "relatedTourIds": [
+      "philippines-manila-alabang",
+      "philippines-manila-alabang-busan"
+    ]
+  },
+  {
+    "slug": "sherwood-hills-golf",
+    "name": "셔우드CC",
+    "nameEn": "Sherwood Hills Golf & Country Club",
+    "region": "마닐라",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "summary": "잭 니클라우스 설계, 1998년 개장한 카비테 트레세마르티레스 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "개장",
+        "value": "1998년"
+      },
+      {
+        "label": "설계",
+        "value": "잭 니클라우스 · 잭 니클라우스 2세"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 카비테주 트레세마르티레스"
+      }
+    ],
+    "description": "셔우드CC(셔우드 힐스)는 1998년 문을 연 18홀 골프장으로, 잭 니클라우스와 아들 잭 니클라우스 2세가 함께 설계했습니다. 필리핀 주요 아마추어 대회가 열린 코스이기도 합니다.\n\n카비테주 트레세마르티레스의 완만한 구릉에 놓여 있고, 니클라우스 설계답게 그린 주변 공략이 까다롭습니다.\n\n여행의파도 마닐라 알라방 상품에서는 이글릿지·스플랜디도 등과 함께 셔우드CC가 3색 코스 후보에 들어갑니다. 골프장 순서는 랜덤으로 배정되며, 호텔에서 골프장까지 40~80분이 걸립니다.",
+    "images": [
+      "/images/philippines-manila-alabang/course-3.jpg",
+      "/images/philippines-manila-alabang/course-4.jpg",
+      "/images/philippines-manila-alabang/course-1.jpg",
+      "/images/philippines-manila-alabang/course-5.jpg",
+      "/images/philippines-manila-alabang/course-2.jpg"
+    ],
+    "hashtags": [
+      "셔우드CC",
+      "셔우드힐스",
+      "마닐라골프장",
+      "마닐라골프여행",
+      "필리핀골프여행",
+      "잭니클라우스",
+      "카비테골프"
+    ],
+    "relatedTourIds": [
+      "philippines-manila-alabang",
+      "philippines-manila-alabang-busan"
+    ]
+  },
+  {
+    "slug": "splendido-taal-golf",
+    "name": "스플랜디도CC",
+    "nameEn": "Splendido Taal Golf & Country Club",
+    "region": "마닐라",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "summary": "그렉 노먼 설계, 타알 호수와 화산을 내려다보는 고원 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "개장",
+        "value": "2002년"
+      },
+      {
+        "label": "설계",
+        "value": "그렉 노먼"
+      },
+      {
+        "label": "코스 특징",
+        "value": "타알 호수·타알 화산 조망"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 바탕가스주 라우렐"
+      }
+    ],
+    "description": "스플랜디도CC는 2002년 문을 연 18홀 회원제 골프장으로, 그렉 노먼이 설계했습니다. 바탕가스주 라우렐의 고원에 자리해 있습니다.\n\n코스에서 타알 호수와 호수 가운데의 타알 화산이 내려다보이는 것이 가장 큰 특징이고, 고지대라 마닐라 시내보다 선선한 편입니다.\n\n여행의파도 마닐라 알라방 상품에서는 타알호수 뷰 코스로 스플랜디도CC가 3색 후보에 들어갑니다. 숙소는 알라방 비베레호텔이며, 마감 시 동급 골프장으로 바뀔 수 있습니다.",
+    "images": [
+      "/images/philippines-manila-alabang/course-1.jpg",
+      "/images/philippines-manila-alabang/course-3.jpg",
+      "/images/philippines-manila-alabang/course-4.jpg",
+      "/images/philippines-manila-alabang/course-2.jpg",
+      "/images/philippines-manila-alabang/course-5.jpg"
+    ],
+    "hashtags": [
+      "스플랜디도CC",
+      "스플랜디도타알",
+      "타알호수골프",
+      "마닐라골프여행",
+      "필리핀골프여행",
+      "그렉노먼",
+      "바탕가스골프"
+    ],
+    "relatedTourIds": [
+      "philippines-manila-alabang",
+      "philippines-manila-alabang-busan"
+    ]
+  },
+  {
+    "slug": "hallow-ridge-golf",
+    "name": "할로릿지CC",
+    "nameEn": "Hallow Ridge Filipinas Golf Club",
+    "region": "마닐라",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "summary": "이노우에 세이이치 설계, 연못과 완만한 페어웨이의 18홀",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "설계",
+        "value": "이노우에 세이이치"
+      },
+      {
+        "label": "코스 특징",
+        "value": "연못·전략 벙커·완만한 구릉 페어웨이"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 라구나주 산페드로시"
+      }
+    ],
+    "description": "할로릿지CC는 일본 설계가 이노우에 세이이치가 설계한 18홀 골프장으로, 마닐라 남쪽 라구나주 산페드로시에 있습니다.\n\n완만하게 굽이치는 페어웨이에 연못과 벙커가 전략적으로 배치되어 있어, 티샷 낙하 지점을 고르는 것이 중요합니다.\n\n여행의파도 마닐라 알라방 부산출발 상품에서는 5개 코스(이글릿지·파인힐스·할로릿지·셔우드·스플랜디도) 중 3곳을 돌며, 할로릿지CC도 그 후보입니다. 전 일정 단독 차량·단독 가이드로 진행됩니다.",
+    "images": [
+      "/images/philippines-manila-alabang/course-4.jpg",
+      "/images/philippines-manila-alabang/course-2.jpg",
+      "/images/philippines-manila-alabang/course-5.jpg",
+      "/images/philippines-manila-alabang/course-1.jpg",
+      "/images/philippines-manila-alabang/course-3.jpg"
+    ],
+    "hashtags": [
+      "할로릿지CC",
+      "할로릿지",
+      "마닐라골프장",
+      "마닐라골프여행",
+      "필리핀골프여행",
+      "부산출발골프",
+      "카비테골프"
+    ],
+    "relatedTourIds": [
+      "philippines-manila-alabang-busan"
+    ]
+  },
+  {
+    "slug": "shin-chitose-cc",
+    "name": "신치토세CC",
+    "nameEn": "Shin-Chitose Country Club (新千歳カントリークラブ)",
+    "aliases": [
+      "신치토세 C.C"
+    ],
+    "region": "북해도",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "36홀 파144, 신치토세공항 가까이에 있는 1975년 개장 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "36홀 합계 파144 · 13,498야드"
+      },
+      {
+        "label": "개장",
+        "value": "1975년"
+      },
+      {
+        "label": "설계",
+        "value": "도히 이사무"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 홋카이도 지토세시"
+      }
+    ],
+    "description": "신치토세CC는 1975년 문을 연 36홀 골프장으로, 도히 이사무가 설계했습니다. 36홀 합계 파144, 13,498야드입니다.\n\n신치토세공항과 가까운 지토세에 있어 비행기에서 내린 날 바로 라운드하기 좋고, 홋카이도다운 넓은 부지에 숲과 연못이 어우러져 있습니다.\n\n여행의파도 삿포로 상품은 인천에서 진에어로 신치토세공항에 내려 바로 신치토세CC 18홀을 칩니다. 이후 선파크·치산 제니바코(또는 동급)를 더해 3색 54홀이며, 숙소는 스스키노의 컴포트호텔입니다.",
+    "images": [
+      "/images/hokkaido-sapporo-comfort/course-1.jpg",
+      "/images/hokkaido-sapporo-comfort/course-5.jpg",
+      "/images/hokkaido-sapporo-comfort/course-2.jpg",
+      "/images/hokkaido-sapporo-comfort/course-6.jpg",
+      "/images/hokkaido-sapporo-comfort/course-3.jpg"
+    ],
+    "hashtags": [
+      "신치토세CC",
+      "신치토세골프",
+      "홋카이도골프장",
+      "북해도골프여행",
+      "삿포로골프",
+      "일본골프여행",
+      "36홀"
+    ],
+    "relatedTourIds": [
+      "japan-hokkaido-sapporo-comfort"
+    ]
+  },
+  {
+    "slug": "sunpark-sapporo-golf",
+    "name": "선파크CC",
+    "nameEn": "Sunpark Sapporo Golf Course (サンパーク札幌ゴルフコース)",
+    "aliases": [
+      "선파크 C.C"
+    ],
+    "region": "북해도",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "27홀 파108 10,434야드, 1998년 개장한 삿포로 근교 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "27홀 합계 파108 · 10,434야드"
+      },
+      {
+        "label": "개장",
+        "value": "1998년"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 홋카이도 삿포로 근교"
+      }
+    ],
+    "description": "선파크CC(선파크 삿포로 골프코스)는 1998년 문을 연 27홀 골프장입니다. 27홀 합계 파108, 10,434야드로 9홀당 3,400야드가 넘는 넉넉한 길이입니다.\n\n9홀 코스 세 개를 조합해 돌 수 있어 날마다 다른 조합으로 칠 수 있고, 여름에도 선선한 홋카이도 기후 덕분에 쾌적하게 라운드할 수 있습니다.\n\n여행의파도 삿포로 상품에서는 둘째 날 선파크CC(또는 동급) 18홀을 돌고, 라운드 뒤에는 삿포로 시내 관광과 쇼핑을 즐길 수 있습니다.",
+    "images": [
+      "/images/hokkaido-sapporo-comfort/course-5.jpg",
+      "/images/hokkaido-sapporo-comfort/course-6.jpg",
+      "/images/hokkaido-sapporo-comfort/course-1.jpg",
+      "/images/hokkaido-sapporo-comfort/course-2.jpg",
+      "/images/hokkaido-sapporo-comfort/course-4.jpg"
+    ],
+    "hashtags": [
+      "선파크CC",
+      "선파크삿포로",
+      "홋카이도골프장",
+      "북해도골프여행",
+      "삿포로골프",
+      "일본골프여행",
+      "27홀"
+    ],
+    "relatedTourIds": [
+      "japan-hokkaido-sapporo-comfort"
+    ]
+  },
+  {
+    "slug": "chisan-cc-zenibako",
+    "name": "치산CC 제니바코",
+    "nameEn": "Chisan Country Club Zenibako (チサンカントリークラブ銭函)",
+    "aliases": [
+      "치산제니바꼬"
+    ],
+    "region": "북해도",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "파72 18홀, 오타루 언덕에서 이시카리만을 바라보는 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72"
+      },
+      {
+        "label": "개장",
+        "value": "1975년"
+      },
+      {
+        "label": "코스 특징",
+        "value": "이시카리만 조망 구릉 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 홋카이도 오타루시 제니바코"
+      }
+    ],
+    "description": "치산CC 제니바코는 1975년 문을 연 파72, 18홀 골프장으로 오타루시 제니바코에 있습니다.\n\n구릉 위에 놓인 코스라 여러 홀에서 이시카리만 바다가 내려다보이고, 삿포로 시내에서도 멀지 않습니다.\n\n여행의파도 삿포로 상품에서는 셋째 날 치산CC 제니바코(또는 동급) 18홀을 칩니다. 신치토세CC·선파크CC와 함께 3색 54홀 일정이며, 그린피와 카트비, 공항·호텔·골프장 셔틀이 포함됩니다.",
+    "images": [
+      "/images/hokkaido-sapporo-comfort/course-6.jpg",
+      "/images/hokkaido-sapporo-comfort/course-2.jpg",
+      "/images/hokkaido-sapporo-comfort/course-1.jpg",
+      "/images/hokkaido-sapporo-comfort/course-5.jpg",
+      "/images/hokkaido-sapporo-comfort/course-3.jpg"
+    ],
+    "hashtags": [
+      "치산제니바코",
+      "제니바코골프",
+      "오타루골프",
+      "북해도골프여행",
+      "삿포로골프",
+      "일본골프여행",
+      "바다조망골프"
+    ],
+    "relatedTourIds": [
+      "japan-hokkaido-sapporo-comfort"
+    ]
   }
 ]
