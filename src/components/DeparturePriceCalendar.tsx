@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import { track } from "@/lib/analytics";
+import YellowArrow from "@/components/YellowArrow";
 
 type PriceEntry = { date: string; price: number; nights?: number; days?: number };
 
@@ -10,13 +11,15 @@ type Props = {
   nights: number;
   days: number;
   tourTitle?: string;
+  /** 4인 이상 출발 상품이면 4 — 그보다 적은 인원은 "예약불가"로 막는다 */
+  minPeople?: number;
 };
 
 function formatPrice(p: number) {
   return p.toLocaleString("ko-KR") + "원";
 }
 
-export default function DeparturePriceCalendar({ departurePrices, nights, days, tourTitle }: Props) {
+export default function DeparturePriceCalendar({ departurePrices, nights, days, tourTitle, minPeople }: Props) {
   const today = new Date();
   const [baseMonth, setBaseMonth] = useState(() => {
     const first = departurePrices.find(p => new Date(p.date) >= today);
@@ -28,7 +31,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
   });
   const [selected, setSelected] = useState<string | null>(null);
   const [showForm, setShowForm] = useState(false);
-  const [people, setPeople] = useState("2");
+  const [people, setPeople] = useState(String(minPeople ?? 2));
   const [phone, setPhone] = useState("");
   const [agreed, setAgreed] = useState(false);
   const [showPrivacy, setShowPrivacy] = useState(false);
@@ -318,7 +321,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
               </p>
             </div>
             <div className="text-right">
-              <p className="text-xs text-gray-500 mb-1">1인 요금 (성인·2인 이상)</p>
+              <p className="text-xs text-gray-500 mb-1">{minPeople != null ? "1인 요금" : "1인 요금 (성인·2인 이상)"}</p>
               <p className="text-3xl font-black text-red-600">{formatPrice(selectedPrice)}</p>
               <p className="text-xs text-gray-400 mt-0.5">유류할증료 포함</p>
             </div>
@@ -344,15 +347,20 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                 <div className="flex gap-3">
                   <div className="flex-1">
                     <label className="text-xs text-gray-500 mb-1 block">인원수</label>
-                    <select
-                      value={people}
-                      onChange={e => { markStart("people"); setPeople(e.target.value); }}
-                      className="w-full border border-gray-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-emerald-500"
-                    >
-                      {[2,3,4,5,6,7,8,9,10,11,12].map(n => (
-                        <option key={n} value={n}>{n}명</option>
-                      ))}
-                    </select>
+                    <div className="relative">
+                      <select
+                        value={people}
+                        onChange={e => { markStart("people"); setPeople(e.target.value); }}
+                        className="w-full appearance-none border border-gray-200 rounded-xl pl-3 pr-9 py-2.5 text-sm bg-white focus:outline-none focus:border-emerald-500"
+                      >
+                        {[2,3,4,5,6,7,8,9,10,11,12].map(n => (
+                          <option key={n} value={n} disabled={minPeople != null && n < minPeople}>
+                            {n}명{minPeople != null && n < minPeople ? " · 예약불가" : ""}
+                          </option>
+                        ))}
+                      </select>
+                      <YellowArrow />
+                    </div>
                   </div>
                   <div className="flex-[2]">
                     <label className="text-xs text-gray-500 mb-1 block">휴대폰 번호</label>

@@ -63,6 +63,13 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
    *   ② 없으면 "3박4일" 뒤에서 나눈다. "3박4일·4박5일" 처럼 이어진 것은 한 덩어리로 본다.
    *   ③ 뒤에 남는 것이 없거나 "(…)" 괄호뿐이면 나누지 않는다 — 짧은 꼬리가 혼자 남으면 더 지저분하다.
    */
+  // 최소 인원이 딱 4인(이상)으로 정해진 상품 — "2~3인은 추가요금" 같은 조건부 문구가 붙은 상품은 제외
+  const strictMinPeople = (() => {
+    const mp = tour.minPeople as unknown;
+    const n = typeof mp === "number" ? mp : typeof mp === "string" && /^\s*\d+\s*인?\s*$/.test(mp) ? parseInt(mp, 10) : 0;
+    return n >= 3 ? n : undefined;
+  })();
+
   const titleLines = (() => {
     const t = tour.title.trim();
 
@@ -342,6 +349,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               nights={tour.nights}
               days={tour.days}
               tourTitle={tour.title}
+              minPeople={strictMinPeople}
             />
           </div>
         ) : (
@@ -481,7 +489,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         <div id="inquiry" className="bg-blue-50 border border-blue-200 rounded-2xl p-6 md:p-8 text-blue-700 mb-8 scroll-mt-4">
           <h3 className="text-xl font-black mb-1">예약 문의 · 맞춤 견적</h3>
           <p className="text-blue-600 text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
-          <ContactOptions tourTitle={tour.title} nights={tour.nights} days={tour.days} />
+          <ContactOptions tourTitle={tour.title} nights={tour.nights} days={tour.days} minPeople={strictMinPeople} />
 
           {/* 같이 갈 일행에게 보내는 경로 — 골프여행은 대개 여럿이 간다 */}
           <div className="mt-6">

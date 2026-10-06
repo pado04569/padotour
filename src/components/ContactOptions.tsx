@@ -3,6 +3,7 @@
 import { useState, useRef } from "react";
 import Image from "next/image";
 import { track } from "@/lib/analytics";
+import YellowArrow from "@/components/YellowArrow";
 
 /**
  * 입력칸 공통 서식.
@@ -17,17 +18,20 @@ export default function ContactOptions({
   tourTitle,
   nights,
   days,
+  minPeople,
 }: {
   tourTitle?: string;
   nights?: string | number;
   days?: string | number;
+  /** 4인 이상 출발 상품이면 4 — 그보다 적은 인원은 "예약불가"로 막는다 */
+  minPeople?: number;
 }) {
   const [open, setOpen] = useState(false);
   const [showQr, setShowQr] = useState(false);
 
   // 예약 문의 폼
   const [date, setDate] = useState("");
-  const [people, setPeople] = useState(2);
+  const [people, setPeople] = useState(minPeople ?? 2);
   const [phone, setPhone] = useState("");
   const [agreed, setAgreed] = useState(false);
   const [showPrivacy, setShowPrivacy] = useState(false);
@@ -156,16 +160,15 @@ export default function ContactOptions({
                       <select
                         value={people}
                         onChange={(e) => { markStart("people"); setPeople(Number(e.target.value)); }}
-                        className={`${FIELD} appearance-none pr-7`}
+                        className={`${FIELD} appearance-none pr-9`}
                       >
                         {[2, 3, 4, 5, 6, 7, 8].map((n) => (
-                          <option key={n} value={n}>{n}명</option>
+                          <option key={n} value={n} disabled={minPeople != null && n < minPeople}>
+                            {n}명{minPeople != null && n < minPeople ? " · 예약불가" : ""}
+                          </option>
                         ))}
                       </select>
-                      {/* 기본 화살표는 기기마다 크기가 달라 높이를 흐트러뜨린다 → 직접 그린다 */}
-                      <span className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400 text-[10px]">
-                        ▼
-                      </span>
+                      <YellowArrow />
                     </div>
                   </div>
                   <div className="col-span-3">
