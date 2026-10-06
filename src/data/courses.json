@@ -3062,5 +3062,446 @@
     "relatedTourIds": [
       "thailand-bangkok-lotusvalley-busan"
     ]
+  },
+  {
+    "slug": "nantaiwu-golf-club",
+    "name": "남태무CC",
+    "nameEn": "Nantaiwu Golf & Country Club (南太武高尔夫乡村俱乐部)",
+    "region": "샤먼",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "샤먼 앞바다 건너 장저우 해안의 파72 18홀, 바다와 호수를 끼고 도는 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72"
+      },
+      {
+        "label": "개장",
+        "value": "1996년"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 푸젠성 장저우 개발구 (샤먼 맞은편 해안)"
+      },
+      {
+        "label": "접근",
+        "value": "샤먼 시내 호텔에서 차로 약 35분"
+      }
+    ],
+    "description": "남태무CC는 1996년 문을 연 파72, 18홀 골프장입니다. 샤먼 섬 맞은편, 장저우 개발구의 해안가에 자리해 있습니다.\n\n바다 쪽으로 트인 홀과 호수를 끼고 도는 홀이 섞여 있습니다. 해안 코스라 바람의 방향을 읽는 것이 스코어에 영향을 줍니다.\n\n여행의파도 샤먼 상품에서는 남태무CC가 빠지지 않습니다. 부산출발 상품은 동방CC와 2색으로, 인천출발 상품은 동방CC·천주CC와 3색으로 돌며, 원하면 9홀을 추가할 수 있습니다. 숙소는 샤먼 시내 IHG 화이호텔입니다.",
+    "images": [
+      "/images/china-xiamen-nantaiwu/course-1.jpg",
+      "/images/china-xiamen-nantaiwu/course-4.jpg",
+      "/images/china-xiamen-nantaiwu/course-3.jpg",
+      "/images/china-xiamen-nantaiwu/course-2.jpg",
+      "/images/china-xiamen-nantaiwu/course-5.jpg"
+    ],
+    "hashtags": [
+      "남태무CC",
+      "남태무골프",
+      "샤먼골프장",
+      "샤먼골프여행",
+      "중국골프여행",
+      "해안골프",
+      "겨울골프"
+    ],
+    "relatedTourIds": [
+      "china-xiamen-landin-3color-3n4d",
+      "china-xiamen-landin-3color-4n5d",
+      "china-xiamen-nantaiwu-3n4d",
+      "china-xiamen-nantaiwu-4n5d"
+    ]
+  },
+  {
+    "slug": "orient-xiamen-golf",
+    "name": "동방CC",
+    "nameEn": "Orient (Xiamen) Golf & Country Club (东方厦门高尔夫乡村俱乐部)",
+    "aliases": [
+      "오리엔트 샤먼CC",
+      "오리엔트 샤먼(동방)CC"
+    ],
+    "region": "샤먼",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "로널드 프림 설계 27홀, 바다와 산 사이에 놓인 샤먼 대표 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "27홀 합계 9,450야드"
+      },
+      {
+        "label": "개장",
+        "value": "1995년"
+      },
+      {
+        "label": "설계",
+        "value": "로널드 프림"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 푸젠성 샤먼"
+      },
+      {
+        "label": "접근",
+        "value": "샤먼 시내 호텔에서 차로 약 10분"
+      }
+    ],
+    "description": "동방CC(오리엔트 샤먼CC)는 1995년 문을 연 27홀 골프장으로, 로널드 프림이 설계했습니다. 27홀 합계 전장은 9,450야드입니다.\n\n바닷가와 산자락 사이에 넓게 펼쳐져 있어 홀마다 바다 쪽과 산 쪽 풍경이 번갈아 나옵니다. 샤먼 시내와 가까워 공항이나 호텔에서 이동이 짧은 것이 장점입니다.\n\n여행의파도 샤먼 상품에서는 공항에 내린 날 바로 동방CC 18홀을 치거나(인천출발 3색), 마지막 날 라운드 후 곧장 공항으로 가는 일정(부산출발 2색)으로 들어갑니다. 숙소는 샤먼 시내 IHG 화이호텔입니다.",
+    "images": [
+      "/images/china-xiamen-landin-3color/course-5.jpg",
+      "/images/china-xiamen-landin-3color/course-6.jpg",
+      "/images/china-xiamen-landin-3color/course-3.jpg",
+      "/images/china-xiamen-landin-3color/course-4.jpg",
+      "/images/china-xiamen-landin-3color/course-1.jpg",
+      "/images/china-xiamen-landin-3color/course-2.jpg"
+    ],
+    "hashtags": [
+      "동방CC",
+      "오리엔트샤먼",
+      "샤먼골프장",
+      "샤먼골프여행",
+      "중국골프여행",
+      "로널드프림",
+      "27홀"
+    ],
+    "relatedTourIds": [
+      "china-xiamen-landin-3color-3n4d",
+      "china-xiamen-landin-3color-4n5d",
+      "china-xiamen-nantaiwu-3n4d",
+      "china-xiamen-nantaiwu-4n5d"
+    ]
+  },
+  {
+    "slug": "mana-golf-club",
+    "name": "마나CC",
+    "nameEn": "Mana Golf Club (マナゴルフクラブ)",
+    "region": "도쿄",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "파72 6,837야드, 참나무·벚나무 숲에 둘러싸인 평탄한 이바라키 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,837야드"
+      },
+      {
+        "label": "개장",
+        "value": "1993년"
+      },
+      {
+        "label": "코스 특징",
+        "value": "OUT은 그린이 보이는 홀, IN은 연못·도그레그가 많은 긴 홀"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 이바라키현 히타치오미야시"
+      }
+    ],
+    "description": "마나CC는 1993년 문을 연 18홀 골프장입니다. 파72, 전장 6,837야드이며 이바라키현 히타치오미야시의 숲 속에 있습니다.\n\n참나무와 벚나무 자연림에 둘러싸인 전체적으로 평탄한 코스입니다. OUT 코스는 티잉 구역에서 그린이 보이는 홀이 많아 스코어를 정리하기 좋고, IN 코스는 거리가 긴 홀과 연못을 넘기는 홀, 도그레그 홀이 많아 변화가 큽니다.\n\n여행의파도 이바라키 2색 상품은 부산에서 진에어로 나리타에 들어가 마나 골프 리조트에 묵습니다. 호텔에서 마나CC까지 걸어서 이동해 27홀을 치고, 다른 날은 센세이잔소CC를 돌아 총 72홀을 라운드합니다.",
+    "images": [
+      "/images/tokyo-ibaraki-2color/course-2.jpg",
+      "/images/tokyo-ibaraki-2color/course-1.jpg",
+      "/images/tokyo-ibaraki-2color/course-3.jpg",
+      "/images/tokyo-ibaraki-2color/course-6.jpg"
+    ],
+    "hashtags": [
+      "마나CC",
+      "마나골프",
+      "이바라키골프장",
+      "이바라키골프여행",
+      "도쿄골프여행",
+      "일본골프여행",
+      "부산출발골프"
+    ],
+    "relatedTourIds": [
+      "japan-tokyo-ibaraki-2color-busan"
+    ]
+  },
+  {
+    "slug": "shin-seizanso-cc",
+    "name": "센세이잔소CC",
+    "nameEn": "Shin-Seizanso Country Club (新・西山荘カントリー倶楽部)",
+    "aliases": [
+      "신세이잔소CC"
+    ],
+    "region": "도쿄",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "피트 다이 설계 파72 7,004야드, 마운드와 아일랜드 그린의 링크스 스타일",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,004야드"
+      },
+      {
+        "label": "개장",
+        "value": "1993년"
+      },
+      {
+        "label": "설계",
+        "value": "피트 다이"
+      },
+      {
+        "label": "코스 특징",
+        "value": "페어웨이 마운드, 아일랜드 그린의 링크스 스타일"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 이바라키현 히타치오타시"
+      }
+    ],
+    "description": "센세이잔소CC(신·세이잔소 컨트리클럽)는 1993년 문을 연 18홀 골프장으로, 피트 다이가 설계했습니다. 파72, 전장 7,004야드입니다.\n\n페어웨이 곳곳에 솟은 마운드와 아일랜드 그린이 특징인 링크스 스타일 코스로, 공을 어디에 떨어뜨릴지 매 샷 계산해야 하는 전략형 레이아웃입니다.\n\n여행의파도 이바라키 2색 상품에서는 마나 골프 리조트에서 차로 약 25분 이동해 센세이잔소CC 27홀을 칩니다. 마나CC와 번갈아 돌며 총 72홀을 라운드하는 부산출발 상품입니다.",
+    "images": [
+      "/images/tokyo-ibaraki-2color/course-4.jpg",
+      "/images/tokyo-ibaraki-2color/course-5.jpg",
+      "/images/tokyo-ibaraki-2color/course-6.jpg",
+      "/images/tokyo-ibaraki-2color/course-3.jpg"
+    ],
+    "hashtags": [
+      "센세이잔소CC",
+      "세이잔소",
+      "피트다이",
+      "이바라키골프장",
+      "이바라키골프여행",
+      "일본골프여행",
+      "링크스코스"
+    ],
+    "relatedTourIds": [
+      "japan-tokyo-ibaraki-2color-busan"
+    ]
+  },
+  {
+    "slug": "nangoku-cc-kagoshima",
+    "name": "난코쿠CC",
+    "nameEn": "Nangoku Country Club (南国カンツリークラブ)",
+    "region": "가고시마",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "1959년 개장 파72 18홀, 가고시마에서 손꼽히는 오래된 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,246야드"
+      },
+      {
+        "label": "개장",
+        "value": "1959년"
+      },
+      {
+        "label": "설계",
+        "value": "구메타 미요지 (久米田己代治)"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가고시마현"
+      }
+    ],
+    "description": "난코쿠CC는 1959년 문을 연 18홀 골프장으로, 가고시마현에서 손꼽히는 오래된 코스입니다. 파72, 전장 6,246야드로 길이가 부담스럽지 않습니다.\n\n60년 넘게 운영되어 온 코스로, 같은 계열인 치란CC와 함께 운영됩니다.\n\n여행의파도 가고시마 텐몬칸 상품은 인천에서 이스타항공 직항으로 출발해 시내 텐몬칸의 호텔에 묵으며, 난코쿠CC 또는 치란CC에서 셀프+카트로 18홀씩 2회 라운드합니다.",
+    "images": [
+      "/images/japan-kagoshima-tenmonkan/course-2.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-1.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-4.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-3.jpg"
+    ],
+    "hashtags": [
+      "난코쿠CC",
+      "남국CC",
+      "가고시마골프장",
+      "가고시마골프여행",
+      "일본골프여행",
+      "텐몬칸",
+      "큐슈골프"
+    ],
+    "relatedTourIds": [
+      "japan-kagoshima-tenmonkan"
+    ]
+  },
+  {
+    "slug": "chiran-cc",
+    "name": "치란CC",
+    "nameEn": "Chiran Country Club (知覧カントリークラブ)",
+    "region": "가고시마",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "파72 7,059야드, 1991년 개장한 가고시마 남쪽 챔피언십 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,059야드"
+      },
+      {
+        "label": "개장",
+        "value": "1991년"
+      },
+      {
+        "label": "설계",
+        "value": "고바야시 미쓰아키"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가고시마현 미나미큐슈시 치란"
+      }
+    ],
+    "description": "치란CC는 1991년 문을 연 18홀 골프장입니다. 파72, 전장 7,059야드로 7,000야드를 넘는 챔피언십 규모입니다.\n\n가고시마 남쪽 치란 지역의 구릉에 자리해 산을 배경으로 한 홀과 연못을 낀 홀이 이어지며, 같은 계열의 난코쿠CC보다 전장이 길어 장타자에게 잘 맞습니다.\n\n여행의파도 가고시마 텐몬칸 상품에서는 시내 호텔에서 차로 이동해 난코쿠CC 또는 치란CC에서 18홀씩 2회 라운드합니다. 가덴·시마즈 등 다른 골프장으로 바꾸려면 추가 요금이 있습니다.",
+    "images": [
+      "/images/japan-kagoshima-tenmonkan/course-6.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-5.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-3.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-4.jpg"
+    ],
+    "hashtags": [
+      "치란CC",
+      "치란골프",
+      "가고시마골프장",
+      "가고시마골프여행",
+      "일본골프여행",
+      "큐슈골프",
+      "7000야드"
+    ],
+    "relatedTourIds": [
+      "japan-kagoshima-tenmonkan"
+    ]
+  },
+  {
+    "slug": "shido-country-club",
+    "name": "시도CC",
+    "nameEn": "Shido Country Club (志度カントリークラブ)",
+    "aliases": [
+      "시도 컨트리클럽"
+    ],
+    "region": "다카마쓰",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "27홀 파108 전 코스에서 세토내해가 보이는 해안 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "27홀 합계 파108 · 9,538야드"
+      },
+      {
+        "label": "개장",
+        "value": "1964년"
+      },
+      {
+        "label": "설계",
+        "value": "사토 기이치"
+      },
+      {
+        "label": "코스 특징",
+        "value": "전 코스에서 세토내해 조망"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가가와현 사누키시"
+      }
+    ],
+    "description": "시도CC는 1964년 문을 연 27홀 골프장으로, 사토 기이치가 설계했습니다. 27홀 합계 파108, 9,538야드입니다.\n\n세토내해에 면한 해안 코스로, 어느 코스를 돌아도 바다와 섬이 보이는 것이 가장 큰 특징입니다. 해안 절벽 위에 놓인 홀도 있어 바다 쪽 바람을 계산해야 합니다.\n\n여행의파도 다카마쓰 상품은 인천(에어로케이)과 부산(에어부산)에서 출발해 사카이데 또는 우다쓰 그랜드호텔에 묵으며 사라이 노천온천을 이용합니다. 시도CC 27홀과 다카마쓰 주변 6대 코스를 섞어 총 63홀을 라운드합니다.",
+    "images": [
+      "/images/takamatsu-shido/course-3.jpg",
+      "/images/takamatsu-shido/course-2.jpg",
+      "/images/takamatsu-shido/course-4.jpg",
+      "/images/takamatsu-shido/course-5.jpg",
+      "/images/takamatsu-shido/course-6.jpg"
+    ],
+    "hashtags": [
+      "시도CC",
+      "시도컨트리클럽",
+      "다카마쓰골프장",
+      "다카마쓰골프여행",
+      "일본골프여행",
+      "오션뷰골프",
+      "세토내해"
+    ],
+    "relatedTourIds": [
+      "japan-takamatsu-shido",
+      "japan-takamatsu-shido-busan"
+    ]
+  },
+  {
+    "slug": "new-adonis-golf-club",
+    "name": "뉴아도니스CC",
+    "nameEn": "Adonis Golf Club (アドニスゴルフクラブ, 구 뉴아도니스GC)",
+    "region": "나고야",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "아놀드 파머 설계, 해발 760m 고원에 있어 여름에도 시원한 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,477야드"
+      },
+      {
+        "label": "개장",
+        "value": "1996년"
+      },
+      {
+        "label": "설계",
+        "value": "아놀드 파머"
+      },
+      {
+        "label": "코스 특징",
+        "value": "해발 약 760m 고원, 여름 피서 골프"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 기후현 에나시"
+      }
+    ],
+    "description": "뉴아도니스CC는 1996년 문을 연 18홀 골프장으로, 아놀드 파머가 설계했습니다. 파72, 전장 6,477야드이며 한때 뉴아도니스로 불렸고 지금의 공식 명칭은 아도니스 골프클럽입니다.\n\n해발 약 760m의 고원에 있어 한여름에도 덥지 않게 칠 수 있는 것이 가장 큰 장점입니다. 미국식 리조트 코스답게 연못과 넓은 페어웨이가 어우러져 있습니다.\n\n여행의파도 나고야 상품은 부산에서 진에어 직항으로 출발해 루트인 에나 호텔(1인 1실)에 묵습니다. 뉴아도니스CC 18홀에 코가야 체리크리크CC 또는 타지미기타CC를 더해 2색으로 치며, 전 코스 셀프카트 플레이입니다.",
+    "images": [
+      "/images/japan-nagoya-adonis-busan/course-3.jpg",
+      "/images/japan-nagoya-adonis-busan/course-2.jpg",
+      "/images/japan-nagoya-adonis-busan/course-5.jpg",
+      "/images/japan-nagoya-adonis-busan/course-6.jpg",
+      "/images/japan-nagoya-adonis-busan/course-4.jpg"
+    ],
+    "hashtags": [
+      "뉴아도니스CC",
+      "아도니스골프",
+      "나고야골프장",
+      "나고야골프여행",
+      "일본골프여행",
+      "아놀드파머",
+      "여름골프"
+    ],
+    "relatedTourIds": [
+      "japan-nagoya-adonis-busan"
+    ],
+    "aliases": [
+      "아도니스CC"
+    ]
   }
 ]
