@@ -1,5 +1,2397 @@
 [
   {
+    "country": "중국",
+    "countryCode": "china",
+    "minPeople": 2,
+    "cancelPolicy": [
+      "해남항공 무료 위탁수하물: 캐리어 1개 + 골프백 1개 합계 32kg (기내 10kg)",
+      "싱글카트 18홀당 100위안 추가",
+      "미란CC는 전동카트 페어웨이 진입이 가능하고 5인 플레이도 가능합니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다.",
+      "싱글룸 추가: 10~11월 박당 5만원 / 12~1월 박당 6만원 (구정 기간 별도 문의)",
+      "구정 기간(2/5~2/13) 요금은 출발일 요금표를 확인해 주세요."
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-06",
+    "id": "china-hainan-meilan-3n4d",
+    "region": "하이난",
+    "subtitle": "미란CC 72홀 · 미란국제공항호텔 · 해남항공 · 올포함",
+    "nights": 3,
+    "days": 4,
+    "courses": 1,
+    "roundsIncluded": 4,
+    "holes": "0+27+27+18 (총 72홀)\n미란CC 27홀 코스",
+    "period": "2026년 10월 ~ 2027년 2월 (수·금 출발)",
+    "hotel": "미란국제공항호텔 (2인 1실, 전 일정)",
+    "hotelDesc": "미란국제공항호텔은 하이커우 메이란국제공항에서 차로 약 3분 거리라 새벽에 도착해도 바로 쉴 수 있습니다. 2018년에 문을 연 호텔로 샤워부스와 욕조가 분리되어 있고, 스타벅스·편의점·헬스장·세탁실이 있습니다. 2층 통로가 면세점·쇼핑몰과 이어져 라운드 후 쇼핑과 식사를 하기 편합니다.",
+    "golfCourse": "미란CC",
+    "golfCourseDesc": "미란CC(하이난 미란골프클럽)는 그레이엄 마쉬가 설계해 2009년 12월에 문을 연 27홀 코스로, 3개 코스 합계 11,235야드입니다. 메이란국제공항과 가까워 호텔에서 차로 약 10분이면 도착하고, 페어웨이에 전동카트가 들어갈 수 있어 이동이 편합니다. 전 일정 미란CC에서 매일 27홀씩, 마지막 날 18홀을 돌아 총 72홀입니다.",
+    "productSummary": "하이커우 메이란공항 옆 미란CC에서 3박4일 동안 72홀을 도는 상품입니다.\n그린피·캐디피·전동카트와 클럽 중식, 미팅·샌딩까지 포함되어 현지에서 캐디팁만 준비하면 됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이커우",
+        "desc": "인천국제공항 제1터미널 출발(HU450, 21:40) → 해구 메이란국제공항 도착(익일 01:30) → 가이드 미팅 후 호텔 이동(약 3분) → 체크인 및 휴식 [호텔: 미란국제공항호텔 2인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "미란CC 27홀",
+        "desc": "조식 후 골프장 이동(약 10분) → 미란CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 샤브샤브] [호텔: 미란국제공항호텔]"
+      },
+      {
+        "day": "3일차",
+        "label": "미란CC 27홀",
+        "desc": "조식 후 골프장 이동(약 10분) → 미란CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 삼겹살] [호텔: 미란국제공항호텔]"
+      },
+      {
+        "day": "4일차",
+        "label": "미란CC 18홀 → 인천",
+        "desc": "조식 후 체크아웃 → 골프장 이동(약 10분) → 미란CC 18홀 라운드 → 해구 메이란국제공항 출발(HU449, 15:30) → 인천국제공항 도착(20:30) 후 해산 [조식 호텔식 / 중식 클럽식]"
+      }
+    ],
+    "highlights": [
+      "미란CC 27홀 코스 · 3박4일 72홀",
+      "공항에서 3분 미란국제공항호텔 3박",
+      "그린피·캐디피·카트·클럽중식·미팅샌딩 모두 포함",
+      "해남항공 위탁수하물 32kg (캐리어+골프백) · 2인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (TAX·유류세 포함)",
+      "호텔 (2인 1실)",
+      "전 일정 그린피·캐디피·전동카트",
+      "호텔 조식 · 클럽 중식 · 석식(샤브샤브·삼겹살 등)",
+      "미팅·샌딩 및 일정 내 차량",
+      "한국어 상주 가이드"
+    ],
+    "excludes": [
+      "캐디팁 (18홀 150위안 / 27홀 230위안)",
+      "개인 경비 및 여행자보험"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-10-23",
+        "price": 1120000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-10-28",
+        "price": 1120000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-04",
+        "price": 1220000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-06",
+        "price": 1220000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-11",
+        "price": 1220000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-13",
+        "price": 1220000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1220000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-20",
+        "price": 1220000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-25",
+        "price": 1220000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-27",
+        "price": 1220000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1499000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1499000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1499000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1499000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1499000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1499000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1699000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1699000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1699000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-01",
+        "price": 1659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1629000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1629000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1629000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1629000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-05",
+        "price": 1849000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1849000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1749000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1579000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1579000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1649000,
+        "nights": 3,
+        "days": 4
+      }
+    ],
+    "image": "/images/china-hainan-meilan/course-1.jpg",
+    "images": [
+      "/images/china-hainan-meilan/course-1.jpg",
+      "/images/china-hainan-meilan/course-2.jpg",
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-meilan/course-3.jpg",
+      "/images/china-hainan-meilan/hotel-2.jpg",
+      "/images/china-hainan-meilan/course-4.jpg",
+      "/images/china-hainan-meilan/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-meilan/hotel-2.jpg",
+      "/images/china-hainan-meilan/hotel-3.jpg",
+      "/images/china-hainan-meilan/hotel-4.jpg",
+      "/images/china-hainan-meilan/hotel-5.jpg",
+      "/images/china-hainan-meilan/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/china-hainan-meilan/course-1.jpg",
+      "/images/china-hainan-meilan/course-2.jpg",
+      "/images/china-hainan-meilan/course-3.jpg",
+      "/images/china-hainan-meilan/course-4.jpg",
+      "/images/china-hainan-meilan/course-5.jpg",
+      "/images/china-hainan-meilan/course-6.jpg"
+    ],
+    "seoIntro": "인천 출발 하이난 하이커우 골프여행으로, 메이란공항 옆 미란CC에서 3박4일 72홀을 도는 올포함 골프패키지입니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "하이커우골프",
+      "미란CC",
+      "미란골프",
+      "하이난골프여행",
+      "인천출발",
+      "올포함골프"
+    ],
+    "price": "1,120,000원~",
+    "title": "[인천출발] 중국 하이난 골프여행 미란CC 3박4일 72홀 1,120,000원부터 올포함"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "minPeople": 2,
+    "cancelPolicy": [
+      "해남항공 무료 위탁수하물: 캐리어 1개 + 골프백 1개 합계 32kg (기내 10kg)",
+      "싱글카트 18홀당 100위안 추가",
+      "미란CC는 전동카트 페어웨이 진입이 가능하고 5인 플레이도 가능합니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다.",
+      "싱글룸 추가: 10~11월 박당 5만원 / 12~1월 박당 6만원 (구정 기간 별도 문의)",
+      "11월 28일·30일 출발(4박5일)과 구정 기간 요금은 출발일 요금표를 확인해 주세요."
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-06",
+    "id": "china-hainan-meilan-4n5d",
+    "region": "하이난",
+    "subtitle": "미란CC 99홀 · 미란국제공항호텔 · 해남항공 · 올포함",
+    "nights": 4,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 5,
+    "holes": "0+27+27+27+18 (총 99홀)\n미란CC 27홀 코스",
+    "period": "2026년 10월 ~ 2027년 2월 (월·토 출발)",
+    "hotel": "미란국제공항호텔 (2인 1실, 전 일정)",
+    "hotelDesc": "미란국제공항호텔은 하이커우 메이란국제공항에서 차로 약 3분 거리라 새벽에 도착해도 바로 쉴 수 있습니다. 2018년에 문을 연 호텔로 샤워부스와 욕조가 분리되어 있고, 스타벅스·편의점·헬스장·세탁실이 있습니다. 2층 통로가 면세점·쇼핑몰과 이어져 라운드 후 쇼핑과 식사를 하기 편합니다.",
+    "golfCourse": "미란CC",
+    "golfCourseDesc": "미란CC(하이난 미란골프클럽)는 그레이엄 마쉬가 설계해 2009년 12월에 문을 연 27홀 코스로, 3개 코스 합계 11,235야드입니다. 메이란국제공항과 가까워 호텔에서 차로 약 10분이면 도착하고, 페어웨이에 전동카트가 들어갈 수 있어 이동이 편합니다. 전 일정 미란CC에서 매일 27홀씩, 마지막 날 18홀을 돌아 총 99홀입니다.",
+    "productSummary": "하이커우 메이란공항 옆 미란CC에서 4박5일 동안 99홀을 도는 상품입니다.\n그린피·캐디피·전동카트와 클럽 중식, 미팅·샌딩까지 포함되어 현지에서 캐디팁만 준비하면 됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이커우",
+        "desc": "인천국제공항 제1터미널 출발(HU450, 21:40) → 해구 메이란국제공항 도착(익일 01:30) → 가이드 미팅 후 호텔 이동(약 3분) → 체크인 및 휴식 [호텔: 미란국제공항호텔 2인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "미란CC 27홀",
+        "desc": "조식 후 골프장 이동(약 10분) → 미란CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 샤브샤브] [호텔: 미란국제공항호텔]"
+      },
+      {
+        "day": "3일차",
+        "label": "미란CC 27홀",
+        "desc": "조식 후 골프장 이동(약 10분) → 미란CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 현지식] [호텔: 미란국제공항호텔]"
+      },
+      {
+        "day": "4일차",
+        "label": "미란CC 27홀",
+        "desc": "조식 후 골프장 이동(약 10분) → 미란CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 삼겹살] [호텔: 미란국제공항호텔]"
+      },
+      {
+        "day": "5일차",
+        "label": "미란CC 18홀 → 인천",
+        "desc": "조식 후 체크아웃 → 골프장 이동(약 10분) → 미란CC 18홀 라운드 → 해구 메이란국제공항 출발(HU449, 15:30) → 인천국제공항 도착(20:30) 후 해산 [조식 호텔식 / 중식 클럽식]"
+      }
+    ],
+    "highlights": [
+      "미란CC 27홀 코스 · 4박5일 99홀",
+      "공항에서 3분 미란국제공항호텔 4박",
+      "그린피·캐디피·카트·클럽중식·미팅샌딩 모두 포함",
+      "해남항공 위탁수하물 32kg (캐리어+골프백) · 2인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (TAX·유류세 포함)",
+      "호텔 (2인 1실)",
+      "전 일정 그린피·캐디피·전동카트",
+      "호텔 조식 · 클럽 중식 · 석식(샤브샤브·삼겹살 등)",
+      "미팅·샌딩 및 일정 내 차량",
+      "한국어 상주 가이드"
+    ],
+    "excludes": [
+      "캐디팁 (18홀 150위안 / 27홀 230위안)",
+      "개인 경비 및 여행자보험"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-10-31",
+        "price": 1320000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-02",
+        "price": 1420000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-07",
+        "price": 1420000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-09",
+        "price": 1420000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-14",
+        "price": 1420000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-16",
+        "price": 1420000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-21",
+        "price": 1420000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-23",
+        "price": 1420000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1520000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-11-30",
+        "price": 1630000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1899000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1899000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1899000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1899000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1899000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1899000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1899000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1899000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1899000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1899000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1859000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1859000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1859000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-06",
+        "price": 2049000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-08",
+        "price": 2049000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1999000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1949000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      }
+    ],
+    "image": "/images/china-hainan-meilan/course-1.jpg",
+    "images": [
+      "/images/china-hainan-meilan/course-1.jpg",
+      "/images/china-hainan-meilan/course-2.jpg",
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-meilan/course-3.jpg",
+      "/images/china-hainan-meilan/hotel-2.jpg",
+      "/images/china-hainan-meilan/course-4.jpg",
+      "/images/china-hainan-meilan/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-meilan/hotel-2.jpg",
+      "/images/china-hainan-meilan/hotel-3.jpg",
+      "/images/china-hainan-meilan/hotel-4.jpg",
+      "/images/china-hainan-meilan/hotel-5.jpg",
+      "/images/china-hainan-meilan/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/china-hainan-meilan/course-1.jpg",
+      "/images/china-hainan-meilan/course-2.jpg",
+      "/images/china-hainan-meilan/course-3.jpg",
+      "/images/china-hainan-meilan/course-4.jpg",
+      "/images/china-hainan-meilan/course-5.jpg",
+      "/images/china-hainan-meilan/course-6.jpg"
+    ],
+    "seoIntro": "인천 출발 하이난 하이커우 골프여행으로, 메이란공항 옆 미란CC에서 4박5일 99홀을 도는 올포함 골프패키지입니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "하이커우골프",
+      "미란CC",
+      "미란골프",
+      "하이난골프여행",
+      "인천출발",
+      "올포함골프"
+    ],
+    "price": "1,320,000원~",
+    "title": "[인천출발] 중국 하이난 골프여행 미란CC 4박5일 99홀 1,320,000원부터 올포함"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "minPeople": 2,
+    "cancelPolicy": [
+      "해남항공 무료 위탁수하물: 캐리어 1개 + 골프백 1개 합계 32kg (기내 10kg)",
+      "싱글카트 18홀당 100위안 추가",
+      "고염전CC 전동카트 페어웨이 진입은 1일·1대당 200위안이 추가됩니다(2인용 카트).",
+      "고염전밸리호텔은 매일 세탁 서비스가 무료입니다.",
+      "싱글룸 추가: 11월 박당 미란 5만원·고염전밸리 4만원 / 12~1월 미란 6만원·고염전밸리 4만5천원 (구정 기간 별도 문의)",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-06",
+    "id": "china-hainan-ancient-saltern-3n4d",
+    "region": "하이난",
+    "subtitle": "고염전CC 72홀 · 고염전밸리호텔 · 해남항공 · 올포함",
+    "nights": 3,
+    "days": 4,
+    "courses": 1,
+    "roundsIncluded": 4,
+    "holes": "0+27+27+18 (총 72홀)\n고염전CC 18홀 코스",
+    "period": "2026년 11월 ~ 2027년 2월 (수·금 출발)",
+    "hotel": "1박 미란국제공항호텔 + 2박 고염전밸리호텔 (2인 1실)",
+    "hotelDesc": "첫날은 공항에서 3분 거리 미란국제공항호텔에서 쉬고, 다음 날부터 골프장 가까운 고염전밸리호텔에 머뭅니다. 고염전밸리호텔(바이리 씨뷰 호텔)은 고염전골프클럽이 관리하는 호텔로 골프장까지 차로 약 15분입니다. 양푸 시내 중심에 있어 걸어서 야시장과 주변을 둘러볼 수 있고, 1층과 호텔 옆에 24시간 편의점이 있습니다.",
+    "golfCourse": "고염전CC",
+    "golfCourseDesc": "고염전CC(고염전골프클럽)는 하이난 서북부 해안의 18홀 파72·7,461야드 코스로, 그레이엄 마쉬가 설계해 2011년 8월에 개장했습니다. 하이커우에서 차로 약 90분 떨어진 양푸에 있으며 2023년 유러피언 챌린지투어 하이난오픈이 열렸습니다. 첫날 새벽 도착 후 다음 날부터 매일 27홀, 마지막 날 18홀로 총 72홀을 돕니다.",
+    "productSummary": "하이난 서북부 해안의 고염전CC에서 3박4일 동안 72홀을 도는 상품입니다.\n그린피·캐디피·전동카트와 클럽 중식, 미팅·샌딩까지 포함되어 현지에서 캐디팁만 준비하면 됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이커우",
+        "desc": "인천국제공항 제1터미널 출발(HU450, 21:40) → 해구 메이란국제공항 도착(익일 01:30) → 가이드 미팅 후 호텔 이동(약 3분) → 체크인 및 휴식 [호텔: 미란국제공항호텔 2인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "고염전CC 27홀",
+        "desc": "조식 후 골프장 이동(약 90분) → 고염전CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 샤브샤브] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "3일차",
+        "label": "고염전CC 27홀",
+        "desc": "조식 후 골프장 이동(약 15분) → 고염전CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 삼겹살] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "4일차",
+        "label": "고염전CC 18홀 → 인천",
+        "desc": "조식 후 체크아웃 → 골프장 이동(약 15분) → 고염전CC 18홀 라운드 → 해구 메이란국제공항 출발(HU449, 15:30) → 인천국제공항 도착(20:30) 후 해산 [조식 호텔식 / 중식 클럽식]"
+      }
+    ],
+    "highlights": [
+      "고염전CC 18홀 파72 · 3박4일 72홀",
+      "골프장 15분 고염전밸리호텔 · 매일 세탁 무료",
+      "그린피·캐디피·카트·클럽중식·미팅샌딩 모두 포함",
+      "해남항공 위탁수하물 32kg (캐리어+골프백) · 2인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (TAX·유류세 포함)",
+      "호텔 (2인 1실)",
+      "전 일정 그린피·캐디피·전동카트",
+      "호텔 조식 · 클럽 중식 · 석식(샤브샤브·삼겹살 등)",
+      "미팅·샌딩 및 일정 내 차량",
+      "한국어 상주 가이드"
+    ],
+    "excludes": [
+      "캐디팁 (18홀 150위안 / 27홀 230위안)",
+      "개인 경비 및 여행자보험"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-04",
+        "price": 1160000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-06",
+        "price": 1160000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-11",
+        "price": 1160000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-13",
+        "price": 1160000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1160000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-20",
+        "price": 1160000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-25",
+        "price": 1160000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-27",
+        "price": 1160000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1399000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1399000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1399000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1399000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1399000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1399000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-01",
+        "price": 1549000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1549000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1549000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1549000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1549000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1499000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1499000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1499000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1499000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-05",
+        "price": 1699000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1699000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1649000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1469000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1469000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1499000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1549000,
+        "nights": 3,
+        "days": 4
+      }
+    ],
+    "image": "/images/china-hainan-ancient-saltern/course-1.jpg",
+    "images": [
+      "/images/china-hainan-ancient-saltern/course-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-2.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-3.jpg",
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-4.jpg",
+      "/images/china-hainan-ancient-saltern/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-hainan-ancient-saltern/hotel-1.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-2.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-3.jpg",
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-meilan/hotel-2.jpg",
+      "/images/china-hainan-meilan/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/china-hainan-ancient-saltern/course-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-2.jpg",
+      "/images/china-hainan-ancient-saltern/course-3.jpg",
+      "/images/china-hainan-ancient-saltern/course-4.jpg",
+      "/images/china-hainan-ancient-saltern/course-5.jpg",
+      "/images/china-hainan-ancient-saltern/course-6.jpg"
+    ],
+    "seoIntro": "인천 출발 하이난 골프여행으로, 서북부 해안 고염전CC에서 3박4일 72홀을 도는 올포함 골프패키지입니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "고염전CC",
+      "고염전골프장",
+      "하이난골프여행",
+      "하이난겨울골프",
+      "인천출발",
+      "올포함골프"
+    ],
+    "price": "1,160,000원~",
+    "title": "[인천출발] 중국 하이난 골프여행 고염전CC 3박4일 72홀 1,160,000원부터 올포함"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "minPeople": 2,
+    "cancelPolicy": [
+      "해남항공 무료 위탁수하물: 캐리어 1개 + 골프백 1개 합계 32kg (기내 10kg)",
+      "싱글카트 18홀당 100위안 추가",
+      "고염전CC 전동카트 페어웨이 진입은 1일·1대당 200위안이 추가됩니다(2인용 카트).",
+      "고염전밸리호텔은 매일 세탁 서비스가 무료입니다.",
+      "싱글룸 추가: 12~1월 박당 미란 6만원·고염전밸리 4만5천원 (구정 기간 별도 문의)",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-06",
+    "id": "china-hainan-ancient-saltern-4n5d",
+    "region": "하이난",
+    "subtitle": "고염전CC 99홀 · 고염전밸리호텔 · 해남항공 · 올포함",
+    "nights": 4,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 5,
+    "holes": "0+27+27+27+18 (총 99홀)\n고염전CC 18홀 코스",
+    "period": "2026년 12월 ~ 2027년 2월 (월·토 출발)",
+    "hotel": "1박 미란국제공항호텔 + 3박 고염전밸리호텔 (2인 1실)",
+    "hotelDesc": "첫날은 공항에서 3분 거리 미란국제공항호텔에서 쉬고, 다음 날부터 골프장 가까운 고염전밸리호텔에 머뭅니다. 고염전밸리호텔(바이리 씨뷰 호텔)은 고염전골프클럽이 관리하는 호텔로 골프장까지 차로 약 15분입니다. 양푸 시내 중심에 있어 걸어서 야시장과 주변을 둘러볼 수 있고, 1층과 호텔 옆에 24시간 편의점이 있습니다.",
+    "golfCourse": "고염전CC",
+    "golfCourseDesc": "고염전CC(고염전골프클럽)는 하이난 서북부 해안의 18홀 파72·7,461야드 코스로, 그레이엄 마쉬가 설계해 2011년 8월에 개장했습니다. 하이커우에서 차로 약 90분 떨어진 양푸에 있으며 2023년 유러피언 챌린지투어 하이난오픈이 열렸습니다. 첫날 새벽 도착 후 다음 날부터 매일 27홀, 마지막 날 18홀로 총 99홀을 돕니다.",
+    "productSummary": "하이난 서북부 해안의 고염전CC에서 4박5일 동안 99홀을 도는 상품입니다.\n그린피·캐디피·전동카트와 클럽 중식, 미팅·샌딩까지 포함되어 현지에서 캐디팁만 준비하면 됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이커우",
+        "desc": "인천국제공항 제1터미널 출발(HU450, 21:40) → 해구 메이란국제공항 도착(익일 01:30) → 가이드 미팅 후 호텔 이동(약 3분) → 체크인 및 휴식 [호텔: 미란국제공항호텔 2인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "고염전CC 27홀",
+        "desc": "조식 후 골프장 이동(약 90분) → 고염전CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 샤브샤브] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "3일차",
+        "label": "고염전CC 27홀",
+        "desc": "조식 후 골프장 이동(약 15분) → 고염전CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 현지식] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "4일차",
+        "label": "고염전CC 27홀",
+        "desc": "조식 후 골프장 이동(약 15분) → 고염전CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 삼겹살] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "5일차",
+        "label": "고염전CC 18홀 → 인천",
+        "desc": "조식 후 체크아웃 → 골프장 이동(약 15분) → 고염전CC 18홀 라운드 → 해구 메이란국제공항 출발(HU449, 15:30) → 인천국제공항 도착(20:30) 후 해산 [조식 호텔식 / 중식 클럽식]"
+      }
+    ],
+    "highlights": [
+      "고염전CC 18홀 파72 · 4박5일 99홀",
+      "골프장 15분 고염전밸리호텔 · 매일 세탁 무료",
+      "그린피·캐디피·카트·클럽중식·미팅샌딩 모두 포함",
+      "해남항공 위탁수하물 32kg (캐리어+골프백) · 2인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (TAX·유류세 포함)",
+      "호텔 (2인 1실)",
+      "전 일정 그린피·캐디피·전동카트",
+      "호텔 조식 · 클럽 중식 · 석식(샤브샤브·삼겹살 등)",
+      "미팅·샌딩 및 일정 내 차량",
+      "한국어 상주 가이드"
+    ],
+    "excludes": [
+      "캐디팁 (18홀 150위안 / 27홀 230위안)",
+      "개인 경비 및 여행자보험"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-05",
+        "price": 1599000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1599000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1599000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1599000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1779000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1749000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1699000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1699000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1699000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1899000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-08",
+        "price": 1899000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1849000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1799000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1649000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1649000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1649000,
+        "nights": 4,
+        "days": 5
+      }
+    ],
+    "image": "/images/china-hainan-ancient-saltern/course-1.jpg",
+    "images": [
+      "/images/china-hainan-ancient-saltern/course-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-2.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-3.jpg",
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-4.jpg",
+      "/images/china-hainan-ancient-saltern/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-hainan-ancient-saltern/hotel-1.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-2.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-3.jpg",
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-meilan/hotel-2.jpg",
+      "/images/china-hainan-meilan/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/china-hainan-ancient-saltern/course-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-2.jpg",
+      "/images/china-hainan-ancient-saltern/course-3.jpg",
+      "/images/china-hainan-ancient-saltern/course-4.jpg",
+      "/images/china-hainan-ancient-saltern/course-5.jpg",
+      "/images/china-hainan-ancient-saltern/course-6.jpg"
+    ],
+    "seoIntro": "인천 출발 하이난 골프여행으로, 서북부 해안 고염전CC에서 4박5일 99홀을 도는 올포함 골프패키지입니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "고염전CC",
+      "고염전골프장",
+      "하이난골프여행",
+      "하이난겨울골프",
+      "인천출발",
+      "올포함골프"
+    ],
+    "price": "1,599,000원~",
+    "title": "[인천출발] 중국 하이난 골프여행 고염전CC 4박5일 99홀 1,599,000원부터 올포함"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "minPeople": 2,
+    "cancelPolicy": [
+      "해남항공 무료 위탁수하물: 캐리어 1개 + 골프백 1개 합계 32kg (기내 10kg)",
+      "싱글카트 18홀당 100위안 추가",
+      "고염전CC 전동카트 페어웨이 진입은 1일·1대당 200위안이 추가됩니다(2인용 카트).",
+      "고염전밸리호텔은 매일 세탁 서비스가 무료입니다.",
+      "장박 상품은 개별 예약 기준이라 출발일마다 좌석·객실을 다시 확인합니다.",
+      "11월 23일·25일·28일과 구정 연휴(2/5~2/13) 출발은 별도 문의",
+      "싱글룸 추가: 박당 미란 5만5천원(성수기 6만원)·고염전밸리 4만원(성수기 4만5천원)",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-06",
+    "id": "china-hainan-ancient-saltern-7n8d",
+    "region": "하이난",
+    "subtitle": "고염전CC 180홀 · 고염전밸리호텔 · 해남항공 · 올포함",
+    "nights": 7,
+    "days": 8,
+    "courses": 1,
+    "roundsIncluded": 8,
+    "holes": "0+27+27+27+27+27+27+18 (총 180홀)\n고염전CC 18홀 코스",
+    "period": "2026년 10월 26일 ~ 2027년 2월 22일 (월·수·금·토 출발)",
+    "hotel": "1박 미란국제공항호텔 + 6박 고염전밸리호텔 (2인 1실)",
+    "hotelDesc": "첫날은 공항에서 3분 거리 미란국제공항호텔에서 쉬고, 다음 날부터 골프장 가까운 고염전밸리호텔에 머뭅니다. 고염전밸리호텔(바이리 씨뷰 호텔)은 고염전골프클럽이 관리하는 호텔로 골프장까지 차로 약 15분입니다. 양푸 시내 중심에 있어 걸어서 야시장과 주변을 둘러볼 수 있고, 1층과 호텔 옆에 24시간 편의점이 있습니다.",
+    "golfCourse": "고염전CC",
+    "golfCourseDesc": "고염전CC(고염전골프클럽)는 하이난 서북부 해안의 18홀 파72·7,461야드 코스로, 그레이엄 마쉬가 설계해 2011년 8월에 개장했습니다. 하이커우에서 차로 약 90분 떨어진 양푸에 있으며 2023년 유러피언 챌린지투어 하이난오픈이 열렸습니다. 첫날 새벽 도착 후 다음 날부터 매일 27홀, 마지막 날 18홀로 총 180홀을 돕니다.",
+    "productSummary": "하이난 서북부 해안의 고염전CC에서 7박8일 동안 180홀을 도는 상품입니다.\n그린피·캐디피·전동카트와 클럽 중식, 미팅·샌딩까지 포함되어 현지에서 캐디팁만 준비하면 됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이커우",
+        "desc": "인천국제공항 제1터미널 출발(HU450, 21:40) → 해구 메이란국제공항 도착(익일 01:30) → 가이드 미팅 후 호텔 이동(약 3분) → 체크인 및 휴식 [호텔: 미란국제공항호텔 2인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "고염전CC 27홀",
+        "desc": "조식 후 골프장 이동(약 90분) → 고염전CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 현지식] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "3일차",
+        "label": "고염전CC 27홀",
+        "desc": "조식 후 골프장 이동(약 15분) → 고염전CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 현지식] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "4일차",
+        "label": "고염전CC 27홀",
+        "desc": "조식 후 골프장 이동(약 15분) → 고염전CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 샤브샤브] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "5일차",
+        "label": "고염전CC 27홀",
+        "desc": "조식 후 골프장 이동(약 15분) → 고염전CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 현지식] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "6일차",
+        "label": "고염전CC 27홀",
+        "desc": "조식 후 골프장 이동(약 15분) → 고염전CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 현지식] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "7일차",
+        "label": "고염전CC 27홀",
+        "desc": "조식 후 골프장 이동(약 15분) → 고염전CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 삼겹살 무제한] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "8일차",
+        "label": "고염전CC 18홀 → 인천",
+        "desc": "조식 후 체크아웃 → 골프장 이동(약 15분) → 고염전CC 18홀 라운드 → 해구 메이란국제공항 출발(HU449, 15:30) → 인천국제공항 도착(20:30) 후 해산 [조식 호텔식 / 중식 클럽식]"
+      }
+    ],
+    "highlights": [
+      "고염전CC 7박8일 장박 · 매일 27홀 총 180홀",
+      "골프장 15분 고염전밸리호텔 · 매일 세탁 무료",
+      "그린피·캐디피·카트·클럽중식·미팅샌딩 모두 포함",
+      "해남항공 위탁수하물 32kg (캐리어+골프백) · 2인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (TAX·유류세 포함)",
+      "호텔 (2인 1실)",
+      "전 일정 그린피·캐디피·전동카트",
+      "호텔 조식 · 클럽 중식 · 석식(샤브샤브·삼겹살 등)",
+      "미팅·샌딩 및 일정 내 차량",
+      "한국어 상주 가이드"
+    ],
+    "excludes": [
+      "캐디팁 (18홀 150위안 / 27홀 230위안)",
+      "개인 경비 및 여행자보험"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-10-26",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-10-28",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-10-30",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-10-31",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-11-02",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-11-04",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-11-06",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-11-07",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-11-09",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-11-11",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-11-13",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-11-14",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-11-16",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-11-20",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-11-21",
+        "price": 1890000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-02",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-04",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-05",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-07",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-09",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-11",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-12",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-14",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-16",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-18",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-19",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-21",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-23",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-25",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-26",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-28",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2026-12-30",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-01",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-02",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-04",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-06",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-08",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-09",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-11",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-13",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-15",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-16",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-18",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-20",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-22",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-23",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-25",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-27",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-29",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-01-30",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-02-01",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-02-03",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-02-15",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-02-17",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-02-19",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-02-20",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      },
+      {
+        "date": "2027-02-22",
+        "price": 2190000,
+        "nights": 7,
+        "days": 8
+      }
+    ],
+    "image": "/images/china-hainan-ancient-saltern/course-1.jpg",
+    "images": [
+      "/images/china-hainan-ancient-saltern/course-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-2.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-3.jpg",
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-4.jpg",
+      "/images/china-hainan-ancient-saltern/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-hainan-ancient-saltern/hotel-1.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-2.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-3.jpg",
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-meilan/hotel-2.jpg",
+      "/images/china-hainan-meilan/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/china-hainan-ancient-saltern/course-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-2.jpg",
+      "/images/china-hainan-ancient-saltern/course-3.jpg",
+      "/images/china-hainan-ancient-saltern/course-4.jpg",
+      "/images/china-hainan-ancient-saltern/course-5.jpg",
+      "/images/china-hainan-ancient-saltern/course-6.jpg"
+    ],
+    "seoIntro": "인천 출발 하이난 골프여행으로, 서북부 해안 고염전CC에서 7박8일 180홀을 도는 올포함 골프패키지입니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "고염전CC",
+      "고염전골프장",
+      "하이난골프여행",
+      "하이난장박골프",
+      "인천출발",
+      "올포함골프"
+    ],
+    "price": "1,890,000원~",
+    "title": "[인천출발] 중국 하이난 골프여행 고염전CC 장박 7박8일 180홀 1,890,000원부터 올포함"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "minPeople": 2,
+    "cancelPolicy": [
+      "해남항공 무료 위탁수하물: 캐리어 1개 + 골프백 1개 합계 32kg (기내 10kg)",
+      "싱글카트 18홀당 100위안 추가",
+      "미란CC는 전동카트 페어웨이 진입이 가능하고 5인 플레이도 가능합니다.",
+      "고염전CC 전동카트 페어웨이 진입은 1일·1대당 200위안이 추가됩니다(2인용 카트).",
+      "고염전밸리호텔은 매일 세탁 서비스가 무료입니다.",
+      "싱글룸 추가: 11월 박당 미란 5만원·고염전밸리 4만원 / 12~1월 미란 6만원·고염전밸리 4만5천원 (구정 기간 별도 문의)",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-06",
+    "id": "china-hainan-meilan-saltern-3n4d",
+    "region": "하이난",
+    "subtitle": "미란CC+고염전CC 2색 72홀 · 해남항공 · 올포함",
+    "nights": 3,
+    "days": 4,
+    "courses": 2,
+    "roundsIncluded": 4,
+    "holes": "0+27+27+18 (총 72홀)\n미란CC 27홀 1회 + 고염전CC",
+    "period": "2026년 11월 ~ 2027년 2월 (수·금 출발)",
+    "hotel": "미란국제공항호텔 + 고염전밸리호텔 (2인 1실)",
+    "hotelDesc": "앞쪽 일정은 공항에서 3분 거리 미란국제공항호텔에서, 고염전CC를 도는 날은 골프장에서 약 15분 거리 고염전밸리호텔에서 묵습니다. 고염전밸리호텔(바이리 씨뷰 호텔)은 고염전골프클럽이 관리하는 호텔로 골프장까지 차로 약 15분입니다. 양푸 시내 중심에 있어 걸어서 야시장과 주변을 둘러볼 수 있고, 1층과 호텔 옆에 24시간 편의점이 있습니다.",
+    "golfCourse": "미란CC · 고염전CC",
+    "golfCourseDesc": "미란CC(하이난 미란골프클럽)는 그레이엄 마쉬가 설계해 2009년 12월에 문을 연 27홀 코스로, 3개 코스 합계 11,235야드입니다. 메이란국제공항과 가까워 호텔에서 차로 약 10분이면 도착하고, 페어웨이에 전동카트가 들어갈 수 있어 이동이 편합니다. 고염전CC(고염전골프클럽)는 하이난 서북부 해안의 18홀 파72·7,461야드 코스로, 그레이엄 마쉬가 설계해 2011년 8월에 개장했습니다. 하이커우에서 차로 약 90분 떨어진 양푸에 있으며 2023년 유러피언 챌린지투어 하이난오픈이 열렸습니다.",
+    "productSummary": "하이커우 미란CC와 서북부 해안 고염전CC를 함께 도는 3박4일 72홀 2색 상품입니다.\n그린피·캐디피·전동카트와 클럽 중식, 미팅·샌딩까지 포함되어 현지에서 캐디팁만 준비하면 됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이커우",
+        "desc": "인천국제공항 제1터미널 출발(HU450, 21:40) → 해구 메이란국제공항 도착(익일 01:30) → 가이드 미팅 후 호텔 이동(약 3분) → 체크인 및 휴식 [호텔: 미란국제공항호텔 2인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "미란CC 27홀 → 양푸",
+        "desc": "조식 후 골프장 이동(약 10분) → 미란CC 27홀 라운드 → 고염전으로 이동(약 90분) → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 샤브샤브] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "3일차",
+        "label": "고염전CC 27홀",
+        "desc": "조식 후 골프장 이동(약 15분) → 고염전CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 삼겹살] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "4일차",
+        "label": "고염전CC 18홀 → 인천",
+        "desc": "조식 후 체크아웃 → 골프장 이동(약 15분) → 고염전CC 18홀 라운드 → 해구 메이란국제공항 출발(HU449, 15:30) → 인천국제공항 도착(20:30) 후 해산 [조식 호텔식 / 중식 클럽식]"
+      }
+    ],
+    "highlights": [
+      "미란CC 27홀 + 고염전CC 18홀 2색 · 3박4일 72홀",
+      "미란국제공항호텔 + 고염전밸리호텔",
+      "그린피·캐디피·카트·클럽중식·미팅샌딩 모두 포함",
+      "해남항공 위탁수하물 32kg (캐리어+골프백) · 2인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (TAX·유류세 포함)",
+      "호텔 (2인 1실)",
+      "전 일정 그린피·캐디피·전동카트",
+      "호텔 조식 · 클럽 중식 · 석식(샤브샤브·삼겹살 등)",
+      "미팅·샌딩 및 일정 내 차량",
+      "한국어 상주 가이드"
+    ],
+    "excludes": [
+      "캐디팁 (18홀 150위안 / 27홀 230위안)",
+      "개인 경비 및 여행자보험"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-04",
+        "price": 1190000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-06",
+        "price": 1190000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-11",
+        "price": 1190000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-13",
+        "price": 1190000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1190000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-20",
+        "price": 1190000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-25",
+        "price": 1190000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-27",
+        "price": 1190000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1449000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1449000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1449000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1449000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1449000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1449000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-01",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1559000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1559000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1559000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1559000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-05",
+        "price": 1749000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1749000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1699000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1529000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1529000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1549000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      }
+    ],
+    "image": "/images/china-hainan-meilan/course-1.jpg",
+    "images": [
+      "/images/china-hainan-meilan/course-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-1.jpg",
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-meilan/course-2.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-2.jpg",
+      "/images/china-hainan-meilan/course-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-meilan/hotel-2.jpg",
+      "/images/china-hainan-meilan/hotel-3.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-1.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-2.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/china-hainan-meilan/course-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-1.jpg",
+      "/images/china-hainan-meilan/course-2.jpg",
+      "/images/china-hainan-ancient-saltern/course-2.jpg",
+      "/images/china-hainan-meilan/course-3.jpg",
+      "/images/china-hainan-ancient-saltern/course-3.jpg"
+    ],
+    "seoIntro": "인천 출발 하이난 2색 골프여행으로, 미란CC와 고염전CC에서 3박4일 72홀을 도는 올포함 골프패키지입니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "미란CC",
+      "고염전CC",
+      "하이난2색골프",
+      "하이난골프여행",
+      "인천출발",
+      "올포함골프"
+    ],
+    "price": "1,190,000원~",
+    "title": "[인천출발] 중국 하이난 골프여행 미란CC·고염전CC 2색 3박4일 72홀 1,190,000원부터 올포함"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "minPeople": 2,
+    "cancelPolicy": [
+      "해남항공 무료 위탁수하물: 캐리어 1개 + 골프백 1개 합계 32kg (기내 10kg)",
+      "싱글카트 18홀당 100위안 추가",
+      "미란CC는 전동카트 페어웨이 진입이 가능하고 5인 플레이도 가능합니다.",
+      "고염전CC 전동카트 페어웨이 진입은 1일·1대당 200위안이 추가됩니다(2인용 카트).",
+      "고염전밸리호텔은 매일 세탁 서비스가 무료입니다.",
+      "싱글룸 추가: 12~1월 박당 미란 6만원·고염전밸리 4만5천원 (구정 기간 별도 문의)",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-06",
+    "id": "china-hainan-meilan-saltern-4n5d",
+    "region": "하이난",
+    "subtitle": "미란CC+고염전CC 2색 99홀 · 해남항공 · 올포함",
+    "nights": 4,
+    "days": 5,
+    "courses": 2,
+    "roundsIncluded": 5,
+    "holes": "0+27+27+27+18 (총 99홀)\n미란CC 27홀 2회 + 고염전CC",
+    "period": "2026년 12월 ~ 2027년 2월 (월·토 출발)",
+    "hotel": "미란국제공항호텔 + 고염전밸리호텔 (2인 1실)",
+    "hotelDesc": "앞쪽 일정은 공항에서 3분 거리 미란국제공항호텔에서, 고염전CC를 도는 날은 골프장에서 약 15분 거리 고염전밸리호텔에서 묵습니다. 고염전밸리호텔(바이리 씨뷰 호텔)은 고염전골프클럽이 관리하는 호텔로 골프장까지 차로 약 15분입니다. 양푸 시내 중심에 있어 걸어서 야시장과 주변을 둘러볼 수 있고, 1층과 호텔 옆에 24시간 편의점이 있습니다.",
+    "golfCourse": "미란CC · 고염전CC",
+    "golfCourseDesc": "미란CC(하이난 미란골프클럽)는 그레이엄 마쉬가 설계해 2009년 12월에 문을 연 27홀 코스로, 3개 코스 합계 11,235야드입니다. 메이란국제공항과 가까워 호텔에서 차로 약 10분이면 도착하고, 페어웨이에 전동카트가 들어갈 수 있어 이동이 편합니다. 고염전CC(고염전골프클럽)는 하이난 서북부 해안의 18홀 파72·7,461야드 코스로, 그레이엄 마쉬가 설계해 2011년 8월에 개장했습니다. 하이커우에서 차로 약 90분 떨어진 양푸에 있으며 2023년 유러피언 챌린지투어 하이난오픈이 열렸습니다.",
+    "productSummary": "하이커우 미란CC와 서북부 해안 고염전CC를 함께 도는 4박5일 99홀 2색 상품입니다.\n그린피·캐디피·전동카트와 클럽 중식, 미팅·샌딩까지 포함되어 현지에서 캐디팁만 준비하면 됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이커우",
+        "desc": "인천국제공항 제1터미널 출발(HU450, 21:40) → 해구 메이란국제공항 도착(익일 01:30) → 가이드 미팅 후 호텔 이동(약 3분) → 체크인 및 휴식 [호텔: 미란국제공항호텔 2인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "미란CC 27홀",
+        "desc": "조식 후 골프장 이동(약 10분) → 미란CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 샤브샤브] [호텔: 미란국제공항호텔]"
+      },
+      {
+        "day": "3일차",
+        "label": "미란CC 27홀 → 양푸",
+        "desc": "조식 후 골프장 이동(약 10분) → 미란CC 27홀 라운드 → 고염전으로 이동(약 90분) → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 현지식] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "4일차",
+        "label": "고염전CC 27홀",
+        "desc": "조식 후 골프장 이동(약 15분) → 고염전CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 클럽식 / 석식 삼겹살] [호텔: 고염전밸리호텔]"
+      },
+      {
+        "day": "5일차",
+        "label": "고염전CC 18홀 → 인천",
+        "desc": "조식 후 체크아웃 → 골프장 이동(약 15분) → 고염전CC 18홀 라운드 → 해구 메이란국제공항 출발(HU449, 15:30) → 인천국제공항 도착(20:30) 후 해산 [조식 호텔식 / 중식 클럽식]"
+      }
+    ],
+    "highlights": [
+      "미란CC 27홀 + 고염전CC 18홀 2색 · 4박5일 99홀",
+      "미란국제공항호텔 + 고염전밸리호텔",
+      "그린피·캐디피·카트·클럽중식·미팅샌딩 모두 포함",
+      "해남항공 위탁수하물 32kg (캐리어+골프백) · 2인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (TAX·유류세 포함)",
+      "호텔 (2인 1실)",
+      "전 일정 그린피·캐디피·전동카트",
+      "호텔 조식 · 클럽 중식 · 석식(샤브샤브·삼겹살 등)",
+      "미팅·샌딩 및 일정 내 차량",
+      "한국어 상주 가이드"
+    ],
+    "excludes": [
+      "캐디팁 (18홀 150위안 / 27홀 230위안)",
+      "개인 경비 및 여행자보험"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-05",
+        "price": 1699000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1699000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1699000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1699000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1849000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1849000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1879000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1849000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1859000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1859000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1859000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1859000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1859000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1859000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1799000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1799000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1799000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1999000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-08",
+        "price": 1999000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1930000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1859000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1699000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1699000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1699000,
+        "nights": 4,
+        "days": 5
+      }
+    ],
+    "image": "/images/china-hainan-meilan/course-1.jpg",
+    "images": [
+      "/images/china-hainan-meilan/course-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-1.jpg",
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-meilan/course-2.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-2.jpg",
+      "/images/china-hainan-meilan/course-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-hainan-meilan/hotel-1.jpg",
+      "/images/china-hainan-meilan/hotel-2.jpg",
+      "/images/china-hainan-meilan/hotel-3.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-1.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-2.jpg",
+      "/images/china-hainan-ancient-saltern/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/china-hainan-meilan/course-1.jpg",
+      "/images/china-hainan-ancient-saltern/course-1.jpg",
+      "/images/china-hainan-meilan/course-2.jpg",
+      "/images/china-hainan-ancient-saltern/course-2.jpg",
+      "/images/china-hainan-meilan/course-3.jpg",
+      "/images/china-hainan-ancient-saltern/course-3.jpg"
+    ],
+    "seoIntro": "인천 출발 하이난 2색 골프여행으로, 미란CC와 고염전CC에서 4박5일 99홀을 도는 올포함 골프패키지입니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "미란CC",
+      "고염전CC",
+      "하이난2색골프",
+      "하이난골프여행",
+      "인천출발",
+      "올포함골프"
+    ],
+    "price": "1,699,000원~",
+    "title": "[인천출발] 중국 하이난 골프여행 미란CC·고염전CC 2색 4박5일 99홀 1,699,000원부터 올포함"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "minPeople": 2,
+    "cancelPolicy": [
+      "샤먼항공 무료 위탁수하물: 캐리어 1개(23kg) + 골프백 1개",
+      "12월 24일·31일 출발과 그 밖의 날짜는 별도 문의",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-06",
+    "id": "china-fuzhou-haixia-3n4d",
+    "region": "푸저우",
+    "subtitle": "해협CC 72홀 · 그랜드스카이호텔 · 목요일 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "0+27+27+18 (총 72홀)\n해협CC",
+    "period": "2026년 12월 ~ 2027년 1월 (목요일 출발)",
+    "hotel": "그랜드스카이호텔 (2인 1실)",
+    "hotelDesc": "푸저우 그랜드스카이호텔에서 2인 1실로 3박하며 조식과 석식이 포함됩니다. 호텔에서 해협CC까지는 차로 약 15분입니다.",
+    "golfCourse": "해협CC",
+    "golfCourseDesc": "해협CC(푸저우 해협올림픽골프클럽)는 로버트 트렌트 존스 주니어가 설계해 1997년 10월에 문을 연 18홀 파72 코스입니다. 푸저우 창러국제공항 남동쪽, 삼면이 바다인 반도에 자리한 링크스 스타일 코스로 공항에서 차로 약 15분입니다. 둘째·셋째 날 27홀, 마지막 날 18홀로 총 72홀을 돕니다.",
+    "productSummary": "푸저우 창러공항 가까운 해협CC에서 3박4일 72홀을 도는 목요일 출발 상품입니다.\n그린피·캐디피·카트와 호텔 조식·석식이 포함됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 푸저우",
+        "desc": "인천국제공항 출발(MF878, 20:05) → 푸저우 창러국제공항 도착(22:00) → 가이드 미팅 후 호텔 이동(약 40분) → 체크인 및 휴식 [호텔: 그랜드스카이호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "해협CC 27홀",
+        "desc": "조식 후 골프장 이동(약 15분) → 해협CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "3일차",
+        "label": "해협CC 27홀",
+        "desc": "조식 후 골프장 이동 → 해협CC 27홀 라운드 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "4일차",
+        "label": "해협CC 18홀 → 인천",
+        "desc": "조식 후 체크아웃 → 해협CC 18홀 라운드 → 푸저우 창러국제공항 출발(MF877, 15:25) → 인천국제공항 도착(19:00) 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "해협CC 18홀 파72 링크스 코스 · 3박4일 72홀",
+      "공항에서 가까운 골프장 · 호텔에서 15분",
+      "그린피·캐디피·카트 포함",
+      "샤먼항공 매주 목요일 블록좌석 · 2인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (TAX·유류세 포함)",
+      "호텔 (2인 1실)",
+      "전 일정 그린피·캐디피·카트",
+      "호텔 조식 · 석식",
+      "일정 내 송영 차량"
+    ],
+    "excludes": [
+      "중식",
+      "미팅·샌딩 (인 400위안)",
+      "캐디팁 (18홀 130위안 / 27홀 200위안)",
+      "여행자보험"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-17",
+        "price": 1290000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1290000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1290000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1290000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1290000,
+        "nights": 3,
+        "days": 4
+      }
+    ],
+    "image": "/images/china-fuzhou-haixia/course-1.jpg",
+    "images": [
+      "/images/china-fuzhou-haixia/course-1.jpg",
+      "/images/china-fuzhou-haixia/course-2.jpg",
+      "/images/china-fuzhou-haixia/hotel-1.jpg",
+      "/images/china-fuzhou-haixia/course-3.jpg",
+      "/images/china-fuzhou-haixia/hotel-3.jpg",
+      "/images/china-fuzhou-haixia/course-4.jpg",
+      "/images/china-fuzhou-haixia/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-fuzhou-haixia/hotel-1.jpg",
+      "/images/china-fuzhou-haixia/hotel-2.jpg",
+      "/images/china-fuzhou-haixia/hotel-3.jpg",
+      "/images/china-fuzhou-haixia/hotel-4.jpg",
+      "/images/china-fuzhou-haixia/hotel-5.jpg",
+      "/images/china-fuzhou-haixia/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/china-fuzhou-haixia/course-1.jpg",
+      "/images/china-fuzhou-haixia/course-2.jpg",
+      "/images/china-fuzhou-haixia/course-3.jpg",
+      "/images/china-fuzhou-haixia/course-4.jpg",
+      "/images/china-fuzhou-haixia/course-5.jpg",
+      "/images/china-fuzhou-haixia/course-6.jpg"
+    ],
+    "seoIntro": "인천 출발 중국 푸저우 골프여행으로, 창러공항 가까운 링크스 코스 해협CC에서 3박4일 72홀을 도는 골프패키지입니다.",
+    "seoKeywords": [
+      "푸저우골프",
+      "복주골프",
+      "해협CC",
+      "푸저우골프여행",
+      "중국골프",
+      "인천출발"
+    ],
+    "price": "1,290,000원~",
+    "title": "[인천출발] 중국 푸저우 골프여행 해협CC 3박4일 72홀 1,290,000원부터"
+  },
+  {
     "id": "thailand-chiangmai-3color-busan",
     "country": "태국",
     "countryCode": "thailand",
