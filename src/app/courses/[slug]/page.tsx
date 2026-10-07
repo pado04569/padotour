@@ -125,13 +125,9 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
           <p className="text-gray-700 leading-relaxed text-sm md:text-base whitespace-pre-line">{course.description}</p>
 
           {course.hashtags && course.hashtags.length > 0 && (
-            <div className="flex flex-wrap gap-2 mt-6 pt-5 border-t border-gray-100">
-              {course.hashtags.map((tag) => (
-                <span key={tag} className="text-xs md:text-sm text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full">
-                  #{tag}
-                </span>
-              ))}
-            </div>
+            <p className="mt-6 pt-5 border-t border-gray-100 text-xs md:text-sm text-gray-400 leading-relaxed">
+              {course.hashtags.map((tag) => `#${tag}`).join(" ")}
+            </p>
           )}
         </div>
 
