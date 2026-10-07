@@ -1259,11 +1259,14 @@
         "value": "링크스 스타일 · 폭포와 개울"
       }
     ],
-    "description": "치앙마이 로얄CC는 브리티시오픈에서 다섯 번 우승한 피터 톰슨이 설계한 파72 코스입니다. 1996년 2월에 문을 열었습니다.\n\n링크스 스타일로 만들어졌고 전장은 뒤 티 기준 약 6,969야드입니다. 계곡 안에 자리를 잡아 사방이 산으로 둘러싸여 있으며, 코스 안에 폭포와 개울이 흐릅니다.\n\n가산 세 코스가 호수와 평지 위주라면 로얄CC는 지형의 높낮이와 물길을 쓰는 쪽에 가깝습니다. 그래서 치앙마이에서 여러 코스를 도실 때 성격이 겹치지 않는 코스로 넣기 좋습니다. 여행의파도 치앙마이 4박6일 상품에서 가산 세 코스와 함께 총 72홀 구성으로 들어갑니다.",
+    "description": "치앙마이 로얄CC는 브리티시오픈에서 다섯 번 우승한 피터 톰슨이 설계한 파72 코스입니다. 1996년 2월에 문을 열었습니다.\n\n링크스 스타일로 만들어졌고 전장은 뒤 티 기준 약 6,969야드입니다. 계곡 안에 자리를 잡아 사방이 산으로 둘러싸여 있으며, 코스 안에 폭포와 개울이 흐릅니다.\n\n가산 세 코스가 호수와 평지 위주라면 로얄CC는 지형의 높낮이와 물길을 쓰는 쪽에 가깝습니다. 그래서 치앙마이에서 여러 코스를 도실 때 성격이 겹치지 않는 코스로 넣기 좋습니다. 여행의파도 부산 출발 치앙마이 상품에서는 가산 세 코스와 함께 도는 구성으로 들어가고, 인천 출발 로얄 치앙마이 골프텔 상품은 골프장 안 숙소에 머물며 매일 18홀씩 이 코스만 돕니다. 골프텔 상품은 그린피·캐디피·전동카트와 하루 세 끼가 포함됩니다.",
     "images": [
       "/images/chiangmai-royal/course-1.jpg",
       "/images/chiangmai-royal/course-2.jpg",
-      "/images/chiangmai-royal/course-3.jpg"
+      "/images/chiangmai-royal/course-3.jpg",
+      "/images/chiangmai-royal-golftel/course-1.jpg",
+      "/images/chiangmai-royal-golftel/course-2.jpg",
+      "/images/chiangmai-royal-golftel/course-3.jpg"
     ],
     "hashtags": [
       "치앙마이로얄",
@@ -1276,6 +1279,9 @@
     "relatedTourIds": [
       "thailand-chiangmai-4n6d",
       "thailand-chiangmai-3color-busan"
+    ],
+    "aliases": [
+      "로얄 치앙마이CC"
     ]
   },
   {
