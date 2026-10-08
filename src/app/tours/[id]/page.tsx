@@ -253,17 +253,17 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             { icon: "📅", label: "출발 기간", value: tour.period ?? "연중 출발" },
           ].map((item) => (
             // 카드처럼 보여 눌러도 반응 없는 클릭이 있었다(클래리티 배달못한클릭, 2026-10-02 "출발 기간" 칸) → 출발일·요금으로 스크롤
-            <Link key={item.label} href="#departure" className="block bg-gray-50 hover:bg-gray-100 transition-colors rounded-xl p-3 md:p-4 text-center border border-gray-100">
+            <Link key={item.label} href="#departure" className="block min-w-0 bg-gray-50 hover:bg-gray-100 transition-colors rounded-xl p-3 md:p-4 text-center border border-gray-100">
               <div className="text-2xl mb-1">{item.icon}</div>
               <div className="text-xs text-gray-500 mb-1">{item.label}</div>
               {/* 내용이 길면 줄을 나누고 글자를 줄인다 — 칸 하나만 길어져 어색해지는 것을 막는다 */}
-              <div className={`font-bold text-gray-800 break-keep leading-snug space-y-0.5 ${
+              <div className={`font-bold text-gray-800 break-keep [overflow-wrap:anywhere] leading-snug space-y-0.5 ${
                 item.value.length > 45 ? "text-[11px]" : item.value.length > 24 ? "text-xs" : "text-sm"
               }`}>
                 {/* 줄 경계: 줄바꿈 / " / " / 기간의 " ~ " 앞.
                     "36~54홀" 처럼 공백 없는 물결표는 나누지 않는다. */}
                 {item.value.split(/\n|\s+\/\s+|\s+(?=~\s)/).map((line, li) => (
-                  <div key={li}>{line.trim()}</div>
+                  <div key={li}>{line.trim().replace(/·/g, "·\u200b")}</div>
                 ))}
               </div>
             </Link>
@@ -293,7 +293,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                 <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500">📅 출발일</dt>
                 <dd className="text-gray-800">
                   <Link href="#departure" className="hover:underline">
-                    {departures.rangeText} · 최저 <span className="font-bold text-red-600">{departures.lowPriceText}</span>({departures.cheapestDateText} 출발)
+                    {departures.rangeText}
                   </Link>
                 </dd>
               </div>
