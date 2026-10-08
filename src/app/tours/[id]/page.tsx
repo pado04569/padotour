@@ -211,10 +211,13 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             {/* break-keep — 한글 단어 중간에서 줄이 끊기지 않게 한다 */}
             {/* 제목 줄바꿈은 글자수가 아니라 의미로 판단한다 (사장님 확정 2026-09-10).
                 골프장 이름이 길 수 있어 길이 기준은 쓰지 않는다. 검색용 제목(metadata)은 한 줄 그대로. */}
+            {/* 제목 속 요금을 보고 누르는 손님이 있었다 → 출발일·요금표로 내려가게 한다 (클래리티 배달못한클릭, 2026-10-08 오키나와 카누차) */}
             <h1 className="text-xl md:text-4xl font-black leading-snug break-keep">
-              {titleLines.map((line, li) => (
-                <span key={li} className="block">{line}</span>
-              ))}
+              <Link href="#departure" className="pointer-events-auto hover:underline">
+                {titleLines.map((line, li) => (
+                  <span key={li} className="block">{line}</span>
+                ))}
+              </Link>
             </h1>
           </div>
         </div>
