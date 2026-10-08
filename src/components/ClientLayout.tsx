@@ -22,8 +22,18 @@ function ClientLayoutInner({ children, courseNavItems }: { children: React.React
     queryDeparture === "busan" ? "busan" :
     undefined;
 
-  if (isLanding || isAdmin) {
+  if (isAdmin) {
     return <>{children}</>;
+  }
+
+  // 첫 출발지 선택 화면은 헤더·푸터 없이, 카카오 문의 버튼만 붙인다 (사장님 요청 2026-10-08)
+  if (isLanding) {
+    return (
+      <>
+        {children}
+        <KakaoFloat />
+      </>
+    );
   }
 
   return (
