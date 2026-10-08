@@ -24,6 +24,7 @@ export type Notice = {
   isEvent: boolean;
   expiresAt?: string; // 이 날짜(YYYY-MM-DD)가 지나면 공지·이벤트 목록에서 자동으로 내려간다
   tourId?: string; // 연결된 상품 id — 있으면 공지 카드도 상품카드와 동일하게 사진+클릭 가능하게 렌더링
+  bannerImage?: string; // 공지 전용 특가 이미지(16:9) — 있으면 공지 카드에서 상품 사진 대신 보여준다. 상품 대표사진은 그대로
 };
 
 export const reviews: Review[] = reviewsData as Review[];

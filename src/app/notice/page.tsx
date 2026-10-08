@@ -67,7 +67,7 @@ export default async function NoticePage({
                     </span>
                   )}
                   <div className="max-w-none">
-                    <TourCard tour={linkedTour} featured />
+                    <TourCard tour={linkedTour} featured bannerImage={notice.bannerImage} />
                   </div>
                   <p className="text-gray-400 text-xs mt-4 text-center">{notice.date}</p>
                 </div>
