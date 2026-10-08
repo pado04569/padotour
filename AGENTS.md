@@ -215,3 +215,11 @@ _인계/<상품 id>/
 
 - 글에서 빼는 것 ≠ 홈페이지에서 빼는 것
 - `cancelPolicy` 표준은 `src/data/cancelPolicy.ts` 공통 사용 (계단식 위약금을 새로 넣지 않는 규칙은 그대로)
+
+# 배너·기획전 이미지 제작 (visual_studio)
+홈페이지 배너·기획전·특가 이미지를 AI로 만들 때는 먼저 아래 정본을 읽고 그 절차
+(사용처·비율·design-brief·장면표·사전검수·생성 승인·실물 QA·기록)를 따를 것:
+`C:\Users\Lenovo\Desktop\jianne\visual_studio\studio\WORKFLOW.md`
+- 작업·기록은 위 studio 폴더에서 한다. 합격한 결과물만 승인 후 public/으로 옮긴다(커밋 전 shrink_images.py).
+- 상품 대표사진(image·images[0]·courseImages)은 AI 생성·합성 금지. 실제 골프장 사진 규칙 유지.
+- 생성은 Codex 내장 이미지 생성, Claude는 기획·검수. 시험·본 생성·유료 사용은 매번 사장님 승인.
