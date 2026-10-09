@@ -78,6 +78,12 @@ for (const t of active) {
     if (!ok) add(t, "박수", `제목 "${tn[0]}" ↔ 박수 칸 ${t.nights}박${t.days}일`);
   }
 
+  // 5-2) "박4일~5일일" 처럼 박·일이 겹쳐 쓰인 글 (2026-10-09 구마모토 검색 소개에서 발견)
+  for (const [where, text] of shownText(t)) {
+    const m = String(text).match(/\d일박\d|\d일일|박\d+박/);
+    if (m) add(t, "박수 겹침", `${where}에 "${m[0]}"`);
+  }
+
   // 6) 요금 칸
   if (t.price && !/원|문의/.test(t.price)) add(t, "요금 형식", `price="${t.price}"`);
 }
