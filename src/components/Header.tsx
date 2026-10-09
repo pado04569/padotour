@@ -4,6 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import TrustBar, { useSwitchHref } from "./TrustBar";
+import ExternalVerificationButton from "./ExternalVerificationModal";
+import { IconChevron, IconSwap } from "./icons/Chevron";
 
 export type CourseNavItem = { label: string; countryCode: string; regions: string[] };
 
@@ -125,6 +128,7 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
   const [openMobileCourseCountry, setOpenMobileCourseCountry] = useState<string | null>(null);
 
   const navItems = buildNav(departure);
+  const switchHref = useSwitchHref(departure);
   const p = departure ? `?departure=${departure}` : "";
 
   const accentColor = "bg-white";
@@ -153,50 +157,14 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
   }
 
   return (
+    <>
+    {/* 신뢰 영역(왜 여행의 파도·등록·보증·출발지·내 예약/문의) — 붙어 다니지 않고 스크롤하면 올라간다 (UX 개편 2026-10-09) */}
+    <TrustBar departure={departure} />
     <header className="bg-white shadow-md sticky top-0 z-50">
-
-      {/* ══ 1단: 공지바 ══ */}
-      <div className="bg-white text-gray-600 text-xs border-b border-gray-100">
-        <div className="max-w-6xl mx-auto px-4 py-1.5 flex items-center justify-between gap-2">
-          {/* 네이버로 처음 들어온 손님이 회사가 믿을 만한지 보려고 이 줄을 눌렀다가 아무 일도 없어 나갔다
-              (클래리티 배달못한클릭, 2026-09-21 녹화 확인) → 회사 소개로 보낸다 */}
-          <Link href="/about#why-padotour" className="flex items-center gap-2 overflow-hidden min-w-0 hover:opacity-70 transition-opacity">
-            <span className="flex-shrink-0 bg-blue-50 border border-blue-200 text-blue-700 text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wide">
-              NOTICE
-            </span>
-            <span className="truncate text-[11px] md:text-xs">
-              왜 여행의파도 인가요?
-            </span>
-          </Link>
-          <div className="flex items-center gap-1.5 flex-shrink-0">
-            <Link
-              href="/"
-              className="hidden sm:inline-block bg-white border border-gray-300 text-gray-600 hover:bg-gray-50 text-[11px] font-bold px-2.5 py-0.5 rounded transition-colors whitespace-nowrap"
-            >
-              출발지 변경
-            </Link>
-            <Link
-              href="/my-inquiries"
-              className="bg-[#FAE100] border border-[#F0D600] text-gray-900 hover:bg-[#F0D600] text-[11px] font-bold px-3 py-0.5 rounded transition-colors"
-            >
-              예약확인
-            </Link>
-            {/* SGI 배지 — PC는 2단(로고 옆)에 큰 버전이 따로 있어 여기선 그 화면에서만 숨긴다 */}
-            <a
-              href="https://www.tourinfo.or.kr/v2/tourinfo/license_view.asp?page_no=1&pLino=184259&pLiTypeTxt=%B1%B9%B3%BB%BF%DC%BF%A9%C7%E0%BE%F7&pLiName=%BF%A9%C7%E0%C0%C7%C6%C4%B5%B5&pdtlStateNm=%BF%B5%BE%F7%C1%DF&sDateStart=&sDateEnd=&pLiLocal=&pLiSigun=&pLiType=%C0%FC%C3%BC"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="lg:hidden bg-blue-50 border border-blue-200 text-blue-700 hover:bg-blue-100 text-[11px] font-bold px-2.5 py-0.5 rounded transition-colors whitespace-nowrap"
-            >
-              SGI 서울보증보험
-            </a>
-          </div>
-        </div>
-      </div>
 
       {/* ══ 2단: 로고 + 검색창 + SGI ══ */}
       <div className="border-b border-gray-100">
-        <div className="max-w-6xl mx-auto px-3 md:px-4 py-2 md:py-3 flex items-center gap-2 md:gap-4">
+        <div className="max-w-6xl mx-auto px-4 py-2 md:py-3 flex items-center gap-2 md:gap-4">
 
           <Link href={homeHref} className="flex items-center gap-2 flex-shrink-0 md:w-[340px]">
             <Image src="/images/logo.png" alt="여행의 파도" width={44} height={44} className="rounded-full md:w-[52px] md:h-[52px]" />
@@ -213,11 +181,11 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
                 value={searchQuery}
                 onChange={(e) => { setSearchQuery(e.target.value); if (searchHint) setSearchHint(false); }}
                 onBlur={() => setSearchHint(false)}
-                placeholder={searchHint ? "검색어를 입력해 주세요 (예: 후쿠오카, 치앙마이)" : "여행지, 골프장, 국가명으로 검색"}
+                placeholder={searchHint ? "검색어를 입력해 주세요 (예: 후쿠오카, 치앙마이)" : "여행지·골프장 검색"}
                 aria-invalid={searchHint || undefined}
-                className="flex-1 px-3 py-2 md:px-4 md:py-2.5 text-sm outline-none bg-white min-w-0"
+                className="flex-1 px-3 min-h-11 md:px-4 text-[15px] placeholder:text-gray-500 outline-none bg-white min-w-0"
               />
-              <button type="submit" className="px-3 py-2 md:px-4 md:py-2.5 bg-gray-50 hover:bg-emerald-50 text-gray-500 hover:text-emerald-600 transition-colors border-l border-gray-200 flex-shrink-0">
+              <button type="submit" aria-label="검색" className="w-11 min-h-11 md:w-12 flex items-center justify-center bg-gray-50 hover:bg-emerald-50 text-gray-500 hover:text-emerald-600 transition-colors border-l border-gray-200 flex-shrink-0">
                 <svg className="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
@@ -225,28 +193,17 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
             </form>
           </div>
 
-          {/* 관광사업 등록·보증보험 조회(문화체육관광부 관광사업정보시스템)로 연결 — 사장님 요청 2026-09-23 */}
-          <a
-            href="https://www.tourinfo.or.kr/v2/tourinfo/license_view.asp?page_no=1&pLino=184259&pLiTypeTxt=%B1%B9%B3%BB%BF%DC%BF%A9%C7%E0%BE%F7&pLiName=%BF%A9%C7%E0%C0%C7%C6%C4%B5%B5&pdtlStateNm=%BF%B5%BE%F7%C1%DF&sDateStart=&sDateEnd=&pLiLocal=&pLiSigun=&pLiType=%C0%FC%C3%BC"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden lg:flex flex-shrink-0 w-[118px] justify-center items-center gap-2 border border-blue-200 bg-blue-50 hover:bg-blue-100 rounded-lg px-2 py-2 transition-colors"
-          >
-            <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-black">S</div>
-            <div className="text-xs leading-tight">
-              <div className="font-bold text-blue-800 whitespace-nowrap">SGI 서울보증보험</div>
-              <div className="text-blue-600">가입여행사</div>
-            </div>
-          </a>
+          {/* SGI·등록정보 확인은 맨 위 신뢰 영역 한 곳에만 둔다 — 로고 옆 배지는 중복이라 뺐다 (사장님 지적 2026-10-09) */}
 
           <div className="md:hidden flex items-center flex-shrink-0">
-            <button onClick={() => setMenuOpen(!menuOpen)} className="p-2 text-gray-700" aria-label="메뉴">
+            <button onClick={() => setMenuOpen(!menuOpen)} className="min-w-11 h-11 -mr-1 px-1 flex items-center justify-center gap-1 text-gray-700" aria-label="메뉴">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {menuOpen
                   ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                   : <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 }
               </svg>
+              <span className="text-sm font-semibold">메뉴</span>
             </button>
           </div>
         </div>
@@ -266,7 +223,7 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
                 >
                   <Link
                     href={item.href}
-                    className={`block text-gray-700 hover:text-black ${hoverAccent} font-semibold px-4 py-3 text-sm transition-colors whitespace-nowrap`}
+                    className={`block text-gray-700 hover:text-black ${hoverAccent} font-semibold px-4 py-3 text-base transition-colors whitespace-nowrap`}
                   >
                     {item.label}
                   </Link>
@@ -295,7 +252,7 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
               >
                 <Link
                   href="/courses"
-                  className={`block text-gray-700 hover:text-black ${hoverAccent} font-semibold px-4 py-3 text-sm transition-colors whitespace-nowrap`}
+                  className={`block text-gray-700 hover:text-black ${hoverAccent} font-semibold px-4 py-3 text-base transition-colors whitespace-nowrap`}
                 >
                   골프장 소개
                 </Link>
@@ -317,7 +274,7 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
                           }`}
                         >
                           {item.label}
-                          {item.regions.length > 1 && <span className="text-gray-300">›</span>}
+                          {item.regions.length > 1 && <IconChevron className="w-4 h-4 text-gray-400" />}
                         </Link>
                         {item.regions.length > 1 && hoveredCourseCountry === item.label && (
                           <div className="absolute left-full top-0 w-40 bg-white shadow-xl rounded-lg overflow-hidden border border-gray-100">
@@ -346,11 +303,9 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
               onMouseEnter={() => setCommunityOpen(true)}
               onMouseLeave={() => setCommunityOpen(false)}
             >
-              <button className={`flex items-center justify-center gap-1 text-gray-700 hover:text-black ${hoverAccent} font-semibold w-[118px] py-3 text-sm transition-colors whitespace-nowrap`}>
+              <button className={`flex items-center justify-center gap-1 text-gray-700 hover:text-black ${hoverAccent} font-semibold w-[118px] py-3 text-base transition-colors whitespace-nowrap`}>
                 커뮤니티
-                <svg className="w-3 h-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
-                </svg>
+                <IconChevron dir="down" className="w-4 h-4 text-gray-500" />
               </button>
               {communityOpen && (
                 <div className="absolute right-0 top-full w-36 bg-white shadow-xl rounded-b-lg overflow-hidden border border-gray-100 z-50">
@@ -373,13 +328,24 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
       {/* ══ 모바일 드롭다운 ══ */}
       {menuOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 shadow-lg max-h-[75vh] overflow-y-auto">
-          <Link
-            href="/"
-            className="flex items-center justify-center gap-2 px-4 py-3.5 text-blue-700 font-bold text-sm bg-blue-50 border-b border-blue-100"
-            onClick={() => setMenuOpen(false)}
-          >
-            출발지 변경 (인천 · 부산 선택)
-          </Link>
+          {/* 출발지 변경 — 어디로 바뀌는지 바로 보이게 (UX 개편 2026-10-09) */}
+          <div className="flex gap-2 px-4 py-3 bg-blue-50 border-b border-blue-100">
+            <Link
+              href={switchHref}
+              className="flex-1 flex items-center justify-center gap-1.5 min-h-11 rounded-lg bg-white border border-blue-200 text-blue-700 font-bold text-sm"
+              onClick={() => setMenuOpen(false)}
+            >
+              {departure ? <IconSwap className="w-4 h-4" /> : null}
+              {departure === "incheon" ? "부산 출발 보기" : departure === "busan" ? "인천 출발 보기" : "출발공항 선택하기"}
+            </Link>
+            <Link
+              href="/my-inquiries"
+              className="flex items-center justify-center min-h-11 px-4 rounded-lg bg-[#FAE100] border border-[#F0D600] text-gray-900 font-bold text-sm"
+              onClick={() => setMenuOpen(false)}
+            >
+              내 예약/문의
+            </Link>
+          </div>
           {navItems.map((item) => (
             <div key={item.label} className="border-b border-gray-100">
               <button
@@ -387,12 +353,7 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
                 onClick={() => setOpenMobileSub(openMobileSub === item.label ? null : item.label)}
               >
                 <span>{item.label}</span>
-                <svg
-                  className={`w-4 h-4 text-gray-400 transition-transform ${openMobileSub === item.label ? "rotate-180" : ""}`}
-                  fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
+                <IconChevron dir={openMobileSub === item.label ? "up" : "down"} className="w-4 h-4 text-gray-400" />
               </button>
               {openMobileSub === item.label && item.sub && (
                 <div className="bg-gray-50 border-t border-gray-100">
@@ -424,12 +385,7 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
                 aria-label="골프장 나라별 보기"
                 onClick={() => setOpenMobileCourseCountry(openMobileCourseCountry === "__open" ? null : "__open")}
               >
-                <svg
-                  className={`w-4 h-4 text-gray-400 transition-transform ${openMobileCourseCountry ? "rotate-180" : ""}`}
-                  fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
+                <IconChevron dir={openMobileCourseCountry ? "up" : "down"} className="w-4 h-4 text-gray-400" />
               </button>
             </div>
             {openMobileCourseCountry && (
@@ -442,12 +398,7 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
                         onClick={() => setOpenMobileCourseCountry(openMobileCourseCountry === item.label ? "__open" : item.label)}
                       >
                         <span>{item.label}</span>
-                        <svg
-                          className={`w-3.5 h-3.5 text-gray-400 transition-transform ${openMobileCourseCountry === item.label ? "rotate-180" : ""}`}
-                          fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                        >
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                        </svg>
+                        <IconChevron dir={openMobileCourseCountry === item.label ? "up" : "down"} className="w-3.5 h-3.5 text-gray-400" />
                       </button>
                       {openMobileCourseCountry === item.label && (
                         <div className="bg-white border-t border-gray-100">
@@ -498,17 +449,13 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
               💬 카카오톡 상담
             </a>
           </div>
-          <a
-            href="https://www.tourinfo.or.kr/v2/tourinfo/license_view.asp?page_no=1&pLino=184259&pLiTypeTxt=%B1%B9%B3%BB%BF%DC%BF%A9%C7%E0%BE%F7&pLiName=%BF%A9%C7%E0%C0%C7%C6%C4%B5%B5&pdtlStateNm=%BF%B5%BE%F7%C1%DF&sDateStart=&sDateEnd=&pLiLocal=&pLiSigun=&pLiType=%C0%FC%C3%BC"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-4 py-3 bg-blue-50 hover:bg-blue-100 flex items-center gap-2 transition-colors"
-          >
+          <ExternalVerificationButton className="w-full px-4 py-3 min-h-11 bg-blue-50 hover:bg-blue-100 flex items-center gap-2 transition-colors text-left">
             <div className="w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center text-white text-[10px] font-black">S</div>
-            <span className="text-xs text-blue-700 font-semibold">SGI 서울보증보험 가입여행사</span>
-          </a>
+            <span className="text-sm text-blue-700 font-semibold">여행사 등록·보증 정보 확인 (SGI 서울보증보험 가입)</span>
+          </ExternalVerificationButton>
         </div>
       )}
     </header>
+    </>
   );
 }

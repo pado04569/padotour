@@ -4,6 +4,7 @@ import TourCard from "@/components/TourCard";
 import Link from "next/link";
 
 import type { Metadata } from "next";
+import { IconChevron } from "@/components/icons/Chevron";
 
 export const metadata: Metadata = {
   title: "공지·이벤트 | 여행의 파도 골프여행",
@@ -50,9 +51,9 @@ export default async function NoticePage({
           {firstLinkedTour && (
             <Link
               href={`/tours/${firstLinkedTour.id}`}
-              className="inline-block mt-4 bg-white text-emerald-700 hover:bg-emerald-50 font-bold px-4 py-2 rounded-full text-sm md:text-base transition-colors"
+              className="inline-flex items-center gap-1 mt-4 bg-white text-emerald-700 hover:bg-emerald-50 font-bold px-4 py-2 rounded-full text-sm md:text-base transition-colors"
             >
-              지금 특가 보기 →
+              지금 특가 보기<IconChevron className="w-4 h-4" />
             </Link>
           )}
         </div>

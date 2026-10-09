@@ -5,6 +5,7 @@ import { courses } from "@/data/courses";
 import { tours } from "@/data/tours";
 import TourCard from "@/components/TourCard";
 import PhotoGrid from "@/components/PhotoGrid";
+import { IconChevron } from "@/components/icons/Chevron";
 
 const SITE_URL = "https://www.padotour.com";
 
@@ -79,9 +80,9 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
         <div className="max-w-6xl mx-auto px-4">
           <nav aria-label="breadcrumb" className="text-emerald-100 text-xs md:text-sm mb-2">
             <Link href="/" className="hover:text-white">홈</Link>
-            <span className="mx-1.5">›</span>
+            <IconChevron className="w-3.5 h-3.5 mx-1 opacity-80" />
             <Link href="/courses" className="hover:text-white">골프장 소개</Link>
-            <span className="mx-1.5">›</span>
+            <IconChevron className="w-3.5 h-3.5 mx-1 opacity-80" />
             <span className="text-white">{course.name}</span>
           </nav>
           <p className="text-emerald-100 text-sm mb-1">
@@ -156,8 +157,8 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
         </div>
 
         <div className="mt-8 text-center">
-          <Link href="/courses" className="text-emerald-600 hover:text-emerald-700 font-medium text-sm">
-            ← 골프장 목록으로
+          <Link href="/courses" className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 font-medium text-[15px] min-h-11">
+            <IconChevron dir="left" className="w-4 h-4" />골프장 목록으로
           </Link>
         </div>
       </section>

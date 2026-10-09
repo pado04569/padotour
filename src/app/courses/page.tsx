@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { courses } from "@/data/courses";
 import type { Metadata } from "next";
+import { IconChevron } from "@/components/icons/Chevron";
 
 const SITE_URL = "https://www.padotour.com";
 
@@ -51,8 +52,8 @@ export default async function CoursesPage({
             {isFiltered && filterLabel ? `${filterLabel} 골프장` : "해외 골프장 소개"}
           </h1>
           {isFiltered && (
-            <Link href="/courses" className="inline-block text-emerald-50 hover:text-white text-xs md:text-sm underline underline-offset-2">
-              ← 전체 골프장 보기
+            <Link href="/courses" className="inline-flex items-center gap-1 text-emerald-50 hover:text-white text-sm underline underline-offset-2">
+              <IconChevron dir="left" className="w-4 h-4" />전체 골프장 보기
             </Link>
           )}
         </div>

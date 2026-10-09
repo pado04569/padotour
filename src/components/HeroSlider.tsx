@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { IconChevron } from "@/components/icons/Chevron";
 
 type Slide = {
   image: string;
@@ -111,16 +112,16 @@ export default function HeroSlider({ slides }: Props) {
       <button
         onClick={() => goTo(-1)}
         aria-label="이전"
-        className="hidden md:flex absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white w-12 h-12 rounded-full items-center justify-center text-2xl transition-colors"
+        className="hidden md:flex absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white w-12 h-12 rounded-full items-center justify-center transition-colors"
       >
-        ‹
+        <IconChevron dir="left" className="w-6 h-6" />
       </button>
       <button
         onClick={() => goTo(1)}
         aria-label="다음"
-        className="hidden md:flex absolute right-4 lg:right-8 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white w-12 h-12 rounded-full items-center justify-center text-2xl transition-colors"
+        className="hidden md:flex absolute right-4 lg:right-8 top-1/2 -translate-y-1/2 bg-black/30 hover:bg-black/50 text-white w-12 h-12 rounded-full items-center justify-center transition-colors"
       >
-        ›
+        <IconChevron className="w-6 h-6" />
       </button>
 
       {/* 하단 점 인디케이터 */}

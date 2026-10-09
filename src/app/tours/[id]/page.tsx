@@ -13,6 +13,7 @@ import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
 import { tourFaqs } from "@/lib/tourFaq";
 import { stayText } from "@/lib/stay";
+import { IconChevron } from "@/components/icons/Chevron";
 
 export async function generateStaticParams() {
   return tours.map((t) => ({ id: t.id }));
@@ -560,8 +561,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
         {/* ── 뒤로가기 (소 → 중) : 이 상품이 속한 나라 목록으로 ── */}
         <div className="text-center">
-          <Link href={`/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}`} className="text-emerald-600 hover:text-emerald-700 font-medium text-sm">
-            ← {tour.country} 상품 목록으로
+          <Link href={`/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}`} className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 font-medium text-[15px] min-h-11">
+            <IconChevron dir="left" className="w-4 h-4" />{tour.country} 상품 목록으로
           </Link>
         </div>
       </div>

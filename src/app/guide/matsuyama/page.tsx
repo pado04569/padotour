@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { tours } from "@/data/tours";
 import TourCard from "@/components/TourCard";
+import { IconChevron } from "@/components/icons/Chevron";
 
 export const metadata: Metadata = {
   title: "마쓰야마 골프여행 총정리 | 인천·부산 출발 온천 골프패키지 - 여행의파도",
@@ -231,8 +232,8 @@ export default function MatsuyamaGuidePage() {
             📞 {PHONE}
           </a>
           <p className="text-emerald-200 text-xs mt-4">
-            <Link href="/tours?country=japan" className="underline">
-              다른 일본 골프여행 상품 보기 →
+            <Link href="/tours?country=japan" className="inline-flex items-center gap-1 underline">
+              다른 일본 골프여행 상품 보기<IconChevron className="w-4 h-4" />
             </Link>
           </p>
         </section>

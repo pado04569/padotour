@@ -5,6 +5,7 @@ import Link from "next/link";
 import TourCard from "@/components/TourCard";
 import { tours, countries } from "@/data/tours";
 import { useSearchParams, useRouter } from "next/navigation";
+import { IconChevron } from "@/components/icons/Chevron";
 
 function ToursContent() {
   const searchParams = useSearchParams();
@@ -117,16 +118,16 @@ function ToursContent() {
           {isFiltered ? (
             <button
               onClick={goAllProducts}
-              className="text-emerald-600 hover:text-emerald-700 font-medium text-sm"
+              className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 font-medium text-[15px] min-h-11"
             >
-              ← 전체 상품 목록으로
+              <IconChevron dir="left" className="w-4 h-4" />전체 상품 목록으로
             </button>
           ) : (
             <Link
               href={homeHref}
-              className="text-emerald-600 hover:text-emerald-700 font-medium text-sm"
+              className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 font-medium text-[15px] min-h-11"
             >
-              ← 메인 화면으로
+              <IconChevron dir="left" className="w-4 h-4" />메인 화면으로
             </Link>
           )}
         </div>

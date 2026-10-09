@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { IconChevron } from "@/components/icons/Chevron";
 
 type Props = {
   images: string[];
@@ -137,17 +138,17 @@ export default function PhotoGrid({ images, altBase, objectTop, variant = "grid"
                 type="button"
                 onClick={(e) => { e.stopPropagation(); go(-1); }}
                 aria-label="이전 사진"
-                className="absolute left-2 md:left-6 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/15 hover:bg-white/25 text-white text-2xl"
+                className="absolute left-2 md:left-6 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/15 hover:bg-white/25 text-white flex items-center justify-center"
               >
-                ‹
+                <IconChevron dir="left" className="w-6 h-6" />
               </button>
               <button
                 type="button"
                 onClick={(e) => { e.stopPropagation(); go(1); }}
                 aria-label="다음 사진"
-                className="absolute right-2 md:right-6 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/15 hover:bg-white/25 text-white text-2xl"
+                className="absolute right-2 md:right-6 top-1/2 -translate-y-1/2 w-11 h-11 rounded-full bg-white/15 hover:bg-white/25 text-white flex items-center justify-center"
               >
-                ›
+                <IconChevron className="w-6 h-6" />
               </button>
               <div className="absolute bottom-5 left-0 right-0 text-center text-white/80 text-sm">
                 {open + 1} / {images.length}

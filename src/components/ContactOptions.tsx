@@ -3,8 +3,9 @@
 import { useState, useRef } from "react";
 import Image from "next/image";
 import { track } from "@/lib/analytics";
-import YellowArrow from "@/components/YellowArrow";
+import SelectChevron from "@/components/SelectChevron";
 import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint, todayKST } from "@/lib/inquiryForm";
+import { IconChevron } from "@/components/icons/Chevron";
 
 /**
  * 입력칸 공통 서식.
@@ -110,7 +111,7 @@ export default function ContactOptions({
         className="w-full bg-blue-100 hover:bg-blue-200 text-blue-700 border border-blue-200 font-black px-8 py-4 rounded-2xl text-base transition-colors flex items-center justify-center gap-2"
       >
         📞 예약 문의 · 맞춤 견적
-        <span className={`transition-transform duration-200 ${open ? "rotate-180" : ""}`}>▼</span>
+        <IconChevron dir={open ? "up" : "down"} className="w-5 h-5" />
       </button>
 
       {open && (
@@ -172,7 +173,7 @@ export default function ContactOptions({
                         ))}
                         <option value="other">다른 날짜 문의</option>
                       </select>
-                      <YellowArrow />
+                      <SelectChevron />
                     </div>
                   )}
                   {otherDate && (
@@ -202,7 +203,7 @@ export default function ContactOptions({
                           </option>
                         ))}
                       </select>
-                      <YellowArrow />
+                      <SelectChevron />
                     </div>
                   </div>
                   <div className="col-span-3">
@@ -269,7 +270,7 @@ export default function ContactOptions({
             <div className="w-10 h-10 bg-yellow-300 rounded-full flex items-center justify-center text-xl flex-shrink-0">📷</div>
             <div className="flex-1">
               <div className="font-black text-gray-800 text-sm">QR코드로 친구 추가</div>
-              <div className="text-yellow-700 font-bold text-sm">카메라로 스캔 {showQr ? "▲" : "▼"}</div>
+              <div className="text-yellow-700 font-bold text-sm"><span className="inline-flex items-center gap-1">카메라로 스캔 <IconChevron dir={showQr ? "up" : "down"} className="w-4 h-4" /></span></div>
             </div>
           </button>
 
@@ -296,7 +297,7 @@ export default function ContactOptions({
             <div className="w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center text-xl flex-shrink-0">🟡</div>
             <div>
               <div className="font-black text-gray-800 text-sm">카카오 채널</div>
-              <div className="text-yellow-700 font-bold text-sm">여행의 파도 채널 →</div>
+              <div className="inline-flex items-center gap-1 text-yellow-700 font-bold text-sm">여행의 파도 채널<IconChevron className="w-4 h-4" /></div>
             </div>
           </a>
 

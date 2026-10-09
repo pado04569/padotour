@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { track } from "@/lib/analytics";
-import YellowArrow from "@/components/YellowArrow";
+import SelectChevron from "@/components/SelectChevron";
 import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint, todayKST } from "@/lib/inquiryForm";
 
 const FIELD =
@@ -182,7 +182,7 @@ export default function HolePriceTierSelector({
                           </option>
                         ))}
                       </select>
-                      <YellowArrow />
+                      <SelectChevron />
                     </div>
                   ) : (
                     <p className="text-xs text-gray-600">남은 출발일이 없습니다. 전화(010-5301-5250)로 문의해 주세요.</p>
@@ -202,7 +202,7 @@ export default function HolePriceTierSelector({
                         <option key={n} value={n}>{PEOPLE_MAX_LABEL(n)}</option>
                       ))}
                     </select>
-                    <YellowArrow />
+                    <SelectChevron />
                   </div>
                 </div>
                 <div className="col-span-3">

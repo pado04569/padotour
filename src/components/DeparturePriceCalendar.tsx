@@ -2,8 +2,9 @@
 
 import { useRef, useState } from "react";
 import { track } from "@/lib/analytics";
-import YellowArrow from "@/components/YellowArrow";
+import SelectChevron from "@/components/SelectChevron";
 import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint, todayKST } from "@/lib/inquiryForm";
+import { IconChevron } from "@/components/icons/Chevron";
 
 type PriceEntry = { date: string; price: number; nights?: number; days?: number };
 
@@ -173,9 +174,10 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
               if (m < 0) { m = 11; y--; }
               return { year: y, month: m };
             })}
-            className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-200 text-gray-600 font-bold"
+            aria-label="이전 달"
+            className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-200 text-gray-600"
           >
-            ‹
+            <IconChevron dir="left" className="w-5 h-5" />
           </button>
           {/* 두 화살표 사이 텍스트라 눌러도 반응 없는 클릭이 잡혔다(클래리티 배달못한클릭 3회, 2026-09-28)
               → 누르면 가장 가까운 출발 가능 달로 돌아가게 한다 */}
@@ -199,16 +201,17 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
               if (m > 11) { m = 0; y++; }
               return { year: y, month: m };
             })}
-            className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-200 text-gray-600 font-bold"
+            aria-label="다음 달"
+            className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-200 text-gray-600"
           >
-            ›
+            <IconChevron className="w-5 h-5" />
           </button>
         </div>
 
         {/* 휴대폰은 석 달이 옆으로 미는 띠라 월 제목을 눌러 달을 바꾸려는 손님이 있었다
             (클래리티 배달못한클릭 '2026.10' 4회, 2026-10-04) → 미는 방법을 한 줄로 알려준다 (사장님 확정 2026-10-05) */}
-        <p className="md:hidden text-right text-xs font-bold text-emerald-600 mb-1.5">
-          옆으로 밀어 다음 달 보기 ›
+        <p className="md:hidden flex items-center justify-end gap-0.5 text-sm font-bold text-emerald-600 mb-1.5">
+          옆으로 밀어 다음 달 보기<IconChevron className="w-4 h-4" />
         </p>
         {/* 캘린더 3개 */}
         <div className="flex gap-4 overflow-x-auto pb-2">
@@ -360,7 +363,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                           </option>
                         ))}
                       </select>
-                      <YellowArrow />
+                      <SelectChevron />
                     </div>
                   </div>
                   <div className="flex-[2]">
