@@ -21,13 +21,21 @@ function placeLabel(map: CountryMap, x: number, y: number, label: { dx: number; 
 }
 
 function MapSvg({ map, regions, selected, hrefFor }: { map: CountryMap; regions: string[]; selected?: string; hrefFor: (r: string) => string }) {
-  const selArea = selected ? map.regions[selected]?.area : undefined;
+  const area0 = selected ? map.regions[selected]?.area : undefined;
+  const selArea = area0 && !map.areas[area0]?.noHighlight ? area0 : undefined;
   const shown = Object.entries(map.regions).filter(([name]) => regions.includes(name));
   return (
-    <svg viewBox={`0 0 ${map.width} ${map.height}`} role="img" aria-label={`${map.title} 골프 지역 위치 지도`} className="w-full h-auto block">
+    <svg viewBox={`0 0 ${map.width} ${map.height}`} role="img" aria-label={`${map.title} 골프 지역 위치 지도`} className="w-full h-auto block mx-auto" style={map.displayMaxWidth ? { maxWidth: map.displayMaxWidth } : undefined}>
       <rect width={map.width} height={map.height} rx={12} fill={C.bg} />
-      {Object.entries(map.areas).filter(([, a]) => !a.inset).map(([k, a]) => (
-        <path key={k} d={a.d} fill={selArea === k ? C.hi : C.land} stroke={selArea === k ? C.sel : C.stroke} strokeWidth={selArea === k ? 2 : 1.2} strokeLinejoin="round" />
+      {Object.entries(map.areas).filter(([, a]) => !a.inset).map(([k, a]) =>
+        a.context ? (
+          <path key={k} d={a.d} fill="#EEF0F2" stroke="#D5DAE0" strokeWidth={1} strokeLinejoin="round" />
+        ) : (
+          <path key={k} d={a.d} fill={selArea === k ? C.hi : C.land} stroke={selArea === k ? C.sel : C.stroke} strokeWidth={selArea === k ? 2 : 1.2} strokeLinejoin="round" />
+        ),
+      )}
+      {map.contextLabels?.map((t) => (
+        <text key={t.text} x={t.x} y={t.y} textAnchor="middle" fontSize={15} fill="#94A3B8">{t.text}</text>
       ))}
       {map.insets.map((b) => (
         <g key={b.area}>
