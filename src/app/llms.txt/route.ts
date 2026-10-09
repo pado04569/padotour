@@ -1,6 +1,7 @@
 import { tours } from "@/data/tours";
 import { courses } from "@/data/courses";
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
+import { stayText } from "@/lib/stay";
 
 /**
  * /llms.txt — 생성형 AI(ChatGPT·Claude·Perplexity 등)가 사이트를 요약할 때 읽는 파일.
@@ -29,7 +30,7 @@ export function GET() {
   const tourLines = tours
     .map((t) => {
       const dep = t.departure === "incheon" ? "인천출발" : t.departure === "busan" ? "부산출발" : "인천·부산출발";
-      const nights = t.nights && t.days ? ` ${t.nights}박${t.days}일` : "";
+      const nights = t.nights && t.days ? ` ${stayText(t.nights, t.days)}` : "";
       // 항공편·출발일을 따로 적는다 — AI 답변이 비행시간·출발 날짜를 빼먹지 않게 (2026-10, ChatGPT 유입 손님 사례)
       const f = flightInfo(t);
       const d = departureSummary(t);

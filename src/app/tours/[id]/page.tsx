@@ -12,6 +12,7 @@ import { Sentences, Steps } from "@/components/ReadableText";
 import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "@/data/cancelPolicy";
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
 import { tourFaqs } from "@/lib/tourFaq";
+import { stayText } from "@/lib/stay";
 
 export async function generateStaticParams() {
   return tours.map((t) => ({ id: t.id }));
@@ -249,7 +250,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           return (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
           {[
-            { icon: "🌙", label: "일정", value: tierNightsText ?? `${tour.nights}박 ${tour.days}일` },
+            { icon: "🌙", label: "일정", value: tierNightsText ?? stayText(tour.nights, tour.days, " ") },
             // 무제한 상품은 "무제한라운드 무제한 라운딩홀"처럼 겹쳐 보였다 → "무제한 라운드"만 (사장님 확정 2026-10-02)
             { icon: "⛳", label: "라운드", value: String(tour.roundsIncluded).includes("무제한") ? "무제한 라운드" : `${tour.roundsIncluded}라운드 ${holesText}` },
             { icon: "👥", label: "최소 인원", value: minPeopleText },
@@ -448,7 +449,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 여행 일정 ── */}
         {tour.schedule && tour.schedule.length > 0 && (
           <div className="mb-8">
-            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📋 {tour.region} 골프여행 {tierNightsRange ?? `${tour.nights}박${tour.days}일`} 일정</h2>
+            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📋 {tour.region} 골프여행 {tierNightsRange ?? stayText(tour.nights, tour.days)} 일정</h2>
             <div className="space-y-3">
               {tour.schedule.map((s, i) => (
                 <div key={i} className="flex gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm">

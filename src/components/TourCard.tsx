@@ -1,6 +1,7 @@
 import { Tour } from "@/data/tours";
 import Image from "next/image";
 import Link from "next/link";
+import { stayText } from "@/lib/stay";
 
 export default function TourCard({ tour, featured = false, bannerImage }: { tour: Tour; featured?: boolean; bannerImage?: string }) {
   // 제목에 요금 숫자가 이미 포함된 경우(예: "...3박4일 549,000원부터") 그 숫자만 빨간색으로 칠하고
@@ -45,7 +46,7 @@ export default function TourCard({ tour, featured = false, bannerImage }: { tour
         </h3>
         {!featured && (
           <p className="text-gray-400 text-xs mb-1">
-            {tour.nights}박{tour.days}일 · {tour.roundsIncluded}라운드
+            {stayText(tour.nights, tour.days)} · {tour.roundsIncluded}라운드
           </p>
         )}
         {!titleHasPrice && (

@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import { SolapiMessageService } from "solapi";
 import { getRedis } from "@/lib/redis";
+import { stayText } from "@/lib/stay";
 
 // 전화번호로 예약문의 내역을 조회할 수 있도록 저장한다 (사장님 요청 2026-09-23).
 // 전화번호 숫자만 남긴 값을 키로 써서 사람마다 리스트로 쌓는다. Redis 연결이 없으면 조용히 건너뛴다.
@@ -137,7 +138,7 @@ async function sendMail(p: {
             </tr>
             <tr style="border-bottom: 1px solid #f3f4f6;">
               <td style="padding: 10px 0; color: #6b7280;">출발일</td>
-              <td style="padding: 10px 0; font-weight: bold; color: #2563eb;">${formattedDate}${nights && days ? ` (${nights}박 ${days}일)` : ""}</td>
+              <td style="padding: 10px 0; font-weight: bold; color: #2563eb;">${formattedDate}${nights && days ? ` (${stayText(nights, days, " ")})` : ""}</td>
             </tr>
             <tr style="border-bottom: 1px solid #f3f4f6;">
               <td style="padding: 10px 0; color: #6b7280;">인원수</td>
@@ -193,7 +194,7 @@ export async function POST(req: NextRequest) {
     ),
     notifyKakao({
       상품명: tourTitle || "상품명 없음",
-      출발일: `${formattedDate}${nights && days ? ` (${nights}박 ${days}일)` : ""}`,
+      출발일: `${formattedDate}${nights && days ? ` (${stayText(nights, days, " ")})` : ""}`,
       인원: `${people}명`,
       연락처: phone,
     }).then(

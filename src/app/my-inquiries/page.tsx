@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { stayText } from "@/lib/stay";
 
 type InquiryItem = {
   tourTitle: string;
@@ -90,7 +91,7 @@ export default function MyInquiriesPage() {
                 <div className="text-xs md:text-sm text-gray-600 space-y-1">
                   <p>
                     출발일: {item.departureDate}
-                    {item.nights && item.days ? ` (${item.nights}박 ${item.days}일)` : ""}
+                    {item.nights && item.days ? ` (${stayText(item.nights, item.days, " ")})` : ""}
                   </p>
                   <p>인원: {item.people}명</p>
                   <p className="text-gray-400">

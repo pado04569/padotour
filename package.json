@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/check-courses.mjs",
+    "prebuild": "node scripts/check-courses.mjs && node scripts/check-tours.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"

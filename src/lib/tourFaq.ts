@@ -1,5 +1,6 @@
 import { tours, type Tour } from "@/data/tours";
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
+import { stayText } from "@/lib/stay";
 
 /**
  * 상품별 자주 묻는 질문 — 손님이 전화로 실제로 묻는 것들을 상품 데이터에서 그대로 답한다.
@@ -91,7 +92,7 @@ export function tourFaqs(tour: Tour): Faq[] {
 
   // 6) 숙소
   if (tour.hotel) {
-    faqs.push({ q: "숙소는 어디인가요?", a: `${tour.hotel}에서 ${tour.nights}박 합니다.` });
+    faqs.push({ q: "숙소는 어디인가요?", a: String(tour.nights).includes("박") ? `${tour.hotel}에서 묵습니다 (${stayText(tour.nights, tour.days)}).` : `${tour.hotel}에서 ${tour.nights}박 합니다.` });
   }
 
   // 7) 식사

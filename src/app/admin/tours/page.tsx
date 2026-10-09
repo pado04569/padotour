@@ -1,6 +1,7 @@
 import { checkAuth, getTours, deleteTour } from "@/lib/adminActions";
 import AdminSidebar from "@/components/AdminSidebar";
 import Link from "next/link";
+import { stayText } from "@/lib/stay";
 
 export default async function AdminToursPage() {
   await checkAuth();
@@ -56,7 +57,7 @@ export default async function AdminToursPage() {
                       )}
                     </td>
                     <td className="px-4 py-3 text-gray-600">{tour.country}</td>
-                    <td className="px-4 py-3 text-gray-600">{tour.nights}박{tour.days}일 / {tour.roundsIncluded}R</td>
+                    <td className="px-4 py-3 text-gray-600">{stayText(tour.nights, tour.days)} / {tour.roundsIncluded}R</td>
                     <td className="px-4 py-3">
                       <span className={`text-xs px-2 py-1 rounded-full font-medium ${
                         tour.departure === "both" ? "bg-purple-100 text-purple-700" :
