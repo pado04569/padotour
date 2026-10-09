@@ -4916,5 +4916,408 @@
     "relatedTourIds": [
       "indonesia-manado-paradise"
     ]
+  },
+  {
+    "slug": "borneo-golf-country-club",
+    "name": "보르네오CC",
+    "nameEn": "Borneo Golf & Country Club",
+    "aliases": [
+      "보르네오 골프&컨트리클럽",
+      "보르네오GC"
+    ],
+    "region": "코타키나발루",
+    "country": "말레이시아",
+    "countryCode": "malaysia",
+    "summary": "잭 니클라우스 설계 파72 18홀, 사바 봉가완 해안의 시그니처 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 / 약 7,159야드"
+      },
+      {
+        "label": "개장",
+        "value": "1995년"
+      },
+      {
+        "label": "설계",
+        "value": "잭 니클라우스"
+      },
+      {
+        "label": "소재지",
+        "value": "말레이시아 사바주 봉가완"
+      }
+    ],
+    "description": "보르네오CC는 잭 니클라우스가 설계해 1995년 문을 연 파72, 18홀 골프장으로 사바주 봉가완 해안에 있습니다.\n\n바다와 맞닿은 홀과 자연 라군, 워터해저드가 이어지는 코스라 전략적인 플레이가 필요합니다.\n\n여행의파도 부산출발 코타키나발루 상품에서는 골프장 안 아티타야 리조트에 머물며 티업 시간 제한 없이 매일 36홀을 칩니다.",
+    "images": [
+      "/images/kota-borneo-busan/course-1.jpg",
+      "/images/kota-borneo-busan/course-2.jpg",
+      "/images/kota-borneo-busan/course-3.jpg",
+      "/images/kota-borneo-busan/course-4.jpg",
+      "/images/kota-borneo-busan/course-5.jpg"
+    ],
+    "hashtags": [
+      "보르네오CC",
+      "코타키나발루골프",
+      "무제한골프",
+      "잭니클라우스",
+      "말레이시아골프"
+    ],
+    "relatedTourIds": [
+      "malaysia-kota-borneo-unlimited-busan"
+    ]
+  },
+  {
+    "slug": "danang-golf-club",
+    "name": "다낭CC",
+    "nameEn": "BRG Da Nang Golf Resort (Da Nang Golf Club)",
+    "aliases": [
+      "다낭 골프클럽",
+      "BRG 다낭"
+    ],
+    "region": "다낭",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "그렉 노먼 듄스 코스와 잭 니클라우스 코스, 36홀 해변 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 (노먼 듄스 18홀 + 니클라우스 18홀)"
+      },
+      {
+        "label": "파",
+        "value": "파72 (노먼 코스)"
+      },
+      {
+        "label": "개장",
+        "value": "2010년 (노먼 코스)"
+      },
+      {
+        "label": "설계",
+        "value": "그렉 노먼 · 잭 니클라우스"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 다낭 응우한선"
+      }
+    ],
+    "description": "다낭CC(BRG 다낭 골프 리조트)는 2010년 그렉 노먼이 설계한 듄스 코스(18홀 파72)로 문을 열었고, 이후 잭 니클라우스 코스 18홀이 더해져 36홀이 됐습니다.\n\n해안 모래언덕을 살린 링크스 스타일 코스라 바닷바람과 벙커가 코스의 재미를 만듭니다.\n\n여행의파도 부산출발 다낭 상품에서는 몽고메리·바나힐·빈펄CC와 함께 3곳 중 하루 18홀씩 칩니다.",
+    "images": [
+      "/images/danang-muongthanh-busan/course-3.jpg",
+      "/images/danang-muongthanh-busan/course-4.jpg",
+      "/images/danang-muongthanh-busan/course-5.jpg"
+    ],
+    "hashtags": [
+      "다낭CC",
+      "다낭골프",
+      "그렉노먼",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-danang-muongthanh-busan"
+    ]
+  },
+  {
+    "slug": "montgomerie-links-vietnam",
+    "name": "몽고메리 링크스",
+    "nameEn": "Montgomerie Links Vietnam",
+    "aliases": [
+      "몽고메리CC",
+      "몽고메리 골프클럽",
+      "몽고메리"
+    ],
+    "region": "다낭",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "콜린 몽고메리 설계 파72 18홀 링크스 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "개장",
+        "value": "2009년"
+      },
+      {
+        "label": "설계",
+        "value": "콜린 몽고메리"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 디엔반 (옛 꽝남성, 현 다낭시)"
+      }
+    ],
+    "description": "몽고메리 링크스는 콜린 몽고메리가 설계해 2009년 18홀을 연 파72 골프장으로, 다낭 남쪽 디엔반에 있습니다.\n\n마블 마운틴을 바라보는 링크스 스타일 코스로 베트남 최고 코스로 꼽혀 온 곳입니다.\n\n여행의파도 부산출발 다낭 상품에서 다낭CC·바나힐·빈펄CC와 함께 3곳 중 하나로 라운드합니다.",
+    "images": [
+      "/images/danang-muongthanh-busan/course-1.jpg",
+      "/images/danang-muongthanh-busan/course-2.jpg",
+      "/images/danang-muongthanh-busan/course-6.jpg"
+    ],
+    "hashtags": [
+      "몽고메리링크스",
+      "다낭골프",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-danang-muongthanh-busan"
+    ]
+  },
+  {
+    "slug": "ba-na-hills-golf-club",
+    "name": "바나힐CC",
+    "nameEn": "Ba Na Hills Golf Club",
+    "aliases": [
+      "바나힐 골프클럽",
+      "바나힐스CC",
+      "바나"
+    ],
+    "region": "다낭",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "루크 도널드 설계 파72 18홀, 바나산 기슭의 산악 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "개장",
+        "value": "2016년"
+      },
+      {
+        "label": "설계",
+        "value": "루크 도널드 (IMG)"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 다낭시 바나 (옛 호아방현)"
+      }
+    ],
+    "description": "바나힐CC는 루크 도널드가 IMG와 함께 설계해 2016년 문을 연 파72, 18홀 골프장으로 바나산 기슭에 있습니다.\n\n산맥에 둘러싸인 코스라 경치가 웅장하고, 언덕이 많아 난이도가 있는 편입니다.\n\n여행의파도 부산출발 다낭 상품에서 다낭CC·몽고메리·빈펄CC와 함께 3곳 중 하나로 라운드합니다.",
+    "images": [
+      "/images/danang-muongthanh-busan/course-1.jpg",
+      "/images/danang-muongthanh-busan/course-2.jpg",
+      "/images/danang-muongthanh-busan/course-6.jpg"
+    ],
+    "hashtags": [
+      "바나힐CC",
+      "다낭골프",
+      "루크도널드",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-danang-muongthanh-busan"
+    ]
+  },
+  {
+    "slug": "vinpearl-golf-nam-hoi-an",
+    "name": "빈펄 골프 남호이안",
+    "nameEn": "Vinpearl Golf Nam Hoi An",
+    "aliases": [
+      "빈펄CC",
+      "빈펄 남호이안"
+    ],
+    "region": "다낭",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "IMG 설계 파72 18홀, 해변 리조트 단지 안 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "개장",
+        "value": "2018년"
+      },
+      {
+        "label": "설계",
+        "value": "IMG Worldwide"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 탕빈 (옛 꽝남성, 현 다낭시)"
+      }
+    ],
+    "description": "빈펄 골프 남호이안은 2018년 문을 연 파72, 18홀 골프장으로 IMG Worldwide가 설계했습니다. 빈펄 리조트&골프 남호이안 단지 안에 있습니다.\n\n바닷가 리조트 단지와 이어진 코스라 해안 풍경 속에서 라운드할 수 있습니다.\n\n여행의파도 부산출발 다낭 상품에서 다낭CC·몽고메리·바나힐CC와 함께 3곳 중 하나로 라운드합니다.",
+    "images": [
+      "/images/danang-muongthanh-busan/course-3.jpg",
+      "/images/danang-muongthanh-busan/course-4.jpg",
+      "/images/danang-muongthanh-busan/course-5.jpg"
+    ],
+    "hashtags": [
+      "빈펄골프",
+      "남호이안골프",
+      "다낭골프",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-danang-muongthanh-busan"
+    ]
+  },
+  {
+    "slug": "phoenix-golf-resort-hanoi",
+    "name": "피닉스CC",
+    "nameEn": "Phoenix Golf Resort (Hanoi)",
+    "aliases": [
+      "하노이 피닉스",
+      "피닉스 골프리조트"
+    ],
+    "region": "하노이",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "석회암 산세 속 54홀, 2007 베트남 마스터스 개최 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "54홀 (챔피언·드래곤·피닉스 코스)"
+      },
+      {
+        "label": "대회",
+        "value": "2007년 하나은행 베트남 마스터스 개최"
+      },
+      {
+        "label": "코스 특징",
+        "value": "석회암 산세의 '육지의 하롱베이'"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 르엉선 (옛 호아빈성, 현 푸토성)"
+      }
+    ],
+    "description": "피닉스CC는 하노이 서쪽 르엉선에 있는 54홀 골프장으로, 챔피언·드래곤·피닉스 3개 코스로 이뤄져 있습니다.\n\n웅장한 석회암 산이 코스를 둘러싸 '육지의 하롱베이'로 불리며, 2007년 하나은행 베트남 마스터스가 열렸습니다.\n\n여행의파도 부산출발 하노이 상품에서는 3일 동안 챔피언·드래곤·피닉스 코스를 하루씩 18홀 칩니다.",
+    "images": [
+      "/images/hanoi-phoenix-busan/course-1.jpg",
+      "/images/hanoi-phoenix-busan/course-2.jpg",
+      "/images/hanoi-phoenix-busan/course-3.jpg",
+      "/images/hanoi-phoenix-busan/course-4.jpg",
+      "/images/hanoi-phoenix-busan/course-5.jpg"
+    ],
+    "hashtags": [
+      "피닉스CC",
+      "하노이골프",
+      "베트남마스터스",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-hanoi-phoenix-busan"
+    ]
+  },
+  {
+    "slug": "takamatsu-country-club",
+    "name": "다카마쓰CC",
+    "nameEn": "Takamatsu Country Club (高松カントリー倶楽部)",
+    "aliases": [
+      "다카마쓰 컨트리클럽",
+      "다카마츠CC"
+    ],
+    "region": "다카마쓰",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "1954년 개장, 시코쿠에서 가장 오래된 현존 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 / 6,320야드"
+      },
+      {
+        "label": "개장",
+        "value": "1954년"
+      },
+      {
+        "label": "설계",
+        "value": "마루모 노부카쓰 (丸毛信勝)"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가가와현 사카이데시"
+      }
+    ],
+    "description": "다카마쓰CC는 1954년 문을 연 파72, 18홀(6,320야드) 골프장으로, 지금 남아 있는 시코쿠 골프장 가운데 가장 오래됐습니다. 설계는 마루모 노부카쓰입니다.\n\n구릉 위 코스라 여러 홀에서 세토내해와 세토대교가 내려다보입니다.\n\n여행의파도 부산출발 다카마쓰 상품에서는 이 코스를 18홀씩 2회(36홀) 칩니다.",
+    "images": [
+      "/images/takamatsu-okura-busan/course-1.jpg",
+      "/images/takamatsu-okura-busan/course-2.jpg",
+      "/images/takamatsu-okura-busan/course-3.jpg",
+      "/images/takamatsu-okura-busan/course-4.jpg",
+      "/images/takamatsu-okura-busan/course-5.jpg"
+    ],
+    "hashtags": [
+      "다카마쓰CC",
+      "다카마쓰골프",
+      "시코쿠골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-takamatsu-okura-busan"
+    ]
+  },
+  {
+    "slug": "sakaide-country-club",
+    "name": "사카이데CC",
+    "nameEn": "Sakaide Country Club (坂出カントリークラブ)",
+    "aliases": [
+      "사카이데 컨트리클럽"
+    ],
+    "region": "다카마쓰",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "1993년 개장 파72 18홀, 빠른 벤트 그린의 구릉 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 / 6,728야드"
+      },
+      {
+        "label": "개장",
+        "value": "1993년"
+      },
+      {
+        "label": "설계",
+        "value": "가네코 야스조 · 오모토구미"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가가와현 사카이데시"
+      }
+    ],
+    "description": "사카이데CC는 1993년 문을 연 파72, 18홀(6,728야드) 골프장으로 가가와현 사카이데시에 있습니다.\n\n잘 관리된 빠른 벤트 그린과 전략적인 홀 배치가 특징입니다.\n\n여행의파도 부산출발 다카마쓰 3박4일 상품에서 마지막 날 18홀을 칩니다.",
+    "images": [
+      "/images/takamatsu-okura-busan/course-6.jpg",
+      "/images/takamatsu-okura-busan/course-2.jpg",
+      "/images/takamatsu-okura-busan/course-3.jpg"
+    ],
+    "hashtags": [
+      "사카이데CC",
+      "다카마쓰골프",
+      "시코쿠골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-takamatsu-okura-busan"
+    ]
   }
 ]
