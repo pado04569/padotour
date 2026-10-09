@@ -4,6 +4,7 @@ import { useState, useRef } from "react";
 import Image from "next/image";
 import { track } from "@/lib/analytics";
 import YellowArrow from "@/components/YellowArrow";
+import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint, todayKST } from "@/lib/inquiryForm";
 
 /**
  * 입력칸 공통 서식.
@@ -19,12 +20,15 @@ export default function ContactOptions({
   nights,
   days,
   minPeople,
+  dates,
 }: {
   tourTitle?: string;
   nights?: string | number;
   days?: string | number;
   /** 4인 이상 출발 상품이면 4 — 그보다 적은 인원은 "예약불가"로 막는다 */
   minPeople?: number;
+  /** 정해진 출발일이 있는 상품의 출발일 목록(YYYY-MM-DD). 있으면 그중에서 고르게 한다 — 없는 날짜 문의 방지 (2026-10-09) */
+  dates?: string[];
 }) {
   const [open, setOpen] = useState(false);
   const [showQr, setShowQr] = useState(false);
@@ -38,7 +42,11 @@ export default function ContactOptions({
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
 
-  const canSubmit = date !== "" && phone.trim() !== "" && agreed && !sending;
+  const today = todayKST();
+  const upcoming = (dates ?? []).filter((d) => d >= today).sort();
+  // "다른 날짜 문의" 를 고르면 달력 입력을 연다 — 출발일 밖 날짜도 상담은 받는다
+  const [otherDate, setOtherDate] = useState(upcoming.length === 0);
+  const canSubmit = date !== "" && isValidPhone(phone) && agreed && !sending;
 
   // 문의 영역 펼침 / 입력 시작은 각각 1회만 기록한다 (중복 전송 방지)
   const openedOnce = useRef(false);
@@ -144,13 +152,39 @@ export default function ContactOptions({
               <form onSubmit={handleSubmit} className="space-y-2.5">
                 <div>
                   <label className="text-xs text-gray-500 mb-1 block">출발 희망일</label>
-                  <input
-                    type="date"
-                    value={date}
-                    onChange={(e) => { markStart("date"); setDate(e.target.value); }}
-                    className={FIELD}
-                    required
-                  />
+                  {upcoming.length > 0 && (
+                    <div className="relative mb-2">
+                      <select
+                        value={otherDate ? "other" : date}
+                        onChange={(e) => {
+                          markStart("date");
+                          if (e.target.value === "other") { setOtherDate(true); setDate(""); }
+                          else { setOtherDate(false); setDate(e.target.value); }
+                        }}
+                        className={`${FIELD} appearance-none pr-9`}
+                        required
+                      >
+                        <option value="" disabled>출발일을 골라 주세요</option>
+                        {upcoming.map((d) => (
+                          <option key={d} value={d}>
+                            {Number(d.slice(5, 7))}월 {Number(d.slice(8, 10))}일 ({"일월화수목금토"[new Date(d + "T00:00:00").getDay()]})
+                          </option>
+                        ))}
+                        <option value="other">다른 날짜 문의</option>
+                      </select>
+                      <YellowArrow />
+                    </div>
+                  )}
+                  {otherDate && (
+                    <input
+                      type="date"
+                      value={date}
+                      min={today}
+                      onChange={(e) => { markStart("date"); setDate(e.target.value); }}
+                      className={FIELD}
+                      required
+                    />
+                  )}
                 </div>
                 {/* 인원수는 좁게(2), 휴대폰 번호는 넓게(3) — 번호가 잘리지 않게 */}
                 <div className="grid grid-cols-5 gap-2.5">
@@ -162,9 +196,9 @@ export default function ContactOptions({
                         onChange={(e) => { markStart("people"); setPeople(Number(e.target.value)); }}
                         className={`${FIELD} appearance-none pr-9`}
                       >
-                        {[2, 3, 4, 5, 6, 7, 8].map((n) => (
+                        {PEOPLE_OPTIONS.map((n) => (
                           <option key={n} value={n} disabled={minPeople != null && n < minPeople}>
-                            {n}명{minPeople != null && n < minPeople ? " · 예약불가" : ""}
+                            {PEOPLE_MAX_LABEL(n)}{minPeople != null && n < minPeople ? " · 예약불가" : ""}
                           </option>
                         ))}
                       </select>
@@ -181,6 +215,7 @@ export default function ContactOptions({
                       className={FIELD}
                       required
                     />
+                    {phoneHint(phone) && <p className="text-[11px] text-red-600 mt-1">{phoneHint(phone)}</p>}
                   </div>
                 </div>
                 {/* 개인정보 수집·이용 동의 — 전화번호를 받는 순간부터 필요하다 (사장님 요청 2026-09-28) */}

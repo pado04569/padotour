@@ -66,6 +66,11 @@ export function tourFaqs(tour: Tour): Faq[] {
     });
   }
 
+  // 일정·홀수 선택지 — "3박5일 54홀", "4박6일 72홀" … (같은 구성이 출발 요일별로 두 줄이면 한 번만)
+  const tierChoices = [...new Set((tour.holePriceTiers ?? []).map((t) =>
+    `${t.nights != null && t.days != null ? `${t.nights}박${t.days}일 ` : ""}${t.holes}홀`))];
+  const tierStays = [...new Set((tour.holePriceTiers ?? []).filter((t) => t.nights != null).map((t) => `${t.nights}박`))];
+
   // 4) 라운딩·골프장
   if (tour.roundsIncluded || tour.holes || tour.golfCourse) {
     // roundsIncluded·holes 가 "무제한" 같은 글자인 상품도 있다 — 숫자일 때만 "라운드"·"홀"을 붙인다
@@ -73,10 +78,12 @@ export function tourFaqs(tour: Tour): Faq[] {
     const holesRaw = tour.holes != null ? String(tour.holes).split("\n")[0].trim() : rounds ? `${tour.roundsIncluded * 18}` : "";
     const holes = /^\d+$/.test(holesRaw) ? `${holesRaw}홀` : holesRaw;
     // "18홀 x 3회"처럼 횟수가 이미 들어 있으면 "3라운드"를 또 붙이지 않는다
-    const play = rounds && !/라운|회/.test(holes) ? `${rounds} ${holes}` : holes || rounds;
+    let play = rounds && !/라운|회/.test(holes) ? `${rounds} ${holes}` : holes || rounds;
+    // 일정·홀수를 고르는 상품(holePriceTiers)은 선택지 전체로 답한다 — 한 가지만 쓰면 AI가 "이 상품은 3박5일 54홀"로 단정한다 (2026-10-09)
+    if (tierChoices.length > 1) play = `${tierChoices.join(" / ")} 중에서 고르실 수 있습니다`;
     faqs.push({
       q: "라운딩은 몇 홀이고, 어느 골프장에서 치나요?",
-      a: [play && `라운딩은 ${play.trim()}입니다.`, tour.golfCourse && `골프장은 ${tour.golfCourse}입니다.`].filter(Boolean).join(" "),
+      a: [play && (tierChoices.length > 1 ? `라운딩은 ${play.trim()}.` : `라운딩은 ${play.trim()}입니다.`), tour.golfCourse && `골프장은 ${tour.golfCourse}입니다.`].filter(Boolean).join(" "),
     });
   }
 
@@ -92,7 +99,10 @@ export function tourFaqs(tour: Tour): Faq[] {
 
   // 6) 숙소
   if (tour.hotel) {
-    faqs.push({ q: "숙소는 어디인가요?", a: String(tour.nights).includes("박") ? `${tour.hotel}에서 묵습니다 (${stayText(tour.nights, tour.days)}).` : `${tour.hotel}에서 ${tour.nights}박 합니다.` });
+    const a = tierStays.length > 1
+      ? `${tour.hotel}에서 묵습니다 (고르신 일정에 따라 ${tierStays.join("·")}).`
+      : String(tour.nights).includes("박") ? `${tour.hotel}에서 묵습니다 (${stayText(tour.nights, tour.days)}).` : `${tour.hotel}에서 ${tour.nights}박 합니다.`;
+    faqs.push({ q: "숙소는 어디인가요?", a });
   }
 
   // 7) 식사

@@ -83,7 +83,8 @@ export async function saveTour(formData: FormData) {
 
   if (isEdit) {
     const idx = tours.findIndex((t: { id: string }) => t.id === id);
-    tours[idx] = tour;
+    // 관리자 폼에 없는 필드(출발일·일정·호텔·사진·SEO 등)는 기존 값을 그대로 둔다 — 통째로 바꾸면 사라진다 (2026-10-09)
+    tours[idx] = { ...tours[idx], ...tour };
   } else {
     tours.push(tour);
   }

@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import { track } from "@/lib/analytics";
 import YellowArrow from "@/components/YellowArrow";
+import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint, todayKST } from "@/lib/inquiryForm";
 
 type PriceEntry = { date: string; price: number; nights?: number; days?: number };
 
@@ -127,7 +128,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!selected || !phone.trim() || !agreed) return;
+    if (!selected || !isValidPhone(phone) || !agreed) return;
     setSending(true);
     try {
       const res = await fetch("/api/inquiry", {
@@ -353,9 +354,9 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                         onChange={e => { markStart("people"); setPeople(e.target.value); }}
                         className="w-full appearance-none border border-gray-200 rounded-xl pl-3 pr-9 py-2.5 text-sm bg-white focus:outline-none focus:border-emerald-500"
                       >
-                        {[2,3,4,5,6,7,8,9,10,11,12].map(n => (
+                        {PEOPLE_OPTIONS.map(n => (
                           <option key={n} value={n} disabled={minPeople != null && n < minPeople}>
-                            {n}명{minPeople != null && n < minPeople ? " · 예약불가" : ""}
+                            {PEOPLE_MAX_LABEL(n)}{minPeople != null && n < minPeople ? " · 예약불가" : ""}
                           </option>
                         ))}
                       </select>
@@ -372,6 +373,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                       required
                       className="w-full border border-gray-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-emerald-500"
                     />
+                    {phoneHint(phone) && <p className="text-[11px] text-red-600 mt-1">{phoneHint(phone)}</p>}
                   </div>
                 </div>
                 {/* 개인정보 수집·이용 동의 — 서버가 동의 없이는 접수를 거절한다(2026-09-28부터). 이 폼에만 빠져 있어 접수가 전부 오류였다 */}
@@ -414,7 +416,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                   </button>
                   <button
                     type="submit"
-                    disabled={sending || !phone.trim() || !agreed}
+                    disabled={sending || !isValidPhone(phone) || !agreed}
                     className="flex-[2] bg-blue-600 hover:bg-blue-700 disabled:bg-gray-300 text-white font-black py-3 rounded-full text-sm transition-colors"
                   >
                     {sending ? "전송 중..." : "문의 접수하기"}

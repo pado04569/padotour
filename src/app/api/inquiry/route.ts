@@ -3,6 +3,7 @@ import { Resend } from "resend";
 import { SolapiMessageService } from "solapi";
 import { getRedis } from "@/lib/redis";
 import { stayText } from "@/lib/stay";
+import { isValidPhone } from "@/lib/inquiryForm";
 
 // 전화번호로 예약문의 내역을 조회할 수 있도록 저장한다 (사장님 요청 2026-09-23).
 // 전화번호 숫자만 남긴 값을 키로 써서 사람마다 리스트로 쌓는다. Redis 연결이 없으면 조용히 건너뛴다.
@@ -22,6 +23,8 @@ async function saveInquiry(record: {
   try {
     await redis.lpush(key, entry);
     await redis.ltrim(key, 0, 49); // 사람당 최근 50건만 보관
+    // 문의 폼 개인정보 안내 "문의 처리 완료 후 1년" 과 맞춘다 — 마지막 문의 후 1년이 지나면 내역이 지워진다 (2026-10-09)
+    await redis.expire(key, 365 * 24 * 3600);
   } catch (e) {
     console.error("Redis save error:", e);
   }
@@ -174,6 +177,10 @@ export async function POST(req: NextRequest) {
 
   if (!phone || !people || !departureDate) {
     return NextResponse.json({ error: "필수 항목 누락" }, { status: 400 });
+  }
+  // 연락할 수 없는 번호는 접수하지 않는다 — 오타 번호로 "접수 완료"가 뜨면 손님도 우리도 모른 채 문의가 사라진다 (2026-10-09)
+  if (!isValidPhone(String(phone))) {
+    return NextResponse.json({ error: "휴대폰 번호를 확인해 주세요" }, { status: 400 });
   }
   // 개인정보 수집·이용 동의 없이는 접수하지 않는다 (분쟁 대비, 사장님 요청 2026-09-28)
   if (!agreedPrivacy) {

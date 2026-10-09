@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { track } from "@/lib/analytics";
 import YellowArrow from "@/components/YellowArrow";
+import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint, todayKST } from "@/lib/inquiryForm";
 
 const FIELD =
   "w-full h-11 border border-gray-300 rounded-lg px-3 text-sm bg-white text-gray-800 " +
@@ -61,7 +62,7 @@ export default function HolePriceTierSelector({
       : [];
   const chosenDate = byNights ? date : departureDate;
 
-  const canSubmit = phone.trim() !== "" && agreed && !sending && chosenDate !== "";
+  const canSubmit = isValidPhone(phone) && agreed && !sending && chosenDate !== "";
 
   function pick(tier: Tier) {
     const next = selected && tierName(selected) === tierName(tier) ? null : tier;
@@ -197,8 +198,8 @@ export default function HolePriceTierSelector({
                       onChange={(e) => setPeople(Number(e.target.value))}
                       className={`${FIELD} appearance-none pr-7`}
                     >
-                      {[2, 3, 4, 5, 6, 7, 8].map((n) => (
-                        <option key={n} value={n}>{n}명</option>
+                      {PEOPLE_OPTIONS.map((n) => (
+                        <option key={n} value={n}>{PEOPLE_MAX_LABEL(n)}</option>
                       ))}
                     </select>
                     <YellowArrow />
@@ -214,6 +215,7 @@ export default function HolePriceTierSelector({
                     className={FIELD}
                     required
                   />
+                  {phoneHint(phone) && <p className="text-[11px] text-red-600 mt-1">{phoneHint(phone)}</p>}
                 </div>
               </div>
 

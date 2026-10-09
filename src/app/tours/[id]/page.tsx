@@ -44,7 +44,14 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
   // 박수별 요금 상품(요금 단계에 nights가 있음) — 일정 칸·일정 제목을 "3박4일 · 4박5일 · 5박6일"로
   const nightTiers = (tour.holePriceTiers ?? []).filter((t) => t.nights != null && t.days != null);
-  const tierNightsText = nightTiers.length > 0 ? nightTiers.map((t) => `${t.nights}박${t.days}일`).join(" · ") : undefined;
+  // 같은 박수가 출발 요일별로 두 줄인 상품(사이판 3박5일 월/목·금)은 "3박5일 · 3박5일"로 겹쳐 보였다 → 한 번만 (2026-10-09)
+  const tierNightsText = nightTiers.length > 0 ? [...new Set(nightTiers.map((t) => `${t.nights}박${t.days}일`))].join(" · ") : undefined;
+  // 문의 폼에서 고를 수 있는 실제 출발일 — 달력 출발일 + 일정 선택형의 출발일 (없으면 자유 입력)
+  const inquiryDates = [...new Set([
+    ...(tour.departurePrices ?? []).map((d) => d.date),
+    ...(tour.holePriceTiers ?? []).flatMap((t) => (t as { dates?: string[] }).dates ?? []),
+    ...(tour.holePriceDepartureDate ? [tour.holePriceDepartureDate] : []),
+  ])];
   const tierNightsRange =
     nightTiers.length > 1
       ? `${nightTiers[0].nights}박${nightTiers[0].days}일 ~ ${nightTiers[nightTiers.length - 1].nights}박${nightTiers[nightTiers.length - 1].days}일`
@@ -493,7 +500,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         <div id="inquiry" className="bg-blue-50 border border-blue-200 rounded-2xl p-6 md:p-8 text-blue-700 mb-8 scroll-mt-4">
           <h3 className="text-xl font-black mb-1">예약 문의 · 맞춤 견적</h3>
           <p className="text-blue-600 text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
-          <ContactOptions tourTitle={tour.title} nights={tour.nights} days={tour.days} minPeople={strictMinPeople} />
+          <ContactOptions tourTitle={tour.title} nights={tour.nights} days={tour.days} minPeople={strictMinPeople} dates={inquiryDates} />
 
           {/* 같이 갈 일행에게 보내는 경로 — 골프여행은 대개 여럿이 간다 */}
           <div className="mt-6">
