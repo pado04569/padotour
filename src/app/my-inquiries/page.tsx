@@ -15,29 +15,47 @@ type InquiryItem = {
 
 export default function MyInquiriesPage() {
   const [phone, setPhone] = useState("");
+  const [code, setCode] = useState("");
+  const [codeSent, setCodeSent] = useState(false);
+  const [notice, setNotice] = useState<string | null>(null);
   const [items, setItems] = useState<InquiryItem[] | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    if (!phone.trim()) return;
+  // 문자 인증번호를 확인한 뒤에만 내역을 보여준다 (2026-10-09 — 전화번호만으로 남의 문의가 보이던 문제)
+  async function call(payload: { phone: string; code?: string }) {
     setLoading(true);
     setError(null);
-    setItems(null);
     try {
-      const res = await fetch(`/api/inquiry/lookup?phone=${encodeURIComponent(phone.trim())}`);
+      const res = await fetch("/api/inquiry/lookup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
       const data = await res.json();
-      if (!res.ok) {
-        setError(data.error ?? "조회에 실패했습니다");
-        return;
-      }
-      setItems(data.items);
+      if (!res.ok) { setError(data.error ?? "처리에 실패했습니다"); return null; }
+      return data;
     } catch {
-      setError("조회 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.");
+      setError("처리 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.");
+      return null;
     } finally {
       setLoading(false);
     }
+  }
+
+  async function requestCode(e: React.FormEvent) {
+    e.preventDefault();
+    if (!phone.trim()) return;
+    setItems(null);
+    const data = await call({ phone: phone.trim() });
+    if (data) { setCodeSent(true); setNotice(data.message); }
+  }
+
+  async function verify(e: React.FormEvent) {
+    e.preventDefault();
+    if (!code.trim()) return;
+    const data = await call({ phone: phone.trim(), code: code.trim() });
+    if (data) { setItems(data.items); setNotice(null); }
   }
 
   return (
@@ -50,22 +68,48 @@ export default function MyInquiriesPage() {
       </section>
 
       <section className="max-w-2xl mx-auto px-4 py-10 md:py-12">
-        <form onSubmit={handleSubmit} className="flex gap-2 mb-8">
+        <form onSubmit={requestCode} className="flex gap-2 mb-3">
           <input
             type="tel"
             value={phone}
-            onChange={(e) => setPhone(e.target.value)}
+            onChange={(e) => { setPhone(e.target.value); setCodeSent(false); setItems(null); }}
             placeholder="010-0000-0000"
+            aria-label="문의하신 휴대폰 번호"
             className="flex-1 border-2 border-gray-200 focus:border-emerald-500 rounded-lg px-4 py-3 text-sm outline-none"
           />
           <button
             type="submit"
             disabled={loading}
-            className="bg-emerald-500 hover:bg-emerald-600 disabled:opacity-50 text-white font-bold px-6 py-3 rounded-lg text-sm transition-colors whitespace-nowrap"
+            className="bg-emerald-500 hover:bg-emerald-600 disabled:opacity-50 text-white font-bold px-5 py-3 rounded-lg text-sm transition-colors whitespace-nowrap"
           >
-            {loading ? "조회 중…" : "조회하기"}
+            {codeSent ? "다시 받기" : "인증번호 받기"}
           </button>
         </form>
+
+        {codeSent && (
+          <form onSubmit={verify} className="flex gap-2 mb-3">
+            <input
+              type="text"
+              inputMode="numeric"
+              autoComplete="one-time-code"
+              maxLength={6}
+              value={code}
+              onChange={(e) => setCode(e.target.value)}
+              placeholder="문자로 받은 인증번호 6자리"
+              aria-label="인증번호"
+              className="flex-1 border-2 border-gray-200 focus:border-emerald-500 rounded-lg px-4 py-3 text-sm outline-none"
+            />
+            <button
+              type="submit"
+              disabled={loading}
+              className="bg-emerald-600 hover:bg-emerald-700 disabled:opacity-50 text-white font-bold px-6 py-3 rounded-lg text-sm transition-colors whitespace-nowrap"
+            >
+              {loading ? "확인 중…" : "조회하기"}
+            </button>
+          </form>
+        )}
+        {notice && <p className="text-emerald-700 text-xs md:text-sm mb-6">{notice}</p>}
+        {!codeSent && <p className="text-gray-400 text-xs mb-6">개인정보 보호를 위해, 문의하신 휴대폰으로 받은 인증번호를 확인한 뒤 내역을 보여드려요.</p>}
 
         {/* 문의 후 연락 흐름 안내 — 사장님 요청 2026-09-23, 더 친절한 문구로 */}
         <div className="bg-emerald-50 border border-emerald-100 rounded-xl px-4 py-3.5 mb-8 text-xs md:text-sm text-gray-600 leading-relaxed space-y-1">
