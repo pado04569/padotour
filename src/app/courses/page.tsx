@@ -4,6 +4,8 @@ import { courses } from "@/data/courses";
 import type { Metadata } from "next";
 import { IconChevron } from "@/components/icons/Chevron";
 import { buildCourseGroups, matchesRegion } from "@/lib/courseGroups";
+import { REGION_MAPS } from "@/lib/regionMaps";
+import CourseRegionMap from "@/components/CourseRegionMap";
 
 const SITE_URL = "https://www.padotour.com";
 
@@ -32,9 +34,9 @@ function groupByCountry(list: typeof courses) {
 export default async function CoursesPage({
   searchParams,
 }: {
-  searchParams: Promise<{ country?: string; region?: string }>;
+  searchParams: Promise<{ country?: string; region?: string; map?: string }>;
 }) {
-  const { country, region } = await searchParams;
+  const { country, region, map: mapParam } = await searchParams;
 
   // country 는 "guam,saipan" 처럼 여러 나라일 수 있다 (나라별 묶음 '괌·사이판'·'기타')
   const codes = country ? country.split(",") : [];
@@ -50,6 +52,7 @@ export default async function CoursesPage({
   const filterLabel = filtered[0]
     ? [currentGroup?.label ?? filtered[0].country, region].filter(Boolean).join(" ")
     : null;
+  const regionMap = currentGroup ? REGION_MAPS[currentGroup.key] : undefined;
   const chip = "inline-flex items-center min-h-11 px-3.5 rounded-full text-[15px] font-semibold transition-colors";
 
   return (
@@ -112,10 +115,13 @@ export default async function CoursesPage({
 
       {/* 나라를 고른 상태 — 그 나라의 지역 버튼으로 바로 좁힌다 */}
       {currentGroup && currentGroup.regions.length > 1 && (
-        <nav aria-label="지역 선택" className="max-w-6xl mx-auto px-4 pt-6">
-          <div className="flex flex-wrap gap-2">
+        <nav
+          aria-label="지역 선택"
+          className={`max-w-6xl mx-auto px-4 pt-6 ${regionMap ? "md:grid md:grid-cols-[minmax(0,440px)_1fr] md:gap-6 md:items-start" : ""}`}
+        >
+          <div className="flex flex-wrap gap-2 content-start">
             <Link
-              href={currentGroup.href}
+              href={`${currentGroup.href}${mapParam === "1" ? "&map=1" : ""}`}
               className={`${chip} ${!region ? "bg-emerald-600 text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
             >
               {currentGroup.label} 전체
@@ -123,7 +129,7 @@ export default async function CoursesPage({
             {currentGroup.regions.map((r) => (
               <Link
                 key={r.value}
-                href={`${currentGroup.href}&region=${encodeURIComponent(r.value)}`}
+                href={`${currentGroup.href}&region=${encodeURIComponent(r.value)}${mapParam === "1" ? "&map=1" : ""}`}
                 aria-current={region === r.value ? "page" : undefined}
                 className={`${chip} ${region === r.value ? "bg-emerald-600 text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
               >
@@ -131,6 +137,18 @@ export default async function CoursesPage({
               </Link>
             ))}
           </div>
+          {/* 지역 위치 보조 지도 — PC는 버튼 왼쪽, 휴대폰은 버튼 아래 접힘 */}
+          {regionMap && (
+            <div className="md:order-first">
+              <CourseRegionMap
+                map={regionMap}
+                regions={currentGroup.regions.map((r) => r.value)}
+                selected={region}
+                hrefFor={(r) => `${currentGroup.href}&region=${encodeURIComponent(r)}&map=1`}
+                openOnMobile={mapParam === "1"}
+              />
+            </div>
+          )}
         </nav>
       )}
 
@@ -142,9 +160,8 @@ export default async function CoursesPage({
           <div key={country} className="mb-10 md:mb-14 last:mb-0">
             <div className="flex flex-wrap items-baseline gap-x-2 mb-4 md:mb-6">
               <h2 className="text-lg md:text-xl font-black text-gray-800">{country}골프장</h2>
-              <p className="text-gray-500 text-base md:text-lg font-bold">
-                {[...new Set(list.map((c) => c.region))].join(" · ")} 총 {list.length}곳
-              </p>
+              {/* 지역 이름을 길게 늘어놓던 문장은 뺐다 — 지역은 위 버튼·지도로 (사장님 지적 2026-10-09) */}
+              <p className="text-gray-500 text-base md:text-lg font-bold">총 {list.length}곳</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
