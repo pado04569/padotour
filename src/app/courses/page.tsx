@@ -117,7 +117,7 @@ export default async function CoursesPage({
       {currentGroup && currentGroup.regions.length > 1 && (
         <nav
           aria-label="지역 선택"
-          className={`max-w-6xl mx-auto px-4 pt-6 ${regionMap ? "md:grid md:grid-cols-[minmax(0,440px)_1fr] md:gap-6 md:items-start" : ""}`}
+          className={`max-w-6xl mx-auto px-4 pt-6 ${regionMap ? "flex flex-col md:grid md:grid-cols-[minmax(0,440px)_1fr] md:gap-6 md:items-start" : ""}`}
         >
           <div className="flex flex-wrap gap-2 content-start">
             <Link
@@ -137,9 +137,9 @@ export default async function CoursesPage({
               </Link>
             ))}
           </div>
-          {/* 지역 위치 보조 지도 — PC는 버튼 왼쪽, 휴대폰은 버튼 아래 접힘 */}
+          {/* 지역 위치 보조 지도 — PC는 버튼 왼쪽, 휴대폰은 버튼 위에 접힘 */}
           {regionMap && (
-            <div className="md:order-first">
+            <div className="order-first">
               <CourseRegionMap
                 map={regionMap}
                 regions={currentGroup.regions.map((r) => r.value)}

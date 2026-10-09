@@ -83,6 +83,21 @@ function MapSvg({ map, regions, selected, hrefFor, idSuffix }: { map: CountryMap
   );
 }
 
+// 접힌 버튼 안의 작은 지도 그림 — 무엇을 여는 버튼인지 한눈에 (글자·링크 없이 윤곽과 점만)
+function MapThumb({ map, regions, selected }: { map: CountryMap; regions: string[]; selected?: string }) {
+  return (
+    <svg viewBox={`0 0 ${map.width} ${map.height}`} preserveAspectRatio="xMidYMid slice" aria-hidden="true" className="w-full h-full block">
+      <rect width={map.width} height={map.height} fill="#F1F5F9" />
+      {Object.entries(map.areas).filter(([, a]) => !a.inset && !a.context).map(([k, a]) => (
+        <path key={k} d={a.d} fill="#D7E9DF" stroke="#9FC3B0" strokeWidth={3} strokeLinejoin="round" />
+      ))}
+      {Object.entries(map.regions).filter(([n, r]) => regions.includes(n) && !map.areas[r.area]?.inset).map(([n, r]) => (
+        <circle key={n} cx={r.x} cy={r.y} r={n === selected ? 16 : 9} fill={n === selected ? "#059669" : "#64748B"} stroke="#fff" strokeWidth={4} />
+      ))}
+    </svg>
+  );
+}
+
 export default function CourseRegionMap({ openOnMobile, ...props }: { map: CountryMap; regions: string[]; selected?: string; hrefFor: (r: string) => string; openOnMobile?: boolean }) {
   // 안내는 두 줄로, 조금 크게 (사장님 요청 10/9)
   const caption = (
@@ -106,15 +121,19 @@ export default function CourseRegionMap({ openOnMobile, ...props }: { map: Count
   return (
     <>
       {/* 휴대폰: 기본 접힘 — 지도에서 지역을 고르고 온 경우(map=1)만 펼친 채로 */}
-      <details className="md:hidden group mt-3" open={openOnMobile}>
-        <summary className="list-none flex items-center justify-between min-h-12 px-4 rounded-xl border border-gray-300 bg-white text-base font-bold text-emerald-800 cursor-pointer [&::-webkit-details-marker]:hidden">
-          <span className="inline-flex items-center gap-2">
-            <svg aria-hidden="true" viewBox="0 0 24 24" className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
-              <path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6 9 4z" /><path d="M9 4v14M15 6v14" />
-            </svg>
-            {props.map.title} 지역 위치 보기
+      {/* 휴대폰: 기본 접힘. 지역 버튼들 위에 두어 묻히지 않게, 흰 바탕 + 초록 테두리 + 작은 지도 그림 (사장님 선택 T2, 2026-10-09)
+          지도에서 지역을 고르고 온 경우(map=1)만 펼친 채로 */}
+      <details className="md:hidden group mb-3" open={openOnMobile}>
+        <summary className="list-none flex items-center gap-3 min-h-[72px] px-3 py-2.5 rounded-2xl border-2 border-emerald-500 bg-white cursor-pointer [&::-webkit-details-marker]:hidden">
+          <span className="flex-none w-16 h-12 rounded-lg overflow-hidden border border-emerald-200">
+            <MapThumb map={props.map} regions={props.regions} selected={props.selected} />
           </span>
-          <svg aria-hidden="true" viewBox="0 0 24 24" className="w-5 h-5 transition-transform group-open:-rotate-180" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
+          <span className="flex-1 min-w-0">
+            <span className="block text-[17px] font-extrabold text-emerald-800 leading-snug">{props.map.title} 지역 위치 보기</span>
+            <span className="block text-sm text-emerald-700 mt-0.5 group-open:hidden">누르면 위치 지도가 열려요</span>
+            <span className="hidden text-sm text-emerald-700 mt-0.5 group-open:block">다시 누르면 지도가 닫혀요</span>
+          </span>
+          <svg aria-hidden="true" viewBox="0 0 24 24" className="flex-none w-6 h-6 text-emerald-700 transition-transform group-open:-rotate-180" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
             <path d="M5.5 9 12 15.5 18.5 9" />
           </svg>
         </summary>
