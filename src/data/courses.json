@@ -5319,5 +5319,158 @@
     "relatedTourIds": [
       "japan-takamatsu-okura-busan"
     ]
+  },
+  {
+    "slug": "chiangmai-highlands-golf",
+    "name": "하이랜드CC",
+    "nameEn": "Chiang Mai Highlands Golf & Spa Resort",
+    "aliases": [
+      "하이랜드 골프클럽",
+      "치앙마이 하이랜드"
+    ],
+    "region": "치앙마이",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "슈미트-컬리 설계 27홀, 매온 산기슭의 명문 골프 리조트",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 / 7,227야드 (18홀 블랙티 기준)"
+      },
+      {
+        "label": "개장",
+        "value": "2005년"
+      },
+      {
+        "label": "설계",
+        "value": "슈미트-컬리 (Schmidt-Curley)"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 치앙마이 매온"
+      }
+    ],
+    "description": "하이랜드CC(치앙마이 하이랜드 골프&스파 리조트)는 슈미트-컬리가 설계해 2005년 문을 연 27홀 골프장으로, 치앙마이 동쪽 매온의 산기슭에 있습니다.\n\n산비탈과 계곡을 따라 홀이 이어져 열대 산악 경치가 좋고, 스파 리조트가 함께 있습니다.\n\n여행의파도 부산출발 치앙마이 풀빌라 상품에서 알파인·그린밸리CC와 함께 3곳 중 하루 18홀씩 칩니다.",
+    "images": [
+      "/images/chiangmai-poolvilla-busan/course-1.jpg",
+      "/images/chiangmai-poolvilla-busan/course-2.jpg",
+      "/images/chiangmai-poolvilla-busan/course-3.jpg",
+      "/images/chiangmai-poolvilla-busan/course-4.jpg",
+      "/images/chiangmai-poolvilla-busan/course-5.jpg"
+    ],
+    "hashtags": [
+      "하이랜드CC",
+      "치앙마이골프",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-chiangmai-poolvilla-busan"
+    ]
+  },
+  {
+    "slug": "alpine-golf-resort-chiangmai",
+    "name": "알파인CC",
+    "nameEn": "Alpine Golf Resort Chiangmai",
+    "aliases": [
+      "알파인 골프 리조트",
+      "알파인 골프클럽"
+    ],
+    "region": "치앙마이",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "론 갈 설계 27홀, 아시안투어 치앙마이 골프 클래식 개최 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (A·B·C 코스)"
+      },
+      {
+        "label": "파",
+        "value": "파72 (18홀 기준)"
+      },
+      {
+        "label": "설계",
+        "value": "론 갈 (Ron M. Garl)"
+      },
+      {
+        "label": "대회",
+        "value": "2013·2014 아시안투어 치앙마이 골프 클래식"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 람푼주 반티 (치앙마이 근교)"
+      }
+    ],
+    "description": "알파인CC(알파인 골프 리조트 치앙마이)는 론 갈이 설계한 27홀 골프장으로, A·B·C 세 코스를 조합해 칩니다. 치앙마이 시내에서 동쪽으로 가까운 람푼주 반티에 있습니다.\n\n2013년과 2014년 아시안투어 치앙마이 골프 클래식이 열린 코스로, 산을 배경으로 고저 차이가 있는 홀이 이어집니다.\n\n여행의파도 부산출발 치앙마이 풀빌라 상품에서 하이랜드·그린밸리CC와 함께 3곳 중 하루 18홀씩 칩니다.",
+    "images": [
+      "/images/chiangmai-poolvilla-busan/course-3.jpg",
+      "/images/chiangmai-poolvilla-busan/course-4.jpg",
+      "/images/chiangmai-poolvilla-busan/course-5.jpg",
+      "/images/chiangmai-poolvilla-busan/course-6.jpg",
+      "/images/chiangmai-poolvilla-busan/course-1.jpg"
+    ],
+    "hashtags": [
+      "알파인CC",
+      "치앙마이골프",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-chiangmai-poolvilla-busan"
+    ]
+  },
+  {
+    "slug": "summit-green-valley-chiangmai",
+    "name": "그린밸리CC",
+    "nameEn": "Summit Green Valley Chiangmai Country Club",
+    "aliases": [
+      "서밋 그린밸리",
+      "그린밸리 컨트리클럽"
+    ],
+    "region": "치앙마이",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "1990년 개장 파72 18홀, 매림의 호수 많은 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 / 7,202야드 (백티)"
+      },
+      {
+        "label": "개장",
+        "value": "1990년"
+      },
+      {
+        "label": "설계",
+        "value": "데니스 그리피스 (Denis Griffiths)"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 치앙마이 매림"
+      }
+    ],
+    "description": "그린밸리CC(서밋 그린밸리 치앙마이 컨트리클럽)는 데니스 그리피스가 설계해 1990년 문을 연 파72, 18홀(7,202야드) 골프장으로 치앙마이 북쪽 매림에 있습니다.\n\n산맥을 배경으로 거의 모든 홀에 호수나 연못이 있어 정확한 공략이 필요하고, '치앙마이 코스의 여왕'으로 불립니다.\n\n여행의파도 부산출발 치앙마이 풀빌라 상품에서 하이랜드·알파인CC와 함께 3곳 중 하루 18홀씩 칩니다.",
+    "images": [
+      "/images/chiangmai-poolvilla-busan/course-2.jpg",
+      "/images/chiangmai-poolvilla-busan/course-1.jpg",
+      "/images/chiangmai-poolvilla-busan/course-3.jpg",
+      "/images/chiangmai-poolvilla-busan/course-6.jpg",
+      "/images/chiangmai-poolvilla-busan/course-5.jpg"
+    ],
+    "hashtags": [
+      "그린밸리CC",
+      "치앙마이골프",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-chiangmai-poolvilla-busan"
+    ]
   }
 ]

@@ -45268,5 +45268,584 @@
     ],
     "price": "849,000원~",
     "title": "[부산출발] 일본 다카마쓰 골프여행 다카마쓰CC·사카이데CC 2박3일·3박4일 2인출발 849,000원부터"
+  },
+  {
+    "id": "thailand-chiangmai-poolvilla-busan",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "치앙마이",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-10-09",
+    "title": "[부산출발] 태국 치앙마이 골프여행 시그니처 풀빌라 하이랜드·알파인·그린밸리 3박5일 54홀 1,489,000원부터",
+    "subtitle": "4베드룸 독채 프라이빗 풀빌라 · 하이랜드·알파인·그린밸리CC 54홀 · 차량+가이드 · 노쇼핑 · 에어부산 직항",
+    "nights": "3박5일·4박6일",
+    "days": "5일~6일",
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)",
+    "minPeople": "4인 이상 (4베드룸 독채 풀빌라)",
+    "period": "2026년 11월 11일 ~ 2027년 2월 26일",
+    "hotel": "뉴모던 럭셔리 풀빌라 (A9 에어포트 풀빌라 또는 동급, 4베드룸 독채)",
+    "hotelDesc": "공항 가까이에 있는 4베드룸 독채 풀빌라를 일행끼리 단독으로 씁니다. 개별 수영장과 넓은 거실, 주방, 당구대가 있어 라운드 후 일행끼리 편하게 쉬기 좋습니다. 조식은 간편 도시락으로 제공됩니다.",
+    "golfCourse": "하이랜드CC · 알파인CC · 그린밸리CC 중 3회",
+    "golfCourseDesc": "치앙마이 동쪽 산기슭의 하이랜드 골프&스파 리조트, 아시안투어 대회가 열린 알파인 골프 리조트, '치앙마이 코스의 여왕'으로 불리는 서밋 그린밸리CC 중에서 하루 18홀씩 3회 라운드합니다. 골프장까지는 전용 차량으로 약 40분입니다.",
+    "productSummary": "에어부산 직항으로 치앙마이에 가서 4베드룸 독채 풀빌라에 머물며 명문 골프장 3곳을 라운딩하는 상품입니다.\n차량과 가이드가 포함되고 쇼핑 일정이 없어, 친구·동호회 4인 이상 골프여행에 잘 맞습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 치앙마이",
+        "desc": "김해국제공항 출발(에어부산 BX537 19:00) → 치앙마이 국제공항 도착(22:40) → 가이드 미팅 후 풀빌라 이동 → 체크인 및 휴식 [숙소: 뉴모던 럭셔리 풀빌라]"
+      },
+      {
+        "day": "2일차",
+        "label": "18홀 + 도이수텝",
+        "desc": "조식(도시락) 후 골프장 이동(약 40분) → 하이랜드·알파인·그린밸리 중 18홀 라운드 → 도이수텝 황금사원 관광 → 풀빌라 휴식"
+      },
+      {
+        "day": "3일차",
+        "label": "18홀 + 나이트 시티투어",
+        "desc": "조식(도시락) 후 하이랜드·알파인·그린밸리 중 18홀 라운드 → 현지 과일·커피 체험, 올드타운·나이트바자 시티투어 → 풀빌라 휴식"
+      },
+      {
+        "day": "4일차 (4박은 5일차)",
+        "label": "18홀 + 마사지 → 공항",
+        "desc": "조식 후 체크아웃 → 하이랜드·알파인·그린밸리 중 18홀 라운드 → 타이 마사지 2시간(팁 별도) · 마야몰 쇼핑 → 공항 이동 (4박6일은 하루 자유일정 추가)"
+      },
+      {
+        "day": "5일차 (4박은 6일차)",
+        "label": "치앙마이 → 부산",
+        "desc": "치앙마이 국제공항 출발(BX538 23:40) → 김해국제공항 도착(07:00)"
+      }
+    ],
+    "highlights": [
+      "4베드룸 독채 프라이빗 풀빌라 숙박",
+      "하이랜드·알파인·그린밸리CC 중 54홀",
+      "도이수텝·나이트바자 시티투어, 타이 마사지 2시간",
+      "차량+가이드 포함 · 노쇼핑",
+      "3박5일 / 4박6일(1일 자유일정) · 4인 이상 출발"
+    ],
+    "includes": [
+      "왕복 항공료, 유류할증료, TAX (에어부산)",
+      "프라이빗 풀빌라 숙박",
+      "조식 (간편 도시락)",
+      "18홀 x 3회 그린피",
+      "전용 차량 + 가이드",
+      "여행자보험"
+    ],
+    "excludes": [
+      "기사·가이드 경비 (1인 $50)",
+      "캐디피 (18홀 1인 400바트)",
+      "카트비 (18홀 1인 800바트)",
+      "캐디팁 (18홀 1인 400바트)",
+      "싱글카트 (18홀 1인 $25)",
+      "중식·석식, 마사지팁, 개인경비"
+    ],
+    "cancelPolicy": [
+      "10월 발권 조건 요금이며, 11/15·18·19·22·28·29 특가는 10/16 이전 발권 조건입니다.",
+      "출발 요일에 따라 3박5일(수·목·토·일·화)과 4박6일(금, 11월 토·일) 요금이 다르니 달력에서 확인해 주세요.",
+      "숙소·골프장·티업 시간은 지정할 수 없고 상황에 따라 동급으로 바뀔 수 있습니다.",
+      "라운드를 하지 않아도 카트비·캐디피는 현장에서 내야 하며, 포함된 일정을 하지 않아도 환불되지 않습니다.",
+      "출발 22일 전부터 취소하면 현지 비용 100%가 위약금으로 발생합니다."
+    ],
+    "price": "1,489,000원~",
+    "image": "/images/chiangmai-poolvilla-busan/course-1.jpg",
+    "images": [
+      "/images/chiangmai-poolvilla-busan/course-1.jpg",
+      "/images/chiangmai-poolvilla-busan/course-2.jpg",
+      "/images/chiangmai-poolvilla-busan/hotel-1.jpg",
+      "/images/chiangmai-poolvilla-busan/course-3.jpg",
+      "/images/chiangmai-poolvilla-busan/hotel-2.jpg",
+      "/images/chiangmai-poolvilla-busan/course-4.jpg"
+    ],
+    "courseImages": [
+      "/images/chiangmai-poolvilla-busan/course-1.jpg",
+      "/images/chiangmai-poolvilla-busan/course-2.jpg",
+      "/images/chiangmai-poolvilla-busan/course-3.jpg",
+      "/images/chiangmai-poolvilla-busan/course-4.jpg",
+      "/images/chiangmai-poolvilla-busan/course-5.jpg",
+      "/images/chiangmai-poolvilla-busan/course-6.jpg"
+    ],
+    "hotelImages": [
+      "/images/chiangmai-poolvilla-busan/hotel-1.jpg",
+      "/images/chiangmai-poolvilla-busan/hotel-2.jpg",
+      "/images/chiangmai-poolvilla-busan/hotel-3.jpg",
+      "/images/chiangmai-poolvilla-busan/hotel-4.jpg",
+      "/images/chiangmai-poolvilla-busan/hotel-5.jpg",
+      "/images/chiangmai-poolvilla-busan/hotel-6.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-11",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-12",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-14",
+        "price": 1589000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2026-11-15",
+        "price": 1609000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1489000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-19",
+        "price": 1489000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-21",
+        "price": 1589000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1509000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2026-11-25",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-26",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1509000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2026-11-29",
+        "price": 1509000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1589000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1589000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1589000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1589000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1659000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1659000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1759000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-29",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1659000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-31",
+        "price": 1749000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-01",
+        "price": 1749000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1749000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1749000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1749000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1749000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1749000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1749000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1549000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1549000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1549000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1699000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1699000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1709000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1859000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-05",
+        "price": 2299000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-06",
+        "price": 2069000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-07",
+        "price": 1799000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-09",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1659000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1659000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1689000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1629000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1749000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1749000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1649000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1749000,
+        "nights": 3,
+        "days": 5
+      }
+    ],
+    "seoIntro": "부산 출발 치앙마이 골프여행으로, 4베드룸 독채 풀빌라에 머물며 하이랜드·알파인·그린밸리CC 중 3회 54홀을 치는 에어부산 직항 3박5일·4박6일 상품입니다.",
+    "seoKeywords": [
+      "치앙마이골프",
+      "치앙마이풀빌라",
+      "하이랜드CC",
+      "알파인CC",
+      "태국골프여행",
+      "부산출발"
+    ]
   }
 ]
