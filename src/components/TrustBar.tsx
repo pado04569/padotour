@@ -77,8 +77,12 @@ export default function TrustBar({ departure }: { departure?: Dep }) {
           {departure ? (
             // Codex 검수(10/9): "부산출발로 변경"은 부산이 목적지인지 헷갈린다 → "출발지 인천" + "부산 출발 상품 보기"로 나눈다
             <span className="inline-flex items-center gap-3 text-[15px] text-gray-600 whitespace-nowrap">
-              <span>
-                출발지 <b className="text-gray-900 font-semibold">{DEP_LABEL[departure]}</b>
+              {/* 지금 상태임이 보이게 '인천'만 연한 파랑 알약 (사장님 선택 P1, 2026-10-09) */}
+              <span className="inline-flex items-center gap-2">
+                출발지
+                <b className="inline-flex items-center px-2.5 py-0.5 rounded-full bg-blue-50 border border-blue-200 text-blue-900 font-bold">
+                  {DEP_LABEL[departure]}
+                </b>
               </span>
               {divider}
               <Link href={switchHref} className={`${link} font-semibold text-blue-700 hover:text-blue-800 hover:underline underline-offset-4`}>

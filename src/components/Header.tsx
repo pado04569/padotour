@@ -8,12 +8,8 @@ import TrustBar, { useSwitchHref } from "./TrustBar";
 import ExternalVerificationButton from "./ExternalVerificationModal";
 import { IconChevron, IconSwap } from "./icons/Chevron";
 
-export type CourseNavItem = { label: string; countryCode: string; regions: string[] };
-
 type HeaderProps = {
   departure?: "incheon" | "busan";
-  /** 골프장 소개 드롭다운 — layout(서버)에서 courses.json으로 만들어 내려준다 */
-  courseNavItems: CourseNavItem[];
 };
 
 type NavItem = {
@@ -114,18 +110,13 @@ function buildNav(dep?: string): NavItem[] {
 }
 
 
-export default function Header({ departure, courseNavItems }: HeaderProps) {
+export default function Header({ departure }: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [communityOpen, setCommunityOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [openMobileSub, setOpenMobileSub] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const router = useRouter();
-
-  // 골프장 소개: 나라 목록 드롭다운 + 지역 플라이아웃 (2단)
-  const [coursesOpen, setCoursesOpen] = useState(false);
-  const [hoveredCourseCountry, setHoveredCourseCountry] = useState<string | null>(null);
-  const [openMobileCourseCountry, setOpenMobileCourseCountry] = useState<string | null>(null);
 
   const navItems = buildNav(departure);
   const switchHref = useSwitchHref(departure);
@@ -174,8 +165,9 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
             </div>
           </Link>
 
+          {/* PC는 검색창을 5% 줄여 로고 쪽에 여유 — 오른쪽 끝은 위 '내 예약/문의'와 맞춘다 (사장님 선택 2026-10-09) */}
           <div className="flex-1 min-w-0">
-            <form onSubmit={handleSearch} className="flex items-center border-2 border-gray-200 focus-within:border-emerald-500 rounded-lg overflow-hidden transition-colors">
+            <form onSubmit={handleSearch} className="md:w-[95%] md:ml-auto flex items-center border-2 border-gray-200 focus-within:border-emerald-500 rounded-lg overflow-hidden transition-colors">
               <input
                 type="text"
                 value={searchQuery}
@@ -243,57 +235,7 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
                 </div>
               ))}
 
-              {/* 골프장 소개: 나라 메뉴와 같은 줄의 최상위 메뉴 (커뮤니티 하위 아님)
-                  나라에 마우스를 올리면 옆으로 지역 목록이 펼쳐진다 (사장님 요청 2026-09-22) */}
-              <div
-                className="relative"
-                onMouseEnter={() => setCoursesOpen(true)}
-                onMouseLeave={() => { setCoursesOpen(false); setHoveredCourseCountry(null); }}
-              >
-                <Link
-                  href="/courses"
-                  className={`block text-gray-700 hover:text-black ${hoverAccent} font-semibold px-4 py-3 text-base transition-colors whitespace-nowrap`}
-                >
-                  골프장 소개
-                </Link>
-                {coursesOpen && (
-                  // overflow-hidden 이면 안의 지역 플라이아웃(옆으로 펼침)이 잘려서 안 보인다 (사장님 지적 2026-09-22)
-                  <div className="absolute left-0 top-full w-40 bg-white shadow-xl rounded-b-lg border border-gray-100 z-50">
-                    {courseNavItems.map((item) => (
-                      <div
-                        key={item.label}
-                        className="relative"
-                        onMouseEnter={() => setHoveredCourseCountry(item.label)}
-                      >
-                        <Link
-                          href={`/courses?country=${item.countryCode}`}
-                          className={`flex items-center justify-between px-4 py-2.5 text-sm transition-colors border-b border-gray-50 last:border-0 ${
-                            hoveredCourseCountry === item.label
-                              ? "bg-emerald-50 text-emerald-700"
-                              : "text-gray-700 hover:bg-emerald-50 hover:text-emerald-700"
-                          }`}
-                        >
-                          {item.label}
-                          {item.regions.length > 1 && <IconChevron className="w-4 h-4 text-gray-400" />}
-                        </Link>
-                        {item.regions.length > 1 && hoveredCourseCountry === item.label && (
-                          <div className="absolute left-full top-0 w-40 bg-white shadow-xl rounded-lg overflow-hidden border border-gray-100">
-                            {item.regions.map((region) => (
-                              <Link
-                                key={region}
-                                href={`/courses?country=${item.countryCode}&region=${region}`}
-                                className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors border-b border-gray-50 last:border-0"
-                              >
-                                {region}
-                              </Link>
-                            ))}
-                          </div>
-                        )}
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
+              {/* 골프장 소개는 상품 찾는 메뉴와 섞이지 않게 이 줄에서 뺐다 → 메인 "나라별 골프장 소개" 섹션·커뮤니티 메뉴로 (사장님 확정 2026-10-09) */}
             </div>
 
             <div className="w-px h-6 bg-gray-200 mx-2" />
@@ -309,6 +251,9 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
               </button>
               {communityOpen && (
                 <div className="absolute right-0 top-full w-36 bg-white shadow-xl rounded-b-lg overflow-hidden border border-gray-100 z-50">
+                  <Link href="/courses" className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors border-b border-gray-100">
+                    ⛳ 골프장 소개
+                  </Link>
                   <Link href="/reviews" className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors border-b border-gray-100">
                     ⭐ 여행후기
                   </Link>
@@ -371,63 +316,12 @@ export default function Header({ departure, courseNavItems }: HeaderProps) {
               )}
             </div>
           ))}
+          {/* 상품 메뉴(나라)와 콘텐츠 메뉴 사이 구분 */}
+          <div className="h-2 bg-gray-50 border-b border-gray-100" aria-hidden="true" />
           <div className="border-b border-gray-100">
-            <div className="flex items-center">
-              <Link
-                href="/courses"
-                className="flex-1 px-4 py-3.5 text-gray-800 font-semibold text-sm"
-                onClick={() => setMenuOpen(false)}
-              >
-                골프장 소개
-              </Link>
-              <button
-                className="px-4 py-3.5"
-                aria-label="골프장 나라별 보기"
-                onClick={() => setOpenMobileCourseCountry(openMobileCourseCountry === "__open" ? null : "__open")}
-              >
-                <IconChevron dir={openMobileCourseCountry ? "up" : "down"} className="w-4 h-4 text-gray-400" />
-              </button>
-            </div>
-            {openMobileCourseCountry && (
-              <div className="bg-gray-50 border-t border-gray-100">
-                {courseNavItems.map((item) =>
-                  item.regions.length > 1 ? (
-                    <div key={item.label}>
-                      <button
-                        className="w-full flex items-center justify-between px-8 py-2.5 text-sm text-gray-700 text-left"
-                        onClick={() => setOpenMobileCourseCountry(openMobileCourseCountry === item.label ? "__open" : item.label)}
-                      >
-                        <span>{item.label}</span>
-                        <IconChevron dir={openMobileCourseCountry === item.label ? "up" : "down"} className="w-3.5 h-3.5 text-gray-400" />
-                      </button>
-                      {openMobileCourseCountry === item.label && (
-                        <div className="bg-white border-t border-gray-100">
-                          {item.regions.map((region) => (
-                            <Link
-                              key={region}
-                              href={`/courses?country=${item.countryCode}&region=${region}`}
-                              className="block px-12 py-2 text-sm text-gray-600 hover:text-emerald-700 border-b border-gray-100 last:border-0"
-                              onClick={() => setMenuOpen(false)}
-                            >
-                              · {region}
-                            </Link>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  ) : (
-                    <Link
-                      key={item.label}
-                      href={`/courses?country=${item.countryCode}`}
-                      className="block px-8 py-2.5 text-sm text-gray-700"
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      {item.label}
-                    </Link>
-                  )
-                )}
-              </div>
-            )}
+            <Link href="/courses" className="flex items-center gap-2 px-4 py-3.5 text-gray-700 font-medium text-sm" onClick={() => setMenuOpen(false)}>
+              ⛳ 골프장 소개
+            </Link>
           </div>
           <div className="border-b border-gray-100">
             <Link href="/reviews" className="flex items-center gap-2 px-4 py-3.5 text-gray-700 font-medium text-sm" onClick={() => setMenuOpen(false)}>

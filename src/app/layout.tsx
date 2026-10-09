@@ -2,18 +2,6 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 import ClientLayout from "@/components/ClientLayout";
-import type { CourseNavItem } from "@/components/Header";
-import { courses } from "@/data/courses";
-
-/** 골프장 소개 메뉴: courses.json에 등록된 나라·지역을 그대로 나열 (새 골프장을 넣으면 메뉴에 자동으로 뜬다) */
-const courseNavItems: CourseNavItem[] = [];
-for (const c of courses) {
-  let item = courseNavItems.find((i) => i.countryCode === c.countryCode);
-  if (!item) courseNavItems.push((item = { label: c.country, countryCode: c.countryCode, regions: [] }));
-  if (!item.regions.includes(c.region)) item.regions.push(c.region);
-}
-const NAV_ORDER = ["japan", "china", "thailand", "vietnam", "philippines", "malaysia", "guam", "saipan"];
-courseNavItems.sort((a, b) => (NAV_ORDER.indexOf(a.countryCode) + 99) % 99 - (NAV_ORDER.indexOf(b.countryCode) + 99) % 99);
 import VercelAnalytics from "@/components/VercelAnalytics";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import BehaviorTracker from "@/components/BehaviorTracker";
@@ -99,7 +87,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen flex flex-col antialiased">
-        <ClientLayout courseNavItems={courseNavItems}>{children}</ClientLayout>
+        <ClientLayout>{children}</ClientLayout>
         <BehaviorTracker />
         <VercelAnalytics />
         <Script id="ms-clarity" strategy="afterInteractive">

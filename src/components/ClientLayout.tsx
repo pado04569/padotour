@@ -2,12 +2,12 @@
 
 import { Suspense } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
-import Header, { type CourseNavItem } from "./Header";
+import Header from "./Header";
 import Footer from "./Footer";
 import KakaoFloat from "./KakaoFloat";
 // 카카오 팝업은 화면을 가려 제거(2026-09-10). 플로팅 버튼은 작은 아이콘으로 다시 붙임(2026-10-08).
 
-function ClientLayoutInner({ children, courseNavItems }: { children: React.ReactNode; courseNavItems: CourseNavItem[] }) {
+function ClientLayoutInner({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const isLanding = pathname === "/";
@@ -38,7 +38,7 @@ function ClientLayoutInner({ children, courseNavItems }: { children: React.React
 
   return (
     <>
-      <Header departure={departure} courseNavItems={courseNavItems} />
+      <Header departure={departure} />
       <main className="flex-1">{children}</main>
       <Footer departure={departure} />
       <KakaoFloat />
@@ -46,10 +46,10 @@ function ClientLayoutInner({ children, courseNavItems }: { children: React.React
   );
 }
 
-export default function ClientLayout({ children, courseNavItems }: { children: React.ReactNode; courseNavItems: CourseNavItem[] }) {
+export default function ClientLayout({ children }: { children: React.ReactNode }) {
   return (
     <Suspense>
-      <ClientLayoutInner courseNavItems={courseNavItems}>{children}</ClientLayoutInner>
+      <ClientLayoutInner>{children}</ClientLayoutInner>
     </Suspense>
   );
 }

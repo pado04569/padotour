@@ -1,6 +1,7 @@
 import Link from "next/link";
 import TourCard from "@/components/TourCard";
 import HeroSlider from "@/components/HeroSlider";
+import CountryCourseTiles from "@/components/CountryCourseTiles";
 import { tours } from "@/data/tours";
 
 import type { Metadata } from "next";
@@ -118,6 +119,9 @@ export default function BusanHome() {
           ))}
         </div>
       </section>
+
+      {/* ===== 나라별 골프장 소개 — 국가 메뉴 줄에서 옮겨 옴 (사장님 확정 G1, 2026-10-09) ===== */}
+      <CountryCourseTiles />
 
       {/* ===== 프로모션 배너 ===== */}
       <section className="max-w-6xl mx-auto px-4">

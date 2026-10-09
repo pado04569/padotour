@@ -3,6 +3,7 @@ import Image from "next/image";
 import { courses } from "@/data/courses";
 import type { Metadata } from "next";
 import { IconChevron } from "@/components/icons/Chevron";
+import { buildCourseGroups, matchesRegion } from "@/lib/courseGroups";
 
 const SITE_URL = "https://www.padotour.com";
 
@@ -35,14 +36,21 @@ export default async function CoursesPage({
 }) {
   const { country, region } = await searchParams;
 
+  // country 는 "guam,saipan" 처럼 여러 나라일 수 있다 (나라별 묶음 '괌·사이판'·'기타')
+  const codes = country ? country.split(",") : [];
   const filtered = courses.filter((c) => {
-    if (country && c.countryCode !== country) return false;
-    if (region && c.region !== region) return false;
+    if (codes.length && !codes.includes(c.countryCode)) return false;
+    if (region && !matchesRegion(c, region)) return false;
     return true;
   });
   const grouped = groupByCountry(filtered);
   const isFiltered = Boolean(country || region);
-  const filterLabel = filtered[0] ? [filtered[0].country, region].filter(Boolean).join(" ") : null;
+  const groups = buildCourseGroups();
+  const currentGroup = codes.length ? groups.find((g) => codes.every((c) => g.codes.includes(c))) : undefined;
+  const filterLabel = filtered[0]
+    ? [currentGroup?.label ?? filtered[0].country, region].filter(Boolean).join(" ")
+    : null;
+  const chip = "inline-flex items-center min-h-11 px-3.5 rounded-full text-[15px] font-semibold transition-colors";
 
   return (
     <div>
@@ -58,6 +66,73 @@ export default async function CoursesPage({
           )}
         </div>
       </section>
+
+      {/* 나라·지역으로 찾기 — 탐색형 (사장님 확정 G3, 2026-10-09). 메인은 나라 타일(G1), 여기서는 지역까지 바로 고른다 */}
+      {!isFiltered && (
+        <section className="max-w-6xl mx-auto px-4 pt-8 md:pt-10">
+          <h2 className="text-lg md:text-xl font-black text-gray-800 mb-1">나라·지역으로 찾기</h2>
+          <p className="text-gray-600 text-[15px] mb-4 break-keep">나라를 누르면 그 나라 골프장 전체, 지역을 누르면 그 지역 골프장만 보여드려요.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+            {groups.map((g) => (
+              <div key={g.key} className="flex gap-3 md:gap-4 p-3 border border-gray-200 rounded-2xl bg-white">
+                <Link href={g.href} className="relative flex-none w-[92px] h-[92px] md:w-[120px] md:h-[120px] rounded-xl overflow-hidden bg-emerald-100">
+                  <img src={g.image} alt={`${g.label} 골프장`} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover" />
+                </Link>
+                <div className="flex-1 min-w-0">
+                  <Link href={g.href} className="flex items-baseline justify-between gap-2 group">
+                    <span className="text-xl font-black text-gray-900 group-hover:text-emerald-700">{g.label}</span>
+                    <span className="inline-flex items-center text-sm font-bold text-emerald-700 whitespace-nowrap">
+                      골프장 {g.count}곳<IconChevron className="w-4 h-4" />
+                    </span>
+                  </Link>
+                  <div className="flex flex-wrap gap-1.5 mt-2">
+                    {/* 지역이 많은 나라(일본 16곳)는 8개까지만 — 나머지는 나라 화면의 지역 버튼에서 */}
+                    {g.regions.slice(0, 8).map((r) => (
+                      <Link
+                        key={r.value}
+                        href={`${g.href}&region=${encodeURIComponent(r.value)}`}
+                        className={`${chip} bg-emerald-50 text-emerald-800 hover:bg-emerald-100`}
+                      >
+                        {r.label}
+                      </Link>
+                    ))}
+                    {g.regions.length > 8 && (
+                      <Link href={g.href} className={`${chip} gap-0.5 text-gray-600 hover:text-emerald-700`}>
+                        지역 {g.regions.length - 8}곳 더 보기<IconChevron className="w-4 h-4" />
+                      </Link>
+                    )}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <h2 className="text-lg md:text-xl font-black text-gray-800 mt-10 md:mt-12 -mb-2">전체 골프장</h2>
+        </section>
+      )}
+
+      {/* 나라를 고른 상태 — 그 나라의 지역 버튼으로 바로 좁힌다 */}
+      {currentGroup && currentGroup.regions.length > 1 && (
+        <nav aria-label="지역 선택" className="max-w-6xl mx-auto px-4 pt-6">
+          <div className="flex flex-wrap gap-2">
+            <Link
+              href={currentGroup.href}
+              className={`${chip} ${!region ? "bg-emerald-600 text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
+            >
+              {currentGroup.label} 전체
+            </Link>
+            {currentGroup.regions.map((r) => (
+              <Link
+                key={r.value}
+                href={`${currentGroup.href}&region=${encodeURIComponent(r.value)}`}
+                aria-current={region === r.value ? "page" : undefined}
+                className={`${chip} ${region === r.value ? "bg-emerald-600 text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
+              >
+                {r.label}
+              </Link>
+            ))}
+          </div>
+        </nav>
+      )}
 
       <section className="max-w-6xl mx-auto px-4 py-8 md:py-10">
         {grouped.length === 0 && (
