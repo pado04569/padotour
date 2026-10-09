@@ -4810,5 +4810,111 @@
     "relatedTourIds": [
       "japan-hokkaido-sapporo-comfort"
     ]
+  },
+  {
+    "slug": "satsuma-golf-resort",
+    "name": "사츠마 골프리조트",
+    "nameEn": "Satsuma Golf Resort (薩摩ゴルフリゾート)",
+    "aliases": [
+      "사츠마골프리조트",
+      "사쓰마골프리조트"
+    ],
+    "region": "가고시마",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "파72 18홀, 가고시마 사츠마정 구릉에 자리한 온천 리조트 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 / 6,961야드"
+      },
+      {
+        "label": "개장",
+        "value": "1991년"
+      },
+      {
+        "label": "설계",
+        "value": "야스다 고키치 · 가와무라 시로"
+      },
+      {
+        "label": "코스 특징",
+        "value": "구릉 코스, 리조트 호텔·천연온천 일체형"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가고시마현 사츠마군 사츠마정"
+      }
+    ],
+    "description": "사츠마 골프리조트는 1991년 12월 문을 연 파72, 18홀(6,961야드) 골프장으로 가고시마현 사츠마정의 구릉지에 있습니다. 옛 이름은 인터내셔널 골프리조트 교세라입니다.\n\n골프장 안에 62실 규모의 리조트 호텔과 천연온천 대욕장이 있어 숙소에서 바로 라운드하고 온천으로 하루를 마무리할 수 있습니다. 가고시마공항에서 차로 약 40분 거리입니다.\n\n여행의파도 가고시마 상품에서는 이 리조트에 3박하며 18홀씩 3일, 54홀을 셀프 카트로 칩니다. 그린피·카트비·락커비와 조식·석식, 온천 입욕료가 포함됩니다.",
+    "images": [
+      "/images/kagoshima-satsuma/course-1.jpg",
+      "/images/kagoshima-satsuma/course-2.jpg",
+      "/images/kagoshima-satsuma/course-3.jpg",
+      "/images/kagoshima-satsuma/course-4.jpg",
+      "/images/kagoshima-satsuma/course-6.jpg"
+    ],
+    "hashtags": [
+      "사츠마골프리조트",
+      "가고시마골프",
+      "가고시마골프여행",
+      "일본온천골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-kagoshima-satsuma-resort"
+    ]
+  },
+  {
+    "slug": "paradise-golf-club-manado",
+    "name": "파라다이스 골프 클럽 마나도",
+    "nameEn": "Paradise Golf Club Manado",
+    "aliases": [
+      "파라다이스골프클럽",
+      "마나도파라다이스"
+    ],
+    "region": "마나도",
+    "country": "인도네시아",
+    "countryCode": "other",
+    "summary": "파72 18홀, 북술라웨시 리쿠팡 해안의 열대 정글 바다 조망 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "코스 특징",
+        "value": "열대 정글 레이아웃, 바다 조망"
+      },
+      {
+        "label": "소재지",
+        "value": "인도네시아 북술라웨시 북미나하사 리쿠팡 티무르"
+      }
+    ],
+    "description": "파라다이스 골프 클럽은 인도네시아 북술라웨시 북미나하사의 리쿠팡 해안에 있는 파72, 18홀 골프장입니다.\n\n열대 정글을 다듬어 만든 레이아웃이라 페어웨이 양옆으로 야자수와 숲이 이어지고, 여러 홀과 클럽하우스에서 바다가 보입니다. 바로 옆 파라다이스 리조트에서 차로 2분 안팎입니다.\n\n여행의파도 마나도 상품에서는 18홀씩 3일, 54홀을 2인 1카트에 캐디와 함께 라운드합니다. 그린피·카트비·캐디피와 중식이 포함됩니다.",
+    "images": [
+      "/images/manado-paradise/course-1.jpg",
+      "/images/manado-paradise/course-2.jpg",
+      "/images/manado-paradise/course-3.jpg",
+      "/images/manado-paradise/course-4.jpg",
+      "/images/manado-paradise/course-5.jpg"
+    ],
+    "hashtags": [
+      "마나도골프",
+      "파라다이스골프클럽",
+      "인도네시아골프",
+      "마나도골프여행",
+      "해외골프여행"
+    ],
+    "relatedTourIds": [
+      "indonesia-manado-paradise"
+    ]
   }
 ]
