@@ -1,6 +1,7 @@
 import { notices } from "@/data/reviews";
 import { tours } from "@/data/tours";
 import TourCard from "@/components/TourCard";
+import Link from "next/link";
 
 import type { Metadata } from "next";
 
@@ -35,12 +36,25 @@ export default async function NoticePage({
       return linkedTour.departure === departure || linkedTour.departure === "both";
     });
 
+  const firstLinkedTour = activeNotices
+    .map((n) => (n.tourId ? tours.find((t) => t.id === n.tourId) : undefined))
+    .find((t) => t);
+
   return (
     <div>
       <section className="bg-emerald-400 text-white py-10 md:py-12">
         <div className="max-w-4xl mx-auto px-4">
           <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">📢 공지 · 이벤트</h1>
           <p className="text-emerald-100 text-sm md:text-lg">특가 소식과 새로운 상품 안내</p>
+          {/* 제목줄을 눌러도 아무 일이 없어 배달못한클릭 4회 (클래리티 2026-10-09) — 첫 특가 상품으로 가는 버튼 */}
+          {firstLinkedTour && (
+            <Link
+              href={`/tours/${firstLinkedTour.id}`}
+              className="inline-block mt-4 bg-white text-emerald-700 hover:bg-emerald-50 font-bold px-4 py-2 rounded-full text-sm md:text-base transition-colors"
+            >
+              지금 특가 보기 →
+            </Link>
+          )}
         </div>
       </section>
 
