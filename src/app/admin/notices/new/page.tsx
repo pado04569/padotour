@@ -4,6 +4,8 @@ import Link from "next/link";
 
 export default async function NewNoticePage() {
   await checkAuth();
+  // 새 글 번호는 요청 때 서버에서 한 번 만드는 값 — 의도된 시간 호출
+  // eslint-disable-next-line react-hooks/purity
   const newId = Date.now().toString();
   const today = new Date().toISOString().slice(0, 10).replace(/-/g, ".");
 

@@ -566,8 +566,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 예약 문의 · 맞춤 견적 ── */}
         {/* id="inquiry" — 위쪽 상품 요약/호텔/골프장 박스를 누르면 여기로 스크롤된다 */}
         <div id="inquiry" className="bg-ice-blue border border-brand-blue/15 rounded-2xl p-6 md:p-8 text-charcoal mb-8 scroll-mt-4">
-          <h3 className="text-xl font-black text-charcoal mb-1">예약 문의 · 맞춤 견적</h3>
-          <p className="text-slate-ink text-sm mb-5 break-keep">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
+          <h3 className="text-xl font-black text-charcoal mb-1 text-center">예약 문의 · 맞춤 견적</h3>
+          <p className="text-slate-ink text-sm mb-5 break-keep text-center">출발일, 인원을 알려주시면 <span className="whitespace-nowrap">확인 후 견적을 전달드립니다</span></p>
           <ContactOptions tourTitle={tour.title} nights={tour.nights} days={tour.days} minPeople={strictMinPeople} dates={inquiryDates} />
 
           {/* 같이 갈 일행에게 보내는 경로 — 골프여행은 대개 여럿이 간다 */}

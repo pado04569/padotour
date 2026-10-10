@@ -81,6 +81,9 @@ export default function DepartureSearch({
   sort,
   active,
   hrefWith,
+  periodLabel,
+  placeLabel,
+  peopleLabel,
 }: {
   /** 출발공항으로 이미 걸러진 상품 — 달력의 출발 가능 날짜와 결과 수 계산에 쓴다 */
   pool: Tour[];
@@ -91,6 +94,12 @@ export default function DepartureSearch({
   /** 검색을 한 상태인가 (주소에 date 또는 people 이 있음) */
   active: boolean;
   hrefWith: (p: SearchPatch) => string;
+  /** 검색창 글이 "11월"처럼 달만 말했을 때 바에 보여줄 말 */
+  periodLabel?: string;
+  /** 지역까지 골랐으면 나라 대신 지역 이름 */
+  placeLabel?: string;
+  /** 검색 글에 인원이 없을 때 "인원 전체" */
+  peopleLabel?: string;
 }) {
   const [open, setOpen] = useState(false);
   const [draft, setDraft] = useState({ country, date, people });
@@ -113,7 +122,7 @@ export default function DepartureSearch({
             <span className="text-emerald-600 flex-none"><IconSearch /></span>
             <span className="flex flex-col flex-1 min-w-0">
               <span className="text-base md:text-[17px] font-extrabold text-slate-900 truncate">
-                {date ? dateLabel(date, "plain") : "출발일 전체"} · {countryLabel(country)} · {people}명
+                {date ? dateLabel(date, "plain") : periodLabel ?? "출발일 전체"} · {placeLabel ?? countryLabel(country)} · {peopleLabel ?? `${people}명`}
               </span>
               <span className="text-[13px] text-slate-500">출발일 · 여행지 · 인원</span>
             </span>

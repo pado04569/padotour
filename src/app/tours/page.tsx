@@ -6,27 +6,35 @@ import TourCard from "@/components/TourCard";
 import { tours, countries } from "@/data/tours";
 import { useSearchParams } from "next/navigation";
 import { IconChevron } from "@/components/icons/Chevron";
-import { IconFlag } from "@/components/icons/MenuIcons";
+import { IconFlag, IconChat } from "@/components/icons/MenuIcons";
 import RegionNavigator, { type RegionOption } from "@/components/RegionNavigator";
 import DepartureSearch, { type SearchPatch } from "@/components/DepartureSearch";
 import type { Tour } from "@/data/tours";
 import { datesWithin, pickBalanced, dateLabel, departureMap, isIsoDate, localIso, minPeopleOf, sortTours, tourFacts, type SortKey } from "@/lib/tourSearch";
+import { parseQuery, matchesKeywords } from "@/lib/queryParser";
 
 function ToursContent() {
   const searchParams = useSearchParams();
+  const today = localIso();
+  // 머리말 검색창 글(search=) — "11월5일 일본 2명"을 날짜·나라·지역·인원·낱말로 풀어 아래 조건에 채운다 (작업지시서 13-E, 2026-10-11)
+  // 주소에 직접 들어온 조건(country= 등)이 있으면 그쪽이 먼저다.
+  const searchQ = (searchParams.get("search") || "").trim();
+  const parsed = searchQ ? parseQuery(searchQ, today, tours) : null;
   // 국가는 주소(country=)로만 정한다 — 국가 버튼을 누르면 주소가 바뀌어 휴대폰 "뒤로"가 이전 국가로 돌아간다 (2026-10-10)
-  const selected = searchParams.get("country") || "all";
-  const regionParam = searchParams.get("region") || "";
+  const selected = searchParams.get("country") || parsed?.country || "all";
+  const regionParam = searchParams.get("region") || parsed?.region || "";
   const departureParam = searchParams.get("departure") || "";
   // 출발일로 상품 찾기 (6단계) — date=2026-11-05&people=2&sort=date. 기존 country·region·departure·map 과 겹치지 않는 이름
-  const dateParam = isIsoDate(searchParams.get("date")) ? searchParams.get("date")! : "";
-  const peopleRaw = Number(searchParams.get("people"));
+  const dateParam = isIsoDate(searchParams.get("date")) ? searchParams.get("date")! : parsed?.date ?? "";
+  const peopleRaw = searchParams.get("people") ? Number(searchParams.get("people")) : parsed?.people ?? NaN;
   const hasPeople = Number.isInteger(peopleRaw) && peopleRaw >= 1 && peopleRaw <= 20;
   const people = hasPeople ? peopleRaw : 2;
   const sortRaw = searchParams.get("sort");
   const sort: SortKey = sortRaw === "date" || sortRaw === "price" ? sortRaw : "recommend";
-  const searching = Boolean(dateParam) || hasPeople;
-  const today = localIso();
+  // 검색 글에서 나온 "11월" 같은 달, 상품명·골프장에서 찾을 낱말
+  const monthParam = !dateParam ? parsed?.month ?? "" : "";
+  const keywords = parsed?.keywords ?? [];
+  const searching = Boolean(dateParam) || hasPeople || Boolean(searchQ);
 
 
   // 뒤로가기 3단계 (소 → 중 → 대)
@@ -66,6 +74,9 @@ function ToursContent() {
     const s = p.sort ?? sort;
     if (s !== "recommend") q.set("sort", s);
     if (sameCountry && p.region === undefined && searchParams.get("map") === "1") q.set("map", "1");
+    // 정렬만 바꿀 때는 검색 글(달·낱말)을 그대로 둔다. 조건을 직접 바꾸면 그 조건이 새 기준이 된다
+    const onlySort = p.country === undefined && p.date === undefined && p.people === undefined && p.region === undefined;
+    if (searchQ && onlySort) q.set("search", searchQ);
     return q.size ? `/tours?${q.toString()}` : "/tours";
   }
   // 국가 탭 — 검색 조건은 그대로 두고 국가만 바꾼다
@@ -78,9 +89,15 @@ function ToursContent() {
     if (regionParam) {
       result = result.filter((t) => t.region && t.region.includes(regionParam));
     }
+    // "12월 치앙마이"처럼 달만 말하면 그 달에 실제 출발일이 있는 상품만
+    if (monthParam) result = result.filter((t) => [...departureMap(t).keys()].some((d) => d >= today && d.startsWith(monthParam)));
+    if (keywords.length) result = result.filter((t) => matchesKeywords(t, keywords));
     return result;
   })();
+  // 검색 글에 인원이 없으면 인원으로 거르지 않는다(멋대로 2명으로 정하지 않는다)
+  const peopleUnset = Boolean(searchQ) && !hasPeople;
   const fitsPeople = (t: Tour) => {
+    if (peopleUnset) return true;
     const min = minPeopleOf(t);
     return min === null || min <= people;
   };
@@ -93,6 +110,8 @@ function ToursContent() {
   // 검색은 ±7일 전체, 화면에는 전후 균형 맞춰 최대 4개(2열×2행) — 항공 출발 패턴을 한눈에 (사장님 지시 10/10)
   const nearby = dateParam && filtered.length === 0 ? pickBalanced(datesWithin(listed.filter(fitsPeople), dateParam, today, NEAR_DAYS), 4) : [];
   const countryName = countries.find((c) => c.code === selected)?.label ?? "전체";
+  const monthText = monthParam ? `${+monthParam.slice(5)}월 출발` : "";
+  const placeText = regionParam ? (regionParam === "괌" ? "괌/사이판" : regionParam) : selected === "all" ? "전체 여행지" : countryName;
   const depName = savedDeparture === "incheon" ? "인천출발" : savedDeparture === "busan" ? "부산출발" : "";
   const card = (tour: Tour) => {
     const price = dateParam ? departureMap(tour).get(dateParam) : undefined;
@@ -119,22 +138,41 @@ function ToursContent() {
   })();
 
   const grid = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6";
-  const conditionText = [countryName, depName, `${people}명 기준`].filter(Boolean).join(" · ");
+  const conditionText = [monthText, regionParam ? placeText : countryName, depName, peopleUnset ? "" : `${people}명 기준`].filter(Boolean).join(" · ");
   // 맞춤 견적 카드에 보여줄 검색 조건: 날짜 · 여행지(지역을 골랐으면 지역) · 인원
   const searchCondition = [
-    dateParam ? dateLabel(dateParam, "plain") : "",
-    regionParam ? (regionParam === "괌" ? "괌/사이판" : regionParam) : selected === "all" ? "전체 여행지" : countryName,
-    `${people}명`,
+    dateParam ? dateLabel(dateParam, "plain") : monthText,
+    placeText,
+    peopleUnset ? "" : `${people}명`,
   ].filter(Boolean).join(" · ");
   // 검색 결과 — ① 조건에 맞는 상품 ② (없으면) 가까운 출발일 ③ 인원이 더 필요한 상품. 서로 섞지 않는다
   function renderResults() {
     return (
       <div className="break-keep">
+        {/* 검색창 글로 들어왔으면 무엇을 알아들었는지 먼저 보여준다 */}
+        {parsed && (
+          <div className="mb-4 px-4 py-3 rounded-2xl bg-white border-[1.5px] border-line">
+            <p className="text-[15px] text-body-text">
+              <span className="font-bold text-main-text">&lsquo;{searchQ}&rsquo;</span> 검색
+            </p>
+            {parsed.understood.length > 0 ? (
+              <div className="flex flex-wrap gap-1.5 mt-2">
+                <span className="text-sm text-slate-500 self-center mr-0.5">이렇게 찾았어요</span>
+                {parsed.understood.map((u) => (
+                  <span key={u} className="inline-flex items-center h-8 px-3 rounded-full bg-emerald-50 text-emerald-800 text-sm font-bold">{u}</span>
+                ))}
+              </div>
+            ) : (
+              <p className="text-sm text-slate-500 mt-1">알아들은 조건이 없어 전체 상품에서 찾았어요.</p>
+            )}
+            {parsed.notes.map((n) => <p key={n} className="text-sm text-amber-800 mt-1.5">{n}</p>)}
+          </div>
+        )}
         {filtered.length > 0 ? (
           <>
             <div className="px-4 py-3.5 rounded-2xl bg-emerald-50 border-[1.5px] border-emerald-200 mb-4">
               <p className="text-[17px] md:text-lg font-black text-emerald-800">
-                {dateParam ? `${dateLabel(dateParam)} 정확히 출발 가능한 상품 ${filtered.length}개` : `조건에 맞는 상품 ${filtered.length}개`}
+                {dateParam ? `${dateLabel(dateParam)} 정확히 출발 가능한 상품 ${filtered.length}개` : monthText ? `${monthText} 가능한 상품 ${filtered.length}개` : `조건에 맞는 상품 ${filtered.length}개`}
               </p>
               <p className="text-sm text-body-text mt-0.5">{conditionText}</p>
               {dateParam && <p className="text-sm text-body-text">카드의 요금은 {dateLabel(dateParam, "plain")} 출발 1인 요금입니다.</p>}
@@ -195,7 +233,7 @@ function ToursContent() {
                 rel="noopener noreferrer"
                 className="mt-3 mx-auto flex w-fit items-center min-h-11 px-4 rounded-full bg-yellow-400 hover:bg-yellow-500 text-gray-900 text-[15px] font-bold"
               >
-                💬 카카오톡 맞춤 견적 문의
+                <span className="inline-flex items-center gap-1.5"><IconChat className="w-[18px] h-[18px]" />카카오톡 맞춤 견적 문의</span>
               </a>
             </div>
           </>
@@ -231,7 +269,7 @@ function ToursContent() {
               rel="noopener noreferrer"
               className="mt-3 mx-auto flex w-fit items-center min-h-11 px-4 rounded-full bg-yellow-400 hover:bg-yellow-500 text-gray-900 text-[15px] font-bold"
             >
-              💬 카카오톡 맞춤 견적 문의
+              <span className="inline-flex items-center gap-1.5"><IconChat className="w-[18px] h-[18px]" />카카오톡 맞춤 견적 문의</span>
             </a>
           </div>
         )}
@@ -268,6 +306,9 @@ function ToursContent() {
         sort={sort}
         active={searching}
         hrefWith={hrefWith}
+        periodLabel={monthText || undefined}
+        peopleLabel={peopleUnset ? "인원 전체" : undefined}
+        placeLabel={regionParam ? placeText : undefined}
       />
 
       {/* 국가 탭 — region이 선택된 경우 숨김 */}
@@ -376,7 +417,9 @@ function ToursContent() {
       <section className="bg-emerald-50 py-2.5 md:py-3">
         <div className="max-w-3xl mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-center">
           <p className="text-gray-700 font-bold text-sm md:text-base">
-            원하는 상품이 없나요? 지역·날짜·인원을 알려주시면 맞춤 견적을 바로 드립니다.
+            {/* 응답 시간을 약속하는 말("바로")은 쓰지 않는다 (사장님 지시 10/11) */}
+            <span className="block md:inline">원하는 상품이 없나요?</span>{" "}
+            지역·날짜·인원을 알려주시면 <span className="whitespace-nowrap">확인 후 견적을 전달드립니다.</span>
           </p>
           <a
             href="https://pf.kakao.com/_bxoxnXxj/chat"
@@ -384,7 +427,7 @@ function ToursContent() {
             rel="noopener noreferrer"
             className="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold px-4 py-1.5 rounded-full text-sm transition-colors whitespace-nowrap"
           >
-            💬 카카오톡 맞춤 견적 문의
+            <span className="inline-flex items-center gap-1.5"><IconChat className="w-[18px] h-[18px]" />카카오톡 맞춤 견적 문의</span>
           </a>
         </div>
       </section>

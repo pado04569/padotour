@@ -6,6 +6,7 @@ import { tours } from "@/data/tours";
 import TourCard from "@/components/TourCard";
 import PhotoGrid from "@/components/PhotoGrid";
 import { IconChevron } from "@/components/icons/Chevron";
+import { IconChat } from "@/components/icons/MenuIcons";
 
 const SITE_URL = "https://www.padotour.com";
 
@@ -145,14 +146,14 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
 
         <div className="text-center mt-10 md:mt-12 bg-emerald-50 rounded-2xl p-6 md:p-10">
           <h2 className="text-xl md:text-2xl font-black text-gray-800 mb-2 md:mb-3">{course.name} 골프여행 문의</h2>
-          <p className="text-gray-600 mb-5 md:mb-6 text-sm md:text-base">일정·인원을 알려주시면 맞춤 견적을 바로 드립니다.</p>
+          <p className="text-gray-600 mb-5 md:mb-6 text-sm md:text-base">일정·인원을 알려주시면 <span className="whitespace-nowrap">확인 후 견적을 전달드립니다.</span></p>
           <a
             href="https://pf.kakao.com/_bxoxnXxj/chat"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold px-7 py-3.5 md:px-8 md:py-4 rounded-full text-base md:text-lg transition-colors"
           >
-            💬 카카오톡으로 문의하기
+            <span className="inline-flex items-center gap-1.5"><IconChat className="w-[18px] h-[18px]" />카카오톡으로 문의하기</span>
           </a>
         </div>
 

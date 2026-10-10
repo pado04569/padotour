@@ -2,6 +2,7 @@ import { reviews } from "@/data/reviews";
 import ReviewBrowser from "@/components/ReviewBrowser";
 
 import type { Metadata } from "next";
+import { IconChat } from "@/components/icons/MenuIcons";
 
 export const metadata: Metadata = {
   title: "고객 후기 | 여행의 파도 골프여행",
@@ -31,15 +32,15 @@ export default function ReviewsPage() {
         <ReviewBrowser reviews={reviews} />
 
         <div className="text-center mt-10 md:mt-12 bg-emerald-50 rounded-2xl p-6 md:p-10">
-          <h2 className="text-xl md:text-2xl font-black text-gray-800 mb-2 md:mb-3">후기를 남겨주세요</h2>
-          <p className="text-gray-600 mb-5 md:mb-6 text-sm md:text-base">여행을 다녀오셨다면 카카오톡으로 후기를 보내주세요 😊</p>
+          <h2 className="text-xl md:text-2xl font-black text-gray-800 mb-2 md:mb-3">여행의 추억을 나눠주세요</h2>
+          <p className="text-gray-600 mb-5 md:mb-6 text-sm md:text-base">다녀오신 후, 소중한 여행 이야기를 <span className="whitespace-nowrap">함께 공유해 주세요.</span></p>
           <a
             href="https://pf.kakao.com/_bxoxnXxj/chat"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold px-7 py-3.5 md:px-8 md:py-4 rounded-full text-base md:text-lg transition-colors"
           >
-            💬 카카오톡으로 후기 보내기
+            <span className="inline-flex items-center gap-1.5"><IconChat className="w-[18px] h-[18px]" />카카오톡으로 후기 보내기</span>
           </a>
         </div>
       </section>

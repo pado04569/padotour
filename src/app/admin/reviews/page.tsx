@@ -37,7 +37,7 @@ export default async function AdminReviewsPage() {
                     <span className="text-gray-400 text-xs">· {review.country} · {review.date}</span>
                     <span className="text-yellow-400 text-sm">{"★".repeat(review.rating)}</span>
                   </div>
-                  <p className="text-gray-600 text-sm line-clamp-2">"{review.comment}"</p>
+                  <p className="text-gray-600 text-sm line-clamp-2">{`"${review.comment}"`}</p>
                 </div>
                 <div className="flex items-center gap-2 flex-shrink-0">
                   <Link href={`/admin/reviews/edit/${review.id}`} className="text-xs bg-gray-100 hover:bg-gray-200 text-gray-700 px-3 py-1.5 rounded-lg">수정</Link>

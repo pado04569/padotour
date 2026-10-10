@@ -3,6 +3,7 @@ import Link from "next/link";
 import { tours } from "@/data/tours";
 import TourCard from "@/components/TourCard";
 import { IconChevron } from "@/components/icons/Chevron";
+import { IconCheck, IconPhone } from "@/components/icons/MenuIcons";
 
 export const metadata: Metadata = {
   title: "마쓰야마 골프여행 총정리 | 인천·부산 출발 온천 골프패키지 - 여행의파도",
@@ -145,15 +146,15 @@ export default function MatsuyamaGuidePage() {
           </h2>
           <ul className="space-y-3 text-gray-700">
             <li className="flex gap-3">
-              <span className="text-emerald-600 font-black">✓</span>
+              <span className="text-emerald-600 mt-0.5"><IconCheck className="w-[18px] h-[18px]" /></span>
               마쓰야마성 로프웨이 탑승 + 천수각 입장 (무료 포함)
             </li>
             <li className="flex gap-3">
-              <span className="text-emerald-600 font-black">✓</span>
+              <span className="text-emerald-600 mt-0.5"><IconCheck className="w-[18px] h-[18px]" /></span>
               도고온천 거리 산책 — 일본 정취가 그대로 남아있는 온천 마을
             </li>
             <li className="flex gap-3">
-              <span className="text-emerald-600 font-black">✓</span>
+              <span className="text-emerald-600 mt-0.5"><IconCheck className="w-[18px] h-[18px]" /></span>
               100년 역사의 노면전차로 다니는 시내 — 밤거리 맛집 탐방
             </li>
           </ul>
@@ -229,7 +230,7 @@ export default function MatsuyamaGuidePage() {
             href={`tel:${PHONE}`}
             className="inline-block bg-white text-emerald-800 font-black px-8 py-3 rounded-full text-lg hover:bg-emerald-50 transition-colors"
           >
-            📞 {PHONE}
+            <span className="inline-flex items-center gap-2"><IconPhone className="w-5 h-5" />{PHONE}</span>
           </a>
           <p className="text-emerald-200 text-xs mt-4">
             <Link href="/tours?country=japan" className="inline-flex items-center gap-1 underline">

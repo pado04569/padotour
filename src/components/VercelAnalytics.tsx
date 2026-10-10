@@ -20,6 +20,8 @@ export default function VercelAnalytics() {
       const p = new URLSearchParams(window.location.search);
       if (p.get("va-off") === "1") {
         localStorage.setItem(KEY, "1");
+        // 주소 꼬리표(va-off)는 화면이 뜬 뒤에만 읽을 수 있어 효과 안에서 알림을 띄운다 — 의도된 동작
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setToast("이 브라우저는 Vercel 집계에서 제외됩니다");
       } else if (p.get("va-on") === "1") {
         localStorage.removeItem(KEY);

@@ -1,5 +1,5 @@
 import { notices } from "@/data/reviews";
-import { IconMegaphone } from "@/components/icons/MenuIcons";
+import { IconMegaphone, IconChat } from "@/components/icons/MenuIcons";
 import { tours } from "@/data/tours";
 import TourCard from "@/components/TourCard";
 import Link from "next/link";
@@ -122,7 +122,7 @@ export default async function NoticePage({
             rel="noopener noreferrer"
             className="inline-block bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold px-3 py-1.5 rounded-full text-xs whitespace-nowrap transition-colors"
           >
-            💬 채널 추가
+            <span className="inline-flex items-center gap-1.5"><IconChat className="w-[18px] h-[18px]" />채널 추가</span>
           </a>
         </div>
       </section>

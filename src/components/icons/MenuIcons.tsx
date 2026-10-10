@@ -116,3 +116,7 @@ export const IconCamera = ({ className }: P) => (
 export const IconLink = ({ className }: P) => (
   <svg {...base(className)}><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1" /><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" /></svg>
 );
+/** 혜택 안내 — 선물 상자 */
+export const IconGift = ({ className }: P) => (
+  <svg {...base(className)}><rect x="3.5" y="8.5" width="17" height="4" rx="1" /><path d="M5 12.5V20h14v-7.5M12 8.5V20" /><path d="M12 8.5C10.5 5 7 5 7 7s3 1.5 5 1.5zM12 8.5c1.5-3.5 5-3.5 5-1.5s-3 1.5-5 1.5z" /></svg>
+);

@@ -76,7 +76,7 @@ export default async function DashboardPage() {
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-800">
             <p className="font-bold mb-1">💡 저장 및 배포 방법</p>
             <p>① 관리자 페이지에서 내용 수정 및 저장</p>
-            <p>② VS Code 터미널에서 <code className="bg-amber-100 px-1 rounded">git add . && git commit -m "내용 업데이트" && git push</code></p>
+            <p>② VS Code 터미널에서 <code className="bg-amber-100 px-1 rounded">{'git add . && git commit -m "내용 업데이트" && git push'}</code></p>
             <p>③ Vercel이 자동으로 사이트를 업데이트합니다 🎉</p>
           </div>
         </div>
