@@ -14,3 +14,6 @@ body {
   color: var(--foreground);
   font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Malgun Gothic", sans-serif;
 }
+
+/* 후기 상세 창이 열려 있으면 떠 있는 카카오 버튼이 내용을 가리지 않게 숨긴다 (2026-10-10) */
+body[data-drawer-open] a[aria-label="카카오톡 채널로 문의하기"] { display: none; }
