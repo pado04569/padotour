@@ -57,7 +57,7 @@ export default async function CoursesPage({
 
   return (
     <div>
-      <section className="bg-emerald-400 text-white py-5 md:py-6">
+      <section className="bg-hero-info text-white py-5 md:py-6">
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">
             {isFiltered && filterLabel ? `${filterLabel} 골프장` : "해외 골프장 소개"}

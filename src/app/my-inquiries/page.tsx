@@ -61,7 +61,7 @@ export default function MyInquiriesPage() {
 
   return (
     <div>
-      <section className="bg-emerald-400 text-white py-10 md:py-12">
+      <section className="bg-hero-info text-white py-10 md:py-12">
         <div className="max-w-2xl mx-auto px-4">
           <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">내 예약/문의 확인</h1>
           <p className="text-emerald-50 text-[15px] md:text-lg break-keep">회원가입 없이, 문의하신 휴대폰 번호로 <span className="whitespace-nowrap">확인할 수 있습니다</span></p>

@@ -1,4 +1,5 @@
 import { notices } from "@/data/reviews";
+import { IconMegaphone } from "@/components/icons/MenuIcons";
 import { tours } from "@/data/tours";
 import TourCard from "@/components/TourCard";
 import Link from "next/link";
@@ -43,9 +44,10 @@ export default async function NoticePage({
 
   return (
     <div>
-      <section className="bg-emerald-400 text-white py-10 md:py-12">
+      <section className="bg-hero-info text-white py-10 md:py-12">
         <div className="max-w-4xl mx-auto px-4">
-          <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">📢 공지 · 이벤트</h1>
+          {/* 이모지 대신 흰 선 확성기 — 메뉴 "공지/이벤트"와 같은 아이콘 (사장님 지시 10/11) */}
+          <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2 flex items-center gap-2 md:gap-3"><IconMegaphone className="w-6 h-6 md:w-8 md:h-8 text-white/90" />공지 · 이벤트</h1>
           <p className="text-emerald-100 text-sm md:text-lg">특가 소식과 새로운 상품 안내</p>
           {/* 제목줄을 눌러도 아무 일이 없어 배달못한클릭 4회 (클래리티 2026-10-09) — 첫 특가 상품으로 가는 버튼 */}
           {firstLinkedTour && (

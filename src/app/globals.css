@@ -18,6 +18,12 @@
   --color-brand-blue: #2457C5;
   --color-deep-blue: #17345F;
   --color-accent-teal: #008F78;
+  /* 페이지 제목 띠(넓은 면적) — 역할로 두 가지 (사장님 확정 3안, 10/11)
+     상품을 '고르는 곳'(상품 탐색·구매)     → hero-commerce #008F78
+     정보를 '읽고 확인하는 곳'(소개·후기·조회·공지·회사) → hero-info #007F73
+     선택 칩·작은 강조는 accent-teal 그대로. 새 초록을 페이지마다 더하지 않는다 */
+  --color-hero-commerce: #008F78;
+  --color-hero-info: #007F73;
   --color-light-teal: #EAF8F4;
   --color-soft-blue: #EEF4FF;
   --color-main-text: #17233B;
@@ -68,6 +74,8 @@
   --brand-blue: #2457C5;
   --deep-blue: #17345F;
   --accent-teal: #008F78;
+  --hero-commerce: #008F78;
+  --hero-info: #007F73;
   --light-teal: #EAF8F4;
   --soft-blue: #EEF4FF;
   --main-text: #17233B;

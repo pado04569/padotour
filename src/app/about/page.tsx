@@ -15,8 +15,8 @@ export default function AboutPage() {
   return (
     <div className="bg-white min-h-screen">
 
-      {/* 히어로 — 회사소개 첫 화면은 브랜드 영역이라 BLUE (사장님 확정 10/10, 그라데이션 없이 단색) */}
-      <div className="bg-brand-blue text-white py-16 px-4 text-center">
+      {/* 히어로 — 회사·브랜드 소개는 '읽고 확인하는 곳' → Info Hero 딥틸 (사장님 확정 3안 10/11, 10/10의 파랑에서 변경) */}
+      <div className="bg-hero-info text-white py-16 px-4 text-center">
         <p className="text-white/75 text-sm font-semibold mb-2 tracking-widest">ABOUT US</p>
         <h1 className="text-3xl md:text-4xl font-black mb-3">여행의 파도를 소개합니다</h1>
         <p className="text-white/85 text-base">골프를 사랑하는 모든 분들의 최고의 여행 파트너</p>

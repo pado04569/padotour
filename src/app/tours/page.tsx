@@ -6,6 +6,7 @@ import TourCard from "@/components/TourCard";
 import { tours, countries } from "@/data/tours";
 import { useSearchParams } from "next/navigation";
 import { IconChevron } from "@/components/icons/Chevron";
+import { IconFlag } from "@/components/icons/MenuIcons";
 import RegionNavigator, { type RegionOption } from "@/components/RegionNavigator";
 import DepartureSearch, { type SearchPatch } from "@/components/DepartureSearch";
 import type { Tour } from "@/data/tours";
@@ -242,15 +243,16 @@ function ToursContent() {
     <div>
       {/* 헤더 */}
       {regionParam ? (
-        <section className="bg-emerald-600 text-white py-2">
+        <section className="bg-hero-commerce text-white py-2">
           <div className="max-w-6xl mx-auto px-4">
             <p className="text-white font-bold text-base md:text-lg">{regionParam === "괌" ? "괌/사이판" : regionParam} 골프여행 패키지</p>
           </div>
         </section>
       ) : (
-        <section className="bg-emerald-400 text-white py-7 md:py-12">
+        <section className="bg-hero-commerce text-white py-7 md:py-12">
           <div className="max-w-6xl mx-auto px-4">
-            <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">⛳ 골프여행 상품</h1>
+            {/* 이모지 대신 흰 선 깃발 — 제목보다 튀지 않게 살짝 작고 흐리게 (사장님 지시 10/11) */}
+            <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2 flex items-center gap-2 md:gap-3"><IconFlag className="w-6 h-6 md:w-8 md:h-8 text-white/90" />골프여행 상품</h1>
             <p className="text-white/[0.82] text-sm md:text-lg">일본·중국·동남아 골프여행 전문 패키지</p>
           </div>
         </section>
@@ -340,7 +342,7 @@ function ToursContent() {
               )
             ) : (
               <div className="text-center py-16 md:py-20 text-gray-400">
-                <div className="text-5xl md:text-6xl mb-4">⛳</div>
+                <div className="flex justify-center mb-4 text-gray-300"><IconFlag className="w-12 h-12 md:w-14 md:h-14" /></div>
                 <p className="text-lg md:text-xl">준비 중인 상품입니다.</p>
                 <p className="mt-2 text-sm md:text-base">카카오톡으로 문의해 주세요!</p>
               </div>

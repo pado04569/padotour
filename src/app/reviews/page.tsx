@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 export default function ReviewsPage() {
   return (
     <div>
-      <section className="bg-emerald-400 text-white py-7 md:py-12">
+      <section className="bg-hero-info text-white py-7 md:py-12">
         <div className="max-w-6xl mx-auto px-4">
           {/* 제목 변경 (사장님 확정 2026-10-10) — '실제 고객'을 지나치게 강조하지 않는다 */}
           <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">여행의 파도 고객 여행후기</h1>
