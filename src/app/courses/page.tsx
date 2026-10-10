@@ -73,8 +73,8 @@ export default async function CoursesPage({
       {/* 나라·지역으로 찾기 — 탐색형 (사장님 확정 G3, 2026-10-09). 메인은 나라 타일(G1), 여기서는 지역까지 바로 고른다 */}
       {!isFiltered && (
         <section className="max-w-6xl mx-auto px-4 pt-8 md:pt-10">
-          <h2 className="text-lg md:text-xl font-black text-gray-800 mb-1">나라·지역으로 찾기</h2>
-          <p className="text-gray-600 text-[15px] mb-4 break-keep">나라를 누르면 그 나라 골프장 전체, 지역을 누르면 그 지역 골프장만 보여드려요.</p>
+          <h2 className="text-lg md:text-xl font-black text-gray-800 mb-1">국가·지역으로 찾기</h2>
+          <p className="text-gray-600 text-[15px] mb-4 break-keep">국가를 누르면 그 국가 골프장 전체, 지역을 누르면 그 지역 골프장만 보여드려요.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
             {groups.map((g) => (
               <div key={g.key} className="flex gap-3 md:gap-4 p-3 border border-gray-200 rounded-2xl bg-white">

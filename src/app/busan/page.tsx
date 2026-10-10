@@ -88,11 +88,13 @@ export default function BusanHome() {
         </div>
       </div>
 
-      {/* ===== 이 달의 골프여행 (4열) ===== */}
+      {/* ===== 지금 떠나기 좋은 골프여행 (4열) ===== */}
       <section className="max-w-6xl mx-auto px-4 py-8 md:py-12">
-        <h2 className="text-xl md:text-2xl font-black text-gray-800 mb-5 pb-2 border-b-2 border-blue-500 inline-block">
-          이 달의 골프여행
+        {/* 제목 변경 (사장님 확정 O3, 2026-10-10): "이 달의 골프여행" → "지금 떠나기 좋은 골프여행" */}
+        <h2 className="text-xl md:text-2xl font-black text-gray-800 pb-2 border-b-2 border-blue-500 inline-block">
+          지금 떠나기 좋은 골프여행
         </h2>
+        <p className="text-gray-500 text-[15px] md:text-base mt-2 mb-4 md:mb-5 break-keep">계절과 출발 시기에 맞춰 골라본 추천 골프여행</p>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-5">
           {monthlyTours.map((tour) => (
             <Link key={tour.id} href={`/tours/${tour.id}`} className="group block">
@@ -120,43 +122,20 @@ export default function BusanHome() {
         </div>
       </section>
 
-      {/* ===== 나라별 골프장 소개 — 국가 메뉴 줄에서 옮겨 옴 (사장님 확정 G1, 2026-10-09) ===== */}
-      <CountryCourseTiles />
-
-      {/* ===== 프로모션 배너 ===== */}
-      <section className="max-w-6xl mx-auto px-4">
-        <Link href="/tours?country=japan&departure=busan" className="block relative overflow-hidden rounded-xl group">
-          <img
-            src="/images/golf-main.jpg"
-            alt="일본 골프여행 특가"
-            loading="lazy"
-            decoding="async"
-            className="w-full h-64 md:h-[32rem] object-cover group-hover:scale-105 transition-transform duration-500"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/45 via-black/20 to-transparent flex items-center px-8 md:px-12">
-            <div className="text-white">
-              <div className="text-xs md:text-sm font-bold text-yellow-300 mb-1">일본 골프</div>
-              <div className="text-xl md:text-3xl font-black leading-tight">
-                가고시마 · 후쿠오카 · 구마모토<br />
-                <span className="text-yellow-300">프리미엄 골프여행</span>
-              </div>
-              <div className="text-white/80 mt-1.5 text-xs md:text-sm">부산·김해공항 출발 · 항공 + 숙박 + 골프장 일괄 예약</div>
-            </div>
-          </div>
-        </Link>
-      </section>
-
       {/* ===== 전체 상품 보기 ===== */}
       <section className="max-w-6xl mx-auto px-4 py-6">
         <div className="text-center">
           <Link
             href="/tours?departure=busan"
-            className="inline-block min-w-[340px] border-2 border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-700 font-bold px-8 py-3 rounded-full text-base transition-colors"
+            className="inline-flex items-center justify-center gap-1 w-full max-w-[340px] min-h-[52px] px-8 rounded-full border-2 font-bold text-base transition-colors border-blue-600 text-blue-600 hover:bg-blue-50 hover:text-blue-700"
           >
             전체 상품 보기 ({allBusanTours.length}개)
           </Link>
         </div>
       </section>
+
+      {/* ===== 국가별 골프장 소개 — 전체 상품 보기 바로 아래 (사장님 확정 O3, 2026-10-10). 중간 일본 배너는 첫 화면 사진과 겹쳐 뺐다 ===== */}
+      <CountryCourseTiles />
 
     </div>
   );

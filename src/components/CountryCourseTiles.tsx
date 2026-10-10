@@ -9,10 +9,10 @@ export default function CountryCourseTiles() {
   return (
     <section className="max-w-6xl mx-auto px-4 pb-10 md:pb-14">
       <h2 className="text-xl md:text-2xl font-black text-gray-800 pb-2 border-b-2 border-emerald-500 inline-block">
-        나라별 골프장 소개
+        국가별 골프장 소개
       </h2>
       <p className="text-gray-600 text-[15px] md:text-base mt-2.5 mb-5 break-keep">
-        여행 전 실제 라운딩할 골프장을 나라별로 미리 확인해 보세요.
+        여행 전 실제 라운딩할 골프장을 국가별로 미리 확인해 보세요.
       </p>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4">
@@ -55,7 +55,7 @@ export default function CountryCourseTiles() {
       <div className="text-center mt-6">
         <Link
           href="/courses"
-          className="inline-flex items-center justify-center gap-1 min-h-12 px-8 rounded-full border-2 border-emerald-600 text-emerald-700 hover:bg-emerald-50 font-bold text-base transition-colors"
+          className="inline-flex items-center justify-center gap-1 w-full max-w-[340px] min-h-[52px] px-8 rounded-full border-2 font-bold text-base transition-colors border-emerald-600 text-emerald-700 hover:bg-emerald-50"
         >
           골프장 전체보기
           <IconChevron className="w-4 h-4" />
