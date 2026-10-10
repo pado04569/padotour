@@ -31,8 +31,10 @@ const info = {
     blog: "https://blog.naver.com/padoro-52so",
     band: "https://band.us/@padoro52so",
   },
+  // 출발지를 고르지 않고 들어온 손님(회사소개 등)에게도 대표 휴대폰이 먼저 보이게 (사장님 지시 2026-10-10)
   default: {
     phones: [
+      { href: "tel:01053015250", label: "010-5301-5250" },
       { href: "tel:0264015252", label: "02-6401-5252" },
       { href: "tel:07047985252", label: "070-4798-5252 (부산)" },
     ],

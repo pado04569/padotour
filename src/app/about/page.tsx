@@ -25,13 +25,14 @@ export default function AboutPage() {
       <div className="max-w-3xl mx-auto px-4 py-12">
 
         {/* 대표자의 말 */}
-        <section className="mb-14">
-          <h2 className="text-xl font-black text-gray-800 mb-6 pb-2 border-b-2 border-emerald-500 inline-block">
+        <section>
+          {/* 제목 사이 40px, 본문 전 24px — 섹션 제목보다 조금 크게, 히어로만큼은 크지 않게 (사장님 지시 10/10) */}
+          <h2 className="text-xl font-black text-gray-800 mb-10 pb-2 border-b-2 border-emerald-500 inline-block">
             대표자의 말
           </h2>
 
-          <h3 id="why-padotour" className="text-2xl md:text-3xl font-black text-gray-800 text-center mb-8 scroll-mt-24">
-            왜 &apos;여행의파도&apos;일까요?
+          <h3 id="why-padotour" className="text-[22px] md:text-3xl font-black text-gray-800 text-center mb-6 scroll-mt-24">
+            왜 ‘여행의 파도’일까요?
           </h3>
 
           <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 max-w-2xl mx-auto">
@@ -76,52 +77,17 @@ IMF 외환위기 때 금 모으기 운동에
             <div className="w-56 h-64 rounded-2xl overflow-hidden border border-gray-100">
               <img src="/images/about/ceo.jpg" alt="이지안 대표" className="w-full h-full object-cover" />
             </div>
-            <p className="text-center mt-2 text-xs text-gray-500 w-56">여행의파도 이지안 대표 올림</p>
+            {/* 서명 — 기존 사진 아래 문구를 서명처럼 정리 */}
+            <p className="text-center mt-3 text-[15px] leading-snug text-gray-800">
+              여행의 파도
+              <br />
+              <span className="font-bold">대표 이지안</span>
+            </p>
           </div>
         </section>
 
-        {/* 핵심 가치 */}
-        <section className="mb-14">
-          <h2 className="text-xl font-black text-gray-800 mb-6 pb-2 border-b-2 border-emerald-500 inline-block">
-            여행의 파도가 약속하는 것
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[
-              { icon: "⛳", title: "골프 전문성", desc: "골프 여행만을 위한\n특화된 노하우" },
-              { icon: "🤝", title: "신뢰와 안전", desc: "서울보증보험 가입\n여행사 보증" },
-              { icon: "✈️", title: "합리적인 가격", desc: "직접 계약으로\n투명한 가격 제공" },
-            ].map((item) => (
-              <div key={item.title} className="bg-emerald-50 rounded-2xl p-6 text-center border border-emerald-100">
-                <div className="text-4xl mb-3">{item.icon}</div>
-                <h3 className="font-black text-gray-800 mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-600 whitespace-pre-line">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* 문의 */}
-        <section className="bg-blue-600 rounded-2xl p-6 text-white text-center">
-          <h3 className="text-lg font-black mb-1">궁금한 점이 있으신가요?</h3>
-          <p className="text-blue-200 text-sm mb-4">카카오톡 또는 전화로 편하게 문의해 주세요</p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <a
-              href="https://pf.kakao.com/_bxoxnXxj/chat"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-black px-6 py-3 rounded-full text-sm transition-colors"
-            >
-              💬 카카오톡 문의
-            </a>
-            <a
-              href="tel:010-5301-5250"
-              className="bg-white/20 hover:bg-white/30 text-white font-bold px-6 py-3 rounded-full text-sm transition-colors"
-            >
-              📞 010-5301-5250
-            </a>
-          </div>
-        </section>
-
+        {/* "여행의 파도가 약속하는 것" 카드와 파란 문의 상자는 없앴다 — 대표자의 말로 신뢰를 드리고,
+            문의는 바로 아래 공통 상담 카드(전화·카카오)가 맡는다 (사장님 결정 2026-10-10) */}
       </div>
     </div>
   );
