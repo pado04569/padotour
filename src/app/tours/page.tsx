@@ -132,11 +132,11 @@ function ToursContent() {
         {filtered.length > 0 ? (
           <>
             <div className="px-4 py-3.5 rounded-2xl bg-emerald-50 border-[1.5px] border-emerald-200 mb-4">
-              <p className="text-[17px] md:text-lg font-black text-slate-900">
+              <p className="text-[17px] md:text-lg font-black text-emerald-800">
                 {dateParam ? `${dateLabel(dateParam)} 정확히 출발 가능한 상품 ${filtered.length}개` : `조건에 맞는 상품 ${filtered.length}개`}
               </p>
-              <p className="text-sm text-slate-600 mt-0.5">{conditionText}</p>
-              {dateParam && <p className="text-sm text-slate-600">카드의 요금은 {dateLabel(dateParam, "plain")} 출발 1인 요금입니다.</p>}
+              <p className="text-sm text-body-text mt-0.5">{conditionText}</p>
+              {dateParam && <p className="text-sm text-body-text">카드의 요금은 {dateLabel(dateParam, "plain")} 출발 1인 요금입니다.</p>}
             </div>
             <div className={grid}>{filtered.map(card)}</div>
           </>
@@ -251,7 +251,7 @@ function ToursContent() {
         <section className="bg-emerald-400 text-white py-7 md:py-12">
           <div className="max-w-6xl mx-auto px-4">
             <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">⛳ 골프여행 상품</h1>
-            <p className="text-emerald-100 text-sm md:text-lg">일본·중국·동남아 골프여행 전문 패키지</p>
+            <p className="text-white/[0.82] text-sm md:text-lg">일본·중국·동남아 골프여행 전문 패키지</p>
           </div>
         </section>
       )}

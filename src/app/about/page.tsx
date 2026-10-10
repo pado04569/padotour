@@ -15,11 +15,11 @@ export default function AboutPage() {
   return (
     <div className="bg-white min-h-screen">
 
-      {/* 히어로 */}
-      <div className="bg-gradient-to-br from-emerald-800 to-emerald-600 text-white py-16 px-4 text-center">
-        <p className="text-emerald-200 text-sm font-semibold mb-2 tracking-widest">ABOUT US</p>
+      {/* 히어로 — 회사소개 첫 화면은 브랜드 영역이라 BLUE (사장님 확정 10/10, 그라데이션 없이 단색) */}
+      <div className="bg-brand-blue text-white py-16 px-4 text-center">
+        <p className="text-white/75 text-sm font-semibold mb-2 tracking-widest">ABOUT US</p>
         <h1 className="text-3xl md:text-4xl font-black mb-3">여행의 파도를 소개합니다</h1>
-        <p className="text-emerald-100 text-base">골프를 사랑하는 모든 분들의 최고의 여행 파트너</p>
+        <p className="text-white/85 text-base">골프를 사랑하는 모든 분들의 최고의 여행 파트너</p>
       </div>
 
       <div className="max-w-3xl mx-auto px-4 py-12">
@@ -27,11 +27,11 @@ export default function AboutPage() {
         {/* 대표자의 말 */}
         <section>
           {/* 제목 사이 40px, 본문 전 24px — 섹션 제목보다 조금 크게, 히어로만큼은 크지 않게 (사장님 지시 10/10) */}
-          <h2 className="text-xl font-black text-gray-800 mb-10 pb-2 border-b-2 border-emerald-500 inline-block">
+          <h2 className="text-xl font-black text-charcoal mb-10 pb-2 border-b-2 border-emerald-500 inline-block">
             대표자의 말
           </h2>
 
-          <h3 id="why-padotour" className="text-[22px] md:text-3xl font-black text-gray-800 text-center mb-6 scroll-mt-24">
+          <h3 id="why-padotour" className="text-[22px] md:text-3xl font-black text-charcoal text-center mb-6 scroll-mt-24">
             왜 ‘여행의 파도’일까요?
           </h3>
 
@@ -79,7 +79,7 @@ IMF 외환위기 때 금 모으기 운동에
               <img src="/images/about/ceo.jpg" alt="이지안 대표" className="w-full h-full object-cover" />
             </div>
             {/* 서명 — 기존 사진 아래 문구를 서명처럼 정리 */}
-            <p className="text-center mt-3 text-[15px] leading-snug text-gray-800">
+            <p className="text-center mt-3 text-[15px] leading-snug text-charcoal">
               여행의 파도
               <br />
               <span className="font-bold">대표 이지안</span>

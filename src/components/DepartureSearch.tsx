@@ -53,7 +53,7 @@ function Stepper({ value, onChange, compact }: { value: number; onChange: (n: nu
 
 export function SortBar({ sort, hrefFor }: { sort: SortKey; hrefFor: (s: SortKey) => string }) {
   return (
-    <nav aria-label="정렬" className="grid grid-cols-3 w-full md:w-auto md:max-w-[480px] rounded-xl border-[1.5px] border-slate-300 overflow-hidden bg-white">
+    <nav aria-label="정렬" className="grid grid-cols-3 w-full md:w-auto md:max-w-[480px] rounded-xl border-[1.5px] border-[#D9E1EA] overflow-hidden bg-white">
       {SORTS.map((s, i) => (
         <Link
           key={s.key}
@@ -61,8 +61,9 @@ export function SortBar({ sort, hrefFor }: { sort: SortKey; hrefFor: (s: SortKey
           scroll={false}
           replace
           aria-current={sort === s.key ? "true" : undefined}
-          className={`flex items-center justify-center min-h-[46px] px-1 text-[15px] whitespace-nowrap transition-colors ${i ? "border-l-[1.5px] border-slate-300" : ""} ${
-            sort === s.key ? "bg-slate-900 text-white font-extrabold" : "text-slate-700 font-semibold hover:bg-slate-50"
+          className={`flex items-center justify-center min-h-[46px] px-1 text-[15px] whitespace-nowrap transition-colors ${i ? "border-l-[1.5px] border-[#D9E1EA]" : ""} ${
+            // 선택된 정렬 = Brand Blue (검정 선택 상태는 쓰지 않는다 — 사장님 지시 10/10)
+            sort === s.key ? "bg-brand-blue text-white font-extrabold" : "text-main-text font-semibold hover:bg-page-bg"
           }`}
         >
           {s.label}
@@ -116,7 +117,8 @@ export default function DepartureSearch({
               </span>
               <span className="text-[13px] text-slate-500">출발일 · 여행지 · 인원</span>
             </span>
-            <span className="flex-none inline-flex items-center min-h-11 px-4 rounded-full bg-emerald-600 text-white text-[15px] font-extrabold whitespace-nowrap">조건 바꾸기</span>
+            {/* 행동 버튼 — 선택된 필터(초록 꽉 찬 알약)와 구분되게 테두리형 */}
+            <span className="flex-none inline-flex items-center min-h-11 px-4 rounded-full border-[1.5px] border-accent-teal bg-white text-emerald-700 text-[15px] font-extrabold whitespace-nowrap">조건 바꾸기</span>
           </button>
         ) : (
           // 검색 전 — 상세 검색. 휴대폰은 [출발일|여행지] / [인원|상품 찾기] 2줄
@@ -143,7 +145,7 @@ export default function DepartureSearch({
               <Link
                 href={searchHref}
                 scroll={false}
-                className="flex items-center justify-center gap-1.5 min-h-14 px-6 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-[17px] font-extrabold whitespace-nowrap"
+                className="flex items-center justify-center gap-1.5 min-h-14 px-6 rounded-xl bg-brand-blue hover:bg-blue-700 text-white text-[17px] font-extrabold whitespace-nowrap"
               >
                 <IconSearch />상품 찾기
               </Link>
@@ -337,7 +339,7 @@ function ConditionSheet({
           href={resultHref}
           scroll={false}
           onClick={onClose}
-          className="mt-4 flex items-center justify-center gap-1.5 min-h-14 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-lg font-extrabold"
+          className="mt-4 flex items-center justify-center gap-1.5 min-h-14 rounded-xl bg-brand-blue hover:bg-blue-700 text-white text-lg font-extrabold"
         >
           <IconSearch />
           {count > 0 ? `상품 ${count}개 보기` : "상품 보기"}

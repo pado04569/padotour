@@ -108,7 +108,7 @@ export default function ContactOptions({
     <div className="relative">
       <button
         onClick={toggleOpen}
-        className="w-full bg-blue-100 hover:bg-blue-200 text-blue-700 border border-blue-200 font-black px-8 py-4 rounded-2xl text-base transition-colors flex items-center justify-center gap-2"
+        className="w-full bg-brand-blue hover:bg-blue-700 text-white border border-brand-blue font-black px-8 py-4 rounded-2xl text-base transition-colors flex items-center justify-center gap-2"
       >
         📞 예약 문의 · 맞춤 견적
         <IconChevron dir={open ? "up" : "down"} className="w-5 h-5" />

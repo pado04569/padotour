@@ -1,8 +1,79 @@
 @import "tailwindcss";
 
+/*
+ * 여행의 파도 브랜드 컬러 시스템 (사장님 확정 2026-10-10, 2차: 파랑 #2457C5 · 딥틸 #008F78)
+ *   BLUE + WHITE = 브랜드 핵심 (브랜드·회사·신뢰·상담·행동 버튼·정렬 선택)
+ *   ACCENT TEAL  = 선택된 필터(국가·지역·날짜)와 골프 구분 요소 — 큰 면적에 진하게 반복하지 않는다
+ *   LIGHT TEAL / SOFT BLUE / BACKGROUND / WHITE = 배경·정보 계층
+ *   YELLOW       = 카카오톡 전용에 가깝게
+ *
+ * 사이트 곳곳의 emerald(초록)·blue(파랑) 클래스를 하나씩 고치지 않고,
+ * 색 단계 자체를 브랜드 색 기준으로 바꿔 한 번에 통일한다. (배치·크기는 그대로)
+ *   emerald-600 = Accent Teal #008F78, emerald-50 = Light Teal #EAF8F4, emerald-200 = #BFE9DE, emerald-800 = #006E5D
+ *   blue-600    = Brand Blue  #2457C5, blue-50    = Soft Blue  #EEF4FF, blue-900   = Deep Blue #17345F
+ *   yellow-400  = Kakao Yellow #FEE500
+ * 새 색은 아래 토큰에서만 고른다.
+ */
+@theme {
+  --color-brand-blue: #2457C5;
+  --color-deep-blue: #17345F;
+  --color-accent-teal: #008F78;
+  --color-light-teal: #EAF8F4;
+  --color-soft-blue: #EEF4FF;
+  --color-main-text: #17233B;
+  --color-body-text: #344054;
+  --color-line: #E5EAF0;
+  --color-page-bg: #F7F9FC;
+  --color-kakao-yellow: #FEE500;
+  /* 1차 이름 — 같은 색을 가리키도록 남겨 둔다 */
+  --color-deep-navy: #17345F;
+  --color-sea-green: #008F78;
+  --color-soft-mint: #EAF8F4;
+  --color-ice-blue: #EEF4FF;
+  --color-charcoal: #17233B;
+  --color-slate-ink: #66758A;
+
+  --color-emerald-50: #EAF8F4;
+  --color-emerald-100: #D3F1E9;
+  --color-emerald-200: #BFE9DE;
+  --color-emerald-300: #86D3C1;
+  --color-emerald-400: #008F78; /* 페이지 상단 초록 띠(예전 형광 민트) → Accent Teal */
+  --color-emerald-500: #00987F;
+  --color-emerald-600: #008F78;
+  --color-emerald-700: #007C69;
+  --color-emerald-800: #006E5D;
+  --color-emerald-900: #005448;
+  --color-emerald-950: #003A32;
+
+  --color-blue-50: #EEF4FF;
+  --color-blue-100: #DDE8FB;
+  --color-blue-200: #BFD2F5;
+  --color-blue-300: #94B3EC;
+  --color-blue-400: #5F8AE0;
+  --color-blue-500: #3B6BD3;
+  --color-blue-600: #2457C5;
+  --color-blue-700: #1D47A3;
+  --color-blue-800: #1B3E80;
+  --color-blue-900: #17345F;
+  --color-blue-950: #0F2340;
+
+  --color-yellow-400: #FEE500;
+  --color-yellow-500: #F2DA00;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* 지시서의 이름 그대로도 쓸 수 있게 */
+  --brand-blue: #2457C5;
+  --deep-blue: #17345F;
+  --accent-teal: #008F78;
+  --light-teal: #EAF8F4;
+  --soft-blue: #EEF4FF;
+  --main-text: #17233B;
+  --border: #E5EAF0;
+  --page-bg: #F7F9FC;
+  --kakao-yellow: #FEE500;
 }
 
 html {

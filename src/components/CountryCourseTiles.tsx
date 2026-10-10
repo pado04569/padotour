@@ -6,6 +6,8 @@ import { IconChevron } from "@/components/icons/Chevron";
 // 골프장 이름만 나열하면 고객이 모른다 → 나라 이름·곳 수·대표 지역을 먼저 보여주고, 자세한 탐색은 /courses(G3)에서.
 export default function CountryCourseTiles() {
   const groups = buildCourseGroups();
+  // 등록된 골프장 수 — /courses 의 "총 N곳"과 같은 자료에서 자동 계산 (사장님 지시 10/10, 하드코딩 금지)
+  const total = groups.reduce((n, g) => n + g.count, 0);
   return (
     <section className="max-w-6xl mx-auto px-4 pb-10 md:pb-14">
       <h2 className="text-xl md:text-2xl font-black text-gray-800 pb-2 border-b-2 border-emerald-500 inline-block">
@@ -57,8 +59,8 @@ export default function CountryCourseTiles() {
           href="/courses"
           className="inline-flex items-center justify-center gap-1 w-full max-w-[340px] min-h-[52px] px-8 rounded-full border-2 font-bold text-base transition-colors border-emerald-600 text-emerald-700 hover:bg-emerald-50"
         >
-          골프장 전체보기
-          <IconChevron className="w-4 h-4" />
+          {/* "전체 상품 보기 (48개)"와 같은 표기 — 화살표 없이 개수만 */}
+          골프장 전체보기 ({total}개)
         </Link>
       </div>
     </section>

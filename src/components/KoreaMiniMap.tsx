@@ -32,7 +32,7 @@ export default function KoreaMiniMap({ selected, variant }: { selected: Dep; var
     return (
       <svg viewBox="-10 -10 420 560" className="w-full h-full" aria-hidden="true">
         <path d={OUTLINE} fill="#EFF6FF" stroke="#93C5FD" strokeWidth={14} strokeLinejoin="round" />
-        <circle cx={x} cy={y} r={52} fill="#1D4ED8" stroke="#fff" strokeWidth={16} />
+        <circle cx={x} cy={y} r={52} fill="#2457C5" stroke="#fff" strokeWidth={16} />
       </svg>
     );
   }
@@ -42,8 +42,8 @@ export default function KoreaMiniMap({ selected, variant }: { selected: Dep; var
     <svg viewBox="-20 -20 440 580" className="w-full h-full" aria-hidden="true">
       <path d={OUTLINE} fill="#F1F5F9" stroke="#CBD5E1" strokeWidth={6} strokeLinejoin="round" />
       <circle cx={POINT[other][0]} cy={POINT[other][1]} r={20} fill="#fff" stroke="#CBD5E1" strokeWidth={8} />
-      <circle cx={POINT[selected][0]} cy={POINT[selected][1]} r={56} fill="#1D4ED8" opacity={0.15} />
-      <circle cx={POINT[selected][0]} cy={POINT[selected][1]} r={30} fill="#1D4ED8" stroke="#fff" strokeWidth={10} />
+      <circle cx={POINT[selected][0]} cy={POINT[selected][1]} r={56} fill="#2457C5" opacity={0.15} />
+      <circle cx={POINT[selected][0]} cy={POINT[selected][1]} r={30} fill="#2457C5" stroke="#fff" strokeWidth={10} />
     </svg>
   );
 }

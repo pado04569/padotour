@@ -32,7 +32,7 @@ export function Sentences({
 
 /**
  * 일정처럼 "A → B → C" 로 이어지는 글을 단계마다 줄을 나눈다.
- * 화살표는 줄 끝에 남겨 이어진다는 것을 보여준다.
+ * 위에서 아래로 읽히므로 줄 끝 화살표는 붙이지 않는다 — 초록 "→"가 링크처럼 보였다 (사장님 지시 2026-10-10)
  */
 export function Steps({
   text,
@@ -53,7 +53,6 @@ export function Steps({
       {steps.map((step, i) => (
         <li key={i} className={className}>
           {step}
-          {i < steps.length - 1 && <span className="text-emerald-500 font-bold"> →</span>}
         </li>
       ))}
     </ol>

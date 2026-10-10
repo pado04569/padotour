@@ -69,9 +69,9 @@ export default function Footer({ departure }: FooterProps) {
   const card =
     "flex flex-col md:flex-row items-start md:items-center gap-2.5 md:gap-3.5 p-3.5 md:px-5 md:py-4 rounded-2xl bg-white border border-slate-200 hover:border-blue-300 hover:shadow-sm transition text-left";
 
-  const menu: { label: string; href: string; external?: boolean; key?: boolean }[] = [
-    { label: "회사소개", href: "/about" },
-    { label: "왜 여행의 파도인가요?", href: "/about#why-padotour", key: true },
+  // "왜 여행의 파도인가요?"는 일반 메뉴가 아니라 회사소개 대표 링크 — 메뉴 목록 밖에 따로 두고,
+  // 같은 곳으로 가는 "회사소개"는 뺐다 (사장님 지시 2026-10-10)
+  const menu: { label: string; href: string; external?: boolean }[] = [
     { label: "골프장 소개", href: "/courses" },
     { label: "고객 후기", href: "/reviews" },
     { label: "예약/문의 확인", href: "/my-inquiries" },
@@ -133,18 +133,17 @@ export default function Footer({ departure }: FooterProps) {
 
             {/* 빠른 메뉴 */}
             <div>
-              <h3 className="text-base font-extrabold text-white mb-2">빠른 메뉴</h3>
+              {/* "빠른 메뉴" 제목은 뺐다 — 회사소개 대표 링크와 바로가기 목록에 맞지 않는 이름 (사장님 지시 10/10) */}
+              {/* 대표 링크 — 상담센터 대표 전화번호와 같은 크기·굵기·색 (체크만 흰색), 2열 메뉴 밖에서 한 줄 전체 */}
+              <Link href="/about#why-padotour" className="flex items-center gap-1.5 min-h-11 mb-1 text-2xl font-black text-blue-300 hover:text-blue-200">
+                <svg viewBox="0 0 24 24" className="w-6 h-6 flex-none text-white" fill="none" stroke="currentColor" strokeWidth={2.4} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
+                왜 여행의 파도인가요?
+              </Link>
               <ul className="grid grid-cols-2 gap-x-4">
                 {menu.map((m) => (
                   <li key={m.label}>
                     {m.external ? (
                       <a href={m.href} target="_blank" rel="noopener noreferrer" className="flex items-center min-h-10 text-[15px] text-slate-200 hover:text-white">{m.label}</a>
-                    ) : m.key ? (
-                      // 핵심 신뢰 페이지 — 한 단계만 강조 (굵게·흰색·체크, 마우스 올리면 브랜드 블루) (사장님 요청 10/10)
-                      <Link href={m.href} className="flex items-center gap-1 min-h-10 text-[15px] font-bold text-white hover:text-blue-300">
-                        <svg viewBox="0 0 24 24" className="w-4 h-4 flex-none text-blue-300" fill="none" stroke="currentColor" strokeWidth={2.4} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
-                        {m.label}
-                      </Link>
                     ) : (
                       <Link href={m.href} className="flex items-center min-h-10 text-[15px] text-slate-200 hover:text-white">{m.label}</Link>
                     )}
@@ -154,9 +153,10 @@ export default function Footer({ departure }: FooterProps) {
             </div>
           </div>
 
+          {/* 맨 아래 여백: 휴대폰 44px + 아이폰 홈 표시줄 안전 영역(사이트 다른 곳에 safe-area 처리 없음). 떠 있는 카카오 버튼 때문에 늘리지 않는다 (사장님 지시 10/10) */}
           {/* 사업자 정보 — 읽을 수는 있되 브랜드·상담보다 약하게. 값은 기존 그대로
               휴대폰은 가운데 정렬 + 의미 단위로만 줄바꿈(각 묶음 nowrap), PC는 가로형 그대로 (사장님 요청 10/10) */}
-          <div className="border-t border-white/10 pt-5 pb-24 md:py-6 text-[13px] md:text-sm leading-relaxed text-slate-400 break-keep text-center md:text-left">
+          <div className="border-t border-white/10 pt-5 pb-[calc(44px+env(safe-area-inset-bottom))] md:py-6 text-[13px] md:text-sm leading-relaxed text-slate-400 break-keep text-center md:text-left">
             <p className="flex flex-wrap justify-center md:justify-start gap-x-1.5 md:gap-x-3">
               <span className="whitespace-nowrap">상호 여행의 파도</span>
               <span className="md:hidden" aria-hidden="true">·</span>

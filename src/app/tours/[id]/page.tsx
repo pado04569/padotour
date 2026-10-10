@@ -9,6 +9,7 @@ import ContactOptions from "@/components/ContactOptions";
 import ViewItemTracker from "@/components/ViewItemTracker";
 import ShareButton from "@/components/ShareButton";
 import { Sentences, Steps } from "@/components/ReadableText";
+import { IconCalendarDays, IconCircleHelp } from "@/components/icons/MenuIcons";
 import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "@/data/cancelPolicy";
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
 import { tourFaqs } from "@/lib/tourFaq";
@@ -453,14 +454,14 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* 두 박스도 카드처럼 보여 눌러도 반응이 없었다(클래리티 배달못한클릭, 2026-09-21 녹화 확인:
             "그린피 + 카트피 + 락카피" 클릭) → 문의 폼으로 스크롤하게 만든다 */}
         <div className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Link href="#inquiry" className="block bg-green-50 hover:bg-green-100 rounded-2xl p-5 border border-green-100 transition-colors">
-            <h3 className="font-black text-green-800 mb-3 flex items-center gap-2">
+          <Link href="#inquiry" className="block bg-emerald-50 hover:bg-emerald-100 rounded-2xl p-5 border border-emerald-100 transition-colors">
+            <h3 className="font-black text-emerald-800 mb-3 flex items-center gap-2">
               <span className="text-lg">✅</span> 포함 내역
             </h3>
             <ul className="space-y-1.5">
               {tour.includes.map((item, i) => (
                 <li key={i} className="text-sm text-gray-700 flex items-center gap-2">
-                  <span className="text-green-500">•</span> {item}
+                  <span className="text-emerald-500">•</span> {item}
                 </li>
               ))}
             </ul>
@@ -482,7 +483,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 여행 일정 ── */}
         {tour.schedule && tour.schedule.length > 0 && (
           <div className="mb-8">
-            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📋 {tour.region} 골프여행 {tierNightsRange ?? stayText(tour.nights, tour.days)} 일정</h2>
+            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-accent-teal inline-flex items-center gap-1.5"><span className="text-brand-blue"><IconCalendarDays /></span>{tour.region} 골프여행 {tierNightsRange ?? stayText(tour.nights, tour.days)} 일정</h2>
             <div className="space-y-3">
               {tour.schedule.map((s, i) => (
                 <div key={i} className="flex gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
@@ -502,7 +503,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 자주 묻는 질문 ── */}
         {/* 답은 전부 상품 데이터에서 뽑는다 — 데이터에 없는 질문은 나오지 않는다 (src/lib/tourFaq.ts) */}
         <div className="mb-8">
-          <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">❓ {tour.region} 골프여행 자주 묻는 질문</h2>
+          <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-accent-teal inline-flex items-center gap-1.5"><span className="text-brand-blue"><IconCircleHelp /></span>{tour.region} 골프여행 자주 묻는 질문</h2>
           <div className="space-y-2">
             {faqs.map((f, i) => (
               <details key={i} className="group bg-gray-50 border border-gray-100 rounded-xl">
@@ -523,9 +524,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
         {/* ── 예약 문의 · 맞춤 견적 ── */}
         {/* id="inquiry" — 위쪽 상품 요약/호텔/골프장 박스를 누르면 여기로 스크롤된다 */}
-        <div id="inquiry" className="bg-blue-50 border border-blue-200 rounded-2xl p-6 md:p-8 text-blue-700 mb-8 scroll-mt-4">
-          <h3 className="text-xl font-black mb-1">예약 문의 · 맞춤 견적</h3>
-          <p className="text-blue-600 text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
+        <div id="inquiry" className="bg-ice-blue border border-brand-blue/15 rounded-2xl p-6 md:p-8 text-charcoal mb-8 scroll-mt-4">
+          <h3 className="text-xl font-black text-charcoal mb-1">예약 문의 · 맞춤 견적</h3>
+          <p className="text-slate-ink text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
           <ContactOptions tourTitle={tour.title} nights={tour.nights} days={tour.days} minPeople={strictMinPeople} dates={inquiryDates} />
 
           {/* 같이 갈 일행에게 보내는 경로 — 골프여행은 대개 여럿이 간다 */}
@@ -533,16 +534,16 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             <ShareButton
               title={tour.title}
               itemId={tour.id}
-              className="w-full bg-white hover:bg-blue-50 text-blue-700 border-2 border-blue-300 font-black px-8 py-2 rounded-xl text-sm"
+              className="w-full bg-white hover:bg-ice-blue text-brand-blue border-2 border-brand-blue/30 font-black px-8 py-2 rounded-xl text-sm"
             />
-            <p className="text-xs text-blue-500 mt-2 text-center">함께 가실 분에게 이 상품을 보내보세요</p>
+            <p className="text-xs text-slate-ink mt-2 text-center">함께 가실 분에게 이 상품을 보내보세요</p>
           </div>
 
           {tour.priceUpdatedDate && (() => {
             const d = new Date(tour.priceUpdatedDate);
             const label = `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`;
             return (
-              <div className="text-[11px] text-blue-400 mt-4 leading-relaxed space-y-1 break-keep">
+              <div className="text-[11px] text-slate-ink mt-4 leading-relaxed space-y-1 break-keep">
                 <p>※ 이 상품은 {label}에 등록된 상품으로, 등록월 유류할증료가 반영된 요금입니다.</p>
                 <p>{d.getMonth() + 1}월 이후 문의하실 경우 요금 변동이 있을 수 있는 점 안내드립니다.</p>
               </div>

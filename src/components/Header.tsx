@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { IconFlag, IconStar, IconMegaphone, IconQuote, IconChat, IconShieldCheck } from "./icons/MenuIcons";
 import Image from "next/image";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -251,17 +252,17 @@ export default function Header({ departure }: HeaderProps) {
               </button>
               {communityOpen && (
                 <div className="absolute right-0 top-full w-36 bg-white shadow-xl rounded-b-lg overflow-hidden border border-gray-100 z-50">
-                  <Link href="/courses" className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors border-b border-gray-100">
-                    ⛳ 골프장 소개
+                  <Link href="/courses" className="flex items-center gap-2 px-4 py-3 text-sm text-body-text hover:bg-page-bg transition-colors border-b border-gray-100">
+                    <span className="text-brand-blue"><IconFlag /></span>골프장 소개
                   </Link>
-                  <Link href="/reviews" className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors border-b border-gray-100">
-                    ⭐ 여행후기
+                  <Link href="/reviews" className="flex items-center gap-2 px-4 py-3 text-sm text-body-text hover:bg-page-bg transition-colors border-b border-gray-100">
+                    <span className="text-brand-blue"><IconStar /></span>여행후기
                   </Link>
-                  <Link href={`/notice${p}`} className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors border-b border-gray-100">
-                    📢 공지/이벤트
+                  <Link href={`/notice${p}`} className="flex items-center gap-2 px-4 py-3 text-sm text-body-text hover:bg-page-bg transition-colors border-b border-gray-100">
+                    <span className="text-brand-blue"><IconMegaphone /></span>공지/이벤트
                   </Link>
-                  <Link href="/about" className="flex items-center gap-2 px-4 py-3 text-sm text-gray-700 hover:bg-emerald-50 hover:text-emerald-700 transition-colors">
-                    🏢 대표자의 말
+                  <Link href="/about" className="flex items-center gap-2 px-4 py-3 text-sm text-body-text hover:bg-page-bg transition-colors">
+                    <span className="text-brand-blue"><IconQuote /></span>대표자의 말
                   </Link>
                 </div>
               )}
@@ -319,33 +320,33 @@ export default function Header({ departure }: HeaderProps) {
           {/* 상품 메뉴(나라)와 콘텐츠 메뉴 사이 구분 */}
           <div className="h-2 bg-gray-50 border-b border-gray-100" aria-hidden="true" />
           <div className="border-b border-gray-100">
-            <Link href="/courses" className="flex items-center gap-2 px-4 py-3.5 text-gray-700 font-medium text-sm" onClick={() => setMenuOpen(false)}>
-              ⛳ 골프장 소개
+            <Link href="/courses" className="flex items-center gap-2.5 px-4 py-3.5 text-body-text font-medium text-sm hover:bg-page-bg" onClick={() => setMenuOpen(false)}>
+              <span className="text-brand-blue"><IconFlag /></span>골프장 소개
             </Link>
           </div>
           <div className="border-b border-gray-100">
-            <Link href="/reviews" className="flex items-center gap-2 px-4 py-3.5 text-gray-700 font-medium text-sm" onClick={() => setMenuOpen(false)}>
-              ⭐ 여행후기
+            <Link href="/reviews" className="flex items-center gap-2.5 px-4 py-3.5 text-body-text font-medium text-sm hover:bg-page-bg" onClick={() => setMenuOpen(false)}>
+              <span className="text-brand-blue"><IconStar /></span>여행후기
             </Link>
           </div>
           <div className="border-b border-gray-100">
-            <Link href={`/notice${p}`} className="flex items-center gap-2 px-4 py-3.5 text-gray-700 font-medium text-sm" onClick={() => setMenuOpen(false)}>
-              📢 공지/이벤트
+            <Link href={`/notice${p}`} className="flex items-center gap-2.5 px-4 py-3.5 text-body-text font-medium text-sm hover:bg-page-bg" onClick={() => setMenuOpen(false)}>
+              <span className="text-brand-blue"><IconMegaphone /></span>공지/이벤트
             </Link>
           </div>
           <div className="border-b border-gray-100">
-            <Link href="/about" className="flex items-center gap-2 px-4 py-3.5 text-gray-700 font-medium text-sm" onClick={() => setMenuOpen(false)}>
-              🏢 대표자의 말
+            <Link href="/about" className="flex items-center gap-2.5 px-4 py-3.5 text-body-text font-medium text-sm hover:bg-page-bg" onClick={() => setMenuOpen(false)}>
+              <span className="text-brand-blue"><IconQuote /></span>대표자의 말
             </Link>
           </div>
           <div className="border-b border-gray-100">
-            <a href="https://pf.kakao.com/_bxoxnXxj/chat" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-4 py-3.5 text-yellow-700 font-bold text-sm" onClick={() => setMenuOpen(false)}>
-              💬 카카오톡 상담
+            <a href="https://pf.kakao.com/_bxoxnXxj/chat" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2.5 px-4 py-3.5 text-main-text font-bold text-sm hover:bg-page-bg" onClick={() => setMenuOpen(false)}>
+              <span className="w-6 h-6 -m-0.5 rounded-md bg-kakao-yellow text-main-text flex items-center justify-center"><IconChat className="w-4 h-4" /></span>카카오톡 상담
             </a>
           </div>
           <ExternalVerificationButton className="w-full px-4 py-3 min-h-11 bg-blue-50 hover:bg-blue-100 flex items-center gap-2 transition-colors text-left">
-            <div className="w-5 h-5 bg-blue-600 rounded-full flex items-center justify-center text-white text-[10px] font-black">S</div>
-            <span className="text-sm text-blue-700 font-semibold">여행사 등록·보증 정보 확인 (SGI 서울보증보험 가입)</span>
+            <span className="text-brand-blue"><IconShieldCheck /></span>
+            <span className="text-sm text-brand-blue font-semibold">여행사 등록·보증 정보 확인 (SGI 서울보증보험 가입)</span>
           </ExternalVerificationButton>
         </div>
       )}

@@ -7,7 +7,7 @@ import type { CountryMap } from "@/lib/regionMaps";
 // 사장님 지적(10/9 휴대폰 실측): 선택 지역이 한눈에 안 들어온다 → 선택은 더 진하게, 나머지는 한 단계 약하게
 const C = {
   bg: "#F1F5F9", frame: "#CBD5E1", land: "#E2EAE5", landDim: "#ECF0EE", stroke: "#B7C9BF", hi: "#A7E3C6",
-  dot: "#64748B", dotDim: "#CBD5E1", sel: "#059669", selStroke: "#047857", text: "#334155", textDim: "#94A3B8", selText: "#064E3B",
+  dot: "#64748B", dotDim: "#CBD5E1", sel: "#008F78", selStroke: "#007C69", text: "#334155", textDim: "#94A3B8", selText: "#005448",
 };
 
 // 이름이 지도 밖으로 잘리지 않게 — 넘치면 점의 반대쪽으로 옮긴다 (한글 1자 ≈ 글자 크기)
@@ -92,7 +92,7 @@ function MapThumb({ map, regions, selected }: { map: CountryMap; regions: string
         <path key={k} d={a.d} fill="#D7E9DF" stroke="#9FC3B0" strokeWidth={3} strokeLinejoin="round" />
       ))}
       {Object.entries(map.regions).filter(([n, r]) => regions.includes(n) && !map.areas[r.area]?.inset).map(([n, r]) => (
-        <circle key={n} cx={r.x} cy={r.y} r={n === selected ? 16 : 9} fill={n === selected ? "#059669" : "#64748B"} stroke="#fff" strokeWidth={4} />
+        <circle key={n} cx={r.x} cy={r.y} r={n === selected ? 16 : 9} fill={n === selected ? "#008F78" : "#64748B"} stroke="#fff" strokeWidth={4} />
       ))}
     </svg>
   );

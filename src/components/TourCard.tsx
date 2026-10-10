@@ -3,6 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { stayText } from "@/lib/stay";
 
+// 배지 색의 뜻 (사장님 확정 2026-10-10) — 색은 장식이 아니라 의미로만 쓴다
+//   BRAND BLUE #2457C5 = 출발지·신규 등 여행의 파도 정보 / ACCENT TEAL #008F78 = 국가
+//   CORAL RED #E84B4B = 특가·혜택·마감 같은 실제 프로모션만 / CREAM = 최소 인원 같은 조건
+//   가격 = 차분한 빨강 #D33F3F (#E84B4B 는 작은 글씨에서 읽기 기준 4.5:1 미달이라 한 단계 진하게)
+const PROMO = /특가|할인|마감|한정|추가|혜택|기념|이벤트|세일|증정/;
+const PRICE = "text-[#D33F3F]";
+
 // facts·datePrice 는 상품 목록(출발일로 상품 찾기)에서만 넘긴다 — 메인 화면 카드는 그대로 (2026-10-10)
 export default function TourCard({
   tour,
@@ -37,11 +44,11 @@ export default function TourCard({
           className="object-cover group-hover:scale-105 transition-transform duration-300"
         />
         {!bannerImage && tour.badge && (
-          <span className={`absolute top-3 left-3 bg-red-500 text-white font-bold px-3 py-1 rounded-full z-10 ${featured ? "text-base md:text-lg" : "text-sm"}`}>
+          <span className={`absolute top-3 left-3 ${PROMO.test(tour.badge) ? "bg-[#E84B4B]" : "bg-brand-blue"} text-white font-bold px-3 py-1 rounded-full z-10 ${featured ? "text-base md:text-lg" : "text-sm"}`}>
             {tour.badge}
           </span>
         )}
-        {!bannerImage && <span className={`absolute top-3 right-3 bg-emerald-700 text-white font-medium px-3 py-1 rounded-full z-10 ${featured ? "text-base md:text-lg" : "text-sm"}`}>
+        {!bannerImage && <span className={`absolute top-3 right-3 bg-accent-teal text-white font-medium px-3 py-1 rounded-full z-10 ${featured ? "text-base md:text-lg" : "text-sm"}`}>
           {tour.country}
         </span>}
       </div>
@@ -52,7 +59,7 @@ export default function TourCard({
           {titleParts ? (
             <>
               {titleParts[0]}
-              <span className="text-red-600">{priceDigits}</span>
+              <span className={PRICE}>{priceDigits}</span>
               {titleParts[1]}
             </>
           ) : (
@@ -64,7 +71,7 @@ export default function TourCard({
             {facts.map((f) => (
               <li
                 key={f.label}
-                className={`inline-flex items-center h-7 px-2.5 rounded-lg text-[13px] font-semibold ${f.strong ? "bg-yellow-50 text-amber-800 ring-1 ring-inset ring-amber-200" : "bg-slate-100 text-slate-600"}`}
+                className={`inline-flex items-center h-7 px-2.5 rounded-lg text-[13px] font-semibold ${f.strong ? "bg-[#FFF7DC] text-[#765A16] ring-1 ring-inset ring-[#E8D58B]" : "bg-slate-100 text-slate-600"}`}
               >
                 {f.label}
               </li>
@@ -78,12 +85,12 @@ export default function TourCard({
         )}
         {datePrice ? (
           // 검색한 날짜의 요금 — 다른 날짜의 최저가를 검색 결과처럼 보이지 않게 (사장님 지시 2026-10-10)
-          <p className={`font-bold text-red-600 ${featured ? "text-xl md:text-2xl" : "text-[17px]"}`}>
+          <p className={`font-bold ${PRICE} ${featured ? "text-xl md:text-2xl" : "text-[17px]"}`}>
             <span className="text-[13px] font-semibold text-slate-500 mr-1">{datePrice.label}</span>
             {datePrice.price.toLocaleString("ko-KR")}원
           </p>
         ) : !titleHasPrice && (
-          <p className={`font-bold text-red-600 ${featured ? "text-xl md:text-2xl" : facts ? "text-[17px]" : "text-base"}`}>{tour.price}</p>
+          <p className={`font-bold ${PRICE} ${featured ? "text-xl md:text-2xl" : facts ? "text-[17px]" : "text-base"}`}>{tour.price}</p>
         )}
       </div>
     </div>
