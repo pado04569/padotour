@@ -1,36 +1,48 @@
 "use client";
 
-import { useState, Suspense } from "react";
+import { Suspense } from "react";
 import Link from "next/link";
 import TourCard from "@/components/TourCard";
 import { tours, countries } from "@/data/tours";
-import { useSearchParams, useRouter } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { IconChevron } from "@/components/icons/Chevron";
 import RegionNavigator, { type RegionOption } from "@/components/RegionNavigator";
 
 function ToursContent() {
   const searchParams = useSearchParams();
-  const initialCountry = searchParams.get("country") || "all";
+  // 국가는 주소(country=)로만 정한다 — 국가 버튼을 누르면 주소가 바뀌어 휴대폰 "뒤로"가 이전 국가로 돌아간다 (2026-10-10)
+  const selected = searchParams.get("country") || "all";
   const regionParam = searchParams.get("region") || "";
   const departureParam = searchParams.get("departure") || "";
-  const [selected, setSelected] = useState(initialCountry);
 
-  const router = useRouter();
 
   // 뒤로가기 3단계 (소 → 중 → 대)
   //   소: 상품 상세      → "← 태국 상품 목록으로"   (tours/[id]/page.tsx)
   //   중: 나라별 목록    → "← 전체 상품 목록으로"
   //   대: 전체 목록      → "← 메인 화면으로"
+  // 출발지: 주소 → 없으면 마지막으로 고른 출발지(ClientLayout 과 같은 저장값). 이 화면은 브라우저에서만 그려진다
+  const savedDeparture = (() => {
+    if (departureParam === "incheon" || departureParam === "busan") return departureParam;
+    try {
+      const v = typeof window !== "undefined" ? localStorage.getItem("padotour_departure") : null;
+      return v === "incheon" || v === "busan" ? v : "";
+    } catch {
+      return "";
+    }
+  })();
   const homeHref =
-    departureParam === "incheon" ? "/incheon" : departureParam === "busan" ? "/busan" : "/";
+    savedDeparture === "incheon" ? "/incheon" : savedDeparture === "busan" ? "/busan" : "/";
 
   // 나라 또는 지역으로 걸러진 상태인가
   const isFiltered = selected !== "all" || regionParam !== "";
 
   // 전체 목록으로 — 필터 상태(state)와 주소(URL)를 함께 되돌린다
-  function goAllProducts() {
-    setSelected("all");
-    router.push(departureParam ? `/tours?departure=${departureParam}` : "/tours");
+  // 국가 목록 주소 — 출발지(주소 또는 마지막 선택)를 계속 붙여 국가를 여러 번 바꿔도 출발지가 유지된다
+  function allHref(code: string) {
+    const q = new URLSearchParams();
+    if (code !== "all") q.set("country", code);
+    if (savedDeparture) q.set("departure", savedDeparture);
+    return q.size ? `/tours?${q.toString()}` : "/tours";
   }
 
   const filtered = (() => {
@@ -80,9 +92,12 @@ function ToursContent() {
           <div className="max-w-6xl mx-auto px-4 py-2.5 md:py-3">
             <div className="flex gap-2 overflow-x-auto scrollbar-hide">
               {countries.map((c) => (
-                <button
+                // 버튼(router.push) 대신 링크 — 휴대폰 폭에서 router.push 가 멈추는 경우가 있어 링크로 이동한다 (2026-10-10 시험에서 발견)
+                <Link
                   key={c.code}
-                  onClick={() => setSelected(c.code)}
+                  href={allHref(c.code)}
+                  scroll={false}
+                  aria-current={selected === c.code ? "page" : undefined}
                   className={`flex-shrink-0 px-4 py-2 md:px-5 md:py-2.5 rounded-full font-medium text-sm md:text-base transition-colors ${
                     selected === c.code
                       ? "bg-emerald-600 text-white shadow-md"
@@ -90,7 +105,7 @@ function ToursContent() {
                   }`}
                 >
                   {c.label}
-                </button>
+                </Link>
               ))}
             </div>
           </div>
@@ -110,6 +125,16 @@ function ToursContent() {
               initialOpen={searchParams.get("map") === "1"}
             />
           </div>
+        )}
+        {/* 전체 목록 → 고른 출발공항 메인으로 (사장님 확정 N4, 2026-10-10). 브라우저 뒤로가기가 아니라 출발지 기준 주소로 이동 */}
+        {!isFiltered && savedDeparture && (
+          <Link
+            href={homeHref}
+            className="-mt-2 mb-1 inline-flex items-center gap-1 min-h-11 text-emerald-700 hover:text-emerald-800 font-semibold text-[15px]"
+          >
+            <IconChevron dir="left" className="w-4 h-4" />
+            {savedDeparture === "incheon" ? "인천출발 홈" : "부산출발 홈"}
+          </Link>
         )}
         <p className={`text-gray-500 text-sm md:text-base ${regionParam && filtered.length === 1 ? "mb-1" : "mb-4 md:mb-6"}`}>
           총 <span className="font-bold text-emerald-700">{filtered.length}개</span> 상품
@@ -141,12 +166,12 @@ function ToursContent() {
         {/* 뒤로가기 — 걸러진 목록이면 전체 목록으로(중→대), 전체 목록이면 메인으로(대→홈) */}
         <div className="text-center mt-8 md:mt-10">
           {isFiltered ? (
-            <button
-              onClick={goAllProducts}
+            <Link
+              href={allHref("all")}
               className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 font-medium text-[15px] min-h-11"
             >
               <IconChevron dir="left" className="w-4 h-4" />전체 상품 목록으로
-            </button>
+            </Link>
           ) : (
             <Link
               href={homeHref}
