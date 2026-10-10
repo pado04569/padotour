@@ -18,12 +18,15 @@ export default function RegionNavigator({
   selected,
   departure,
   initialOpen,
+  keepQuery,
 }: {
   countryCode: string;
   regions: RegionOption[];
   selected?: string;
   departure?: string;
   initialOpen?: boolean;
+  /** 출발일로 상품 찾기 조건(date·people·sort) — 지역을 바꿔도 검색 조건이 유지되게 그대로 붙인다 (2026-10-10) */
+  keepQuery?: Record<string, string>;
 }) {
   const map = REGION_MAPS[countryCode];
   const [open, setOpen] = useState(Boolean(initialOpen && map));
@@ -31,6 +34,7 @@ export default function RegionNavigator({
     const q = new URLSearchParams({ country: countryCode });
     if (region) q.set("region", region);
     if (departure) q.set("departure", departure);
+    for (const [k, v] of Object.entries(keepQuery ?? {})) if (v) q.set(k, v);
     if (keepMap && map) q.set("map", "1");
     return `/tours?${q.toString()}`;
   };
