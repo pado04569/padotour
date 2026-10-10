@@ -198,6 +198,31 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         region={tour.region}
       />
 
+      {/* ── 경로 표시 (사장님 확정 B2, 2026-10-10) ──
+          검색으로 바로 들어와도 "홈 › 국가 › 지역 › 상품 상세" 로 상위 화면에 갈 수 있게. 국가·지역은 상품 데이터 그대로.
+          휴대폰은 한 줄만 쓰고, 좁으면 마지막 "상품 상세" 를 숨긴다 */}
+      <nav aria-label="현재 위치" className="bg-slate-50 border-b border-slate-200">
+        <ol className="max-w-4xl mx-auto px-4 flex items-center gap-1.5 min-h-11 text-[15px] whitespace-nowrap overflow-hidden">
+          {[
+            { label: "홈", href: dep ? `/${dep}` : "/" },
+            { label: tour.country, href: `/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}` },
+            ...(tour.region
+              ? [{ label: tour.region, href: `/tours?country=${tour.countryCode}&region=${encodeURIComponent(tour.region)}${dep ? `&departure=${dep}` : ""}` }]
+              : []),
+          ].map((c, i, arr) => (
+            <li key={c.label} className="flex items-center gap-1.5 flex-none">
+              <Link href={c.href} className="text-blue-700 hover:text-blue-800 underline underline-offset-4 decoration-blue-200 min-h-11 inline-flex items-center">
+                {c.label}
+              </Link>
+              <span className={i === arr.length - 1 ? "hidden min-[400px]:flex" : "flex"}>
+                <IconChevron className="w-4 h-4 text-slate-400" />
+              </span>
+            </li>
+          ))}
+          <li aria-current="page" className="hidden min-[400px]:block text-slate-800 font-semibold truncate">상품 상세</li>
+        </ol>
+      </nav>
+
       {/* ── 히어로 이미지 ── */}
       <div className="relative w-full h-72 md:h-96 bg-gray-200 overflow-hidden">
         {/* 첫 화면의 가장 큰 그림이라 먼저 받게 한다 (클래리티 LCP 4초, 2026-09-15) */}

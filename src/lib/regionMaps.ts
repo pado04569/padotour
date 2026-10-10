@@ -99,11 +99,13 @@ const CHINA: CountryMap = {
   regions: {
     베이징: { x: cx(116.4), y: cy(39.9), area: "mainland", label: T },
     위해: { x: cx(122.1), y: cy(37.45), area: "mainland", label: R },
+    연태: { x: cx(121.45), y: cy(37.55), area: "mainland", label: side(-9, -6, "end") },
     청도: { x: cx(120.4), y: cy(36.1), area: "mainland", label: B },
     곡부: { x: cx(117.0), y: cy(35.6), area: "mainland", label: L },
     장가계: { x: cx(110.5), y: cy(29.1), area: "mainland", label: B },
     푸저우: { x: cx(119.3), y: cy(26.1), area: "mainland", label: R },
     샤먼: { x: cx(118.1), y: cy(24.5), area: "mainland", label: R },
+    광저우: { x: cx(113.26), y: cy(23.13), area: "mainland", label: L },
     하이난: { x: hx(109.8), y: hy(19.2), area: "hainan", label: B },
   },
 };
@@ -154,6 +156,8 @@ const VIETNAM: CountryMap = {
     하노이: { x: vx(105.85), y: vy(21.03), area: "mainland", label: L },
     하이퐁: { x: vx(106.68), y: vy(20.86), area: "mainland", label: R },
     다낭: { x: vx(108.2), y: vy(16.05), area: "mainland", label: R },
+    하롱베이: { x: vx(107.08), y: vy(20.95), area: "mainland", label: side(10, 18, "start") },
+    나트랑: { x: vx(109.19), y: vy(12.24), area: "mainland", label: L },
   },
 };
 

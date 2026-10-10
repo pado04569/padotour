@@ -6,6 +6,7 @@ import TourCard from "@/components/TourCard";
 import { tours, countries } from "@/data/tours";
 import { useSearchParams, useRouter } from "next/navigation";
 import { IconChevron } from "@/components/icons/Chevron";
+import RegionNavigator, { type RegionOption } from "@/components/RegionNavigator";
 
 function ToursContent() {
   const searchParams = useSearchParams();
@@ -41,6 +42,18 @@ function ToursContent() {
       result = result.filter((t) => t.departure === departureParam || t.departure === "both");
     }
     return result;
+  })();
+
+  // 국가를 고르면 그 국가 상품의 실제 지역으로 버튼을 만든다 ("방콕/파타야"는 방콕·파타야로 나눔) — N3 지역 선택
+  const regionOptions: RegionOption[] = (() => {
+    if (selected === "all") return [];
+    const count = new Map<string, number>();
+    for (const t of tours) {
+      if (t.countryCode !== selected || !t.region) continue;
+      if (departureParam && t.departure !== departureParam && t.departure !== "both") continue;
+      for (const r of t.region.split("/").map((x) => x.trim()).filter(Boolean)) count.set(r, (count.get(r) ?? 0) + 1);
+    }
+    return [...count.entries()].sort((a, b) => b[1] - a[1]).map(([label, c]) => ({ label, count: c }));
   })();
 
   return (
@@ -86,6 +99,18 @@ function ToursContent() {
 
       {/* 상품 그리드 */}
       <section className={`max-w-6xl mx-auto px-4 ${regionParam && filtered.length === 1 ? "pt-1 pb-3" : "py-8 md:py-10"}`}>
+        {regionOptions.length > 1 && (
+          <div className={regionParam ? "pt-4" : ""}>
+            <RegionNavigator
+              key={`${selected}-${regionParam}`}
+              countryCode={selected}
+              regions={regionOptions}
+              selected={regionParam || undefined}
+              departure={departureParam || undefined}
+              initialOpen={searchParams.get("map") === "1"}
+            />
+          </div>
+        )}
         <p className={`text-gray-500 text-sm md:text-base ${regionParam && filtered.length === 1 ? "mb-1" : "mb-4 md:mb-6"}`}>
           총 <span className="font-bold text-emerald-700">{filtered.length}개</span> 상품
         </p>

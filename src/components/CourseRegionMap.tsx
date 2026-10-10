@@ -21,7 +21,7 @@ function placeLabel(map: CountryMap, x: number, y: number, label: { dx: number; 
   return { x: lx, y: y + label.dy, anchor };
 }
 
-function MapSvg({ map, regions, selected, hrefFor, idSuffix }: { map: CountryMap; regions: string[]; selected?: string; hrefFor: (r: string) => string; idSuffix: string }) {
+export function MapSvg({ map, regions, selected, hrefFor, idSuffix }: { map: CountryMap; regions: string[]; selected?: string; hrefFor: (r: string) => string; idSuffix: string }) {
   const area0 = selected ? map.regions[selected]?.area : undefined;
   const selArea = area0 && !map.areas[area0]?.noHighlight ? area0 : undefined;
   const shown = Object.entries(map.regions).filter(([name]) => regions.includes(name));
