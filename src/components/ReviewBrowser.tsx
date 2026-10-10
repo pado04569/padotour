@@ -17,6 +17,20 @@ const listTitle = (t: string) =>
     .replace(/\s*[-–]?\s*여행의\s*파도\s*이용\s*후기\s*$/, "")
     .trim() || t;
 
+// 띄어쓰기 없이 붙은 후기 제목("6월12일출발하이난골프동방목가3박5일")은 단어 중간에서 끊겼다.
+// 글자는 그대로 두고, 의미 경계(출발·골프여행 뒤, 날짜·박수 덩어리 앞뒤)에서만 줄이 넘어가게 한다 (2026-10-10)
+function softBreak(raw: string) {
+  // 브랜드 이름 "여행의 파도"는 두 줄로 갈라지지 않게 (붙임 공백)
+  const t = raw.replace(/여행의 파도/g, "여행의 파도");
+  const parts = t.split(/(?<=출발|골프여행|후기\]|\d일)(?=[가-힣\d])|(?<=[가-힣])(?=\d)/);
+  return parts.map((p, i) => (
+    <span key={i}>
+      {i > 0 && <wbr />}
+      {p}
+    </span>
+  ));
+}
+
 export default function ReviewBrowser({ reviews }: { reviews: Review[] }) {
   const [nation, setNation] = useState("전체");
   const [openId, setOpenId] = useState<string | null>(null);
@@ -92,7 +106,7 @@ export default function ReviewBrowser({ reviews }: { reviews: Review[] }) {
                 )}
                 <span className="flex-1 min-w-0">
                   <span className="block text-sm font-bold text-emerald-700">{r.country} · {r.date}</span>
-                  <span className="text-base md:text-[17px] font-extrabold text-gray-900 leading-snug mt-0.5 line-clamp-2 break-keep">{listTitle(r.title)}</span>
+                  <span className="text-base md:text-[17px] font-extrabold text-gray-900 leading-snug mt-0.5 line-clamp-2 break-keep [text-wrap:balance]">{softBreak(listTitle(r.title))}</span>
                   <span className="text-[15px] text-gray-600 leading-relaxed mt-1 line-clamp-2 md:line-clamp-3">{preview}</span>
                 </span>
               </button>
@@ -147,7 +161,7 @@ function ReviewDrawer({ review, onClose }: { review: Review | null; onClose: () 
         <div className="sticky top-0 z-10 bg-white/95 backdrop-blur px-5 md:px-7 pt-4 pb-3 border-b border-gray-100 flex items-start gap-4">
           <div className="flex-1 min-w-0">
             <div className="text-sm font-bold text-emerald-700">{review.country} · {review.date}</div>
-            <h3 id={titleId} className="text-lg md:text-xl font-black text-gray-900 leading-snug mt-0.5 break-keep [overflow-wrap:anywhere]">{review.title}</h3>
+            <h3 id={titleId} className="text-lg md:text-xl font-black text-gray-900 leading-snug mt-0.5 break-keep [overflow-wrap:anywhere]">{softBreak(review.title)}</h3>
           </div>
           <button type="button" onClick={onClose} aria-label="닫기" className="flex-none w-11 h-11 -mr-2 rounded-full flex items-center justify-center text-slate-600 hover:bg-gray-100">
             <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>

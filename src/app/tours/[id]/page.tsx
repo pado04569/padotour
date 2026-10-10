@@ -9,7 +9,34 @@ import ContactOptions from "@/components/ContactOptions";
 import ViewItemTracker from "@/components/ViewItemTracker";
 import ShareButton from "@/components/ShareButton";
 import { Sentences, Steps } from "@/components/ReadableText";
-import { IconCalendarDays, IconCircleHelp } from "@/components/icons/MenuIcons";
+import { IconCalendarDays, IconCircleHelp, IconPlaneTakeoff, IconPlaneLanding, IconArrowRight, IconArrowLeft, IconMessageCircle } from "@/components/icons/MenuIcons";
+
+// 항공편 문장 "A → B" 의 글자 화살표를 작은 선 화살표로 (글자는 그대로 — AI 검색이 읽는 문장, 2026-10-10)
+function FlightLine({ text }: { text: string }) {
+  const parts = text.split(/\s*→\s*/);
+  return (
+    <>
+      {parts.map((p, i) => {
+        // 구간마다 새 줄 (지시서 예시: "인천국제공항 출발(…) →" / "후쿠오카국제공항 도착(…)")
+        if (i === parts.length - 1) return <span key={i} className="block">{p}</span>;
+        // 화살표는 앞 구간의 마지막 낱말에 붙여 둔다 — 혼자 다음 줄 첫머리로 넘어가 들여쓴 것처럼 보였다
+        // "출발(ZE650, 20:40)"처럼 괄호 속 편명·시각은 한 덩어리로 — 괄호 앞 낱말부터 화살표까지 줄바꿈 없이
+        const paren = p.lastIndexOf("(");
+        const cut = paren > 0 ? p.lastIndexOf(" ", paren) : p.lastIndexOf(" ");
+        return (
+          <span key={i} className="block">
+            {cut > 0 ? p.slice(0, cut + 1) : ""}
+            <span className="whitespace-nowrap">
+              {cut > 0 ? p.slice(cut + 1) : p}
+              <span className="sr-only"> → </span>
+              <IconArrowRight className="inline-block w-4 h-4 ml-1 -mt-0.5 text-blue-500" />
+            </span>
+          </span>
+        );
+      })}
+    </>
+  );
+}
 import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "@/data/cancelPolicy";
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
 import { tourFaqs } from "@/lib/tourFaq";
@@ -115,7 +142,14 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
     const byNights = cutAfter(rest, NIGHTS);
     if (byNights) {
-      lines.push(byNights[0], byNights[1]);
+      // "골프여행" 바로 뒤가 "3박5일"뿐이면 따로 한 줄을 만들지 않고 앞줄에 붙인다
+      // 예) [인천출발] 하롱베이 골프여행 3박5일 / 드래곤링크스·FLC하롱베이·뚜언쩌우 3색 72홀 (사장님 지시 2026-10-10)
+      if (byTrip && NIGHTS.test(byNights[0]) && byNights[0].replace(NIGHTS, "").trim() === "") {
+        lines[lines.length - 1] = `${lines[lines.length - 1]} ${byNights[0]}`;
+        lines.push(byNights[1]);
+      } else {
+        lines.push(byNights[0], byNights[1]);
+      }
     } else {
       lines.push(rest);
     }
@@ -250,7 +284,12 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             <h1 className="text-xl md:text-4xl font-black leading-snug break-keep">
               <Link href="#departure" className="pointer-events-auto hover:underline">
                 {titleLines.map((line, li) => (
-                  <span key={li} className="block">{line}</span>
+                  // "·"는 앞 낱말에 붙이고 그 뒤에서만 줄이 넘어가게 — 둘째 줄이 "·뚜언쩌우"처럼 점으로 시작했다 (2026-10-10)
+                  <span key={li} className="block">
+                    {line.split("·").map((part, pi, arr) => (
+                      <span key={pi}>{part}{pi < arr.length - 1 && <>{"\u2060·"}<wbr /></>}</span>
+                    ))}
+                  </span>
                 ))}
               </Link>
             </h1>
@@ -316,20 +355,20 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <dl className="bg-white border border-gray-200 rounded-2xl p-4 md:p-5 mb-8 space-y-2.5 text-sm break-keep">
             {flights.outbound && (
               <div className="flex gap-3">
-                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500">✈️ 가는 편</dt>
-                <dd className="text-gray-800">{flights.outbound}</dd>
+                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500 flex items-center gap-2 h-5"><span className="text-brand-blue"><IconPlaneTakeoff /></span>가는 편</dt>
+                <dd className="text-gray-800 leading-5"><FlightLine text={flights.outbound} /></dd>
               </div>
             )}
             {flights.inbound && (
               <div className="flex gap-3">
-                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500">🛬 오는 편</dt>
-                <dd className="text-gray-800">{flights.inbound}</dd>
+                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500 flex items-center gap-2 h-5"><span className="text-brand-blue"><IconPlaneLanding /></span>오는 편</dt>
+                <dd className="text-gray-800 leading-5"><FlightLine text={flights.inbound} /></dd>
               </div>
             )}
             {departures && (
               <div className="flex gap-3">
-                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500">📅 출발일</dt>
-                <dd className="text-gray-800">
+                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500 flex items-center gap-2 h-5"><span className="text-brand-blue"><IconCalendarDays /></span>출발일</dt>
+                <dd className="text-gray-800 leading-5">
                   <Link href="#departure" className="hover:underline">
                     {departures.rangeText}
                   </Link>
@@ -362,7 +401,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               {tour.seoKeywords.map((k) => `#${k}`).join(" ")}
             </p>
           )}
-          <p className="text-xs text-emerald-600 font-bold mt-3">👇 문의하기</p>
+          {/* "아래를 보라" 손가락 대신 상담 뜻의 말풍선 아이콘 (사장님 지시 10/10) */}
+          <p className="text-sm text-emerald-700 font-bold mt-3 flex items-center gap-1.5"><IconMessageCircle className="w-5 h-5" />문의하기</p>
         </Link>
 
         {/* ── 출발일 캘린더 + 요금 / 홀수별 요금 ── */}
@@ -526,7 +566,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* id="inquiry" — 위쪽 상품 요약/호텔/골프장 박스를 누르면 여기로 스크롤된다 */}
         <div id="inquiry" className="bg-ice-blue border border-brand-blue/15 rounded-2xl p-6 md:p-8 text-charcoal mb-8 scroll-mt-4">
           <h3 className="text-xl font-black text-charcoal mb-1">예약 문의 · 맞춤 견적</h3>
-          <p className="text-slate-ink text-sm mb-5">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
+          <p className="text-slate-ink text-sm mb-5 break-keep">출발일, 인원, 예산을 알려주시면 바로 견적을 드립니다</p>
           <ContactOptions tourTitle={tour.title} nights={tour.nights} days={tour.days} minPeople={strictMinPeople} dates={inquiryDates} />
 
           {/* 같이 갈 일행에게 보내는 경로 — 골프여행은 대개 여럿이 간다 */}
@@ -587,8 +627,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
         {/* ── 뒤로가기 (소 → 중) : 이 상품이 속한 나라 목록으로 ── */}
         <div className="text-center">
-          <Link href={`/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}`} className="inline-flex items-center gap-1 text-emerald-600 hover:text-emerald-700 font-medium text-[15px] min-h-11">
-            <IconChevron dir="left" className="w-4 h-4" />{tour.country} 상품 목록으로
+          {/* 글자 "<" 대신 선 화살표. 가벼운 글자 링크 느낌 유지, PC에서 올리면 화살표만 살짝 왼쪽으로 */}
+          <Link href={`/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}`} className="group inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-800 font-semibold text-[15px] min-h-11">
+            <IconArrowLeft className="w-[18px] h-[18px] transition-transform md:group-hover:-translate-x-0.5" />{tour.country} 상품 목록으로
           </Link>
         </div>
       </div>

@@ -319,9 +319,10 @@ export default function Header({ departure }: HeaderProps) {
           ))}
           {/* 상품 메뉴(나라)와 콘텐츠 메뉴 사이 구분 */}
           <div className="h-2 bg-gray-50 border-b border-gray-100" aria-hidden="true" />
+          {/* 휴대폰 메뉴 순서: 공지/이벤트 → 여행후기 → 골프장 소개 → 대표자의 말 → 카카오톡 → 등록·보증 (사장님 지시 10/10) */}
           <div className="border-b border-gray-100">
-            <Link href="/courses" className="flex items-center gap-2.5 px-4 py-3.5 text-body-text font-medium text-sm hover:bg-page-bg" onClick={() => setMenuOpen(false)}>
-              <span className="text-brand-blue"><IconFlag /></span>골프장 소개
+            <Link href={`/notice${p}`} className="flex items-center gap-2.5 px-4 py-3.5 text-body-text font-medium text-sm hover:bg-page-bg" onClick={() => setMenuOpen(false)}>
+              <span className="text-brand-blue"><IconMegaphone /></span>공지/이벤트
             </Link>
           </div>
           <div className="border-b border-gray-100">
@@ -330,8 +331,8 @@ export default function Header({ departure }: HeaderProps) {
             </Link>
           </div>
           <div className="border-b border-gray-100">
-            <Link href={`/notice${p}`} className="flex items-center gap-2.5 px-4 py-3.5 text-body-text font-medium text-sm hover:bg-page-bg" onClick={() => setMenuOpen(false)}>
-              <span className="text-brand-blue"><IconMegaphone /></span>공지/이벤트
+            <Link href="/courses" className="flex items-center gap-2.5 px-4 py-3.5 text-body-text font-medium text-sm hover:bg-page-bg" onClick={() => setMenuOpen(false)}>
+              <span className="text-brand-blue"><IconFlag /></span>골프장 소개
             </Link>
           </div>
           <div className="border-b border-gray-100">

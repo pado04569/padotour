@@ -44,3 +44,31 @@ export const IconCalendarDays = ({ className }: P) => (
 export const IconCircleHelp = ({ className }: P) => (
   <svg {...base(className)}><circle cx="12" cy="12" r="9" /><path d="M9.6 9.4a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.7" /><path d="M12 17.2h.01" /></svg>
 );
+/** 가는 편 — 이륙 (PlaneTakeoff 모양) */
+export const IconPlaneTakeoff = ({ className }: P) => (
+  <svg {...base(className)}><path d="M2.5 21h19" /><path d="M5.2 15.5 3 11.6l1.9-.6 2.3 1.8 3.6-1.3L7.2 5.4l2.3-.7 5.6 4.9 4.2-1.5a1.9 1.9 0 0 1 1.3 3.6L6.4 16a1 1 0 0 1-1.2-.5z" /></svg>
+);
+/** 오는 편 — 착륙 (PlaneLanding 모양) */
+export const IconPlaneLanding = ({ className }: P) => (
+  <svg {...base(className)}><path d="M2.5 21h19" /><path d="M3.6 8.6 3.8 4l1.9.5.9 2.8 3.7 1-.6-6.1 2.3.6 2.8 6.9 4.3 1.2a1.9 1.9 0 0 1-1 3.7L4.3 9.4a1 1 0 0 1-.7-.8z" /></svg>
+);
+/** 항공편 구간 사이 — 오른쪽 화살표 (ArrowRight 모양) */
+export const IconArrowRight = ({ className }: P) => (
+  <svg {...base(className)}><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></svg>
+);
+/** 목록으로 돌아가기 — 왼쪽 화살표 (ArrowLeft 모양) */
+export const IconArrowLeft = ({ className }: P) => (
+  <svg {...base(className)}><path d="M19 12H5" /><path d="m11 18-6-6 6-6" /></svg>
+);
+/** 문의하기 — 동그란 말풍선 (MessageCircle 모양) */
+export const IconMessageCircle = ({ className }: P) => (
+  <svg {...base(className)}><path d="M20.5 11.5a8.4 8.4 0 0 1-12.3 7.5L3.5 20.5l1.6-4.5a8.4 8.4 0 1 1 15.4-4.5z" /></svg>
+);
+/** 연락 — 전화기 */
+export const IconPhone = ({ className }: P) => (
+  <svg {...base(className)}><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" /></svg>
+);
+/** 업무시간 — 시계 */
+export const IconClock = ({ className }: P) => (
+  <svg {...base(className)}><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></svg>
+);
