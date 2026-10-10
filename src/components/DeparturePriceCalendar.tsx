@@ -5,6 +5,7 @@ import { track } from "@/lib/analytics";
 import SelectChevron from "@/components/SelectChevron";
 import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint, todayKST } from "@/lib/inquiryForm";
 import { IconChevron } from "@/components/icons/Chevron";
+import { IconCalendarDays, IconClipboard, IconCircleCheck } from "@/components/icons/MenuIcons";
 
 type PriceEntry = { date: string; price: number; nights?: number; days?: number };
 
@@ -163,7 +164,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
 
   return (
     <div>
-      <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">📅 출발일 선택 · 요금 확인</h2>
+      <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-accent-teal inline-flex items-center gap-1.5"><span className="text-brand-blue"><IconCalendarDays /></span>출발일 선택 · 요금 확인</h2>
 
       <div className="bg-gray-50 rounded-2xl p-4 md:p-5 border border-gray-100">
         {/* 월 이동 버튼 */}
@@ -337,17 +338,17 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
                 onClick={openForm}
                 className="w-full block text-center bg-[#FAE100] hover:bg-[#F0D600] text-gray-900 font-black px-6 py-3.5 rounded-full text-base transition-colors"
               >
-                📋 {selected.replace(/-/g, ".")} 출발 예약 문의
+                <span className="inline-flex items-center gap-1.5"><IconClipboard className="w-5 h-5" />{selected.replace(/-/g, ".")} 출발 예약 문의</span>
               </button>
             ) : sent ? (
               <div className="bg-blue-50 border border-blue-200 rounded-2xl p-5 text-center">
-                <div className="text-3xl mb-2">✅</div>
+                <div className="flex justify-center mb-2 text-emerald-600"><IconCircleCheck className="w-8 h-8" /></div>
                 <p className="font-black text-blue-800 text-base">문의 접수 완료!</p>
                 <p className="text-sm text-gray-600 mt-1">담당자가 카카오톡으로 견적서를 보내드립니다.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-3">
-                <p className="text-sm font-bold text-gray-700 mb-2">📋 예약 문의 정보 입력</p>
+                <p className="text-sm font-bold text-gray-700 mb-2 flex items-center gap-1.5"><span className="text-brand-blue"><IconClipboard className="w-[18px] h-[18px]" /></span>예약 문의 정보 입력</p>
                 <div className="flex gap-3">
                   <div className="flex-1">
                     <label className="text-xs text-gray-500 mb-1 block">인원수</label>

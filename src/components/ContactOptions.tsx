@@ -6,6 +6,7 @@ import { track } from "@/lib/analytics";
 import SelectChevron from "@/components/SelectChevron";
 import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint, todayKST } from "@/lib/inquiryForm";
 import { IconChevron } from "@/components/icons/Chevron";
+import { IconPhone, IconClipboard, IconCircleCheck, IconClock, IconCamera, IconChat } from "@/components/icons/MenuIcons";
 
 /**
  * 입력칸 공통 서식.
@@ -110,7 +111,7 @@ export default function ContactOptions({
         onClick={toggleOpen}
         className="w-full bg-brand-blue hover:bg-blue-700 text-white border border-brand-blue font-black px-8 py-4 rounded-2xl text-base transition-colors flex items-center justify-center gap-2"
       >
-        📞 예약 문의 · 맞춤 견적
+        <IconPhone className="w-5 h-5" />견적 문의하기
         <IconChevron dir={open ? "up" : "down"} className="w-5 h-5" />
       </button>
 
@@ -122,7 +123,7 @@ export default function ContactOptions({
             href="tel:01053015250"
             className="flex items-center gap-4 px-5 py-4 hover:bg-gray-50 transition-colors border-b border-gray-100"
           >
-            <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-xl flex-shrink-0">📞</div>
+            <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-brand-blue flex-shrink-0"><IconPhone /></div>
             <div>
               <div className="font-black text-gray-800 text-sm">전화 문의</div>
               <div className="text-blue-600 font-bold text-base">010-5301-5250</div>
@@ -132,7 +133,7 @@ export default function ContactOptions({
           {/* 예약 문의 접수 (출발희망일·인원·연락처) */}
           <div className="px-5 py-4 border-b border-gray-100 bg-blue-50/40">
             <div className="flex items-center gap-4 mb-3">
-              <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-xl flex-shrink-0">📋</div>
+              <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-brand-blue flex-shrink-0"><IconClipboard /></div>
               <div>
                 <div className="font-black text-gray-800 text-sm">예약 문의 접수</div>
                 <div className="text-blue-600 font-bold text-sm">남겨주시면 견적을 보내드려요</div>
@@ -141,12 +142,12 @@ export default function ContactOptions({
 
             {sent ? (
               <div className="bg-white border border-blue-200 rounded-xl px-4 py-4 text-center">
-                <p className="font-black text-blue-700 text-sm">문의가 접수되었습니다 ✅</p>
+                <p className="font-black text-blue-700 text-sm inline-flex items-center gap-1.5">문의가 접수되었습니다 <IconCircleCheck className="w-5 h-5" /></p>
                 <p className="text-xs text-gray-600 mt-1">담당자가 카카오톡으로 견적서를 보내드립니다.</p>
                 {/* 문의 후 연락 흐름 안내 — /my-inquiries 와 동일한 문구 (사장님 요청 2026-09-28) */}
                 <div className="mt-3 bg-blue-50 border border-blue-100 rounded-lg px-3 py-2.5 text-left text-[11px] text-gray-600 leading-relaxed space-y-1">
-                  <p>📞 담당자가 현지 확인을 마치는 대로, 문의하실 때 남겨주신 휴대폰 번호로 카카오톡을 통해 직접 연락드려요.</p>
-                  <p>🕐 업무시간(평일 09:00~18:00) 이후에 접수해 주신 문의는 견적서가 다음 영업일에 전달될 수 있는 점 양해 부탁드립니다.</p>
+                  <p className="flex gap-1.5"><IconPhone className="w-4 h-4 mt-px text-brand-blue" /><span className="break-keep">담당자가 현지 확인을 마치는 대로 카카오톡으로 <span className="whitespace-nowrap">직접 연락드립니다.</span></span></p>
+                  <p className="flex gap-1.5"><IconClock className="w-4 h-4 mt-px text-brand-blue" /><span className="break-keep">업무시간(평일 09:00~18:00) 이후 접수된 문의는 견적서가 다음 영업일에 전달될 수 있는 점 <span className="whitespace-nowrap">양해 부탁드립니다.</span></span></p>
                 </div>
               </div>
             ) : (
@@ -267,7 +268,7 @@ export default function ContactOptions({
             onClick={() => setShowQr(!showQr)}
             className="w-full flex items-center gap-4 px-5 py-4 hover:bg-yellow-50 transition-colors border-b border-gray-100 text-left"
           >
-            <div className="w-10 h-10 bg-yellow-300 rounded-full flex items-center justify-center text-xl flex-shrink-0">📷</div>
+            <div className="w-10 h-10 bg-yellow-300 rounded-full flex items-center justify-center text-main-text flex-shrink-0"><IconCamera /></div>
             <div className="flex-1">
               <div className="font-black text-gray-800 text-sm">QR코드로 친구 추가</div>
               <div className="text-yellow-700 font-bold text-sm"><span className="inline-flex items-center gap-1">카메라로 스캔 <IconChevron dir={showQr ? "up" : "down"} className="w-4 h-4" /></span></div>
@@ -294,7 +295,7 @@ export default function ContactOptions({
             rel="noopener noreferrer"
             className="flex items-center gap-4 px-5 py-4 hover:bg-yellow-50 transition-colors"
           >
-            <div className="w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center text-xl flex-shrink-0">🟡</div>
+            <div className="w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center text-main-text flex-shrink-0"><IconChat /></div>
             <div>
               <div className="font-black text-gray-800 text-sm">카카오 채널</div>
               <div className="inline-flex items-center gap-1 text-yellow-700 font-bold text-sm">여행의 파도 채널<IconChevron className="w-4 h-4" /></div>

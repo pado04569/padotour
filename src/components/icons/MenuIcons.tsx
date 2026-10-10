@@ -72,3 +72,47 @@ export const IconPhone = ({ className }: P) => (
 export const IconClock = ({ className }: P) => (
   <svg {...base(className)}><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></svg>
 );
+/** 일정 — 달 */
+export const IconMoon = ({ className }: P) => (
+  <svg {...base(className)}><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z" /></svg>
+);
+/** 최소 인원 — 사람들 */
+export const IconUsers = ({ className }: P) => (
+  <svg {...base(className)}><circle cx="9" cy="8" r="3.2" /><path d="M3 20c.6-3.4 3-5.5 6-5.5s5.4 2.1 6 5.5" /><path d="M16 5a3 3 0 0 1 0 6M21 20c-.4-2.6-1.8-4.4-3.8-5.1" /></svg>
+);
+/** 상품 특징 — 반짝임 */
+export const IconSparkles = ({ className }: P) => (
+  <svg {...base(className)}><path d="M11 3.5l1.7 4.6 4.6 1.7-4.6 1.7L11 16.1l-1.7-4.6-4.6-1.7 4.6-1.7z" /><path d="M18.5 14.5l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z" /></svg>
+);
+/** 체크 */
+export const IconCheck = ({ className }: P) => (
+  <svg {...base(className)}><path d="M5 12.5l4.5 4.5L19 7.5" /></svg>
+);
+/** 포함 / 접수 완료 — 동그라미 체크 */
+export const IconCircleCheck = ({ className }: P) => (
+  <svg {...base(className)}><circle cx="12" cy="12" r="9" /><path d="M8.5 12.3l2.4 2.4 4.6-4.7" /></svg>
+);
+/** 불포함 — 동그라미 엑스 */
+export const IconCircleX = ({ className }: P) => (
+  <svg {...base(className)}><circle cx="12" cy="12" r="9" /><path d="M9 9l6 6M15 9l-6 6" /></svg>
+);
+/** 숙박 호텔 — 건물 */
+export const IconBuilding = ({ className }: P) => (
+  <svg {...base(className)}><rect x="5" y="3" width="14" height="18" rx="1.5" /><path d="M9 7h1M14 7h1M9 11h1M14 11h1M9 15h1M14 15h1" /><path d="M10.5 21v-3h3v3" /></svg>
+);
+/** 규정 — 압정 */
+export const IconPin = ({ className }: P) => (
+  <svg {...base(className)}><path d="M9 3.5h6l-1 6.5 3 3H7l3-3-1-6.5z" /><path d="M12 13v7.5" /></svg>
+);
+/** 예약 문의 — 클립보드 */
+export const IconClipboard = ({ className }: P) => (
+  <svg {...base(className)}><rect x="5.5" y="4.5" width="13" height="16.5" rx="2" /><path d="M9.5 3h5v3h-5z" /><path d="M9 11h6M9 15h4" /></svg>
+);
+/** QR 스캔 — 카메라 */
+export const IconCamera = ({ className }: P) => (
+  <svg {...base(className)}><path d="M4 8h3l1.5-2.5h7L17 8h3v11H4z" /><circle cx="12" cy="13" r="3.5" /></svg>
+);
+/** 공유 — 연결 고리 */
+export const IconLink = ({ className }: P) => (
+  <svg {...base(className)}><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1" /><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" /></svg>
+);

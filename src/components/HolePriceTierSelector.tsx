@@ -4,6 +4,7 @@ import { useState } from "react";
 import { track } from "@/lib/analytics";
 import SelectChevron from "@/components/SelectChevron";
 import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint, todayKST } from "@/lib/inquiryForm";
+import { IconClipboard, IconCircleCheck } from "@/components/icons/MenuIcons";
 
 const FIELD =
   "w-full h-11 border border-gray-300 rounded-lg px-3 text-sm bg-white text-gray-800 " +
@@ -159,7 +160,7 @@ export default function HolePriceTierSelector({
 
           {sent ? (
             <div className="bg-white border border-emerald-200 rounded-xl px-4 py-4 text-center">
-              <p className="font-black text-emerald-700 text-sm">문의가 접수되었습니다 ✅</p>
+              <p className="font-black text-emerald-700 text-sm inline-flex items-center gap-1.5">문의가 접수되었습니다 <IconCircleCheck className="w-5 h-5" /></p>
               <p className="text-xs text-gray-600 mt-1">담당자가 카카오톡으로 견적서를 보내드립니다.</p>
             </div>
           ) : (
@@ -254,7 +255,7 @@ export default function HolePriceTierSelector({
                 disabled={!canSubmit}
                 className="w-full bg-[#FAE100] hover:bg-[#F0D600] disabled:bg-gray-300 disabled:cursor-not-allowed text-gray-900 font-black py-3 rounded-lg text-sm transition-colors"
               >
-                {sending ? "접수 중..." : `📋 ${tierName(selected)} 예약 문의`}
+                {sending ? "접수 중..." : <span className="inline-flex items-center gap-1.5"><IconClipboard className="w-[18px] h-[18px]" />{tierName(selected)} 예약 문의</span>}
               </button>
             </form>
           )}

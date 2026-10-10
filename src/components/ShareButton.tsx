@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { track } from "@/lib/analytics";
+import { IconCheck, IconLink } from "@/components/icons/MenuIcons";
 
 /**
  * 상품 공유 버튼
@@ -57,12 +58,12 @@ export default function ShareButton({
     >
       {copied ? (
         <>
-          <span aria-hidden>✅</span>
+          <IconCheck className="w-4 h-4" />
           주소 복사됨
         </>
       ) : (
         <>
-          <span aria-hidden>🔗</span>
+          <IconLink className="w-4 h-4" />
           공유하기
         </>
       )}

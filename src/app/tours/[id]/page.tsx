@@ -9,7 +9,7 @@ import ContactOptions from "@/components/ContactOptions";
 import ViewItemTracker from "@/components/ViewItemTracker";
 import ShareButton from "@/components/ShareButton";
 import { Sentences, Steps } from "@/components/ReadableText";
-import { IconCalendarDays, IconCircleHelp, IconPlaneTakeoff, IconPlaneLanding, IconArrowRight, IconArrowLeft, IconMessageCircle } from "@/components/icons/MenuIcons";
+import { IconCalendarDays, IconCircleHelp, IconPlaneTakeoff, IconPlaneLanding, IconArrowRight, IconArrowLeft, IconMessageCircle, IconMoon, IconUsers, IconSparkles, IconCheck, IconCircleCheck, IconCircleX, IconBuilding, IconPin, IconFlag } from "@/components/icons/MenuIcons";
 
 // 항공편 문장 "A → B" 의 글자 화살표를 작은 선 화살표로 (글자는 그대로 — AI 검색이 읽는 문장, 2026-10-10)
 function FlightLine({ text }: { text: string }) {
@@ -323,15 +323,16 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           return (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
           {[
-            { icon: "🌙", label: "일정", value: tierNightsText ?? stayText(tour.nights, tour.days, " ") },
+            // 이모지 대신 선 아이콘 (사장님 지시 10/11) — 24px, 선 1.8, 브랜드 블루
+            { icon: <IconMoon className="w-6 h-6" />, label: "일정", value: tierNightsText ?? stayText(tour.nights, tour.days, " ") },
             // 무제한 상품은 "무제한라운드 무제한 라운딩홀"처럼 겹쳐 보였다 → "무제한 라운드"만 (사장님 확정 2026-10-02)
-            { icon: "⛳", label: "라운드", value: String(tour.roundsIncluded).includes("무제한") ? "무제한 라운드" : `${tour.roundsIncluded}라운드 ${holesText}` },
-            { icon: "👥", label: "최소 인원", value: minPeopleText },
-            { icon: "📅", label: "출발 기간", value: tour.period ?? "연중 출발" },
+            { icon: <IconFlag className="w-6 h-6" />, label: "라운드", value: String(tour.roundsIncluded).includes("무제한") ? "무제한 라운드" : `${tour.roundsIncluded}라운드 ${holesText}` },
+            { icon: <IconUsers className="w-6 h-6" />, label: "최소 인원", value: minPeopleText },
+            { icon: <IconCalendarDays className="w-6 h-6" />, label: "출발 기간", value: tour.period ?? "연중 출발" },
           ].map((item) => (
             // 카드처럼 보여 눌러도 반응 없는 클릭이 있었다(클래리티 배달못한클릭, 2026-10-02 "출발 기간" 칸) → 출발일·요금으로 스크롤
             <Link key={item.label} href="#departure" className="block min-w-0 bg-gray-50 hover:bg-gray-100 transition-colors rounded-xl p-3 md:p-4 text-center border border-gray-100">
-              <div className="text-2xl mb-1">{item.icon}</div>
+              <div className="flex justify-center h-8 items-center mb-1 text-brand-blue">{item.icon}</div>
               <div className="text-xs text-gray-500 mb-1">{item.label}</div>
               {/* 내용이 길면 줄을 나누고 글자를 줄인다 — 칸 하나만 길어져 어색해지는 것을 막는다 */}
               <div className={`font-bold text-gray-800 break-keep [overflow-wrap:anywhere] leading-snug space-y-0.5 ${
@@ -442,13 +443,13 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
         {/* ── 하이라이트 ── */}
         <div className="mb-8">
-          <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">✨ 이 상품의 특징</h2>
+          <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-accent-teal inline-flex items-center gap-1.5"><span className="text-brand-blue"><IconSparkles /></span>이 상품의 특징</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {/* 카드처럼 보여 눌러도 반응 없는 클릭이 많았다(클래리티 배달못한클릭, 2026-09-21 녹화 확인:
                 "직항, 이동시간 단축" 2회 · "셀프+카트 라운드" 1회) → 문의 폼으로 스크롤하게 만든다 */}
             {tour.highlights.map((h, i) => (
               <Link key={i} href="#inquiry" className="flex items-start gap-3 bg-emerald-50 hover:bg-emerald-100 rounded-xl p-4 transition-colors">
-                <span className="text-emerald-500 font-black text-lg mt-0.5">✓</span>
+                <span className="text-emerald-600 mt-0.5"><IconCheck className="w-5 h-5" /></span>
                 {/* 줄바꿈(\n)이 들어 있으면 그대로 나눈다. break-keep 으로 "2인 1실" 같은 말이 쪼개지지 않게 한다 */}
                 <span className="text-gray-800 font-medium text-sm leading-relaxed break-keep">
                   {h.split("\n").map((line, li) => (
@@ -463,7 +464,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 호텔 정보 + 사진 ── */}
         {tour.hotel && (
           <div className="mb-8">
-            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">🏨 {tour.region} 골프여행 숙박 호텔</h2>
+            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-accent-teal inline-flex items-center gap-1.5"><span className="text-brand-blue"><IconBuilding /></span>{tour.region} 골프여행 숙박 호텔</h2>
             {/* 골프장 정보 박스와 같은 이유로 문의 폼 링크를 단다 (클래리티 배달못한클릭, 2026-09-17) */}
             <Link href="#inquiry" className="block bg-gray-50 hover:bg-gray-100 rounded-2xl p-5 border border-gray-100 mb-3 transition-colors">
               <div className="font-black text-gray-800 text-base mb-2">{tour.hotel}</div>
@@ -478,7 +479,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 골프장 정보 + 사진 ── */}
         {tour.golfCourse && (
           <div className="mb-8">
-            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-emerald-500 inline-block">⛳ {tour.region} 골프장 정보</h2>
+            <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-accent-teal inline-flex items-center gap-1.5"><span className="text-brand-blue"><IconFlag /></span>{tour.region} 골프장 정보</h2>
             {/* 카드처럼 보여 눌러도 반응 없는 클릭이 많았다(클래리티 배달못한클릭 16회, 2026-09-17) → 문의 폼으로 스크롤하게 만든다 */}
             <Link href="#inquiry" className="block bg-gray-50 hover:bg-gray-100 rounded-2xl p-5 border border-gray-100 mb-3 transition-colors">
               <div className="font-black text-gray-800 text-base mb-2">{tour.golfCourse}</div>
@@ -496,7 +497,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         <div className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link href="#inquiry" className="block bg-emerald-50 hover:bg-emerald-100 rounded-2xl p-5 border border-emerald-100 transition-colors">
             <h3 className="font-black text-emerald-800 mb-3 flex items-center gap-2">
-              <span className="text-lg">✅</span> 포함 내역
+              <IconCircleCheck /> 포함 내역
             </h3>
             <ul className="space-y-1.5">
               {tour.includes.map((item, i) => (
@@ -508,7 +509,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           </Link>
           <Link href="#inquiry" className="block bg-red-50 hover:bg-red-100 rounded-2xl p-5 border border-red-100 transition-colors">
             <h3 className="font-black text-red-800 mb-3 flex items-center gap-2">
-              <span className="text-lg">❌</span> 불포함 내역
+              <IconCircleX /> 불포함 내역
             </h3>
             <ul className="space-y-1.5">
               {tour.excludes.map((item, i) => (
@@ -549,7 +550,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               <details key={i} className="group bg-gray-50 border border-gray-100 rounded-xl">
                 <summary className="cursor-pointer list-none px-4 py-3 font-bold text-gray-800 text-sm flex items-start justify-between gap-3 break-keep">
                   <span>Q. {f.q}</span>
-                  <span className="text-gray-400 group-open:rotate-180 transition-transform flex-shrink-0">▾</span>
+                  <IconChevron dir="down" className="w-4 h-4 mt-0.5 text-gray-400 group-open:rotate-[270deg] transition-transform flex-shrink-0" />
                 </summary>
                 {/* 요금은 사이트 전체에서 빨간색 — 답변 속 금액도 맞춘다 */}
                 <p className="px-4 pb-4 text-sm text-gray-700 leading-relaxed break-keep">
@@ -596,8 +597,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         <div className="mb-8">
           <details className="group bg-gray-50 border border-gray-200 rounded-xl">
             <summary className="cursor-pointer list-none px-4 py-2.5 text-xs font-bold text-gray-500 flex items-center gap-1.5">
-              📌 취소·환불 규정 보기
-              <span className="text-gray-400 group-open:rotate-180 transition-transform">▾</span>
+              <IconPin className="w-4 h-4" />취소·환불 규정 보기
+              <IconChevron dir="down" className="w-4 h-4 text-gray-400 group-open:rotate-[270deg] transition-transform" />
             </summary>
             <div className="px-4 pb-4">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-1.5">
