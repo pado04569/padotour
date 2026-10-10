@@ -50,7 +50,8 @@ IMF 외환위기 때 금 모으기 운동에
 이 트로피에 고스란히 남아있습니다.`}</p>
             </div>
             <div className="my-6 flex justify-center">
-              <img src="/images/about/holeinone-trophy.png" alt="아버지의 홀인원 기념 트로피" className="max-w-[220px] w-full h-auto" />
+              {/* 받침의 '이 판 동' 이름이 보이게 — 양옆 흰 여백을 잘라낸 사진으로 크게 (사장님 요청 2026-10-10, 원본 png는 보존) */}
+              <img src="/images/about/holeinone-trophy-wide.jpg" alt="아버지 이판동 님의 홀인원 기념 트로피" className="w-full max-w-[340px] md:max-w-[420px] h-auto" />
             </div>
             <div className="space-y-4 text-gray-700 text-base leading-relaxed whitespace-pre-line">
               <p>{`골프를 사랑한다는건 골프채를
