@@ -90,7 +90,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
       : tierNightsText;
 
   // 지역 소개 페이지가 있으면 경로의 지역 이름은 그 페이지로 (SEO/GEO 2026-10-11)
-  const guide = tour.region === "마쓰야마" ? "/guide/matsuyama" : (() => { const g = regionGuides.find((x) => (tour.region ?? "").includes(x.regionKey)); return g ? `/guide/${g.slug}` : undefined; })();
+  const guide = (() => { const g = regionGuides.find((x) => (tour.region ?? "").includes(x.regionKey)); return g ? `/guide/${g.slug}` : undefined; })();
   const dep =tour.departure === "incheon" ? "incheon" : tour.departure === "busan" ? "busan" : undefined;
   const backHref = dep ? `/${dep}` : "/";
   const heroImage = tour.images && tour.images.length > 0 ? tour.images[0] : tour.image;

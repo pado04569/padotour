@@ -1,6 +1,6 @@
 // 지역 골프여행 소개 페이지(/guide/[slug]) 설정 — SEO/GEO 작업 (사장님 승인 2026-10-11)
 // 소개 문장은 실제 상품·골프장 데이터에 있는 사실만 쓴다. 상품·골프장·출발기간·요금은 화면에서 데이터로 자동 계산한다.
-// 마쓰야마는 기존 /guide/matsuyama 페이지가 따로 있다.
+// 마쓰야마도 2026-10-11부터 같은 방식(손으로 쓴 옛 안내 → 데이터 자동, 사장님 승인). 주소 /guide/matsuyama 는 그대로.
 
 export type RegionGuide = {
   slug: string;
@@ -15,6 +15,19 @@ export type RegionGuide = {
 };
 
 export const regionGuides: RegionGuide[] = [
+  {
+    slug: "matsuyama",
+    regionKey: "마쓰야마",
+    name: "마쓰야마",
+    nameEn: "MATSUYAMA",
+    country: "일본",
+    countryCode: "japan",
+    heroTourId: "japan-matsuyama-city-2n3d-busan",
+    intro: [
+      "마쓰야마는 시코쿠 에히메현의 중심 도시입니다. 시내 중심 호텔에 묵으며 PGM 마쓰야마 국제CC·씨사이드CC·호조CC·치산CC 등에서 라운드하고, 라운드 후에는 오카이도 상점가·마쓰야마성은 걸어서, 도고온천은 노면전차로 다녀올 수 있습니다.",
+      "에어부산 김해 직항으로 가는 2박3일·3박4일 상품이 있고, 2인부터 출발합니다.",
+    ],
+  },
   {
     slug: "fukuoka",
     regionKey: "후쿠오카",
