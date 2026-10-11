@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useEffect } from "react";
+import { Suspense, useEffect, useSyncExternalStore } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -8,14 +8,18 @@ import KakaoFloat from "./KakaoFloat";
 // 카카오 팝업은 화면을 가려 제거(2026-09-10). 플로팅 버튼은 작은 아이콘으로 다시 붙임(2026-10-08).
 
 const DEP_KEY = "padotour_departure";
-function readSavedDeparture(): "incheon" | "busan" | undefined {
-  if (typeof window === "undefined") return undefined;
+function readSavedDeparture(): "incheon" | "busan" | null {
   try {
     const v = localStorage.getItem(DEP_KEY);
-    return v === "incheon" || v === "busan" ? v : undefined;
+    return v === "incheon" || v === "busan" ? v : null;
   } catch {
-    return undefined;
+    return null;
   }
+}
+// 저장값이 바뀌면(다른 탭 등) 다시 읽는다
+function subscribeSaved(onChange: () => void) {
+  window.addEventListener("storage", onChange);
+  return () => window.removeEventListener("storage", onChange);
 }
 
 function ClientLayoutInner({ children }: { children: React.ReactNode }) {
@@ -34,8 +38,11 @@ function ClientLayoutInner({ children }: { children: React.ReactNode }) {
     undefined;
   // 주소에 출발지가 없는 화면(상품 상세·후기·골프장·예약조회)에서도 마지막으로 고른 출발지를 이어 쓴다.
   // 부산으로 들어온 손님에게 인천 블로그·번호가 보이던 문제 (사장님 지적 2026-10-10)
-  // 이 레이아웃은 브라우저에서만 그려져(useSearchParams) 저장값을 바로 읽어도 화면이 어긋나지 않는다.
-  const departure = fromUrl ?? readSavedDeparture();
+  // 서버가 미리 만든 화면(저장값 없음)과 첫 화면을 똑같이 맞춘 뒤, 저장값으로 바꿔 그린다.
+  // 처음엔 render 중에 바로 읽었는데, 미리 만들어 두는 페이지(골프장 소개·공지 등)에서 화면이 어긋나
+  // React가 페이지 전체를 다시 그리는 오류(#418)가 났다 (최종 QA 2026-10-11)
+  const saved = useSyncExternalStore(subscribeSaved, readSavedDeparture, () => null);
+  const departure = fromUrl ?? saved ?? undefined;
   useEffect(() => {
     if (fromUrl) try { localStorage.setItem(DEP_KEY, fromUrl); } catch {}
   }, [fromUrl]);

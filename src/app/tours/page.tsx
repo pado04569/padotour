@@ -23,7 +23,8 @@ function ToursContent() {
   // 국가는 주소(country=)로만 정한다 — 국가 버튼을 누르면 주소가 바뀌어 휴대폰 "뒤로"가 이전 국가로 돌아간다 (2026-10-10)
   const selected = searchParams.get("country") || parsed?.country || "all";
   const regionParam = searchParams.get("region") || parsed?.region || "";
-  const departureParam = searchParams.get("departure") || "";
+  // 검색 글에 출발공항이 있으면 그쪽이 먼저 ("부산출발 일본" — 인천 화면에서 검색해도 부산출발 상품을 찾는다)
+  const departureParam = parsed?.departure || searchParams.get("departure") || "";
   // 출발일로 상품 찾기 (6단계) — date=2026-11-05&people=2&sort=date. 기존 country·region·departure·map 과 겹치지 않는 이름
   const dateParam = isIsoDate(searchParams.get("date")) ? searchParams.get("date")! : parsed?.date ?? "";
   const peopleRaw = searchParams.get("people") ? Number(searchParams.get("people")) : parsed?.people ?? NaN;

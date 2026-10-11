@@ -21,8 +21,10 @@ function FlightLine({ text }: { text: string }) {
         if (i === parts.length - 1) return <span key={i} className="block">{p}</span>;
         // 화살표는 앞 구간의 마지막 낱말에 붙여 둔다 — 혼자 다음 줄 첫머리로 넘어가 들여쓴 것처럼 보였다
         // "출발(ZE650, 20:40)"처럼 괄호 속 편명·시각은 한 덩어리로 — 괄호 앞 낱말부터 화살표까지 줄바꿈 없이
+        // 단, 괄호가 길면(예: "(또는 SC8010 22:15~23:40)") 묶음이 휴대폰 폭을 넘어 화면 밖으로 나갔다 → 마지막 낱말만 묶는다 (최종 QA 10/11)
         const paren = p.lastIndexOf("(");
-        const cut = paren > 0 ? p.lastIndexOf(" ", paren) : p.lastIndexOf(" ");
+        const byParen = paren > 0 ? p.lastIndexOf(" ", paren) : -1;
+        const cut = byParen > 0 && p.length - byParen <= 20 ? byParen : p.lastIndexOf(" ");
         return (
           <span key={i} className="block">
             {cut > 0 ? p.slice(0, cut + 1) : ""}

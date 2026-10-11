@@ -18,6 +18,7 @@ export type ParsedQuery = {
   country?: string; // countryCode
   region?: string; // 상품 데이터의 지역 이름
   people?: number;
+  departure?: "incheon" | "busan"; // "부산출발 일본"처럼 출발공항을 말한 경우
   keywords: string[]; // 위에 해당하지 않는 나머지 낱말
   understood: string[]; // 화면 안내용 "알아들은 것"
   notes: string[]; // 날짜로 볼 수 없었던 것 등
@@ -77,6 +78,10 @@ export function parseQuery(raw: string, today: string, tours: Tour[]): ParsedQue
     const ym = mo >= 1 && mo <= 12 ? nearestFuture(mo, null, today) : null;
     if (ym) out.month = ym;
   });
+  // 출발공항: 인천출발 / 부산출발 / 김해출발 / 부산공항
+  take(/(인천|부산|김해)\s*(?:공항)?\s*(?:출발|발)/, (m) => {
+    out.departure = m[1] === "인천" ? "incheon" : "busan";
+  });
   // 인원: 2명 / 4인
   take(/(\d{1,2})\s*(명|인)/, (m) => {
     const n = +m[1];
@@ -114,6 +119,7 @@ export function parseQuery(raw: string, today: string, tours: Tour[]): ParsedQue
   if (out.region) out.understood.push(out.region);
   else if (out.country) out.understood.push(Object.entries(COUNTRY_NAMES).find(([, c]) => c === out.country)?.[0] ?? out.country);
   if (out.people) out.understood.push(`${out.people}명`);
+  if (out.departure) out.understood.push(out.departure === "incheon" ? "인천출발" : "부산출발");
   for (const k of out.keywords) out.understood.push(`"${k}"`);
   return out;
 }
