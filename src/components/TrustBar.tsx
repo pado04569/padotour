@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname, useSearchParams } from "next/navigation";
+import { usePathname } from "next/navigation";
+import { useQuery } from "@/lib/queryStore";
 import ExternalVerificationButton from "./ExternalVerificationModal";
 import { IconChevron, IconSwap } from "./icons/Chevron";
 
@@ -13,7 +14,7 @@ const SWITCH_LABEL: Record<Dep, string> = { incheon: "인천 출발 보기", bus
 // 상품 상세(/tours/[id])는 상품 자체가 출발지별로 달라 그 출발지 메인으로 보낸다.
 export function useSwitchHref(departure?: Dep) {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
+  const searchParams = useQuery();
   if (!departure) return "/";
   const other: Dep = departure === "incheon" ? "busan" : "incheon";
   if (pathname === "/incheon" || pathname === "/busan") return `/${other}`;

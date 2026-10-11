@@ -34,9 +34,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  // 골프장 소개는 실제 수정일 기록이 없다 — 배포 날짜를 수정일처럼 주지 않고 비워 둔다 (가짜 날짜 금지, SEO 감사 2026-10-11)
   const coursePages = courses.map((course) => ({
     url: `${BASE_URL}/courses/${course.slug}`,
-    lastModified: BUILD_DATE,
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));

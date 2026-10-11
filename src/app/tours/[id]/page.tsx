@@ -213,9 +213,26 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
       : undefined,
     provider: {
       "@type": "TravelAgency",
+      "@id": "https://www.padotour.com/#organization",
       name: "여행의 파도",
       url: "https://www.padotour.com",
     },
+  };
+
+  // 화면 위 경로 표시(홈 › 국가 › 지역 › 상품 상세)와 같은 순서의 BreadcrumbList (SEO 감사 2026-10-11)
+  const SITE = "https://www.padotour.com";
+  const crumbs = [
+    { name: "홈", item: `${SITE}${dep ? `/${dep}` : "/"}` },
+    { name: tour.country, item: `${SITE}/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}` },
+    ...(tour.region
+      ? [{ name: tour.region, item: `${SITE}/tours?country=${tour.countryCode}&region=${encodeURIComponent(tour.region)}${dep ? `&departure=${dep}` : ""}` }]
+      : []),
+    { name: tour.title, item: `${SITE}/tours/${tour.id}` },
+  ];
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: crumbs.map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c.name, item: c.item })),
   };
 
   return (
@@ -227,6 +244,10 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <ViewItemTracker
         itemId={tour.id}

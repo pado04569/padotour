@@ -54,11 +54,17 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
     description: course.summary ?? course.description.split("\n\n")[0],
     url: `${SITE_URL}/courses/${course.slug}`,
     image: course.images.map((src) => `${SITE_URL}${src}`),
+    // addressCountry 는 ISO 국가코드가 표준이다 — 코드를 모르는 나라(기타)는 나라 이름 그대로 (SEO 감사 2026-10-11)
     address: {
       "@type": "PostalAddress",
-      addressCountry: course.country,
+      addressCountry:
+        ({ japan: "JP", china: "CN", thailand: "TH", vietnam: "VN", philippines: "PH", malaysia: "MY", guam: "GU", saipan: "MP" } as Record<string, string>)[
+          course.countryCode
+        ] ?? course.country,
       addressLocality: course.region,
     },
+    // 이 골프장이 들어간 여행 상품 — 골프장 ↔ 상품 관계를 AI 가 읽게 한다
+    subjectOf: relatedTours.map((t) => ({ "@type": "TouristTrip", name: t.title, url: `${SITE_URL}/tours/${t.id}` })),
     keywords: course.hashtags?.join(", "),
   };
 

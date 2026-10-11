@@ -41,12 +41,28 @@ export const metadata: Metadata = {
 const travelAgencyJsonLd = {
   "@context": "https://schema.org",
   "@type": "TravelAgency",
+  "@id": "https://www.padotour.com/#organization",
   name: "여행의 파도",
+  // '여행의파도'(붙여 씀)·도메인 표기가 다른 업체로 보이지 않게 같은 이름으로 묶는다 (SEO/GEO 감사 2026-10-11)
+  alternateName: ["여행의파도", "padotour", "Padotour"],
   url: "https://www.padotour.com",
   logo: "https://www.padotour.com/images/logo.png",
   image: "https://www.padotour.com/images/og-logo.png",
   telephone: "+82-10-5301-5250",
   email: "pado-tour-@naver.com",
+  founder: { "@type": "Person", name: "이지안" },
+  // 사업자등록번호·관광사업등록번호 — 화면 아래(Footer)에 적힌 값과 같다
+  identifier: [
+    { "@type": "PropertyValue", propertyID: "사업자등록번호", value: "372-57-00613" },
+    { "@type": "PropertyValue", propertyID: "관광사업등록번호", value: "제 2022-000029 호" },
+  ],
+  contactPoint: [
+    { "@type": "ContactPoint", telephone: "+82-10-5301-5250", contactType: "reservations", areaServed: "KR", availableLanguage: "ko" },
+    { "@type": "ContactPoint", telephone: "+82-2-6401-5252", contactType: "customer service", areaServed: "KR", availableLanguage: "ko" },
+  ],
+  areaServed: { "@type": "Country", name: "대한민국" },
+  knowsAbout: ["해외 골프여행", "일본 골프여행", "중국 골프여행", "태국 골프여행", "베트남 골프여행", "필리핀 골프여행",
+    "하이난 골프여행", "괌·사이판 골프여행", "말레이시아 골프여행", "인천 출발 골프여행", "부산·김해 출발 골프여행"],
   address: {
     "@type": "PostalAddress",
     streetAddress: "토정로35길 11, 5층 5427호(용강동, 인우빌딩)",
