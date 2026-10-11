@@ -44,6 +44,7 @@ import { flightInfo, departureSummary } from "@/lib/tripFacts";
 import { tourFaqs } from "@/lib/tourFaq";
 import { stayText } from "@/lib/stay";
 import { IconChevron } from "@/components/icons/Chevron";
+import { regionGuides } from "@/lib/regionGuides";
 
 export async function generateStaticParams() {
   return tours.map((t) => ({ id: t.id }));
@@ -88,6 +89,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
       ? `${nightTiers[0].nights}박${nightTiers[0].days}일 ~ ${nightTiers[nightTiers.length - 1].nights}박${nightTiers[nightTiers.length - 1].days}일`
       : tierNightsText;
 
+  // 지역 소개 페이지가 있으면 경로의 지역 이름은 그 페이지로 (SEO/GEO 2026-10-11)
+  const guide = tour.region === "마쓰야마" ? "/guide/matsuyama" : (() => { const g = regionGuides.find((x) => (tour.region ?? "").includes(x.regionKey)); return g ? `/guide/${g.slug}` : undefined; })();
   const dep =tour.departure === "incheon" ? "incheon" : tour.departure === "busan" ? "busan" : undefined;
   const backHref = dep ? `/${dep}` : "/";
   const heroImage = tour.images && tour.images.length > 0 ? tour.images[0] : tour.image;
@@ -225,7 +228,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
     { name: "홈", item: `${SITE}${dep ? `/${dep}` : "/"}` },
     { name: tour.country, item: `${SITE}/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}` },
     ...(tour.region
-      ? [{ name: tour.region, item: `${SITE}/tours?country=${tour.countryCode}&region=${encodeURIComponent(tour.region)}${dep ? `&departure=${dep}` : ""}` }]
+      ? [{ name: tour.region, item: guide ? `${SITE}${guide}` : `${SITE}/tours?country=${tour.countryCode}&region=${encodeURIComponent(tour.region)}${dep ? `&departure=${dep}` : ""}` }]
       : []),
     { name: tour.title, item: `${SITE}/tours/${tour.id}` },
   ];
@@ -265,7 +268,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             { label: "홈", href: dep ? `/${dep}` : "/" },
             { label: tour.country, href: `/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}` },
             ...(tour.region
-              ? [{ label: tour.region, href: `/tours?country=${tour.countryCode}&region=${encodeURIComponent(tour.region)}${dep ? `&departure=${dep}` : ""}` }]
+              ? [{ label: tour.region, href: guide ?? `/tours?country=${tour.countryCode}&region=${encodeURIComponent(tour.region)}${dep ? `&departure=${dep}` : ""}` }]
               : []),
           ].map((c, i, arr) => (
             <li key={c.label} className="flex items-center gap-1.5 flex-none">

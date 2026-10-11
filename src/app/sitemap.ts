@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { tours } from "@/data/tours";
 import { courses } from "@/data/courses";
+import { regionGuides } from "@/lib/regionGuides";
 
 const BASE_URL = "https://www.padotour.com";
 
@@ -14,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/busan`, priority: 0.9 },
     { url: `${BASE_URL}/tours`, priority: 0.9 },
     { url: `${BASE_URL}/guide/matsuyama`, priority: 0.9 },
+    ...regionGuides.map((g) => ({ url: `${BASE_URL}/guide/${g.slug}`, priority: 0.9 })),
     { url: `${BASE_URL}/courses`, priority: 0.8 },
     { url: `${BASE_URL}/reviews`, priority: 0.7 },
     { url: `${BASE_URL}/notice`, priority: 0.5 },
