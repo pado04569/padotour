@@ -53,6 +53,14 @@ export default function ContactOptions({
   // 문의 영역 펼침 / 입력 시작은 각각 1회만 기록한다 (중복 전송 방지)
   const openedOnce = useRef(false);
   const startedOnce = useRef(false);
+  const formRef = useRef<HTMLFormElement>(null);
+
+  function focusFirstField() {
+    const first = formRef.current?.querySelector<HTMLElement>("select, input");
+    if (!first) return;
+    first.scrollIntoView({ behavior: "smooth", block: "center" });
+    first.focus({ preventScroll: true });
+  }
 
   function toggleOpen() {
     const next = !open;
@@ -132,13 +140,18 @@ export default function ContactOptions({
 
           {/* 예약 문의 접수 (출발희망일·인원·연락처) */}
           <div className="px-5 py-4 border-b border-gray-100 bg-blue-50/40">
-            <div className="flex items-center gap-4 mb-3">
+            {/* 버튼처럼 보여 손님이 눌렀는데 아무 일이 없던 자리 — 누르면 첫 입력칸(출발 희망일)으로 보낸다 (클래리티 배달못한클릭, 2026-10-12) */}
+            <button
+              type="button"
+              onClick={focusFirstField}
+              className="w-full flex items-center gap-4 mb-3 text-left cursor-pointer"
+            >
               <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-brand-blue flex-shrink-0"><IconClipboard /></div>
               <div>
                 <div className="font-black text-gray-800 text-sm">예약 문의 접수</div>
                 <div className="text-blue-600 font-bold text-sm">남겨주시면 견적을 보내드려요</div>
               </div>
-            </div>
+            </button>
 
             {sent ? (
               <div className="bg-white border border-blue-200 rounded-xl px-4 py-4 text-center">
@@ -151,7 +164,7 @@ export default function ContactOptions({
                 </div>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-2.5">
+              <form ref={formRef} onSubmit={handleSubmit} className="space-y-2.5">
                 <div>
                   <label className="text-xs text-gray-500 mb-1 block">출발 희망일</label>
                   {upcoming.length > 0 && (
