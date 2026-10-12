@@ -173,7 +173,7 @@ function ToursContent() {
           <>
             <div className="px-4 py-3.5 rounded-2xl bg-emerald-50 border-[1.5px] border-emerald-200 mb-4">
               <p className="text-[17px] md:text-lg font-black text-emerald-800">
-                {dateParam ? `${dateLabel(dateParam)} 정확히 출발 가능한 상품 ${filtered.length}개` : monthText ? `${monthText} 가능한 상품 ${filtered.length}개` : `조건에 맞는 상품 ${filtered.length}개`}
+                {dateParam ? `${dateLabel(dateParam)} 출발 가능한 상품 ${filtered.length}개` : monthText ? `${monthText} 가능한 상품 ${filtered.length}개` : `조건에 맞는 상품 ${filtered.length}개`}
               </p>
               <p className="text-sm text-body-text mt-0.5">{conditionText}</p>
               {dateParam && <p className="text-sm text-body-text">카드의 요금은 {dateLabel(dateParam, "plain")} 출발 1인 요금입니다.</p>}
@@ -184,7 +184,7 @@ function ToursContent() {
           <>
             <div className="px-4 py-3.5 rounded-2xl bg-slate-50 border-[1.5px] border-slate-200">
               <p className="text-[17px] md:text-lg font-black text-slate-900">
-                {dateParam ? `${dateLabel(dateParam, "plain")}에 정확히 출발 가능한 상품이 없습니다.` : "조건에 맞는 상품이 없습니다."}
+                {dateParam ? `${dateLabel(dateParam, "plain")}에 출발 가능한 상품이 없습니다.` : "조건에 맞는 상품이 없습니다."}
               </p>
               <p className="text-sm text-slate-600 mt-0.5">{conditionText}</p>
             </div>
