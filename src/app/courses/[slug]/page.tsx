@@ -7,6 +7,8 @@ import TourCard from "@/components/TourCard";
 import PhotoGrid from "@/components/PhotoGrid";
 import { IconChevron } from "@/components/icons/Chevron";
 import { IconChat } from "@/components/icons/MenuIcons";
+import { countSearchResults } from "@/lib/queryParser";
+import { localIso } from "@/lib/tourSearch";
 
 const SITE_URL = "https://www.padotour.com";
 
@@ -45,6 +47,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
   if (!course) notFound();
 
   const relatedTours = tours.filter((t) => course.relatedTourIds.includes(t.id));
+  const today = localIso();
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -132,11 +135,32 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
           </h2>
           <p className="text-gray-700 leading-relaxed text-sm md:text-base whitespace-pre-line">{course.description}</p>
 
-          {course.hashtags && course.hashtags.length > 0 && (
-            <p className="mt-6 pt-5 border-t border-gray-100 text-xs md:text-sm text-gray-400 leading-relaxed">
-              {course.hashtags.map((tag) => `#${tag}`).join(" ")}
-            </p>
-          )}
+          {/* 해시태그 — 상품이 나오는 낱말은 그 검색 결과로 가는 칩, 0개인 낱말은 회색 글자 그대로
+              (클래리티 10/6: 손님이 '#레이크우드CC'를 링크인 줄 알고 3번 누름 → 사장님 안 1 선택 2026-10-13) */}
+          {/* 칩과 회색 글자를 한 줄에 섞으면 회색이 '안 눌리는 버튼'처럼 보인다 → 회색은 아래 줄로 (Codex 검수 10/13) */}
+          {course.hashtags && course.hashtags.length > 0 && (() => {
+            const linked = course.hashtags.filter((tag) => countSearchResults(tag, today, tours) > 0);
+            const plain = course.hashtags.filter((tag) => !linked.includes(tag));
+            return (
+              <div className="mt-6 pt-3 border-t border-gray-100">
+                {linked.length > 0 && (
+                  <div className="flex flex-wrap items-center gap-x-2">
+                    {linked.map((tag) => (
+                      // 보이는 칩은 32px, 누르는 영역은 44px (디자인 규정 4. 버튼 크기)
+                      <Link key={tag} href={`/tours?search=${encodeURIComponent(tag)}`} className="group inline-flex items-center min-h-11">
+                        <span className="inline-flex items-center h-8 text-[13px] text-emerald-700 bg-emerald-50 group-hover:bg-emerald-100 px-2.5 rounded-full transition-colors">
+                          #{tag}
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                )}
+                {plain.length > 0 && (
+                  <p className="mt-2 text-xs md:text-sm text-slate-ink leading-relaxed">{plain.map((tag) => `#${tag}`).join(" ")}</p>
+                )}
+              </div>
+            );
+          })()}
         </div>
 
         {relatedTours.length > 0 && (

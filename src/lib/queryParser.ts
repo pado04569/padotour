@@ -1,5 +1,5 @@
 import type { Tour } from "@/data/tours";
-import { isIsoDate } from "./tourSearch";
+import { isIsoDate, departureMap } from "./tourSearch";
 
 /**
  * 머리말 검색창의 글을 조건으로 바꾼다 — AI 없이 규칙만 (작업지시서 13-E, 2026-10-11)
@@ -125,6 +125,29 @@ export function parseQuery(raw: string, today: string, tours: Tour[]): ParsedQue
   if (out.departure) out.understood.push(out.departure === "incheon" ? "인천출발" : "부산출발");
   for (const k of out.keywords) out.understood.push(`"${k}"`);
   return out;
+}
+
+/**
+ * 검색창에 이 글을 넣으면 상품이 몇 개 나오는가 — 상품 목록(/tours?search=)과 같은 규칙.
+ * 골프장 소개의 해시태그를 검색 링크로 만들 때, 0개가 나오는 낱말은 링크로 만들지 않으려고 쓴다
+ * (클래리티 10/6: '#레이크우드CC'를 링크인 줄 알고 3번 누름 → 사장님 안 1 선택 2026-10-13)
+ */
+export function countSearchResults(raw: string, today: string, tours: Tour[]): number {
+  const p = parseQuery(raw, today, tours);
+  // "#골프패키지"처럼 거를 조건이 하나도 없으면 전체 목록이 나온다 — 관련 상품이 아니므로 0으로 본다
+  if (!p.departure && !p.country && !p.region && !p.month && !p.date && !p.keywords.length) return 0;
+  return tours.filter((t) => {
+    if (p.departure && t.departure !== p.departure && t.departure !== "both") return false;
+    if (p.country && t.countryCode !== p.country) return false;
+    if (p.region) {
+      const parts = p.region.split("/").map((x) => x.trim()).filter(Boolean);
+      if (!t.region || !(t.region.includes(p.region) || parts.some((x) => t.region!.includes(x)))) return false;
+    }
+    const dates = [...departureMap(t).keys()];
+    if (p.month && !dates.some((d) => d >= today && d.startsWith(p.month!))) return false;
+    if (p.date && !dates.includes(p.date)) return false;
+    return matchesKeywords(t, p.keywords);
+  }).length;
 }
 
 /** 나머지 낱말이 상품명·지역·골프장·호텔에 모두 들어 있는가 */
