@@ -1124,7 +1124,8 @@
     ],
     "relatedTourIds": [
       "thailand-chiangmai-4n6d",
-      "thailand-chiangmai-3n5d"
+      "thailand-chiangmai-3n5d",
+      "thailand-chiangmai-4color-dinner-busan"
     ]
   },
   {
@@ -1175,7 +1176,8 @@
     "relatedTourIds": [
       "thailand-chiangmai-4n6d",
       "thailand-chiangmai-3n5d",
-      "thailand-chiangmai-3color-busan"
+      "thailand-chiangmai-3color-busan",
+      "thailand-chiangmai-4color-dinner-busan"
     ]
   },
   {
@@ -1332,7 +1334,8 @@
       "태국골프여행"
     ],
     "relatedTourIds": [
-      "thailand-chiangmai-3color-busan"
+      "thailand-chiangmai-3color-busan",
+      "thailand-chiangmai-4color-dinner-busan"
     ]
   },
   {
@@ -2242,7 +2245,9 @@
     "relatedTourIds": [
       "china-hainan-missionhills",
       "china-hainan-samgongli-winter",
-      "china-hainan-samgongli"
+      "china-hainan-samgongli",
+      "china-hainan-missionhills-winter-3n4d",
+      "china-hainan-missionhills-winter-4n5d"
     ]
   },
   {
@@ -5368,7 +5373,8 @@
       "태국골프여행"
     ],
     "relatedTourIds": [
-      "thailand-chiangmai-poolvilla-busan"
+      "thailand-chiangmai-poolvilla-busan",
+      "thailand-chiangmai-4color-dinner-busan"
     ]
   },
   {
@@ -5471,6 +5477,309 @@
     ],
     "relatedTourIds": [
       "thailand-chiangmai-poolvilla-busan"
+    ]
+  },
+  {
+    "slug": "ocean-castle-cc",
+    "name": "오션캐슬CC",
+    "nameEn": "Ocean Castle Country Club (オーシャンキャッスルカントリークラブ, 구 나카구스쿠 골프클럽)",
+    "region": "오키나와",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "오션캐슬"
+    ],
+    "summary": "파72 6,498야드, 17개 홀에서 바다가 보이는 오키나와 중부 나카구스쿠 고지대의 오션뷰 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,498야드"
+      },
+      {
+        "label": "개장",
+        "value": "2003년 11월"
+      },
+      {
+        "label": "설계",
+        "value": "오쿠보 쇼(大久保昌)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "18홀 중 17홀 오션뷰, 페어웨이 카트 진입 가능(유료, 코스 상태에 따라 제한)"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오키나와현 나카가미군 나카구스쿠손"
+      }
+    ],
+    "description": "오션캐슬CC는 2003년 11월 문을 연 18홀 파72 코스로 전장은 6,498야드입니다. 오쿠보 쇼가 설계했으며 세계유산 나카구스쿠 성터 가까이에 있습니다. 옛 이름은 나카구스쿠 골프클럽이고 2007년 지금 이름으로 바뀌었으며 아코디아 골프가 운영합니다.\n\n태평양과 동중국해를 모두 볼 수 있는 고지대에 있어 18홀 중 17홀에서 바다가 보입니다. 아웃 코스는 기복이 있고 인 코스에는 연못과 벙커가 배치돼 있습니다. 유료로 페어웨이 카트 진입이 가능하며 날씨와 코스 상태에 따라 제한될 수 있습니다.\n\n여행의파도 오키나와 3색 골프여행에서는 나하 시내 호텔에서 차로 40~50분 이동해 셀프+카트로 18홀을 라운드합니다.",
+    "images": [
+      "/images/okinawa-torifito-3color/oceancastle-1.jpg",
+      "/images/okinawa-torifito-3color/oceancastle-2.jpg",
+      "/images/okinawa-torifito-3color/oceancastle-3.jpg",
+      "/images/okinawa-torifito-3color/oceancastle-4.jpg",
+      "/images/okinawa-torifito-3color/oceancastle-5.jpg",
+      "/images/okinawa-torifito-3color/oceancastle-6.jpg"
+    ],
+    "hashtags": [
+      "오션캐슬CC",
+      "오키나와골프장",
+      "오키나와골프여행",
+      "나카구스쿠골프",
+      "오션뷰골프장",
+      "일본골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "japan-okinawa-torifito-3color",
+      "japan-okinawa-hewitt-3color-seol"
+    ]
+  },
+  {
+    "slug": "chura-orchard-gc",
+    "name": "츄라오차드GC",
+    "nameEn": "Chura Orchard Golf Club (美らオーチャードゴルフ倶楽部, 구 유니마트 오키나와GC)",
+    "region": "오키나와",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "츄라오차드",
+      "츄라 오차드"
+    ],
+    "summary": "파72 6,138야드, 1970년 개장한 온나손 북부 해안 언덕의 씨사이드 코스로 계곡을 넘기는 홀이 있는 오키나와 전통 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,138야드"
+      },
+      {
+        "label": "개장",
+        "value": "1970년 11월"
+      },
+      {
+        "label": "설계",
+        "value": "아사미 로쿠조(浅見緑蔵) · 다케무라 히데오(竹村秀夫)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "동중국해를 내려다보는 씨사이드 구릉 코스, 계곡을 넘기는 홀"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오키나와현 구니가미군 온나손 아후소"
+      }
+    ],
+    "description": "츄라오차드GC는 1970년 11월 문을 연 18홀 파72 코스로 전장은 6,138야드입니다. 아사미 로쿠조와 다케무라 히데오가 설계했습니다. 2005년 유니마트 그룹 인수 후 유니마트 오키나와GC로 불리다가 2011년 JGM 그룹이 인수하면서 지금 이름이 됐습니다.\n\n오키나와 본섬 북부 온나손의 언덕 위에 있어 산호초 바다를 내려다보며 칩니다. 3번·6번 홀처럼 계곡을 넘기는 홀과 벙커 배치가 까다로운 홀이 있고, 블랙부터 핑크까지 티가 여섯 단계라 실력에 맞춰 고를 수 있습니다. 클럽하우스에 레스토랑과 사우나가 있습니다.\n\n여행의파도 오키나와 3색 골프여행에서는 나하 시내 호텔에서 차로 약 60분 이동해 셀프+카트로 18홀을 라운드합니다.",
+    "images": [
+      "/images/okinawa-torifito-3color/chura-1.jpg",
+      "/images/okinawa-torifito-3color/chura-2.jpg",
+      "/images/okinawa-torifito-3color/chura-3.jpg",
+      "/images/okinawa-torifito-3color/chura-4.jpg",
+      "/images/okinawa-torifito-3color/chura-5.jpg"
+    ],
+    "hashtags": [
+      "츄라오차드GC",
+      "오키나와골프장",
+      "오키나와골프여행",
+      "온나손골프",
+      "씨사이드골프장",
+      "일본골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "japan-okinawa-torifito-3color"
+    ]
+  },
+  {
+    "slug": "okinawa-royal-gc",
+    "name": "오키나와 로얄GC",
+    "nameEn": "Okinawa Royal Golf Club (沖縄ロイヤルゴルフクラブ)",
+    "region": "오키나와",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "오키나와 로얄",
+      "로얄골프장"
+    ],
+    "summary": "36홀 파144 13,771야드, 우루마시 이시카와 고원의 넓은 페어웨이 구릉 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 (중산 · 남산 · 북산 · 평산 코스, 각 9홀 파36)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파144 · 13,771야드"
+      },
+      {
+        "label": "개장",
+        "value": "1974년 12월"
+      },
+      {
+        "label": "설계",
+        "value": "이토 미쓰오(伊藤光男)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "넓은 페어웨이의 구릉 코스, 바람 영향이 커 공략이 쉽지 않음"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오키나와현 우루마시 이시카와 야마시로"
+      },
+      {
+        "label": "접근",
+        "value": "오키나와 자동차도 이시카와IC에서 약 7km"
+      }
+    ],
+    "description": "오키나와 로얄GC는 1974년 12월 문을 연 36홀 골프장으로 파144, 전장 13,771야드입니다. 이토 미쓰오가 설계했고 중산·남산·북산·평산 네 코스를 9홀씩 조합해 18홀을 돕니다.\n\n우루마시 이시카와 고원의 완만한 구릉에 있어 페어웨이가 넓고 편하게 티샷할 수 있지만 바람이 많이 불어 난이도는 높은 편입니다. 코스 곳곳에 히비스커스·부겐빌레아·구아바 같은 열대 식물이 심겨 있습니다.\n\n여행의파도 오키나와 3색 골프여행에서는 나하 시내 호텔에서 차로 40~50분 이동해 셀프+카트로 18홀을 라운드합니다.",
+    "images": [
+      "/images/okinawa-torifito-3color/royal-1.jpg",
+      "/images/okinawa-torifito-3color/royal-2.jpg",
+      "/images/okinawa-torifito-3color/royal-3.jpg",
+      "/images/okinawa-torifito-3color/royal-4.jpg",
+      "/images/okinawa-torifito-3color/royal-5.jpg"
+    ],
+    "hashtags": [
+      "오키나와로얄GC",
+      "오키나와골프장",
+      "오키나와골프여행",
+      "우루마골프",
+      "36홀골프장",
+      "일본골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "japan-okinawa-torifito-3color"
+    ]
+  },
+  {
+    "slug": "okinawa-cc",
+    "name": "오키나와CC",
+    "nameEn": "Okinawa Country Club (沖縄カントリークラブ)",
+    "region": "오키나와",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "오키나와 CC",
+      "오키나와 컨트리클럽"
+    ],
+    "summary": "1965년 개장, 파70 5,764야드, 오르막·내리막과 연못 넘기는 홀이 이어지는 나하 근교 니시하라의 전통 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파70 · 5,764야드"
+      },
+      {
+        "label": "개장",
+        "value": "1965년 7월"
+      },
+      {
+        "label": "설계",
+        "value": "오쿠보 쇼(大久保昌)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "전장은 짧지만 오르막·내리막·연못 넘기기 홀이 많은 지형형 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오키나와현 나카가미군 니시하라초"
+      }
+    ],
+    "description": "오키나와CC는 1965년 7월 문을 연 18홀 파70 코스로 전장은 5,764야드입니다. 오쿠보 쇼가 설계했고 지금은 아코디아 골프가 운영합니다. 같은 회사가 운영하는 오션캐슬CC와 자매 코스입니다.\n\n전장은 길지 않지만 지형을 그대로 살려 올려 치는 홀, 내려 치는 홀, 연못을 넘기는 홀이 이어져 거리보다 정확도가 중요합니다. 나하 시내에서 가까워 이동 부담이 적습니다.\n\n여행의파도 오키나와 3색 골프여행에서는 나하 시내 호텔에서 차로 이동해 셀프+카트로 18홀을 라운드합니다. 스루 진행이라 라운드 후 클럽하우스에서 식사합니다.",
+    "images": [
+      "/images/okinawa-hewitt-3color/okinawacc-1.jpg",
+      "/images/okinawa-hewitt-3color/okinawacc-2.jpg",
+      "/images/okinawa-hewitt-3color/okinawacc-3.jpg",
+      "/images/okinawa-hewitt-3color/okinawacc-4.jpg",
+      "/images/okinawa-hewitt-3color/okinawacc-5.jpg",
+      "/images/okinawa-hewitt-3color/okinawacc-6.jpg"
+    ],
+    "hashtags": [
+      "오키나와CC",
+      "오키나와골프장",
+      "오키나와골프여행",
+      "나하골프",
+      "아코디아골프",
+      "일본골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "japan-okinawa-hewitt-3color-seol"
+    ]
+  },
+  {
+    "slug": "palm-hills-gc",
+    "name": "팜힐즈GC",
+    "nameEn": "Palm Hills Golf Resort Club (パームヒルズゴルフリゾートクラブ)",
+    "region": "오키나와",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "팜힐즈"
+    ],
+    "summary": "파72 6,847야드, 이토만시 해발 130m 언덕에서 바다와 시내를 내려다보는 넓은 페어웨이의 남부 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 (아웃 · 인)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,847야드"
+      },
+      {
+        "label": "개장",
+        "value": "1991년 11월"
+      },
+      {
+        "label": "설계",
+        "value": "골프플랜사"
+      },
+      {
+        "label": "코스 특징",
+        "value": "평탄하거나 약간 내려 치는 홀이 많고 페어웨이가 넓음, 바다·시내 조망"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오키나와현 이토만시"
+      },
+      {
+        "label": "접근",
+        "value": "나하공항에서 약 17km, 차로 약 40분"
+      }
+    ],
+    "description": "팜힐즈GC는 1991년 11월 문을 연 18홀 파72 코스로 가장 뒤 티 기준 전장은 6,847야드입니다. 골프플랜사가 설계했고 아웃·인 9홀씩으로 나뉩니다.\n\n오키나와 남부 이토만시의 해발 130m 완만한 언덕에 있어 평탄하거나 약간 내려 치는 홀이 많고 페어웨이가 넓어 편하게 칠 수 있습니다. 코스 곳곳에서 이토만 시내와 바다가 내려다보입니다.\n\n여행의파도 오키나와 3색 골프여행에서는 나하 시내 호텔에서 차로 이동해 셀프+카트로 18홀을 라운드합니다. 나하공항에서 약 17km, 차로 약 40분입니다.",
+    "images": [
+      "/images/okinawa-hewitt-3color/palmhills-1.jpg",
+      "/images/okinawa-hewitt-3color/palmhills-2.jpg",
+      "/images/okinawa-hewitt-3color/palmhills-3.jpg",
+      "/images/okinawa-hewitt-3color/palmhills-4.jpg"
+    ],
+    "hashtags": [
+      "팜힐즈GC",
+      "오키나와골프장",
+      "오키나와골프여행",
+      "이토만골프",
+      "오키나와남부골프",
+      "일본골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "japan-okinawa-hewitt-3color-seol"
     ]
   }
 ]
