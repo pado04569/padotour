@@ -226,6 +226,11 @@ function ConditionSheet({
     setMonth(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`);
   };
 
+  // 닫기 함수는 화면을 다시 그릴 때마다 새로 만들어진다 → 그대로 의존하면 인원 +/− 때마다 이 효과가 다시 돌아
+  // 맨 위 버튼에 초점이 가며 창이 위로 튀었다(사장님 지적 2026-10-12). 최신 함수는 ref 로만 읽고, 효과는 처음 한 번만.
+  const onCloseRef = useRef(onClose);
+  useEffect(() => { onCloseRef.current = onClose; }, [onClose]);
+
   useEffect(() => {
     const previous = document.activeElement as HTMLElement | null;
     const prevOverflow = document.body.style.overflow;
@@ -234,7 +239,7 @@ function ConditionSheet({
     panelRef.current?.querySelector<HTMLElement>("button")?.focus();
     const focusables = () => Array.from(panelRef.current?.querySelectorAll<HTMLElement>("a[href], button:not([disabled])") ?? []);
     function onKey(e: KeyboardEvent) {
-      if (e.key === "Escape") onClose();
+      if (e.key === "Escape") onCloseRef.current();
       if (e.key === "Tab") {
         const list = focusables();
         if (!list.length) return;
@@ -250,7 +255,7 @@ function ConditionSheet({
       document.body.removeAttribute("data-drawer-open");
       previous?.focus();
     };
-  }, [onClose]);
+  }, []);
 
   const [y, m] = month.split("-").map(Number);
   const lead = new Date(y, m - 1, 1).getDay();
