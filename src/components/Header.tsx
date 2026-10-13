@@ -19,6 +19,7 @@ type NavItem = {
   sub?: { label: string; href: string }[];
 };
 
+// 상품이 있는데 메뉴에 없던 지역 8곳 추가 — 광저우·푸저우·샤먼(인천)·오이타·파타야·후아힌·하롱베이·마나도 (사장님 지적 2026-10-13)
 function buildNav(dep?: string): NavItem[] {
   const q = dep ? `&departure=${dep}` : "";
   const p = dep ? `?departure=${dep}` : "";
@@ -33,6 +34,7 @@ function buildNav(dep?: string): NavItem[] {
         { label: "북해도", href: `/tours?country=japan&region=북해도${q}` },
         { label: "도쿄/이바라키", href: `/tours?country=japan&region=도쿄${q}` },
         { label: "구마모토", href: `/tours?country=japan&region=구마모토${q}` },
+        { label: "오이타", href: `/tours?country=japan&region=오이타${q}` },
         { label: "나고야", href: `/tours?country=japan&region=나고야${q}` },
         { label: "야마구치", href: `/tours?country=japan&region=야마구치${q}` },
         { label: "가고시마", href: `/tours?country=japan&region=가고시마${q}` },
@@ -53,6 +55,7 @@ function buildNav(dep?: string): NavItem[] {
             { label: "베이징/천진", href: `/tours?country=china&region=베이징${q}` },
             { label: "샤먼(하문)", href: `/tours?country=china&region=샤먼${q}` },
             { label: "장가계", href: `/tours?country=china&region=장가계${q}` },
+            { label: "광저우", href: `/tours?country=china&region=광저우${q}` },
           ]
         : [
             { label: "연태", href: `/tours?country=china&region=연태${q}` },
@@ -60,6 +63,8 @@ function buildNav(dep?: string): NavItem[] {
             { label: "청도(칭다오)", href: `/tours?country=china&region=청도${q}` },
             { label: "하이난(해남도)", href: `/tours?country=china&region=하이난${q}` },
             { label: "곡부", href: `/tours?country=china&region=곡부${q}` },
+            { label: "샤먼(하문)", href: `/tours?country=china&region=샤먼${q}` },
+            { label: "푸저우", href: `/tours?country=china&region=푸저우${q}` },
           ],
     },
     {
@@ -67,6 +72,8 @@ function buildNav(dep?: string): NavItem[] {
       href: `/tours?country=thailand${q}`,
       sub: [
         { label: "방콕/파타야", href: `/tours?country=thailand&region=방콕${q}` },
+        { label: "파타야", href: `/tours?country=thailand&region=파타야${q}` },
+        { label: "후아힌", href: `/tours?country=thailand&region=후아힌${q}` },
         { label: "카오야이", href: `/tours?country=thailand&region=카오야이${q}` },
         { label: "치앙마이", href: `/tours?country=thailand&region=치앙마이${q}` },
       ],
@@ -76,6 +83,7 @@ function buildNav(dep?: string): NavItem[] {
       href: `/tours?country=vietnam${q}`,
       sub: [
         { label: "하노이/하이퐁", href: `/tours?country=vietnam&region=하노이${q}` },
+        { label: "하롱베이", href: `/tours?country=vietnam&region=하롱베이${q}` },
         { label: "다낭", href: `/tours?country=vietnam&region=다낭${q}` },
         { label: "나트랑/달랏", href: `/tours?country=vietnam&region=나트랑${q}` },
         { label: "푸꾸옥", href: `/tours?country=vietnam&region=푸꾸옥${q}` },
@@ -105,6 +113,7 @@ function buildNav(dep?: string): NavItem[] {
         { label: "괌/사이판", href: `/tours?country=other&region=괌${q}` },
         { label: "대만", href: `/tours?country=other&region=대만${q}` },
         { label: "라오스", href: `/tours?country=other&region=라오스${q}` },
+        { label: "마나도(인도네시아)", href: `/tours?country=other&region=마나도${q}` },
       ],
     },
   ];
