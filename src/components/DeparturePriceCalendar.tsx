@@ -44,6 +44,18 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
   // 예전엔 눌러도 아무 반응이 없어 클래리티 "반응 없는 클릭"으로 잡혔다 (2026-09-15)
   const [hint, setHint] = useState<{ day: string; nearest: string | null } | null>(null);
 
+  // 휴대폰 석 달 띠 — 달 하나 폭(200px) + 간격(16px)
+  const stripRef = useRef<HTMLDivElement>(null);
+  function showNextMonthMobile() {
+    const el = stripRef.current;
+    if (!el) return;
+    if (el.scrollLeft + el.clientWidth >= el.scrollWidth - 4) {
+      setBaseMonth(b => (b.month === 11 ? { year: b.year + 1, month: 0 } : { year: b.year, month: b.month + 1 }));
+    } else {
+      el.scrollBy({ left: 216, behavior: "smooth" });
+    }
+  }
+
   const priceMap = new Map(departurePrices.map(p => [p.date, p.price]));
   const entryMap = new Map(departurePrices.map(p => [p.date, p]));
 
@@ -211,11 +223,16 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
 
         {/* 휴대폰은 석 달이 옆으로 미는 띠라 월 제목을 눌러 달을 바꾸려는 손님이 있었다
             (클래리티 배달못한클릭 '2026.10' 4회, 2026-10-04) → 미는 방법을 한 줄로 알려준다 (사장님 확정 2026-10-05) */}
-        <p className="md:hidden flex items-center justify-end gap-0.5 text-sm font-bold text-emerald-600 mb-1.5">
+        {/* 화살표를 눌러도 반응이 없었다(클래리티 배달못한클릭, 2026-10-13) → 누르면 한 달씩 넘긴다. 띠 끝이면 다음 달로 */}
+        <button
+          type="button"
+          onClick={showNextMonthMobile}
+          className="md:hidden w-full flex items-center justify-end gap-0.5 text-sm font-bold text-emerald-600 mb-1.5"
+        >
           옆으로 밀어 다음 달 보기<IconChevron className="w-4 h-4" />
-        </p>
+        </button>
         {/* 캘린더 3개 */}
-        <div className="flex gap-4 overflow-x-auto pb-2">
+        <div ref={stripRef} className="flex gap-4 overflow-x-auto pb-2">
           {months.map(({ year, month }) => {
             const totalDays = getDaysInMonth(year, month);
             const firstDay = getFirstDayOfWeek(year, month);
