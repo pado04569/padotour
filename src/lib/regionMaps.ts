@@ -132,6 +132,8 @@ const THAILAND: CountryMap = {
     치앙마이: { x: tx(98.98), y: ty(18.79), area: "mainland", label: R },
     방콕: { x: tx(100.5), y: ty(13.75), area: "mainland", label: L },
     파타야: { x: tx(100.88), y: ty(12.93), area: "mainland", label: R },
+    // 메뉴·지역 버튼을 "방콕/파타야" 한 칸으로 합쳐(2026-10-13) 지도 점도 두 도시 사이에 하나 둔다
+    "방콕/파타야": { x: tx(100.7), y: ty(13.35), area: "mainland", label: R },
     후아힌: { x: tx(99.96), y: ty(12.57), area: "mainland", label: L },
   },
 };

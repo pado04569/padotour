@@ -8,6 +8,7 @@ import { useSearchParams } from "next/navigation";
 import { IconChevron } from "@/components/icons/Chevron";
 import { IconFlag, IconChat } from "@/components/icons/MenuIcons";
 import RegionNavigator, { type RegionOption } from "@/components/RegionNavigator";
+import { REGION_MERGE } from "@/lib/navRegions";
 import DepartureSearch, { type SearchPatch } from "@/components/DepartureSearch";
 import type { Tour } from "@/data/tours";
 import { datesWithin, pickBalanced, dateLabel, departureMap, isIsoDate, localIso, minPeopleOf, sortTours, tourFacts, type SortKey } from "@/lib/tourSearch";
@@ -135,7 +136,9 @@ function ToursContent() {
     for (const t of tours) {
       if (t.countryCode !== selected || !t.region) continue;
       if (departureParam && t.departure !== departureParam && t.departure !== "both") continue;
-      for (const r of t.region.split("/").map((x) => x.trim()).filter(Boolean)) count.set(r, (count.get(r) ?? 0) + 1);
+      // 메뉴와 같게 방콕·파타야는 "방콕/파타야" 한 칸으로 (사장님 지시 2026-10-13). 한 상품은 한 칸에 한 번만 센다
+      const labels = new Set(t.region.split("/").map((x) => x.trim()).filter(Boolean).map((x) => REGION_MERGE[x] ?? x));
+      for (const r of labels) count.set(r, (count.get(r) ?? 0) + 1);
     }
     return [...count.entries()].sort((a, b) => b[1] - a[1]).map(([label, c]) => ({ label, count: c }));
   })();
