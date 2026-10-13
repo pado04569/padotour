@@ -16,6 +16,12 @@ const LABELS: Record<string, string> = {
   마나도: "마나도(인도네시아)",
 };
 
+// 메뉴에서 한 칸으로 합칠 지역 (데이터 지역 이름 → 메뉴 칸). 칸 주소의 "방콕/파타야" 는 /tours 에서 둘 중 하나만 맞아도 보여 준다
+const MERGE: Record<string, string> = {
+  방콕: "방콕/파타야",
+  파타야: "방콕/파타야",
+}; // 사장님 지시 2026-10-13
+
 export function buildNavRegions(): NavRegions {
   const today = new Date().toISOString().slice(0, 10);
   const map = new Map<string, Map<string, NavRegion>>();
@@ -24,10 +30,11 @@ export function buildNavRegions(): NavRegions {
     const ds = (t.departurePrices ?? []).map((d) => d.date);
     if (ds.length > 0 && !ds.some((d) => d >= today)) continue;
     const byCountry = map.get(t.countryCode) ?? new Map<string, NavRegion>();
-    const r = byCountry.get(t.region) ?? { region: t.region, label: LABELS[t.region] ?? t.region, incheon: 0, busan: 0 };
+    const key = MERGE[t.region] ?? t.region;
+    const r = byCountry.get(key) ?? { region: key, label: LABELS[key] ?? key, incheon: 0, busan: 0 };
     if (t.departure === "incheon" || t.departure === "both") r.incheon++;
     if (t.departure === "busan" || t.departure === "both") r.busan++;
-    byCountry.set(t.region, r);
+    byCountry.set(key, r);
     map.set(t.countryCode, byCountry);
   }
   const out: NavRegions = {};

@@ -88,7 +88,9 @@ function ToursContent() {
   const listed = (() => {
     let result = selected === "all" ? pool : pool.filter((t) => t.countryCode === selected);
     if (regionParam) {
-      result = result.filter((t) => t.region && t.region.includes(regionParam));
+      // "방콕/파타야" 처럼 / 로 묶인 칸은 둘 중 하나만 들어 있어도 보여 준다 (메뉴 합침, 2026-10-13)
+      const parts = regionParam.split("/").map((x) => x.trim()).filter(Boolean);
+      result = result.filter((t) => t.region && (t.region.includes(regionParam) || parts.some((x) => t.region!.includes(x))));
     }
     // "12월 치앙마이"처럼 달만 말하면 그 달에 실제 출발일이 있는 상품만
     if (monthParam) result = result.filter((t) => [...departureMap(t).keys()].some((d) => d >= today && d.startsWith(monthParam)));
