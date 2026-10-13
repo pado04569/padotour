@@ -31,6 +31,7 @@ const COUNTRY_NAMES: Record<string, string> = {
 const REGION_ALIASES: Record<string, string> = {
   하문: "샤먼", 칭다오: "청도", 청다오: "청도", 옌타이: "연태", 웨이하이: "위해", 코타: "코타키나발루",
   하롱: "하롱베이", 나트랑: "나트랑", 냐짱: "나트랑", 북경: "베이징", 천진: "베이징", 인도네시아: "마나도",
+  홋카이도: "북해도",
 };
 // 검색 뜻이 없는 말
 const FILLER = /^(골프|골프여행|여행|패키지|상품|투어|출발|가고싶어요|가요|추천|찾기)$/;
@@ -101,8 +102,10 @@ export function parseQuery(raw: string, today: string, tours: Tour[]): ParsedQue
     q = q.replace(name, " ");
     break;
   }
-  // 나라
-  for (const [name, code] of Object.entries(COUNTRY_NAMES)) {
+  // 나라 — 위 6개 + 상품 데이터에 있는 나라 이름(새 나라 상품이 생기면 저절로 알아듣는다). 괌·사이판처럼 'other'로 묶인 곳은 지역·낱말로 찾는다
+  const countryNames: Record<string, string> = { ...COUNTRY_NAMES };
+  for (const t of tours) if (t.country && t.countryCode && t.countryCode !== "other" && !countryNames[t.country]) countryNames[t.country] = t.countryCode;
+  for (const [name, code] of Object.entries(countryNames).sort((a, b) => b[0].length - a[0].length)) {
     if (!q.includes(name)) continue;
     if (!out.country) out.country = code;
     q = q.replace(name, " ");
@@ -117,7 +120,7 @@ export function parseQuery(raw: string, today: string, tours: Tour[]): ParsedQue
   if (out.date) { const [, m, d] = out.date.split("-").map(Number); out.understood.push(`${m}월 ${d}일 출발`); }
   if (out.month) out.understood.push(`${+out.month.slice(5)}월 출발`);
   if (out.region) out.understood.push(out.region);
-  else if (out.country) out.understood.push(Object.entries(COUNTRY_NAMES).find(([, c]) => c === out.country)?.[0] ?? out.country);
+  else if (out.country) out.understood.push(Object.entries(countryNames).find(([, c]) => c === out.country)?.[0] ?? out.country);
   if (out.people) out.understood.push(`${out.people}명`);
   if (out.departure) out.understood.push(out.departure === "incheon" ? "인천출발" : "부산출발");
   for (const k of out.keywords) out.understood.push(`"${k}"`);
