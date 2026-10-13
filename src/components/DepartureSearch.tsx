@@ -5,7 +5,7 @@ import Link from "next/link";
 import type { Tour } from "@/data/tours";
 import { countries } from "@/data/tours";
 import { IconChevron } from "./icons/Chevron";
-import { availableDates, dateLabel, departureMap, localIso, minPeopleOf, type SortKey } from "@/lib/tourSearch";
+import { availableDates, dateLabel, departureMap, localIso, minPeopleOf, nightsOf, type SortKey } from "@/lib/tourSearch";
 
 // 출발일로 상품 찾기 (사장님 확정 2026-10-10)
 //  - 검색 전: 출발일·여행지·인원 상세 검색 (휴대폰에서 첫 화면을 다 덮지 않게 2줄로 압축)
@@ -13,7 +13,7 @@ import { availableDates, dateLabel, departureMap, localIso, minPeopleOf, type So
 //  - 조건 바꾸기: 휴대폰은 아래에서 올라오는 창, PC는 가운데 창
 // 이동은 모두 링크(주소)로 한다 — 뒤로가기·새로고침·공유해도 조건이 남는다.
 
-export type SearchPatch = { country?: string; date?: string; people?: number; sort?: SortKey };
+export type SearchPatch = { country?: string; date?: string; people?: number; nights?: number; sort?: SortKey };
 
 const SORTS: { key: SortKey; label: string }[] = [
   { key: "recommend", label: "추천순" },
@@ -21,6 +21,12 @@ const SORTS: { key: SortKey; label: string }[] = [
   { key: "price", label: "낮은 가격순" },
 ];
 const MAX_PEOPLE = 20;
+// 박수 — "3박4일"이 아니라 박만 (동남아 3박5일과 헷갈리지 않게, 사장님 지시 2026-10-13). 0 = 전체
+const NIGHTS = [2, 3, 4, 5, 6, 7, 8];
+const nightsLabel = (n: number) => (n ? `${n}박` : "전체");
+const IconMoon = () => (
+  <svg aria-hidden="true" viewBox="0 0 24 24" className="w-5 h-5 flex-none" fill="none" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z" /></svg>
+);
 const countryLabel = (code: string) => countries.find((c) => c.code === code)?.label ?? "전체";
 
 const IconSearch = ({ className = "w-5 h-5" }: { className?: string }) => (
@@ -78,6 +84,7 @@ export default function DepartureSearch({
   country,
   date,
   people,
+  nights,
   sort,
   active,
   hrefWith,
@@ -90,6 +97,8 @@ export default function DepartureSearch({
   country: string;
   date: string;
   people: number;
+  /** 박수 0(전체) 또는 2~8 */
+  nights: number;
   sort: SortKey;
   /** 검색을 한 상태인가 (주소에 date 또는 people 이 있음) */
   active: boolean;
@@ -102,11 +111,11 @@ export default function DepartureSearch({
   peopleLabel?: string;
 }) {
   const [open, setOpen] = useState(false);
-  const [draft, setDraft] = useState({ country, date, people });
+  const [draft, setDraft] = useState({ country, date, people, nights });
   // 주소가 바뀌면(뒤로가기·국가 탭 등) 부모가 key 를 바꿔 입력값을 새로 맞춘다
 
-  const openSheet = () => { setDraft({ country, date, people }); setOpen(true); };
-  const searchHref = hrefWith({ country: draft.country, date: draft.date, people: draft.people });
+  const openSheet = () => { setDraft({ country, date, people, nights }); setOpen(true); };
+  const searchHref = hrefWith({ country: draft.country, date: draft.date, people: draft.people, nights: draft.nights });
 
   return (
     <section className="bg-slate-50 border-b border-slate-200">
@@ -122,9 +131,9 @@ export default function DepartureSearch({
             <span className="text-emerald-600 flex-none"><IconSearch /></span>
             <span className="flex flex-col flex-1 min-w-0">
               <span className="text-base md:text-[17px] font-extrabold text-slate-900 truncate">
-                {date ? dateLabel(date, "plain") : periodLabel ?? "출발일 전체"} · {placeLabel ?? countryLabel(country)} · {peopleLabel ?? `${people}명`}
+                {date ? dateLabel(date, "plain") : periodLabel ?? "출발일 전체"} · {placeLabel ?? countryLabel(country)} · {nights ? `${nights}박` : "박수 전체"} · {peopleLabel ?? `${people}명`}
               </span>
-              <span className="text-[13px] text-slate-500">출발일 · 여행지 · 인원</span>
+              <span className="text-[13px] text-slate-500">출발일 · 여행지 · 박수 · 인원</span>
             </span>
             {/* 행동 버튼 — 선택된 필터(초록 꽉 찬 알약)와 구분되게 테두리형 */}
             <span className="flex-none inline-flex items-center min-h-11 px-4 rounded-full border-[1.5px] border-accent-teal bg-white text-emerald-700 text-[15px] font-extrabold whitespace-nowrap">조건 바꾸기</span>
@@ -133,7 +142,7 @@ export default function DepartureSearch({
           // 검색 전 — 상세 검색. 휴대폰은 [출발일|여행지] / [인원|상품 찾기] 2줄
           <>
             <h2 className="text-[17px] md:text-xl font-black text-slate-900 mb-2.5">출발일로 상품 찾기</h2>
-            <div className="grid grid-cols-2 md:grid-cols-[1fr_1fr_1.15fr_auto] gap-2 md:gap-2.5 md:max-w-4xl">
+            <div className="grid grid-cols-2 md:grid-cols-[1fr_1fr_0.8fr_1.15fr_auto] gap-2 md:gap-2.5 md:max-w-5xl">
               <button type="button" onClick={openSheet} aria-haspopup="dialog" className="flex items-center gap-2.5 min-h-14 px-3.5 rounded-xl border-[1.5px] border-slate-300 bg-white text-left hover:border-emerald-500">
                 <span className="text-emerald-600"><IconCal /></span>
                 <span className="flex flex-col min-w-0">
@@ -147,10 +156,28 @@ export default function DepartureSearch({
                   <span className="text-[13px] font-semibold text-slate-500 leading-tight">여행지</span>
                   <span className="text-[17px] font-extrabold text-slate-900 leading-tight truncate">{countryLabel(draft.country)}</span>
                 </span>
-                <IconChevron dir="down" className="w-4 h-4 text-slate-400 flex-none" />
+                <IconChevron dir="down" className="w-4 h-4 text-slate-600 flex-none" />
               </button>
-              <div className="col-span-2 grid grid-cols-[1.45fr_1fr] gap-2 md:contents">
+              {/* 박수 — 고르는 칸이 짧아 바로 펼쳐지는 목록(select)로 둔다 */}
+              <label className="relative flex items-center gap-2.5 min-h-14 px-3.5 rounded-xl border-[1.5px] border-slate-300 bg-white hover:border-emerald-500 cursor-pointer">
+                <span className="text-emerald-600"><IconMoon /></span>
+                <span className="flex flex-col min-w-0 flex-1">
+                  <span className="text-[13px] font-semibold text-slate-500 leading-tight">박수</span>
+                  <span className="text-[17px] font-extrabold text-slate-900 leading-tight truncate">{nightsLabel(draft.nights)}</span>
+                </span>
+                <IconChevron dir="down" className="w-4 h-4 text-slate-600 flex-none" />
+                <select
+                  aria-label="박수"
+                  value={draft.nights}
+                  onChange={(e) => setDraft((d) => ({ ...d, nights: Number(e.target.value) }))}
+                  className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
+                >
+                  <option value={0}>전체</option>
+                  {NIGHTS.map((n) => <option key={n} value={n}>{n}박</option>)}
+                </select>
+              </label>
               <Stepper value={draft.people} onChange={(n) => setDraft((d) => ({ ...d, people: n }))} />
+              <div className="col-span-2 md:contents">
               <Link
                 href={searchHref}
                 scroll={false}
@@ -189,8 +216,8 @@ function ConditionSheet({
   resultHref,
 }: {
   pool: Tour[];
-  draft: { country: string; date: string; people: number };
-  setDraft: React.Dispatch<React.SetStateAction<{ country: string; date: string; people: number }>>;
+  draft: { country: string; date: string; people: number; nights: number };
+  setDraft: React.Dispatch<React.SetStateAction<{ country: string; date: string; people: number; nights: number }>>;
   onClose: () => void;
   resultHref: string;
 }) {
@@ -206,10 +233,11 @@ function ConditionSheet({
     () =>
       inCountry.filter((t) => {
         if (draft.date && !departureMap(t).has(draft.date)) return false;
+        if (draft.nights && !nightsOf(t).has(draft.nights)) return false;
         const min = minPeopleOf(t);
         return min === null || min <= draft.people;
       }).length,
-    [inCountry, draft.date, draft.people],
+    [inCountry, draft.date, draft.people, draft.nights],
   );
 
   // 달력 범위: 이번 달 ~ 출발일 자료가 있는 마지막 달
@@ -342,6 +370,23 @@ function ConditionSheet({
               }`}
             >
               {c.label}
+            </button>
+          ))}
+        </div>
+
+        <h3 className="text-sm font-bold text-slate-600 mt-3.5 mb-1.5">박수</h3>
+        <div className="flex flex-wrap gap-2">
+          {[0, ...NIGHTS].map((n) => (
+            <button
+              key={n}
+              type="button"
+              onClick={() => setDraft((d) => ({ ...d, nights: n }))}
+              aria-pressed={draft.nights === n}
+              className={`flex-none min-h-11 px-4 rounded-full text-[15px] font-bold transition-colors ${
+                draft.nights === n ? "bg-emerald-600 text-white" : "bg-slate-100 text-slate-700 hover:bg-slate-200"
+              }`}
+            >
+              {nightsLabel(n)}
             </button>
           ))}
         </div>

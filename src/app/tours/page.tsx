@@ -11,7 +11,7 @@ import RegionNavigator, { type RegionOption } from "@/components/RegionNavigator
 import { REGION_MERGE } from "@/lib/navRegions";
 import DepartureSearch, { type SearchPatch } from "@/components/DepartureSearch";
 import type { Tour } from "@/data/tours";
-import { datesWithin, pickBalanced, dateLabel, departureMap, isIsoDate, localIso, minPeopleOf, sortTours, tourFacts, type SortKey } from "@/lib/tourSearch";
+import { nightsOf, datesWithin, pickBalanced, dateLabel, departureMap, isIsoDate, localIso, minPeopleOf, sortTours, tourFacts, type SortKey } from "@/lib/tourSearch";
 import { parseQuery, matchesKeywords } from "@/lib/queryParser";
 
 function ToursContent() {
@@ -31,12 +31,15 @@ function ToursContent() {
   const peopleRaw = searchParams.get("people") ? Number(searchParams.get("people")) : parsed?.people ?? NaN;
   const hasPeople = Number.isInteger(peopleRaw) && peopleRaw >= 1 && peopleRaw <= 20;
   const people = hasPeople ? peopleRaw : 2;
+  // 박수(2~8박) — nights=3. 3박4일·3박5일처럼 일수가 달라도 박만 같으면 같은 칸 (사장님 지시 2026-10-13)
+  const nightsRaw = Number(searchParams.get("nights"));
+  const nightsParam = Number.isInteger(nightsRaw) && nightsRaw >= 2 && nightsRaw <= 8 ? nightsRaw : 0;
   const sortRaw = searchParams.get("sort");
   const sort: SortKey = sortRaw === "date" || sortRaw === "price" ? sortRaw : "recommend";
   // 검색 글에서 나온 "11월" 같은 달, 상품명·골프장에서 찾을 낱말
   const monthParam = !dateParam ? parsed?.month ?? "" : "";
   const keywords = parsed?.keywords ?? [];
-  const searching = Boolean(dateParam) || hasPeople || Boolean(searchQ);
+  const searching = Boolean(dateParam) || hasPeople || Boolean(searchQ) || nightsParam > 0;
 
 
   // 뒤로가기 3단계 (소 → 중 → 대)
@@ -71,13 +74,15 @@ function ToursContent() {
     if (savedDeparture) q.set("departure", savedDeparture);
     const date = p.date ?? dateParam;
     if (date) q.set("date", date);
+    const nts = p.nights ?? nightsParam;
+    if (nts) q.set("nights", String(nts));
     const ppl = p.people ?? (hasPeople ? people : undefined);
     if (ppl) q.set("people", String(ppl));
     const s = p.sort ?? sort;
     if (s !== "recommend") q.set("sort", s);
     if (sameCountry && p.region === undefined && searchParams.get("map") === "1") q.set("map", "1");
     // 정렬만 바꿀 때는 검색 글(달·낱말)을 그대로 둔다. 조건을 직접 바꾸면 그 조건이 새 기준이 된다
-    const onlySort = p.country === undefined && p.date === undefined && p.people === undefined && p.region === undefined;
+    const onlySort = p.country === undefined && p.date === undefined && p.people === undefined && p.region === undefined && p.nights === undefined;
     if (searchQ && onlySort) q.set("search", searchQ);
     return q.size ? `/tours?${q.toString()}` : "/tours";
   }
@@ -96,6 +101,7 @@ function ToursContent() {
     // "12월 치앙마이"처럼 달만 말하면 그 달에 실제 출발일이 있는 상품만
     if (monthParam) result = result.filter((t) => [...departureMap(t).keys()].some((d) => d >= today && d.startsWith(monthParam)));
     if (keywords.length) result = result.filter((t) => matchesKeywords(t, keywords));
+    if (nightsParam) result = result.filter((t) => nightsOf(t).has(nightsParam));
     return result;
   })();
   // 검색 글에 인원이 없으면 인원으로 거르지 않는다(멋대로 2명으로 정하지 않는다)
@@ -144,11 +150,12 @@ function ToursContent() {
   })();
 
   const grid = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6";
-  const conditionText = [monthText, regionParam ? placeText : countryName, depName, peopleUnset ? "" : `${people}명 기준`].filter(Boolean).join(" · ");
+  const conditionText = [monthText, regionParam ? placeText : countryName, depName, nightsParam ? `${nightsParam}박` : "", peopleUnset ? "" : `${people}명 기준`].filter(Boolean).join(" · ");
   // 맞춤 견적 카드에 보여줄 검색 조건: 날짜 · 여행지(지역을 골랐으면 지역) · 인원
   const searchCondition = [
     dateParam ? dateLabel(dateParam, "plain") : monthText,
     placeText,
+    nightsParam ? `${nightsParam}박` : "",
     peopleUnset ? "" : `${people}명`,
   ].filter(Boolean).join(" · ");
   // 검색 결과 — ① 조건에 맞는 상품 ② (없으면) 가까운 출발일 ③ 인원이 더 필요한 상품. 서로 섞지 않는다
@@ -304,11 +311,12 @@ function ToursContent() {
 
       {/* 출발일로 상품 찾기 — 검색 전엔 상세 검색, 검색 후엔 한 줄 바 + 정렬 (사장님 확정 2026-10-10) */}
       <DepartureSearch
-        key={`${selected}|${dateParam}|${people}`}
+        key={`${selected}|${dateParam}|${people}|${nightsParam}`}
         pool={pool}
         country={selected}
         date={dateParam}
         people={people}
+        nights={nightsParam}
         sort={sort}
         active={searching}
         hrefWith={hrefWith}
@@ -353,7 +361,7 @@ function ToursContent() {
               regions={regionOptions}
               selected={regionParam || undefined}
               departure={departureParam || undefined}
-              keepQuery={{ date: dateParam, people: hasPeople ? String(people) : "", sort: sort === "recommend" ? "" : sort }}
+              keepQuery={{ date: dateParam, nights: nightsParam ? String(nightsParam) : "", people: hasPeople ? String(people) : "", sort: sort === "recommend" ? "" : sort }}
               initialOpen={searchParams.get("map") === "1"}
             />
           </div>

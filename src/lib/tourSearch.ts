@@ -46,6 +46,22 @@ export function departureMap(t: Tour): Map<string, number> {
   return m;
 }
 
+/** 상품의 박수 목록 — nights 칸(3 또는 "3박4일~4박5일"), 출발일별 박수, 요금 단계 박수를 모두 본다 (박수 검색, 2026-10-13) */
+export function nightsOf(t: Tour): Set<number> {
+  const out = new Set<number>();
+  const v = t.nights as unknown;
+  if (typeof v === "number" && v > 0) out.add(v);
+  for (const m of String(typeof v === "string" ? v : "").matchAll(/(\d+)\s*박/g)) out.add(Number(m[1]));
+  if (typeof v === "string" && /^\s*\d+\s*$/.test(v)) out.add(Number(v));
+  if (typeof v === "string" && /^\s*\d+\s*~\s*\d+\s*$/.test(v)) {
+    const [a, b] = v.split("~").map((x) => Number(x));
+    for (let n = a; n <= b; n++) out.add(n);
+  }
+  for (const dp of t.departurePrices ?? []) if (dp.nights) out.add(dp.nights);
+  for (const tier of t.holePriceTiers ?? []) if (tier.nights) out.add(tier.nights);
+  return out;
+}
+
 /** 최소 출발 인원 — 숫자 또는 "4인 (…)"처럼 '인'으로 시작하는 글만 인정. "24명 (선착순)" 같은 건 모집 인원이라 쓰지 않는다 */
 export function minPeopleOf(t: Tour): number | null {
   const v = t.minPeople as unknown;
