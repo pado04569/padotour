@@ -55,6 +55,8 @@ function isTourActive(tour: Tour): boolean {
 }
 
 export const tours: Tour[] = allTours.filter(isTourActive);
+// 출발일이 끝난 상품 — 목록에는 안 보이고, 옛 주소로 들어오면 같은 지역으로 넘긴다 (lib/endedTourRedirect.ts)
+export const endedTours: Tour[] = allTours.filter((t) => !isTourActive(t));
 
 export const countries = [
   { code: "all", label: "전체" },

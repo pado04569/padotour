@@ -1,7 +1,8 @@
 import Link from "next/link";
-import { tours } from "@/data/tours";
+import { tours, endedTours } from "@/data/tours";
 import PhotoGrid from "@/components/PhotoGrid";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
+import { endedTourTarget } from "@/lib/endedTourRedirect";
 import type { Metadata } from "next";
 import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
 import HolePriceTierSelector from "@/components/HolePriceTierSelector";
@@ -72,7 +73,12 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 export default async function TourDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const tour = tours.find((t) => t.id === id);
-  if (!tour) notFound();
+  if (!tour) {
+    // 출발일이 끝난 상품: 서버에서 영구 이동(308) — 검색엔진이 새 주소로 옮겨 간다. 모르는 주소만 404
+    const ended = endedTours.find((t) => t.id === id);
+    if (ended) permanentRedirect(endedTourTarget(ended, tours));
+    notFound();
+  }
 
   // 박수별 요금 상품(요금 단계에 nights가 있음) — 일정 칸·일정 제목을 "3박4일 · 4박5일 · 5박6일"로
   const nightTiers = (tour.holePriceTiers ?? []).filter((t) => t.nights != null && t.days != null);
