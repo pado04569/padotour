@@ -54,6 +54,7 @@ export default function ContactOptions({
   const openedOnce = useRef(false);
   const startedOnce = useRef(false);
   const formRef = useRef<HTMLFormElement>(null);
+  const submittingRef = useRef(false);
 
   function focusFirstField() {
     const first = formRef.current?.querySelector<HTMLElement>("select, input");
@@ -81,7 +82,9 @@ export default function ContactOptions({
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!canSubmit) return;
+    // 빠른 두 번 클릭: setSending 이 화면에 반영되기 전 두 번째 제출이 통과해 문의가 2통 갔다 (2026-10-13 시험) → ref 로 즉시 잠근다
+    if (!canSubmit || submittingRef.current) return;
+    submittingRef.current = true;
     setSending(true);
     try {
       const res = await fetch("/api/inquiry", {
@@ -109,6 +112,7 @@ export default function ContactOptions({
       track("inquiry_fail", { item_name: tourTitle, reason: "network" });
       alert("전송 중 오류가 발생했습니다. 전화(010-5301-5250)로 문의해 주세요.");
     } finally {
+      submittingRef.current = false;
       setSending(false);
     }
   }

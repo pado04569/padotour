@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { track } from "@/lib/analytics";
 import SelectChevron from "@/components/SelectChevron";
 import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint, todayKST } from "@/lib/inquiryForm";
@@ -46,6 +46,7 @@ export default function HolePriceTierSelector({
   const [showPrivacy, setShowPrivacy] = useState(false);
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
+  const submittingRef = useRef(false);
 
   const byNights = tiers.some((t) => t.nights != null);
   const todayStr = new Date().toLocaleDateString("sv-SE");
@@ -82,7 +83,9 @@ export default function HolePriceTierSelector({
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!canSubmit || !selected) return;
+    // 빠른 두 번 클릭으로 문의가 2통 가지 않게 즉시 잠근다 (2026-10-13, ContactOptions 와 같은 원인)
+    if (!canSubmit || !selected || submittingRef.current) return;
+    submittingRef.current = true;
     setSending(true);
     try {
       const res = await fetch("/api/inquiry", {
@@ -107,6 +110,7 @@ export default function HolePriceTierSelector({
     } catch {
       alert("전송 중 오류가 발생했습니다. 전화(010-5301-5250)로 문의해 주세요.");
     } finally {
+      submittingRef.current = false;
       setSending(false);
     }
   }

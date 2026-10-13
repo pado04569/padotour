@@ -125,6 +125,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
   // 이벤트 이름·방식은 ContactOptions 와 같게 하고, 어느 폼인지 method 로 구분한다.
   const openedOnce = useRef(false);
   const startedOnce = useRef(false);
+  const submittingRef = useRef(false);
 
   function openForm() {
     setShowForm(true);
@@ -142,7 +143,9 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!selected || !isValidPhone(phone) || !agreed) return;
+    // 빠른 두 번 클릭으로 문의가 2통 가지 않게 즉시 잠근다 (2026-10-13, ContactOptions 와 같은 원인)
+    if (!selected || !isValidPhone(phone) || !agreed || submittingRef.current) return;
+    submittingRef.current = true;
     setSending(true);
     try {
       const res = await fetch("/api/inquiry", {
@@ -170,6 +173,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
       track("inquiry_fail", { item_name: tourTitle, reason: "network", method: "calendar" });
       alert("전송 중 오류가 발생했습니다. 전화(010-5301-5250)로 문의해 주세요.");
     } finally {
+      submittingRef.current = false;
       setSending(false);
     }
   }
