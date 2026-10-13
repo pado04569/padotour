@@ -4,6 +4,7 @@ import { Suspense, useEffect, useSyncExternalStore } from "react";
 import { usePathname } from "next/navigation";
 import { QuerySync, useQuery } from "@/lib/queryStore";
 import Header from "./Header";
+import type { NavRegions } from "@/lib/navRegions";
 import Footer from "./Footer";
 import KakaoFloat from "./KakaoFloat";
 // 카카오 팝업은 화면을 가려 제거(2026-09-10). 플로팅 버튼은 작은 아이콘으로 다시 붙임(2026-10-08).
@@ -23,7 +24,7 @@ function subscribeSaved(onChange: () => void) {
   return () => window.removeEventListener("storage", onChange);
 }
 
-function ClientLayoutInner({ children }: { children: React.ReactNode }) {
+function ClientLayoutInner({ children, navRegions }: { children: React.ReactNode; navRegions: NavRegions }) {
   const pathname = usePathname();
   const searchParams = useQuery();
   const isLanding = pathname === "/";
@@ -64,7 +65,7 @@ function ClientLayoutInner({ children }: { children: React.ReactNode }) {
 
   return (
     <>
-      <Header departure={departure} />
+      <Header departure={departure} navRegions={navRegions} />
       <main className="flex-1">{children}</main>
       <Footer departure={departure} />
       <KakaoFloat />
@@ -73,13 +74,13 @@ function ClientLayoutInner({ children }: { children: React.ReactNode }) {
 }
 
 // 본문(children)은 Suspense 밖에 둔다 — 주소 조건을 읽는 QuerySync 만 Suspense 안 (SEO 감사 2026-10-11, lib/queryStore.ts 설명 참고)
-export default function ClientLayout({ children }: { children: React.ReactNode }) {
+export default function ClientLayout({ children, navRegions }: { children: React.ReactNode; navRegions: NavRegions }) {
   return (
     <>
       <Suspense fallback={null}>
         <QuerySync />
       </Suspense>
-      <ClientLayoutInner>{children}</ClientLayoutInner>
+      <ClientLayoutInner navRegions={navRegions}>{children}</ClientLayoutInner>
     </>
   );
 }

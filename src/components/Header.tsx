@@ -8,9 +8,11 @@ import { useRouter } from "next/navigation";
 import TrustBar, { useSwitchHref } from "./TrustBar";
 import ExternalVerificationButton from "./ExternalVerificationModal";
 import { IconChevron, IconSwap } from "./icons/Chevron";
+import type { NavRegions } from "@/lib/navRegions";
 
 type HeaderProps = {
   departure?: "incheon" | "busan";
+  navRegions: NavRegions;
 };
 
 type NavItem = {
@@ -19,108 +21,32 @@ type NavItem = {
   sub?: { label: string; href: string }[];
 };
 
-// 상품이 있는데 메뉴에 없던 지역 8곳 추가 — 광저우·푸저우·샤먼(인천)·오이타·파타야·후아힌·하롱베이·마나도 (사장님 지적 2026-10-13)
-function buildNav(dep?: string): NavItem[] {
+// 나라별 지역 칸은 상품 데이터에서 자동으로 만든다(lib/navRegions.ts, 사장님 지시 2026-10-13).
+// 출발지를 고른 화면이면 그 출발지 상품이 있는 지역만, 고르지 않았으면 전체.
+const COUNTRIES: { code: string; label: string }[] = [
+  { code: "japan", label: "일본" },
+  { code: "china", label: "중국" },
+  { code: "thailand", label: "태국" },
+  { code: "vietnam", label: "베트남" },
+  { code: "malaysia", label: "말레이시아" },
+  { code: "philippines", label: "필리핀" },
+  { code: "other", label: "기타" },
+];
+
+function buildNav(regions: NavRegions, dep?: "incheon" | "busan"): NavItem[] {
   const q = dep ? `&departure=${dep}` : "";
   const p = dep ? `?departure=${dep}` : "";
-  return [
-    {
-      label: "일본",
-      href: `/tours?country=japan${q}`,
-      sub: [
-        { label: "후쿠오카", href: `/tours?country=japan&region=후쿠오카${q}` },
-        { label: "마쓰야마", href: `/tours?country=japan&region=마쓰야마${q}` },
-        { label: "다카마쓰", href: `/tours?country=japan&region=다카마쓰${q}` },
-        { label: "북해도", href: `/tours?country=japan&region=북해도${q}` },
-        { label: "도쿄/이바라키", href: `/tours?country=japan&region=도쿄${q}` },
-        { label: "구마모토", href: `/tours?country=japan&region=구마모토${q}` },
-        { label: "오이타", href: `/tours?country=japan&region=오이타${q}` },
-        { label: "나고야", href: `/tours?country=japan&region=나고야${q}` },
-        { label: "야마구치", href: `/tours?country=japan&region=야마구치${q}` },
-        { label: "가고시마", href: `/tours?country=japan&region=가고시마${q}` },
-        { label: "미야자키", href: `/tours?country=japan&region=미야자키${q}` },
-        { label: "아오모리", href: `/tours?country=japan&region=아오모리${q}` },
-        { label: "오사카", href: `/tours?country=japan&region=오사카${q}` },
-        { label: "시즈오카", href: `/tours?country=japan&region=시즈오카${q}` },
-        { label: "오키나와", href: `/tours?country=japan&region=오키나와${q}` },
-      ],
-    },
-    {
-      label: "중국",
-      href: `/tours?country=china${q}`,
-      sub: dep === "busan"
-        ? [
-            { label: "청도", href: `/tours?country=china&region=청도${q}` },
-            { label: "연태", href: `/tours?country=china&region=연태${q}` },
-            { label: "베이징/천진", href: `/tours?country=china&region=베이징${q}` },
-            { label: "샤먼(하문)", href: `/tours?country=china&region=샤먼${q}` },
-            { label: "장가계", href: `/tours?country=china&region=장가계${q}` },
-            { label: "광저우", href: `/tours?country=china&region=광저우${q}` },
-          ]
-        : [
-            { label: "연태", href: `/tours?country=china&region=연태${q}` },
-            { label: "위해", href: `/tours?country=china&region=위해${q}` },
-            { label: "청도(칭다오)", href: `/tours?country=china&region=청도${q}` },
-            { label: "하이난(해남도)", href: `/tours?country=china&region=하이난${q}` },
-            { label: "곡부", href: `/tours?country=china&region=곡부${q}` },
-            { label: "샤먼(하문)", href: `/tours?country=china&region=샤먼${q}` },
-            { label: "푸저우", href: `/tours?country=china&region=푸저우${q}` },
-          ],
-    },
-    {
-      label: "태국",
-      href: `/tours?country=thailand${q}`,
-      sub: [
-        { label: "방콕/파타야", href: `/tours?country=thailand&region=방콕${q}` },
-        { label: "파타야", href: `/tours?country=thailand&region=파타야${q}` },
-        { label: "후아힌", href: `/tours?country=thailand&region=후아힌${q}` },
-        { label: "카오야이", href: `/tours?country=thailand&region=카오야이${q}` },
-        { label: "치앙마이", href: `/tours?country=thailand&region=치앙마이${q}` },
-      ],
-    },
-    {
-      label: "베트남",
-      href: `/tours?country=vietnam${q}`,
-      sub: [
-        { label: "하노이/하이퐁", href: `/tours?country=vietnam&region=하노이${q}` },
-        { label: "하롱베이", href: `/tours?country=vietnam&region=하롱베이${q}` },
-        { label: "다낭", href: `/tours?country=vietnam&region=다낭${q}` },
-        { label: "나트랑/달랏", href: `/tours?country=vietnam&region=나트랑${q}` },
-        { label: "푸꾸옥", href: `/tours?country=vietnam&region=푸꾸옥${q}` },
-      ],
-    },
-    {
-      label: "말레이시아",
-      href: `/tours?country=malaysia${q}`,
-      sub: [
-        { label: "코타키나발루", href: `/tours?country=malaysia&region=코타키나발루${q}` },
-        { label: "쿠알라룸푸르", href: `/tours?country=malaysia&region=쿠알라룸푸르${q}` },
-      ],
-    },
-    {
-      label: "필리핀",
-      href: `/tours?country=philippines${q}`,
-      sub: [
-        { label: "클락", href: `/tours?country=philippines&region=클락${q}` },
-        { label: "세부", href: `/tours?country=philippines&region=세부${q}` },
-        { label: "마닐라", href: `/tours?country=philippines&region=마닐라${q}` },
-      ],
-    },
-    {
-      label: "기타",
-      href: `/tours${p}`,
-      sub: [
-        { label: "괌/사이판", href: `/tours?country=other&region=괌${q}` },
-        { label: "대만", href: `/tours?country=other&region=대만${q}` },
-        { label: "라오스", href: `/tours?country=other&region=라오스${q}` },
-        { label: "마나도(인도네시아)", href: `/tours?country=other&region=마나도${q}` },
-      ],
-    },
-  ];
+  return COUNTRIES.map((c) => {
+    const sub = (regions[c.code] ?? [])
+      .filter((r) => (dep ? r[dep] > 0 : true))
+      .map((r) => ({ label: r.label, href: `/tours?country=${c.code}&region=${encodeURIComponent(r.region)}${q}` }));
+    // 지역이 하나도 없으면 빈 펼침 상자가 뜨지 않게 sub 를 두지 않는다
+    return { label: c.label, href: c.code === "other" ? `/tours${p}` : `/tours?country=${c.code}${q}`, sub: sub.length > 0 ? sub : undefined };
+  });
 }
 
 
-export default function Header({ departure }: HeaderProps) {
+export default function Header({ departure, navRegions }: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [communityOpen, setCommunityOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
@@ -128,7 +54,7 @@ export default function Header({ departure }: HeaderProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const router = useRouter();
 
-  const navItems = buildNav(departure);
+  const navItems = buildNav(navRegions, departure);
   const switchHref = useSwitchHref(departure);
   const p = departure ? `?departure=${departure}` : "";
 

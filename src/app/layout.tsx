@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import "./globals.css";
 import ClientLayout from "@/components/ClientLayout";
+import { buildNavRegions } from "@/lib/navRegions";
 import VercelAnalytics from "@/components/VercelAnalytics";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import BehaviorTracker from "@/components/BehaviorTracker";
@@ -103,7 +104,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen flex flex-col antialiased">
-        <ClientLayout>{children}</ClientLayout>
+        <ClientLayout navRegions={buildNavRegions()}>{children}</ClientLayout>
         <BehaviorTracker />
         <VercelAnalytics />
         <Script id="ms-clarity" strategy="afterInteractive">
