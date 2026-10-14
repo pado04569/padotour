@@ -116,7 +116,12 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
         </div>
 
         {course.specs && course.specs.length > 0 && (
-          <div className="bg-white rounded-2xl shadow-md p-5 md:p-8 border border-gray-100 mb-6 md:mb-8">
+          // 카드처럼 보여 눌러도 반응 없는 클릭이 있었다(클래리티 배달못한클릭, 2026-10-13~14 사츠마·화산CC)
+          // → 누르면 아래 '포함 골프여행 상품'(없으면 문의 상자)으로 내려간다. 상품 상세 정보 칸과 같은 방식.
+          <Link
+            href={relatedTours.length > 0 ? "#related-tours" : "#inquiry"}
+            className="block bg-white rounded-2xl shadow-md hover:shadow-lg transition-shadow p-5 md:p-8 border border-gray-100 mb-6 md:mb-8"
+          >
             <h2 className="text-lg md:text-xl font-black text-gray-800 mb-4">{course.name} 코스 정보</h2>
             <dl className="divide-y divide-gray-100">
               {course.specs.map((spec) => (
@@ -126,7 +131,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
                 </div>
               ))}
             </dl>
-          </div>
+          </Link>
         )}
 
         <div className="bg-white rounded-2xl shadow-md p-6 md:p-8 border border-gray-100 mb-10 md:mb-12">
@@ -164,7 +169,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
         </div>
 
         {relatedTours.length > 0 && (
-          <div>
+          <div id="related-tours" className="scroll-mt-24">
             <h2 className="text-lg md:text-xl font-black text-gray-800 mb-4 md:mb-6">{course.name} 포함 골프여행 상품</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
               {relatedTours.map((tour) => (
@@ -174,7 +179,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
           </div>
         )}
 
-        <div className="text-center mt-10 md:mt-12 bg-emerald-50 rounded-2xl p-6 md:p-10">
+        <div id="inquiry" className="scroll-mt-24 text-center mt-10 md:mt-12 bg-emerald-50 rounded-2xl p-6 md:p-10">
           <h2 className="text-xl md:text-2xl font-black text-gray-800 mb-2 md:mb-3">{course.name} 골프여행 문의</h2>
           <p className="text-gray-600 mb-5 md:mb-6 text-sm md:text-base">일정·인원을 알려주시면 <span className="whitespace-nowrap">확인 후 견적을 전달드립니다.</span></p>
           <a
