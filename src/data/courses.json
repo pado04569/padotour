@@ -6009,5 +6009,64 @@
     "relatedTourIds": [
       "philippines-cebu-3color-busan"
     ]
+  },
+  {
+    "slug": "sono-felice-cc-haiphong",
+    "name": "소노펠리체CC 하이퐁",
+    "nameEn": "Sono Felice Country Club Hai Phong (구 송지아 골프 리조트)",
+    "region": "하롱·하이퐁",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "aliases": [
+      "소노펠리체 하이퐁",
+      "소노펠리체CC",
+      "소노벨 하이퐁"
+    ],
+    "summary": "퍼시픽 코스트 디자인 설계, 리버·오션 9홀의 파72 챔피언십 코스와 이그제큐티브 힐 9홀(파29)을 갖춘 하이퐁의 소노 계열 골프 리조트",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (리버 9홀 · 오션 9홀 · 힐 9홀 이그제큐티브 파29)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,213야드 (리버+오션 18홀, 공식 안내 기준)"
+      },
+      {
+        "label": "설계",
+        "value": "퍼시픽 코스트 디자인 (Pacific Coast Design, 호주)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "지아강·목강을 끼고 조성된 코스, 워터해저드가 많음, 리조트와 한 단지"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 하이퐁시 투이응우옌 르우끼엠"
+      },
+      {
+        "label": "접근",
+        "value": "하이퐁 깟비공항에서 15km, 차로 약 35~40분"
+      }
+    ],
+    "description": "소노펠리체CC 하이퐁은 하이퐁 투이응우옌에서 지아강과 목강이 만나는 자리에 있는 골프장입니다. 호주 퍼시픽 코스트 디자인이 설계했고 옛 이름은 송지아 골프 리조트이며 지금은 소노(대명) 계열이 위탁 운영합니다.\n\n리버 9홀과 오션 9홀로 이뤄진 파72 챔피언십 18홀은 공식 안내 기준 7,213야드이고, 여기에 파29 이그제큐티브 힐 9홀이 더해져 27홀입니다. 강을 끼고 도는 코스라 여러 홀에서 강과 호수, 워터해저드가 걸리며 드라이빙 레인지와 레스토랑·프로샵·락커룸을 갖춘 클럽하우스가 있습니다.\n\n여행의파도 하이퐁 골프여행에서는 같은 단지의 소노펠리체 리조트에 묵으며 하루 18홀씩 3일간 54홀을 돕니다. 그린피·카트비·캐디피가 포함되고 캐디팁은 현지에서 냅니다.",
+    "images": [
+      "/images/haiphong-sonofelice/course-1.jpg",
+      "/images/haiphong-sonofelice/course-2.jpg",
+      "/images/haiphong-sonofelice/course-3.jpg",
+      "/images/haiphong-sonofelice/course-4.jpg"
+    ],
+    "hashtags": [
+      "소노펠리체CC",
+      "하이퐁골프장",
+      "하이퐁골프여행",
+      "소노펠리체하이퐁",
+      "하롱베이골프",
+      "베트남골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "vietnam-haiphong-sonofelice"
+    ]
   }
 ]
