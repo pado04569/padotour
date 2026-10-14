@@ -1280,7 +1280,8 @@
     ],
     "relatedTourIds": [
       "thailand-chiangmai-4n6d",
-      "thailand-chiangmai-3color-busan"
+      "thailand-chiangmai-3color-busan",
+      "thailand-chiangmai-centara-3color"
     ],
     "aliases": [
       "로얄 치앙마이CC"
@@ -1335,7 +1336,8 @@
     ],
     "relatedTourIds": [
       "thailand-chiangmai-3color-busan",
-      "thailand-chiangmai-4color-dinner-busan"
+      "thailand-chiangmai-4color-dinner-busan",
+      "thailand-chiangmai-centara-3color"
     ]
   },
   {
@@ -2582,7 +2584,8 @@
       "링크스골프장"
     ],
     "relatedTourIds": [
-      "china-fuzhou-haixia-3n4d"
+      "china-fuzhou-haixia-3n4d",
+      "china-fuzhou-marriott-straits"
     ]
   },
   {
@@ -3665,7 +3668,11 @@
       "27홀"
     ],
     "relatedTourIds": [
-      "vietnam-halongbay-3color"
+      "vietnam-halongbay-3color",
+      "vietnam-haiphong-3color-sunflower",
+      "vietnam-haiphong-dragon-links-resort",
+      "vietnam-haiphong-sonofelice-city-combo",
+      "vietnam-halongbay-wyndham-3color"
     ]
   },
   {
@@ -3720,7 +3727,9 @@
       "오션뷰골프"
     ],
     "relatedTourIds": [
-      "vietnam-halongbay-3color"
+      "vietnam-halongbay-3color",
+      "vietnam-haiphong-3color-sunflower",
+      "vietnam-halongbay-wyndham-3color"
     ]
   },
   {
@@ -3775,7 +3784,8 @@
       "하이퐁골프"
     ],
     "relatedTourIds": [
-      "vietnam-halongbay-3color"
+      "vietnam-halongbay-3color",
+      "vietnam-halongbay-wyndham-3color"
     ]
   },
   {
@@ -5374,7 +5384,8 @@
     ],
     "relatedTourIds": [
       "thailand-chiangmai-poolvilla-busan",
-      "thailand-chiangmai-4color-dinner-busan"
+      "thailand-chiangmai-4color-dinner-busan",
+      "thailand-chiangmai-centara-3color"
     ]
   },
   {
@@ -5476,7 +5487,8 @@
       "태국골프여행"
     ],
     "relatedTourIds": [
-      "thailand-chiangmai-poolvilla-busan"
+      "thailand-chiangmai-poolvilla-busan",
+      "thailand-chiangmai-centara-3color"
     ]
   },
   {
@@ -6066,7 +6078,185 @@
       "골프패키지"
     ],
     "relatedTourIds": [
-      "vietnam-haiphong-sonofelice"
+      "vietnam-haiphong-sonofelice",
+      "vietnam-haiphong-sonofelice-city-combo"
+    ]
+  },
+  {
+    "slug": "bfa-golf-club-boao",
+    "name": "BFA CC",
+    "nameEn": "BFA International Convention Centre Golf Club (博鳌亚洲论坛国际会议中心高尔夫球会)",
+    "region": "하이난",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "보아오 BFA",
+      "보아오BFA",
+      "BFA 골프클럽",
+      "보아오 BFA CC"
+    ],
+    "summary": "보아오 아시아포럼 개최지 둥위다오의 18홀 파72 7,129야드, 그레이엄 마시 설계 하구 파크랜드 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,129야드"
+      },
+      {
+        "label": "개장",
+        "value": "2003년 11월"
+      },
+      {
+        "label": "설계",
+        "value": "그레이엄 마시 (Graham Marsh)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "강 하구의 평지 파크랜드, 워터해저드, 바닷바람"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 하이난성 충하이시 보아오 둥위다오"
+      }
+    ],
+    "description": "BFA CC는 보아오 아시아포럼 국제회의센터 골프클럽으로, 포럼 개최지인 하이난 충하이시 보아오의 둥위다오에 있습니다. 호주의 그레이엄 마시가 설계해 2003년 11월 문을 연 18홀 파72 코스로 백 티 전장은 7,129야드입니다.\n\n완취안허 강이 바다로 흘러드는 하구에 자리한 평지 파크랜드 코스라 걷기 편하지만, 물이 흐르는 하구 지형이라 워터해저드가 플레이에 관여하고 바닷바람의 영향을 받습니다. 이웃 섬의 보아오 골프&컨트리클럽과는 다른 곳입니다.\n\n여행의파도 하이난 보아오 골프여행에서는 가까운 보아오 골든코스트 온천 호텔에 묵으며 하루 27홀씩 3일간 81홀을 돕니다. 그린피·캐디피·전동카트가 포함됩니다.",
+    "images": [
+      "/images/hainan-boao-bfa/course-1.jpg",
+      "/images/hainan-boao-bfa/course-2.jpg",
+      "/images/hainan-boao-bfa/course-3.jpg",
+      "/images/hainan-boao-bfa/course-4.jpg",
+      "/images/hainan-boao-bfa/course-5.jpg",
+      "/images/hainan-boao-bfa/course-6.jpg"
+    ],
+    "hashtags": [
+      "BFA골프",
+      "보아오골프",
+      "하이난골프장",
+      "하이난골프여행",
+      "보아오아시아포럼",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-hainan-boao-bfa-3n5d",
+      "china-hainan-boao-bfa-4n6d"
+    ]
+  },
+  {
+    "slug": "mission-hills-shenzhen-dongguan",
+    "name": "미션힐스 동관·심천",
+    "nameEn": "Mission Hills Golf Club Shenzhen·Dongguan (观澜湖高尔夫球会)",
+    "region": "광저우",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "미션힐스 동관",
+      "미션힐스 심천",
+      "미션힐스동관",
+      "미션힐스 동관&심천"
+    ],
+    "summary": "기네스북 세계 최대 골프클럽, 잭 니클라우스·닉 팔도·어니 엘스 등이 설계한 파3 코스 포함 12개 코스 216홀",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "12개 코스 216홀 (파3 코스 포함)"
+      },
+      {
+        "label": "설계",
+        "value": "잭 니클라우스, 피트 다이, 그렉 노먼, 닉 팔도, 어니 엘스, 호세 마리아 올라자발 등"
+      },
+      {
+        "label": "코스 특징",
+        "value": "기네스북 세계 최대 골프클럽(2004년 인정), 월드컵 오브 골프·HSBC 챔피언스 개최"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 광둥성 심천·동관 경계"
+      },
+      {
+        "label": "접근",
+        "value": "심천 시내에서 약 30분 (광저우 공항에서는 차로 장거리 이동)"
+      }
+    ],
+    "description": "미션힐스 동관·심천은 광둥성 심천과 동관에 걸쳐 있는 파3 코스를 포함한 12개 코스 216홀 골프클럽으로, 2004년 기네스북에 세계 최대 골프클럽으로 올랐습니다. 잭 니클라우스, 피트 다이, 그렉 노먼, 닉 팔도, 어니 엘스, 호세 마리아 올라자발 등 선수와 설계가의 이름을 딴 코스가 모여 있습니다.\n\n1994년 잭 니클라우스가 설계한 월드컵 코스는 1995년 중국 첫 국제대회인 월드컵 오브 골프를 열었고, 벙커 150개가 넘는 올라자발 코스는 2007~2009년 월드컵과 2012년 HSBC 챔피언스를 치른 챔피언십 코스입니다. 코스마다 설계자의 색깔이 달라 매일 다른 골프장을 도는 느낌입니다.\n\n여행의파도 광저우 미션힐스 골프여행에서는 골프장 안 동관 리조트에 묵으며 월드컵·올라자발을 뺀 코스 가운데 현지에서 배정된 코스에서 하루 18홀씩 돕니다. 두 코스로 바꾸려면 18홀 1인 80,000원이 추가됩니다.",
+    "images": [
+      "/images/guangzhou-missionhills-dongguan/course-1.jpg",
+      "/images/guangzhou-missionhills-dongguan/course-2.jpg",
+      "/images/guangzhou-missionhills-dongguan/course-3.jpg",
+      "/images/guangzhou-missionhills-dongguan/course-4.jpg",
+      "/images/guangzhou-missionhills-dongguan/course-5.jpg",
+      "/images/guangzhou-missionhills-dongguan/course-6.jpg"
+    ],
+    "hashtags": [
+      "미션힐스",
+      "미션힐스심천",
+      "미션힐스동관",
+      "광저우골프장",
+      "심천골프",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-guangzhou-missionhills-dongguan-busan",
+      "china-guangzhou-missionhills-dongguan-busan-4n6d"
+    ]
+  },
+  {
+    "slug": "ruby-tree-golf-resort",
+    "name": "루비트리 골프리조트",
+    "nameEn": "BRG Ruby Tree Golf Resort (구 도선 씨사이드 골프리조트)",
+    "region": "하롱·하이퐁",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "aliases": [
+      "루비트리",
+      "루비트리CC",
+      "루비트리 골프장"
+    ],
+    "summary": "하이퐁 도선의 18홀 파72, 퍼시픽 코스트 디자인 설계, 대부분의 홀에 물이 걸리는 해변 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 약 6,836야드 (백 티)"
+      },
+      {
+        "label": "설계",
+        "value": "퍼시픽 코스트 디자인 (호주)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "대부분의 홀에 워터해저드, 티 4단계"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 하이퐁시 도선"
+      }
+    ],
+    "description": "루비트리 골프리조트는 하이퐁 남동쪽 도선 해변 지역에 있는 18홀 파72 코스로, 베트남 BRG 그룹이 운영합니다. 옛 이름은 도선 씨사이드 골프리조트이며 호주 퍼시픽 코스트 디자인이 설계했습니다.\n\n백 티 기준 약 6,836야드이고 티가 네 단계라 실력에 맞춰 고를 수 있습니다. 대부분의 홀에 연못과 수로가 걸려 있어 방향성이 중요합니다.\n\n여행의파도 하이퐁 3색 골프여행에서는 한인타운 호텔에서 차로 이동해 18홀을 라운드합니다. 이 날 클럽 중식은 포함되지 않습니다.",
+    "images": [
+      "/images/haiphong-3color-sunflower/rubytree-1.jpg",
+      "/images/haiphong-3color-sunflower/rubytree-2.jpg",
+      "/images/haiphong-3color-sunflower/rubytree-3.jpg",
+      "/images/haiphong-3color-sunflower/rubytree-4.jpg"
+    ],
+    "hashtags": [
+      "루비트리골프",
+      "하이퐁골프장",
+      "하이퐁골프여행",
+      "도선골프",
+      "BRG골프",
+      "베트남골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "vietnam-haiphong-3color-sunflower"
     ]
   }
 ]
