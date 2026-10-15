@@ -25,7 +25,7 @@ export async function getPartnerInfo(tourId: string): Promise<PartnerInfo | null
   }
 }
 
-// 사장님 휴대폰으로 가는 거래처 문자 본문
+// 사장님 휴대폰으로 가는 거래처 문자 본문 — 담당자 번호는 네이트온에 있어 없으면 그냥 뺀다 (2026-10-15)
 export function partnerText(v: { tourTitle: string; date: string; people: string; info: PartnerInfo | null }) {
   const i = v.info;
   const lines = [`[문의-거래처] ${v.tourTitle}`, `${v.date} · ${v.people}`];
@@ -34,7 +34,7 @@ export function partnerText(v: { tourTitle: string; date: string; people: string
   } else {
     lines.push(`랜드사: ${i.agency}`);
     const who = [i.person, i.rank].filter(Boolean).join(" ");
-    lines.push(`담당: ${who || "미등록"}${i.phone ? ` ${i.phone}` : " (번호 미등록)"}`);
+    lines.push(`담당: ${who || "미등록"}${i.phone ? ` ${i.phone}` : ""}`);
     lines.push(`컴: ${i.com || "미등록"}`);
   }
   return lines.join("\n");
