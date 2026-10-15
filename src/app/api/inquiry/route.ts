@@ -4,6 +4,7 @@ import { SolapiMessageService } from "solapi";
 import { getRedis } from "@/lib/redis";
 import { stayText } from "@/lib/stay";
 import { isValidPhone } from "@/lib/inquiryForm";
+import { getPartnerInfo, partnerText } from "@/lib/partnerMap";
 
 // 전화번호로 예약문의 내역을 조회할 수 있도록 저장한다 (사장님 요청 2026-09-23).
 // 전화번호 숫자만 남긴 값을 키로 써서 사람마다 리스트로 쌓는다. Redis 연결이 없으면 조용히 건너뛴다.
@@ -105,6 +106,27 @@ async function notifyCustomer(phone: string) {
   }
 }
 
+// 알림톡과 함께 사장님 휴대폰으로 거래처 정보 문자를 한 통 더 보낸다 (사장님 요청 2026-10-15).
+// 알림톡 템플릿은 심사받은 고정 문구라 칸을 늘리지 않고 일반 문자로 따로 보낸다.
+// 거래처 표는 Redis 에만 있다. 실패해도 문의 접수 결과에는 영향을 주지 않는다.
+async function notifyPartner(v: { tourId?: string; tourTitle: string; date: string; people: string }) {
+  const { SOLAPI_API_KEY: apiKey, SOLAPI_API_SECRET: apiSecret, SOLAPI_FROM: from, INQUIRY_NOTIFY_TO: to } = process.env;
+  if (!apiKey || !apiSecret || !from || !to) return false;
+  try {
+    const info = v.tourId ? await getPartnerInfo(v.tourId) : null;
+    const solapi = new SolapiMessageService(apiKey, apiSecret);
+    await solapi.send({
+      to: to.replace(/\D/g, ""),
+      from: from.replace(/\D/g, ""),
+      text: partnerText({ ...v, info }),
+    });
+    return true;
+  } catch (e) {
+    console.error("Solapi partner sms error:", e);
+    return false;
+  }
+}
+
 async function sendMail(p: {
   tourTitle: string;
   formattedDate: string;
@@ -173,7 +195,7 @@ export async function POST(req: NextRequest) {
   if (!body) {
     return NextResponse.json({ error: "잘못된 요청" }, { status: 400 });
   }
-  const { tourTitle, departureDate, nights, days, people, phone, agreedPrivacy } = body;
+  const { tourId, tourTitle, departureDate, nights, days, people, phone, agreedPrivacy } = body;
 
   if (!phone || !people || !departureDate) {
     return NextResponse.json({ error: "필수 항목 누락" }, { status: 400 });
@@ -210,6 +232,12 @@ export async function POST(req: NextRequest) {
     ),
     saveInquiry({ tourTitle, departureDate, nights, days, people, phone, agreedPrivacy: true }),
     notifyCustomer(String(phone)),
+    notifyPartner({
+      tourId: typeof tourId === "string" ? tourId : undefined,
+      tourTitle: tourTitle || "상품명 없음",
+      date: formattedDate,
+      people: `${people}명`,
+    }),
   ]);
 
   if (!mailOk && !kakaoOk) {

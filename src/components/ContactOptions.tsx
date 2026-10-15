@@ -18,12 +18,15 @@ const FIELD =
   "focus:outline-none focus:ring-2 focus:ring-blue-500";
 
 export default function ContactOptions({
+  tourId,
   tourTitle,
   nights,
   days,
   minPeople,
   dates,
 }: {
+  /** 사장님께 가는 거래처 문자에서 상품을 찾는 열쇠 (2026-10-15) */
+  tourId?: string;
   tourTitle?: string;
   nights?: string | number;
   days?: string | number;
@@ -91,6 +94,7 @@ export default function ContactOptions({
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+          tourId,
           tourTitle: tourTitle ?? "골프여행 상품",
           departureDate: date,
           nights,

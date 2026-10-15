@@ -24,6 +24,7 @@ function tierName(tier: Tier) {
 // DeparturePriceCalendar의 "선택한 출발일" 박스와 같은 자리형 UX로 만든다.
 // 단계에 nights가 있으면(박수별 요금) departurePrices에서 그 박수의 남은 출발일을 골라 문의한다.
 export default function HolePriceTierSelector({
+  tourId,
   tourTitle,
   departureDate,
   nights,
@@ -31,6 +32,7 @@ export default function HolePriceTierSelector({
   tiers,
   departurePrices,
 }: {
+  tourId?: string;
   tourTitle: string;
   departureDate: string;
   nights?: string | number;
@@ -92,6 +94,7 @@ export default function HolePriceTierSelector({
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+          tourId,
           tourTitle: `${tourTitle} (${tierName(selected)} ${selected.price.toLocaleString()}원)`,
           departureDate: chosenDate,
           nights: selected.nights ?? nights,

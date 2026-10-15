@@ -13,6 +13,7 @@ type Props = {
   departurePrices: PriceEntry[];
   nights: number;
   days: number;
+  tourId?: string;
   tourTitle?: string;
   /** 4인 이상 출발 상품이면 4 — 그보다 적은 인원은 "예약불가"로 막는다 */
   minPeople?: number;
@@ -22,7 +23,7 @@ function formatPrice(p: number) {
   return p.toLocaleString("ko-KR") + "원";
 }
 
-export default function DeparturePriceCalendar({ departurePrices, nights, days, tourTitle, minPeople }: Props) {
+export default function DeparturePriceCalendar({ departurePrices, nights, days, tourId, tourTitle, minPeople }: Props) {
   const today = new Date();
   const [baseMonth, setBaseMonth] = useState(() => {
     const first = departurePrices.find(p => new Date(p.date) >= today);
@@ -152,6 +153,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days, 
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+          tourId,
           tourTitle: tourTitle ?? "골프여행 상품",
           departureDate: selected,
           nights: selectedNights,
