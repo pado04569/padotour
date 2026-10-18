@@ -5980,6 +5980,70 @@
     ]
   },
   {
+    "slug": "gaoming-silver-ocean-gc",
+    "name": "은해CC",
+    "nameEn": "Gaoming Silver Ocean Golf Club (佛山高明银海高尔夫俱乐部)",
+    "region": "광저우",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "고명 은해",
+      "Silver Ocean",
+      "Silver Sea Golf"
+    ],
+    "summary": "포산 가오밍 다사 저수지 옆, 숲과 언덕 사이에 놓인 18홀 파72 파크랜드 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "개장",
+        "value": "2002년 (클럽 설립)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "나무가 늘어선 파크랜드, 완만한 기복과 오르막 몇 곳, 저수지·호수를 낀 홀"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 광둥성 포산시 가오밍구 (다사 저수지 옆)"
+      },
+      {
+        "label": "접근",
+        "value": "광저우에서 남서쪽 약 98km · 가든 피닉스호텔에서 차로 약 15분"
+      }
+    ],
+    "description": "은해CC(佛山高明银海高尔夫俱乐部, Gaoming Silver Ocean Golf Club)는 광둥성 포산시 가오밍구 다사 저수지 옆에 있는 18홀 골프장입니다. 2002년에 세워졌고 파72입니다.\n\n다사 저수지 옆 숲이 우거진 언덕 사이에 놓인 파크랜드 코스로, 나무가 늘어선 페어웨이에 기복이 완만하고 몇몇 홀은 오르막을 오릅니다. 곳곳의 호수와 저수지가 경치를 더합니다.\n\n여행의파도 광저우 2색 골프여행에서는 남해CC와 함께 돌며, 숙소인 가든 피닉스호텔에서 차로 약 15분 거리입니다.",
+    "images": [
+      "/images/guangzhou-yinhai-nanhai/yinhai-1.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-2.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-3.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-4.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-5.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-6.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-7.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-8.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-9.jpg"
+    ],
+    "hashtags": [
+      "은해CC",
+      "포산골프",
+      "광저우골프장",
+      "광저우골프여행",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-guangzhou-yinhai-nanhai-busan",
+      "china-guangzhou-yinhai-nanhai-busan-4n6d"
+    ]
+  },
+  {
     "slug": "sun-valley-gcc-antipolo",
     "name": "썬밸리CC",
     "nameEn": "Sun Valley Golf & Country Club (Rizal Sun Valley, Antipolo)",
