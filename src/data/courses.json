@@ -5857,6 +5857,129 @@
     ]
   },
   {
+    "slug": "wuyi-fountain-palm-gc",
+    "name": "우이팜CC",
+    "nameEn": "Wuyi Fountain Palm Golf Club (五邑蒲葵高尔夫球会)",
+    "region": "광저우",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "우이팜",
+      "Wuyi Fountain Palm",
+      "WUYI GOLF"
+    ],
+    "summary": "잭 니클라우스 2세가 설계한 장먼 시내의 27홀 파크랜드 골프장, 나무가 늘어선 페어웨이와 호수",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (9홀 코스 3개)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "동+서 코스 파72 · 백티 6,898야드"
+      },
+      {
+        "label": "설계",
+        "value": "잭 니클라우스 2세 (Jack Nicklaus II)"
+      },
+      {
+        "label": "개장",
+        "value": "2000년 (클럽 설립)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "나무가 늘어선 완만한 파크랜드, 호수를 낀 홀"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 광둥성 장먼시"
+      }
+    ],
+    "description": "우이팜CC(五邑蒲葵高尔夫球会)는 광저우 남쪽 장먼시 시내에 있는 27홀 골프장입니다. 잭 니클라우스 2세가 설계했고 2000년 설립됐습니다. 9홀 코스 3개로 이뤄져 있으며 동+서 코스는 파72, 백티 6,898야드입니다.\n\n나무가 길게 늘어선 페어웨이에 기복이 크지 않은 파크랜드 코스이고, 곳곳에 호수와 야자수가 있어 걸으며 치기에도 편합니다. 클럽하우스는 분수가 있는 유럽풍 건물입니다.\n\n여행의파도 광저우 2색 골프여행에서는 학산CC와 함께 돌며, 우이팜CC에서는 하루 27~36홀까지 라운드합니다.",
+    "images": [
+      "/images/guangzhou-wuyi-heshan/wuyi-1.jpg",
+      "/images/guangzhou-wuyi-heshan/wuyi-2.jpg",
+      "/images/guangzhou-wuyi-heshan/wuyi-3.jpg",
+      "/images/guangzhou-wuyi-heshan/wuyi-4.jpg",
+      "/images/guangzhou-wuyi-heshan/wuyi-5.jpg",
+      "/images/guangzhou-wuyi-heshan/wuyi-6.jpg",
+      "/images/guangzhou-wuyi-heshan/wuyi-7.jpg"
+    ],
+    "hashtags": [
+      "우이팜CC",
+      "장먼골프",
+      "광저우골프장",
+      "광저우골프여행",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-guangzhou-wuyi-heshan-busan",
+      "china-guangzhou-wuyi-heshan-busan-4n6d",
+      "china-guangzhou-wuyi-heshan-incheon"
+    ]
+  },
+  {
+    "slug": "heshan-gc",
+    "name": "학산CC",
+    "nameEn": "Heshan Golf Club (鹤山高尔夫俱乐部)",
+    "region": "광저우",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "Heshan Golf"
+    ],
+    "summary": "잭 니클라우스가 설계해 2013년 18홀로 개장한 장먼 허산의 파72 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 블랙티 7,263야드"
+      },
+      {
+        "label": "설계",
+        "value": "잭 니클라우스 (Jack Nicklaus)"
+      },
+      {
+        "label": "개장",
+        "value": "2013년 18홀 개장 (2009년 9홀 먼저 개장)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "숲으로 둘러싸인 언덕 지형, 큰 벙커와 호수"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 광둥성 장먼시 허산"
+      }
+    ],
+    "description": "학산CC(Heshan Golf Club)는 광둥성 장먼시 허산에 있는 18홀 골프장입니다. 잭 니클라우스가 설계했고 2009년 9홀을 먼저 연 뒤 2013년 18홀로 개장했습니다. 파72, 블랙티 기준 7,263야드입니다.\n\n숲으로 둘러싸인 언덕 지형을 살려 홀마다 높낮이가 있고, 페어웨이 옆 큰 벙커와 호수가 공략을 까다롭게 만듭니다. 클럽에는 아시아 100대 골프장(TOP 100 GOLF COURSES ASIA) 조형물이 서 있습니다.\n\n여행의파도 광저우 2색 골프여행에서는 우이팜CC와 함께 18홀을 1회 라운드합니다.",
+    "images": [
+      "/images/guangzhou-wuyi-heshan/heshan-1.jpg",
+      "/images/guangzhou-wuyi-heshan/heshan-2.jpg",
+      "/images/guangzhou-wuyi-heshan/heshan-3.jpg",
+      "/images/guangzhou-wuyi-heshan/heshan-4.jpg",
+      "/images/guangzhou-wuyi-heshan/heshan-5.jpg",
+      "/images/guangzhou-wuyi-heshan/heshan-6.jpg"
+    ],
+    "hashtags": [
+      "학산CC",
+      "허산골프",
+      "잭니클라우스",
+      "광저우골프장",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-guangzhou-wuyi-heshan-busan",
+      "china-guangzhou-wuyi-heshan-busan-4n6d",
+      "china-guangzhou-wuyi-heshan-incheon"
+    ]
+  },
+  {
     "slug": "sun-valley-gcc-antipolo",
     "name": "썬밸리CC",
     "nameEn": "Sun Valley Golf & Country Club (Rizal Sun Valley, Antipolo)",
