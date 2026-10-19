@@ -6451,5 +6451,111 @@
     "relatedTourIds": [
       "vietnam-haiphong-3color-sunflower"
     ]
+  },
+  {
+    "slug": "aso-trial-cc",
+    "name": "아소 트라이얼CC",
+    "nameEn": "Aso Trial Country Club",
+    "region": "구마모토",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "트라이얼CC",
+      "아소트라이얼",
+      "Aso Trial"
+    ],
+    "summary": "아소산 자락 고원의 18홀 파72(6,737야드) 리조트 코스, 소나무·연못·벙커와 빠른 이단·삼단 그린",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 챔피언티 6,737야드"
+      },
+      {
+        "label": "운영",
+        "value": "트라이얼 그룹 계열사"
+      },
+      {
+        "label": "코스 특징",
+        "value": "고원 지형, 페어웨이 중앙 나무·다수 벙커·투그린, 이단·삼단 빠른 그린"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 구마모토현 아소 지역"
+      },
+      {
+        "label": "접근",
+        "value": "구마모토공항에서 차로 약 25~30분"
+      }
+    ],
+    "description": "아소 트라이얼CC는 구마모토현 아소산 자락 고원에 있는 18홀 파72(챔피언티 6,737야드) 리조트 골프장으로, 일본 유통기업 트라이얼 그룹 계열사가 운영합니다.\n\n넓은 초원과 산세를 배경으로 소나무·연못·벙커가 홀마다 놓여 있고, 페어웨이 가운데 나무와 투그린이 공략의 재미를 더합니다. 그린은 이단·삼단 구조가 많고 빠른 편입니다. 맑은 날엔 아소의 산 풍경이 한눈에 들어오고 안개가 끼면 전혀 다른 분위기가 됩니다.\n\n여행의파도 구마모토 2색 골프여행에서는 리조트 안 아소 캐니언 테라스에 묵으며 미나미아소CC와 번갈아 라운드합니다.",
+    "images": [
+      "/images/kumamoto-aso-trial/trial-1.jpg",
+      "/images/kumamoto-aso-trial/trial-2.jpg",
+      "/images/kumamoto-aso-trial/trial-3.jpg",
+      "/images/kumamoto-aso-trial/trial-4.jpg",
+      "/images/kumamoto-aso-trial/trial-5.jpg",
+      "/images/kumamoto-aso-trial/trial-6.jpg",
+      "/images/kumamoto-aso-trial/trial-7.jpg"
+    ],
+    "hashtags": [
+      "아소트라이얼CC",
+      "구마모토골프장",
+      "아소골프",
+      "일본골프여행",
+      "온천골프"
+    ],
+    "relatedTourIds": [
+      "japan-kumamoto-aso-trial-2color",
+      "japan-kumamoto-aso-trial-2color-2n3d"
+    ]
+  },
+  {
+    "slug": "minami-aso-cc",
+    "name": "미나미아소CC",
+    "nameEn": "Minami Aso Country Club",
+    "region": "구마모토",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "미나미 아소",
+      "Minami Aso"
+    ],
+    "summary": "해발 약 400m 구릉, 홀마다 아소산이 보이고 삼나무 숲 홀과 링크스풍 홀이 섞인 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "코스 특징",
+        "value": "해발 약 400m 구릉, 삼나무 숲으로 나뉜 홀과 링크스풍 홀, 넓은 페어웨이"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 구마모토현 미나미아소"
+      }
+    ],
+    "description": "미나미아소CC는 구마모토현 미나미아소의 해발 약 400m 구릉에 자연 지형을 그대로 살린 골프장입니다. 활화산 아소산을 바라보며 치는 코스로, 모든 홀에서 아소산이 보입니다.\n\n삼나무 숲으로 나뉜 숲 속 홀과 탁 트인 링크스풍 홀이 섞여 있고 페어웨이가 넓은 편입니다.\n\n여행의파도 구마모토 2색 골프여행에서는 아소 트라이얼CC와 번갈아 라운드합니다.",
+    "images": [
+      "/images/kumamoto-aso-trial/minami-1.jpg",
+      "/images/kumamoto-aso-trial/minami-2.jpg",
+      "/images/kumamoto-aso-trial/minami-3.jpg",
+      "/images/kumamoto-aso-trial/minami-4.jpg",
+      "/images/kumamoto-aso-trial/minami-5.jpg"
+    ],
+    "hashtags": [
+      "미나미아소CC",
+      "구마모토골프장",
+      "아소골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-kumamoto-aso-trial-2color",
+      "japan-kumamoto-aso-trial-2color-2n3d"
+    ]
   }
 ]
