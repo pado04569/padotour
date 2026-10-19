@@ -6721,5 +6721,108 @@
     "relatedTourIds": [
       "china-guangzhou-nansha-incheon"
     ]
+  },
+  {
+    "slug": "lake-view-resort-golf-club",
+    "name": "레이크뷰CC",
+    "nameEn": "Lake View Resort & Golf Club",
+    "region": "후아힌",
+    "country": "태국",
+    "countryCode": "thailand",
+    "aliases": [
+      "레이크뷰",
+      "레이크 뷰",
+      "Lake View"
+    ],
+    "summary": "후아힌 북쪽 차암, 마운틴·레이크·데저트·링크스 9홀 코스 4개 36홀",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 (9홀 × 4코스)"
+      },
+      {
+        "label": "코스",
+        "value": "A 마운틴 · B 레이크 · C 데저트 · D 링크스"
+      },
+      {
+        "label": "대회",
+        "value": "아시안투어 퀄리파잉스쿨 (2024년 12월)"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 펫차부리주 차암"
+      }
+    ],
+    "description": "레이크뷰 리조트 & 골프클럽(Lake View Resort & Golf Club)은 후아힌 북쪽 차암에 있는 36홀 골프장입니다. 9홀 코스 4개가 각각 산악(A 마운틴), 호수(B 레이크), 사막(C 데저트), 링크스(D 링크스) 스타일로 꾸며져 있어 라운드마다 다른 느낌을 줍니다.\n\n2024년 12월에는 아시안투어 퀄리파잉스쿨이 열렸습니다. 리조트 객실동에서 클럽하우스까지 걸어서 갈 수 있고 야외 수영장이 있어, 머물면서 골프를 치는 골프텔로 많이 찾습니다.\n\n여행의파도 후아힌 레이크뷰 골프텔 상품에서는 리조트에 묵으며 18홀씩 3회 라운드합니다.",
+    "images": [
+      "/images/huahin-lakeview-busan/course-1.jpg",
+      "/images/huahin-lakeview-busan/course-2.jpg",
+      "/images/huahin-lakeview-busan/course-3.jpg",
+      "/images/huahin-lakeview-busan/course-4.jpg",
+      "/images/huahin-lakeview-busan/course-5.jpg",
+      "/images/huahin-lakeview-busan/course-6.jpg"
+    ],
+    "hashtags": [
+      "레이크뷰CC",
+      "후아힌골프장",
+      "태국골프여행",
+      "골프텔"
+    ],
+    "relatedTourIds": [
+      "thailand-huahin-lakeview-busan"
+    ]
+  },
+  {
+    "slug": "nanjing-sun-island-golf",
+    "name": "태양도CC",
+    "nameEn": "Nanjing Sun Island Golf Club",
+    "region": "난징",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "태양도",
+      "태양호",
+      "Sun Island"
+    ],
+    "summary": "난징 리수이구 구릉지대의 18홀 파72, 깊은 벙커와 기복 있는 그린",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "7,041야드"
+      },
+      {
+        "label": "개장",
+        "value": "2009년"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 장쑤성 난징시 리수이구"
+      }
+    ],
+    "description": "태양도CC(Nanjing Sun Island Golf Club)는 난징 남쪽 리수이구에 2009년 문을 연 18홀 파72(7,041야드) 골프장입니다.\n\n구릉지대에 자리해 페어웨이와 그린에 기복이 있고, 세컨샷 지점과 그린 주변에 깊은 벙커가 많아 홀마다 전략적인 공략이 필요합니다. 2인 1캐디로 운영되며 전동카트가 페어웨이에 들어갈 수 있습니다(동계 시즌 제외).\n\n여행의파도 난징 골프여행에서는 차로 10분 거리 리수이 신세계호텔에 묵으며 18홀씩 3회 라운드합니다.",
+    "images": [
+      "/images/nanjing-sunisland-incheon/course-1.jpg",
+      "/images/nanjing-sunisland-incheon/course-2.jpg",
+      "/images/nanjing-sunisland-incheon/course-3.jpg",
+      "/images/nanjing-sunisland-incheon/course-4.jpg",
+      "/images/nanjing-sunisland-incheon/course-5.jpg",
+      "/images/nanjing-sunisland-incheon/course-6.jpg",
+      "/images/nanjing-sunisland-incheon/course-7.jpg",
+      "/images/nanjing-sunisland-incheon/course-8.jpg",
+      "/images/nanjing-sunisland-incheon/course-9.jpg"
+    ],
+    "hashtags": [
+      "태양도CC",
+      "난징골프장",
+      "남경골프",
+      "중국골프여행"
+    ],
+    "relatedTourIds": [
+      "china-nanjing-sunisland-incheon"
+    ]
   }
 ]
