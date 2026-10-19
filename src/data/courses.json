@@ -6557,5 +6557,116 @@
       "japan-kumamoto-aso-trial-2color",
       "japan-kumamoto-aso-trial-2color-2n3d"
     ]
+  },
+  {
+    "slug": "amber-hills-golf",
+    "name": "엠버힐스CC",
+    "nameEn": "Amber Hills Golf & Resort",
+    "region": "하노이",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "aliases": [
+      "엠버힐스",
+      "Amber Hills"
+    ],
+    "summary": "하노이 동북쪽 박닌성(구 박장성), 자연 경사를 살린 힐사이드 코스 18홀 파72",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "힐사이드 코스 18홀 (전체 36홀 규모로 개발)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 블루티 6,739야드"
+      },
+      {
+        "label": "코스 특징",
+        "value": "자연 경사를 살려 벙커·해저드를 전략적으로 배치한 도전적인 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 박닌성(구 박장성)"
+      }
+    ],
+    "description": "엠버힐스CC(Amber Hills Golf & Resort)는 하노이 동북쪽 박닌성(구 박장성)에 있는 골프장으로, 옛 이름 옌중 골프장에서 2022년 4월 지금 이름으로 바꿨습니다. 라운드하는 힐사이드 코스는 18홀 파72, 블루티 6,739야드입니다.\n\n자연 지형의 경사를 그대로 살리고 벙커와 해저드를 전략적으로 배치해 베트남에서 도전적인 코스로 꼽히며, 상급 골퍼에게 특히 재미있는 코스입니다.\n\n여행의파도 하노이 박닌 2색 골프여행에서는 스톤하이랜드CC와 함께 18홀을 1회 라운드합니다.",
+    "images": [
+      "/images/bacninh-2color/amber-1.jpg",
+      "/images/bacninh-2color/amber-2.jpg",
+      "/images/bacninh-2color/amber-3.jpg",
+      "/images/bacninh-2color/amber-4.jpg",
+      "/images/bacninh-2color/amber-5.jpg",
+      "/images/bacninh-2color/amber-6.jpg",
+      "/images/bacninh-2color/amber-7.jpg"
+    ],
+    "hashtags": [
+      "엠버힐스CC",
+      "하노이골프장",
+      "박닌골프",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-hanoi-bacninh-2color-incheon"
+    ]
+  },
+  {
+    "slug": "stone-highland-golf",
+    "name": "스톤하이랜드CC",
+    "nameEn": "Stone Highland Golf & Resort",
+    "region": "하노이",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "aliases": [
+      "스톤하이랜드",
+      "Stone Highland"
+    ],
+    "summary": "박닌성(구 박장성) 비엣옌에 2023년 문을 연 산악형 파72 코스, 많은 벙커와 좁은 페어웨이",
+    "specs": [
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "개장",
+        "value": "2023년"
+      },
+      {
+        "label": "설계",
+        "value": "브라이언 컬리 (Brian Curley)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "산악형 코스, 많은 벙커와 좁은 페어웨이, 고지대 바람"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 박닌성(구 박장성) 비엣옌"
+      },
+      {
+        "label": "접근",
+        "value": "박닌 시내에서 차로 약 25분"
+      }
+    ],
+    "description": "스톤하이랜드CC(Stone Highland Golf & Resort)는 하노이 동북쪽 박닌성(구 박장성) 비엣옌에 2023년 문을 연 골프장으로, 브라이언 컬리가 설계한 파72 코스입니다.\n\n산악형 코스로 벙커가 많고 페어웨이가 좁아 난이도가 있으며, 약간 높은 지대라 바람이 붑니다. 새로 지은 골프장이라 관리 상태가 좋은 편이고, 언덕 위 흰색 클럽하우스가 눈에 띕니다.\n\n여행의파도 하노이 박닌 2색 골프여행에서는 엠버힐스CC와 함께 2회 라운드하며, 박닌 시내 호텔에서 차로 약 25분 거리입니다.",
+    "images": [
+      "/images/bacninh-2color/stone-1.jpg",
+      "/images/bacninh-2color/stone-2.jpg",
+      "/images/bacninh-2color/stone-3.jpg",
+      "/images/bacninh-2color/stone-4.jpg",
+      "/images/bacninh-2color/stone-5.jpg",
+      "/images/bacninh-2color/stone-6.jpg",
+      "/images/bacninh-2color/stone-7.jpg",
+      "/images/bacninh-2color/stone-8.jpg",
+      "/images/bacninh-2color/stone-9.jpg",
+      "/images/bacninh-2color/stone-10.jpg"
+    ],
+    "hashtags": [
+      "스톤하이랜드CC",
+      "하노이골프장",
+      "박닌골프",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-hanoi-bacninh-2color-incheon"
+    ]
   }
 ]
