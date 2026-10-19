@@ -6668,5 +6668,58 @@
     "relatedTourIds": [
       "vietnam-hanoi-bacninh-2color-incheon"
     ]
+  },
+  {
+    "slug": "nansha-golf-club",
+    "name": "남사CC",
+    "nameEn": "Nansha Golf Club",
+    "region": "광저우",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "남사",
+      "난사CC",
+      "Nansha"
+    ],
+    "summary": "광저우 남사, 주강을 내려다보는 레이크(밸리)·마운틴 2개 코스 36홀",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 (18홀 × 2코스)"
+      },
+      {
+        "label": "파",
+        "value": "각 코스 파72"
+      },
+      {
+        "label": "개장",
+        "value": "1997년"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 광둥성 광저우시 남사구"
+      }
+    ],
+    "description": "남사CC(Nansha Golf Club)는 광저우 남쪽 남사구에 1997년 문을 연 36홀 골프장으로, 주강(珠江)을 내려다보는 18홀 파72 코스 2개로 이뤄져 있습니다.\n\n레이크(밸리) 코스는 넓은 페어웨이를 따라 크고 작은 호수가 이어지고, 해저드를 건너는 작은 다리가 많습니다. 마운틴 코스는 산 지형을 그대로 살려 고저차와 언듈레이션이 크며, 전동카트가 페어웨이에 들어갈 수 있습니다(우천 시 제외).\n\n여행의파도 광저우 남사CC 골프여행에서는 두 코스를 번갈아 54홀 라운드합니다.",
+    "images": [
+      "/images/guangzhou-nansha-incheon/course-1.jpg",
+      "/images/guangzhou-nansha-incheon/course-2.jpg",
+      "/images/guangzhou-nansha-incheon/course-3.jpg",
+      "/images/guangzhou-nansha-incheon/course-4.jpg",
+      "/images/guangzhou-nansha-incheon/course-5.jpg",
+      "/images/guangzhou-nansha-incheon/course-6.jpg",
+      "/images/guangzhou-nansha-incheon/course-7.jpg",
+      "/images/guangzhou-nansha-incheon/course-8.jpg",
+      "/images/guangzhou-nansha-incheon/course-9.jpg"
+    ],
+    "hashtags": [
+      "남사CC",
+      "광저우골프장",
+      "중국골프여행",
+      "심천골프"
+    ],
+    "relatedTourIds": [
+      "china-guangzhou-nansha-incheon"
+    ]
   }
 ]
