@@ -45779,6 +45779,337 @@
     ]
   },
   {
+    "id": "indonesia-batam-4color-unlimited-incheon",
+    "country": "인도네시아",
+    "countryCode": "indonesia",
+    "region": "바탐",
+    "title": "[인천출발] 인도네시아 바탐 골프여행 4색 무제한 3박5일 아스톤 호텔 제주항공 직항 1,240,000원부터",
+    "subtitle": "제주항공 인천-바탐 직항(수하물 23kg) · 바탐 골프장 4곳 무제한 라운드 · 4성급 아스톤 바탐 호텔 · 조식·석식 포함 · 12~2월 수요일 출발 · 1인부터",
+    "nights": 3,
+    "days": 5,
+    "courses": 4,
+    "roundsIncluded": 3,
+    "holes": "매일 무제한 라운드",
+    "minPeople": "1인부터 출발",
+    "period": "2026년 12월 23일 ~ 2027년 2월 매주 수요일 출발 (지정 출발일)",
+    "hotel": "아스톤 바탐 호텔 & 레지던스 (4성급, 2인 1실)",
+    "hotelDesc": "바탐 시내 루북 바자에 있는 4성급 호텔로 야외 수영장, 레스토랑, 피트니스를 갖췄습니다. 공항·골프장까지 30분 안쪽이라 이동이 짧고, 1층 식당에서 석식을 먹고 저녁에는 시내 마사지나 펍을 즐기기 좋습니다. 싱글룸은 1박 1인 40,000원이 추가됩니다.",
+    "golfCourse": "바탐힐CC · 바탐 아일랜드CC · 인다푸리CC · 파당 수카자디CC 4색 무제한",
+    "golfCourseDesc": "바탐힐CC, 바탐 아일랜드CC, 인다푸리CC, 파당 수카자디CC 4곳에서 하루 원하는 만큼 칠 수 있는 무제한 그린피 상품입니다. 앞뒤 팀이 적어 여유롭고 카트가 페어웨이에 들어갈 수 있습니다. 캐디피+카트비는 18홀 1인 US$40로 현지에서 냅니다.",
+    "productSummary": "제주항공 직항으로 저녁에 출발해 바탐 시내 아스톤 호텔에 3박 묵으며, 공항·호텔·골프장이 모두 30분 안쪽인 바탐에서 4개 골프장을 무제한으로 치는 상품입니다. 한국 겨울에 반팔로 라운드할 수 있고, 하루 36홀 뒤 마사지까지 즐기기 좋은 동선입니다. 1인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 바탐",
+        "desc": "인천국제공항 제주항공 7C2701 17:55 출발 → 바탐 항나딤 국제공항 23:05 도착 → 가이드 미팅 후 호텔 이동(약 30분) → 체크인 후 휴식 [호텔: 아스톤 바탐 호텔 4성급]"
+      },
+      {
+        "day": "2일차",
+        "label": "골프 무제한",
+        "desc": "호텔 조식 후 골프장 이동(약 10~30분) → 바탐힐·바탐 아일랜드·인다푸리·파당 수카자디 중 1곳 무제한 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식 또는 한식]"
+      },
+      {
+        "day": "3일차",
+        "label": "골프 무제한",
+        "desc": "호텔 조식 후 골프장 이동(약 10~30분) → 바탐힐·바탐 아일랜드·인다푸리·파당 수카자디 중 1곳 무제한 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식 또는 한식]"
+      },
+      {
+        "day": "4일차",
+        "label": "골프 무제한 → 공항",
+        "desc": "호텔 조식 후 체크아웃 → 1곳 무제한 라운드 → 석식 후 바탐 항나딤 국제공항 이동 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "바탐 → 인천",
+        "desc": "바탐 항나딤 국제공항 제주항공 7C2702 00:05 출발 → 인천국제공항 08:35 도착 후 해산"
+      }
+    ],
+    "highlights": [
+      "제주항공 인천-바탐 직항 · 수하물 23kg (골프백+캐리어)",
+      "바탐 골프장 4곳 무제한 라운드",
+      "공항·호텔·골프장 모두 30분 안쪽",
+      "조식·석식 포함 · 한국인 직원 상주",
+      "수요일 출발 · 1인부터 · 1,240,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (제주항공, 위탁수하물 23kg — 골프백 1개 + 캐리어 1개)",
+      "아스톤 바탐 호텔 (4성급, 2인 1실)",
+      "조식·석식",
+      "4개 골프장 무제한 그린피",
+      "한국어 가능 현지인 가이드 · 한국인 직원 상주"
+    ],
+    "excludes": [
+      "클럽 중식",
+      "캐디피+카트비 (18홀 1인 US$40)",
+      "캐디팁 (18홀 1인 US$10, 2인 1캐디 · 1인 1캐디면 US$18)",
+      "미팅·샌딩비 (1인 US$50)",
+      "인도네시아 도착비자 (1인 US$35)",
+      "가이드 매너팁 (전 일정 1인 US$10, 4인 기준)",
+      "싱글룸 1박 1인 40,000원 · 싱글카트 18홀 US$10",
+      "여행자보험 · 개인경비"
+    ],
+    "cancelPolicy": [
+      "수요일 지정 출발일 요금입니다. 연말·설 연휴 출발일은 요금이 더 높으니 출발일별 요금을 확인해 주세요.",
+      "출발일별 요금표 기준이며 10/31까지 발권 조건입니다. 그 뒤에는 항공사 요청에 따라 바뀔 수 있어 예약 때 확정 요금을 안내합니다.",
+      "1인부터 예약할 수 있고 6인까지 한 팀으로 칠 수 있습니다. 2인 1카트 기준입니다.",
+      "빈탄 당일 라운드로 바꾸면 1인 180,000원(4인 1팀, 2~3인은 220,000원)이 추가됩니다(빈탄 18홀 그린피·카트비·캐디피, 왕복 스피드보트, 빈탄 차량·가이드 포함, 중식·캐디팁 별도).",
+      "무제한 그린피 기준이라 비가 와서 못 쳐도 그린피는 환불되지 않고, 팀에서 빠져 따로 저녁을 먹어도 석식 환불은 없습니다.",
+      "예약금 1인 300,000원(항공 발권), 잔금은 출발 2주 전까지 냅니다. 현지 취소는 출발 7일 전(성수기 14일 전)부터 100% 청구될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-23",
+        "price": 1290000
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1240000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1240000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1240000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1240000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1340000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1240000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1240000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1240000
+      }
+    ],
+    "price": "1,240,000원~",
+    "image": "/images/batam-4color-incheon/course-9.jpg",
+    "images": [
+      "/images/batam-4color-incheon/course-9.jpg",
+      "/images/batam-4color-incheon/hotel-1.jpg",
+      "/images/batam-4color-incheon/course-1.jpg",
+      "/images/batam-4color-incheon/hotel-2.jpg",
+      "/images/batam-4color-incheon/course-5.jpg",
+      "/images/batam-4color-incheon/hotel-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/batam-4color-incheon/hotel-1.jpg",
+      "/images/batam-4color-incheon/hotel-2.jpg",
+      "/images/batam-4color-incheon/hotel-3.jpg",
+      "/images/batam-4color-incheon/hotel-4.jpg",
+      "/images/batam-4color-incheon/hotel-5.jpg",
+      "/images/batam-4color-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/batam-4color-incheon/course-9.jpg",
+      "/images/batam-4color-incheon/course-1.jpg",
+      "/images/batam-4color-incheon/course-5.jpg",
+      "/images/batam-4color-incheon/course-12.jpg",
+      "/images/batam-4color-incheon/course-2.jpg",
+      "/images/batam-4color-incheon/course-6.jpg",
+      "/images/batam-4color-incheon/course-10.jpg",
+      "/images/batam-4color-incheon/course-3.jpg",
+      "/images/batam-4color-incheon/course-7.jpg",
+      "/images/batam-4color-incheon/course-11.jpg",
+      "/images/batam-4color-incheon/course-4.jpg",
+      "/images/batam-4color-incheon/course-8.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-20",
+    "seoIntro": "인천 출발 인도네시아 바탐 골프여행 3박5일 상품으로, 제주항공 직항으로 가서 아스톤 바탐 호텔에 묵으며 바탐 골프장 4곳을 무제한으로 치는 겨울 골프패키지입니다.",
+    "seoKeywords": [
+      "바탐골프",
+      "바탐골프여행",
+      "인도네시아골프",
+      "무제한골프",
+      "겨울골프",
+      "인천출발"
+    ]
+  },
+  {
+    "id": "indonesia-batam-4color-unlimited-incheon-4n6d",
+    "country": "인도네시아",
+    "countryCode": "indonesia",
+    "region": "바탐",
+    "title": "[인천출발] 인도네시아 바탐 골프여행 4색 무제한 4박6일 아스톤 호텔 제주항공 직항 1,290,000원부터",
+    "subtitle": "제주항공 인천-바탐 직항(수하물 23kg) · 바탐 골프장 4곳 무제한 라운드 · 4성급 아스톤 바탐 호텔 · 조식·석식 포함 · 12~2월 토요일 출발 · 1인부터",
+    "nights": 4,
+    "days": 6,
+    "courses": 4,
+    "roundsIncluded": 4,
+    "holes": "매일 무제한 라운드",
+    "minPeople": "1인부터 출발",
+    "period": "2026년 12월 23일 ~ 2027년 2월 매주 토요일 출발 (지정 출발일)",
+    "hotel": "아스톤 바탐 호텔 & 레지던스 (4성급, 2인 1실)",
+    "hotelDesc": "바탐 시내 루북 바자에 있는 4성급 호텔로 야외 수영장, 레스토랑, 피트니스를 갖췄습니다. 공항·골프장까지 30분 안쪽이라 이동이 짧고, 1층 식당에서 석식을 먹고 저녁에는 시내 마사지나 펍을 즐기기 좋습니다. 싱글룸은 1박 1인 40,000원이 추가됩니다.",
+    "golfCourse": "바탐힐CC · 바탐 아일랜드CC · 인다푸리CC · 파당 수카자디CC 4색 무제한",
+    "golfCourseDesc": "바탐힐CC, 바탐 아일랜드CC, 인다푸리CC, 파당 수카자디CC 4곳에서 하루 원하는 만큼 칠 수 있는 무제한 그린피 상품입니다. 앞뒤 팀이 적어 여유롭고 카트가 페어웨이에 들어갈 수 있습니다. 캐디피+카트비는 18홀 1인 US$40로 현지에서 냅니다.",
+    "productSummary": "제주항공 직항으로 저녁에 출발해 바탐 시내 아스톤 호텔에 4박 묵으며, 공항·호텔·골프장이 모두 30분 안쪽인 바탐에서 4개 골프장을 무제한으로 치는 상품입니다. 한국 겨울에 반팔로 라운드할 수 있고, 하루 36홀 뒤 마사지까지 즐기기 좋은 동선입니다. 1인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 바탐",
+        "desc": "인천국제공항 제주항공 7C2701 17:55 출발 → 바탐 항나딤 국제공항 23:05 도착 → 가이드 미팅 후 호텔 이동(약 30분) → 체크인 후 휴식 [호텔: 아스톤 바탐 호텔 4성급]"
+      },
+      {
+        "day": "2일차",
+        "label": "골프 무제한",
+        "desc": "호텔 조식 후 골프장 이동(약 10~30분) → 바탐힐·바탐 아일랜드·인다푸리·파당 수카자디 중 1곳 무제한 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식 또는 한식]"
+      },
+      {
+        "day": "3일차",
+        "label": "골프 무제한",
+        "desc": "호텔 조식 후 골프장 이동(약 10~30분) → 바탐힐·바탐 아일랜드·인다푸리·파당 수카자디 중 1곳 무제한 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식 또는 한식]"
+      },
+      {
+        "day": "4일차",
+        "label": "골프 무제한",
+        "desc": "호텔 조식 후 골프장 이동(약 10~30분) → 바탐힐·바탐 아일랜드·인다푸리·파당 수카자디 중 1곳 무제한 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식 또는 한식]"
+      },
+      {
+        "day": "5일차",
+        "label": "골프 무제한 → 공항",
+        "desc": "호텔 조식 후 체크아웃 → 1곳 무제한 라운드 → 석식 후 바탐 항나딤 국제공항 이동 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "6일차",
+        "label": "바탐 → 인천",
+        "desc": "바탐 항나딤 국제공항 제주항공 7C2702 00:05 출발 → 인천국제공항 08:35 도착 후 해산"
+      }
+    ],
+    "highlights": [
+      "제주항공 인천-바탐 직항 · 수하물 23kg (골프백+캐리어)",
+      "바탐 골프장 4곳 무제한 라운드",
+      "공항·호텔·골프장 모두 30분 안쪽",
+      "조식·석식 포함 · 한국인 직원 상주",
+      "토요일 출발 · 1인부터 · 1,290,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (제주항공, 위탁수하물 23kg — 골프백 1개 + 캐리어 1개)",
+      "아스톤 바탐 호텔 (4성급, 2인 1실)",
+      "조식·석식",
+      "4개 골프장 무제한 그린피",
+      "한국어 가능 현지인 가이드 · 한국인 직원 상주"
+    ],
+    "excludes": [
+      "클럽 중식",
+      "캐디피+카트비 (18홀 1인 US$40)",
+      "캐디팁 (18홀 1인 US$10, 2인 1캐디 · 1인 1캐디면 US$18)",
+      "미팅·샌딩비 (1인 US$50)",
+      "인도네시아 도착비자 (1인 US$35)",
+      "가이드 매너팁 (전 일정 1인 US$10, 4인 기준)",
+      "싱글룸 1박 1인 40,000원 · 싱글카트 18홀 US$10",
+      "여행자보험 · 개인경비"
+    ],
+    "cancelPolicy": [
+      "토요일 지정 출발일 요금입니다. 연말·설 연휴 출발일은 요금이 더 높으니 출발일별 요금을 확인해 주세요.",
+      "출발일별 요금표 기준이며 10/31까지 발권 조건입니다. 그 뒤에는 항공사 요청에 따라 바뀔 수 있어 예약 때 확정 요금을 안내합니다.",
+      "1인부터 예약할 수 있고 6인까지 한 팀으로 칠 수 있습니다. 2인 1카트 기준입니다.",
+      "빈탄 당일 라운드로 바꾸면 1인 180,000원(4인 1팀, 2~3인은 220,000원)이 추가됩니다(빈탄 18홀 그린피·카트비·캐디피, 왕복 스피드보트, 빈탄 차량·가이드 포함, 중식·캐디팁 별도).",
+      "무제한 그린피 기준이라 비가 와서 못 쳐도 그린피는 환불되지 않고, 팀에서 빠져 따로 저녁을 먹어도 석식 환불은 없습니다.",
+      "예약금 1인 300,000원(항공 발권), 잔금은 출발 2주 전까지 냅니다. 현지 취소는 출발 7일 전(성수기 14일 전)부터 100% 청구될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-26",
+        "price": 1340000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1690000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1290000
+      }
+    ],
+    "price": "1,290,000원~",
+    "image": "/images/batam-4color-incheon/course-9.jpg",
+    "images": [
+      "/images/batam-4color-incheon/course-9.jpg",
+      "/images/batam-4color-incheon/hotel-1.jpg",
+      "/images/batam-4color-incheon/course-1.jpg",
+      "/images/batam-4color-incheon/hotel-2.jpg",
+      "/images/batam-4color-incheon/course-5.jpg",
+      "/images/batam-4color-incheon/hotel-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/batam-4color-incheon/hotel-1.jpg",
+      "/images/batam-4color-incheon/hotel-2.jpg",
+      "/images/batam-4color-incheon/hotel-3.jpg",
+      "/images/batam-4color-incheon/hotel-4.jpg",
+      "/images/batam-4color-incheon/hotel-5.jpg",
+      "/images/batam-4color-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/batam-4color-incheon/course-9.jpg",
+      "/images/batam-4color-incheon/course-1.jpg",
+      "/images/batam-4color-incheon/course-5.jpg",
+      "/images/batam-4color-incheon/course-12.jpg",
+      "/images/batam-4color-incheon/course-2.jpg",
+      "/images/batam-4color-incheon/course-6.jpg",
+      "/images/batam-4color-incheon/course-10.jpg",
+      "/images/batam-4color-incheon/course-3.jpg",
+      "/images/batam-4color-incheon/course-7.jpg",
+      "/images/batam-4color-incheon/course-11.jpg",
+      "/images/batam-4color-incheon/course-4.jpg",
+      "/images/batam-4color-incheon/course-8.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-20",
+    "seoIntro": "인천 출발 인도네시아 바탐 골프여행 4박6일 상품으로, 제주항공 직항으로 가서 아스톤 바탐 호텔에 묵으며 바탐 골프장 4곳을 무제한으로 치는 겨울 골프패키지입니다.",
+    "seoKeywords": [
+      "바탐골프",
+      "바탐골프여행",
+      "인도네시아골프",
+      "무제한골프",
+      "겨울골프",
+      "인천출발"
+    ]
+  },
+  {
     "id": "malaysia-kota-borneo-unlimited-busan",
     "country": "말레이시아",
     "countryCode": "malaysia",
