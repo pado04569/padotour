@@ -34890,6 +34890,165 @@
     "title": "[부산출발] 필리핀 클락 골프여행 로얄센트럴CC 무제한 4박6일 699,000원부터"
   },
   {
+    "id": "philippines-clark-3color-value-incheon",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "region": "클락",
+    "title": "[인천출발] 필리핀 클락 골프여행 실속 3색 3박4일 54홀 베버리·뉴아시아·레이크우드 세부퍼시픽 마닐라 IN·OUT 499,000원부터",
+    "subtitle": "세부퍼시픽 인천-마닐라 · 베버리CC·뉴아시아CC·레이크우드CC 3색 54홀 · 3성급 클락 임페리얼 호텔 · 목요일 지정 출발 · 2인 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 × 3회)",
+    "minPeople": "2인부터 출발 (2인은 조인 라운드 가능)",
+    "period": "2026년 11~12월 · 2027년 1~2월 목요일 지정 출발 (12회)",
+    "hotel": "클락 임페리얼 호텔 (3성급) 또는 동급 (2인 1실)",
+    "hotelDesc": "클락 앙헬레스 시티에 있는 3성급 호텔로 2인 1실, 조식이 포함됩니다. 공항·호텔·골프장과 저녁 식사 이동은 셔틀로 제공됩니다.",
+    "golfCourse": "베버리CC · 뉴아시아CC · 레이크우드CC 3색",
+    "golfCourseDesc": "첫날 베버리CC, 둘째 날 뉴아시아CC, 셋째 날 레이크우드CC에서 18홀씩 라운드합니다. 18홀 의무 라운드 상품이라 개인 사정으로 빠져도 캐디피·카트비는 냅니다. 캐디피+카트비는 18홀 1인 $40(2인 1캐디·2인 1카트 기준)이며 현지 한국인 오피스에서 미리 냅니다.",
+    "productSummary": "세부퍼시픽 새벽 비행기로 마닐라에 내려 첫날부터 바로 라운드하고, 클락 임페리얼 호텔에 3박 묵으며 베버리·뉴아시아·레이크우드 3곳에서 54홀을 치는 실속형 상품입니다. 11~12월 출발은 499,000원, 1~2월 출발은 599,000원이며 2명부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 마닐라 · 베버리CC 18홀",
+        "desc": "인천국제공항 세부퍼시픽 5J187 02:15 출발 → 마닐라 국제공항 도착(새벽) → 현지 직원 미팅 후 골프장 이동 → 베버리CC 18홀 라운드 → 클락 호텔 이동(약 30분)·체크인 후 휴식 [식사 불포함 · 호텔: 클락 임페리얼 호텔 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "뉴아시아CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 40분) → 뉴아시아CC 18홀 라운드 → 호텔 휴식 [조식 포함 / 중식·석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "레이크우드CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 1시간 15분~1시간 30분) → 레이크우드CC 18홀 라운드 → 호텔 휴식 [조식 포함 / 중식·석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "자유 시간 → 마닐라 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 자유 시간 → 마닐라 국제공항 이동(약 90분) → 세부퍼시픽 5J188 19:40 출발 → 인천국제공항 00:45 도착 후 해산 [조식 포함]"
+      }
+    ],
+    "highlights": [
+      "세부퍼시픽 인천-마닐라 (수하물 20kg)",
+      "베버리·뉴아시아·레이크우드 3색 54홀",
+      "첫날 도착하자마자 라운드",
+      "11~12월 출발 499,000원 · 1~2월 599,000원",
+      "2인 출발 가능"
+    ],
+    "includes": [
+      "왕복 항공권 (세부퍼시픽, 유류할증료·세금 포함, 위탁수하물 20kg·기내 7kg)",
+      "클락 임페리얼 호텔 또는 동급 3박 (2인 1실) · 조식",
+      "그린피 18홀 × 3회",
+      "현지 직원 가이드 서비스",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디피+카트비 (18홀 1인 $40, 2인 1캐디·2인 1카트)",
+      "미팅·샌딩 차량비 (1인 4인 이상 $60 · 3인 $80 · 2인 $120)",
+      "현지 가이드·기사 경비 (1박 1인 $10)",
+      "싱글카트 (18홀 $20)",
+      "중식·석식 · 선택 관광 · 개인경비"
+    ],
+    "cancelPolicy": [
+      "목요일 지정 출발 요금입니다: 11/5·19·26, 12/3·10 출발 499,000원 / 1/7·14·21·28, 2/11·18·25 출발 599,000원. 잔여 좌석에 따라 마감될 수 있어 예약 때 확인합니다.",
+      "18홀 의무 라운드 상품이라 라운드에 빠져도 캐디피·카트비는 냅니다. 캐디피·카트비와 미팅·샌딩비는 라운드 전 한국인 오피스에서 미리 냅니다.",
+      "2인 출발은 조인 라운드가 될 수 있고, 조인이 안 되면 이른 오전이나 늦은 오후 티타임이 될 수 있습니다.",
+      "예약금은 1인 100,000원입니다. 필리핀 출국 전 이트래블(eTravel) 등록이 필요하고 여권은 6개월 이상 남아 있어야 합니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-05",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-19",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-26",
+        "price": 499000
+      },
+      {
+        "date": "2026-12-03",
+        "price": 499000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 499000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 599000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 599000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 599000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 599000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 599000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 599000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 599000
+      }
+    ],
+    "price": "499,000원~",
+    "image": "/images/clark-newasia-busan/course-1.jpg",
+    "images": [
+      "/images/clark-newasia-busan/course-1.jpg",
+      "/images/clark-spot-busan/imperial-1.jpg",
+      "/images/philippines-clark-lakewood/course-1.jpg",
+      "/images/clark-spot-busan/imperial-2.jpg",
+      "/images/clark-newasia-busan/course-2.jpg",
+      "/images/philippines-clark-lakewood/course-2.jpg"
+    ],
+    "hotelImages": [
+      "/images/clark-spot-busan/imperial-1.jpg",
+      "/images/clark-spot-busan/imperial-2.jpg",
+      "/images/clark-spot-busan/imperial-3.jpg",
+      "/images/clark-spot-busan/imperial-4.jpg",
+      "/images/clark-spot-busan/imperial-5.jpg"
+    ],
+    "courseImages": [
+      "/images/clark-newasia-busan/course-1.jpg",
+      "/images/philippines-clark-lakewood/course-1.jpg",
+      "/images/clark-newasia-busan/course-2.jpg",
+      "/images/philippines-clark-lakewood/course-2.jpg",
+      "/images/clark-newasia-busan/course-3.jpg",
+      "/images/philippines-clark-lakewood/course-3.jpg",
+      "/images/clark-spot-busan/course-1.jpg",
+      "/images/clark-spot-busan/course-2.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-20",
+    "seoIntro": "인천 출발 필리핀 클락 골프여행 3박4일 상품으로, 세부퍼시픽으로 마닐라에 내려 베버리·뉴아시아·레이크우드 3곳에서 54홀을 치는 499,000원부터의 실속형 3색 골프패키지입니다.",
+    "seoKeywords": [
+      "클락골프",
+      "클락골프여행",
+      "필리핀골프여행",
+      "뉴아시아CC",
+      "레이크우드CC",
+      "실속골프",
+      "인천출발"
+    ]
+  },
+  {
     "id": "thailand-sriracha-busan",
     "country": "태국",
     "countryCode": "thailand",
