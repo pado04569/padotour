@@ -9,6 +9,7 @@ import { IconChevron } from "@/components/icons/Chevron";
 import { IconChat } from "@/components/icons/MenuIcons";
 import { countSearchResults } from "@/lib/queryParser";
 import { localIso } from "@/lib/tourSearch";
+import { courseSeoTitle, courseSeoDescription } from "@/lib/seoMeta";
 
 const SITE_URL = "https://www.padotour.com";
 
@@ -21,11 +22,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const course = courses.find((c) => c.slug === slug);
   if (!course) return {};
 
-  const title = `${course.country} ${course.region} ${course.name} 골프장 소개 | 여행의 파도`;
-  const description =
-    `${course.country} ${course.region}에 있는 ${course.name} 코스 소개입니다. ` +
-    (course.summary ?? course.description.slice(0, 80)) +
-    ` ${course.name}가 포함된 골프여행 패키지도 함께 확인하세요.`;
+  // 검색 결과용 제목·설명 — 손님이 검색한 골프장 이름을 맨 앞에 (seoMeta, 2026-10-21)
+  const title = courseSeoTitle(course);
+  const description = courseSeoDescription(course, tours.filter((t) => course.relatedTourIds.includes(t.id)));
 
   return {
     title,

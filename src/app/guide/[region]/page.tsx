@@ -46,8 +46,10 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
   const d = regionData(region);
   if (!d) return {};
   const deps = [d.incheon.length && "인천", d.busan.length && "부산"].filter(Boolean).join("·");
-  const title = `${d.g.name} 골프여행 | ${deps} 출발 ${d.g.country} 골프패키지 - 여행의파도`;
-  const description = `${d.g.name} 골프여행 상품 ${d.rows.length}개와 골프장 ${d.regionCourses.length}곳 안내. ${d.g.intro[0].slice(0, 70)}…`;
+  // 검색 결과에서 요금·상품 수가 먼저 보이게 (네이버 '마쓰야마 골프여행' 30일 노출 1,414·클릭 1, 2026-10-21)
+  const low = d.low ? ` ${d.low.toLocaleString("ko-KR")}원~` : "";
+  const title = `${d.g.name} 골프여행${low} | ${deps} 출발 상품 ${d.rows.length}개·골프장 ${d.regionCourses.length}곳 - 여행의파도`;
+  const description = `${deps} 출발 ${d.g.name} 골프여행 ${d.rows.length}개 상품을 한곳에서 비교하세요.${low ? ` 항공 포함${low.replace("~", "")}부터.` : ""} 골프장 ${d.regionCourses.length}곳 소개. ${d.g.intro[0].slice(0, 60)}…`;
   return {
     title,
     description,

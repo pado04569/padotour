@@ -46,6 +46,7 @@ import { tourFaqs } from "@/lib/tourFaq";
 import { stayText } from "@/lib/stay";
 import { IconChevron } from "@/components/icons/Chevron";
 import { regionGuides } from "@/lib/regionGuides";
+import { tourSeoTitle, tourSeoDescription } from "@/lib/seoMeta";
 
 export async function generateStaticParams() {
   return tours.map((t) => ({ id: t.id }));
@@ -55,9 +56,10 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const { id } = await params;
   const tour = tours.find((t) => t.id === id);
   if (!tour) return {};
-  const description = tour.seoIntro ?? tour.subtitle ?? tour.productSummary ?? tour.title;
+  // 검색 결과용 제목·설명은 seoMeta 한 곳에서 만든다 — 화면 제목(h1)은 tour.title 그대로 (2026-10-21)
+  const description = tourSeoDescription(tour);
   return {
-    title: `${tour.title} | 여행의 파도`,
+    title: tourSeoTitle(tour),
     description,
     // UTM 파라미터가 붙은 주소가 따로 색인되지 않도록 대표 주소를 지정한다
     alternates: { canonical: `https://www.padotour.com/tours/${tour.id}` },
