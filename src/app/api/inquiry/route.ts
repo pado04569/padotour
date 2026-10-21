@@ -127,6 +127,45 @@ async function notifyPartner(v: { tourId?: string; tourTitle: string; date: stri
   }
 }
 
+// 문의가 접수되지 않으면 사장님 휴대폰으로 바로 문자를 보낸다 (사장님 요청 2026-10-21).
+// 9/28~10/2 달력 문의 폼이 5일 동안 접수를 거절했는데 아무도 몰랐다.
+// 손님 화면도 같은 검사(전화번호·동의·날짜)를 먼저 하므로, 여기서 거절됐다면 화면과 서버가 어긋난 오류다.
+// 거절된 문의는 Redis 에 남기고(손님 연락처 확인용), 문자는 1시간에 1통만 보낸다(봇이 몰려도 문자 폭탄 방지).
+async function notifyRejected(reason: string, v: { tourTitle?: string; departureDate?: string; people?: unknown; phone?: unknown }) {
+  const redis = getRedis();
+  if (redis) {
+    try {
+      await redis.lpush("inquiries:rejected", JSON.stringify({ reason, ...v, at: new Date().toISOString() }));
+      await redis.ltrim("inquiries:rejected", 0, 199);
+      await redis.expire("inquiries:rejected", 30 * 24 * 3600); // 손님 연락처가 들어 있으니 마지막 거절 후 30일만 보관
+      // 이미 1시간 안에 보냈으면 이번 문자는 건너뛴다
+      if (!(await redis.set("inquiries:rejected:alerted", "1", "EX", 3600, "NX"))) return false;
+    } catch (e) {
+      console.error("Redis rejected save error:", e);
+    }
+  }
+  const { SOLAPI_API_KEY: apiKey, SOLAPI_API_SECRET: apiSecret, SOLAPI_FROM: from, INQUIRY_NOTIFY_TO: to } = process.env;
+  if (!apiKey || !apiSecret || !from || !to) return false;
+  const lines = [
+    "[홈페이지 문의 오류]",
+    "손님 문의가 접수되지 않았습니다.",
+    `이유: ${reason}`,
+    v.tourTitle ? `상품: ${String(v.tourTitle).slice(0, 60)}` : "",
+    v.departureDate ? `출발일: ${v.departureDate}` : "",
+    v.people ? `인원: ${v.people}명` : "",
+    v.phone ? `연락처: ${String(v.phone).slice(0, 20)}` : "",
+    "1시간 안에 같은 오류는 문자를 다시 보내지 않습니다.",
+  ].filter(Boolean);
+  try {
+    const solapi = new SolapiMessageService(apiKey, apiSecret);
+    await solapi.send({ to: to.replace(/\D/g, ""), from: from.replace(/\D/g, ""), text: lines.join("\n") });
+    return true;
+  } catch (e) {
+    console.error("Solapi rejected sms error:", e);
+    return false;
+  }
+}
+
 async function sendMail(p: {
   tourTitle: string;
   formattedDate: string;
@@ -193,19 +232,24 @@ export async function POST(req: NextRequest) {
   // 본문이 비었거나 깨진 요청은 서버 오류(500)가 아니라 400 으로 돌려보낸다
   const body = await req.json().catch(() => null);
   if (!body) {
+    await notifyRejected("요청 내용이 비었거나 깨짐", {});
     return NextResponse.json({ error: "잘못된 요청" }, { status: 400 });
   }
   const { tourId, tourTitle, departureDate, nights, days, people, phone, agreedPrivacy } = body;
+  const rejected = { tourTitle, departureDate, people, phone };
 
   if (!phone || !people || !departureDate) {
+    await notifyRejected("필수 항목 누락(출발일·인원·연락처)", rejected);
     return NextResponse.json({ error: "필수 항목 누락" }, { status: 400 });
   }
   // 연락할 수 없는 번호는 접수하지 않는다 — 오타 번호로 "접수 완료"가 뜨면 손님도 우리도 모른 채 문의가 사라진다 (2026-10-09)
   if (!isValidPhone(String(phone))) {
+    await notifyRejected("휴대폰 번호 형식", rejected);
     return NextResponse.json({ error: "휴대폰 번호를 확인해 주세요" }, { status: 400 });
   }
   // 개인정보 수집·이용 동의 없이는 접수하지 않는다 (분쟁 대비, 사장님 요청 2026-09-28)
   if (!agreedPrivacy) {
+    await notifyRejected("개인정보 동의 값이 안 넘어옴", rejected);
     return NextResponse.json({ error: "개인정보 수집·이용에 동의해 주세요" }, { status: 400 });
   }
 
@@ -242,6 +286,7 @@ export async function POST(req: NextRequest) {
 
   if (!mailOk && !kakaoOk) {
     console.error("문의 전달 실패", why);
+    await notifyRejected(`메일·카톡 모두 실패 (메일: ${why.mail ?? "-"} / 카톡: ${why.kakao ?? "-"})`.slice(0, 200), rejected);
     return NextResponse.json({ error: "문의 전달 실패" }, { status: 500 });
   }
 
