@@ -7063,5 +7063,108 @@
     "relatedTourIds": [
       "japan-kagoshima-miyakonojo-3color-incheon"
     ]
+  },
+  {
+    "slug": "hainan-hongshuiwan-gc",
+    "name": "홍수만CC",
+    "nameEn": "R&F Mangrove Bay Golf Club",
+    "region": "하이난",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "홍수만",
+      "红树湾"
+    ],
+    "summary": "하이난 청마이현 북부, 2012년 문을 연 18홀 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "개장",
+        "value": "2012년"
+      },
+      {
+        "label": "설계",
+        "value": "량궈쿤"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 하이난성 청마이현"
+      }
+    ],
+    "description": "홍수만CC(海南澄迈富力红树湾高尔夫)는 하이난 청마이현 북부에 2012년 문을 연 18홀 골프장으로 량궈쿤이 설계했습니다. 넓게 펼쳐진 페어웨이와 열대 수목이 어우러진 코스입니다.\n\n여행의파도 하이난 홍수만CC 골프여행에서는 청마이 윈게이트 바이 윈덤 호텔에 묵으며 27홀씩 라운드합니다.",
+    "images": [
+      "/images/hainan-hongshuiwan-incheon/course-1.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-2.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-3.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-4.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-5.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-6.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-7.jpg"
+    ],
+    "hashtags": [
+      "홍수만CC",
+      "하이난골프장",
+      "청마이골프",
+      "중국골프여행"
+    ],
+    "relatedTourIds": [
+      "china-hainan-hongshuiwan-incheon",
+      "china-hainan-hongshuiwan-incheon-4n5d"
+    ]
+  },
+  {
+    "slug": "hainan-meilangwan-gc",
+    "name": "미량만CC",
+    "nameEn": "Hainan Meilang Bay Golf Club",
+    "region": "하이난",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "미량만",
+      "美浪湾"
+    ],
+    "summary": "하이난 청마이현 온천리조트와 이어진 18홀 파72",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "개장",
+        "value": "2012년"
+      },
+      {
+        "label": "설계",
+        "value": "CJ 탄"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 하이난성 청마이현"
+      }
+    ],
+    "description": "미량만CC(海南美浪湾高尔夫球会)는 하이난 청마이현에 2012년 문을 연 18홀 파72 골프장으로 CJ 탄이 설계했습니다. 온천리조트와 이어져 있어 숙소에서 골프장까지 동선이 짧습니다.\n\n여행의파도 하이난 미량만CC 골프여행에서는 리조트에 묵으며 27홀씩 라운드하고, 라운드 뒤 천연온천을 즐깁니다.",
+    "images": [
+      "/images/hainan-meilangwan-incheon/course-1.jpg",
+      "/images/hainan-meilangwan-incheon/course-2.jpg",
+      "/images/hainan-meilangwan-incheon/course-3.jpg",
+      "/images/hainan-meilangwan-incheon/course-4.jpg",
+      "/images/hainan-meilangwan-incheon/course-5.jpg",
+      "/images/hainan-meilangwan-incheon/course-6.jpg",
+      "/images/hainan-meilangwan-incheon/course-7.jpg",
+      "/images/hainan-meilangwan-incheon/course-8.jpg"
+    ],
+    "hashtags": [
+      "미량만CC",
+      "하이난골프장",
+      "청마이골프",
+      "중국골프여행"
+    ],
+    "relatedTourIds": [
+      "china-hainan-meilangwan-incheon",
+      "china-hainan-meilangwan-incheon-4n5d"
+    ]
   }
 ]

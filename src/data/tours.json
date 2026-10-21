@@ -56967,6 +56967,1146 @@
     "seoIntro": "인천 출발 하이난 보아오 골프여행 4박6일 상품으로, BFA CC에서 27홀씩 81홀을 라운드하고 보아오 골든코스트 온천 호텔에 머무는 트리니티항공 직항 골프패키지입니다."
   },
   {
+    "id": "china-hainan-hongshuiwan-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "하이난",
+    "title": "[인천출발] 중국 하이난 골프여행 홍수만CC 3박4일 72홀 윈덤 호텔 해남항공 899,000원부터",
+    "subtitle": "해남항공 인천-하이커우 (수하물 32kg) · 홍수만CC 72홀 · 윈게이트 바이 윈덤 하이난 청마이 · 조식·석식 포함 · 11~3월 수·금 출발 · 2인 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "72홀 (0+27+27+18)",
+    "minPeople": "2인부터 출발",
+    "period": "2026년 11월 ~ 2027년 3월 매주 수·금 출발",
+    "hotel": "윈게이트 바이 윈덤 하이난 청마이 또는 동급 (2인 1실)",
+    "hotelDesc": "청마이 라오청 잉빈반도에 있는 윈덤 계열 호텔로, 넓은 객실과 야외 수영장·피트니스를 갖췄습니다. 근처 해변과 야시장에 나가 저녁 시간을 보내기 좋습니다.",
+    "golfCourse": "홍수만CC (18홀)",
+    "golfCourseDesc": "2012년 문을 연 18홀 골프장(량궈쿤 설계)으로 시원하게 펼쳐진 페어웨이가 특징이며, 전동카트가 페어웨이에 들어갈 수 있습니다. 둘째 날부터 27홀씩, 마지막 날 18홀을 칩니다. 카트비+캐디피(18홀 1인 300위안 · 27홀 450위안)와 캐디팁(18홀 150위안 · 27홀 250위안)은 현지에서 냅니다.",
+    "productSummary": "해남항공 밤 비행기로 하이난 하이커우에 내려 청마이의 윈게이트 바이 윈덤 하이난 청마이에 3박 묵으며 홍수만CC에서 72홀을 치는 상품입니다. 조식·석식이 포함되고 한국어 가능 직원이 상주하며, 골프백과 캐리어를 합쳐 32kg까지 실을 수 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이커우",
+        "desc": "인천국제공항 해남항공 HU450 21:40 출발 → 하이커우 메이란 국제공항 01:30 도착(다음 날) → 직원 미팅 후 청마이 호텔 이동(약 40분) → 체크인 후 휴식 [호텔: 윈게이트 바이 윈덤 하이난 청마이]"
+      },
+      {
+        "day": "2일차",
+        "label": "홍수만CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 홍수만CC 27홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "홍수만CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 홍수만CC 27홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "홍수만CC 18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 홍수만CC 18홀 라운드 → 공항 이동 → 하이커우 메이란 국제공항 해남항공 HU449 15:35 출발 → 인천국제공항 20:35 도착 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "해남항공 인천-하이커우 직항 · 수하물 32kg (골프백+캐리어)",
+      "홍수만CC 72홀 · 페어웨이 카트 진입",
+      "윈게이트 바이 윈덤 하이난 청마이 · 해변·야시장 가까움",
+      "조식·석식 포함 · 한국어 직원 상주",
+      "수·금 출발 · 2인 출발 · 899,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (해남항공, 유류할증료·세금 포함, 수하물 32kg)",
+      "윈게이트 바이 윈덤 하이난 청마이 또는 동급 3박 (2인 1실)",
+      "조식·석식",
+      "전 일정 그린피"
+    ],
+    "excludes": [
+      "중식",
+      "미팅·샌딩비 (인원 상관없이 1인 400위안)",
+      "카트비+캐디피 (18홀 1인 300위안 · 27홀 450위안)",
+      "캐디팁 (18홀 1인 150위안 · 27홀 250위안)",
+      "싱글카트 18홀 100위안",
+      "여행자보험 · 개인경비"
+    ],
+    "cancelPolicy": [
+      "출발일별 요금입니다. 지정일 특가(11월 말·12월·연말연시·구정)는 날짜마다 요금이 다르고, 나머지 날짜는 성수기 시작 요금(1,029,000원~)입니다. 예약 때 확정 요금을 안내합니다.",
+      "미량만CC 외부 라운드는 1회 1인 80,000원(12/1~20은 18홀 100,000 · 27홀 140,000 · 36홀 180,000원)이 추가됩니다(홍수만CC 2회 이상 조건).",
+      "중국 연휴·특정일 출발은 따로 확인합니다. 티웨이항공 12/24·12/31 목요일 3박5일 특가도 문의해 주세요.",
+      "카트비·캐디피는 현지 일괄 지불 조건이라 라운드를 하지 않아도 환불되지 않습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-04",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-06",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-11",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-13",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-20",
+        "price": 1029000
+      },
+      {
+        "date": "2026-11-25",
+        "price": 1090000
+      },
+      {
+        "date": "2026-11-27",
+        "price": 1029000
+      },
+      {
+        "date": "2026-12-02",
+        "price": 899000
+      },
+      {
+        "date": "2026-12-04",
+        "price": 899000
+      },
+      {
+        "date": "2026-12-09",
+        "price": 899000
+      },
+      {
+        "date": "2026-12-11",
+        "price": 899000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 899000
+      },
+      {
+        "date": "2026-12-18",
+        "price": 899000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1360000
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1360000
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1430000
+      },
+      {
+        "date": "2027-01-01",
+        "price": 1360000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1340000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1360000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1360000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1340000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1340000
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1360000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1240000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1260000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1460000
+      },
+      {
+        "date": "2027-02-05",
+        "price": 1560000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1430000
+      },
+      {
+        "date": "2027-03-03",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-05",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-10",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-12",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-17",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-19",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-24",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-26",
+        "price": 1029000
+      },
+      {
+        "date": "2027-03-31",
+        "price": 1029000
+      }
+    ],
+    "price": "899,000원~",
+    "image": "/images/hainan-hongshuiwan-incheon/course-1.jpg",
+    "images": [
+      "/images/hainan-hongshuiwan-incheon/course-1.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-1.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-2.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-2.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-3.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/hainan-hongshuiwan-incheon/hotel-1.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-2.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-3.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-4.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-5.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/hainan-hongshuiwan-incheon/course-1.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-2.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-3.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-4.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-5.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-6.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-7.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-21",
+    "seoIntro": "인천 출발 중국 하이난 골프여행 3박4일 상품으로, 해남항공 직항으로 가서 청마이 윈게이트 바이 윈덤 하이난 청마이에 묵으며 홍수만CC에서 72홀을 치는 조식·석식 포함 골프패키지입니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "하이난골프여행",
+      "홍수만CC",
+      "청마이골프",
+      "중국골프여행",
+      "인천출발"
+    ]
+  },
+  {
+    "id": "china-hainan-hongshuiwan-incheon-4n5d",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "하이난",
+    "title": "[인천출발] 중국 하이난 골프여행 홍수만CC 4박5일 99홀 윈덤 호텔 해남항공 829,000원부터",
+    "subtitle": "해남항공 인천-하이커우 (수하물 32kg) · 홍수만CC 99홀 · 윈게이트 바이 윈덤 하이난 청마이 · 조식·석식 포함 · 11~3월 월·토 출발 · 2인 출발",
+    "nights": 4,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 4,
+    "holes": "99홀 (0+27+27+27+18)",
+    "minPeople": "2인부터 출발",
+    "period": "2026년 11월 ~ 2027년 3월 매주 월·토 출발",
+    "hotel": "윈게이트 바이 윈덤 하이난 청마이 또는 동급 (2인 1실)",
+    "hotelDesc": "청마이 라오청 잉빈반도에 있는 윈덤 계열 호텔로, 넓은 객실과 야외 수영장·피트니스를 갖췄습니다. 근처 해변과 야시장에 나가 저녁 시간을 보내기 좋습니다.",
+    "golfCourse": "홍수만CC (18홀)",
+    "golfCourseDesc": "2012년 문을 연 18홀 골프장(량궈쿤 설계)으로 시원하게 펼쳐진 페어웨이가 특징이며, 전동카트가 페어웨이에 들어갈 수 있습니다. 둘째 날부터 27홀씩, 마지막 날 18홀을 칩니다. 카트비+캐디피(18홀 1인 300위안 · 27홀 450위안)와 캐디팁(18홀 150위안 · 27홀 250위안)은 현지에서 냅니다.",
+    "productSummary": "해남항공 밤 비행기로 하이난 하이커우에 내려 청마이의 윈게이트 바이 윈덤 하이난 청마이에 4박 묵으며 홍수만CC에서 99홀을 치는 상품입니다. 조식·석식이 포함되고 한국어 가능 직원이 상주하며, 골프백과 캐리어를 합쳐 32kg까지 실을 수 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이커우",
+        "desc": "인천국제공항 해남항공 HU450 21:40 출발 → 하이커우 메이란 국제공항 01:30 도착(다음 날) → 직원 미팅 후 청마이 호텔 이동(약 40분) → 체크인 후 휴식 [호텔: 윈게이트 바이 윈덤 하이난 청마이]"
+      },
+      {
+        "day": "2일차",
+        "label": "홍수만CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 홍수만CC 27홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "홍수만CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 홍수만CC 27홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "홍수만CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 홍수만CC 27홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "홍수만CC 18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 홍수만CC 18홀 라운드 → 공항 이동 → 하이커우 메이란 국제공항 해남항공 HU449 15:35 출발 → 인천국제공항 20:35 도착 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "해남항공 인천-하이커우 직항 · 수하물 32kg (골프백+캐리어)",
+      "홍수만CC 99홀 · 페어웨이 카트 진입",
+      "윈게이트 바이 윈덤 하이난 청마이 · 해변·야시장 가까움",
+      "조식·석식 포함 · 한국어 직원 상주",
+      "월·토 출발 · 2인 출발 · 829,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (해남항공, 유류할증료·세금 포함, 수하물 32kg)",
+      "윈게이트 바이 윈덤 하이난 청마이 또는 동급 4박 (2인 1실)",
+      "조식·석식",
+      "전 일정 그린피"
+    ],
+    "excludes": [
+      "중식",
+      "미팅·샌딩비 (인원 상관없이 1인 400위안)",
+      "카트비+캐디피 (18홀 1인 300위안 · 27홀 450위안)",
+      "캐디팁 (18홀 1인 150위안 · 27홀 250위안)",
+      "싱글카트 18홀 100위안",
+      "여행자보험 · 개인경비"
+    ],
+    "cancelPolicy": [
+      "출발일별 요금입니다. 지정일 특가(11월 말·12월·연말연시·구정)는 날짜마다 요금이 다르고, 나머지 날짜는 성수기 시작 요금(1,189,000원~)입니다. 예약 때 확정 요금을 안내합니다.",
+      "미량만CC 외부 라운드는 1회 1인 80,000원(12/1~20은 18홀 100,000 · 27홀 140,000 · 36홀 180,000원)이 추가됩니다(홍수만CC 2회 이상 조건).",
+      "중국 연휴·특정일 출발은 따로 확인합니다. 티웨이항공 12/24·12/31 목요일 3박5일 특가도 문의해 주세요.",
+      "카트비·캐디피는 현지 일괄 지불 조건이라 라운드를 하지 않아도 환불되지 않습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-02",
+        "price": 1189000
+      },
+      {
+        "date": "2026-11-07",
+        "price": 1189000
+      },
+      {
+        "date": "2026-11-09",
+        "price": 1189000
+      },
+      {
+        "date": "2026-11-14",
+        "price": 1189000
+      },
+      {
+        "date": "2026-11-16",
+        "price": 1189000
+      },
+      {
+        "date": "2026-11-21",
+        "price": 1189000
+      },
+      {
+        "date": "2026-11-23",
+        "price": 1189000
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1189000
+      },
+      {
+        "date": "2026-11-30",
+        "price": 829000
+      },
+      {
+        "date": "2026-12-05",
+        "price": 989000
+      },
+      {
+        "date": "2026-12-07",
+        "price": 979000
+      },
+      {
+        "date": "2026-12-12",
+        "price": 989000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 989000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 989000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1189000
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1189000
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1189000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1189000
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1189000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1189000
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1189000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1189000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1189000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1189000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1189000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1189000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1189000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1189000
+      },
+      {
+        "date": "2027-02-08",
+        "price": 1189000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1189000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1189000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1189000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1189000
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1189000
+      },
+      {
+        "date": "2027-03-01",
+        "price": 1189000
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1189000
+      },
+      {
+        "date": "2027-03-08",
+        "price": 1189000
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1189000
+      },
+      {
+        "date": "2027-03-15",
+        "price": 1189000
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1189000
+      },
+      {
+        "date": "2027-03-22",
+        "price": 1189000
+      },
+      {
+        "date": "2027-03-27",
+        "price": 1189000
+      },
+      {
+        "date": "2027-03-29",
+        "price": 1189000
+      }
+    ],
+    "price": "829,000원~",
+    "image": "/images/hainan-hongshuiwan-incheon/course-1.jpg",
+    "images": [
+      "/images/hainan-hongshuiwan-incheon/course-1.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-1.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-2.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-2.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-3.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/hainan-hongshuiwan-incheon/hotel-1.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-2.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-3.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-4.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-5.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/hainan-hongshuiwan-incheon/course-1.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-2.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-3.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-4.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-5.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-6.jpg",
+      "/images/hainan-hongshuiwan-incheon/course-7.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-21",
+    "seoIntro": "인천 출발 중국 하이난 골프여행 4박5일 상품으로, 해남항공 직항으로 가서 청마이 윈게이트 바이 윈덤 하이난 청마이에 묵으며 홍수만CC에서 99홀을 치는 조식·석식 포함 골프패키지입니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "하이난골프여행",
+      "홍수만CC",
+      "청마이골프",
+      "중국골프여행",
+      "인천출발"
+    ]
+  },
+  {
+    "id": "china-hainan-meilangwan-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "하이난",
+    "title": "[인천출발] 중국 하이난 골프여행 미량만CC 3박4일 72홀 온천리조트 해남항공 1,089,000원부터",
+    "subtitle": "해남항공 인천-하이커우 (수하물 32kg) · 미량만CC 72홀 · 미량만 온천리조트(메이랑완 샹멘 호텔) · 조식·석식 포함 · 11~3월 수·금 출발 · 2인 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "72홀 (0+27+27+18)",
+    "minPeople": "2인부터 출발",
+    "period": "2026년 11월 ~ 2027년 3월 매주 수·금 출발",
+    "hotel": "미량만 온천리조트(메이랑완 샹멘 호텔) 또는 동급 (2인 1실)",
+    "hotelDesc": "미량만CC와 이어진 온천 리조트로 천연온천과 1,500㎡ 야외 인피니티풀이 있습니다. 숙소에서 골프장까지 동선이 짧고 라운드 뒤 온천으로 하루를 마무리합니다.",
+    "golfCourse": "미량만CC (18홀)",
+    "golfCourseDesc": "2012년 문을 연 18홀 파72 골프장(CJ 탄 설계)으로 리조트와 이어져 있고 전동카트가 페어웨이에 들어갈 수 있습니다. 둘째 날부터 27홀씩, 마지막 날 18홀을 칩니다. 카트비+캐디피(18홀 1인 300위안 · 27홀 450위안)와 캐디팁(18홀 150위안 · 27홀 250위안)은 현지에서 냅니다.",
+    "productSummary": "해남항공 밤 비행기로 하이난 하이커우에 내려 청마이의 미량만 온천리조트(메이랑완 샹멘 호텔)에 3박 묵으며 미량만CC에서 72홀을 치는 상품입니다. 조식·석식이 포함되고 한국어 가능 직원이 상주하며, 골프백과 캐리어를 합쳐 32kg까지 실을 수 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이커우",
+        "desc": "인천국제공항 해남항공 HU450 21:40 출발 → 하이커우 메이란 국제공항 01:30 도착(다음 날) → 직원 미팅 후 청마이 호텔 이동(약 40분) → 체크인 후 휴식 [호텔: 미량만 온천리조트(메이랑완 샹멘 호텔)]"
+      },
+      {
+        "day": "2일차",
+        "label": "미량만CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 미량만CC 27홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "미량만CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 미량만CC 27홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "미량만CC 18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 미량만CC 18홀 라운드 → 공항 이동 → 하이커우 메이란 국제공항 해남항공 HU449 15:35 출발 → 인천국제공항 20:35 도착 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "해남항공 인천-하이커우 직항 · 수하물 32kg (골프백+캐리어)",
+      "미량만CC 72홀 · 페어웨이 카트 진입",
+      "미량만 온천리조트(메이랑완 샹멘 호텔) · 천연온천·인피니티풀",
+      "조식·석식 포함 · 한국어 직원 상주",
+      "수·금 출발 · 2인 출발 · 1,089,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (해남항공, 유류할증료·세금 포함, 수하물 32kg)",
+      "미량만 온천리조트(메이랑완 샹멘 호텔) 또는 동급 3박 (2인 1실)",
+      "조식·석식",
+      "전 일정 그린피"
+    ],
+    "excludes": [
+      "중식",
+      "미팅·샌딩비 (인원 상관없이 1인 350위안)",
+      "카트비+캐디피 (18홀 1인 300위안 · 27홀 450위안)",
+      "캐디팁 (18홀 1인 150위안 · 27홀 250위안)",
+      "싱글카트 18홀 100위안",
+      "여행자보험 · 개인경비"
+    ],
+    "cancelPolicy": [
+      "출발일별 요금입니다. 지정일 특가(11월 말·12월·연말연시·구정)는 날짜마다 요금이 다르고, 나머지 날짜는 성수기 시작 요금(1,089,000원~)입니다. 예약 때 확정 요금을 안내합니다.",
+      "홍수만CC 외부 라운드는 1회 1인 50,000원이 추가됩니다(미량만CC 2회 이상 조건).",
+      "중국 연휴·특정일 출발은 따로 확인합니다. 티웨이항공 12/24·12/31 목요일 3박5일 특가도 문의해 주세요.",
+      "카트비·캐디피는 현지 일괄 지불 조건이라 라운드를 하지 않아도 환불되지 않습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-04",
+        "price": 1089000
+      },
+      {
+        "date": "2026-11-06",
+        "price": 1089000
+      },
+      {
+        "date": "2026-11-11",
+        "price": 1089000
+      },
+      {
+        "date": "2026-11-13",
+        "price": 1089000
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1089000
+      },
+      {
+        "date": "2026-11-20",
+        "price": 1089000
+      },
+      {
+        "date": "2026-11-25",
+        "price": 1150000
+      },
+      {
+        "date": "2026-11-27",
+        "price": 1089000
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1260000
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1260000
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1089000
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1260000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1089000
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1089000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1420000
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1420000
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1490000
+      },
+      {
+        "date": "2027-01-01",
+        "price": 1420000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1420000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1420000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1420000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1320000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1520000
+      },
+      {
+        "date": "2027-02-05",
+        "price": 1590000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1089000
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1089000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1089000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1089000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1089000
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1490000
+      },
+      {
+        "date": "2027-03-03",
+        "price": 1089000
+      },
+      {
+        "date": "2027-03-05",
+        "price": 1089000
+      },
+      {
+        "date": "2027-03-10",
+        "price": 1089000
+      },
+      {
+        "date": "2027-03-12",
+        "price": 1089000
+      },
+      {
+        "date": "2027-03-17",
+        "price": 1089000
+      },
+      {
+        "date": "2027-03-19",
+        "price": 1089000
+      },
+      {
+        "date": "2027-03-24",
+        "price": 1089000
+      },
+      {
+        "date": "2027-03-26",
+        "price": 1089000
+      },
+      {
+        "date": "2027-03-31",
+        "price": 1089000
+      }
+    ],
+    "price": "1,089,000원~",
+    "image": "/images/hainan-meilangwan-incheon/course-1.jpg",
+    "images": [
+      "/images/hainan-meilangwan-incheon/course-1.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-1.jpg",
+      "/images/hainan-meilangwan-incheon/course-2.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-2.jpg",
+      "/images/hainan-meilangwan-incheon/course-3.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/hainan-meilangwan-incheon/hotel-1.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-2.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-3.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-4.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-5.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/hainan-meilangwan-incheon/course-1.jpg",
+      "/images/hainan-meilangwan-incheon/course-2.jpg",
+      "/images/hainan-meilangwan-incheon/course-3.jpg",
+      "/images/hainan-meilangwan-incheon/course-4.jpg",
+      "/images/hainan-meilangwan-incheon/course-5.jpg",
+      "/images/hainan-meilangwan-incheon/course-6.jpg",
+      "/images/hainan-meilangwan-incheon/course-7.jpg",
+      "/images/hainan-meilangwan-incheon/course-8.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-21",
+    "seoIntro": "인천 출발 중국 하이난 골프여행 3박4일 상품으로, 해남항공 직항으로 가서 청마이 미량만 온천리조트(메이랑완 샹멘 호텔)에 묵으며 미량만CC에서 72홀을 치는 조식·석식 포함 골프패키지입니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "하이난골프여행",
+      "미량만CC",
+      "청마이골프",
+      "중국골프여행",
+      "인천출발"
+    ]
+  },
+  {
+    "id": "china-hainan-meilangwan-incheon-4n5d",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "하이난",
+    "title": "[인천출발] 중국 하이난 골프여행 미량만CC 4박5일 99홀 온천리조트 해남항공 1,259,000원부터",
+    "subtitle": "해남항공 인천-하이커우 (수하물 32kg) · 미량만CC 99홀 · 미량만 온천리조트(메이랑완 샹멘 호텔) · 조식·석식 포함 · 11~3월 월·토 출발 · 2인 출발",
+    "nights": 4,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 4,
+    "holes": "99홀 (0+27+27+27+18)",
+    "minPeople": "2인부터 출발",
+    "period": "2026년 11월 ~ 2027년 3월 매주 월·토 출발",
+    "hotel": "미량만 온천리조트(메이랑완 샹멘 호텔) 또는 동급 (2인 1실)",
+    "hotelDesc": "미량만CC와 이어진 온천 리조트로 천연온천과 1,500㎡ 야외 인피니티풀이 있습니다. 숙소에서 골프장까지 동선이 짧고 라운드 뒤 온천으로 하루를 마무리합니다.",
+    "golfCourse": "미량만CC (18홀)",
+    "golfCourseDesc": "2012년 문을 연 18홀 파72 골프장(CJ 탄 설계)으로 리조트와 이어져 있고 전동카트가 페어웨이에 들어갈 수 있습니다. 둘째 날부터 27홀씩, 마지막 날 18홀을 칩니다. 카트비+캐디피(18홀 1인 300위안 · 27홀 450위안)와 캐디팁(18홀 150위안 · 27홀 250위안)은 현지에서 냅니다.",
+    "productSummary": "해남항공 밤 비행기로 하이난 하이커우에 내려 청마이의 미량만 온천리조트(메이랑완 샹멘 호텔)에 4박 묵으며 미량만CC에서 99홀을 치는 상품입니다. 조식·석식이 포함되고 한국어 가능 직원이 상주하며, 골프백과 캐리어를 합쳐 32kg까지 실을 수 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이커우",
+        "desc": "인천국제공항 해남항공 HU450 21:40 출발 → 하이커우 메이란 국제공항 01:30 도착(다음 날) → 직원 미팅 후 청마이 호텔 이동(약 40분) → 체크인 후 휴식 [호텔: 미량만 온천리조트(메이랑완 샹멘 호텔)]"
+      },
+      {
+        "day": "2일차",
+        "label": "미량만CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 미량만CC 27홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "미량만CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 미량만CC 27홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "미량만CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 미량만CC 27홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "미량만CC 18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 미량만CC 18홀 라운드 → 공항 이동 → 하이커우 메이란 국제공항 해남항공 HU449 15:35 출발 → 인천국제공항 20:35 도착 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "해남항공 인천-하이커우 직항 · 수하물 32kg (골프백+캐리어)",
+      "미량만CC 99홀 · 페어웨이 카트 진입",
+      "미량만 온천리조트(메이랑완 샹멘 호텔) · 천연온천·인피니티풀",
+      "조식·석식 포함 · 한국어 직원 상주",
+      "월·토 출발 · 2인 출발 · 1,259,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (해남항공, 유류할증료·세금 포함, 수하물 32kg)",
+      "미량만 온천리조트(메이랑완 샹멘 호텔) 또는 동급 4박 (2인 1실)",
+      "조식·석식",
+      "전 일정 그린피"
+    ],
+    "excludes": [
+      "중식",
+      "미팅·샌딩비 (인원 상관없이 1인 350위안)",
+      "카트비+캐디피 (18홀 1인 300위안 · 27홀 450위안)",
+      "캐디팁 (18홀 1인 150위안 · 27홀 250위안)",
+      "싱글카트 18홀 100위안",
+      "여행자보험 · 개인경비"
+    ],
+    "cancelPolicy": [
+      "출발일별 요금입니다. 지정일 특가(11월 말·12월·연말연시·구정)는 날짜마다 요금이 다르고, 나머지 날짜는 성수기 시작 요금(1,259,000원~)입니다. 예약 때 확정 요금을 안내합니다.",
+      "홍수만CC 외부 라운드는 1회 1인 50,000원이 추가됩니다(미량만CC 2회 이상 조건).",
+      "중국 연휴·특정일 출발은 따로 확인합니다. 티웨이항공 12/24·12/31 목요일 3박5일 특가도 문의해 주세요.",
+      "카트비·캐디피는 현지 일괄 지불 조건이라 라운드를 하지 않아도 환불되지 않습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-02",
+        "price": 1259000
+      },
+      {
+        "date": "2026-11-07",
+        "price": 1259000
+      },
+      {
+        "date": "2026-11-09",
+        "price": 1259000
+      },
+      {
+        "date": "2026-11-14",
+        "price": 1259000
+      },
+      {
+        "date": "2026-11-16",
+        "price": 1259000
+      },
+      {
+        "date": "2026-11-21",
+        "price": 1259000
+      },
+      {
+        "date": "2026-11-23",
+        "price": 1259000
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1259000
+      },
+      {
+        "date": "2026-11-30",
+        "price": 1290000
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1259000
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1440000
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1259000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1259000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1259000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1259000
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1259000
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1259000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1259000
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1259000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1259000
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1259000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1259000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1259000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1259000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1259000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1259000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1259000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1259000
+      },
+      {
+        "date": "2027-02-08",
+        "price": 1259000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1259000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1259000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1259000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1259000
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1259000
+      },
+      {
+        "date": "2027-03-01",
+        "price": 1259000
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1259000
+      },
+      {
+        "date": "2027-03-08",
+        "price": 1259000
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1259000
+      },
+      {
+        "date": "2027-03-15",
+        "price": 1259000
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1259000
+      },
+      {
+        "date": "2027-03-22",
+        "price": 1259000
+      },
+      {
+        "date": "2027-03-27",
+        "price": 1259000
+      },
+      {
+        "date": "2027-03-29",
+        "price": 1259000
+      }
+    ],
+    "price": "1,259,000원~",
+    "image": "/images/hainan-meilangwan-incheon/course-1.jpg",
+    "images": [
+      "/images/hainan-meilangwan-incheon/course-1.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-1.jpg",
+      "/images/hainan-meilangwan-incheon/course-2.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-2.jpg",
+      "/images/hainan-meilangwan-incheon/course-3.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/hainan-meilangwan-incheon/hotel-1.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-2.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-3.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-4.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-5.jpg",
+      "/images/hainan-meilangwan-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/hainan-meilangwan-incheon/course-1.jpg",
+      "/images/hainan-meilangwan-incheon/course-2.jpg",
+      "/images/hainan-meilangwan-incheon/course-3.jpg",
+      "/images/hainan-meilangwan-incheon/course-4.jpg",
+      "/images/hainan-meilangwan-incheon/course-5.jpg",
+      "/images/hainan-meilangwan-incheon/course-6.jpg",
+      "/images/hainan-meilangwan-incheon/course-7.jpg",
+      "/images/hainan-meilangwan-incheon/course-8.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-21",
+    "seoIntro": "인천 출발 중국 하이난 골프여행 4박5일 상품으로, 해남항공 직항으로 가서 청마이 미량만 온천리조트(메이랑완 샹멘 호텔)에 묵으며 미량만CC에서 99홀을 치는 조식·석식 포함 골프패키지입니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "하이난골프여행",
+      "미량만CC",
+      "청마이골프",
+      "중국골프여행",
+      "인천출발"
+    ]
+  },
+  {
     "country": "중국",
     "countryCode": "china",
     "region": "광저우",
