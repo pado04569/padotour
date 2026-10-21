@@ -4,7 +4,6 @@ import Link from "next/link";
 import { IconFlag, IconStar, IconMegaphone, IconQuote, IconChat, IconShieldCheck } from "./icons/MenuIcons";
 import Image from "next/image";
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 import TrustBar, { useSwitchHref } from "./TrustBar";
 import ExternalVerificationButton from "./ExternalVerificationModal";
 import { IconChevron, IconSwap } from "./icons/Chevron";
@@ -52,7 +51,6 @@ export default function Header({ departure, navRegions }: HeaderProps) {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [openMobileSub, setOpenMobileSub] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
-  const router = useRouter();
 
   const navItems = buildNav(navRegions, departure);
   const switchHref = useSwitchHref(departure);
@@ -70,17 +68,19 @@ export default function Header({ departure, navRegions }: HeaderProps) {
   // 이제 입력칸으로 커서를 옮기고 안내 문구를 보여준다.
   const [searchHint, setSearchHint] = useState(false);
 
-  function handleSearch(e: React.FormEvent) {
-    e.preventDefault();
+  // 검색은 보통 양식 이동(GET /tours?search=…)으로 한다 — router.push 는 휴대폰 크기 시험에서 가끔 멈췄다
+  // (10/21, 11회 중 2회, 멈춘 화면은 계속 멈춤). 스크립트가 늦게 떠도 이동한다. 빈 검색만 여기서 막는다.
+  function handleSearch(e: React.FormEvent<HTMLFormElement>) {
     if (!searchQuery.trim()) {
-      const input = (e.currentTarget as HTMLFormElement).querySelector("input");
+      e.preventDefault();
+      const input = e.currentTarget.querySelector("input");
       input?.focus();
       setSearchHint(true);
       return;
     }
     setSearchHint(false);
-    const dep = departure ? `&departure=${departure}` : "";
-    router.push(`/tours?search=${encodeURIComponent(searchQuery.trim())}${dep}`);
+    const input = e.currentTarget.elements.namedItem("search") as HTMLInputElement | null;
+    if (input) input.value = searchQuery.trim();
   }
 
   return (
@@ -103,9 +103,11 @@ export default function Header({ departure, navRegions }: HeaderProps) {
 
           {/* PC는 검색창을 5% 줄여 로고 쪽에 여유 — 오른쪽 끝은 위 '내 예약/문의'와 맞춘다 (사장님 선택 2026-10-09) */}
           <div className="flex-1 min-w-0">
-            <form onSubmit={handleSearch} className="md:w-[95%] md:ml-auto flex items-center border-2 border-gray-200 focus-within:border-emerald-500 rounded-lg overflow-hidden transition-colors">
+            <form action="/tours" method="get" onSubmit={handleSearch} className="md:w-[95%] md:ml-auto flex items-center border-2 border-gray-200 focus-within:border-emerald-500 rounded-lg overflow-hidden transition-colors">
+              {departure && <input type="hidden" name="departure" value={departure} />}
               <input
                 type="text"
+                name="search"
                 value={searchQuery}
                 onChange={(e) => { setSearchQuery(e.target.value); if (searchHint) setSearchHint(false); }}
                 onBlur={() => setSearchHint(false)}

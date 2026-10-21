@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import Modal from "./Modal";
 import { IconChevron } from "./icons/Chevron";
 import KoreaMiniMap from "./KoreaMiniMap";
@@ -31,7 +31,6 @@ const INFO: Record<Dep, { title: string; sub: string; airport: string; ask: stri
 
 export default function DepartureChooser() {
   const [asking, setAsking] = useState<Dep | null>(null);
-  const router = useRouter();
   const other = (d: Dep): Dep => (d === "incheon" ? "busan" : "incheon");
 
   return (
@@ -69,20 +68,19 @@ export default function DepartureChooser() {
                 {INFO[asking].airport} 출발
               </span>
             </div>
-            <button
-              type="button"
-              onClick={() => router.push(`/${asking}`)}
-              className="w-full min-h-[52px] rounded-xl bg-blue-700 hover:bg-blue-800 text-white text-[17px] font-extrabold transition-colors"
+            {/* 버튼(router.push) 대신 링크 — 휴대폰 크기 시험에서 router.push 이동이 가끔 멈췄다(10/21, 11회 중 2회). 나라 버튼과 같은 방식 */}
+            <Link
+              href={`/${asking}`}
+              className="w-full min-h-[52px] flex items-center justify-center rounded-xl bg-blue-700 hover:bg-blue-800 text-white text-[17px] font-extrabold transition-colors"
             >
               {INFO[asking].yes}
-            </button>
-            <button
-              type="button"
-              onClick={() => router.push(`/${other(asking)}`)}
-              className="w-full min-h-12 mt-2 rounded-xl border border-slate-300 text-slate-700 text-base font-bold hover:bg-slate-50 transition-colors"
+            </Link>
+            <Link
+              href={`/${other(asking)}`}
+              className="w-full min-h-12 mt-2 flex items-center justify-center rounded-xl border border-slate-300 text-slate-700 text-base font-bold hover:bg-slate-50 transition-colors"
             >
               {INFO[asking].other}
-            </button>
+            </Link>
           </>
         )}
       </Modal>
