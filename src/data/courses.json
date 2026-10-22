@@ -7166,5 +7166,56 @@
       "china-hainan-meilangwan-incheon",
       "china-hainan-meilangwan-incheon-4n5d"
     ]
+  },
+  {
+    "slug": "golden-sands-golf-resort",
+    "name": "골든샌즈CC",
+    "nameEn": "Golden Sands Golf Resort",
+    "region": "다낭",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "aliases": [
+      "골든샌즈",
+      "Golden Sands"
+    ],
+    "summary": "후에 빈쑤언 해변, 2024년 개장한 니클라우스 디자인 18홀 파72",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "개장",
+        "value": "2024년 9월"
+      },
+      {
+        "label": "설계",
+        "value": "니클라우스 디자인"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 후에 빈쑤언 해변"
+      }
+    ],
+    "description": "골든샌즈CC(Golden Sands Golf Resort)는 베트남 후에 동쪽 빈쑤언 해변에 2024년 9월 문을 연 18홀 파72 골프장으로, 니클라우스 디자인이 설계했습니다. 하얀 모래 언덕과 자생 수목 사이로 페어웨이가 이어지는 해안 코스입니다.\n\n여행의파도 다낭·후에 골든샌즈 골프여행에서는 단지 안 골프텔에 묵으며 매일 36홀을 무제한으로 칩니다.",
+    "images": [
+      "/images/hue-goldensands-incheon/course-1.jpg",
+      "/images/hue-goldensands-incheon/course-2.jpg",
+      "/images/hue-goldensands-incheon/course-3.jpg",
+      "/images/hue-goldensands-incheon/course-4.jpg",
+      "/images/hue-goldensands-incheon/course-5.jpg",
+      "/images/hue-goldensands-incheon/course-6.jpg",
+      "/images/hue-goldensands-incheon/course-7.jpg",
+      "/images/hue-goldensands-incheon/course-8.jpg"
+    ],
+    "hashtags": [
+      "골든샌즈CC",
+      "후에골프장",
+      "다낭골프",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-hue-goldensands-unlimited-incheon"
+    ]
   }
 ]
