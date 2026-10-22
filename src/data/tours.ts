@@ -54,7 +54,18 @@ function isTourActive(tour: Tour): boolean {
   return tour.departurePrices.some((dp) => new Date(dp.date) >= today);
 }
 
-export const tours: Tour[] = allTours.filter(isTourActive);
+// 대표 요금(price)은 남은 출발일 중 최저가로 맞춘다 — 싼 출발일이 지나도 옛 값이 남아
+// 카드·상세·검색 제목에 실제보다 싸게 보였다 (하이난 미션힐스 690,000 ↔ 실제 770,000 등 10개, 2026-10-22)
+function withLivePrice(tour: Tour): Tour {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const left = (tour.departurePrices ?? []).filter((dp) => new Date(dp.date) >= today && dp.price > 0);
+  if (left.length === 0 || !/\d/.test(tour.price)) return tour;
+  const low = Math.min(...left.map((dp) => dp.price));
+  return { ...tour, price: tour.price.replace(/[\d,]+/, low.toLocaleString("ko-KR")) };
+}
+
+export const tours: Tour[] = allTours.filter(isTourActive).map(withLivePrice);
 // 출발일이 끝난 상품 — 목록에는 안 보이고, 옛 주소로 들어오면 같은 지역으로 넘긴다 (lib/endedTourRedirect.ts)
 export const endedTours: Tour[] = allTours.filter((t) => !isTourActive(t));
 

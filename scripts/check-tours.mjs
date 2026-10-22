@@ -86,6 +86,15 @@ for (const t of active) {
 
   // 6) 요금 칸
   if (t.price && !/원|문의/.test(t.price)) add(t, "요금 형식", `price="${t.price}"`);
+
+  // 7) 제목 속 요금 ↔ 남은 출발일 최저가 — 대표 요금은 tours.ts 가 자동으로 맞추지만 제목은 손으로 고쳐야 한다 (2026-10-22)
+  const left = (t.departurePrices || []).filter((d) => d.date >= today && d.price > 0);
+  const titlePrice = [...t.title.matchAll(/([\d,]{6,})원/g)].pop();
+  if (left.length && titlePrice) {
+    const low = Math.min(...left.map((d) => d.price));
+    const n = Number(titlePrice[1].replace(/,/g, ""));
+    if (n !== low) add(t, "제목 요금", `제목 "${titlePrice[0]}" ↔ 남은 출발일 최저 ${low.toLocaleString("ko-KR")}원`);
+  }
 }
 
 const byKind = issues.reduce((m, i) => ((m[i.kind] = (m[i.kind] || 0) + 1), m), {});
