@@ -27,7 +27,9 @@ function regionData(slug: string) {
     const ds = (t.departurePrices ?? []).map((d) => d.date);
     return ds.length === 0 || ds.some((d) => d >= today);
   });
-  const rows = live.length > 0 ? live : list;
+  // 낮은 요금 순 — 요약칸 "○원부터"와 맨 위 상품 요금이 맞게 (하이난 최저가가 8번째에 있었다, 2026-10-22). 요금 없는 상품은 뒤로
+  const won = (t: (typeof list)[number]) => Number(String(t.price ?? "").replace(/[^\d]/g, "")) || Infinity;
+  const rows = (live.length > 0 ? live : list).slice().sort((a, b) => won(a) - won(b));
   const dates = rows.flatMap((t) => (t.departurePrices ?? []).map((d) => d.date)).filter((d) => d >= today).sort();
   // 요금은 상품 카드에 보이는 대표 요금(price)과 같게 — 달력 요금으로 따로 계산하면 카드(889,000원)와 어긋났다
   const prices = rows.map((t) => Number(String(t.price ?? "").replace(/[^\d]/g, ""))).filter((n) => n > 0);
