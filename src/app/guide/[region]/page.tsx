@@ -39,7 +39,8 @@ function regionData(slug: string) {
   return { g, rows, dates, low: prices.length ? Math.min(...prices) : undefined, regionCourses, incheon, busan, hero };
 }
 
-const md = (iso: string) => `${Number(iso.slice(5, 7))}월 ${Number(iso.slice(8, 10))}일`;
+// 월·일 사이는 NBSP — 375px에서 "3월 / 31일"로 끊겼다
+const md = (iso: string) => `${Number(iso.slice(5, 7))}월 ${Number(iso.slice(8, 10))}일`;
 
 export async function generateMetadata({ params }: { params: Promise<{ region: string }> }): Promise<Metadata> {
   const { region } = await params;
@@ -120,24 +121,25 @@ export default async function RegionGuidePage({ params }: { params: Promise<{ re
               <p key={p}>{p}</p>
             ))}
           </div>
-          <dl className="grid grid-cols-2 gap-3 mt-6 text-sm">
-            <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
-              <dt className="text-gray-500 mb-1">출발 공항</dt>
-              <dd className="font-bold text-gray-800">{groups.map((x) => x.label.replace(" 출발", "")).join(" · ")}</dd>
-            </div>
-            <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
-              <dt className="text-gray-500 mb-1">판매 중인 출발일</dt>
-              <dd className="font-bold text-gray-800">{dates.length ? `${md(dates[0])} ~ ${md(dates[dates.length - 1])}` : "문의"}</dd>
-            </div>
-            <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
-              <dt className="text-gray-500 mb-1">상품</dt>
-              <dd className="font-bold text-gray-800">{rows.length}개</dd>
-            </div>
-            <div className="bg-gray-50 rounded-xl p-4 border border-gray-100">
-              <dt className="text-gray-500 mb-1">1인 요금</dt>
-              <dd className="font-bold text-red-600">{low ? `${low.toLocaleString()}원부터` : "문의"}</dd>
-            </div>
-          </dl>
+          {/* 요약 네 칸은 눌리는 것처럼 보여 배달못한클릭이 잡혔다(/guide/hainan 2회, 2026-10-22) — 누르면 상품 목록으로 내려간다 */}
+          <ul className="grid grid-cols-2 gap-3 mt-6 text-sm">
+            {[
+              { label: "출발 공항", value: groups.map((x) => x.label.replace(" 출발", "")).join(" · "), price: false },
+              { label: "판매 중인 출발일", value: dates.length ? `${md(dates[0])} ~ ${md(dates[dates.length - 1])}` : "문의", price: false },
+              { label: "상품", value: `${rows.length}개`, price: false },
+              { label: "1인 요금", value: low ? `${low.toLocaleString()}원부터` : "문의", price: true },
+            ].map((s) => (
+              <li key={s.label}>
+                <a href="#tour-list" className="block h-full bg-gray-50 hover:bg-emerald-50 rounded-xl p-4 border border-gray-100 transition-colors">
+                  <span className="flex items-center justify-between text-gray-500 mb-1">
+                    {s.label}
+                    <IconChevron dir="down" className="w-4 h-4 text-gray-400" />
+                  </span>
+                  <span className={`block font-bold ${s.price ? "text-red-600" : "text-gray-800"}`}>{s.value}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
         </section>
 
         {regionCourses.length > 0 && (
@@ -161,8 +163,8 @@ export default async function RegionGuidePage({ params }: { params: Promise<{ re
           </section>
         )}
 
-        {groups.map((grp) => (
-          <section key={grp.label} className="mb-14">
+        {groups.map((grp, i) => (
+          <section key={grp.label} id={i === 0 ? "tour-list" : undefined} className="mb-14 scroll-mt-20">
             <h2 className="text-xl font-black text-gray-800 mb-6 pb-2 border-b-2 border-emerald-500 inline-block">
               {grp.label} {g.name} 골프여행
             </h2>
