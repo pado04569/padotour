@@ -64624,6 +64624,535 @@
     ]
   },
   {
+    "id": "china-shenzhen-fenghuangshan-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "심천",
+    "title": "[인천출발] 중국 심천 골프여행 봉황산CC 3박5일 54홀 골프장 안 호텔 캐디피·클럽중식 포함 파라타항공 1,249,000원부터",
+    "subtitle": "파라타항공 인천-심천 직항 · 봉황산CC(둥관) 27홀 산악 코스 54홀 · 골프장 단지 안 봉황산 호텔 · 그린피·캐디피·카트비·클럽중식 포함 · 11~3월 월·화 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 × 3회)",
+    "minPeople": "2인부터 (4인 기준 요금 — 인원에 따라 예약 때 확인)",
+    "period": "2026년 11월 ~ 2027년 3월 매주 월·화 출발 (구정 연휴 별도 문의)",
+    "hotel": "봉황산 호텔 (골프장 단지 안, 4성급) 또는 동급 (2인 1실)",
+    "hotelDesc": "봉황산CC 단지 안에 있는 4성급 호텔로, 아침을 먹고 바로 골프장으로 나갈 수 있습니다. 라운드 뒤 연습장을 무료로 쓸 수 있고 한국어 상주 직원이 일정을 챙깁니다.",
+    "golfCourse": "봉황산CC (27홀 산악형 코스)",
+    "golfCourseDesc": "심천에서 가까운 둥관시에 2006년 문을 연 27홀 산악형 골프장입니다. 봉황산 능선을 따라 고저차 있는 페어웨이와 호수, 벙커가 이어져 홀마다 공략이 다릅니다. 그린피·캐디피·카트비가 포함되어 현지에서는 캐디팁(18홀 1인 150위안 · 27홀 250위안)만 냅니다.",
+    "productSummary": "파라타항공 밤 비행기로 심천에 내려 골프장 단지 안 봉황산 호텔에 3박 묵으며 봉황산CC에서 54홀을 치는 상품입니다. 그린피·캐디피·카트비와 조식·클럽 중식(맥주·음료 무제한)이 포함되고, 매일 밤 간단한 야식과 연습장 이용도 됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 심천",
+        "desc": "인천국제공항 파라타항공 WE853 23:10 출발 → 심천 바오안 국제공항 02:00 도착(다음 날) → 가이드 미팅 후 봉황산 호텔 이동 → 체크인 후 휴식 [호텔: 봉황산 호텔(골프장 단지 안) 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "봉황산CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 봉황산CC 18홀 라운드(클럽 중식) → 자유 시간 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "봉황산CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 봉황산CC 18홀 라운드(클럽 중식) → 자유 시간 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "봉황산CC 18홀 → 공항",
+        "desc": "호텔 조식 후 체크아웃 → 봉황산CC 18홀 라운드(클럽 중식) → 저녁 후 공항 이동 [조식 호텔식 / 중식 클럽식 / 석식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "심천 → 인천",
+        "desc": "심천 바오안 국제공항 파라타항공 WE854 03:30 출발 → 인천국제공항 07:40 도착 후 해산"
+      }
+    ],
+    "highlights": [
+      "파라타항공 인천-심천 직항",
+      "봉황산CC 27홀 산악 코스 54홀",
+      "골프장 단지 안 호텔 · 이동 부담 없음",
+      "그린피·캐디피·카트비 · 클럽중식(맥주 무제한) 포함",
+      "11~3월 월·화 출발 · 1,249,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (파라타항공, 유류할증료·세금 포함)",
+      "봉황산 호텔 또는 동급 3박 (2인 1실)",
+      "조식 · 클럽 중식 (맥주·음료 무제한)",
+      "그린피·캐디피·카트비 (18홀 × 3회)",
+      "전용 차량 · 한국어 가이드",
+      "야식(21~23시) · 골프 연습장 무료 이용"
+    ],
+    "excludes": [
+      "미팅·샌딩비 (1인 400위안)",
+      "캐디팁 (18홀 1인 150위안 · 27홀 250위안)",
+      "석식",
+      "싱글카트 18홀 120위안 · 1인 1캐디 캐디팁 18홀 200위안",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "출발일별 요금입니다. 기간마다 요금이 달라지니 출발일을 골라 확인해 주세요. 예약 때 확정 요금을 안내합니다.",
+      "구정 연휴(2월 초) 출발은 따로 문의해 주세요.",
+      "비가 와서 미리 취소하거나 라운드 중간에 끝나도 그린피는 환불되지 않습니다. 골프장이 우천으로 라운드 불가를 공지하면 그린피 일부를 환불받을 수 있습니다.",
+      "여권은 6개월 이상 남아 있어야 합니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-09",
+        "price": 1249000
+      },
+      {
+        "date": "2026-11-10",
+        "price": 1249000
+      },
+      {
+        "date": "2026-11-16",
+        "price": 1279000
+      },
+      {
+        "date": "2026-11-17",
+        "price": 1279000
+      },
+      {
+        "date": "2026-11-23",
+        "price": 1329000
+      },
+      {
+        "date": "2026-11-24",
+        "price": 1329000
+      },
+      {
+        "date": "2026-11-30",
+        "price": 1329000
+      },
+      {
+        "date": "2026-12-01",
+        "price": 1329000
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1349000
+      },
+      {
+        "date": "2026-12-08",
+        "price": 1349000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1349000
+      },
+      {
+        "date": "2026-12-15",
+        "price": 1349000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1399000
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1399000
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1399000
+      },
+      {
+        "date": "2026-12-29",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1399000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1399000
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1399000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1399000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1399000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1399000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1399000
+      },
+      {
+        "date": "2027-03-01",
+        "price": 1329000
+      },
+      {
+        "date": "2027-03-02",
+        "price": 1329000
+      },
+      {
+        "date": "2027-03-08",
+        "price": 1329000
+      },
+      {
+        "date": "2027-03-09",
+        "price": 1329000
+      },
+      {
+        "date": "2027-03-15",
+        "price": 1329000
+      },
+      {
+        "date": "2027-03-16",
+        "price": 1329000
+      },
+      {
+        "date": "2027-03-22",
+        "price": 1329000
+      },
+      {
+        "date": "2027-03-23",
+        "price": 1329000
+      }
+    ],
+    "price": "1,249,000원~",
+    "image": "/images/shenzhen-fenghuangshan-incheon/course-1.jpg",
+    "images": [
+      "/images/shenzhen-fenghuangshan-incheon/course-1.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-1.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-2.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-2.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-3.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/shenzhen-fenghuangshan-incheon/hotel-1.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-2.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-3.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-4.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-5.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-6.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-7.jpg"
+    ],
+    "courseImages": [
+      "/images/shenzhen-fenghuangshan-incheon/course-1.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-2.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-3.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-4.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-5.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-6.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-7.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-8.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-22",
+    "seoIntro": "인천 출발 중국 심천 골프여행 3박5일 상품으로, 파라타항공 직항으로 가서 둥관 봉황산CC 단지 안 호텔에 묵으며 54홀을 치고 캐디피·클럽중식까지 포함된 골프패키지입니다.",
+    "seoKeywords": [
+      "심천골프",
+      "심천골프여행",
+      "봉황산CC",
+      "둥관골프",
+      "중국골프여행",
+      "인천출발"
+    ]
+  },
+  {
+    "id": "china-shenzhen-fenghuangshan-incheon-4n6d",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "심천",
+    "title": "[인천출발] 중국 심천 골프여행 봉황산CC 4박6일 72홀 골프장 안 호텔 캐디피·클럽중식 포함 파라타항공 1,469,000원부터",
+    "subtitle": "파라타항공 인천-심천 직항 · 봉황산CC(둥관) 27홀 산악 코스 72홀 · 골프장 단지 안 봉황산 호텔 · 그린피·캐디피·카트비·클럽중식 포함 · 11~3월 목·금 출발",
+    "nights": 4,
+    "days": 6,
+    "courses": 1,
+    "roundsIncluded": 4,
+    "holes": "72홀 (18홀 × 4회)",
+    "minPeople": "2인부터 (4인 기준 요금 — 인원에 따라 예약 때 확인)",
+    "period": "2026년 11월 ~ 2027년 3월 매주 목·금 출발 (구정 연휴 별도 문의)",
+    "hotel": "봉황산 호텔 (골프장 단지 안, 4성급) 또는 동급 (2인 1실)",
+    "hotelDesc": "봉황산CC 단지 안에 있는 4성급 호텔로, 아침을 먹고 바로 골프장으로 나갈 수 있습니다. 라운드 뒤 연습장을 무료로 쓸 수 있고 한국어 상주 직원이 일정을 챙깁니다.",
+    "golfCourse": "봉황산CC (27홀 산악형 코스)",
+    "golfCourseDesc": "심천에서 가까운 둥관시에 2006년 문을 연 27홀 산악형 골프장입니다. 봉황산 능선을 따라 고저차 있는 페어웨이와 호수, 벙커가 이어져 홀마다 공략이 다릅니다. 그린피·캐디피·카트비가 포함되어 현지에서는 캐디팁(18홀 1인 150위안 · 27홀 250위안)만 냅니다.",
+    "productSummary": "파라타항공 밤 비행기로 심천에 내려 골프장 단지 안 봉황산 호텔에 4박 묵으며 봉황산CC에서 72홀을 치는 상품입니다. 그린피·캐디피·카트비와 조식·클럽 중식(맥주·음료 무제한)이 포함되고, 매일 밤 간단한 야식과 연습장 이용도 됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 심천",
+        "desc": "인천국제공항 파라타항공 WE853 23:10 출발 → 심천 바오안 국제공항 02:00 도착(다음 날) → 가이드 미팅 후 봉황산 호텔 이동 → 체크인 후 휴식 [호텔: 봉황산 호텔(골프장 단지 안) 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "봉황산CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 봉황산CC 18홀 라운드(클럽 중식) → 자유 시간 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "봉황산CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 봉황산CC 18홀 라운드(클럽 중식) → 자유 시간 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "봉황산CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 봉황산CC 18홀 라운드(클럽 중식) → 자유 시간 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "봉황산CC 18홀 → 공항",
+        "desc": "호텔 조식 후 체크아웃 → 봉황산CC 18홀 라운드(클럽 중식) → 저녁 후 공항 이동 [조식 호텔식 / 중식 클럽식 / 석식 불포함]"
+      },
+      {
+        "day": "6일차",
+        "label": "심천 → 인천",
+        "desc": "심천 바오안 국제공항 파라타항공 WE854 03:30 출발 → 인천국제공항 07:40 도착 후 해산"
+      }
+    ],
+    "highlights": [
+      "파라타항공 인천-심천 직항",
+      "봉황산CC 27홀 산악 코스 72홀",
+      "골프장 단지 안 호텔 · 이동 부담 없음",
+      "그린피·캐디피·카트비 · 클럽중식(맥주 무제한) 포함",
+      "11~3월 목·금 출발 · 1,469,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (파라타항공, 유류할증료·세금 포함)",
+      "봉황산 호텔 또는 동급 4박 (2인 1실)",
+      "조식 · 클럽 중식 (맥주·음료 무제한)",
+      "그린피·캐디피·카트비 (18홀 × 4회)",
+      "전용 차량 · 한국어 가이드",
+      "야식(21~23시) · 골프 연습장 무료 이용"
+    ],
+    "excludes": [
+      "미팅·샌딩비 (1인 400위안)",
+      "캐디팁 (18홀 1인 150위안 · 27홀 250위안)",
+      "석식",
+      "싱글카트 18홀 120위안 · 1인 1캐디 캐디팁 18홀 200위안",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "출발일별 요금입니다. 기간마다 요금이 달라지니 출발일을 골라 확인해 주세요. 예약 때 확정 요금을 안내합니다.",
+      "구정 연휴(2월 초) 출발은 따로 문의해 주세요.",
+      "비가 와서 미리 취소하거나 라운드 중간에 끝나도 그린피는 환불되지 않습니다. 골프장이 우천으로 라운드 불가를 공지하면 그린피 일부를 환불받을 수 있습니다.",
+      "여권은 6개월 이상 남아 있어야 합니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-12",
+        "price": 1469000
+      },
+      {
+        "date": "2026-11-13",
+        "price": 1469000
+      },
+      {
+        "date": "2026-11-19",
+        "price": 1489000
+      },
+      {
+        "date": "2026-11-20",
+        "price": 1489000
+      },
+      {
+        "date": "2026-11-26",
+        "price": 1489000
+      },
+      {
+        "date": "2026-11-27",
+        "price": 1489000
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1559000
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1559000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1559000
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1559000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1639000
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1639000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1649000
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1649000
+      },
+      {
+        "date": "2026-12-31",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-01",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1639000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1639000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1639000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1639000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1639000
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1639000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1639000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1639000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1639000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1639000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1639000
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1639000
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1520000
+      },
+      {
+        "date": "2027-03-05",
+        "price": 1520000
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1520000
+      },
+      {
+        "date": "2027-03-12",
+        "price": 1520000
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1520000
+      },
+      {
+        "date": "2027-03-19",
+        "price": 1520000
+      }
+    ],
+    "price": "1,469,000원~",
+    "image": "/images/shenzhen-fenghuangshan-incheon/course-1.jpg",
+    "images": [
+      "/images/shenzhen-fenghuangshan-incheon/course-1.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-1.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-2.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-2.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-3.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/shenzhen-fenghuangshan-incheon/hotel-1.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-2.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-3.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-4.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-5.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-6.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/hotel-7.jpg"
+    ],
+    "courseImages": [
+      "/images/shenzhen-fenghuangshan-incheon/course-1.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-2.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-3.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-4.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-5.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-6.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-7.jpg",
+      "/images/shenzhen-fenghuangshan-incheon/course-8.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-22",
+    "seoIntro": "인천 출발 중국 심천 골프여행 4박6일 상품으로, 파라타항공 직항으로 가서 둥관 봉황산CC 단지 안 호텔에 묵으며 72홀을 치고 캐디피·클럽중식까지 포함된 골프패키지입니다.",
+    "seoKeywords": [
+      "심천골프",
+      "심천골프여행",
+      "봉황산CC",
+      "둥관골프",
+      "중국골프여행",
+      "인천출발"
+    ]
+  },
+  {
     "country": "일본",
     "countryCode": "japan",
     "region": "후쿠오카",
