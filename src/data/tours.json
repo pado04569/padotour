@@ -29981,7 +29981,7 @@
     "departurePrices": [
       {
         "date": "2026-11-01",
-        "price": 1699000,
+        "price": 1499000,
         "nights": 5,
         "days": 7
       },
@@ -30017,7 +30017,7 @@
       },
       {
         "date": "2026-11-08",
-        "price": 1699000,
+        "price": 1499000,
         "nights": 5,
         "days": 7
       },
@@ -30059,7 +30059,7 @@
       },
       {
         "date": "2026-11-15",
-        "price": 1699000,
+        "price": 1499000,
         "nights": 5,
         "days": 7
       },
@@ -30165,7 +30165,7 @@
     ],
     "badge": "인천출발 신규",
     "departure": "incheon",
-    "priceUpdatedDate": "2026-10-02",
+    "priceUpdatedDate": "2026-10-23",
     "seoIntro": "인천 출발 사이판 11월 골프여행 상품으로, 코랄오션CC에서 54홀·72홀·90홀을 라운드하고 PIC리조트 디럭스룸에 머무는 골프패키지입니다.",
     "seoKeywords": [
       "사이판골프",
