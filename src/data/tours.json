@@ -29970,12 +29970,28 @@
         "days": 6
       },
       {
-        "label": "6박7일",
+        "label": "6박7일 11/1·8·15출발",
+        "holes": 90,
+        "pattern": "90홀",
+        "price": 1499000,
+        "nights": 6,
+        "days": 7,
+        "dates": [
+          "2026-11-01",
+          "2026-11-08",
+          "2026-11-15"
+        ]
+      },
+      {
+        "label": "6박7일 11/22출발",
         "holes": 90,
         "pattern": "90홀",
         "price": 1699000,
-        "nights": 5,
-        "days": 7
+        "nights": 6,
+        "days": 7,
+        "dates": [
+          "2026-11-22"
+        ]
       }
     ],
     "departurePrices": [
