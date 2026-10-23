@@ -1,5 +1,344 @@
 [
   {
+    "id": "malaysia-kualalumpur-mines-golftel-incheon",
+    "country": "말레이시아",
+    "countryCode": "malaysia",
+    "region": "쿠알라룸푸르",
+    "title": "[인천출발] 말레이시아 쿠알라룸푸르 골프여행 마인즈CC 골프텔 5박7일 90홀 바틱항공 2,090,000원부터",
+    "subtitle": "바틱항공 인천-쿠알라룸푸르 직항 · 마인즈CC 18홀 × 5회 (총 90홀) · 마인즈 비치 리조트 4성급 · 그린피·캐디피·카트비 포함 · 2027년 1~2월 8회 출발",
+    "nights": 5,
+    "days": 7,
+    "courses": 1,
+    "roundsIncluded": 5,
+    "holes": "90홀 (하루 18홀 × 5회)",
+    "minPeople": "2인부터 출발",
+    "period": "2027년 1월 8일 ~ 2월 25일 (지정일 8회 출발)",
+    "hotel": "필리아 마인즈 비치 리조트 (4성급, 2인 1실)",
+    "hotelDesc": "마인즈CC 바로 옆 호숫가 리조트로, 골프장까지 카트로 2분이면 갑니다. 쿠알라룸푸르 공항에서 차로 약 45분 거리이고, 걸어서 10분 안에 마인즈몰과 야시장이 있어 저녁 식사를 자유롭게 할 수 있습니다. 체크아웃은 12시이며 18시 레이트 체크아웃은 RM120(약 4만 2천원)입니다. 싱글룸은 1박 1인 50,000원이 추가됩니다.",
+    "golfCourse": "마인즈CC (The Mines Resort & Golf Club, 18홀)",
+    "golfCourseDesc": "쿠알라룸푸르 도심 남쪽 스리 켐방안에 있는 18홀 파71 코스로, 로버트 트렌트 존스 주니어가 옛 주석 광산 터의 호수를 살려 설계했습니다. 물을 끼고 도는 홀이 많아 공략이 재미있습니다. 2인 1캐디·2인 1카트가 원칙이며 캐디피·카트비는 요금에 들어 있습니다.",
+    "productSummary": "바틱항공 직항으로 쿠알라룸푸르에 가서 마인즈CC 옆 리조트에 5박 묵으며 하루 18홀씩 5번, 총 90홀을 치는 골프텔 상품입니다. 그린피·캐디피·카트비가 모두 포함되고, 골프장에 한국인 직원이 상주해 카톡으로 도와드립니다. 2인부터 출발하는 노쇼핑 상품입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 쿠알라룸푸르",
+        "desc": "인천국제공항 바틱항공 OD821 06:50 출발 → 쿠알라룸푸르 국제공항 12:30 도착 → 직원 미팅 후 리조트 이동(약 45분) → 체크인 후 휴식 [호텔: 필리아 마인즈 비치 리조트]"
+      },
+      {
+        "day": "2일차",
+        "label": "마인즈CC 18홀",
+        "desc": "리조트 조식 후 카트로 골프장 이동(약 2분) → 마인즈CC 18홀 라운드 → 오후는 추가 라운드(사전 예약) 또는 자유 일정 → 리조트 휴식 [조식 리조트식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "마인즈CC 18홀",
+        "desc": "리조트 조식 후 카트로 골프장 이동(약 2분) → 마인즈CC 18홀 라운드 → 오후는 추가 라운드(사전 예약) 또는 자유 일정 → 리조트 휴식 [조식 리조트식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "마인즈CC 18홀",
+        "desc": "리조트 조식 후 카트로 골프장 이동(약 2분) → 마인즈CC 18홀 라운드 → 오후는 추가 라운드(사전 예약) 또는 자유 일정 → 리조트 휴식 [조식 리조트식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "마인즈CC 18홀",
+        "desc": "리조트 조식 후 카트로 골프장 이동(약 2분) → 마인즈CC 18홀 라운드 → 오후는 추가 라운드(사전 예약) 또는 자유 일정 → 리조트 휴식 [조식 리조트식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "6일차",
+        "label": "마인즈CC 18홀 → 공항",
+        "desc": "리조트 조식 후 체크아웃(짐 보관, 클럽하우스 샤워) → 마인즈CC 18홀 라운드 → 석식 후 공항 이동 → 쿠알라룸푸르 국제공항 OD820 22:00 출발 [조식 리조트식]"
+      },
+      {
+        "day": "7일차",
+        "label": "인천 도착",
+        "desc": "인천국제공항 05:50 도착 후 해산"
+      }
+    ],
+    "highlights": [
+      "바틱항공 인천-쿠알라룸푸르 직항",
+      "마인즈CC 18홀 × 5회 총 90홀",
+      "골프장 옆 4성급 리조트 · 카트로 2분",
+      "그린피·캐디피·카트비 포함 · 한국인 직원 상주",
+      "2인부터 출발 · 노쇼핑 · 2,090,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (바틱항공, 유류할증료·세금 포함)",
+      "필리아 마인즈 비치 리조트 5박 (2인 1실)",
+      "조식",
+      "마인즈CC 18홀 × 5회 그린피 + 캐디피(2인 1캐디) + 카트비(2인 1카트)",
+      "위탁 수하물 20kg (일반 짐 1개 + 골프백 1개)"
+    ],
+    "excludes": [
+      "클럽 중식·석식 (1식 1인 20~30링깃)",
+      "공항 미팅·샌딩 차량비 (1인 4인 이상 $60 / 3인 $70 / 2인 $80)",
+      "캐디팁 (18홀 1인 50링깃)",
+      "싱글룸 1박 1인 50,000원",
+      "여행자보험 · 개인경비"
+    ],
+    "cancelPolicy": [
+      "출발일별 요금: 1/8·1/14·2/18·2/25 2,090,000원 / 1/21·1/28·2/11 2,130,000원 / 2/5 2,290,000원.",
+      "그룹 항공권이라 예약금 1인 100,000원을 넣으셔야 예약이 확정됩니다. 출발 49일 전부터 취소하면 예약금이 환불되지 않고, 출발이 가까울수록 항공 취소 수수료가 커집니다(예약 때 안내).",
+      "홀수 인원이면 1인 1캐디·1인 1카트로 진행해 18홀 1인 50,000원(9홀 25,000원)이 추가됩니다(사전 예약).",
+      "추가 라운드(사전 예약): 외부 18홀 팜가든CC 1인 30,000원 · 부킷자릴CC 1인 20,000원 추가 / 9홀 추가 마인즈·팜가든 주중 80,000원·주말 130,000원, 부킷자릴 주중 70,000원·주말 100,000원.",
+      "비가 와서 라운드를 하지 않아도 환불되지 않습니다. 말레이시아 입국 전 디지털 입국카드(MDAC)를 꼭 등록하셔야 합니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-08",
+        "price": 2090000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 2090000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 2130000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 2130000
+      },
+      {
+        "date": "2027-02-05",
+        "price": 2290000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 2130000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 2090000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 2090000
+      }
+    ],
+    "price": "2,090,000원~",
+    "image": "/images/kualalumpur-mines-incheon/course-1.jpg",
+    "images": [
+      "/images/kualalumpur-mines-incheon/course-1.jpg",
+      "/images/kualalumpur-mines-incheon/hotel-1.jpg",
+      "/images/kualalumpur-mines-incheon/course-2.jpg",
+      "/images/kualalumpur-mines-incheon/hotel-2.jpg",
+      "/images/kualalumpur-mines-incheon/course-3.jpg",
+      "/images/kualalumpur-mines-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/kualalumpur-mines-incheon/hotel-1.jpg",
+      "/images/kualalumpur-mines-incheon/hotel-2.jpg",
+      "/images/kualalumpur-mines-incheon/hotel-3.jpg",
+      "/images/kualalumpur-mines-incheon/hotel-4.jpg",
+      "/images/kualalumpur-mines-incheon/hotel-5.jpg"
+    ],
+    "courseImages": [
+      "/images/kualalumpur-mines-incheon/course-1.jpg",
+      "/images/kualalumpur-mines-incheon/course-2.jpg",
+      "/images/kualalumpur-mines-incheon/course-3.jpg",
+      "/images/kualalumpur-mines-incheon/course-4.jpg",
+      "/images/kualalumpur-mines-incheon/course-5.jpg",
+      "/images/kualalumpur-mines-incheon/course-6.jpg",
+      "/images/kualalumpur-mines-incheon/course-7.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-23",
+    "seoIntro": "인천 출발 말레이시아 쿠알라룸푸르 골프여행 5박7일 상품으로, 바틱항공 직항으로 가서 마인즈CC 옆 4성급 리조트에 묵으며 18홀씩 5번 총 90홀을 치는 골프텔 패키지입니다.",
+    "seoKeywords": [
+      "쿠알라룸푸르골프",
+      "쿠알라룸푸르골프여행",
+      "마인즈CC",
+      "말레이시아골프",
+      "골프텔",
+      "인천출발"
+    ]
+  },
+  {
+    "id": "china-jinan-guoke-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "제남",
+    "title": "[인천출발] 중국 제남 골프여행 국과CC 3박4일 54홀 아카디아 온천호텔 산동항공 11월 789,000원부터",
+    "subtitle": "산동항공 인천-제남 (저녁 출발) · 국과CC 54홀 (0+18+18+18) · 골프장 2분 아카디아 온천호텔 · 조식·석식 포함 · 노캐디 2인 플레이 · 11월 지정 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "54홀 (0+18+18+18)",
+    "minPeople": "2인부터 (항공 4인 그룹 운임 기준, 인원이 적으면 운임 인상 가능)",
+    "period": "2026년 11월 지정 출발 (18일)",
+    "hotel": "아카디아 온천호텔 (골프텔, 2인 1실) 또는 동급",
+    "hotelDesc": "국과CC까지 차로 2분 거리의 온천호텔입니다. 1층 로비에 웰컴 드링크와 마트가 있어 저녁 비행기로 늦게 도착해도 간단한 간식을 살 수 있고, 마지막 날 오후 4시까지 레이트 체크아웃이 됩니다. 석식은 호텔식·양꼬치·한식 중에서 고를 수 있습니다. 싱글룸은 1박 1인 40,000원(연휴 50,000원)이 추가됩니다.",
+    "golfCourse": "국과CC (18홀)",
+    "golfCourseDesc": "정식 이름은 산둥 국과 국제골프클럽(山东国科国际高尔夫俱乐部)으로, 제남 서북쪽 근교 더저우시 치허현에 있는 18홀 골프장입니다. 전체적으로 평탄한 지형에 조성되어 있습니다. 캐디 없이 전동카트를 타고 2인·5인 플레이가 가능해 부부·친구 두 분 여행에 잘 맞습니다. 캐디를 원하시면 미리 말씀해 주세요(캐디팁 18홀 1인 100위안).",
+    "productSummary": "산동항공 저녁 비행기로 제남에 가서 골프장 바로 옆 아카디아 온천호텔에 3박 묵으며 국과CC에서 18홀씩 3번 치는 상품입니다. 조식·석식과 그린피·전동카트가 포함되고, 캐디 없이 2인 플레이가 가능하며 마지막 날 오후 4시까지 레이트 체크아웃이 됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 제남",
+        "desc": "인천국제공항 산동항공 저녁 출발 → 제남 국제공항 도착(약 1시간 40분 비행) → 직원 미팅 후 호텔 이동(약 25분) → 체크인 후 휴식 [호텔: 아카디아 온천호텔 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "국과CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 2분) → 국과CC 18홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 호텔식]"
+      },
+      {
+        "day": "3일차",
+        "label": "국과CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 2분) → 국과CC 18홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 호텔식]"
+      },
+      {
+        "day": "4일차",
+        "label": "국과CC 18홀 → 인천",
+        "desc": "호텔 조식 후 골프장 이동(약 2분) → 국과CC 18홀 라운드 → 공항 이동(약 25분) → 제남 국제공항 산동항공 출발 → 인천국제공항 도착 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "산동항공 인천-제남 직항 (저녁 출발)",
+      "국과CC 54홀 · 노캐디 2인 플레이 가능",
+      "골프장 2분 아카디아 온천호텔 · 오후 4시 체크아웃",
+      "조식·석식 포함 (호텔식·양꼬치·한식 선택)",
+      "11월 지정 출발 · 789,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (산동항공, 유류할증료·세금 포함)",
+      "아카디아 온천호텔 3박 (2인 1실) 또는 동급",
+      "조식·석식",
+      "전 일정 그린피 + 전동카트"
+    ],
+    "excludes": [
+      "중식 (국과CC 클럽 중식 1인 80위안)",
+      "미팅·샌딩비 (인원 상관없이 1인 300위안)",
+      "캐디를 원하실 경우 캐디팁 (18홀 1인 100위안)",
+      "싱글룸 1박 1인 40,000원 (연휴 50,000원) · 싱글카트",
+      "여행자보험 · 개인경비"
+    ],
+    "cancelPolicy": [
+      "11월 출발일별 요금: 17·22·24·29·30일 789,000원 / 11·14·18·21·25·28일 799,000원 / 5·12·13·19·20·26·27일 809,000원.",
+      "항공은 4인 그룹(GV4) 운임 기준이라 모객 인원이 안 되면 운임이 오를 수 있습니다. 항공편명·시간은 예약 때 확정해 안내합니다.",
+      "현지 9홀 추가는 1인 주중 300위안, 주말 350위안입니다. 고운호CC 외부 18홀 라운드는 1인 50,000원 추가(그린피·차량 포함)입니다.",
+      "라운드를 하지 않아도 현지에서 낸 비용은 환불되지 않습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-05",
+        "price": 809000
+      },
+      {
+        "date": "2026-11-11",
+        "price": 799000
+      },
+      {
+        "date": "2026-11-12",
+        "price": 809000
+      },
+      {
+        "date": "2026-11-13",
+        "price": 809000
+      },
+      {
+        "date": "2026-11-14",
+        "price": 799000
+      },
+      {
+        "date": "2026-11-17",
+        "price": 789000
+      },
+      {
+        "date": "2026-11-18",
+        "price": 799000
+      },
+      {
+        "date": "2026-11-19",
+        "price": 809000
+      },
+      {
+        "date": "2026-11-20",
+        "price": 809000
+      },
+      {
+        "date": "2026-11-21",
+        "price": 799000
+      },
+      {
+        "date": "2026-11-22",
+        "price": 789000
+      },
+      {
+        "date": "2026-11-24",
+        "price": 789000
+      },
+      {
+        "date": "2026-11-25",
+        "price": 799000
+      },
+      {
+        "date": "2026-11-26",
+        "price": 809000
+      },
+      {
+        "date": "2026-11-27",
+        "price": 809000
+      },
+      {
+        "date": "2026-11-28",
+        "price": 799000
+      },
+      {
+        "date": "2026-11-29",
+        "price": 789000
+      },
+      {
+        "date": "2026-11-30",
+        "price": 789000
+      }
+    ],
+    "price": "789,000원~",
+    "image": "/images/jinan-guoke-incheon/course-1.jpg",
+    "images": [
+      "/images/jinan-guoke-incheon/course-1.jpg",
+      "/images/jinan-guoke-incheon/hotel-1.jpg",
+      "/images/jinan-guoke-incheon/course-2.jpg",
+      "/images/jinan-guoke-incheon/hotel-2.jpg",
+      "/images/jinan-guoke-incheon/course-3.jpg",
+      "/images/jinan-guoke-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/jinan-guoke-incheon/hotel-1.jpg",
+      "/images/jinan-guoke-incheon/hotel-2.jpg",
+      "/images/jinan-guoke-incheon/hotel-3.jpg",
+      "/images/jinan-guoke-incheon/hotel-4.jpg",
+      "/images/jinan-guoke-incheon/hotel-5.jpg",
+      "/images/jinan-guoke-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/jinan-guoke-incheon/course-1.jpg",
+      "/images/jinan-guoke-incheon/course-2.jpg",
+      "/images/jinan-guoke-incheon/course-3.jpg",
+      "/images/jinan-guoke-incheon/course-4.jpg",
+      "/images/jinan-guoke-incheon/course-5.jpg",
+      "/images/jinan-guoke-incheon/course-6.jpg",
+      "/images/jinan-guoke-incheon/course-7.jpg",
+      "/images/jinan-guoke-incheon/course-8.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-23",
+    "seoIntro": "인천 출발 중국 제남 골프여행 3박4일 상품으로, 산동항공 직항으로 가서 골프장 2분 거리 아카디아 온천호텔에 묵으며 국과CC 54홀을 노캐디로 편하게 치는 골프패키지입니다.",
+    "seoKeywords": [
+      "제남골프",
+      "제남골프여행",
+      "국과CC",
+      "중국골프여행",
+      "노캐디골프",
+      "인천출발"
+    ]
+  },
+  {
     "id": "china-xiamen-landin-3color-3n4d",
     "country": "중국",
     "countryCode": "china",

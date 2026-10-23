@@ -7217,5 +7217,51 @@
     "relatedTourIds": [
       "vietnam-hue-goldensands-unlimited-incheon"
     ]
+  },
+  {
+    "slug": "the-mines-resort-golf-club",
+    "name": "마인즈CC",
+    "nameEn": "The Mines Resort & Golf Club",
+    "region": "쿠알라룸푸르",
+    "country": "말레이시아",
+    "countryCode": "malaysia",
+    "aliases": [
+      "마인즈",
+      "Mines"
+    ],
+    "summary": "쿠알라룸푸르 남쪽 스리 켐방안, 로버트 트렌트 존스 주니어 설계 18홀 파71",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파71"
+      },
+      {
+        "label": "설계",
+        "value": "로버트 트렌트 존스 주니어"
+      },
+      {
+        "label": "소재지",
+        "value": "말레이시아 셀랑고르주 스리 켐방안 (쿠알라룸푸르 도심 남쪽 약 15km)"
+      }
+    ],
+    "description": "마인즈CC(The Mines Resort & Golf Club)는 쿠알라룸푸르 도심에서 남쪽으로 약 15km 떨어진 셀랑고르주 스리 켐방안에 있는 18홀 파71 골프장으로, 로버트 트렌트 존스 주니어가 설계했습니다. 옛 주석 광산 자리에 생긴 호수를 끼고 홀이 이어져 물을 넘기는 샷이 많습니다.\n\n여행의파도 쿠알라룸푸르 골프여행에서는 골프장 옆 마인즈 비치 리조트에 묵으며 카트로 2분 만에 코스로 나갑니다.",
+    "images": [
+      "/images/kualalumpur-mines-incheon/course-1.jpg",
+      "/images/kualalumpur-mines-incheon/course-2.jpg",
+      "/images/kualalumpur-mines-incheon/course-3.jpg",
+      "/images/kualalumpur-mines-incheon/course-4.jpg",
+      "/images/kualalumpur-mines-incheon/course-5.jpg",
+      "/images/kualalumpur-mines-incheon/course-6.jpg",
+      "/images/kualalumpur-mines-incheon/course-7.jpg"
+    ],
+    "hashtags": [
+      "마인즈CC",
+      "쿠알라룸푸르골프장",
+      "쿠알라룸푸르골프",
+      "말레이시아골프여행"
+    ],
+    "relatedTourIds": [
+      "malaysia-kualalumpur-mines-golftel-incheon"
+    ]
   }
 ]
