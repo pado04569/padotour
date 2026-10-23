@@ -66741,6 +66741,134 @@
     ]
   },
   {
+    "id": "vietnam-hanoi-yenbai-unlimited-incheon",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "region": "하노이",
+    "title": "[인천출발] 베트남 하노이 골프여행 옌바이 스타 무제한 3박5일 매일 36홀 전 일정 식사 파라타항공 12월 특가 950,000원",
+    "subtitle": "파라타항공 인천-하노이 직항 · 옌바이 스타 골프 무제한(하루 최대 36홀) · 2025년 새로 문을 연 르블랑 헤리티지 호텔 · 전 일정 식사 포함 · 12월 9·10·11일 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "무제한 (하루 최대 36홀 × 3일)",
+    "minPeople": "4인 기준 (2~3인은 미팅·샌딩 단독 차량 합계 $240)",
+    "period": "2026년 12월 9·10·11일 출발 한정",
+    "hotel": "르블랑 헤리티지 호텔 (옌바이, 2인 1실)",
+    "hotelDesc": "2025년 옌바이에 새로 문을 연 르블랑 헤리티지 호텔로, 객실이 넓고 깔끔하며 실내 수영장이 있습니다. 호텔에서 골프장까지 셔틀로 이동하고, 한국어가 가능한 직원이 상주합니다. 싱글룸은 40,000원이 추가됩니다.",
+    "golfCourse": "옌바이 스타 골프 & 리조트 (27홀, 무제한)",
+    "golfCourseDesc": "하노이 북서쪽 옌바이성 산자락에 2024년 문을 연 골프장으로, 18홀로 시작해 27홀로 넓혔습니다. 산과 호수가 어우러진 코스에서 하루 최대 36홀까지 무제한으로 라운드합니다. 겨울에도 한국 가을 날씨(15~25도)라 라운드하기 좋습니다.",
+    "productSummary": "파라타항공 직항으로 하노이에 내려 옌바이의 새 호텔 르블랑 헤리티지에 3박 묵으며, 옌바이 스타 골프에서 매일 최대 36홀을 무제한으로 치는 12월 특가 상품입니다. 조식·클럽 중식·석식까지 전 일정 식사가 포함됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하노이 → 옌바이",
+        "desc": "인천국제공항 파라타항공 WE271 19:15 출발 → 하노이 노이바이 국제공항 22:20 도착 → 기사 미팅 후 옌바이 호텔 이동 → 르블랑 헤리티지 호텔 체크인 후 휴식"
+      },
+      {
+        "day": "2일차",
+        "label": "옌바이 스타 36홀",
+        "desc": "호텔 조식 후 셔틀로 골프장 이동 → 옌바이 스타 골프 36홀 라운드 → 석식(호텔식 또는 현지 맛집) 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "옌바이 스타 36홀",
+        "desc": "호텔 조식 후 셔틀로 골프장 이동 → 옌바이 스타 골프 36홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "옌바이 스타 36홀 → 공항",
+        "desc": "호텔 조식 후 체크아웃 → 옌바이 스타 골프 36홀 라운드 → 석식 후 하노이 공항 이동 → 파라타항공 WE272 23:40 출발 [조식 호텔식 / 중식 클럽식 / 석식 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "인천 도착",
+        "desc": "인천국제공항 05:50 도착 후 해산"
+      }
+    ],
+    "highlights": [
+      "파라타항공 인천-하노이 직항",
+      "옌바이 스타 골프 무제한 · 하루 최대 36홀",
+      "2025년 새로 문을 연 르블랑 헤리티지 호텔",
+      "조식·클럽 중식·석식 전 일정 포함",
+      "12월 9·10·11일 출발 · 950,000원"
+    ],
+    "includes": [
+      "왕복 항공권 (파라타항공, 위탁수하물 15kg)",
+      "르블랑 헤리티지 호텔 3박 (2인 1실)",
+      "무제한 그린피 (하루 최대 36홀)",
+      "전 일정 식사 (조식·클럽 중식·석식)",
+      "호텔-골프장 셔틀",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디피(1인 1캐디) + 카트비(2인 1카트): 18~27홀 $50 · 36홀 $60",
+      "캐디팁 18홀 1인 500,000동",
+      "공항 미팅·샌딩 1인 $60 (4인 기준, 2~3인은 합계 $240)",
+      "싱글룸 40,000원",
+      "개인경비 (마사지 90분 $30 등)"
+    ],
+    "cancelPolicy": [
+      "12월 9·10·11일(수·목·금) 출발 특가 950,000원입니다. 10월 발권 기준 실시간 항공 요금이라 바뀔 수 있어 예약 때 확정 요금을 안내합니다. 다른 날짜는 따로 문의해 주세요.",
+      "항공 시간은 파라타항공 동계 시간표 기준이며 항공사 사정으로 바뀔 수 있습니다.",
+      "인원이 홀수일 때 싱글카트 비용은 받지 않습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-09",
+        "price": 950000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 950000
+      },
+      {
+        "date": "2026-12-11",
+        "price": 950000
+      }
+    ],
+    "price": "950,000원~",
+    "image": "/images/hanoi-yenbai-unlimited-incheon/course-1.jpg",
+    "images": [
+      "/images/hanoi-yenbai-unlimited-incheon/course-1.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/hotel-1.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/course-2.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/hotel-2.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/course-3.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/hanoi-yenbai-unlimited-incheon/hotel-1.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/hotel-2.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/hotel-3.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/hotel-4.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/hotel-5.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/hanoi-yenbai-unlimited-incheon/course-1.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/course-2.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/course-3.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/course-4.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/course-5.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/course-6.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/course-7.jpg",
+      "/images/hanoi-yenbai-unlimited-incheon/course-8.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-23",
+    "seoIntro": "인천 출발 베트남 하노이 골프여행 3박5일 상품으로, 파라타항공 직항으로 가서 옌바이 르블랑 헤리티지 호텔에 묵으며 옌바이 스타 골프에서 매일 36홀까지 무제한으로 치고 전 일정 식사가 포함된 골프패키지입니다.",
+    "seoKeywords": [
+      "하노이골프",
+      "옌바이골프",
+      "베트남골프여행",
+      "무제한골프",
+      "하노이골프여행",
+      "인천출발"
+    ]
+  },
+  {
     "id": "china-fuzhou-marriott-straits",
     "country": "중국",
     "countryCode": "china",
