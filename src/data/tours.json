@@ -67533,5 +67533,342 @@
       "일본골프여행",
       "인천출발"
     ]
+  },
+  {
+    "id": "japan-tokyo-mana-tsuchiura-2n3d-incheon",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "도쿄",
+    "title": "[인천출발] 일본 도쿄 이바라키 골프여행 마나리조트 2박3일 45홀 츠치우라 이온몰 쇼핑 나리타 IN-OUT 1,099,000원부터",
+    "subtitle": "제주항공 등 인천-나리타 · 첫날 츠치우라 18홀 + 이온몰 쇼핑 · 마나CC 클럽하우스 호텔 숙박 · 호텔 조식 2회 · 중식 1회 · 석식 1회 · 2027년 1~2월 매주 화(평일)·금(주말) 출발",
+    "nights": 2,
+    "days": 3,
+    "courses": 2,
+    "roundsIncluded": 2,
+    "holes": "45홀",
+    "minPeople": "2인부터 (2인 플레이 1인 1일 30,000원 추가)",
+    "period": "2027년 1월 ~ 2월 매주 화(평일)·금(주말) 출발 (연휴 별도 문의)",
+    "hotel": "마나호텔 (마나 골프클럽 클럽하우스, 2인 1실)",
+    "hotelDesc": "마나 골프클럽 클럽하우스와 붙어 있는 마나호텔로, 아침을 먹고 걸어서 바로 1번 홀로 나갑니다. 객실 욕실 통창으로 코스가 내려다보이고, 라운드 뒤 대욕장에서 피로를 풀 수 있습니다. 저녁은 카이세키 정식 수준의 호텔식입니다. 1인 1실은 1박 50,000원이 추가됩니다.",
+    "golfCourse": "센트럴CC 또는 츠치우라CC · 마나CC (2색, 45홀)",
+    "golfCourseDesc": "첫날은 나리타공항에서 가까운 센트럴CC(아코디아 골프, 36홀) 또는 츠치우라CC에서 18홀을 치고, 이후 이바라키 히타치오미야의 마나CC(18홀 파72, 6,837야드)에서 라운드합니다. 마나CC는 떡갈나무·벚나무 숲에 둘러싸인 구릉 코스로 아웃코스는 평탄하고 인코스는 길고 도그레그·연못이 많습니다.",
+    "productSummary": "아침 비행기로 나리타에 내려 첫날 18홀을 치고 츠치우라 이온몰에서 쇼핑한 뒤, 마나 골프클럽 안 마나호텔에 2박 묵으며 45홀을 치는 상품입니다. 호텔에서 걸어서 골프장에 나가고 저녁은 카이세키 수준의 호텔식이 나옵니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 나리타 · 센트럴/츠치우라 18홀 · 이온몰",
+        "desc": "인천국제공항 제주항공 7C1181 07:15 출발(또는 다른 저가항공) → 도쿄 나리타공항 09:40 도착 → 한국인 직원 미팅 후 골프장 이동(약 25분) → 13:00 센트럴CC 또는 츠치우라CC 18홀 스루 플레이 → 츠치우라 이온몰 쇼핑 후 자유 석식(한국인 직원 동행) → 마나호텔 이동(약 55분) 체크인 [중식·석식 불포함]"
+      },
+      {
+        "day": "2일차",
+        "label": "마나CC 27홀",
+        "desc": "호텔 조식 후 걸어서 골프장 이동 → 마나CC 27홀 라운드 → 호텔 석식 후 휴식 [조식 호텔식 / 중식 클럽식 / 석식 호텔식]"
+      },
+      {
+        "day": "3일차",
+        "label": "나리타 → 인천",
+        "desc": "호텔 조식 후 07:30 공항행 버스 탑승(약 90분) → 도쿄 나리타공항 출발 → 인천국제공항 오후 도착 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "인천-나리타 아침 출발 · 첫날부터 18홀",
+      "츠치우라 이온몰 쇼핑 (한국인 직원 동행)",
+      "마나CC 클럽하우스 호텔 · 걸어서 라운드",
+      "2박 45홀 · 카이세키 수준 호텔 석식",
+      "2027년 1~2월 화(평일)·금(주말) 출발 · 1,099,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (제주항공 등 저가항공, 유류할증료·세금 포함, 수하물 15kg)",
+      "마나호텔 숙박 (2인 1실)",
+      "호텔 조식 2회 · 중식 1회 · 석식 1회",
+      "그린피 + 전동카트 (45홀)",
+      "한국인 직원 송영",
+      "여행자보험"
+    ],
+    "excludes": [
+      "차량비 1인 10,000엔 (현지 지불)",
+      "첫날 중식 (스루 플레이)",
+      "첫날 석식 (츠치우라 이온몰 자유 석식)",
+      "1인 1실 1박 50,000원",
+      "2인 플레이 1인 1일 30,000원 (출발 15일 전까지 신청)",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "항공 요금 한도(평일 출발 45만원 · 주말 출발 50만원) 기준 요금입니다. 실시간 발권이라 항공 요금이 한도를 넘으면 요금이 올라갑니다. 예약 때 확정 요금을 안내합니다.",
+      "연휴(1/1·설 연휴) 출발과 청주·부산 출발은 따로 문의해 주세요.",
+      "2인 플레이는 당일 신청이 안 되고 출발 15일 전까지 신청하며 1인 1일 30,000원이 추가됩니다. 3인 플레이는 추가 요금이 없습니다.",
+      "현지 사정으로 라운드를 못 하면 그린피는 환불되지만, 날씨 등 천재지변으로 못 하면 환불되지 않습니다. 위탁수하물은 15kg 기준이며 발권 후 취소하면 수수료가 생깁니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-05",
+        "price": 1099000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1099000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1099000
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1099000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1199000
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1099000
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1199000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1099000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1199000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1099000
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1199000
+      }
+    ],
+    "price": "1,099,000원~",
+    "image": "/images/tokyo-mana-tsuchiura-incheon/course-1.jpg",
+    "images": [
+      "/images/tokyo-mana-tsuchiura-incheon/course-1.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-1.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-2.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-2.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-3.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-1.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-2.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-3.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-4.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-5.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/tokyo-mana-tsuchiura-incheon/course-1.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-2.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-3.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-4.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-5.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-6.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-7.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-8.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-9.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-10.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-23",
+    "seoIntro": "인천 출발 일본 도쿄 이바라키 골프여행 2박3일 상품으로, 나리타 IN-OUT으로 첫날 츠치우라 18홀과 이온몰 쇼핑을 즐기고 마나CC 클럽하우스 호텔에 묵으며 45홀을 치는 골프패키지입니다.",
+    "seoKeywords": [
+      "도쿄골프",
+      "이바라키골프",
+      "마나CC",
+      "츠치우라골프",
+      "일본골프여행",
+      "인천출발"
+    ]
+  },
+  {
+    "id": "japan-tokyo-mana-tsuchiura-3n4d-incheon",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "도쿄",
+    "title": "[인천출발] 일본 도쿄 이바라키 골프여행 마나리조트 3박4일 72홀 츠치우라 이온몰 쇼핑 나리타 IN-OUT 1,299,000원부터",
+    "subtitle": "제주항공 등 인천-나리타 · 첫날 츠치우라 18홀 + 이온몰 쇼핑 · 마나CC 클럽하우스 호텔 숙박 · 호텔 조식 3회 · 중식 2회 · 석식 2회 · 2027년 1~2월 매주 월(평일)·목(주말) 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "72홀",
+    "minPeople": "2인부터 (2인 플레이 1인 1일 30,000원 추가)",
+    "period": "2027년 1월 ~ 2월 매주 월(평일)·목(주말) 출발 (연휴 별도 문의)",
+    "hotel": "마나호텔 (마나 골프클럽 클럽하우스, 2인 1실)",
+    "hotelDesc": "마나 골프클럽 클럽하우스와 붙어 있는 마나호텔로, 아침을 먹고 걸어서 바로 1번 홀로 나갑니다. 객실 욕실 통창으로 코스가 내려다보이고, 라운드 뒤 대욕장에서 피로를 풀 수 있습니다. 저녁은 카이세키 정식 수준의 호텔식입니다. 1인 1실은 1박 50,000원이 추가됩니다.",
+    "golfCourse": "센트럴CC 또는 츠치우라CC · 마나CC · 록힐CC 또는 신세이잔소CC (3색, 72홀)",
+    "golfCourseDesc": "첫날은 나리타공항에서 가까운 센트럴CC(아코디아 골프, 36홀) 또는 츠치우라CC에서 18홀을 치고, 이후 이바라키 히타치오미야의 마나CC(18홀 파72, 6,837야드)에서 라운드합니다. 마나CC는 떡갈나무·벚나무 숲에 둘러싸인 구릉 코스로 아웃코스는 평탄하고 인코스는 길고 도그레그·연못이 많습니다. 3박 상품은 하루를 록힐CC(36홀) 또는 피트 다이가 설계한 신세이잔소CC(18홀 파72, 7,004야드)에서 칩니다.",
+    "productSummary": "아침 비행기로 나리타에 내려 첫날 18홀을 치고 츠치우라 이온몰에서 쇼핑한 뒤, 마나 골프클럽 안 마나호텔에 3박 묵으며 72홀을 치는 상품입니다. 호텔에서 걸어서 골프장에 나가고 저녁은 카이세키 수준의 호텔식이 나옵니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 나리타 · 센트럴/츠치우라 18홀 · 이온몰",
+        "desc": "인천국제공항 제주항공 7C1181 07:15 출발(또는 다른 저가항공) → 도쿄 나리타공항 09:40 도착 → 한국인 직원 미팅 후 골프장 이동(약 25분) → 13:00 센트럴CC 또는 츠치우라CC 18홀 스루 플레이 → 츠치우라 이온몰 쇼핑 후 자유 석식(한국인 직원 동행) → 마나호텔 이동(약 55분) 체크인 [중식·석식 불포함]"
+      },
+      {
+        "day": "2일차",
+        "label": "마나CC 27홀",
+        "desc": "호텔 조식 후 걸어서 골프장 이동 → 마나CC 18홀 + 9홀 서비스 → 호텔 석식 후 휴식 [조식 호텔식 / 중식 클럽식 / 석식 호텔식]"
+      },
+      {
+        "day": "3일차",
+        "label": "록힐CC 또는 신세이잔소CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동(약 10~25분) → 록힐CC 또는 신세이잔소CC 18홀 + 9홀 서비스 → 호텔 석식 후 휴식 [조식 호텔식 / 중식 클럽식 / 석식 호텔식]"
+      },
+      {
+        "day": "4일차",
+        "label": "나리타 → 인천",
+        "desc": "호텔 조식 후 07:30 공항행 버스 탑승(약 90분) → 도쿄 나리타공항 출발 → 인천국제공항 오후 도착 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "인천-나리타 아침 출발 · 첫날부터 18홀",
+      "츠치우라 이온몰 쇼핑 (한국인 직원 동행)",
+      "마나CC 클럽하우스 호텔 · 걸어서 라운드",
+      "3박 72홀 · 카이세키 수준 호텔 석식",
+      "2027년 1~2월 월(평일)·목(주말) 출발 · 1,299,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (제주항공 등 저가항공, 유류할증료·세금 포함, 수하물 15kg)",
+      "마나호텔 숙박 (2인 1실)",
+      "호텔 조식 3회 · 중식 2회 · 석식 2회",
+      "그린피 + 전동카트 (72홀)",
+      "한국인 직원 송영",
+      "여행자보험"
+    ],
+    "excludes": [
+      "차량비 1인 10,000엔 (현지 지불)",
+      "첫날 중식 (스루 플레이)",
+      "첫날 석식 (츠치우라 이온몰 자유 석식)",
+      "1인 1실 1박 50,000원",
+      "2인 플레이 1인 1일 30,000원 (출발 15일 전까지 신청)",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "항공 요금 한도(평일 출발 45만원 · 주말 출발 50만원) 기준 요금입니다. 실시간 발권이라 항공 요금이 한도를 넘으면 요금이 올라갑니다. 예약 때 확정 요금을 안내합니다.",
+      "연휴(1/1·설 연휴) 출발과 청주·부산 출발은 따로 문의해 주세요.",
+      "2인 플레이는 당일 신청이 안 되고 출발 15일 전까지 신청하며 1인 1일 30,000원이 추가됩니다. 3인 플레이는 추가 요금이 없습니다.",
+      "현지 사정으로 라운드를 못 하면 그린피는 환불되지만, 날씨 등 천재지변으로 못 하면 환불되지 않습니다. 위탁수하물은 15kg 기준이며 발권 후 취소하면 수수료가 생깁니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-04",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1349000
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1349000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1349000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1349000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1349000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1349000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1349000
+      }
+    ],
+    "price": "1,299,000원~",
+    "image": "/images/tokyo-mana-tsuchiura-incheon/course-1.jpg",
+    "images": [
+      "/images/tokyo-mana-tsuchiura-incheon/course-1.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-1.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-2.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-2.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-3.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-1.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-2.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-3.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-4.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-5.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/tokyo-mana-tsuchiura-incheon/course-1.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-2.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-3.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-4.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-5.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-6.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-7.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-8.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-9.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-10.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-10-23",
+    "seoIntro": "인천 출발 일본 도쿄 이바라키 골프여행 3박4일 상품으로, 나리타 IN-OUT으로 첫날 츠치우라 18홀과 이온몰 쇼핑을 즐기고 마나CC 클럽하우스 호텔에 묵으며 72홀을 치는 골프패키지입니다.",
+    "seoKeywords": [
+      "도쿄골프",
+      "이바라키골프",
+      "마나CC",
+      "츠치우라골프",
+      "일본골프여행",
+      "인천출발"
+    ]
   }
 ]
