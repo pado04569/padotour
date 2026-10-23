@@ -34178,6 +34178,171 @@
     "title": "[부산출발] 필리핀 클락 골프여행 FA코리아·로얄센트럴·뉴아시아 3색 4박6일 949,000원부터"
   },
   {
+    "id": "philippines-clark-khotel-3color-busan",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "region": "클락",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "minPeople": 4,
+    "title": "[부산출발] 필리핀 클락 골프여행 미모사·FA코리아·로얄센트럴 3색 더 그랜드 K호텔 3박5일 12월 스팟 779,000원부터",
+    "subtitle": "미모사·FA코리아·로얄센트럴 3색 · 더 그랜드 K호텔 · 진에어 김해 직항 · 12월·1월 스팟",
+    "nights": 3,
+    "days": 5,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "18홀 x 3회 (총 54홀, 4박6일은 72홀)\n미모사CC·FA코리아CC·로얄센트럴CC",
+    "period": "2026년 12월 ~ 2027년 1월 (스팟 5개 날짜)",
+    "holePriceTiers": [
+      {
+        "label": "3박5일",
+        "holes": 54,
+        "pattern": "12/7 779,000원 · 12/14·15·27 799,000원",
+        "price": 779000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "label": "4박6일",
+        "holes": 72,
+        "pattern": "1/3 출발 · 72홀",
+        "price": 929000,
+        "nights": 4,
+        "days": 6
+      }
+    ],
+    "hotel": "더 그랜드 K호텔 (2인 1실)",
+    "hotelDesc": "클락 프리포트 안(E. Aguinaldo St.)에 있는 호텔로, 클락 국제공항에서 약 6.3km·차로 약 15분 거리입니다. 2인 1실로 묵고, 조식은 바로 옆 온(ON) 호텔에서 먹습니다. 이 상품에는 새벽 2시까지 클락 안 무료 차량 픽업·드롭이 포함됩니다.",
+    "golfCourse": "미모사CC · FA코리아CC · 로얄센트럴CC",
+    "golfCourseDesc": "클락의 미모사CC·FA코리아CC·로얄센트럴CC를 하루 한 곳씩 18홀로 라운드하는 3색 골프입니다(4박6일은 로얄센트럴CC를 한 번 더 쳐서 72홀). 미모사CC는 클락 프리포트 안에 18홀 코스 2개를 갖춘 골프장이고, FA코리아CC는 클락 경제특구 안에, 로얄센트럴CC는 앙헬레스·포락 일대에 있는 18홀·파72 골프장입니다. 골프장 순서는 현지 사정에 따라 바뀔 수 있습니다.",
+    "productSummary": "진에어 김해 직항으로 클락에 가서 더 그랜드 K호텔에 묵으며 미모사·FA코리아·로얄센트럴 3색 골프를 즐기는 12월·1월 스팟 상품입니다.\n12월 7일 779,000원, 12월 14·15·27일 799,000원(3박5일), 1월 3일 929,000원(4박6일)이며 4인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 클락",
+        "desc": "김해국제공항 출발(진에어 LJ641 22:05) → 클락 국제공항 도착(다음 날 01:00, 현지시간) → 한국인 가이드 미팅 후 호텔 이동 → 체크인 및 휴식 [숙소: 더 그랜드 K호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "미모사CC 18홀",
+        "desc": "옆 온 호텔에서 조식 후 가이드 미팅 → 골프장 이동 → 미모사CC 18홀 라운드 → 호텔 휴식 [조식 옆 온 호텔 / 중식·석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "FA코리아CC 18홀",
+        "desc": "옆 온 호텔에서 조식 후 가이드 미팅 → 골프장 이동 → FA코리아CC 18홀 라운드 → 호텔 휴식 [조식 옆 온 호텔 / 중식·석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "로얄센트럴CC 18홀 → 공항",
+        "desc": "옆 온 호텔에서 조식 후 골프장 이동 → 로얄센트럴CC 18홀 라운드 → 쇼핑센터 1곳 방문 → 공항으로 이동 [조식 옆 온 호텔 / 중식·석식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "클락 → 부산",
+        "desc": "클락 국제공항 출발(진에어 LJ642 01:45) → 김해국제공항 도착(06:25) 후 해산 (4박6일은 2일차 미모사, 3일차 로얄센트럴, 4일차 FA코리아, 5일차 로얄센트럴에서 18홀씩 라운드하고 6일차 부산 도착)"
+      }
+    ],
+    "highlights": [
+      "12/7 779,000원 · 12/14·15·27 799,000원 · 1/3 4박6일 929,000원",
+      "미모사·FA코리아·로얄센트럴 3색 54홀",
+      "더 그랜드 K호텔 2인 1실 · 클락 안 새벽 2시까지 무료 픽드랍",
+      "4인부터 출발 · 진에어 김해 직항 (수하물 20kg)"
+    ],
+    "includes": [
+      "왕복 항공권 (진에어, 수하물 20kg) · 유류할증료·TAX",
+      "더 그랜드 K호텔 (2인 1실)",
+      "그린피 (3박 54홀 / 4박 72홀)",
+      "전 일정 조식 (옆 온 호텔) · 클락 안 새벽 2시까지 무료 픽드랍",
+      "셔틀 차량 · 한국인 가이드",
+      "여행자보험"
+    ],
+    "excludes": [
+      "클럽 중식 · 석식",
+      "기사·가이드 경비 1인 $30 (4박 $40)",
+      "미팅·샌딩 1인 $60 (4인 이상)",
+      "캐디피+전동카트 18홀 $50 (27홀 $75 · 36홀 $100)",
+      "캐디팁 18홀 $5~",
+      "골프장 의무 식음료 (로얄센트럴 300페소 · 미모사 400페소)",
+      "싱글카트 18홀 $20 (FA코리아 $30)"
+    ],
+    "cancelPolicy": [
+      "표시 요금은 10월 유류할증료 기준이며, 1월 3일 출발은 10월 30일 발권 기준, 그 외 날짜는 11월 16일 발권 기준입니다. 11월 발권 시 1인 약 4만원이 인상됩니다.",
+      "일정 중 쇼핑센터 1곳을 방문합니다.",
+      "FA코리아CC는 08:30~11:00 브레이크 타임에는 티업이 없습니다.",
+      "라운드하지 않아도 캐디·카트 비용은 내야 하며(우천 포함), 그린피는 어떤 경우에도 환불되거나 다른 날로 바꿀 수 없습니다.",
+      "호텔 확정 후 취소 시 호텔 요금 전액이 부과됩니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-07",
+        "price": 779000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-14",
+        "price": 799000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-15",
+        "price": 799000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-27",
+        "price": 799000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-03",
+        "price": 929000,
+        "nights": 4,
+        "days": 6
+      }
+    ],
+    "price": "779,000원~",
+    "image": "/images/clark-3color-busan/course-1.jpg",
+    "images": [
+      "/images/clark-3color-busan/course-1.jpg",
+      "/images/clark-khotel-busan/hotel-1.jpg",
+      "/images/clark-3color-busan/course-2.jpg",
+      "/images/clark-khotel-busan/hotel-2.jpg",
+      "/images/clark-3color-busan/course-3.jpg",
+      "/images/clark-khotel-busan/hotel-4.jpg"
+    ],
+    "courseImages": [
+      "/images/clark-3color-busan/course-1.jpg",
+      "/images/clark-3color-busan/course-2.jpg",
+      "/images/clark-3color-busan/course-3.jpg",
+      "/images/clark-3color-busan/course-4.jpg",
+      "/images/clark-3color-busan/course-5.jpg",
+      "/images/clark-3color-busan/course-6.jpg"
+    ],
+    "hotelImages": [
+      "/images/clark-khotel-busan/hotel-1.jpg",
+      "/images/clark-khotel-busan/hotel-2.jpg",
+      "/images/clark-khotel-busan/hotel-3.jpg",
+      "/images/clark-khotel-busan/hotel-4.jpg",
+      "/images/clark-khotel-busan/hotel-5.jpg"
+    ],
+    "priceUpdatedDate": "2026-10-23",
+    "seoIntro": "부산 출발 필리핀 클락 골프여행으로, 더 그랜드 K호텔에 머물며 미모사·FA코리아·로얄센트럴 3색 골프를 즐기는 12월·1월 스팟 상품입니다.",
+    "seoKeywords": [
+      "클락골프",
+      "클락골프여행",
+      "클락3색골프",
+      "미모사CC",
+      "필리핀골프여행",
+      "부산출발"
+    ]
+  },
+  {
     "id": "philippines-clark-newasia-busan",
     "country": "필리핀",
     "countryCode": "philippines",
