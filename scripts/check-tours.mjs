@@ -95,6 +95,12 @@ for (const t of active) {
     const n = Number(titlePrice[1].replace(/,/g, ""));
     if (n !== low) add(t, "제목 요금", `제목 "${titlePrice[0]}" ↔ 남은 출발일 최저 ${low.toLocaleString("ko-KR")}원`);
   }
+
+  // 8) 여행자보험은 무조건 포함사항 — 사장님 2026-10-23 "내가 서비스 드리는 거라서 무조건 넣어"
+  //    거래처 원본에 불포함이어도 불포함에서 빼고 포함사항에 넣는다
+  const INS = /여행자\s*보험/;
+  if ((t.excludes || []).some((x) => INS.test(x))) add(t, "여행자보험", "불포함에 여행자보험 — 포함사항으로 옮기세요");
+  else if (!(t.includes || []).some((x) => INS.test(x))) add(t, "여행자보험", "포함사항에 여행자보험이 없습니다");
 }
 
 const byKind = issues.reduce((m, i) => ((m[i.kind] = (m[i.kind] || 0) + 1), m), {});
