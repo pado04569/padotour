@@ -53521,6 +53521,138 @@
     "title": "[부산출발] 일본 다카마쓰 골프여행 다카마쓰CC·사카이데CC 오쿠라호텔 2박3일·3박4일 2인출발 849,000원부터"
   },
   {
+    "id": "japan-takamatsu-city-3color-incheon",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "다카마쓰",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "minPeople": "2인부터 출발 (4인 셀프 플레이 기준, 2인·3인은 플레이 추가요금)",
+    "title": "[인천출발] 일본 다카마쓰 골프여행 시내 호텔 그랜드CC + 골드 또는 로얄CC 3박4일 54홀 12월 990,000원부터",
+    "subtitle": "다카마쓰 그랜드CC 2개 코스 + 골드 또는 로얄CC · 다카마쓰 시내 더 셀렉튼 호텔 · 진에어 인천 직항 · 12월 6개 날짜",
+    "nights": 3,
+    "days": 4,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "18홀 x 3회 (총 54홀)\n다카마쓰 그랜드CC(가니와·히카미) · 골드CC 또는 로얄 다카마쓰CC",
+    "period": "2026년 12월 7·8·14·15·21·22일 출발",
+    "hotel": "더 셀렉튼 다카마쓰 또는 동급 (다카마쓰 시내, 2인 1실)",
+    "hotelDesc": "다카마쓰 시내 중심가의 더 셀렉튼 다카마쓰(구 오쿠라호텔 다카마쓰) 또는 동급 호텔에 2인 1실로 묵고, 조식은 호텔 뷔페입니다. 골프장까지 차로 약 30분이며, 라운드 후 시내 상점가와 우동 맛집을 둘러보기 좋습니다. 1인 1실은 1박 5만원이 추가됩니다.",
+    "golfCourse": "다카마쓰 그랜드CC · 다카마쓰 골드CC · 로얄 다카마쓰CC",
+    "golfCourseDesc": "다카마쓰 그랜드CC는 36홀 골프장으로 업다운은 작지만 적당한 언듈레이션이 있어 정확한 샷이 필요하고, 이틀 동안 가니와·히카미 두 코스를 칩니다. 마지막 날은 아일랜드 그린의 18번 홀이 유명한 골드CC(18홀) 또는 페어웨이가 넓고 인코스에 연못·계곡이 있는 로얄 다카마쓰CC(18홀)에서 라운드합니다. 모두 캐디 없이 카트로 치는 셀프 플레이입니다.",
+    "productSummary": "진에어 직항으로 다카마쓰에 가서 시내 호텔에 3박하며 다카마쓰 그랜드CC 2개 코스와 골드 또는 로얄CC를 치는 3박4일 54홀 상품입니다.\n12월 7·8·14·15·21·22일 출발 990,000원부터(항공 실시간 요금)이며 2인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 다카마쓰",
+        "desc": "인천국제공항 출발(진에어 LJ299 14:10) → 다카마쓰 공항 도착(15:50) → 송영 기사 미팅 후 호텔 이동 → 체크인 및 자유 시간 [중식·석식 불포함, 숙소: 더 셀렉튼 다카마쓰 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "그랜드CC 가니와 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 30분) → 다카마쓰 그랜드CC 가니와코스 18홀 라운드(셀프+카트) → 호텔 휴식 [조식 호텔 / 중식·석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "그랜드CC 히카미 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 다카마쓰 그랜드CC 히카미코스 18홀 라운드(셀프+카트) → 호텔 휴식 [조식 호텔 / 중식·석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "골드 또는 로얄CC 18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 골드CC 또는 로얄 다카마쓰CC 18홀 라운드 → 공항 이동 → 다카마쓰 공항 출발(진에어 LJ300 16:50) → 인천국제공항 도착(18:35) 후 해산 [조식 호텔]"
+      }
+    ],
+    "highlights": [
+      "12월 7·8·14·15·21·22일 출발 990,000원부터",
+      "다카마쓰 그랜드CC 2개 코스 + 골드 또는 로얄CC 54홀",
+      "다카마쓰 시내 호텔 · 맛집·쇼핑 걸어서",
+      "2인부터 출발 · 진에어 인천 직항"
+    ],
+    "includes": [
+      "왕복 항공권 (진에어) · 유류할증료·TAX",
+      "더 셀렉튼 다카마쓰 또는 동급 (2인 1실)",
+      "호텔 조식 (뷔페)",
+      "그린피 + 카트비 + 락커비 (4인 셀프 플레이 기준)",
+      "공항-호텔-골프장 송영",
+      "여행자보험"
+    ],
+    "excludes": [
+      "클럽하우스 중식 · 석식",
+      "1인 1실 1박 5만원",
+      "2인 플레이 18홀 2만원 · 3인 플레이 18홀 1만원 추가"
+    ],
+    "cancelPolicy": [
+      "12월 7·8·14·15·21·22일 출발 990,000원부터입니다. 항공 요금은 실시간이라 좌석 상황에 따라 바뀔 수 있습니다.",
+      "가이드 없이 셀프 플레이로 진행하며, 공항-호텔-골프장 이동은 다른 팀과 동승하는 조건입니다.",
+      "항공 시간은 진에어 겨울 시간표 기준이며 항공사 사정으로 바뀔 수 있습니다.",
+      "상기 일정은 현지 및 항공사 사정에 따라 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-07",
+        "price": 990000
+      },
+      {
+        "date": "2026-12-08",
+        "price": 990000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 990000
+      },
+      {
+        "date": "2026-12-15",
+        "price": 990000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 990000
+      },
+      {
+        "date": "2026-12-22",
+        "price": 990000
+      }
+    ],
+    "price": "990,000원~",
+    "image": "/images/takamatsu-city-3color-incheon/course-1.jpg",
+    "images": [
+      "/images/takamatsu-city-3color-incheon/course-1.jpg",
+      "/images/takamatsu-city-3color-incheon/hotel-1.jpg",
+      "/images/takamatsu-city-3color-incheon/course-2.jpg",
+      "/images/takamatsu-city-3color-incheon/hotel-3.jpg",
+      "/images/takamatsu-city-3color-incheon/course-3.jpg",
+      "/images/takamatsu-city-3color-incheon/hotel-5.jpg"
+    ],
+    "courseImages": [
+      "/images/takamatsu-city-3color-incheon/course-1.jpg",
+      "/images/takamatsu-city-3color-incheon/course-2.jpg",
+      "/images/takamatsu-city-3color-incheon/course-3.jpg",
+      "/images/takamatsu-city-3color-incheon/course-4.jpg",
+      "/images/takamatsu-city-3color-incheon/course-5.jpg",
+      "/images/takamatsu-city-3color-incheon/course-6.jpg",
+      "/images/takamatsu-city-3color-incheon/course-7.jpg"
+    ],
+    "hotelImages": [
+      "/images/takamatsu-city-3color-incheon/hotel-1.jpg",
+      "/images/takamatsu-city-3color-incheon/hotel-2.jpg",
+      "/images/takamatsu-city-3color-incheon/hotel-3.jpg",
+      "/images/takamatsu-city-3color-incheon/hotel-4.jpg",
+      "/images/takamatsu-city-3color-incheon/hotel-5.jpg",
+      "/images/takamatsu-city-3color-incheon/hotel-6.jpg"
+    ],
+    "priceUpdatedDate": "2026-10-24",
+    "seoIntro": "인천 출발 일본 다카마쓰 골프여행으로, 다카마쓰 시내 호텔에 머물며 그랜드CC 2개 코스와 골드 또는 로얄CC를 치는 3박4일 54홀 12월 특가 골프패키지입니다.",
+    "seoKeywords": [
+      "다카마쓰골프",
+      "다카마쓰골프여행",
+      "다카마쓰그랜드CC",
+      "일본골프여행",
+      "시내골프",
+      "인천출발"
+    ]
+  },
+  {
     "id": "thailand-chiangmai-poolvilla-busan",
     "country": "태국",
     "countryCode": "thailand",
