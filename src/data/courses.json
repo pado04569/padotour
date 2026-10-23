@@ -7263,5 +7263,67 @@
     "relatedTourIds": [
       "malaysia-kualalumpur-mines-golftel-incheon"
     ]
+  },
+  {
+    "slug": "jade-dragon-snow-mountain-golf",
+    "name": "옥룡설산GC",
+    "nameEn": "Jade Dragon Snow Mountain Golf Club",
+    "region": "리장",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "옥룡설산",
+      "옥룡설산CC",
+      "옥룡설산 골프클럽",
+      "Jade Dragon"
+    ],
+    "summary": "리장 옥룡설산 아래 해발 3,000m 고원의 18홀 파72, 2001년 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "8,548야드 (프로 티)"
+      },
+      {
+        "label": "개장",
+        "value": "2001년"
+      },
+      {
+        "label": "설계",
+        "value": "넬슨 & 하워스 (Nelson & Haworth)"
+      },
+      {
+        "label": "고도",
+        "value": "해발 3,000m 이상"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 윈난성 리장"
+      }
+    ],
+    "description": "옥룡설산GC(Jade Dragon Snow Mountain Golf Club)는 중국 윈난성 리장의 옥룡설산 아래, 해발 3,000m가 넘는 고원에 2001년 문을 연 18홀 파72 골프장입니다. 넬슨 & 하워스가 설계했고 프로 티 기준 8,548야드로 세계에서 손꼽히게 긴 코스입니다.\n\n높은 고도 덕분에 공이 평소보다 멀리 날아가고, 라운드 내내 만년설이 덮인 설산이 눈앞에 펼쳐집니다. 여행의파도 리장 골프여행에서는 차마고도·호도협 관광과 함께 36홀을 칩니다.",
+    "images": [
+      "/images/lijiang-jadedragon-incheon/course-1.jpg",
+      "/images/lijiang-jadedragon-incheon/course-2.jpg",
+      "/images/lijiang-jadedragon-incheon/course-3.jpg",
+      "/images/lijiang-jadedragon-incheon/course-4.jpg",
+      "/images/lijiang-jadedragon-incheon/course-5.jpg",
+      "/images/lijiang-jadedragon-incheon/course-6.jpg",
+      "/images/lijiang-jadedragon-incheon/course-7.jpg",
+      "/images/lijiang-jadedragon-incheon/course-8.jpg"
+    ],
+    "hashtags": [
+      "옥룡설산GC",
+      "리장골프",
+      "중국골프여행",
+      "고원골프"
+    ],
+    "relatedTourIds": [
+      "china-lijiang-jadedragon-incheon",
+      "china-lijiang-jadedragon-incheon-4n5d"
+    ]
   }
 ]
