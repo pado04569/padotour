@@ -12893,6 +12893,1024 @@
     ]
   },
   {
+    "id": "china-yantai-junding-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "연태",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "title": "[인천출발] 중국 연태 골프여행 군정CC 와이너리 골프 군정리조트 2박3일·3박4일 이스타항공 539,000원부터",
+    "subtitle": "와이너리 골프장 군정CC · 군정리조트 또는 햄튼 바이 힐튼 · 이스타항공 오전 출발 · 10~11월 매일 출발",
+    "nights": 2,
+    "days": 3,
+    "courses": 1,
+    "roundsIncluded": 2,
+    "holes": "2박3일 45홀 (18+27) · 3박4일 72홀 (18+27+27)\n군정CC",
+    "period": "2026년 10월 27일 ~ 11월 30일 매일 출발",
+    "holePriceTiers": [
+      {
+        "label": "2박3일",
+        "holes": 45,
+        "pattern": "18+27홀 · 요일별 요금",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "label": "3박4일",
+        "holes": 72,
+        "pattern": "18+27+27홀 · 요일별 요금",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      }
+    ],
+    "hotel": "군정리조트 또는 햄튼 바이 힐튼 옌타이 펑라이 파빌리온 (2인 1실)",
+    "hotelDesc": "군정리조트는 군정CC 바로 옆 와이너리 리조트로 최근 객실·가구·욕실을 새로 리뉴얼했고, 골프장까지 이동 약 2분입니다. 햄튼 바이 힐튼 옌타이 펑라이 파빌리온은 골프장에서 차로 약 15분 거리이며, 이곳에 묵으면 석식은 5분 거리 시내 뷔페(맥주·고량주 무제한)에서 먹습니다. 요금은 군정리조트 기준이며 힐튼 숙박은 예약 때 확인해 드립니다.",
+    "golfCourse": "군정CC (Junding Chateau Golf Club, 18홀)",
+    "golfCourseDesc": "연태 봉래의 포도밭과 봉황호 주변에 조성된 18홀 파72(7,293야드) 챔피언십 와이너리 골프장으로, 클럽하우스에서 와인 시음도 할 수 있습니다. 호수와 포도밭 구릉지를 따라 블라인드홀·도그렉홀이 섞여 있어 정확한 샷이 필요하고, 연습장도 잘 갖춰져 있습니다.",
+    "productSummary": "이스타항공 오전 비행기로 연태에 내려 첫날부터 군정CC 18홀을 치고, 군정리조트에 묵으며 와이너리 골프를 즐기는 상품입니다.\n10~11월 매일 출발하며 요일마다 요금이 다릅니다(2박3일 539,000원~, 3박4일 649,000원~).",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 연태 · 군정CC 18홀",
+        "desc": "인천국제공항 출발(이스타항공 ZE817 07:20) → 연태 국제공항 도착(08:00, 현지시간) → 직원 미팅 후 이동 → 군정CC 18홀 라운드 → 석식 후 휴식 [중식 불포함 / 석식 포함, 숙소: 군정리조트]"
+      },
+      {
+        "day": "2일차",
+        "label": "군정CC 27홀",
+        "desc": "조식 후 골프장 이동(약 2분) → 군정CC 27홀 라운드 → 석식 후 휴식 [조식·석식 포함 / 중식 불포함] (3박4일은 3일차도 같은 일정)"
+      },
+      {
+        "day": "3일차",
+        "label": "연태 → 인천",
+        "desc": "조식 후 체크아웃 → 연태 국제공항 출발(이스타항공 ZE818 09:00) → 인천국제공항 도착(11:25) 후 해산 (3박4일은 4일차)"
+      }
+    ],
+    "highlights": [
+      "포도밭 속 와이너리 골프장 군정CC",
+      "이스타항공 오전 출발 · 첫날부터 18홀",
+      "리뉴얼한 군정리조트 · 골프장까지 약 2분",
+      "10~11월 매일 출발 · 2박3일 539,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (이스타항공) · 유류할증료·TAX",
+      "군정리조트 또는 햄튼 바이 힐튼 (2인 1실)",
+      "조식 · 석식",
+      "전 일정 그린피 (2박 45홀 / 3박 72홀)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "중식",
+      "미팅·샌딩 1인 300위안 (인원 상관없이)",
+      "전동카트+캐디피 18홀 1인 300위안",
+      "싱글카트 18홀 120위안",
+      "캐디팁 18홀 100위안",
+      "싱글룸 1박 4만원 (군정리조트 연휴 5만원 · 힐튼 연휴 7만원)"
+    ],
+    "cancelPolicy": [
+      "요일별 요금입니다. 10월 출발: 2박3일 일·목 599,000원 / 월·화·수 569,000원 / 금·토 629,000원, 3박4일 일 709,000원 / 월·화·수 679,000원 / 목·토 739,000원 / 금 769,000원.",
+      "11월 출발: 2박3일 일 569,000원 / 월·화·수 539,000원 / 목 549,000원 / 금 579,000원 / 토 599,000원, 3박4일 일 679,000원 / 월·화·수 649,000원 / 목 689,000원 / 금 719,000원 / 토 709,000원.",
+      "날짜·좌석에 따라 요금이 달라질 수 있고, 중국·한국 연휴 기간은 따로 문의해 주세요.",
+      "동방항공(MU5050 06:50 출발 / MU5049 18:50 귀국) 2박3일 18+27+18홀은 639,000원부터이며 따로 문의해 주세요.",
+      "카트비·캐디피는 현지 도착 때 한꺼번에 내며, 라운드를 다 못 해도 환불되지 않습니다.",
+      "2인 1카트·2인 1캐디가 기본이며 골프장 사정에 따라 4인 1카트·4인 1캐디가 될 수 있습니다. 송영 차량은 다른 팀과 함께 탈 수 있습니다.",
+      "항공권 발권 후 취소하면 항공 운임 규정에 따른 위약금이 있고, 당일 취소는 상품가의 100%가 부과됩니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-10-27",
+        "price": 569000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-10-27",
+        "price": 679000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-10-28",
+        "price": 569000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-10-28",
+        "price": 679000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-10-29",
+        "price": 599000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-10-29",
+        "price": 739000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-10-30",
+        "price": 629000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-10-30",
+        "price": 769000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-10-31",
+        "price": 629000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-10-31",
+        "price": 739000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-01",
+        "price": 569000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-01",
+        "price": 679000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-02",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-02",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-03",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-03",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-04",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-04",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-05",
+        "price": 549000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-05",
+        "price": 689000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-06",
+        "price": 579000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-06",
+        "price": 719000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-07",
+        "price": 599000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-07",
+        "price": 709000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-08",
+        "price": 569000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-08",
+        "price": 679000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-09",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-09",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-10",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-10",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-11",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-11",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-12",
+        "price": 549000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-12",
+        "price": 689000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-13",
+        "price": 579000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-13",
+        "price": 719000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-14",
+        "price": 599000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-14",
+        "price": 709000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-15",
+        "price": 569000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-15",
+        "price": 679000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-16",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-16",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-17",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-17",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-18",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-18",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-19",
+        "price": 549000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-19",
+        "price": 689000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-20",
+        "price": 579000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-20",
+        "price": 719000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-21",
+        "price": 599000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-21",
+        "price": 709000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-22",
+        "price": 569000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-22",
+        "price": 679000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-23",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-23",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-24",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-24",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-25",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-25",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-26",
+        "price": 549000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-26",
+        "price": 689000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-27",
+        "price": 579000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-27",
+        "price": 719000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-28",
+        "price": 599000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-28",
+        "price": 709000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-29",
+        "price": 569000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-29",
+        "price": 679000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-30",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-30",
+        "price": 649000,
+        "nights": 3,
+        "days": 4
+      }
+    ],
+    "price": "539,000원~",
+    "image": "/images/yantai-junding-incheon/course-1.jpg",
+    "images": [
+      "/images/yantai-junding-incheon/course-1.jpg",
+      "/images/yantai-junding-incheon/hotel-1.jpg",
+      "/images/yantai-junding-incheon/course-2.jpg",
+      "/images/yantai-junding-incheon/hotel-3.jpg",
+      "/images/yantai-junding-incheon/course-3.jpg",
+      "/images/yantai-junding-incheon/hotel-2.jpg"
+    ],
+    "courseImages": [
+      "/images/yantai-junding-incheon/course-1.jpg",
+      "/images/yantai-junding-incheon/course-2.jpg",
+      "/images/yantai-junding-incheon/course-3.jpg",
+      "/images/yantai-junding-incheon/course-4.jpg",
+      "/images/yantai-junding-incheon/course-5.jpg"
+    ],
+    "hotelImages": [
+      "/images/yantai-junding-incheon/hotel-1.jpg",
+      "/images/yantai-junding-incheon/hotel-2.jpg",
+      "/images/yantai-junding-incheon/hotel-3.jpg",
+      "/images/yantai-junding-incheon/hotel-4.jpg",
+      "/images/yantai-junding-incheon/hotel-5.jpg",
+      "/images/yantai-junding-incheon/hotel-6.jpg"
+    ],
+    "priceUpdatedDate": "2026-10-24",
+    "seoIntro": "인천 출발 중국 연태 골프여행으로, 와이너리 골프장 군정CC 옆 군정리조트에 묵으며 2박3일 45홀·3박4일 72홀을 치는 골프패키지입니다.",
+    "seoKeywords": [
+      "연태골프",
+      "연태골프여행",
+      "군정CC",
+      "와이너리골프",
+      "중국골프여행",
+      "인천출발"
+    ]
+  },
+  {
+    "id": "china-yantai-3color-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "연태",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "title": "[인천출발] 중국 연태 골프여행 단령·국제·성지·불광 중 3색 천홍호텔 2박3일·3박4일 이스타항공 539,000원부터",
+    "subtitle": "첫날 성지·불광CC 중 1곳, 이후 단령(취곡)·국제·성지·불광CC 중 하루 1곳 · 천홍호텔 또는 남산캐슬호텔 · 이스타항공 오전 출발",
+    "nights": 2,
+    "days": 3,
+    "courses": 3,
+    "roundsIncluded": 2,
+    "holes": "2박3일 45홀 (18+27) · 3박4일 72홀 (18+27+27)\n단령(취곡)·국제·성지·불광CC 중 하루 1곳",
+    "period": "2026년 10월 27일 ~ 11월 30일 매일 출발 (11월 1~6일은 별도 요금 문의)",
+    "holePriceTiers": [
+      {
+        "label": "2박3일",
+        "holes": 45,
+        "pattern": "18+27홀 · 요일별 요금",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "label": "3박4일",
+        "holes": 72,
+        "pattern": "18+27+27홀 · 요일별 요금",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      }
+    ],
+    "hotel": "천홍호텔 1·2 또는 남산캐슬호텔 (2인 1실)",
+    "hotelDesc": "천홍호텔 1·2 또는 남산캐슬호텔에 2인 1실로 묵습니다. 천홍호텔은 연태 공항에서 차로 약 30분, 골프장까지 약 15~20분 거리이고, 천홍 1·2 투숙객은 천홍호텔1에서 주류 무제한 석식을 먹습니다. 남산캐슬호텔에 묵으면 연태 맛집·한식·양꼬치 중 한 곳에서 석식을 먹습니다(연휴에는 호텔식).",
+    "golfCourse": "단령CC(취곡) · 국제CC · 성지CC · 불광CC 중 하루 1곳",
+    "golfCourseDesc": "단령CC는 36홀(취곡·취원) 골프장으로 기본은 취곡코스(18홀, 7,125야드)이며 산기슭을 따라 업다운과 도그렉홀이 있습니다. 국제CC는 레이아웃 균형이 좋아 초보자부터 상급자까지 치기 좋고, 불광CC(18홀 파72, 7,194야드)는 남산대불 근처 구릉지 코스로 난도가 높은 편입니다. 성지CC는 전장이 짧고 해저드가 많으며 네 곳 중 가장 높은 곳에 있어 여름에도 시원합니다. 하루에 한 골프장만 치며, 서로 다른 3곳 배정은 현지 사정에 따라 달라질 수 있습니다.",
+    "productSummary": "이스타항공 오전 비행기로 연태에 가서 첫날 성지·불광CC 중 한 곳 18홀을 치고, 이후 단령(취곡)·국제·성지·불광CC 중 하루 한 곳에서 라운드하는 다색 골프 상품입니다.\n10~11월 매일 출발하며(11월 1~6일은 별도 문의) 2박3일 539,000원부터, 3박4일 659,000원부터입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 연태 · 18홀",
+        "desc": "인천국제공항 출발(이스타항공 ZE817 07:20) → 연태 국제공항 도착(08:00, 현지시간) → 직원 미팅 후 이동 → 성지·불광CC 중 1곳 18홀 라운드 → 호텔 체크인 후 석식 [중식 불포함 / 석식 포함, 숙소: 천홍호텔 또는 남산캐슬호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "27홀",
+        "desc": "조식 후 골프장 이동(약 15분) → 단령(취곡)·국제·성지·불광CC 중 1곳 27홀 라운드 → 석식 후 휴식 [조식·석식 포함 / 중식 불포함] (3박4일은 3일차도 같은 일정)"
+      },
+      {
+        "day": "3일차",
+        "label": "연태 → 인천",
+        "desc": "조식 후 체크아웃 → 연태 국제공항 출발(이스타항공 ZE818 09:00) → 인천국제공항 도착(11:25) 후 해산 (3박4일은 4일차)"
+      }
+    ],
+    "highlights": [
+      "단령·국제·성지·불광CC 중 하루 1곳 다색 골프",
+      "이스타항공 오전 출발 · 첫날부터 18홀",
+      "천홍호텔1 석식 주류 무제한",
+      "10~11월 매일 출발 · 2박3일 539,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (이스타항공) · 유류할증료·TAX",
+      "천홍호텔 1·2 또는 남산캐슬호텔 (2인 1실)",
+      "조식 · 석식",
+      "전 일정 그린피 (2박 45홀 / 3박 72홀)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "중식",
+      "미팅·샌딩 1인 300위안 (인원 상관없이)",
+      "전동카트+캐디피 18홀 1인 300위안",
+      "싱글카트 18홀 120위안",
+      "캐디팁 18홀 150위안",
+      "싱글룸 1박 4만원 (연휴 5만원)"
+    ],
+    "cancelPolicy": [
+      "요일별 요금입니다. 10월 출발: 2박3일 일·월·화·수·토 569,000원 / 목·금 599,000원, 3박4일 일·월·화·수·토 689,000원 / 목·금 719,000원.",
+      "11월 출발: 2박3일 일·월·화·수·토 539,000원 / 목·금 549,000원, 3박4일 일·월·화·수·토 659,000원 / 목·금 669,000원. 11월 1~6일 출발은 별도 요금이라 따로 문의해 주세요.",
+      "날짜·좌석에 따라 요금이 달라질 수 있고, 연휴 기간 출발은 따로 문의해 주세요.",
+      "동방항공(MU5050 06:50 출발 / MU5049 18:50 귀국) 2박3일 18+27+18홀은 649,000원부터이며 따로 문의해 주세요.",
+      "단령CC는 취곡코스가 기본이며 취원코스로 바꾸면 18홀 주중 2만원·주말 4만원이 추가됩니다. 대회가 있으면 취원코스 라운드가 제한될 수 있습니다.",
+      "카트비·캐디피는 현지 도착 때 한꺼번에 내며, 라운드를 다 못 해도 환불되지 않습니다.",
+      "2인 1카트·2인 1캐디가 기본이며 골프장 사정에 따라 4인 1카트·4인 1캐디가 될 수 있습니다. 송영 차량은 다른 팀과 함께 탈 수 있습니다.",
+      "항공권 발권 후 취소하면 100%, 당일 취소는 상품가의 100%가 부과됩니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-10-27",
+        "price": 569000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-10-27",
+        "price": 689000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-10-28",
+        "price": 569000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-10-28",
+        "price": 689000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-10-29",
+        "price": 599000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-10-29",
+        "price": 719000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-10-30",
+        "price": 599000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-10-30",
+        "price": 719000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-10-31",
+        "price": 569000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-10-31",
+        "price": 689000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-07",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-07",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-08",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-08",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-09",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-09",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-10",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-10",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-11",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-11",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-12",
+        "price": 549000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-12",
+        "price": 669000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-13",
+        "price": 549000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-13",
+        "price": 669000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-14",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-14",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-15",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-15",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-16",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-16",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-17",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-17",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-18",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-18",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-19",
+        "price": 549000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-19",
+        "price": 669000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-20",
+        "price": 549000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-20",
+        "price": 669000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-21",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-21",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-22",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-22",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-23",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-23",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-24",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-24",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-25",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-25",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-26",
+        "price": 549000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-26",
+        "price": 669000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-27",
+        "price": 549000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-27",
+        "price": 669000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-28",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-28",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-29",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-29",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-11-30",
+        "price": 539000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-11-30",
+        "price": 659000,
+        "nights": 3,
+        "days": 4
+      }
+    ],
+    "price": "539,000원~",
+    "image": "/images/yantai-3color-incheon/course-1.jpg",
+    "images": [
+      "/images/yantai-3color-incheon/course-1.jpg",
+      "/images/yantai-3color-incheon/hotel-1.jpg",
+      "/images/yantai-3color-incheon/course-2.jpg",
+      "/images/yantai-3color-incheon/hotel-2.jpg",
+      "/images/yantai-3color-incheon/course-5.jpg",
+      "/images/yantai-3color-incheon/hotel-4.jpg"
+    ],
+    "courseImages": [
+      "/images/yantai-3color-incheon/course-1.jpg",
+      "/images/yantai-3color-incheon/course-2.jpg",
+      "/images/yantai-3color-incheon/course-3.jpg",
+      "/images/yantai-3color-incheon/course-4.jpg",
+      "/images/yantai-3color-incheon/course-5.jpg",
+      "/images/yantai-3color-incheon/course-6.jpg",
+      "/images/yantai-3color-incheon/course-7.jpg",
+      "/images/yantai-3color-incheon/course-8.jpg"
+    ],
+    "hotelImages": [
+      "/images/yantai-3color-incheon/hotel-1.jpg",
+      "/images/yantai-3color-incheon/hotel-2.jpg",
+      "/images/yantai-3color-incheon/hotel-3.jpg",
+      "/images/yantai-3color-incheon/hotel-4.jpg",
+      "/images/yantai-3color-incheon/hotel-5.jpg",
+      "/images/yantai-3color-incheon/hotel-6.jpg"
+    ],
+    "priceUpdatedDate": "2026-10-24",
+    "seoIntro": "인천 출발 중국 연태 골프여행으로, 천홍호텔에 묵으며 단령·국제·성지·불광CC 중 날마다 한 곳을 골라 치는 2박3일·3박4일 3색 골프패키지입니다.",
+    "seoKeywords": [
+      "연태골프",
+      "연태골프여행",
+      "연태3색골프",
+      "단령CC",
+      "중국골프여행",
+      "인천출발"
+    ]
+  },
+  {
     "id": "japan-tokyo-ibaraki-2color-busan",
     "country": "일본",
     "countryCode": "japan",
