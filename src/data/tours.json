@@ -34343,6 +34343,173 @@
     ]
   },
   {
+    "id": "philippines-clark-lakewood-golftel-busan",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "region": "클락",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "minPeople": 2,
+    "title": "[부산출발] 필리핀 클락 골프여행 레이크우드CC 골프텔 무제한 3박5일 12월 스팟 599,000원",
+    "subtitle": "레이크우드CC 그린피 무제한 · 마이크로텔 또는 골프스테이 · 진에어 김해 직항 · 2인부터 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "무제한 (레이크우드 라운드일 36홀 일정, 18홀 의무)\n화요일 휴장일은 외부 골프장 18홀",
+    "period": "2026년 12월 ~ 2027년 1월 (스팟 5개 날짜)",
+    "holePriceTiers": [
+      {
+        "label": "3박5일",
+        "holes": 108,
+        "pattern": "12/7·14·15·27 출발 · 그린피 무제한",
+        "price": 599000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "label": "4박6일",
+        "holes": 144,
+        "pattern": "1/3 출발 · 그린피 무제한",
+        "price": 699000,
+        "nights": 4,
+        "days": 6
+      }
+    ],
+    "hotel": "마이크로텔 바이 윈덤 카바나투안 또는 레이크우드 골프스테이 (2인 1실)",
+    "hotelDesc": "숙소는 마이크로텔 바이 윈덤 카바나투안 또는 레이크우드 골프스테이에서 2인 1실로 묵습니다. 숙소에서 골프장까지는 걸어서 또는 차로 약 10분이며(숙소별로 다름), 조식·중식은 클럽식으로 포함됩니다. 가이드 없이 골프장에 상주하는 한국인 매니저가 안내합니다.",
+    "golfCourse": "레이크우드CC (18홀 · 하루 최대 36홀 무제한)",
+    "golfCourseDesc": "카바나투안에 있는 18홀 파72 코스로, 로빈 넬슨과 닐 하워드가 함께 설계했습니다. 평지에 페어웨이가 넓은 편이지만 벙커와 워터해저드가 곳곳에 있어 정확한 샷이 필요합니다. 하루 18홀은 의무 라운드이고, 레이크우드 라운드일에는 36홀까지 칠 수 있습니다.",
+    "productSummary": "진에어 김해 직항으로 클락에 내려 카바나투안의 레이크우드CC에서 매일 최대 36홀을 무제한으로 치는 골프텔 상품입니다.\n12월 7·14·15·27일 3박5일 599,000원, 1월 3일 4박6일 699,000원이며 2인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 클락 → 카바나투안",
+        "desc": "김해국제공항 출발(진에어 LJ641 22:05) → 클락 국제공항 도착(다음 날 01:00, 현지시간) → 직원 미팅 후 카바나투안으로 이동(약 1시간) → 체크인 및 휴식 [숙소: 마이크로텔 또는 골프스테이]"
+      },
+      {
+        "day": "2일차",
+        "label": "레이크우드CC 무제한",
+        "desc": "조식 후 골프장 이동(도보 또는 차량 10분) → 현지 한국사무실 안내에 따라 선착순 라운드 → 레이크우드CC 36홀(18홀 의무, 화요일은 외부 골프장 18홀) → 숙소 휴식 [조식·중식 클럽식 / 석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "레이크우드CC 무제한",
+        "desc": "조식 후 골프장 이동(도보 또는 차량 10분) → 현지 한국사무실 안내에 따라 선착순 라운드 → 레이크우드CC 36홀(18홀 의무, 화요일은 외부 골프장 18홀) → 숙소 휴식 [조식·중식 클럽식 / 석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "레이크우드CC 무제한 → 공항",
+        "desc": "조식 후 골프장 이동(도보 또는 차량 10분) → 현지 한국사무실 안내에 따라 선착순 라운드 → 레이크우드CC 36홀(18홀 의무, 화요일은 외부 골프장 18홀) → 클락 공항으로 이동 [조식·중식 클럽식 / 석식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "클락 → 부산",
+        "desc": "클락 국제공항 출발(진에어 LJ642 01:45) → 김해국제공항 도착(06:25) 후 해산 (4박6일은 하루를 뉴아시아CC 등 외부 골프장 18홀(차량 약 1시간 30분)로 진행하고 6일차 도착)"
+      }
+    ],
+    "highlights": [
+      "12/7·14·15·27 3박5일 599,000원 · 1/3 4박6일 699,000원",
+      "레이크우드CC 그린피 무제한 (라운드일 36홀)",
+      "마이크로텔 또는 골프스테이 2인 1실 · 골프장까지 10분",
+      "2인부터 출발 · 진에어 김해 직항 (수하물 20kg)"
+    ],
+    "includes": [
+      "왕복 항공권 (진에어, 수하물 20kg) · 유류할증료·TAX",
+      "마이크로텔 또는 레이크우드 골프스테이 (2인 1실)",
+      "무제한 그린피 (18홀 의무)",
+      "조식·중식 (클럽식)",
+      "한국인 상주 매니저",
+      "여행자보험"
+    ],
+    "excludes": [
+      "석식 (1회 1인 $10~15)",
+      "공항 미팅·샌딩 1인 $60 (4인 이상 / 3인 $80~90 · 2인 $120)",
+      "캐디피+전동카트 1인 18홀 $50 · 27홀 $75 · 36홀 $100 (2인 1카트)",
+      "캐디팁 18홀 $2~3",
+      "싱글카트 비용",
+      "화요일 외부 라운드 차량비 등 1인 $55"
+    ],
+    "cancelPolicy": [
+      "표시 요금은 10월 유류할증료 기준이며, 1월 3일 출발은 10월 30일 발권 기준, 그 외 날짜는 11월 16일 발권 기준입니다. 11월 발권 시 1인 약 4만원이 인상됩니다.",
+      "레이크우드CC는 매주 화요일 휴장이라 뉴아시아CC 등 외부 라운드로 진행하며, 이때 1인 $55가 추가됩니다(외부 골프장은 지정 불가).",
+      "가이드가 없는 상품이며 골프장에 상주하는 한국인 매니저가 안내합니다.",
+      "1인 1캐디가 원칙이나 캐디가 부족하면 2인 1캐디가 될 수 있습니다(요금 동일).",
+      "라운드하지 않으면 1인 1박당 $50 페널티가 있습니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-07",
+        "price": 599000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-14",
+        "price": 599000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-15",
+        "price": 599000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-27",
+        "price": 599000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-03",
+        "price": 699000,
+        "nights": 4,
+        "days": 6
+      }
+    ],
+    "price": "599,000원~",
+    "image": "/images/philippines-clark-lakewood/course-1.jpg",
+    "images": [
+      "/images/philippines-clark-lakewood/course-1.jpg",
+      "/images/philippines-clark-lakewood/hotel-microtel-1.jpg",
+      "/images/philippines-clark-lakewood/course-2.jpg",
+      "/images/philippines-clark-lakewood/hotel-lakewood-stay.jpg",
+      "/images/philippines-clark-lakewood/course-3.jpg",
+      "/images/philippines-clark-lakewood/hotel-microtel-2.jpg"
+    ],
+    "courseImages": [
+      "/images/philippines-clark-lakewood/course-1.jpg",
+      "/images/philippines-clark-lakewood/course-2.jpg",
+      "/images/philippines-clark-lakewood/course-3.jpg",
+      "/images/philippines-clark-lakewood/course-4.jpg",
+      "/images/philippines-clark-lakewood/course-5.jpg",
+      "/images/philippines-clark-lakewood/course-6.jpg",
+      "/images/philippines-clark-lakewood/course-7.jpg"
+    ],
+    "hotelImages": [
+      "/images/philippines-clark-lakewood/hotel-microtel-1.jpg",
+      "/images/philippines-clark-lakewood/hotel-microtel-2.jpg",
+      "/images/philippines-clark-lakewood/hotel-microtel-3.jpg",
+      "/images/philippines-clark-lakewood/hotel-microtel-4.jpg",
+      "/images/philippines-clark-lakewood/hotel-microtel-5.jpg",
+      "/images/philippines-clark-lakewood/hotel-microtel-6.jpg",
+      "/images/philippines-clark-lakewood/hotel-lakewood-stay.jpg"
+    ],
+    "priceUpdatedDate": "2026-10-23",
+    "seoIntro": "부산 출발 필리핀 클락 골프여행으로, 카바나투안 레이크우드CC 골프텔에 머물며 하루 최대 36홀을 무제한으로 치는 12월·1월 스팟 상품입니다.",
+    "seoKeywords": [
+      "클락골프",
+      "레이크우드CC",
+      "클락무제한골프",
+      "필리핀골프여행",
+      "클락골프텔",
+      "부산출발"
+    ]
+  },
+  {
     "id": "philippines-clark-newasia-busan",
     "country": "필리핀",
     "countryCode": "philippines",
