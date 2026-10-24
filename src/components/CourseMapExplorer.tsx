@@ -109,7 +109,7 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
     if (st !== "world") avoid.push({ x: 4, y: 4, w: 214, h: 52 }); // 왼쪽 위 '이전 단계'
     // 국가 지도(세계)는 점 바로 옆 이름·연결선 없음, 지역 지도는 짧은 연결선 허용 — 화면별 규칙 분리 (사장님 지시 10/25)
     const placed = st === "world"
-      ? placeLabels(pts, bw, bh, avoid, bw < 560 ? 14 : 15, { dists: [13, 24, 40, 56], order: "edge" })
+      ? placeLabels(pts, bw, bh, avoid, bw < 560 ? 14 : 15, { dists: [13, 24, 40, 56, 72], order: "edge", minH: 44 })
       : placeLabels(pts, bw, bh, avoid, bw < 560 ? 13 : 14);
     setLabels({ stage: st, items: Object.fromEntries(placed.map((x) => [x.id, x])) });
   };
@@ -357,7 +357,7 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
           <div className="flex items-center justify-between gap-2 min-h-11 px-3 mb-2 rounded-xl bg-white border border-line">
             <span className="text-[15px] md:text-[16px] font-extrabold text-main-text">여행지 지도</span>
             <button type="button" onClick={() => apply({ g: null, r: null })} disabled={stage === "world"} className="inline-flex items-center gap-1.5 min-h-10 px-3 rounded-full text-[14px] font-bold text-slate-700 hover:bg-slate-50 disabled:opacity-40">
-              <IconGlobe className="w-[18px] h-[18px] text-brand-blue" />세계 전체
+              <IconGlobe className="w-[18px] h-[18px] text-brand-blue" />전체 여행지
             </button>
           </div>
           <div
@@ -404,11 +404,13 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
               const pl = L?.[g.key];
               return (
                 <span key={g.key}>
-                  <span className={`${dotCls} !w-2 !h-2 bg-brand-blue`} style={{ left: p.left, top: p.top }} aria-hidden="true" />
+                  <button type="button" onClick={() => apply({ g: g.key, r: null })} aria-label={`${g.label} 보기`} style={{ left: p.left, top: p.top }} className="absolute -translate-x-1/2 -translate-y-1/2 w-6 h-6 flex items-center justify-center">
+                    <span className="w-2 h-2 rounded-full bg-brand-blue ring-2 ring-white shadow" aria-hidden="true" />
+                  </button>
                   {pl && !pl.hidden && (
                     <>
                       {leaderSvg(p, pl)}
-                      <button type="button" onClick={() => apply({ g: g.key, r: null })} style={{ ...labelPos(p, pl), ...haloThin }} className="absolute -translate-x-1/2 -translate-y-1/2 px-1.5 py-2 text-[14px] md:text-[15px] font-semibold text-slate-800 hover:text-brand-blue whitespace-nowrap">
+                      <button type="button" onClick={() => apply({ g: g.key, r: null })} style={{ ...labelPos(p, pl), ...haloThin }} className="absolute -translate-x-1/2 -translate-y-1/2 flex items-center min-h-11 px-1.5 text-[14px] md:text-[15px] font-semibold text-slate-800 hover:text-brand-blue whitespace-nowrap">
                         {g.label}
                       </button>
                     </>
@@ -466,7 +468,7 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
             {stage !== "world" && (
               <button type="button" onClick={() => apply(stage === "region" ? { g: sel.g, r: null } : { g: null, r: null })} className="absolute top-3 left-3 flex items-center gap-1 min-h-10 px-3 rounded-xl bg-white border border-slate-300 shadow-sm text-[14px] font-bold text-slate-700 hover:bg-slate-50">
                 <IconChevron dir="left" className="w-4 h-4" />
-                {stage === "region" ? `${group?.label} 전체로` : "세계로"}
+                {stage === "region" ? `${group?.label} 전체로` : "전체 여행지로"}
               </button>
             )}
           </div>

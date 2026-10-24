@@ -43,6 +43,7 @@ export type PlaceOptions = {
   dists?: number[]; // 점에서 이름까지 시도할 거리(px) — 짧은 것부터
   noLeader?: boolean; // true면 연결선을 쓰지 않는다(이름을 점 바로 옆에만)
   order?: "priority" | "edge"; // edge: 가장자리(자리 잡기 어려운) 점부터 — 전부 보여야 하는 국가 지도용
+  minH?: number; // 이름 버튼의 실제 터치 높이(px) — 충돌 계산도 이 크기로 (터치 영역끼리 겹치지 않게)
 };
 
 export function placeLabels(
@@ -71,7 +72,7 @@ export function placeLabels(
 
   for (const p of sorted) {
     const w = Math.round(p.text.length * fontPx * 1.02) + 16;
-    const h = fontPx + 17; // 터치 여유 포함
+    const h = Math.max(fontPx + 17, opts.minH ?? 0); // 터치 여유 포함
     const away = Math.atan2(p.y - cy, p.x - cx); // 무리 바깥(바다) 방향
     let placed: PlacedLabel | null = null;
     outer: for (const dist of opts.dists ?? [22, 40, 56]) { // 연결선이 길어 혼동되지 않게 기본 최대 56px (Codex 10/25)
