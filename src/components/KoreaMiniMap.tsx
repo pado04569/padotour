@@ -2,7 +2,8 @@
 // 정밀 지도가 아니다 — "인천 쪽(위) / 부산 쪽(아래)"만 감 잡게 하는 단순 윤곽 + 점 1~2개.
 // 카드 아이콘(variant="icon")과 확인창(variant="modal")에서 같이 쓴다.
 
-type Dep = "incheon" | "busan";
+import type { Dep } from "@/lib/departure";
+export type { Dep };
 
 const K = 100;
 const X = (lon: number) => (lon - 125.9) * K;
@@ -21,10 +22,15 @@ const OUTLINE =
     .join(" L") +
   " Z";
 // 점 위치는 서울·부산 기준 (사용자에게 보이는 이름은 인천공항·부산·김해공항)
+// 청주·대구는 작은 지도에서 서로 구분되게 실제보다 조금 안쪽으로 둔다 (Codex 검수 10/25)
 const POINT: Record<Dep, [number, number]> = {
   incheon: [X(126.98), Y(37.57)],
   busan: [X(129.07), Y(35.18)],
+  cheongju: [X(127.7), Y(36.75)],
+  daegu: [X(128.55), Y(36.05)],
 };
+// 확인창에서 연하게 함께 보여 줄 짝 공항 (청주 손님은 인천, 대구 손님은 부산을 함께 본다)
+const PAIR: Record<Dep, Dep> = { incheon: "busan", busan: "incheon", cheongju: "incheon", daegu: "busan" };
 
 export default function KoreaMiniMap({ selected, variant }: { selected: Dep; variant: "icon" | "modal" }) {
   if (variant === "icon") {
@@ -37,7 +43,7 @@ export default function KoreaMiniMap({ selected, variant }: { selected: Dep; var
     );
   }
   // 확인창: 고른 쪽 점만 진하게, 다른 쪽은 연한 점 (글자 라벨은 지도 밖에 따로)
-  const other: Dep = selected === "incheon" ? "busan" : "incheon";
+  const other = PAIR[selected];
   return (
     <svg viewBox="-20 -20 440 580" className="w-full h-full" aria-hidden="true">
       <path d={OUTLINE} fill="#F1F5F9" stroke="#CBD5E1" strokeWidth={6} strokeLinejoin="round" />

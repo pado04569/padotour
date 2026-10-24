@@ -1,7 +1,12 @@
 import Image from "next/image";
 import DepartureChooser from "@/components/DepartureChooser";
+import { tours } from "@/data/tours";
 
-// 첫 화면 — 골프장 사진을 화면 가득 + 출발공항 카드 2개 (사장님 확정 L1, 2026-10-10)
+// 청주·대구 출발 칸은 판매 중인(출발일이 남은) 상품이 1개라도 있을 때만 켠다 (사장님 10/25)
+// 3칸이 되면 칸이 좁아 PC 폭을 1240px로 넓힌다 (사장님 확정 시안과 같은 폭)
+const EXTRA = (["cheongju", "daegu"] as const).filter((d) => tours.some((t) => t.departure === d));
+
+// 첫 화면 — 골프장 사진을 화면 가득 + 출발공항 카드 2개(청주·대구 상품이 있으면 3칸) (사장님 확정 L1, 2026-10-10)
 // 목표: 2초 안에 "해외 골프여행 전문 여행사"로 보이고 바로 인천/부산을 고르게.
 // 사업자 정보는 사진 위에 얹으면 복잡해 보여 사진 아래 흰 줄로 분리했다.
 // 휴대폰은 오른쪽 아래 카카오 버튼이 카드를 가리지 않게 카드 아래 여백을 둔다.
@@ -40,14 +45,14 @@ export default function Home() {
           </div>
         </header>
 
-        <div className="relative flex-1 flex flex-col justify-end w-full max-w-5xl mx-auto px-5 md:px-12 pb-24 md:pb-24">
+        <div className={`relative flex-1 flex flex-col justify-end w-full ${EXTRA.length ? "max-w-[1240px]" : "max-w-5xl"} mx-auto px-5 md:px-12 pb-24 md:pb-24`}>
           <p className="text-base md:text-xl font-bold text-white/95 mb-1.5 break-keep">즐거운 골프 너울거림, 여행의 파도</p>
           <h1 className="text-[clamp(27px,8vw,32px)] md:text-[52px] font-black leading-[1.2] mb-6 md:mb-8 drop-shadow-[0_2px_12px_rgba(0,0,0,0.3)] break-keep">
             해외 골프여행,
             <br />
             출발공항부터 골라 주세요
           </h1>
-          <DepartureChooser />
+          <DepartureChooser extra={[...EXTRA]} />
         </div>
       </section>
 
