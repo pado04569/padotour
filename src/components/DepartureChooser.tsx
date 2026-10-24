@@ -9,6 +9,7 @@ import KoreaMiniMap, { type Dep } from "./KoreaMiniMap";
 // 인천/부산을 잘못 누르는 실수를 줄이려고 바로 이동하지 않고 한 번 확인한다. 확인창은 이 첫 선택에서만 쓴다.
 // 카드는 실제 링크라서 스크립트가 늦게 떠도(또는 검색로봇도) 그대로 이동할 수 있다.
 // 카드 모양 G안(사장님 확정 10/25): 큰 지도 + "인천출발" 한 줄, 꺽쇠 없음, 지도 4개 같은 크기.
+// 휴대폰은 칸 높이 3/4(92→68px)·글자 21px — 버튼이 브랜드명(24px)보다 튀지 않게 (사장님 확정 10/25)
 // 청주·대구는 판매 중인 상품이 있을 때만 셋째 칸에 [청주 | 대구]로 나온다(없으면 지금처럼 2칸).
 const INFO: Record<Dep, { title: string; airport: string; ask: string; yes: string }> = {
   incheon: { title: "인천출발", airport: "인천공항", ask: "인천공항 출발 상품을 보시겠어요?", yes: "네, 인천출발 상품 보기" },
@@ -20,7 +21,7 @@ const INFO: Record<Dep, { title: string; airport: string; ask: string; yes: stri
 const OTHER: Record<Dep, Dep> = { incheon: "busan", busan: "incheon", cheongju: "incheon", daegu: "busan" };
 const OTHER_LABEL: Record<Dep, string> = { incheon: "인천출발로 보기", busan: "부산출발로 보기", cheongju: "청주출발로 보기", daegu: "대구출발로 보기" };
 
-const CARD = "flex items-center min-h-[92px] md:min-h-[108px] rounded-2xl bg-white/95 hover:bg-white text-main-text shadow-[0_6px_20px_rgba(0,0,0,0.18)] transition-colors";
+const CARD = "flex items-center min-h-[68px] md:min-h-[108px] rounded-2xl bg-white/95 hover:bg-white text-main-text shadow-[0_6px_20px_rgba(0,0,0,0.18)] transition-colors";
 
 export default function DepartureChooser({ extra = [] }: { extra?: ("cheongju" | "daegu")[] }) {
   const [asking, setAsking] = useState<Dep | null>(null);
@@ -32,16 +33,16 @@ export default function DepartureChooser({ extra = [] }: { extra?: ("cheongju" |
       onClick={(e) => { e.preventDefault(); setAsking(d); }}
       className={`flex items-center gap-3 md:gap-3.5 min-w-0 ${className}`}
     >
-      <span className="flex-none w-[54px] h-[72px] md:w-[62px] md:h-[82px]">
+      <span className="flex-none w-[44px] h-[58px] md:w-[62px] md:h-[82px]">
         <KoreaMiniMap selected={d} variant="icon" />
       </span>
-      <span className="min-w-0 text-[23px] md:text-[26px] font-black tracking-tight whitespace-nowrap">{INFO[d].title}</span>
+      <span className="min-w-0 text-[21px] md:text-[26px] font-black tracking-tight whitespace-nowrap">{INFO[d].title}</span>
     </a>
   );
 
   return (
     <>
-      <div className={`grid grid-cols-1 gap-3 ${extra.length ? "md:grid-cols-3" : "md:grid-cols-2"}`}>
+      <div className={`grid grid-cols-1 gap-2.5 md:gap-3 ${extra.length ? "md:grid-cols-3" : "md:grid-cols-2"}`}>
         {(["incheon", "busan"] as Dep[]).map((d) => item(d, `${CARD} px-[18px] md:px-[22px]`))}
         {extra.length === 1 && item(extra[0], `${CARD} px-[18px] md:px-[22px]`)}
         {extra.length === 2 && (
