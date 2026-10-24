@@ -11,6 +11,8 @@ export type LabelPoint = {
   text: string;
   priority: number; // 클수록 먼저 자리를 잡는다 (선택된 지역이 최우선)
   selected?: boolean;
+  first?: boolean; // 다른 점보다 먼저 자리를 잡는다 (좁은 화면에서 밀리기 쉬운 점용)
+  prefer?: [number, number][]; // 먼저 시도할 방향 (예: [[0,-1]] = 점 바로 위)
 };
 export type Rect = { x: number; y: number; w: number; h: number };
 export type PlacedLabel = {
@@ -66,9 +68,10 @@ export function placeLabels(
   const result: PlacedLabel[] = [];
   const edgeRoom = (p: LabelPoint) => Math.min(p.x, boxW - p.x, p.y, boxH - p.y);
   const sorted = [...inView].sort((a, b) =>
-    opts.order === "edge"
+    (b.first ? 1 : 0) - (a.first ? 1 : 0)
+    || (opts.order === "edge"
       ? (b.selected ? -1e6 : 0) - (a.selected ? -1e6 : 0) + edgeRoom(a) - edgeRoom(b)
-      : (b.selected ? 1e6 : 0) + b.priority - ((a.selected ? 1e6 : 0) + a.priority));
+      : (b.selected ? 1e6 : 0) + b.priority - ((a.selected ? 1e6 : 0) + a.priority)));
 
   for (const p of sorted) {
     const w = Math.round(p.text.length * fontPx * 1.02) + 16;
@@ -76,7 +79,7 @@ export function placeLabels(
     const away = Math.atan2(p.y - cy, p.x - cx); // 무리 바깥(바다) 방향
     let placed: PlacedLabel | null = null;
     outer: for (const dist of opts.dists ?? [22, 40, 56]) { // 연결선이 길어 혼동되지 않게 기본 최대 56px (Codex 10/25)
-      for (const [ux0, uy0] of directionOrder(away)) {
+      for (const [ux0, uy0] of [...(p.prefer ?? []), ...directionOrder(away)]) {
         const len = Math.hypot(ux0, uy0);
         const ux = ux0 / len, uy = uy0 / len;
         // 가로 방향이면 이름표를 점 옆에 끝맞춤(시안처럼 "이름 ─ 점")

@@ -85,7 +85,7 @@ export default function RegionGeoMap({
         const dl = pl ? Math.hypot(pl.dx, pl.dy) || 1 : 1;
         return (
           <span key={r}>
-            <span className="absolute -translate-x-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-emerald-600 ring-2 ring-white shadow pointer-events-none" style={{ left: `${px}%`, top: `${py}%` }} aria-hidden="true" />
+            <span className="absolute -translate-x-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-emerald-600 ring-[1.5px] ring-white shadow pointer-events-none" style={{ left: `${px}%`, top: `${py}%` }} aria-hidden="true" />
             {pl && !pl.hidden && (
               <>
                 {pl.leader && (

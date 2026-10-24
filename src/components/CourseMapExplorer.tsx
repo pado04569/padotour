@@ -27,7 +27,7 @@ export type ExplorerGroup = { key: string; label: string; count: number; image: 
 type Sel = { g: string | null; r: string | null };
 type View = { x: number; y: number; w: number; h: number };
 
-const WORLD: [number, number, number, number] = [88, -13, 153, 47]; // 처음은 취급 여행지가 벌어져 보이는 아시아·태평양 — 이름이 점 옆에 다 들어간다. 축소(−)하면 세계 전체
+const WORLD: [number, number, number, number] = [88, -13, 157, 47]; // 처음은 취급 여행지가 벌어져 보이는 아시아·태평양 — 이름이 점 옆에 다 들어간다. 축소(−)하면 세계 전체
 const GEO_BY_SLUG = courseGeo as Record<string, [number, number]>;
 const matchesRegion = (courseRegion: string, r: string) =>
   courseRegion === r || courseRegion.split("/").map((t) => t.trim()).includes(r);
@@ -95,7 +95,9 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
     if (st === "world") {
       pts = MAP_GROUPS.map((mg) => {
         const [x, y] = toPx(mg.marker[0], mg.marker[1]);
-        return { id: mg.key, x, y, text: mg.label, priority: groups.find((x2) => x2.key === mg.key)?.count ?? 0 };
+        // 필리핀은 이웃(베트남·괌) 이름에 밀려 멀어지기 쉬워 먼저 '점 바로 위 → 왼쪽 위'로 배치 (사장님 지시 10/25)
+        const tight = mg.key === "philippines";
+        return { id: mg.key, x, y, text: mg.label, priority: groups.find((x2) => x2.key === mg.key)?.count ?? 0, first: tight, prefer: tight ? [[0, -1], [-1, -0.7]] as [number, number][] : undefined };
       });
     } else if (g && gd) {
       pts = gd.regions.flatMap((r) => {
@@ -109,7 +111,7 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
     if (st !== "world") avoid.push({ x: 4, y: 4, w: 214, h: 52 }); // 왼쪽 위 '이전 단계'
     // 국가 지도(세계)는 점 바로 옆 이름·연결선 없음, 지역 지도는 짧은 연결선 허용 — 화면별 규칙 분리 (사장님 지시 10/25)
     const placed = st === "world"
-      ? placeLabels(pts, bw, bh, avoid, bw < 560 ? 14 : 15, { dists: [13, 24, 40, 56, 72], order: "edge", minH: 44 })
+      ? placeLabels(pts, bw, bh, avoid, bw < 560 ? 14 : 15, { dists: [13, 24, 40, 56], order: "edge", minH: 36 })
       : placeLabels(pts, bw, bh, avoid, bw < 560 ? 13 : 14);
     setLabels({ stage: st, items: Object.fromEntries(placed.map((x) => [x.id, x])) });
   };
@@ -204,7 +206,7 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
   };
   const halo = { textShadow: "0 1px 2px #fff, 0 -1px 2px #fff, 1px 0 2px #fff, -1px 0 2px #fff, 0 0 6px #fff" };
   const haloThin = { textShadow: "0 0 3px #fff, 0 1px 2px #fff" }; // 국가 지도용 — 외곽선 과하지 않게
-  const dotCls = "absolute -translate-x-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full ring-2 ring-white shadow pointer-events-none";
+  const dotCls = "absolute -translate-x-1/2 -translate-y-1/2 w-2 h-2 rounded-full ring-[1.5px] ring-white shadow pointer-events-none";
   const L = labels && labels.stage === stage ? labels.items : null;
   const hiddenLabels = L ? Object.values(L).filter((x) => x.hidden).length : 0;
   // 점 가장자리 → 이름표 가장자리 연결선 (이름이 점과 떨어져 있을 때만)
@@ -314,7 +316,7 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
       <div className="md:hidden grid grid-cols-2 gap-2 mb-2.5">
         <button type="button" onClick={() => setSheet("country")} aria-haspopup="dialog" className="flex items-center gap-2 min-h-12 px-3 rounded-xl border-[1.5px] border-slate-300 bg-white text-left">
           <IconGlobe className="w-5 h-5 text-brand-blue flex-none" />
-          <span className="min-w-0 flex-1 truncate text-[16px] font-extrabold text-slate-900">{group ? group.label : "국가·여행지"}</span>
+          <span className="min-w-0 flex-1 truncate text-[16px] font-extrabold text-slate-900">{group ? group.label : "국가 선택"}</span>
           <IconChevron dir="down" className="w-4 h-4 text-slate-600 flex-none" />
         </button>
         <button type="button" onClick={() => group && setSheet("region")} disabled={!group} aria-haspopup="dialog" className="flex items-center gap-2 min-h-12 px-3 rounded-xl border-[1.5px] border-slate-300 bg-white text-left disabled:opacity-45">
@@ -428,7 +430,7 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
               const pl = L?.[r.value];
               return (
                 <span key={r.value}>
-                  <span className={`${dotCls} bg-emerald-600 ${on ? "!w-3.5 !h-3.5" : ""}`} style={{ left: p.left, top: p.top }} aria-hidden="true" />
+                  <span className={`${dotCls} bg-emerald-600 ${on ? "!w-3 !h-3 !ring-2" : ""}`} style={{ left: p.left, top: p.top }} aria-hidden="true" />
                   {pl && !pl.hidden && (
                     <>
                       {leaderSvg(p, pl)}
