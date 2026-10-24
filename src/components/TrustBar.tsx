@@ -65,12 +65,12 @@ function DepartureMenu({ departure, link }: { departure: Dep; link: string }) {
         <span role="menu" className="absolute left-0 md:left-auto md:right-0 top-full mt-1 z-[60] flex flex-col min-w-[210px] p-1.5 rounded-xl bg-white border border-line shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
           {others.map((d) => (
             <Link key={d} role="menuitem" href={hrefs[d]} onClick={() => setOpen(false)} className={item}>
-              {DEP_LABEL[d]} 출발 보기
+              {DEP_LABEL[d]} 출발
             </Link>
           ))}
           <span aria-hidden="true" className="h-px my-1 mx-2 bg-line" />
           <Link role="menuitem" href="/" onClick={() => setOpen(false)} className={`${item} font-semibold text-blue-700`}>
-            처음 화면에서 다시 고르기
+            출발공항 다시 선택
           </Link>
         </span>
       )}

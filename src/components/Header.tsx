@@ -222,7 +222,7 @@ export default function Header({ departure, realDeparture, navRegions }: HeaderP
               onClick={() => setMenuOpen(false)}
             >
               {departure ? <IconSwap className="w-4 h-4" /> : null}
-              {departure ? "출발공항 다시 고르기" : "출발공항 선택하기"}
+              {departure ? "출발공항 다시 선택" : "출발공항 선택하기"}
             </Link>
             <Link
               href="/my-inquiries"
