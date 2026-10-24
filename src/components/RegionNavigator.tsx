@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { REGION_MAPS } from "@/lib/regionMaps";
-import { MapSvg } from "./CourseRegionMap";
+import RegionGeoMap from "./RegionGeoMap";
+import { COUNTRY_VIEWS } from "@/lib/mapRegions";
 
 // 상품 목록 지역 선택 (사장님 확정 N3, 2026-10-10)
 // 지역 버튼을 먼저 보여주고, 지도는 "지도로 위치 보기"를 누른 사람에게만 펼친다(기본 접힘).
@@ -28,7 +28,7 @@ export default function RegionNavigator({
   /** 출발일로 상품 찾기 조건(date·people·sort) — 지역을 바꿔도 검색 조건이 유지되게 그대로 붙인다 (2026-10-10) */
   keepQuery?: Record<string, string>;
 }) {
-  const map = REGION_MAPS[countryCode];
+  const map = Boolean(COUNTRY_VIEWS[countryCode]); // 실제 지리 지도 (2026-10-25, 손그림 지도 대체)
   const [open, setOpen] = useState(Boolean(initialOpen && map));
   const href = (region?: string, keepMap = open) => {
     const q = new URLSearchParams({ country: countryCode });
@@ -85,11 +85,9 @@ export default function RegionNavigator({
               {selected ?? `${name} 전체`}
             </span>
           </div>
-          <MapSvg map={map} regions={regions.map((r) => r.label)} selected={selected} hrefFor={(r) => href(r, true)} idSuffix="t" />
+          <RegionGeoMap countryCode={countryCode} regions={regions.map((r) => r.label)} selected={selected} hrefFor={(r) => href(r, true)} />
           <p className="text-sm text-gray-600 mt-2.5 leading-relaxed break-keep">
-            대략적인 위치입니다.
-            <br />
-            지역 이름을 누르면 그 지역 상품만 보여드려요.
+            지역의 대표 위치입니다. 지역 이름을 누르면 그 지역 상품만 보여드려요.
           </p>
         </div>
       )}

@@ -6,6 +6,7 @@ import { IconChevron } from "@/components/icons/Chevron";
 import { buildCourseGroups, matchesRegion } from "@/lib/courseGroups";
 import { REGION_MAPS } from "@/lib/regionMaps";
 import CourseRegionMap from "@/components/CourseRegionMap";
+import CourseMapExplorer from "@/components/CourseMapExplorer";
 
 const SITE_URL = "https://www.padotour.com";
 
@@ -34,9 +35,9 @@ function groupByCountry(list: typeof courses) {
 export default async function CoursesPage({
   searchParams,
 }: {
-  searchParams: Promise<{ country?: string; region?: string; map?: string }>;
+  searchParams: Promise<{ country?: string; region?: string; map?: string; view?: string }>;
 }) {
-  const { country, region, map: mapParam } = await searchParams;
+  const { country, region, map: mapParam, view } = await searchParams;
 
   // country 는 "guam,saipan" 처럼 여러 나라일 수 있다 (나라별 묶음 '괌·사이판'·'기타')
   const codes = country ? country.split(",") : [];
@@ -55,6 +56,51 @@ export default async function CoursesPage({
   const regionMap = currentGroup ? REGION_MAPS[currentGroup.key] : undefined;
   const chip = "inline-flex items-center min-h-11 px-3.5 rounded-full text-[15px] font-semibold transition-colors";
 
+  // ── 지도 탐색 모드 (사장님 시안 '지역 가이드형', 2026-10-25) — 목록/지도 전환에 선택 조건 유지
+  const mapMode = view === "map";
+  const modeHref = (toMap: boolean) => {
+    const q = new URLSearchParams();
+    if (country) q.set("country", country);
+    if (region) q.set("region", region);
+    if (toMap) q.set("view", "map");
+    const qs = q.toString();
+    return `/courses${qs ? `?${qs}` : ""}`;
+  };
+  const toggle = (
+    <div className="max-w-6xl mx-auto px-4 pt-4 pb-1 flex justify-end gap-2">
+      <Link href={modeHref(false)} aria-current={!mapMode ? "page" : undefined} className={`inline-flex items-center gap-1.5 min-h-11 px-4 rounded-full border-[1.5px] text-[15px] font-bold ${!mapMode ? "bg-emerald-600 border-emerald-600 text-white" : "bg-white border-slate-300 text-main-text hover:bg-slate-50"}`}>
+        목록으로 보기
+      </Link>
+      <Link href={modeHref(true)} aria-current={mapMode ? "page" : undefined} className={`inline-flex items-center gap-1.5 min-h-11 px-4 rounded-full border-[1.5px] text-[15px] font-bold ${mapMode ? "bg-emerald-600 border-emerald-600 text-white" : "bg-white border-slate-300 text-main-text hover:bg-slate-50"}`}>
+        지도로 보기
+      </Link>
+    </div>
+  );
+  if (mapMode) {
+    const mapGroups = groups.map((g) => ({
+      key: g.key,
+      label: g.label,
+      count: g.count,
+      image: g.image,
+      regions: g.regions.map((r) => {
+        const rc = courses.filter((c) => g.codes.includes(c.countryCode) && matchesRegion(c, r.value));
+        return { value: r.value, label: r.label, count: rc.length, image: rc[0]?.images[0] ?? g.image };
+      }),
+    }));
+    const mapCourses = courses.map((c) => ({ slug: c.slug, name: c.name, region: c.region, countryCode: c.countryCode, image: c.images[0], summary: c.summary ?? "" }));
+    return (
+      <div>
+        <section className="bg-hero-info text-white py-5 md:py-6">
+          <div className="max-w-6xl mx-auto px-4">
+            <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">해외 골프장 소개</h1>
+            <p className="text-emerald-50 text-sm md:text-base">지도에서 국가와 지역을 골라 골프장을 둘러보세요.</p>
+          </div>
+        </section>
+        <CourseMapExplorer groups={mapGroups} courses={mapCourses} initialG={currentGroup?.key ?? null} initialR={region ?? null} />
+      </div>
+    );
+  }
+
   return (
     <div>
       <section className="bg-hero-info text-white py-5 md:py-6">
@@ -69,6 +115,7 @@ export default async function CoursesPage({
           )}
         </div>
       </section>
+      {toggle}
 
       {/* 나라·지역으로 찾기 — 탐색형 (사장님 확정 G3, 2026-10-09). 메인은 나라 타일(G1), 여기서는 지역까지 바로 고른다 */}
       {!isFiltered && (
