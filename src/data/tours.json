@@ -155,7 +155,8 @@
       "말레이시아골프",
       "골프텔",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "마인즈CC 골프텔 골프여행"
   },
   {
     "id": "china-jinan-guoke-incheon",
@@ -338,7 +339,8 @@
       "중국골프여행",
       "노캐디골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "국과CC 골프여행"
   },
   {
     "id": "china-xiamen-landin-3color-3n4d",
@@ -684,7 +686,8 @@
       "인천출발"
     ],
     "price": "1,199,000원~",
-    "title": "[인천출발] 중국 샤먼 골프여행 동방·천주·남태무CC 3색 3박4일 54홀 1,199,000원부터"
+    "title": "[인천출발] 중국 샤먼 골프여행 동방·천주·남태무CC 3색 3박4일 54홀 1,199,000원부터",
+    "displayTitle": "동방·천주·남태무CC 3색 골프여행"
   },
   {
     "id": "china-xiamen-landin-3color-4n5d",
@@ -1041,7 +1044,8 @@
       "인천출발"
     ],
     "price": "1,359,000원~",
-    "title": "[인천출발] 중국 샤먼 골프여행 동방·천주·남태무CC 3색 4박5일 72홀 1,359,000원부터"
+    "title": "[인천출발] 중국 샤먼 골프여행 동방·천주·남태무CC 3색 4박5일 72홀 1,359,000원부터",
+    "displayTitle": "동방·천주·남태무CC 3색 골프여행"
   },
   {
     "id": "thailand-huahin-springfield",
@@ -1912,7 +1916,8 @@
       "인천출발"
     ],
     "price": "1,049,000원~",
-    "title": "[인천출발] 태국 후아힌 골프여행 스프링필드 로얄CC 골프텔 3박5일 54홀 1,049,000원부터"
+    "title": "[인천출발] 태국 후아힌 골프여행 스프링필드 로얄CC 골프텔 3박5일 54홀 1,049,000원부터",
+    "displayTitle": "스프링필드 로얄CC 골프텔 골프여행"
   },
   {
     "id": "thailand-huahin-springfield-busan",
@@ -2783,7 +2788,8 @@
       "부산출발"
     ],
     "price": "1,099,000원~",
-    "title": "[부산출발] 태국 후아힌 골프여행 스프링필드 로얄CC 골프텔 3박5일 54홀 1,099,000원부터"
+    "title": "[부산출발] 태국 후아힌 골프여행 스프링필드 로얄CC 골프텔 3박5일 54홀 1,099,000원부터",
+    "displayTitle": "스프링필드 로얄CC 골프텔 골프여행"
   },
   {
     "id": "thailand-huahin-lakeview-busan",
@@ -3364,7 +3370,8 @@
       "골프텔",
       "부산출발",
       "에어부산"
-    ]
+    ],
+    "displayTitle": "레이크뷰CC 골프텔 골프여행"
   },
   {
     "country": "중국",
@@ -3685,7 +3692,8 @@
       "올포함골프"
     ],
     "price": "1,120,000원~",
-    "title": "[인천출발] 중국 하이난 골프여행 미란CC 3박4일 72홀 1,120,000원부터 올포함"
+    "title": "[인천출발] 중국 하이난 골프여행 미란CC 3박4일 72홀 1,120,000원부터 올포함",
+    "displayTitle": "미란CC 골프여행"
   },
   {
     "country": "중국",
@@ -4005,7 +4013,8 @@
       "올포함골프"
     ],
     "price": "1,320,000원~",
-    "title": "[인천출발] 중국 하이난 골프여행 미란CC 4박5일 99홀 1,320,000원부터 올포함"
+    "title": "[인천출발] 중국 하이난 골프여행 미란CC 4박5일 99홀 1,320,000원부터 올포함",
+    "displayTitle": "미란CC 골프여행"
   },
   {
     "country": "중국",
@@ -4314,7 +4323,8 @@
       "올포함골프"
     ],
     "price": "1,160,000원~",
-    "title": "[인천출발] 중국 하이난 골프여행 고염전CC 3박4일 72홀 1,160,000원부터 올포함"
+    "title": "[인천출발] 중국 하이난 골프여행 고염전CC 3박4일 72홀 1,160,000원부터 올포함",
+    "displayTitle": "고염전CC 골프여행"
   },
   {
     "country": "중국",
@@ -4574,7 +4584,8 @@
       "올포함골프"
     ],
     "price": "1,599,000원~",
-    "title": "[인천출발] 중국 하이난 골프여행 고염전CC 4박5일 99홀 1,599,000원부터 올포함"
+    "title": "[인천출발] 중국 하이난 골프여행 고염전CC 4박5일 99홀 1,599,000원부터 올포함",
+    "displayTitle": "고염전CC 골프여행"
   },
   {
     "country": "중국",
@@ -5055,7 +5066,8 @@
       "올포함골프"
     ],
     "price": "1,890,000원~",
-    "title": "[인천출발] 중국 하이난 골프여행 고염전CC 장박 7박8일 180홀 1,890,000원부터 올포함"
+    "title": "[인천출발] 중국 하이난 골프여행 고염전CC 장박 7박8일 180홀 1,890,000원부터 올포함",
+    "displayTitle": "고염전CC 장박 골프여행"
   },
   {
     "country": "중국",
@@ -5365,7 +5377,8 @@
       "올포함골프"
     ],
     "price": "1,190,000원~",
-    "title": "[인천출발] 중국 하이난 골프여행 미란CC·고염전CC 2색 3박4일 72홀 1,190,000원부터 올포함"
+    "title": "[인천출발] 중국 하이난 골프여행 미란CC·고염전CC 2색 3박4일 72홀 1,190,000원부터 올포함",
+    "displayTitle": "미란CC·고염전CC 2색 골프여행"
   },
   {
     "country": "중국",
@@ -5626,7 +5639,8 @@
       "올포함골프"
     ],
     "price": "1,699,000원~",
-    "title": "[인천출발] 중국 하이난 골프여행 미란CC·고염전CC 2색 4박5일 99홀 1,699,000원부터 올포함"
+    "title": "[인천출발] 중국 하이난 골프여행 미란CC·고염전CC 2색 4박5일 99홀 1,699,000원부터 올포함",
+    "displayTitle": "미란CC·고염전CC 2색 골프여행"
   },
   {
     "country": "중국",
@@ -5763,7 +5777,8 @@
       "인천출발"
     ],
     "price": "1,290,000원~",
-    "title": "[인천출발] 중국 푸저우 골프여행 해협CC 3박4일 72홀 1,290,000원부터"
+    "title": "[인천출발] 중국 푸저우 골프여행 해협CC 3박4일 72홀 1,290,000원부터",
+    "displayTitle": "해협CC 골프여행"
   },
   {
     "id": "thailand-chiangmai-3color-busan",
@@ -6431,7 +6446,8 @@
         "date": "2027-03-25",
         "price": 849000
       }
-    ]
+    ],
+    "displayTitle": "로얄·노스힐·가싼 골프여행"
   },
   {
     "id": "japan-oita-pacific",
@@ -6702,7 +6718,8 @@
       "인천출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-09-29"
+    "priceUpdatedDate": "2026-09-29",
+    "displayTitle": "퍼시픽블루CC 골프여행"
   },
   {
     "id": "japan-beppu-kamenoi",
@@ -7199,7 +7216,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "벳부골프클럽 · 카메노이호텔 노천온천 골프여행"
   },
   {
     "id": "malaysia-kota",
@@ -7536,7 +7554,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "가람부나이CC ·넥서스 리조트 골프여행"
   },
   {
     "id": "philippines-cebu",
@@ -7691,7 +7710,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "파타야 3색골프"
   },
   {
     "id": "japan-tokyo-itako",
@@ -7843,7 +7863,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "후지야호텔 골프여행"
   },
   {
     "id": "japan-hokkaido-niseko",
@@ -8034,7 +8055,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "힐튼니세코빌리지 골프여행"
   },
   {
     "id": "thailand-chiangmai-4n6d",
@@ -8187,7 +8209,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "가산CC·로얄CC 골프여행"
   },
   {
     "id": "thailand-chiangmai-3n5d",
@@ -8312,7 +8335,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "가산CC 골프여행"
   },
   {
     "id": "japan-hokkaido-sapporo-comfort",
@@ -8653,7 +8677,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "3색 컴포트호텔스스키노 골프여행"
   },
   {
     "id": "japan-matsuyama-juraku-hiyori",
@@ -9083,7 +9108,8 @@
       "일본골프",
       "일본골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "3색 골프패키지 골프여행"
   },
   {
     "id": "japan-beppu-kamenoi-busan",
@@ -9606,7 +9632,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "벳부골프클럽 · 카메노이호텔 노천온천 골프여행"
   },
   {
     "id": "japan-matsuyama-juraku-hiyori-busan",
@@ -10048,7 +10075,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "온천·시내골프 골프여행"
   },
   {
     "id": "japan-takamatsu-shido",
@@ -10304,7 +10332,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "시도CC 온천 골프여행"
   },
   {
     "id": "china-qingdao-3color",
@@ -10755,7 +10784,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "3색 쉐라톤 골프여행"
   },
   {
     "id": "japan-takamatsu-shido-busan",
@@ -10895,7 +10925,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "시도CC 골프여행"
   },
   {
     "id": "china-qingdao-2color-busan-2n3d",
@@ -11608,7 +11639,8 @@
       "중국골프여행",
       "부산출발골프여행"
     ],
-    "priceUpdatedDate": "2026-10-07"
+    "priceUpdatedDate": "2026-10-07",
+    "displayTitle": "화산CC·영해CC 2색골프 골프여행"
   },
   {
     "id": "china-qingdao-bluehorizon-busan",
@@ -12312,7 +12344,8 @@
       "부산출발골프여행",
       "청도골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-07"
+    "priceUpdatedDate": "2026-10-07",
+    "displayTitle": "천태CC 포함 3색골프 골프여행"
   },
   {
     "id": "china-yantai-6color",
@@ -12890,7 +12923,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "6색 특급호텔 골프여행"
   },
   {
     "id": "china-yantai-junding-incheon",
@@ -13433,7 +13467,8 @@
       "와이너리골프",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "군정CC 와이너리 골프 군정리조트 골프여행"
   },
   {
     "id": "china-yantai-3color-incheon",
@@ -13908,7 +13943,8 @@
       "단령CC",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "단령·국제·성지·불광 중 3색 천홍호텔 골프여행"
   },
   {
     "id": "china-tianjin-aroma-incheon",
@@ -14670,7 +14706,8 @@
       "노캐디골프",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "회원제 아로마CC 노캐디 리조트 골프여행"
   },
   {
     "id": "japan-tokyo-ibaraki-2color-busan",
@@ -15041,7 +15078,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "동경 이바라키 2색골프 마나CC·센세이잔소CC"
   },
   {
     "id": "china-weihai-hilton-2color",
@@ -15160,7 +15198,8 @@
       "중국골프여행",
       "인천출발"
     ],
-    "priceUpdatedDate": "2026-10-02"
+    "priceUpdatedDate": "2026-10-02",
+    "displayTitle": "스톤베이CC·천익CC 2색 골프여행"
   },
   {
     "id": "china-hainan-missionhills",
@@ -15467,7 +15506,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "미션힐스 골프여행"
   },
   {
     "id": "china-beijing-panshan-busan",
@@ -15993,7 +16033,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "북경 판산CC 골프텔 무제한골프"
   },
   {
     "id": "thailand-bangkok-pattaya-busan",
@@ -16631,7 +16672,8 @@
       "부산출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-07"
+    "priceUpdatedDate": "2026-10-07",
+    "displayTitle": "방콕파타야 3색골프(쇼핑1회) 피닉스·부라파·카오키여우"
   },
   {
     "id": "thailand-chiangmai-maejo",
@@ -17168,7 +17210,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "치앙마이 메조골프텔 올포함"
   },
   {
     "id": "thailand-chiangmai-maejo-busan",
@@ -17397,7 +17440,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "메조골프텔 올포함 골프여행"
   },
   {
     "id": "japan-kumamoto",
@@ -17724,7 +17768,8 @@
       "인천출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-09"
+    "priceUpdatedDate": "2026-10-09",
+    "displayTitle": "아소 그랑비리오 골프 ·천연온천 골프여행"
   },
   {
     "id": "guam-pineeast",
@@ -18148,7 +18193,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "괌 파인이스트 골프 & 리조트"
   },
   {
     "id": "guam-pineeast-busan",
@@ -18728,7 +18774,8 @@
       "부산출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-14"
+    "priceUpdatedDate": "2026-10-14",
+    "displayTitle": "괌 파인이스트 골프텔"
   },
   {
     "id": "guam-hilton-ccp-busan",
@@ -19265,7 +19312,8 @@
       "힐튼괌",
       "부산출발",
       "괌여행"
-    ]
+    ],
+    "displayTitle": "힐튼 리조트 오션뷰 + CCP 골프여행"
   },
   {
     "id": "vietnam-halongbay-3color",
@@ -19990,7 +20038,8 @@
       "인천출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-17"
+    "priceUpdatedDate": "2026-10-17",
+    "displayTitle": "드래곤링크스·FLC하롱베이·뚜언쩌우 3색 골프여행"
   },
   {
     "id": "malaysia-kota-busan-3n5d",
@@ -20168,7 +20217,8 @@
       "부산출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-17"
+    "priceUpdatedDate": "2026-10-17",
+    "displayTitle": "3색(달릿베이·가람부나이·수트라하버) 골프여행"
   },
   {
     "id": "malaysia-kota-busan-4n6d",
@@ -20366,7 +20416,8 @@
       "부산출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-17"
+    "priceUpdatedDate": "2026-10-17",
+    "displayTitle": "3색(달릿베이·가람부나이·수트라하버) 골프여행"
   },
   {
     "id": "saipan-coralocean-pic",
@@ -20489,7 +20540,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "리조트 리뉴얼 그랜드오픈기념 골프여행"
   },
   {
     "id": "china-qufu-goldwoo",
@@ -20624,7 +20676,8 @@
       "인천출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-02"
+    "priceUpdatedDate": "2026-10-02",
+    "displayTitle": "석문산 골드우CC 골프여행"
   },
   {
     "id": "philippines-manila-alabang",
@@ -20749,7 +20802,8 @@
       "비베레호텔",
       "인천출발"
     ],
-    "priceUpdatedDate": "2026-10-02"
+    "priceUpdatedDate": "2026-10-02",
+    "displayTitle": "이글릿지·파인힐스·셔우드·스플랜디도 비베레호텔 골프여행"
   },
   {
     "id": "japan-fukuoka-tosu",
@@ -21095,7 +21149,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "그린리치호텔 · 6개 골프장 중 x 3회 골프여행"
   },
   {
     "id": "japan-nagoya-adonis-busan",
@@ -21407,7 +21462,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "코가야체리크리크CC·타지미기타CC 골프여행"
   },
   {
     "id": "japan-kumamoto-busan",
@@ -21662,7 +21718,8 @@
       "부산출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-17"
+    "priceUpdatedDate": "2026-10-17",
+    "displayTitle": "구마모토 아소스카이블루 골프텔 천연온천"
   },
   {
     "id": "japan-kumamoto-aso-trial-2color",
@@ -21941,7 +21998,8 @@
       "일본골프여행",
       "온천골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "아소 트라이얼CC·미나미아소CC 2색 골프여행"
   },
   {
     "id": "japan-kumamoto-aso-trial-2color-2n3d",
@@ -22216,7 +22274,8 @@
       "일본골프여행",
       "온천골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "아소 트라이얼CC·미나미아소CC 2색 골프여행"
   },
   {
     "id": "japan-kagoshima-takachiho",
@@ -22835,7 +22894,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "가고시마 명문 타카치호CC 힐링 온천골프"
   },
   {
     "id": "japan-aomori-lakewood-3n4d",
@@ -22950,7 +23010,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "9월 시즌엔드 특가 아오모리 락우드 골프"
   },
   {
     "id": "japan-aomori-lakewood-4n5d",
@@ -23069,7 +23130,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "9월 시즌엔드 특가 아오모리 락우드 골프"
   },
   {
     "id": "china-xiamen-nantaiwu-3n4d",
@@ -23262,7 +23324,8 @@
       "부산출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-06"
+    "priceUpdatedDate": "2026-10-06",
+    "displayTitle": "천주·남태무·동방CC 3색 골프여행"
   },
   {
     "id": "china-xiamen-nantaiwu-4n5d",
@@ -23463,7 +23526,8 @@
       "부산출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-06"
+    "priceUpdatedDate": "2026-10-06",
+    "displayTitle": "천주·남태무·동방CC 3색 골프여행"
   },
   {
     "id": "japan-osaka-sis-3color",
@@ -23782,7 +23846,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "오사카 시내 3색 골프 & 온천 SIS 스타게이트호텔"
   },
   {
     "id": "saipan-2color-pic",
@@ -23942,7 +24007,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "코랄오션CC·라오라오베이CC 골프여행"
   },
   {
     "id": "thailand-pattaya-infinity-3n5d",
@@ -24190,7 +24256,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "파타야 인피니티풀빌라 3색 골프 세인트앤드류·그린밸리·실키오크"
   },
   {
     "id": "thailand-pattaya-infinity-4n6d",
@@ -24326,7 +24393,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "파타야 인피니티풀빌라 3색 골프 세인트앤드류·그린밸리·실키오크"
   },
   {
     "id": "china-zhangjiajie-tianmenshan-3n4d",
@@ -24560,7 +24628,8 @@
       "부산출발골프여행",
       "장가계패키지"
     ],
-    "priceUpdatedDate": "2026-10-24"
+    "priceUpdatedDate": "2026-10-24",
+    "displayTitle": "천문산CC 골프여행"
   },
   {
     "id": "china-zhangjiajie-tianmenshan-4n5d",
@@ -24799,7 +24868,8 @@
       "부산출발골프여행",
       "장가계패키지"
     ],
-    "priceUpdatedDate": "2026-10-24"
+    "priceUpdatedDate": "2026-10-24",
+    "displayTitle": "천문산CC 골프여행"
   },
   {
     "id": "japan-beppu-grandmercure-busan",
@@ -25099,7 +25169,8 @@
       "해외골프여행",
       "부산출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "후쿠오카 벳부 다색골프 그랜드머큐어벳부베이리조트"
   },
   {
     "id": "japan-shizuoka-fujieda",
@@ -25308,7 +25379,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "시즈오카 후지에다CC 골프 후지산뷰 호텔올레"
   },
   {
     "id": "japan-kagoshima-kedoin",
@@ -25954,7 +26026,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "가고시마 케도인 리조트 골프 명문 케도인CC 천연온천"
   },
   {
     "id": "china-hainan-samgongli",
@@ -26117,7 +26190,8 @@
       "중국골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "하이난 삼공리CC 골프 ｜하이난 3대명문코스"
   },
   {
     "id": "china-qingdao-castlex-2n3d",
@@ -26505,7 +26579,8 @@
       "중국골프여행",
       "부산출발골프여행",
       "청도골프패키지"
-    ]
+    ],
+    "displayTitle": "캐슬렉스CC 골프여행"
   },
   {
     "id": "china-qingdao-castlex",
@@ -26898,7 +26973,8 @@
       "중국골프여행",
       "부산출발골프여행",
       "청도골프패키지"
-    ]
+    ],
+    "displayTitle": "캐슬렉스CC 골프여행"
   },
   {
     "id": "japan-ube-choyo-3n4d",
@@ -27627,7 +27703,8 @@
       "인천출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-23"
+    "priceUpdatedDate": "2026-10-23",
+    "displayTitle": "야마구치 우베 초요CC 골프 주중 추가 서비스"
   },
   {
     "id": "japan-ube-choyo-3n4d-cheongju",
@@ -27898,7 +27975,8 @@
       "초요CC",
       "야마구치골프",
       "청주출발일본골프"
-    ]
+    ],
+    "displayTitle": "온천 루트인 우베 석식 포함 에어로케이 골프여행"
   },
   {
     "id": "japan-kitakyushu-sanyo-onsen-2n3d-cheongju",
@@ -28094,7 +28172,8 @@
       "야마구치골프",
       "청주출발일본골프",
       "1인1실골프"
-    ]
+    ],
+    "displayTitle": "1인 1실 온천골프 야마구치 산요GC 골프여행"
   },
   {
     "id": "japan-kumamoto-aso-kadoman-cheongju",
@@ -28377,7 +28456,8 @@
       "청주출발일본골프"
     ],
     "price": "1,270,000원~",
-    "priceUpdatedDate": "2026-10-24"
+    "priceUpdatedDate": "2026-10-24",
+    "displayTitle": "카도만 온천호텔 다색 골프 골프여행"
   },
   {
     "id": "japan-kumamoto-city-onsen-cheongju",
@@ -28657,7 +28737,8 @@
       "청주출발일본골프"
     ],
     "price": "1,180,000원~",
-    "priceUpdatedDate": "2026-10-24"
+    "priceUpdatedDate": "2026-10-24",
+    "displayTitle": "시내 온천호텔 다색 골프 골프여행"
   },
   {
     "id": "japan-ube-choyo-4n5d",
@@ -29367,7 +29448,8 @@
       "해외골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "야마구치 우베 초요CC 골프 주중 추가 서비스"
   },
   {
     "id": "japan-kagoshima-tenmonkan",
@@ -29571,7 +29653,8 @@
       "인천출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-07"
+    "priceUpdatedDate": "2026-10-07",
+    "displayTitle": "가고시마 텐몬칸 시내 골프 2색｜난코쿠CC·치란CC"
   },
   {
     "id": "thailand-bangkok-sunvalley-busan",
@@ -30211,7 +30294,8 @@
       "/images/thailand-bangkok-sunvalley-busan/course-5.jpg",
       "/images/thailand-bangkok-sunvalley-busan/course-6.jpg"
     ],
-    "priceUpdatedDate": "2026-10-07"
+    "priceUpdatedDate": "2026-10-07",
+    "displayTitle": "무제한 2색골프 골프여행"
   },
   {
     "id": "japan-fukuoka-tosu-3n4d-am",
@@ -30478,7 +30562,8 @@
       "도스골프여행",
       "일본골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "조조패턴 골프여행"
   },
   {
     "id": "japan-fukuoka-tosu-3n4d-pm",
@@ -30833,7 +30918,8 @@
       "도스골프여행",
       "일본골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "석석패턴 골프여행"
   },
   {
     "id": "china-weihai-3color",
@@ -31213,7 +31299,8 @@
       "중국골프여행",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "천익·포인트·위고BIP CC 골프여행"
   },
   {
     "id": "thailand-bangkok-lotusvalley-busan",
@@ -31840,7 +31927,8 @@
         "date": "2027-03-13",
         "price": 1049000
       }
-    ]
+    ],
+    "displayTitle": "로터스밸리CC 골프여행"
   },
   {
     "id": "japan-miyazaki-onsen-2color",
@@ -32370,7 +32458,8 @@
       "아오시마골프",
       "일본골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "품격 시내 온천 2색 골프여행"
   },
   {
     "id": "china-weihai-2color-unlimited",
@@ -32498,7 +32587,8 @@
         "price": 599000
       }
     ],
-    "holePriceDepartureDate": "2026-10-25"
+    "holePriceDepartureDate": "2026-10-25",
+    "displayTitle": "2색 무제한 골프여행"
   },
   {
     "id": "philippines-clark-lakewood-5n7d",
@@ -32644,7 +32734,8 @@
       "무제한골프",
       "장박골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "레이크우드CC 골프여행"
   },
   {
     "id": "saipan-laolao-pic-1029",
@@ -32902,7 +32993,8 @@
       "PIC리조트",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "라오라오베이CC PIC리조트 골프여행"
   },
   {
     "id": "china-hainan-samgongli-winter",
@@ -33162,7 +33254,8 @@
       "풀만호텔",
       "동계골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "삼공리CC 풀만호텔 동계 골프여행"
   },
   {
     "id": "saipan-coralocean-pic-nov",
@@ -33500,7 +33593,8 @@
       "PIC리조트",
       "인천출발",
       "골프패키지"
-    ]
+    ],
+    "displayTitle": "코랄오션CC PIC리조트 11월 골프여행"
   },
   {
     "id": "philippines-manila-alabang-busan",
@@ -33619,7 +33713,8 @@
       "비베레호텔",
       "부산출발"
     ],
-    "priceUpdatedDate": "2026-10-02"
+    "priceUpdatedDate": "2026-10-02",
+    "displayTitle": "이글릿지·파인힐스·셔우드·스플랜디도 비베레호텔 골프여행"
   },
   {
     "id": "japan-okinawa-kanucha-asiana",
@@ -33752,7 +33847,8 @@
       "카누차리조트",
       "일본골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "카누차 골프 코스 골프여행"
   },
   {
     "id": "japan-miyakojima-shigira-santamonica",
@@ -33907,7 +34003,8 @@
       "산타모니카골프텔",
       "일본골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "미야코지마 시기라베이CC 산타모니카 골프텔 골프여행"
   },
   {
     "id": "thailand-chiangmai-royal-golftel",
@@ -34420,7 +34517,8 @@
         "date": "2027-02-28",
         "price": 1079000
       }
-    ]
+    ],
+    "displayTitle": "로얄 치앙마이CC 골프텔 골프여행"
   },
   {
     "id": "thailand-chiangmai-royal-golftel-4n6d",
@@ -34554,7 +34652,8 @@
         "date": "2026-10-18",
         "price": 1019000
       }
-    ]
+    ],
+    "displayTitle": "로얄 치앙마이CC 골프텔 골프여행"
   },
   {
     "id": "thailand-chiangmai-royal-golftel-busan",
@@ -34870,7 +34969,8 @@
         "date": "2027-02-23",
         "price": 1179000
       }
-    ]
+    ],
+    "displayTitle": "로얄 치앙마이CC 골프텔 골프여행"
   },
   {
     "id": "philippines-cebu-liloan-busan",
@@ -35157,7 +35257,8 @@
     "price": "399,000원~",
     "period": "2026년 10월 ~ 2026년 12월",
     "priceUpdatedDate": "2026-10-23",
-    "title": "[부산출발] 필리핀 세부 골프여행 릴로안CC 무제한 3박5일 399,000원부터"
+    "title": "[부산출발] 필리핀 세부 골프여행 릴로안CC 무제한 3박5일 399,000원부터",
+    "displayTitle": "릴로안CC 무제한 골프여행"
   },
   {
     "id": "thailand-chonburi-kgolf-busan",
@@ -35807,7 +35908,8 @@
     "price": "699,000원~",
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 태국 파타야 골프여행 그린우드·트레저힐·파타비아 3색 무제한 3박5일 699,000원부터"
+    "title": "[부산출발] 태국 파타야 골프여행 그린우드·트레저힐·파타비아 3색 무제한 3박5일 699,000원부터",
+    "displayTitle": "그린우드·트레저힐·파타비아 3색 무제한 골프여행"
   },
   {
     "id": "thailand-chonburi-kgolf-busan-4n6d",
@@ -35966,7 +36068,8 @@
     "price": "799,000원~",
     "period": "2026년 10월 ~ 2026년 12월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 태국 파타야 골프여행 그린우드·트레저힐·파타비아 3색 무제한 4박6일 799,000원부터"
+    "title": "[부산출발] 태국 파타야 골프여행 그린우드·트레저힐·파타비아 3색 무제한 4박6일 799,000원부터",
+    "displayTitle": "그린우드·트레저힐·파타비아 3색 무제한 골프여행"
   },
   {
     "id": "philippines-clark-spot-imperial-busan",
@@ -36110,7 +36213,8 @@
     "price": "699,000원~",
     "period": "2026년 11월 ~ 2027년 1월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 필리핀 클락 골프여행 임페리얼 호텔 4색 4박6일 72홀 스팟 699,000원부터"
+    "title": "[부산출발] 필리핀 클락 골프여행 임페리얼 호텔 4색 4박6일 72홀 스팟 699,000원부터",
+    "displayTitle": "임페리얼 호텔 4색 골프여행"
   },
   {
     "id": "philippines-clark-3color-busan",
@@ -36756,7 +36860,8 @@
     "price": "1,049,000원~",
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 필리핀 클락 골프여행 FA코리아·로얄센트럴·뉴아시아 3색 3박5일 1,049,000원부터"
+    "title": "[부산출발] 필리핀 클락 골프여행 FA코리아·로얄센트럴·뉴아시아 3색 3박5일 1,049,000원부터",
+    "displayTitle": "FA코리아·로얄센트럴·뉴아시아 3색 골프여행"
   },
   {
     "id": "philippines-clark-3color-busan-4n6d",
@@ -36951,7 +37056,8 @@
     "price": "949,000원~",
     "period": "2026년 10월 ~ 2027년 1월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 필리핀 클락 골프여행 FA코리아·로얄센트럴·뉴아시아 3색 4박6일 949,000원부터"
+    "title": "[부산출발] 필리핀 클락 골프여행 FA코리아·로얄센트럴·뉴아시아 3색 4박6일 949,000원부터",
+    "displayTitle": "FA코리아·로얄센트럴·뉴아시아 3색 골프여행"
   },
   {
     "id": "philippines-clark-free-3color-cheongju",
@@ -37624,7 +37730,8 @@
       "클락자유골프",
       "1인1실골프",
       "청주클락"
-    ]
+    ],
+    "displayTitle": "전 일정 1인 1실 더 타임즈호텔 3색 골프여행"
   },
   {
     "id": "philippines-clark-quest-3color-cheongju",
@@ -38255,7 +38362,8 @@
       "클락3색골프",
       "퀘스트호텔",
       "청주클락"
-    ]
+    ],
+    "displayTitle": "퀘스트호텔 3색 골프여행"
   },
   {
     "id": "philippines-clark-khotel-3color-busan",
@@ -38420,7 +38528,8 @@
       "미모사CC",
       "필리핀골프여행",
       "부산출발"
-    ]
+    ],
+    "displayTitle": "미모사·FA코리아·로얄센트럴 3색 더 그랜드 K호텔 골프여행"
   },
   {
     "id": "philippines-clark-lakewood-golftel-busan",
@@ -38587,7 +38696,8 @@
       "필리핀골프여행",
       "클락골프텔",
       "부산출발"
-    ]
+    ],
+    "displayTitle": "레이크우드CC 골프텔 무제한 골프여행"
   },
   {
     "id": "philippines-clark-kaniville-2color-busan",
@@ -38754,7 +38864,8 @@
       "로얄센트럴",
       "필리핀골프여행",
       "부산출발"
-    ]
+    ],
+    "displayTitle": "로얄센트럴·뉴아시아 2색 카니빌 풀빌라 1인 1실 골프여행"
   },
   {
     "id": "philippines-clark-poolvilla-3n5d-cheongju",
@@ -38929,7 +39040,8 @@
       "클락풀빌라",
       "청주클락",
       "필리핀골프여행"
-    ]
+    ],
+    "displayTitle": "풀빌라 1인 1실 뉴아시아·로얄센트럴 골프여행"
   },
   {
     "id": "philippines-clark-newasia-busan",
@@ -39573,7 +39685,8 @@
     "price": "749,000원~",
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-22",
-    "title": "[부산출발] 필리핀 클락 골프여행 뉴아시아CC 골프텔 무제한 3박5일 749,000원부터"
+    "title": "[부산출발] 필리핀 클락 골프여행 뉴아시아CC 골프텔 무제한 3박5일 749,000원부터",
+    "displayTitle": "뉴아시아CC 골프텔 무제한 골프여행"
   },
   {
     "id": "philippines-clark-newasia-busan-4n6d",
@@ -39766,7 +39879,8 @@
     "price": "699,000원~",
     "period": "2026년 10월 ~ 2027년 1월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 필리핀 클락 골프여행 뉴아시아CC 골프텔 무제한 4박6일 699,000원부터"
+    "title": "[부산출발] 필리핀 클락 골프여행 뉴아시아CC 골프텔 무제한 4박6일 699,000원부터",
+    "displayTitle": "뉴아시아CC 골프텔 무제한 골프여행"
   },
   {
     "id": "philippines-clark-royalcentral-busan",
@@ -40401,7 +40515,8 @@
     "price": "849,000원~",
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 필리핀 클락 골프여행 로얄센트럴CC 무제한 3박5일 849,000원부터"
+    "title": "[부산출발] 필리핀 클락 골프여행 로얄센트럴CC 무제한 3박5일 849,000원부터",
+    "displayTitle": "로얄센트럴CC 무제한 골프여행"
   },
   {
     "id": "philippines-clark-royalcentral-busan-4n6d",
@@ -40581,7 +40696,8 @@
     "price": "699,000원~",
     "period": "2026년 10월 ~ 2027년 1월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 필리핀 클락 골프여행 로얄센트럴CC 무제한 4박6일 699,000원부터"
+    "title": "[부산출발] 필리핀 클락 골프여행 로얄센트럴CC 무제한 4박6일 699,000원부터",
+    "displayTitle": "로얄센트럴CC 무제한 골프여행"
   },
   {
     "id": "philippines-clark-3color-value-incheon",
@@ -40740,7 +40856,8 @@
       "레이크우드CC",
       "실속골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "실속 3색 골프여행"
   },
   {
     "id": "thailand-sriracha-busan",
@@ -41373,7 +41490,8 @@
     "price": "1,029,000원~",
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 태국 방콕 시라차 골프여행 6개 골프장 다색 27홀 3박5일 1,029,000원부터"
+    "title": "[부산출발] 태국 방콕 시라차 골프여행 6개 골프장 다색 27홀 3박5일 1,029,000원부터",
+    "displayTitle": "6개 골프장 다색 골프여행"
   },
   {
     "id": "thailand-ayutthaya-busan",
@@ -41997,7 +42115,8 @@
     "price": "1,059,000원~",
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 태국 방콕 아유타야 골프여행 4개 골프장 다색 무제한 3박5일 1,059,000원부터"
+    "title": "[부산출발] 태국 방콕 아유타야 골프여행 4개 골프장 다색 무제한 3박5일 1,059,000원부터",
+    "displayTitle": "4개 골프장 다색 무제한 골프여행"
   },
   {
     "id": "thailand-chiangmai-gassan-golftel-busan",
@@ -42317,7 +42436,8 @@
     "price": "959,000원~",
     "period": "2026년 11월 ~ 2027년 2월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 태국 치앙마이 골프여행 가싼 파노라마CC 골프텔 3박5일 959,000원부터"
+    "title": "[부산출발] 태국 치앙마이 골프여행 가싼 파노라마CC 골프텔 3박5일 959,000원부터",
+    "displayTitle": "가싼 파노라마CC 골프텔 골프여행"
   },
   {
     "id": "thailand-chiangmai-gassan-golftel-busan-4n6d",
@@ -42478,7 +42598,8 @@
     "price": "999,000원~",
     "period": "2026년 11월 ~ 2026년 12월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 태국 치앙마이 골프여행 가싼 파노라마CC 골프텔 4박6일 999,000원부터"
+    "title": "[부산출발] 태국 치앙마이 골프여행 가싼 파노라마CC 골프텔 4박6일 999,000원부터",
+    "displayTitle": "가싼 파노라마CC 골프텔 골프여행"
   },
   {
     "id": "thailand-pattaya-onepatio-busan",
@@ -43106,7 +43227,8 @@
     "price": "1,039,000원~",
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 태국 파타야 골프여행 시내호텔 3색골프 단독차량 3박5일 1,039,000원부터"
+    "title": "[부산출발] 태국 파타야 골프여행 시내호텔 3색골프 단독차량 3박5일 1,039,000원부터",
+    "displayTitle": "시내호텔 3색골프 단독차량 골프여행"
   },
   {
     "id": "vietnam-halongbay-busan",
@@ -43439,7 +43561,8 @@
     "price": "989,000원~",
     "period": "2026년 10월 ~ 2026년 12월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 베트남 하롱베이 골프여행 드래곤링크스·FLC·뚜언쩌우 다색 3박5일 989,000원부터"
+    "title": "[부산출발] 베트남 하롱베이 골프여행 드래곤링크스·FLC·뚜언쩌우 다색 3박5일 989,000원부터",
+    "displayTitle": "드래곤링크스·FLC·뚜언쩌우 다색 골프여행"
   },
   {
     "id": "vietnam-halong-flc-busan",
@@ -43767,7 +43890,8 @@
     "price": "1,029,000원~",
     "period": "2026년 10월 ~ 2026년 12월",
     "priceUpdatedDate": "2026-10-23",
-    "title": "[부산출발] 베트남 하롱베이 골프여행 FLC 하롱베이CC 2색 골프텔 3박5일 1,029,000원부터"
+    "title": "[부산출발] 베트남 하롱베이 골프여행 FLC 하롱베이CC 2색 골프텔 3박5일 1,029,000원부터",
+    "displayTitle": "FLC 하롱베이CC 2색 골프텔 골프여행"
   },
   {
     "id": "vietnam-nhatrang-anara-busan",
@@ -44272,7 +44396,8 @@
     "price": "919,000원~",
     "period": "2026년 10월 ~ 2027년 2월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 베트남 나트랑 골프여행 아나라 빈티엔CC 81홀 3박5일 919,000원부터"
+    "title": "[부산출발] 베트남 나트랑 골프여행 아나라 빈티엔CC 81홀 3박5일 919,000원부터",
+    "displayTitle": "아나라 빈티엔CC 골프여행"
   },
   {
     "id": "vietnam-nhatrang-diamondbay-busan",
@@ -44844,7 +44969,8 @@
     "price": "1,059,000원~",
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 베트남 나트랑 골프여행 다이아몬드베이CC 골프텔 3박5일 1,059,000원부터"
+    "title": "[부산출발] 베트남 나트랑 골프여행 다이아몬드베이CC 골프텔 3박5일 1,059,000원부터",
+    "displayTitle": "다이아몬드베이CC 골프텔 골프여행"
   },
   {
     "id": "vietnam-nhatrang-3color-busan",
@@ -45414,7 +45540,8 @@
     "price": "979,000원~",
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 베트남 나트랑 골프여행 빈펄·다이아몬드베이·KN 3색 3박5일 979,000원부터"
+    "title": "[부산출발] 베트남 나트랑 골프여행 빈펄·다이아몬드베이·KN 3색 3박5일 979,000원부터",
+    "displayTitle": "빈펄·다이아몬드베이·KN 3색 골프여행"
   },
   {
     "id": "vietnam-nhatrang-vinpearl-beachfront-busan",
@@ -45689,7 +45816,8 @@
     "price": "899,000원~",
     "period": "2026년 10월 23일 ~ 11월 30일 (매일 출발)",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 베트남 나트랑 골프여행 KN CC·빈펄CC 2색 3박5일 매일 출발 899,000원부터"
+    "title": "[부산출발] 베트남 나트랑 골프여행 KN CC·빈펄CC 2색 3박5일 매일 출발 899,000원부터",
+    "displayTitle": "KN CC·빈펄CC 2색 골프여행"
   },
   {
     "id": "vietnam-nhatrang-2hotel-incheon",
@@ -46379,7 +46507,8 @@
       "다이아몬드베이",
       "KN골프링크스",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "빈펄·다이아몬드베이·KN 3색 골프여행"
   },
   {
     "id": "vietnam-nhatrang-2hotel-incheon-4n6d",
@@ -47070,7 +47199,8 @@
       "다이아몬드베이",
       "KN골프링크스",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "빈펄·다이아몬드베이·KN 3색 골프여행"
   },
   {
     "id": "china-guangzhou-emerald-busan",
@@ -47321,7 +47451,8 @@
     "price": "1,249,000원~",
     "period": "2026년 12월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 중국 광저우 골프여행 에메랄드·조경·그랜드레이크 3색 3박5일 1,249,000원부터"
+    "title": "[부산출발] 중국 광저우 골프여행 에메랄드·조경·그랜드레이크 3색 3박5일 1,249,000원부터",
+    "displayTitle": "에메랄드·조경·그랜드레이크 3색 골프여행"
   },
   {
     "id": "china-guangzhou-emerald-busan-4n6d",
@@ -47573,7 +47704,8 @@
     "price": "1,199,000원~",
     "period": "2026년 12월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 중국 광저우 골프여행 에메랄드·조경·그랜드레이크 3색 4박6일 1,199,000원부터"
+    "title": "[부산출발] 중국 광저우 골프여행 에메랄드·조경·그랜드레이크 3색 4박6일 1,199,000원부터",
+    "displayTitle": "에메랄드·조경·그랜드레이크 3색 골프여행"
   },
   {
     "id": "china-xiamen-kaikou-busan",
@@ -47766,7 +47898,8 @@
     "price": "1,590,000원~",
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 중국 샤먼 골프여행 카이거CC 대회코스 3박4일 54홀 1,590,000원부터"
+    "title": "[부산출발] 중국 샤먼 골프여행 카이거CC 대회코스 3박4일 54홀 1,590,000원부터",
+    "displayTitle": "카이거CC 대회코스 골프여행"
   },
   {
     "id": "china-xiamen-kaikou-busan-4n5d",
@@ -47964,7 +48097,8 @@
     "price": "1,660,000원~",
     "period": "2026년 11월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 중국 샤먼 골프여행 카이거CC 대회코스 4박5일 72홀 1,660,000원부터"
+    "title": "[부산출발] 중국 샤먼 골프여행 카이거CC 대회코스 4박5일 72홀 1,660,000원부터",
+    "displayTitle": "카이거CC 대회코스 골프여행"
   },
   {
     "id": "china-xiamen-kaikou-incheon",
@@ -48654,7 +48788,8 @@
       "카이거CC",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "카이거CC 골프여행"
   },
   {
     "id": "thailand-ratchaburi-busan",
@@ -49239,7 +49374,8 @@
     "price": "849,000원~",
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 태국 로얄라차부리CC 골프여행 무제한 골프텔 3박5일 849,000원부터"
+    "title": "[부산출발] 태국 로얄라차부리CC 골프여행 무제한 골프텔 3박5일 849,000원부터",
+    "displayTitle": "무제한 골프텔 골프여행"
   },
   {
     "id": "thailand-ratchaburi-busan-4n6d",
@@ -49397,7 +49533,8 @@
     "price": "1,049,000원~",
     "period": "2026년 10월 ~ 2026년 12월",
     "priceUpdatedDate": "2026-10-07",
-    "title": "[부산출발] 태국 로얄라차부리CC 골프여행 무제한 골프텔 4박6일 1,049,000원부터"
+    "title": "[부산출발] 태국 로얄라차부리CC 골프여행 무제한 골프텔 4박6일 1,049,000원부터",
+    "displayTitle": "무제한 골프텔 골프여행"
   },
   {
     "id": "japan-kagoshima-satsuma-resort",
@@ -50039,7 +50176,8 @@
       "일본온천골프",
       "일본골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "사츠마 골프리조트 골프여행"
   },
   {
     "id": "japan-kagoshima-miyakonojo-3color-incheon",
@@ -50732,7 +50870,8 @@
       "온천골프",
       "1인1실",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "미야코노조 시내 3색 골프여행"
   },
   {
     "id": "indonesia-manado-paradise",
@@ -51477,7 +51616,8 @@
       "인도네시아골프",
       "해외골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "파라다이스 골프&리조트 골프여행"
   },
   {
     "id": "indonesia-batam-4color-unlimited-incheon",
@@ -51643,7 +51783,8 @@
       "무제한골프",
       "겨울골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "4색 무제한 골프여행"
   },
   {
     "id": "indonesia-batam-4color-unlimited-incheon-4n6d",
@@ -51810,7 +51951,8 @@
       "무제한골프",
       "겨울골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "4색 무제한 골프여행"
   },
   {
     "id": "malaysia-kota-borneo-unlimited-busan",
@@ -52190,7 +52332,8 @@
       }
     ],
     "price": "999,000원~",
-    "title": "[부산출발] 말레이시아 코타키나발루 골프여행 보르네오CC 무제한 3박5일·4박6일 매일36홀 999,000원부터"
+    "title": "[부산출발] 말레이시아 코타키나발루 골프여행 보르네오CC 무제한 3박5일·4박6일 매일36홀 999,000원부터",
+    "displayTitle": "보르네오CC 무제한 골프여행"
   },
   {
     "id": "vietnam-danang-muongthanh-busan",
@@ -52913,7 +53056,8 @@
       }
     ],
     "price": "999,000원~",
-    "title": "[부산출발] 베트남 다낭 골프여행 무엉탄 럭셔리 시내 특급 3색 3박5일 54홀 999,000원부터"
+    "title": "[부산출발] 베트남 다낭 골프여행 무엉탄 럭셔리 시내 특급 3색 3박5일 54홀 999,000원부터",
+    "displayTitle": "무엉탄 럭셔리 시내 특급 3색 골프여행"
   },
   {
     "id": "vietnam-hanoi-phoenix-busan",
@@ -53651,7 +53795,8 @@
       }
     ],
     "price": "1,299,000원~",
-    "title": "[부산출발] 베트남 하노이 골프여행 피닉스CC 3박5일 54홀 시내 특급호텔 1,299,000원부터"
+    "title": "[부산출발] 베트남 하노이 골프여행 피닉스CC 3박5일 54홀 시내 특급호텔 1,299,000원부터",
+    "displayTitle": "피닉스CC 골프여행"
   },
   {
     "id": "vietnam-hanoi-bacninh-2color-incheon",
@@ -54376,7 +54521,8 @@
       "엠버힐스",
       "베트남골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "박닌 VIP 2색 골프여행"
   },
   {
     "id": "japan-matsuyama-city-2n3d-busan",
@@ -55092,7 +55238,8 @@
       }
     ],
     "price": "849,000원~",
-    "title": "[부산출발] 일본 마쓰야마 골프여행 시내호텔 2박3일 36홀 2인출발 849,000원부터"
+    "title": "[부산출발] 일본 마쓰야마 골프여행 시내호텔 2박3일 36홀 2인출발 849,000원부터",
+    "displayTitle": "시내호텔 골프여행"
   },
   {
     "id": "japan-matsuyama-city-3n4d-busan",
@@ -55769,7 +55916,8 @@
       }
     ],
     "price": "1,199,000원~",
-    "title": "[부산출발] 일본 마쓰야마 골프여행 시내호텔 3박4일 54홀 2인출발 1,199,000원부터"
+    "title": "[부산출발] 일본 마쓰야마 골프여행 시내호텔 3박4일 54홀 2인출발 1,199,000원부터",
+    "displayTitle": "시내호텔 골프여행"
   },
   {
     "id": "japan-takamatsu-okura-busan",
@@ -56194,7 +56342,8 @@
       }
     ],
     "price": "849,000원~",
-    "title": "[부산출발] 일본 다카마쓰 골프여행 다카마쓰CC·사카이데CC 오쿠라호텔 2박3일·3박4일 2인출발 849,000원부터"
+    "title": "[부산출발] 일본 다카마쓰 골프여행 다카마쓰CC·사카이데CC 오쿠라호텔 2박3일·3박4일 2인출발 849,000원부터",
+    "displayTitle": "다카마쓰CC·사카이데CC 오쿠라호텔 골프여행"
   },
   {
     "id": "japan-takamatsu-city-3color-incheon",
@@ -56326,7 +56475,8 @@
       "일본골프여행",
       "시내골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "시내 호텔 그랜드CC + 골드 또는 로얄CC 골프여행"
   },
   {
     "id": "thailand-chiangmai-poolvilla-busan",
@@ -56905,7 +57055,8 @@
       "알파인CC",
       "태국골프여행",
       "부산출발"
-    ]
+    ],
+    "displayTitle": "시그니처 풀빌라 하이랜드·알파인·그린밸리 골프여행"
   },
   {
     "id": "japan-okinawa-torifito-3color",
@@ -57030,7 +57181,8 @@
       "오키나와로얄골프",
       "일본골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "오션캐슬·츄라오차드·로얄 3색 골프여행"
   },
   {
     "id": "japan-okinawa-hewitt-3color-seol",
@@ -57157,7 +57309,8 @@
       "팜힐즈골프",
       "일본골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "오키나와CC·오션캐슬·팜힐즈 3색 골프여행"
   },
   {
     "country": "중국",
@@ -57437,7 +57590,8 @@
       "하이커우골프",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "미션힐스 하이커우 골프여행"
   },
   {
     "country": "중국",
@@ -57722,7 +57876,8 @@
       "하이커우골프",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "미션힐스 하이커우 골프여행"
   },
   {
     "id": "thailand-chiangmai-4color-dinner-busan",
@@ -58040,7 +58195,8 @@
       "하이랜드골프",
       "태국골프여행",
       "부산출발"
-    ]
+    ],
+    "displayTitle": "하이랜드·노스힐·레거시·파노라마 다색 골프여행"
   },
   {
     "country": "중국",
@@ -58282,7 +58438,8 @@
       }
     ],
     "price": "1,299,000원~",
-    "seoIntro": "부산 출발 중국 광저우 골프여행 3박5일 상품으로, 사자호CC에서 72홀을 라운드하고 골프장 안 쉐라톤 칭위안 라이언 레이크 리조트에 머무는 에어부산 직항 노쇼핑 골프패키지입니다."
+    "seoIntro": "부산 출발 중국 광저우 골프여행 3박5일 상품으로, 사자호CC에서 72홀을 라운드하고 골프장 안 쉐라톤 칭위안 라이언 레이크 리조트에 머무는 에어부산 직항 노쇼핑 골프패키지입니다.",
+    "displayTitle": "사자호CC 쉐라톤 리조트 골프여행"
   },
   {
     "country": "중국",
@@ -58529,7 +58686,8 @@
       }
     ],
     "price": "1,299,000원~",
-    "seoIntro": "부산 출발 중국 광저우 골프여행 4박6일 상품으로, 사자호CC에서 99홀을 라운드하고 골프장 안 쉐라톤 칭위안 라이언 레이크 리조트에 머무는 에어부산 직항 노쇼핑 골프패키지입니다."
+    "seoIntro": "부산 출발 중국 광저우 골프여행 4박6일 상품으로, 사자호CC에서 99홀을 라운드하고 골프장 안 쉐라톤 칭위안 라이언 레이크 리조트에 머무는 에어부산 직항 노쇼핑 골프패키지입니다.",
+    "displayTitle": "사자호CC 쉐라톤 리조트 골프여행"
   },
   {
     "id": "china-guangzhou-wuyi-heshan-busan",
@@ -58784,7 +58942,8 @@
       "골프패키지",
       "부산출발",
       "에어부산"
-    ]
+    ],
+    "displayTitle": "우이팜CC·학산CC 2색 골프여행"
   },
   {
     "id": "china-guangzhou-wuyi-heshan-busan-4n6d",
@@ -59045,7 +59204,8 @@
       "골프패키지",
       "부산출발",
       "에어부산"
-    ]
+    ],
+    "displayTitle": "우이팜CC·학산CC 2색 골프여행"
   },
   {
     "id": "china-guangzhou-wuyi-heshan-incheon",
@@ -59412,7 +59572,8 @@
       "골프패키지",
       "인천출발",
       "조조패턴"
-    ]
+    ],
+    "displayTitle": "우이팜CC·학산CC 2색 골프여행"
   },
   {
     "id": "china-guangzhou-yinhai-nanhai-busan",
@@ -59639,7 +59800,8 @@
       "골프패키지",
       "부산출발",
       "에어부산"
-    ]
+    ],
+    "displayTitle": "은해CC·남해CC 2색 골프여행"
   },
   {
     "id": "china-guangzhou-yinhai-nanhai-busan-4n6d",
@@ -59879,7 +60041,8 @@
       "골프패키지",
       "부산출발",
       "에어부산"
-    ]
+    ],
+    "displayTitle": "은해CC·남해CC 2색 골프여행"
   },
   {
     "id": "philippines-manila-sunvalley",
@@ -60003,7 +60166,8 @@
       "필리핀골프여행",
       "안티폴로골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "썬밸리 골프&리조트 골프텔 골프여행"
   },
   {
     "id": "philippines-manila-splendido-golftel-busan",
@@ -60700,7 +60864,8 @@
       "무제한골프",
       "부산출발",
       "필리핀항공"
-    ]
+    ],
+    "displayTitle": "스플랜디도 골프텔 무제한 골프여행"
   },
   {
     "id": "philippines-manila-splendido-golftel-busan-7c",
@@ -61047,7 +61212,8 @@
       "무제한골프",
       "부산출발",
       "제주항공"
-    ]
+    ],
+    "displayTitle": "스플랜디도 골프텔 무제한 골프여행"
   },
   {
     "id": "philippines-manila-splendido-golftel-busan-7c-4n6d",
@@ -61231,7 +61397,8 @@
       "무제한골프",
       "부산출발",
       "제주항공"
-    ]
+    ],
+    "displayTitle": "스플랜디도 골프텔 무제한 골프여행"
   },
   {
     "id": "philippines-cebu-3color-busan",
@@ -61958,7 +62125,8 @@
       "알타비스타골프",
       "필리핀골프여행",
       "부산출발"
-    ]
+    ],
+    "displayTitle": "릴로안·알타비스타·클럽필리피노 실속 3색 골프여행"
   },
   {
     "id": "vietnam-haiphong-sonofelice",
@@ -62498,7 +62666,8 @@
       "하이퐁골프텔",
       "하롱베이골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "소노펠리체CC 골프텔 골프여행"
   },
   {
     "country": "중국",
@@ -62655,7 +62824,8 @@
       }
     ],
     "price": "1,640,000원~",
-    "seoIntro": "인천 출발 하이난 보아오 골프여행 3박5일 상품으로, BFA CC에서 27홀씩 81홀을 라운드하고 보아오 골든코스트 온천 호텔에 머무는 트리니티항공 직항 골프패키지입니다."
+    "seoIntro": "인천 출발 하이난 보아오 골프여행 3박5일 상품으로, BFA CC에서 27홀씩 81홀을 라운드하고 보아오 골든코스트 온천 호텔에 머무는 트리니티항공 직항 골프패키지입니다.",
+    "displayTitle": "보아오 BFA CC 온천 리조트 골프여행"
   },
   {
     "country": "중국",
@@ -62817,7 +62987,8 @@
       }
     ],
     "price": "1,740,000원~",
-    "seoIntro": "인천 출발 하이난 보아오 골프여행 4박6일 상품으로, BFA CC에서 27홀씩 81홀을 라운드하고 보아오 골든코스트 온천 호텔에 머무는 트리니티항공 직항 골프패키지입니다."
+    "seoIntro": "인천 출발 하이난 보아오 골프여행 4박6일 상품으로, BFA CC에서 27홀씩 81홀을 라운드하고 보아오 골든코스트 온천 호텔에 머무는 트리니티항공 직항 골프패키지입니다.",
+    "displayTitle": "보아오 BFA CC 온천 리조트 골프여행"
   },
   {
     "id": "china-hainan-hongshuiwan-incheon",
@@ -63100,7 +63271,8 @@
       "청마이골프",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "홍수만CC 골프여행"
   },
   {
     "id": "china-hainan-hongshuiwan-incheon-4n5d",
@@ -63388,7 +63560,8 @@
       "청마이골프",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "홍수만CC 골프여행"
   },
   {
     "id": "china-hainan-meilangwan-incheon",
@@ -63672,7 +63845,8 @@
       "청마이골프",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "미량만CC 골프여행"
   },
   {
     "id": "china-hainan-meilangwan-incheon-4n5d",
@@ -63961,7 +64135,8 @@
       "청마이골프",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "미량만CC 골프여행"
   },
   {
     "country": "중국",
@@ -64183,7 +64358,8 @@
       }
     ],
     "price": "1,999,000원~",
-    "seoIntro": "부산 출발 중국 광저우 골프여행 3박5일 상품으로, 미션힐스 동관·심천 12개 코스 중 54홀을 라운드하고 미션힐스 동관에 머무는 에어부산 직항 골프패키지입니다."
+    "seoIntro": "부산 출발 중국 광저우 골프여행 3박5일 상품으로, 미션힐스 동관·심천 12개 코스 중 54홀을 라운드하고 미션힐스 동관에 머무는 에어부산 직항 골프패키지입니다.",
+    "displayTitle": "미션힐스 동관·심천 골프여행"
   },
   {
     "country": "중국",
@@ -64418,7 +64594,8 @@
       }
     ],
     "price": "2,189,000원~",
-    "seoIntro": "부산 출발 중국 광저우 골프여행 4박6일 상품으로, 미션힐스 동관·심천 12개 코스 중 72홀을 라운드하고 미션힐스 동관에 머무는 에어부산 직항 골프패키지입니다."
+    "seoIntro": "부산 출발 중국 광저우 골프여행 4박6일 상품으로, 미션힐스 동관·심천 12개 코스 중 72홀을 라운드하고 미션힐스 동관에 머무는 에어부산 직항 골프패키지입니다.",
+    "displayTitle": "미션힐스 동관·심천 골프여행"
   },
   {
     "id": "china-guangzhou-holiday-island-busan",
@@ -64678,7 +64855,8 @@
       "중국골프여행",
       "부산출발",
       "에어부산"
-    ]
+    ],
+    "displayTitle": "홀리데이 아일랜드CC 골프여행"
   },
   {
     "id": "china-guangzhou-holiday-island-busan-4n6d",
@@ -64939,7 +65117,8 @@
       "중국골프여행",
       "부산출발",
       "에어부산"
-    ]
+    ],
+    "displayTitle": "홀리데이 아일랜드CC 골프여행"
   },
   {
     "id": "china-guangzhou-nansha-incheon",
@@ -65659,7 +65838,8 @@
       "중국골프여행",
       "심천골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "남사CC 골프여행"
   },
   {
     "id": "vietnam-haiphong-3color-sunflower",
@@ -66408,7 +66588,8 @@
       "루비트리골프",
       "베트남골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "드래곤링크스·루비트리·FLC 하롱베이 3색 골프여행"
   },
   {
     "id": "vietnam-haiphong-dragon-links-resort",
@@ -66953,7 +67134,8 @@
       "하이퐁골프텔",
       "베트남골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "드래곤링크스CC 드림드래곤 리조트 골프여행"
   },
   {
     "id": "thailand-chiangmai-centara-3color",
@@ -67661,7 +67843,8 @@
       "하이랜드골프",
       "태국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "하이랜드·노스힐·로얄 명품 3색 골프여행"
   },
   {
     "id": "thailand-pattaya-3color-value-incheon",
@@ -68067,7 +68250,8 @@
       "카오키여우",
       "파타야3색",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "실속 3색 골프여행"
   },
   {
     "id": "thailand-ratchaburi-panurangsi-incheon",
@@ -68423,7 +68607,8 @@
       "방콕골프",
       "27홀골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "파눗랑시CC 골프여행"
   },
   {
     "id": "thailand-khaoyai-2color-busan",
@@ -69021,7 +69206,8 @@
       "방콕골프",
       "부산출발",
       "2색골프"
-    ]
+    ],
+    "displayTitle": "키리마야·란초찬위 명문 2색 골프여행"
   },
   {
     "id": "thailand-pattaya-siam-3color-incheon",
@@ -69617,7 +69803,8 @@
       "태국골프여행",
       "치찬골프",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "시암CC 명문 3색 골프여행"
   },
   {
     "id": "thailand-bangkok-sratchada-3color-daegu",
@@ -69984,7 +70171,8 @@
       "방콕골프여행",
       "태국골프여행",
       "대구출발"
-    ]
+    ],
+    "displayTitle": "실속 3색 골프여행"
   },
   {
     "id": "thailand-pattaya-poolvilla-3color-daegu",
@@ -70152,7 +70340,8 @@
       "파타야풀빌라",
       "태국골프여행",
       "대구출발"
-    ]
+    ],
+    "displayTitle": "풀빌라 1인 1실 3색 골프여행"
   },
   {
     "id": "thailand-pattaya-value-3color-daegu",
@@ -70520,7 +70709,8 @@
       "대구출발"
     ],
     "price": "860,000원~",
-    "priceUpdatedDate": "2026-10-24"
+    "priceUpdatedDate": "2026-10-24",
+    "displayTitle": "실속 3색 골프여행"
   },
   {
     "id": "thailand-pattaya-premium-3color-daegu",
@@ -70886,7 +71076,8 @@
       "대구출발"
     ],
     "price": "1,100,000원~",
-    "priceUpdatedDate": "2026-10-24"
+    "priceUpdatedDate": "2026-10-24",
+    "displayTitle": "품격 3색 피닉스·파타야CC·방프라 골프여행"
   },
   {
     "id": "thailand-bangkok-premium-5color-daegu",
@@ -71063,7 +71254,8 @@
       "대구출발"
     ],
     "price": "1,220,000원~",
-    "priceUpdatedDate": "2026-10-24"
+    "priceUpdatedDate": "2026-10-24",
+    "displayTitle": "명품 5색 골프여행"
   },
   {
     "id": "vietnam-haiphong-sonofelice-city-combo",
@@ -71697,7 +71889,8 @@
       "하이퐁한인타운",
       "베트남골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "소노펠리체 골프여행"
   },
   {
     "id": "vietnam-halongbay-wyndham-3color",
@@ -72432,7 +72625,8 @@
       "뚜언쩌우골프",
       "베트남골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "FLC·드래곤링크스·뚜언쩌우 3색 골프여행"
   },
   {
     "id": "vietnam-hue-goldensands-unlimited-incheon",
@@ -73047,7 +73241,8 @@
       "무제한골프",
       "베트남골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "골든샌즈CC 무제한 골프여행"
   },
   {
     "id": "vietnam-danang-6course-alacarte-busan",
@@ -73186,7 +73381,8 @@
       "바나힐골프",
       "부산출발",
       "베트남골프"
-    ]
+    ],
+    "displayTitle": "몽고메리·바나힐·빈펄 등 다색 골프여행"
   },
   {
     "id": "vietnam-hanoi-yenbai-unlimited-incheon",
@@ -73314,7 +73510,8 @@
       "무제한골프",
       "하노이골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "옌바이 스타 무제한 골프여행"
   },
   {
     "id": "china-fuzhou-marriott-straits",
@@ -73446,7 +73643,8 @@
       "푸저우메리어트",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "해협CC 메리어트 호텔 골프여행"
   },
   {
     "id": "china-nanjing-sunisland-incheon",
@@ -74177,7 +74375,8 @@
       "태양도CC",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "태양도CC 골프여행"
   },
   {
     "id": "china-jinan-goldrock-unlimited-incheon",
@@ -74360,7 +74559,8 @@
       "무제한골프",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "고운호CC 무제한 골프여행"
   },
   {
     "id": "china-shenzhen-fenghuangshan-incheon",
@@ -74631,7 +74831,8 @@
       "둥관골프",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "봉황산CC 골프여행"
   },
   {
     "id": "china-shenzhen-fenghuangshan-incheon-4n6d",
@@ -74891,7 +75092,8 @@
       "둥관골프",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "봉황산CC 골프여행"
   },
   {
     "id": "china-lijiang-jadedragon-incheon",
@@ -75013,7 +75215,8 @@
       "차마고도",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "옥룡설산GC 골프여행"
   },
   {
     "id": "china-lijiang-jadedragon-incheon-4n5d",
@@ -75136,7 +75339,8 @@
       "차마고도",
       "중국골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "옥룡설산GC 골프여행"
   },
   {
     "country": "일본",
@@ -75349,7 +75553,8 @@
       }
     ],
     "price": "1,090,000원~",
-    "seoIntro": "인천 출발 일본 사가·도스 골프여행 2박3일 상품으로, 규슈 지역 골프장에서 매일 다른 곳 54홀을 라운드하고 도스역 앞 그린리치 호텔에 머무는 골프패키지입니다."
+    "seoIntro": "인천 출발 일본 사가·도스 골프여행 2박3일 상품으로, 규슈 지역 골프장에서 매일 다른 곳 54홀을 라운드하고 도스역 앞 그린리치 호텔에 머무는 골프패키지입니다.",
+    "displayTitle": "규슈 7색 골프여행"
   },
   {
     "country": "일본",
@@ -75531,7 +75736,8 @@
       }
     ],
     "price": "1,390,000원~",
-    "seoIntro": "인천 출발 일본 사가·도스 골프여행 3박4일 상품으로, 규슈 지역 골프장에서 매일 다른 곳 72홀을 라운드하고 도스역 앞 그린리치 호텔에 머무는 골프패키지입니다."
+    "seoIntro": "인천 출발 일본 사가·도스 골프여행 3박4일 상품으로, 규슈 지역 골프장에서 매일 다른 곳 72홀을 라운드하고 도스역 앞 그린리치 호텔에 머무는 골프패키지입니다.",
+    "displayTitle": "규슈 7색 골프여행"
   },
   {
     "id": "japan-hiroshima-mihara-city-incheon",
@@ -75973,7 +76179,8 @@
       "세토우치골프",
       "일본골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "미하라 시내 골프여행"
   },
   {
     "id": "japan-tokyo-mana-tsuchiura-2n3d-incheon",
@@ -76139,7 +76346,8 @@
       "츠치우라골프",
       "일본골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "마나리조트 골프여행"
   },
   {
     "id": "japan-tokyo-mana-tsuchiura-3n4d-incheon",
@@ -76310,7 +76518,8 @@
       "츠치우라골프",
       "일본골프여행",
       "인천출발"
-    ]
+    ],
+    "displayTitle": "마나리조트 골프여행"
   },
   {
     "id": "japan-tokyo-mana-90hole-3n4d-cheongju",
@@ -76494,7 +76703,8 @@
       "이바라키골프",
       "마나CC",
       "청주출발일본골프"
-    ]
+    ],
+    "displayTitle": "마나리조트 골프여행"
   },
   {
     "id": "japan-ibaraki-mana-rockhill-3n4d-cheongju",
@@ -76623,7 +76833,8 @@
       "마나CC",
       "록힐CC",
       "청주출발일본골프"
-    ]
+    ],
+    "displayTitle": "마나리조트 마나CC·록힐 2색 골프여행"
   },
   {
     "id": "japan-ibaraki-rockhill-resort-cheongju",
@@ -76911,7 +77122,8 @@
       "록힐CC",
       "청주이바라키",
       "청주출발일본골프"
-    ]
+    ],
+    "displayTitle": "록힐 리조트 골프여행"
   },
   {
     "id": "japan-ibaraki-kamisu-onsen-cheongju",
@@ -77116,7 +77328,8 @@
       "도쿄골프"
     ],
     "price": "1,140,000원~",
-    "priceUpdatedDate": "2026-10-24"
+    "priceUpdatedDate": "2026-10-24",
+    "displayTitle": "가미스 천연온천 아트호텔 골프여행"
   },
   {
     "id": "japan-ibaraki-mito-pgm-cheongju",
@@ -77326,6 +77539,7 @@
       "청주출발일본골프"
     ],
     "price": "1,140,000원~",
-    "priceUpdatedDate": "2026-10-24"
+    "priceUpdatedDate": "2026-10-24",
+    "displayTitle": "PGM 명문 골프장 골프여행"
   }
 ]
