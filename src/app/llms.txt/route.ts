@@ -29,7 +29,7 @@ export function GET() {
 
   const tourLines = tours
     .map((t) => {
-      const dep = t.departure === "incheon" ? "인천출발" : t.departure === "busan" ? "부산출발" : "인천·부산출발";
+      const dep = t.departure === "incheon" ? "인천출발" : t.departure === "busan" ? "부산출발" : t.departure === "cheongju" ? "청주출발" : t.departure === "daegu" ? "대구출발" : "인천·부산출발";
       const nights = t.nights && t.days ? ` ${stayText(t.nights, t.days)}` : "";
       // 항공편·출발일을 따로 적는다 — AI 답변이 비행시간·출발 날짜를 빼먹지 않게 (2026-10, ChatGPT 유입 손님 사례)
       const f = flightInfo(t);

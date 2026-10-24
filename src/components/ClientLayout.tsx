@@ -7,13 +7,14 @@ import Header from "./Header";
 import type { NavRegions } from "@/lib/navRegions";
 import Footer from "./Footer";
 import KakaoFloat from "./KakaoFloat";
+import { CHROME_DEP, isDep, type Dep } from "@/lib/departure";
 // 카카오 팝업은 화면을 가려 제거(2026-09-10). 플로팅 버튼은 작은 아이콘으로 다시 붙임(2026-10-08).
 
 const DEP_KEY = "padotour_departure";
-function readSavedDeparture(): "incheon" | "busan" | null {
+function readSavedDeparture(): Dep | null {
   try {
     const v = localStorage.getItem(DEP_KEY);
-    return v === "incheon" || v === "busan" ? v : null;
+    return isDep(v) ? v : null;
   } catch {
     return null;
   }
@@ -32,11 +33,12 @@ function ClientLayoutInner({ children, navRegions }: { children: React.ReactNode
 
   const queryDeparture = searchParams.get("departure");
 
-  const fromUrl =
+  const fromUrl: Dep | undefined =
     pathname.startsWith("/incheon") ? "incheon" :
     pathname.startsWith("/busan") ? "busan" :
-    queryDeparture === "incheon" ? "incheon" :
-    queryDeparture === "busan" ? "busan" :
+    pathname.startsWith("/cheongju") ? "cheongju" :
+    pathname.startsWith("/daegu") ? "daegu" :
+    isDep(queryDeparture) ? queryDeparture :
     undefined;
   // 주소에 출발지가 없는 화면(상품 상세·후기·골프장·예약조회)에서도 마지막으로 고른 출발지를 이어 쓴다.
   // 부산으로 들어온 손님에게 인천 블로그·번호가 보이던 문제 (사장님 지적 2026-10-10)
@@ -44,7 +46,9 @@ function ClientLayoutInner({ children, navRegions }: { children: React.ReactNode
   // 처음엔 render 중에 바로 읽었는데, 미리 만들어 두는 페이지(골프장 소개·공지 등)에서 화면이 어긋나
   // React가 페이지 전체를 다시 그리는 오류(#418)가 났다 (최종 QA 2026-10-11)
   const saved = useSyncExternalStore(subscribeSaved, readSavedDeparture, () => null);
-  const departure = fromUrl ?? saved ?? undefined;
+  // 헤더·꼬리말은 인천/부산 두 화면뿐 — 청주는 인천, 대구는 부산 화면을 쓴다
+  const real = fromUrl ?? saved ?? undefined;
+  const departure = real ? CHROME_DEP[real] : undefined;
   useEffect(() => {
     if (fromUrl) try { localStorage.setItem(DEP_KEY, fromUrl); } catch {}
   }, [fromUrl]);

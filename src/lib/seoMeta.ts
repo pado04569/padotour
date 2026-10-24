@@ -10,7 +10,7 @@ import { departureSummary } from "@/lib/tripFacts";
  * 그래서 손님이 검색한 낱말(지역·골프장)과 요금·출발일을 앞쪽에 둔다. 요금은 상품 카드에 보이는 대표 요금(price)과 같게.
  */
 
-const DEP: Record<string, string> = { incheon: "인천출발", busan: "부산출발", both: "인천·부산출발" };
+const DEP: Record<string, string> = { incheon: "인천출발", busan: "부산출발", cheongju: "청주출발", daegu: "대구출발", both: "인천·부산출발" };
 const won = (n: number) => `${n.toLocaleString("ko-KR")}원`;
 const priceNum = (p?: string) => Number(String(p ?? "").replace(/[^\d]/g, "")) || 0;
 const md = (iso: string) => `${Number(iso.slice(5, 7))}/${Number(iso.slice(8, 10))}`;
@@ -97,7 +97,7 @@ export function courseSeoTitle(c: CourseLike): string {
 export function courseSeoDescription(c: CourseLike, related: Tour[]): string {
   const en = (c.nameEn ?? "").replace(/\s*\(.*\)\s*$/, "");
   const prices = related.map((t) => priceNum(t.price)).filter((n) => n > 0);
-  const deps = [...new Set(related.flatMap((t) => (t.departure === "both" ? ["인천", "부산"] : t.departure === "incheon" ? ["인천"] : t.departure === "busan" ? ["부산"] : [])))];
+  const deps = [...new Set(related.flatMap((t) => (t.departure === "both" ? ["인천", "부산"] : t.departure === "incheon" ? ["인천"] : t.departure === "busan" ? ["부산"] : t.departure === "cheongju" ? ["청주"] : t.departure === "daegu" ? ["대구"] : [])))];
   // "사이판 사이판", "마쓰야마 마쓰야마 씨사이드CC"처럼 같은 말이 겹치지 않게
   const place = [c.country, c.region].filter((p, i, a) => p && a.indexOf(p) === i && !c.name.startsWith(p)).join(" ");
   return [

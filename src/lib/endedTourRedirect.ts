@@ -26,7 +26,7 @@ export function endedTourTarget(ended: Tour, active: Tour[]): string {
       const exact = sameRegion.filter((t) => t.region === ended.region);
       const pool = exact.length ? exact : sameRegion;
       const dep = ended.departure;
-      if ((dep === "incheon" || dep === "busan") && pool.some((t) => t.departure === dep || t.departure === "both")) q.set("departure", dep);
+      if (dep !== "both" && pool.some((t) => t.departure === dep || (t.departure === "both" && (dep === "incheon" || dep === "busan")))) q.set("departure", dep);
       return `/tours?${q.toString()}`;
     }
   }

@@ -13,6 +13,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/`, priority: 1 },
     { url: `${BASE_URL}/incheon`, priority: 0.9 },
     { url: `${BASE_URL}/busan`, priority: 0.9 },
+    // 청주·대구는 판매 중인 상품이 있을 때만 사이트맵에 올린다(빈 페이지를 검색에 노출하지 않는다)
+    ...(["cheongju", "daegu"] as const)
+      .filter((d) => tours.some((t) => t.departure === d))
+      .map((d) => ({ url: `${BASE_URL}/${d}`, priority: 0.8 })),
     { url: `${BASE_URL}/tours`, priority: 0.9 },
     ...regionGuides.map((g) => ({ url: `${BASE_URL}/guide/${g.slug}`, priority: 0.9 })),
     { url: `${BASE_URL}/courses`, priority: 0.8 },

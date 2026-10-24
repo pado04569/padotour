@@ -18,6 +18,8 @@ const PHONE = "010-5301-5250";
 const DEP_LABEL: Record<Tour["departure"], string> = {
   incheon: "인천",
   busan: "부산(김해)",
+  cheongju: "청주",
+  daegu: "대구",
   both: "인천·부산",
 };
 

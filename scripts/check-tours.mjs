@@ -18,7 +18,7 @@ const tours = JSON.parse(readFileSync(fileArg || new URL("../src/data/tours.json
 const today = new Date().toISOString().slice(0, 10);
 const active = tours.filter((t) => !t.departurePrices?.length || t.departurePrices.some((d) => d.date >= today));
 
-const DEP = { incheon: "인천", busan: "부산" };
+const DEP = { incheon: "인천", busan: "부산", cheongju: "청주", daegu: "대구" };
 const OTHER = { incheon: /(김해|부산)\s*(국제)?\s*(공항)?\s*(출발|직항)|부산출발|\[부산/, busan: /인천\s*(국제)?\s*(공항)?\s*(출발|직항)|인천출발|\[인천|인천-/ };
 // 도시 이름 ↔ 공항 이름 (도시명으로 "직항"이라 써도 맞는 경우). 위해↔연태처럼 다른 도시는 넣지 않는다.
 const AIRPORT = {
@@ -41,7 +41,7 @@ for (const t of active) {
   const day1 = t.schedule?.[0]?.desc || "";
 
   // 1) 제목의 [출발지] 와 출발지 칸이 같은가
-  const tag = (t.title.match(/^\[(인천|부산)출발\]/) || [])[1];
+  const tag = (t.title.match(/^\[(인천|부산|청주|대구)출발\]/) || [])[1];
   if (tag && DEP[dep] && tag !== DEP[dep]) add(t, "출발지", `제목은 [${tag}출발]인데 출발지 칸은 ${DEP[dep]}`);
 
   // 2) 다른 출발지 문구가 섞였나 (예: 부산출발 상품에 "인천직항")

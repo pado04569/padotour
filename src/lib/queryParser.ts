@@ -18,7 +18,7 @@ export type ParsedQuery = {
   country?: string; // countryCode
   region?: string; // 상품 데이터의 지역 이름
   people?: number;
-  departure?: "incheon" | "busan"; // "부산출발 일본"처럼 출발공항을 말한 경우
+  departure?: "incheon" | "busan" | "cheongju" | "daegu"; // "부산출발 일본"처럼 출발공항을 말한 경우
   keywords: string[]; // 위에 해당하지 않는 나머지 낱말
   understood: string[]; // 화면 안내용 "알아들은 것"
   notes: string[]; // 날짜로 볼 수 없었던 것 등
@@ -80,8 +80,8 @@ export function parseQuery(raw: string, today: string, tours: Tour[]): ParsedQue
     if (ym) out.month = ym;
   });
   // 출발공항: 인천출발 / 부산출발 / 김해출발 / 부산공항
-  take(/(인천|부산|김해)\s*(?:공항)?\s*(?:출발|발)/, (m) => {
-    out.departure = m[1] === "인천" ? "incheon" : "busan";
+  take(/(인천|부산|김해|청주|대구)\s*(?:공항)?\s*(?:출발|발)/, (m) => {
+    out.departure = m[1] === "인천" ? "incheon" : m[1] === "청주" ? "cheongju" : m[1] === "대구" ? "daegu" : "busan";
   });
   // 인원: 2명 / 4인
   take(/(\d{1,2})\s*(명|인)/, (m) => {
@@ -137,7 +137,7 @@ export function countSearchResults(raw: string, today: string, tours: Tour[]): n
   // "#골프패키지"처럼 거를 조건이 하나도 없으면 전체 목록이 나온다 — 관련 상품이 아니므로 0으로 본다
   if (!p.departure && !p.country && !p.region && !p.month && !p.date && !p.keywords.length) return 0;
   return tours.filter((t) => {
-    if (p.departure && t.departure !== p.departure && t.departure !== "both") return false;
+    if (p.departure && t.departure !== p.departure && !(t.departure === "both" && (p.departure === "incheon" || p.departure === "busan"))) return false;
     if (p.country && t.countryCode !== p.country) return false;
     if (p.region) {
       const parts = p.region.split("/").map((x) => x.trim()).filter(Boolean);

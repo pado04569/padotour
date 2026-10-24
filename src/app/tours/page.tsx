@@ -13,6 +13,7 @@ import DepartureSearch, { type SearchPatch } from "@/components/DepartureSearch"
 import type { Tour } from "@/data/tours";
 import { nightsOf, datesWithin, pickBalanced, dateLabel, departureMap, isIsoDate, localIso, minPeopleOf, sortTours, tourFacts, type SortKey } from "@/lib/tourSearch";
 import { parseQuery, matchesKeywords } from "@/lib/queryParser";
+import { isDep, DEP_HOME, DEP_NAME } from "@/lib/departure";
 
 function ToursContent() {
   const searchParams = useSearchParams();
@@ -48,16 +49,15 @@ function ToursContent() {
   //   대: 전체 목록      → "← 메인 화면으로"
   // 출발지: 주소 → 없으면 마지막으로 고른 출발지(ClientLayout 과 같은 저장값). 이 화면은 브라우저에서만 그려진다
   const savedDeparture = (() => {
-    if (departureParam === "incheon" || departureParam === "busan") return departureParam;
+    if (isDep(departureParam)) return departureParam;
     try {
       const v = typeof window !== "undefined" ? localStorage.getItem("padotour_departure") : null;
-      return v === "incheon" || v === "busan" ? v : "";
+      return isDep(v) ? v : "";
     } catch {
       return "";
     }
   })();
-  const homeHref =
-    savedDeparture === "incheon" ? "/incheon" : savedDeparture === "busan" ? "/busan" : "/";
+  const homeHref = savedDeparture ? DEP_HOME[savedDeparture] : "/";
 
   // 나라 또는 지역으로 걸러진 상태인가
   const isFiltered = selected !== "all" || regionParam !== "";
@@ -90,7 +90,8 @@ function ToursContent() {
   const allHref = (code: string) => hrefWith({ country: code });
 
   // 출발공항으로 거른 전체 — 검색창 달력(출발 가능 날짜)·결과 수 계산에도 같은 범위를 쓴다
-  const pool = departureParam ? tours.filter((t) => t.departure === departureParam || t.departure === "both") : tours;
+  // "인천·부산" 겸용(both) 상품은 청주·대구 출발이 아니다
+  const pool = departureParam ? tours.filter((t) => t.departure === departureParam || (t.departure === "both" && (departureParam === "incheon" || departureParam === "busan"))) : tours;
   const listed = (() => {
     let result = selected === "all" ? pool : pool.filter((t) => t.countryCode === selected);
     if (regionParam) {
@@ -122,7 +123,7 @@ function ToursContent() {
   const countryName = countries.find((c) => c.code === selected)?.label ?? "전체";
   const monthText = monthParam ? `${+monthParam.slice(5)}월 출발` : "";
   const placeText = regionParam ? (regionParam === "괌" ? "괌/사이판" : regionParam) : selected === "all" ? "전체 여행지" : countryName;
-  const depName = savedDeparture === "incheon" ? "인천출발" : savedDeparture === "busan" ? "부산출발" : "";
+  const depName = savedDeparture ? DEP_NAME[savedDeparture] : "";
   const card = (tour: Tour) => {
     const price = dateParam ? departureMap(tour).get(dateParam) : undefined;
     return (
@@ -141,7 +142,7 @@ function ToursContent() {
     const count = new Map<string, number>();
     for (const t of tours) {
       if (t.countryCode !== selected || !t.region) continue;
-      if (departureParam && t.departure !== departureParam && t.departure !== "both") continue;
+      if (departureParam && t.departure !== departureParam && !(t.departure === "both" && (departureParam === "incheon" || departureParam === "busan"))) continue;
       // 메뉴와 같게 방콕·파타야는 "방콕/파타야" 한 칸으로 (사장님 지시 2026-10-13). 한 상품은 한 칸에 한 번만 센다
       const labels = new Set(t.region.split("/").map((x) => x.trim()).filter(Boolean).map((x) => REGION_MERGE[x] ?? x));
       for (const r of labels) count.set(r, (count.get(r) ?? 0) + 1);

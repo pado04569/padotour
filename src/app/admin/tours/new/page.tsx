@@ -82,6 +82,8 @@ export default async function NewTourPage() {
                   <option value="both">인천 + 부산</option>
                   <option value="incheon">인천출발</option>
                   <option value="busan">부산출발</option>
+                  <option value="cheongju">청주출발</option>
+                  <option value="daegu">대구출발</option>
                 </select>
               </div>
               <div>
