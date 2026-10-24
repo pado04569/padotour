@@ -166,6 +166,10 @@ export default function Footer({ departure }: FooterProps) {
               <span className="basis-full h-0 md:hidden" aria-hidden="true" />
               <span className="whitespace-nowrap">관광사업등록번호 제 2022-000029 호</span>
               {businessInfo.mailOrderNumber && <span className="whitespace-nowrap">통신판매업신고번호 {businessInfo.mailOrderNumber}</span>}
+              {/* 보증 정보는 커뮤니티 메뉴에만 숨겨 두지 않고 회사 정보 옆에도 — 사장님 지시 10/25 */}
+              <ExternalVerificationButton className="whitespace-nowrap underline underline-offset-2 text-slate-300 hover:text-white">
+                여행업 등록·보증 확인
+              </ExternalVerificationButton>
             </p>
             {businessInfo.address && (
               <p className="mt-1 md:mt-0">

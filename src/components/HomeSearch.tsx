@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { DEP_AIRPORT, DEPARTURES, type Dep } from "@/lib/departure";
 import { availFor, groupCount, metaKey, regionOptionsFor, type SearchMeta } from "@/lib/homeSearch";
+import { announceDep } from "@/lib/depSync";
 import { regionLabel } from "@/lib/regionNames";
 import { dateLabel, localIso, NIGHTS_OPTIONS, type NightsFilter } from "@/lib/tourSearch";
 import { IconCalendarDays, IconCheck, IconMoon, IconPin, IconPlaneTakeoff, IconSearch } from "./icons/MenuIcons";
@@ -36,6 +37,7 @@ export default function HomeSearch({ dep, meta }: { dep: Dep; meta: SearchMeta }
   const wide = draft.region !== "";
 
   const pickDep = (d: Dep) => {
+    announceDep(d); // 머리말 출발지 표시도 같이 바꾼다 (사장님 지시 10/25)
     setDraft((s) => {
       let { country, region } = s;
       if (country !== "all" && !meta.groups[metaKey(d, country)]) { country = "all"; region = ""; }
@@ -75,8 +77,8 @@ export default function HomeSearch({ dep, meta }: { dep: Dep; meta: SearchMeta }
   return (
     <section className="bg-soft-blue border-b border-line">
       <div className="max-w-6xl mx-auto px-4 py-4 md:py-8">
-        <h2 className="text-[22px] md:text-[30px] font-black text-main-text tracking-tight leading-tight">어디로 골프여행을 떠나세요?</h2>
-        <p className="text-[15px] md:text-[17px] text-body-text mt-1 mb-3 md:mb-5 break-keep">출발일과 여행지를 골라 나에게 맞는 골프여행을 찾아보세요.</p>
+        <h2 className="text-[22px] md:text-[30px] font-black text-main-text tracking-tight leading-tight">나에게 맞는 골프여행 찾기</h2>
+        <p className="text-[15px] md:text-[17px] text-body-text mt-1 mb-3 md:mb-5 break-keep">여행지와 출발일을 선택해 보세요.</p>
 
         <div className="grid grid-cols-2 gap-2 md:grid-cols-[1fr_1.6fr_1.05fr_1.25fr_auto] md:gap-0 md:bg-white md:rounded-2xl md:overflow-hidden md:border-[1.5px] md:border-[#D9E1EA] md:shadow-[0_6px_22px_rgba(23,52,95,0.10)]">
           <button type="button" onClick={() => setSheet("airport")} aria-haspopup="dialog" className={field({ order: "order-1", wide })}>

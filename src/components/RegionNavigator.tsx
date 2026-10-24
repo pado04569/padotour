@@ -79,12 +79,10 @@ export default function RegionNavigator({
 
       {map && open && (
         <div id="region-map" className="mt-3 p-3 border border-gray-300 rounded-2xl bg-white shadow-sm md:max-w-[520px]">
-          <div className="flex items-center gap-2 mb-2 px-1 text-[15px]">
-            <span className="text-gray-600">현재 선택</span>
-            <span className={`inline-flex items-center px-3 py-0.5 rounded-full font-bold ${selected ? "bg-emerald-600 text-white" : "bg-gray-100 text-gray-700"}`}>
-              {selected ?? `${name} 전체`}
-            </span>
-          </div>
+          {/* 초록 배지 대신 일반 텍스트 (사장님 지시 10/25) */}
+          <p className="mb-2 px-1 text-[15px] text-gray-600">
+            선택 지역: <b className="font-bold text-main-text">{selected ?? `${name} 전체`}</b>
+          </p>
           <RegionGeoMap countryCode={countryCode} regions={regions.map((r) => r.label)} selected={selected} hrefFor={(r) => href(r, true)} />
           <p className="text-sm text-gray-600 mt-2.5 leading-relaxed break-keep">
             지역의 대표 위치입니다. 지역 이름을 누르면 그 지역 상품만 보여드려요.

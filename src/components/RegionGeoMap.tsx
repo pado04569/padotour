@@ -85,7 +85,7 @@ export default function RegionGeoMap({
         const dl = pl ? Math.hypot(pl.dx, pl.dy) || 1 : 1;
         return (
           <span key={r}>
-            <span className="absolute -translate-x-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-emerald-600 ring-[1.5px] ring-white shadow pointer-events-none" style={{ left: `${px}%`, top: `${py}%` }} aria-hidden="true" />
+            <span className={`absolute -translate-x-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-emerald-600 pointer-events-none ${on ? "ring-2 ring-emerald-600/25" : "ring-[1.5px] ring-white shadow"}`} style={{ left: `${px}%`, top: `${py}%` }} aria-hidden="true" />
             {pl && !pl.hidden && (
               <>
                 {pl.leader && (
@@ -97,7 +97,7 @@ export default function RegionGeoMap({
                   href={hrefFor(r)}
                   aria-current={on ? "page" : undefined}
                   style={on ? lp : { ...lp, ...halo }}
-                  className={`absolute -translate-x-1/2 -translate-y-1/2 whitespace-nowrap ${on ? "z-10 flex items-center min-h-8 px-2.5 rounded-full bg-emerald-600 border border-emerald-700 text-white text-[13px] font-bold shadow" : "px-1 py-2 text-[13px] font-extrabold text-slate-800 hover:text-emerald-700"}`}
+                  className={`absolute -translate-x-1/2 -translate-y-1/2 whitespace-nowrap ${on ? "z-10 flex items-center min-h-7 px-2 py-2 -my-2 rounded-[10px] bg-white border border-[#007F73] text-[#007F73] text-[13px] font-bold" : "px-1 py-2 text-[13px] font-extrabold text-slate-800 hover:text-emerald-700"}`}
                 >
                   {r}
                 </Link>

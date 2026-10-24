@@ -430,12 +430,12 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
               const pl = L?.[r.value];
               return (
                 <span key={r.value}>
-                  <span className={`${dotCls} bg-emerald-600 ${on ? "!w-3 !h-3 !ring-2" : ""}`} style={{ left: p.left, top: p.top }} aria-hidden="true" />
+                  <span className={`${dotCls} bg-emerald-600 ${on ? "!w-2.5 !h-2.5 !ring-2 !ring-emerald-600/25 !shadow-none" : ""}`} style={{ left: p.left, top: p.top }} aria-hidden="true" />
                   {pl && !pl.hidden && (
                     <>
                       {leaderSvg(p, pl)}
                       {on ? (
-                        <button type="button" onClick={() => apply({ g: sel.g, r: null })} style={labelPos(p, pl)} className="absolute -translate-x-1/2 -translate-y-1/2 z-10 flex items-center min-h-8 px-2.5 rounded-full bg-emerald-600 border border-emerald-700 text-white text-[13px] md:text-[14px] font-bold shadow whitespace-nowrap">
+                        <button type="button" onClick={() => apply({ g: sel.g, r: null })} style={labelPos(p, pl)} className="absolute -translate-x-1/2 -translate-y-1/2 z-10 flex items-center min-h-7 px-2 py-2 -my-2 rounded-[10px] bg-white border border-[#007F73] text-[#007F73] text-[13px] md:text-[14px] font-bold whitespace-nowrap">
                           {r.label}
                         </button>
                       ) : (
