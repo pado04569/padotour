@@ -69,7 +69,7 @@ function ClientLayoutInner({ children, navRegions }: { children: React.ReactNode
 
   return (
     <>
-      <Header departure={departure} navRegions={navRegions} />
+      <Header departure={departure} realDeparture={real} navRegions={navRegions} />
       <main className="flex-1">{children}</main>
       <Footer departure={departure} />
       <KakaoFloat />

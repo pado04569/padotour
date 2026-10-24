@@ -4,13 +4,16 @@ import Link from "next/link";
 import { IconFlag, IconStar, IconMegaphone, IconQuote, IconChat, IconShieldCheck } from "./icons/MenuIcons";
 import Image from "next/image";
 import { useState } from "react";
-import TrustBar, { useSwitchHref } from "./TrustBar";
+import TrustBar from "./TrustBar";
 import ExternalVerificationButton from "./ExternalVerificationModal";
 import { IconChevron, IconSwap } from "./icons/Chevron";
 import type { NavRegions } from "@/lib/navRegions";
+import type { Dep } from "@/lib/departure";
 
 type HeaderProps = {
   departure?: "incheon" | "busan";
+  /** 실제 출발지(청주·대구 포함) — 출발지 줄 표시용. 헤더 나머지는 departure(인천/부산 화면)를 쓴다 */
+  realDeparture?: Dep;
   navRegions: NavRegions;
 };
 
@@ -45,7 +48,7 @@ function buildNav(regions: NavRegions, dep?: "incheon" | "busan"): NavItem[] {
 }
 
 
-export default function Header({ departure, navRegions }: HeaderProps) {
+export default function Header({ departure, realDeparture, navRegions }: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [communityOpen, setCommunityOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
@@ -53,7 +56,6 @@ export default function Header({ departure, navRegions }: HeaderProps) {
   const [searchQuery, setSearchQuery] = useState("");
 
   const navItems = buildNav(navRegions, departure);
-  const switchHref = useSwitchHref(departure);
   const p = departure ? `?departure=${departure}` : "";
 
   const accentColor = "bg-white";
@@ -86,7 +88,7 @@ export default function Header({ departure, navRegions }: HeaderProps) {
   return (
     <>
     {/* 신뢰 영역(왜 여행의 파도·등록·보증·출발지·내 예약/문의) — 붙어 다니지 않고 스크롤하면 올라간다 (UX 개편 2026-10-09) */}
-    <TrustBar departure={departure} />
+    <TrustBar departure={realDeparture ?? departure} />
     <header className="bg-white shadow-md sticky top-0 z-50">
 
       {/* ══ 2단: 로고 + 검색창 + SGI ══ */}
@@ -213,13 +215,14 @@ export default function Header({ departure, navRegions }: HeaderProps) {
         <div className="md:hidden bg-white border-t border-gray-100 shadow-lg max-h-[75vh] overflow-y-auto">
           {/* 출발지 변경 — 어디로 바뀌는지 바로 보이게 (UX 개편 2026-10-09) */}
           <div className="flex gap-2 px-4 py-3 bg-blue-50 border-b border-blue-100">
+            {/* 출발지가 4곳이 되어(10/25) 짝 바꾸기 대신 처음 화면에서 다시 고르게 한다 */}
             <Link
-              href={switchHref}
+              href="/"
               className="flex-1 flex items-center justify-center gap-1.5 min-h-11 rounded-lg bg-white border border-blue-200 text-blue-700 font-bold text-sm"
               onClick={() => setMenuOpen(false)}
             >
               {departure ? <IconSwap className="w-4 h-4" /> : null}
-              {departure === "incheon" ? "부산 출발 보기" : departure === "busan" ? "인천 출발 보기" : "출발공항 선택하기"}
+              {departure ? "출발공항 다시 고르기" : "출발공항 선택하기"}
             </Link>
             <Link
               href="/my-inquiries"

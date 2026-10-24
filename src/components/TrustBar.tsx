@@ -2,28 +2,80 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useEffect, useRef, useState } from "react";
 import { useQuery } from "@/lib/queryStore";
+import { DEPARTURES, type Dep } from "@/lib/departure";
 import ExternalVerificationButton from "./ExternalVerificationModal";
 import { IconChevron, IconSwap } from "./icons/Chevron";
 
-type Dep = "incheon" | "busan";
-const DEP_LABEL: Record<Dep, string> = { incheon: "인천", busan: "부산" };
-const SWITCH_LABEL: Record<Dep, string> = { incheon: "인천 출발 보기", busan: "부산 출발 보기" };
+const DEP_LABEL: Record<Dep, string> = { incheon: "인천", busan: "부산", cheongju: "청주", daegu: "대구" };
+const MAIN_OTHER: Record<Dep, Dep> = { incheon: "busan", busan: "incheon", cheongju: "incheon", daegu: "busan" };
 
 // 지금 보던 화면을 최대한 유지한 채 출발지만 바꾼다.
 // 상품 상세(/tours/[id])는 상품 자체가 출발지별로 달라 그 출발지 메인으로 보낸다.
-export function useSwitchHref(departure?: Dep) {
+// target 을 주지 않으면 짝 출발지(인천↔부산, 청주→인천, 대구→부산)로 바꾼다.
+export function useSwitchHref(departure?: Dep, target?: Dep) {
   const pathname = usePathname();
   const searchParams = useQuery();
   if (!departure) return "/";
-  const other: Dep = departure === "incheon" ? "busan" : "incheon";
-  if (pathname === "/incheon" || pathname === "/busan") return `/${other}`;
+  const to: Dep = target ?? MAIN_OTHER[departure];
   if (pathname === "/tours" || pathname === "/notice") {
     const q = new URLSearchParams(searchParams.toString());
-    q.set("departure", other);
+    q.set("departure", to);
     return `${pathname}?${q.toString()}`;
   }
-  return `/${other}`;
+  return `/${to}`;
+}
+
+// 출발지가 4곳이 되어(10/25) "○○ 출발 보기" 한 줄 대신 메뉴로 나머지 3곳 + 처음 화면 (사장님 확정 A안)
+function DepartureMenu({ departure, link }: { departure: Dep; link: string }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLSpanElement>(null);
+  const others = DEPARTURES.filter((d) => d !== departure);
+  const hrefs = {
+    incheon: useSwitchHref(departure, "incheon"),
+    busan: useSwitchHref(departure, "busan"),
+    cheongju: useSwitchHref(departure, "cheongju"),
+    daegu: useSwitchHref(departure, "daegu"),
+  } as Record<Dep, string>;
+  useEffect(() => {
+    if (!open) return;
+    const close = (e: MouseEvent | KeyboardEvent) => {
+      if (e instanceof KeyboardEvent ? e.key === "Escape" : !ref.current?.contains(e.target as Node)) setOpen(false);
+    };
+    document.addEventListener("mousedown", close);
+    document.addEventListener("keydown", close);
+    return () => { document.removeEventListener("mousedown", close); document.removeEventListener("keydown", close); };
+  }, [open]);
+  const item = "flex items-center min-h-[46px] px-3.5 rounded-lg text-base font-bold text-main-text hover:bg-soft-blue";
+  return (
+    <span ref={ref} className="relative inline-flex">
+      <button
+        type="button"
+        aria-haspopup="menu"
+        aria-expanded={open}
+        onClick={() => setOpen((v) => !v)}
+        className={`${link} font-semibold text-blue-700 hover:text-blue-800`}
+      >
+        <IconSwap className="w-[18px] h-[18px]" />
+        출발지 바꾸기
+        <IconChevron className={`w-4 h-4 rotate-90 transition-transform ${open ? "-rotate-90" : ""}`} />
+      </button>
+      {open && (
+        <span role="menu" className="absolute left-0 md:left-auto md:right-0 top-full mt-1 z-[60] flex flex-col min-w-[210px] p-1.5 rounded-xl bg-white border border-line shadow-[0_10px_30px_rgba(0,0,0,0.15)]">
+          {others.map((d) => (
+            <Link key={d} role="menuitem" href={hrefs[d]} onClick={() => setOpen(false)} className={item}>
+              {DEP_LABEL[d]} 출발 보기
+            </Link>
+          ))}
+          <span aria-hidden="true" className="h-px my-1 mx-2 bg-line" />
+          <Link role="menuitem" href="/" onClick={() => setOpen(false)} className={`${item} font-semibold text-blue-700`}>
+            처음 화면에서 다시 고르기
+          </Link>
+        </span>
+      )}
+    </span>
+  );
 }
 
 function CheckIcon() {
@@ -46,8 +98,6 @@ function ShieldIcon() {
 // 사장님 지적(10/9): 테두리 박스 4개가 지저분하고, 로고 옆 SGI 배지와 "등록·보증 확인"이 중복 →
 // 박스 없이 글자 링크 + 얇은 구분선으로 정리하고, 보증 확인은 여기 한 곳만 둔다.
 export default function TrustBar({ departure }: { departure?: Dep }) {
-  const switchHref = useSwitchHref(departure);
-  const other: Dep | undefined = departure ? (departure === "incheon" ? "busan" : "incheon") : undefined;
 
   const link = "inline-flex items-center gap-1.5 min-h-11 text-[15px] whitespace-nowrap transition-colors";
   const divider = <span aria-hidden="true" className="w-px h-3.5 bg-slate-300" />;
@@ -86,10 +136,7 @@ export default function TrustBar({ departure }: { departure?: Dep }) {
                 </b>
               </span>
               {divider}
-              <Link href={switchHref} className={`${link} font-semibold text-blue-700 hover:text-blue-800 hover:underline underline-offset-4`}>
-                <IconSwap className="w-[18px] h-[18px]" />
-                {SWITCH_LABEL[other!]}
-              </Link>
+              <DepartureMenu departure={departure} link={link} />
             </span>
           ) : (
             <Link href="/" className={`${link} font-semibold text-blue-700 hover:underline underline-offset-4`}>

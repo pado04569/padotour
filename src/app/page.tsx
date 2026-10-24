@@ -1,5 +1,6 @@
 import Image from "next/image";
 import DepartureChooser from "@/components/DepartureChooser";
+import LandingBack from "@/components/LandingBack";
 import { tours } from "@/data/tours";
 
 // 청주·대구 출발 칸은 판매 중인(출발일이 남은) 상품이 1개라도 있을 때만 켠다 (사장님 10/25)
@@ -30,7 +31,7 @@ export default function Home() {
             흰색 로고 파일이 따로 없어 투명 로고(logo.png)를 화면에서만 흰색으로 바꿔 보여준다. 원본 파일은 그대로.
             하늘과 겹치는 부분은 위쪽 어두운 그라데이션 + 아주 약한 그림자로만 띄운다. */}
         {/* PC는 브랜드가 사진·메인 문구에 비해 작아 보여 로고 +25%, 이름 +18%, 여백 확대 (사장님 요청 10/10). 휴대폰은 그대로 */}
-        <header className="relative px-5 md:px-16 pt-5 md:pt-7 flex items-center gap-3 md:gap-5">
+        <header className="relative px-5 md:px-16 pt-5 md:pt-7 flex flex-wrap items-center gap-3 md:gap-5">
           <Image
             src="/images/logo.png"
             alt="여행의 파도 로고"
@@ -43,9 +44,11 @@ export default function Home() {
             <div className="text-2xl md:text-[33px] font-black leading-tight tracking-tight">여행의 파도</div>
             <div className="text-sm md:text-lg font-medium text-white/90 mt-0.5 md:mt-1">해외 골프여행 전문 여행사</div>
           </div>
+          <LandingBack className="hidden md:inline-flex ml-auto self-start" />
         </header>
 
         <div className={`relative flex-1 flex flex-col justify-end w-full ${EXTRA.length ? "max-w-[1240px]" : "max-w-5xl"} mx-auto px-5 md:px-12 pb-24 md:pb-24`}>
+          <LandingBack className="inline-flex md:hidden self-start mb-4" />
           <p className="text-base md:text-xl font-bold text-white/95 mb-1.5 break-keep">즐거운 골프 너울거림, 여행의 파도</p>
           <h1 className="text-[clamp(27px,8vw,32px)] md:text-[52px] font-black leading-[1.2] mb-6 md:mb-8 drop-shadow-[0_2px_12px_rgba(0,0,0,0.3)] break-keep">
             해외 골프여행,
