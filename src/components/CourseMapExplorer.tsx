@@ -27,7 +27,7 @@ export type ExplorerGroup = { key: string; label: string; count: number; image: 
 type Sel = { g: string | null; r: string | null };
 type View = { x: number; y: number; w: number; h: number };
 
-const WORLD: [number, number, number, number] = [38, -40, 180, 63]; // 아시아·태평양 중심, 축소하면 세계 전체
+const WORLD: [number, number, number, number] = [88, -13, 153, 47]; // 처음은 취급 여행지가 벌어져 보이는 아시아·태평양 — 이름이 점 옆에 다 들어간다. 축소(−)하면 세계 전체
 const GEO_BY_SLUG = courseGeo as Record<string, [number, number]>;
 const matchesRegion = (courseRegion: string, r: string) =>
   courseRegion === r || courseRegion.split("/").map((t) => t.trim()).includes(r);
@@ -105,9 +105,12 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
         return [{ id: r.value, x, y, text: r.label, priority: r.count, selected: s.r === r.value }];
       });
     }
-    const avoid: Rect[] = [{ x: bw - 58, y: 4, w: 54, h: 184 }]; // 오른쪽 위 지도 조작 버튼
+    const avoid: Rect[] = [{ x: bw - 58, y: 4, w: 54, h: 108 }]; // 오른쪽 위 확대·축소 묶음
     if (st !== "world") avoid.push({ x: 4, y: 4, w: 214, h: 52 }); // 왼쪽 위 '이전 단계'
-    const placed = placeLabels(pts, bw, bh, avoid, bw < 560 ? 13 : 14);
+    // 국가 지도(세계)는 점 바로 옆 이름·연결선 없음, 지역 지도는 짧은 연결선 허용 — 화면별 규칙 분리 (사장님 지시 10/25)
+    const placed = st === "world"
+      ? placeLabels(pts, bw, bh, avoid, bw < 560 ? 14 : 15, { dists: [13, 24, 40, 56], order: "edge" })
+      : placeLabels(pts, bw, bh, avoid, bw < 560 ? 13 : 14);
     setLabels({ stage: st, items: Object.fromEntries(placed.map((x) => [x.id, x])) });
   };
 
@@ -200,6 +203,7 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
     return { left: `${x}%`, top: `${y}%`, hidden: x < -8 || x > 108 || y < -8 || y > 108 };
   };
   const halo = { textShadow: "0 1px 2px #fff, 0 -1px 2px #fff, 1px 0 2px #fff, -1px 0 2px #fff, 0 0 6px #fff" };
+  const haloThin = { textShadow: "0 0 3px #fff, 0 1px 2px #fff" }; // 국가 지도용 — 외곽선 과하지 않게
   const dotCls = "absolute -translate-x-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full ring-2 ring-white shadow pointer-events-none";
   const L = labels && labels.stage === stage ? labels.items : null;
   const hiddenLabels = L ? Object.values(L).filter((x) => x.hidden).length : 0;
@@ -234,7 +238,6 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
     </span>
   );
   const crumbBtn = "hover:underline underline-offset-2";
-  const ctrlBtn = "w-11 h-11 flex items-center justify-center rounded-xl bg-white border border-slate-300 shadow-sm text-xl font-bold text-slate-700 hover:bg-slate-50";
 
   const regionRows = groupData?.regions ?? [];
   const countryList = (onPickDone?: () => void) => (
@@ -350,6 +353,13 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
 
         {/* 지도 */}
         <div>
+          {/* 지도 도구줄 — 제목 + 세계 전체 (사장님 시안 10/25) */}
+          <div className="flex items-center justify-between gap-2 min-h-11 px-3 mb-2 rounded-xl bg-white border border-line">
+            <span className="text-[15px] md:text-[16px] font-extrabold text-main-text">여행지 지도</span>
+            <button type="button" onClick={() => apply({ g: null, r: null })} disabled={stage === "world"} className="inline-flex items-center gap-1.5 min-h-10 px-3 rounded-full text-[14px] font-bold text-slate-700 hover:bg-slate-50 disabled:opacity-40">
+              <IconGlobe className="w-[18px] h-[18px] text-brand-blue" />세계 전체
+            </button>
+          </div>
           <div
             ref={boxRef}
             className="relative h-[340px] md:h-[540px] rounded-2xl overflow-hidden border border-line bg-[#DCEDFA] select-none"
@@ -394,11 +404,11 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
               const pl = L?.[g.key];
               return (
                 <span key={g.key}>
-                  <span className={`${dotCls} bg-brand-blue`} style={{ left: p.left, top: p.top }} aria-hidden="true" />
+                  <span className={`${dotCls} !w-2 !h-2 bg-brand-blue`} style={{ left: p.left, top: p.top }} aria-hidden="true" />
                   {pl && !pl.hidden && (
                     <>
                       {leaderSvg(p, pl)}
-                      <button type="button" onClick={() => apply({ g: g.key, r: null })} style={{ ...labelPos(p, pl), ...halo }} className="absolute -translate-x-1/2 -translate-y-1/2 px-1.5 py-2 text-[14px] md:text-[15px] font-extrabold text-slate-800 hover:text-brand-blue whitespace-nowrap">
+                      <button type="button" onClick={() => apply({ g: g.key, r: null })} style={{ ...labelPos(p, pl), ...haloThin }} className="absolute -translate-x-1/2 -translate-y-1/2 px-1.5 py-2 text-[14px] md:text-[15px] font-semibold text-slate-800 hover:text-brand-blue whitespace-nowrap">
                         {g.label}
                       </button>
                     </>
@@ -447,14 +457,11 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
               );
             })}
 
-            {/* 조작 버튼 */}
-            <div className="absolute top-3 right-3 flex flex-col gap-1.5">
-              <button type="button" aria-label="지도 확대" onClick={() => zoom(1 / 1.6)} className={ctrlBtn}>＋</button>
-              <button type="button" aria-label="지도 축소" onClick={() => zoom(1.6)} className={ctrlBtn}>−</button>
-              <button type="button" onClick={() => apply({ g: null, r: null })} className="w-11 h-14 flex flex-col items-center justify-center gap-0.5 rounded-xl bg-white border border-slate-300 shadow-sm text-slate-700 hover:bg-slate-50">
-                <IconGlobe className="w-5 h-5" />
-                <span className="text-[10px] font-bold leading-none">세계<br />전체</span>
-              </button>
+            {/* 확대·축소 — 세로로 묶은 컨트롤 하나 (세계 전체는 지도 위 도구줄로, 사장님 지시 10/25) */}
+            <div className="absolute top-3 right-3 flex flex-col rounded-xl bg-white border border-slate-300 shadow-sm overflow-hidden">
+              <button type="button" aria-label="지도 확대" onClick={() => zoom(1 / 1.6)} className="w-11 h-11 flex items-center justify-center text-xl font-bold text-slate-700 hover:bg-slate-50">＋</button>
+              <span aria-hidden="true" className="h-px mx-2 bg-line" />
+              <button type="button" aria-label="지도 축소" onClick={() => zoom(1.6)} className="w-11 h-11 flex items-center justify-center text-xl font-bold text-slate-700 hover:bg-slate-50">−</button>
             </div>
             {stage !== "world" && (
               <button type="button" onClick={() => apply(stage === "region" ? { g: sel.g, r: null } : { g: null, r: null })} className="absolute top-3 left-3 flex items-center gap-1 min-h-10 px-3 rounded-xl bg-white border border-slate-300 shadow-sm text-[14px] font-bold text-slate-700 hover:bg-slate-50">
