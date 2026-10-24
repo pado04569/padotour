@@ -120,3 +120,7 @@ export const IconLink = ({ className }: P) => (
 export const IconGift = ({ className }: P) => (
   <svg {...base(className)}><rect x="3.5" y="8.5" width="17" height="4" rx="1" /><path d="M5 12.5V20h14v-7.5M12 8.5V20" /><path d="M12 8.5C10.5 5 7 5 7 7s3 1.5 5 1.5zM12 8.5c1.5-3.5 5-3.5 5-1.5s-3 1.5-5 1.5z" /></svg>
 );
+/** 검색 — 돋보기 */
+export const IconSearch = ({ className }: P) => (
+  <svg {...base(className)}><circle cx="11" cy="11" r="6.5" /><path d="m20 20-4.2-4.2" /></svg>
+);

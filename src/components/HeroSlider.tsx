@@ -15,9 +15,11 @@ type Slide = {
 type Props = {
   slides: Slide[];
   departure?: "incheon" | "busan";
+  /** 첫 화면 검색 아래에 놓일 때 — 사진은 그대로, 높이만 줄여 검색이 먼저 보이게 (사장님 확정 A안 2026-10-25) */
+  compact?: boolean;
 };
 
-export default function HeroSlider({ slides }: Props) {
+export default function HeroSlider({ slides, compact }: Props) {
   const [current, setCurrent] = useState(0);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
   // 첫 화면에는 첫 번째 사진만 받는다. 나머지는 잠시 뒤에 붙인다.
@@ -53,7 +55,7 @@ export default function HeroSlider({ slides }: Props) {
 
   return (
     <div
-      className="relative w-full overflow-hidden h-[56vh] min-h-[360px] md:h-[80vh] md:max-h-[860px]"
+      className={`relative w-full overflow-hidden ${compact ? "h-[280px] md:h-[420px]" : "h-[56vh] min-h-[360px] md:h-[80vh] md:max-h-[860px]"}`}
       style={{ touchAction: "pan-y" }}
       onTouchStart={onTouchStart}
       onTouchEnd={onTouchEnd}

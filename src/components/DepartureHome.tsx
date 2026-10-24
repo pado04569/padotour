@@ -1,6 +1,8 @@
 import Link from "next/link";
 import TourCard from "@/components/TourCard";
-import { tours } from "@/data/tours";
+import { tours, countries } from "@/data/tours";
+import HomeSearch from "./HomeSearch";
+import { buildSearchMeta } from "@/lib/homeSearch";
 import { DEP_AIRPORT, DEP_HOME, DEP_NAME, type Dep } from "@/lib/departure";
 
 // 청주·대구 출발 목록 화면 (사장님 확정 10/24: 버튼 3개·출발지 4개)
@@ -11,12 +13,17 @@ const PAIR: Record<"cheongju" | "daegu", { dep: Dep; label: string }> = {
   daegu: { dep: "busan", label: "부산출발 상품 보기" },
 };
 
+// 첫 화면 검색 자료 — 모듈이 뜰 때 한 번 계산 (한국 날짜 기준)
+const SEARCH_META = buildSearchMeta(tours, countries, new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10));
+
 export default function DepartureHome({ dep }: { dep: "cheongju" | "daegu" }) {
   const list = tours.filter((t) => t.departure === dep);
   const pair = PAIR[dep];
   return (
     <div>
-      <section className="bg-hero-commerce text-white py-10 md:py-12">
+      {/* 골프여행 검색 — 인천·부산 홈과 같은 첫 화면 검색 (사장님 확정 A안, 2026-10-25) */}
+      <HomeSearch dep={dep} meta={SEARCH_META} />
+      <section className="bg-hero-commerce text-white py-7 md:py-10">
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-2xl md:text-3xl font-black">{DEP_NAME[dep]} 골프여행</h1>
           <p className="mt-2 text-[15px] md:text-base text-white/90 break-keep">{DEP_AIRPORT[dep]}에서 출발하는 해외 골프여행 패키지</p>

@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense } from "react";
+import { Suspense, useState } from "react";
 import Link from "next/link";
 import TourCard from "@/components/TourCard";
 import { tours, countries } from "@/data/tours";
@@ -11,7 +11,7 @@ import RegionNavigator, { type RegionOption } from "@/components/RegionNavigator
 import { REGION_MERGE } from "@/lib/navRegions";
 import DepartureSearch, { type SearchPatch } from "@/components/DepartureSearch";
 import type { Tour } from "@/data/tours";
-import { nightsOf, datesWithin, pickBalanced, dateLabel, departureMap, isIsoDate, localIso, minPeopleOf, sortTours, tourFacts, type SortKey } from "@/lib/tourSearch";
+import { matchesNights, nightsText, parseNights, datesWithin, pickBalanced, dateLabel, departureMap, isIsoDate, localIso, minPeopleOf, sortTours, tourFacts, type SortKey } from "@/lib/tourSearch";
 import { parseQuery, matchesKeywords } from "@/lib/queryParser";
 import { isDep, DEP_HOME, DEP_NAME } from "@/lib/departure";
 
@@ -32,15 +32,16 @@ function ToursContent() {
   const peopleRaw = searchParams.get("people") ? Number(searchParams.get("people")) : parsed?.people ?? NaN;
   const hasPeople = Number.isInteger(peopleRaw) && peopleRaw >= 1 && peopleRaw <= 20;
   const people = hasPeople ? peopleRaw : 2;
-  // 박수(2~8박) — nights=3. 3박4일·3박5일처럼 일수가 달라도 박만 같으면 같은 칸 (사장님 지시 2026-10-13)
-  const nightsRaw = Number(searchParams.get("nights"));
-  const nightsParam = Number.isInteger(nightsRaw) && nightsRaw >= 2 && nightsRaw <= 8 ? nightsRaw : 0;
+  // 박수 — nights=3, nights=5+(5박 이상). 3박4일·3박5일처럼 일수가 달라도 박만 같으면 같은 칸 (사장님 지시 2026-10-13, 선택지 2026-10-25)
+  const nightsParam = parseNights(searchParams.get("nights"));
   const sortRaw = searchParams.get("sort");
   const sort: SortKey = sortRaw === "date" || sortRaw === "price" ? sortRaw : "recommend";
   // 검색 글에서 나온 "11월" 같은 달, 상품명·골프장에서 찾을 낱말
   const monthParam = !dateParam ? parsed?.month ?? "" : "";
   const keywords = parsed?.keywords ?? [];
-  const searching = Boolean(dateParam) || hasPeople || Boolean(searchQ) || nightsParam > 0;
+  const searching = Boolean(dateParam) || hasPeople || Boolean(searchQ) || nightsParam !== 0;
+  // 결과 0개 화면의 "검색 조건 수정" → 조건 창 열기 (2026-10-25)
+  const [openSignal, setOpenSignal] = useState(0);
 
 
   // 뒤로가기 3단계 (소 → 중 → 대)
@@ -102,7 +103,7 @@ function ToursContent() {
     // "12월 치앙마이"처럼 달만 말하면 그 달에 실제 출발일이 있는 상품만
     if (monthParam) result = result.filter((t) => [...departureMap(t).keys()].some((d) => d >= today && d.startsWith(monthParam)));
     if (keywords.length) result = result.filter((t) => matchesKeywords(t, keywords));
-    if (nightsParam) result = result.filter((t) => nightsOf(t).has(nightsParam));
+    if (nightsParam) result = result.filter((t) => matchesNights(t, nightsParam));
     return result;
   })();
   // 검색 글에 인원이 없으면 인원으로 거르지 않는다(멋대로 2명으로 정하지 않는다)
@@ -151,12 +152,12 @@ function ToursContent() {
   })();
 
   const grid = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6";
-  const conditionText = [monthText, regionParam ? placeText : countryName, depName, nightsParam ? `${nightsParam}박` : "", peopleUnset ? "" : `${people}명 기준`].filter(Boolean).join(" · ");
+  const conditionText = [monthText, regionParam ? placeText : countryName, depName, nightsParam ? nightsText(nightsParam) : "", peopleUnset ? "" : `${people}명 기준`].filter(Boolean).join(" · ");
   // 맞춤 견적 카드에 보여줄 검색 조건: 날짜 · 여행지(지역을 골랐으면 지역) · 인원
   const searchCondition = [
     dateParam ? dateLabel(dateParam, "plain") : monthText,
     placeText,
-    nightsParam ? `${nightsParam}박` : "",
+    nightsParam ? nightsText(nightsParam) : "",
     peopleUnset ? "" : `${people}명`,
   ].filter(Boolean).join(" · ");
   // 검색 결과 — ① 조건에 맞는 상품 ② (없으면) 가까운 출발일 ③ 인원이 더 필요한 상품. 서로 섞지 않는다
@@ -195,11 +196,19 @@ function ToursContent() {
           </>
         ) : (
           <>
-            <div className="px-4 py-3.5 rounded-2xl bg-slate-50 border-[1.5px] border-slate-200">
-              <p className="text-[17px] md:text-lg font-black text-slate-900">
-                {dateParam ? `${dateLabel(dateParam, "plain")}에 출발 가능한 상품이 없습니다.` : "조건에 맞는 상품이 없습니다."}
-              </p>
-              <p className="text-sm text-slate-600 mt-0.5">{conditionText}</p>
+            {/* 조건을 몰래 풀거나 다른 출발공항 상품을 섞지 않는다 — 고객이 직접 고치거나 초기화(출발공항은 유지) (사장님 지시서 2026-10-25) */}
+            <div className="px-4 py-4 rounded-2xl bg-slate-50 border-[1.5px] border-slate-200">
+              <p className="text-[17px] md:text-lg font-black text-slate-900">선택하신 조건에 맞는 상품이 없습니다.</p>
+              <p className="text-[15px] text-slate-700 mt-1">출발일이나 여행지를 변경해 보세요.</p>
+              <p className="text-sm text-slate-500 mt-1">{[dateParam ? dateLabel(dateParam) : "", conditionText].filter(Boolean).join(" · ")}</p>
+              <div className="flex flex-wrap gap-2 mt-3">
+                <button type="button" onClick={() => setOpenSignal((n) => n + 1)} className="inline-flex items-center justify-center min-h-12 px-5 rounded-full bg-brand-blue hover:bg-blue-700 text-white text-[15px] font-bold">
+                  검색 조건 수정
+                </button>
+                <Link href={savedDeparture ? `/tours?departure=${savedDeparture}` : "/tours"} className="inline-flex items-center justify-center min-h-12 px-5 rounded-full border-[1.5px] border-slate-300 bg-white text-main-text text-[15px] font-bold hover:bg-slate-50">
+                  조건 초기화
+                </Link>
+              </div>
             </div>
             {dateParam && (nearby.length > 0 ? (
               <div className="mt-5">
@@ -310,6 +319,18 @@ function ToursContent() {
         </section>
       )}
 
+      {/* 그 출발공항에 판매 중인 상품이 하나도 없으면 검색 대신 준비 중 안내만 (사장님 지시서 2026-10-25) */}
+      {pool.length === 0 ? (
+        <section className="max-w-6xl mx-auto px-4 py-10 md:py-14">
+          <div className="rounded-2xl bg-white border border-line p-6 md:p-8 text-center">
+            <p className="text-lg md:text-xl font-bold text-main-text break-keep">현재 판매 중인 상품을 준비하고 있습니다.</p>
+            <Link href={homeHref} className="mt-5 inline-flex items-center justify-center w-full max-w-[340px] min-h-[52px] px-8 rounded-full border-2 font-bold text-base border-blue-600 text-blue-600 hover:bg-blue-50">
+              메인 화면으로
+            </Link>
+          </div>
+        </section>
+      ) : (
+      <>
       {/* 출발일로 상품 찾기 — 검색 전엔 상세 검색, 검색 후엔 한 줄 바 + 정렬 (사장님 확정 2026-10-10) */}
       <DepartureSearch
         key={`${selected}|${dateParam}|${people}|${nightsParam}`}
@@ -324,6 +345,7 @@ function ToursContent() {
         periodLabel={monthText || undefined}
         peopleLabel={peopleUnset ? "인원 전체" : undefined}
         placeLabel={regionParam ? placeText : undefined}
+        openSignal={openSignal}
       />
 
       {/* 국가 탭 — region이 선택된 경우 숨김 */}
@@ -374,7 +396,7 @@ function ToursContent() {
             className="-mt-2 mb-1 inline-flex items-center gap-1 min-h-11 text-emerald-700 hover:text-emerald-800 font-semibold text-[15px]"
           >
             <IconChevron dir="left" className="w-4 h-4" />
-            {savedDeparture === "incheon" ? "인천출발 홈" : "부산출발 홈"}
+            {DEP_NAME[savedDeparture]} 홈
           </Link>
         )}
         {searching ? (
@@ -446,6 +468,8 @@ function ToursContent() {
           </a>
         </div>
       </section>
+      )}
+      </>
       )}
     </div>
   );

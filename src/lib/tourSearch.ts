@@ -62,6 +62,31 @@ export function nightsOf(t: Tour): Set<number> {
   return out;
 }
 
+/**
+ * 박수 필터 — 전체(0) · 2~8박(정확히) · "5+"(5박 이상). 첫 화면 검색과 상품 목록이 같은 선택지를 쓴다 (사장님 확정 2026-10-25)
+ * 판매 중 상품의 박수가 2·3·4박에 몰려 있고 5박 이상은 몇 개뿐이라 "5박 이상" 한 칸으로 묶는다. 주소: nights=3, nights=5+
+ */
+export type NightsFilter = 0 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | "5+";
+export const NIGHTS_OPTIONS: { value: NightsFilter; label: string }[] = [
+  { value: 0, label: "전체" },
+  { value: 2, label: "2박" },
+  { value: 3, label: "3박" },
+  { value: 4, label: "4박" },
+  { value: "5+", label: "5박 이상" },
+];
+export function parseNights(raw: string | null | undefined): NightsFilter {
+  if (raw === "5+") return "5+";
+  const n = Number(raw);
+  return Number.isInteger(n) && n >= 2 && n <= 8 ? (n as NightsFilter) : 0;
+}
+export const nightsText = (f: NightsFilter): string => (f === 0 ? "전체" : f === "5+" ? "5박 이상" : `${f}박`);
+export function matchesNights(t: Tour, f: NightsFilter): boolean {
+  if (f === 0) return true;
+  const s = nightsOf(t);
+  if (f === "5+") return [...s].some((n) => n >= 5);
+  return s.has(f);
+}
+
 /** 최소 출발 인원 — 숫자 또는 "4인 (…)"처럼 '인'으로 시작하는 글만 인정. "24명 (선착순)" 같은 건 모집 인원이라 쓰지 않는다 */
 export function minPeopleOf(t: Tour): number | null {
   const v = t.minPeople as unknown;

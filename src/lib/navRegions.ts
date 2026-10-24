@@ -8,19 +8,9 @@ import { tours } from "@/data/tours";
 export type NavRegion = { region: string; label: string; incheon: number; busan: number };
 export type NavRegions = Record<string, NavRegion[]>;
 
-// 메뉴에 보일 이름 (데이터 지역 이름 → 메뉴 이름). 없으면 지역 이름 그대로
-const LABELS: Record<string, string> = {
-  샤먼: "샤먼(하문)",
-  청도: "청도(칭다오)",
-  하이난: "하이난(해남도)",
-  마나도: "마나도(인도네시아)",
-};
-
-// 메뉴에서 한 칸으로 합칠 지역 (데이터 지역 이름 → 메뉴 칸). 칸 주소의 "방콕/파타야" 는 /tours 에서 둘 중 하나만 맞아도 보여 준다
-export const REGION_MERGE: Record<string, string> = {
-  방콕: "방콕/파타야",
-  파타야: "방콕/파타야",
-}; // 사장님 지시 2026-10-13
+// 메뉴 이름·합치기 규칙은 lib/regionNames.ts (브라우저에서도 쓰려고 상품 데이터 없는 모듈로 뺌, 2026-10-25)
+import { REGION_LABELS as LABELS, REGION_MERGE } from "./regionNames";
+export { REGION_MERGE };
 
 export function buildNavRegions(): NavRegions {
   const today = new Date().toISOString().slice(0, 10);

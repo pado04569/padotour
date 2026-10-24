@@ -110,7 +110,7 @@ export default function TrustBar({ departure }: { departure?: Dep }) {
           {/* 홈페이지의 정체성 — 로고 "여행의 파도" 만큼 크게, 흰 바탕 + 노란 테두리 (사장님 선택 C안, 2026-10-09) */}
           <Link
             href="/about#why-padotour"
-            className="inline-flex items-center gap-1.5 min-h-11 my-1.5 px-3 md:px-4 rounded-[10px] bg-white border-2 border-[#FAE100] hover:bg-yellow-50 text-slate-800 text-base md:text-lg font-extrabold whitespace-nowrap transition-colors"
+            className="inline-flex items-center gap-1.5 min-h-11 my-1 md:my-1.5 px-3 md:px-4 rounded-[10px] bg-white border-2 border-[#FAE100] hover:bg-yellow-50 text-slate-800 text-base md:text-lg font-extrabold whitespace-nowrap transition-colors"
           >
             <CheckIcon />
             왜 여행의 파도인가요?
@@ -124,14 +124,14 @@ export default function TrustBar({ departure }: { departure?: Dep }) {
         </div>
 
         {/* 출발지 + 내 예약/문의 */}
-        <div className="flex items-center justify-between md:justify-end gap-4">
+        <div className="flex items-center justify-between md:justify-end gap-3 md:gap-4">
           {departure ? (
             // Codex 검수(10/9): "부산출발로 변경"은 부산이 목적지인지 헷갈린다 → "출발지 인천" + "부산 출발 상품 보기"로 나눈다
-            <span className="inline-flex items-center gap-3 text-[15px] text-gray-600 whitespace-nowrap">
+            <span className="inline-flex items-center gap-2 md:gap-3 text-[15px] text-gray-600 whitespace-nowrap">
               {/* 지금 상태임이 보이게 '인천'만 연한 파랑 알약 (사장님 선택 P1, 2026-10-09) */}
-              <span className="inline-flex items-center gap-2">
+              <span className="inline-flex items-center gap-1.5 md:gap-2">
                 출발지
-                <b className="inline-flex items-center px-2.5 py-0.5 rounded-full bg-blue-50 border border-blue-200 text-blue-900 font-bold">
+                <b className="inline-flex items-center px-2 md:px-2.5 py-0.5 rounded-full bg-blue-50 border border-blue-200 text-blue-900 font-bold">
                   {DEP_LABEL[departure]}
                 </b>
               </span>

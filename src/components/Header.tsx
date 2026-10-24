@@ -93,7 +93,7 @@ export default function Header({ departure, realDeparture, navRegions }: HeaderP
 
       {/* ══ 2단: 로고 + 검색창 + SGI ══ */}
       <div className="border-b border-gray-100">
-        <div className="max-w-6xl mx-auto px-4 py-2 md:py-3 flex items-center gap-2 md:gap-4">
+        <div className="max-w-6xl mx-auto px-4 py-1.5 md:py-3 flex items-center gap-2 md:gap-4">
 
           <Link href={homeHref} className="flex items-center gap-2 flex-shrink-0 md:w-[340px]">
             <Image src="/images/logo.png" alt="여행의 파도" width={44} height={44} className="rounded-full md:w-[52px] md:h-[52px]" />

@@ -2,7 +2,9 @@ import Link from "next/link";
 import TourCard from "@/components/TourCard";
 import HeroSlider from "@/components/HeroSlider";
 import CountryCourseTiles from "@/components/CountryCourseTiles";
-import { tours } from "@/data/tours";
+import HomeSearch from "@/components/HomeSearch";
+import { buildSearchMeta } from "@/lib/homeSearch";
+import { tours, countries } from "@/data/tours";
 
 import type { Metadata } from "next";
 
@@ -17,6 +19,9 @@ export const metadata: Metadata = {
   },
 };
 
+
+// 첫 화면 검색 자료 — 배포 시점의 한국 날짜 기준, 모듈이 뜰 때 한 번 계산 (머리말 메뉴와 같은 방식)
+const SEARCH_META = buildSearchMeta(tours, countries, new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10));
 
 const slides = [
   {
@@ -64,8 +69,11 @@ export default function IncheonHome() {
 
   return (
     <div>
-      {/* ===== 히어로 슬라이더 ===== */}
-      <HeroSlider slides={slides} departure="incheon" />
+      {/* ===== 골프여행 검색 — 공항을 고른 뒤 바로 조건을 넣게 사진 배너보다 위에 (사장님 확정 A안, 2026-10-25) ===== */}
+      <HomeSearch dep="incheon" meta={SEARCH_META} />
+
+      {/* ===== 히어로 슬라이더 — 검색 아래로 내려가며 높이만 줄임 ===== */}
+      <HeroSlider slides={slides} departure="incheon" compact />
 
       {/* ===== 하위 카테고리 탭 ===== */}
       <div className="bg-white border-b border-gray-200">
