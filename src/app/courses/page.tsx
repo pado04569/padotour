@@ -3,7 +3,8 @@ import Image from "next/image";
 import { courses } from "@/data/courses";
 import type { Metadata } from "next";
 import { IconChevron } from "@/components/icons/Chevron";
-import { buildCourseGroups, matchesRegion } from "@/lib/courseGroups";
+import { buildCourseGroups, courseHoles, matchesRegion } from "@/lib/courseGroups";
+import CountryFlag from "@/components/CountryFlag";
 import { REGION_MAPS } from "@/lib/regionMaps";
 import CourseRegionMap from "@/components/CourseRegionMap";
 import CourseMapExplorer from "@/components/CourseMapExplorer";
@@ -87,7 +88,7 @@ export default async function CoursesPage({
         return { value: r.value, label: r.label, count: rc.length, image: rc[0]?.images[0] ?? g.image };
       }),
     }));
-    const mapCourses = courses.map((c) => ({ slug: c.slug, name: c.name, region: c.region, countryCode: c.countryCode, image: c.images[0], summary: c.summary ?? "" }));
+    const mapCourses = courses.map((c) => ({ slug: c.slug, name: c.name, region: c.region, countryCode: c.countryCode, country: c.country, holes: courseHoles(c), image: c.images[0], summary: c.summary ?? "" }));
     return (
       <div>
         <section className="bg-hero-info text-white py-5 md:py-6">
@@ -222,11 +223,15 @@ export default async function CoursesPage({
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
                       />
-                      <span className="absolute top-3 right-3 bg-emerald-700 text-white text-sm font-medium px-3 py-1 rounded-full z-10">
-                        {course.region}
-                      </span>
                     </div>
+                    {/* 기본 정보형 — 배지는 사진 아래 글자로 (사장님 지시 10/25). 홀 수는 검증된 specs 값이 있을 때만 */}
                     <div className="p-4">
+                      <ul className="flex flex-wrap items-center gap-1.5 mb-2" aria-label="골프장 분류">
+                        <li className="inline-flex items-center gap-1.5 h-7 px-2 rounded-lg bg-slate-100 text-[13px] font-semibold text-slate-700">
+                          <CountryFlag country={course.country} />{course.region}
+                        </li>
+                        {courseHoles(course) && <li className="inline-flex items-center h-7 px-2.5 rounded-lg bg-slate-100 text-[13px] font-semibold text-slate-600">{courseHoles(course)}홀</li>}
+                      </ul>
                       <h3 className="text-base font-bold text-gray-800 mb-1">{course.name}</h3>
                       {course.summary && (
                         <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">{course.summary}</p>

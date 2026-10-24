@@ -6,6 +6,8 @@ export type Tour = {
   countryCode: string;
   region: string;
   title: string;
+  /** 카드용 짧은 제목 (사장님 지시 2026-10-25) — 없으면 카드가 title 을 그대로 쓴다. SEO·상세 H1은 title 유지 */
+  displayTitle?: string;
   subtitle?: string;
   nights: number;
   days: number;

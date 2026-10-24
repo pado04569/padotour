@@ -31,6 +31,13 @@ const MERGE: Record<string, { key: string; label: string }> = {
   saipan: { key: "guam-saipan", label: "괌·사이판" },
 };
 
+/** 골프장 카드의 홀 수 — specs(검증 자료)에서 "총 N홀"(없으면 첫 "N홀")만 읽는다. 없으면 표시 안 함 (사장님 지시 10/25) */
+export function courseHoles(c: Course): number | null {
+  const all = (c.specs ?? []).map((s) => s.value).join(" / ");
+  const m = /총\s*(\d+)\s*홀/.exec(all) ?? /(\d+)\s*홀/.exec(all);
+  return m ? Number(m[1]) : null;
+}
+
 /** "방콕/파타야"처럼 묶어 적은 지역을 낱개로 나눈다 — 같은 지역이 두 번 보이지 않게 */
 export function splitRegion(region: string): string[] {
   return region.split("/").map((r) => r.trim()).filter(Boolean);

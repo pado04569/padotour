@@ -7,6 +7,7 @@ import { IconChevron } from "./icons/Chevron";
 import { IconCheck, IconGlobe, IconPin } from "./icons/MenuIcons";
 import PickerSheet from "./PickerSheet";
 import courseGeo from "@/data/courseGeo.json";
+import CountryFlag from "./CountryFlag";
 import { loadGeo, type GeoData } from "@/lib/geoClient";
 import {
   GEO_W, MAP_GROUPS, groupByKey, lngToX, latToY, pointFor, regionView, viewRect,
@@ -20,7 +21,7 @@ import { placeLabels, type LabelPoint, type PlacedLabel, type Rect } from "@/lib
 //  - 골프장 핀은 courseGeo.json 에 확인된 좌표가 있는 골프장만. 좌표가 없으면 핀 없이 카드 목록으로 안내한다.
 //  - 주소(view=map&country=&region=)와 뒤로가기에 상태를 반영한다.
 
-export type ExplorerCourse = { slug: string; name: string; region: string; countryCode: string; image: string; summary: string };
+export type ExplorerCourse = { slug: string; name: string; region: string; countryCode: string; country: string; holes: number | null; image: string; summary: string };
 export type ExplorerRegion = { value: string; label: string; count: number; image: string };
 export type ExplorerGroup = { key: string; label: string; count: number; image: string; regions: ExplorerRegion[] };
 
@@ -514,10 +515,16 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
                 <Link href={`/courses/${c.slug}`} className="block group">
                   <div className="relative h-44 bg-emerald-100 overflow-hidden">
                     <Image src={c.image} alt={`${c.region} ${c.name}`} fill sizes="(max-width: 768px) 100vw, 360px" className="object-cover group-hover:scale-105 transition-transform duration-300" />
-                    <span className="absolute top-3 right-3 bg-emerald-700 text-white text-sm font-medium px-3 py-1 rounded-full z-10">{c.region}</span>
                   </div>
                 </Link>
+                {/* 기본 정보형 — 배지는 사진 아래 글자로 (사장님 지시 10/25) */}
                 <div className="p-4">
+                  <ul className="flex flex-wrap items-center gap-1.5 mb-2" aria-label="골프장 분류">
+                    <li className="inline-flex items-center gap-1.5 h-7 px-2 rounded-lg bg-slate-100 text-[13px] font-semibold text-slate-700">
+                      <CountryFlag country={c.country} />{c.region}
+                    </li>
+                    {c.holes && <li className="inline-flex items-center h-7 px-2.5 rounded-lg bg-slate-100 text-[13px] font-semibold text-slate-600">{c.holes}홀</li>}
+                  </ul>
                   <h3 className="text-base font-bold text-gray-800 mb-1">{c.name}</h3>
                   {c.summary && <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">{c.summary}</p>}
                   <div className="flex gap-2 mt-3">
