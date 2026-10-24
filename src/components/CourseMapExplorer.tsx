@@ -96,9 +96,10 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
     if (st === "world") {
       pts = MAP_GROUPS.map((mg) => {
         const [x, y] = toPx(mg.marker[0], mg.marker[1]);
-        // 필리핀은 이웃(베트남·괌) 이름에 밀려 멀어지기 쉬워 먼저 '점 바로 위 → 왼쪽 위'로 배치 (사장님 지시 10/25)
-        const tight = mg.key === "philippines";
-        return { id: mg.key, x, y, text: mg.label, priority: groups.find((x2) => x2.key === mg.key)?.count ?? 0, first: tight, prefer: tight ? [[0, -1], [-1, -0.7]] as [number, number][] : undefined };
+        // 필리핀·베트남은 이웃 이름에 밀려 숨기 쉬워 먼저 '점 위쪽'부터 배치 (사장님 지시 10/25)
+        const PREFER: Record<string, [number, number][]> = { philippines: [[0, -1], [-1, -0.7]], vietnam: [[0, -1], [1, -0.7], [1, 0]] };
+        const tight = mg.key in PREFER;
+        return { id: mg.key, x, y, text: mg.label, priority: groups.find((x2) => x2.key === mg.key)?.count ?? 0, first: tight, prefer: PREFER[mg.key] };
       });
     } else if (g && gd) {
       pts = gd.regions.flatMap((r) => {
@@ -110,10 +111,10 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
     }
     const avoid: Rect[] = [{ x: bw - 58, y: 4, w: 54, h: 108 }]; // 오른쪽 위 확대·축소 묶음
     if (st !== "world") avoid.push({ x: 4, y: 4, w: 214, h: 52 }); // 왼쪽 위 '이전 단계'
-    // 국가 지도(세계)는 점 바로 옆 이름·연결선 없음, 지역 지도는 짧은 연결선 허용 — 화면별 규칙 분리 (사장님 지시 10/25)
+    // 모든 지도 연결선 없음 — 이름은 점 바로 옆, 자리가 없으면 숨기고 확대 시 표시 (사장님 지시 10/25 2차)
     const placed = st === "world"
-      ? placeLabels(pts, bw, bh, avoid, bw < 560 ? 14 : 15, { dists: [13, 24, 40, 56], order: "edge", minH: 36 })
-      : placeLabels(pts, bw, bh, avoid, bw < 560 ? 13 : 14);
+      ? placeLabels(pts, bw, bh, avoid, bw < 560 ? 14 : 15, { dists: [13, 20, 26, 32], order: "edge", minH: 36, noLeader: true })
+      : placeLabels(pts, bw, bh, avoid, bw < 560 ? 13 : 14, { dists: [10, 14, 18, 24, 30], noLeader: true });
     setLabels({ stage: st, items: Object.fromEntries(placed.map((x) => [x.id, x])) });
   };
 
@@ -203,23 +204,13 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
   const pos = (lng: number, lat: number) => {
     const x = ((lngToX(lng) - view.x) / view.w) * 100;
     const y = ((latToY(lat) - view.y) / view.h) * 100;
-    return { left: `${x}%`, top: `${y}%`, hidden: x < -8 || x > 108 || y < -8 || y > 108 };
+    return { left: `${x}%`, top: `${y}%`, hidden: x < 0.6 || x > 99.4 || y < 0.6 || y > 99.4 }; // 가장자리에 반쯤 잘린 점은 그리지 않는다 (Codex 10/25)
   };
-  const halo = { textShadow: "0 1px 2px #fff, 0 -1px 2px #fff, 1px 0 2px #fff, -1px 0 2px #fff, 0 0 6px #fff" };
   const haloThin = { textShadow: "0 0 3px #fff, 0 1px 2px #fff" }; // 국가 지도용 — 외곽선 과하지 않게
   const dotCls = "absolute -translate-x-1/2 -translate-y-1/2 w-2 h-2 rounded-full ring-[1.5px] ring-white shadow pointer-events-none";
   const L = labels && labels.stage === stage ? labels.items : null;
   const hiddenLabels = L ? Object.values(L).filter((x) => x.hidden).length : 0;
   // 점 가장자리 → 이름표 가장자리 연결선 (이름이 점과 떨어져 있을 때만)
-  const leaderSvg = (p: { left: string; top: string }, pl: PlacedLabel) => {
-    if (!pl.leader) return null;
-    const dl = Math.hypot(pl.dx, pl.dy) || 1;
-    return (
-      <svg className="absolute overflow-visible pointer-events-none" style={{ left: p.left, top: p.top }} width="1" height="1" aria-hidden="true">
-        <line x1={(pl.dx / dl) * 7} y1={(pl.dy / dl) * 7} x2={pl.ex} y2={pl.ey} stroke="#73899A" strokeWidth="1.2" />
-      </svg>
-    );
-  };
   const labelPos = (p: { left: string; top: string }, pl: PlacedLabel) =>
     ({ left: `calc(${p.left} + ${pl.dx}px)`, top: `calc(${p.top} + ${pl.dy}px)` });
 
@@ -412,7 +403,6 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
                   </button>
                   {pl && !pl.hidden && (
                     <>
-                      {leaderSvg(p, pl)}
                       <button type="button" onClick={() => apply({ g: g.key, r: null })} style={{ ...labelPos(p, pl), ...haloThin }} className="absolute -translate-x-1/2 -translate-y-1/2 flex items-center min-h-11 px-1.5 text-[14px] md:text-[15px] font-semibold text-slate-800 hover:text-brand-blue whitespace-nowrap">
                         {g.label}
                       </button>
@@ -434,13 +424,12 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
                   <span className={`${dotCls} bg-emerald-600 ${on ? "!w-2.5 !h-2.5 !ring-2 !ring-emerald-600/25 !shadow-none" : ""}`} style={{ left: p.left, top: p.top }} aria-hidden="true" />
                   {pl && !pl.hidden && (
                     <>
-                      {leaderSvg(p, pl)}
                       {on ? (
-                        <button type="button" onClick={() => apply({ g: sel.g, r: null })} style={labelPos(p, pl)} className="absolute -translate-x-1/2 -translate-y-1/2 z-10 flex items-center min-h-7 px-2 py-2 -my-2 rounded-[10px] bg-white border border-[#007F73] text-[#007F73] text-[13px] md:text-[14px] font-bold whitespace-nowrap">
-                          {r.label}
+                        <button type="button" onClick={() => apply({ g: sel.g, r: null })} style={labelPos(p, pl)} className="absolute -translate-x-1/2 -translate-y-1/2 z-10 p-2">
+                          <span className="flex items-center h-6 px-1.5 rounded-lg bg-white border border-[#007F73] text-[#007F73] text-[13px] md:text-[14px] font-bold whitespace-nowrap">{r.label}</span>
                         </button>
                       ) : (
-                        <button type="button" onClick={() => apply({ g: sel.g, r: r.value })} style={{ ...labelPos(p, pl), ...halo }} className="absolute -translate-x-1/2 -translate-y-1/2 px-1 py-2 text-[13px] md:text-[14px] font-extrabold text-slate-800 hover:text-emerald-700 whitespace-nowrap">
+                        <button type="button" onClick={() => apply({ g: sel.g, r: r.value })} style={{ ...labelPos(p, pl), ...haloThin }} className="absolute -translate-x-1/2 -translate-y-1/2 px-1 py-2 text-[13px] md:text-[14px] font-extrabold text-slate-800 hover:text-emerald-700 whitespace-nowrap">
                           {r.label}
                         </button>
                       )}

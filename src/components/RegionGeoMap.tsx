@@ -53,6 +53,7 @@ export default function RegionGeoMap({
       return [{ id: r, x: ((lngToX(pt[0]) - x) / w) * bw, y: ((latToY(pt[1]) - y) / h) * bh, text: r, priority: r === selected ? 1 : 0, selected: r === selected }];
     }),
     bw, bh, [], 13,
+    { dists: [10, 14, 18, 24], noLeader: true }, // 연결선 없이 점 바로 옆 (사장님 지시 10/25 2차)
   );
   const placedMap = new Map(placedList.map((p) => [p.id, p]));
 
@@ -81,25 +82,19 @@ export default function RegionGeoMap({
         const on = selected === r;
         const pl: PlacedLabel | undefined = placedMap.get(r);
         const lp = pl ? { left: `calc(${px}% + ${pl.dx}px)`, top: `calc(${py}% + ${pl.dy}px)` } : undefined;
-        const halo = { textShadow: "0 1px 2px #fff, 0 -1px 2px #fff, 1px 0 2px #fff, -1px 0 2px #fff, 0 0 6px #fff" };
-        const dl = pl ? Math.hypot(pl.dx, pl.dy) || 1 : 1;
+        const halo = { textShadow: "0 0 3px #fff, 0 1px 2px #fff" }; // 외곽 효과는 은은하게 (Codex 10/25)
         return (
           <span key={r}>
             <span className={`absolute -translate-x-1/2 -translate-y-1/2 w-2 h-2 rounded-full bg-emerald-600 pointer-events-none ${on ? "ring-2 ring-emerald-600/25" : "ring-[1.5px] ring-white shadow"}`} style={{ left: `${px}%`, top: `${py}%` }} aria-hidden="true" />
             {pl && !pl.hidden && (
               <>
-                {pl.leader && (
-                  <svg className="absolute overflow-visible pointer-events-none" style={{ left: `${px}%`, top: `${py}%` }} width="1" height="1" aria-hidden="true">
-                    <line x1={(pl.dx / dl) * 7} y1={(pl.dy / dl) * 7} x2={pl.ex} y2={pl.ey} stroke="#73899A" strokeWidth="1.2" />
-                  </svg>
-                )}
                 <Link
                   href={hrefFor(r)}
                   aria-current={on ? "page" : undefined}
                   style={on ? lp : { ...lp, ...halo }}
-                  className={`absolute -translate-x-1/2 -translate-y-1/2 whitespace-nowrap ${on ? "z-10 flex items-center min-h-7 px-2 py-2 -my-2 rounded-[10px] bg-white border border-[#007F73] text-[#007F73] text-[13px] font-bold" : "px-1 py-2 text-[13px] font-extrabold text-slate-800 hover:text-emerald-700"}`}
+                  className={`absolute -translate-x-1/2 -translate-y-1/2 whitespace-nowrap ${on ? "z-10 p-2" : "px-1 py-2 text-[13px] font-extrabold text-slate-800 hover:text-emerald-700"}`}
                 >
-                  {r}
+                  {on ? <span className="flex items-center h-6 px-1.5 rounded-lg bg-white border border-[#007F73] text-[#007F73] text-[13px] font-bold">{r}</span> : r}
                 </Link>
               </>
             )}

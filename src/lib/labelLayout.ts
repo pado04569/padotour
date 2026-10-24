@@ -88,7 +88,7 @@ export function placeLabels(
         const box: Rect = { x: p.x + dx - w / 2 - 4, y: p.y + dy - h / 2 - 4, w: w + 8, h: h + 8 }; // 이름 사이 8px 확보
         if (box.x < 2 || box.y < 2 || box.x + box.w > boxW - 2 || box.y + box.h > boxH - 2) continue;
         if (taken.some((t) => overlaps(box, t))) continue;
-        if (dotBoxes.some((d) => d.id !== p.id && overlaps(box, d.r))) continue;
+        if (!p.selected && dotBoxes.some((d) => d.id !== p.id && overlaps(box, d.r))) continue; // 선택 라벨은 항상 보여야 하므로 이웃 점 위는 허용 (흰 배경이 맨 위)
         // 연결선 끝 = 이름표 가장자리 (점 방향)
         const dl = Math.hypot(dx, dy);
         const vx = dx / dl, vy = dy / dl;

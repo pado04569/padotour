@@ -8,6 +8,7 @@ import CountryFlag from "@/components/CountryFlag";
 import { REGION_MAPS } from "@/lib/regionMaps";
 import CourseRegionMap from "@/components/CourseRegionMap";
 import CourseMapExplorer from "@/components/CourseMapExplorer";
+import CountryRegionCard from "@/components/CountryRegionCard";
 
 const SITE_URL = "https://www.padotour.com";
 
@@ -120,41 +121,13 @@ export default async function CoursesPage({
 
       {/* 나라·지역으로 찾기 — 탐색형 (사장님 확정 G3, 2026-10-09). 메인은 나라 타일(G1), 여기서는 지역까지 바로 고른다 */}
       {!isFiltered && (
-        <section className="max-w-6xl mx-auto px-4 pt-8 md:pt-10">
+        <section className="max-w-6xl mx-auto px-4 pt-6 md:pt-10">
           <h2 className="text-lg md:text-xl font-black text-gray-800 mb-1">국가·지역으로 찾기</h2>
           <p className="text-gray-600 text-[15px] mb-4 break-keep">국가를 누르면 그 국가 골프장 전체, 지역을 누르면 그 지역 골프장만 보여드려요.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+            {/* 좌우 배치 카드 — 상단 국가명+골프장 수, 왼쪽 사진(두 줄 높이)+오른쪽 지역 2열, 나머지는 펼침 (사장님 시안 2026-10-25) */}
             {groups.map((g) => (
-              <div key={g.key} className="flex gap-3 md:gap-4 p-3 border border-gray-200 rounded-2xl bg-white">
-                <Link href={g.href} className="relative flex-none w-[92px] h-[92px] md:w-[120px] md:h-[120px] rounded-xl overflow-hidden bg-emerald-100">
-                  <img src={g.image} alt={`${g.label} 골프장`} loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover" />
-                </Link>
-                <div className="flex-1 min-w-0">
-                  <Link href={g.href} className="flex items-baseline justify-between gap-2 group">
-                    <span className="text-xl font-black text-gray-900 group-hover:text-emerald-700">{g.label}</span>
-                    <span className="inline-flex items-center text-sm font-bold text-emerald-700 whitespace-nowrap">
-                      골프장 {g.count}곳<IconChevron className="w-4 h-4" />
-                    </span>
-                  </Link>
-                  <div className="flex flex-wrap gap-1.5 mt-2">
-                    {/* 지역이 많은 나라(일본 16곳)는 8개까지만 — 나머지는 나라 화면의 지역 버튼에서 */}
-                    {g.regions.slice(0, 8).map((r) => (
-                      <Link
-                        key={r.value}
-                        href={`${g.href}&region=${encodeURIComponent(r.value)}`}
-                        className={`${chip} bg-emerald-50 text-emerald-800 hover:bg-emerald-100`}
-                      >
-                        {r.label}
-                      </Link>
-                    ))}
-                    {g.regions.length > 8 && (
-                      <Link href={g.href} className={`${chip} gap-0.5 text-gray-600 hover:text-emerald-700`}>
-                        지역 {g.regions.length - 8}곳 더 보기<IconChevron className="w-4 h-4" />
-                      </Link>
-                    )}
-                  </div>
-                </div>
-              </div>
+              <CountryRegionCard key={g.key} label={g.label} href={g.href} count={g.count} image={g.image} regions={g.regions} />
             ))}
           </div>
           <h2 className="text-lg md:text-xl font-black text-gray-800 mt-10 md:mt-12 -mb-2">전체 골프장</h2>
