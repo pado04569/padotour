@@ -72,7 +72,6 @@ export default function RegionNavigator({
         {regions.map((r) => (
           <Link key={r.label} href={href(r.label)} className={chip(selected === r.label)} aria-current={selected === r.label ? "page" : undefined}>
             {r.label}
-            <span className={selected === r.label ? "text-white/80" : "text-gray-500"}>{r.count}</span>
           </Link>
         ))}
       </div>

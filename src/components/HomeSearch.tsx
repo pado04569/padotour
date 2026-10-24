@@ -26,6 +26,8 @@ type Draft = { dep: Dep; country: string; region: string; date: string; people: 
 export default function HomeSearch({ dep, meta }: { dep: Dep; meta: SearchMeta }) {
   const [draft, setDraft] = useState<Draft>({ dep, country: "all", region: "", date: "", people: 2, nights: 0 });
   const [sheet, setSheet] = useState<Sheet>(null);
+  // 국가·지역 창 임시 선택 — '선택 완료'를 눌러야 반영, X·바깥·ESC로 닫으면 이전 값 유지 (사장님 지시 10/25)
+  const [place, setPlace] = useState<{ country: string; region: string; pickCountry: boolean }>({ country: "all", region: "", pickCountry: true });
   const today = localIso() > meta.today ? localIso() : meta.today;
 
   const countryLabel = (code: string) => meta.countries.find((c) => c.code === code)?.label ?? "전체 여행지";
@@ -62,9 +64,13 @@ export default function HomeSearch({ dep, meta }: { dep: Dep; meta: SearchMeta }
   const chevron = <IconChevron dir="down" className="w-4 h-4 text-slate-600 flex-none ml-auto" />;
 
   const countriesHere = meta.countries.filter((c) => meta.groups[metaKey(draft.dep, c.code)]);
-  const regions = regionOptionsFor(meta, draft.dep, draft.country);
+  const countryLabel2 = (code: string) => (code === "all" ? "전체 여행지" : countryLabel(code));
+  const sheetRegions = regionOptionsFor(meta, draft.dep, place.country);
+  // 국가·지역 창의 2열 버튼 — 긴 이름은 줄바꿈(잘림·겹침 금지), 상품 수 숫자는 붙이지 않는다 (사장님 지시 10/25)
+  const placeBtn = (on: boolean) =>
+    `flex items-center gap-1.5 min-h-12 px-3.5 py-2 rounded-xl border-[1.5px] text-[16px] font-bold text-left break-keep transition-colors ${on ? "border-emerald-600 bg-emerald-50 text-emerald-900" : "border-slate-200 bg-white text-main-text hover:bg-slate-50"}`;
   const chip = (on: boolean) =>
-    `inline-flex items-center justify-center md:justify-start gap-1 min-h-12 w-full md:w-auto px-3.5 rounded-full text-[15px] font-bold border-[1.5px] transition-colors ${on ? "bg-emerald-600 border-emerald-600 text-white" : "bg-white border-[#D9E1EA] text-main-text hover:bg-slate-50"}`;
+    `inline-flex items-center gap-1 min-h-11 px-3 md:px-3.5 rounded-full text-[15px] font-bold border-[1.5px] transition-colors ${on ? "bg-emerald-600 border-emerald-600 text-white" : "bg-white border-[#D9E1EA] text-main-text hover:bg-slate-50"}`;
 
   return (
     <section className="bg-soft-blue border-b border-line">
@@ -81,7 +87,7 @@ export default function HomeSearch({ dep, meta }: { dep: Dep; meta: SearchMeta }
             </span>
             {chevron}
           </button>
-          <button type="button" onClick={() => setSheet("place")} aria-haspopup="dialog" className={field({ order: "order-2", divider: true, wide })}>
+          <button type="button" onClick={() => { setPlace({ country: draft.country, region: draft.region, pickCountry: draft.country === "all" }); setSheet("place"); }} aria-haspopup="dialog" className={field({ order: "order-2", divider: true, wide })}>
             <IconPin className="w-5 h-5 text-brand-blue" />
             <span className="flex flex-col min-w-0">
               <span className={label}>국가·지역</span>
@@ -106,12 +112,11 @@ export default function HomeSearch({ dep, meta }: { dep: Dep; meta: SearchMeta }
             />
           </div>
 
-          {/* 여행기간 — 휴대폰은 검색 버튼 위(조건을 다 고른 뒤 검색): 제목 한 줄 + 칩 3+2 격자(마지막 칩이 혼자 남지 않게, Codex 10/25). PC는 검색줄 아래 같은 판 안 한 줄 */}
-          <div className="order-5 md:order-6 col-span-2 md:col-span-5 flex flex-col md:flex-row md:flex-wrap md:items-center gap-2 py-1 md:px-4 md:py-3 md:border-t md:border-line">
+          {/* 여행기간 — 휴대폰은 검색 버튼 위(조건을 다 고른 뒤 검색). 칩은 내용 너비만큼, 한 줄에 안 들어가면 자연스럽게 줄바꿈(글씨 축소·가로 스크롤 금지 — 사장님 지시 10/25) */}
+          <div className="order-5 md:order-6 col-span-2 md:col-span-5 flex flex-wrap items-center gap-1.5 md:gap-2 py-1 md:px-4 md:py-3 md:border-t md:border-line">
             <span className="inline-flex items-center gap-1.5 text-[15px] font-bold text-main-text mr-1">
               <IconMoon className="w-5 h-5 text-brand-blue" />여행기간
             </span>
-            <div className="grid grid-cols-3 gap-2 md:contents">
             {NIGHTS_OPTIONS.map((o) => {
               const on = draft.nights === o.value;
               return (
@@ -121,7 +126,6 @@ export default function HomeSearch({ dep, meta }: { dep: Dep; meta: SearchMeta }
                 </button>
               );
             })}
-            </div>
           </div>
 
           <Link
@@ -164,41 +168,68 @@ export default function HomeSearch({ dep, meta }: { dep: Dep; meta: SearchMeta }
           title="국가·지역"
           onClose={() => setSheet(null)}
           footer={
-            <button type="button" onClick={() => setSheet(null)} className="w-full flex items-center justify-center min-h-14 rounded-xl bg-brand-blue hover:bg-blue-700 text-white text-lg font-extrabold">
+            <button
+              type="button"
+              onClick={() => { setDraft((s) => ({ ...s, country: place.country, region: place.region })); setSheet(null); }}
+              className="w-full flex items-center justify-center min-h-14 rounded-xl bg-brand-blue hover:bg-blue-700 text-white text-lg font-extrabold"
+            >
               선택 완료
             </button>
           }
         >
-          <h3 className="text-sm font-bold text-slate-600 mb-1.5">나라</h3>
-          <div className="flex flex-wrap gap-2">
-            <button type="button" aria-pressed={draft.country === "all"} onClick={() => { setDraft((s) => ({ ...s, country: "all", region: "" })); setSheet(null); }} className={chip(draft.country === "all")}>
-              {draft.country === "all" && <IconCheck className="w-4 h-4" />}전체 여행지
-            </button>
-            {countriesHere.map((c) => {
-              const on = draft.country === c.code;
-              return (
-                <button key={c.code} type="button" aria-pressed={on} onClick={() => setDraft((s) => ({ ...s, country: c.code, region: s.country === c.code ? s.region : "" }))} className={chip(on)}>
-                  {on && <IconCheck className="w-4 h-4" />}{c.label}
-                </button>
-              );
-            })}
-          </div>
-          {draft.country !== "all" && regions.length > 0 && (
+          {place.pickCountry ? (
             <>
-              <h3 className="text-sm font-bold text-slate-600 mt-5 mb-1.5">{countryLabel(draft.country)} 안 지역 <span className="font-medium text-slate-500">(숫자는 상품 수)</span></h3>
-              <div className="flex flex-wrap gap-2">
-                <button type="button" aria-pressed={draft.region === ""} onClick={() => { setDraft((s) => ({ ...s, region: "" })); setSheet(null); }} className={chip(draft.region === "")}>
-                  {draft.region === "" && <IconCheck className="w-4 h-4" />}{countryLabel(draft.country)} 전체
+              {/* 1단계: 국가·여행지 목록 — 고르면 바로 그 나라 지역 화면으로 (다른 나라로 바꾸면 이전 지역은 해제) */}
+              <h3 className="text-sm font-bold text-slate-600 mb-1.5">국가·여행지</h3>
+              <div className="grid grid-cols-2 gap-2">
+                <button type="button" aria-pressed={place.country === "all"} onClick={() => setPlace({ country: "all", region: "", pickCountry: false })} className={placeBtn(place.country === "all")}>
+                  전체 여행지{place.country === "all" && <IconCheck className="w-4 h-4 flex-none ml-auto" />}
                 </button>
-                {regions.map((r) => {
-                  const on = draft.region === r.key;
-                  return (
-                    <button key={r.key} type="button" aria-pressed={on} onClick={() => { setDraft((s) => ({ ...s, region: r.key })); setSheet(null); }} className={chip(on)}>
-                      {on && <IconCheck className="w-4 h-4" />}{r.label} <span className={`text-[13px] font-semibold ${on ? "text-white/85" : "text-slate-500"}`}>{r.n}</span>
-                    </button>
-                  );
-                })}
+                {countriesHere.map((c) => (
+                  <button
+                    key={c.code}
+                    type="button"
+                    aria-pressed={place.country === c.code}
+                    onClick={() => setPlace((v) => ({ country: c.code, region: v.country === c.code ? v.region : "", pickCountry: false }))}
+                    className={placeBtn(place.country === c.code)}
+                  >
+                    {c.label}{place.country === c.code && <IconCheck className="w-4 h-4 flex-none ml-auto" />}
+                  </button>
+                ))}
               </div>
+            </>
+          ) : (
+            <>
+              {/* 2단계: 위 국가 칸(누르면 다시 국가 목록) + 그 국가의 지역 2열 — 긴 이름은 줄바꿈, 상품 수 숫자 없음 */}
+              <button
+                type="button"
+                onClick={() => setPlace((v) => ({ ...v, pickCountry: true }))}
+                className="w-full flex items-center gap-2.5 min-h-14 px-3.5 rounded-xl border-[1.5px] border-slate-300 bg-white text-left hover:border-emerald-500"
+              >
+                <IconPin className="w-5 h-5 text-brand-blue" />
+                <span className="flex flex-col min-w-0">
+                  <span className="text-[13px] font-semibold text-slate-600 leading-tight">국가·여행지</span>
+                  <span className="text-[17px] font-extrabold text-slate-900 leading-tight">{countryLabel2(place.country)}</span>
+                </span>
+                <IconChevron dir="down" className="w-4 h-4 text-slate-600 flex-none ml-auto" />
+              </button>
+              {place.country === "all" ? (
+                <p className="text-[14px] text-slate-600 mt-3 break-keep">전체 여행지에서 찾습니다. 위 칸을 눌러 나라를 고르면 지역까지 고를 수 있어요.</p>
+              ) : (
+                <>
+                  <h3 className="text-sm font-bold text-slate-600 mt-4 mb-1.5">{countryLabel2(place.country)} 지역</h3>
+                  <div className="grid grid-cols-2 gap-2">
+                    <button type="button" aria-pressed={place.region === ""} onClick={() => setPlace((v) => ({ ...v, region: "" }))} className={placeBtn(place.region === "")}>
+                      {countryLabel2(place.country)} 전체{place.region === "" && <IconCheck className="w-4 h-4 flex-none ml-auto" />}
+                    </button>
+                    {sheetRegions.map((r) => (
+                      <button key={r.key} type="button" aria-pressed={place.region === r.key} onClick={() => setPlace((v) => ({ ...v, region: r.key }))} className={placeBtn(place.region === r.key)}>
+                        {r.label}{place.region === r.key && <IconCheck className="w-4 h-4 flex-none ml-auto" />}
+                      </button>
+                    ))}
+                  </div>
+                </>
+              )}
             </>
           )}
         </PickerSheet>

@@ -240,9 +240,9 @@ function ToursContent() {
             <div className={`${dateParam && nearby.length === 0 ? "mt-5" : "mt-4"} px-4 py-4 rounded-2xl bg-yellow-50 text-center`}>
               {dateParam && nearby.length === 0 && (
                 <p className="text-[16px] font-extrabold text-slate-900 mb-2">
-                  선택하신 날짜 전후 7일에는{" "}
+                  선택하신 출발일 전후 7일에도{" "}
                   <br />
-                  출발 가능한 상품이 없습니다.
+                  조건에 맞는 상품이 없습니다.
                 </p>
               )}
               <p className="text-[15px] font-semibold text-slate-700">

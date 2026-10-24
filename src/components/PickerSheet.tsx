@@ -64,7 +64,8 @@ export default function PickerSheet({
           </button>
         </div>
         {children}
-        {footer && <div className="mt-4">{footer}</div>}
+        {/* 아래 버튼 — 목록이 길어도 스크롤 중 항상 보이게 붙여 둔다. 흐름상 맨 아래라 목록을 가리지 않는다 (사장님 지시 10/25) */}
+        {footer && <div className="sticky bottom-0 -mx-4 md:-mx-6 px-4 md:px-6 pt-3 pb-1 mt-4 bg-white border-t border-line">{footer}</div>}
       </div>
     </div>
   );
