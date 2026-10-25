@@ -194,8 +194,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
   // 항공편·출발일 — 일정 문장 속에 묻혀 있어 AI 요약에서 빠졌다(ChatGPT로 온 손님이 비행시간을 몰랐음, 2026-10)
   const flights = flightInfo(tour);
-  // 화면에는 편명(ZE891 등)을 빼고 시각만 (사장님 지시 10/25) — 자료·검색용 설명은 그대로
-  const stripFlightNo = (t: string) => t.replace(/\(([A-Z]{1,2}\d{2,4}),\s*/g, "(").replace(/또는\s+[A-Z]{1,2}\d{2,4}\s+/g, "또는 ");
+  // 편명(ZE891 등)은 괄호 속에서 앞으로 빼 더 잘 보이게 (사장님 지시 10/25 정정) — 대체편(또는 …)은 그대로
+  const flightNoOf = (t: string) => t.match(/\(([A-Z]{1,2}\d{2,4}),\s*/)?.[1] ?? "";
+  const stripFlightNo = (t: string) => t.replace(/\(([A-Z]{1,2}\d{2,4}),\s*/, "(");
   const departures = departureSummary(tour);
 
   // 자주 묻는 질문 — 네이버 블로그는 AI 로봇을 막아두어, AI 검색이 읽을 수 있는 Q&A를 홈페이지에 둔다 (2026-10)
@@ -418,13 +419,13 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <dl className="bg-white border border-gray-200 rounded-2xl p-4 md:p-5 mb-8 space-y-2.5 text-sm break-keep">
             {flights.outbound && (
               <div className="flex gap-3">
-                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500 flex items-center gap-2 h-5"><span className="text-brand-blue"><IconPlaneTakeoff /></span>가는 편</dt>
+                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500 flex items-center gap-2 h-5"><span className="text-brand-blue"><IconPlaneTakeoff /></span>가는 편{flightNoOf(flights.outbound) && <b className="px-1.5 py-0.5 rounded bg-blue-50 text-brand-blue text-[13px] font-extrabold">{flightNoOf(flights.outbound)}</b>}</dt>
                 <dd className="text-gray-800 leading-5"><FlightLine text={stripFlightNo(flights.outbound)} /></dd>
               </div>
             )}
             {flights.inbound && (
               <div className="flex gap-3">
-                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500 flex items-center gap-2 h-5"><span className="text-brand-blue"><IconPlaneLanding /></span>오는 편</dt>
+                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500 flex items-center gap-2 h-5"><span className="text-brand-blue"><IconPlaneLanding /></span>오는 편{flightNoOf(flights.inbound) && <b className="px-1.5 py-0.5 rounded bg-blue-50 text-brand-blue text-[13px] font-extrabold">{flightNoOf(flights.inbound)}</b>}</dt>
                 <dd className="text-gray-800 leading-5"><FlightLine text={stripFlightNo(flights.inbound)} /></dd>
               </div>
             )}
