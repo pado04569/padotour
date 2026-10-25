@@ -127,12 +127,15 @@ function ToursContent() {
   const placeText = regionParam ? (regionParam === "괌" ? "괌/사이판" : regionParam) : selected === "all" ? "전체 여행지" : countryName;
   // 조건 줄의 출발지는 주소에 출발공항이 있을 때만 — '전체 공항'인데 저장된 출발지가 보이면 부산 상품이 섞여 보였다 (가상 고객 체험 10/25)
   const depName = isDep(departureParam) ? DEP_NAME[departureParam] : "";
+  // 검색한 출발일·인원을 상세·문의창까지 들고 간다 (가상 고객 체험·사장님 A안 10/25)
+  const detailQuery = [dateParam && `date=${dateParam}`, hasPeople && `people=${people}`].filter(Boolean).join("&");
   const card = (tour: Tour) => {
     const price = dateParam ? departureMap(tour).get(dateParam) : undefined;
     return (
       <TourCard
         key={tour.id}
         tour={tour}
+        query={detailQuery}
         facts={tourFacts(tour)}
         datePrice={price ? { label: `${dateLabel(dateParam, "short")} 출발 · 1인`, price } : undefined}
       />
@@ -399,7 +402,7 @@ function ToursContent() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 max-w-3xl mx-auto">
                   {filtered.map((tour) => (
                     <div key={tour.id} className={filtered.length === 1 ? "sm:col-span-2" : ""}>
-                      <TourCard tour={tour} featured={filtered.length === 1} facts={filtered.length === 1 ? undefined : tourFacts(tour)} />
+                      <TourCard tour={tour} query={detailQuery} featured={filtered.length === 1} facts={filtered.length === 1 ? undefined : tourFacts(tour)} />
                     </div>
                   ))}
                 </div>

@@ -100,17 +100,18 @@ export default function KakaoFloat() {
       title="카카오톡 채널로 문의하기"
       aria-hidden={hidden || undefined}
       tabIndex={hidden ? -1 : undefined}
-      className={`fixed bottom-4 right-4 md:bottom-6 md:right-6 z-40 w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-[#011C41] shadow-lg flex items-center justify-center transition-[opacity,translate,scale] duration-200 hover:scale-105 active:scale-95 ${
+      className={`fixed bottom-4 right-4 md:bottom-6 md:right-6 z-40 w-14 h-14 md:w-[60px] md:h-[60px] rounded-[18px] bg-[#011C41] shadow-lg flex flex-col items-center justify-center gap-0.5 transition-[opacity,translate,scale] duration-200 hover:scale-105 active:scale-95 ${
         hidden ? "opacity-0 translate-y-3 pointer-events-none" : "opacity-100 translate-y-0"
       }`}
     >
-      <svg viewBox="0 0 32 32" className="w-7 h-7 md:w-8 md:h-8" aria-hidden="true">
+      <svg viewBox="0 0 32 32" className="w-6 h-6 md:w-7 md:h-7" aria-hidden="true">
         <path
           d="M16 4C9.37 4 4 8.7 4 14.5c0 3.3 1.74 6.25 4.47 8.17L7.3 27.4c-.12.48.4.86.82.6l5.1-3.2c.9.13 1.83.2 2.78.2 6.63 0 12-4.7 12-10.5S22.63 4 16 4z"
           fill="#fff"
         />
         <path d="M11.2 15.6c1.2 1.9 2.9 2.9 4.8 2.9s3.6-1 4.8-2.9" fill="none" stroke="#011C41" strokeWidth="2.2" strokeLinecap="round" />
       </svg>
+      <span className="text-white text-[11px] md:text-[12px] font-extrabold leading-none tracking-wide">상담</span>
     </a>
   );
 }

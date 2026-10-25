@@ -41,6 +41,11 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
   useEffect(() => onTourDate((s) => { setSel(s); setSent(false); }), []);
+  // 목록에서 검색한 인원(?people=)을 이어받는다 — 예약 안 되는 인원(최소 인원 미만)은 무시 (사장님 A안 10/25)
+  useEffect(() => {
+    const n = Number(new URLSearchParams(window.location.search).get("people"));
+    if (PEOPLE_OPTIONS.includes(n) && (minPeople == null || n >= minPeople)) setPeople(String(n));
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   // 달력 요약칸의 '예약문의'를 누르면 바로 입력 창 (사장님 지시 10/25)
   useEffect(() => onInquiryOpen(() => { setModal(true); if (!openedOnce.current) { openedOnce.current = true; track("inquiry_open", { item_name: tourTitle, method: "panel" }); } }), []); // eslint-disable-line react-hooks/exhaustive-deps
 
