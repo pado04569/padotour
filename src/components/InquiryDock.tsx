@@ -214,8 +214,8 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
       {/* 문의 입력 창 — 닫아도 선택 조건은 그대로 남는다 */}
       {modal && (
         <div role="dialog" aria-modal="true" aria-label="예약 문의" className="fixed inset-0 z-[60] bg-black/50 flex items-end sm:items-center justify-center" onClick={() => setModal(false)}>
-          <div className="w-full sm:max-w-md bg-white rounded-t-2xl sm:rounded-2xl p-5 pb-7 max-h-[92vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
-            <div className="flex items-start justify-between gap-3 mb-3">
+          <div className="w-full sm:max-w-md bg-white rounded-t-2xl sm:rounded-2xl p-5 pb-8 min-h-[86vh] sm:min-h-0 max-h-[94vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
+            <div className="flex items-start justify-between gap-3 mb-4">
               <h3 className="text-[21px] font-black text-slate-900">예약 문의</h3>
               <button type="button" onClick={() => setModal(false)} aria-label="닫기" className="w-9 h-9 -mr-1.5 -mt-1.5 rounded-full hover:bg-slate-100 text-slate-500 text-lg font-bold">✕</button>
             </div>
@@ -226,7 +226,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
                 <p className="text-sm text-gray-600 mt-1">담당자가 카카오톡으로 견적서를 보내드립니다.</p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-3">
+              <form onSubmit={handleSubmit} className="space-y-5 sm:space-y-3.5">
                 <div className="rounded-xl bg-slate-50 border border-slate-200 px-4 py-3.5 text-[15px] text-slate-700 space-y-1 break-keep">
                   <p className="font-bold text-slate-900 line-clamp-2">{tourTitle}</p>
                   <p>{sel ? `${fmtDate(sel.date)} 출발 · ${selNights}박 ${selDays}일${returnDate ? ` · ${returnDate} 귀국` : ""}` : "출발일 미정 (상담 때 함께 정해요)"}</p>
