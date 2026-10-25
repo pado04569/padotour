@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { track } from "@/lib/analytics";
 import SelectChevron from "@/components/SelectChevron";
 import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint } from "@/lib/inquiryForm";
-import { onTourDate, type TourDateSel } from "@/lib/tourBooking";
+import { onTourDate, onInquiryOpen, type TourDateSel } from "@/lib/tourBooking";
 import { IconCalendarDays, IconClipboard, IconCircleCheck, IconPhone, IconUsers, IconChat } from "@/components/icons/MenuIcons";
 
 // 상세페이지 문의 패널 (사장님 작업지시 2026-10-25)
@@ -41,6 +41,8 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
   useEffect(() => onTourDate((s) => { setSel(s); setSent(false); }), []);
+  // 달력 요약칸의 '예약문의'를 누르면 바로 입력 창 (사장님 지시 10/25)
+  useEffect(() => onInquiryOpen(() => { setModal(true); if (!openedOnce.current) { openedOnce.current = true; track("inquiry_open", { item_name: tourTitle, method: "panel" }); } }), []); // eslint-disable-line react-hooks/exhaustive-deps
 
   // 휴대폰 고정 바가 카카오 채팅 버튼을 가리지 않게 — 바 높이만큼 올린다 (지시서 6)
   useEffect(() => {
@@ -144,7 +146,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
         value={people}
         onChange={(e) => { markStart("people"); setPeople(e.target.value); }}
         aria-label="문의 인원"
-        className="w-full appearance-none border border-slate-300 rounded-xl pl-9 pr-9 py-2.5 text-[15px] font-bold bg-white focus:outline-none focus:border-brand-blue"
+        className="w-full appearance-none border-[1.5px] border-slate-300 rounded-xl pl-9 pr-9 py-3.5 text-[17px] font-bold bg-white focus:outline-none focus:border-brand-blue"
       >
         {PEOPLE_OPTIONS.map((n) => (
           <option key={n} value={n} disabled={minPeople != null && n < minPeople}>
@@ -212,9 +214,9 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
       {/* 문의 입력 창 — 닫아도 선택 조건은 그대로 남는다 */}
       {modal && (
         <div role="dialog" aria-modal="true" aria-label="예약 문의" className="fixed inset-0 z-[60] bg-black/50 flex items-end sm:items-center justify-center" onClick={() => setModal(false)}>
-          <div className="w-full sm:max-w-md bg-white rounded-t-2xl sm:rounded-2xl p-5 max-h-[88vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
+          <div className="w-full sm:max-w-md bg-white rounded-t-2xl sm:rounded-2xl p-5 pb-7 max-h-[92vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
             <div className="flex items-start justify-between gap-3 mb-3">
-              <h3 className="text-[18px] font-black text-slate-900">예약 문의</h3>
+              <h3 className="text-[21px] font-black text-slate-900">예약 문의</h3>
               <button type="button" onClick={() => setModal(false)} aria-label="닫기" className="w-9 h-9 -mr-1.5 -mt-1.5 rounded-full hover:bg-slate-100 text-slate-500 text-lg font-bold">✕</button>
             </div>
             {sent ? (
@@ -225,30 +227,30 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-3">
-                <div className="rounded-xl bg-slate-50 border border-slate-200 px-3.5 py-3 text-[13px] text-slate-700 space-y-1 break-keep">
+                <div className="rounded-xl bg-slate-50 border border-slate-200 px-4 py-3.5 text-[15px] text-slate-700 space-y-1 break-keep">
                   <p className="font-bold text-slate-900 line-clamp-2">{tourTitle}</p>
                   <p>{sel ? `${fmtDate(sel.date)} 출발 · ${selNights}박 ${selDays}일${returnDate ? ` · ${returnDate} 귀국` : ""}` : "출발일 미정 (상담 때 함께 정해요)"}</p>
                   {sel && <p className="font-bold text-slate-700">선택일 1인 요금 <b className="text-red-600">{fmtWon(sel.price)}</b></p>}
                 </div>
                 <div>
-                  <label className="text-xs text-gray-500 mb-1 block">인원수</label>
+                  <label className="text-[14px] font-bold text-gray-600 mb-1 block">인원수</label>
                   {peopleSelect}
                 </div>
                 <div>
-                  <label className="text-xs text-gray-500 mb-1 block">휴대폰 번호</label>
+                  <label className="text-[14px] font-bold text-gray-600 mb-1 block">휴대폰 번호</label>
                   <input
                     type="tel"
                     value={phone}
                     onChange={(e) => { markStart("phone"); setPhone(e.target.value); }}
                     placeholder="010-0000-0000"
                     required
-                    className="w-full border border-gray-200 rounded-xl px-3 py-2.5 text-sm focus:outline-none focus:border-emerald-500"
+                    className="w-full border-[1.5px] border-gray-300 rounded-xl px-4 py-3.5 text-[17px] focus:outline-none focus:border-emerald-500"
                   />
                   {phoneHint(phone) && <p className="text-[11px] text-red-600 mt-1">{phoneHint(phone)}</p>}
                 </div>
                 <div>
-                  <label className="flex items-start gap-2 text-[11px] text-gray-600 cursor-pointer">
-                    <input type="checkbox" checked={agreed} onChange={(e) => setAgreed(e.target.checked)} className="mt-0.5 w-3.5 h-3.5 flex-shrink-0" required />
+                  <label className="flex items-start gap-2 text-[13px] text-gray-700 cursor-pointer">
+                    <input type="checkbox" checked={agreed} onChange={(e) => setAgreed(e.target.checked)} className="mt-0.5 w-[18px] h-[18px] flex-shrink-0" required />
                     <span>
                       개인정보 수집·이용에 동의합니다.{" "}
                       <button type="button" onClick={(e) => { e.preventDefault(); setShowPrivacy(!showPrivacy); }} className="underline text-emerald-700">
@@ -268,7 +270,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
                 <button
                   type="submit"
                   disabled={sending || !isValidPhone(phone) || !agreed}
-                  className="w-full min-h-12 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-300 text-white font-black rounded-xl text-[15px] transition-colors"
+                  className="w-full min-h-14 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-300 text-white font-black rounded-xl text-[17px] transition-colors"
                 >
                   <span className="inline-flex items-center gap-1.5"><IconClipboard className="w-5 h-5" />{sending ? "전송 중..." : "문의 접수하기"}</span>
                 </button>
@@ -280,7 +282,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
       )}
 
       {/* 휴대폰 고정 바가 본문 끝(뒤로가기)을 가리지 않게 여백 */}
-      <div className="h-28 lg:hidden" aria-hidden="true" />
+      <div className="h-[104px] lg:hidden" aria-hidden="true" />
     </div>
   );
 }

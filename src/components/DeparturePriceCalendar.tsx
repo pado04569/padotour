@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { IconChevron } from "@/components/icons/Chevron";
 import { IconCalendarDays } from "@/components/icons/MenuIcons";
-import { announceTourDate } from "@/lib/tourBooking";
+import { announceTourDate, requestInquiryOpen } from "@/lib/tourBooking";
 
 // 출발일 달력 — 한 달씩, 날짜마다 1인 요금을 만원 단위로 미리 보여준다 (사장님 작업지시 2026-10-25)
 //  - 이달 최저가 날짜는 빨간 요금으로 표시하고, 머리에 "N월 최저가"를 단다. 최저가 판단은 실제 원 단위 가격.
@@ -173,7 +173,9 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
           })}
         </div>
 
-        <p className="mt-3 text-[12px] text-gray-500">숫자는 1인 요금(만원 단위) · <b className="text-red-500">최저가</b>는 이달 가장 낮은 요금 · <b>-</b>는 출발일이 없는 날짜입니다</p>
+        <p className="mt-3 text-[12px] text-gray-500 break-keep">
+          <span className="whitespace-nowrap">숫자는 1인 요금(만원 단위)</span> · <span className="whitespace-nowrap"><b className="text-red-500">최저가</b>는 이달 가장 낮은 요금</span> · <span className="whitespace-nowrap"><b>-</b>는 출발일이 없는 날짜</span>
+        </p>
 
         {hint && (
           <div role="status" className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 rounded-xl bg-gray-50 border border-gray-200 px-3 py-2 text-sm text-gray-600">
@@ -195,13 +197,14 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
 
       {/* 선택한 날짜 요약 — 정확한 원 단위 요금. 입력은 문의 패널(PC 오른쪽 · 휴대폰 아래 바)에서 */}
       {selected && selectedEntry ? (
-        <div className="mt-3 rounded-2xl bg-soft-blue border border-brand-blue/20 px-4 py-3.5 flex flex-wrap items-center justify-between gap-x-4 gap-y-1.5">
+        /* 요약칸을 누르면 바로 예약문의 입력 창 — 안내 문장은 뺀다 (사장님 지시 10/25) */
+        <button type="button" onClick={requestInquiryOpen} className="mt-3 w-full rounded-2xl bg-soft-blue hover:bg-blue-100/70 border border-brand-blue/20 px-4 py-3.5 flex flex-wrap items-center justify-between gap-x-4 gap-y-1.5 text-left transition-colors">
           <p className="text-[15px] font-black text-slate-900">
             {selected.replace(/-/g, ".")} 출발 · {selNights}박 {selDays}일{returnDate ? ` · 귀국 ${returnDate}` : ""}
           </p>
           <p className="text-slate-900"><b className="text-[20px] font-black text-red-600">{fmtWon(selectedEntry.price)}</b> <span className="text-[13px] font-semibold">(1인요금)</span></p>
-          <p className="w-full text-[12px] text-slate-500">예약문의는 <span className="lg:hidden">아래 <b>예약문의</b> 버튼</span><span className="hidden lg:inline">오른쪽 <b>문의 패널</b></span>에서 이어 주세요. 유류할증료 포함 요금입니다.</p>
-        </div>
+          <span className="inline-flex items-center min-h-10 px-4 rounded-full bg-brand-blue text-white text-[14px] font-black">예약문의</span>
+        </button>
       ) : (
         <p className="mt-3 text-[13px] text-slate-500 text-center">날짜를 누르면 정확한 1인 요금이 표시됩니다</p>
       )}

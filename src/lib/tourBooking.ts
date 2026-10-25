@@ -22,3 +22,15 @@ export function onTourDate(fn: (s: TourDateSel) => void) {
   window.addEventListener(EV, h);
   return () => window.removeEventListener(EV, h);
 }
+
+// 예약문의 입력 창 열기 — 달력 요약칸에서 부른다 (사장님 지시 10/25)
+const EV_OPEN = "pado:open-inquiry";
+export function requestInquiryOpen() {
+  if (typeof window === "undefined") return;
+  window.dispatchEvent(new CustomEvent(EV_OPEN));
+}
+export function onInquiryOpen(fn: () => void) {
+  const h = () => fn();
+  window.addEventListener(EV_OPEN, h);
+  return () => window.removeEventListener(EV_OPEN, h);
+}
