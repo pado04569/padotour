@@ -212,7 +212,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
       )}
 
       {/* 전화번호는 열어 보여주고, 카카오는 그 아래 세로로 (사장님 지시 10/25) */}
-      <div className="mt-2.5 space-y-2">
+      <div className="mt-2.5 space-y-2 lg:hidden">
         <a href="tel:010-5301-5250" className="w-full min-h-[52px] rounded-xl border-[1.5px] border-slate-300 bg-white hover:bg-slate-50 text-slate-800 text-[16px] font-bold flex items-center justify-center gap-2">
           <IconPhone className="w-[18px] h-[18px] text-brand-blue" />전화문의 010-5301-5250
         </a>
