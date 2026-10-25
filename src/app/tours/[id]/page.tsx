@@ -677,13 +677,6 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           </details>
         </div>
 
-        {/* ── 뒤로가기 (소 → 중) : 이 상품이 속한 나라 목록으로 ── */}
-        <div className="text-center -mt-3 md:mt-0">
-          {/* 글자 "<" 대신 선 화살표. 가벼운 글자 링크 느낌 유지, PC에서 올리면 화살표만 살짝 왼쪽으로 */}
-          <Link href={`/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}`} className="group inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-800 font-semibold text-[15px] min-h-11">
-            <IconArrowLeft className="w-[18px] h-[18px] transition-transform md:group-hover:-translate-x-0.5" />{tour.country} 상품 목록으로
-          </Link>
-        </div>
           </div>
 
           {/* 오른쪽 문의 패널 (PC sticky) + 휴대폰 아래 고정 바 + 문의 입력 창 */}
@@ -697,6 +690,13 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             priceText={departures?.lowPriceText ?? (tour.price ?? "").replace(/~\s*$/, "")}
             hasCalendar={Boolean(!tour.holePriceTiers?.length && tour.departurePrices?.length)}
           />
+        </div>
+
+        {/* ── 뒤로가기 — 화면 전체 기준 가운데, 위아래 여백은 기존의 1/3 (사장님 지시 2026-10-25) */}
+        <div className="text-center -mt-2 md:mt-2">
+          <Link href={`/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}`} className="group inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-800 font-semibold text-[15px]">
+            <IconArrowLeft className="w-[18px] h-[18px] transition-transform md:group-hover:-translate-x-0.5" />{tour.country} 상품 목록으로
+          </Link>
         </div>
       </div>
     </div>
