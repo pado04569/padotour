@@ -532,13 +532,12 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               {tour.golfCourseDesc && <Sentences text={tour.golfCourseDesc} />}
             </Link>
             {/* 골프장마다 한 줄 소개 — 이름만 나열하지 않는다 (사장님 지시 10/25). 소개 페이지의 한 줄 요약을 그대로 가져온다 */}
+            {/* 소개 페이지 링크는 빼고 글로만 — 상품을 보던 고객이 페이지를 떠나지 않게 (사장님 확정 가안, 2026-10-25) */}
             {linkedCourses.length > 0 && (
               <ul className="space-y-2 mb-3">
                 {linkedCourses.map((c) => (
                   <li key={c.slug} className="bg-white border border-gray-100 rounded-xl px-4 py-3">
-                    <Link href={`/courses/${c.slug}`} className="inline-flex items-center gap-1 font-bold text-[15px] text-slate-900 hover:text-brand-blue">
-                      {c.name}<IconChevron className="w-4 h-4 text-slate-400" />
-                    </Link>
+                    <p className="font-bold text-[15px] text-slate-900">{c.name}</p>
                     <p className="text-sm text-gray-600 mt-0.5 leading-relaxed break-keep">{c.summary}</p>
                   </li>
                 ))}

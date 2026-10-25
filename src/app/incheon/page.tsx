@@ -1,6 +1,7 @@
 import Link from "next/link";
 import TourCard from "@/components/TourCard";
-import HeroSlider from "@/components/HeroSlider";
+import DestinationSpotlight from "@/components/DestinationSpotlight";
+import { buildSpotlight } from "@/lib/spotlight";
 import CountryCourseTiles from "@/components/CountryCourseTiles";
 import HomeSearch from "@/components/HomeSearch";
 import { buildSearchMeta } from "@/lib/homeSearch";
@@ -22,30 +23,6 @@ export const metadata: Metadata = {
 
 // 첫 화면 검색 자료 — 배포 시점의 한국 날짜 기준, 모듈이 뜰 때 한 번 계산 (머리말 메뉴와 같은 방식)
 const SEARCH_META = buildSearchMeta(tours, countries, new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10));
-
-const slides = [
-  {
-    image: "/images/hero-kota.jpg",
-    region: "코타키나발루",
-    regionEn: "KOTA KINABALU",
-    tagline: "열대 밀림 속 환상적인 석양 골프",
-    href: "/tours?country=malaysia&departure=incheon",
-  },
-  {
-    image: "/images/hero-saipan-coralocean-2.jpg",
-    region: "괌·사이판",
-    regionEn: "GUAM · SAIPAN",
-    tagline: "가을·겨울에도 부담 없는 괌·사이판, 가깝고 편안한 남태평양 골프",
-    href: "/tours?country=other&departure=incheon",
-  },
-  {
-    image: "/images/hero-chiangmai-2.jpg",
-    region: "치앙마이",
-    regionEn: "CHIANG MAI",
-    tagline: "가을겨울 한국골퍼들이 가장 선호하는 치앙마이, 태국골프의 중심",
-    href: "/tours?country=thailand&region=치앙마이&departure=incheon",
-  },
-];
 
 const subTabs = [
   { label: "일본", href: "/tours?country=japan&departure=incheon" },
@@ -72,12 +49,13 @@ export default function IncheonHome() {
       {/* ===== 골프여행 검색 — 공항을 고른 뒤 바로 조건을 넣게 사진 배너보다 위에 (사장님 확정 A안, 2026-10-25) ===== */}
       <HomeSearch dep="incheon" meta={SEARCH_META} />
 
-      {/* ===== 히어로 슬라이더 — 검색 아래로 내려가며 높이만 줄임 ===== */}
-      <HeroSlider slides={slides} departure="incheon" compact />
+      {/* ===== 여행지 추천 — 큰 슬라이드 배너 대체 (사장님 작업지시·B안 초록 탭, 2026-10-25) ===== */}
+      <DestinationSpotlight regions={buildSpotlight("incheon")} />
 
-      {/* ===== 하위 카테고리 탭 ===== */}
-      <div className="bg-white border-b border-gray-200">
+      {/* ===== 국가별 탭 — 추천 영역과 헷갈리지 않게 제목으로 구분 (작업지시 ⑧) ===== */}
+      <div className="bg-white border-b border-gray-200 border-t border-t-gray-100">
         <div className="max-w-6xl mx-auto px-4">
+          <p className="pt-5 pb-1 text-lg md:text-xl font-black text-gray-900">국가별 골프여행 둘러보기</p>
           <div className="flex overflow-x-auto scrollbar-hide">
             {subTabs.map((tab, i) => (
               <Link
