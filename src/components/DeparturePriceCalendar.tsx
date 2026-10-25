@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { IconChevron } from "@/components/icons/Chevron";
 import { IconCalendarDays, IconPhone, IconChat } from "@/components/icons/MenuIcons";
 import { announceTourDate, requestInquiryOpen } from "@/lib/tourBooking";
@@ -30,11 +30,11 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
     const d = first ? new Date(first.date) : today;
     return { year: d.getFullYear(), month: d.getMonth() };
   });
-  // 날짜를 미리 고르지 않는다 — 가장 가까운 날짜가 고객이 고른 일정처럼 보였다 (가상 고객 체험·사장님 A안 10/25).
-  // 목록에서 검색한 날짜(?date=)를 들고 오면 그 날짜를 고른다.
-  const [selected, setSelected] = useState<string | null>(null);
-  // 출발 없는 날짜를 눌렀을 때 안내 — 반응 없는 클릭 방지 (클래리티 2026-09-15). searched = 검색해서 들고 온 날짜
-  const [hint, setHint] = useState<{ day: string; nearest: string | null; searched?: boolean } | null>(null);
+  // 처음부터 가장 가까운 출발일을 골라 둔다 — 문의 패널 기본값과 같게 (지시서 4·5)
+  const [selected, setSelected] = useState<string | null>(() =>
+    departurePrices.map((p) => p.date).filter((d) => d > todayStr).sort()[0] ?? null);
+  // 출발 없는 날짜를 눌렀을 때 안내 — 반응 없는 클릭 방지 (클래리티 2026-09-15)
+  const [hint, setHint] = useState<{ day: string; nearest: string | null } | null>(null);
 
   const entryMap = new Map(departurePrices.map((p) => [p.date, p]));
   const upcoming = departurePrices.map((p) => p.date).filter((d) => d > todayStr).sort();
@@ -85,16 +85,6 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
     if (d.getFullYear() !== year || d.getMonth() !== month) setView({ year: d.getFullYear(), month: d.getMonth() });
     pick(ds);
   }
-
-  // 검색한 출발일 이어받기 — 정적 페이지라 주소는 화면에서 읽는다
-  useEffect(() => {
-    const ds = new URLSearchParams(window.location.search).get("date") ?? "";
-    if (!/^\d{4}-\d{2}-\d{2}$/.test(ds) || ds <= todayStr) return;
-    const d = new Date(ds);
-    setView({ year: d.getFullYear(), month: d.getMonth() });
-    if (entryMap.has(ds)) pick(ds);
-    else setHint({ day: ds, nearest: nearestDeparture(ds), searched: true });
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const selectedEntry = selected ? entryMap.get(selected) : null;
   const selNights = selectedEntry?.nights ?? nights;
@@ -191,11 +181,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
 
         {hint && (
           <div role="status" className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 rounded-xl bg-gray-50 border border-gray-200 px-3 py-2 text-sm text-gray-600">
-            {hint.searched ? (
-              <span>선택하신 날짜(<b className="text-gray-800">{shortDate(hint.day)}</b>)는 출발이 없습니다. 다른 날짜를 선택해 주세요.</span>
-            ) : (
-              <span><b className="text-gray-800">{shortDate(hint.day)}</b>은 출발이 없어요.</span>
-            )}
+            <span><b className="text-gray-800">{shortDate(hint.day)}</b>은 출발이 없어요.</span>
             {hint.nearest ? (
               <span>
                 가까운 출발일은{" "}
@@ -222,7 +208,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
           <span className="inline-flex items-center min-h-10 px-4 rounded-full bg-brand-blue text-white text-[14px] font-black">예약문의</span>
         </button>
       ) : (
-        <p className="mt-3 text-[14px] font-bold text-slate-600 text-center">출발일을 선택해 주세요 <span className="font-normal text-slate-500 whitespace-nowrap">· 정확한 1인 요금이 표시됩니다</span></p>
+        <p className="mt-3 text-[13px] text-slate-500 text-center">날짜를 누르면 정확한 1인 요금이 표시됩니다</p>
       )}
 
       {/* 전화번호는 열어 보여주고, 카카오는 그 아래 세로로 (사장님 지시 10/25) */}

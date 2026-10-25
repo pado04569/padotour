@@ -111,24 +111,10 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const depLabel = tour.departure === "both" ? "인천·부산 출발" : tour.departure === "busan" ? "부산 출발" : "인천 출발";
   const galleryImages = tour.images && tour.images.length > 0 ? tour.images : tour.image ? [tour.image] : [];
   // 최소 인원 칩 — 숫자(2)든 글("4인 (2인 시 송영비 추가)")이든 머리만 짧게. 조건 설명은 문의에서 안내
-  // 2인 안내 (사장님 A안 짧게 10/25): 추가 비용이 붙는 상품은 칩에 "· 추가비용 별도"까지만, 항목은 불포함 내역에 원문 그대로.
-  //   "4인 (2~3인은 추가요금)"처럼 적은 인원도 추가요금으로 출발하면 칩은 그 적은 인원 기준. "4인 기준 요금"이면 요금 아래 "표시 요금은 4인 출발 기준".
-  const peopleInfo = (() => {
-    const s = String(tour.minPeople ?? "").replace(/2인\s*1실/g, "");
-    if (!s.trim() || /^항공/.test(s.trim())) return { chip: "", extra: "", basis: "" };
-    const first = Number(s.match(/(\d+)\s*인/)?.[1] ?? s.match(/^\s*(\d+)\s*$/)?.[1] ?? 0);
-    const hasExtra = /추가|별도|차등|인상|상이|\$\s*\d|\+\s*[\d,]+원/.test(s) && !/추가\s*(비용|요금)?\s*없|없이/.test(s);
-    const low = Number(s.match(/\((\d)(?:\s*~\s*\d)?\s*인(?:은|\s*출발|\s*시)/)?.[1] ?? 0);
-    const n = hasExtra && low > 0 && low < first ? low : first;
-    // "4인 (2~3인은 추가요금)"처럼 적은 인원을 추가요금으로 받는 상품은 표시 요금이 4인 기준
-    const basisN = n < first ? String(first) : s.match(/(\d+)\s*인\s*(?:출발\s*|셀프 플레이\s*)?기준(?!\s*요금\s*상이)/)?.[1];
-    return {
-      chip: n ? `${n}인 출발 가능${hasExtra ? " · 추가비용 별도" : ""}` : "",
-      extra: hasExtra ? (s.match(/\(([^)]*)\)/)?.[1] ?? s).trim() : "",
-      basis: basisN && Number(basisN) > n ? `표시 요금은 ${basisN}인 출발 기준` : "",
-    };
+  const minPeopleChip = (() => {
+    const n = String(tour.minPeople ?? "").match(/\d+/)?.[0];
+    return n ? `${n}인 출발 가능` : "";
   })();
-  const minPeopleChip = peopleInfo.chip;
   // 출발 기간 칩 — 괄호 부연·"매일/지정 출발" 꼬리를 떼고 기간만 (사장님 지시 10/25)
   // 시작 달이 지났으면 남은 출발일(없으면 이번 달) 기준으로 당긴다 — "2026년 7월 ~ 12월"이 10월에도 남아 있었다 (가상 고객 체험 10/25, tours.json 은 그대로)
   const periodChip = (() => {
@@ -149,6 +135,10 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const noWrapParens = (t: string) =>
     t.split(/(\([^)]*\))/).map((part, i) =>
       part.startsWith("(") ? <span key={i} className="whitespace-nowrap">{part}</span> : <span key={i}>{part}</span>);
+  const todayStr = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
+  const nearestDep = tour.holePriceTiers?.length
+    ? null
+    : (tour.departurePrices ?? []).filter((d) => d.date > todayStr).sort((a, b) => a.date.localeCompare(b.date))[0] ?? null;
   // 골프장 소개가 "안 들어간" 골프장에만 한 줄 요약 (사장님 지시 10/25, 중복 금지)
   // 판단: 소개 한 줄의 고유 낱말(3자 이상)이 상품의 골프장 설명에 2개 이상 이미 있으면 같은 소개로 보고 뺀다
   const descText = tour.golfCourseDesc ?? "";
@@ -413,7 +403,6 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             ) : (
               <p className="mt-5 text-[22px] font-black text-red-600">요금 문의</p>
             )}
-            {peopleInfo.basis && <p className="mt-1.5 text-[13px] font-semibold text-slate-600">{peopleInfo.basis}</p>}
             <a href="#departure" className="mt-4 w-full min-h-12 rounded-xl border-[1.5px] border-brand-blue text-brand-blue hover:bg-blue-50 text-[15px] font-black flex items-center justify-center gap-1.5">
               <IconCalendarDays className="w-5 h-5" />출발일별 요금 보기
             </a>
@@ -627,11 +616,6 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                   <span className="text-red-400">•</span> {item}
                 </li>
               ))}
-              {peopleInfo.extra && (
-                <li className="text-sm text-gray-700 flex items-center gap-2">
-                  <span className="text-red-400">•</span> 인원 조건: {peopleInfo.extra} (확인 후 안내)
-                </li>
-              )}
             </ul>
           </Link>
         </div>
@@ -741,7 +725,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             nights={tour.nights}
             days={tour.days}
             minPeople={strictMinPeople}
-            defaultSel={null /* 날짜를 미리 고르지 않는다 — 검색 날짜는 달력이 주소에서 받아 알린다 (사장님 A안 10/25) */}
+            defaultSel={nearestDep ? { date: nearestDep.date, price: nearestDep.price, nights: nearestDep.nights ?? tour.nights, days: nearestDep.days ?? tour.days } : null}
             priceText={departures?.lowPriceText ?? (tour.price ?? "").replace(/~\s*$/, "")}
             hasCalendar={Boolean(!tour.holePriceTiers?.length && tour.departurePrices?.length)}
           />

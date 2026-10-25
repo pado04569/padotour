@@ -19,10 +19,7 @@ export default function TourCard({
   bannerImage,
   facts,
   datePrice,
-  query,
 }: {
-  /** 상세로 들고 갈 검색 조건 "date=2026-12-11&people=4" (목록에서만) */
-  query?: string;
   tour: Tour;
   featured?: boolean;
   bannerImage?: string;
@@ -44,7 +41,7 @@ export default function TourCard({
   const infoChips = basic ? (facts ?? tourFacts(tour)) : facts;
 
   return (
-    <Link href={`/tours/${tour.id}${query ? `?${query}` : ""}`} className="block">
+    <Link href={`/tours/${tour.id}`} className="block">
     <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden group">
       {/* 이미지 영역 — 공지 특가 이미지는 글자가 들어 있어 잘리지 않게 16:9 그대로 보여준다 (사장님 요청 2026-10-08) */}
       <div className={`relative ${bannerImage ? "aspect-video" : featured ? "h-72 md:h-96" : "h-52"} bg-emerald-100 overflow-hidden`}>
