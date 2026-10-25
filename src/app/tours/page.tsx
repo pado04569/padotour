@@ -9,7 +9,7 @@ import { IconChevron } from "@/components/icons/Chevron";
 import { IconFlag, IconChat } from "@/components/icons/MenuIcons";
 import RegionNavigator, { type RegionOption } from "@/components/RegionNavigator";
 import { REGION_MERGE } from "@/lib/navRegions";
-import DepartureSearch, { type SearchPatch } from "@/components/DepartureSearch";
+import DepartureSearch, { SortBar, type SearchPatch } from "@/components/DepartureSearch";
 import type { Tour } from "@/data/tours";
 import { matchesNights, nightsText, parseNights, datesWithin, pickBalanced, dateLabel, departureMap, isIsoDate, localIso, minPeopleOf, sortTours, tourFacts, type SortKey } from "@/lib/tourSearch";
 import { parseQuery, matchesKeywords } from "@/lib/queryParser";
@@ -72,7 +72,8 @@ function ToursContent() {
     if (country !== "all") q.set("country", country);
     const region = p.region ?? (sameCountry ? regionParam : "");
     if (region) q.set("region", region);
-    if (savedDeparture) q.set("departure", savedDeparture);
+    const dep = p.departure !== undefined ? p.departure : savedDeparture; // 빈 글자면 전체 공항
+    if (dep) q.set("departure", dep);
     const date = p.date ?? dateParam;
     if (date) q.set("date", date);
     const nts = p.nights ?? nightsParam;
@@ -300,13 +301,31 @@ function ToursContent() {
     );
   }
 
+  // 조건 바 — 홈과 같은 용어(출발공항·출발일·여행기간·인원), 지역 버튼과 지도 사이 (사장님 작업지시 ②③)
+  const conditionBar = (
+    <DepartureSearch
+      key={`${selected}|${dateParam}|${people}|${nightsParam}|${departureParam}`}
+      pool={pool}
+      country={selected}
+      date={dateParam}
+      people={people}
+      nights={nightsParam}
+      departure={departureParam || ""}
+      hrefWith={hrefWith}
+      openSignal={openSignal}
+    />
+  );
+
   return (
     <div>
-      {/* 헤더 */}
-      {regionParam ? (
-        <section className="bg-hero-commerce text-white py-2">
+      {/* 머리말 — 국가를 고르면 "일본 골프여행" (사장님 작업지시 ①, 2026-10-25). 지역을 골라도 국가 머리말 유지 */}
+      {selected !== "all" ? (
+        <section className="bg-hero-commerce text-white py-6 md:py-9">
           <div className="max-w-6xl mx-auto px-4">
-            <p className="text-white font-bold text-base md:text-lg">{regionParam === "괌" ? "괌/사이판" : regionParam} 골프여행 패키지</p>
+            <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">{countryName} 골프여행</h1>
+            <p className="text-white/[0.82] text-sm md:text-lg">
+              {regionOptions.length >= 2 ? `${regionOptions[0].label}부터 ${regionOptions[1].label}까지, 원하는 지역을 골라보세요.` : "원하는 지역을 골라보세요."}
+            </p>
           </div>
         </section>
       ) : (
@@ -331,63 +350,21 @@ function ToursContent() {
         </section>
       ) : (
       <>
-      {/* 출발일로 상품 찾기 — 검색 전엔 상세 검색, 검색 후엔 한 줄 바 + 정렬 (사장님 확정 2026-10-10) */}
-      <DepartureSearch
-        key={`${selected}|${dateParam}|${people}|${nightsParam}`}
-        pool={pool}
-        country={selected}
-        date={dateParam}
-        people={people}
-        nights={nightsParam}
-        sort={sort}
-        active={searching}
-        hrefWith={hrefWith}
-        periodLabel={monthText || undefined}
-        peopleLabel={peopleUnset ? "인원 전체" : undefined}
-        placeLabel={regionParam ? placeText : undefined}
-        openSignal={openSignal}
-      />
-
-      {/* 국가 탭 — region이 선택된 경우 숨김 */}
-      {!regionParam && (
-        <section className="bg-white border-b border-gray-200 sticky top-[73px] z-40 shadow-sm">
-          <div className="max-w-6xl mx-auto px-4 py-2.5 md:py-3">
-            <div className="flex gap-2 overflow-x-auto scrollbar-hide">
-              {countries.map((c) => (
-                // 버튼(router.push) 대신 링크 — 휴대폰 폭에서 router.push 가 멈추는 경우가 있어 링크로 이동한다 (2026-10-10 시험에서 발견)
-                <Link
-                  key={c.code}
-                  href={allHref(c.code)}
-                  scroll={false}
-                  aria-current={selected === c.code ? "page" : undefined}
-                  className={`flex-shrink-0 px-4 py-2 md:px-5 md:py-2.5 rounded-full font-medium text-sm md:text-base transition-colors ${
-                    selected === c.code
-                      ? "bg-emerald-600 text-white shadow-md"
-                      : "bg-gray-100 text-gray-700 hover:bg-emerald-50 hover:text-emerald-700"
-                  }`}
-                >
-                  {c.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
       {/* 상품 그리드 */}
-      <section className={`max-w-6xl mx-auto px-4 ${regionParam && filtered.length === 1 && !searching ? "pt-1 pb-3" : searching ? "pt-5 pb-8 md:pt-7 md:pb-10" : "py-8 md:py-10"}`}>
-        {regionOptions.length > 1 && (
-          <div className={regionParam ? "pt-4" : ""}>
-            <RegionNavigator
-              key={`${selected}-${regionParam}`}
-              countryCode={selected}
-              regions={regionOptions}
-              selected={regionParam || undefined}
-              departure={departureParam || undefined}
-              keepQuery={{ date: dateParam, nights: nightsParam ? String(nightsParam) : "", people: hasPeople ? String(people) : "", sort: sort === "recommend" ? "" : sort }}
-              initialOpen={searchParams.get("map") === "1"}
-            />
-          </div>
+      <section className={`max-w-6xl mx-auto px-4 ${regionParam && filtered.length === 1 && !searching ? "pt-4 pb-3" : searching ? "pt-5 pb-8 md:pt-7 md:pb-10" : "pt-6 pb-8 md:pt-7 md:pb-10"}`}>
+        {regionOptions.length > 1 ? (
+          <RegionNavigator
+            key={`${selected}-${regionParam}`}
+            countryCode={selected}
+            regions={regionOptions}
+            selected={regionParam || undefined}
+            departure={departureParam || undefined}
+            keepQuery={{ date: dateParam, nights: nightsParam ? String(nightsParam) : "", people: hasPeople ? String(people) : "", sort: sort === "recommend" ? "" : sort }}
+            initialOpen={searchParams.get("map") === "1"}
+            middle={conditionBar}
+          />
+        ) : (
+          conditionBar
         )}
         {/* 전체 목록 → 고른 출발공항 메인으로 (사장님 확정 N4, 2026-10-10). 브라우저 뒤로가기가 아니라 출발지 기준 주소로 이동 */}
         {!isFiltered && savedDeparture && (
@@ -400,12 +377,22 @@ function ToursContent() {
           </Link>
         )}
         {searching ? (
-          renderResults()
+          <>
+            {/* 정렬 — 상품 목록 바로 위 한 번만 (사장님 작업지시 ④) */}
+            <div className="flex justify-end mb-3">
+              <SortBar sort={sort} hrefFor={(sk) => hrefWith({ sort: sk })} />
+            </div>
+            {renderResults()}
+          </>
         ) : (
           <>
-            <p className={`text-gray-500 text-sm md:text-base ${regionParam && filtered.length === 1 ? "mb-1" : "mb-4 md:mb-6"}`}>
-              총 <span className="font-bold text-emerald-700">{filtered.length}개</span> 상품
-            </p>
+            <div className={`flex flex-wrap items-center justify-between gap-x-4 gap-y-2 ${regionParam && filtered.length === 1 ? "mb-2" : "mb-4 md:mb-5"}`}>
+              <p className="flex items-baseline gap-2">
+                <span className="text-lg md:text-xl font-black text-gray-900">{regionParam ? `${placeText} 골프여행` : selected !== "all" ? `${countryName} 골프여행 상품` : "전체 골프여행 상품"}</span>
+                <span className="text-gray-500 text-sm md:text-base">총 <span className="font-bold text-emerald-700">{filtered.length}개</span></span>
+              </p>
+              <SortBar sort={sort} hrefFor={(sk) => hrefWith({ sort: sk })} />
+            </div>
             {filtered.length > 0 ? (
               regionParam && filtered.length <= 2 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 max-w-3xl mx-auto">

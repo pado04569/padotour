@@ -45,9 +45,10 @@ const COUNTRIES: { code: string; label: string }[] = [
   { code: "other", label: "기타" },
 ];
 
-function buildNav(regions: NavRegions, dep?: "incheon" | "busan"): NavItem[] {
-  const q = dep ? `&departure=${dep}` : "";
-  const p = dep ? `?departure=${dep}` : "";
+function buildNav(regions: NavRegions, dep?: "incheon" | "busan", keep = ""): NavItem[] {
+  // keep: /tours 에서 고른 출발일·여행기간·인원·정렬 — 국가를 바꿔도 유지, 지역만 초기화 (사장님 지시 10/25)
+  const q = (dep ? `&departure=${dep}` : "") + keep;
+  const p = dep ? `?departure=${dep}${keep}` : keep ? `?${keep.slice(1)}` : "";
   return COUNTRIES.map((c) => {
     const sub = (regions[c.code] ?? [])
       .filter((r) => (dep ? r[dep] > 0 : true))
@@ -165,7 +166,21 @@ export default function Header({ departure, realDeparture, navRegions }: HeaderP
   if (propDep !== prevPropDep) { setPrevPropDep(propDep); setDep(propDep); }
   useEffect(() => onDepChange((d) => setDep(d)), []);
 
-  const navItems = buildNav(navRegions, departure);
+  const navPathname = usePathname();
+  const navQuery = useQuery();
+  const navKeep = (() => {
+    if (navPathname !== "/tours") return "";
+    let s = "";
+    for (const k of ["date", "nights", "people", "sort"]) {
+      const v = navQuery.get(k);
+      if (v) s += `&${k}=${encodeURIComponent(v)}`;
+    }
+    return s;
+  })();
+  const navItems = buildNav(navRegions, departure, navKeep);
+  // 지금 보고 있는 국가 — /tours?country= 와 일치하는 메뉴를 강조한다 (Codex 10/25)
+  const curCountry = navPathname === "/tours" ? navQuery.get("country") ?? "" : "";
+  const isCurNav = (href: string) => Boolean(curCountry) && new URLSearchParams(href.split("?")[1] ?? "").get("country") === curCountry;
   const p = departure ? `?departure=${departure}` : "";
 
   const homeHref =
@@ -299,7 +314,8 @@ export default function Header({ departure, realDeparture, navRegions }: HeaderP
                 >
                   <Link
                     href={item.href}
-                    className="block text-gray-700 hover:text-black hover:bg-gray-100 font-semibold px-4 py-3 text-base transition-colors whitespace-nowrap"
+                    aria-current={isCurNav(item.href) ? "page" : undefined}
+                    className={`block px-4 py-3 text-base transition-colors whitespace-nowrap ${isCurNav(item.href) ? "text-brand-blue font-extrabold shadow-[inset_0_-2.5px_0_#2457C5]" : "text-gray-700 hover:text-black hover:bg-gray-100 font-semibold"}`}
                   >
                     {item.label}
                   </Link>

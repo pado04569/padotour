@@ -568,7 +568,7 @@ export default function CourseMapExplorer({ mode, groups, courses, initialG, ini
               <span className="flex-1 flex flex-wrap items-center gap-x-3 gap-y-2">
                 <p className="text-[14px] md:text-[15px] text-slate-700">
                   {stage === "country" ? (
-                    <><b className="text-brand-blue">지역을 선택하면 골프장을 볼 수 있어요.</b>{hiddenLabels > 0 && <> 확대(＋ 또는 두 손가락)하면 더 많은 지역 이름이 보여요.</>}</>
+                    <><b className="text-brand-blue">지역을 선택하면 골프장을 볼 수 있어요.</b>{hiddenLabels > 0 && <> <span className="whitespace-nowrap">확대(＋ 또는 두 손가락)</span>하면 더 많은 지역 이름이 보여요.</>}</>
                   ) : pinned.length > 0 ? (
                     <><b className="text-brand-blue">{sel.r} 골프장 {listed.length}곳.</b> 지도 핀이나 아래 카드를 눌러 확인해 보세요.</>
                   ) : (

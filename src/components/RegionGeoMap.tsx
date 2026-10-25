@@ -58,7 +58,7 @@ export default function RegionGeoMap({
   const placedMap = new Map(placedList.map((p) => [p.id, p]));
 
   return (
-    <div ref={boxRef} className="relative h-[300px] md:h-[360px] rounded-xl overflow-hidden border border-line bg-[#DCEDFA]">
+    <div ref={boxRef} className="relative h-[300px] md:h-[440px] rounded-xl overflow-hidden border border-line bg-[#DCEDFA]">
       {geo === "loading" && <div className="absolute inset-0 flex items-center justify-center text-slate-600 text-[14px] font-semibold">지도를 불러오는 중…</div>}
       {geo === "error" && (
         <div className="absolute inset-0 flex items-center justify-center px-6 text-center text-[14px] text-slate-700 font-semibold">

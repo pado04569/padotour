@@ -19,6 +19,7 @@ export default function RegionNavigator({
   departure,
   initialOpen,
   keepQuery,
+  middle,
 }: {
   countryCode: string;
   regions: RegionOption[];
@@ -27,6 +28,8 @@ export default function RegionNavigator({
   initialOpen?: boolean;
   /** 출발일로 상품 찾기 조건(date·people·sort) — 지역을 바꿔도 검색 조건이 유지되게 그대로 붙인다 (2026-10-10) */
   keepQuery?: Record<string, string>;
+  /** 지역 버튼과 지도 사이에 끼우는 내용 — 조건 바 (사장님 시안 10/25: 지역 → 조건 → 지도) */
+  middle?: React.ReactNode;
 }) {
   const map = Boolean(COUNTRY_VIEWS[countryCode]); // 실제 지리 지도 (2026-10-25, 손그림 지도 대체)
   const [open, setOpen] = useState(Boolean(initialOpen && map));
@@ -47,7 +50,7 @@ export default function RegionNavigator({
   return (
     <div className="mb-5">
       <div className="flex items-center justify-between gap-3 mb-2.5">
-        <h2 className="text-[17px] font-extrabold text-gray-900">지역 선택</h2>
+        <h2 className="text-[17px] md:text-[19px] font-extrabold text-gray-900">{name} 지역 선택</h2>
         {map && (
           <button
             type="button"
@@ -77,8 +80,10 @@ export default function RegionNavigator({
       </div>
       <p className="md:hidden text-[13px] text-gray-500 mt-1">옆으로 밀어 다른 지역 보기</p>
 
+      {middle && <div className="mt-3">{middle}</div>}
+
       {map && open && (
-        <div id="region-map" className="mt-3 p-3 border border-gray-300 rounded-2xl bg-white shadow-sm md:max-w-[520px]">
+        <div id="region-map" className="mt-3 p-3 border border-gray-300 rounded-2xl bg-white shadow-sm">
           {/* 초록 배지 대신 일반 텍스트 (사장님 지시 10/25) */}
           <p className="mb-2 px-1 text-[15px] text-gray-600">
             선택 지역: <b className="font-bold text-main-text">{selected ?? `${name} 전체`}</b>
