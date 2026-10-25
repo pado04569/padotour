@@ -10,12 +10,12 @@ import KoreaMiniMap, { type Dep } from "./KoreaMiniMap";
 // 카드는 실제 링크라서 스크립트가 늦게 떠도(또는 검색로봇도) 그대로 이동할 수 있다.
 // 카드 모양 G안(사장님 확정 10/25): 큰 지도 + "인천출발" 한 줄, 꺽쇠 없음, 지도 4개 같은 크기.
 // 휴대폰은 칸 높이 3/4(92→68px)·글자 21px — 버튼이 브랜드명(24px)보다 튀지 않게 (사장님 확정 10/25)
-// 청주·대구는 판매 중인 상품이 있을 때만 셋째 칸에 [청주 | 대구]로 나온다(없으면 지금처럼 2칸).
+// 청주·대구는 판매 중인 상품이 있을 때만 셋째 칸에 [청주출발 | 대구출발]로(사장님 확정 10/24) 나온다(없으면 지금처럼 2칸).
 const INFO: Record<Dep, { title: string; airport: string; ask: string; yes: string }> = {
   incheon: { title: "인천출발", airport: "인천공항", ask: "인천공항 출발 상품을 보시겠어요?", yes: "네, 인천출발 상품 보기" },
   busan: { title: "부산출발", airport: "부산·김해공항", ask: "부산·김해공항 출발 상품을 보시겠어요?", yes: "네, 부산출발 상품 보기" },
-  cheongju: { title: "청주", airport: "청주공항", ask: "청주공항 출발 상품을 보시겠어요?", yes: "네, 청주출발 상품 보기" },
-  daegu: { title: "대구", airport: "대구공항", ask: "대구공항 출발 상품을 보시겠어요?", yes: "네, 대구출발 상품 보기" },
+  cheongju: { title: "청주출발", airport: "청주공항", ask: "청주공항 출발 상품을 보시겠어요?", yes: "네, 청주출발 상품 보기" },
+  daegu: { title: "대구출발", airport: "대구공항", ask: "대구공항 출발 상품을 보시겠어요?", yes: "네, 대구출발 상품 보기" },
 };
 // 확인창 아래 버튼 — 다른 공항으로 보기 (청주 손님은 인천, 대구 손님은 부산을 함께 본다)
 const OTHER: Record<Dep, Dep> = { incheon: "busan", busan: "incheon", cheongju: "incheon", daegu: "busan" };
@@ -31,12 +31,12 @@ export default function DepartureChooser({ extra = [] }: { extra?: ("cheongju" |
       key={d}
       href={`/${d}`}
       onClick={(e) => { e.preventDefault(); setAsking(d); }}
-      className={`flex items-center gap-3 ${tight ? "md:gap-2" : "md:gap-3.5"} min-w-0 ${className}`}
+      className={`flex items-center gap-3 ${tight ? "md:gap-1.5" : "md:gap-3.5"} min-w-0 ${className}`}
     >
-      <span className="flex-none w-[44px] h-[58px] md:w-[62px] md:h-[82px]">
+      <span className={`flex-none w-[44px] h-[58px] ${tight ? "md:w-[46px] md:h-[60px]" : "md:w-[62px] md:h-[82px]"}`}>
         <KoreaMiniMap selected={d} variant="icon" />
       </span>
-      <span className="min-w-0 text-[21px] md:text-[26px] font-black tracking-tight whitespace-nowrap">{INFO[d].title}</span>
+      <span className={`min-w-0 font-black tracking-tight whitespace-nowrap ${tight ? "text-[18px] md:text-[19px]" : "text-[21px] md:text-[26px]"}`}>{INFO[d].title}</span>
     </a>
   );
 
