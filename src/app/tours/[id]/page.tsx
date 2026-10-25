@@ -128,14 +128,31 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   // 골프장 소개가 "안 들어간" 골프장에만 한 줄 요약 (사장님 지시 10/25, 중복 금지)
   // 판단: 소개 한 줄의 고유 낱말(3자 이상)이 상품의 골프장 설명에 2개 이상 이미 있으면 같은 소개로 보고 뺀다
   const descText = tour.golfCourseDesc ?? "";
-  const linkedCoursesAll = courses
-    .filter((c) => c.relatedTourIds.includes(tour.id))
-    .filter((c) => {
-      const words = (c.summary ?? "").split(/[^0-9A-Za-z가-힣]+/).filter((w) => w.length >= 3);
-      return words.filter((w) => descText.includes(w)).length < 2;
-    });
-  // 골프장이 1곳뿐이고 설명이 충분하면 그 설명이 곧 소개 — 한 줄 소개를 겹치지 않는다 (사장님 지적 10/25 치앙마이 메조)
-  const linkedCourses = linkedCoursesAll.length === 1 && descText.length >= 40 ? [] : linkedCoursesAll;
+  const relatedCourses = courses.filter((c) => c.relatedTourIds.includes(tour.id));
+  const summaryOverlaps = (summary: string) => {
+    const words = summary.split(/[^0-9A-Za-z가-힣]+/).filter((w) => w.length >= 3);
+    return words.filter((w) => descText.includes(w)).length >= 2;
+  };
+  // 골프장 칩: 소개 페이지 자료(specs)에서 홀수·파/전장·개장만 뽑는다. 없는 항목은 비운다 (사장님 확정 2026-10-25, 지어내지 않음)
+  const courseChips = (c: (typeof courses)[number]): string[] => {
+    const get = (label: string) => c.specs?.find((sp) => sp.label === label)?.value ?? "";
+    const chips: string[] = [];
+    const holes = (get("코스 구성") || get("홀 / 파")).match(/\d+홀/)?.[0];
+    if (holes) chips.push(holes);
+    const parLen = get("파 / 전장") || [get("파"), get("전장")].filter(Boolean).join(" / ");
+    if (parLen) chips.push(parLen.replace(/\s*\/\s*/, " · ").replace(/\s*\(.*$/, "").replace(/^\d+홀 합계\s*/, "총 전장 "));
+    const open = (get("개장") || get("개장 / 리디자인")).match(/(19|20)\d{2}년/)?.[0];
+    if (open) chips.push(`${open} 개장`);
+    return chips;
+  };
+  // 골프장이 1곳뿐이고 상품 설명이 충분하면 한 줄 소개는 겹치니 칩만 (사장님 지적 10/25 메조)
+  const linkedCourses = relatedCourses
+    .map((c) => ({
+      course: c,
+      chips: courseChips(c),
+      showSummary: Boolean(c.summary) && !summaryOverlaps(c.summary ?? "") && !(relatedCourses.length === 1 && descText.length >= 40),
+    }))
+    .filter((x) => x.chips.length > 0 || x.showSummary);
 
   /**
    * 화면에 보일 제목을 줄 단위로 나눈다. (검색용 제목은 나누지 않는다)
@@ -535,10 +552,19 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             {/* 소개 페이지 링크는 빼고 글로만 — 상품을 보던 고객이 페이지를 떠나지 않게 (사장님 확정 가안, 2026-10-25) */}
             {linkedCourses.length > 0 && (
               <ul className="space-y-2 mb-3">
-                {linkedCourses.map((c) => (
-                  <li key={c.slug} className="bg-white border border-gray-100 rounded-xl px-4 py-3">
-                    <p className="font-bold text-[15px] text-slate-900">{c.name}</p>
-                    <p className="text-sm text-gray-600 mt-0.5 leading-relaxed break-keep">{c.summary}</p>
+                {linkedCourses.map(({ course: c, chips, showSummary }) => (
+                  <li key={c.slug} className="bg-white border border-gray-100 rounded-xl px-4 py-3.5">
+                    <p className="font-bold text-[16px] text-slate-900">{c.name}</p>
+                    {chips.length > 0 && (
+                      <ul className="flex flex-wrap gap-1.5 mt-2" aria-label={`${c.name} 기본 정보`}>
+                        {chips.map((chip, i) => (
+                          <li key={chip} className={`inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1.5 text-[14px] md:text-[15px] font-bold whitespace-nowrap ${i === 0 ? "text-brand-blue" : "text-slate-700"}`}>
+                            {chip}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                    {showSummary && <p className="text-[15px] text-gray-700 mt-2 leading-relaxed break-keep">{c.summary}</p>}
                   </li>
                 ))}
               </ul>
