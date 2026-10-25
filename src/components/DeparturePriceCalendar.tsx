@@ -19,7 +19,7 @@ type Props = {
 };
 
 const fmtWon = (p: number) => p.toLocaleString("ko-KR") + "원";
-const shortWon = (p: number) => `${Math.floor(p / 10000)}만~`;
+const shortWon = (p: number) => `${Math.floor(p / 10000)}만`;
 
 export default function DeparturePriceCalendar({ departurePrices, nights, days }: Props) {
   const today = new Date();
@@ -102,7 +102,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
         <h2 className="text-lg font-black text-gray-800 pb-2 border-b-2 border-accent-teal inline-flex items-center gap-1.5">
           <span className="text-brand-blue"><IconCalendarDays /></span>출발일별 요금
         </h2>
-        <p className="text-[13px] text-slate-500 pb-1">1인 요금 · 만원 단위 간략 표시</p>
+        <p className="text-[13px] text-slate-500 pb-1">1인 요금 · 만원 단위 표시</p>
         {monthLow != null && (
           <p className="ml-auto pb-1 inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 text-[13px] font-bold text-emerald-800">
             {month + 1}월 최저가 <b className="text-red-600">{shortWon(monthLow)}</b>
@@ -136,7 +136,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
 
             if (isPast) {
               return (
-                <div key={i} className="h-[46px] md:h-[54px] flex flex-col items-center justify-center text-[13px] text-gray-300">{day}</div>
+                <div key={i} className="h-[56px] flex flex-col items-center justify-start pt-1 text-[14px] text-gray-300">{day}</div>
               );
             }
             if (!entry) {
@@ -147,10 +147,10 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
                   type="button"
                   aria-label={`${month + 1}월 ${day}일 출발 없음`}
                   onClick={() => setHint({ day: ds, nearest: nearestDeparture(ds) })}
-                  className={`h-[46px] md:h-[54px] rounded-lg flex flex-col items-center justify-center hover:bg-gray-100 ${hint?.day === ds ? "bg-gray-100" : ""}`}
+                  className={`h-[56px] rounded-lg flex flex-col items-center justify-start pt-1 gap-1 hover:bg-gray-50 ${hint?.day === ds ? "bg-gray-100" : ""}`}
                 >
-                  <span className={`text-[13px] font-semibold ${dayOfWeek === 0 ? "text-red-400" : dayOfWeek === 6 ? "text-blue-400" : "text-gray-500"}`}>{day}</span>
-                  {inGap && <span className="text-[10px] font-semibold text-gray-500 leading-none mt-0.5">문의</span>}
+                  <span className={`text-[14px] font-semibold leading-7 ${dayOfWeek === 0 ? "text-red-400" : dayOfWeek === 6 ? "text-blue-400" : "text-gray-500"}`}>{day}</span>
+                  {inGap && <span className="text-[11px] text-gray-400 leading-none">-</span>}
                 </button>
               );
             }
@@ -163,23 +163,17 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
                 onClick={() => pick(isSelected ? null : ds)}
                 aria-pressed={isSelected}
                 aria-label={`${month + 1}월 ${day}일 출발 · 1인 ${fmtWon(entry.price)}`}
-                className={`h-[46px] md:h-[54px] rounded-lg flex flex-col items-center justify-center gap-0.5 border transition-colors ${
-                  isSelected ? "bg-brand-blue border-brand-blue text-white shadow" : "bg-white border-slate-200 hover:border-brand-blue hover:bg-blue-50/40"
-                }`}
+                className="h-[56px] rounded-lg flex flex-col items-center justify-start pt-1 gap-0.5 hover:bg-blue-50/60 transition-colors"
               >
-                <span className={`text-[13px] font-black leading-none ${isSelected ? "text-white" : dayColor}`}>{day}</span>
-                <span className={`text-[11px] md:text-[12px] font-bold leading-none ${isSelected ? "text-white" : isLow ? "text-red-600" : "text-brand-blue"}`}>{shortWon(entry.price)}{isLow ? " 최저" : ""}</span>
+                <span className={`w-7 h-7 rounded-full flex items-center justify-center text-[14px] font-bold leading-none ${isSelected ? "bg-brand-blue text-white" : dayColor}`}>{day}</span>
+                <span className={`text-[11px] md:text-[12px] font-bold leading-none ${isSelected ? "text-brand-blue" : "text-slate-600"}`}>{Math.floor(entry.price / 10000)}만</span>
+                {isLow && <span className="text-[9px] font-bold text-red-500 leading-none">최저가</span>}
               </button>
             );
           })}
         </div>
 
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mt-3 text-[12px] text-gray-500">
-          <span className="flex items-center gap-1.5"><span className="w-3.5 h-3.5 rounded border border-slate-300 bg-white inline-block" /> 출발 가능</span>
-          <span className="flex items-center gap-1.5"><span className="w-3.5 h-3.5 rounded bg-brand-blue inline-block" /> 선택한 날</span>
-          <span className="flex items-center gap-1.5"><b className="text-red-600">빨간 요금</b> = 이달 최저가</span>
-          <span className="flex items-center gap-1.5"><b>문의</b> = 요금 미등록(접수 시 안내)</span>
-        </div>
+        <p className="mt-3 text-[12px] text-gray-500">숫자는 1인 요금(만원 단위) · <b className="text-red-500">최저가</b>는 이달 가장 낮은 요금 · <b>-</b>는 요금 미등록(문의)</p>
 
         {hint && (
           <div role="status" className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 rounded-xl bg-gray-50 border border-gray-200 px-3 py-2 text-sm text-gray-600">
@@ -205,7 +199,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
           <p className="text-[15px] font-black text-slate-900">
             {selected.replace(/-/g, ".")} 출발 · {selNights}박 {selDays}일{returnDate ? ` · 귀국 ${returnDate}` : ""}
           </p>
-          <p className="text-[15px] font-bold text-slate-700">1인 <b className="text-[20px] font-black text-red-600">{fmtWon(selectedEntry.price)}</b></p>
+          <p className="text-slate-900"><b className="text-[20px] font-black text-red-600">{fmtWon(selectedEntry.price)}</b> <span className="text-[13px] font-semibold">(1인요금)</span></p>
           <p className="w-full text-[12px] text-slate-500">예약문의는 <span className="lg:hidden">아래 <b>예약문의</b> 버튼</span><span className="hidden lg:inline">오른쪽 <b>문의 패널</b></span>에서 이어 주세요. 유류할증료 포함 요금입니다.</p>
         </div>
       ) : (

@@ -124,13 +124,13 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
   const hasPrice = /원/.test(priceText); // "문의"뿐인 상품(요금 데이터 없음)은 요금 문의로
   const priceBlock = sel ? (
     <>
-      <p className="text-[28px] leading-none font-black text-red-600">1인 {fmtWon(sel.price)}</p>
+      <p className="leading-none text-slate-900"><b className="text-[28px] font-black text-red-600">{fmtWon(sel.price)}</b> <span className="text-[14px] font-semibold">(1인요금)</span></p>
       <p className="text-[12px] text-slate-600 mt-1.5">성인 · 2인 1실 기준 · 유류할증료 포함</p>
     </>
   ) : (
     <>
       {hasPrice ? (
-        <p className="text-[24px] leading-none font-black text-red-600">1인 {priceText}<span className="text-[16px]">부터</span></p>
+        <p className="leading-none text-slate-900"><b className="text-[24px] font-black text-red-600">{priceText}</b><span className="text-[15px] font-bold">부터</span> <span className="text-[14px] font-semibold">(1인요금)</span></p>
       ) : (
         <p className="text-[22px] leading-none font-black text-red-600">요금 문의</p>
       )}

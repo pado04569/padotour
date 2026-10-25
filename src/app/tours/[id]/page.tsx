@@ -337,7 +337,10 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             </ul>
             {/* 요금이 "문의"뿐인 상품은 1인 가격 대신 요금 문의로 (사장님 확정 10/25) */}
             {/원/.test(departures?.lowPriceText ?? tour.price ?? "") ? (
-              <p className="mt-5 text-[15px] font-bold text-slate-600">1인 <b className="text-[30px] md:text-[32px] font-black text-red-600">{departures?.lowPriceText ?? (tour.price ?? "").replace(/~\s*$/, "")}</b><span className="text-slate-700">부터</span></p>
+              <p className="mt-5 text-[15px] font-bold text-slate-900">
+                <b className="text-[30px] md:text-[32px] font-black text-red-600">{departures?.lowPriceText ?? (tour.price ?? "").replace(/~\s*$/, "")}</b>부터{" "}
+                <span className="text-[14px] font-semibold">(1인요금)</span>
+              </p>
             ) : (
               <p className="mt-5 text-[22px] font-black text-red-600">요금 문의</p>
             )}
