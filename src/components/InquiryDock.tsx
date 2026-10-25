@@ -41,6 +41,11 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
   useEffect(() => onTourDate((s) => { setSel(s); setSent(false); }), []);
+  // 목록에서 검색한 인원(?people=)을 이어받는다 — 예약 안 되는 인원(최소 인원 미만)은 무시 (사장님 A안 10/25)
+  useEffect(() => {
+    const n = Number(new URLSearchParams(window.location.search).get("people"));
+    if (PEOPLE_OPTIONS.includes(n) && (minPeople == null || n >= minPeople)) setPeople(String(n));
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   // 달력 요약칸의 '예약문의'를 누르면 바로 입력 창 (사장님 지시 10/25)
   useEffect(() => onInquiryOpen(() => { setModal(true); if (!openedOnce.current) { openedOnce.current = true; track("inquiry_open", { item_name: tourTitle, method: "panel" }); } }), []); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -207,7 +212,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
       <div className="lg:hidden fixed inset-x-0 bottom-0 z-40 bg-white border-t border-slate-200 px-4 pt-9 pb-[max(52px,calc(env(safe-area-inset-bottom)+34px))] shadow-[0_-4px_14px_rgba(15,40,70,0.08)]">
         <div className="flex items-center gap-3">
           <div className="min-w-0">
-            <p className="text-[13px] text-slate-500 leading-none mb-2">1인 요금{sel ? ` · ${fmtDate(sel.date)} 출발` : ""}</p>
+            <p className="text-[13px] text-slate-500 leading-none mb-2">{sel ? `1인 요금 · ${fmtDate(sel.date)} 출발 · 성인 ${people}명` : "1인 최저 요금"}</p>
             <p className="text-[24px] leading-none font-black text-red-600 whitespace-nowrap">{sel ? fmtWon(sel.price) : hasPrice ? `${priceText}부터` : "요금 문의"}</p>
           </div>
           {sel || !hasCalendar ? (
