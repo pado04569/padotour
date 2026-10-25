@@ -5,7 +5,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { useQuery } from "@/lib/queryStore";
-import { IconFlag, IconStar, IconMegaphone, IconQuote, IconChat, IconShieldCheck, IconPlaneTakeoff, IconClipboard, IconPhone, IconCheck, IconCircleHelp } from "./icons/MenuIcons";
+import { IconFlag, IconStar, IconMegaphone, IconQuote, IconChat, IconShieldCheck, IconPlaneTakeoff, IconClipboard, IconPhone, IconCheck } from "./icons/MenuIcons";
 import ExternalVerificationButton from "./ExternalVerificationModal";
 import { IconChevron } from "./icons/Chevron";
 import type { NavRegions } from "@/lib/navRegions";
@@ -347,10 +347,7 @@ export default function Header({ departure, realDeparture, navRegions }: HeaderP
                   </Link>
                   {/* 정보 메뉴와 회사 안내 사이 구분선 (Codex 10/25) */}
                   <div aria-hidden="true" className="h-px my-1 mx-3 bg-gray-200" />
-                  {/* 상단 안내 띠에서 옮겨 온 항목 (사장님 지시 10/25) — 주소·내용은 기존 그대로 */}
-                  <Link href="/about#why-padotour" className={communityItem}>
-                    <span className="text-brand-blue"><IconCircleHelp /></span>여행의 파도 소개
-                  </Link>
+                  {/* '여행의 파도 소개'는 대표자의 말과 내용이 겹쳐 고급 소개문 정리 전까지 숨김 (사장님 지시 10/25) */}
                   <ExternalVerificationButton className={communityItem}>
                     <span className="text-brand-blue"><IconShieldCheck /></span>여행업 등록·보증 안내
                   </ExternalVerificationButton>
@@ -423,11 +420,7 @@ export default function Header({ departure, realDeparture, navRegions }: HeaderP
               <span className="text-brand-blue"><IconQuote /></span>대표자의 말
             </Link>
           </div>
-          <div className="border-b border-gray-100">
-            <Link href="/about#why-padotour" className="flex items-center gap-2.5 px-4 py-3.5 text-body-text font-medium text-sm hover:bg-page-bg" onClick={() => setMenuOpen(false)}>
-              <span className="text-brand-blue"><IconCircleHelp /></span>여행의 파도 소개
-            </Link>
-          </div>
+          {/* '여행의 파도 소개'는 고급 소개문 정리 전까지 숨김 (사장님 지시 10/25) */}
           <ExternalVerificationButton className="w-full px-4 py-3 min-h-11 bg-blue-50 hover:bg-blue-100 flex items-center gap-2 transition-colors text-left">
             <span className="text-brand-blue"><IconShieldCheck /></span>
             <span className="text-sm text-brand-blue font-semibold">여행업 등록·보증 안내 (SGI 서울보증보험 가입)</span>

@@ -101,7 +101,7 @@ export default function HomeSearch({ dep, meta }: { dep: Dep; meta: SearchMeta }
             <IconCalendarDays className="w-5 h-5 text-brand-blue" />
             <span className="flex flex-col min-w-0">
               <span className={label}>출발일</span>
-              <span className={`${value} ${draft.date ? "text-slate-900" : "text-slate-600"}`}>{draft.date ? dateLabel(draft.date) : "날짜 미정"}</span>
+              <span className={`${value} ${draft.date ? "text-slate-900" : "text-slate-600"}`}>{draft.date ? dateLabel(draft.date) : "날짜 선택"}</span>
             </span>
             {chevron}
           </button>
