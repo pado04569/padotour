@@ -9,7 +9,7 @@ export default function CountryCourseTiles() {
   // 등록된 골프장 수 — /courses 의 "총 N곳"과 같은 자료에서 자동 계산 (사장님 지시 10/10, 하드코딩 금지)
   const total = groups.reduce((n, g) => n + g.count, 0);
   return (
-    <section className="max-w-6xl mx-auto px-4 pb-10 md:pb-14">
+    <section className="max-w-6xl mx-auto px-4 pb-5 md:pb-8">
       <h2 className="text-xl md:text-2xl font-black text-gray-800 pb-2 border-b-2 border-emerald-500 inline-block">
         국가별 골프장 소개
       </h2>
@@ -54,7 +54,7 @@ export default function CountryCourseTiles() {
         ))}
       </div>
 
-      <div className="text-center mt-6">
+      <div className="text-center mt-10">
         <Link
           href="/courses"
           className="inline-flex items-center justify-center gap-1 w-full max-w-[340px] min-h-[52px] px-8 rounded-full border-2 font-bold text-base transition-colors border-emerald-600 text-emerald-700 hover:bg-emerald-50"

@@ -130,8 +130,8 @@ export default function BusanHome() {
         </div>
       </section>
 
-      {/* ===== 전체 상품 보기 ===== */}
-      <section className="max-w-6xl mx-auto px-4 py-6">
+      {/* ===== 전체 상품 보기 — 위아래 여백 균형 (사장님 지시 10/25) ===== */}
+      <section className="max-w-6xl mx-auto px-4 pt-0 pb-8">
         <div className="text-center">
           <Link
             href="/tours?departure=busan"
