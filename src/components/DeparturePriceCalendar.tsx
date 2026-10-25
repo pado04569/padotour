@@ -23,19 +23,21 @@ const shortWon = (p: number) => `${Math.floor(p / 10000)}만`;
 
 export default function DeparturePriceCalendar({ departurePrices, nights, days }: Props) {
   const today = new Date();
+  // 한국 날짜 글자로 비교 — 시간대 섞인 Date 비교로 하루 어긋나던 것 통일, 오늘 출발은 예약 불가라 제외 (2026-10-25)
+  const todayStr = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
   const [view, setView] = useState(() => {
-    const first = departurePrices.find((p) => new Date(p.date) >= today);
+    const first = departurePrices.find((p) => p.date > todayStr);
     const d = first ? new Date(first.date) : today;
     return { year: d.getFullYear(), month: d.getMonth() };
   });
   // 처음부터 가장 가까운 출발일을 골라 둔다 — 문의 패널 기본값과 같게 (지시서 4·5)
   const [selected, setSelected] = useState<string | null>(() =>
-    departurePrices.map((p) => p.date).filter((d) => new Date(d) >= today).sort()[0] ?? null);
+    departurePrices.map((p) => p.date).filter((d) => d > todayStr).sort()[0] ?? null);
   // 출발 없는 날짜를 눌렀을 때 안내 — 반응 없는 클릭 방지 (클래리티 2026-09-15)
   const [hint, setHint] = useState<{ day: string; nearest: string | null } | null>(null);
 
   const entryMap = new Map(departurePrices.map((p) => [p.date, p]));
-  const upcoming = departurePrices.map((p) => p.date).filter((d) => new Date(d) >= today).sort();
+  const upcoming = departurePrices.map((p) => p.date).filter((d) => d > todayStr).sort();
   const lastDeparture = upcoming[upcoming.length - 1] ?? null;
 
   const { year, month } = view;

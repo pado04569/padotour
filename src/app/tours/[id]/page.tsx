@@ -124,16 +124,18 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const todayStr = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
   const nearestDep = tour.holePriceTiers?.length
     ? null
-    : (tour.departurePrices ?? []).filter((d) => d.date >= todayStr).sort((a, b) => a.date.localeCompare(b.date))[0] ?? null;
+    : (tour.departurePrices ?? []).filter((d) => d.date > todayStr).sort((a, b) => a.date.localeCompare(b.date))[0] ?? null;
   // 골프장 소개가 "안 들어간" 골프장에만 한 줄 요약 (사장님 지시 10/25, 중복 금지)
   // 판단: 소개 한 줄의 고유 낱말(3자 이상)이 상품의 골프장 설명에 2개 이상 이미 있으면 같은 소개로 보고 뺀다
   const descText = tour.golfCourseDesc ?? "";
-  const linkedCourses = courses
+  const linkedCoursesAll = courses
     .filter((c) => c.relatedTourIds.includes(tour.id))
     .filter((c) => {
       const words = (c.summary ?? "").split(/[^0-9A-Za-z가-힣]+/).filter((w) => w.length >= 3);
       return words.filter((w) => descText.includes(w)).length < 2;
     });
+  // 골프장이 1곳뿐이고 설명이 충분하면 그 설명이 곧 소개 — 한 줄 소개를 겹치지 않는다 (사장님 지적 10/25 치앙마이 메조)
+  const linkedCourses = linkedCoursesAll.length === 1 && descText.length >= 40 ? [] : linkedCoursesAll;
 
   /**
    * 화면에 보일 제목을 줄 단위로 나눈다. (검색용 제목은 나누지 않는다)
@@ -378,7 +380,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
       </div>
 
       {/* ── 본문 70 + 오른쪽 문의 패널 30 (휴대폰: 사진→정보→달력→상세, 패널은 아래 고정 바) ── */}
-      <div className="max-w-6xl mx-auto px-4 py-8">
+      <div className="max-w-6xl mx-auto px-4 pt-8 pb-1 lg:pb-8">
         <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_340px] lg:gap-8">
           <div className="min-w-0">
 
