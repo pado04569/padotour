@@ -8,6 +8,7 @@ import { IconCheck, IconGlobe, IconPin } from "./icons/MenuIcons";
 import PickerSheet from "./PickerSheet";
 import courseGeo from "@/data/courseGeo.json";
 import CountryFlag from "./CountryFlag";
+import CountryRegionCard from "./CountryRegionCard";
 import { loadGeo, type GeoData } from "@/lib/geoClient";
 import {
   GEO_W, MAP_GROUPS, groupByKey, lngToX, latToY, pointFor, regionView, viewRect,
@@ -34,8 +35,9 @@ const matchesRegion = (courseRegion: string, r: string) =>
   courseRegion === r || courseRegion.split("/").map((t) => t.trim()).includes(r);
 const codeToGroup = (code: string) => MAP_GROUPS.find((g) => g.codes.includes(code));
 
-export default function CourseMapExplorer({ groups, courses, initialG, initialR }: {
-  groups: ExplorerGroup[]; courses: ExplorerCourse[]; initialG: string | null; initialR: string | null;
+// 목록·지도 공통 탐색 구조 (사장님 지시 2026-10-25) — 제목·경로·선택창을 같이 쓰고 보기 방식만 전환한다.
+export default function CourseMapExplorer({ mode, groups, courses, initialG, initialR }: {
+  mode: "list" | "map"; groups: ExplorerGroup[]; courses: ExplorerCourse[]; initialG: string | null; initialR: string | null;
 }) {
   const [sel, setSel] = useState<Sel>({ g: initialG, r: initialR });
   const [geo, setGeo] = useState<GeoData | "loading" | "error">("loading");
@@ -48,10 +50,11 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
 
   // ── 지도 자료 (지도 모드에서만 받는다)
   useEffect(() => {
+    if (mode !== "map") return;
     let dead = false;
     loadGeo().then((j) => { if (!dead) setGeo(j); }).catch(() => { if (!dead) setGeo("error"); });
     return () => { dead = true; };
-  }, []);
+  }, [mode]);
 
 
   // ── 화면 크기에 맞춘 보기 범위 + 부드러운 이동
@@ -145,20 +148,21 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
   useEffect(() => { if (typeof geo === "object") recomputeLabels(viewRef.current); }, [geo]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── 선택 바꾸기 (주소·뒤로가기 반영)
-  const urlFor = (s: Sel) => {
+  const urlFor = (s: Sel, m: "list" | "map" = mode) => {
     const g = groupByKey(s.g);
-    const gd = groups.find((x) => x.key === s.g);
-    const q = new URLSearchParams({ view: "map" });
-    if (g && gd) q.set("country", g.codes.join(","));
+    const q = new URLSearchParams();
+    if (m === "map") q.set("view", "map");
+    if (g) q.set("country", g.codes.join(","));
     if (s.r) q.set("region", s.r);
-    return `/courses?${q.toString()}`;
+    const qs = q.toString();
+    return `/courses${qs ? `?${qs}` : ""}`;
   };
   const apply = (s: Sel, push = true) => {
     setSel(s);
     setFocusSlug(null);
     setPcPick(false);
     setSheet(null);
-    flyTo(targetFor(s));
+    if (mode === "map") flyTo(targetFor(s));
     if (push && typeof window !== "undefined") window.history.pushState({ mapSel: s }, "", urlFor(s));
   };
   useEffect(() => {
@@ -168,7 +172,7 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
       const g = codes.length ? MAP_GROUPS.find((x) => codes.every((c) => x.codes.includes(c))) : undefined;
       const s = { g: g?.key ?? null, r: q.get("region") };
       setSel(s);
-      flyTo(targetFor(s));
+      if (mode === "map") flyTo(targetFor(s));
     };
     window.addEventListener("popstate", onPop);
     return () => window.removeEventListener("popstate", onPop);
@@ -222,6 +226,16 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
     return list;
   }, [courses, group, sel.r]);
   const pinned = listed.filter((c) => GEO_BY_SLUG[c.slug]);
+  // 목록 첫 화면 '전체 골프장' — 나라 순서대로 묶는다
+  const groupedAll = useMemo(() => {
+    const m = new Map<string, ExplorerCourse[]>();
+    for (const c of courses) {
+      const arr = m.get(c.country) ?? [];
+      arr.push(c);
+      m.set(c.country, arr);
+    }
+    return [...m.entries()];
+  }, [courses]);
 
   // ── 공용 UI 조각
   const rowCls = (on: boolean) =>
@@ -271,21 +285,52 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
     </div>
   );
 
-  // 목록 모드로 전환해도 지금 고른 나라·지역이 유지되게 — 서버가 아니라 지금 상태로 주소를 만든다 (지시 10)
-  const listHref = (() => {
-    const q = new URLSearchParams();
-    if (group) q.set("country", group.codes.join(","));
-    if (sel.r) q.set("region", sel.r);
-    const qs = q.toString();
-    return `/courses${qs ? `?${qs}` : ""}`;
-  })();
+  // 보기 전환은 지금 고른 나라·지역을 그대로 들고 간다 (서버가 아니라 지금 상태 기준)
+  const listHref = urlFor(sel, "list");
+  const mapHref = urlFor(sel, "map");
+
+  // 골프장 카드 한 장 — 목록·지도 공용. '위치 보기'는 지도 모드에만 (목록에 지도 열기 버튼을 두지 않는다, 사장님 지시 10/25)
+  const courseCard = (c: ExplorerCourse) => (
+    <div key={c.slug} id={`mapcard-${c.slug}`} className={`bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden ${focusSlug === c.slug ? "ring-2 ring-brand-blue" : ""}`}>
+      <Link href={`/courses/${c.slug}`} className="block group">
+        <div className="relative h-44 bg-emerald-100 overflow-hidden">
+          <Image src={c.image} alt={`${c.region} ${c.name}`} fill sizes="(max-width: 768px) 100vw, 360px" className="object-cover group-hover:scale-105 transition-transform duration-300" />
+        </div>
+      </Link>
+      {/* 기본 정보형 — 배지는 사진 아래 글자로 (사장님 지시 10/25) */}
+      <div className="p-4">
+        <ul className="flex flex-wrap items-center gap-1.5 mb-2" aria-label="골프장 분류">
+          <li className="inline-flex items-center gap-1.5 h-7 px-2 rounded-lg bg-slate-100 text-[13px] font-semibold text-slate-700">
+            <CountryFlag country={c.country} />{c.region}
+          </li>
+          {c.holes && <li className="inline-flex items-center h-7 px-2.5 rounded-lg bg-slate-100 text-[13px] font-semibold text-slate-600">{c.holes}홀</li>}
+        </ul>
+        <h3 className="text-base font-bold text-gray-800 mb-1">{c.name}</h3>
+        {c.summary && <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">{c.summary}</p>}
+        <div className="flex gap-2 mt-3">
+          {mode === "map" && GEO_BY_SLUG[c.slug] && (
+            <button type="button" onClick={() => { setFocusSlug(c.slug); if (!sel.r) apply({ g: sel.g, r: splitFirst(c.region) }); boxRef.current?.scrollIntoView({ behavior: "smooth", block: "center" }); }} className="inline-flex items-center gap-1 min-h-10 px-3 rounded-full border-[1.5px] border-slate-300 text-[14px] font-bold text-slate-700 hover:border-brand-blue hover:text-brand-blue">
+              <IconPin className="w-4 h-4" />위치 보기
+            </button>
+          )}
+          <Link href={`/courses/${c.slug}`} className="inline-flex items-center gap-0.5 min-h-10 px-3 rounded-full text-[14px] font-bold text-brand-blue hover:bg-blue-50">
+            상세 보기<IconChevron className="w-4 h-4" />
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
 
   return (
     <section className="max-w-6xl mx-auto px-4 pb-10 break-keep pt-4">
       {/* 보기 전환 — 지금 고른 조건을 그대로 들고 간다 */}
       <div className="flex justify-end gap-2 mb-3">
-        <a href={listHref} className="inline-flex items-center min-h-11 px-4 rounded-full border-[1.5px] border-slate-300 bg-white text-[15px] font-bold text-main-text hover:bg-slate-50">목록으로 보기</a>
-        <span aria-current="page" className="inline-flex items-center min-h-11 px-4 rounded-full border-[1.5px] border-emerald-600 bg-emerald-600 text-[15px] font-bold text-white">지도로 보기</span>
+        {mode === "list"
+          ? <span aria-current="page" className="inline-flex items-center min-h-11 px-4 rounded-full border-[1.5px] border-emerald-600 bg-emerald-600 text-[15px] font-bold text-white">목록으로 보기</span>
+          : <a href={listHref} className="inline-flex items-center min-h-11 px-4 rounded-full border-[1.5px] border-slate-300 bg-white text-[15px] font-bold text-main-text hover:bg-slate-50">목록으로 보기</a>}
+        {mode === "map"
+          ? <span aria-current="page" className="inline-flex items-center min-h-11 px-4 rounded-full border-[1.5px] border-emerald-600 bg-emerald-600 text-[15px] font-bold text-white">지도로 보기</span>
+          : <a href={mapHref} className="inline-flex items-center min-h-11 px-4 rounded-full border-[1.5px] border-slate-300 bg-white text-[15px] font-bold text-main-text hover:bg-slate-50">지도로 보기</a>}
       </div>
       {/* 탐색 경로 */}
       <nav aria-label="탐색 경로" className="flex flex-wrap items-center gap-1 text-[14px] text-slate-600 mb-2.5">
@@ -304,8 +349,8 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
         )}
       </nav>
 
-      {/* 휴대폰: 지도 위 선택창 2개 */}
-      <div className="md:hidden grid grid-cols-2 gap-2 mb-2.5">
+      {/* 국가·지역 공통 선택창 — 목록 모드는 모든 화면, 지도 모드는 휴대폰(PC는 왼쪽 목록) */}
+      <div className={`grid grid-cols-2 gap-2 mb-2.5 ${mode === "map" ? "md:hidden" : "md:max-w-xl"}`}>
         <button type="button" onClick={() => setSheet("country")} aria-haspopup="dialog" className="flex items-center gap-2 min-h-12 px-3 rounded-xl border-[1.5px] border-slate-300 bg-white text-left">
           <IconGlobe className="w-5 h-5 text-brand-blue flex-none" />
           <span className="min-w-0 flex-1 truncate text-[16px] font-extrabold text-slate-900">{group ? group.label : "국가 선택"}</span>
@@ -318,6 +363,7 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
         </button>
       </div>
 
+      {mode === "map" && (
       <div className="md:grid md:grid-cols-[260px_1fr] md:gap-4 md:items-start">
         {/* PC 왼쪽 탐색 목록 */}
         <div className="hidden md:flex flex-col rounded-2xl border border-line bg-white p-2 h-[540px]">
@@ -489,6 +535,32 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
           </div>
         </div>
       </div>
+      )}
+
+      {/* 목록 모드 첫 화면 — 국가 카드 + 전체 골프장 (기존 목록 화면을 그대로 잇는다) */}
+      {mode === "list" && stage === "world" && (
+        <div className="pt-2">
+          <h2 className="text-lg md:text-xl font-black text-gray-800 mb-1">국가·지역으로 찾기</h2>
+          <p className="text-gray-600 text-[15px] mb-4 break-keep">국가를 누르면 그 국가 골프장 전체, 지역을 누르면 그 지역 골프장만 보여드려요.</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+            {groups.map((g) => (
+              <CountryRegionCard key={g.key} label={g.label} href={urlFor({ g: g.key, r: null }, "list")} count={g.count} image={g.image} regions={g.regions} />
+            ))}
+          </div>
+          <h2 className="text-lg md:text-xl font-black text-gray-800 mt-10 md:mt-12 mb-0">전체 골프장</h2>
+          {groupedAll.map(([country, list]) => (
+            <div key={country} className="mt-6 md:mt-8">
+              <div className="flex flex-wrap items-baseline gap-x-2 mb-4">
+                <h3 className="text-base md:text-lg font-black text-gray-800">{country}골프장</h3>
+                <p className="text-gray-500 text-base font-bold">총 {list.length}곳</p>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
+                {list.map(courseCard)}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
 
       {/* 아래 골프장 카드 — 기존 카드 모양 재사용 */}
       {group && (
@@ -499,36 +571,7 @@ export default function CourseMapExplorer({ groups, courses, initialG, initialR 
           </div>
           {listed.length === 0 && <p className="text-gray-500 text-sm py-8 text-center">해당 지역에 등록된 골프장이 아직 없습니다.</p>}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-            {listed.map((c) => (
-              <div key={c.slug} id={`mapcard-${c.slug}`} className={`bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden ${focusSlug === c.slug ? "ring-2 ring-brand-blue" : ""}`}>
-                <Link href={`/courses/${c.slug}`} className="block group">
-                  <div className="relative h-44 bg-emerald-100 overflow-hidden">
-                    <Image src={c.image} alt={`${c.region} ${c.name}`} fill sizes="(max-width: 768px) 100vw, 360px" className="object-cover group-hover:scale-105 transition-transform duration-300" />
-                  </div>
-                </Link>
-                {/* 기본 정보형 — 배지는 사진 아래 글자로 (사장님 지시 10/25) */}
-                <div className="p-4">
-                  <ul className="flex flex-wrap items-center gap-1.5 mb-2" aria-label="골프장 분류">
-                    <li className="inline-flex items-center gap-1.5 h-7 px-2 rounded-lg bg-slate-100 text-[13px] font-semibold text-slate-700">
-                      <CountryFlag country={c.country} />{c.region}
-                    </li>
-                    {c.holes && <li className="inline-flex items-center h-7 px-2.5 rounded-lg bg-slate-100 text-[13px] font-semibold text-slate-600">{c.holes}홀</li>}
-                  </ul>
-                  <h3 className="text-base font-bold text-gray-800 mb-1">{c.name}</h3>
-                  {c.summary && <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">{c.summary}</p>}
-                  <div className="flex gap-2 mt-3">
-                    {GEO_BY_SLUG[c.slug] && (
-                      <button type="button" onClick={() => { setFocusSlug(c.slug); if (!sel.r) apply({ g: sel.g, r: splitFirst(c.region) }); boxRef.current?.scrollIntoView({ behavior: "smooth", block: "center" }); }} className="inline-flex items-center gap-1 min-h-10 px-3 rounded-full border-[1.5px] border-slate-300 text-[14px] font-bold text-slate-700 hover:border-brand-blue hover:text-brand-blue">
-                        <IconPin className="w-4 h-4" />위치 보기
-                      </button>
-                    )}
-                    <Link href={`/courses/${c.slug}`} className="inline-flex items-center gap-0.5 min-h-10 px-3 rounded-full text-[14px] font-bold text-brand-blue hover:bg-blue-50">
-                      상세 보기<IconChevron className="w-4 h-4" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
+            {listed.map(courseCard)}
           </div>
         </div>
       )}

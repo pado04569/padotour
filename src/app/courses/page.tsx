@@ -1,14 +1,7 @@
-import Link from "next/link";
-import Image from "next/image";
-import { courses } from "@/data/courses";
 import type { Metadata } from "next";
-import { IconChevron } from "@/components/icons/Chevron";
-import { buildCourseGroups, courseHoles, matchesRegion } from "@/lib/courseGroups";
-import CountryFlag from "@/components/CountryFlag";
-import { REGION_MAPS } from "@/lib/regionMaps";
-import CourseRegionMap from "@/components/CourseRegionMap";
+import { courses } from "@/data/courses";
+import { buildCourseGroups, courseHoles } from "@/lib/courseGroups";
 import CourseMapExplorer from "@/components/CourseMapExplorer";
-import CountryRegionCard from "@/components/CountryRegionCard";
 
 const SITE_URL = "https://www.padotour.com";
 
@@ -23,200 +16,46 @@ export const metadata: Metadata = {
   alternates: { canonical: `${SITE_URL}/courses` },
 };
 
-/** 나라 → 지역 순으로 묶어 노출 (국가별 검색 유입 대응) */
-function groupByCountry(list: typeof courses) {
-  const map = new Map<string, typeof courses>();
-  for (const course of list) {
-    const arr = map.get(course.country) ?? [];
-    arr.push(course);
-    map.set(course.country, arr);
-  }
-  return [...map.entries()];
-}
-
+// 목록·지도는 한 탐색 구조를 같이 쓴다 — 제목·경로·국가/지역 선택창 공통, 보기 방식만 전환 (사장님 지시 2026-10-25)
 export default async function CoursesPage({
   searchParams,
 }: {
-  searchParams: Promise<{ country?: string; region?: string; map?: string; view?: string }>;
+  searchParams: Promise<{ country?: string; region?: string; view?: string }>;
 }) {
-  const { country, region, map: mapParam, view } = await searchParams;
+  const { country, region, view } = await searchParams;
 
   // country 는 "guam,saipan" 처럼 여러 나라일 수 있다 (나라별 묶음 '괌·사이판'·'기타')
   const codes = country ? country.split(",") : [];
-  const filtered = courses.filter((c) => {
-    if (codes.length && !codes.includes(c.countryCode)) return false;
-    if (region && !matchesRegion(c, region)) return false;
-    return true;
-  });
-  const grouped = groupByCountry(filtered);
-  const isFiltered = Boolean(country || region);
   const groups = buildCourseGroups();
   const currentGroup = codes.length ? groups.find((g) => codes.every((c) => g.codes.includes(c))) : undefined;
-  const filterLabel = filtered[0]
-    ? [currentGroup?.label ?? filtered[0].country, region].filter(Boolean).join(" ")
-    : null;
-  const regionMap = currentGroup ? REGION_MAPS[currentGroup.key] : undefined;
-  const chip = "inline-flex items-center min-h-11 px-3.5 rounded-full text-[15px] font-semibold transition-colors";
 
-  // ── 지도 탐색 모드 (사장님 시안 '지역 가이드형', 2026-10-25) — 목록/지도 전환에 선택 조건 유지
-  const mapMode = view === "map";
-  const modeHref = (toMap: boolean) => {
-    const q = new URLSearchParams();
-    if (country) q.set("country", country);
-    if (region) q.set("region", region);
-    if (toMap) q.set("view", "map");
-    const qs = q.toString();
-    return `/courses${qs ? `?${qs}` : ""}`;
-  };
-  const toggle = (
-    <div className="max-w-6xl mx-auto px-4 pt-4 pb-1 flex justify-end gap-2">
-      <Link href={modeHref(false)} aria-current={!mapMode ? "page" : undefined} className={`inline-flex items-center gap-1.5 min-h-11 px-4 rounded-full border-[1.5px] text-[15px] font-bold ${!mapMode ? "bg-emerald-600 border-emerald-600 text-white" : "bg-white border-slate-300 text-main-text hover:bg-slate-50"}`}>
-        목록으로 보기
-      </Link>
-      <Link href={modeHref(true)} aria-current={mapMode ? "page" : undefined} className={`inline-flex items-center gap-1.5 min-h-11 px-4 rounded-full border-[1.5px] text-[15px] font-bold ${mapMode ? "bg-emerald-600 border-emerald-600 text-white" : "bg-white border-slate-300 text-main-text hover:bg-slate-50"}`}>
-        지도로 보기
-      </Link>
-    </div>
-  );
-  if (mapMode) {
-    const mapGroups = groups.map((g) => ({
-      key: g.key,
-      label: g.label,
-      count: g.count,
-      image: g.image,
-      regions: g.regions.map((r) => {
-        const rc = courses.filter((c) => g.codes.includes(c.countryCode) && matchesRegion(c, r.value));
-        return { value: r.value, label: r.label, count: rc.length, image: rc[0]?.images[0] ?? g.image };
-      }),
-    }));
-    const mapCourses = courses.map((c) => ({ slug: c.slug, name: c.name, region: c.region, countryCode: c.countryCode, country: c.country, holes: courseHoles(c), image: c.images[0], summary: c.summary ?? "" }));
-    return (
-      <div>
-        <section className="bg-hero-info text-white py-5 md:py-6">
-          <div className="max-w-6xl mx-auto px-4">
-            <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">해외 골프장 소개</h1>
-            <p className="text-emerald-50 text-sm md:text-base">지도에서 국가와 지역을 골라 골프장을 둘러보세요.</p>
-          </div>
-        </section>
-        <CourseMapExplorer groups={mapGroups} courses={mapCourses} initialG={currentGroup?.key ?? null} initialR={region ?? null} />
-      </div>
-    );
-  }
+  const explorerGroups = groups.map((g) => ({
+    key: g.key,
+    label: g.label,
+    count: g.count,
+    image: g.image,
+    regions: g.regions.map((r) => {
+      const rc = courses.filter((c) => g.codes.includes(c.countryCode) && (c.region === r.value || c.region.split("/").map((t) => t.trim()).includes(r.value)));
+      return { value: r.value, label: r.label, count: rc.length, image: rc[0]?.images[0] ?? g.image };
+    }),
+  }));
+  const explorerCourses = courses.map((c) => ({ slug: c.slug, name: c.name, region: c.region, countryCode: c.countryCode, country: c.country, holes: courseHoles(c), image: c.images[0], summary: c.summary ?? "" }));
 
   return (
     <div>
       <section className="bg-hero-info text-white py-5 md:py-6">
         <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">
-            {isFiltered && filterLabel ? `${filterLabel} 골프장` : "해외 골프장 소개"}
-          </h1>
-          {isFiltered && (
-            <Link href="/courses" className="inline-flex items-center gap-1 text-emerald-50 hover:text-white text-sm underline underline-offset-2">
-              <IconChevron dir="left" className="w-4 h-4" />전체 골프장 보기
-            </Link>
-          )}
+          <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">해외 골프장 소개</h1>
+          <p className="text-emerald-50 text-sm md:text-base">국가와 지역을 골라 목록이나 지도로 둘러보세요.</p>
         </div>
       </section>
-      {toggle}
-
-      {/* 나라·지역으로 찾기 — 탐색형 (사장님 확정 G3, 2026-10-09). 메인은 나라 타일(G1), 여기서는 지역까지 바로 고른다 */}
-      {!isFiltered && (
-        <section className="max-w-6xl mx-auto px-4 pt-6 md:pt-10">
-          <h2 className="text-lg md:text-xl font-black text-gray-800 mb-1">국가·지역으로 찾기</h2>
-          <p className="text-gray-600 text-[15px] mb-4 break-keep">국가를 누르면 그 국가 골프장 전체, 지역을 누르면 그 지역 골프장만 보여드려요.</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
-            {/* 좌우 배치 카드 — 상단 국가명+골프장 수, 왼쪽 사진(두 줄 높이)+오른쪽 지역 2열, 나머지는 펼침 (사장님 시안 2026-10-25) */}
-            {groups.map((g) => (
-              <CountryRegionCard key={g.key} label={g.label} href={g.href} count={g.count} image={g.image} regions={g.regions} />
-            ))}
-          </div>
-          <h2 className="text-lg md:text-xl font-black text-gray-800 mt-10 md:mt-12 -mb-2">전체 골프장</h2>
-        </section>
-      )}
-
-      {/* 나라를 고른 상태 — 그 나라의 지역 버튼으로 바로 좁힌다 */}
-      {currentGroup && currentGroup.regions.length > 1 && (
-        <nav
-          aria-label="지역 선택"
-          className={`max-w-6xl mx-auto px-4 pt-6 ${regionMap ? "flex flex-col md:grid md:grid-cols-[minmax(0,440px)_1fr] md:gap-6 md:items-start" : ""}`}
-        >
-          <div className="flex flex-wrap gap-2 content-start">
-            <Link
-              href={`${currentGroup.href}${mapParam === "1" ? "&map=1" : ""}`}
-              className={`${chip} ${!region ? "bg-emerald-600 text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
-            >
-              {currentGroup.label} 전체
-            </Link>
-            {currentGroup.regions.map((r) => (
-              <Link
-                key={r.value}
-                href={`${currentGroup.href}&region=${encodeURIComponent(r.value)}${mapParam === "1" ? "&map=1" : ""}`}
-                aria-current={region === r.value ? "page" : undefined}
-                className={`${chip} ${region === r.value ? "bg-emerald-600 text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"}`}
-              >
-                {r.label}
-              </Link>
-            ))}
-          </div>
-          {/* 지역 위치 보조 지도 — PC는 버튼 왼쪽, 휴대폰은 버튼 위에 접힘 */}
-          {regionMap && (
-            <div className="order-first">
-              <CourseRegionMap
-                map={regionMap}
-                regions={currentGroup.regions.map((r) => r.value)}
-                selected={region}
-                hrefFor={(r) => `${currentGroup.href}&region=${encodeURIComponent(r)}&map=1`}
-                openOnMobile={mapParam === "1"}
-              />
-            </div>
-          )}
-        </nav>
-      )}
-
-      <section className="max-w-6xl mx-auto px-4 py-8 md:py-10">
-        {grouped.length === 0 && (
-          <p className="text-gray-500 text-sm text-center py-12">해당 지역에 등록된 골프장이 아직 없습니다.</p>
-        )}
-        {grouped.map(([country, list]) => (
-          <div key={country} className="mb-10 md:mb-14 last:mb-0">
-            <div className="flex flex-wrap items-baseline gap-x-2 mb-4 md:mb-6">
-              <h2 className="text-lg md:text-xl font-black text-gray-800">{country}골프장</h2>
-              {/* 지역 이름을 길게 늘어놓던 문장은 뺐다 — 지역은 위 버튼·지도로 (사장님 지적 2026-10-09) */}
-              <p className="text-gray-500 text-base md:text-lg font-bold">총 {list.length}곳</p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-              {list.map((course) => (
-                <Link key={course.slug} href={`/courses/${course.slug}`} className="block group">
-                  <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden h-full">
-                    <div className="relative h-48 bg-emerald-100 overflow-hidden">
-                      <Image
-                        src={course.images[0]}
-                        alt={`${course.country} ${course.region} ${course.name}`}
-                        fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
-                    </div>
-                    {/* 기본 정보형 — 배지는 사진 아래 글자로 (사장님 지시 10/25). 홀 수는 검증된 specs 값이 있을 때만 */}
-                    <div className="p-4">
-                      <ul className="flex flex-wrap items-center gap-1.5 mb-2" aria-label="골프장 분류">
-                        <li className="inline-flex items-center gap-1.5 h-7 px-2 rounded-lg bg-slate-100 text-[13px] font-semibold text-slate-700">
-                          <CountryFlag country={course.country} />{course.region}
-                        </li>
-                        {courseHoles(course) && <li className="inline-flex items-center h-7 px-2.5 rounded-lg bg-slate-100 text-[13px] font-semibold text-slate-600">{courseHoles(course)}홀</li>}
-                      </ul>
-                      <h3 className="text-base font-bold text-gray-800 mb-1">{course.name}</h3>
-                      {course.summary && (
-                        <p className="text-gray-500 text-xs leading-relaxed line-clamp-2">{course.summary}</p>
-                      )}
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        ))}
-      </section>
+      <CourseMapExplorer
+        mode={view === "map" ? "map" : "list"}
+        groups={explorerGroups}
+        courses={explorerCourses}
+        initialG={currentGroup?.key ?? null}
+        initialR={region ?? null}
+      />
     </div>
   );
 }
