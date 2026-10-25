@@ -275,16 +275,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
                   <span className="inline-flex items-center gap-1.5"><IconClipboard className="w-5 h-5" />{sending ? "전송 중..." : "문의 접수하기"}</span>
                 </button>
                 <p className="text-[13px] text-slate-600 text-center">문의 접수 후 예약 가능 여부 확인 후 견적서 전달드립니다.</p>
-                {/* 전화·카카오 문의 — 입력이 어려운 손님용 (사장님 지시 10/25, 모바일에도 보이게) */}
-                <div className="grid grid-cols-2 gap-2 pt-1">
-                  <a href="tel:010-5301-5250" className="min-h-[52px] rounded-xl border-[1.5px] border-slate-300 hover:bg-slate-50 text-slate-700 text-[15px] font-bold flex items-center justify-center gap-1.5">
-                    <IconPhone className="w-[18px] h-[18px] text-brand-blue" />전화문의
-                  </a>
-                  <a href="https://pf.kakao.com/_bxoxnXxj/chat" target="_blank" rel="noopener noreferrer" className="min-h-[52px] rounded-xl bg-[#FAE100] hover:bg-[#F0D600] text-[#191919] text-[15px] font-bold flex items-center justify-center gap-1.5">
-                    <IconChat className="w-[18px] h-[18px]" />카카오톡 문의
-                  </a>
-                </div>
-                <p className="text-[12px] text-slate-500 text-center">전화 010-5301-5250 · 평일 09:00~18:00</p>
+                {/* 전화·카카오 버튼은 창 안에 넣지 않는다 — 달력 요약칸 아래에만 (사장님 지시 10/25) */}
               </form>
             )}
           </div>

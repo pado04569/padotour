@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { IconChevron } from "@/components/icons/Chevron";
-import { IconCalendarDays } from "@/components/icons/MenuIcons";
+import { IconCalendarDays, IconPhone, IconChat } from "@/components/icons/MenuIcons";
 import { announceTourDate, requestInquiryOpen } from "@/lib/tourBooking";
 
 // 출발일 달력 — 한 달씩, 날짜마다 1인 요금을 만원 단위로 미리 보여준다 (사장님 작업지시 2026-10-25)
@@ -208,6 +208,16 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
       ) : (
         <p className="mt-3 text-[13px] text-slate-500 text-center">날짜를 누르면 정확한 1인 요금이 표시됩니다</p>
       )}
+
+      {/* 전화번호는 열어 보여주고, 카카오는 그 아래 세로로 (사장님 지시 10/25) */}
+      <div className="mt-2.5 space-y-2">
+        <a href="tel:010-5301-5250" className="w-full min-h-[52px] rounded-xl border-[1.5px] border-slate-300 bg-white hover:bg-slate-50 text-slate-800 text-[16px] font-bold flex items-center justify-center gap-2">
+          <IconPhone className="w-[18px] h-[18px] text-brand-blue" />전화문의 010-5301-5250
+        </a>
+        <a href="https://pf.kakao.com/_bxoxnXxj/chat" target="_blank" rel="noopener noreferrer" className="w-full min-h-[52px] rounded-xl bg-[#FAE100] hover:bg-[#F0D600] text-[#191919] text-[16px] font-bold flex items-center justify-center gap-2">
+          <IconChat className="w-[18px] h-[18px]" />카카오톡 문의
+        </a>
+      </div>
     </div>
   );
 }
