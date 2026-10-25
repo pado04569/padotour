@@ -5,7 +5,7 @@ import { track } from "@/lib/analytics";
 import SelectChevron from "@/components/SelectChevron";
 import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint } from "@/lib/inquiryForm";
 import { onTourDate, type TourDateSel } from "@/lib/tourBooking";
-import { IconCalendarDays, IconClipboard, IconCircleCheck, IconPhone, IconUsers } from "@/components/icons/MenuIcons";
+import { IconCalendarDays, IconClipboard, IconCircleCheck, IconPhone, IconUsers, IconChat } from "@/components/icons/MenuIcons";
 
 // 상세페이지 문의 패널 (사장님 작업지시 2026-10-25)
 //  - PC: 오른쪽에 스크롤을 따라오는 패널 하나로 문의를 통합 (달력 안 입력창·하단 긴 문의 박스 대체)
@@ -184,9 +184,13 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
         <button type="button" onClick={openModal} className="mt-4 w-full min-h-12 rounded-xl bg-brand-blue hover:bg-blue-700 text-white text-[16px] font-black transition-colors">
           이 일정으로 예약문의
         </button>
-        <p className="text-[12px] text-slate-600 text-center mt-2 break-keep">문의 접수 후 가능 여부와 최종 요금을 안내드립니다.</p>
+        <p className="text-[12px] text-slate-600 text-center mt-2 break-keep">문의 접수 후 예약 가능 여부 확인 후 견적서 전달드립니다.</p>
         <a href="tel:010-5301-5250" className="mt-2 w-full min-h-11 rounded-xl border border-slate-300 hover:bg-slate-50 text-slate-700 text-[14px] font-bold flex items-center justify-center gap-1.5">
           <IconPhone className="w-4 h-4 text-brand-blue" />전화문의 010-5301-5250
+        </a>
+        {/* 카카오 채널 문의 — 떠다니는 버튼과 같은 채널, 패널 안에도 노란 버튼으로 (사장님 지시 10/25) */}
+        <a href="https://pf.kakao.com/_bxoxnXxj/chat" target="_blank" rel="noopener noreferrer" className="mt-2 w-full min-h-11 rounded-xl bg-[#FAE100] hover:bg-[#F0D600] text-[#191919] text-[14px] font-bold flex items-center justify-center gap-1.5">
+          <IconChat className="w-4 h-4" />카카오톡 문의
         </a>
       </aside>
 
@@ -268,7 +272,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
                 >
                   <span className="inline-flex items-center gap-1.5"><IconClipboard className="w-5 h-5" />{sending ? "전송 중..." : "문의 접수하기"}</span>
                 </button>
-                <p className="text-[12px] text-slate-600 text-center">문의 접수 후 가능 여부와 최종 요금을 안내드립니다.</p>
+                <p className="text-[12px] text-slate-600 text-center">문의 접수 후 예약 가능 여부 확인 후 견적서 전달드립니다.</p>
               </form>
             )}
           </div>

@@ -13,7 +13,7 @@ import HolePriceTierSelector from "@/components/HolePriceTierSelector";
 import ViewItemTracker from "@/components/ViewItemTracker";
 import ShareButton from "@/components/ShareButton";
 import { Sentences, Steps } from "@/components/ReadableText";
-import { IconCalendarDays, IconCircleHelp, IconPlaneTakeoff, IconPlaneLanding, IconArrowRight, IconArrowLeft, IconMessageCircle, IconMoon, IconUsers, IconSparkles, IconCheck, IconCircleCheck, IconCircleX, IconBuilding, IconPin, IconFlag } from "@/components/icons/MenuIcons";
+import { IconCalendarDays, IconCircleHelp, IconPlaneTakeoff, IconPlaneLanding, IconArrowRight, IconArrowLeft, IconMoon, IconUsers, IconSparkles, IconCheck, IconCircleCheck, IconCircleX, IconBuilding, IconPin, IconFlag } from "@/components/icons/MenuIcons";
 
 // 항공편 문장 "A → B" 의 글자 화살표를 작은 선 화살표로 (글자는 그대로 — AI 검색이 읽는 문장, 2026-10-10)
 function FlightLine({ text }: { text: string }) {
@@ -112,8 +112,15 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const nearestDep = tour.holePriceTiers?.length
     ? null
     : (tour.departurePrices ?? []).filter((d) => d.date >= todayStr).sort((a, b) => a.date.localeCompare(b.date))[0] ?? null;
-  // 이 상품과 자동 연결된 골프장 소개 — 골프장마다 한 줄 요약을 보여준다 (사장님 지시 2026-10-25)
-  const linkedCourses = courses.filter((c) => c.relatedTourIds.includes(tour.id));
+  // 골프장 소개가 "안 들어간" 골프장에만 한 줄 요약 (사장님 지시 10/25, 중복 금지)
+  // 판단: 소개 한 줄의 고유 낱말(3자 이상)이 상품의 골프장 설명에 2개 이상 이미 있으면 같은 소개로 보고 뺀다
+  const descText = tour.golfCourseDesc ?? "";
+  const linkedCourses = courses
+    .filter((c) => c.relatedTourIds.includes(tour.id))
+    .filter((c) => {
+      const words = (c.summary ?? "").split(/[^0-9A-Za-z가-힣]+/).filter((w) => w.length >= 3);
+      return words.filter((w) => descText.includes(w)).length < 2;
+    });
 
   /**
    * 화면에 보일 제목을 줄 단위로 나눈다. (검색용 제목은 나누지 않는다)
@@ -487,8 +494,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               {tour.seoKeywords.map((k) => `#${k}`).join(" ")}
             </p>
           )}
-          {/* "아래를 보라" 손가락 대신 상담 뜻의 말풍선 아이콘 (사장님 지시 10/10) */}
-          <p className="text-sm text-emerald-700 font-bold mt-3 flex items-center gap-1.5"><IconMessageCircle className="w-5 h-5" />문의하기</p>
+          {/* '문의하기' 줄은 뺀다 (사장님 지시 10/25) — 박스 자체가 출발일·요금으로 이동 */}
         </Link>
 
         {/* ── 하이라이트 ── */}
