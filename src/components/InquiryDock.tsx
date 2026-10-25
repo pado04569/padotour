@@ -47,7 +47,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
     const mq = window.matchMedia("(max-width: 1023px)");
     const apply = () => {
       document.querySelectorAll<HTMLElement>("[data-kakao-float]").forEach((el) => {
-        if (mq.matches) el.style.setProperty("bottom", "88px", "important");
+        if (mq.matches) el.style.setProperty("bottom", "108px", "important");
         else el.style.removeProperty("bottom");
       });
     };
@@ -195,16 +195,16 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
       </aside>
 
       {/* 휴대폰 아래 고정 바 */}
-      <div className="lg:hidden fixed inset-x-0 bottom-0 z-40 bg-white border-t border-slate-200 px-4 pt-2.5 pb-[max(10px,env(safe-area-inset-bottom))]">
+      <div className="lg:hidden fixed inset-x-0 bottom-0 z-40 bg-white border-t border-slate-200 px-4 pt-3.5 pb-[max(22px,calc(env(safe-area-inset-bottom)+10px))] shadow-[0_-4px_14px_rgba(15,40,70,0.08)]">
         <div className="flex items-center gap-3">
           <div className="min-w-0">
-            <p className="text-[11px] text-slate-500 leading-none mb-1">1인 요금{sel ? ` · ${fmtDate(sel.date)} 출발` : ""}</p>
-            <p className="text-[18px] leading-none font-black text-red-600 whitespace-nowrap">{sel ? fmtWon(sel.price) : hasPrice ? `${priceText}부터` : "요금 문의"}</p>
+            <p className="text-[12px] text-slate-500 leading-none mb-1.5">1인 요금{sel ? ` · ${fmtDate(sel.date)} 출발` : ""}</p>
+            <p className="text-[20px] leading-none font-black text-red-600 whitespace-nowrap">{sel ? fmtWon(sel.price) : hasPrice ? `${priceText}부터` : "요금 문의"}</p>
           </div>
           {sel || !hasCalendar ? (
-            <button type="button" onClick={openModal} className="flex-1 min-h-12 rounded-xl bg-brand-blue text-white text-[16px] font-black">예약문의</button>
+            <button type="button" onClick={openModal} className="flex-1 min-h-[54px] rounded-xl bg-brand-blue text-white text-[17px] font-black">예약문의</button>
           ) : (
-            <button type="button" onClick={scrollToCalendar} className="flex-1 min-h-12 rounded-xl bg-emerald-600 text-white text-[16px] font-black">출발일·요금 확인</button>
+            <button type="button" onClick={scrollToCalendar} className="flex-1 min-h-[54px] rounded-xl bg-emerald-600 text-white text-[17px] font-black">출발일·요금 확인</button>
           )}
         </div>
       </div>
@@ -280,7 +280,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
       )}
 
       {/* 휴대폰 고정 바가 본문 끝(뒤로가기)을 가리지 않게 여백 */}
-      <div className="h-20 lg:hidden" aria-hidden="true" />
+      <div className="h-28 lg:hidden" aria-hidden="true" />
     </div>
   );
 }
