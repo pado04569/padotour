@@ -153,6 +153,23 @@ function CustomerCenter({ busan }: { busan?: boolean }) {
 
 export default function Header({ departure, realDeparture, navRegions }: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [menuTop, setMenuTop] = useState(0);
+  const headerRef = useRef<HTMLElement>(null);
+  useEffect(() => {
+    if (!menuOpen) return;
+    const measure = () => setMenuTop(headerRef.current?.getBoundingClientRect().bottom ?? 0);
+    measure();
+    window.addEventListener("resize", measure);
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const floats = document.querySelectorAll<HTMLElement>("[data-kakao-float]");
+    floats.forEach((el) => (el.style.visibility = "hidden"));
+    return () => {
+      window.removeEventListener("resize", measure);
+      document.body.style.overflow = prevOverflow;
+      floats.forEach((el) => el.style.removeProperty("visibility"));
+    };
+  }, [menuOpen]);
   const [searchOpen, setSearchOpen] = useState(false); // 휴대폰 접이식 검색창
   const [communityOpen, setCommunityOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
@@ -230,7 +247,7 @@ export default function Header({ departure, realDeparture, navRegions }: HeaderP
   const communityItem = "flex items-center gap-2 px-4 py-3 text-sm text-body-text hover:bg-page-bg transition-colors border-b border-gray-100 last:border-0 text-left w-full";
 
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
+    <header ref={headerRef} className="bg-white shadow-md sticky top-0 z-50">
 
       {/* ══ 1줄: 로고 | 검색 | 출발지 | 내 예약·문의 | 고객센터 ══ */}
       <div className="border-b border-gray-100">
@@ -374,9 +391,9 @@ export default function Header({ departure, realDeparture, navRegions }: HeaderP
         </div>
       </div>
 
-      {/* ══ 모바일 전체 메뉴 ══ */}
+      {/* ══ 모바일 전체 메뉴 — 머리말 아래 화면 전체를 덮고 뒤 페이지는 안 보이게·안 스크롤되게 (사장님 지적 2026-10-25) ══ */}
       {menuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-100 shadow-lg max-h-[75vh] overflow-y-auto">
+        <div className="md:hidden fixed inset-x-0 bottom-0 bg-white border-t border-gray-100 overflow-y-auto overscroll-contain z-50" style={{ top: menuTop }}>
           {/* 고객센터 — 전체 메뉴 맨 위 (사장님 지시 10/25) */}
           <div className="px-4 py-3 bg-blue-50 border-b border-blue-100">
             <p className="text-[13px] font-bold text-blue-900 mb-2 flex items-center gap-1.5"><IconPhone className="w-4 h-4" />고객센터 · 평일 09:00~18:00</p>
