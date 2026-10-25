@@ -290,7 +290,6 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
       )}
 
       {/* 휴대폰 고정 바가 본문 끝(뒤로가기)을 가리지 않게 여백 */}
-      <div className="h-4 lg:hidden" aria-hidden="true" />
     </div>
   );
 }

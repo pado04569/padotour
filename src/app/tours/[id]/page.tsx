@@ -116,7 +116,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
     return n ? `${n}인 출발 가능` : "";
   })();
   // 출발 기간 칩 — 괄호 부연·"매일/지정 출발" 꼬리를 떼고 기간만 (사장님 지시 10/25)
-  const periodChip = (tour.period ?? "연중 출발").replace(/\([^)]*\)/g, "").trim().replace(/\s*(매일|지정일?)\s*출발$/, "").trim();
+  const periodChip = (tour.period ?? "연중 출발").replace(/\([^)]*\)/g, "").trim().replace(/\s*(매일|지정일?)\s*출발$/, "").trim().replace(/(\d+월)\s*\d+일/g, "$1").trim();
   // 괄호 덩어리는 줄 중간에서 끊기지 않게 — "(2인 1실)" "(36홀, 9홀 코스 4개)" (사장님 지시 10/25)
   const noWrapParens = (t: string) =>
     t.split(/(\([^)]*\))/).map((part, i) =>
@@ -693,7 +693,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         </div>
 
         {/* ── 뒤로가기 — 화면 전체 기준 가운데, 위아래 여백은 기존의 1/3 (사장님 지시 2026-10-25) */}
-        <div className="text-center -mt-2 md:mt-2">
+        <div className="text-center pt-3 pb-7 md:py-3 -mt-2 md:mt-0">
           <Link href={`/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}`} className="group inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-800 font-semibold text-[15px]">
             <IconArrowLeft className="w-[18px] h-[18px] transition-transform md:group-hover:-translate-x-0.5" />{tour.country} 상품 목록으로
           </Link>
