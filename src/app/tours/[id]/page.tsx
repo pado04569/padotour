@@ -1,12 +1,15 @@
 import Link from "next/link";
 import { tours, endedTours } from "@/data/tours";
+import { courses } from "@/data/courses";
 import PhotoGrid from "@/components/PhotoGrid";
 import { notFound, permanentRedirect } from "next/navigation";
 import { endedTourTarget } from "@/lib/endedTourRedirect";
 import type { Metadata } from "next";
 import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
+import TourGallery from "@/components/TourGallery";
+import InquiryDock from "@/components/InquiryDock";
+import CountryFlag from "@/components/CountryFlag";
 import HolePriceTierSelector from "@/components/HolePriceTierSelector";
-import ContactOptions from "@/components/ContactOptions";
 import ViewItemTracker from "@/components/ViewItemTracker";
 import ShareButton from "@/components/ShareButton";
 import { Sentences, Steps } from "@/components/ReadableText";
@@ -86,12 +89,6 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const nightTiers = (tour.holePriceTiers ?? []).filter((t) => t.nights != null && t.days != null);
   // 같은 박수가 출발 요일별로 두 줄인 상품(사이판 3박5일 월/목·금)은 "3박5일 · 3박5일"로 겹쳐 보였다 → 한 번만 (2026-10-09)
   const tierNightsText = nightTiers.length > 0 ? [...new Set(nightTiers.map((t) => `${t.nights}박${t.days}일`))].join(" · ") : undefined;
-  // 문의 폼에서 고를 수 있는 실제 출발일 — 달력 출발일 + 일정 선택형의 출발일 (없으면 자유 입력)
-  const inquiryDates = [...new Set([
-    ...(tour.departurePrices ?? []).map((d) => d.date),
-    ...(tour.holePriceTiers ?? []).flatMap((t) => (t as { dates?: string[] }).dates ?? []),
-    ...(tour.holePriceDepartureDate ? [tour.holePriceDepartureDate] : []),
-  ])];
   const tierNightsRange =
     nightTiers.length > 1
       ? `${nightTiers[0].nights}박${nightTiers[0].days}일 ~ ${nightTiers[nightTiers.length - 1].nights}박${nightTiers[nightTiers.length - 1].days}일`
@@ -101,11 +98,22 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const guide = (() => { const g = regionGuides.find((x) => (tour.region ?? "").includes(x.regionKey)); return g ? `/guide/${g.slug}` : undefined; })();
   const dep = tour.departure === "both" ? undefined : tour.departure;
   const backHref = dep ? `/${dep}` : "/";
-  const heroImage = tour.images && tour.images.length > 0 ? tour.images[0] : tour.image;
 
   // 취소·환불 규정은 표준으로 통일한다(사장님 확정 2026-09-09).
   // 기존 cancelPolicy 에 섞여 있던 상품별 안내사항(추가요금·싱글룸·차량 조건 등)은 버리지 않고 따로 보여준다.
   const productNotes = (tour.cancelPolicy ?? []).filter((line) => !isCancelLadderLine(line));
+
+  // ── 상단 좌우 배치용 (사장님 작업지시 2026-10-25) — 전부 기존 등록 정보에서만 뽑는다
+  const holesRaw0 = tour.holes ?? `${tour.roundsIncluded * 18}`;
+  const holesShortTop = String(holesRaw0).match(/총\s*\d+\s*홀/)?.[0] ?? `${String(holesRaw0).split("\n")[0]}${String(holesRaw0).includes("홀") ? "" : "홀"}`;
+  const depLabel = tour.departure === "both" ? "인천·부산 출발" : tour.departure === "busan" ? "부산 출발" : "인천 출발";
+  const galleryImages = tour.images && tour.images.length > 0 ? tour.images : tour.image ? [tour.image] : [];
+  const todayStr = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
+  const nearestDep = tour.holePriceTiers?.length
+    ? null
+    : (tour.departurePrices ?? []).filter((d) => d.date >= todayStr).sort((a, b) => a.date.localeCompare(b.date))[0] ?? null;
+  // 이 상품과 자동 연결된 골프장 소개 — 골프장마다 한 줄 요약을 보여준다 (사장님 지시 2026-10-25)
+  const linkedCourses = courses.filter((c) => c.relatedTourIds.includes(tour.id));
 
   /**
    * 화면에 보일 제목을 줄 단위로 나눈다. (검색용 제목은 나누지 않는다)
@@ -271,7 +279,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           검색으로 바로 들어와도 "홈 › 국가 › 지역 › 상품 상세" 로 상위 화면에 갈 수 있게. 국가·지역은 상품 데이터 그대로.
           휴대폰은 한 줄만 쓰고, 좁으면 마지막 "상품 상세" 를 숨긴다 */}
       <nav aria-label="현재 위치" className="bg-slate-50 border-b border-slate-200">
-        <ol className="max-w-4xl mx-auto px-4 flex items-center gap-1.5 min-h-11 text-[15px] whitespace-nowrap overflow-hidden">
+        <ol className="max-w-6xl mx-auto px-4 flex items-center gap-1.5 min-h-11 text-[15px] whitespace-nowrap overflow-hidden">
           {[
             { label: "홈", href: dep ? `/${dep}` : "/" },
             { label: tour.country, href: `/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}` },
@@ -292,33 +300,21 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         </ol>
       </nav>
 
-      {/* ── 히어로 이미지 ── */}
-      <div className="relative w-full h-72 md:h-96 bg-gray-200 overflow-hidden">
-        {/* 첫 화면의 가장 큰 그림이라 먼저 받게 한다 (클래리티 LCP 4초, 2026-09-15) */}
-        {/* 눌러도 아무 일이 없어 손님이 계속 누른 자리였다 — 크게보기를 달았다 (클래리티 배달못한클릭 9회, 2026-09-16) */}
-        <PhotoGrid images={[heroImage]} altBase={tour.title} variant="hero" />
-        {/* 사진을 가리지 않는 것이 우선 — 어둡게 덧씌우지 않는다 (사장님 확정 2026-09-10) */}
-        {/* pointer-events-none — 덧씌운 층이 사진 클릭을 가로채지 않게 한다 */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent pointer-events-none" />
-        {/* 모바일: 세로 가운데 정렬 / PC: 기존처럼 아래 정렬 */}
-        <div className="absolute inset-0 flex items-center px-5 py-6 md:p-8 text-white pointer-events-none">
-          {/* 제목이 두 줄로 안정적으로 나뉘므로 가운데 정렬한다 (사장님 확정 2026-09-10) */}
-          <div className="max-w-4xl mx-auto w-full text-center">
-            <div className="flex items-center justify-center gap-2 mb-2.5">
-              <span className="text-xs font-bold bg-emerald-500 text-white px-2 py-0.5 rounded">{tour.country}</span>
-              <span className="text-xs text-white/80">{tour.region}</span>
-              {/* "부산출발 신규" 빨간 뱃지는 빼둔다 — 제목에 이미 [부산출발]이 있고,
-                  홈페이지에서 신규 여부를 알릴 필요가 크지 않다. (사장님 확정 2026-09-10)
-                  목록 카드에는 그대로 남아 있다. */}
+      {/* ── 상단: 왼쪽 사진 갤러리 55 + 오른쪽 상품 정보 45 (사장님 작업지시 2026-10-25, 어두운 덮개 제거) ── */}
+      <div className="max-w-6xl mx-auto px-4 pt-5 md:pt-7">
+        <div className="grid lg:grid-cols-[11fr_9fr] gap-5 lg:gap-10 lg:items-start">
+          <TourGallery images={galleryImages} alt={tour.title} />
+          <div>
+            <div className="flex items-center justify-between gap-3 mb-2">
+              <p className="flex items-center gap-2 text-[15px] font-bold text-slate-600">
+                <CountryFlag country={tour.country} /> {tour.country}{tour.region ? ` · ${tour.region}` : ""}
+              </p>
+              <ShareButton title={tour.title} itemId={tour.id} className="flex-none bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs px-3 py-2 rounded-full" />
             </div>
-            {/* break-keep — 한글 단어 중간에서 줄이 끊기지 않게 한다 */}
-            {/* 제목 줄바꿈은 글자수가 아니라 의미로 판단한다 (사장님 확정 2026-09-10).
-                골프장 이름이 길 수 있어 길이 기준은 쓰지 않는다. 검색용 제목(metadata)은 한 줄 그대로. */}
-            {/* 제목 속 요금을 보고 누르는 손님이 있었다 → 출발일·요금표로 내려가게 한다 (클래리티 배달못한클릭, 2026-10-08 오키나와 카누차) */}
-            <h1 className="text-xl md:text-4xl font-black leading-snug break-keep">
-              <Link href="#departure" className="pointer-events-auto hover:underline">
+            {/* 제목은 원본 그대로(검색·SEO 유지) — 줄만 의미 단위로 나눈다. 누르면 출발일·요금으로 (클래리티 10/8) */}
+            <h1 className="text-[21px] md:text-[26px] font-black leading-snug break-keep text-slate-900">
+              <Link href="#departure" className="hover:underline">
                 {titleLines.map((line, li) => (
-                  // "·"는 앞 낱말에 붙이고 그 뒤에서만 줄이 넘어가게 — 둘째 줄이 "·뚜언쩌우"처럼 점으로 시작했다 (2026-10-10)
                   <span key={li} className="block">
                     {line.split("·").map((part, pi, arr) => (
                       <span key={pi}>{part}{pi < arr.length - 1 && <>{"\u2060·"}<wbr /></>}</span>
@@ -327,18 +323,70 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                 ))}
               </Link>
             </h1>
+            {tour.subtitle && <p className="text-[15px] text-slate-600 mt-2 break-keep">{tour.subtitle}</p>}
+            <ul className="flex flex-wrap gap-2 mt-3.5" aria-label="상품 기본 정보">
+              {[
+                { icon: <IconPlaneTakeoff className="w-4 h-4" />, text: depLabel },
+                { icon: <IconMoon className="w-4 h-4" />, text: tierNightsText ?? stayText(tour.nights, tour.days, " ") },
+                { icon: <IconFlag className="w-4 h-4" />, text: String(tour.roundsIncluded).includes("무제한") ? "무제한 라운드" : holesShortTop },
+              ].map((c) => (
+                <li key={c.text} className="inline-flex items-center gap-1.5 min-h-9 px-3 rounded-lg bg-slate-50 border border-slate-200 text-[13px] font-bold text-slate-700">
+                  <span className="text-brand-blue">{c.icon}</span>{c.text}
+                </li>
+              ))}
+            </ul>
+            {/* 요금이 "문의"뿐인 상품은 1인 가격 대신 요금 문의로 (사장님 확정 10/25) */}
+            {/원/.test(departures?.lowPriceText ?? tour.price ?? "") ? (
+              <p className="mt-5 text-[15px] font-bold text-slate-600">1인 <b className="text-[30px] md:text-[32px] font-black text-red-600">{departures?.lowPriceText ?? (tour.price ?? "").replace(/~\s*$/, "")}</b><span className="text-slate-700">부터</span></p>
+            ) : (
+              <p className="mt-5 text-[22px] font-black text-red-600">요금 문의</p>
+            )}
+            <a href="#departure" className="mt-4 w-full min-h-12 rounded-xl border-[1.5px] border-brand-blue text-brand-blue hover:bg-blue-50 text-[15px] font-black flex items-center justify-center gap-1.5">
+              <IconCalendarDays className="w-5 h-5" />출발일별 요금 보기
+            </a>
           </div>
         </div>
-
-        {/* 공유 — 모바일에서 주소를 긁을 방법이 없어 우상단에 고정 배치 */}
-        <ShareButton
-          title={tour.title}
-          itemId={tour.id}
-          className="absolute top-4 right-4 bg-black/45 hover:bg-black/65 text-white font-bold text-xs px-3 py-2 rounded-full backdrop-blur-sm"
-        />
       </div>
 
-      <div className="max-w-4xl mx-auto px-4 py-8">
+      {/* ── 본문 70 + 오른쪽 문의 패널 30 (휴대폰: 사진→정보→달력→상세, 패널은 아래 고정 바) ── */}
+      <div className="max-w-6xl mx-auto px-4 py-8">
+        <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_340px] lg:gap-8">
+          <div className="min-w-0">
+
+        {/* ── 출발일 캘린더 + 요금 / 홀수별 요금 ── */}
+        {tour.holePriceTiers && tour.holePriceTiers.length > 0 ? (
+          <div id="departure" className="mb-8 scroll-mt-28 md:scroll-mt-32">
+            {tour.period && (
+              <p className="text-sm text-gray-500 mb-2">{tour.period} · {tierNightsText ? "일정 선택제 요금" : "홀수 선택제 요금"}</p>
+            )}
+            <HolePriceTierSelector
+              tourId={tour.id}
+              tourTitle={tour.title}
+              departureDate={tour.holePriceDepartureDate ?? ""}
+              nights={tour.nights}
+              days={tour.days}
+              tiers={tour.holePriceTiers}
+              departurePrices={tour.departurePrices}
+            />
+          </div>
+        ) : tour.departurePrices && tour.departurePrices.length > 0 ? (
+          <div id="departure" className="mb-8 scroll-mt-28 md:scroll-mt-32">
+            <DeparturePriceCalendar
+              departurePrices={tour.departurePrices}
+              nights={tour.nights}
+              days={tour.days}
+            />
+          </div>
+        ) : (
+          <div id="departure" className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8 scroll-mt-28 md:scroll-mt-32 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div>
+              <p className="text-sm text-gray-500 mb-0.5">{depLabel} 기준</p>
+              <p className="text-3xl md:text-4xl font-black text-red-600">{tour.price}</p>
+              <p className="text-xs text-gray-400 mt-1">※ 날짜별 요금이 준비 중인 상품이에요 — 출발일 요금은 <b>요금 문의</b>로 바로 확인해 드립니다</p>
+            </div>
+          </div>
+        )}
+
 
         {/* ── 핵심 정보 요약 ── */}
         {(() => {
@@ -415,7 +463,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
         {/* ── 상품 요약 박스 ── */}
         {/* 카드처럼 보여 눌러도 반응 없는 클릭이 많았다(클래리티 배달못한클릭 20회, 2026-09-17) → 문의 폼으로 스크롤하게 만든다 */}
-        <Link href="#inquiry" className="block bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8 hover:bg-emerald-100 transition-colors">
+        <Link href="#departure" className="block bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8 hover:bg-emerald-100 transition-colors">
           <p className="text-xs text-gray-500 mb-2">{tour.region} 골프여행 상품 구성</p>
           {/* 한 덩어리로 붙어 있으면 읽기 어렵다 → 문장 단위로 줄을 나눈다 */}
           <div className="space-y-1.5">
@@ -440,43 +488,6 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <p className="text-sm text-emerald-700 font-bold mt-3 flex items-center gap-1.5"><IconMessageCircle className="w-5 h-5" />문의하기</p>
         </Link>
 
-        {/* ── 출발일 캘린더 + 요금 / 홀수별 요금 ── */}
-        {tour.holePriceTiers && tour.holePriceTiers.length > 0 ? (
-          <div id="departure" className="mb-8 scroll-mt-4">
-            {tour.period && (
-              <p className="text-sm text-gray-500 mb-2">{tour.period} · {tierNightsText ? "일정 선택제 요금" : "홀수 선택제 요금"}</p>
-            )}
-            <HolePriceTierSelector
-              tourId={tour.id}
-              tourTitle={tour.title}
-              departureDate={tour.holePriceDepartureDate ?? ""}
-              nights={tour.nights}
-              days={tour.days}
-              tiers={tour.holePriceTiers}
-              departurePrices={tour.departurePrices}
-            />
-          </div>
-        ) : tour.departurePrices && tour.departurePrices.length > 0 ? (
-          <div id="departure" className="mb-8 scroll-mt-4">
-            <DeparturePriceCalendar
-              departurePrices={tour.departurePrices}
-              nights={tour.nights}
-              days={tour.days}
-              tourId={tour.id}
-              tourTitle={tour.title}
-              minPeople={strictMinPeople}
-            />
-          </div>
-        ) : (
-          <div id="departure" className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8 scroll-mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
-            <div>
-              <p className="text-sm text-gray-500 mb-0.5">인천출발 기준</p>
-              <p className="text-3xl md:text-4xl font-black text-red-600">{tour.price}</p>
-              <p className="text-xs text-gray-400 mt-1">※ 출발일에 따라 요금이 상이합니다</p>
-            </div>
-          </div>
-        )}
-
         {/* ── 하이라이트 ── */}
         <div className="mb-8">
           <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-accent-teal inline-flex items-center gap-1.5"><span className="text-brand-blue"><IconSparkles /></span>이 상품의 특징</h2>
@@ -484,7 +495,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             {/* 카드처럼 보여 눌러도 반응 없는 클릭이 많았다(클래리티 배달못한클릭, 2026-09-21 녹화 확인:
                 "직항, 이동시간 단축" 2회 · "셀프+카트 라운드" 1회) → 문의 폼으로 스크롤하게 만든다 */}
             {tour.highlights.map((h, i) => (
-              <Link key={i} href="#inquiry" className="flex items-start gap-3 bg-emerald-50 hover:bg-emerald-100 rounded-xl p-4 transition-colors">
+              <Link key={i} href="#departure" className="flex items-start gap-3 bg-emerald-50 hover:bg-emerald-100 rounded-xl p-4 transition-colors">
                 <span className="text-emerald-600 mt-0.5"><IconCheck className="w-5 h-5" /></span>
                 {/* 줄바꿈(\n)이 들어 있으면 그대로 나눈다. break-keep 으로 "2인 1실" 같은 말이 쪼개지지 않게 한다 */}
                 <span className="text-gray-800 font-medium text-sm leading-relaxed break-keep">
@@ -502,7 +513,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <div className="mb-8">
             <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-accent-teal inline-flex items-center gap-1.5"><span className="text-brand-blue"><IconBuilding /></span>{tour.region} 골프여행 숙박 호텔</h2>
             {/* 골프장 정보 박스와 같은 이유로 문의 폼 링크를 단다 (클래리티 배달못한클릭, 2026-09-17) */}
-            <Link href="#inquiry" className="block bg-gray-50 hover:bg-gray-100 rounded-2xl p-5 border border-gray-100 mb-3 transition-colors">
+            <Link href="#departure" className="block bg-gray-50 hover:bg-gray-100 rounded-2xl p-5 border border-gray-100 mb-3 transition-colors">
               <div className="font-black text-gray-800 text-base mb-2">{tour.hotel}</div>
               {tour.hotelDesc && <Sentences text={tour.hotelDesc} />}
             </Link>
@@ -517,10 +528,23 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <div className="mb-8">
             <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-accent-teal inline-flex items-center gap-1.5"><span className="text-brand-blue"><IconFlag /></span>{tour.region} 골프장 정보</h2>
             {/* 카드처럼 보여 눌러도 반응 없는 클릭이 많았다(클래리티 배달못한클릭 16회, 2026-09-17) → 문의 폼으로 스크롤하게 만든다 */}
-            <Link href="#inquiry" className="block bg-gray-50 hover:bg-gray-100 rounded-2xl p-5 border border-gray-100 mb-3 transition-colors">
+            <Link href="#departure" className="block bg-gray-50 hover:bg-gray-100 rounded-2xl p-5 border border-gray-100 mb-3 transition-colors">
               <div className="font-black text-gray-800 text-base mb-2">{tour.golfCourse}</div>
               {tour.golfCourseDesc && <Sentences text={tour.golfCourseDesc} />}
             </Link>
+            {/* 골프장마다 한 줄 소개 — 이름만 나열하지 않는다 (사장님 지시 10/25). 소개 페이지의 한 줄 요약을 그대로 가져온다 */}
+            {linkedCourses.length > 0 && (
+              <ul className="space-y-2 mb-3">
+                {linkedCourses.map((c) => (
+                  <li key={c.slug} className="bg-white border border-gray-100 rounded-xl px-4 py-3">
+                    <Link href={`/courses/${c.slug}`} className="inline-flex items-center gap-1 font-bold text-[15px] text-slate-900 hover:text-brand-blue">
+                      {c.name}<IconChevron className="w-4 h-4 text-slate-400" />
+                    </Link>
+                    <p className="text-sm text-gray-600 mt-0.5 leading-relaxed break-keep">{c.summary}</p>
+                  </li>
+                ))}
+              </ul>
+            )}
             {tour.courseImages && tour.courseImages.length > 0 && (
               <PhotoGrid images={tour.courseImages} altBase={tour.golfCourse} objectTop />
             )}
@@ -530,8 +554,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 포함/불포함 ── */}
         {/* 두 박스도 카드처럼 보여 눌러도 반응이 없었다(클래리티 배달못한클릭, 2026-09-21 녹화 확인:
             "그린피 + 카트피 + 락카피" 클릭) → 문의 폼으로 스크롤하게 만든다 */}
-        <div className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-4">
-          <Link href="#inquiry" className="block bg-emerald-50 hover:bg-emerald-100 rounded-2xl p-5 border border-emerald-100 transition-colors">
+        {/* 문의 패널 "현지 별도 비용 보기"가 여기로 내려온다 */}
+        <div id="extra-costs" className="mb-8 grid grid-cols-1 md:grid-cols-2 gap-4 scroll-mt-28 md:scroll-mt-32">
+          <Link href="#departure" className="block bg-emerald-50 hover:bg-emerald-100 rounded-2xl p-5 border border-emerald-100 transition-colors">
             <h3 className="font-black text-emerald-800 mb-3 flex items-center gap-2">
               <IconCircleCheck /> 포함 내역
             </h3>
@@ -543,7 +568,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               ))}
             </ul>
           </Link>
-          <Link href="#inquiry" className="block bg-red-50 hover:bg-red-100 rounded-2xl p-5 border border-red-100 transition-colors">
+          <Link href="#departure" className="block bg-red-50 hover:bg-red-100 rounded-2xl p-5 border border-red-100 transition-colors">
             <h3 className="font-black text-red-800 mb-3 flex items-center gap-2">
               <IconCircleX /> 불포함 내역
             </h3>
@@ -599,23 +624,14 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           </div>
         </div>
 
-        {/* ── 예약 문의 · 맞춤 견적 ── */}
-        {/* id="inquiry" — 위쪽 상품 요약/호텔/골프장 박스를 누르면 여기로 스크롤된다 */}
-        <div id="inquiry" className="bg-ice-blue border border-brand-blue/15 rounded-2xl p-6 md:p-8 text-charcoal mb-8 scroll-mt-4">
-          <h3 className="text-xl font-black text-charcoal mb-1 text-center">예약 문의 · 맞춤 견적</h3>
-          <p className="text-slate-ink text-sm mb-5 break-keep text-center">출발일, 인원을 알려주시면 <span className="whitespace-nowrap">확인 후 견적을 전달드립니다</span></p>
-          <ContactOptions tourId={tour.id} tourTitle={tour.title} nights={tour.nights} days={tour.days} minPeople={strictMinPeople} dates={inquiryDates} />
-
-          {/* 같이 갈 일행에게 보내는 경로 — 골프여행은 대개 여럿이 간다 */}
-          <div className="mt-6">
-            <ShareButton
-              title={tour.title}
-              itemId={tour.id}
-              className="w-full bg-white hover:bg-ice-blue text-brand-blue border-2 border-brand-blue/30 font-black px-8 py-2 rounded-xl text-sm"
-            />
-            <p className="text-xs text-slate-ink mt-2 text-center">함께 가실 분에게 이 상품을 보내보세요</p>
-          </div>
-
+        {/* ── 일행에게 보내기 + 요금 기준 안내 (문의는 오른쪽 패널·아래 고정 바로 통합, 지시서 5) ── */}
+        <div className="mb-8">
+          <ShareButton
+            title={tour.title}
+            itemId={tour.id}
+            className="w-full bg-white hover:bg-ice-blue text-brand-blue border-2 border-brand-blue/30 font-black px-8 py-2 rounded-xl text-sm"
+          />
+          <p className="text-xs text-slate-ink mt-2 text-center">함께 가실 분에게 이 상품을 보내보세요</p>
           {tour.priceUpdatedDate && (() => {
             const d = new Date(tour.priceUpdatedDate);
             const label = `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`;
@@ -668,6 +684,20 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <Link href={`/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}`} className="group inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-800 font-semibold text-[15px] min-h-11">
             <IconArrowLeft className="w-[18px] h-[18px] transition-transform md:group-hover:-translate-x-0.5" />{tour.country} 상품 목록으로
           </Link>
+        </div>
+          </div>
+
+          {/* 오른쪽 문의 패널 (PC sticky) + 휴대폰 아래 고정 바 + 문의 입력 창 */}
+          <InquiryDock
+            tourId={tour.id}
+            tourTitle={tour.title}
+            nights={tour.nights}
+            days={tour.days}
+            minPeople={strictMinPeople}
+            defaultSel={nearestDep ? { date: nearestDep.date, price: nearestDep.price, nights: nearestDep.nights ?? tour.nights, days: nearestDep.days ?? tour.days } : null}
+            priceText={departures?.lowPriceText ?? (tour.price ?? "").replace(/~\s*$/, "")}
+            hasCalendar={Boolean(!tour.holePriceTiers?.length && tour.departurePrices?.length)}
+          />
         </div>
       </div>
     </div>
