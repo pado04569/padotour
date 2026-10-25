@@ -186,22 +186,69 @@ export default function CourseMapExplorer({ mode, groups, courses, initialG, ini
     flyTo({ x: v.x + (v.w - w) / 2, y: v.y + (v.h - h) / 2, w, h });
   };
   const drag = useRef<{ x: number; y: number; moved: boolean } | null>(null);
+  // 휴대폰 두 손가락 확대·축소·이동 (사장님 지시 2026-10-25) — 한 손가락은 페이지 스크롤 그대로(touch-pan-y)
+  const touches = useRef<Map<number, { x: number; y: number }>>(new Map());
+  const pinch = useRef<{ d: number; cx: number; cy: number; v: View } | null>(null);
+  const startPinch = () => {
+    const pts = [...touches.current.values()];
+    if (pts.length < 2) { pinch.current = null; return; }
+    pinch.current = {
+      d: Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y),
+      cx: (pts[0].x + pts[1].x) / 2,
+      cy: (pts[0].y + pts[1].y) / 2,
+      v: { ...viewRef.current },
+    };
+  };
   const onPointerDown = (e: React.PointerEvent) => {
-    if (e.pointerType === "touch") return; // 휴대폰은 페이지 스크롤과 겹치지 않게 끌기 없음(선택창·버튼으로 탐색)
+    if (e.pointerType === "touch") {
+      touches.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      startPinch(); // 두 손가락이 되면 그 순간을 기준으로
+      return;
+    }
     drag.current = { x: e.clientX, y: e.clientY, moved: false };
   };
   const onPointerMove = (e: React.PointerEvent) => {
-    const d = drag.current;
-    if (!d) return;
     const el = boxRef.current;
     if (!el) return;
+    if (e.pointerType === "touch") {
+      if (!touches.current.has(e.pointerId)) return;
+      touches.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      const pz = pinch.current;
+      if (!pz || touches.current.size < 2) return;
+      e.preventDefault();
+      const pts = [...touches.current.values()];
+      const dNow = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y) || 1;
+      const cx = (pts[0].x + pts[1].x) / 2;
+      const cy = (pts[0].y + pts[1].y) / 2;
+      const rect = el.getBoundingClientRect();
+      // 처음 두 손가락 가운데에 있던 지점이 지금 가운데 밑에 그대로 있도록 확대·이동을 함께 계산
+      const nw = Math.min(GEO_W * 1.05, Math.max(40, pz.v.w * (pz.d / dNow)));
+      const nh = nw / aspect;
+      const gx = pz.v.x + ((pz.cx - rect.left) / rect.width) * pz.v.w;
+      const gy = pz.v.y + ((pz.cy - rect.top) / rect.height) * pz.v.h;
+      cancelAnimationFrame(animRef.current);
+      setView({ x: gx - ((cx - rect.left) / rect.width) * nw, y: gy - ((cy - rect.top) / rect.height) * nh, w: nw, h: nh });
+      return;
+    }
+    const d = drag.current;
+    if (!d) return;
     const v = viewRef.current;
     const dx = ((e.clientX - d.x) / el.clientWidth) * v.w;
     const dy = ((e.clientY - d.y) / el.clientHeight) * v.h;
     if (Math.abs(e.clientX - d.x) + Math.abs(e.clientY - d.y) > 4) d.moved = true;
     if (d.moved) { cancelAnimationFrame(animRef.current); setView({ ...v, x: v.x - dx, y: v.y - dy }); drag.current = { x: e.clientX, y: e.clientY, moved: true }; }
   };
-  const endDrag = () => { if (drag.current?.moved) recomputeLabels(viewRef.current); setTimeout(() => { drag.current = null; }, 0); };
+  const endDrag = (e?: React.PointerEvent) => {
+    if (e && e.pointerType === "touch") {
+      const wasPinch = Boolean(pinch.current);
+      touches.current.delete(e.pointerId);
+      startPinch(); // 남은 손가락 기준으로 다시 (한 손가락이면 끝)
+      if (wasPinch && touches.current.size < 2) recomputeLabels(viewRef.current);
+      return;
+    }
+    if (drag.current?.moved) recomputeLabels(viewRef.current);
+    setTimeout(() => { drag.current = null; }, 0);
+  };
   const dragMoved = () => Boolean(drag.current?.moved);
 
   // ── 지도 위 표식 위치 (HTML 올림표 — 확대해도 글자 크기 일정)
@@ -402,11 +449,12 @@ export default function CourseMapExplorer({ mode, groups, courses, initialG, ini
           </div>
           <div
             ref={boxRef}
-            className="relative h-[340px] md:h-[540px] rounded-2xl overflow-hidden border border-line bg-[#DCEDFA] select-none"
+            className="relative h-[340px] md:h-[540px] rounded-2xl overflow-hidden border border-line bg-[#DCEDFA] select-none touch-pan-y"
             onPointerDown={onPointerDown}
             onPointerMove={onPointerMove}
             onPointerUp={endDrag}
             onPointerLeave={endDrag}
+            onPointerCancel={endDrag}
           >
             {geo === "loading" && <div className="absolute inset-0 flex items-center justify-center text-slate-600 text-[15px] font-semibold">지도를 불러오는 중…</div>}
             {geo === "error" && (
@@ -520,7 +568,7 @@ export default function CourseMapExplorer({ mode, groups, courses, initialG, ini
               <span className="flex-1 flex flex-wrap items-center gap-x-3 gap-y-2">
                 <p className="text-[14px] md:text-[15px] text-slate-700">
                   {stage === "country" ? (
-                    <><b className="text-brand-blue">지역을 선택하면 골프장을 볼 수 있어요.</b>{hiddenLabels > 0 && <> 확대(＋)하면 더 많은 지역 이름이 보여요.</>}</>
+                    <><b className="text-brand-blue">지역을 선택하면 골프장을 볼 수 있어요.</b>{hiddenLabels > 0 && <> 확대(＋ 또는 두 손가락)하면 더 많은 지역 이름이 보여요.</>}</>
                   ) : pinned.length > 0 ? (
                     <><b className="text-brand-blue">{sel.r} 골프장 {listed.length}곳.</b> 지도 핀이나 아래 카드를 눌러 확인해 보세요.</>
                   ) : (
