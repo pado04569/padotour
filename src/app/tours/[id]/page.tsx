@@ -108,6 +108,13 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const holesShortTop = String(holesRaw0).match(/총\s*\d+\s*홀/)?.[0] ?? `${String(holesRaw0).split("\n")[0]}${String(holesRaw0).includes("홀") ? "" : "홀"}`;
   const depLabel = tour.departure === "both" ? "인천·부산 출발" : tour.departure === "busan" ? "부산 출발" : "인천 출발";
   const galleryImages = tour.images && tour.images.length > 0 ? tour.images : tour.image ? [tour.image] : [];
+  // 최소 인원 칩 — 숫자(2)든 글("4인 (2인 시 송영비 추가)")이든 머리만 짧게. 조건 설명은 문의에서 안내
+  const minPeopleChip = (() => {
+    const mpStr = tour.minPeople == null ? "" : String(tour.minPeople).trim();
+    const head = mpStr.match(/^[^(]+/)?.[0].trim() ?? "";
+    if (!head) return "";
+    return /인$/.test(head) ? `최소 ${head} 출발` : `최소 ${head}인 출발`;
+  })();
   const todayStr = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
   const nearestDep = tour.holePriceTiers?.length
     ? null
@@ -336,6 +343,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                 { icon: <IconPlaneTakeoff className="w-4 h-4" />, text: depLabel },
                 { icon: <IconMoon className="w-4 h-4" />, text: tierNightsText ?? stayText(tour.nights, tour.days, " ") },
                 { icon: <IconFlag className="w-4 h-4" />, text: String(tour.roundsIncluded).includes("무제한") ? "무제한 라운드" : holesShortTop },
+                // 본문 핵심 정보 4칸을 없애고 칩으로 합쳤다 (사장님 확정 '나', 2026-10-25)
+                ...(minPeopleChip ? [{ icon: <IconUsers className="w-4 h-4" />, text: minPeopleChip }] : []),
+                { icon: <IconCalendarDays className="w-4 h-4" />, text: tour.period ?? "연중 출발" },
               ].map((c) => (
                 <li key={c.text} className="inline-flex items-center gap-1.5 min-h-9 px-3 rounded-lg bg-slate-50 border border-slate-200 text-[13px] font-bold text-slate-700">
                   <span className="text-brand-blue">{c.icon}</span>{c.text}
@@ -398,49 +408,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         )}
 
 
-        {/* ── 핵심 정보 요약 ── */}
-        {(() => {
-          const holesRaw = tour.holes ?? `${tour.roundsIncluded * 18}`;
-          const holesText = String(holesRaw).includes("홀") ? String(holesRaw) : `${holesRaw}홀`;
-
-          // 최소 인원 — 데이터가 숫자(2)일 때도, 문자열("4인 (2인 시 송영비 추가)")일 때도 맞게 보이도록.
-          // 예전에는 무조건 "인 이상"을 붙여 "2인인 이상"이 되었다.
-          const mp = tour.minPeople;
-          const mpStr = mp == null ? "" : String(mp).trim();
-          const mpMatch = mpStr.match(/^([^(]+?)\s*(\(.*\))?$/);
-          const mpHead = mpMatch ? mpMatch[1].trim() : mpStr;
-          const mpNote = mpMatch && mpMatch[2] ? mpMatch[2].trim() : "";
-          const mpBase = mpHead ? (/인$/.test(mpHead) ? `${mpHead} 이상` : `${mpHead}인 이상`) : "";
-          const minPeopleText = mpBase ? (mpNote ? `${mpBase}\n${mpNote}` : mpBase) : "문의";
-          return (
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
-          {[
-            // 이모지 대신 선 아이콘 (사장님 지시 10/11) — 24px, 선 1.8, 브랜드 블루
-            { icon: <IconMoon className="w-6 h-6" />, label: "일정", value: tierNightsText ?? stayText(tour.nights, tour.days, " ") },
-            // 무제한 상품은 "무제한라운드 무제한 라운딩홀"처럼 겹쳐 보였다 → "무제한 라운드"만 (사장님 확정 2026-10-02)
-            { icon: <IconFlag className="w-6 h-6" />, label: "라운드", value: String(tour.roundsIncluded).includes("무제한") ? "무제한 라운드" : `${tour.roundsIncluded}라운드 ${holesText}` },
-            { icon: <IconUsers className="w-6 h-6" />, label: "최소 인원", value: minPeopleText },
-            { icon: <IconCalendarDays className="w-6 h-6" />, label: "출발 기간", value: tour.period ?? "연중 출발" },
-          ].map((item) => (
-            // 카드처럼 보여 눌러도 반응 없는 클릭이 있었다(클래리티 배달못한클릭, 2026-10-02 "출발 기간" 칸) → 출발일·요금으로 스크롤
-            <Link key={item.label} href="#departure" className="block min-w-0 bg-gray-50 hover:bg-gray-100 transition-colors rounded-xl p-3 md:p-4 text-center border border-gray-100">
-              <div className="flex justify-center h-8 items-center mb-1 text-brand-blue">{item.icon}</div>
-              <div className="text-xs text-gray-500 mb-1">{item.label}</div>
-              {/* 내용이 길면 줄을 나누고 글자를 줄인다 — 칸 하나만 길어져 어색해지는 것을 막는다 */}
-              <div className={`font-bold text-gray-800 break-keep [overflow-wrap:anywhere] leading-snug space-y-0.5 ${
-                item.value.length > 45 ? "text-[11px]" : item.value.length > 24 ? "text-xs" : "text-sm"
-              }`}>
-                {/* 줄 경계: 줄바꿈 / " / " / 기간의 " ~ " 앞.
-                    "36~54홀" 처럼 공백 없는 물결표는 나누지 않는다. */}
-                {item.value.split(/\n|\s+\/\s+|\s+(?=~\s)/).map((line, li) => (
-                  <div key={li}>{line.trim().replace(/·/g, "·\u200b")}</div>
-                ))}
-              </div>
-            </Link>
-          ))}
-        </div>
-          );
-        })()}
+        {/* 본문 핵심 정보 4칸은 상단 칩으로 합쳐 없앴다 (사장님 확정 "나", 2026-10-25) */}
 
         {/* ── 항공편·출발일 한눈에 ── */}
         {/* 그림·달력이 아니라 글자로 둔다 — AI 검색이 이 문장을 그대로 읽어 간다 (2026-10, ChatGPT 유입 손님 사례) */}
