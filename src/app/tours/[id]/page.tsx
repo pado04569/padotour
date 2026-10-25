@@ -194,6 +194,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
   // 항공편·출발일 — 일정 문장 속에 묻혀 있어 AI 요약에서 빠졌다(ChatGPT로 온 손님이 비행시간을 몰랐음, 2026-10)
   const flights = flightInfo(tour);
+  // 화면에는 편명(ZE891 등)을 빼고 시각만 (사장님 지시 10/25) — 자료·검색용 설명은 그대로
+  const stripFlightNo = (t: string) => t.replace(/\(([A-Z]{1,2}\d{2,4}),\s*/g, "(").replace(/또는\s+[A-Z]{1,2}\d{2,4}\s+/g, "또는 ");
   const departures = departureSummary(tour);
 
   // 자주 묻는 질문 — 네이버 블로그는 AI 로봇을 막아두어, AI 검색이 읽을 수 있는 Q&A를 홈페이지에 둔다 (2026-10)
@@ -417,13 +419,13 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             {flights.outbound && (
               <div className="flex gap-3">
                 <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500 flex items-center gap-2 h-5"><span className="text-brand-blue"><IconPlaneTakeoff /></span>가는 편</dt>
-                <dd className="text-gray-800 leading-5"><FlightLine text={flights.outbound} /></dd>
+                <dd className="text-gray-800 leading-5"><FlightLine text={stripFlightNo(flights.outbound)} /></dd>
               </div>
             )}
             {flights.inbound && (
               <div className="flex gap-3">
                 <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500 flex items-center gap-2 h-5"><span className="text-brand-blue"><IconPlaneLanding /></span>오는 편</dt>
-                <dd className="text-gray-800 leading-5"><FlightLine text={flights.inbound} /></dd>
+                <dd className="text-gray-800 leading-5"><FlightLine text={stripFlightNo(flights.inbound)} /></dd>
               </div>
             )}
             {departures && (
