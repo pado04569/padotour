@@ -468,7 +468,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           {/* 한 덩어리로 붙어 있으면 읽기 어렵다 → 문장 단위로 줄을 나눈다 */}
           <div className="space-y-1.5">
             {(tour.productSummary ?? `${tour.golfCourse ?? ""} ${tour.roundsIncluded}회 라운딩 · ${tour.hotel ?? ""} 숙박`)
-              .split(/\n|(?<=다\.)\s*|(?<=[며고],)\s+/)
+              .replace(/\s*\n+\s*/g, " ").split(/(?<=다\.)\s*/)
               .map((s) => s.trim())
               .filter(Boolean)
               .map((sentence, i) => (
