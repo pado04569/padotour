@@ -116,7 +116,21 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
     return n ? `${n}인 출발 가능` : "";
   })();
   // 출발 기간 칩 — 괄호 부연·"매일/지정 출발" 꼬리를 떼고 기간만 (사장님 지시 10/25)
-  const periodChip = (tour.period ?? "연중 출발").replace(/\([^)]*\)/g, "").trim().replace(/\s*(매일|지정일?)\s*출발$/, "").trim().replace(/(\d+월)\s*\d+일/g, "$1").trim();
+  // 시작 달이 지났으면 남은 출발일(없으면 이번 달) 기준으로 당긴다 — "2026년 7월 ~ 12월"이 10월에도 남아 있었다 (가상 고객 체험 10/25, tours.json 은 그대로)
+  const periodChip = (() => {
+    const p = (tour.period ?? "연중 출발").replace(/\([^)]*\)/g, "").trim().replace(/\s*(매일|지정일?)\s*출발$/, "").trim().replace(/(\d+월)\s*\d+일/g, "$1").trim();
+    const m = p.match(/^(\d{4})년\s*(\d{1,2})월/);
+    if (!m) return p;
+    const nowYm = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 7);
+    const next = (tour.departurePrices ?? []).map((d) => d.date).filter((d) => d.slice(0, 7) >= nowYm).sort()[0];
+    const startYm = (next ?? nowYm).slice(0, 7);
+    if (`${m[1]}-${m[2].padStart(2, "0")}` >= startYm) return p;
+    const e = p.match(/~\s*(?:(\d{4})년\s*)?(\d{1,2})월\s*$/);
+    const endYm = e ? `${e[1] ?? m[1]}-${e[2].padStart(2, "0")}` : `${m[1]}-${m[2].padStart(2, "0")}`;
+    if (endYm < startYm) return p; // 기간이 이미 끝난 상품은 손대지 않는다
+    const startText = `${startYm.slice(0, 4)}년 ${Number(startYm.slice(5, 7))}월`;
+    return endYm === startYm ? startText : p.replace(m[0], startText);
+  })();
   // 괄호 덩어리는 줄 중간에서 끊기지 않게 — "(2인 1실)" "(36홀, 9홀 코스 4개)" (사장님 지시 10/25)
   const noWrapParens = (t: string) =>
     t.split(/(\([^)]*\))/).map((part, i) =>
