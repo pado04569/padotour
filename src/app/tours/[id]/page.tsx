@@ -309,9 +309,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
       {/* ── 상단: 왼쪽 사진 갤러리 55 + 오른쪽 상품 정보 45 (사장님 작업지시 2026-10-25, 어두운 덮개 제거) ── */}
       <div className="max-w-6xl mx-auto px-4 pt-5 md:pt-7">
-        <div className="grid lg:grid-cols-[11fr_9fr] gap-5 lg:gap-10 lg:items-start">
+        <div className="grid grid-cols-[minmax(0,1fr)] lg:grid-cols-[minmax(0,11fr)_minmax(0,9fr)] gap-5 lg:gap-10 lg:items-start">
           <TourGallery images={galleryImages} alt={tour.title} />
-          <div>
+          <div className="min-w-0">
             <div className="flex items-center justify-between gap-3 mb-2">
               <p className="flex items-center gap-2 text-[15px] font-bold text-slate-600">
                 <CountryFlag country={tour.country} /> {tour.country}{tour.region ? ` · ${tour.region}` : ""}

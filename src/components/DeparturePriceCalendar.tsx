@@ -173,7 +173,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
           })}
         </div>
 
-        <p className="mt-3 text-[12px] text-gray-500">숫자는 1인 요금(만원 단위) · <b className="text-red-500">최저가</b>는 이달 가장 낮은 요금 · <b>-</b>는 요금 미등록(문의)</p>
+        <p className="mt-3 text-[12px] text-gray-500">숫자는 1인 요금(만원 단위) · <b className="text-red-500">최저가</b>는 이달 가장 낮은 요금 · <b>-</b>는 출발일이 없는 날짜입니다</p>
 
         {hint && (
           <div role="status" className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 rounded-xl bg-gray-50 border border-gray-200 px-3 py-2 text-sm text-gray-600">

@@ -15,7 +15,7 @@ export default function TourGallery({ images, alt }: { images: string[]; alt: st
   const move = (d: number) => setIdx((i) => (i + d + list.length) % list.length);
 
   return (
-    <div>
+    <div className="min-w-0">
       <button
         type="button"
         onClick={() => setFull(true)}

@@ -52,7 +52,10 @@ export default function Home() {
             <br />
             출발공항부터 골라 주세요
           </h1>
-          <DepartureChooser extra={[...EXTRA]} />
+          {/* PC는 버튼 영역을 75% 폭으로 줄이고 제목 왼쪽 선에 맞춘다 — 휴대폰은 그대로 (사장님 지시 10/25) */}
+          <div className="w-full md:w-3/4">
+            <DepartureChooser extra={[...EXTRA]} />
+          </div>
         </div>
       </section>
 

@@ -26,12 +26,12 @@ const CARD = "flex items-center min-h-[68px] md:min-h-[108px] rounded-2xl bg-whi
 export default function DepartureChooser({ extra = [] }: { extra?: ("cheongju" | "daegu")[] }) {
   const [asking, setAsking] = useState<Dep | null>(null);
 
-  const item = (d: Dep, className: string) => (
+  const item = (d: Dep, className: string, tight = false) => (
     <a
       key={d}
       href={`/${d}`}
       onClick={(e) => { e.preventDefault(); setAsking(d); }}
-      className={`flex items-center gap-3 md:gap-3.5 min-w-0 ${className}`}
+      className={`flex items-center gap-3 ${tight ? "md:gap-2" : "md:gap-3.5"} min-w-0 ${className}`}
     >
       <span className="flex-none w-[44px] h-[58px] md:w-[62px] md:h-[82px]">
         <KoreaMiniMap selected={d} variant="icon" />
@@ -48,9 +48,9 @@ export default function DepartureChooser({ extra = [] }: { extra?: ("cheongju" |
         {extra.length === 2 && (
           // 한 칸 안에 청주 | 대구 — 각각 따로 누르는 링크, 가운데 구분선
           <div className={`${CARD} hover:bg-white/95 overflow-hidden`}>
-            {item("cheongju", "flex-1 self-stretch px-[18px] md:px-5 hover:bg-white transition-colors")}
+            {item("cheongju", "flex-1 self-stretch px-[18px] md:px-1.5 md:justify-center hover:bg-white transition-colors", true)}
             <span aria-hidden="true" className="flex-none w-[2px] rounded-full self-stretch my-4 bg-slate-300" />
-            {item("daegu", "flex-1 self-stretch px-[18px] md:px-5 hover:bg-white transition-colors")}
+            {item("daegu", "flex-1 self-stretch px-[18px] md:px-1.5 md:justify-center hover:bg-white transition-colors", true)}
           </div>
         )}
       </div>
