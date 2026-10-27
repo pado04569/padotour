@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import { track } from "@/lib/analytics";
 import SelectChevron from "@/components/SelectChevron";
 import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint, todayKST } from "@/lib/inquiryForm";
+import { peopleOptionsFor, selectionInfo, type PeopleCondition } from "@/lib/peopleCondition";
 import { IconClipboard, IconCircleCheck } from "@/components/icons/MenuIcons";
 
 const FIELD =
@@ -31,6 +32,7 @@ export default function HolePriceTierSelector({
   days,
   tiers,
   departurePrices,
+  peopleCond,
 }: {
   tourId?: string;
   tourTitle: string;
@@ -39,10 +41,14 @@ export default function HolePriceTierSelector({
   days?: string | number;
   tiers: Tier[];
   departurePrices?: { date: string; price: number; nights?: number; days?: number }[];
+  /** 인원 조건 해석(lib/peopleCondition.ts) — 최소 출발 인원 미만은 고를 수 없다 */
+  peopleCond?: PeopleCondition;
 }) {
+  const minPeople = peopleCond?.minDeparture ?? undefined;
+  const options = peopleCond ? peopleOptionsFor(peopleCond, PEOPLE_OPTIONS) : PEOPLE_OPTIONS;
   const [selected, setSelected] = useState<Tier | null>(null);
   const [date, setDate] = useState("");
-  const [people, setPeople] = useState(2);
+  const [people, setPeople] = useState(minPeople != null && minPeople > 2 ? minPeople : 2);
   const [phone, setPhone] = useState("");
   const [agreed, setAgreed] = useState(false);
   const [showPrivacy, setShowPrivacy] = useState(false);
@@ -206,12 +212,18 @@ export default function HolePriceTierSelector({
                       onChange={(e) => setPeople(Number(e.target.value))}
                       className={`${FIELD} appearance-none pr-7`}
                     >
-                      {PEOPLE_OPTIONS.map((n) => (
-                        <option key={n} value={n}>{PEOPLE_MAX_LABEL(n)}</option>
+                      {options.map((n) => (
+                        <option key={n} value={n} disabled={minPeople != null && n < minPeople}>
+                          {PEOPLE_MAX_LABEL(n)}{minPeople != null && n < minPeople ? " · 예약불가" : ""}
+                        </option>
                       ))}
                     </select>
                     <SelectChevron />
                   </div>
+                  {peopleCond && (() => {
+                    const info = selectionInfo(peopleCond, people);
+                    return info ? <p className="mt-1 text-[11px] text-slate-600 break-keep">{info.label} · {info.lines.join(" · ")}</p> : null;
+                  })()}
                 </div>
                 <div className="col-span-3">
                   <label className="text-xs text-gray-500 mb-1 block">휴대폰 번호</label>

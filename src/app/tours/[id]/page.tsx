@@ -47,6 +47,7 @@ import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
 import { tourFaqs } from "@/lib/tourFaq";
 import { stayText } from "@/lib/stay";
+import { parsePeopleCondition, roomBasisOf } from "@/lib/peopleCondition";
 import { IconChevron } from "@/components/icons/Chevron";
 import { regionGuides } from "@/lib/regionGuides";
 import { tourSeoTitle, tourSeoDescription } from "@/lib/seoMeta";
@@ -110,24 +111,16 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const holesShortTop = holesNum ? `총 ${holesNum}홀` : `${String(holesRaw0).split("\n")[0]}`;
   const depLabel = tour.departure === "both" ? "인천·부산 출발" : tour.departure === "busan" ? "부산 출발" : "인천 출발";
   const galleryImages = tour.images && tour.images.length > 0 ? tour.images : tour.image ? [tour.image] : [];
-  // 최소 인원 칩 — 숫자(2)든 글("4인 (2인 시 송영비 추가)")이든 머리만 짧게. 조건 설명은 문의에서 안내
-  // 2인 안내 (사장님 A안 짧게 10/25): 추가 비용이 붙는 상품은 칩에 "· 추가비용 별도"까지만, 항목은 불포함 내역에 원문 그대로.
-  //   "4인 (2~3인은 추가요금)"처럼 적은 인원도 추가요금으로 출발하면 칩은 그 적은 인원 기준. "4인 기준 요금"이면 요금 아래 "표시 요금은 4인 출발 기준".
-  const peopleInfo = (() => {
-    const s = String(tour.minPeople ?? "").replace(/2인\s*1실/g, "");
-    if (!s.trim() || /^항공/.test(s.trim())) return { chip: "", extra: "", basis: "" };
-    const first = Number(s.match(/(\d+)\s*인/)?.[1] ?? s.match(/^\s*(\d+)\s*$/)?.[1] ?? 0);
-    const hasExtra = /추가|별도|차등|인상|상이|\$\s*\d|\+\s*[\d,]+원/.test(s) && !/추가\s*(비용|요금)?\s*없|없이/.test(s);
-    const low = Number(s.match(/\((\d)(?:\s*~\s*\d)?\s*인(?:은|\s*출발|\s*시)/)?.[1] ?? 0);
-    const n = hasExtra && low > 0 && low < first ? low : first;
-    // "4인 (2~3인은 추가요금)"처럼 적은 인원을 추가요금으로 받는 상품은 표시 요금이 4인 기준
-    const basisN = n < first ? String(first) : s.match(/(\d+)\s*인\s*(?:출발\s*|셀프 플레이\s*)?기준(?!\s*요금\s*상이)/)?.[1];
-    return {
-      chip: n ? `${n}인 출발 가능${hasExtra ? " · 추가비용 별도" : ""}` : "",
-      extra: hasExtra ? (s.match(/\(([^)]*)\)/)?.[1] ?? s).trim() : "",
-      basis: basisN && Number(basisN) > n ? `표시 요금은 ${basisN}인 출발 기준` : "",
-    };
-  })();
+  // 인원 조건 해석은 lib/peopleCondition.ts 한 곳 — 칩·문의 기본값·인원 선택 제한·?people= 검증이 같은 결과를 쓴다 (챗GPT 감사 10/27)
+  //   최소 출발 인원 · 표시 요금 기준 · 객실 기준 · 항공 운임 기준 · 추가금/요금 확인을 따로 읽는다. 인원을 곱한 합계는 만들지 않는다.
+  const peopleCond = parsePeopleCondition(tour.minPeople);
+  const peopleInfo = {
+    chip: peopleCond.chip,
+    basis: peopleCond.basisText,
+    airfare: peopleCond.airfareText,
+    // 불포함 내역 아래 "인원 조건" — 추가금·인원별 요금 확인 원문과 조인·시즌 같은 출발 조건을 모두 보존한다
+    extra: [...peopleCond.extraLines, ...peopleCond.conditionLines].join(" · "),
+  };
   const minPeopleChip = peopleInfo.chip;
   // 출발 기간 칩 — 괄호 부연·"매일/지정 출발" 꼬리를 떼고 기간만 (사장님 지시 10/25)
   // 시작 달이 지났으면 남은 출발일(없으면 이번 달) 기준으로 당긴다 — "2026년 7월 ~ 12월"이 10월에도 남아 있었다 (가상 고객 체험 10/25, tours.json 은 그대로)
@@ -184,13 +177,6 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
    *   ② 없으면 "3박4일" 뒤에서 나눈다. "3박4일·4박5일" 처럼 이어진 것은 한 덩어리로 본다.
    *   ③ 뒤에 남는 것이 없거나 "(…)" 괄호뿐이면 나누지 않는다 — 짧은 꼬리가 혼자 남으면 더 지저분하다.
    */
-  // 최소 인원이 딱 4인(이상)으로 정해진 상품 — "2~3인은 추가요금" 같은 조건부 문구가 붙은 상품은 제외
-  const strictMinPeople = (() => {
-    const mp = tour.minPeople as unknown;
-    const n = typeof mp === "number" ? mp : typeof mp === "string" && /^\s*\d+\s*인?\s*$/.test(mp) ? parseInt(mp, 10) : 0;
-    return n >= 3 ? n : undefined;
-  })();
-
   const titleLines = (() => {
     const t = tour.title.trim();
 
@@ -414,6 +400,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               <p className="mt-5 text-[22px] font-black text-red-600">요금 문의</p>
             )}
             {peopleInfo.basis && <p className="mt-1.5 text-[13px] font-semibold text-slate-600">{peopleInfo.basis}</p>}
+            {peopleInfo.airfare && <p className="mt-1.5 text-[13px] font-semibold text-slate-600">{peopleInfo.airfare}</p>}
             <a href="#departure" className="mt-4 w-full min-h-12 rounded-xl border-[1.5px] border-brand-blue text-brand-blue hover:bg-blue-50 text-[15px] font-black flex items-center justify-center gap-1.5">
               <IconCalendarDays className="w-5 h-5" />출발일별 요금 보기
             </a>
@@ -440,6 +427,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               days={tour.days}
               tiers={tour.holePriceTiers}
               departurePrices={tour.departurePrices}
+              peopleCond={peopleCond}
             />
           </div>
         ) : tour.departurePrices && tour.departurePrices.length > 0 ? (
@@ -627,9 +615,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                   <span className="text-red-400">•</span> {item}
                 </li>
               ))}
-              {peopleInfo.extra && (
-                <li className="text-sm text-gray-700 flex items-center gap-2">
-                  <span className="text-red-400">•</span> 인원 조건: {peopleInfo.extra} (확인 후 안내)
+              {(peopleInfo.extra || peopleInfo.airfare) && (
+                <li id="extra-people" className="text-sm text-gray-700 flex items-center gap-2">
+                  <span className="text-red-400">•</span> 인원 조건: {[peopleInfo.extra, peopleInfo.airfare].filter(Boolean).join(" · ")} (확인 후 안내)
                 </li>
               )}
             </ul>
@@ -740,7 +728,8 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             tourTitle={tour.title}
             nights={tour.nights}
             days={tour.days}
-            minPeople={strictMinPeople}
+            peopleCond={peopleCond}
+            roomBasis={roomBasisOf(tour)}
             defaultSel={null /* 날짜를 미리 고르지 않는다 — 검색 날짜는 달력이 주소에서 받아 알린다 (사장님 A안 10/25) */}
             priceText={departures?.lowPriceText ?? (tour.price ?? "").replace(/~\s*$/, "")}
             hasCalendar={Boolean(!tour.holePriceTiers?.length && tour.departurePrices?.length)}

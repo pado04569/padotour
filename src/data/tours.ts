@@ -14,7 +14,8 @@ export type Tour = {
   courses: number;
   roundsIncluded: number;
   holes?: number;
-  minPeople?: number;
+  /** 숫자(2·4) 또는 "4인 (2~3인은 추가요금)" 같은 글 — 해석은 lib/peopleCondition.ts */
+  minPeople?: number | string;
   period?: string;
   hotel?: string;
   hotelDesc?: string;

@@ -1,6 +1,7 @@
 import { tours, type Tour } from "@/data/tours";
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
 import { stayText } from "@/lib/stay";
+import { parsePeopleCondition } from "@/lib/peopleCondition";
 
 /**
  * 상품별 자주 묻는 질문 — 손님이 전화로 실제로 묻는 것들을 상품 데이터에서 그대로 답한다.
@@ -59,12 +60,17 @@ export function tourFaqs(tour: Tour): Faq[] {
   }
 
   // 3) 최소 인원
-  if (tour.minPeople != null) {
-    const mp = String(tour.minPeople).trim();
-    const base = /인/.test(mp) ? mp : `${mp}인`;
+  // 인원 해석은 lib/peopleCondition.ts — 항공 운임·객실 기준·모집 정원을 최소 출발 인원으로 쓰지 않는다
+  const pc = parsePeopleCondition(tour.minPeople);
+  if (pc.minDeparture != null) {
     faqs.push({
       q: "몇 명부터 갈 수 있나요?",
-      a: `최소 출발 인원은 ${base}입니다. 인원 조건은 전화(${PHONE})로 상담해 드립니다.`,
+      a: [
+        `${pc.minDeparture}인부터 출발할 수 있습니다.`,
+        pc.basisText && `${pc.basisText}입니다.`,
+        pc.extra === "surcharge" ? "인원에 따라 추가요금이 있을 수 있습니다." : pc.extra === "varies" ? "인원별 요금은 확인 후 안내해 드립니다." : "",
+        `인원 조건은 전화(${PHONE})로 상담해 드립니다.`,
+      ].filter(Boolean).join(" "),
     });
   }
 

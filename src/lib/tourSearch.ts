@@ -1,5 +1,6 @@
 import type { Tour } from "@/data/tours";
 import { stayText } from "./stay";
+import { parsePeopleCondition } from "./peopleCondition";
 
 /**
  * 출발일로 상품 찾기 (UX 개편 6단계, 2026-10-10 사장님 확정)
@@ -89,10 +90,7 @@ export function matchesNights(t: Tour, f: NightsFilter): boolean {
 
 /** 최소 출발 인원 — 숫자 또는 "4인 (…)"처럼 '인'으로 시작하는 글만 인정. "24명 (선착순)" 같은 건 모집 인원이라 쓰지 않는다 */
 export function minPeopleOf(t: Tour): number | null {
-  const v = t.minPeople as unknown;
-  if (typeof v === "number" && v > 0) return v;
-  const m = String(v ?? "").trim().match(/^(\d+)\s*인/);
-  return m ? Number(m[1]) : null;
+  return parsePeopleCondition(t.minPeople).minDeparture; // 상세·문의창과 같은 해석 (lib/peopleCondition.ts)
 }
 
 function roundsLabel(r: unknown): string | null {

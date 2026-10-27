@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { track } from "@/lib/analytics";
 import SelectChevron from "@/components/SelectChevron";
 import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint } from "@/lib/inquiryForm";
+import { peopleOptionsFor, peopleAllowed, selectionInfo, shortPeopleNotice, type PeopleCondition } from "@/lib/peopleCondition";
 import { onTourDate, onInquiryOpen, type TourDateSel } from "@/lib/tourBooking";
 import { IconCalendarDays, IconClipboard, IconCircleCheck, IconPhone, IconUsers, IconChat } from "@/components/icons/MenuIcons";
 
@@ -17,7 +18,10 @@ type Props = {
   tourTitle: string;
   nights: string | number;
   days: string | number;
-  minPeople?: number;
+  /** 인원 조건 해석 결과(lib/peopleCondition.ts) — 최소 출발 인원·요금 기준·추가요금 */
+  peopleCond: PeopleCondition;
+  /** 요금의 객실 기준 (2인 1실 / 1인 1실) */
+  roomBasis: 1 | 2;
   /** 오늘 이후 가장 가까운 출발일 (패널 기본값) — 없으면 날짜 미선택 상태로 시작 */
   defaultSel: TourDateSel;
   /** 날짜별 요금 데이터가 없는 상품(요금 문의) 여부 */
@@ -31,9 +35,12 @@ const fmtDate = (ds: string) => {
   return `${m}월 ${d}일`;
 };
 
-export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople, defaultSel, priceText, hasCalendar }: Props) {
+export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCond, roomBasis, defaultSel, priceText, hasCalendar }: Props) {
+  const minPeople = peopleCond.minDeparture ?? undefined;
+  const options = peopleOptionsFor(peopleCond, PEOPLE_OPTIONS); // 1인 출발이 적힌 상품만 1명부터
   const [sel, setSel] = useState<TourDateSel>(defaultSel);
-  const [people, setPeople] = useState(String(minPeople ?? 2));
+  const [people, setPeople] = useState(String(minPeople != null && minPeople > 2 ? minPeople : 2));
+  const [peopleNotice, setPeopleNotice] = useState("");
   const [modal, setModal] = useState(false);
   const [phone, setPhone] = useState("");
   const [agreed, setAgreed] = useState(false);
@@ -41,10 +48,13 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
   useEffect(() => onTourDate((s) => { setSel(s); setSent(false); }), []);
-  // 목록에서 검색한 인원(?people=)을 이어받는다 — 예약 안 되는 인원(최소 인원 미만)은 무시 (사장님 A안 10/25)
+  // 목록에서 검색한 인원(?people=)을 이어받는다. 최소 출발 인원보다 적으면 조용히 바꾸지 않고 이유를 알려 준다 (사장님 A안 10/25, 챗GPT 감사 10/27)
   useEffect(() => {
     const n = Number(new URLSearchParams(window.location.search).get("people"));
-    if (PEOPLE_OPTIONS.includes(n) && (minPeople == null || n >= minPeople)) setPeople(String(n));
+    if (!Number.isInteger(n) || n < 1) return;
+    if (options.includes(n) && peopleAllowed(peopleCond, n)) { setPeople(String(n)); return; }
+    const short = shortPeopleNotice(peopleCond, n);
+    if (short && minPeople != null) { setPeople(String(minPeople)); setPeopleNotice(short); }
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
   // 달력 요약칸의 '예약문의'를 누르면 바로 입력 창 (사장님 지시 10/25)
   useEffect(() => onInquiryOpen(() => { setModal(true); if (!openedOnce.current) { openedOnce.current = true; track("inquiry_open", { item_name: tourTitle, method: "panel" }); } }), []); // eslint-disable-line react-hooks/exhaustive-deps
@@ -139,7 +149,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
   const priceBlock = sel ? (
     <>
       <p className="leading-none text-slate-900"><b className="text-[28px] font-black text-red-600">{fmtWon(sel.price)}</b> <span className="text-[14px] font-semibold">(1인요금)</span></p>
-      <p className="text-[12px] text-slate-600 mt-1.5">성인 · 2인 1실 기준 · 유류할증료 포함</p>
+      <p className="text-[12px] text-slate-600 mt-1.5">성인 · {roomBasis}인 1실 기준 · 유류할증료 포함</p>
     </>
   ) : (
     <>
@@ -148,11 +158,29 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
       ) : (
         <p className="text-[22px] leading-none font-black text-red-600">요금 문의</p>
       )}
-      <p className="text-[12px] text-slate-600 mt-1.5">성인 · 2인 1실 기준{hasCalendar ? " · 출발일을 선택하면 정확한 요금이 보여요" : " · 정확한 요금은 문의해 주세요"}</p>
+      <p className="text-[12px] text-slate-600 mt-1.5">성인 · {roomBasis}인 1실 기준{hasCalendar ? " · 출발일을 선택하면 날짜별 요금이 보여요" : " · 요금은 문의해 주세요"}</p>
     </>
   );
 
+  // 선택 인원에 맞는 요금 기준·추가요금 안내 — PC 패널·휴대폰 하단 바·문의창이 같은 글을 쓴다. 금액은 합산하지 않는다
+  const peopleNum = Number(people);
+  const info = selectionInfo(peopleCond, peopleNum);
+  const airfareShort = Boolean(peopleCond.airfareText) && peopleCond.airfareBasis != null && peopleNum < peopleCond.airfareBasis;
+  const peopleLines = [
+    peopleCond.basisText,
+    info ? `선택 인원(${people}명)은 ${info.label} · ${info.lines.join(" · ")}` : "",
+    peopleCond.airfareText,
+    info?.label === "추가요금 별도" ? "위 금액에는 인원별 추가요금이 반영되지 않았어요" : info ? "위 금액은 인원별 요금 확인 전 기준이에요" : airfareShort ? "위 금액에는 소인원 항공 운임이 반영되지 않았어요" : "",
+  ].filter(Boolean);
+  const peopleBlock = peopleLines.length > 0 ? (
+    <div className="mt-2 space-y-0.5 text-[12px] text-slate-600 break-keep">
+      {peopleLines.map((l) => <p key={l}>{l}</p>)}
+    </div>
+  ) : null;
+  const barNote = info ? `${people}명 ${info.label}` : peopleCond.basisText;
+
   const peopleSelect = (
+    <>
     <div className="relative">
       <select
         value={people}
@@ -160,7 +188,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
         aria-label="문의 인원"
         className="w-full appearance-none border-[1.5px] border-slate-300 rounded-xl pl-9 pr-9 py-3.5 text-[17px] font-bold bg-white focus:outline-none focus:border-brand-blue"
       >
-        {PEOPLE_OPTIONS.map((n) => (
+        {options.map((n) => (
           <option key={n} value={n} disabled={minPeople != null && n < minPeople}>
             성인 {PEOPLE_MAX_LABEL(n)}{minPeople != null && n < minPeople ? " · 예약불가" : ""}
           </option>
@@ -169,6 +197,8 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
       <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500"><IconUsers className="w-[18px] h-[18px]" /></span>
       <SelectChevron />
     </div>
+    {peopleNotice && <p className="mt-1.5 text-[12px] font-semibold text-amber-700 break-keep">{peopleNotice}</p>}
+    </>
   );
 
   return (
@@ -191,6 +221,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
         {peopleSelect}
 
         <div className="mt-4">{priceBlock}</div>
+        {peopleBlock}
         <button type="button" onClick={() => document.getElementById("extra-costs")?.scrollIntoView({ behavior: "smooth", block: "start" })} className="mt-2 inline-flex items-center gap-1 text-[13px] font-bold text-brand-blue underline underline-offset-2 hover:text-blue-800">
           현지 별도 비용 보기
         </button>
@@ -214,6 +245,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
           <div className="min-w-0">
             <p className="text-[13px] text-slate-500 leading-none mb-2">{sel ? `1인 요금 · ${fmtDate(sel.date)} 출발 · 성인 ${people}명` : "1인 최저 요금"}</p>
             <p className="text-[24px] leading-none font-black text-red-600 whitespace-nowrap">{sel ? fmtWon(sel.price) : hasPrice ? `${priceText}부터` : "요금 문의"}</p>
+            {barNote && <p className="text-[11px] text-slate-500 mt-1.5 leading-tight break-keep max-w-[150px]">{barNote}</p>}
           </div>
           {sel || !hasCalendar ? (
             <button type="button" onClick={openModal} className="flex-1 min-h-[88px] rounded-2xl bg-brand-blue text-white text-[21px] font-black">예약문의</button>
@@ -243,6 +275,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, minPeople
                   <p className="font-bold text-slate-900 line-clamp-2">{tourTitle}</p>
                   <p>{sel ? `${fmtDate(sel.date)} 출발 · ${selNights}박 ${selDays}일${returnDate ? ` · ${returnDate} 귀국` : ""}` : "출발일 미정 (상담 때 함께 정해요)"}</p>
                   {sel && <p className="font-bold text-slate-700">선택일 1인 요금 <b className="text-red-600">{fmtWon(sel.price)}</b></p>}
+                  {peopleBlock}
                 </div>
                 <div>
                   <label className="text-[14px] font-bold text-gray-600 mb-1 block">인원수</label>
