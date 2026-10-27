@@ -66799,6 +66799,560 @@
   {
     "country": "중국",
     "countryCode": "china",
+    "region": "하이난",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-10-27",
+    "courses": 1,
+    "minPeople": "8인",
+    "hotel": "징스케이프 호텔 하이커우 메이란 공항 윈룽호 또는 동급 (4성급, 2인 1실)",
+    "hotelDesc": "징스케이프 호텔 하이커우 메이란 공항 윈룽호 또는 동급 4성급 호텔에서 머뭅니다. 징스케이프 호텔 기준으로 하이커우 메이란 국제공항과 골프장이 각각 차로 약 15분 거리라 이동 부담이 적고, 조식은 호텔에서, 석식은 현지식으로 제공됩니다.",
+    "golfCourse": "아이비엘CC (IBL CC)",
+    "golfCourseDesc": "하이커우에 있는 18홀 파72·7,130야드 골프장으로, 사진처럼 야자수와 연못이 어우러진 코스입니다. 2~3일차에는 매일 27홀, 마지막 날에는 18홀을 라운딩합니다.",
+    "excludes": [
+      "미팅·샌딩 (1인 $50)",
+      "전동카트+캐디피 (1인 1일 $75, 18홀·27홀 같은 금액, 현장 지불, 총 3회)",
+      "캐디팁 (18홀 1인 150위안 / 27홀 1인 250위안, 2인 1캐디)",
+      "클럽 중식 (1인 1끼 $15~20, 의무)",
+      "호텔 싱글 차지 (1박 $50) / 전동카트 싱글 차지 (18홀 $15 / 27홀 $25)",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "취소 시 항공 좌석 예약금 500,000원은 환불되지 않습니다.",
+      "발권 후에는 이름 변경과 영문 철자 변경이 불가합니다.",
+      "정해진 라운딩 일정에 참여하지 않아도 캐디피·전동카트 비용은 부과되며, 27홀 일정에서 18홀만 라운딩해도 같은 비용이 부과됩니다.",
+      "우천·천재지변 등으로 라운드를 못 하셔도 그린피는 환불되지 않습니다.",
+      "8명부터 출발하는 상품입니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "image": "/images/hainan-ibl-incheon/course-1.jpg",
+    "images": [
+      "/images/hainan-ibl-incheon/course-1.jpg",
+      "/images/hainan-ibl-incheon/course-5.jpg",
+      "/images/hainan-ibl-incheon/hotel-1.jpg",
+      "/images/hainan-ibl-incheon/course-2.jpg",
+      "/images/hainan-ibl-incheon/hotel-3.jpg",
+      "/images/hainan-ibl-incheon/course-6.jpg"
+    ],
+    "courseImages": [
+      "/images/hainan-ibl-incheon/course-1.jpg",
+      "/images/hainan-ibl-incheon/course-2.jpg",
+      "/images/hainan-ibl-incheon/course-3.jpg",
+      "/images/hainan-ibl-incheon/course-4.jpg",
+      "/images/hainan-ibl-incheon/course-5.jpg",
+      "/images/hainan-ibl-incheon/course-6.jpg",
+      "/images/hainan-ibl-incheon/course-7.jpg",
+      "/images/hainan-ibl-incheon/course-8.jpg"
+    ],
+    "hotelImages": [
+      "/images/hainan-ibl-incheon/hotel-1.jpg",
+      "/images/hainan-ibl-incheon/hotel-2.jpg",
+      "/images/hainan-ibl-incheon/hotel-3.jpg",
+      "/images/hainan-ibl-incheon/hotel-4.jpg",
+      "/images/hainan-ibl-incheon/hotel-5.jpg",
+      "/images/hainan-ibl-incheon/hotel-6.jpg",
+      "/images/hainan-ibl-incheon/hotel-7.jpg",
+      "/images/hainan-ibl-incheon/hotel-8.jpg"
+    ],
+    "seoKeywords": [
+      "하이난골프",
+      "하이난골프여행",
+      "하이커우골프",
+      "아이비엘CC",
+      "인천출발",
+      "겨울골프"
+    ],
+    "id": "china-hainan-ibl-incheon",
+    "nights": 3,
+    "days": 4,
+    "roundsIncluded": 3,
+    "holes": "72홀 (27홀 x 2회 + 18홀)",
+    "period": "2026년 11월 4일 ~ 2027년 3월 24일 (매주 수·금 출발)",
+    "subtitle": "하이난항공 인천-하이커우 직항(수하물 32KG) · 징스케이프 호텔 3박 · 아이비엘CC 72홀 · 조식·석식 포함 · 중국 무비자 · 매주 수·금 출발",
+    "productSummary": "하이난항공 직항으로 하이커우에 가서 공항 가까운 징스케이프 호텔에 3박하며, 호텔에서 약 15분 거리의 아이비엘CC에서 27홀 x 2회 + 18홀 총 72홀을 라운딩하는 겨울 골프 상품입니다.\n조식과 석식(현지식)이 포함되고 중국 무비자로 다녀올 수 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이커우",
+        "desc": "인천국제공항 제1터미널 출발(하이난항공 HU450, 21:30) → 하이커우 국제공항 도착(메이란 공항, 다음 날 00:50) → 입국 수속 후 가이드 미팅 → 호텔 이동(약 15분) → 체크인 및 휴식 [숙소: 징스케이프 호텔 또는 동급 4성급] [석식 기내식]"
+      },
+      {
+        "day": "2~3일차",
+        "label": "아이비엘CC 27홀",
+        "desc": "호텔 조식 → 골프장 이동(약 15분) → 아이비엘CC 27홀 라운딩 → 석식(현지식) 후 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "4일차",
+        "label": "18홀 → 인천",
+        "desc": "호텔 조식 → 골프장 이동(약 15분) → 아이비엘CC 18홀 라운딩 → 하이커우 메이란 국제공항 이동(약 30분) → 하이커우 출발(HU449, 15:20) → 인천국제공항 도착(20:25) [조식 호텔 / 중식 불포함]"
+      }
+    ],
+    "highlights": [
+      "하이난항공 인천-하이커우 직항 · 수하물 32KG",
+      "아이비엘CC 27홀 x 2회 + 18홀 = 72홀",
+      "징스케이프 호텔 또는 동급 4성급 · 공항·골프장 각 약 15분(징스케이프 기준)",
+      "조식·석식 포함 · 중국 무비자",
+      "매주 수·금 출발 · 8명부터 출발"
+    ],
+    "includes": [
+      "왕복 항공료, 공항세 및 유류할증료",
+      "징스케이프 호텔 또는 동급 (2인 1실)",
+      "호텔 조식, 석식 (현지식)",
+      "그린피 (27홀 x 2회 + 18홀)",
+      "차량",
+      "여행자보험"
+    ],
+    "seoIntro": "인천 출발 하이난 골프여행으로, 하이커우 징스케이프 호텔에 3박하며 아이비엘CC에서 72홀을 라운딩하는 조·석식 포함 3박4일 상품입니다.",
+    "departurePrices": [
+      {
+        "date": "2026-11-04",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-06",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-11",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-13",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-18",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-20",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-25",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-27",
+        "price": 499000
+      },
+      {
+        "date": "2026-12-02",
+        "price": 599000
+      },
+      {
+        "date": "2026-12-04",
+        "price": 599000
+      },
+      {
+        "date": "2026-12-09",
+        "price": 599000
+      },
+      {
+        "date": "2026-12-11",
+        "price": 599000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 599000
+      },
+      {
+        "date": "2026-12-18",
+        "price": 599000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 799000
+      },
+      {
+        "date": "2026-12-25",
+        "price": 799000
+      },
+      {
+        "date": "2026-12-30",
+        "price": 799000
+      },
+      {
+        "date": "2027-01-01",
+        "price": 799000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 799000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 799000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 799000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 799000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 699000
+      },
+      {
+        "date": "2027-01-22",
+        "price": 699000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 699000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 699000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-05",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-12",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 699000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 699000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 699000
+      },
+      {
+        "date": "2027-02-26",
+        "price": 799000
+      },
+      {
+        "date": "2027-03-03",
+        "price": 499000
+      },
+      {
+        "date": "2027-03-05",
+        "price": 499000
+      },
+      {
+        "date": "2027-03-10",
+        "price": 499000
+      },
+      {
+        "date": "2027-03-12",
+        "price": 499000
+      },
+      {
+        "date": "2027-03-17",
+        "price": 499000
+      },
+      {
+        "date": "2027-03-19",
+        "price": 499000
+      },
+      {
+        "date": "2027-03-24",
+        "price": 499000
+      }
+    ],
+    "price": "499,000원~",
+    "title": "[인천출발] 중국 하이난 골프여행 아이비엘CC 3박4일 72홀 징스케이프 호텔 조·석식 포함 499,000원부터",
+    "displayTitle": "하이난 아이비엘CC 골프여행 3박4일"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "region": "하이난",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-10-27",
+    "courses": 1,
+    "minPeople": "8인",
+    "hotel": "징스케이프 호텔 하이커우 메이란 공항 윈룽호 또는 동급 (4성급, 2인 1실)",
+    "hotelDesc": "징스케이프 호텔 하이커우 메이란 공항 윈룽호 또는 동급 4성급 호텔에서 머뭅니다. 징스케이프 호텔 기준으로 하이커우 메이란 국제공항과 골프장이 각각 차로 약 15분 거리라 이동 부담이 적고, 조식은 호텔에서, 석식은 현지식으로 제공됩니다.",
+    "golfCourse": "아이비엘CC (IBL CC)",
+    "golfCourseDesc": "하이커우에 있는 18홀 파72·7,130야드 골프장으로, 사진처럼 야자수와 연못이 어우러진 코스입니다. 2~4일차에는 매일 27홀, 마지막 날에는 18홀을 라운딩합니다.",
+    "excludes": [
+      "미팅·샌딩 (1인 $60)",
+      "전동카트+캐디피 (1인 1일 $75, 18홀·27홀 같은 금액, 현장 지불, 총 4회)",
+      "캐디팁 (18홀 1인 150위안 / 27홀 1인 250위안, 2인 1캐디)",
+      "클럽 중식 (1인 1끼 $15~20, 의무)",
+      "호텔 싱글 차지 (1박 $50) / 전동카트 싱글 차지 (18홀 $15 / 27홀 $25)",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "취소 시 항공 좌석 예약금 500,000원은 환불되지 않습니다.",
+      "발권 후에는 이름 변경과 영문 철자 변경이 불가합니다.",
+      "정해진 라운딩 일정에 참여하지 않아도 캐디피·전동카트 비용은 부과되며, 27홀 일정에서 18홀만 라운딩해도 같은 비용이 부과됩니다.",
+      "우천·천재지변 등으로 라운드를 못 하셔도 그린피는 환불되지 않습니다.",
+      "8명부터 출발하는 상품입니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "image": "/images/hainan-ibl-incheon/course-1.jpg",
+    "images": [
+      "/images/hainan-ibl-incheon/course-1.jpg",
+      "/images/hainan-ibl-incheon/course-5.jpg",
+      "/images/hainan-ibl-incheon/hotel-1.jpg",
+      "/images/hainan-ibl-incheon/course-2.jpg",
+      "/images/hainan-ibl-incheon/hotel-3.jpg",
+      "/images/hainan-ibl-incheon/course-6.jpg"
+    ],
+    "courseImages": [
+      "/images/hainan-ibl-incheon/course-1.jpg",
+      "/images/hainan-ibl-incheon/course-2.jpg",
+      "/images/hainan-ibl-incheon/course-3.jpg",
+      "/images/hainan-ibl-incheon/course-4.jpg",
+      "/images/hainan-ibl-incheon/course-5.jpg",
+      "/images/hainan-ibl-incheon/course-6.jpg",
+      "/images/hainan-ibl-incheon/course-7.jpg",
+      "/images/hainan-ibl-incheon/course-8.jpg"
+    ],
+    "hotelImages": [
+      "/images/hainan-ibl-incheon/hotel-1.jpg",
+      "/images/hainan-ibl-incheon/hotel-2.jpg",
+      "/images/hainan-ibl-incheon/hotel-3.jpg",
+      "/images/hainan-ibl-incheon/hotel-4.jpg",
+      "/images/hainan-ibl-incheon/hotel-5.jpg",
+      "/images/hainan-ibl-incheon/hotel-6.jpg",
+      "/images/hainan-ibl-incheon/hotel-7.jpg",
+      "/images/hainan-ibl-incheon/hotel-8.jpg"
+    ],
+    "seoKeywords": [
+      "하이난골프",
+      "하이난골프여행",
+      "하이커우골프",
+      "아이비엘CC",
+      "인천출발",
+      "겨울골프"
+    ],
+    "id": "china-hainan-ibl-incheon-4n5d",
+    "nights": 4,
+    "days": 5,
+    "roundsIncluded": 4,
+    "holes": "99홀 (27홀 x 3회 + 18홀)",
+    "period": "2026년 11월 2일 ~ 2027년 3월 22일 (매주 월·토 출발)",
+    "subtitle": "하이난항공 인천-하이커우 직항(수하물 32KG) · 징스케이프 호텔 4박 · 아이비엘CC 99홀 · 조식·석식 포함 · 중국 무비자 · 매주 월·토 출발",
+    "productSummary": "하이난항공 직항으로 하이커우에 가서 공항 가까운 징스케이프 호텔에 4박하며, 호텔에서 약 15분 거리의 아이비엘CC에서 27홀 x 3회 + 18홀 총 99홀을 라운딩하는 겨울 골프 상품입니다.\n조식과 석식(현지식)이 포함되고 중국 무비자로 다녀올 수 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 하이커우",
+        "desc": "인천국제공항 제1터미널 출발(하이난항공 HU450, 21:30) → 하이커우 국제공항 도착(메이란 공항, 다음 날 00:50) → 입국 수속 후 가이드 미팅 → 호텔 이동(약 15분) → 체크인 및 휴식 [숙소: 징스케이프 호텔 또는 동급 4성급] [석식 기내식]"
+      },
+      {
+        "day": "2~4일차",
+        "label": "아이비엘CC 27홀",
+        "desc": "호텔 조식 → 골프장 이동(약 15분) → 아이비엘CC 27홀 라운딩 → 석식(현지식) 후 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "5일차",
+        "label": "18홀 → 인천",
+        "desc": "호텔 조식 → 골프장 이동(약 15분) → 아이비엘CC 18홀 라운딩 → 하이커우 메이란 국제공항 이동(약 30분) → 하이커우 출발(HU449, 15:20) → 인천국제공항 도착(20:25) [조식 호텔 / 중식 불포함]"
+      }
+    ],
+    "highlights": [
+      "하이난항공 인천-하이커우 직항 · 수하물 32KG",
+      "아이비엘CC 27홀 x 3회 + 18홀 = 99홀",
+      "징스케이프 호텔 또는 동급 4성급 · 공항·골프장 각 약 15분(징스케이프 기준)",
+      "조식·석식 포함 · 중국 무비자",
+      "매주 월·토 출발 · 8명부터 출발"
+    ],
+    "includes": [
+      "왕복 항공료, 공항세 및 유류할증료",
+      "징스케이프 호텔 또는 동급 (2인 1실)",
+      "호텔 조식, 석식 (현지식)",
+      "그린피 (27홀 x 3회 + 18홀)",
+      "차량",
+      "여행자보험"
+    ],
+    "seoIntro": "인천 출발 하이난 골프여행으로, 하이커우 징스케이프 호텔에 4박하며 아이비엘CC에서 99홀을 라운딩하는 조·석식 포함 4박5일 상품입니다.",
+    "departurePrices": [
+      {
+        "date": "2026-11-02",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-07",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-09",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-14",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-16",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-21",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-23",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-28",
+        "price": 499000
+      },
+      {
+        "date": "2026-11-30",
+        "price": 499000
+      },
+      {
+        "date": "2026-12-05",
+        "price": 599000
+      },
+      {
+        "date": "2026-12-07",
+        "price": 599000
+      },
+      {
+        "date": "2026-12-12",
+        "price": 599000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 599000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 799000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 799000
+      },
+      {
+        "date": "2026-12-26",
+        "price": 799000
+      },
+      {
+        "date": "2026-12-28",
+        "price": 799000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 799000
+      },
+      {
+        "date": "2027-01-04",
+        "price": 799000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 799000
+      },
+      {
+        "date": "2027-01-11",
+        "price": 799000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 799000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 799000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 699000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 699000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 699000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 699000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-08",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 699000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 699000
+      },
+      {
+        "date": "2027-02-27",
+        "price": 799000
+      },
+      {
+        "date": "2027-03-01",
+        "price": 799000
+      },
+      {
+        "date": "2027-03-06",
+        "price": 499000
+      },
+      {
+        "date": "2027-03-08",
+        "price": 499000
+      },
+      {
+        "date": "2027-03-13",
+        "price": 499000
+      },
+      {
+        "date": "2027-03-15",
+        "price": 499000
+      },
+      {
+        "date": "2027-03-20",
+        "price": 499000
+      },
+      {
+        "date": "2027-03-22",
+        "price": 499000
+      }
+    ],
+    "price": "499,000원~",
+    "title": "[인천출발] 중국 하이난 골프여행 아이비엘CC 4박5일 99홀 징스케이프 호텔 조·석식 포함 499,000원부터",
+    "displayTitle": "하이난 아이비엘CC 골프여행 4박5일"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
     "region": "광저우",
     "courses": 1,
     "minPeople": "2인 (4인 미만 출발 시 미팅·샌딩비 추가)",
