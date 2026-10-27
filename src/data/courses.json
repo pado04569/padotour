@@ -7329,5 +7329,241 @@
       "china-lijiang-jadedragon-incheon",
       "china-lijiang-jadedragon-incheon-4n5d"
     ]
+  },
+  {
+    "slug": "dagangshan-cc",
+    "name": "대강산CC",
+    "nameEn": "Ta Kang Shan Golf Club (大崗山高爾夫球場)",
+    "region": "가오슝",
+    "country": "대만",
+    "countryCode": "taiwan",
+    "summary": "대강산 계곡과 산줄기를 따라 놓인 가오슝 산림 코스, 야간 조명 라운딩 가능",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "특징",
+        "value": "코스 전역 야간 조명"
+      },
+      {
+        "label": "소재지",
+        "value": "대만 가오슝시 톈랴오구"
+      }
+    ],
+    "description": "대강산CC는 가오슝시 톈랴오구, 대강산 자락에 자리한 18홀 골프장입니다. 산 계곡과 능선을 따라 홀이 배치되어 있으며, 홀 사이사이 저수지와 모래 언덕이 놓여 라운딩 내내 변화가 있습니다.\n\n코스 곳곳에 나무가 빽빽하게 심어져 \"삼림 구장\"이라고도 불리며, 18홀 전역에 조명 시설을 갖추고 있어 남부 대만에서 야간 라운딩을 할 수 있는 골프장으로 알려져 있습니다.\n\n여행의파도 가오슝 골프여행은 에어부산 김해-가오슝 직항으로 이동해 5성급 특급호텔에 3박하며 18홀 라운딩을 3회 합니다. 이 골프장은 상품의 배정 후보 골프장 중 하나이며, 실제 이용 골프장은 현지 배정에 따라 정해집니다. 매일 석식 특식이 포함된 노쇼핑·노옵션 일정입니다.",
+    "images": [
+      "/images/kaohsiung-busan/course-dagangshan-1.jpg",
+      "/images/kaohsiung-busan/course-dagangshan-2.jpg"
+    ],
+    "hashtags": [
+      "대강산CC",
+      "가오슝골프",
+      "가오슝골프여행",
+      "대만골프여행",
+      "야간골프"
+    ],
+    "relatedTourIds": [
+      "taiwan-kaohsiung-golf-busan"
+    ]
+  },
+  {
+    "slug": "nanpao-cc",
+    "name": "남보CC",
+    "nameEn": "Nan Pao Golf & Country Club (南寶高爾夫俱樂部)",
+    "region": "타이난",
+    "country": "대만",
+    "countryCode": "taiwan",
+    "summary": "강과 원시림이 감싸는 27홀, 역광을 줄이도록 남북 방향으로 홀을 배치한 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (A·B·C 코스)"
+      },
+      {
+        "label": "소재지",
+        "value": "대만 타이난시 다네이구"
+      }
+    ],
+    "description": "남보CC는 타이난시 다네이구에 있는 27홀(A·B·C 코스) 골프장입니다. 강이 코스를 감싸 흐르고 바깥쪽은 원시림이 둘러싸고 있어 자연 경관이 뛰어나며, 홀이 주로 남북 방향으로 놓여 역광을 줄이도록 설계되었습니다.\n\n코스에는 다양한 형태의 연못과 벙커가 배치되어 있고, 홀 길이가 긴 편이라 티샷 방향을 잘 잡는 것이 중요합니다.\n\n여행의파도 가오슝 골프여행은 에어부산 김해-가오슝 직항으로 이동해 5성급 특급호텔에 3박하며 18홀 라운딩을 3회 합니다. 이 골프장은 상품의 배정 후보 골프장 중 하나이며, 실제 이용 골프장은 현지 배정에 따라 정해집니다. 매일 석식 특식이 포함된 노쇼핑·노옵션 일정입니다.",
+    "images": [
+      "/images/kaohsiung-busan/course-nanbao-1.jpg",
+      "/images/kaohsiung-busan/course-nanbao-2.jpg"
+    ],
+    "hashtags": [
+      "남보CC",
+      "타이난골프",
+      "가오슝골프",
+      "가오슝골프여행",
+      "대만골프여행"
+    ],
+    "relatedTourIds": [
+      "taiwan-kaohsiung-golf-busan"
+    ]
+  },
+  {
+    "slug": "hsinyi-cc",
+    "name": "신의CC",
+    "nameEn": "Hsin Yi Golf Club (信誼高爾夫球場)",
+    "region": "가오슝",
+    "country": "대만",
+    "countryCode": "taiwan",
+    "summary": "완만한 구릉에 야자수와 사장교 풍경이 어우러진 가오슝 18홀",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "소재지",
+        "value": "대만 가오슝시"
+      }
+    ],
+    "description": "신의CC는 가오슝에 있는 18홀 골프장입니다. 완만한 구릉 지형에 조성된 코스로, 코스 안의 야자수와 멀리 보이는 사장교 풍경이 특징입니다.\n\n여행의파도 가오슝 골프여행은 에어부산 김해-가오슝 직항으로 이동해 5성급 특급호텔에 3박하며 18홀 라운딩을 3회 합니다. 이 골프장은 상품의 배정 후보 골프장 중 하나이며, 실제 이용 골프장은 현지 배정에 따라 정해집니다. 매일 석식 특식이 포함된 노쇼핑·노옵션 일정입니다.",
+    "images": [
+      "/images/kaohsiung-busan/course-xinyi-1.jpg",
+      "/images/kaohsiung-busan/course-xinyi-2.jpg"
+    ],
+    "hashtags": [
+      "신의CC",
+      "가오슝골프",
+      "가오슝골프여행",
+      "대만골프여행"
+    ],
+    "relatedTourIds": [
+      "taiwan-kaohsiung-golf-busan"
+    ]
+  },
+  {
+    "slug": "nanyi-cc",
+    "name": "남일CC",
+    "nameEn": "Nan Yi Golf & Country Club (南一高爾夫球場)",
+    "region": "타이난",
+    "country": "대만",
+    "countryCode": "taiwan",
+    "summary": "거의 평탄한 18홀 파72·7,271야드, 호수와 강을 낀 타이난 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,271야드"
+      },
+      {
+        "label": "설계",
+        "value": "와타나베 히로시"
+      },
+      {
+        "label": "소재지",
+        "value": "대만 타이난시 관먀오구"
+      }
+    ],
+    "description": "남일CC는 타이난시 관먀오구에 있는 18홀, 파72·7,271야드 골프장으로 일본의 와타나베 히로시가 설계했습니다. 지형이 거의 평탄해 걷기 편하고, 3·13·14번홀은 호수를, 4번홀은 오른쪽으로 강을 끼고 플레이합니다.\n\n한국 골퍼를 위한 한식과 서비스에 신경 쓰는 골프장으로 알려져 있습니다.\n\n여행의파도 가오슝 골프여행은 에어부산 김해-가오슝 직항으로 이동해 5성급 특급호텔에 3박하며 18홀 라운딩을 3회 합니다. 이 골프장은 상품의 배정 후보 골프장 중 하나이며, 실제 이용 골프장은 현지 배정에 따라 정해집니다. 매일 석식 특식이 포함된 노쇼핑·노옵션 일정입니다.",
+    "images": [
+      "/images/kaohsiung-busan/course-nanyi-2.jpg",
+      "/images/kaohsiung-busan/course-nanyi-1.jpg"
+    ],
+    "hashtags": [
+      "남일CC",
+      "타이난골프",
+      "가오슝골프",
+      "가오슝골프여행",
+      "대만골프여행"
+    ],
+    "relatedTourIds": [
+      "taiwan-kaohsiung-golf-busan"
+    ]
+  },
+  {
+    "slug": "chia-nan-cc",
+    "name": "가남CC",
+    "nameEn": "Chia Nan Golf Course (嘉南高爾夫球場)",
+    "region": "타이난",
+    "country": "대만",
+    "countryCode": "taiwan",
+    "summary": "1995년 개장, 미국 Willard C. Byrd가 설계한 18홀 파72·6,825야드",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,825야드"
+      },
+      {
+        "label": "개장",
+        "value": "1995년"
+      },
+      {
+        "label": "설계",
+        "value": "Willard C. Byrd & Associates (미국)"
+      },
+      {
+        "label": "소재지",
+        "value": "대만 타이난시 관톈구"
+      }
+    ],
+    "description": "가남CC는 타이난시 관톈구에 1995년 문을 연 18홀, 파72·6,825야드 골프장입니다. 미국의 Willard C. Byrd & Associates가 설계했고, 큰 워터해저드와 굽이치는 개울, 기복 있는 페어웨이가 어우러집니다.\n\n클럽하우스부터 코스 전체의 조경이 깔끔하고, 벙커와 워터해저드가 곳곳에 배치되어 있습니다. 14번홀에는 3단 그린이 있고, 15번홀은 파5입니다.\n\n여행의파도 가오슝 골프여행은 에어부산 김해-가오슝 직항으로 이동해 5성급 특급호텔에 3박하며 18홀 라운딩을 3회 합니다. 이 골프장은 상품의 배정 후보 골프장 중 하나이며, 실제 이용 골프장은 현지 배정에 따라 정해집니다. 매일 석식 특식이 포함된 노쇼핑·노옵션 일정입니다.",
+    "images": [
+      "/images/kaohsiung-busan/course-ganan-2.jpg",
+      "/images/kaohsiung-busan/course-ganan-1.jpg",
+      "/images/kaohsiung-busan/course-ganan-3.jpg"
+    ],
+    "hashtags": [
+      "가남CC",
+      "타이난골프",
+      "가오슝골프",
+      "가오슝골프여행",
+      "대만골프여행"
+    ],
+    "relatedTourIds": [
+      "taiwan-kaohsiung-golf-busan"
+    ]
+  },
+  {
+    "slug": "tainan-cc",
+    "name": "타이난CC",
+    "nameEn": "Tainan Golf Course (台南高爾夫球場)",
+    "region": "타이난",
+    "country": "대만",
+    "countryCode": "taiwan",
+    "summary": "1976년 개장한 18홀 6,608야드, 14번홀 옆 후터우피 호수 풍경",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "전장",
+        "value": "6,608야드"
+      },
+      {
+        "label": "개장",
+        "value": "1976년"
+      },
+      {
+        "label": "소재지",
+        "value": "대만 타이난시 신화구"
+      }
+    ],
+    "description": "타이난CC는 타이난시 신화구에 1976년 문을 연 18홀, 6,608야드 골프장입니다. 나무가 많고 페어웨이가 좁게 굽어 있어 정확한 샷이 필요한 코스입니다.\n\n홀마다 오래된 숲 풍경을 즐길 수 있고, 14번홀 옆에는 타이난의 관광 명소인 후터우피(虎頭埤) 호수가 있어 라운딩에 즐거움을 더해 줍니다.\n\n여행의파도 가오슝 골프여행은 에어부산 김해-가오슝 직항으로 이동해 5성급 특급호텔에 3박하며 18홀 라운딩을 3회 합니다. 이 골프장은 상품의 배정 후보 골프장 중 하나이며, 실제 이용 골프장은 현지 배정에 따라 정해집니다. 매일 석식 특식이 포함된 노쇼핑·노옵션 일정입니다.",
+    "images": [
+      "/images/kaohsiung-busan/course-tainan-2.png",
+      "/images/kaohsiung-busan/course-tainan-1.png"
+    ],
+    "hashtags": [
+      "타이난CC",
+      "타이난골프",
+      "가오슝골프",
+      "가오슝골프여행",
+      "대만골프여행"
+    ],
+    "relatedTourIds": [
+      "taiwan-kaohsiung-golf-busan"
+    ]
   }
 ]

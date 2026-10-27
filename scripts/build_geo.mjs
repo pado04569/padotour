@@ -1,13 +1,13 @@
 // 골프장 둘러보기 지도용 지리 데이터 생성 (2026-10-25)
 // 출처: Natural Earth (퍼블릭 도메인) — world-atlas@2 TopoJSON을 내려받아
 // 메르카토르 투영 SVG 경로로 변환해 public/geo/world-map.json 으로 저장한다.
-// 취급 나라(일본·중국·태국·베트남·말레이시아·필리핀·괌·사이판·인도네시아)는 50m(상세),
+// 취급 나라(일본·중국·태국·베트남·말레이시아·필리핀·괌·사이판·인도네시아·대만)는 50m(상세),
 // 나머지 배경 나라는 110m(간략)로 — 파일을 작게 유지한다. API 키·비용 없음.
 // 실행: node scripts/build_geo.mjs  (출력이 이미 있으면 덮어씀)
 import { feature } from "topojson-client";
 import { writeFileSync, mkdirSync, readFileSync, existsSync } from "node:fs";
 
-const FOCUS = { 392: "japan", 156: "china", 764: "thailand", 704: "vietnam", 458: "malaysia", 608: "philippines", 316: "guam", 580: "saipan", 360: "other" };
+const FOCUS = { 392: "japan", 156: "china", 764: "thailand", 704: "vietnam", 458: "malaysia", 608: "philippines", 316: "guam", 580: "saipan", 360: "other", 158: "taiwan" };
 const W = 2000; // 투영 공간 너비 (세로는 메르카토르 계산값)
 const LAT_MAX = 72, LAT_MIN = -55; // 극지방은 잘라낸다 (화면에 안 쓰임)
 

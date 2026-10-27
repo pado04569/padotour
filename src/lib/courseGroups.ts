@@ -21,11 +21,12 @@ const REPRESENTATIVE: Record<string, string> = {
   vietnam: "dragon-golf-links",
   philippines: "lakewood-cc-cabanatuan",
   malaysia: "karambunai-cc",
+  taiwan: "chia-nan-cc",
   "guam-saipan": "coral-ocean-cc",
   other: "paradise-golf-club-manado",
 };
 
-const ORDER = ["japan", "china", "thailand", "vietnam", "philippines", "malaysia", "guam-saipan", "other"];
+const ORDER = ["japan", "china", "thailand", "vietnam", "philippines", "malaysia", "taiwan", "guam-saipan", "other"];
 const MERGE: Record<string, { key: string; label: string }> = {
   guam: { key: "guam-saipan", label: "괌·사이판" },
   saipan: { key: "guam-saipan", label: "괌·사이판" },

@@ -38,6 +38,7 @@ export const MAP_GROUPS: MapGroup[] = [
   { key: "vietnam", label: "베트남", codes: ["vietnam"], marker: [105.8, 17.2], markerOff: [30, -10], view: [100.5, 7.5, 112.5, 24] },
   { key: "philippines", label: "필리핀", codes: ["philippines"], marker: [121.8, 12.8], markerOff: [30, 4], view: [115.5, 4, 128, 20] },
   { key: "malaysia", label: "말레이시아", codes: ["malaysia"], marker: [102, 3.8], markerOff: [-46, 6], view: [97.5, -0.5, 120.5, 9] },
+  { key: "taiwan", label: "대만", codes: ["taiwan"], marker: [120.9, 23.7], markerOff: [34, 4], view: [118.5, 21.5, 122.5, 25.6] },
   { key: "guam-saipan", label: "괌·사이판", codes: ["guam", "saipan"], marker: [144.9, 13.8], markerOff: [40, 0], view: [143, 11.9, 147.5, 16.6] },
   { key: "other", label: "인도네시아", codes: ["other"], marker: [124.8, 1.5], markerOff: [36, 12], view: [121.5, -2.5, 128.5, 4.5] },
 ];
@@ -51,9 +52,10 @@ export const COUNTRY_VIEWS: Record<string, [number, number, number, number]> = {
   vietnam: [100.5, 7.5, 112.5, 24],
   philippines: [115.5, 4, 128, 20],
   malaysia: [97.5, -0.5, 120.5, 9],
+  taiwan: [118.5, 21.5, 122.5, 25.6],
   guam: [143, 11.9, 147.5, 16.6],
   saipan: [143, 11.9, 147.5, 16.6],
-  other: [118, -4.5, 149, 18],
+  other: [118, -4.5, 149, 24],
   indonesia: [100, -3.5, 108.5, 4.5],
 };
 
@@ -83,9 +85,10 @@ export const REGION_POINTS: Record<string, Record<string, [number, number]>> = {
   },
   philippines: { "클락": [120.56, 15.18], "마닐라": [120.98, 14.6], "세부": [123.9, 10.32] },
   malaysia: { "쿠알라룸푸르": [101.69, 3.14], "코타키나발루": [116.07, 5.98] },
+  taiwan: { "가오슝": [120.31, 22.63], "타이난": [120.23, 22.99] },
   guam: { "괌": [144.79, 13.44] },
   saipan: { "사이판": [145.75, 15.18] },
-  other: { "마나도": [124.84, 1.49], "괌": [144.79, 13.44], "괌/사이판": [145.2, 14.3], "사이판": [145.75, 15.18] },
+  other: { "가오슝": [120.31, 22.63], "마나도": [124.84, 1.49], "괌": [144.79, 13.44], "괌/사이판": [145.2, 14.3], "사이판": [145.75, 15.18] },
   indonesia: { "바탐": [104.03, 1.08] },
 };
 
