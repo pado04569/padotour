@@ -629,8 +629,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <div className="mb-8">
             <h2 className="text-lg font-black text-gray-800 mb-3 pb-2 border-b-2 border-accent-teal inline-flex items-center gap-1.5"><span className="text-brand-blue"><IconCalendarDays /></span>{tour.region} 골프여행 {tierNightsRange ?? stayText(tour.nights, tour.days)} 일정</h2>
             <div className="space-y-3">
+              {/* 일정 카드도 다른 본문 박스처럼 누르면 출발일 달력(#departure)으로 — 클래리티 배달못한클릭(10/25 하이난 9회·샤먼) 조치 */}
               {tour.schedule.map((s, i) => (
-                <div key={i} className="flex gap-4 bg-white border border-gray-100 rounded-xl p-4 shadow-sm">
+                <Link key={i} href="#departure" className="flex gap-4 bg-white hover:bg-gray-50 border border-gray-100 rounded-xl p-4 shadow-sm transition-colors">
                   <div className="flex-shrink-0 w-16 flex items-start justify-center">
                     <div className="bg-emerald-600 text-white text-xs font-black px-2 py-1 rounded-lg text-center">{s.day}</div>
                   </div>
@@ -638,7 +639,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                     <p className="font-bold text-emerald-700 mb-1.5 text-sm">{s.label}</p>
                     <Steps text={s.desc} />
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
