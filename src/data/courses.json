@@ -7565,5 +7565,54 @@
     "relatedTourIds": [
       "taiwan-kaohsiung-golf-busan"
     ]
+  },
+  {
+    "slug": "hainan-ibl-gc",
+    "name": "아이비엘CC",
+    "nameEn": "IBL Golf Sports Club (海南海口依必朗高尔夫俱乐部)",
+    "region": "하이난",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "하이커우 충산구의 18홀 파72, 드라이빙 레인지와 레슨 시설을 갖춘 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 약 7,000야드 (자료마다 7,024~7,130야드)"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 하이난성 하이커우시 충산구 훙치진"
+      }
+    ],
+    "description": "아이비엘CC는 하이난성 하이커우시 충산구 훙치진에 있는 18홀, 파72 골프장입니다. 야자수가 늘어선 페어웨이와 연못, 벙커가 어우러진 코스입니다.\n\n드라이빙 레인지와 퍼팅·치핑 그린, 연습 벙커, 골프 레슨을 함께 제공해 라운딩 전후로 연습하기 좋으며, 클럽하우스에는 레스토랑과 프로숍이 있습니다.\n\n여행의파도 하이난 아이비엘CC 골프여행은 하이난항공 인천-하이커우 직항으로 이동해 공항 가까운 징스케이프 호텔(또는 동급)에 머물며, 매일 27홀(마지막 날 18홀)을 라운딩하는 3박4일·4박5일 일정입니다.",
+    "images": [
+      "/images/hainan-ibl-incheon/course-1.jpg",
+      "/images/hainan-ibl-incheon/course-5.jpg",
+      "/images/hainan-ibl-incheon/course-2.jpg",
+      "/images/hainan-ibl-incheon/course-6.jpg",
+      "/images/hainan-ibl-incheon/course-4.jpg",
+      "/images/hainan-ibl-incheon/course-7.jpg"
+    ],
+    "hashtags": [
+      "아이비엘CC",
+      "하이난골프",
+      "하이커우골프",
+      "하이난골프여행",
+      "중국골프여행",
+      "겨울골프"
+    ],
+    "relatedTourIds": [
+      "china-hainan-ibl-incheon",
+      "china-hainan-ibl-incheon-4n5d"
+    ],
+    "aliases": [
+      "아이비엘",
+      "IBL",
+      "아이피엘"
+    ]
   }
 ]
