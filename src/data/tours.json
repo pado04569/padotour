@@ -30311,6 +30311,624 @@
     "displayTitle": "가고시마 텐몬칸 시내 골프 2색｜난코쿠CC·치란CC"
   },
   {
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "가고시마",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-10-27",
+    "minPeople": "4인 (2~3인은 추가요금)",
+    "hotel": "호텔 그란세렛소 가고시마 텐몬칸 · 오리엔탈 텐몬칸 · 마이스테이즈 중 배정 또는 동급 (2인 1실)",
+    "hotelDesc": "가고시마 시내 번화가 텐몬칸의 비즈니스급 호텔(그란세렛소·오리엔탈 텐몬칸·마이스테이즈 또는 동급)에서 머뭅니다. 배정 가능한 호텔 중 호텔 그란세렛소 가고시마 텐몬칸은 2026년 3월에 문을 연 새 호텔로, 텐몬칸도리 전차 정류장에서 걸어서 약 5분 거리이고 사쿠라지마가 보이는 대욕장이 있으며 객실은 더블 또는 트윈으로 랜덤 배정됩니다. 비즈니스급이라 객실이 넓지 않은 편이며, 저녁은 텐몬칸 주변에서 자유롭게 드시면 됩니다.",
+    "golfCourse": "시사이드 · 가고시마 국제CC · 난코쿠CC 또는 동급 (공항36·미조베·치란·유노우라·가든·이리키CC 동급 배정 가능)",
+    "golfCourseDesc": "가고시마 국제CC, 1959년 개장한 난코쿠CC 등 가고시마 지역 골프장에서 하루 18홀씩 라운딩합니다. 카트를 이용하는 셀프 플레이 기준이며(노캐디), 현지 사정에 따라 공항36·미조베·치란·유노우라·가든·이리키CC 등 동급 골프장으로 배정될 수 있습니다.",
+    "excludes": [
+      "클럽 중식·석식",
+      "캐디 (노캐디 셀프 플레이)",
+      "특정일 출발 추가요금 (2/11·2/23 출발 1인 70,000원)",
+      "2~3인 출발 추가요금 (송영 차량비 2인 출발 1인 250,000원 / 3인 출발 1인 50,000원, 골프 2인 플레이 1인 150,000원 / 3인 플레이 1인 10,000원)",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "전세기 항공 상품으로 예약금 1인 30만원 입금 후 좌석이 확정되며, 출발 45일 전까지 취소하면 예약금이 환불되고 이후에는 환불되지 않습니다.",
+      "출발 30~22일 전 취소 시 상품가의 30%, 21~14일 전 40%, 14~8일 전 50%, 7~4일 전 70%, 3~1일 전 80%, 당일 100%의 취소료가 발생됩니다.",
+      "4인부터 출발이 확정되며, 2~3인 출발은 문의 후 추가요금을 내고 가능합니다.",
+      "무료 수하물은 1인 20KG입니다(골프백 소지자 한정).",
+      "골프장 순서와 오전·오후 티오프는 지정할 수 없고, 티업 시간이 이르면 호텔 조식을 이용하지 못할 수 있습니다.",
+      "호텔과 골프장 사이는 골프장 셔틀 차량을 이용해 다른 손님과 함께 이동합니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변동될 수 있습니다."
+    ],
+    "image": "/images/kagoshima-miyakonojo-3color/kokusai-1.jpg",
+    "images": [
+      "/images/kagoshima-miyakonojo-3color/kokusai-1.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-2.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-1.jpg",
+      "/images/kagoshima-miyakonojo-3color/kokusai-2.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-2.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-1.jpg"
+    ],
+    "courseImages": [
+      "/images/kagoshima-miyakonojo-3color/kokusai-1.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-2.jpg",
+      "/images/kagoshima-miyakonojo-3color/kokusai-2.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-1.jpg",
+      "/images/kagoshima-miyakonojo-3color/kokusai-3.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/kagoshima-tenmonkan-busan/hotel-1.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-2.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-3.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-4.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-5.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-6.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-7.jpg"
+    ],
+    "seoKeywords": [
+      "가고시마골프",
+      "가고시마골프여행",
+      "텐몬칸",
+      "가고시마국제CC",
+      "난코쿠CC",
+      "부산출발"
+    ],
+    "id": "japan-kagoshima-tenmonkan-multi-busan",
+    "nights": 2,
+    "days": 3,
+    "courses": 3,
+    "roundsIncluded": 2,
+    "holes": "36홀 (18홀 x 2회)",
+    "period": "2027년 1월 7일 ~ 2027년 2월 25일 (매주 화·목 출발)",
+    "subtitle": "제주항공 부산-가고시마 직항 전세기 · 텐몬칸 시내호텔 2박 · 가고시마 국제·난코쿠CC 등 18홀 x 2회 · 조식 포함 · 매주 화·목 출발",
+    "productSummary": "제주항공 부산-가고시마 직항 전세기로 가서 텐몬칸 시내호텔에 2박하며, 가고시마 국제·난코쿠CC 등에서 18홀씩 2회 라운딩하는 상품입니다.\n첫날 공항 도착 후 골프장으로 이동해 18홀을 라운딩하며, 그린피와 카트, 조식, 왕복 송영이 포함된 노쇼핑·노옵션 일정입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 가고시마 18홀",
+        "desc": "김해국제공항 출발(제주항공 7C1851, 08:20) → 가고시마 국제공항 도착(09:40) → 송영 차량으로 골프장 이동(약 50분) → 시사이드·가고시마 국제CC 또는 동급 18홀 라운딩(카트 + 셀프 플레이 / 일몰 플레이) → 호텔 투숙, 개별 석식 / 온천욕 [숙소: 그란세렛소 텐몬칸 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "가고시마 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동(약 60분) → 시사이드·가고시마 국제·난코쿠CC 또는 동급 18홀 라운딩(카트 + 셀프 플레이) → 호텔 투숙, 개별 석식 / 온천욕 [조식 호텔 / 중식·석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "가고시마 → 부산",
+        "desc": "호텔 조식 후 체크아웃 → 공항 이동(약 60분) → 공항 도착 및 출국 수속 → 가고시마 국제공항 출발(7C1852, 10:40) → 김해국제공항 도착(12:00) [조식 호텔]"
+      }
+    ],
+    "highlights": [
+      "제주항공 부산-가고시마 직항 전세기 · 1/7~2/25 매주 화·목 출발",
+      "텐몬칸 시내호텔 2박",
+      "가고시마 국제·난코쿠CC 등 18홀 x 2회 (36홀)",
+      "첫날 도착 후 바로 18홀 · 그린피·카트 포함",
+      "노쇼핑·노옵션 · 4인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (제주항공 전세기)",
+      "텐몬칸 시내호텔 (2인 1실)",
+      "전 일정 호텔 조식",
+      "18홀 그린피 2회 + 카트 (4인 1카트)",
+      "왕복 송영 차량",
+      "여행자보험"
+    ],
+    "seoIntro": "부산 출발 가고시마 골프여행으로, 제주항공 직항 전세기를 타고 텐몬칸 시내호텔에 2박하며 가고시마 국제·난코쿠CC 등에서 36홀을 라운딩하는 2박3일 상품입니다.",
+    "departurePrices": [
+      {
+        "date": "2027-01-07",
+        "price": 1029000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 979000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1029000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 979000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1029000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 979000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-02",
+        "price": 979000
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-09",
+        "price": 1049000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 979000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 979000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1079000
+      }
+    ],
+    "price": "979,000원~",
+    "title": "[부산출발] 일본 가고시마 골프여행 텐몬칸 시내호텔 다색 2박3일 36홀 제주항공 직항 979,000원부터",
+    "displayTitle": "가고시마 텐몬칸 시내호텔 다색 골프여행 2박3일"
+  },
+  {
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "가고시마",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-10-27",
+    "minPeople": "4인 (2~3인은 추가요금)",
+    "hotel": "호텔 그란세렛소 가고시마 텐몬칸 · 오리엔탈 텐몬칸 · 마이스테이즈 중 배정 또는 동급 (2인 1실)",
+    "hotelDesc": "가고시마 시내 번화가 텐몬칸의 비즈니스급 호텔(그란세렛소·오리엔탈 텐몬칸·마이스테이즈 또는 동급)에서 머뭅니다. 배정 가능한 호텔 중 호텔 그란세렛소 가고시마 텐몬칸은 2026년 3월에 문을 연 새 호텔로, 텐몬칸도리 전차 정류장에서 걸어서 약 5분 거리이고 사쿠라지마가 보이는 대욕장이 있으며 객실은 더블 또는 트윈으로 랜덤 배정됩니다. 비즈니스급이라 객실이 넓지 않은 편이며, 저녁은 텐몬칸 주변에서 자유롭게 드시면 됩니다.",
+    "golfCourse": "시사이드 · 가고시마 국제CC · 난코쿠CC 또는 동급 (공항36·미조베·치란·유노우라·가든·이리키CC 동급 배정 가능)",
+    "golfCourseDesc": "가고시마 국제CC, 1959년 개장한 난코쿠CC 등 가고시마 지역 골프장에서 하루 18홀씩 라운딩합니다. 카트를 이용하는 셀프 플레이 기준이며(노캐디), 현지 사정에 따라 공항36·미조베·치란·유노우라·가든·이리키CC 등 동급 골프장으로 배정될 수 있습니다.",
+    "excludes": [
+      "클럽 중식·석식",
+      "캐디 (노캐디 셀프 플레이)",
+      "특정일 출발 추가요금 (1/9 출발 1인 100,000원, 2/6 출발 1인 40,000원)",
+      "2~3인 출발 추가요금 (송영 차량비 2인 출발 1인 250,000원 / 3인 출발 1인 50,000원, 골프 2인 플레이 1인 150,000원 / 3인 플레이 1인 10,000원)",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "전세기 항공 상품으로 예약금 1인 30만원 입금 후 좌석이 확정되며, 출발 45일 전까지 취소하면 예약금이 환불되고 이후에는 환불되지 않습니다.",
+      "출발 30~22일 전 취소 시 상품가의 30%, 21~14일 전 40%, 14~8일 전 50%, 7~4일 전 70%, 3~1일 전 80%, 당일 100%의 취소료가 발생됩니다.",
+      "4인부터 출발이 확정되며, 2~3인 출발은 문의 후 추가요금을 내고 가능합니다.",
+      "무료 수하물은 1인 20KG입니다(골프백 소지자 한정).",
+      "골프장 순서와 오전·오후 티오프는 지정할 수 없고, 티업 시간이 이르면 호텔 조식을 이용하지 못할 수 있습니다.",
+      "호텔과 골프장 사이는 골프장 셔틀 차량을 이용해 다른 손님과 함께 이동합니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변동될 수 있습니다."
+    ],
+    "image": "/images/kagoshima-miyakonojo-3color/kokusai-1.jpg",
+    "images": [
+      "/images/kagoshima-miyakonojo-3color/kokusai-1.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-2.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-1.jpg",
+      "/images/kagoshima-miyakonojo-3color/kokusai-2.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-2.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-1.jpg"
+    ],
+    "courseImages": [
+      "/images/kagoshima-miyakonojo-3color/kokusai-1.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-2.jpg",
+      "/images/kagoshima-miyakonojo-3color/kokusai-2.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-1.jpg",
+      "/images/kagoshima-miyakonojo-3color/kokusai-3.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/kagoshima-tenmonkan-busan/hotel-1.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-2.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-3.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-4.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-5.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-6.jpg",
+      "/images/kagoshima-tenmonkan-busan/hotel-7.jpg"
+    ],
+    "seoKeywords": [
+      "가고시마골프",
+      "가고시마골프여행",
+      "텐몬칸",
+      "가고시마국제CC",
+      "난코쿠CC",
+      "부산출발"
+    ],
+    "id": "japan-kagoshima-tenmonkan-multi-busan-3n4d",
+    "nights": 3,
+    "days": 4,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)",
+    "period": "2027년 1월 9일 ~ 2027년 2월 20일 (매주 토 출발)",
+    "subtitle": "제주항공 부산-가고시마 직항 전세기 · 텐몬칸 시내호텔 3박 · 가고시마 국제·난코쿠CC 등 18홀 x 3회 · 조식 포함 · 매주 토 출발",
+    "productSummary": "제주항공 부산-가고시마 직항 전세기로 가서 텐몬칸 시내호텔에 3박하며, 가고시마 국제·난코쿠CC 등에서 18홀씩 3회 라운딩하는 상품입니다.\n첫날 공항 도착 후 골프장으로 이동해 18홀을 라운딩하며, 그린피와 카트, 조식, 왕복 송영이 포함된 노쇼핑·노옵션 일정입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 가고시마 18홀",
+        "desc": "김해국제공항 출발(제주항공 7C1851, 08:20) → 가고시마 국제공항 도착(09:40) → 송영 차량으로 골프장 이동(약 50분) → 시사이드·가고시마 국제CC 또는 동급 18홀 라운딩(카트 + 셀프 플레이 / 일몰 플레이) → 호텔 투숙, 개별 석식 / 온천욕 [숙소: 그란세렛소 텐몬칸 또는 동급]"
+      },
+      {
+        "day": "2~3일차",
+        "label": "가고시마 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동(약 60분) → 시사이드·가고시마 국제·난코쿠CC 또는 동급 18홀 라운딩(카트 + 셀프 플레이) → 호텔 투숙, 개별 석식 / 온천욕 [조식 호텔 / 중식·석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "가고시마 → 부산",
+        "desc": "호텔 조식 후 체크아웃 → 공항 이동(약 60분) → 공항 도착 및 출국 수속 → 가고시마 국제공항 출발(7C1852, 10:40) → 김해국제공항 도착(12:00) [조식 호텔]"
+      }
+    ],
+    "highlights": [
+      "제주항공 부산-가고시마 직항 전세기 · 1/9~2/20 매주 토요일 출발",
+      "텐몬칸 시내호텔 3박",
+      "가고시마 국제·난코쿠CC 등 18홀 x 3회 (54홀)",
+      "첫날 도착 후 바로 18홀 · 그린피·카트 포함",
+      "노쇼핑·노옵션 · 4인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (제주항공 전세기)",
+      "텐몬칸 시내호텔 (2인 1실)",
+      "전 일정 호텔 조식",
+      "18홀 그린피 3회 + 카트 (4인 1카트)",
+      "왕복 송영 차량",
+      "여행자보험"
+    ],
+    "seoIntro": "부산 출발 가고시마 골프여행으로, 제주항공 직항 전세기를 타고 텐몬칸 시내호텔에 3박하며 가고시마 국제·난코쿠CC 등에서 54홀을 라운딩하는 3박4일 상품입니다.",
+    "departurePrices": [
+      {
+        "date": "2027-01-09",
+        "price": 1349000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1349000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1349000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1349000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1479000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1349000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1349000
+      }
+    ],
+    "price": "1,349,000원~",
+    "title": "[부산출발] 일본 가고시마 골프여행 텐몬칸 시내호텔 다색 3박4일 54홀 제주항공 직항 1,349,000원부터",
+    "displayTitle": "가고시마 텐몬칸 시내호텔 다색 골프여행 3박4일"
+  },
+  {
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "가고시마",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-10-27",
+    "minPeople": "4인 (2~3인은 추가요금)",
+    "hotel": "가고시마 썬로열 호텔 (사쿠라지마 뷰, 2인 1실)",
+    "hotelDesc": "사쿠라지마 전망의 가고시마 썬로열 호텔에서 머뭅니다. 라운딩 후 호텔에서 온천욕을 즐길 수 있고, 호텔 주변에 쇼핑몰과 푸드코트, 골프용품 매장이 있어 저녁을 자유롭게 해결하기 좋습니다.",
+    "golfCourse": "치란CC · 난코쿠CC 또는 동급",
+    "golfCourseDesc": "1991년 개장한 파72·7,059야드 치란CC와 1959년 개장한 파72 18홀 난코쿠CC 또는 동급 골프장에서 하루 18홀씩 라운딩합니다. 카트를 이용하는 셀프 플레이 기준(노캐디)입니다.",
+    "excludes": [
+      "클럽 중식·석식",
+      "캐디 (노캐디 셀프 플레이)",
+      "호텔 추가요금 (1/10, 2/7~8, 2/10, 2/21~22 숙박 시 1인 1박 20,000원)",
+      "골프 추가요금 (1/11, 2/11, 2/23 라운딩 시 1인 1일 50,000원)",
+      "2~3인 출발 추가요금 (송영 차량비 1인 전 일정 30,000원, 2~3인 플레이 18홀당 1인 치란CC 3인 500엔·2인 2,000엔 / 난코쿠CC 3인 1,100엔·2인 3,300엔, 사전 입금)",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "전세기 항공 상품으로 예약금 1인 30만원 입금 후 좌석이 확정되며, 출발 45일 전까지 취소하면 예약금이 환불되고 이후에는 환불되지 않습니다.",
+      "출발 30~22일 전 취소 시 상품가의 30%, 21~14일 전 40%, 14~8일 전 50%, 7~4일 전 70%, 3~1일 전 80%, 당일 100%의 취소료가 발생됩니다.",
+      "4인부터 출발이 확정되며, 2~3인 출발은 문의 후 추가요금을 내고 가능합니다.",
+      "무료 수하물은 1인 20KG입니다(골프백 소지자 한정).",
+      "골프장 순서와 오전·오후 티오프는 지정할 수 없고, 티업 시간이 이르면 호텔 조식을 이용하지 못할 수 있습니다.",
+      "호텔과 골프장 사이는 골프장 셔틀 차량을 이용해 다른 손님과 함께 이동합니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변동될 수 있습니다."
+    ],
+    "image": "/images/japan-kagoshima-tenmonkan/course-6.jpg",
+    "images": [
+      "/images/japan-kagoshima-tenmonkan/course-6.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-2.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-1.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-5.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-2.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-1.jpg"
+    ],
+    "courseImages": [
+      "/images/japan-kagoshima-tenmonkan/course-6.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-2.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-5.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-1.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-3.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/kagoshima-sunroyal-busan/hotel-1.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-2.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-3.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-4.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-5.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-6.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-7.jpg"
+    ],
+    "seoKeywords": [
+      "가고시마골프",
+      "가고시마골프여행",
+      "썬로열호텔",
+      "치란CC",
+      "난코쿠CC",
+      "부산출발"
+    ],
+    "id": "japan-kagoshima-sunroyal-busan",
+    "nights": 2,
+    "days": 3,
+    "courses": 2,
+    "roundsIncluded": 2,
+    "holes": "36홀 (18홀 x 2회)",
+    "period": "2027년 1월 7일 ~ 2027년 2월 25일 (매주 화·목 출발)",
+    "subtitle": "제주항공 부산-가고시마 직항 전세기 · 사쿠라지마 뷰 썬로열 호텔 2박 · 치란·난코쿠CC 또는 동급 18홀 x 2회 · 조식 포함 · 매주 화·목 출발",
+    "productSummary": "제주항공 부산-가고시마 직항 전세기로 가서 사쿠라지마 뷰 썬로열 호텔에 2박하며, 치란CC·난코쿠CC 또는 동급 골프장에서 18홀씩 2회 라운딩하는 상품입니다.\n첫날 공항 도착 후 골프장으로 이동해 18홀을 라운딩하며, 그린피와 카트, 조식, 왕복 송영이 포함된 노쇼핑·노옵션 일정입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 가고시마 18홀",
+        "desc": "김해국제공항 출발(제주항공 7C1851, 08:20) → 가고시마 국제공항 도착(09:40) → 송영 차량으로 골프장 이동(약 50분) → 치란CC 또는 동급 18홀 라운딩(카트 + 셀프 플레이 / 일몰 플레이) → 호텔 투숙, 개별 석식 / 온천 대욕장 [숙소: 가고시마 썬로열 호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "가고시마 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동(30~60분) → 치란·난코쿠CC 또는 동급 18홀 라운딩(카트 + 셀프 플레이) → 호텔 투숙, 개별 석식 / 온천 대욕장 [조식 호텔 / 중식·석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "가고시마 → 부산",
+        "desc": "호텔 조식 후 체크아웃 → 공항 이동(약 60분) → 공항 도착 및 출국 수속 → 가고시마 국제공항 출발(7C1852, 10:40) → 김해국제공항 도착(12:00) [조식 호텔]"
+      }
+    ],
+    "highlights": [
+      "제주항공 부산-가고시마 직항 전세기 · 1/7~2/25 매주 화·목 출발",
+      "사쿠라지마 뷰 썬로열 호텔 2박",
+      "치란·난코쿠CC 또는 동급 18홀 x 2회 (36홀)",
+      "첫날 도착 후 바로 18홀 · 그린피·카트 포함",
+      "노쇼핑·노옵션 · 4인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (제주항공 전세기)",
+      "사쿠라지마 뷰 썬로열 호텔 (2인 1실)",
+      "전 일정 호텔 조식",
+      "18홀 그린피 2회 + 카트 (4인 1카트)",
+      "왕복 송영 차량",
+      "여행자보험"
+    ],
+    "seoIntro": "부산 출발 가고시마 골프여행으로, 제주항공 직항 전세기를 타고 사쿠라지마 뷰 썬로열 호텔에 2박하며 치란CC·난코쿠CC 또는 동급 골프장에서 36홀을 라운딩하는 2박3일 상품입니다.",
+    "departurePrices": [
+      {
+        "date": "2027-01-07",
+        "price": 1179000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1099000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1179000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1099000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1179000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1099000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1179000
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1099000
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1179000
+      },
+      {
+        "date": "2027-02-09",
+        "price": 1179000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1179000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1099000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1179000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1099000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1199000
+      }
+    ],
+    "price": "1,099,000원~",
+    "title": "[부산출발] 일본 가고시마 골프여행 썬로열 호텔 치란·난코쿠CC 2박3일 36홀 제주항공 직항 1,099,000원부터",
+    "displayTitle": "가고시마 썬로열 호텔 치란·난코쿠CC 골프여행 2박3일"
+  },
+  {
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "가고시마",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-10-27",
+    "minPeople": "4인 (2~3인은 추가요금)",
+    "hotel": "가고시마 썬로열 호텔 (사쿠라지마 뷰, 2인 1실)",
+    "hotelDesc": "사쿠라지마 전망의 가고시마 썬로열 호텔에서 머뭅니다. 라운딩 후 호텔에서 온천욕을 즐길 수 있고, 호텔 주변에 쇼핑몰과 푸드코트, 골프용품 매장이 있어 저녁을 자유롭게 해결하기 좋습니다.",
+    "golfCourse": "치란CC · 난코쿠CC 또는 동급",
+    "golfCourseDesc": "1991년 개장한 파72·7,059야드 치란CC와 1959년 개장한 파72 18홀 난코쿠CC 또는 동급 골프장에서 하루 18홀씩 라운딩합니다. 카트를 이용하는 셀프 플레이 기준(노캐디)입니다.",
+    "excludes": [
+      "클럽 중식·석식",
+      "캐디 (노캐디 셀프 플레이)",
+      "호텔 추가요금 (1/10, 2/7~8, 2/10, 2/21~22 숙박 시 1인 1박 20,000원)",
+      "골프 추가요금 (1/11, 2/11, 2/23 라운딩 시 1인 1일 50,000원)",
+      "2~3인 출발 추가요금 (송영 차량비 1인 전 일정 30,000원, 2~3인 플레이 18홀당 1인 치란CC 3인 500엔·2인 2,000엔 / 난코쿠CC 3인 1,100엔·2인 3,300엔, 사전 입금)",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "전세기 항공 상품으로 예약금 1인 30만원 입금 후 좌석이 확정되며, 출발 45일 전까지 취소하면 예약금이 환불되고 이후에는 환불되지 않습니다.",
+      "출발 30~22일 전 취소 시 상품가의 30%, 21~14일 전 40%, 14~8일 전 50%, 7~4일 전 70%, 3~1일 전 80%, 당일 100%의 취소료가 발생됩니다.",
+      "4인부터 출발이 확정되며, 2~3인 출발은 문의 후 추가요금을 내고 가능합니다.",
+      "무료 수하물은 1인 20KG입니다(골프백 소지자 한정).",
+      "골프장 순서와 오전·오후 티오프는 지정할 수 없고, 티업 시간이 이르면 호텔 조식을 이용하지 못할 수 있습니다.",
+      "호텔과 골프장 사이는 골프장 셔틀 차량을 이용해 다른 손님과 함께 이동합니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변동될 수 있습니다."
+    ],
+    "image": "/images/japan-kagoshima-tenmonkan/course-6.jpg",
+    "images": [
+      "/images/japan-kagoshima-tenmonkan/course-6.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-2.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-1.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-5.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-2.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-1.jpg"
+    ],
+    "courseImages": [
+      "/images/japan-kagoshima-tenmonkan/course-6.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-2.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-5.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-1.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-3.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/kagoshima-sunroyal-busan/hotel-1.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-2.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-3.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-4.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-5.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-6.jpg",
+      "/images/kagoshima-sunroyal-busan/hotel-7.jpg"
+    ],
+    "seoKeywords": [
+      "가고시마골프",
+      "가고시마골프여행",
+      "썬로열호텔",
+      "치란CC",
+      "난코쿠CC",
+      "부산출발"
+    ],
+    "id": "japan-kagoshima-sunroyal-busan-3n4d",
+    "nights": 3,
+    "days": 4,
+    "courses": 2,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)",
+    "period": "2027년 1월 9일 ~ 2027년 2월 20일 (매주 토 출발)",
+    "subtitle": "제주항공 부산-가고시마 직항 전세기 · 사쿠라지마 뷰 썬로열 호텔 3박 · 치란·난코쿠CC 또는 동급 18홀 x 3회 · 조식 포함 · 매주 토 출발",
+    "productSummary": "제주항공 부산-가고시마 직항 전세기로 가서 사쿠라지마 뷰 썬로열 호텔에 3박하며, 치란CC·난코쿠CC 또는 동급 골프장에서 18홀씩 3회 라운딩하는 상품입니다.\n첫날 공항 도착 후 골프장으로 이동해 18홀을 라운딩하며, 그린피와 카트, 조식, 왕복 송영이 포함된 노쇼핑·노옵션 일정입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 가고시마 18홀",
+        "desc": "김해국제공항 출발(제주항공 7C1851, 08:20) → 가고시마 국제공항 도착(09:40) → 송영 차량으로 골프장 이동(약 50분) → 치란CC 또는 동급 18홀 라운딩(카트 + 셀프 플레이 / 일몰 플레이) → 호텔 투숙, 개별 석식 / 온천 대욕장 [숙소: 가고시마 썬로열 호텔]"
+      },
+      {
+        "day": "2~3일차",
+        "label": "가고시마 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동(30~60분) → 치란·난코쿠CC 또는 동급 18홀 라운딩(카트 + 셀프 플레이) → 호텔 투숙, 개별 석식 / 온천 대욕장 [조식 호텔 / 중식·석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "가고시마 → 부산",
+        "desc": "호텔 조식 후 체크아웃 → 공항 이동(약 60분) → 공항 도착 및 출국 수속 → 가고시마 국제공항 출발(7C1852, 10:40) → 김해국제공항 도착(12:00) [조식 호텔]"
+      }
+    ],
+    "highlights": [
+      "제주항공 부산-가고시마 직항 전세기 · 1/9~2/20 매주 토요일 출발",
+      "사쿠라지마 뷰 썬로열 호텔 3박",
+      "치란·난코쿠CC 또는 동급 18홀 x 3회 (54홀)",
+      "첫날 도착 후 바로 18홀 · 그린피·카트 포함",
+      "노쇼핑·노옵션 · 4인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (제주항공 전세기)",
+      "사쿠라지마 뷰 썬로열 호텔 (2인 1실)",
+      "전 일정 호텔 조식",
+      "18홀 그린피 3회 + 카트 (4인 1카트)",
+      "왕복 송영 차량",
+      "여행자보험"
+    ],
+    "seoIntro": "부산 출발 가고시마 골프여행으로, 제주항공 직항 전세기를 타고 사쿠라지마 뷰 썬로열 호텔에 3박하며 치란CC·난코쿠CC 또는 동급 골프장에서 54홀을 라운딩하는 3박4일 상품입니다.",
+    "departurePrices": [
+      {
+        "date": "2027-01-09",
+        "price": 1479000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1479000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1479000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1479000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1579000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1479000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1479000
+      }
+    ],
+    "price": "1,479,000원~",
+    "title": "[부산출발] 일본 가고시마 골프여행 썬로열 호텔 치란·난코쿠CC 3박4일 54홀 제주항공 직항 1,479,000원부터",
+    "displayTitle": "가고시마 썬로열 호텔 치란·난코쿠CC 골프여행 3박4일"
+  },
+  {
     "id": "thailand-bangkok-sunvalley-busan",
     "country": "태국",
     "countryCode": "thailand",
@@ -53099,6 +53717,424 @@
     "price": "1,099,000원~",
     "title": "[부산출발] 말레이시아 코타키나발루 골프여행 보르네오CC 무제한 4박6일 매일36홀 1,099,000원부터",
     "displayTitle": "보르네오CC 무제한 골프여행 4박6일"
+  },
+  {
+    "country": "말레이시아",
+    "countryCode": "malaysia",
+    "region": "코타키나발루",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-10-27",
+    "courses": 1,
+    "minPeople": "2인",
+    "hotel": "수트라하버 리조트 퍼시픽 수트라 호텔 골프뷰 (5성급, 2인 1실)",
+    "hotelDesc": "코타키나발루 시내와 가까운 5성급 수트라하버 리조트의 퍼시픽 수트라 호텔 골프뷰 객실(2인 1실)에서 머뭅니다. 공항에서 차로 약 10분 거리이고, 골프장까지는 리조트 셔틀로 약 3분입니다. 리조트 안에 마리나와 수영장이 있어 라운드 후 쉬기 좋고, 조식은 리조트에서 먹습니다.",
+    "golfCourse": "수트라하버CC (Sutera Harbour Golf & Country Club)",
+    "golfCourseDesc": "그레이엄 마시가 설계한 27홀(레이크·헤리티지·가든 코스) 골프장으로, 수트라하버 리조트 안에 있어 리조트 셔틀로 약 3분이면 도착합니다. 매일 18홀씩 셀프 플레이(2인 1카트, 노캐디) 기준이며 그린피와 카트비가 포함됩니다.",
+    "excludes": [
+      "공항 미팅·샌딩 (1인 $50)",
+      "캐디피 (18홀 1인 30,000원, 2인 1캐디 기준, 캐디 이용 시 사전 예약·사전 지불) / 캐디팁 ($8, 현지 지불)",
+      "클럽 중식·석식",
+      "싱글 차지 (1실 1박 145,000원) / 싱글 카트비 (18홀 1인 30,000원)",
+      "주말·현지 공휴일 라운딩 추가요금 (18홀 1인 40,000원 - 12/24~25, 1/1, 2/6~8은 주말 요금)",
+      "리조트 추가요금 (1실 1박 12/31 100,000원, 1/1~1/2·2/2~2/11 70,000원)",
+      "2/5 투숙 시 리조트 의무 디너 (1인 90,000원, 싱글룸은 2인분)",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "출발일마다 요금이 다르니 달력에서 날짜별 요금을 확인해 주세요.",
+      "18시 레이트 체크아웃은 선착순 제공이며, 체크아웃일이 12/23~1/1, 2/6~2/8인 경우에는 제공되지 않습니다.",
+      "2인 라운드가 가능하나 현지 상황에 따라 다른 팀과 조인될 수 있습니다. 공항 미팅·차량도 조인 행사로 진행됩니다.",
+      "예약 접수 후 담당자 확인 전화로 예약이 확정됩니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변동될 수 있습니다."
+    ],
+    "image": "/images/kota-sutera-busan/course-1.jpg",
+    "images": [
+      "/images/kota-sutera-busan/course-1.jpg",
+      "/images/kota-sutera-busan/course-3.jpg",
+      "/images/kota-sutera-busan/hotel-1.jpg",
+      "/images/kota-sutera-busan/course-2.jpg",
+      "/images/kota-sutera-busan/hotel-2.jpg",
+      "/images/kota-sutera-busan/course-5.jpg"
+    ],
+    "courseImages": [
+      "/images/kota-sutera-busan/course-1.jpg",
+      "/images/kota-sutera-busan/course-2.jpg",
+      "/images/kota-sutera-busan/course-3.jpg",
+      "/images/kota-sutera-busan/course-4.jpg",
+      "/images/kota-sutera-busan/course-5.jpg",
+      "/images/kota-sutera-busan/course-6.jpg",
+      "/images/kota-sutera-busan/course-7.jpg",
+      "/images/kota-sutera-busan/course-8.jpg"
+    ],
+    "hotelImages": [
+      "/images/kota-sutera-busan/hotel-1.jpg",
+      "/images/kota-sutera-busan/hotel-2.jpg",
+      "/images/kota-sutera-busan/hotel-3.jpg",
+      "/images/kota-sutera-busan/hotel-4.jpg",
+      "/images/kota-sutera-busan/hotel-5.jpg",
+      "/images/kota-sutera-busan/hotel-6.jpg"
+    ],
+    "seoKeywords": [
+      "코타키나발루골프",
+      "코타키나발루골프여행",
+      "수트라하버CC",
+      "수트라하버리조트",
+      "부산출발",
+      "2인골프"
+    ],
+    "id": "malaysia-kota-sutera-busan",
+    "nights": 3,
+    "days": 5,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)",
+    "subtitle": "에어부산 김해-코타키나발루 직항 · 수트라하버 리조트 퍼시픽 골프뷰 3박 · 수트라하버CC 매일 18홀 · 조식 3회 · 그린피·카트비 포함 · 2인 출발",
+    "period": "2026년 12월 10일 ~ 2027년 2월 25일 (매주 수·목 출발)",
+    "productSummary": "에어부산 직항으로 코타키나발루에 가서 시내 가까운 5성급 수트라하버 리조트에 3박하며, 리조트 안 수트라하버CC에서 매일 18홀씩 총 54홀을 라운딩하는 상품입니다.\n그린피와 카트비, 조식이 포함되고 2인부터 출발할 수 있는 노쇼핑·노옵션 일정입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 코타키나발루",
+        "desc": "김해국제공항 출발(BX673, 19:00) → 코타키나발루 국제공항 도착(23:05) → 차량으로 리조트 이동(약 10분) → 체크인 및 휴식 [숙소: 수트라하버 리조트 퍼시픽 골프뷰]"
+      },
+      {
+        "day": "2~3일차",
+        "label": "수트라하버CC 18홀",
+        "desc": "리조트 조식 → 리조트 셔틀로 골프장 이동(약 3분) → 수트라하버CC 18홀 라운딩 → 리조트 휴식 [조식 리조트 / 중식·석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "18홀 → 공항",
+        "desc": "리조트 조식 → 수트라하버CC 18홀 라운딩 → 자유 시간(18시 레이트 체크아웃은 선착순, 체크아웃일 12/23~1/1·2/6~2/8 제외) → 공항 이동 [조식 리조트]"
+      },
+      {
+        "day": "5일차",
+        "label": "코타키나발루 → 부산",
+        "desc": "코타키나발루 국제공항 출발(BX674, 00:05) → 김해국제공항 도착(06:20)"
+      }
+    ],
+    "highlights": [
+      "에어부산 김해-코타키나발루 직항",
+      "수트라하버 리조트 퍼시픽 골프뷰 3박 (5성급)",
+      "수트라하버CC 매일 18홀, 총 54홀",
+      "그린피·카트비·조식 포함 · 18시 레이트 체크아웃(선착순, 일부 날짜 제외)",
+      "2인 출발 · 노쇼핑·노옵션"
+    ],
+    "includes": [
+      "왕복 항공권, 유류할증료 및 텍스",
+      "수트라하버 리조트 퍼시픽 골프뷰 (2인 1실)",
+      "호텔 조식 3회",
+      "18홀 그린피 3회 (셀프 플레이 기준)",
+      "카트비 (2인 1카트)",
+      "말레이시아 관광세",
+      "18시 레이트 체크아웃 (선착순, 체크아웃일 12/23~1/1·2/6~2/8 제외)",
+      "여행자보험"
+    ],
+    "seoIntro": "부산 출발 코타키나발루 골프여행으로, 5성급 수트라하버 리조트에 3박하며 수트라하버CC에서 매일 18홀씩 54홀을 라운딩하는 2인 출발 3박5일 상품입니다.",
+    "departurePrices": [
+      {
+        "date": "2026-12-10",
+        "price": 1349000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1349000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1349000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1549000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1549000
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1549000
+      },
+      {
+        "date": "2026-12-31",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1499000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1499000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1799000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1449000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1449000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1649000
+      }
+    ],
+    "price": "1,349,000원~",
+    "title": "[부산출발] 말레이시아 코타키나발루 골프여행 수트라하버CC 매일 18홀 3박5일 54홀 5성급 리조트 2인 출발 1,349,000원부터",
+    "displayTitle": "수트라하버 리조트 골프여행 3박5일"
+  },
+  {
+    "country": "말레이시아",
+    "countryCode": "malaysia",
+    "region": "코타키나발루",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-10-27",
+    "courses": 1,
+    "minPeople": "2인",
+    "hotel": "수트라하버 리조트 퍼시픽 수트라 호텔 골프뷰 (5성급, 2인 1실)",
+    "hotelDesc": "코타키나발루 시내와 가까운 5성급 수트라하버 리조트의 퍼시픽 수트라 호텔 골프뷰 객실(2인 1실)에서 머뭅니다. 공항에서 차로 약 10분 거리이고, 골프장까지는 리조트 셔틀로 약 3분입니다. 리조트 안에 마리나와 수영장이 있어 라운드 후 쉬기 좋고, 조식은 리조트에서 먹습니다.",
+    "golfCourse": "수트라하버CC (Sutera Harbour Golf & Country Club)",
+    "golfCourseDesc": "그레이엄 마시가 설계한 27홀(레이크·헤리티지·가든 코스) 골프장으로, 수트라하버 리조트 안에 있어 리조트 셔틀로 약 3분이면 도착합니다. 매일 18홀씩 셀프 플레이(2인 1카트, 노캐디) 기준이며 그린피와 카트비가 포함됩니다.",
+    "excludes": [
+      "공항 미팅·샌딩 (1인 $50)",
+      "캐디피 (18홀 1인 30,000원, 2인 1캐디 기준, 캐디 이용 시 사전 예약·사전 지불) / 캐디팁 ($8, 현지 지불)",
+      "클럽 중식·석식",
+      "싱글 차지 (1실 1박 145,000원) / 싱글 카트비 (18홀 1인 30,000원)",
+      "주말·현지 공휴일 라운딩 추가요금 (18홀 1인 40,000원 - 12/24~25, 1/1, 2/6~8은 주말 요금)",
+      "리조트 추가요금 (1실 1박 12/31 100,000원, 1/1~1/2·2/2~2/11 70,000원)",
+      "2/5 투숙 시 리조트 의무 디너 (1인 90,000원, 싱글룸은 2인분)",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "출발일마다 요금이 다르니 달력에서 날짜별 요금을 확인해 주세요.",
+      "18시 레이트 체크아웃은 선착순 제공이며, 체크아웃일이 12/23~1/1, 2/6~2/8인 경우에는 제공되지 않습니다.",
+      "2인 라운드가 가능하나 현지 상황에 따라 다른 팀과 조인될 수 있습니다. 공항 미팅·차량도 조인 행사로 진행됩니다.",
+      "예약 접수 후 담당자 확인 전화로 예약이 확정됩니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변동될 수 있습니다."
+    ],
+    "image": "/images/kota-sutera-busan/course-1.jpg",
+    "images": [
+      "/images/kota-sutera-busan/course-1.jpg",
+      "/images/kota-sutera-busan/course-3.jpg",
+      "/images/kota-sutera-busan/hotel-1.jpg",
+      "/images/kota-sutera-busan/course-2.jpg",
+      "/images/kota-sutera-busan/hotel-2.jpg",
+      "/images/kota-sutera-busan/course-5.jpg"
+    ],
+    "courseImages": [
+      "/images/kota-sutera-busan/course-1.jpg",
+      "/images/kota-sutera-busan/course-2.jpg",
+      "/images/kota-sutera-busan/course-3.jpg",
+      "/images/kota-sutera-busan/course-4.jpg",
+      "/images/kota-sutera-busan/course-5.jpg",
+      "/images/kota-sutera-busan/course-6.jpg",
+      "/images/kota-sutera-busan/course-7.jpg",
+      "/images/kota-sutera-busan/course-8.jpg"
+    ],
+    "hotelImages": [
+      "/images/kota-sutera-busan/hotel-1.jpg",
+      "/images/kota-sutera-busan/hotel-2.jpg",
+      "/images/kota-sutera-busan/hotel-3.jpg",
+      "/images/kota-sutera-busan/hotel-4.jpg",
+      "/images/kota-sutera-busan/hotel-5.jpg",
+      "/images/kota-sutera-busan/hotel-6.jpg"
+    ],
+    "seoKeywords": [
+      "코타키나발루골프",
+      "코타키나발루골프여행",
+      "수트라하버CC",
+      "수트라하버리조트",
+      "부산출발",
+      "2인골프"
+    ],
+    "id": "malaysia-kota-sutera-busan-4n6d",
+    "nights": 4,
+    "days": 6,
+    "roundsIncluded": 4,
+    "holes": "72홀 (18홀 x 4회)",
+    "subtitle": "에어부산 김해-코타키나발루 직항 · 수트라하버 리조트 퍼시픽 골프뷰 4박 · 수트라하버CC 매일 18홀 · 조식 4회 · 그린피·카트비 포함 · 2인 출발",
+    "period": "2026년 12월 12일 ~ 2027년 2월 21일 (매주 토·일 출발)",
+    "productSummary": "에어부산 직항으로 코타키나발루에 가서 시내 가까운 5성급 수트라하버 리조트에 4박하며, 리조트 안 수트라하버CC에서 매일 18홀씩 총 72홀을 라운딩하는 상품입니다.\n그린피와 카트비, 조식이 포함되고 2인부터 출발할 수 있는 노쇼핑·노옵션 일정입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 코타키나발루",
+        "desc": "김해국제공항 출발(BX673, 19:00) → 코타키나발루 국제공항 도착(23:05) → 차량으로 리조트 이동(약 10분) → 체크인 및 휴식 [숙소: 수트라하버 리조트 퍼시픽 골프뷰]"
+      },
+      {
+        "day": "2~4일차",
+        "label": "수트라하버CC 18홀",
+        "desc": "리조트 조식 → 리조트 셔틀로 골프장 이동(약 3분) → 수트라하버CC 18홀 라운딩 → 리조트 휴식 [조식 리조트 / 중식·석식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "18홀 → 공항",
+        "desc": "리조트 조식 → 수트라하버CC 18홀 라운딩 → 자유 시간(18시 레이트 체크아웃은 선착순, 체크아웃일 12/23~1/1·2/6~2/8 제외) → 공항 이동 [조식 리조트]"
+      },
+      {
+        "day": "6일차",
+        "label": "코타키나발루 → 부산",
+        "desc": "코타키나발루 국제공항 출발(BX674, 00:05) → 김해국제공항 도착(06:20)"
+      }
+    ],
+    "highlights": [
+      "에어부산 김해-코타키나발루 직항",
+      "수트라하버 리조트 퍼시픽 골프뷰 4박 (5성급)",
+      "수트라하버CC 매일 18홀, 총 72홀",
+      "그린피·카트비·조식 포함 · 18시 레이트 체크아웃(선착순, 일부 날짜 제외)",
+      "2인 출발 · 노쇼핑·노옵션"
+    ],
+    "includes": [
+      "왕복 항공권, 유류할증료 및 텍스",
+      "수트라하버 리조트 퍼시픽 골프뷰 (2인 1실)",
+      "호텔 조식 4회",
+      "18홀 그린피 4회 (셀프 플레이 기준)",
+      "카트비 (2인 1카트)",
+      "말레이시아 관광세",
+      "18시 레이트 체크아웃 (선착순, 체크아웃일 12/23~1/1·2/6~2/8 제외)",
+      "여행자보험"
+    ],
+    "seoIntro": "부산 출발 코타키나발루 골프여행으로, 5성급 수트라하버 리조트에 4박하며 수트라하버CC에서 매일 18홀씩 72홀을 라운딩하는 2인 출발 4박6일 상품입니다.",
+    "departurePrices": [
+      {
+        "date": "2026-12-12",
+        "price": 1449000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1449000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1699000
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1699000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1699000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1699000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1699000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1699000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1699000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1699000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1599000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1599000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 2099000
+      },
+      {
+        "date": "2027-02-07",
+        "price": 1849000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1599000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1599000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1699000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1699000
+      }
+    ],
+    "price": "1,449,000원~",
+    "title": "[부산출발] 말레이시아 코타키나발루 골프여행 수트라하버CC 매일 18홀 4박6일 72홀 5성급 리조트 2인 출발 1,449,000원부터",
+    "displayTitle": "수트라하버 리조트 골프여행 4박6일"
   },
   {
     "id": "vietnam-danang-muongthanh-busan",
