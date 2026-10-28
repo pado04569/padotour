@@ -55128,6 +55128,1095 @@
     "displayTitle": "라오스 비엔티안 고품격 골프여행 4박6일"
   },
   {
+    "id": "laos-vientiane-value-busan",
+    "country": "라오스",
+    "countryCode": "other",
+    "region": "비엔티안",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-10-28",
+    "subtitle": "제주항공 김해-비엔티안 직항 전세기(수하물 20KG) · S2 모던 부티크 호텔 또는 라오텔 3박 · 라오CC · 메콩CC · 부영CC 18홀 x 3회 · 그린피 포함(캐디피·카트비 현지 지불) · 조식·석식 포함 · 전신 마사지 60분",
+    "nights": 3,
+    "days": 5,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)",
+    "minPeople": "4인",
+    "period": "2026년 12월 30일 ~ 2027년 2월 25일 (지정일 수·목 출발)",
+    "hotel": "S2 모던 부티크 호텔 또는 라오텔 (또는 동급, 2인 1실)",
+    "hotelDesc": "실속 일정은 비엔티안 시내의 S2 모던 부티크 호텔 또는 라오텔(또는 동급)에서 머뭅니다. S2 모던 부티크 호텔은 야외 수영장과 체육관을 갖춘 부티크 호텔입니다. 조식은 호텔에서, 석식은 삼겹살·라오수끼·등갈비 김치찜 등으로 매일 포함됩니다.",
+    "golfCourse": "라오CC · 메콩CC · 부영CC (18홀 x 3회)",
+    "golfCourseDesc": "라오CC·메콩CC·부영CC에서 하루 18홀씩 3회 라운딩합니다. 그린피만 포함되어 캐디피·캐디팁·전동카트 비용은 현지에서 내십니다. 라오CC는 카트 없이 걸어서 라운딩하는 코스입니다.",
+    "productSummary": "제주항공 전세기로 부산에서 라오스 비엔티안까지 직항으로 가서, S2 모던 부티크 호텔 또는 라오텔에 3박하며 라오CC · 메콩CC · 부영CC에서 18홀씩 3회 라운딩하는 실속 일정입니다.\n조식·석식과 전신 마사지 60분, 야시장 관광이 포함되고 8명 기준 요금이며 4명부터 출발할 수 있습니다(추가요금).",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 비엔티안",
+        "desc": "김해국제공항 출발(제주항공 전세기 7C2473, 21:00) → 비엔티안 국제공항(왓따이) 도착(다음 날 00:25) → 가이드 미팅 후 호텔 체크인 및 휴식 [숙소: S2 모던 부티크 호텔 또는 라오텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 라오CC · 메콩CC · 부영CC 중 18홀 라운딩 → 전신 마사지 60분 → 석식 후 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 라오CC · 메콩CC · 부영CC 중 18홀 라운딩 → 석식 후 커피 시음·열대과일 시식 → 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 라오CC · 메콩CC · 부영CC 중 18홀 라운딩 → 석식 후 야시장·짜오아누봉 공원 관광 → 공항으로 이동 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "비엔티안 → 부산",
+        "desc": "(전날 공항으로 이동) 비엔티안 국제공항 출발(7C2474, 01:25) → 김해국제공항 도착(07:50)"
+      }
+    ],
+    "highlights": [
+      "제주항공 김해-비엔티안 직항 전세기 · 수하물 20KG",
+      "라오CC · 메콩CC · 부영CC 18홀 x 3회 (54홀)",
+      "그린피 포함(캐디피·카트비 현지 지불)",
+      "S2 모던 부티크 호텔 또는 라오텔 · 조식·석식 포함",
+      "전신 마사지 60분 · 야시장 관광 · 수·목 출발 · 4명부터(8명 기준 요금)"
+    ],
+    "includes": [
+      "우리 일행만 단독 행사",
+      "왕복 항공권(제주항공 전세기), 유류할증료(11월 기준) 및 텍스, 수하물 20KG",
+      "S2 모던 부티크 호텔 또는 라오텔 (또는 동급, 2인 1실)",
+      "전 일정 호텔 조식, 석식",
+      "18홀 주중 그린피 3회",
+      "전용 차량 · 한국인 가이드",
+      "전신 마사지 60분, 야시장·짜오아누봉 공원 관광",
+      "여행자보험"
+    ],
+    "excludes": [
+      "기사·가이드 경비 (1인 $50)",
+      "캐디피 (18홀 1인 $30)",
+      "캐디팁 (18홀 1인 $15, 메콩CC는 2인 1캐디 $10)",
+      "전동카트 (18홀 1인 $20) / 싱글카트 18홀 $15~$25 (레이크뷰CC $25)",
+      "클럽 중식",
+      "주말·공휴일 라운딩 추가 (1일 1인 $15)",
+      "호텔 싱글 차지 (1인 전 일정 100,000원)",
+      "노쇼핑 진행 시 1인 120,000원 추가",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "8명 기준 요금이며, 4명이 출발하시면 1인 60,000원이 추가됩니다.",
+      "쇼핑센터 2곳(침향·노니 / 잡화)을 방문하는 일정입니다.",
+      "메콩·부영CC 대신 롱비엔CC로 바꾸시면 1인 75,000원, 레이크뷰CC로 바꾸시면 1인 50,000원 추가됩니다.",
+      "제주항공 전세기 하드블럭 좌석이라 예약 후 예약금 1인 300,000원을 입금하셔야 예약이 확정됩니다.",
+      "정해진 일정 외 개별 일정을 진행하시면 1인 $100가 추가됩니다.",
+      "라오스는 전자담배 단속이 강화되어 공항·거리에서 적발 시 압수·벌금이 부과될 수 있습니다.",
+      "11월 유류할증료 기준 요금이며, 일정은 항공 및 현지 골프장 사정에 의해 변동될 수 있습니다."
+    ],
+    "seoIntro": "부산 출발 라오스 비엔티안 골프여행 실속 일정으로, 제주항공 직항 전세기를 타고 라오CC · 메콩CC · 부영CC에서 18홀씩 3회 라운딩하는 3박5일 상품입니다.",
+    "seoKeywords": [
+      "라오스골프",
+      "비엔티안골프",
+      "라오스골프여행",
+      "비엔티엔골프",
+      "부산출발",
+      "겨울골프"
+    ],
+    "image": "/images/vientiane-busan/course-lao-1.jpg",
+    "images": [
+      "/images/vientiane-busan/course-lao-1.jpg",
+      "/images/vientiane-busan/course-mekong-1.jpg",
+      "/images/vientiane-busan/hotel-s2-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/hotel-s2-2.jpg",
+      "/images/vientiane-busan/course-booyoung-3.jpg"
+    ],
+    "courseImages": [
+      "/images/vientiane-busan/course-lao-1.jpg",
+      "/images/vientiane-busan/course-mekong-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/course-lao-2.jpg",
+      "/images/vientiane-busan/course-mekong-2.jpg",
+      "/images/vientiane-busan/course-booyoung-2.jpg",
+      "/images/vientiane-busan/course-lao-3.jpg",
+      "/images/vientiane-busan/course-booyoung-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/vientiane-busan/hotel-s2-1.jpg",
+      "/images/vientiane-busan/hotel-s2-2.jpg",
+      "/images/vientiane-busan/hotel-s2-3.jpg",
+      "/images/vientiane-busan/hotel-s2-4.jpg",
+      "/images/vientiane-busan/hotel-s2-5.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-30",
+        "price": 979000
+      },
+      {
+        "date": "2026-12-31",
+        "price": 979000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1149000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1149000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1149000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1029000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1049000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1049000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1049000
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1149000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1129000
+      }
+    ],
+    "price": "979,000원~",
+    "title": "[부산출발] 라오스 비엔티안 골프여행 실속 라오·메콩·부영 3박5일 54홀 제주항공 전세기 979,000원부터",
+    "displayTitle": "라오스 비엔티안 실속 골프여행 3박5일"
+  },
+  {
+    "id": "laos-vientiane-value-busan-4n6d",
+    "country": "라오스",
+    "countryCode": "other",
+    "region": "비엔티안",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-10-28",
+    "subtitle": "제주항공 김해-비엔티안 직항 전세기(수하물 20KG) · S2 모던 부티크 호텔 또는 라오텔 4박 · 라오CC · 메콩CC · 부영CC · 레이크뷰CC 18홀 x 4회 · 그린피 포함(캐디피·카트비 현지 지불) · 조식·석식 포함 · 전신 마사지 60분",
+    "nights": 4,
+    "days": 6,
+    "courses": 4,
+    "roundsIncluded": 4,
+    "holes": "72홀 (18홀 x 4회)",
+    "minPeople": "4인",
+    "period": "2027년 1월 2일 ~ 2027년 2월 21일 (지정일 토·일 출발)",
+    "hotel": "S2 모던 부티크 호텔 또는 라오텔 (또는 동급, 2인 1실)",
+    "hotelDesc": "실속 일정은 비엔티안 시내의 S2 모던 부티크 호텔 또는 라오텔(또는 동급)에서 머뭅니다. S2 모던 부티크 호텔은 야외 수영장과 체육관을 갖춘 부티크 호텔입니다. 조식은 호텔에서, 석식은 삼겹살·라오수끼·등갈비 김치찜 등으로 매일 포함됩니다.",
+    "golfCourse": "라오CC · 메콩CC · 부영CC · 레이크뷰CC (18홀 x 4회)",
+    "golfCourseDesc": "라오CC·메콩CC·부영CC 중 3회와 레이크뷰CC에서 하루 18홀씩 4회 라운딩합니다. 그린피만 포함되어 캐디피·캐디팁·전동카트 비용은 현지에서 내십니다. 라오CC는 카트 없이 걸어서 라운딩하는 코스입니다.",
+    "productSummary": "제주항공 전세기로 부산에서 라오스 비엔티안까지 직항으로 가서, S2 모던 부티크 호텔 또는 라오텔에 4박하며 라오CC · 메콩CC · 부영CC · 레이크뷰CC에서 18홀씩 4회 라운딩하는 실속 일정입니다.\n조식·석식과 전신 마사지 60분, 야시장 관광이 포함되고 8명 기준 요금이며 4명부터 출발할 수 있습니다(추가요금).",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 비엔티안",
+        "desc": "김해국제공항 출발(제주항공 전세기 7C2473, 21:00) → 비엔티안 국제공항(왓따이) 도착(다음 날 00:25) → 가이드 미팅 후 호텔 체크인 및 휴식 [숙소: S2 모던 부티크 호텔 또는 라오텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 라오CC · 메콩CC · 부영CC · 레이크뷰CC 중 18홀 라운딩 → 전신 마사지 60분 → 석식 후 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 라오CC · 메콩CC · 부영CC · 레이크뷰CC 중 18홀 라운딩 → 석식 후 커피 시음·열대과일 시식 → 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 라오CC · 메콩CC · 부영CC · 레이크뷰CC 중 18홀 라운딩 → 석식 후 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 라오CC · 메콩CC · 부영CC · 레이크뷰CC 중 18홀 라운딩 → 석식 후 야시장·짜오아누봉 공원 관광 → 공항으로 이동 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "6일차",
+        "label": "비엔티안 → 부산",
+        "desc": "(전날 공항으로 이동) 비엔티안 국제공항 출발(7C2474, 01:25) → 김해국제공항 도착(07:50)"
+      }
+    ],
+    "highlights": [
+      "제주항공 김해-비엔티안 직항 전세기 · 수하물 20KG",
+      "라오CC · 메콩CC · 부영CC · 레이크뷰CC 18홀 x 4회 (72홀)",
+      "그린피 포함(캐디피·카트비 현지 지불)",
+      "S2 모던 부티크 호텔 또는 라오텔 · 조식·석식 포함",
+      "전신 마사지 60분 · 야시장 관광 · 토·일 출발 · 4명부터(8명 기준 요금)"
+    ],
+    "includes": [
+      "우리 일행만 단독 행사",
+      "왕복 항공권(제주항공 전세기), 유류할증료(11월 기준) 및 텍스, 수하물 20KG",
+      "S2 모던 부티크 호텔 또는 라오텔 (또는 동급, 2인 1실)",
+      "전 일정 호텔 조식, 석식",
+      "18홀 주중 그린피 4회",
+      "전용 차량 · 한국인 가이드",
+      "전신 마사지 60분, 야시장·짜오아누봉 공원 관광",
+      "여행자보험"
+    ],
+    "excludes": [
+      "기사·가이드 경비 (1인 $60)",
+      "캐디피 (18홀 1인 $30)",
+      "캐디팁 (18홀 1인 $15, 메콩CC는 2인 1캐디 $10)",
+      "전동카트 (18홀 1인 $20) / 싱글카트 18홀 $15~$25 (레이크뷰CC $25)",
+      "클럽 중식",
+      "주말·공휴일 라운딩 추가 (1일 1인 $15)",
+      "호텔 싱글 차지 (1인 전 일정 135,000원)",
+      "노쇼핑 진행 시 1인 150,000원 추가",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "8명 기준 요금이며, 4명이 출발하시면 1인 85,000원이 추가됩니다.",
+      "쇼핑센터 2곳(침향·노니 / 잡화)을 방문하는 일정입니다.",
+      "메콩·부영CC 대신 롱비엔CC로 바꾸시면 1인 75,000원, 레이크뷰CC로 바꾸시면 1인 50,000원 추가됩니다.",
+      "제주항공 전세기 하드블럭 좌석이라 예약 후 예약금 1인 300,000원을 입금하셔야 예약이 확정됩니다.",
+      "정해진 일정 외 개별 일정을 진행하시면 1인 $100가 추가됩니다.",
+      "라오스는 전자담배 단속이 강화되어 공항·거리에서 적발 시 압수·벌금이 부과될 수 있습니다.",
+      "11월 유류할증료 기준 요금이며, 일정은 항공 및 현지 골프장 사정에 의해 변동될 수 있습니다."
+    ],
+    "seoIntro": "부산 출발 라오스 비엔티안 골프여행 실속 일정으로, 제주항공 직항 전세기를 타고 라오CC · 메콩CC · 부영CC · 레이크뷰CC에서 18홀씩 4회 라운딩하는 4박6일 상품입니다.",
+    "seoKeywords": [
+      "라오스골프",
+      "비엔티안골프",
+      "라오스골프여행",
+      "비엔티엔골프",
+      "부산출발",
+      "겨울골프"
+    ],
+    "image": "/images/vientiane-busan/course-lao-1.jpg",
+    "images": [
+      "/images/vientiane-busan/course-lao-1.jpg",
+      "/images/vientiane-busan/course-mekong-1.jpg",
+      "/images/vientiane-busan/hotel-s2-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/hotel-s2-2.jpg",
+      "/images/vientiane-busan/course-lakeview-3.jpg"
+    ],
+    "courseImages": [
+      "/images/vientiane-busan/course-lao-1.jpg",
+      "/images/vientiane-busan/course-mekong-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/course-lakeview-1.jpg",
+      "/images/vientiane-busan/course-lao-2.jpg",
+      "/images/vientiane-busan/course-mekong-2.jpg",
+      "/images/vientiane-busan/course-booyoung-2.jpg",
+      "/images/vientiane-busan/course-lakeview-2.jpg",
+      "/images/vientiane-busan/course-lao-3.jpg",
+      "/images/vientiane-busan/course-booyoung-3.jpg",
+      "/images/vientiane-busan/course-lakeview-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/vientiane-busan/hotel-s2-1.jpg",
+      "/images/vientiane-busan/hotel-s2-2.jpg",
+      "/images/vientiane-busan/hotel-s2-3.jpg",
+      "/images/vientiane-busan/hotel-s2-4.jpg",
+      "/images/vientiane-busan/hotel-s2-5.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-02",
+        "price": 929000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 929000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 949000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 949000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 949000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 949000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 949000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 949000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 949000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 949000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1079000
+      },
+      {
+        "date": "2027-02-07",
+        "price": 949000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 949000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 949000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 949000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 949000
+      }
+    ],
+    "price": "929,000원~",
+    "title": "[부산출발] 라오스 비엔티안 골프여행 실속 라오·메콩·부영·레이크뷰 4박6일 72홀 제주항공 전세기 929,000원부터",
+    "displayTitle": "라오스 비엔티안 실속 골프여행 4박6일"
+  },
+  {
+    "id": "laos-vientiane-standard-busan",
+    "country": "라오스",
+    "countryCode": "other",
+    "region": "비엔티안",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-10-28",
+    "subtitle": "제주항공 김해-비엔티안 직항 전세기(수하물 20KG) · 무엉탄 럭셔리 비엔티안 3박 · 롱비엔CC · 메콩CC · 부영CC 18홀 x 3회 · 캐디피·카트비 포함 · 조식·석식 포함 · 전신 마사지 60분",
+    "nights": 3,
+    "days": 5,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)",
+    "minPeople": "4인",
+    "period": "2026년 12월 30일 ~ 2027년 2월 25일 (지정일 수·목 출발)",
+    "hotel": "무엉탄 럭셔리 비엔티안 (2인 1실)",
+    "hotelDesc": "품격 일정은 시내 중심의 무엉탄 럭셔리 비엔티안에서 머뭅니다. 베트남 무엉탄 호텔 그룹의 첫 해외 호텔로 25층·331실 규모이고, 야외 수영장과 레스토랑을 갖추고 있습니다. 조식은 호텔에서, 석식은 삼겹살·신닷 고기구이·태국식 등으로 매일 포함됩니다.",
+    "golfCourse": "롱비엔CC · 메콩CC · 부영CC (18홀 x 3회)",
+    "golfCourseDesc": "27홀 규모의 롱비엔CC와 메콩CC·부영CC에서 하루 18홀씩 3회 라운딩합니다. 주중 그린피·캐디피·전동카트(2인 1카트)가 포함되며, 캐디팁·클럽 중식·주말 및 공휴일 추가비는 별도입니다.",
+    "productSummary": "제주항공 전세기로 부산에서 라오스 비엔티안까지 직항으로 가서, 무엉탄 럭셔리 비엔티안에 3박하며 롱비엔CC · 메콩CC · 부영CC에서 18홀씩 3회 라운딩하는 품격 일정입니다.\n조식·석식과 전신 마사지 60분, 야시장 관광이 포함되고 4명부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 비엔티안",
+        "desc": "김해국제공항 출발(제주항공 전세기 7C2473, 21:00) → 비엔티안 국제공항(왓따이) 도착(다음 날 00:25) → 가이드 미팅 후 호텔 체크인 및 휴식 [숙소: 무엉탄 럭셔리 비엔티안]"
+      },
+      {
+        "day": "2일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 롱비엔CC · 메콩CC · 부영CC 중 18홀 라운딩 → 전신 마사지 60분 → 석식 후 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 롱비엔CC · 메콩CC · 부영CC 중 18홀 라운딩 → 석식 후 커피 시음·열대과일 시식 → 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 롱비엔CC · 메콩CC · 부영CC 중 18홀 라운딩 → 석식 후 야시장·짜오아누봉 공원 관광 → 공항으로 이동 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "비엔티안 → 부산",
+        "desc": "(전날 공항으로 이동) 비엔티안 국제공항 출발(7C2474, 01:25) → 김해국제공항 도착(07:50)"
+      }
+    ],
+    "highlights": [
+      "제주항공 김해-비엔티안 직항 전세기 · 수하물 20KG",
+      "롱비엔CC · 메콩CC · 부영CC 18홀 x 3회 (54홀)",
+      "캐디피·카트비 포함",
+      "무엉탄 럭셔리 비엔티안 · 조식·석식 포함",
+      "전신 마사지 60분 · 야시장 관광 · 수·목 출발 · 4명부터"
+    ],
+    "includes": [
+      "4명부터 우리 일행만 단독 행사",
+      "왕복 항공권(제주항공 전세기), 유류할증료(11월 기준) 및 텍스, 수하물 20KG",
+      "무엉탄 럭셔리 비엔티안 (2인 1실)",
+      "전 일정 호텔 조식, 석식",
+      "18홀 주중 그린피+캐디피+전동카트(2인 1카트) 3회",
+      "전용 차량 · 한국인 가이드",
+      "전신 마사지 60분, 야시장·짜오아누봉 공원 관광",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디팁 (18홀 1인 $15, 메콩CC는 2인 1캐디 $10)",
+      "싱글카트 이용 시 18홀 $15~$25",
+      "클럽 중식",
+      "주말·공휴일 라운딩 추가 (1일 1인 $15)",
+      "호텔 싱글 차지 (1인 전 일정 135,000원)",
+      "노쇼핑 진행 시 1인 150,000원 추가",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "4명부터 출발하는 요금이며, 8명이 함께 가시면 1인 80,000원 낮아집니다.",
+      "쇼핑센터 2곳(침향·노니 / 잡화)을 방문하는 일정입니다.",
+      "메콩·부영CC 대신 레이크뷰CC로 바꾸시면 1인 50,000원 추가됩니다.",
+      "제주항공 전세기 하드블럭 좌석이라 예약 후 예약금 1인 300,000원을 입금하셔야 예약이 확정됩니다.",
+      "정해진 일정 외 개별 일정을 진행하시면 1인 $100가 추가됩니다.",
+      "라오스는 전자담배 단속이 강화되어 공항·거리에서 적발 시 압수·벌금이 부과될 수 있습니다.",
+      "11월 유류할증료 기준 요금이며, 일정은 항공 및 현지 골프장 사정에 의해 변동될 수 있습니다."
+    ],
+    "seoIntro": "부산 출발 라오스 비엔티안 골프여행 품격 일정으로, 제주항공 직항 전세기를 타고 롱비엔CC · 메콩CC · 부영CC에서 18홀씩 3회 라운딩하는 3박5일 상품입니다.",
+    "seoKeywords": [
+      "라오스골프",
+      "비엔티안골프",
+      "라오스골프여행",
+      "비엔티엔골프",
+      "부산출발",
+      "겨울골프"
+    ],
+    "image": "/images/vientiane-busan/course-longvien-1.jpg",
+    "images": [
+      "/images/vientiane-busan/course-longvien-1.jpg",
+      "/images/vientiane-busan/course-mekong-1.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-2.jpg",
+      "/images/vientiane-busan/course-booyoung-3.jpg"
+    ],
+    "courseImages": [
+      "/images/vientiane-busan/course-longvien-1.jpg",
+      "/images/vientiane-busan/course-mekong-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/course-longvien-2.jpg",
+      "/images/vientiane-busan/course-mekong-2.jpg",
+      "/images/vientiane-busan/course-booyoung-2.jpg",
+      "/images/vientiane-busan/course-longvien-3.jpg",
+      "/images/vientiane-busan/course-booyoung-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/vientiane-busan/hotel-muongthanh-1.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-2.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-3.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-4.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-5.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-6.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-30",
+        "price": 1399000
+      },
+      {
+        "date": "2026-12-31",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1449000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1499000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1499000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1499000
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1429000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1429000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1429000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1429000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1429000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1549000
+      }
+    ],
+    "price": "1,399,000원~",
+    "title": "[부산출발] 라오스 비엔티안 골프여행 품격 롱비엔·메콩·부영 3박5일 54홀 제주항공 전세기 1,399,000원부터",
+    "displayTitle": "라오스 비엔티안 품격 골프여행 3박5일"
+  },
+  {
+    "id": "laos-vientiane-standard-busan-4n6d",
+    "country": "라오스",
+    "countryCode": "other",
+    "region": "비엔티안",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-10-28",
+    "subtitle": "제주항공 김해-비엔티안 직항 전세기(수하물 20KG) · 무엉탄 럭셔리 비엔티안 4박 · 롱비엔CC · 메콩CC · 부영CC 18홀 x 4회 · 캐디피·카트비 포함 · 조식·석식 포함 · 전신 마사지 60분",
+    "nights": 4,
+    "days": 6,
+    "courses": 3,
+    "roundsIncluded": 4,
+    "holes": "72홀 (18홀 x 4회)",
+    "minPeople": "4인",
+    "period": "2027년 1월 2일 ~ 2027년 2월 21일 (지정일 토·일 출발)",
+    "hotel": "무엉탄 럭셔리 비엔티안 (2인 1실)",
+    "hotelDesc": "품격 일정은 시내 중심의 무엉탄 럭셔리 비엔티안에서 머뭅니다. 베트남 무엉탄 호텔 그룹의 첫 해외 호텔로 25층·331실 규모이고, 야외 수영장과 레스토랑을 갖추고 있습니다. 조식은 호텔에서, 석식은 삼겹살·신닷 고기구이·태국식 등으로 매일 포함됩니다.",
+    "golfCourse": "롱비엔CC · 메콩CC · 부영CC (18홀 x 4회)",
+    "golfCourseDesc": "27홀 규모의 롱비엔CC와 메콩CC·부영CC에서 하루 18홀씩 4회 라운딩합니다(롱비엔CC 2회). 주중 그린피·캐디피·전동카트(2인 1카트)가 포함되며, 캐디팁·클럽 중식·주말 및 공휴일 추가비는 별도입니다.",
+    "productSummary": "제주항공 전세기로 부산에서 라오스 비엔티안까지 직항으로 가서, 무엉탄 럭셔리 비엔티안에 4박하며 롱비엔CC · 메콩CC · 부영CC에서 18홀씩 4회 라운딩하는 품격 일정입니다.\n조식·석식과 전신 마사지 60분, 야시장 관광이 포함되고 4명부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 비엔티안",
+        "desc": "김해국제공항 출발(제주항공 전세기 7C2473, 21:00) → 비엔티안 국제공항(왓따이) 도착(다음 날 00:25) → 가이드 미팅 후 호텔 체크인 및 휴식 [숙소: 무엉탄 럭셔리 비엔티안]"
+      },
+      {
+        "day": "2일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 롱비엔CC · 메콩CC · 부영CC 중 18홀 라운딩 → 전신 마사지 60분 → 석식 후 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 롱비엔CC · 메콩CC · 부영CC 중 18홀 라운딩 → 석식 후 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 롱비엔CC · 메콩CC · 부영CC 중 18홀 라운딩 → 석식 후 커피 시음·열대과일 시식 → 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 롱비엔CC · 메콩CC · 부영CC 중 18홀 라운딩 → 석식 후 야시장·짜오아누봉 공원 관광 → 공항으로 이동 [조식 호텔 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "6일차",
+        "label": "비엔티안 → 부산",
+        "desc": "(전날 공항으로 이동) 비엔티안 국제공항 출발(7C2474, 01:25) → 김해국제공항 도착(07:50)"
+      }
+    ],
+    "highlights": [
+      "제주항공 김해-비엔티안 직항 전세기 · 수하물 20KG",
+      "롱비엔CC · 메콩CC · 부영CC 18홀 x 4회 (72홀)",
+      "캐디피·카트비 포함",
+      "무엉탄 럭셔리 비엔티안 · 조식·석식 포함",
+      "전신 마사지 60분 · 야시장 관광 · 토·일 출발 · 4명부터"
+    ],
+    "includes": [
+      "4명부터 우리 일행만 단독 행사",
+      "왕복 항공권(제주항공 전세기), 유류할증료(11월 기준) 및 텍스, 수하물 20KG",
+      "무엉탄 럭셔리 비엔티안 (2인 1실)",
+      "전 일정 호텔 조식, 석식",
+      "18홀 주중 그린피+캐디피+전동카트(2인 1카트) 4회",
+      "전용 차량 · 한국인 가이드",
+      "전신 마사지 60분, 야시장·짜오아누봉 공원 관광",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디팁 (18홀 1인 $15, 메콩CC는 2인 1캐디 $10)",
+      "싱글카트 이용 시 18홀 $15~$25",
+      "클럽 중식",
+      "주말·공휴일 라운딩 추가 (1일 1인 $15)",
+      "호텔 싱글 차지 (1인 전 일정 180,000원)",
+      "노쇼핑 진행 시 1인 170,000원 추가",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "4명부터 출발하는 요금이며, 8명이 함께 가시면 1인 80,000원 낮아집니다.",
+      "쇼핑센터 2곳(침향·노니 / 잡화)을 방문하는 일정입니다.",
+      "메콩·부영CC 대신 레이크뷰CC로 바꾸시면 1인 50,000원 추가됩니다. 랜드마크 호텔로 바꾸시면 1인 40,000원, 랏사봉·홀리데이인은 1인 60,000원 추가됩니다.",
+      "제주항공 전세기 하드블럭 좌석이라 예약 후 예약금 1인 300,000원을 입금하셔야 예약이 확정됩니다.",
+      "정해진 일정 외 개별 일정을 진행하시면 1인 $100가 추가됩니다.",
+      "라오스는 전자담배 단속이 강화되어 공항·거리에서 적발 시 압수·벌금이 부과될 수 있습니다.",
+      "11월 유류할증료 기준 요금이며, 일정은 항공 및 현지 골프장 사정에 의해 변동될 수 있습니다."
+    ],
+    "seoIntro": "부산 출발 라오스 비엔티안 골프여행 품격 일정으로, 제주항공 직항 전세기를 타고 롱비엔CC · 메콩CC · 부영CC에서 18홀씩 4회 라운딩하는 4박6일 상품입니다.",
+    "seoKeywords": [
+      "라오스골프",
+      "비엔티안골프",
+      "라오스골프여행",
+      "비엔티엔골프",
+      "부산출발",
+      "겨울골프"
+    ],
+    "image": "/images/vientiane-busan/course-longvien-1.jpg",
+    "images": [
+      "/images/vientiane-busan/course-longvien-1.jpg",
+      "/images/vientiane-busan/course-mekong-1.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-2.jpg",
+      "/images/vientiane-busan/course-booyoung-3.jpg"
+    ],
+    "courseImages": [
+      "/images/vientiane-busan/course-longvien-1.jpg",
+      "/images/vientiane-busan/course-mekong-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/course-longvien-2.jpg",
+      "/images/vientiane-busan/course-mekong-2.jpg",
+      "/images/vientiane-busan/course-booyoung-2.jpg",
+      "/images/vientiane-busan/course-longvien-3.jpg",
+      "/images/vientiane-busan/course-booyoung-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/vientiane-busan/hotel-muongthanh-1.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-2.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-3.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-4.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-5.jpg",
+      "/images/vientiane-busan/hotel-muongthanh-6.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-02",
+        "price": 1449000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1449000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1479000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1479000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1479000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1479000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1479000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1479000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1499000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1499000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1599000
+      },
+      {
+        "date": "2027-02-07",
+        "price": 1479000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1479000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1479000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1479000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1479000
+      }
+    ],
+    "price": "1,449,000원~",
+    "title": "[부산출발] 라오스 비엔티안 골프여행 품격 롱비엔·메콩·부영 4박6일 72홀 제주항공 전세기 1,449,000원부터",
+    "displayTitle": "라오스 비엔티안 품격 골프여행 4박6일"
+  },
+  {
+    "id": "laos-vientiane-multi-daegu",
+    "country": "라오스",
+    "countryCode": "other",
+    "region": "비엔티안",
+    "departure": "daegu",
+    "badge": "대구출발 신규",
+    "priceUpdatedDate": "2026-10-28",
+    "subtitle": "트리니티항공 대구-비엔티안 직항(1/7 첫 출발) · 시내 4성급 호텔 3박 · 라오·메콩·부영CC 18홀 x 3회 · 조식 포함 · 비어라오+망고 도시락 · 목요일 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)",
+    "minPeople": "4인",
+    "period": "2027년 1월 7일 ~ 2027년 2월 25일 (지정일 목요일 출발)",
+    "hotel": "S2 모던 부티크 호텔 · 랜드마크 라이프센터 · 라오텔 중 배정 (또는 동급, 2인 1실)",
+    "hotelDesc": "비엔티안 시내 4성급 호텔인 S2 모던 부티크 호텔·랜드마크 라이프센터·라오텔(또는 동급) 중 한 곳에 배정됩니다. 조식은 호텔에서 드시고, 라운딩 후 오후는 자유 일정이라 석식은 시내에서 자유롭게 드시면 됩니다.",
+    "golfCourse": "라오CC · 메콩CC · 부영CC (18홀 x 3회)",
+    "golfCourseDesc": "라오CC·메콩CC·부영CC 중 하루 18홀씩 3회 라운딩합니다. 그린피만 포함되어 캐디피·캐디팁·전동카트 비용은 현지에서 내시며, 라오CC는 카트 없이 걸어서 라운딩합니다. 라운딩 후 오후는 자유 일정입니다.",
+    "productSummary": "대구공항에서 밤 10시에 트리니티항공 직항으로 출발해 라오스 비엔티안 시내 4성급 호텔에 3박하며, 라오·메콩·부영CC에서 18홀씩 3회 라운딩하는 다색 골프 상품입니다.\n조식과 비어라오·망고 도시락이 포함되고 4명부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "대구 → 비엔티안",
+        "desc": "대구국제공항 출발(트리니티항공 TW0135, 22:00) → 비엔티안 국제공항(왓따이) 도착(다음 날 01:35) → 가이드 미팅 후 호텔 체크인 및 휴식 [숙소: S2 모던 부티크 호텔 · 랜드마크 라이프센터 · 라오텔 중 배정]"
+      },
+      {
+        "day": "2일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 라오CC · 메콩CC · 부영CC 중 18홀 라운딩 → 오후 자유 일정 → 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 라오CC · 메콩CC · 부영CC 중 18홀 라운딩 → 오후 자유 일정 → 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 라오CC · 메콩CC · 부영CC 중 18홀 라운딩 → 공항으로 이동 [조식 호텔 / 중식 불포함 / 석식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "비엔티안 → 대구",
+        "desc": "(전날 공항으로 이동) 비엔티안 국제공항 출발(TW0136, 02:35) → 대구국제공항 도착(09:00)"
+      }
+    ],
+    "highlights": [
+      "트리니티항공 대구-비엔티안 직항 · 수하물 15KG",
+      "다색 골프 18홀 x 3회 (54홀)",
+      "시내 4성급 호텔 (S2·랜드마크·라오텔 중)",
+      "비어라오 + 망고 도시락 · 한국인 가이드",
+      "목요일 출발 · 4명부터"
+    ],
+    "includes": [
+      "4명부터 우리 일행만 단독 행사",
+      "왕복 항공권(트리니티항공 대구-비엔티안 직항 전세기), 유류할증료(11월 기준) 및 텍스, 수하물 기내 10KG 1개 + 위탁 15KG(일반 짐·골프백 합산)",
+      "S2 모던 부티크 호텔 · 랜드마크 라이프센터 · 라오텔 중 배정 (또는 동급, 2인 1실)",
+      "전 일정 호텔 조식",
+      "18홀 주중 그린피 3회",
+      "전용 차량 · 한국인 가이드",
+      "비어라오 + 망고 도시락",
+      "여행자보험"
+    ],
+    "excludes": [
+      "기사·가이드 경비 (1인 $50)",
+      "캐디피 (18홀 1인 $30, 라오CC $40)",
+      "캐디팁 (18홀 1인 $15, 롱비엔CC $16)",
+      "전동카트 (18홀 1인 $20, 2인 1카트 / 싱글카트 $40) — 라오CC는 카트 없이 걸어서 라운딩",
+      "중식·석식, 기내식(유료), 클럽·슈즈 렌탈",
+      "호텔 싱글 차지 (1인 전 일정 165,000원)",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "전세기 좌석이라 예약 후 예약금 1인 500,000원을 입금하셔야 예약이 확정됩니다(예약 후 3일 이내).",
+      "탑승객 정보는 출발 6일 전 확정, 5일 전 발권되며, 출발 21일 전부터 취소하시면 항공료 전액이 취소수수료로 부과됩니다.",
+      "4명부터 출발합니다(2명 불가, 3명은 추가요금 문의).",
+      "골프장·호텔은 출발 3일 전 확정되며, 날짜별 골프장 순서·티업 시간은 지정할 수 없습니다. 성수기에는 4인 1카트·2인 1캐디로 진행될 수 있습니다.",
+      "쇼핑센터 1곳을 방문하며, 선택관광이 가능한 일정입니다.",
+      "라오스 전자입국신고(e-Arrival)를 도착 3일 전부터 immigration.gov.la 에서 작성해 QR코드를 준비해 주세요.",
+      "라오스는 전자담배 반입·사용이 금지되어 있습니다. 시차는 한국보다 2시간 느립니다.",
+      "11월 유류할증료 기준 요금이며, 일정은 항공 및 현지 골프장 사정에 의해 변동될 수 있습니다."
+    ],
+    "seoIntro": "대구 출발 라오스 비엔티안 골프여행으로, 트리니티항공 직항을 타고 라오·메콩·부영CC 등에서 18홀씩 3회 라운딩하는 3박5일 다색 골프 상품입니다.",
+    "seoKeywords": [
+      "라오스골프",
+      "비엔티안골프",
+      "라오스골프여행",
+      "비엔티엔골프",
+      "대구출발",
+      "겨울골프"
+    ],
+    "image": "/images/vientiane-busan/course-lao-1.jpg",
+    "images": [
+      "/images/vientiane-busan/course-lao-1.jpg",
+      "/images/vientiane-busan/course-mekong-1.jpg",
+      "/images/vientiane-busan/hotel-s2-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/hotel-s2-2.jpg",
+      "/images/vientiane-busan/course-booyoung-3.jpg"
+    ],
+    "courseImages": [
+      "/images/vientiane-busan/course-lao-1.jpg",
+      "/images/vientiane-busan/course-mekong-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/course-lao-2.jpg",
+      "/images/vientiane-busan/course-mekong-2.jpg",
+      "/images/vientiane-busan/course-booyoung-2.jpg",
+      "/images/vientiane-busan/course-lao-3.jpg",
+      "/images/vientiane-busan/course-booyoung-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/vientiane-busan/hotel-s2-1.jpg",
+      "/images/vientiane-busan/hotel-s2-2.jpg",
+      "/images/vientiane-busan/hotel-s2-3.jpg",
+      "/images/vientiane-busan/hotel-s2-4.jpg",
+      "/images/vientiane-busan/hotel-s2-5.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-07",
+        "price": 1029000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1059000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1059000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1029000
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1159000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1069000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1049000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1049000
+      }
+    ],
+    "price": "1,029,000원~",
+    "title": "[대구출발] 라오스 비엔티안 골프여행 다색 라오·메콩·부영 3박5일 54홀 트리니티항공 직항 1,029,000원부터",
+    "displayTitle": "라오스 비엔티안 다색 골프여행 3박5일 (대구)"
+  },
+  {
+    "id": "laos-vientiane-multi-daegu-4n6d",
+    "country": "라오스",
+    "countryCode": "other",
+    "region": "비엔티안",
+    "departure": "daegu",
+    "badge": "대구출발 신규",
+    "priceUpdatedDate": "2026-10-28",
+    "subtitle": "트리니티항공 대구-비엔티안 직항(1/10부터 일요일 출발) · 시내 4성급 호텔 4박 · 라오·메콩·부영CC + 롱비엔 또는 레이크뷰CC 18홀 x 4회 · 조식 포함 · 비어라오+망고 도시락 · 일요일 출발",
+    "nights": 4,
+    "days": 6,
+    "courses": 4,
+    "roundsIncluded": 4,
+    "holes": "72홀 (18홀 x 4회)",
+    "minPeople": "4인",
+    "period": "2027년 1월 10일 ~ 2027년 2월 21일 (지정일 일요일 출발)",
+    "hotel": "S2 모던 부티크 호텔 · 랜드마크 라이프센터 · 라오텔 중 배정 (또는 동급, 2인 1실)",
+    "hotelDesc": "비엔티안 시내 4성급 호텔인 S2 모던 부티크 호텔·랜드마크 라이프센터·라오텔(또는 동급) 중 한 곳에 배정됩니다. 조식은 호텔에서 드시고, 라운딩 후 오후는 자유 일정이라 석식은 시내에서 자유롭게 드시면 됩니다.",
+    "golfCourse": "라오CC · 메콩CC · 부영CC + 롱비엔CC 또는 레이크뷰CC (18홀 x 4회)",
+    "golfCourseDesc": "라오CC·메콩CC·부영CC 중 하루 18홀씩 3회, 마지막 날은 롱비엔CC 또는 레이크뷰CC에서 18홀 라운딩합니다. 그린피만 포함되어 캐디피·캐디팁·전동카트 비용은 현지에서 내시며, 라오CC는 카트 없이 걸어서 라운딩합니다. 라운딩 후 오후는 자유 일정입니다.",
+    "productSummary": "대구공항에서 밤 10시에 트리니티항공 직항으로 출발해 라오스 비엔티안 시내 4성급 호텔에 4박하며, 라오·메콩·부영CC 등에서 18홀씩 4회 라운딩하는 다색 골프 상품입니다.\n조식과 비어라오·망고 도시락이 포함되고 4명부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "대구 → 비엔티안",
+        "desc": "대구국제공항 출발(트리니티항공 TW0135, 22:00) → 비엔티안 국제공항(왓따이) 도착(다음 날 01:35) → 가이드 미팅 후 호텔 체크인 및 휴식 [숙소: S2 모던 부티크 호텔 · 랜드마크 라이프센터 · 라오텔 중 배정]"
+      },
+      {
+        "day": "2일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 라오CC · 메콩CC · 부영CC 중 18홀 라운딩 → 오후 자유 일정 → 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 라오CC · 메콩CC · 부영CC 중 18홀 라운딩 → 오후 자유 일정 → 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 라오CC · 메콩CC · 부영CC 중 18홀 라운딩 → 오후 자유 일정 → 호텔 투숙 [조식 호텔 / 중식 불포함 / 석식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "호텔 조식 → 골프장 이동 → 롱비엔CC 또는 레이크뷰CC 18홀 라운딩 → 공항으로 이동 [조식 호텔 / 중식 불포함 / 석식 불포함]"
+      },
+      {
+        "day": "6일차",
+        "label": "비엔티안 → 대구",
+        "desc": "(전날 공항으로 이동) 비엔티안 국제공항 출발(TW0136, 02:35) → 대구국제공항 도착(09:00)"
+      }
+    ],
+    "highlights": [
+      "트리니티항공 대구-비엔티안 직항 · 수하물 15KG",
+      "다색 골프 18홀 x 4회 (72홀)",
+      "시내 4성급 호텔 (S2·랜드마크·라오텔 중)",
+      "비어라오 + 망고 도시락 · 한국인 가이드",
+      "일요일 출발 · 4명부터"
+    ],
+    "includes": [
+      "4명부터 우리 일행만 단독 행사",
+      "왕복 항공권(트리니티항공 대구-비엔티안 직항 전세기), 유류할증료(11월 기준) 및 텍스, 수하물 기내 10KG 1개 + 위탁 15KG(일반 짐·골프백 합산)",
+      "S2 모던 부티크 호텔 · 랜드마크 라이프센터 · 라오텔 중 배정 (또는 동급, 2인 1실)",
+      "전 일정 호텔 조식",
+      "18홀 주중 그린피 4회",
+      "전용 차량 · 한국인 가이드",
+      "비어라오 + 망고 도시락",
+      "여행자보험"
+    ],
+    "excludes": [
+      "기사·가이드 경비 (1인 $60)",
+      "캐디피 (18홀 1인 $30, 라오CC $40)",
+      "캐디팁 (18홀 1인 $15, 롱비엔CC $16)",
+      "전동카트 (18홀 1인 $20, 2인 1카트 / 싱글카트 $40) — 라오CC는 카트 없이 걸어서 라운딩",
+      "중식·석식, 기내식(유료), 클럽·슈즈 렌탈",
+      "호텔 싱글 차지 (1인 전 일정 220,000원)",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "전세기 좌석이라 예약 후 예약금 1인 500,000원을 입금하셔야 예약이 확정됩니다(예약 후 3일 이내).",
+      "탑승객 정보는 출발 6일 전 확정, 5일 전 발권되며, 출발 21일 전부터 취소하시면 항공료 전액이 취소수수료로 부과됩니다.",
+      "4명부터 출발합니다(2명 불가, 3명은 추가요금 문의).",
+      "골프장·호텔은 출발 3일 전 확정되며, 날짜별 골프장 순서·티업 시간은 지정할 수 없습니다. 성수기에는 4인 1카트·2인 1캐디로 진행될 수 있습니다.",
+      "쇼핑센터 1곳을 방문하며, 선택관광이 가능한 일정입니다.",
+      "라오스 전자입국신고(e-Arrival)를 도착 3일 전부터 immigration.gov.la 에서 작성해 QR코드를 준비해 주세요.",
+      "라오스는 전자담배 반입·사용이 금지되어 있습니다. 시차는 한국보다 2시간 느립니다.",
+      "11월 유류할증료 기준 요금이며, 일정은 항공 및 현지 골프장 사정에 의해 변동될 수 있습니다."
+    ],
+    "seoIntro": "대구 출발 라오스 비엔티안 골프여행으로, 트리니티항공 직항을 타고 라오·메콩·부영CC 등에서 18홀씩 4회 라운딩하는 4박6일 다색 골프 상품입니다.",
+    "seoKeywords": [
+      "라오스골프",
+      "비엔티안골프",
+      "라오스골프여행",
+      "비엔티엔골프",
+      "대구출발",
+      "겨울골프"
+    ],
+    "image": "/images/vientiane-busan/course-lao-1.jpg",
+    "images": [
+      "/images/vientiane-busan/course-lao-1.jpg",
+      "/images/vientiane-busan/course-mekong-1.jpg",
+      "/images/vientiane-busan/hotel-s2-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/hotel-s2-2.jpg",
+      "/images/vientiane-busan/course-longvien-3.jpg"
+    ],
+    "courseImages": [
+      "/images/vientiane-busan/course-lao-1.jpg",
+      "/images/vientiane-busan/course-mekong-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/course-longvien-1.jpg",
+      "/images/vientiane-busan/course-lao-2.jpg",
+      "/images/vientiane-busan/course-mekong-2.jpg",
+      "/images/vientiane-busan/course-booyoung-2.jpg",
+      "/images/vientiane-busan/course-longvien-2.jpg",
+      "/images/vientiane-busan/course-lao-3.jpg",
+      "/images/vientiane-busan/course-booyoung-3.jpg",
+      "/images/vientiane-busan/course-longvien-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/vientiane-busan/hotel-s2-1.jpg",
+      "/images/vientiane-busan/hotel-s2-2.jpg",
+      "/images/vientiane-busan/hotel-s2-3.jpg",
+      "/images/vientiane-busan/hotel-s2-4.jpg",
+      "/images/vientiane-busan/hotel-s2-5.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-10",
+        "price": 999000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1029000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1029000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 959000
+      },
+      {
+        "date": "2027-02-07",
+        "price": 1129000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 999000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 999000
+      }
+    ],
+    "price": "959,000원~",
+    "title": "[대구출발] 라오스 비엔티안 골프여행 다색 라오·메콩·부영 외 4박6일 72홀 트리니티항공 직항 959,000원부터",
+    "displayTitle": "라오스 비엔티안 다색 골프여행 4박6일 (대구)"
+  },
+  {
     "id": "vietnam-hanoi-phoenix-busan",
     "country": "베트남",
     "countryCode": "vietnam",
