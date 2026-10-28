@@ -81,7 +81,7 @@ export default function RegionGeoMap({
         <svg viewBox={`${x} ${y} ${w} ${h}`} preserveAspectRatio="none" className="absolute inset-0 w-full h-full" role="img" aria-label="지역 위치 지도">
           <path d={geo.back} fill="#EDF1F4" stroke="#D5DDE4" strokeWidth={w / 1500} strokeLinejoin="round" />
           {geo.focus.map((f) => (
-            <path key={f.code} d={f.d} fill={f.code === countryCode || (countryCode === "other" && (f.code === "guam" || f.code === "saipan" || f.code === "other")) ? "#FDFEFD" : "#E9EFF3"} stroke="#C7D3DD" strokeWidth={w / 1300} strokeLinejoin="round" />
+            <path key={f.code} d={f.d} fill={f.code === countryCode || (countryCode === "other" && (f.code === "guam" || f.code === "saipan" || f.code === "other" || f.code === "taiwan" || f.code === "laos")) ? "#FDFEFD" : "#E9EFF3"} stroke="#C7D3DD" strokeWidth={w / 1300} strokeLinejoin="round" />
           ))}
         </svg>
       )}

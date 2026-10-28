@@ -60,7 +60,7 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
     address: {
       "@type": "PostalAddress",
       addressCountry:
-        ({ japan: "JP", china: "CN", thailand: "TH", vietnam: "VN", philippines: "PH", malaysia: "MY", taiwan: "TW", guam: "GU", saipan: "MP" } as Record<string, string>)[
+        ({ japan: "JP", china: "CN", thailand: "TH", vietnam: "VN", philippines: "PH", malaysia: "MY", laos: "LA", taiwan: "TW", guam: "GU", saipan: "MP" } as Record<string, string>)[
           course.countryCode
         ] ?? course.country,
       addressLocality: course.region,
