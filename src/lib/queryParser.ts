@@ -1,5 +1,5 @@
 import type { Tour } from "@/data/tours";
-import { isIsoDate, departureMap } from "./tourSearch";
+import { isIsoDate, departureMap, matchesNights, type NightsFilter } from "./tourSearch";
 import { DEP_NAME } from "./departure";
 
 /**
@@ -19,6 +19,7 @@ export type ParsedQuery = {
   country?: string; // countryCode
   region?: string; // 상품 데이터의 지역 이름
   people?: number;
+  nights?: NightsFilter; // "2박3일"·"3박" → 박수 조건 (5박 이상은 "5+")
   departure?: "incheon" | "busan" | "cheongju" | "daegu"; // "부산출발 일본"처럼 출발공항을 말한 경우
   keywords: string[]; // 위에 해당하지 않는 나머지 낱말
   understood: string[]; // 화면 안내용 "알아들은 것"
@@ -84,6 +85,16 @@ export function parseQuery(raw: string, today: string, tours: Tour[]): ParsedQue
   take(/(인천|부산|김해|청주|대구)\s*(?:공항)?\s*(?:출발|발)/, (m) => {
     out.departure = m[1] === "인천" ? "incheon" : m[1] === "청주" ? "cheongju" : m[1] === "대구" ? "daegu" : "busan";
   });
+  // 공항 이름만 쓴 경우: "부산 오사카"·"청주 일본" → 출발공항 (여행지 이름과 겹치는 곳이 없어 안전)
+  if (!out.departure) take(/(인천|부산|김해|청주|대구)\s*(?:공항)?(?=\s)/, (m) => {
+    out.departure = m[1] === "인천" ? "incheon" : m[1] === "청주" ? "cheongju" : m[1] === "대구" ? "daegu" : "busan";
+  });
+  // 박수: 2박3일 / 3박4일 / 3박 — 일수가 달라도 박만 같으면 같은 조건 (상품 목록의 여행기간 칸과 같은 규칙)
+  take(/(\d)\s*박(?:\s*(\d)\s*일)?/, (m) => {
+    const n = +m[1];
+    if (n >= 5 && n <= 8) out.nights = "5+";
+    else if (n >= 2 && n <= 4) out.nights = n as NightsFilter;
+  });
   // 인원: 2명 / 4인
   take(/(\d{1,2})\s*(명|인)/, (m) => {
     const n = +m[1];
@@ -122,6 +133,7 @@ export function parseQuery(raw: string, today: string, tours: Tour[]): ParsedQue
   if (out.month) out.understood.push(`${+out.month.slice(5)}월 출발`);
   if (out.region) out.understood.push(out.region);
   else if (out.country) out.understood.push(Object.entries(countryNames).find(([, c]) => c === out.country)?.[0] ?? out.country);
+  if (out.nights) out.understood.push(out.nights === "5+" ? "5박 이상" : `${out.nights}박`);
   if (out.people) out.understood.push(`${out.people}명`);
   if (out.departure) out.understood.push(DEP_NAME[out.departure]);
   for (const k of out.keywords) out.understood.push(`"${k}"`);
@@ -136,10 +148,11 @@ export function parseQuery(raw: string, today: string, tours: Tour[]): ParsedQue
 export function countSearchResults(raw: string, today: string, tours: Tour[]): number {
   const p = parseQuery(raw, today, tours);
   // "#골프패키지"처럼 거를 조건이 하나도 없으면 전체 목록이 나온다 — 관련 상품이 아니므로 0으로 본다
-  if (!p.departure && !p.country && !p.region && !p.month && !p.date && !p.keywords.length) return 0;
+  if (!p.departure && !p.country && !p.region && !p.month && !p.date && !p.nights && !p.keywords.length) return 0;
   return tours.filter((t) => {
     if (p.departure && t.departure !== p.departure && !(t.departure === "both" && (p.departure === "incheon" || p.departure === "busan"))) return false;
     if (p.country && t.countryCode !== p.country) return false;
+    if (p.nights && !matchesNights(t, p.nights)) return false;
     if (p.region) {
       const parts = p.region.split("/").map((x) => x.trim()).filter(Boolean);
       if (!t.region || !(t.region.includes(p.region) || parts.some((x) => t.region!.includes(x)))) return false;

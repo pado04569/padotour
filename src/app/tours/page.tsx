@@ -33,7 +33,7 @@ function ToursContent() {
   const hasPeople = Number.isInteger(peopleRaw) && peopleRaw >= 1 && peopleRaw <= 20;
   const people = hasPeople ? peopleRaw : 2;
   // 박수 — nights=3, nights=5+(5박 이상). 3박4일·3박5일처럼 일수가 달라도 박만 같으면 같은 칸 (사장님 지시 2026-10-13, 선택지 2026-10-25)
-  const nightsParam = parseNights(searchParams.get("nights"));
+  const nightsParam = parseNights(searchParams.get("nights")) || parsed?.nights || 0;
   const sortRaw = searchParams.get("sort");
   const sort: SortKey = sortRaw === "date" || sortRaw === "price" ? sortRaw : "recommend";
   // 검색 글에서 나온 "11월" 같은 달, 상품명·골프장에서 찾을 낱말
@@ -122,6 +122,17 @@ function ToursContent() {
   const NEAR_DAYS = 7;
   // 검색은 ±7일 전체, 화면에는 전후 균형 맞춰 최대 4개(2열×2행) — 항공 출발 패턴을 한눈에 (사장님 지시 10/10)
   const nearby = dateParam && filtered.length === 0 ? pickBalanced(datesWithin(listed.filter(fitsPeople), dateParam, today, NEAR_DAYS), 4) : [];
+  // 지역·낱말 때문에 0개일 때: 같은 출발공항·박수·날짜 조건으로 갈 수 있는 다른 지역 상품을 바로 보여준다 ("부산 구마모토 2박3일" → 오사카·마쓰야마 …)
+  const ALT_MAX = 6;
+  const altAll = (() => {
+    if (filtered.length > 0 || !(regionParam || selected !== "all")) return [] as Tour[];
+    const notAsked = (t: Tour) => !regionParam || !t.region || !(t.region.includes(regionParam) || regionParam.split("/").some((x) => x.trim() && t.region!.includes(x.trim())));
+    const list = pool.filter((t) => (selected === "all" || t.countryCode === selected) && notAsked(t) && matchesNights(t, nightsParam) && fitsPeople(t)
+      && (!dateParam || departureMap(t).has(dateParam))
+      && (!monthParam || [...departureMap(t).keys()].some((d) => d >= today && d.startsWith(monthParam))));
+    return sortTours(list, sort, today, dateParam || undefined);
+  })();
+  const altShown = altAll.slice(0, ALT_MAX);
   const countryName = countries.find((c) => c.code === selected)?.label ?? "전체";
   const monthText = monthParam ? `${+monthParam.slice(5)}월 출발` : "";
   const placeText = regionParam ? (regionParam === "괌" ? "괌/사이판" : regionParam) : selected === "all" ? "전체 여행지" : countryName;
@@ -239,6 +250,24 @@ function ToursContent() {
                 </div>
               </div>
             ) : null)}
+            {altShown.length > 0 && (
+              <div className="mt-5">
+                <h2 className="text-lg font-black text-slate-900">이런 상품은 어떠세요?</h2>
+                <p className="text-[15px] text-slate-600 mt-0.5 mb-3">
+                  {[depName, nightsParam ? nightsText(nightsParam) : "", dateParam ? dateLabel(dateParam) : monthText].filter(Boolean).join(" · ") || "같은 조건"} 일정으로 갈 수 있는 다른 여행지예요
+                </p>
+                <div className={grid}>{altShown.map(card)}</div>
+                {altAll.length > ALT_MAX && (
+                  <Link
+                    href={hrefWith({ region: "" })}
+                    scroll={false}
+                    className="mt-4 mx-auto flex w-fit items-center min-h-12 px-5 rounded-full border-[1.5px] border-emerald-500 bg-white text-emerald-800 text-[15px] font-bold hover:bg-emerald-50"
+                  >
+                    같은 조건 상품 {altAll.length}개 모두 보기 ›
+                  </Link>
+                )}
+              </div>
+            )}
             {/* 날짜가 맞지 않아 떠나실 고객을 상담으로 잇는 보조 영역.
                 전후 7일에도 없으면 안내와 카카오 상담을 한 카드로 합친다(노란 상자 2개 연속 금지 — 사장님 지시 10/10) */}
             {/* 가운데 정렬, 버튼은 글자 너비 그대로 가운데(mx-auto) — 사장님 지시 10/10 */}
