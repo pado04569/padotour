@@ -1,5 +1,6 @@
 import type { Tour } from "@/data/tours";
 import { isIsoDate, departureMap } from "./tourSearch";
+import { DEP_NAME } from "./departure";
 
 /**
  * 머리말 검색창의 글을 조건으로 바꾼다 — AI 없이 규칙만 (작업지시서 13-E, 2026-10-11)
@@ -122,7 +123,7 @@ export function parseQuery(raw: string, today: string, tours: Tour[]): ParsedQue
   if (out.region) out.understood.push(out.region);
   else if (out.country) out.understood.push(Object.entries(countryNames).find(([, c]) => c === out.country)?.[0] ?? out.country);
   if (out.people) out.understood.push(`${out.people}명`);
-  if (out.departure) out.understood.push(out.departure === "incheon" ? "인천출발" : "부산출발");
+  if (out.departure) out.understood.push(DEP_NAME[out.departure]);
   for (const k of out.keywords) out.understood.push(`"${k}"`);
   return out;
 }
