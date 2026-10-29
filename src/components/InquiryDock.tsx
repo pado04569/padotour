@@ -206,7 +206,8 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCon
       {/* PC 오른쪽 패널 — 머리말(sticky top-0)과 겹치지 않게 아래로 띄운다 */}
       <aside className="hidden lg:block sticky top-32 rounded-2xl border border-slate-200 bg-white shadow-sm p-5" aria-label="예약 문의 패널">
         <h2 className="text-[17px] font-black text-slate-900 mb-3">선택한 여행 일정</h2>
-        <div className="rounded-xl bg-soft-blue px-3.5 py-3 text-[14px] font-bold text-slate-800 space-y-1">
+        {/* 날짜를 바꾸려고 누르는 손님이 많아 출발일 달력으로 이동 (클래리티 10/29) */}
+        <div role="button" tabIndex={0} onClick={() => document.getElementById("departure")?.scrollIntoView({ behavior: "smooth", block: "start" })} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); document.getElementById("departure")?.scrollIntoView({ behavior: "smooth", block: "start" }); } }} className="cursor-pointer rounded-xl bg-soft-blue hover:bg-blue-100 px-3.5 py-3 text-[14px] font-bold text-slate-800 space-y-1 transition-colors">
           {sel ? (
             <>
               <p className="flex items-center gap-2"><IconCalendarDays className="w-[18px] h-[18px] text-brand-blue" />{fmtDate(sel.date)} 출발 · {selNights}박 {selDays}일</p>
