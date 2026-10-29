@@ -44,8 +44,8 @@ export default function TourCard({
   const infoChips = basic ? (facts ?? tourFacts(tour)) : facts;
 
   return (
-    <Link href={`/tours/${tour.id}${query ? `?${query}` : ""}`} className="block">
-    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden group">
+    <Link href={`/tours/${tour.id}${query ? `?${query}` : ""}`} className="block h-full">
+    <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow overflow-hidden group h-full flex flex-col">
       {/* 이미지 영역 — 공지 특가 이미지는 글자가 들어 있어 잘리지 않게 16:9 그대로 보여준다 (사장님 요청 2026-10-08) */}
       <div className={`relative ${bannerImage ? "aspect-video" : featured ? "h-72 md:h-96" : "h-52"} bg-emerald-100 overflow-hidden`}>
         <Image
@@ -77,7 +77,7 @@ export default function TourCard({
             )}
           </ul>
         )}
-        <h3 className={`font-bold text-gray-800 leading-snug line-clamp-2 ${featured ? "text-lg md:text-xl" : basic && tour.displayTitle ? "text-[17px] mb-1" : "text-sm h-10 mb-1"}`}>
+        <h3 className={`font-bold text-gray-800 leading-snug line-clamp-2 ${featured ? "text-lg md:text-xl" : basic && tour.displayTitle ? "text-[17px] mb-1 min-h-[48px]" : "text-sm h-10 mb-1"}`}>
           {titleParts ? (
             <>
               {titleParts[0]}
