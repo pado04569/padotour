@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     locale: "ko_KR",
     images: [
       {
-        url: "/images/og-default.jpg",
+        url: "/images/og-default-2.jpg",
         width: 1200,
         height: 630,
         alt: "여행의 파도 골프전문 여행사",
@@ -48,7 +48,7 @@ const travelAgencyJsonLd = {
   alternateName: ["여행의파도", "padotour", "Padotour"],
   url: "https://www.padotour.com",
   logo: "https://www.padotour.com/images/logo.png",
-  image: "https://www.padotour.com/images/og-default.jpg",
+  image: "https://www.padotour.com/images/og-default-2.jpg",
   telephone: "+82-10-5301-5250",
   email: "pado-tour-@naver.com",
   founder: { "@type": "Person", name: "이지안" },
