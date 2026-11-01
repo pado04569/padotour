@@ -5,7 +5,7 @@ import { track } from "@/lib/analytics";
 import SelectChevron from "@/components/SelectChevron";
 import { PEOPLE_OPTIONS, PEOPLE_MAX_LABEL, isValidPhone, phoneHint } from "@/lib/inquiryForm";
 import { peopleOptionsFor, peopleAllowed, selectionInfo, shortPeopleNotice, type PeopleCondition } from "@/lib/peopleCondition";
-import { onTourDate, onInquiryOpen, type TourDateSel } from "@/lib/tourBooking";
+import { onTourDate, onInquiryOpen, requestCalendarFocus, type TourDateSel } from "@/lib/tourBooking";
 import { IconCalendarDays, IconClipboard, IconCircleCheck, IconPhone, IconUsers, IconChat } from "@/components/icons/MenuIcons";
 
 // 상세페이지 문의 패널 (사장님 작업지시 2026-10-25)
@@ -107,6 +107,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCon
     startedOnce.current = true;
     track("inquiry_start", { item_name: tourTitle, first_field: field, method: "panel" });
   };
+  const goCalendar = () => { document.getElementById("departure")?.scrollIntoView({ behavior: "smooth", block: "start" }); requestCalendarFocus(); };
   const scrollToCalendar = () => document.getElementById("departure")?.scrollIntoView({ behavior: "smooth", block: "start" });
 
   async function handleSubmit(e: React.FormEvent) {
@@ -207,7 +208,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCon
       <aside className="hidden lg:block sticky top-32 rounded-2xl border border-slate-200 bg-white shadow-sm p-5" aria-label="예약 문의 패널">
         <h2 className="text-[17px] font-black text-slate-900 mb-3">선택한 여행 일정</h2>
         {/* 날짜를 바꾸려고 누르는 손님이 많아 출발일 달력으로 이동 (클래리티 10/29) */}
-        <div role="button" tabIndex={0} onClick={() => document.getElementById("departure")?.scrollIntoView({ behavior: "smooth", block: "start" })} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); document.getElementById("departure")?.scrollIntoView({ behavior: "smooth", block: "start" }); } }} className="cursor-pointer rounded-xl bg-soft-blue hover:bg-blue-100 px-3.5 py-3 text-[14px] font-bold text-slate-800 space-y-1 transition-colors">
+        <div role="button" tabIndex={0} onClick={goCalendar} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); goCalendar(); } }} className="cursor-pointer rounded-xl bg-soft-blue hover:bg-blue-100 px-3.5 py-3 text-[14px] font-bold text-slate-800 space-y-1 transition-colors">
           {sel ? (
             <>
               <p className="flex items-center gap-2"><IconCalendarDays className="w-[18px] h-[18px] text-brand-blue" />{fmtDate(sel.date)} 출발 · {selNights}박 {selDays}일</p>

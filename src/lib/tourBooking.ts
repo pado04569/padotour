@@ -23,6 +23,18 @@ export function onTourDate(fn: (s: TourDateSel) => void) {
   return () => window.removeEventListener(EV, h);
 }
 
+// 오른쪽 '선택한 여행 일정' 박스를 눌렀을 때 달력을 알려 준다 — 달력이 이미 보이면 스크롤만으로는 변화가 없어 반응 없는 클릭이 된다 (클래리티 2026-11-01)
+const EV_CAL = "pado:focus-calendar";
+export function requestCalendarFocus() {
+  if (typeof window === "undefined") return;
+  window.dispatchEvent(new CustomEvent(EV_CAL));
+}
+export function onCalendarFocus(fn: () => void) {
+  const h = () => fn();
+  window.addEventListener(EV_CAL, h);
+  return () => window.removeEventListener(EV_CAL, h);
+}
+
 // 예약문의 입력 창 열기 — 달력 요약칸에서 부른다 (사장님 지시 10/25)
 const EV_OPEN = "pado:open-inquiry";
 export function requestInquiryOpen() {

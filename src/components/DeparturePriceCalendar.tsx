@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { IconChevron } from "@/components/icons/Chevron";
 import { IconCalendarDays, IconPhone, IconChat } from "@/components/icons/MenuIcons";
-import { announceTourDate, requestInquiryOpen } from "@/lib/tourBooking";
+import { announceTourDate, requestInquiryOpen, onCalendarFocus } from "@/lib/tourBooking";
 
 // 출발일 달력 — 한 달씩, 날짜마다 1인 요금을 만원 단위로 미리 보여준다 (사장님 작업지시 2026-10-25)
 //  - 이달 최저가 날짜는 빨간 요금으로 표시하고, 머리에 "N월 최저가"를 단다. 최저가 판단은 실제 원 단위 가격.
@@ -35,6 +35,20 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
   const [selected, setSelected] = useState<string | null>(null);
   // 출발 없는 날짜를 눌렀을 때 안내 — 반응 없는 클릭 방지 (클래리티 2026-09-15). searched = 검색해서 들고 온 날짜
   const [hint, setHint] = useState<{ day: string; nearest: string | null; searched?: boolean } | null>(null);
+
+  // 오른쪽 박스를 눌렀을 때 달력 테두리를 잠깐 강조 — 달력이 이미 보여도 눌렀다는 반응이 눈에 보이게 (클래리티 2026-11-01)
+  const hintRef = useRef<HTMLDivElement>(null);
+  useEffect(() => { if (hint && !hint.searched) hintRef.current?.scrollIntoView({ block: "nearest", behavior: "smooth" }); }, [hint]);
+  const [flash, setFlash] = useState(false);
+  useEffect(() => {
+    let t: number | undefined;
+    const off = onCalendarFocus(() => {
+      setFlash(true);
+      window.clearTimeout(t);
+      t = window.setTimeout(() => setFlash(false), 1600);
+    });
+    return () => { off(); window.clearTimeout(t); };
+  }, []);
 
   const entryMap = new Map(departurePrices.map((p) => [p.date, p]));
   const upcoming = departurePrices.map((p) => p.date).filter((d) => d > todayStr).sort();
@@ -126,7 +140,10 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
         )}
       </div>
 
-      <div className="bg-white rounded-2xl p-3.5 md:p-5 border border-gray-200">
+      <div className={`bg-white rounded-2xl p-3.5 md:p-5 border transition-shadow duration-300 ${flash ? "border-brand-blue ring-4 ring-brand-blue/25" : "border-gray-200"}`}>
+        {flash && !selected && (
+          <p role="status" className="mb-3 rounded-xl bg-soft-blue px-3 py-2 text-sm font-bold text-slate-800">달력에서 출발일을 눌러 선택해 주세요.</p>
+        )}
         {/* 달 이동 — 한 달씩 */}
         <div className="flex items-center justify-between mb-3">
           <button type="button" onClick={() => moveMonth(-1)} aria-label="이전 달" className="w-11 h-11 flex items-center justify-center rounded-full hover:bg-gray-100 text-gray-600">
@@ -193,8 +210,9 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
           <span className="whitespace-nowrap">숫자는 1인 요금(만원 단위)</span> · <span className="whitespace-nowrap"><b className="text-red-500">최저가</b>는 이달 가장 낮은 요금</span> · <span className="whitespace-nowrap"><b>-</b>는 출발일이 없는 날짜</span>
         </p>
 
+        {/* 안내가 화면 밖이면 눌러도 반응이 없어 보인다 — 뜰 때 화면 안으로 끌어온다 (클래리티 2026-11-01) */}
         {hint && (
-          <div role="status" className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 rounded-xl bg-gray-50 border border-gray-200 px-3 py-2 text-sm text-gray-600">
+          <div ref={hintRef} role="status" className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 rounded-xl bg-gray-50 border border-gray-200 px-3 py-2 text-sm text-gray-600">
             {hint.searched ? (
               <span>선택하신 날짜(<b className="text-gray-800">{shortDate(hint.day)}</b>)는 출발이 없습니다. 다른 날짜를 선택해 주세요.</span>
             ) : (
