@@ -86702,6 +86702,125 @@
     "displayTitle": "마나리조트 마나CC·록힐 2색 골프여행"
   },
   {
+    "id": "japan-ibaraki-rockhill-seizanso-3n4d-cheongju",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "도쿄",
+    "departure": "cheongju",
+    "badge": "청주출발 12월 특가",
+    "title": "[청주출발] 일본 이바라키 골프여행 록힐 리조트 록힐CC·센세이잔소CC 2색 3박4일 72홀 에어로케이 직항 12월 1,299,000원",
+    "subtitle": "청주-이바라키 에어로케이 직항 · 록힐 리조트 온천 골프텔 · 록힐CC·센세이잔소CC 2색 72홀 · 조식·중식 3회·석식 2회 · 12/5·12/12 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 2,
+    "roundsIncluded": 3,
+    "holes": "72홀 (록힐 27 · 센세이잔소 27 · 록힐 18)\n록힐CC · 센세이잔소CC",
+    "minPeople": "4인 출발 기준 (2인 플레이 1인 1박 30,000원 추가)",
+    "period": "2026년 12월 5일 · 12월 12일 토요일 출발 (2회)",
+    "hotel": "록힐 리조트 온천 골프텔 (또는 동급, 2인 1실)",
+    "hotelDesc": "록힐CC 클럽하우스 건물 안에 있는 65실 규모의 골프텔로, 객실 통창으로 그린이 보입니다. 온천 대욕장과 사우나가 있고, 석식은 4성급 수준의 카이세키 정식으로 나옵니다(추가 요금 코스는 현지 지불). 1인 1실은 1박 50,000원이 추가됩니다.",
+    "golfCourse": "록힐CC · 센세이잔소CC(신세이잔소) (2색, 72홀)",
+    "golfCourseDesc": "록힐CC는 일본 남자 PGA 프로테스트가 열리는 36홀 명문으로, 연못이 많은 레이크 코스와 전장이 길고 페어웨이가 넓은 락 코스 중 하나로 라운딩합니다. 센세이잔소CC는 피트 다이가 설계한 파72·7,004야드 코스로, 마운드와 아일랜드 그린이 특징인 전략형 레이아웃입니다. 록힐에서 차로 약 25분 걸립니다.",
+    "productSummary": "청주공항에서 에어로케이 직항으로 이바라키에 가서 록힐 리조트 온천 골프텔에 3박하며 록힐CC와 센세이잔소CC를 72홀 라운딩하는 12월 특가 상품입니다.\n12월 5일·12일 토요일 출발 1,299,000원이며 첫날 석식을 빼고 식사가 포함됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "청주 → 이바라키",
+        "desc": "청주국제공항 출발(에어로케이 RF384 14:00) → 이바라키공항 도착(16:05) → 기사 미팅 후 골프장으로 이동 → 이온몰 자유 석식·쇼핑 → 체크인 후 휴식 [석식 불포함, 숙소: 록힐 리조트 온천 골프텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "록힐CC 27홀",
+        "desc": "조식 후 골프장 이동 → 록힐CC(락 코스 또는 레이크 코스) 18홀 + 9홀 서비스 → 석식 후 휴식 [조식·중식·석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "센세이잔소CC 27홀",
+        "desc": "조식 후 골프장 이동(약 25분) → 센세이잔소CC 18홀 + 9홀 서비스 → 석식 후 휴식 [조식·중식·석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "록힐CC 18홀 → 청주",
+        "desc": "조식 후 체크아웃, 골프장 이동 → 록힐CC(락 코스 또는 레이크 코스) 18홀(스루 플레이) → 공항 이동 → 이바라키공항 출발(에어로케이 RF323 17:00) → 청주국제공항 도착(19:30) [조식·중식 포함]"
+      }
+    ],
+    "highlights": [
+      "청주-이바라키 에어로케이 직항",
+      "록힐 리조트 온천 골프텔 · 대욕장·사우나",
+      "록힐CC·센세이잔소CC 2색 72홀",
+      "12/5 · 12/12 토요일 출발 · 1,299,000원"
+    ],
+    "includes": [
+      "왕복 항공권 (에어로케이)",
+      "록힐 리조트 또는 동급 (2인 1실)",
+      "조식·중식 3회 · 석식 2회 (첫날 석식 제외, 석식은 4성급 수준 카이세키 정식)",
+      "그린피 + 승용카트 (72홀)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "첫날 석식",
+      "차량비 1인 10,000엔 (사전 지불)",
+      "2인 플레이 1인 1박 30,000원 (출발 15일 전까지 예약, 3인 플레이는 추가 없음)",
+      "1인 1실 1박 50,000원",
+      "석식 추가 코스 요금(현지 지불) · 개인경비"
+    ],
+    "cancelPolicy": [
+      "캐디 없는 셀프 승용카트 라운드, 4인 출발 기준 요금입니다. 2인 플레이는 당일 신청이 안 되고 출발 15일 전까지 예약해야 합니다.",
+      "마지막 날 18홀은 스루 플레이로 진행되어 귀국 항공 시간에 맞춰 라운딩하실 수 있습니다. 항공 시간 때문에 라운드를 다 마치지 못해도 환불되지 않습니다.",
+      "천재지변을 제외한 개인 사정이나 우천으로 라운드를 취소하면 그린피는 환불되지 않습니다.",
+      "모든 예약은 실시간 확인이며, 조기 마감으로 이용이 불가능할 수 있습니다. 부득이하게 일정이 바뀌는 경우 여행자의 사전 동의를 받습니다. 항공 시간은 항공사 사정에 따라 변동될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-05",
+        "price": 1299000
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1299000
+      }
+    ],
+    "price": "1,299,000원~",
+    "image": "/images/ibaraki-rockhill-cheongju/course-1.jpg",
+    "images": [
+      "/images/ibaraki-rockhill-cheongju/course-1.jpg",
+      "/images/ibaraki-rockhill-cheongju/hotel-1.jpg",
+      "/images/tokyo-ibaraki-2color/course-4.jpg",
+      "/images/ibaraki-rockhill-cheongju/hotel-2.jpg",
+      "/images/ibaraki-rockhill-cheongju/course-2.jpg",
+      "/images/tokyo-ibaraki-2color/course-5.jpg"
+    ],
+    "courseImages": [
+      "/images/ibaraki-rockhill-cheongju/course-1.jpg",
+      "/images/ibaraki-rockhill-cheongju/course-2.jpg",
+      "/images/ibaraki-rockhill-cheongju/course-3.jpg",
+      "/images/ibaraki-rockhill-cheongju/course-4.jpg",
+      "/images/tokyo-ibaraki-2color/course-4.jpg",
+      "/images/tokyo-ibaraki-2color/course-5.jpg",
+      "/images/tokyo-ibaraki-2color/course-6.jpg",
+      "/images/tokyo-ibaraki-2color/course-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/ibaraki-rockhill-cheongju/hotel-1.jpg",
+      "/images/ibaraki-rockhill-cheongju/hotel-2.jpg",
+      "/images/ibaraki-rockhill-cheongju/hotel-3.jpg",
+      "/images/ibaraki-rockhill-cheongju/hotel-4.jpg",
+      "/images/ibaraki-rockhill-cheongju/hotel-5.jpg",
+      "/images/ibaraki-rockhill-cheongju/hotel-6.jpg"
+    ],
+    "priceUpdatedDate": "2026-11-01",
+    "seoIntro": "청주 출발 일본 이바라키 골프여행으로, 에어로케이 직항을 타고 록힐 리조트 온천 골프텔에 머물며 록힐CC·센세이잔소CC 2색 72홀을 라운딩하는 3박4일 12월 특가 골프패키지입니다.",
+    "seoKeywords": [
+      "청주출발골프",
+      "이바라키골프",
+      "록힐CC",
+      "센세이잔소",
+      "청주출발일본골프",
+      "12월골프"
+    ],
+    "displayTitle": "록힐 리조트 록힐·센세이잔소 2색 골프여행"
+  },
+  {
     "id": "japan-ibaraki-rockhill-resort-cheongju",
     "country": "일본",
     "countryCode": "japan",
