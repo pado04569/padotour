@@ -17787,20 +17787,6 @@
         "days": 5
       },
       {
-        "date": "2026-11-03",
-        "price": 1420000,
-        "nights": 4,
-        "days": 5
-      },
-      {
-        "date": "2026-11-05",
-        "price": 1283000
-      },
-      {
-        "date": "2026-11-06",
-        "price": 1255000
-      },
-      {
         "date": "2026-11-07",
         "price": 1170000
       },
@@ -17845,14 +17831,6 @@
         "price": 1340000,
         "nights": 4,
         "days": 5
-      },
-      {
-        "date": "2026-11-19",
-        "price": 1283000
-      },
-      {
-        "date": "2026-11-21",
-        "price": 1170000
       },
       {
         "date": "2026-11-22",
@@ -17978,7 +17956,7 @@
       "인천출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-26",
+    "priceUpdatedDate": "2026-11-02",
     "displayTitle": "구마모토 아소스카이블루 골프텔 3박4일·4박5일"
   },
   {
@@ -22874,12 +22852,6 @@
         "price": 1205000,
         "nights": 3,
         "days": 4
-      },
-      {
-        "date": "2026-11-21",
-        "price": 1205000,
-        "nights": 3,
-        "days": 4
       }
     ],
     "price": "1,205,000원~",
@@ -22919,7 +22891,7 @@
       "부산출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-17",
+    "priceUpdatedDate": "2026-11-02",
     "displayTitle": "구마모토 아소스카이블루 골프텔 3박4일"
   },
   {
@@ -23064,12 +23036,6 @@
         "price": 1400000,
         "nights": 4,
         "days": 5
-      },
-      {
-        "date": "2026-11-17",
-        "price": 1400000,
-        "nights": 4,
-        "days": 5
       }
     ],
     "price": "1,400,000원~",
@@ -23109,7 +23075,7 @@
       "부산출발",
       "골프패키지"
     ],
-    "priceUpdatedDate": "2026-10-17",
+    "priceUpdatedDate": "2026-11-02",
     "displayTitle": "구마모토 아소스카이블루 골프텔 4박5일"
   },
   {
@@ -53466,7 +53432,7 @@
     "price": "979,000원~",
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-28",
-    "title": "[부산출발] 베트남 나트랑 골프여행 빈펄·다이아몬드베이·KN 3색 3박5일 979,000원부터",
+    "title": "[부산출발] 베트남 나트랑 골프여행 빈펄·다이아몬드베이·KN 3색 3박5일 999,000원부터",
     "displayTitle": "빈펄·다이아몬드베이·KN 3색 골프여행"
   },
   {
@@ -72439,6 +72405,798 @@
       "인천출발"
     ],
     "displayTitle": "우이팜CC·조경CC 2색 크라운플라자 3박5일"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "region": "린이",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-02",
+    "minPeople": "2인 이상 출발",
+    "hotel": "쑤첸 라마호 리조트 또는 동급 (특급 · 2인 1실)",
+    "hotelDesc": "골프장 리조트인 쑤첸 라마호 리조트 또는 같은 등급 특급호텔에 2인 1실로 묵습니다. 골프장 리조트에 묵어 라운딩 이동이 편하고, 조식·중식·석식이 모두 포함됩니다.",
+    "golfCourse": "쑤첸 라마호CC (27홀)",
+    "golfCourseDesc": "중국 강소성 북부 쑤첸시에 있는 27홀 규모의 라마호CC에서 라운딩하는 날마다 18홀씩 라운딩합니다. 12개의 천연 호수와 숲, 높낮이가 다른 구릉과 협곡, 워터 해저드로 이루어진 코스로, 넓은 라마호 호수를 끼고 있어 경치가 시원합니다. 그린피·카트비·캐디피가 모두 포함됩니다.",
+    "courses": 1,
+    "includes": [
+      "왕복 항공권 (티웨이항공 직항, 유류할증료·TAX 포함 · 위탁수하물 15kg)",
+      "쑤첸 라마호 리조트 또는 동급 특급호텔 (2인 1실)",
+      "전 일정 식사 (조식·중식·석식)",
+      "그린피 + 카트비 + 캐디피 + 락커비",
+      "미팅·샌딩, 기사·가이드 경비",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디팁 18홀 1인 100위안",
+      "싱글카트 18홀 1대 120위안",
+      "싱글룸 1박 1인 50,000원",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "예약금은 40만원이며, 출발 20일 전부터는 환불되지 않습니다. 항공권 발권 후에는 별도의 취소 규정이 적용됩니다.",
+      "2인 1카트·2인 1캐디가 기본이며, 골프장 사정에 따라 4인 1카트·4인 1캐디로 배정될 수 있습니다.",
+      "9홀 추가는 1인 200위안(평일·주말 같음, 사전 예약)입니다.",
+      "날씨 등으로 라운딩을 다 하지 못해도 환불되지 않습니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "image": "/images/linyi-luomahu-incheon/course-1.jpg",
+    "images": [
+      "/images/linyi-luomahu-incheon/course-1.jpg",
+      "/images/linyi-luomahu-incheon/hotel-1.jpg",
+      "/images/linyi-luomahu-incheon/course-2.jpg",
+      "/images/linyi-luomahu-incheon/hotel-2.jpg",
+      "/images/linyi-luomahu-incheon/course-3.jpg",
+      "/images/linyi-luomahu-incheon/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/linyi-luomahu-incheon/course-1.jpg",
+      "/images/linyi-luomahu-incheon/course-2.jpg",
+      "/images/linyi-luomahu-incheon/course-3.jpg",
+      "/images/linyi-luomahu-incheon/course-4.jpg",
+      "/images/linyi-luomahu-incheon/course-5.jpg",
+      "/images/linyi-luomahu-incheon/course-6.jpg",
+      "/images/linyi-luomahu-incheon/course-7.jpg",
+      "/images/linyi-luomahu-incheon/course-8.jpg",
+      "/images/linyi-luomahu-incheon/course-9.jpg"
+    ],
+    "hotelImages": [
+      "/images/linyi-luomahu-incheon/hotel-1.jpg",
+      "/images/linyi-luomahu-incheon/hotel-2.jpg",
+      "/images/linyi-luomahu-incheon/hotel-3.jpg"
+    ],
+    "seoKeywords": [
+      "린이골프",
+      "린이골프여행",
+      "라마호CC",
+      "쑤첸골프",
+      "중국골프여행",
+      "올포함골프",
+      "인천출발"
+    ],
+    "id": "china-linyi-luomahu-3n4d-incheon",
+    "nights": 3,
+    "days": 4,
+    "roundsIncluded": 3,
+    "title": "[인천출발] 중국 린이 골프여행 라마호CC 3박4일 54홀 올포함 티웨이 직항 899,000원부터",
+    "subtitle": "티웨이항공 인천-린이 직항 · 쑤첸 라마호 리조트 또는 동급 · 라마호CC 18홀 x 3회 · 전 일정 식사·카트비·캐디피 포함 · 매주 토요일 출발",
+    "holes": "54홀 (18홀 x 3회)\n라마호CC",
+    "period": "2026년 11월 7일 ~ 2027년 3월 27일 매주 토요일 출발",
+    "productSummary": "티웨이항공 직항로 린이에 가서 쑤첸 라마호 리조트 또는 동급에 3박하며 라마호CC에서 18홀씩 3번, 총 54홀을 라운딩하는 상품입니다.\n그린피·카트비·캐디피와 전 일정 식사가 포함되고, 매주 토요일 2인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 린이 → 쑤첸",
+        "desc": "인천국제공항 출발(티웨이항공 TW617 13:05) → 린이공항 도착(14:25) → 미팅 후 쑤첸 골프장 리조트로 이동 → 석식 후 호텔 휴식 [석식 산동 특식 / 호텔: 쑤첸 라마호 리조트 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "라마호CC 18홀",
+        "desc": "호텔 조식 후 라마호CC 18홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 현지식]"
+      },
+      {
+        "day": "3일차",
+        "label": "라마호CC 18홀 + 관광",
+        "desc": "호텔 조식 후 라마호CC 18홀 라운딩 → 초패왕 항우고거·삼태산 풍경구 관광 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 현지식]"
+      },
+      {
+        "day": "4일차",
+        "label": "라마호CC 18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 라마호CC 18홀 스루 플레이로 귀국 항공 시간에 맞춰 라운딩 → 린이공항 출발(TW618 15:25) → 인천국제공항 도착(18:30) 후 해산 [조식 호텔식 / 중식 클럽식]"
+      }
+    ],
+    "highlights": [
+      "티웨이항공 인천-린이 직항",
+      "라마호CC 18홀 x 3회 · 총 54홀",
+      "카트비·캐디피·전 일정 식사 포함",
+      "매주 토요일 899,000원 · 2인부터"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-07",
+        "price": 899000
+      },
+      {
+        "date": "2026-11-14",
+        "price": 899000
+      },
+      {
+        "date": "2026-11-21",
+        "price": 899000
+      },
+      {
+        "date": "2026-11-28",
+        "price": 899000
+      },
+      {
+        "date": "2026-12-05",
+        "price": 899000
+      },
+      {
+        "date": "2026-12-12",
+        "price": 899000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 899000
+      },
+      {
+        "date": "2026-12-26",
+        "price": 899000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 899000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 899000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 899000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 899000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-27",
+        "price": 899000
+      },
+      {
+        "date": "2027-03-06",
+        "price": 899000
+      },
+      {
+        "date": "2027-03-13",
+        "price": 899000
+      },
+      {
+        "date": "2027-03-20",
+        "price": 899000
+      },
+      {
+        "date": "2027-03-27",
+        "price": 899000
+      }
+    ],
+    "price": "899,000원~",
+    "seoIntro": "인천 출발 린이 골프여행 3박4일 상품으로, 티웨이항공 직항를 타고 쑤첸 라마호 리조트에 머물며 라마호CC에서 54홀을 라운딩하는 올포함 골프패키지입니다.",
+    "displayTitle": "린이 라마호CC 올포함 3박4일"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "region": "린이",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-02",
+    "minPeople": "2인 이상 출발",
+    "hotel": "쑤첸 라마호 리조트 또는 동급 (특급 · 2인 1실)",
+    "hotelDesc": "골프장 리조트인 쑤첸 라마호 리조트 또는 같은 등급 특급호텔에 2인 1실로 묵습니다. 골프장 리조트에 묵어 라운딩 이동이 편하고, 조식·중식·석식이 모두 포함됩니다.",
+    "golfCourse": "쑤첸 라마호CC (27홀)",
+    "golfCourseDesc": "중국 강소성 북부 쑤첸시에 있는 27홀 규모의 라마호CC에서 라운딩하는 날마다 18홀씩 라운딩합니다. 12개의 천연 호수와 숲, 높낮이가 다른 구릉과 협곡, 워터 해저드로 이루어진 코스로, 넓은 라마호 호수를 끼고 있어 경치가 시원합니다. 그린피·카트비·캐디피가 모두 포함됩니다.",
+    "courses": 1,
+    "includes": [
+      "왕복 항공권 (티웨이항공 직항, 유류할증료·TAX 포함 · 위탁수하물 15kg)",
+      "쑤첸 라마호 리조트 또는 동급 특급호텔 (2인 1실)",
+      "전 일정 식사 (조식·중식·석식)",
+      "그린피 + 카트비 + 캐디피 + 락커비",
+      "미팅·샌딩, 기사·가이드 경비",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디팁 18홀 1인 100위안",
+      "싱글카트 18홀 1대 120위안",
+      "싱글룸 1박 1인 50,000원",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "예약금은 40만원이며, 출발 20일 전부터는 환불되지 않습니다. 항공권 발권 후에는 별도의 취소 규정이 적용됩니다.",
+      "2인 1카트·2인 1캐디가 기본이며, 골프장 사정에 따라 4인 1카트·4인 1캐디로 배정될 수 있습니다.",
+      "9홀 추가는 1인 200위안(평일·주말 같음, 사전 예약)입니다.",
+      "날씨 등으로 라운딩을 다 하지 못해도 환불되지 않습니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "image": "/images/linyi-luomahu-incheon/course-1.jpg",
+    "images": [
+      "/images/linyi-luomahu-incheon/course-1.jpg",
+      "/images/linyi-luomahu-incheon/hotel-1.jpg",
+      "/images/linyi-luomahu-incheon/course-2.jpg",
+      "/images/linyi-luomahu-incheon/hotel-2.jpg",
+      "/images/linyi-luomahu-incheon/course-3.jpg",
+      "/images/linyi-luomahu-incheon/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/linyi-luomahu-incheon/course-1.jpg",
+      "/images/linyi-luomahu-incheon/course-2.jpg",
+      "/images/linyi-luomahu-incheon/course-3.jpg",
+      "/images/linyi-luomahu-incheon/course-4.jpg",
+      "/images/linyi-luomahu-incheon/course-5.jpg",
+      "/images/linyi-luomahu-incheon/course-6.jpg",
+      "/images/linyi-luomahu-incheon/course-7.jpg",
+      "/images/linyi-luomahu-incheon/course-8.jpg",
+      "/images/linyi-luomahu-incheon/course-9.jpg"
+    ],
+    "hotelImages": [
+      "/images/linyi-luomahu-incheon/hotel-1.jpg",
+      "/images/linyi-luomahu-incheon/hotel-2.jpg",
+      "/images/linyi-luomahu-incheon/hotel-3.jpg"
+    ],
+    "seoKeywords": [
+      "린이골프",
+      "린이골프여행",
+      "라마호CC",
+      "쑤첸골프",
+      "중국골프여행",
+      "올포함골프",
+      "인천출발"
+    ],
+    "id": "china-linyi-luomahu-4n5d-incheon",
+    "nights": 4,
+    "days": 5,
+    "roundsIncluded": 4,
+    "title": "[인천출발] 중국 린이 골프여행 라마호CC 4박5일 72홀 올포함 티웨이 직항 1,049,000원부터",
+    "subtitle": "티웨이항공 인천-린이 직항 · 쑤첸 라마호 리조트 또는 동급 · 라마호CC 18홀 x 4회 · 전 일정 식사·카트비·캐디피 포함 · 매주 화요일 출발",
+    "holes": "72홀 (18홀 x 4회)\n라마호CC",
+    "period": "2026년 11월 10일 ~ 2027년 3월 30일 매주 화요일 출발",
+    "productSummary": "티웨이항공 직항로 린이에 가서 쑤첸 라마호 리조트 또는 동급에 4박하며 라마호CC에서 18홀씩 4번, 총 72홀을 라운딩하는 상품입니다.\n그린피·카트비·캐디피와 전 일정 식사가 포함되고, 매주 화요일 2인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 린이 → 쑤첸",
+        "desc": "인천국제공항 출발(티웨이항공 TW617 13:05) → 린이공항 도착(14:25) → 미팅 후 쑤첸 골프장 리조트로 이동 → 석식 후 호텔 휴식 [석식 산동 특식 / 호텔: 쑤첸 라마호 리조트 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "라마호CC 18홀",
+        "desc": "호텔 조식 후 라마호CC 18홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 현지식]"
+      },
+      {
+        "day": "3일차",
+        "label": "라마호CC 18홀",
+        "desc": "호텔 조식 후 라마호CC 18홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 현지식]"
+      },
+      {
+        "day": "4일차",
+        "label": "라마호CC 18홀 + 관광",
+        "desc": "호텔 조식 후 라마호CC 18홀 라운딩 → 초패왕 항우고거·삼태산 풍경구 관광 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 현지식]"
+      },
+      {
+        "day": "5일차",
+        "label": "라마호CC 18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 라마호CC 18홀 스루 플레이로 귀국 항공 시간에 맞춰 라운딩 → 린이공항 출발(TW618 15:25) → 인천국제공항 도착(18:30) 후 해산 [조식 호텔식 / 중식 클럽식]"
+      }
+    ],
+    "highlights": [
+      "티웨이항공 인천-린이 직항",
+      "라마호CC 18홀 x 4회 · 총 72홀",
+      "카트비·캐디피·전 일정 식사 포함",
+      "매주 화요일 1,049,000원 · 2인부터"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-10",
+        "price": 1049000
+      },
+      {
+        "date": "2026-11-17",
+        "price": 1049000
+      },
+      {
+        "date": "2026-11-24",
+        "price": 1049000
+      },
+      {
+        "date": "2026-12-01",
+        "price": 1049000
+      },
+      {
+        "date": "2026-12-08",
+        "price": 1049000
+      },
+      {
+        "date": "2026-12-15",
+        "price": 1049000
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1049000
+      },
+      {
+        "date": "2026-12-29",
+        "price": 1049000
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1049000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1049000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1049000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1049000
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1049000
+      },
+      {
+        "date": "2027-02-09",
+        "price": 1049000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1049000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1049000
+      },
+      {
+        "date": "2027-03-02",
+        "price": 1049000
+      },
+      {
+        "date": "2027-03-09",
+        "price": 1049000
+      },
+      {
+        "date": "2027-03-16",
+        "price": 1049000
+      },
+      {
+        "date": "2027-03-23",
+        "price": 1049000
+      },
+      {
+        "date": "2027-03-30",
+        "price": 1049000
+      }
+    ],
+    "price": "1,049,000원~",
+    "seoIntro": "인천 출발 린이 골프여행 4박5일 상품으로, 티웨이항공 직항를 타고 쑤첸 라마호 리조트에 머물며 라마호CC에서 72홀을 라운딩하는 올포함 골프패키지입니다.",
+    "displayTitle": "린이 라마호CC 올포함 4박5일"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "region": "염성",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-02",
+    "minPeople": "4인 이상 출발",
+    "hotel": "힐튼호텔 (특급 · 2인 1실)",
+    "hotelDesc": "특급 힐튼호텔에 2인 1실로 묵습니다. 호텔에서 골프장까지 차로 약 10분이며, 조식·중식·석식이 모두 포함됩니다.",
+    "golfCourse": "사양도CC 또는 해빈국제CC (18홀)",
+    "golfCourseDesc": "강소성 염성시 사양현의 사양도CC 또는 이웃한 해빈국제CC에서 라운딩하는 날마다 18홀씩 라운딩합니다. 사양도CC는 18홀 7,311야드로 버뮤다와 양잔디가 섞여 있고, 삼면을 둘러싼 물과 해저드, 기복 있는 그린으로 전장이 길어 도전적인 코스입니다. 그린피·카트비·캐디피가 모두 포함됩니다.",
+    "courses": 2,
+    "includes": [
+      "왕복 항공권 (아시아나항공, 유류할증료·TAX 포함 · 위탁수하물 23kg + 기내 10kg)",
+      "힐튼호텔 (특급 · 2인 1실)",
+      "전 일정 식사 (조식·중식·석식)",
+      "그린피 + 카트비 + 캐디피 + 락커비",
+      "미팅·샌딩, 기사·가이드 경비",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디팁 18홀 1인 100위안",
+      "싱글룸 1박 1인 50,000원",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "2인 1카트·2인 1캐디가 기본이며, 골프장 사정에 따라 4인 1카트·4인 1캐디로 배정될 수 있습니다. 카트는 페어웨이 진입이 가능합니다.",
+      "9홀 추가는 1인 30,000원, 18홀 추가는 1인 70,000원입니다(평일·주말 같음, 사전 예약).",
+      "날씨 등으로 라운딩을 다 하지 못해도 환불되지 않습니다. 항공권 발권 후에는 별도의 취소 규정이 적용됩니다.",
+      "클럽하우스와 호텔에 한국어 직원이 있어 의사소통이 편합니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "image": "/images/yancheng-sheyang-hilton-incheon/course-1.jpg",
+    "images": [
+      "/images/yancheng-sheyang-hilton-incheon/course-1.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-1.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-2.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-2.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-3.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/yancheng-sheyang-hilton-incheon/course-1.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-2.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-3.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-4.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-5.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-6.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-7.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-8.jpg"
+    ],
+    "hotelImages": [
+      "/images/yancheng-sheyang-hilton-incheon/hotel-1.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-2.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-3.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-4.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-5.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-6.jpg"
+    ],
+    "seoKeywords": [
+      "염성골프",
+      "염성골프여행",
+      "사양도CC",
+      "해빈국제CC",
+      "중국골프여행",
+      "올포함골프",
+      "인천출발"
+    ],
+    "id": "china-yancheng-sheyang-hilton-3n4d-incheon",
+    "nights": 3,
+    "days": 4,
+    "roundsIncluded": 3,
+    "title": "[인천출발] 중국 염성 골프여행 사양도CC 3박4일 54홀 힐튼호텔 올포함 아시아나 1,049,000원부터",
+    "subtitle": "아시아나항공 인천-염성 직항 · 힐튼호텔(특급) · 사양도CC 또는 해빈국제CC 18홀 x 3회 · 전 일정 식사·카트비·캐디피 포함 · 매주 토요일 출발",
+    "holes": "54홀 (18홀 x 3회)\n사양도CC 또는 해빈국제CC",
+    "period": "2026년 11월 7일 ~ 2027년 3월 27일 매주 토요일 출발 (2/6 설 연휴·2/27 삼일절 연휴 요금 다름)",
+    "productSummary": "아시아나항공으로 염성에 가서 힐튼호텔에 3박하며 사양도CC 또는 해빈국제CC에서 18홀씩 3번, 총 54홀을 라운딩하는 상품입니다.\n도착일부터 라운딩하고, 그린피·카트비·캐디피와 전 일정 식사가 포함되며 매주 토요일 4인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 염성 · 18홀",
+        "desc": "인천국제공항 출발(아시아나항공 OZ337 09:35) → 염성공항 도착(10:20) → 미팅 후 골프장 이동(약 40분) → 사양도CC 또는 해빈국제CC 18홀 라운딩 → 석식 후 호텔 휴식 [중식 클럽식 / 석식 현지식 / 호텔: 힐튼호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "18홀 라운딩",
+        "desc": "호텔 조식 후 골프장 이동(약 10분) → 사양도CC 또는 해빈국제CC 18홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 현지식]"
+      },
+      {
+        "day": "3일차",
+        "label": "18홀 라운딩",
+        "desc": "호텔 조식 후 골프장 이동(약 10분) → 사양도CC 또는 해빈국제CC 18홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 현지식]"
+      },
+      {
+        "day": "4일차",
+        "label": "염성 → 인천",
+        "desc": "호텔 조식 후 공항 이동 → 염성공항 출발(OZ338 11:20) → 인천국제공항 도착(14:00) 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "아시아나항공 인천-염성 직항",
+      "도착일부터 18홀 · 총 54홀",
+      "카트비·캐디피·전 일정 식사 포함",
+      "매주 토요일 1,049,000원부터(설·삼일절 연휴 별도) · 4인부터"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-07",
+        "price": 1049000
+      },
+      {
+        "date": "2026-11-14",
+        "price": 1049000
+      },
+      {
+        "date": "2026-11-21",
+        "price": 1049000
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1049000
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1049000
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1049000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1049000
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1049000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1049000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1049000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1049000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1049000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1049000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1449000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1049000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1049000
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1099000
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1049000
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1049000
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1049000
+      },
+      {
+        "date": "2027-03-27",
+        "price": 1049000
+      }
+    ],
+    "price": "1,049,000원~",
+    "seoIntro": "인천 출발 염성 골프여행 3박4일 상품으로, 아시아나항공 직항을 타고 힐튼호텔에 머물며 사양도CC·해빈국제CC에서 54홀을 라운딩하는 올포함 골프패키지입니다.",
+    "displayTitle": "염성 사양도CC 힐튼 올포함 3박4일"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "region": "염성",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-02",
+    "minPeople": "4인 이상 출발",
+    "hotel": "힐튼호텔 (특급 · 2인 1실)",
+    "hotelDesc": "특급 힐튼호텔에 2인 1실로 묵습니다. 호텔에서 골프장까지 차로 약 10분이며, 조식·중식·석식이 모두 포함됩니다.",
+    "golfCourse": "사양도CC 또는 해빈국제CC (18홀)",
+    "golfCourseDesc": "강소성 염성시 사양현의 사양도CC 또는 이웃한 해빈국제CC에서 라운딩하는 날마다 18홀씩 라운딩합니다. 사양도CC는 18홀 7,311야드로 버뮤다와 양잔디가 섞여 있고, 삼면을 둘러싼 물과 해저드, 기복 있는 그린으로 전장이 길어 도전적인 코스입니다. 그린피·카트비·캐디피가 모두 포함됩니다.",
+    "courses": 2,
+    "includes": [
+      "왕복 항공권 (아시아나항공, 유류할증료·TAX 포함 · 위탁수하물 23kg + 기내 10kg)",
+      "힐튼호텔 (특급 · 2인 1실)",
+      "전 일정 식사 (조식·중식·석식)",
+      "그린피 + 카트비 + 캐디피 + 락커비",
+      "미팅·샌딩, 기사·가이드 경비",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디팁 18홀 1인 100위안",
+      "싱글룸 1박 1인 50,000원",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "2인 1카트·2인 1캐디가 기본이며, 골프장 사정에 따라 4인 1카트·4인 1캐디로 배정될 수 있습니다. 카트는 페어웨이 진입이 가능합니다.",
+      "9홀 추가는 1인 30,000원, 18홀 추가는 1인 70,000원입니다(평일·주말 같음, 사전 예약).",
+      "날씨 등으로 라운딩을 다 하지 못해도 환불되지 않습니다. 항공권 발권 후에는 별도의 취소 규정이 적용됩니다.",
+      "클럽하우스와 호텔에 한국어 직원이 있어 의사소통이 편합니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "image": "/images/yancheng-sheyang-hilton-incheon/course-1.jpg",
+    "images": [
+      "/images/yancheng-sheyang-hilton-incheon/course-1.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-1.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-2.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-2.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-3.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/yancheng-sheyang-hilton-incheon/course-1.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-2.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-3.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-4.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-5.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-6.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-7.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/course-8.jpg"
+    ],
+    "hotelImages": [
+      "/images/yancheng-sheyang-hilton-incheon/hotel-1.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-2.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-3.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-4.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-5.jpg",
+      "/images/yancheng-sheyang-hilton-incheon/hotel-6.jpg"
+    ],
+    "seoKeywords": [
+      "염성골프",
+      "염성골프여행",
+      "사양도CC",
+      "해빈국제CC",
+      "중국골프여행",
+      "올포함골프",
+      "인천출발"
+    ],
+    "id": "china-yancheng-sheyang-hilton-4n5d-incheon",
+    "nights": 4,
+    "days": 5,
+    "roundsIncluded": 4,
+    "title": "[인천출발] 중국 염성 골프여행 사양도CC 4박5일 72홀 힐튼호텔 올포함 아시아나 1,199,000원부터",
+    "subtitle": "아시아나항공 인천-염성 직항 · 힐튼호텔(특급) · 사양도CC 또는 해빈국제CC 18홀 x 4회 · 전 일정 식사·카트비·캐디피 포함 · 매주 화요일 출발",
+    "holes": "72홀 (18홀 x 4회)\n사양도CC 또는 해빈국제CC",
+    "period": "2026년 11월 10일 ~ 2027년 3월 30일 매주 화요일 출발",
+    "productSummary": "아시아나항공으로 염성에 가서 힐튼호텔에 4박하며 사양도CC 또는 해빈국제CC에서 18홀씩 4번, 총 72홀을 라운딩하는 상품입니다.\n도착일부터 라운딩하고, 그린피·카트비·캐디피와 전 일정 식사가 포함되며 매주 화요일 4인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 염성 · 18홀",
+        "desc": "인천국제공항 출발(아시아나항공 OZ337 09:35) → 염성공항 도착(10:20) → 미팅 후 골프장 이동(약 40분) → 사양도CC 또는 해빈국제CC 18홀 라운딩 → 석식 후 호텔 휴식 [중식 클럽식 / 석식 현지식 / 호텔: 힐튼호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "18홀 라운딩",
+        "desc": "호텔 조식 후 골프장 이동(약 10분) → 사양도CC 또는 해빈국제CC 18홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 현지식]"
+      },
+      {
+        "day": "3일차",
+        "label": "18홀 라운딩",
+        "desc": "호텔 조식 후 골프장 이동(약 10분) → 사양도CC 또는 해빈국제CC 18홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 현지식]"
+      },
+      {
+        "day": "4일차",
+        "label": "18홀 라운딩",
+        "desc": "호텔 조식 후 골프장 이동(약 10분) → 사양도CC 또는 해빈국제CC 18홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 현지식]"
+      },
+      {
+        "day": "5일차",
+        "label": "염성 → 인천",
+        "desc": "호텔 조식 후 공항 이동 → 염성공항 출발(OZ338 11:20) → 인천국제공항 도착(14:00) 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "아시아나항공 인천-염성 직항",
+      "도착일부터 18홀 · 총 72홀",
+      "카트비·캐디피·전 일정 식사 포함",
+      "매주 화요일 1,199,000원 · 4인부터"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-10",
+        "price": 1199000
+      },
+      {
+        "date": "2026-11-17",
+        "price": 1199000
+      },
+      {
+        "date": "2026-11-24",
+        "price": 1199000
+      },
+      {
+        "date": "2026-12-01",
+        "price": 1199000
+      },
+      {
+        "date": "2026-12-08",
+        "price": 1199000
+      },
+      {
+        "date": "2026-12-15",
+        "price": 1199000
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1199000
+      },
+      {
+        "date": "2026-12-29",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1199000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1199000
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1199000
+      },
+      {
+        "date": "2027-02-09",
+        "price": 1199000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1199000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1199000
+      },
+      {
+        "date": "2027-03-02",
+        "price": 1199000
+      },
+      {
+        "date": "2027-03-09",
+        "price": 1199000
+      },
+      {
+        "date": "2027-03-16",
+        "price": 1199000
+      },
+      {
+        "date": "2027-03-23",
+        "price": 1199000
+      },
+      {
+        "date": "2027-03-30",
+        "price": 1199000
+      }
+    ],
+    "price": "1,199,000원~",
+    "seoIntro": "인천 출발 염성 골프여행 4박5일 상품으로, 아시아나항공 직항을 타고 힐튼호텔에 머물며 사양도CC·해빈국제CC에서 72홀을 라운딩하는 올포함 골프패키지입니다.",
+    "displayTitle": "염성 사양도CC 힐튼 올포함 4박5일"
   },
   {
     "id": "china-guangzhou-yinhai-nanhai-busan",
