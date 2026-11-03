@@ -244,7 +244,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCon
       {/* 휴대폰 아래 고정 바 */}
       <div className="lg:hidden fixed inset-x-0 bottom-0 z-40 bg-white border-t border-slate-200 px-4 pt-9 pb-[max(52px,calc(env(safe-area-inset-bottom)+34px))] shadow-[0_-4px_14px_rgba(15,40,70,0.08)]">
         <div className="flex items-center gap-3">
-          <div className="min-w-0">
+          <div className="min-w-0 cursor-pointer" onClick={sel || !hasCalendar ? openModal : scrollToCalendar}>
             <p className="text-[13px] text-slate-500 leading-none mb-2">{sel ? `1인 요금 · ${fmtDate(sel.date)} 출발 · 성인 ${people}명` : "1인 최저 요금"}</p>
             <p className="text-[24px] leading-none font-black text-red-600 whitespace-nowrap">{sel ? fmtWon(sel.price) : hasPrice ? `${priceText}부터` : "요금 문의"}</p>
             {barNote && <p className="text-[11px] text-slate-500 mt-1.5 leading-tight break-keep max-w-[150px]">{barNote}</p>}
