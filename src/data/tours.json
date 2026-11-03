@@ -23250,6 +23250,120 @@
     "displayTitle": "나가사키 오무라완·치산 2색 시내호텔 3박4일"
   },
   {
+    "id": "japan-nagasaki-nomozaki-ke-1215-incheon",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "나가사키",
+    "departure": "incheon",
+    "badge": "12/15 1회 출발",
+    "priceUpdatedDate": "2026-11-03",
+    "expiresAt": "2026-12-13",
+    "title": "[인천출발] 일본 나가사키 골프여행 노모자키CC 오션뷰 골프텔 4박5일 72홀 대한항공 12/15 1회 1,490,000원",
+    "subtitle": "대한항공 인천-나가사키 왕복 · 노모자키CC 18홀 x 4일 · 선셋 빌리지 빌라형 골프텔 · 조식·석식·카트비 포함 · 12/15(화) 1회 8명 한정",
+    "nights": 4,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 4,
+    "holes": "72홀 (18홀 x 4일)\n노모자키CC",
+    "minPeople": "8명 한정 (12/15 1회 출발)",
+    "period": "2026년 12월 15일(화) 1회 출발",
+    "hotel": "선셋 빌리지 (노모자키 빌라형 골프텔)",
+    "hotelDesc": "노모자키CC 안의 빌라형 골프텔 선셋 빌리지에 4박합니다. 방 2개와 가운데 넓은 거실, 오션뷰 베란다로 된 구조라 4명이 한 팀으로 가시기 좋습니다. 조식(뷔페식)·석식은 클럽하우스에서 드시고, 한국인 직원이 상주합니다.",
+    "golfCourse": "노모자키CC (18홀 x 4일)",
+    "golfCourseDesc": "환상적인 오션뷰를 자랑하는 코스로, 코스 관리 상태가 좋습니다. 첫날은 도착 후 오후 18홀(일몰 시까지), 2~4일차는 오전 18홀을 라운딩하며 카트비가 포함됩니다.",
+    "productSummary": "대한항공으로 나가사키에 가서 노모자키CC 골프텔 선셋 빌리지에 4박하며 노모자키CC 18홀씩 4일, 총 72홀을 라운딩하는 상품입니다.\n12월 15일(화) 한 번만 출발하며 8명 한정입니다. 조식·석식·그린피·카트비·왕복 송영이 포함되고 중식은 불포함입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 나가사키 / 노모자키 18홀",
+        "desc": "인천국제공항 제2터미널 출발(대한항공 KE2191, 08:00) → 나가사키 국제공항 도착(09:30) → 기사 미팅(미팅보드: NOMOZAKI GOLF RESORT) 후 골프장 이동 → 클럽하우스 중식(불포함) → 오후 노모자키CC 18홀 라운딩(일몰 시까지) → 석식 [석식 클럽식] [숙소: 선셋 빌리지]"
+      },
+      {
+        "day": "2일차",
+        "label": "노모자키CC 18홀",
+        "desc": "클럽하우스 조식(뷔페식) 후 오전 노모자키CC 18홀 라운딩 → 클럽하우스 석식 [조식·석식 클럽식 / 중식 불포함] [숙소: 선셋 빌리지]"
+      },
+      {
+        "day": "3일차",
+        "label": "노모자키CC 18홀",
+        "desc": "클럽하우스 조식(뷔페식) 후 오전 노모자키CC 18홀 라운딩 → 클럽하우스 석식 [조식·석식 클럽식 / 중식 불포함] [숙소: 선셋 빌리지]"
+      },
+      {
+        "day": "4일차",
+        "label": "노모자키CC 18홀",
+        "desc": "클럽하우스 조식(뷔페식) 후 오전 노모자키CC 18홀 라운딩 → 클럽하우스 석식 [조식·석식 클럽식 / 중식 불포함] [숙소: 선셋 빌리지]"
+      },
+      {
+        "day": "5일차",
+        "label": "나가사키 → 인천",
+        "desc": "클럽하우스 조식 후 체크아웃 → 공항 이동 → 나가사키 국제공항 출발(KE2192, 10:30) → 인천국제공항 도착(12:10) 후 해산 [조식 클럽식]"
+      }
+    ],
+    "highlights": [
+      "대한항공 인천-나가사키 왕복",
+      "노모자키CC 18홀 x 4일 · 오션뷰 코스",
+      "방 2개·거실·오션뷰 베란다 빌라형 골프텔",
+      "조식·석식·카트비·왕복 송영 포함 · 한국인 직원 상주",
+      "12/15(화) 1회 · 8명 한정 1,490,000원"
+    ],
+    "includes": [
+      "왕복 항공권 (대한항공, 유류할증료·TAX 포함)",
+      "선셋 빌리지 빌라형 골프텔 4박",
+      "일정상 식사 (조식·석식)",
+      "그린피·카트비 (18홀 x 4일)",
+      "왕복 송영",
+      "여행자보험"
+    ],
+    "excludes": [
+      "클럽하우스 중식",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "12월 15일(화) 한 번만 출발하는 상품이며 8명 한정입니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "seoIntro": "인천 출발 나가사키 골프여행 4박5일 상품으로, 대한항공을 타고 노모자키CC 빌라형 골프텔에 머물며 오션뷰 코스에서 72홀을 라운딩하는 12월 15일 1회 출발 패키지입니다.",
+    "seoKeywords": [
+      "나가사키골프",
+      "나가사키골프여행",
+      "노모자키CC",
+      "나가사키골프텔",
+      "인천출발"
+    ],
+    "courseImages": [
+      "/images/nagasaki-nomozaki-ke-incheon/course-1.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/course-2.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/course-3.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/course-4.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/course-5.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/course-6.jpg"
+    ],
+    "hotelImages": [
+      "/images/nagasaki-nomozaki-ke-incheon/hotel-1.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/hotel-2.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/hotel-3.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/hotel-4.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/hotel-5.jpg"
+    ],
+    "image": "/images/nagasaki-nomozaki-ke-incheon/course-1.jpg",
+    "images": [
+      "/images/nagasaki-nomozaki-ke-incheon/course-1.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/hotel-1.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/course-2.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/hotel-2.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/course-3.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/hotel-3.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-15",
+        "price": 1490000
+      }
+    ],
+    "price": "1,490,000원",
+    "displayTitle": "나가사키 노모자키 4박5일 72홀 12/15"
+  },
+  {
     "id": "japan-kumamoto-aso-trial-2color",
     "country": "일본",
     "countryCode": "japan",
