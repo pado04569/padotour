@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
+    // Vercel 사진 변환 한도 초과로 /_next/image 가 402(결제 필요)를 내며 사이트 사진이 전부 안 떴다 (2026-11-03 가고시마 사츠마)
+    // → 변환 없이 원본 파일을 바로 보낸다. 원본은 커밋 전 shrink_images.py 로 이미 줄여 둔다.
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
