@@ -7926,5 +7926,105 @@
     "relatedTourIds": [
       "vietnam-danang-vedana-goldensands-busan"
     ]
+  },
+  {
+    "slug": "spring-city-golf-lake-resort",
+    "name": "춘성CC",
+    "nameEn": "Spring City Golf & Lake Resort",
+    "region": "쿤밍",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "잭 니클라우스 마운틴코스와 로버트 트렌트 존스 주니어 레이크코스 36홀, 양종해 호수 옆 쿤밍 대표 골프 리조트",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "마운틴코스 18홀 · 레이크코스 18홀 (총 36홀)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "마운틴 파72 · 7,453야드 / 레이크 파72 · 7,204야드"
+      },
+      {
+        "label": "설계",
+        "value": "마운틴 잭 니클라우스 · 레이크 로버트 트렌트 존스 주니어"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 윈난성 쿤밍시 양종해 호수 옆"
+      }
+    ],
+    "description": "춘성CC(Spring City Golf & Lake Resort)는 중국 윈난성 쿤밍 양종해 호수 옆에 자리한 36홀 골프 리조트입니다. 잭 니클라우스가 설계한 마운틴코스(파72·7,453야드)와 로버트 트렌트 존스 주니어가 설계한 레이크코스(파72·7,204야드)로 이루어져 있으며, 세계 100대 골프장에 선정된 이력이 있습니다.\n\n레이크코스는 호수를 내려다보는 홀이 많아 풍경이 시원하고, 마운틴코스는 언덕의 높낮이를 살린 레이아웃입니다. 1년 내내 온화한 쿤밍 날씨 덕분에 겨울에도 라운딩하기 좋습니다.\n\n여행의파도 쿤밍 골프여행은 골프장 안의 춘성 골프&리조트에 묵으며 골프장까지 걸어서 이동합니다. 쿤밍 국제공항에서 차로 약 50분입니다.",
+    "images": [
+      "/images/kunming-springcity-2026/course-1.jpg",
+      "/images/kunming-springcity-2026/course-2.jpg",
+      "/images/kunming-springcity-2026/course-3.jpg",
+      "/images/kunming-springcity-2026/course-4.jpg",
+      "/images/kunming-springcity-2026/course-5.jpg",
+      "/images/kunming-springcity-2026/course-6.jpg"
+    ],
+    "hashtags": [
+      "쿤밍골프장",
+      "쿤밍골프여행",
+      "춘성CC",
+      "춘성골프",
+      "중국골프여행",
+      "겨울골프",
+      "해외골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-kunming-springcity-platinum-3n5d-incheon",
+      "china-kunming-springcity-platinum-4n6d-incheon",
+      "china-kunming-springcity-4n5d-cheongju",
+      "china-kunming-springcity-5n6d-cheongju",
+      "china-kunming-springcity-4n6d-incheon"
+    ]
+  },
+  {
+    "slug": "fuzhou-xindongyang-golf-club",
+    "name": "신동양CC",
+    "nameEn": "Fuzhou Amai Golf Club (Xindongyang)",
+    "region": "푸저우",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "테드 파슬로우 설계 27홀, 푸저우 서쪽 산자락의 호수·숲 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀"
+      },
+      {
+        "label": "개장",
+        "value": "1995년"
+      },
+      {
+        "label": "설계",
+        "value": "테드 파슬로우 (Ted Parslow)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "호수·워터해저드와 숲이 어우러진 산자락 코스"
+      },
+      {
+        "label": "접근",
+        "value": "푸저우 시내 캠핀스키호텔에서 차로 약 30분"
+      }
+    ],
+    "description": "신동양CC는 1995년에 문을 연 27홀 골프장으로, 테드 파슬로우가 설계했습니다.\n\n푸저우 시내 서쪽 산자락에 자리해 호수와 워터해저드, 나무가 어우러진 코스입니다.\n\n여행의파도 푸저우 2색 상품은 캠핀스키호텔에 3박하며 둘째 날 신동양CC 18홀, 셋째·넷째 날 해협CC 18홀씩 라운딩합니다.",
+    "images": [
+      "/images/fuzhou-kempinski-2color-incheon/course-7.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/course-9.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/course-8.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/course-10.jpg"
+    ],
+    "hashtags": [
+      "신동양CC",
+      "신동양골프장",
+      "푸저우골프",
+      "복주골프",
+      "중국골프여행"
+    ],
+    "relatedTourIds": [
+      "china-fuzhou-kempinski-2color-incheon"
+    ]
   }
 ]
