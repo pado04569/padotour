@@ -7876,5 +7876,55 @@
       "Lao Country Club",
       "라오컨트리"
     ]
+  },
+  {
+    "slug": "laguna-lang-co-golf-club",
+    "name": "라구나 랑코CC",
+    "nameEn": "Laguna Golf Lang Co",
+    "region": "다낭",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "aliases": [
+      "라구나 랑코",
+      "라구나랑코",
+      "Laguna Lang Co",
+      "Laguna Golf Lang Co"
+    ],
+    "summary": "후에와 다낭 사이 랑코, 닉 팔도 설계 18홀 파71 (2013년 개장)",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파71"
+      },
+      {
+        "label": "개장",
+        "value": "2013년 3월"
+      },
+      {
+        "label": "설계",
+        "value": "닉 팔도 (Sir Nick Faldo)"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 후에 랑코 (후에와 다낭 사이)"
+      }
+    ],
+    "description": "라구나 랑코CC(Laguna Golf Lang Co)는 후에와 다낭 사이 랑코 해안의 라구나 랑코 리조트 단지 안에 있는 18홀 파71 골프장입니다. 메이저 대회 6승의 닉 팔도가 설계해 2013년 3월 문을 열었고, 2019년 운영 중인 골프장으로는 세계 처음 '닉 팔도 시그니처 디자인' 지위를 받았습니다. 산과 열대우림, 바닷가 사이로 홀이 이어집니다.\n\n여행의파도 다낭 베다나 라군 리조트 골프여행에서는 4일차에 골든샌즈CC 27홀 대신 이곳 18홀을 고르실 수 있습니다.",
+    "images": [
+      "/images/danang-vedana-goldensands-busan/course-6.jpg",
+      "/images/danang-vedana-goldensands-busan/course-7.jpg",
+      "/images/danang-vedana-goldensands-busan/course-8.jpg",
+      "/images/danang-vedana-goldensands-busan/course-9.jpg"
+    ],
+    "hashtags": [
+      "라구나랑코CC",
+      "닉팔도",
+      "다낭골프",
+      "후에골프장",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-danang-vedana-goldensands-busan"
+    ]
   }
 ]
