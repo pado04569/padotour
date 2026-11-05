@@ -255,6 +255,9 @@
       "japan-fukuoka-tosu",
       "japan-fukuoka-tosu-3n4d-am",
       "japan-fukuoka-tosu-3n4d-pm"
+    ],
+    "aliases": [
+      "포레스트난칸"
     ]
   },
   {
@@ -4176,7 +4179,8 @@
     "name": "센트럴GC",
     "nameEn": "Central Golf Club (セントラルゴルフクラブ)",
     "aliases": [
-      "센트릴CC"
+      "센트릴CC",
+      "센트럴CC"
     ],
     "region": "도쿄",
     "country": "일본",
@@ -9049,5 +9053,1035 @@
     "relatedTourIds": [
       "china-hainan-haikou-charter-standard-cheongju"
     ]
+  },
+  {
+    "slug": "d-heights-cc",
+    "name": "디 하이츠CC",
+    "nameEn": "D'Heights Resort Golf & Country Club (옛 Clark Sun Valley)",
+    "region": "클락",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "aliases": [
+      "디 하이츠",
+      "디하이츠",
+      "D'Heights"
+    ],
+    "summary": "클락 프리포트존 언덕에 자리한 36홀, 고저차 큰 코스 2개",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 (18홀 코스 2개)"
+      },
+      {
+        "label": "파",
+        "value": "72"
+      },
+      {
+        "label": "개장",
+        "value": "2014년"
+      },
+      {
+        "label": "코스 특징",
+        "value": "고저차가 큰 구릉지, 자연 협곡과 기복 있는 페어웨이"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 팜팡가 클락 프리포트존"
+      }
+    ],
+    "description": "디 하이츠CC는 클락 프리포트존의 언덕에 자리한 36홀 골프장으로, 이전에는 클락 썬밸리라는 이름으로 불렸습니다. 18홀 코스가 두 개입니다. 2014년에 문을 열었습니다.\n\n고저차가 크고 자연 협곡과 기복 있는 페어웨이를 살린 코스입니다. 전략적으로 놓인 벙커와 넓게 트인 전망이 특징이고, 드라이빙 레인지·프로숍·레스토랑 같은 시설이 있습니다.\n\n여행의파도 부산 출발 클락 카지노골프 상품에서는 더 비스타CC를 2회 보장하고, 더 비스타CC 또는 디 하이츠CC에서 하루 18홀씩 총 3회 54홀을 라운딩합니다. 골프장 사정에 따라 다른 팀과 조인 라운딩이 될 수 있습니다.",
+    "images": [
+      "/images/courses-1106/the-heights-cc/ga-dheights-country-club-01.jpg",
+      "/images/courses-1106/the-heights-cc/ga-dheights-country-club-02.jpg",
+      "/images/courses-1106/the-heights-cc/ga-dheights-country-club-03.jpg",
+      "/images/courses-1106/the-heights-cc/ga-dheights-country-club-04.jpg",
+      "/images/courses-1106/the-heights-cc/ga-dheights-country-club-05.jpg"
+    ],
+    "hashtags": [
+      "디하이츠CC",
+      "클락골프장",
+      "클락골프여행",
+      "필리핀골프여행",
+      "카지노골프",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "diamond-bay-golf-nhatrang",
+    "name": "다이아몬드베이CC",
+    "nameEn": "Diamond Bay Golf & Villas",
+    "region": "나트랑",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "aliases": [
+      "다이아몬드 베이CC",
+      "다이아몬드베이",
+      "다이아몬드 베이",
+      "Diamond Bay"
+    ],
+    "summary": "파72 18홀, 산과 바다 사이에 펼쳐진 나트랑 남쪽 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "설계",
+        "value": "앤디 다이 (Andy Dye)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "산을 배경으로 한 파크랜드 코스, 호수와 해안 조망"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 칸화성 나트랑 푸옥동"
+      }
+    ],
+    "description": "다이아몬드베이CC는 나트랑 남쪽 푸옥동에 있는 18홀 파72 코스입니다. 설계는 앤디 다이(Andy Dye)로 소개되며, 나무가 늘어서고 넓게 트인 파크랜드 스타일입니다.\n\n산자락을 배경으로 페어웨이와 벙커, 호수를 낀 홀이 이어지고 바다 쪽 조망도 함께 즐길 수 있습니다.\n\n여행의파도 나트랑 빈펄·다이아몬드베이·KN 3색 골프여행에서는 세 곳을 날마다 18홀씩 번갈아 라운딩하고, KN CC·빈펄CC 2색 상품에서는 마지막 날 빈펄CC 또는 다이아몬드 베이CC 중 한 곳을 라운딩합니다. 골프장 순서는 현지 사정과 예약 확정서에 따라 정해집니다.",
+    "images": [
+      "/images/courses-1106/diamond-bay-golf-nhatrang/1.jpg",
+      "/images/courses-1106/diamond-bay-golf-nhatrang/2.jpg",
+      "/images/courses-1106/diamond-bay-golf-nhatrang/3.jpg",
+      "/images/courses-1106/diamond-bay-golf-nhatrang/4.jpg",
+      "/images/courses-1106/diamond-bay-golf-nhatrang/5.jpg",
+      "/images/courses-1106/diamond-bay-golf-nhatrang/6.jpg"
+    ],
+    "hashtags": [
+      "다이아몬드베이CC",
+      "나트랑골프장",
+      "나트랑골프여행",
+      "베트남골프여행",
+      "베트남골프장",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "fenghuangshan-gc",
+    "name": "봉황산CC",
+    "nameEn": "Fenghuangshan Golf Course (Phoenix Hill Golf Club)",
+    "region": "심천",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "봉황산",
+      "봉황산 골프장",
+      "Fenghuangshan",
+      "Phoenix Hill"
+    ],
+    "summary": "심천과 가까운 둥관 펑강진의 27홀, 숲 사이 기복 있는 페어웨이가 이어지는 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀"
+      },
+      {
+        "label": "파",
+        "value": "파72 (18홀 기준)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "숲 사이 기복 있는 페어웨이, 호수와 벙커가 어우러진 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 광둥성 둥관시 펑강진"
+      }
+    ],
+    "description": "봉황산CC는 심천과 가까운 둥관시 펑강진에 있는 27홀 골프장입니다. 18홀 기준 파72이며, 숲으로 둘러싸인 곳에 기복 있는 지형을 따라 코스가 만들어졌습니다.\n\n오르내리는 페어웨이와 호수, 벙커가 이어지고 홀마다 고저차가 있어 공략 방향을 생각하며 라운딩하게 됩니다.\n\n여행의파도 심천 봉황산CC 4박6일 골프여행에서는 골프장 단지 안 봉황산 호텔(또는 동급)에 머물며 72홀을 라운딩합니다. 그린피·캐디피·카트비가 포함되어 현지에서는 캐디팁(18홀 1인 150위안, 27홀 250위안)만 냅니다.",
+    "images": [
+      "/images/courses-1106/fenghuangshan-gc/1.jpg",
+      "/images/courses-1106/fenghuangshan-gc/2.jpg",
+      "/images/courses-1106/fenghuangshan-gc/3.jpg",
+      "/images/courses-1106/fenghuangshan-gc/4.jpg",
+      "/images/courses-1106/fenghuangshan-gc/5.jpg",
+      "/images/courses-1106/fenghuangshan-gc/6.jpg"
+    ],
+    "hashtags": [
+      "봉황산CC",
+      "심천골프장",
+      "심천골프여행",
+      "둥관골프",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "grand-lake-gc-sihui",
+    "name": "그랜드레이크CC",
+    "nameEn": "Grand Lake Golf Club (臻湖高尔夫球会)",
+    "region": "광저우",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "그랜드레이크",
+      "그랜드 레이크CC",
+      "Grand Lake"
+    ],
+    "summary": "광저우 서쪽 자오칭시 쓰후이의 호숫가 골프장, 넓고 평탄한 페어웨이",
+    "specs": [
+      {
+        "label": "코스 특징",
+        "value": "넓고 평탄한 페어웨이, 호수 조망"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 광둥성 자오칭시 쓰후이시"
+      }
+    ],
+    "description": "그랜드레이크CC는 광저우 서쪽 자오칭시 쓰후이시의 호수 곁에 있는 골프장입니다. 페어웨이가 넓고 평탄한 편입니다.\n\n여행의파도 광저우 에메랄드·조경·그랜드레이크 3색 골프여행에서는 햄프턴 바이 힐튼 호텔(2인 1실)에 머물며 하루 한 곳씩 18홀 라운딩합니다. 골프장 순서는 현지 예약 상황에 따라 바뀔 수 있습니다.",
+    "images": [
+      "/images/courses-1106/grand-lake-gc-sihui/1.jpg",
+      "/images/courses-1106/grand-lake-gc-sihui/2.jpg",
+      "/images/courses-1106/grand-lake-gc-sihui/3.jpg"
+    ],
+    "hashtags": [
+      "그랜드레이크CC",
+      "광저우골프장",
+      "광저우골프여행",
+      "쓰후이골프",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "holiday-island-gc",
+    "name": "홀리데이 아일랜드CC",
+    "nameEn": "Holiday Island Golf Club",
+    "region": "광저우",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "홀리데이 아일랜드",
+      "홀리데이아일랜드CC",
+      "Holiday Island"
+    ],
+    "summary": "호수와 숲이 어우러진 광저우 인근 리조트형 골프장",
+    "specs": [
+      {
+        "label": "설계",
+        "value": "량 궈쿤 (Liang Guo-kun)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "호수와 숲 사이에 펼쳐진 기복 있는 파크랜드 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 광둥성 광저우 인근"
+      }
+    ],
+    "description": "홀리데이 아일랜드CC는 광저우 인근 호수 옆에 자리한 리조트형 골프장입니다. 설계는 량 궈쿤(Liang Guo-kun)으로 소개됩니다.\n\n코스는 나무가 늘어선 파크랜드 스타일에 완만한 기복이 있고, 호수와 연못이 여러 홀에 걸쳐 나옵니다.\n\n여행의파도 광저우 홀리데이 아일랜드CC 3박5일 골프여행에서는 미림호 글로디아 호텔에 머물며 하루 18홀씩 3회 라운딩합니다. 카트비와 캐디피, 캐디팁은 현지에서 냅니다.",
+    "images": [
+      "/images/courses-1106/holiday-island-gc/1.jpg",
+      "/images/courses-1106/holiday-island-gc/2.jpg",
+      "/images/courses-1106/holiday-island-gc/3.jpg",
+      "/images/courses-1106/holiday-island-gc/4.jpg",
+      "/images/courses-1106/holiday-island-gc/5.jpg",
+      "/images/courses-1106/holiday-island-gc/6.jpg"
+    ],
+    "hashtags": [
+      "홀리데이아일랜드CC",
+      "광저우골프장",
+      "광저우골프여행",
+      "중국골프여행",
+      "호수골프장",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "kagoshima-seaside-cc",
+    "name": "가고시마 시사이드CC",
+    "nameEn": "Cherry Golf Kagoshima Seaside Course (チェリーゴルフ鹿児島シーサイドコース)",
+    "region": "가고시마",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "시사이드",
+      "시사이드CC",
+      "체리골프 가고시마 시사이드"
+    ],
+    "summary": "가고시마 히오키시 해안 쪽 코스, 체리골프 운영",
+    "specs": [
+      {
+        "label": "운영",
+        "value": "체리골프"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가고시마현 히오키시 히가시이치키초"
+      }
+    ],
+    "description": "가고시마 시사이드CC는 체리골프가 운영하는 코스로, 가고시마현 히오키시 히가시이치키초에 있습니다. 예전 이름은 가고시마 시사이드 골프클럽이었고, 바다가 내려다보이는 해안 쪽 지형에 홀이 놓여 있습니다.\n\n여행의파도 가고시마 텐몬칸 다색 상품에서 가고시마 국제·난코쿠CC와 함께 기본으로 배정되는 골프장입니다. 클럽하우스 중식이 포함되고, 카트를 이용하는 노캐디 셀프 플레이 기준입니다.",
+    "images": [
+      "/images/courses-1106/kagoshima-seaside-cc/course-1.jpg",
+      "/images/courses-1106/kagoshima-seaside-cc/course-2.jpg",
+      "/images/courses-1106/kagoshima-seaside-cc/course-3.jpg"
+    ],
+    "hashtags": [
+      "가고시마시사이드CC",
+      "시사이드CC",
+      "가고시마골프여행",
+      "가고시마골프장",
+      "일본골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "kai-kou-xiamen-gc",
+    "name": "카이거CC",
+    "nameEn": "Kai Kou (Xiamen) Golf Club",
+    "region": "샤먼",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "카이거",
+      "카이거 골프클럽",
+      "카이거CC 36홀",
+      "Kai Kou",
+      "Kaikou"
+    ],
+    "summary": "그렉 노먼이 설계한 36홀 대회 코스, 샤먼에서 하루 18~27홀씩 라운딩하기 좋은 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 (18홀 코스 2개)"
+      },
+      {
+        "label": "파",
+        "value": "18홀 기준 파72"
+      },
+      {
+        "label": "설계",
+        "value": "그렉 노먼 (Greg Norman)"
+      },
+      {
+        "label": "개장",
+        "value": "1994년 7월 첫 18홀, 2009년 나머지 18홀"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 푸젠성 샤먼"
+      }
+    ],
+    "description": "카이거CC는 중국 샤먼에 있는 36홀 골프장으로, 호주 출신 그렉 노먼이 설계했습니다. 첫 18홀은 1994년 7월에 문을 열었고 나머지 18홀은 2009년에 더해졌으며, 중국에서 처음 만들어진 그렉 노먼 설계 36홀 시설로 소개됩니다. 18홀 기준 파72입니다.\n\n여행의파도 샤먼 카이거CC 4박5일 골프여행에서는 힐튼 가든 호텔(또는 동급)에 머물며 36홀 코스에서 첫날 18홀, 이후 하루 27홀씩 라운딩합니다. 카트비와 캐디피, 캐디팁은 현지에서 냅니다.",
+    "images": [
+      "/images/courses-1106/kai-kou-xiamen-gc/1.jpg",
+      "/images/courses-1106/kai-kou-xiamen-gc/2.jpg",
+      "/images/courses-1106/kai-kou-xiamen-gc/3.jpg",
+      "/images/courses-1106/kai-kou-xiamen-gc/4.jpg",
+      "/images/courses-1106/kai-kou-xiamen-gc/5.jpg",
+      "/images/courses-1106/kai-kou-xiamen-gc/6.jpg"
+    ],
+    "hashtags": [
+      "카이거CC",
+      "샤먼골프장",
+      "샤먼골프여행",
+      "그렉노먼",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "kamou-cc",
+    "name": "카모우CC",
+    "nameEn": "Kamou Country Club (蒲生カントリークラブ)",
+    "region": "가고시마",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "카모우(카모)CC",
+      "카모CC",
+      "카모우",
+      "蒲生"
+    ],
+    "summary": "가고시마 아이라시의 27홀 파108 구릉 코스, 1974년 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 · 파108 (사쿠라지마·케도인·기리시마 3코스)"
+      },
+      {
+        "label": "개장",
+        "value": "1974년"
+      },
+      {
+        "label": "설계",
+        "value": "오하시 고키치"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가고시마현 아이라시"
+      }
+    ],
+    "description": "카모우CC(蒲生カントリークラブ)는 가고시마현 아이라시에 있는 27홀 구릉 코스로, 전체 파108입니다. 사쿠라지마·케도인·기리시마 세 코스로 나뉘고 설계는 오하시 고키치, 개장은 1974년입니다.\n\n나무로 둘러싸인 구릉 지형에 홀이 이어집니다.\n\n여행의파도 가고시마 카모우CC 4박5일 상품은 숙소에서 차로 약 25분 거리입니다. 체류일 주중(월요일·주말·일본 휴일 제외)에는 9홀 서비스 라운딩이 있고, 월요일은 휴장이라 18홀만 돕니다. 카트 페어웨이 진입은 현지에서 가능 여부를 확인한 뒤 1일 1인 550엔을 냅니다.",
+    "images": [
+      "/images/kagoshima-kamou-incheon/course-1.jpg",
+      "/images/kagoshima-kamou-incheon/course-2.jpg",
+      "/images/kagoshima-kamou-incheon/course-3.jpg",
+      "/images/kagoshima-kamou-incheon/course-4.jpg",
+      "/images/kagoshima-kamou-incheon/course-6.jpg"
+    ],
+    "hashtags": [
+      "카모우CC",
+      "카모CC",
+      "가고시마골프여행",
+      "가고시마골프장",
+      "27홀",
+      "일본골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "liloan-cc",
+    "name": "릴로안CC",
+    "nameEn": "Liloan Golf Course & Leisure Estate",
+    "region": "세부",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "aliases": [
+      "릴로안",
+      "Liloan Golf Club",
+      "Liloan"
+    ],
+    "summary": "세부 북부 산자락에 자리한 18홀 파72 코스, 오르내림이 큰 지형",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "72"
+      },
+      {
+        "label": "코스 특징",
+        "value": "산자락 지형, 오르내림이 큰 페어웨이"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 세부 리로안"
+      }
+    ],
+    "description": "릴로안CC는 세부섬 북부 산자락에 있는 18홀 파72 코스입니다. 산 지형을 그대로 살려 페어웨이의 오르내림이 크고, 홀마다 산과 계곡을 배경으로 한 풍경이 이어집니다.\n\n세부 도심의 골프장과는 다른 산속 코스의 분위기를 즐길 수 있습니다.\n\n여행의파도 부산 출발 세부 실속 3색 상품은 코랄포인트 가든 리조트(준4성)에 숙박하며 릴로안CC·알타비스타CC·클럽필리피노CC를 하루 한 곳씩 라운딩합니다. 골프장 순서와 티업 시간은 현지에서 정합니다.",
+    "images": [
+      "/images/courses-1106/liloan-cc/course-1.jpg",
+      "/images/courses-1106/liloan-cc/course-2.jpg",
+      "/images/courses-1106/liloan-cc/course-3.jpg",
+      "/images/courses-1106/liloan-cc/course-4.jpg",
+      "/images/courses-1106/liloan-cc/course-5.jpg",
+      "/images/courses-1106/liloan-cc/course-6.jpg"
+    ],
+    "hashtags": [
+      "릴로안CC",
+      "세부골프장",
+      "세부골프여행",
+      "필리핀골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "mimosa-cc",
+    "name": "미모사CC",
+    "nameEn": "Mimosa Plus Golf Course (Mimosa Golf & Country Club)",
+    "region": "클락",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "aliases": [
+      "미모사",
+      "Mimosa"
+    ],
+    "summary": "클락 프리포트존 안에 18홀 코스 2개(마운틴뷰·아카시아 레이크뷰)를 갖춘 36홀",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 (마운틴뷰 파72 · 아카시아 레이크뷰 파72)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "호수와 벙커 군, 산자락 조망"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 팜팡가 클락 프리포트존"
+      }
+    ],
+    "description": "미모사CC는 클락 프리포트존에 있는 36홀 골프장입니다. 마운틴뷰 코스와 아카시아 레이크뷰 코스(각 18홀 파72)로 이뤄져 있습니다.\n\n마운틴뷰는 산자락을 끼고 이어지는 코스, 아카시아 레이크뷰는 호수를 따라 펼쳐지는 코스입니다. 벙커 군이 눈에 띄고 드라이빙 레인지와 숙박·식사 시설을 갖추고 있습니다. 어느 코스에서 라운딩하는지는 현지 사정에 따라 정해집니다.\n\n여행의파도 부산 출발 클락 3색 상품은 더 그랜드 K호텔에 숙박하며 미모사CC·FA코리아CC·로얄센트럴CC를 하루 한 곳씩 18홀로 라운딩합니다. 4박6일은 로얄센트럴CC를 한 번 더 쳐서 72홀입니다.",
+    "images": [
+      "/images/courses-1106/mimosa-cc/ga-Mimosa-HOLE-13-MV.jpg",
+      "/images/courses-1106/mimosa-cc/ga-Mimosa-HOLE-16-MV.jpg",
+      "/images/courses-1106/mimosa-cc/ga-Mimosa-HOLE-18-MV.jpg",
+      "/images/courses-1106/mimosa-cc/ga-Mimosa-HOLE-3.jpg",
+      "/images/courses-1106/mimosa-cc/ga-Mimosa-HOLE-4-MV.jpg",
+      "/images/courses-1106/mimosa-cc/ga-Mimosa-HOLE-7-MV.jpg"
+    ],
+    "hashtags": [
+      "미모사CC",
+      "클락골프장",
+      "클락골프여행",
+      "필리핀골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "mizobe-cc",
+    "name": "미조베CC",
+    "nameEn": "Mizobe Country Club (溝辺カントリークラブ)",
+    "region": "가고시마",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "미조베",
+      "溝辺"
+    ],
+    "summary": "가고시마공항 인근 기리시마시의 18홀 파72 구릉 코스, 1995년 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "개장",
+        "value": "1995년"
+      },
+      {
+        "label": "설계",
+        "value": "고바야시 미쓰아키"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가고시마현 기리시마시"
+      }
+    ],
+    "description": "미조베CC는 가고시마현 기리시마시에 1995년 문을 연 18홀 파72 구릉 코스입니다. 설계는 고바야시 미쓰아키이고 가고시마공항과 가까운 곳에 있습니다.\n\n구릉 지형에 연못과 숲이 어우러진 홀이 이어지며 그린은 벤트·버뮤다를 함께 씁니다.\n\n여행의파도 가고시마 텐몬칸 다색 상품에서 시사이드·가고시마 국제·난코쿠CC 등과 함께 배정될 수 있는 골프장입니다.",
+    "images": [
+      "/images/courses-1106/mizobe-cc/course-1.jpg",
+      "/images/courses-1106/mizobe-cc/course-2.jpg",
+      "/images/courses-1106/mizobe-cc/course-3.jpg",
+      "/images/courses-1106/mizobe-cc/course-4.jpg"
+    ],
+    "hashtags": [
+      "미조베CC",
+      "기리시마골프",
+      "가고시마골프여행",
+      "가고시마골프장",
+      "일본골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "mochio-cc",
+    "name": "모치오CC",
+    "nameEn": "Miyakonojo Mochio Country Club (都城母智丘カントリークラブ)",
+    "region": "가고시마",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "모치오",
+      "모치오 컨트리클럽",
+      "母智丘"
+    ],
+    "summary": "미야자키현 미야코노조의 18홀 파72 구릉 코스, 1976년 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72 (세키노오 코스·모치오 코스)"
+      },
+      {
+        "label": "개장",
+        "value": "1976년"
+      },
+      {
+        "label": "설계",
+        "value": "모리 지로"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 미야자키현 미야코노조시"
+      }
+    ],
+    "description": "모치오CC는 미야자키현 미야코노조시에 1976년 문을 연 18홀 파72 구릉 코스입니다. 아웃은 세키노오 코스, 인은 모치오 코스로 불리고, 설계는 모리 지로입니다.\n\n굴곡진 지형 위에 홀이 놓여 있어 페어웨이마다 오르내림이 있고, 맑은 날에는 멀리 기리시마 산줄기가 보입니다.\n\n여행의파도 가고시마 모치오·리젠트 2색 상품에서는 리젠트 미야자키CC와 번갈아 라운딩합니다. 클럽하우스 중식이 포함되고 주중에는 9홀 서비스 라운딩이 있으며(현지 공휴일 제외), 노캐디 라운딩입니다.",
+    "images": [
+      "/images/courses-1106/mochio-cc/course-1.jpg",
+      "/images/courses-1106/mochio-cc/course-2.jpg",
+      "/images/courses-1106/mochio-cc/course-3.jpg",
+      "/images/courses-1106/mochio-cc/course-4.jpg",
+      "/images/courses-1106/mochio-cc/course-5.jpg"
+    ],
+    "hashtags": [
+      "모치오CC",
+      "미야코노조골프",
+      "가고시마골프여행",
+      "가고시마골프장",
+      "미야자키골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "mountain-shadow-gc",
+    "name": "마운틴쉐도우CC",
+    "nameEn": "Mountain Shadow Golf Club",
+    "region": "파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "aliases": [
+      "마운틴쉐도우",
+      "마운틴 쉐도우",
+      "Mountain Shadow"
+    ],
+    "summary": "골프플랜 설계 파72 6,722야드, 아일랜드 그린 4개를 가진 촌부리 18홀 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,722야드 (블랙티 기준)"
+      },
+      {
+        "label": "설계",
+        "value": "골프플랜 (로널드 프림)"
+      },
+      {
+        "label": "개장",
+        "value": "1993년"
+      },
+      {
+        "label": "코스 특징",
+        "value": "아일랜드 그린 4개, 워터 해저드와 도그렉"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 촌부리주 (방콕과 파타야 사이)"
+      }
+    ],
+    "description": "마운틴쉐도우CC는 방콕과 파타야 사이 촌부리주에 있는 18홀 파72 코스입니다. 블랙티 기준 전장은 6,722야드이며, 골프플랜의 로널드 프림이 설계해 1993년에 문을 열었습니다.\n\n물을 건너는 승부가 많은 코스입니다. 아일랜드 그린이 네 곳 있고 워터 해저드와 도그렉 홀이 이어져 샷 선택을 신중하게 해야 합니다. 멀리 산자락이 보이는 야자수 페어웨이도 이 코스의 분위기를 만듭니다.\n\n여행의파도 대구 출발 파타야 실속 3색 상품에서는 마지막 날 크리스탈베이CC 또는 마운틴쉐도우CC에서 18홀을 라운딩합니다. 1인 1캐디·1인 1카트 기준이며 캐디피와 카트비는 현지에서 냅니다.",
+    "images": [
+      "/images/courses-1106/mountain-shadow-gc/golfasian.jpg",
+      "/images/courses-1106/mountain-shadow-gc/kimi-5.1.jpg",
+      "/images/courses-1106/mountain-shadow-gc/kimi-5.2.jpg",
+      "/images/courses-1106/mountain-shadow-gc/kimi-3.3.jpg",
+      "/images/courses-1106/mountain-shadow-gc/kimi-3.2.jpg",
+      "/images/courses-1106/mountain-shadow-gc/golfpass.jpg"
+    ],
+    "hashtags": [
+      "마운틴쉐도우",
+      "파타야골프장",
+      "파타야골프여행",
+      "태국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "pattaya-country-club",
+    "name": "파타야CC",
+    "nameEn": "Pattaya Country Club",
+    "region": "파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "aliases": [
+      "파타야 컨트리클럽",
+      "파타야 컨트리",
+      "Pattaya Country Club"
+    ],
+    "summary": "331번 국도 라용 방면에 있는 파타야 근교 18홀 파72 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "72"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 파타야 (331번 국도, 라용 방면)"
+      }
+    ],
+    "description": "파타야CC는 파타야에서 라용 방향으로 331번 국도를 따라 있는 18홀 파72 코스입니다. 완만하게 구르는 구릉 지형에 넓은 부지를 쓰고 있어 홀 사이가 여유롭습니다.\n\n그린 주변에는 벙커가 놓여 있고 그린 면에 기복이 있는 곳이 많아, 어프로치와 퍼팅에서 차이가 납니다.\n\n여행의파도 대구 출발 파타야 품격 3색 상품에서는 그랜드팔라죠호텔(정5성)에 숙박하며 피닉스CC·파타야CC·방프라CC에서 하루 한 곳씩 18홀을 라운딩합니다. 전용 차량으로 이동하고 1인 1캐디 기준입니다.",
+    "images": [
+      "/images/courses-1106/pattaya-country-club/ga-golfcourse.jpg",
+      "/images/courses-1106/pattaya-country-club/ga-Pattaya-Country-Club-02.jpg",
+      "/images/courses-1106/pattaya-country-club/ga-Pattaya-Country-Club-03.jpg",
+      "/images/courses-1106/pattaya-country-club/ga-Pattaya-Country-Club-05.jpg",
+      "/images/courses-1106/pattaya-country-club/ga-Pattaya-Country-Club-06.jpg"
+    ],
+    "hashtags": [
+      "파타야CC",
+      "파타야골프장",
+      "파타야골프여행",
+      "태국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "regent-miyazaki-cc",
+    "name": "리젠트 미야자키CC",
+    "nameEn": "Regent Miyazaki Country Club (リージェント宮崎カントリークラブ)",
+    "region": "가고시마",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "리젠트 미야자키",
+      "리젠트CC",
+      "리젠트미야자키CC"
+    ],
+    "summary": "리 트레비노 설계, 18홀 파72, 1992년 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "개장",
+        "value": "1992년"
+      },
+      {
+        "label": "설계",
+        "value": "리 트레비노"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 미야자키현 미야코노조시"
+      }
+    ],
+    "description": "리젠트 미야자키CC는 1992년 문을 연 18홀 파72 코스로, 미국 프로 리 트레비노가 설계했습니다.\n\n4개 홀에 연못이 얽혀 있어 멀리 치기보다 노린 방향과 거리에 정확히 보내는 샷이 중요하고, 그린이 넓고 기복이 있어 퍼팅 라인을 읽는 재미가 있습니다. 기리시마산을 배경으로 시야가 트인 코스입니다.\n\n여행의파도 가고시마 모치오·리젠트 2색 상품에서는 모치오CC와 번갈아 라운딩하는 노캐디 코스이며, 주말·공휴일에는 1인 35,000원이 추가됩니다.",
+    "images": [
+      "/images/courses-1106/regent-miyazaki-cc/course-1.jpg",
+      "/images/courses-1106/regent-miyazaki-cc/course-2.jpg",
+      "/images/courses-1106/regent-miyazaki-cc/course-3.jpg",
+      "/images/courses-1106/regent-miyazaki-cc/course-4.jpg",
+      "/images/courses-1106/regent-miyazaki-cc/course-5.jpg"
+    ],
+    "hashtags": [
+      "리젠트미야자키CC",
+      "미야자키골프",
+      "가고시마골프여행",
+      "리트레비노",
+      "일본골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "rockhill-gc",
+    "name": "록힐CC",
+    "nameEn": "Rock Hill Golf Club (ロックヒルゴルフクラブ)",
+    "region": "도쿄",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "록힐",
+      "록힐 리조트",
+      "록힐골프클럽",
+      "ロックヒル"
+    ],
+    "summary": "이바라키 히타치오미야의 36홀, 레이크·락 코스와 호텔 병설, 1988년 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 (레이크 코스 · 락 코스 각 18홀)"
+      },
+      {
+        "label": "개장",
+        "value": "1988년"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 이바라키현 히타치오미야시"
+      },
+      {
+        "label": "특징",
+        "value": "클럽하우스 병설 호텔"
+      }
+    ],
+    "description": "록힐CC는 이바라키현 히타치오미야시에 1988년 문을 연 36홀 골프장으로 레이크 코스와 락 코스로 나뉩니다. 클럽하우스에 호텔이 붙어 있습니다.\n\n레이크 코스는 연못을 곳곳에 두고 마운드와 그래스 벙커로 정확한 샷을 요구하는 평탄한 레이아웃이고, 락 코스는 자연 바위와 연못이 어우러진 웅장한 코스에 2단·3단 그린이 있어 어디에 올리느냐가 중요합니다.\n\n여행의파도 청주출발 이바라키 록힐 상품은 록힐CC와 센세이잔소CC 2색 72홀이고, 도쿄 이바라키 마나리조트 상품에서도 하루를 록힐CC 또는 신세이잔소CC에서 라운딩합니다. 록힐에서 센세이잔소까지는 차로 약 25분입니다.",
+    "images": [
+      "/images/courses-1106/rockhill-gc/course-1.jpg",
+      "/images/courses-1106/rockhill-gc/course-2.jpg",
+      "/images/courses-1106/rockhill-gc/course-3.jpg",
+      "/images/courses-1106/rockhill-gc/course-4.jpg",
+      "/images/courses-1106/rockhill-gc/course-5.jpg"
+    ],
+    "hashtags": [
+      "록힐CC",
+      "록힐리조트",
+      "이바라키골프",
+      "일본골프여행",
+      "36홀"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "royal-ratchaburi-cc",
+    "name": "로얄라차부리CC",
+    "nameEn": "Royal Ratchaburi Golf Club & Resort",
+    "region": "라차부리",
+    "country": "태국",
+    "countryCode": "thailand",
+    "aliases": [
+      "로얄라차부리",
+      "로열라차부리",
+      "Royal Ratchaburi"
+    ],
+    "summary": "아타난 욤친다 설계, 파72 6,785야드의 라차부리 18홀 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,785야드 (블랙티 기준)"
+      },
+      {
+        "label": "설계",
+        "value": "아타난 욤친다"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 라차부리주"
+      }
+    ],
+    "description": "로얄라차부리CC는 라차부리주에 있는 18홀 파72 코스로, 블랙티 기준 전장은 6,785야드입니다. 태국 설계가 아타난 욤친다가 설계했습니다.\n\n골프장 안에 골프텔이 있어 라운딩 전후 이동이 짧고, 코스는 숲과 호수가 어우러진 지형입니다.\n\n여행의파도 부산 출발 로얄라차부리 상품은 로얄라차부리 골프텔 구관에 2인 1실로 숙박하며 4박6일 동안 매일 18홀+18홀 무제한으로 라운딩합니다.",
+    "images": [
+      "/images/courses-1106/royal-ratchaburi-cc/course-1.jpg",
+      "/images/courses-1106/royal-ratchaburi-cc/course-2.jpg",
+      "/images/courses-1106/royal-ratchaburi-cc/course-3.jpg",
+      "/images/courses-1106/royal-ratchaburi-cc/course-4.jpg",
+      "/images/courses-1106/royal-ratchaburi-cc/course-5.jpg",
+      "/images/courses-1106/royal-ratchaburi-cc/course-6.jpg"
+    ],
+    "hashtags": [
+      "로얄라차부리",
+      "라차부리골프",
+      "태국골프여행",
+      "태국골프텔",
+      "무제한골프",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "shotaizan-cc",
+    "name": "쇼타이잔CC",
+    "nameEn": "Kyushu Golf Club Shotaizan Course (九州ゴルフ倶楽部 小岱山コース)",
+    "region": "구마모토",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "쇼다이산CC",
+      "쇼다이산",
+      "쇼타이잔",
+      "쇼타이잔 C.C",
+      "小岱山"
+    ],
+    "summary": "아리아케해를 바라보는 구릉 18홀 파72, 1992년 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "개장",
+        "value": "1992년"
+      },
+      {
+        "label": "설계",
+        "value": "가토 슌스케"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 구마모토현 아라오시 가나야마"
+      }
+    ],
+    "description": "쇼타이잔CC는 정식 이름이 규슈 골프클럽 쇼타이잔 코스(九州ゴルフ倶楽部 小岱山コース)로, 구마모토현 아라오시 가나야마의 구릉에 있습니다. 1992년 문을 연 18홀 파72 코스이며 설계는 가토 슌스케입니다.\n\n아리아케해가 멀리 보이는 구릉에 링크스를 떠올리게 하는 조형미로 만든 코스입니다.\n\n여행의파도 구마모토 시내 온천호텔 다색 상품과 사가·도스 규슈 7색 상품에서 배정되는 골프장 가운데 하나입니다. 골프장은 현지 사정에 따라 정해지고 출발 전에 안내합니다.",
+    "images": [
+      "/images/courses-1106/shotaizan-cc/course-1.jpg",
+      "/images/courses-1106/shotaizan-cc/course-2.jpg",
+      "/images/courses-1106/shotaizan-cc/course-3.jpg",
+      "/images/courses-1106/shotaizan-cc/course-4.jpg",
+      "/images/courses-1106/shotaizan-cc/course-5.jpg"
+    ],
+    "hashtags": [
+      "쇼타이잔CC",
+      "쇼다이산CC",
+      "구마모토골프",
+      "규슈골프여행",
+      "일본골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "st-andrews-2000-cc",
+    "name": "세인트앤드류CC",
+    "nameEn": "St Andrews 2000 Golf Club (현 Barcelona Valley Golf Club Lake Course)",
+    "region": "파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "aliases": [
+      "세인트앤드류",
+      "세인트 앤드류",
+      "세인트앤드류2000",
+      "세인트앤드류스 2000",
+      "St Andrews 2000"
+    ],
+    "summary": "데스몬드 뮤어헤드 설계, 파74 7,540야드의 라용 대형 18홀 챔피언십 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파74 · 7,540야드 (백티 기준)"
+      },
+      {
+        "label": "설계",
+        "value": "데스몬드 뮤어헤드"
+      },
+      {
+        "label": "개장",
+        "value": "2000년"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 라용주 반창 (파타야 인근)"
+      }
+    ],
+    "description": "세인트앤드류CC는 2000년에 문을 연 18홀 코스로, 스코틀랜드 링크스 스타일로 설계됐습니다. 지금은 Barcelona Valley Golf Club의 Lake Course라는 이름도 함께 쓰입니다. 백티 기준 전장은 7,540야드, 파는 72가 아닌 74입니다.\n\n라용주 반창에 있어 파타야 시내와는 거리가 있지만, 가까이에 실키오크CC와 그린밸리CC가 있어 코스를 바꿔 라운딩하기 좋습니다. 전장이 긴 편이라 티샷 거리와 코스 매니지먼트가 점수를 가릅니다.\n\n여행의파도 부산 출발 파타야 3색 상품은 세인트앤드류 골프텔에 숙박하며 세인트앤드류CC·그린밸리CC·실키오크CC에서 하루 18홀씩 총 54홀을 라운딩합니다. 시암CC가 들어간 풀빌라 상품에서도 이 단지의 코스를 골라 라운딩하며, 골프장 사정에 따라 선택이 안 될 수 있습니다.",
+    "images": [
+      "/images/courses-1106/st-andrews-2000-cc/ygt-1.jpg",
+      "/images/courses-1106/st-andrews-2000-cc/ygt-2.jpg",
+      "/images/courses-1106/st-andrews-2000-cc/ygt-3.jpg",
+      "/images/courses-1106/st-andrews-2000-cc/ygt-4.jpg",
+      "/images/courses-1106/st-andrews-2000-cc/ygt-5.jpg",
+      "/images/courses-1106/st-andrews-2000-cc/ygt-7.jpg",
+      "/images/courses-1106/st-andrews-2000-cc/ygt-8.jpg"
+    ],
+    "hashtags": [
+      "세인트앤드류CC",
+      "파타야골프장",
+      "파타야골프여행",
+      "태국골프여행",
+      "라용골프",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "thanya-gc",
+    "name": "탄야CC",
+    "nameEn": "Thanya Golf Club",
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "aliases": [
+      "탄야",
+      "탄야 골프클럽",
+      "Thanya"
+    ],
+    "summary": "9홀 3개(A·B·C) 총 27홀, 호수가 모든 홀에 걸친 평지형 방콕 근교 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (9홀 코스 3개: A·B·C)"
+      },
+      {
+        "label": "파",
+        "value": "108 (27홀 합계)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "평지형, 전 홀에 호수"
+      },
+      {
+        "label": "리뉴얼",
+        "value": "2012년 전 코스 개보수 (공식 안내)"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 빠툼타니주 (방콕 북부)"
+      }
+    ],
+    "description": "탄야CC는 방콕 북쪽 빠툼타니주에 있는 27홀 골프장입니다. 9홀 코스 세 개(A·B·C)로 이뤄져 있고 27홀 합계 파는 108입니다.\n\n공식 안내에 따르면 코스가 평평해서 걷기 편하고 모든 홀에 호수가 있으며, 2012년에 전 코스를 새로 단장했습니다. 지형이 부담스럽지 않아 중·고핸디캡 골퍼도 즐기기 좋습니다.\n\n여행의파도 대구 출발 방콕 실속 3색 상품에서는 탄야CC를 포함해 타논CC와 루스비스타CC 또는 무앙액CC에서 하루 한 곳씩 18홀을 라운딩합니다. 호텔 직원이 골프장까지 동반해 안내합니다.",
+    "images": [
+      "/images/courses-1106/thanya-gc/golfpass-a.jpg",
+      "/images/courses-1106/thanya-gc/golfpass-b.jpg",
+      "/images/courses-1106/thanya-gc/blog-1.jpg"
+    ],
+    "hashtags": [
+      "탄야CC",
+      "방콕골프장",
+      "방콕골프여행",
+      "태국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "the-vista-cc",
+    "name": "더 비스타CC",
+    "nameEn": "The Vista Country Club",
+    "region": "클락",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "aliases": [
+      "The Vista",
+      "Vista Country Club"
+    ],
+    "summary": "클락 북쪽 뉴클락시티의 넓은 페어웨이 18홀 파72 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "72"
+      },
+      {
+        "label": "코스 특징",
+        "value": "넓은 페어웨이, 벙커와 워터 해저드, 기복 있는 그린"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 타를락주 카파스 (뉴클락시티)"
+      }
+    ],
+    "description": "더 비스타CC는 타를락주 카파스 뉴클락시티에 있는 18홀 파72 코스입니다. 페어웨이가 넓고 벙커와 워터 해저드가 곳곳에 놓여 있으며 그린에 기복이 있습니다.\n\n드라이빙 레인지와 레스토랑 같은 시설을 갖추고 있습니다.\n\n여행의파도 부산 출발 클락 카지노골프 상품은 힐튼 클락 선밸리 리조트 또는 동급에 숙박하며 더 비스타CC를 2회 보장하고, 더 비스타CC 또는 디 하이츠CC에서 하루 18홀씩 총 3회 54홀을 라운딩합니다. 골프장 사정에 따라 다른 팀과 조인 라운딩이 될 수 있습니다.",
+    "images": [
+      "/images/courses-1106/the-vista-cc/ga-the_vista_country_club_hero.jpg",
+      "/images/courses-1106/the-vista-cc/ga-The-Vista-Country-Club-Eyeview.jpg",
+      "/images/courses-1106/the-vista-cc/ga-The-Vista-Country-Club-01.jpg",
+      "/images/courses-1106/the-vista-cc/ga-The-Vista-Country-Club-02.jpg",
+      "/images/courses-1106/the-vista-cc/ga-The-Vista-Country-Club-03.jpg",
+      "/images/courses-1106/the-vista-cc/ga-The-Vista-Country-Club-04.jpg"
+    ],
+    "hashtags": [
+      "더비스타CC",
+      "클락골프장",
+      "클락골프여행",
+      "필리핀골프여행",
+      "카지노골프",
+      "골프패키지"
+    ],
+    "relatedTourIds": []
   }
 ]
