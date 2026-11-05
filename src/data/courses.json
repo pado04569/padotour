@@ -10083,5 +10083,57 @@
       "골프패키지"
     ],
     "relatedTourIds": []
+  },
+  {
+    "slug": "artitaya-golf-resort-bangkok",
+    "name": "아티타야CC",
+    "nameEn": "Artitaya Golf & Resort (Nakhon Nayok)",
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "aliases": [
+      "아티타야CC",
+      "Artitaya Golf & Resort"
+    ],
+    "summary": "방콕 동북쪽 약 42km, 망고·프렌드·유칼립·아리랑 36홀 파144 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 · 파144 (망고·프렌드·유칼립·아리랑 각 9홀)"
+      },
+      {
+        "label": "전장",
+        "value": "13,528야드"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 나콘나욕주 옹카락 (방콕 동북쪽)"
+      },
+      {
+        "label": "접근",
+        "value": "방콕에서 약 42km, 수완나품공항에서 약 1시간"
+      }
+    ],
+    "description": "아티타야CC는 방콕에서 동북쪽으로 약 42km, 수완나품 공항에서 약 1시간 거리인 나콘나욕주의 골프장으로, 망고·프렌드·유칼립·아리랑 9홀 코스 4개를 합쳐 36홀 파144, 총 전장 13,528야드입니다.\n\n호수와 수로가 많고 해저드와 벙커가 잘 어우러진 코스입니다. 기존 코스는 나무가 많고 수로와 호수가 낙구 지점 가까이에 있어 티샷을 신중하게 해야 하고, 새로 만든 코스는 파스팔람 잔디에 워터 해저드가 많아 장타자에게도 도전적인 코스입니다. 300야드 천연 잔디 연습장과 리조트, 수영장, 마사지실을 함께 갖추고 있습니다.\n\n여행의파도 부산 출발 상품은 진에어 직항으로 출발해 골프장 안 아티타야 리조트에 3박하며 3일 동안 무제한 라운딩합니다. 전 일정 식사가 포함됩니다.",
+    "images": [
+      "/images/bangkok-artitaya-busan/course-1.jpg",
+      "/images/bangkok-artitaya-busan/course-2.jpg",
+      "/images/bangkok-artitaya-busan/course-3.jpg",
+      "/images/bangkok-artitaya-busan/course-4.jpg",
+      "/images/bangkok-artitaya-busan/course-5.jpg",
+      "/images/bangkok-artitaya-busan/course-6.jpg"
+    ],
+    "hashtags": [
+      "아티타야CC",
+      "아티타야",
+      "방콕골프장",
+      "방콕골프여행",
+      "나콘나욕골프",
+      "무제한골프",
+      "부산출발골프"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok-artitaya-unlimited-busan"
+    ]
   }
 ]
