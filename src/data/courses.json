@@ -8026,5 +8026,107 @@
     "relatedTourIds": [
       "china-fuzhou-kempinski-2color-incheon"
     ]
+  },
+  {
+    "slug": "vinpearl-golf-phu-quoc",
+    "name": "빈펄 푸꾸옥CC",
+    "nameEn": "Vinpearl Golf Phu Quoc",
+    "region": "푸꾸옥",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "IMG 설계 18홀, 푸꾸옥 숲을 깎아 만든 리조트 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "개장",
+        "value": "2015년"
+      },
+      {
+        "label": "설계",
+        "value": "IMG"
+      },
+      {
+        "label": "코스 특징",
+        "value": "숲과 호수가 어우러진 평탄한 리조트 코스"
+      },
+      {
+        "label": "접근",
+        "value": "푸꾸옥 국제공항에서 차로 약 40분"
+      }
+    ],
+    "description": "빈펄 푸꾸옥CC는 2015년에 문을 연 18홀 골프장으로, IMG가 설계했습니다. 푸꾸옥 섬의 빈펄 리조트 단지 안에 있습니다.\n\n숲을 깎아 만든 평탄한 지형에 호수가 곳곳에 있어 시원한 풍경 속에서 라운딩하실 수 있습니다.\n\n여행의파도 푸꾸옥 2색 상품은 씨쉘 호텔 앤 스파 또는 동급에 3박하며 빈펄 푸꾸옥CC·에스츄리 붕바우CC 중 배정된 곳에서 18홀씩 2회 라운딩합니다.",
+    "images": [
+      "/images/phuquoc-vinpearl-estuary-busan/course-2.jpg",
+      "/images/phuquoc-vinpearl-estuary-busan/course-4.jpg",
+      "/images/phuquoc-vinpearl-estuary-busan/course-6.jpg",
+      "/images/phuquoc-vinpearl-estuary-busan/course-8.jpg",
+      "/images/phuquoc-vinpearl-estuary-busan/course-10.jpg",
+      "/images/phuquoc-vinpearl-estuary-busan/course-12.jpg",
+      "/images/phuquoc-vinpearl-estuary-busan/course-13.jpg",
+      "/images/phuquoc-vinpearl-estuary-busan/course-14.jpg"
+    ],
+    "hashtags": [
+      "빈펄푸꾸옥CC",
+      "빈펄골프",
+      "푸꾸옥골프",
+      "푸꾸옥골프여행",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-phuquoc-vinpearl-estuary-busan"
+    ]
+  },
+  {
+    "slug": "eschuri-vung-bau-golf",
+    "name": "에스츄리 붕바우CC",
+    "nameEn": "Eschuri Vung Bau Golf",
+    "region": "푸꾸옥",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "2024년 개장 IMG 설계 18홀, 숲에서 바다로 이어지는 푸꾸옥 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72 · 7,508야드"
+      },
+      {
+        "label": "개장",
+        "value": "2024년"
+      },
+      {
+        "label": "설계",
+        "value": "IMG"
+      },
+      {
+        "label": "코스 특징",
+        "value": "전반은 오래된 숲, 후반은 붕바우 해안 쪽으로 이어지는 코스"
+      },
+      {
+        "label": "접근",
+        "value": "즈엉동 시내에서 북쪽으로 약 20km"
+      }
+    ],
+    "description": "에스츄리 붕바우CC는 2024년에 문을 연 18홀 골프장으로, IMG가 설계했습니다. 파72, 전장은 7,508야드입니다.\n\n즈엉동 시내에서 북쪽으로 약 20km 떨어진 붕바우 생태관광지구에 있으며, 전반 9홀은 오래된 숲 사이로, 후반 9홀은 해안 쪽으로 이어집니다.\n\n여행의파도 푸꾸옥 2색 상품은 씨쉘 호텔 앤 스파 또는 동급에 3박하며 빈펄 푸꾸옥CC·에스츄리 붕바우CC 중 배정된 곳에서 18홀씩 2회 라운딩합니다.",
+    "images": [
+      "/images/phuquoc-vinpearl-estuary-busan/course-1.jpg",
+      "/images/phuquoc-vinpearl-estuary-busan/course-3.jpg",
+      "/images/phuquoc-vinpearl-estuary-busan/course-5.jpg",
+      "/images/phuquoc-vinpearl-estuary-busan/course-7.jpg",
+      "/images/phuquoc-vinpearl-estuary-busan/course-9.jpg",
+      "/images/phuquoc-vinpearl-estuary-busan/course-11.jpg"
+    ],
+    "hashtags": [
+      "에스츄리붕바우CC",
+      "에스츄리CC",
+      "붕바우골프",
+      "푸꾸옥골프",
+      "푸꾸옥골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-phuquoc-vinpearl-estuary-busan"
+    ]
   }
 ]
