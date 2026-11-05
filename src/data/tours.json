@@ -126815,5 +126815,280 @@
       "/images/hainan-missionhills/hotel-3.jpg",
       "/images/hainan-missionhills/course-4.jpg"
     ]
+  },
+  {
+    "country": "사이판",
+    "countryCode": "other",
+    "region": "괌/사이판",
+    "courses": "코랄오션CC · 라오라오베이CC",
+    "minPeople": "2인",
+    "hotel": "코랄오션 리조트 (2인 1실)",
+    "hotelDesc": "골프장과 리조트가 한곳에 있는 코랄오션 리조트로, 코랄오션CC까지 걸어서 이동합니다. 2인 1실로 묵으며 조식과 석식이 리조트에서 제공되고, 마지막 날에는 레이트 체크아웃이 포함됩니다.",
+    "golfCourse": "코랄오션CC · 라오라오베이CC",
+    "excludes": [
+      "중식",
+      "기타 개인경비 및 매너팁",
+      "싱글룸 1인 1박 $60 (설 연휴 $80)",
+      "G-CNMI ETA (ESTA 없이 무비자 입국 시 필수, 무료)"
+    ],
+    "cancelPolicy": [
+      "출발 인원은 최소 2명, 최대 8명입니다.",
+      "본 상품은 전세기 상품으로 특별약관이 적용되어 별도의 취소수수료가 있습니다. 예약금 입금 후 취소 통보 시 예약금은 환불되지 않고, 출발일 기준 21일 이전 취소 통보 시 총 상품가의 100%를 배상합니다.",
+      "위약금 면제 사유(진단서·친족 사망 등)로 취소되는 경우에도 여행경비는 환불되지 않으며, 숙소는 파이널 후 취소 시 취소 차지가 발생합니다.",
+      "예약 후 1인 50만원을 입금하면 확정되며, 여권 사본 또는 정확한 여권 정보를 함께 보내 주셔야 합니다.",
+      "ESTA 없이 무비자로 입국하면 G-CNMI ETA를 출발 7일 전까지 온라인으로 신청해야 합니다. 도착 72시간 전 전자 세관신고서 작성이 필요합니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "image": "/images/saipan-coral-charter-busan/course-1.jpg",
+    "images": [
+      "/images/saipan-coral-charter-busan/course-1.jpg",
+      "/images/saipan-coral-charter-busan/course-2.jpg",
+      "/images/saipan-coral-charter-busan/course-3.jpg",
+      "/images/saipan-coral-charter-busan/course-8.jpg",
+      "/images/saipan-coral-charter-busan/course-10.jpg",
+      "/images/saipan-coral-charter-busan/hotel-1.jpg"
+    ],
+    "hotelImages": [
+      "/images/saipan-coral-charter-busan/hotel-1.jpg",
+      "/images/saipan-coral-charter-busan/hotel-2.jpg",
+      "/images/saipan-coral-charter-busan/hotel-3.jpg",
+      "/images/saipan-coralocean/hotel-pool-1.jpg",
+      "/images/saipan-coralocean/hotel-pool-3.jpg"
+    ],
+    "courseImages": [
+      "/images/saipan-coral-charter-busan/course-1.jpg",
+      "/images/saipan-coral-charter-busan/course-2.jpg",
+      "/images/saipan-coral-charter-busan/course-3.jpg",
+      "/images/saipan-coral-charter-busan/course-4.jpg",
+      "/images/saipan-coral-charter-busan/course-5.jpg",
+      "/images/saipan-coral-charter-busan/course-6.jpg",
+      "/images/saipan-coral-charter-busan/course-7.jpg",
+      "/images/saipan-coral-charter-busan/course-8.jpg",
+      "/images/saipan-coral-charter-busan/course-9.jpg",
+      "/images/saipan-coral-charter-busan/course-10.jpg"
+    ],
+    "departure": "busan",
+    "priceUpdatedDate": "2026-11-06",
+    "seoKeywords": [
+      "부산출발사이판",
+      "사이판골프",
+      "사이판골프여행",
+      "코랄오션CC",
+      "라오라오베이CC",
+      "사이판전세기",
+      "부산출발"
+    ],
+    "id": "saipan-coral-charter-busan",
+    "title": "[부산출발] 사이판 코랄오션·라오라오베이 2색 골프여행 3박5일 54홀 제주항공 전세기 조·석식 포함 1,490,000원부터",
+    "displayTitle": "부산출발 사이판 코랄오션·라오라오베이 2색 3박5일 54홀",
+    "subtitle": "제주항공 부산-사이판 전세기 · 코랄오션 리조트 2인 1실 · 코랄오션CC 2회·라오라오베이CC 1회 · 조식·석식 포함 · 금 출발 · 2인부터",
+    "nights": "3",
+    "days": "5",
+    "roundsIncluded": "3",
+    "holes": "54홀 (코랄오션 18홀 x 2회 · 라오라오베이 18홀 x 1회)",
+    "period": "2027년 1월 15일 ~ 2월 5일 (금 출발, 출발일별 요금)",
+    "golfCourseDesc": "사이판 해안선을 따라 조성된 코랄오션CC는 래리 넬슨이 설계한 18홀 오션뷰 코스로 페어웨이 곳곳에서 바다가 보입니다. 라오라오베이CC는 바다를 끼고 있는 코스로 18홀을 한 번 라운딩합니다. 3박5일 동안 18홀씩 3번, 총 54홀을 라운딩합니다.",
+    "productSummary": "부산에서 제주항공 전세기로 사이판에 가서 코랄오션 리조트에 묵으며 코랄오션CC 2회와 라오라오베이CC 1회, 총 54홀을 라운딩하는 3박5일 상품입니다.\n조식·석식과 공항 미팅·샌딩, 레이트 체크아웃이 포함되고 2인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 사이판",
+        "desc": "김해국제공항 출발(제주항공 전세기 7C3551, 21:50) → 사이판국제공항 도착(다음 날 02:50) → 리조트 이동(약 20분) → 체크인 및 휴식 [식사 불포함] [호텔: 코랄오션 리조트]"
+      },
+      {
+        "day": "2일차",
+        "label": "코랄오션CC 18홀",
+        "desc": "리조트 조식 후 골프장 이동(도보 약 10분) → 코랄오션CC 18홀 라운드 → 석식 후 리조트 휴식 [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "라오라오베이CC 18홀",
+        "desc": "리조트 조식 후 골프장 이동(차량 약 20분) → 라오라오베이CC 18홀 라운드 → 석식 후 리조트 휴식 [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "코랄오션CC 18홀",
+        "desc": "리조트 조식 후 골프장 이동(도보 약 10분) → 코랄오션CC 18홀 라운드 → 석식 후 리조트 휴식 (레이트 체크아웃) [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "사이판 → 부산",
+        "desc": "리조트 체크아웃 후 공항 이동(약 20분) → 사이판국제공항 출발(7C3552, 03:55) → 김해국제공항 도착(07:20)"
+      }
+    ],
+    "highlights": [
+      "제주항공 부산-사이판 전세기",
+      "코랄오션CC 2회 · 라오라오베이CC 1회 총 54홀",
+      "코랄오션 리조트 · 골프장까지 도보",
+      "조식·석식 · 공항 미팅·샌딩 포함 · 2인부터"
+    ],
+    "includes": [
+      "제주항공 전세기 왕복 항공권 · 유류할증료 · TAX",
+      "코랄오션 리조트 2인 1실",
+      "조식·석식 (리조트, 1일차·귀국일 제외)",
+      "그린피 · 카트피 (54홀)",
+      "공항 미팅·샌딩",
+      "레이트 체크아웃",
+      "여행자보험"
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-15",
+        "price": 1490000
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1490000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1490000
+      },
+      {
+        "date": "2027-02-05",
+        "price": 1790000
+      }
+    ],
+    "price": "1,490,000원~",
+    "badge": "3박5일 54홀",
+    "seoIntro": "부산 출발 사이판 골프여행 3박5일 상품으로, 제주항공 전세기를 타고 코랄오션 리조트에 머물며 코랄오션CC와 라오라오베이CC에서 총 54홀을 라운딩합니다."
+  },
+  {
+    "country": "사이판",
+    "countryCode": "other",
+    "region": "괌/사이판",
+    "courses": "코랄오션CC · 라오라오베이CC",
+    "minPeople": "2인",
+    "hotel": "코랄오션 리조트 (2인 1실)",
+    "hotelDesc": "골프장과 리조트가 한곳에 있는 코랄오션 리조트로, 코랄오션CC까지 걸어서 이동합니다. 2인 1실로 묵으며 조식과 석식이 리조트에서 제공되고, 마지막 날에는 레이트 체크아웃이 포함됩니다.",
+    "golfCourse": "코랄오션CC · 라오라오베이CC",
+    "excludes": [
+      "중식",
+      "기타 개인경비 및 매너팁",
+      "싱글룸 1인 1박 $60 (설 연휴 $80)",
+      "G-CNMI ETA (ESTA 없이 무비자 입국 시 필수, 무료)"
+    ],
+    "cancelPolicy": [
+      "출발 인원은 최소 2명, 최대 8명입니다.",
+      "본 상품은 전세기 상품으로 특별약관이 적용되어 별도의 취소수수료가 있습니다. 예약금 입금 후 취소 통보 시 예약금은 환불되지 않고, 출발일 기준 21일 이전 취소 통보 시 총 상품가의 100%를 배상합니다.",
+      "위약금 면제 사유(진단서·친족 사망 등)로 취소되는 경우에도 여행경비는 환불되지 않으며, 숙소는 파이널 후 취소 시 취소 차지가 발생합니다.",
+      "예약 후 1인 50만원을 입금하면 확정되며, 여권 사본 또는 정확한 여권 정보를 함께 보내 주셔야 합니다.",
+      "ESTA 없이 무비자로 입국하면 G-CNMI ETA를 출발 7일 전까지 온라인으로 신청해야 합니다. 도착 72시간 전 전자 세관신고서 작성이 필요합니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "image": "/images/saipan-coral-charter-busan/course-1.jpg",
+    "images": [
+      "/images/saipan-coral-charter-busan/course-1.jpg",
+      "/images/saipan-coral-charter-busan/course-2.jpg",
+      "/images/saipan-coral-charter-busan/course-3.jpg",
+      "/images/saipan-coral-charter-busan/course-8.jpg",
+      "/images/saipan-coral-charter-busan/course-10.jpg",
+      "/images/saipan-coral-charter-busan/hotel-1.jpg"
+    ],
+    "hotelImages": [
+      "/images/saipan-coral-charter-busan/hotel-1.jpg",
+      "/images/saipan-coral-charter-busan/hotel-2.jpg",
+      "/images/saipan-coral-charter-busan/hotel-3.jpg",
+      "/images/saipan-coralocean/hotel-pool-1.jpg",
+      "/images/saipan-coralocean/hotel-pool-3.jpg"
+    ],
+    "courseImages": [
+      "/images/saipan-coral-charter-busan/course-1.jpg",
+      "/images/saipan-coral-charter-busan/course-2.jpg",
+      "/images/saipan-coral-charter-busan/course-3.jpg",
+      "/images/saipan-coral-charter-busan/course-4.jpg",
+      "/images/saipan-coral-charter-busan/course-5.jpg",
+      "/images/saipan-coral-charter-busan/course-6.jpg",
+      "/images/saipan-coral-charter-busan/course-7.jpg",
+      "/images/saipan-coral-charter-busan/course-8.jpg",
+      "/images/saipan-coral-charter-busan/course-9.jpg",
+      "/images/saipan-coral-charter-busan/course-10.jpg"
+    ],
+    "departure": "busan",
+    "priceUpdatedDate": "2026-11-06",
+    "seoKeywords": [
+      "부산출발사이판",
+      "사이판골프",
+      "사이판골프여행",
+      "코랄오션CC",
+      "라오라오베이CC",
+      "사이판전세기",
+      "부산출발"
+    ],
+    "id": "saipan-coral-charter-busan-4n6d",
+    "title": "[부산출발] 사이판 코랄오션·라오라오베이 2색 골프여행 4박6일 72홀 제주항공 전세기 조·석식 포함 1,650,000원",
+    "displayTitle": "부산출발 사이판 코랄오션·라오라오베이 2색 4박6일 72홀",
+    "subtitle": "제주항공 부산-사이판 전세기 · 코랄오션 리조트 2인 1실 · 코랄오션CC 3회·라오라오베이CC 1회 · 조식·석식 포함 · 월 출발 · 2인부터",
+    "nights": "4",
+    "days": "6",
+    "roundsIncluded": "4",
+    "holes": "72홀 (코랄오션 18홀 x 3회 · 라오라오베이 18홀 x 1회)",
+    "period": "2027년 1월 18일 ~ 2월 1일 (월 출발)",
+    "golfCourseDesc": "사이판 해안선을 따라 조성된 코랄오션CC는 래리 넬슨이 설계한 18홀 오션뷰 코스로 페어웨이 곳곳에서 바다가 보입니다. 라오라오베이CC는 바다를 끼고 있는 코스로 18홀을 한 번 라운딩합니다. 4박6일 동안 18홀씩 4번, 총 72홀을 라운딩합니다.",
+    "productSummary": "부산에서 제주항공 전세기로 사이판에 가서 코랄오션 리조트에 묵으며 코랄오션CC 3회와 라오라오베이CC 1회, 총 72홀을 라운딩하는 4박6일 상품입니다.\n조식·석식과 공항 미팅·샌딩, 레이트 체크아웃이 포함되고 2인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 사이판",
+        "desc": "김해국제공항 출발(제주항공 전세기 7C3551, 21:50) → 사이판국제공항 도착(다음 날 02:50) → 리조트 이동(약 20분) → 체크인 및 휴식 [식사 불포함] [호텔: 코랄오션 리조트]"
+      },
+      {
+        "day": "2일차",
+        "label": "코랄오션CC 18홀",
+        "desc": "리조트 조식 후 골프장 이동(도보 약 10분) → 코랄오션CC 18홀 라운드 → 석식 후 리조트 휴식 [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "라오라오베이CC 18홀",
+        "desc": "리조트 조식 후 골프장 이동(차량 약 20분) → 라오라오베이CC 18홀 라운드 → 석식 후 리조트 휴식 [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "코랄오션CC 18홀",
+        "desc": "리조트 조식 후 골프장 이동(도보 약 10분) → 코랄오션CC 18홀 라운드 → 석식 후 리조트 휴식 [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "코랄오션CC 18홀",
+        "desc": "리조트 조식 후 골프장 이동(도보 약 10분) → 코랄오션CC 18홀 라운드 → 석식 후 리조트 휴식 (레이트 체크아웃) [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "6일차",
+        "label": "사이판 → 부산",
+        "desc": "리조트 체크아웃 후 공항 이동(약 20분) → 사이판국제공항 출발(7C3552, 03:55) → 김해국제공항 도착(07:20)"
+      }
+    ],
+    "highlights": [
+      "제주항공 부산-사이판 전세기",
+      "코랄오션CC 3회 · 라오라오베이CC 1회 총 72홀",
+      "코랄오션 리조트 · 골프장까지 도보",
+      "조식·석식 · 공항 미팅·샌딩 포함 · 2인부터"
+    ],
+    "includes": [
+      "제주항공 전세기 왕복 항공권 · 유류할증료 · TAX",
+      "코랄오션 리조트 2인 1실",
+      "조식·석식 (리조트, 1일차·귀국일 제외)",
+      "그린피 · 카트피 (72홀)",
+      "공항 미팅·샌딩",
+      "레이트 체크아웃",
+      "여행자보험"
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-18",
+        "price": 1650000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1650000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1650000
+      }
+    ],
+    "price": "1,650,000원~",
+    "badge": "4박6일 72홀",
+    "seoIntro": "부산 출발 사이판 골프여행 4박6일 상품으로, 제주항공 전세기를 타고 코랄오션 리조트에 머물며 코랄오션CC와 라오라오베이CC에서 총 72홀을 라운딩합니다."
   }
 ]
