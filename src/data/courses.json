@@ -5504,6 +5504,13 @@
     "relatedTourIds": [
       "thailand-chiangmai-poolvilla-busan",
       "thailand-chiangmai-centara-3color"
+    ],
+    "excludeTourIds": [
+      "thailand-pattaya-infinity-3n5d",
+      "thailand-pattaya-infinity-4n6d",
+      "thailand-pattaya-infinity-poolvilla-busan",
+      "thailand-pattaya-standrews-golftel-3color-busan",
+      "thailand-pattaya-poolvilla-siam-3color-busan"
     ]
   },
   {
@@ -8588,6 +8595,421 @@
     ],
     "relatedTourIds": [
       "japan-okinawa-city-multi-incheon"
+    ]
+  },
+  {
+    "slug": "fa-korea-cc-clark",
+    "name": "FA코리아CC",
+    "nameEn": "FA Korea Country Club",
+    "region": "클락",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "summary": "클락 프리포트 안의 파72 코스, 언덕과 숲에 둘러싸인 파크랜드형 골프장",
+    "specs": [
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "코스 특징",
+        "value": "언덕과 숲으로 둘러싸인 파크랜드 코스, 9·16·18번 홀 워터 해저드"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 팜팡가주 클락 프리포트 존 (옛 클락 공군기지 안)"
+      }
+    ],
+    "description": "FA코리아CC는 필리핀 클락 프리포트 존, 옛 클락 공군기지 안에 있는 파72 골프장입니다.\n\n나무와 수풀이 덮인 언덕에 둘러싸인 파크랜드 코스로, 9번 홀은 호수를 넘겨 그린을 공략하고 16번 홀 주변과 18번 페어웨이 오른쪽에도 물이 있어 후반으로 갈수록 물을 신경 쓰게 됩니다.\n\n여행의파도 클락 상품에서는 뉴아시아CC·로얄센트럴CC·베버리CC 등과 묶어 하루 18홀씩 라운딩하는 다색 일정으로 만나실 수 있습니다.",
+    "images": [
+      "/images/fa-korea-cc-clark/course-1.jpg",
+      "/images/fa-korea-cc-clark/course-2.jpg",
+      "/images/fa-korea-cc-clark/course-3.jpg"
+    ],
+    "hashtags": [
+      "FA코리아CC",
+      "FA코리아",
+      "클락골프장",
+      "클락골프여행",
+      "필리핀골프여행",
+      "앙헬레스골프",
+      "부산출발골프"
+    ],
+    "relatedTourIds": [
+      "philippines-clark-venus-3color-busan",
+      "philippines-clark-venus-3color-busan-4n6d",
+      "philippines-clark-3color-busan",
+      "philippines-clark-3color-busan-4n6d",
+      "philippines-clark-free-3color-cheongju",
+      "philippines-clark-quest-3color-cheongju",
+      "philippines-clark-khotel-3color-busan"
+    ]
+  },
+  {
+    "slug": "lam-luk-ka-cc",
+    "name": "람루카CC",
+    "nameEn": "Lam Luk Ka Country Club",
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "aliases": [
+      "람루까CC"
+    ],
+    "summary": "로저 패커드 설계 36홀, 태국 PGA 챔피언십이 열린 동코스와 물이 많은 서코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "총 36홀 (동코스 18홀 · 서코스 18홀)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "코스별 파72 · 동코스 7,012야드 / 서코스 6,605야드 (백 티)"
+      },
+      {
+        "label": "개장",
+        "value": "1994년"
+      },
+      {
+        "label": "설계",
+        "value": "로저 패커드"
+      },
+      {
+        "label": "코스 특징",
+        "value": "호수와 연못이 많은 코스, 2002 태국 PGA 챔피언십 개최(동코스)"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 빠툼타니주 람룩까"
+      },
+      {
+        "label": "접근",
+        "value": "방콕 수쿰빗 지역에서 약 45km"
+      }
+    ],
+    "description": "람루카CC는 방콕 북동쪽 빠툼타니주 람룩까에 있는 36홀 골프장으로, 로저 패커드가 설계해 1994년 문을 열었습니다. 18홀 코스 두 개로 이루어져 있으며 모두 파72로, 동코스가 7,012야드, 서코스가 6,605야드입니다. 방콕 수쿰빗 지역에서 약 45km 떨어져 있습니다.\n\n호수와 연못이 많아 대부분의 홀에서 물을 만납니다. 2002년 태국 PGA 챔피언십이 열린 동코스는 길고 곧은 드라이버 샷을 요구하고, 서코스는 전장이 짧은 대신 15개 홀에 물이 들어옵니다.\n\n여행의파도 방콕 상품에서는 카스카타CC 등과 묶은 다색 일정에서 배정될 수 있는 골프장입니다. 이용 골프장은 상담 때 확인해 드립니다.",
+    "images": [
+      "/images/lam-luk-ka-cc/course-1.jpg",
+      "/images/lam-luk-ka-cc/course-2.jpg",
+      "/images/lam-luk-ka-cc/course-3.jpg"
+    ],
+    "hashtags": [
+      "람루카CC",
+      "람루까CC",
+      "람루카",
+      "방콕골프장",
+      "방콕골프여행",
+      "태국골프여행",
+      "로저패커드"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok-premium-5color-incheon",
+      "thailand-bangkok-premium-5color-busan",
+      "thailand-bangkok-premium-5color-daegu",
+      "thailand-bangkok-scpark-3color-busan",
+      "thailand-bangkok-monthly-meet-0114-incheon"
+    ]
+  },
+  {
+    "slug": "cascata-golf-club",
+    "name": "카스카타CC",
+    "nameEn": "Cascata Golf Club",
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "A·B·C·D 코스를 조합해 라운딩하는 방콕 북동쪽 골프장, 넓은 페어웨이와 크고 빠른 그린",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "A·B·C·D 코스 조합 운영"
+      },
+      {
+        "label": "파",
+        "value": "파72 (코스 조합별)"
+      },
+      {
+        "label": "개장",
+        "value": "2006년 (A·B 코스)"
+      },
+      {
+        "label": "설계",
+        "value": "소유주 주도 설계"
+      },
+      {
+        "label": "코스 특징",
+        "value": "A·B는 넓은 페어웨이의 링크스풍, C·D는 굴곡과 높은 그린"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 나콘나욕주 옹카락 (람룩까 끌렁15 도로)"
+      }
+    ],
+    "description": "카스카타CC는 방콕 북동쪽, 람룩까를 지나 나콘나욕주 옹카락에 있는 골프장입니다. A·B 코스가 2006년 먼저 문을 열었고, 지금은 C·D 코스까지 조합해 라운딩합니다. 조합별 18홀 파72이며, 소유주가 주도해 설계한 코스로 알려져 있습니다.\n\nA·B 코스는 페어웨이가 넓고 물과 벙커, 크고 빠른 그린이 어우러진 링크스풍이고, C·D 코스는 땅의 굴곡과 높은 그린 때문에 더 까다롭습니다. 클럽하우스는 스페인풍입니다.\n\n여행의파도 방콕 상품에서는 람루카CC 등과 묶은 다색 일정에 들어 있습니다. 이용 골프장은 상담 때 확인해 드립니다.",
+    "images": [
+      "/images/cascata-golf-club/course-1.jpg",
+      "/images/cascata-golf-club/course-2.jpg",
+      "/images/cascata-golf-club/course-3.jpg"
+    ],
+    "hashtags": [
+      "카스카타CC",
+      "카스카타",
+      "카스카타골프",
+      "방콕골프장",
+      "방콕골프여행",
+      "태국골프여행",
+      "나콘나욕골프"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok-premium-5color-incheon",
+      "thailand-bangkok-premium-5color-busan",
+      "thailand-bangkok-premium-5color-daegu",
+      "thailand-bangkok-scpark-3color-busan",
+      "thailand-bangkok-monthly-meet-0114-incheon"
+    ]
+  },
+  {
+    "slug": "danling-golf-club-yantai",
+    "name": "단령CC",
+    "nameEn": "Nanshan International Danling Golf Club",
+    "region": "연태",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "취곡·취원 두 코스 36홀, 2013 아시아태평양 아마추어 챔피언십이 열린 룽커우 남산의 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "총 36홀 (취곡코스 18홀 · 취원코스 18홀)"
+      },
+      {
+        "label": "전장",
+        "value": "취곡코스 7,125야드"
+      },
+      {
+        "label": "개장",
+        "value": "2008년"
+      },
+      {
+        "label": "설계",
+        "value": "취원코스 스티브 셰퍼드슨(IMG) · 취곡코스 범화(泛华)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "숲과 과수원에 둘러싸인 기복 있는 코스, 취곡은 산악형"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 산둥성 연태시 룽커우 남산 관광구 (룽커우 시내 남쪽 약 9km)"
+      }
+    ],
+    "description": "단령CC는 연태시 룽커우의 남산 관광구에 있는 36홀 골프장으로, 취곡코스와 취원코스 각 18홀로 이루어져 있습니다. 2008년 문을 열었고 룽커우 시내에서 남쪽으로 약 9km 떨어져 있습니다.\n\n취곡코스는 전장 7,125야드의 산악형 코스로, 산기슭을 따라 페어웨이가 이어집니다. 취원코스는 IMG의 스티브 셰퍼드슨이 설계했으며, 2013년 아시아태평양 아마추어 챔피언십이 이 코스에서 열렸습니다.\n\n여행의파도 연태 상품에서는 단령CC 취곡코스·남산국제CC·성지CC·불광CC 중 하루 한 곳을 라운딩하는 일정으로 만나실 수 있습니다. 이용 골프장은 상담 때 확인해 드립니다.",
+    "images": [
+      "/images/yantai-3color-incheon/course-4.jpg"
+    ],
+    "hashtags": [
+      "단령CC",
+      "단령골프",
+      "취곡코스",
+      "취원코스",
+      "연태골프장",
+      "연태골프여행",
+      "중국골프여행"
+    ],
+    "relatedTourIds": [
+      "china-yantai-3color-incheon",
+      "china-yantai-3color-mu-incheon"
+    ]
+  },
+  {
+    "slug": "pattavia-century-golf-club",
+    "name": "파타비아CC",
+    "nameEn": "Pattavia Century Golf Club",
+    "aliases": [
+      "파타비아",
+      "파타비야"
+    ],
+    "region": "방콕/파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "로버트 맥팔랜드 설계 18홀, 1996년 개장해 2014년 전면 업그레이드한 촌부리 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,111야드"
+      },
+      {
+        "label": "개장",
+        "value": "1996년 (구 촌부리 센추리 컨트리클럽)"
+      },
+      {
+        "label": "설계",
+        "value": "로버트 맥팔랜드"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 촌부리주"
+      }
+    ],
+    "description": "파타비아CC(Pattavia Century Golf Club)는 1996년 촌부리 센추리 컨트리클럽이라는 이름으로 문을 연 18홀 파72 코스로, 로버트 맥팔랜드가 설계했습니다.\n\n2014년 대규모 개보수를 거쳐 지금의 모습이 됐습니다. 파타야 시내에서 차로 약 50분 거리이며 레스토랑·라커룸·프로숍을 갖추고 있습니다.\n\n여행의파도 시라차 상품은 이 골프장을 포함한 시라차 인근 코스 중에서 하루 한 곳을 라운딩합니다.",
+    "images": [
+      "/images/sriracha-ariz-incheon/course-2.jpg",
+      "/images/sriracha-ariz-incheon/course-7.jpg",
+      "/images/sriracha-ariz-incheon/course-9.jpg"
+    ],
+    "hashtags": [
+      "파타비아CC",
+      "파타비아골프",
+      "시라차골프",
+      "파타야골프장",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-sriracha-ariz-incheon"
+    ]
+  },
+  {
+    "slug": "treasure-hill-golf-country-club",
+    "name": "트레저힐CC",
+    "nameEn": "Treasure Hill Golf & Country Club",
+    "aliases": [
+      "트레저힐",
+      "트레져힐"
+    ],
+    "region": "방콕/파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "요시카즈 카토 설계 18홀 파72, 언덕을 따라 이어지는 촌부리 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "설계",
+        "value": "요시카즈 카토"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 촌부리주"
+      }
+    ],
+    "description": "트레저힐CC(Treasure Hill Golf & Country Club)는 요시카즈 카토가 설계한 18홀 파72 코스로, 이름처럼 언덕을 따라 코스가 이어집니다.\n\n평탄한 코스와 달리 오르내림이 있어 도전적으로 라운딩하기 좋고, 파타야 시내에서 차로 약 55분 거리입니다.\n\n여행의파도 시라차 상품은 이 골프장을 포함한 시라차 인근 코스 중에서 하루 한 곳을 라운딩합니다.",
+    "images": [
+      "/images/sriracha-ariz-incheon/course-3.jpg",
+      "/images/sriracha-ariz-incheon/course-10.jpg"
+    ],
+    "hashtags": [
+      "트레저힐CC",
+      "트레져힐",
+      "시라차골프",
+      "파타야골프장",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-sriracha-ariz-incheon"
+    ]
+  },
+  {
+    "slug": "bangpra-international-golf-club",
+    "name": "방프라CC",
+    "nameEn": "Bangpra International Golf Club",
+    "aliases": [
+      "방프라"
+    ],
+    "region": "방콕/파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "1958년 문을 연 태국의 오래된 18홀 파72 코스, 시라차 숲과 호수의 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,393야드"
+      },
+      {
+        "label": "개장",
+        "value": "1958년"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 촌부리주 시라차"
+      }
+    ],
+    "description": "방프라CC(Bangpra International Golf Club)는 1958년 문을 연 태국의 오래된 골프장 중 하나로, 18홀 파72 코스입니다.\n\n나무와 연못, 호수 그린이 많은 자연 지형 코스이며, 파타야 시내에서 차로 약 40분 거리입니다. 연습실과 수영장, 프로숍, 호텔 시설을 갖추고 있습니다.\n\n여행의파도 시라차 상품은 이 골프장을 포함한 시라차 인근 코스 중에서 하루 한 곳을 라운딩합니다.",
+    "images": [
+      "/images/sriracha-ariz-incheon/course-1.jpg",
+      "/images/sriracha-ariz-incheon/course-6.jpg",
+      "/images/sriracha-ariz-incheon/course-11.jpg"
+    ],
+    "hashtags": [
+      "방프라CC",
+      "방프라골프",
+      "시라차골프",
+      "파타야골프장",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-sriracha-ariz-incheon"
+    ]
+  },
+  {
+    "slug": "royal-lakeside-golf-club",
+    "name": "로얄레이크사이드CC",
+    "nameEn": "Royal Lakeside Golf Club",
+    "aliases": [
+      "로얄레이크사이드",
+      "로얄레이크 사이드",
+      "로열레이크사이드"
+    ],
+    "region": "방콕/파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "1993년 개장한 18홀 파72, 방파콩 강 옆의 차층사오 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,815야드"
+      },
+      {
+        "label": "개장",
+        "value": "1993년 (2011년 재단장)"
+      },
+      {
+        "label": "설계",
+        "value": "스미토모 건설"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 차층사오주"
+      }
+    ],
+    "description": "로얄레이크사이드CC(Royal Lakeside Golf Club)는 1993년 개장한 18홀 파72 코스로, 스미토모 건설이 설계했고 2011년 재단장했습니다.\n\n방콕과 파타야 사이에 있는 강변 코스입니다.\n\n여행의파도 시라차 상품은 이 골프장을 포함한 시라차 인근 코스 중에서 하루 한 곳을 라운딩합니다.",
+    "images": [
+      "/images/sriracha-ariz-incheon/course-5.jpg",
+      "/images/sriracha-ariz-incheon/course-12.jpg",
+      "/images/sriracha-ariz-incheon/course-13.jpg",
+      "/images/sriracha-ariz-incheon/course-14.jpg"
+    ],
+    "hashtags": [
+      "로얄레이크사이드CC",
+      "시라차골프",
+      "방콕골프장",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-sriracha-ariz-incheon"
     ]
   }
 ]

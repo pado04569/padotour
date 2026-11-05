@@ -59,6 +59,8 @@ export default function HolePriceTierSelector({
   const byNights = tiers.some((t) => t.nights != null);
   const todayStr = new Date().toLocaleDateString("sv-SE");
   // 단계에 dates가 있으면 그 날짜만(같은 박수인데 요일별로 요금이 다른 상품), 없으면 같은 박수의 모든 출발일
+  // 같은 박수 단계들이 출발일을 함께 쓰면(홀수별 요금, dates 없음) 날짜 옆 요금이 고른 단계와 달라 숨긴다 (2026-11-06 시라차 아리즈)
+  const sharedDates = !!selected && !selected.dates && tiers.filter((t) => t.nights === selected.nights).length > 1;
   const dateOptions =
     selected && byNights && departurePrices
       ? departurePrices
@@ -192,7 +194,7 @@ export default function HolePriceTierSelector({
                         <option value="">출발일을 선택해 주세요</option>
                         {dateOptions.map((dp) => (
                           <option key={dp.date} value={dp.date}>
-                            {formatDate(dp.date)} 출발{dp.price !== selected.price ? ` · ${dp.price.toLocaleString()}원` : ""}
+                            {formatDate(dp.date)} 출발{dp.price !== selected.price && !sharedDates ? ` · ${dp.price.toLocaleString()}원` : ""}
                           </option>
                         ))}
                       </select>

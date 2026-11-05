@@ -25,14 +25,16 @@ export type Course = {
   relatedTourIds: string[];
   /** 상품 글에 다른 이름으로 적히는 경우 (예: "오리엔트 샤먼CC") — 자동 연결에 같이 쓴다 */
   aliases?: string[];
+  excludeTourIds?: string[];
 };
 
 /** 띄어쓰기·점·괄호를 지워 "아마카세 CC"와 "아마카세CC"를 같은 이름으로 본다 */
 const norm = (s?: string) => (s ?? "").replace(/[\s.·()\-]/g, "").toLowerCase();
 
-type TourText = { id: string; golfCourse?: string; golfCourseDesc?: string; title?: string };
+type TourText = { id: string; country?: string; golfCourse?: string; golfCourseDesc?: string; title?: string };
 const tourTexts = (toursData as TourText[]).map((t) => ({
   id: t.id,
+  country: t.country,
   text: [t.golfCourse, t.golfCourseDesc, t.title].map(norm).join("|"),
 }));
 
@@ -43,6 +45,9 @@ const tourTexts = (toursData as TourText[]).map((t) => ({
  */
 export const courses: Course[] = (coursesData as Course[]).map((c) => {
   const keys = [c.name, ...(c.aliases ?? [])].map(norm).filter((k) => k.length >= 3);
-  const auto = tourTexts.filter((t) => keys.some((k) => t.text.includes(k))).map((t) => t.id);
+  // 이름이 같은 다른 나라 골프장에 잘못 붙지 않게 같은 나라 상품만 자동 연결 (2026-11-06). 같은 나라 동명이골프장은 excludeTourIds 로 뺀다.
+  const auto = tourTexts
+    .filter((t) => t.country === c.country && !c.excludeTourIds?.includes(t.id) && keys.some((k) => t.text.includes(k)))
+    .map((t) => t.id);
   return { ...c, relatedTourIds: [...new Set([...c.relatedTourIds, ...auto])] };
 });
