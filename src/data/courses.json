@@ -8535,5 +8535,59 @@
       "thailand-bangkok-premium-5color-daegu",
       "thailand-bangkok-monthly-meet-0114-incheon"
     ]
+  },
+  {
+    "slug": "atta-terrace-gr",
+    "name": "아타 테라스GC",
+    "nameEn": "The Atta Terrace Golf Resort (ジ・アッタテラス ゴルフリゾート)",
+    "region": "오키나와",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "아타 테라스",
+      "아타테라스",
+      "지앗타"
+    ],
+    "summary": "파72 6,675야드, 온나손 아열대 숲과 동중국해를 함께 보는 기복 있는 18홀 리조트 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,675야드 (공식 안내)"
+      },
+      {
+        "label": "개장",
+        "value": "1994년 11월 개장, 2002년 6월 현재 이름으로 변경"
+      },
+      {
+        "label": "코스 특징",
+        "value": "아열대 숲 사이 기복 있는 페어웨이, 동중국해 조망"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오키나와현 구니가미군 온나손"
+      }
+    ],
+    "description": "아타 테라스GC는 오키나와 본섬 온나손에 있는 18홀 파72 코스로, 공식 안내 기준 전장은 6,675야드입니다. 1994년 문을 열었고 2002년 지금의 이름으로 바뀌었습니다.\n\n아열대 숲이 코스를 둘러싸고 있고 그 너머로 동중국해가 보입니다. 지형에 기복이 있고 페어웨이 모양이 다양해 홀마다 다른 공략을 생각하게 됩니다. 라운딩 뒤에는 코스를 내려다보는 넓은 욕장에서 쉬실 수 있습니다.\n\n여행의파도 오키나와 시내 호텔 다색 골프여행에서는 나하 시내 호텔에서 차로 이동해 셀프+카트로 18홀을 라운딩합니다.",
+    "images": [
+      "/images/okinawa-city-multi-incheon/atta-1.jpg",
+      "/images/okinawa-city-multi-incheon/atta-2.jpg",
+      "/images/okinawa-city-multi-incheon/atta-3.jpg",
+      "/images/okinawa-city-multi-incheon/atta-4.jpg"
+    ],
+    "hashtags": [
+      "아타테라스",
+      "오키나와골프장",
+      "오키나와골프여행",
+      "온나손골프",
+      "일본골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "japan-okinawa-city-multi-incheon"
+    ]
   }
 ]
