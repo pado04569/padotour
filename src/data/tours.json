@@ -126059,5 +126059,761 @@
     "price": "1,140,000원~",
     "priceUpdatedDate": "2026-10-24",
     "displayTitle": "PGM 명문 골프장 골프여행"
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "region": "하이난",
+    "departure": "cheongju",
+    "badge": "청주출발 신규",
+    "minPeople": "4인부터",
+    "nights": 3,
+    "days": 5,
+    "period": "2026년 12월 30일 ~ 2027년 2월 27일 (3박5일 수 출발 · 4박6일 토 출발)",
+    "priceUpdatedDate": "2026-11-06",
+    "id": "china-hainan-haikou-charter-standard-cheongju",
+    "title": "[청주출발] 중국 하이난 해구 골프여행 전세기 스탠다드 3색 3박5일·4박6일 홀리데이인 또는 동급 쇼핑 1회 1,290,000원부터",
+    "displayTitle": "청주 하이난 해구 전세기 스탠다드 3색 골프여행",
+    "subtitle": "청주-해구 트리니티항공 전세기 · 아이비엘(일피랑)·남양하·BFA 3색 · 홀리데이 인 또는 동급 · 쇼핑 1회",
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "3박5일 54홀 (아이비엘·남양하·BFA 각 18홀)\n4박6일 72홀 (아이비엘 2회·남양하·BFA 각 18홀)",
+    "hotel": "홀리데이 인 호텔 또는 동급 (4성급, 2인 1실)",
+    "hotelDesc": "하이커우의 4성급 홀리데이 인 호텔 또는 동급에서 2인 1실로 묵으며, 호텔 조식이 제공됩니다.",
+    "golfCourse": "아이비엘CC(일피랑CC) · 남양하CC · BFA CC",
+    "golfCourseDesc": "아이비엘CC(일피랑CC)는 18홀 파72 코스로 전반적으로 평탄해 초보자부터 상급자까지 부담 없이 즐길 수 있습니다. 남양하CC는 자연생태보호구역 안의 18홀 챔피언십 코스로 울창한 밀림 속을 지나고, 전·후반 난이도 차이가 있습니다. BFA CC는 보아오 포럼 행사를 위해 개발된 보아오의 골프장입니다. 그린피·캐디피·전동카가 포함됩니다.",
+    "productSummary": "청주공항에서 전세기로 하이커우에 가서 4성급 홀리데이 인 또는 동급에 묵으며 아이비엘(일피랑)·남양하·BFA 3색을 라운딩하고 관광을 함께 하는 상품입니다.\n3박5일 54홀과 4박6일 72홀이 있고 그린피·캐디피·전동카, 특식이 포함되며 쇼핑 1회가 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "청주 → 해구",
+        "desc": "청주국제공항 출발(트리니티항공 TW9623, 21:30) → 해구 메이란 국제공항 도착(다음 날 01:00) → 가이드 미팅 후 호텔 체크인 및 휴식"
+      },
+      {
+        "day": "2일차",
+        "label": "아이비엘CC(일피랑) 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 50분) → 아이비엘CC 18홀 라운드 → 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 양꼬치+냉면]"
+      },
+      {
+        "day": "3일차",
+        "label": "남양하CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 50분) → 남양하CC 18홀 라운드 → 3박5일: 아울렛 센트레빌, 하이커우 무비타운 / 4박6일: 하이커우 무비타운 → 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 무제한 삼겹살]"
+      },
+      {
+        "day": "4일차",
+        "label": "BFA CC 18홀",
+        "desc": "3박5일: 호텔 조식 후 체크아웃 → BFA CC 18홀 라운드 → 바다이야기 → 한식 석식 후 공항 이동(23:00) / 4박6일: 호텔 조식 후 BFA CC 18홀 라운드 → 바다이야기 → 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 3박5일 한식·4박6일 능이백숙]"
+      },
+      {
+        "day": "5일차",
+        "label": "3박5일 해구 → 청주 / 4박6일 아이비엘CC 18홀",
+        "desc": "3박5일: 해구 출발(TW9624, 02:00) → 청주국제공항 도착(06:45) / 4박6일: 호텔 조식 후 골프장 이동(약 50분) → 아이비엘CC 18홀 라운드 → 창잉 유니버셜 100판타지 → 한식 석식 후 공항 이동(23:00)"
+      },
+      {
+        "day": "6일차",
+        "label": "해구 → 청주 (4박6일)",
+        "desc": "해구 출발(TW9624, 02:00) → 청주국제공항 도착(06:45)"
+      }
+    ],
+    "highlights": [
+      "청주-해구 트리니티항공 전세기",
+      "아이비엘(일피랑)·남양하·BFA 3색",
+      "3박5일 54홀 / 4박6일 72홀",
+      "4성급 홀리데이 인 또는 동급 · 특식 포함",
+      "수·토 출발 · 4인부터 · 쇼핑 1회"
+    ],
+    "includes": [
+      "청주-해구 전세기 왕복 항공권·공항세 (위탁 수하물 1인 2개 20kg·기내 1개 10kg)",
+      "홀리데이 인 호텔 또는 동급(4성급) 2인 1실",
+      "그린피 + 캐디피 + 전동카 (3박5일 54홀 / 4박6일 72홀)",
+      "식사 3박5일 6회(특식 3회) / 4박6일 8회(특식 4회)",
+      "한국어 가이드 · 현지 차량 · 명시된 관광지 입장료",
+      "여행자보험 · 기획여행 보증보험"
+    ],
+    "excludes": [
+      "기사·가이드 경비 1인 $50",
+      "클럽 중식 (1회 $20부터)",
+      "캐디팁 18홀 1인 150위안 (2인 1캐디)",
+      "싱글룸 3박 18만원 · 4박 24만원",
+      "싱글카트 18홀 $25"
+    ],
+    "cancelPolicy": [
+      "추가 라운딩(아이비엘·남양하 기준) 9홀 $40 · 18홀 $55입니다.",
+      "2월 6일 출발 4박6일은 상품가가 20만원 높습니다.",
+      "쇼핑 1회(침향)가 포함된 일정입니다.",
+      "본 상품은 전세기 특별약관을 적용합니다.",
+      "청주공항 미팅은 18:30, 1층 신한은행 옆 여행사 카운터(GATE 3)입니다.",
+      "여권은 6개월 이상 남아 있어야 하며 낙서·훼손 시 출국이 불가합니다.",
+      "상기 일정 및 골프장 라운딩 순서는 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "holePriceTiers": [
+      {
+        "label": "3박5일",
+        "holes": 54,
+        "pattern": "수 출발 · 54홀",
+        "price": 1290000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "label": "4박6일",
+        "holes": 72,
+        "pattern": "토 출발 · 72홀 (2/6 출발 +20만원)",
+        "price": 1450000,
+        "nights": 4,
+        "days": 6
+      }
+    ],
+    "seoIntro": "청주 출발 중국 하이난 해구 골프여행으로, 전세기를 타고 홀리데이 인 또는 동급에 머물며 아이비엘·남양하·BFA 3색을 라운딩하는 3박5일·4박6일 상품입니다.",
+    "seoKeywords": [
+      "청주출발하이난",
+      "청주전세기",
+      "해구골프",
+      "하이난골프여행",
+      "일피랑",
+      "남양하CC",
+      "BFA",
+      "청주출발"
+    ],
+    "courseImages": [
+      "/images/hainan-haikou-charter-cheongju/bfa-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/ibl-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/nanyang-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/ibl-2.jpg",
+      "/images/hainan-haikou-charter-cheongju/bfa-2.jpg",
+      "/images/hainan-haikou-charter-cheongju/nanyang-2.jpg",
+      "/images/hainan-haikou-charter-cheongju/bfa-3.jpg",
+      "/images/hainan-haikou-charter-cheongju/ibl-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/hainan-haikou-charter-cheongju/holiday-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-2.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-3.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-4.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-5.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-30",
+        "price": 1290000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1450000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1290000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1450000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1290000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1450000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1290000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1450000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1290000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1450000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1290000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1650000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1290000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1450000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1290000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1450000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1290000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1450000,
+        "nights": 4,
+        "days": 6
+      }
+    ],
+    "price": "1,290,000원~",
+    "image": "/images/hainan-haikou-charter-cheongju/bfa-1.jpg",
+    "images": [
+      "/images/hainan-haikou-charter-cheongju/bfa-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/ibl-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/nanyang-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-2.jpg",
+      "/images/hainan-haikou-charter-cheongju/ibl-2.jpg"
+    ]
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "region": "하이난",
+    "departure": "cheongju",
+    "badge": "청주출발 신규",
+    "minPeople": "4인부터",
+    "nights": 3,
+    "days": 5,
+    "period": "2026년 12월 30일 ~ 2027년 2월 27일 (3박5일 수 출발 · 4박6일 토 출발)",
+    "priceUpdatedDate": "2026-11-06",
+    "id": "china-hainan-haikou-charter-premium-cheongju",
+    "title": "[청주출발] 중국 하이난 해구 골프여행 전세기 품격 미션힐스·BFA 3박5일·4박6일 풀만 또는 동급 쇼핑 1회 1,650,000원부터",
+    "displayTitle": "청주 하이난 해구 전세기 품격 미션힐스 골프여행",
+    "subtitle": "청주-해구 트리니티항공 전세기 · 미션힐스·BFA(4박6일 아이비엘 추가) · 하이커우 풀만 또는 동급 5성급 · 쇼핑 1회",
+    "courses": 2,
+    "roundsIncluded": 3,
+    "holes": "3박5일 54홀 (미션힐스 2회·BFA 1회)\n4박6일 72홀 (미션힐스 2회·아이비엘 1회·BFA 1회)",
+    "hotel": "하이커우 풀만 또는 동급 (5성급, 2인 1실)",
+    "hotelDesc": "하이커우의 5성급 풀만 호텔 또는 동급에서 2인 1실로 묵으며, 호텔 조식이 제공됩니다.",
+    "golfCourse": "미션힐스 하이커우 · BFA CC · 아이비엘CC(일피랑CC, 4박6일)",
+    "golfCourseDesc": "미션힐스 하이커우는 화산암 지형에 조성된 대규모 골프 리조트로, 남코스 6·7·9·10번 코스 중에서 라운딩합니다. BFA CC는 보아오 포럼 행사를 위해 개발된 보아오의 골프장입니다. 4박6일은 18홀 파72 아이비엘CC(일피랑CC)가 더해집니다. 그린피·캐디피·전동카가 포함됩니다.",
+    "productSummary": "청주공항에서 전세기로 하이커우에 가서 5성급 풀만 또는 동급에 묵으며 미션힐스와 BFA CC를 라운딩하고 관광을 함께 하는 상품입니다.\n3박5일 54홀과 4박6일 72홀이 있고 그린피·캐디피·전동카, 특식이 포함되며 쇼핑 1회가 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "청주 → 해구",
+        "desc": "청주국제공항 출발(트리니티항공 TW9623, 21:30) → 해구 메이란 국제공항 도착(다음 날 01:00) → 가이드 미팅 후 호텔 체크인 및 휴식"
+      },
+      {
+        "day": "2일차",
+        "label": "미션힐스 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 30분) → 미션힐스 18홀 라운드(남코스 6·7·9·10번 중) → 3박5일: 아울렛 센트레빌, 하이커우 무비타운 / 4박6일: 하이커우 무비타운 → 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 양꼬치+냉면]"
+      },
+      {
+        "day": "3일차",
+        "label": "3박5일 미션힐스 / 4박6일 아이비엘 18홀",
+        "desc": "3박5일: 미션힐스 18홀 라운드(남코스 중) → 기루 옛거리, 창잉 유니버셜 100판타지 → 호텔 휴식 / 4박6일: 아이비엘CC 18홀 라운드 → 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 무제한 삼겹살]"
+      },
+      {
+        "day": "4일차",
+        "label": "3박5일 BFA / 4박6일 미션힐스 18홀",
+        "desc": "3박5일: 호텔 조식 후 체크아웃 → BFA CC 18홀 라운드 → 바다이야기 → 한식 석식 후 공항 이동(23:00) / 4박6일: 미션힐스 18홀 라운드(남코스 중) → 아울렛 센트레빌, 기루 옛거리 → 능이백숙 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "3박5일 해구 → 청주 / 4박6일 BFA CC 18홀",
+        "desc": "3박5일: 해구 출발(TW9624, 02:00) → 청주국제공항 도착(06:45) / 4박6일: 호텔 조식 후 체크아웃 → BFA CC 18홀 라운드 → 바다이야기 → 한식 석식 후 공항 이동(23:00)"
+      },
+      {
+        "day": "6일차",
+        "label": "해구 → 청주 (4박6일)",
+        "desc": "해구 출발(TW9624, 02:00) → 청주국제공항 도착(06:45)"
+      }
+    ],
+    "highlights": [
+      "청주-해구 트리니티항공 전세기",
+      "미션힐스 + BFA (4박6일 아이비엘 추가)",
+      "3박5일 54홀 / 4박6일 72홀",
+      "5성급 하이커우 풀만 또는 동급 · 특식 포함",
+      "수·토 출발 · 4인부터 · 쇼핑 1회"
+    ],
+    "includes": [
+      "청주-해구 전세기 왕복 항공권·공항세 (위탁 수하물 1인 2개 20kg·기내 1개 10kg)",
+      "하이커우 풀만 또는 동급(5성급) 2인 1실",
+      "그린피 + 캐디피 + 전동카 (3박5일 54홀 / 4박6일 72홀)",
+      "식사 3박5일 6회(특식 3회) / 4박6일 8회(특식 4회)",
+      "한국어 가이드 · 현지 차량 · 명시된 관광지 입장료",
+      "여행자보험 · 기획여행 보증보험"
+    ],
+    "excludes": [
+      "기사·가이드 경비 1인 $50",
+      "클럽 중식 (1회 $20부터)",
+      "캐디팁 BFA 18홀 150위안 (2인 1캐디) · 미션힐스 18홀 200위안 (1인 1캐디)",
+      "싱글룸 3박 24만원 · 4박 32만원",
+      "싱글카트 18홀 $25"
+    ],
+    "cancelPolicy": [
+      "추가 라운딩은 3박5일 미량만 9홀 $75·18홀 $150, 4박6일 아이비엘 9홀 $55·18홀 $80입니다.",
+      "2월 6일 출발 4박6일은 상품가가 20만원 높습니다.",
+      "쇼핑 1회(침향)가 포함된 일정입니다.",
+      "본 상품은 전세기 특별약관을 적용합니다.",
+      "청주공항 미팅은 18:30, 1층 신한은행 옆 여행사 카운터(GATE 3)입니다.",
+      "여권은 6개월 이상 남아 있어야 하며 낙서·훼손 시 출국이 불가합니다.",
+      "상기 일정 및 골프장 라운딩 순서는 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "holePriceTiers": [
+      {
+        "label": "3박5일",
+        "holes": 54,
+        "pattern": "수 출발 · 54홀",
+        "price": 1650000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "label": "4박6일",
+        "holes": 72,
+        "pattern": "토 출발 · 72홀 (2/6 출발 +20만원)",
+        "price": 1850000,
+        "nights": 4,
+        "days": 6
+      }
+    ],
+    "seoIntro": "청주 출발 중국 하이난 해구 골프여행으로, 전세기를 타고 하이커우 풀만 또는 동급에 머물며 미션힐스와 BFA CC를 라운딩하는 3박5일·4박6일 상품입니다.",
+    "seoKeywords": [
+      "청주출발하이난",
+      "청주전세기",
+      "해구골프",
+      "미션힐스하이커우",
+      "하이난골프여행",
+      "풀만호텔",
+      "청주출발"
+    ],
+    "courseImages": [
+      "/images/hainan-missionhills/course-1.jpg",
+      "/images/hainan-missionhills/course-3.jpg",
+      "/images/hainan-haikou-charter-cheongju/bfa-1.jpg",
+      "/images/hainan-missionhills/course-5.jpg",
+      "/images/hainan-haikou-charter-cheongju/bfa-2.jpg",
+      "/images/hainan-haikou-charter-cheongju/ibl-1.jpg",
+      "/images/hainan-missionhills/course-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-hainan-samgongli/hotel-1.jpg",
+      "/images/china-hainan-samgongli/hotel-2.jpg",
+      "/images/china-hainan-samgongli/hotel-3.jpg",
+      "/images/china-hainan-samgongli/hotel-4.jpg",
+      "/images/china-hainan-samgongli/hotel-5.jpg",
+      "/images/china-hainan-samgongli/hotel-6.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-30",
+        "price": 1650000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1850000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1650000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1850000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1650000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1850000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1650000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1850000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1650000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1850000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1650000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-06",
+        "price": 2050000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1650000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1850000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1650000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1850000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1650000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1850000,
+        "nights": 4,
+        "days": 6
+      }
+    ],
+    "price": "1,650,000원~",
+    "image": "/images/hainan-missionhills/course-1.jpg",
+    "images": [
+      "/images/hainan-missionhills/course-1.jpg",
+      "/images/hainan-missionhills/course-3.jpg",
+      "/images/china-hainan-samgongli/hotel-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/bfa-1.jpg",
+      "/images/china-hainan-samgongli/hotel-2.jpg",
+      "/images/hainan-missionhills/course-5.jpg"
+    ]
+  },
+  {
+    "country": "중국",
+    "countryCode": "china",
+    "region": "하이난",
+    "departure": "cheongju",
+    "badge": "청주출발 신규",
+    "minPeople": "4인부터",
+    "nights": 3,
+    "days": 5,
+    "period": "2026년 12월 30일 ~ 2027년 2월 27일 (3박5일 수 출발 · 4박6일 토 출발)",
+    "priceUpdatedDate": "2026-11-06",
+    "id": "china-hainan-haikou-charter-luxury-cheongju",
+    "title": "[청주출발] 중국 하이난 해구 골프여행 전세기 고품격 미션힐스 리조트 3박5일·4박6일 온천 쇼핑 1회 1,790,000원부터",
+    "displayTitle": "청주 하이난 해구 전세기 고품격 미션힐스 골프여행",
+    "subtitle": "청주-해구 트리니티항공 전세기 · 미션힐스 리조트 또는 동급 5성급 · 미션힐스 3회(4박6일 BFA 추가) · 온천 체험 · 쇼핑 1회",
+    "courses": 2,
+    "roundsIncluded": 3,
+    "holes": "3박5일 54홀 (미션힐스 남코스 2회·북코스 1회)\n4박6일 72홀 (미션힐스 남코스 2회·북코스 1회·BFA 1회)",
+    "hotel": "미션힐스 리조트 또는 동급 (5성급, 2인 1실)",
+    "hotelDesc": "미션힐스 리조트 또는 동급에서 2인 1실로 묵습니다. 골프장까지 차로 약 10분이고, 약 168개의 온천탕이 있는 미션힐스 온천 체험과 무비타운 관람이 포함됩니다.",
+    "golfCourse": "미션힐스 하이커우 · BFA CC(4박6일)",
+    "golfCourseDesc": "미션힐스 하이커우는 화산암 지형에 조성된 대규모 골프 리조트로, 남코스(6·7·9·10번 중) 2회와 북코스(2·3번 중) 1회를 라운딩합니다. 4박6일은 보아오의 BFA CC 18홀이 더해집니다. 그린피·캐디피·전동카가 포함됩니다.",
+    "productSummary": "청주공항에서 전세기로 하이커우에 가서 5성급 미션힐스 리조트 또는 동급에 묵으며 미션힐스 코스를 라운딩하고 온천과 관광을 함께 하는 상품입니다.\n3박5일 54홀과 4박6일 72홀이 있고 그린피·캐디피·전동카, 특식, 온천 체험이 포함되며 쇼핑 1회가 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "청주 → 해구",
+        "desc": "청주국제공항 출발(트리니티항공 TW9623, 21:30) → 해구 메이란 국제공항 도착(다음 날 01:00) → 가이드 미팅 후 호텔 체크인 및 휴식"
+      },
+      {
+        "day": "2일차",
+        "label": "미션힐스 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 10분) → 미션힐스 18홀 라운드(남코스 6·7·9·10번 중) → 3박5일: 무비타운 관람, 미션힐스 온천 체험 / 4박6일: 미션힐스 온천 체험 → 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 양꼬치+냉면]"
+      },
+      {
+        "day": "3일차",
+        "label": "3박5일 미션힐스 / 4박6일 BFA 18홀",
+        "desc": "3박5일: 미션힐스 18홀 라운드(남코스 중) → 아울렛 센트레빌, 기루 옛거리, 온천 체험 → 호텔 휴식 / 4박6일: BFA CC 18홀 라운드 → 바다이야기 → 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 무제한 삼겹살]"
+      },
+      {
+        "day": "4일차",
+        "label": "3박5일 미션힐스 북코스 / 4박6일 미션힐스 남코스 18홀",
+        "desc": "3박5일: 미션힐스 18홀 라운드(북코스 2·3번 중) → 창잉 유니버셜 100판타지 → 한식 석식 후 공항 이동(23:00) / 4박6일: 미션힐스 18홀 라운드(남코스 중) → 아울렛 센트레빌, 기루 옛거리, 온천 체험 → 능이백숙 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "3박5일 해구 → 청주 / 4박6일 미션힐스 북코스 18홀",
+        "desc": "3박5일: 해구 출발(TW9624, 02:00) → 청주국제공항 도착(06:45) / 4박6일: 호텔 조식 후 미션힐스 18홀 라운드(북코스 2·3번 중) → 치러우라오제, HCC 야경 관람 → 한식 석식 후 공항 이동(23:00)"
+      },
+      {
+        "day": "6일차",
+        "label": "해구 → 청주 (4박6일)",
+        "desc": "해구 출발(TW9624, 02:00) → 청주국제공항 도착(06:45)"
+      }
+    ],
+    "highlights": [
+      "청주-해구 트리니티항공 전세기",
+      "미션힐스 리조트 또는 동급 5성급 숙박",
+      "미션힐스 온천 체험·무비타운 관람 포함",
+      "3박5일 54홀 / 4박6일 72홀",
+      "수·토 출발 · 4인부터 · 쇼핑 1회"
+    ],
+    "includes": [
+      "청주-해구 전세기 왕복 항공권·공항세 (위탁 수하물 1인 2개 20kg·기내 1개 10kg)",
+      "미션힐스 리조트 또는 동급(5성급) 2인 1실",
+      "그린피 + 캐디피 + 전동카 (3박5일 54홀 / 4박6일 72홀)",
+      "식사 3박5일 6회(특식 3회) / 4박6일 8회(특식 4회)",
+      "한국어 가이드 · 현지 차량 · 명시된 관광지 입장료",
+      "여행자보험 · 기획여행 보증보험",
+      "미션힐스 온천 체험 · 무비타운 관람"
+    ],
+    "excludes": [
+      "기사·가이드 경비 1인 $50",
+      "클럽 중식 (1회 $20부터)",
+      "캐디팁 BFA 18홀 150위안 (2인 1캐디) · 미션힐스 18홀 200위안 (1인 1캐디)",
+      "싱글룸 3박 33만원 · 4박 44만원",
+      "싱글카트 18홀 $25"
+    ],
+    "cancelPolicy": [
+      "2월 6일 출발 4박6일은 상품가가 20만원 높습니다.",
+      "쇼핑 1회(침향)가 포함된 일정입니다.",
+      "본 상품은 전세기 특별약관을 적용합니다.",
+      "청주공항 미팅은 18:30, 1층 신한은행 옆 여행사 카운터(GATE 3)입니다.",
+      "여권은 6개월 이상 남아 있어야 하며 낙서·훼손 시 출국이 불가합니다.",
+      "상기 일정 및 골프장 라운딩 순서는 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "holePriceTiers": [
+      {
+        "label": "3박5일",
+        "holes": 54,
+        "pattern": "수 출발 · 54홀",
+        "price": 1790000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "label": "4박6일",
+        "holes": 72,
+        "pattern": "토 출발 · 72홀 (2/6 출발 +20만원)",
+        "price": 1990000,
+        "nights": 4,
+        "days": 6
+      }
+    ],
+    "seoIntro": "청주 출발 중국 하이난 해구 골프여행으로, 전세기를 타고 미션힐스 리조트 또는 동급에 머물며 미션힐스 코스를 라운딩하는 3박5일·4박6일 상품입니다.",
+    "seoKeywords": [
+      "청주출발하이난",
+      "청주전세기",
+      "해구골프",
+      "미션힐스하이커우",
+      "미션힐스온천",
+      "하이난골프여행",
+      "청주출발"
+    ],
+    "courseImages": [
+      "/images/hainan-missionhills/course-1.jpg",
+      "/images/hainan-missionhills/course-3.jpg",
+      "/images/hainan-missionhills/course-5.jpg",
+      "/images/hainan-missionhills/course-4.jpg",
+      "/images/hainan-haikou-charter-cheongju/bfa-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/bfa-2.jpg"
+    ],
+    "hotelImages": [
+      "/images/hainan-missionhills/hotel-1.jpg",
+      "/images/hainan-missionhills/hotel-3.jpg",
+      "/images/hainan-missionhills/hotel-4.jpg",
+      "/images/hainan-missionhills/hotel-5.jpg",
+      "/images/hainan-missionhills/hotel-6.jpg",
+      "/images/hainan-haikou-charter-cheongju/mission-room-1.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-30",
+        "price": 1790000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1990000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1790000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1990000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1790000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1990000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1790000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1990000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1790000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1990000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1790000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-06",
+        "price": 2190000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1790000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1990000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1790000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1990000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1790000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1990000,
+        "nights": 4,
+        "days": 6
+      }
+    ],
+    "price": "1,790,000원~",
+    "image": "/images/hainan-missionhills/course-1.jpg",
+    "images": [
+      "/images/hainan-missionhills/course-1.jpg",
+      "/images/hainan-missionhills/course-3.jpg",
+      "/images/hainan-missionhills/hotel-1.jpg",
+      "/images/hainan-missionhills/course-5.jpg",
+      "/images/hainan-missionhills/hotel-3.jpg",
+      "/images/hainan-missionhills/course-4.jpg"
+    ]
   }
 ]
