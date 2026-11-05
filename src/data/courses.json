@@ -8128,5 +8128,412 @@
     "relatedTourIds": [
       "vietnam-phuquoc-vinpearl-estuary-busan"
     ]
+  },
+  {
+    "slug": "pine-hills-golf-club",
+    "name": "파인힐스CC",
+    "nameEn": "Pine Hills Golf Club (Eagle Ridge Andy Dye Course)",
+    "region": "마닐라",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "aliases": [
+      "파인힐스",
+      "Pine Hills",
+      "Pinehills"
+    ],
+    "summary": "앤디 다이 설계 18홀 파72, 이글릿지 단지에서 파인힐스 이름으로 운영되는 카비테 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "7,293야드 (백티 기준)"
+      },
+      {
+        "label": "설계",
+        "value": "앤디 다이"
+      },
+      {
+        "label": "개장",
+        "value": "1998년"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 카비테주 헤네랄트리아스"
+      }
+    ],
+    "description": "파인힐스CC는 카비테주 헤네랄트리아스의 이글릿지 단지에 있는 앤디 다이 설계 코스로, 지금은 파인힐스 골프클럽이라는 이름으로 운영됩니다. 18홀 파72에 백티 기준 전장은 7,293야드이며 1998년에 문을 열었습니다.\n\n코스를 가로지르는 협곡을 살린 고전적인 설계로 페어웨이의 오르내림이 크고 해저드가 많아 정교한 샷이 필요합니다. 클럽하우스와 레스토랑, 락커룸, 드라이빙 레인지를 갖추고 있습니다.\n\n여행의파도 부산 출발 마닐라 무제한 상품에서는 골프장 안 빌라동에 숙박하며 의무 라운드 없이 하루 최대 36홀까지 라운딩합니다. 3박5일 108홀, 4박6일 144홀 일정이며 그린피·카트비·캐디피와 세 끼 식사가 포함됩니다.",
+    "images": [
+      "/images/manila-pinehills-golftel-busan/course-1.jpg",
+      "/images/manila-pinehills-golftel-busan/course-2.jpg",
+      "/images/manila-pinehills-golftel-busan/course-3.jpg",
+      "/images/manila-pinehills-golftel-busan/course-4.jpg",
+      "/images/manila-pinehills-golftel-busan/course-5.jpg",
+      "/images/manila-pinehills-golftel-busan/course-6.jpg"
+    ],
+    "hashtags": [
+      "파인힐스CC",
+      "파인힐스",
+      "마닐라골프장",
+      "마닐라골프여행",
+      "카비테골프",
+      "앤디다이",
+      "필리핀골프여행"
+    ],
+    "relatedTourIds": [
+      "philippines-manila-pinehills-golftel-busan",
+      "philippines-manila-pinehills-golftel-busan-4n6d"
+    ]
+  },
+  {
+    "slug": "new-asia-golf-spa-resort",
+    "name": "뉴아시아CC",
+    "nameEn": "New Asia Golf & Spa Resort",
+    "region": "클락",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "summary": "파72 7,114야드, 넓은 페어웨이와 산 전망의 타를락 카파스 챔피언십 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,114야드 (블랙 티)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "넓은 페어웨이, 전략적인 벙커, 산 전망"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 타를락주 카파스 오도넬"
+      }
+    ],
+    "description": "뉴아시아CC는 필리핀 타를락주 카파스 오도넬에 있는 18홀 챔피언십 코스입니다. 파72, 블랙 티 기준 전장 7,114야드입니다.\n\n페어웨이가 넓고 산이 보이는 조용한 코스지만 벙커 배치가 전략적이어서, 그린을 공략할 때는 위치를 생각하게 됩니다.\n\n여행의파도에서는 골프텔에 묵으며 무제한으로 라운딩하는 상품과, 로얄센트럴CC·FA코리아CC·베버리CC 등을 묶은 클락 다색 상품으로 만나실 수 있습니다.",
+    "images": [
+      "/images/clark-newasia-busan/course-1.jpg",
+      "/images/clark-newasia-busan/course-2.jpg",
+      "/images/clark-newasia-busan/course-3.jpg",
+      "/images/clark-newasia-busan/course-4.jpg",
+      "/images/clark-newasia-busan/course-5.jpg",
+      "/images/clark-newasia-busan/course-6.jpg"
+    ],
+    "hashtags": [
+      "뉴아시아CC",
+      "뉴아시아",
+      "클락골프장",
+      "클락골프여행",
+      "필리핀골프여행",
+      "클락무제한골프",
+      "부산출발골프"
+    ],
+    "relatedTourIds": [
+      "philippines-clark-newasia-busan",
+      "philippines-clark-newasia-busan-4n6d",
+      "philippines-clark-venus-3color-busan",
+      "philippines-clark-venus-3color-busan-4n6d",
+      "philippines-clark-3color-busan",
+      "philippines-clark-3color-busan-4n6d",
+      "philippines-clark-quest-3color-cheongju",
+      "philippines-clark-spot-imperial-busan",
+      "philippines-clark-kaniville-2color-busan",
+      "philippines-clark-poolvilla-3n5d-cheongju",
+      "philippines-clark-3color-value-incheon"
+    ]
+  },
+  {
+    "slug": "beverly-place-golf-club",
+    "name": "베버리CC",
+    "nameEn": "Beverly Place Golf Club",
+    "region": "클락",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "summary": "게리 플레이어 설계 파71 6,307야드, 거의 모든 홀에 물이 있는 팜팡가 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파71 · 6,307야드"
+      },
+      {
+        "label": "조성",
+        "value": "2009년"
+      },
+      {
+        "label": "설계",
+        "value": "게리 플레이어"
+      },
+      {
+        "label": "코스 특징",
+        "value": "거의 모든 홀에 워터 해저드, 15번 아일랜드 그린"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 팜팡가주 멕시코시 (앙헬레스에서 약 25km)"
+      }
+    ],
+    "description": "베버리CC는 필리핀 팜팡가주 멕시코시에 있는 18홀 골프장으로, 게리 플레이어가 설계했으며 2009년 조성되었습니다. 파71, 전장 6,307야드이고 앙헬레스에서 약 25km 떨어져 있습니다.\n\n대체로 평탄한 땅이지만 거의 모든 홀에 워터 해저드가 있고, 2번·8번 홀의 큰 호수와 15번 아일랜드 그린이 기억에 남습니다. 페어웨이가 넓어 티샷 부담은 덜한 대신, 그린 주변 벙커를 피하는 공략이 중요합니다.\n\n여행의파도 클락 상품에서는 뉴아시아CC·레이크우드CC·FA코리아CC 등과 묶은 다색 일정으로 만나실 수 있습니다.",
+    "images": [
+      "/images/beverly-place-golf-club/course-1.jpg",
+      "/images/beverly-place-golf-club/course-2.jpg"
+    ],
+    "hashtags": [
+      "베버리CC",
+      "베버리플레이스",
+      "클락골프장",
+      "클락골프여행",
+      "필리핀골프여행",
+      "게리플레이어",
+      "부산출발골프"
+    ],
+    "relatedTourIds": [
+      "philippines-clark-venus-3color-busan",
+      "philippines-clark-venus-3color-busan-4n6d",
+      "philippines-clark-spot-imperial-busan",
+      "philippines-clark-ht-hotel-smart-busan",
+      "philippines-clark-3color-value-incheon"
+    ]
+  },
+  {
+    "slug": "royal-central-cc-clark",
+    "name": "로얄센트럴CC",
+    "nameEn": "Royal Central Country Club",
+    "region": "클락",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "summary": "옛 로얄가든CC, 앙헬레스 인근의 18홀 파72 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "옛 이름",
+        "value": "로얄가든 골프 앤 컨트리클럽 (Royal Garden Golf & Country Club)"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 팜팡가주 앙헬레스 인근"
+      }
+    ],
+    "description": "로얄센트럴CC는 필리핀 팜팡가주 앙헬레스 인근에 있는 18홀 파72 골프장으로, 로얄가든 골프 앤 컨트리클럽이라는 이름으로 알려졌던 곳입니다.\n\n여행의파도에서는 하루 27홀을 기본으로 라운딩하는 로얄센트럴 무제한 상품과, 뉴아시아CC·FA코리아CC 등을 묶은 클락 다색 상품으로 만나실 수 있습니다.",
+    "images": [
+      "/images/clark-3color-busan/course-1.jpg",
+      "/images/clark-3color-busan/course-2.jpg",
+      "/images/clark-3color-busan/course-3.jpg",
+      "/images/clark-3color-busan/course-4.jpg",
+      "/images/clark-3color-busan/course-5.jpg",
+      "/images/clark-3color-busan/course-6.jpg"
+    ],
+    "hashtags": [
+      "로얄센트럴CC",
+      "로얄센트럴",
+      "로얄가든CC",
+      "클락골프장",
+      "클락골프여행",
+      "필리핀골프여행",
+      "클락무제한골프"
+    ],
+    "relatedTourIds": [
+      "philippines-clark-royalcentral-busan",
+      "philippines-clark-royalcentral-busan-4n6d",
+      "philippines-clark-venus-3color-busan-4n6d",
+      "philippines-clark-3color-busan",
+      "philippines-clark-3color-busan-4n6d",
+      "philippines-clark-free-3color-cheongju",
+      "philippines-clark-quest-3color-cheongju",
+      "philippines-clark-khotel-3color-busan",
+      "philippines-clark-kaniville-2color-busan",
+      "philippines-clark-poolvilla-3n5d-cheongju",
+      "philippines-clark-spot-imperial-busan"
+    ]
+  },
+  {
+    "slug": "anara-binh-tien-golf-club",
+    "name": "아나라 빈티엔CC",
+    "nameEn": "ANARA Binh Tien Golf Club",
+    "region": "나트랑",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "골프플랜 설계 파72, 바다와 모래 언덕이 어우러진 2022년 개장 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "개장",
+        "value": "2022년 (옛 이름 나라 빈티엔, 2023년 지금 이름으로 변경)"
+      },
+      {
+        "label": "설계",
+        "value": "케빈 램지 · 데이비드 데일 (골프플랜)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "모래 언덕·호수·바위와 바다 전망, 해변 옆 13번 파3, 야간 조명"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 칸호아성 빈티엔 해안 (옛 닌투언성)"
+      },
+      {
+        "label": "접근",
+        "value": "깜란 국제공항에서 약 45km"
+      }
+    ],
+    "description": "아나라 빈티엔CC는 베트남 깜란 공항 남쪽 빈티엔 해안에 있는 18홀 파72 골프장입니다. 2022년 나라 빈티엔이라는 이름으로 문을 열었고, 2023년 지금 이름으로 바뀌었습니다. 골프플랜의 케빈 램지와 데이비드 데일이 설계했으며, 깜란 국제공항에서 약 45km 떨어져 있습니다.\n\n모래 언덕과 호수, 바위, 야자수가 어우러지고 산과 바다가 함께 보이는 코스로, 해변 옆 13번 파3 홀이 눈에 띕니다. 전 홀에 조명이 있어 야간 라운딩도 가능합니다.\n\n여행의파도 나트랑 상품은 인천과 부산에서 출발하며, 날마다 27홀을 라운딩하는 81홀 일정입니다. 숙소는 상품에 따라 다르니 상품 페이지에서 확인해 주세요.",
+    "images": [
+      "/images/nhatrang-anara-busan/course-2.jpg",
+      "/images/nhatrang-anara-busan/course-5.jpg",
+      "/images/nhatrang-anara-busan/course-4.jpg",
+      "/images/nhatrang-anara-busan/course-1.jpg",
+      "/images/nhatrang-anara-busan/course-3.jpg",
+      "/images/nhatrang-anara-busan/course-6.jpg",
+      "/images/nhatrang-anara-swissbel-incheon/course-1.jpg"
+    ],
+    "hashtags": [
+      "아나라빈티엔CC",
+      "아나라빈티엔",
+      "나트랑골프장",
+      "나트랑골프여행",
+      "베트남골프여행",
+      "깜란골프",
+      "나라빈티엔"
+    ],
+    "relatedTourIds": [
+      "vietnam-nhatrang-anara-swissbel-incheon",
+      "vietnam-nhatrang-anara-busan"
+    ]
+  },
+  {
+    "slug": "green-valley-cc-bangkok",
+    "name": "방콕 그린밸리CC",
+    "nameEn": "Green Valley Country Club Bangkok",
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "로버트 트렌트 존스 주니어 설계 파72, 수완나품공항 인근 방나 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "개장",
+        "value": "1988년"
+      },
+      {
+        "label": "설계",
+        "value": "로버트 트렌트 존스 주니어"
+      },
+      {
+        "label": "코스 특징",
+        "value": "페어웨이를 따라 이어지는 물, 크고 빠른 그린, 아일랜드 티 14번 파3"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 사뭇쁘라깐주 방플리 (방나-뜨랏 도로 15km 지점, 수완나품공항 인근)"
+      }
+    ],
+    "description": "방콕 그린밸리CC는 방콕 동쪽 사뭇쁘라깐주 방플리, 방나-뜨랏 도로 15km 지점에 있는 18홀 파72 골프장입니다. 로버트 트렌트 존스 주니어가 설계해 1988년 문을 열었고, 2005년에는 제27회 퀸 시리킷 컵이 열렸습니다. 수완나품공항과 가깝습니다.\n\n땅은 대체로 평탄하지만 대부분의 페어웨이를 따라 물이 이어져 티샷 정확도가 중요합니다. 그린은 크고 빠르며 굴곡이 있고, 아일랜드 티에서 시작하는 14번 파3 홀이 대표 홀입니다.\n\n여행의파도 방콕 명품 5색 상품에서 배정될 수 있는 골프장 중 한 곳으로, 18홀씩 3회 라운딩하며 1인 1캐디·1카트가 포함됩니다. 이용 골프장은 상담 때 확인해 드립니다.",
+    "images": [
+      "/images/green-valley-cc-bangkok/course-1.jpg",
+      "/images/green-valley-cc-bangkok/course-2.jpg",
+      "/images/green-valley-cc-bangkok/course-3.jpg"
+    ],
+    "hashtags": [
+      "방콕그린밸리CC",
+      "그린밸리CC",
+      "방콕골프장",
+      "방콕골프여행",
+      "태국골프여행",
+      "로버트트렌트존스",
+      "수완나품골프"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok-premium-5color-incheon",
+      "thailand-bangkok-premium-5color-busan",
+      "thailand-bangkok-premium-5color-daegu"
+    ]
+  },
+  {
+    "slug": "lakewood-cc-bangkok",
+    "name": "방콕 레이크우드CC",
+    "nameEn": "Lakewood Country Club Bangkok",
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "마이클 폴롯 설계 27홀, 수완나품 공항 가까운 레이크·우드·록 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (레이크 · 우드 · 록 각 9홀)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,145야드 (레이크-우드 조합, 백 티)"
+      },
+      {
+        "label": "개장",
+        "value": "1992년"
+      },
+      {
+        "label": "설계",
+        "value": "J. 마이클 폴롯"
+      },
+      {
+        "label": "코스 특징",
+        "value": "나무가 늘어선 평탄한 파크랜드, 넓은 페어웨이"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 사뭇쁘라깐주 방플리 (방나-뜨랏 도로 18km 지점)"
+      },
+      {
+        "label": "접근",
+        "value": "방콕 수쿰빗 지역에서 약 33km"
+      }
+    ],
+    "description": "방콕 레이크우드CC는 사뭇쁘라깐주 방플리, 방나-뜨랏 도로 18km 지점에 있는 27홀 골프장입니다. J. 마이클 폴롯이 설계해 1992년 문을 열었고 레이크·우드·록 3개 코스(각 9홀)로 이루어져 있습니다. 레이크-우드 조합 기준 파72, 백 티 전장은 7,145야드입니다. 방콕 수쿰빗 지역에서 약 33km 떨어져 있고 수완나품공항과도 가깝습니다.\n\n대체로 평탄한 파크랜드 코스로 야자수와 나무가 페어웨이를 나누고, 페어웨이가 넓은 편입니다. 잔디 때문에 공이 덜 구르는 편이라 전장보다 길게 느껴질 수 있고, 우드 코스 7번 홀은 티샷 때 물을 조심해야 합니다.\n\n여행의파도 방콕 명품 5색 상품에서 배정될 수 있는 골프장 중 한 곳입니다. 필리핀 클락의 레이크우드CC와는 다른 골프장입니다.",
+    "images": [
+      "/images/lakewood-cc-bangkok/course-1.jpg",
+      "/images/lakewood-cc-bangkok/course-2.jpg",
+      "/images/lakewood-cc-bangkok/course-3.jpg"
+    ],
+    "hashtags": [
+      "방콕레이크우드CC",
+      "레이크우드CC",
+      "방콕골프장",
+      "방콕골프여행",
+      "태국골프여행",
+      "방나골프",
+      "수완나품골프"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok-premium-5color-incheon",
+      "thailand-bangkok-premium-5color-busan",
+      "thailand-bangkok-premium-5color-daegu",
+      "thailand-bangkok-monthly-meet-0114-incheon"
+    ]
   }
 ]
