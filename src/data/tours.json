@@ -75221,26 +75221,6 @@
     ],
     "departurePrices": [
       {
-        "date": "2026-11-01",
-        "price": 1320000
-      },
-      {
-        "date": "2026-11-02",
-        "price": 1320000
-      },
-      {
-        "date": "2026-11-03",
-        "price": 1260000
-      },
-      {
-        "date": "2026-11-04",
-        "price": 1290000
-      },
-      {
-        "date": "2026-11-05",
-        "price": 1620000
-      },
-      {
         "date": "2026-11-06",
         "price": 1370000
       },
@@ -75470,55 +75450,55 @@
       },
       {
         "date": "2027-01-02",
-        "price": 1430000
+        "price": 1450000
       },
       {
         "date": "2027-01-03",
-        "price": 1370000
+        "price": 1390000
       },
       {
         "date": "2027-01-04",
-        "price": 1370000
+        "price": 1390000
       },
       {
         "date": "2027-01-05",
-        "price": 1370000
+        "price": 1390000
       },
       {
         "date": "2027-01-06",
-        "price": 1420000
+        "price": 1450000
       },
       {
         "date": "2027-01-07",
-        "price": 1540000
+        "price": 1590000
       },
       {
         "date": "2027-01-08",
-        "price": 1540000
+        "price": 1590000
       },
       {
         "date": "2027-01-09",
-        "price": 1490000
+        "price": 1550000
       },
       {
         "date": "2027-01-10",
-        "price": 1430000
+        "price": 1490000
       },
       {
         "date": "2027-01-11",
-        "price": 1370000
+        "price": 1550000
       },
       {
         "date": "2027-01-12",
-        "price": 1370000
+        "price": 1390000
       },
       {
         "date": "2027-01-13",
-        "price": 1420000
+        "price": 1450000
       },
       {
         "date": "2027-01-14",
-        "price": 1540000
+        "price": 1570000
       },
       {
         "date": "2027-01-15",
@@ -75526,27 +75506,27 @@
       },
       {
         "date": "2027-01-16",
-        "price": 1430000
+        "price": 1450000
       },
       {
         "date": "2027-01-17",
-        "price": 1370000
+        "price": 1550000
       },
       {
         "date": "2027-01-18",
-        "price": 1370000
+        "price": 1390000
       },
       {
         "date": "2027-01-19",
-        "price": 1370000
+        "price": 1390000
       },
       {
         "date": "2027-01-20",
-        "price": 1420000
+        "price": 1450000
       },
       {
         "date": "2027-01-21",
-        "price": 1540000
+        "price": 1570000
       },
       {
         "date": "2027-01-22",
@@ -75554,27 +75534,27 @@
       },
       {
         "date": "2027-01-23",
-        "price": 1430000
+        "price": 1450000
       },
       {
         "date": "2027-01-24",
-        "price": 1370000
-      },
-      {
-        "date": "2027-01-25",
-        "price": 1370000
-      },
-      {
-        "date": "2027-01-26",
-        "price": 1370000
-      },
-      {
-        "date": "2027-01-27",
         "price": 1390000
       },
       {
+        "date": "2027-01-25",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1450000
+      },
+      {
         "date": "2027-01-28",
-        "price": 1540000
+        "price": 1570000
       },
       {
         "date": "2027-01-29",
@@ -75582,31 +75562,31 @@
       },
       {
         "date": "2027-01-30",
-        "price": 1430000
+        "price": 1450000
       },
       {
         "date": "2027-01-31",
-        "price": 1370000
+        "price": 1390000
       },
       {
         "date": "2027-02-01",
-        "price": 1370000
+        "price": 1390000
       },
       {
         "date": "2027-02-02",
-        "price": 1370000
+        "price": 1390000
       },
       {
         "date": "2027-02-03",
-        "price": 1420000
+        "price": 1450000
       },
       {
         "date": "2027-02-04",
-        "price": 1540000
+        "price": 1570000
       },
       {
         "date": "2027-02-05",
-        "price": 1790000
+        "price": 1850000
       },
       {
         "date": "2027-02-06",
@@ -75614,19 +75594,19 @@
       },
       {
         "date": "2027-02-07",
-        "price": 1740000
+        "price": 1850000
       },
       {
         "date": "2027-02-08",
-        "price": 1490000
+        "price": 1590000
       },
       {
         "date": "2027-02-09",
-        "price": 1490000
+        "price": 1590000
       },
       {
         "date": "2027-02-10",
-        "price": 1540000
+        "price": 1590000
       },
       {
         "date": "2027-02-11",
@@ -75634,23 +75614,23 @@
       },
       {
         "date": "2027-02-12",
-        "price": 1490000
+        "price": 1520000
       },
       {
         "date": "2027-02-13",
-        "price": 1450000
+        "price": 1490000
       },
       {
         "date": "2027-02-14",
-        "price": 1390000
+        "price": 1420000
       },
       {
         "date": "2027-02-15",
-        "price": 1390000
+        "price": 1420000
       },
       {
         "date": "2027-02-16",
-        "price": 1390000
+        "price": 1420000
       },
       {
         "date": "2027-02-17",
@@ -75662,35 +75642,35 @@
       },
       {
         "date": "2027-02-19",
-        "price": 1490000
+        "price": 1520000
       },
       {
         "date": "2027-02-20",
-        "price": 1590000
+        "price": 1650000
       },
       {
         "date": "2027-02-21",
-        "price": 1490000
+        "price": 1550000
       },
       {
         "date": "2027-02-22",
-        "price": 1490000
+        "price": 1550000
       },
       {
         "date": "2027-02-23",
-        "price": 1390000
-      },
-      {
-        "date": "2027-02-24",
         "price": 1420000
       },
       {
+        "date": "2027-02-24",
+        "price": 1450000
+      },
+      {
         "date": "2027-02-25",
-        "price": 1540000
+        "price": 1590000
       },
       {
         "date": "2027-02-26",
-        "price": 1790000
+        "price": 1750000
       },
       {
         "date": "2027-02-27",
@@ -75698,23 +75678,23 @@
       },
       {
         "date": "2027-02-28",
-        "price": 1750000
+        "price": 1690000
       },
       {
         "date": "2027-03-01",
-        "price": 1320000
+        "price": 1350000
       },
       {
         "date": "2027-03-02",
-        "price": 1320000
+        "price": 1350000
       },
       {
         "date": "2027-03-03",
-        "price": 1370000
+        "price": 1390000
       },
       {
         "date": "2027-03-04",
-        "price": 1490000
+        "price": 1550000
       },
       {
         "date": "2027-03-05",
@@ -75722,27 +75702,27 @@
       },
       {
         "date": "2027-03-06",
-        "price": 1390000
+        "price": 1420000
       },
       {
         "date": "2027-03-07",
-        "price": 1320000
+        "price": 1350000
       },
       {
         "date": "2027-03-08",
-        "price": 1320000
+        "price": 1350000
       },
       {
         "date": "2027-03-09",
-        "price": 1320000
+        "price": 1350000
       },
       {
         "date": "2027-03-10",
-        "price": 1370000
+        "price": 1390000
       },
       {
         "date": "2027-03-11",
-        "price": 1490000
+        "price": 1550000
       },
       {
         "date": "2027-03-12",
@@ -75750,51 +75730,51 @@
       },
       {
         "date": "2027-03-13",
-        "price": 1390000
+        "price": 1420000
       },
       {
         "date": "2027-03-14",
-        "price": 1320000
+        "price": 1350000
       },
       {
         "date": "2027-03-15",
-        "price": 1320000
+        "price": 1350000
       },
       {
         "date": "2027-03-16",
-        "price": 1320000
+        "price": 1350000
       },
       {
         "date": "2027-03-17",
-        "price": 1370000
-      },
-      {
-        "date": "2027-03-18",
-        "price": 1490000
-      },
-      {
-        "date": "2027-03-19",
-        "price": 1550000
-      },
-      {
-        "date": "2027-03-20",
-        "price": 1490000
-      },
-      {
-        "date": "2027-03-21",
         "price": 1390000
       },
       {
+        "date": "2027-03-18",
+        "price": 1550000
+      },
+      {
+        "date": "2027-03-19",
+        "price": 1590000
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1590000
+      },
+      {
+        "date": "2027-03-21",
+        "price": 1420000
+      },
+      {
         "date": "2027-03-22",
-        "price": 1320000
+        "price": 1350000
       },
       {
         "date": "2027-03-23",
-        "price": 1320000
+        "price": 1350000
       },
       {
         "date": "2027-03-24",
-        "price": 1370000
+        "price": 1450000
       }
     ],
     "price": "1,260,000원~",
@@ -75829,7 +75809,7 @@
     ],
     "badge": "인천출발 신규",
     "departure": "incheon",
-    "priceUpdatedDate": "2026-10-20",
+    "priceUpdatedDate": "2026-11-06",
     "seoIntro": "인천 출발 일본 가고시마 골프여행 3박4일 상품으로, 미야코노조 시내 천연온천 호텔에 숙박하며 카노야·오스미·다카치호 등 6개 골프장 중 3곳에서 54홀을 라운딩하는 이스타항공 3색 골프패키지입니다.",
     "seoKeywords": [
       "가고시마골프",
@@ -99486,7 +99466,8 @@
       "미량만 온천리조트(메이랑완 샹멘 호텔) 또는 동급 3박 (2인 1실)",
       "조식·석식",
       "전 일정 그린피",
-      "여행자보험"
+      "여행자보험",
+      "12/2·4·11 출발 지정일 특가: 윈덤 호텔 또는 동급, 카트비·캐디피·미팅샌딩비 포함 (중식·캐디팁 별도)"
     ],
     "excludes": [
       "중식",
@@ -99503,10 +99484,6 @@
       "카트비·캐디피는 현지 일괄 지불 조건이라 라운드를 하지 않아도 환불되지 않습니다."
     ],
     "departurePrices": [
-      {
-        "date": "2026-11-04",
-        "price": 1089000
-      },
       {
         "date": "2026-11-06",
         "price": 1089000
@@ -99537,11 +99514,11 @@
       },
       {
         "date": "2026-12-02",
-        "price": 1260000
+        "price": 1500000
       },
       {
         "date": "2026-12-04",
-        "price": 1260000
+        "price": 1500000
       },
       {
         "date": "2026-12-09",
@@ -99549,7 +99526,7 @@
       },
       {
         "date": "2026-12-11",
-        "price": 1260000
+        "price": 1500000
       },
       {
         "date": "2026-12-16",
@@ -99706,7 +99683,7 @@
     ],
     "badge": "인천출발 신규",
     "departure": "incheon",
-    "priceUpdatedDate": "2026-11-01",
+    "priceUpdatedDate": "2026-11-06",
     "seoIntro": "인천 출발 중국 하이난 골프여행 3박4일 상품으로, 해남항공 직항으로 가서 청마이 미량만 온천리조트(메이랑완 샹멘 호텔)에 숙박하며 미량만CC에서 72홀을 라운딩하는 조식·석식 포함 골프패키지입니다.",
     "seoKeywords": [
       "하이난골프",
@@ -99776,7 +99753,8 @@
       "미량만 온천리조트(메이랑완 샹멘 호텔) 또는 동급 4박 (2인 1실)",
       "조식·석식",
       "전 일정 그린피",
-      "여행자보험"
+      "여행자보험",
+      "11/30·12/7·12/12 출발 지정일 특가: 윈덤 호텔 또는 동급, 카트비·캐디피·미팅샌딩비 포함 (중식·캐디팁 별도)"
     ],
     "excludes": [
       "중식",
@@ -99793,10 +99771,6 @@
       "카트비·캐디피는 현지 일괄 지불 조건이라 라운드를 하지 않아도 환불되지 않습니다."
     ],
     "departurePrices": [
-      {
-        "date": "2026-11-02",
-        "price": 1259000
-      },
       {
         "date": "2026-11-07",
         "price": 1259000
@@ -99827,7 +99801,7 @@
       },
       {
         "date": "2026-11-30",
-        "price": 1290000
+        "price": 1570000
       },
       {
         "date": "2026-12-05",
@@ -99835,11 +99809,11 @@
       },
       {
         "date": "2026-12-07",
-        "price": 1440000
+        "price": 1720000
       },
       {
         "date": "2026-12-12",
-        "price": 1259000
+        "price": 1720000
       },
       {
         "date": "2026-12-14",
@@ -99996,7 +99970,7 @@
     ],
     "badge": "인천출발 신규",
     "departure": "incheon",
-    "priceUpdatedDate": "2026-10-21",
+    "priceUpdatedDate": "2026-11-06",
     "seoIntro": "인천 출발 중국 하이난 골프여행 4박5일 상품으로, 해남항공 직항으로 가서 청마이 미량만 온천리조트(메이랑완 샹멘 호텔)에 숙박하며 미량만CC에서 99홀을 라운딩하는 조식·석식 포함 골프패키지입니다.",
     "seoKeywords": [
       "하이난골프",
@@ -127342,6 +127316,1522 @@
         "date": "2027-02-23",
         "price": 1029000
       }
+    ]
+  },
+  {
+    "id": "macau-double-prestige-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "마카오",
+    "title": "[인천출발] 마카오 골프여행 MG CC·MIG CC 2박3일 36홀 그랜드 리스보아 팰리스 에어마카오 직항 1,679,000원부터",
+    "displayTitle": "MG CC·MIG CC 그랜드 리스보아 팰리스 골프여행",
+    "subtitle": "마카오 골프&컨트리클럽·마카오 인터내셔널 골프클럽 36홀 · 그랜드 리스보아 팰리스 2박 · 에어마카오 직항 · 하루 자유일정",
+    "nights": 2,
+    "days": 3,
+    "courses": 2,
+    "roundsIncluded": 2,
+    "holes": "18홀 x 2회 (총 36홀)\nMG CC · MIG CC",
+    "minPeople": 2,
+    "period": "2026년 12월 1일 ~ 2027년 3월 31일 (예약 불가 출발일 제외)",
+    "hotel": "그랜드 리스보아 팰리스 마카오 (2인 1실)",
+    "hotelDesc": "마카오 코타이에 있는 약 1,350개 객실 규모의 복합 리조트로, 포브스 트래블 가이드 5성 호텔입니다. 조식은 호텔 그랜드 뷔페에서 드시고, 라운드 뒤에는 리조트 안 레스토랑과 쇼핑 시설을 이용하실 수 있습니다.",
+    "golfCourse": "마카오 골프&컨트리클럽(MG CC) · 마카오 인터내셔널 골프클럽(MIG CC)",
+    "golfCourseDesc": "MG CC는 콜로안 해안의 18홀 파71 회원제 코스로, 바다를 끼고 라운딩하며 마카오 오픈이 열리는 곳입니다. MIG CC는 코타이 중심에 있는 18홀 파크랜드 코스로, 페어웨이가 탁 트여 있고 카트가 페어웨이로 들어갈 수 있습니다. MG CC는 주중에만 라운드할 수 있어 주말에는 MIG CC로 진행합니다.",
+    "productSummary": "에어마카오 직항으로 마카오에 가서 MG CC와 MIG CC에서 총 36홀을 라운딩하고 하루는 자유일정으로 보내는 2박3일 상품입니다. MG CC는 주중에만 라운드할 수 있어 주말에는 MIG CC로 진행합니다.\n그랜드 리스보아 팰리스 2인 1실, 조식 2회와 전동카트, 전용 차량이 포함되고 2인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 마카오 · MG CC 18홀",
+        "desc": "인천국제공항 출발(에어마카오 NX825, 08:30) → 마카오 국제공항 도착(11:30) → 기사 미팅 후 골프장 이동(약 10~15분) → 마카오 골프&컨트리클럽(MG CC) 18홀 라운드(예정 티업 13:30~14:00) → 호텔 이동 후 체크인 및 휴식 [중식·석식 불포함, 숙소: 그랜드 리스보아 팰리스 마카오]"
+      },
+      {
+        "day": "2일차",
+        "label": "마카오 자유일정",
+        "desc": "호텔 조식 후 전일 자유일정 (세나도 광장, 성 바울 성당 유적, 마카오 타워, 윈팰리스 분수쇼, 하우스 오브 댄싱 워터 등) [조식 호텔식 / 중식·석식 불포함, 숙소: 그랜드 리스보아 팰리스 마카오]"
+      },
+      {
+        "day": "3일차",
+        "label": "MIG CC 18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 골프장 이동(약 10~15분) → MIG CC 18홀 라운드(예정 티업 08시 이전) → 공항 이동 → 마카오 국제공항 출발(NX826, 18:10) → 인천국제공항 도착(22:45) [조식 호텔식 / 중식 불포함]\n※ 위 일정은 주중 출발 기준입니다. 토·일요일 출발은 1일차에 라운드 없이 2·3일차에 라운드합니다."
+      }
+    ],
+    "highlights": [
+      "MG CC·MIG CC 총 36홀 · 2박3일 (주말은 MIG CC로 진행)",
+      "그랜드 리스보아 팰리스 2박 · 조식 2회",
+      "에어마카오 직항 NX825/NX826 · 2인부터 출발",
+      "공항·호텔·골프장 전용 차량 · 하루 자유일정"
+    ],
+    "includes": [
+      "왕복 항공권 (에어마카오, 유류할증료·TAX 포함)",
+      "그랜드 리스보아 팰리스 마카오 2박 (2인 1실)",
+      "18홀 x 2회 그린피 + 전동카트",
+      "호텔 조식 2회",
+      "공항·호텔·골프장 왕복 전용 차량 (2~4인 7인승 밴)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "중식 · 석식",
+      "MG CC 캐디피 HKD 235 + 팁 HKD 100 (2인 1캐디, 1인 기준, 필수)",
+      "MIG CC 캐디피 HKD 200 + 팁 HKD 100 (선택, 2인 1캐디, 1인 기준)",
+      "홀수 인원 싱글캐디 추가비",
+      "개인 경비"
+    ],
+    "cancelPolicy": [
+      "캐디피는 카운터에서 결제하고, 팁은 캐디에게 직접 드립니다.",
+      "MG CC는 주중에만 라운드할 수 있어 주말에는 MIG CC로 진행합니다. 토·일요일 출발은 1일차에 라운드 없이 2·3일차에 라운드합니다.",
+      "12/18, 12/19, 12/21~22, 12/27~28은 별도 요금이 적용된 날짜입니다.",
+      "예약 불가 출발일: 12월 7·10·14·17·20·23~26·29~31일, 1월 1~3일, 2월 4~13·17~18·20~21·26~28일, 3월 1·3~4·6~7·10~11·13~14·17·25~29일 (호텔·골프 운영 제한 및 NX825/NX826 비운항)",
+      "싱글룸 주중 1박 15만원 · 주말 1박 25만원, 싱글 카트비 MIG CC HKD 200 (MG CC 주중 무료)",
+      "자유일정 중 MIG CC 18홀 추가 라운드 주중 28만원 · 주말 35만원 (왕복 차량 포함)",
+      "그랜드 뷔페 디너 사전예약 1인 12만원",
+      "수하물: 그룹 발권 위탁 32kg 2개·기내 7kg 1개·기내식 제공, 개별 발권 위탁 32kg 1개",
+      "항공 좌석과 호텔 객실 상황에 따라 예약이 제한될 수 있고, 일정은 현지 사정에 따라 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-01",
+        "price": 1679000
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1679000
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1799000
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1899000
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1879000
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1679000
+      },
+      {
+        "date": "2026-12-08",
+        "price": 1679000
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1679000
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1899000
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1879000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1679000
+      },
+      {
+        "date": "2026-12-15",
+        "price": 1679000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1679000
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1949000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1899000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1699000
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1699000
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1749000
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1749000
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1899000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 2029000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1999000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1899000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 2029000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1999000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1899000
+      },
+      {
+        "date": "2027-01-22",
+        "price": 2029000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1999000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1899000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 2029000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1999000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1779000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1779000
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1779000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1779000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1779000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1779000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1779000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 2029000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1779000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1779000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1779000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1899000
+      },
+      {
+        "date": "2027-03-02",
+        "price": 1679000
+      },
+      {
+        "date": "2027-03-05",
+        "price": 1929000
+      },
+      {
+        "date": "2027-03-08",
+        "price": 1679000
+      },
+      {
+        "date": "2027-03-09",
+        "price": 1679000
+      },
+      {
+        "date": "2027-03-12",
+        "price": 1929000
+      },
+      {
+        "date": "2027-03-15",
+        "price": 1679000
+      },
+      {
+        "date": "2027-03-16",
+        "price": 1679000
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1799000
+      },
+      {
+        "date": "2027-03-19",
+        "price": 1929000
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1899000
+      },
+      {
+        "date": "2027-03-21",
+        "price": 1679000
+      },
+      {
+        "date": "2027-03-22",
+        "price": 1679000
+      },
+      {
+        "date": "2027-03-23",
+        "price": 1679000
+      },
+      {
+        "date": "2027-03-24",
+        "price": 1679000
+      },
+      {
+        "date": "2027-03-30",
+        "price": 1679000
+      },
+      {
+        "date": "2027-03-31",
+        "price": 1679000
+      }
+    ],
+    "price": "1,679,000원~",
+    "image": "/images/macau-double-prestige-incheon/course-1.jpg",
+    "images": [
+      "/images/macau-double-prestige-incheon/course-1.jpg",
+      "/images/macau-double-prestige-incheon/course-2.jpg",
+      "/images/macau-double-prestige-incheon/hotel-1.jpg",
+      "/images/macau-double-prestige-incheon/course-3.jpg",
+      "/images/macau-double-prestige-incheon/hotel-2.jpg",
+      "/images/macau-double-prestige-incheon/course-4.jpg",
+      "/images/macau-double-prestige-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/macau-double-prestige-incheon/hotel-1.jpg",
+      "/images/macau-double-prestige-incheon/hotel-2.jpg",
+      "/images/macau-double-prestige-incheon/hotel-3.jpg",
+      "/images/macau-double-prestige-incheon/hotel-4.jpg",
+      "/images/macau-double-prestige-incheon/hotel-5.jpg",
+      "/images/macau-double-prestige-incheon/hotel-6.jpg",
+      "/images/macau-double-prestige-incheon/hotel-7.jpg",
+      "/images/macau-double-prestige-incheon/hotel-8.jpg",
+      "/images/macau-double-prestige-incheon/hotel-9.jpg"
+    ],
+    "courseImages": [
+      "/images/macau-double-prestige-incheon/course-1.jpg",
+      "/images/macau-double-prestige-incheon/course-2.jpg",
+      "/images/macau-double-prestige-incheon/course-3.jpg",
+      "/images/macau-double-prestige-incheon/course-4.jpg",
+      "/images/macau-double-prestige-incheon/course-5.jpg",
+      "/images/macau-double-prestige-incheon/course-6.jpg",
+      "/images/macau-double-prestige-incheon/course-7.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-11-06",
+    "seoIntro": "인천 출발 마카오 골프여행으로, 에어마카오 직항과 그랜드 리스보아 팰리스, MG CC·MIG CC 36홀을 묶은 2박3일 골프패키지입니다.",
+    "seoKeywords": [
+      "마카오골프",
+      "마카오골프여행",
+      "마카오 골프&컨트리클럽",
+      "MG CC",
+      "MIG CC",
+      "그랜드 리스보아 팰리스",
+      "인천출발"
+    ]
+  },
+  {
+    "id": "china-xiamen-nantaiwu-cheonju-2color-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "샤먼",
+    "title": "[인천출발] 중국 샤먼 골프여행 남태무·천주CC 2색 3박4일 54홀 이스타항공 직항 IHG 화이호텔 899,000원부터",
+    "displayTitle": "남태무·천주CC 2색 IHG 화이호텔 골프여행",
+    "subtitle": "남태무CC 36홀 + 천주CC 18홀 · IHG 화이호텔 5성 · 이스타항공 직항 · 11~12월 지정일 4개 날짜",
+    "nights": 3,
+    "days": 4,
+    "courses": 2,
+    "roundsIncluded": 3,
+    "holes": "18홀 x 3회 (총 54홀)\n남태무CC 36홀 · 천주CC 18홀",
+    "period": "2026년 11월 18·19·25일, 12월 2일 출발",
+    "hotel": "IHG 화이호텔 (2인 1실)",
+    "hotelDesc": "샤먼 IHG 화이호텔(HUALUXE Xiamen Haicang Harbour View) 5성급에 3박 모두 2인 1실로 묵으며, 일정상 조식과 석식이 포함됩니다.",
+    "golfCourse": "남태무CC · 천주CC",
+    "golfCourseDesc": "샤먼 도착 당일과 셋째 날은 남태무CC에서 18홀씩 36홀을, 둘째 날은 천주CC에서 18홀을 라운딩해 3박4일 동안 총 54홀을 라운딩합니다.",
+    "productSummary": "인천에서 이스타항공 직항으로 샤먼에 가서 남태무CC 36홀과 천주CC 18홀을 라운딩하는 3박4일 54홀 2색 상품입니다.\nIHG 화이호텔 2인 1실에 조식·석식과 그린피가 포함되고, 11월 18·25일과 12월 2일 출발은 899,000원, 11월 19일 출발은 999,000원입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 샤먼 · 남태무CC 18홀",
+        "desc": "인천국제공항 출발(ZE891, 08:50) → 샤먼 국제공항 도착(11:10) → 골프장 이동 → 남태무CC 18홀 라운드 → 석식 후 호텔 체크인 및 휴식 [중식 불포함 / 석식 포함, 숙소: IHG 화이호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "천주CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 천주CC 18홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "남태무CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 남태무CC 18홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "샤먼 → 인천",
+        "desc": "호텔 조식 후 공항 이동 → 샤먼 국제공항 출발(ZE892, 12:10) → 인천국제공항 도착(16:10) 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "11~12월 지정일 899,000원부터",
+      "남태무CC 36홀 + 천주CC 18홀 · 3박4일 54홀",
+      "IHG 화이호텔 5성 3박 · 조식·석식 포함",
+      "이스타항공 인천↔샤먼 직항"
+    ],
+    "includes": [
+      "이스타항공 왕복 항공권",
+      "IHG 화이호텔 3박 (2인 1실)",
+      "남태무CC 36홀 + 천주CC 18홀 그린피",
+      "일정상 조식 · 석식",
+      "여행자보험"
+    ],
+    "excludes": [
+      "미팅·샌딩비 (1인 400위안)",
+      "카트비+캐디피 (1인 18홀 400위안, 54홀 1,200위안)",
+      "캐디팁 별도 (1인 150위안 기준)",
+      "라운드일 중식 (1인 100위안)"
+    ],
+    "cancelPolicy": [
+      "싱글룸 1인 1박 70,000원, 싱글카트 18홀 1대 100위안",
+      "지정일 특가로 좌석이 소진되면 마감될 수 있습니다.",
+      "예약 가능 여부 확인 후 최종 확정됩니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-18",
+        "price": 899000
+      },
+      {
+        "date": "2026-11-19",
+        "price": 999000
+      },
+      {
+        "date": "2026-11-25",
+        "price": 899000
+      },
+      {
+        "date": "2026-12-02",
+        "price": 899000
+      }
+    ],
+    "price": "899,000원~",
+    "image": "/images/china-xiamen-2color-huayi-incheon/course-1.jpg",
+    "images": [
+      "/images/china-xiamen-2color-huayi-incheon/course-1.jpg",
+      "/images/china-xiamen-2color-huayi-incheon/course-2.jpg",
+      "/images/china-xiamen-landin-3color/hotel-6.jpg",
+      "/images/china-xiamen-2color-huayi-incheon/course-3.jpg",
+      "/images/china-xiamen-landin-3color/hotel-1.jpg",
+      "/images/china-xiamen-2color-huayi-incheon/course-4.jpg",
+      "/images/china-xiamen-landin-3color/hotel-2.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-xiamen-landin-3color/hotel-6.jpg",
+      "/images/china-xiamen-landin-3color/hotel-1.jpg",
+      "/images/china-xiamen-landin-3color/hotel-2.jpg",
+      "/images/china-xiamen-landin-3color/hotel-3.jpg",
+      "/images/china-xiamen-landin-3color/hotel-4.jpg",
+      "/images/china-xiamen-landin-3color/hotel-5.jpg"
+    ],
+    "courseImages": [
+      "/images/china-xiamen-2color-huayi-incheon/course-1.jpg",
+      "/images/china-xiamen-2color-huayi-incheon/course-2.jpg",
+      "/images/china-xiamen-2color-huayi-incheon/course-3.jpg",
+      "/images/china-xiamen-2color-huayi-incheon/course-4.jpg",
+      "/images/china-xiamen-2color-huayi-incheon/course-5.jpg",
+      "/images/china-xiamen-2color-huayi-incheon/course-6.jpg",
+      "/images/china-xiamen-2color-huayi-incheon/course-7.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-11-06",
+    "seoIntro": "인천 출발 중국 샤먼 골프여행으로, 이스타항공 직항과 IHG 화이호텔, 남태무CC·천주CC 2색 54홀을 묶은 3박4일 골프패키지입니다.",
+    "seoKeywords": [
+      "샤먼골프",
+      "하문골프",
+      "샤먼골프여행",
+      "남태무CC",
+      "천주CC",
+      "IHG 화이호텔",
+      "인천출발"
+    ]
+  },
+  {
+    "id": "japan-takamatsu-grandee-naruto-busan",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "다카마쓰",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "title": "[부산출발] 일본 다카마쓰 골프여행 그란디 나루토 36홀 리조트 2박3일·3박4일·4박5일 에어부산 직항 1,249,000원부터",
+    "displayTitle": "그란디 나루토 골프&리조트 골프여행",
+    "subtitle": "JLPGA 대회 코스 그란디 나루토 GC 36 · 코스 옆 그란디 나루토 더 롯지 · 조식·석식·스파 포함 · 에어부산 직항",
+    "nights": 2,
+    "days": 3,
+    "courses": 1,
+    "roundsIncluded": "2~4회",
+    "holes": "2박3일 36홀\n3박4일 54홀\n4박5일 72홀",
+    "minPeople": "2인부터 출발 (4인 기준, 2·3인은 송영 추가요금)",
+    "period": "2026년 12월 ~ 2027년 3월 (월·목·토 출발, 12/28~1/2와 설 연휴 제외)",
+    "holePriceTiers": [
+      {
+        "label": "2박3일",
+        "holes": 36,
+        "pattern": "목·토 출발 · 36홀",
+        "price": 1249000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "label": "3박4일",
+        "holes": 54,
+        "pattern": "월 출발 · 54홀",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "label": "4박5일",
+        "holes": 72,
+        "pattern": "목 출발 · 72홀",
+        "price": 1999000,
+        "nights": 4,
+        "days": 5
+      }
+    ],
+    "holePriceDepartureDate": null,
+    "hotel": "그란디 나루토 더 롯지 (2인 1실)",
+    "hotelDesc": "골프장 안에 있는 숙소로, 지하 1층에서 바로 코스로 나갈 수 있습니다. 앞으로는 세토내해와 섬들이, 뒤로는 36홀 코스가 펼쳐지고 대욕장과 레스토랑을 갖췄습니다. 조식은 뷔페, 석식은 가이세키 정식·이탈리안 정식·중식 중 현지 식당 상황에 맞춰 예약해 드립니다.",
+    "golfCourse": "그란디 나루토 골프클럽 36",
+    "golfCourseDesc": "그란디 나루토 골프클럽 36은 도쿠시마현 나루토시의 EAST·WEST 36홀 코스로, 2025년 JLPGA 투어 리조트트러스트 레이디스가 열렸습니다. 세토내해의 경관을 살린 넓은 레이아웃에 연못과 녹색 숲이 어우러지고, 숙소에서 걸어서 코스로 나갑니다.",
+    "productSummary": "에어부산 직항으로 다카마쓰에 내려 나루토의 그란디 나루토 골프&리조트에 묵으며 36홀 코스를 라운딩하는 상품입니다.\n목·토 출발 2박3일 36홀, 월 출발 3박4일 54홀, 목 출발 4박5일 72홀 중 고를 수 있고 조식·석식과 스파가 포함됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 다카마쓰 → 나루토",
+        "desc": "김해국제공항 출발(에어부산 BX9713, 16:00) → 다카마쓰 공항 도착(17:20) → 현지 직원 미팅 후 송영차량으로 리조트 이동 → 체크인 → 아로마 하우스 스파 → 석식(이탈리안·중식·일식 중 선택) 후 자유시간 [석식 호텔식, 숙소: 그란디 나루토 더 롯지]"
+      },
+      {
+        "day": "체류일",
+        "label": "그란디 나루토 18홀",
+        "desc": "리조트 조식 후 골프장으로 도보 이동 → 그란디 나루토 동코스 또는 서코스 18홀 라운드 → 리조트 휴식, 아로마 하우스 스파 → 석식 후 자유시간 [조식 뷔페 / 중식 불포함 / 석식 호텔식]\n※ 2박3일은 2일차, 3박4일은 2~3일차, 4박5일은 2~4일차가 체류일입니다."
+      },
+      {
+        "day": "마지막 날",
+        "label": "18홀 → 부산",
+        "desc": "호텔 조식 후 체크아웃 → 골프장으로 도보 이동 → 그란디 나루토 동코스 또는 서코스 18홀 라운드(스루 플레이로 귀국 항공 시간에 맞춰 진행) → 리조트 휴식 → 송영차량으로 다카마쓰 공항 이동(15:30 출발) → 다카마쓰 공항 출발(BX9714, 18:20) → 김해국제공항 도착(19:30) [조식 뷔페 / 중식 불포함]"
+      }
+    ],
+    "highlights": [
+      "2025년 JLPGA 대회 코스 36홀",
+      "코스 바로 옆 그란디 나루토 더 롯지 숙박",
+      "조식·석식·스파·송영 포함",
+      "2박3일 1,249,000원부터 · 3박4일 1,599,000원부터 · 4박5일 1,999,000원부터",
+      "에어부산 김해-다카마쓰 직항 · 월·목·토 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (에어부산), 유류할증료·TAX",
+      "그란디 나루토 더 롯지 (2인 1실)",
+      "호텔 조식(뷔페) · 석식",
+      "공항-리조트 송영",
+      "그린피 · 전동카트비 (4BAG 기준)",
+      "아로마 하우스 스파",
+      "여행자보험"
+    ],
+    "excludes": [
+      "라운드 시 중식",
+      "싱글룸 1인 1박 5만원",
+      "2인 출발 송영비 1인 4만원 · 3인 출발 1인 2만원",
+      "2인 라운드 전동카트 추가요금 1일 1인 주중 3.5만원 · 주말 4.5만원",
+      "9홀 추가 주중 5.5만원 · 주말 7.5만원 (사전 예약)"
+    ],
+    "cancelPolicy": [
+      "1/9, 1/11, 2/22, 3/18, 3/20, 3/22 출발은 일본 휴일로 1인 10만원이 더해진 요금입니다.",
+      "12/24 출발 2박3일은 1,349,000원, 4박5일은 2,099,000원입니다.",
+      "연말연시 12/28~1/2 출발과, 여행 기간이 설 연휴(2/6~2/9)에 걸치는 출발은 별도 문의입니다.",
+      "에어부산 무료 위탁수하물 15KG + 5KG 추가 제공",
+      "석식은 현지 식당 상황에 따라 장소가 변경될 수 있고, 예약 시점 현지 호텔·골프장 상황에 따라 요금이 변경될 수 있습니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변동될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-03",
+        "price": 1249000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1999000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1249000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1999000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1249000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1999000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1349000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-24",
+        "price": 2099000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-07",
+        "price": 2049000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1449000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1699000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-14",
+        "price": 2049000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1349000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-21",
+        "price": 2049000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1349000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-28",
+        "price": 2049000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1349000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-02-11",
+        "price": 2049000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1349000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-02-18",
+        "price": 2049000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1349000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1699000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-02-25",
+        "price": 2049000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1349000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-01",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-04",
+        "price": 2049000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1349000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-08",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-11",
+        "price": 2049000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1349000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-15",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1399000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-18",
+        "price": 2149000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1449000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-22",
+        "price": 1699000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-25",
+        "price": 1299000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-25",
+        "price": 2049000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-27",
+        "price": 1349000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-29",
+        "price": 1599000,
+        "nights": 3,
+        "days": 4
+      }
+    ],
+    "price": "1,249,000원~",
+    "image": "/images/japan-takamatsu-grandee-naruto-busan/course-1.jpg",
+    "images": [
+      "/images/japan-takamatsu-grandee-naruto-busan/course-1.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-2.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-1.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-3.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-2.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-4.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-1.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-2.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-3.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-4.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-5.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-6.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-7.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-8.jpg"
+    ],
+    "courseImages": [
+      "/images/japan-takamatsu-grandee-naruto-busan/course-1.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-2.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-3.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-4.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-5.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-6.jpg"
+    ],
+    "priceUpdatedDate": "2026-11-06",
+    "seoIntro": "부산 출발 다카마쓰 골프여행으로, JLPGA 대회가 열린 그란디 나루토 36홀 코스와 코스 옆 리조트를 묶은 에어부산 직항 2박3일·3박4일·4박5일 골프패키지입니다.",
+    "seoKeywords": [
+      "다카마쓰골프",
+      "다카마쓰골프여행",
+      "그란디나루토",
+      "그란디나루토골프",
+      "일본골프여행",
+      "부산출발"
+    ]
+  },
+  {
+    "id": "japan-takamatsu-shinkabakawa-3color-busan",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "다카마쓰",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "title": "[부산출발] 일본 다카마쓰 골프여행 신카바카와 온천호텔 3색 2박3일·3박4일·4박5일 에어부산 직항 1,099,000원부터",
+    "displayTitle": "신카바카와 온천호텔 3색 골프여행",
+    "subtitle": "골드·로얄·그랜드·다카가와 니시 도쿠시마CC 등 하루 1곳 · 시오노에 천연 온천 호텔 · 조식·가이세키 석식 포함 · 에어부산 직항",
+    "nights": 2,
+    "days": 3,
+    "courses": 3,
+    "roundsIncluded": "2~4회",
+    "holes": "2박3일 36홀\n3박4일 54홀\n4박5일 72홀\n골드·로얄·그랜드·다카가와 니시 도쿠시마CC 등 하루 1곳",
+    "minPeople": "4인 이상 출발 기준 (2·3인 라운드는 18홀당 추가요금)",
+    "period": "2026년 12월 ~ 2027년 3월 (월·목·토 출발, 12/28~1/2와 2/1~2/11 제외)",
+    "holePriceTiers": [
+      {
+        "label": "2박3일",
+        "holes": 36,
+        "pattern": "목·토 출발 · 36홀",
+        "price": 1099000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "label": "3박4일",
+        "holes": 54,
+        "pattern": "월 출발 · 54홀",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "label": "4박5일",
+        "holes": 72,
+        "pattern": "목 출발 · 72홀",
+        "price": 1599000,
+        "nights": 4,
+        "days": 5
+      }
+    ],
+    "holePriceDepartureDate": null,
+    "hotel": "신카바카와 호텔 (2인 1실, 화실 또는 양실 랜덤 배정)",
+    "hotelDesc": "1200년 역사의 시오노에 온천 마을에 있는 일본식 온천 호텔로, 다카마쓰 공항에서 차로 약 30분입니다. 천연 온천탕과 대욕장에서 라운드 후 쉬실 수 있고, 조식은 뷔페, 석식은 일정식 가이세키로 드립니다. 객실은 화실 또는 양실로 랜덤 배정됩니다.",
+    "golfCourse": "다카마쓰 골드CC · 로얄 다카마쓰CC · 다카마쓰 그랜드CC · 다카가와 니시 도쿠시마CC 등",
+    "golfCourseDesc": "아일랜드 그린의 18번 홀이 포인트인 다카마쓰 골드CC(18홀), 소나무와 구릉이 어우러진 로얄 다카마쓰CC(18홀), 사누키 평야 가운데 넓게 자리한 다카마쓰 그랜드CC(36홀), 다카가와 니시 도쿠시마CC 등에서 하루 1곳을 라운딩합니다. 표시된 골프장은 현지 사정에 따라 동급의 다른 골프장으로 변경될 수 있습니다.",
+    "productSummary": "에어부산 직항으로 다카마쓰에 가서 시오노에 온천의 신카바카와 호텔에 묵으며 다카마쓰 골프장을 하루 1곳씩 라운딩하는 3색 상품입니다.\n목·토 출발 2박3일 36홀, 월 출발 3박4일 54홀, 목 출발 4박5일 72홀 중 고를 수 있고 조식·가이세키 석식과 온천 입욕이 포함됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 다카마쓰",
+        "desc": "김해국제공항 출발(에어부산 BX9713, 16:00) → 다카마쓰 공항 도착(17:20) → 현지 직원 미팅 후 송영차량으로 호텔 이동(약 30분) → 체크인, 천연 온천 → 석식 후 휴식 [석식 호텔식, 숙소: 신카바카와 호텔]"
+      },
+      {
+        "day": "체류일",
+        "label": "18홀 라운드",
+        "desc": "호텔 조식 후 골프장 이동(약 15~30분) → 골드·로얄·그랜드·다카가와 니시 도쿠시마CC 중 1곳 18홀 라운드 → 호텔 이동, 온천욕 → 가이세키 석식 후 휴식 [조식 호텔식 / 중식 불포함 / 석식 호텔식]\n※ 2박3일은 2일차, 3박4일은 2~3일차, 4박5일은 2~4일차가 체류일입니다."
+      },
+      {
+        "day": "마지막 날",
+        "label": "18홀 → 부산",
+        "desc": "호텔 조식 후 체크아웃 → 골프장 이동(약 15~30분) → 골드·로얄·그랜드·다카가와 니시 도쿠시마CC 중 1곳 18홀 라운드(스루 플레이로 귀국 항공 시간에 맞춰 진행) → 다카마쓰 공항 이동(15:30) → 다카마쓰 공항 출발(BX9714, 18:20) → 김해국제공항 도착(19:30) [조식 호텔식 / 중식 불포함]"
+      }
+    ],
+    "highlights": [
+      "1200년 역사 시오노에 천연 온천 호텔",
+      "다카마쓰 골프장 하루 1곳 3색 라운딩",
+      "조식·가이세키 석식·온천 입욕·송영 포함",
+      "2박3일 1,099,000원부터 · 3박4일 1,249,000원부터 · 4박5일 1,599,000원부터",
+      "에어부산 김해-다카마쓰 직항 · 월·목·토 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (에어부산), 유류할증료·TAX",
+      "신카바카와 호텔 (2인 1실)",
+      "호텔 조식 · 일정식(가이세키) 석식",
+      "공항-호텔-골프장 송영",
+      "그린피 · 전동카트비 (4BAG 기준)",
+      "온천 입욕료",
+      "여행자보험"
+    ],
+    "excludes": [
+      "라운드 시 중식",
+      "싱글룸 1인 1박 4.5만원",
+      "2인 라운드 18홀 1인 3만원 · 3인 라운드 18홀 1인 1.5만원 추가",
+      "9홀 추가 주중 3.5만원 (사전 예약, 주말·공휴일 불가)"
+    ],
+    "cancelPolicy": [
+      "1/9, 1/11, 2/22, 3/18, 3/20, 3/22 출발은 일본 휴일로 1인 7만원이 더해진 요금입니다.",
+      "12/24 출발 2박3일 1,199,000원·4박5일 1,699,000원, 12/26 출발 2박3일 1,199,000원입니다.",
+      "연말연시(12/28~1/2) 출발은 별도 문의이고, 2월 1일~11일 출발은 호텔 보수 공사로 예약할 수 없습니다.",
+      "객실은 화실 또는 양실로 랜덤 배정되며 선택할 수 없습니다.",
+      "셀프 플레이 기준이고, 티오프 시간은 미정이며 현지 사정에 따라 동급의 다른 골프장으로 변경될 수 있습니다.",
+      "에어부산 무료 위탁수하물 15KG + 5KG 추가 제공",
+      "예약 시점 현지 호텔 상황에 따라 요금이 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-03",
+        "price": 1099000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1599000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1149000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1099000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1599000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1149000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1099000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1599000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1149000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1199000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1699000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1199000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1149000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1649000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1269000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1319000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1149000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1649000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1199000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1149000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1649000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1199000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1149000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1649000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1199000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1199000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1149000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1649000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1199000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1319000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1149000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1649000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1199000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-01",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1099000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1599000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1149000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-08",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1099000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1599000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1149000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-15",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1169000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1669000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1219000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-22",
+        "price": 1319000,
+        "nights": 3,
+        "days": 4
+      },
+      {
+        "date": "2027-03-25",
+        "price": 1099000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-25",
+        "price": 1599000,
+        "nights": 4,
+        "days": 5
+      },
+      {
+        "date": "2027-03-27",
+        "price": 1149000,
+        "nights": 2,
+        "days": 3
+      },
+      {
+        "date": "2027-03-29",
+        "price": 1249000,
+        "nights": 3,
+        "days": 4
+      }
+    ],
+    "price": "1,099,000원~",
+    "image": "/images/takamatsu-city-3color-incheon/course-3.jpg",
+    "images": [
+      "/images/takamatsu-city-3color-incheon/course-3.jpg",
+      "/images/takamatsu-city-3color-incheon/course-1.jpg",
+      "/images/japan-takamatsu-shinkabakawa-busan/hotel-1.jpg",
+      "/images/takamatsu-city-3color-incheon/course-4.jpg",
+      "/images/japan-takamatsu-shinkabakawa-busan/hotel-2.jpg",
+      "/images/takamatsu-city-3color-incheon/course-6.jpg",
+      "/images/japan-takamatsu-shinkabakawa-busan/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/japan-takamatsu-shinkabakawa-busan/hotel-1.jpg",
+      "/images/japan-takamatsu-shinkabakawa-busan/hotel-2.jpg",
+      "/images/japan-takamatsu-shinkabakawa-busan/hotel-3.jpg",
+      "/images/japan-takamatsu-shinkabakawa-busan/hotel-4.jpg",
+      "/images/japan-takamatsu-shinkabakawa-busan/hotel-5.jpg"
+    ],
+    "courseImages": [
+      "/images/takamatsu-city-3color-incheon/course-3.jpg",
+      "/images/takamatsu-city-3color-incheon/course-1.jpg",
+      "/images/takamatsu-city-3color-incheon/course-4.jpg",
+      "/images/takamatsu-city-3color-incheon/course-6.jpg",
+      "/images/takamatsu-city-3color-incheon/course-7.jpg"
+    ],
+    "priceUpdatedDate": "2026-11-06",
+    "seoIntro": "부산 출발 다카마쓰 골프여행으로, 시오노에 천연 온천의 신카바카와 호텔에 머물며 다카마쓰 골프장을 라운딩하는 에어부산 직항 2박3일·3박4일·4박5일 3색 골프패키지입니다.",
+    "seoKeywords": [
+      "다카마쓰골프",
+      "다카마쓰골프여행",
+      "다카마쓰온천골프",
+      "신카바카와호텔",
+      "다카마쓰골드CC",
+      "로얄다카마쓰CC",
+      "일본골프여행",
+      "부산출발"
     ]
   }
 ]

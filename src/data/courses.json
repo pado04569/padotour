@@ -10135,5 +10135,140 @@
     "relatedTourIds": [
       "thailand-bangkok-artitaya-unlimited-busan"
     ]
+  },
+  {
+    "slug": "macau-golf-country-club",
+    "name": "마카오 골프&컨트리클럽",
+    "nameEn": "Macau Golf & Country Club",
+    "region": "마카오",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "MG CC",
+      "MGCC",
+      "마카오골프앤컨트리클럽"
+    ],
+    "summary": "콜로안 해안의 18홀 파71 회원제 코스, 마카오 오픈 개최지",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파71"
+      },
+      {
+        "label": "전장",
+        "value": "6,624야드 (백티 기준)"
+      },
+      {
+        "label": "개장",
+        "value": "1993년"
+      },
+      {
+        "label": "소재지",
+        "value": "마카오 콜로안섬"
+      }
+    ],
+    "description": "마카오 골프&컨트리클럽은 마카오 콜로안섬 해안에 1993년 문을 연 18홀 파71 회원제 코스입니다. 아시안투어 마카오 오픈이 열리는 곳으로, 바다와 언덕을 함께 끼고 라운딩합니다.\n\n여행의파도 마카오 2박3일 상품에서는 주중 출발은 첫날 오후에 18홀을 라운딩합니다. 주중에만 라운드할 수 있어 주말에는 마카오 인터내셔널 골프클럽으로 진행하며, 2인 1캐디 캐디피와 팁은 현지에서 결제합니다.",
+    "images": [
+      "/images/macau-double-prestige-incheon/course-2.jpg",
+      "/images/macau-double-prestige-incheon/course-4.jpg",
+      "/images/macau-double-prestige-incheon/course-6.jpg",
+      "/images/macau-double-prestige-incheon/course-7.jpg"
+    ],
+    "hashtags": [
+      "마카오골프",
+      "MGCC",
+      "마카오골프여행",
+      "마카오오픈",
+      "콜로안골프"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "macau-international-golf",
+    "name": "마카오 인터내셔널 골프클럽",
+    "nameEn": "Macau International Golf",
+    "region": "마카오",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "MIG CC",
+      "MIGCC",
+      "마카오 인터내셔널 골프"
+    ],
+    "summary": "코타이 중심의 18홀 파71 파크랜드 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파71"
+      },
+      {
+        "label": "소재지",
+        "value": "마카오 코타이"
+      }
+    ],
+    "description": "마카오 인터내셔널 골프클럽은 호텔과 리조트가 모여 있는 코타이 중심에 있는 18홀 파71 파크랜드 코스입니다. 페어웨이가 탁 트여 있고 코타이 스카이라인을 바라보며 라운딩합니다.\n\n여행의파도 마카오 2박3일 상품에서는 귀국일 오전에 18홀을 라운딩하고 공항으로 이동합니다. 카트가 페어웨이로 들어갈 수 있어 편하게 라운딩하실 수 있습니다.",
+    "images": [
+      "/images/macau-double-prestige-incheon/course-1.jpg",
+      "/images/macau-double-prestige-incheon/course-3.jpg",
+      "/images/macau-double-prestige-incheon/course-5.jpg"
+    ],
+    "hashtags": [
+      "마카오골프",
+      "MIGCC",
+      "마카오골프여행",
+      "코타이골프"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "grandee-naruto-golf-club-36",
+    "name": "그란디 나루토 골프클럽 36",
+    "nameEn": "Grandee Naruto Golf Club 36 (グランディ鳴門ゴルフクラブ36)",
+    "region": "다카마쓰",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "그란디 나루토",
+      "그란디나루토"
+    ],
+    "summary": "도쿠시마현 나루토의 36홀 파144 코스, 2025년 JLPGA 투어 개최지",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "EAST 18홀 · WEST 18홀 (총 36홀)"
+      },
+      {
+        "label": "파",
+        "value": "파144 (36홀 합계)"
+      },
+      {
+        "label": "개장",
+        "value": "1993년"
+      },
+      {
+        "label": "설계",
+        "value": "가토 후쿠이치"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 도쿠시마현 나루토시"
+      }
+    ],
+    "description": "그란디 나루토 골프클럽 36은 도쿠시마현 나루토시에 1993년 문을 연 EAST·WEST 36홀 파144 구릉 코스입니다. 설계는 가토 후쿠이치이고, 2025년 JLPGA 투어 리조트트러스트 레이디스가 열렸습니다.\n\n세토내해의 경관을 살린 넓은 레이아웃에 연못과 숲이 어우러지며, 코스 옆 숙소 그란디 나루토 더 롯지에서 걸어서 코스로 나갑니다.\n\n여행의파도 부산 출발 상품에서는 다카마쓰 공항으로 들어가 2박3일 36홀부터 4박5일 72홀까지 라운딩합니다.",
+    "images": [
+      "/images/japan-takamatsu-grandee-naruto-busan/course-1.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-2.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-3.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-4.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-5.jpg"
+    ],
+    "hashtags": [
+      "그란디나루토",
+      "다카마쓰골프",
+      "나루토골프",
+      "도쿠시마골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": []
   }
 ]
