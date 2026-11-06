@@ -55,7 +55,8 @@ export default function TourGallery({ images, alt }: { images: string[]; alt: st
 
       {full && (
         <div role="dialog" aria-modal="true" aria-label="사진 크게 보기" className="fixed inset-0 z-[70] bg-black/90 flex items-center justify-center" onClick={() => setFull(false)}>
-          <div className="relative w-full h-full max-w-5xl max-h-[86vh] m-4" onClick={(e) => e.stopPropagation()}>
+          {/* 사진을 눌러도 반응 없던 배달못한클릭(클래리티 11/6 나트랑 등) — 여러 장이면 다음 사진, 한 장이면 닫기 */}
+          <div className={`relative w-full h-full max-w-5xl max-h-[86vh] m-4 ${list.length > 1 ? "cursor-pointer" : ""}`} onClick={(e) => { if (list.length > 1) { e.stopPropagation(); move(1); } }}>
             <Image src={list[idx]} alt={`${alt} 사진 ${idx + 1}`} fill sizes="100vw" className="object-contain" />
           </div>
           <button type="button" onClick={() => setFull(false)} aria-label="닫기" className="absolute top-4 right-4 w-11 h-11 rounded-full bg-white/15 hover:bg-white/25 text-white text-xl font-bold">✕</button>
