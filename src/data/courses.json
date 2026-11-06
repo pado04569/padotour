@@ -10452,5 +10452,637 @@
     "relatedTourIds": [
       "malaysia-kualalumpur-impian-incheon"
     ]
+  },
+  {
+    "slug": "batam-hills-gc",
+    "name": "바탐힐CC",
+    "nameEn": "Batam Hills Golf Resort",
+    "region": "바탐",
+    "country": "인도네시아",
+    "countryCode": "indonesia",
+    "aliases": [
+      "바탐힐",
+      "바탐 힐",
+      "Batam Hills",
+      "Batam Hill"
+    ],
+    "summary": "바탐 세쿠팡의 18홀 파72 · 6,225m 리조트 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "6,225m (블루 티)"
+      },
+      {
+        "label": "설계",
+        "value": "맥스 웩슬러 (Max Wexler)"
+      },
+      {
+        "label": "소재지",
+        "value": "인도네시아 바탐 세쿠팡 탄중 웅창"
+      }
+    ],
+    "description": "바탐힐CC는 바탐 서쪽 세쿠팡 지역에 있는 18홀 파72 코스로, 정식 이름은 바탐 힐스 골프 리조트입니다. 호주 설계가 맥스 웩슬러가 설계했고, 블루 티 기준 전장은 6,225m입니다.\n\n버뮤다 그린과 세랑군 페어웨이로 관리하며, 클럽하우스에 레스토랑과 스파를 함께 갖추고 있습니다.\n\n여행의파도 바탐 4색·6개 골프장 무제한 상품에 포함된 골프장으로, 하루 한 곳에서 원하는 만큼 라운딩할 수 있습니다.",
+    "images": [
+      "/images/courses-1106b/batam-hills-gc/course-1.jpg",
+      "/images/courses-1106b/batam-hills-gc/course-3.jpg",
+      "/images/courses-1106b/batam-hills-gc/course-4.jpg",
+      "/images/courses-1106b/batam-hills-gc/course-2.jpg"
+    ],
+    "hashtags": [
+      "바탐힐CC",
+      "바탐골프장",
+      "바탐힐스",
+      "바탐골프여행",
+      "인도네시아골프여행",
+      "바탐무제한골프"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "heron-lake-gc",
+    "name": "헤론레이크CC",
+    "nameEn": "Heron Lake Golf Course & Resort",
+    "region": "하노이",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "aliases": [
+      "헤론레이크",
+      "헤론 레이크",
+      "Heron Lake"
+    ],
+    "summary": "옛 빈푹성 빈옌의 호수 코스, 18홀 파72 · 2010년 정식 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "설계",
+        "value": "퍼시픽 코스트 디자인 (Pacific Coast Design)"
+      },
+      {
+        "label": "개장",
+        "value": "2010년 (정식 개장)"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 푸토성 (옛 빈푹성 빈옌, 하노이 북서쪽)"
+      }
+    ],
+    "description": "헤론레이크CC는 하노이 북서쪽 옛 빈푹성 빈옌 지역(현재 푸토성)에 있는 18홀 파72 코스로, 퍼시픽 코스트 디자인이 설계해 2010년 정식 개장했습니다.\n\n담박 호수와 이어진 코스로, 물과 나무를 함께 살피며 라운딩하게 됩니다.\n\n여행의파도 하노이 빈옌·빈푹 3색 상품에서 땀다오CC·다이라이CC 등과 함께 하루 한 곳씩 배정되는 골프장입니다. 모데나 호텔에서 가까운 편이라 이동 부담이 적습니다.",
+    "images": [
+      "/images/courses-1106b/heron-lake-gc/course-1.jpg",
+      "/images/courses-1106b/heron-lake-gc/course-2.jpg",
+      "/images/courses-1106b/heron-lake-gc/course-3.jpg",
+      "/images/courses-1106b/heron-lake-gc/course-4.jpg",
+      "/images/courses-1106b/heron-lake-gc/course-5.jpg",
+      "/images/courses-1106b/heron-lake-gc/course-6.jpg"
+    ],
+    "hashtags": [
+      "헤론레이크CC",
+      "하노이골프장",
+      "빈푹골프",
+      "빈옌골프",
+      "하노이골프여행",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "indah-puri-gc",
+    "name": "인다푸리CC",
+    "nameEn": "Indah Puri Golf Resort",
+    "region": "바탐",
+    "country": "인도네시아",
+    "countryCode": "indonesia",
+    "aliases": [
+      "인다푸리",
+      "인다 푸리",
+      "Indah Puri"
+    ],
+    "summary": "바탐 세쿠팡 해안의 18홀 파72 리조트 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "소재지",
+        "value": "인도네시아 바탐 세쿠팡"
+      }
+    ],
+    "description": "인다푸리CC는 바탐 서쪽 세쿠팡에 있는 18홀 파72 코스로, 정식 이름은 인다푸리 골프 리조트입니다.\n\n해안을 끼고 있는 코스라 물과 바다 풍경을 함께 보며 라운딩할 수 있습니다.\n\n여행의파도 바탐 4색·6개 골프장 무제한 상품에 포함된 골프장으로, 하루 한 곳에서 원하는 만큼 라운딩할 수 있습니다.",
+    "images": [
+      "/images/courses-1106b/indah-puri-gc/course-1.jpg",
+      "/images/courses-1106b/indah-puri-gc/course-2.jpg",
+      "/images/courses-1106b/indah-puri-gc/course-3.jpg",
+      "/images/courses-1106b/indah-puri-gc/course-4.jpg"
+    ],
+    "hashtags": [
+      "인다푸리CC",
+      "바탐골프장",
+      "바탐골프여행",
+      "인도네시아골프여행",
+      "바탐무제한골프"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "kn-golf-links",
+    "name": "KN 골프링크스",
+    "nameEn": "KN Golf Links Cam Ranh",
+    "region": "나트랑",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "aliases": [
+      "KN골프링크스",
+      "KN 골프링크스 깜란",
+      "KN CC",
+      "KNCC",
+      "KN Golf Links",
+      "KN링크스"
+    ],
+    "summary": "그렉 노먼이 설계한 깜란 해안의 링크스, 2018년 개장 · 현재 27홀",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (링크스코스 18홀 · 오아시스코스 9홀)"
+      },
+      {
+        "label": "설계",
+        "value": "그렉 노먼"
+      },
+      {
+        "label": "개장",
+        "value": "2018년 10월 (오아시스코스 2019년 4월)"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 칸호아성 깜란"
+      }
+    ],
+    "description": "KN 골프링크스는 베트남 깜란 해안에 2018년 10월 문을 연 골프장으로, 2019년 오아시스코스 9홀이 더해져 지금은 27홀입니다. 그렉 노먼이 설계했습니다.\n\n모래 언덕과 바다를 따라 페어웨이가 이어지는 링크스 코스라 나무가 적고 시야가 탁 트여 있습니다. 바닷바람의 세기에 따라 같은 홀도 공략이 크게 달라집니다.\n\n여행의파도 나트랑 상품에서는 빈펄·다이아몬드베이와 묶은 3색 일정이나, KN에서 이틀 라운딩하는 일정으로 만나실 수 있습니다. 3색 일정의 골프장은 미리 지정할 수 없고 현지에서 배정됩니다.",
+    "images": [
+      "/images/courses-1106b/kn-golf-links/course-1.jpg",
+      "/images/courses-1106b/kn-golf-links/course-2.jpg",
+      "/images/courses-1106b/kn-golf-links/course-3.jpg",
+      "/images/courses-1106b/kn-golf-links/course-4.jpg",
+      "/images/courses-1106b/kn-golf-links/course-5.jpg"
+    ],
+    "hashtags": [
+      "KN골프링크스",
+      "KNCC",
+      "나트랑골프장",
+      "깜란골프",
+      "그렉노먼",
+      "나트랑골프여행",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "nanshan-buddha-gc",
+    "name": "불광CC",
+    "nameEn": "Nanshan Buddhist Golf Course (佛光高尔夫球场)",
+    "region": "연태",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "불광 CC",
+      "불광골프장"
+    ],
+    "summary": "룽커우 남산대불을 바라보는 산악 코스, 18홀 파72 · 7,194야드",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "7,194야드"
+      },
+      {
+        "label": "코스 특징",
+        "value": "산악 코스, 남산대불 조망"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 산둥성 연태시 룽커우 남산"
+      }
+    ],
+    "description": "불광CC는 연태시 룽커우 남산의 언덕에 있는 18홀 파72 · 7,194야드의 산악형 코스입니다. 이름처럼 남산대불 가까이에 있어 여러 홀에서 대불을 바라보며 티샷하게 됩니다.\n\n호수와 고목 숲, 기존 산세를 그대로 살려 페어웨이가 산과 계곡 사이를 굽이치고, 오르내림이 있어 난도가 높은 편입니다. 상급 골퍼에게 재미있는 코스입니다.\n\n여행의파도 연태 상품에서는 단령CC·남산국제CC·성지CC 등과 함께 하루 한 곳씩 라운딩하는 일정으로 만나실 수 있습니다. 서로 다른 골프장 배정은 현지 사정에 따라 달라질 수 있습니다.",
+    "images": [
+      "/images/courses-1106b/nanshan-buddha-gc/course-1.jpg",
+      "/images/courses-1106b/nanshan-buddha-gc/course-2.jpg",
+      "/images/courses-1106b/nanshan-buddha-gc/course-3.jpg"
+    ],
+    "hashtags": [
+      "불광CC",
+      "연태골프장",
+      "룽커우골프",
+      "남산대불",
+      "연태골프여행",
+      "중국골프여행"
+    ],
+    "relatedTourIds": [
+      "china-yantai-3color-incheon",
+      "china-yantai-3color-mu-incheon",
+      "china-yantai-6color"
+    ]
+  },
+  {
+    "slug": "nanshan-international-gc",
+    "name": "남산국제CC",
+    "nameEn": "Nanshan International Golf Club",
+    "region": "연태",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "남산 국제CC",
+      "남산국제",
+      "Nanshan International Golf"
+    ],
+    "summary": "연태 룽커우 남산의 골프장, 숲과 연못 사이로 이어지는 코스",
+    "specs": [
+      {
+        "label": "코스 특징",
+        "value": "숲과 연못 사이로 페어웨이가 이어짐"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 산둥성 연태시 룽커우 남산"
+      }
+    ],
+    "description": "남산국제CC는 연태시 룽커우 남산에 있는 골프장입니다. 상품 일정표에는 국제CC로 적혀 있기도 합니다.\n\n숲과 연못 사이로 페어웨이가 이어지고, 레이아웃의 균형이 좋아 처음 오시는 분부터 상급자까지 두루 라운딩하기 좋습니다.\n\n여행의파도 연태 상품에서는 단령CC·성지CC·불광CC 등과 함께 하루 한 곳씩 라운딩하는 일정으로 만나실 수 있습니다. 서로 다른 골프장 배정은 현지 사정에 따라 달라질 수 있습니다.",
+    "images": [
+      "/images/courses-1106b/nanshan-international-gc/course-1.jpg",
+      "/images/courses-1106b/nanshan-international-gc/course-2.jpg",
+      "/images/courses-1106b/nanshan-international-gc/course-3.jpg",
+      "/images/courses-1106b/nanshan-international-gc/course-4.jpg",
+      "/images/courses-1106b/nanshan-international-gc/course-5.jpg",
+      "/images/courses-1106b/nanshan-international-gc/course-6.jpg"
+    ],
+    "hashtags": [
+      "남산국제CC",
+      "연태국제CC",
+      "연태골프장",
+      "룽커우골프",
+      "연태골프여행",
+      "중국골프여행"
+    ],
+    "relatedTourIds": [
+      "china-yantai-3color-incheon",
+      "china-yantai-3color-mu-incheon",
+      "china-yantai-6color"
+    ]
+  },
+  {
+    "slug": "padang-golf-sukajadi",
+    "name": "파당 수카자디CC",
+    "nameEn": "Padang Golf Sukajadi",
+    "region": "바탐",
+    "country": "인도네시아",
+    "countryCode": "indonesia",
+    "aliases": [
+      "파당수카자디",
+      "수카자디",
+      "Sukajadi"
+    ],
+    "summary": "래디슨 호텔과 한 단지인 바탐 중심의 18홀 파72 · 6,340m",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "6,340m (블랙 티)"
+      },
+      {
+        "label": "설계",
+        "value": "톰슨, 울버리지 & 페렛 (Thomson, Wolveridge & Perrett)"
+      },
+      {
+        "label": "개장",
+        "value": "2009년"
+      },
+      {
+        "label": "소재지",
+        "value": "인도네시아 바탐 시내 중심"
+      }
+    ],
+    "description": "파당 수카자디CC는 바탐 시내 중심에 2009년 문을 연 18홀 파72 코스로, 블랙 티 기준 전장은 6,340m입니다. 톰슨, 울버리지 & 페렛이 설계했고, 래디슨 골프 & 컨벤션 센터 바탐과 한 단지에 있습니다.\n\n네 종류의 티를 실력에 맞게 고를 수 있고, 인도네시아 아마추어 대회가 여러 번 열린 곳입니다.\n\n여행의파도 바탐 상품에서는 무제한 상품과 래디슨 호텔 올포함 상품 모두에 들어 있는 골프장입니다. 래디슨 상품은 사우스링스CC·팜스프링CC와 묶어 라운딩합니다.",
+    "images": [
+      "/images/courses-1106b/padang-golf-sukajadi/course-1.jpg",
+      "/images/courses-1106b/padang-golf-sukajadi/course-2.jpg",
+      "/images/courses-1106b/padang-golf-sukajadi/course-3.jpg",
+      "/images/courses-1106b/padang-golf-sukajadi/course-4.jpg",
+      "/images/courses-1106b/padang-golf-sukajadi/course-5.jpg"
+    ],
+    "hashtags": [
+      "파당수카자디CC",
+      "수카자디골프",
+      "바탐골프장",
+      "래디슨바탐",
+      "바탐골프여행",
+      "인도네시아골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "palm-springs-batam",
+    "name": "팜스프링CC",
+    "nameEn": "Palm Springs Golf & Country Club (Palm Springs Golf & Beach Resort)",
+    "region": "바탐",
+    "country": "인도네시아",
+    "countryCode": "indonesia",
+    "aliases": [
+      "팜스프링",
+      "팜 스프링",
+      "Palm Springs Golf"
+    ],
+    "summary": "바탐 농사의 27홀, 정글과 해변 홀이 섞인 리조트 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (아일랜드 · 리조트 · 팜 각 9홀)"
+      },
+      {
+        "label": "설계",
+        "value": "래리 넬슨 · IMG"
+      },
+      {
+        "label": "소재지",
+        "value": "인도네시아 바탐 농사"
+      }
+    ],
+    "description": "팜스프링CC는 바탐 북동쪽 농사 지역에 있는 27홀 골프장으로, 영문으로는 Palm Springs Golf & Country Club입니다. 래리 넬슨과 IMG가 설계했고 아일랜드·리조트·팜 세 코스가 각 9홀입니다.\n\n나무가 늘어선 홀과 탁 트인 홀, 정글과 해변 홀이 섞여 있습니다. 세 코스 가운데 팜 코스가 특히 까다로운 편입니다.\n\n여행의파도 바탐 상품에서는 래디슨 호텔 올포함 상품과 6개 골프장 7박9일 상품에 들어 있는 골프장입니다.",
+    "images": [
+      "/images/courses-1106b/palm-springs-batam/course-1.jpg",
+      "/images/courses-1106b/palm-springs-batam/course-2.jpg",
+      "/images/courses-1106b/palm-springs-batam/course-3.jpg",
+      "/images/courses-1106b/palm-springs-batam/course-4.jpg"
+    ],
+    "hashtags": [
+      "팜스프링CC",
+      "바탐골프장",
+      "농사골프",
+      "바탐골프여행",
+      "인도네시아골프여행"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "quanzhou-gc",
+    "name": "천주CC",
+    "nameEn": "Quanzhou Golf Club (泉州高尔夫俱乐部)",
+    "region": "샤먼",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "천주 CC",
+      "천주골프장",
+      "Quanzhou Golf"
+    ],
+    "summary": "취안저우 진장시 쯔마오산 자락의 18홀 파72 · 7,108야드",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "7,108야드"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 푸젠성 취안저우시 진장 (쯔마오산)"
+      }
+    ],
+    "description": "천주CC는 푸젠성 취안저우시 진장의 쯔마오산 자락에 있는 18홀 파72 챔피언십 코스로, 전장은 7,108야드입니다. 천주(泉州)는 취안저우의 한자 이름을 우리식으로 읽은 것입니다.\n\n전반은 호수와 하천을 끼고, 후반은 산지와 계곡, 숲 사이로 이어집니다. 샤먼 시내 코스들과는 다른 분위기를 느낄 수 있습니다.\n\n여행의파도 샤먼 상품에서는 동방CC·남태무CC와 묶은 3색, 남태무CC와 묶은 2색 일정으로 만나실 수 있습니다. 상품에 따라 9홀 추가 라운드를 신청할 수 있습니다.",
+    "images": [
+      "/images/courses-1106b/quanzhou-gc/course-1.jpg",
+      "/images/courses-1106b/quanzhou-gc/course-2.jpg",
+      "/images/courses-1106b/quanzhou-gc/course-3.jpg"
+    ],
+    "hashtags": [
+      "천주CC",
+      "샤먼골프장",
+      "취안저우골프",
+      "샤먼골프여행",
+      "중국골프여행",
+      "샤먼3색골프"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "rsu-vista-gc",
+    "name": "루스비스타CC",
+    "nameEn": "RSU Vista Golf Course",
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "aliases": [
+      "루스비스타",
+      "RSU Vista",
+      "RSU 비스타"
+    ],
+    "summary": "전 코스에 조명을 설치한 빠툼타니의 18홀, 호수와 수로가 모든 홀에",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "코스 특징",
+        "value": "모든 홀에 호수·수로, 전 코스 야간 조명"
+      },
+      {
+        "label": "옛 이름",
+        "value": "무앙액 비스타 (Muang Ake Vista)"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 빠툼타니주 무앙 빠툼타니군 락혹"
+      }
+    ],
+    "description": "루스비스타CC는 공식 이름이 RSU Vista Golf Course인 18홀 골프장으로, 방콕 북쪽 빠툼타니주에 있습니다. 예전에는 무앙액 비스타라는 이름이었고 2022년 지금 이름으로 바뀌었습니다.\n\n300라이가 넘는 부지에 큰 호수와 수로가 모든 홀을 감싸고, 경사와 벙커, 여러 종류의 나무가 어우러집니다. 장타보다 정확성과 코스 공략이 중요하고, 전 코스에 조명을 갖춰 야간에도 라운딩할 수 있습니다.\n\n여행의파도 방콕 실속 3색 상품에서 탄야CC·타논CC와 함께 라운딩하는 골프장으로, 무앙액CC와 둘 중 한 곳이 배정됩니다. 직원이 골프장까지 동반해 안내합니다.",
+    "images": [
+      "/images/courses-1106b/rsu-vista-gc/course-1.jpg",
+      "/images/courses-1106b/rsu-vista-gc/course-2.jpg",
+      "/images/courses-1106b/rsu-vista-gc/course-3.jpg",
+      "/images/courses-1106b/rsu-vista-gc/course-4.jpg",
+      "/images/courses-1106b/rsu-vista-gc/course-5.jpg"
+    ],
+    "hashtags": [
+      "루스비스타CC",
+      "RSU비스타",
+      "방콕골프장",
+      "빠툼타니골프",
+      "방콕골프여행",
+      "태국골프여행",
+      "야간골프"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "shengzhi-gc",
+    "name": "성지CC",
+    "nameEn": "Nanshan Holyland & Sunshine Golf Course (圣地阳光)",
+    "region": "연태",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "성지 CC",
+      "성지골프장",
+      "Holyland"
+    ],
+    "summary": "산과 계곡을 잇는 룽커우 남산의 짧은 산악 코스, 18홀 · 5,883야드",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "전장",
+        "value": "5,883야드"
+      },
+      {
+        "label": "코스 특징",
+        "value": "산악형, 계곡을 넘겨 치는 공략"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 산둥성 연태시 룽커우 남산"
+      }
+    ],
+    "description": "성지CC는 연태시 룽커우 남산에 있는 18홀 산악형 코스로, 전장은 5,883야드입니다. 18개 홀을 이으면 한 마리 용이 산과 계곡 사이를 지나는 모양이 되도록 설계되었습니다.\n\n전장은 짧은 편이지만 계곡을 넘겨야 하는 홀이 있어 거리보다 정확한 공략이 중요합니다.\n\n여행의파도 연태 상품에서는 단령CC·남산국제CC·불광CC 등과 함께 하루 한 곳씩 라운딩하는 일정으로 만나실 수 있습니다. 서로 다른 골프장 배정은 현지 사정에 따라 달라질 수 있습니다.",
+    "images": [
+      "/images/courses-1106b/shengzhi-gc/course-1.jpg",
+      "/images/courses-1106b/shengzhi-gc/course-2.jpg",
+      "/images/courses-1106b/shengzhi-gc/course-3.jpg",
+      "/images/courses-1106b/shengzhi-gc/course-4.jpg",
+      "/images/courses-1106b/shengzhi-gc/course-5.jpg",
+      "/images/courses-1106b/shengzhi-gc/course-6.jpg"
+    ],
+    "hashtags": [
+      "성지CC",
+      "연태골프장",
+      "룽커우골프",
+      "연태골프여행",
+      "중국골프여행",
+      "연태3색골프"
+    ],
+    "relatedTourIds": [
+      "china-yantai-3color-incheon",
+      "china-yantai-3color-mu-incheon",
+      "china-yantai-6color"
+    ]
+  },
+  {
+    "slug": "silky-oak-cc",
+    "name": "실키오크CC",
+    "nameEn": "Silky Oak Country Club (현 Barcelona Valley Mountain Course)",
+    "region": "파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "aliases": [
+      "실키오크",
+      "실키 오크",
+      "Silky Oak"
+    ],
+    "summary": "파타야 동쪽 라용주의 18홀 파72, 8개 홀에 물이 있는 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "개장",
+        "value": "2010년"
+      },
+      {
+        "label": "코스 특징",
+        "value": "8개 홀에 워터 해저드"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 라용주 (파타야 동쪽)"
+      }
+    ],
+    "description": "실키오크CC는 파타야 동쪽 라용주에 있는 18홀 파72 코스로, 2010년에 문을 열었습니다. 세인트앤드류 2000, 라용 그린밸리와 같은 단지에 모여 있으며, 지금은 바르셀로나밸리의 마운틴 코스로도 불립니다.\n\n8개 홀에 워터 해저드가 있어 티샷 방향을 정하는 일이 스코어를 좌우합니다. 페어웨이가 넓은 편이라 편하게 시작할 수 있고, 주변 구릉을 바라보는 전망도 함께 즐길 수 있습니다.\n\n여행의파도 부산출발 파타야 상품에서는 세인트앤드류CC·그린밸리CC와 묶어 18홀씩 3회 라운딩하는 3색 일정으로 만나실 수 있습니다. 중식은 바르셀로나밸리 클럽하우스 한식당에서 드시고, 골프장 순서는 현지 사정에 따라 바뀔 수 있습니다.",
+    "images": [
+      "/images/courses-1106b/silky-oak-cc/course-1.jpg",
+      "/images/courses-1106b/silky-oak-cc/course-2.jpg",
+      "/images/courses-1106b/silky-oak-cc/course-3.jpg",
+      "/images/courses-1106b/silky-oak-cc/course-4.jpg"
+    ],
+    "hashtags": [
+      "실키오크CC",
+      "파타야골프장",
+      "라용골프",
+      "파타야골프여행",
+      "태국골프여행",
+      "파타야3색골프"
+    ],
+    "relatedTourIds": []
+  },
+  {
+    "slug": "southlinks-cc",
+    "name": "사우스링스CC",
+    "nameEn": "Southlinks Country Club",
+    "region": "바탐",
+    "country": "인도네시아",
+    "countryCode": "indonesia",
+    "aliases": [
+      "사우스링스",
+      "사우스 링스",
+      "Southlinks",
+      "South Links"
+    ],
+    "summary": "라디 저수지 옆 바탐 중부의 18홀 파72, 1996년",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "설계",
+        "value": "오니시 히사미쓰 (Hisamitsu Ohnishi)"
+      },
+      {
+        "label": "개장",
+        "value": "1996년"
+      },
+      {
+        "label": "코스 특징",
+        "value": "저수지 옆 언덕, 물이 많은 파크랜드 코스"
+      },
+      {
+        "label": "소재지",
+        "value": "인도네시아 바탐 세쿠팡 스이 라디"
+      }
+    ],
+    "description": "사우스링스CC는 바탐 중부 라디 저수지 옆 언덕에 있는 18홀 파72 코스로, 1996년 문을 열었습니다. 설계는 오니시 히사미쓰입니다.\n\n정글과 호수에 둘러싸인 파크랜드 코스로 물을 끼는 홀이 많고, 아일랜드 그린이 있는 6번 파5 홀이 대표 홀입니다.\n\n여행의파도 바탐 상품에서는 래디슨 호텔 올포함 상품과 6개 골프장 7박9일 상품에 들어 있는 골프장입니다.",
+    "images": [
+      "/images/courses-1106b/southlinks-cc/course-1.jpg",
+      "/images/courses-1106b/southlinks-cc/course-2.jpg",
+      "/images/courses-1106b/southlinks-cc/course-3.jpg",
+      "/images/courses-1106b/southlinks-cc/course-4.jpg",
+      "/images/courses-1106b/southlinks-cc/course-5.jpg",
+      "/images/courses-1106b/southlinks-cc/course-6.jpg"
+    ],
+    "hashtags": [
+      "사우스링스CC",
+      "바탐골프장",
+      "바탐골프여행",
+      "인도네시아골프여행",
+      "바탐래디슨골프"
+    ],
+    "relatedTourIds": []
   }
 ]
