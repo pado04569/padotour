@@ -1222,758 +1222,750 @@
     ],
     "departurePrices": [
       {
-        "date": "2026-11-01",
-        "price": 1119000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-02",
-        "price": 1049000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-03",
-        "price": 1049000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-04",
-        "price": 1099000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-05",
-        "price": 1079000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-06",
-        "price": 1079000,
-        "nights": 3,
-        "days": 5
-      },
-      {
         "date": "2026-11-07",
-        "price": 1049000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-08",
-        "price": 1049000,
+        "price": 1299000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-09",
-        "price": 1049000,
+        "price": 1299000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-10",
-        "price": 1049000,
+        "price": 1299000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-11",
-        "price": 1099000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-12",
-        "price": 1079000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-13",
-        "price": 1079000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-14",
-        "price": 1049000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-15",
-        "price": 1049000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-16",
-        "price": 1049000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-17",
-        "price": 1049000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-18",
-        "price": 1099000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-19",
-        "price": 1079000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-26",
-        "price": 1119000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-27",
-        "price": 1119000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-28",
-        "price": 1119000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-29",
-        "price": 1149000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-30",
-        "price": 1189000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-01",
-        "price": 1189000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-02",
-        "price": 1249000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-03",
-        "price": 1229000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-04",
-        "price": 1229000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-05",
-        "price": 1209000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-06",
-        "price": 1209000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-07",
-        "price": 1209000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-08",
-        "price": 1209000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-09",
-        "price": 1249000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-10",
-        "price": 1229000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-11",
-        "price": 1229000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-12",
-        "price": 1209000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-13",
-        "price": 1209000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-14",
-        "price": 1209000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-15",
-        "price": 1209000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-16",
-        "price": 1249000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-17",
-        "price": 1249000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-18",
-        "price": 1249000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-19",
-        "price": 1229000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-20",
-        "price": 1229000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-21",
-        "price": 1229000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-22",
-        "price": 1229000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-23",
-        "price": 1449000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-24",
-        "price": 1449000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-25",
-        "price": 1389000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-26",
-        "price": 1389000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-27",
-        "price": 1309000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-28",
-        "price": 1309000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-29",
-        "price": 1309000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-30",
-        "price": 1549000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-01",
-        "price": 1549000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-02",
-        "price": 1369000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-03",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-04",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-05",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-06",
-        "price": 1389000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-07",
-        "price": 1369000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-08",
-        "price": 1369000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-09",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-10",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-11",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-12",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-13",
-        "price": 1389000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-14",
-        "price": 1369000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-15",
-        "price": 1369000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-16",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-17",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-18",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-19",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-20",
-        "price": 1389000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-21",
-        "price": 1389000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-22",
-        "price": 1389000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-23",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-24",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-25",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-26",
-        "price": 1349000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-27",
-        "price": 1389000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-28",
-        "price": 1389000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-29",
-        "price": 1389000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2027-01-30",
         "price": 1319000,
         "nights": 3,
         "days": 5
       },
       {
+        "date": "2026-11-15",
+        "price": 1299000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-16",
+        "price": 1299000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-17",
+        "price": 1299000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1339000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-19",
+        "price": 1339000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-20",
+        "price": 1339000
+      },
+      {
+        "date": "2026-11-21",
+        "price": 1339000
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1299000
+      },
+      {
+        "date": "2026-11-23",
+        "price": 1249000
+      },
+      {
+        "date": "2026-11-24",
+        "price": 1249000
+      },
+      {
+        "date": "2026-11-25",
+        "price": 1339000
+      },
+      {
+        "date": "2026-11-26",
+        "price": 1339000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-27",
+        "price": 1279000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1309000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-29",
+        "price": 1309000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-11-30",
+        "price": 1339000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-01",
+        "price": 1339000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1359000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1299000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1299000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1299000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-08",
+        "price": 1299000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1339000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1299000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1299000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1299000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-15",
+        "price": 1299000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1379000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1339000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1339000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1379000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1479000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1319000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1379000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1539000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1539000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1479000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1479000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1539000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-29",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1639000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2026-12-31",
+        "price": 1639000
+      },
+      {
+        "date": "2027-01-01",
+        "price": 1559000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1459000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1479000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1479000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1459000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1459000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1479000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1459000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1459000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1459000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1679000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1479000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1479000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1439000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1479000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1479000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1479000,
+        "nights": 3,
+        "days": 5
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1409000,
+        "nights": 3,
+        "days": 5
+      },
+      {
         "date": "2027-01-31",
-        "price": 1289000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-01",
-        "price": 1369000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-02",
-        "price": 1369000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-03",
-        "price": 1409000,
+        "price": 1399000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-04",
-        "price": 1949000,
+        "price": 2079000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-05",
-        "price": 1949000,
+        "price": 2079000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-06",
-        "price": 1949000,
+        "price": 2079000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-07",
-        "price": 1949000,
+        "price": 1639000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-08",
-        "price": 1369000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-09",
-        "price": 1369000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-10",
-        "price": 1409000,
+        "price": 1459000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-11",
-        "price": 1409000,
+        "price": 1459000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-12",
-        "price": 1409000,
+        "price": 1459000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-13",
-        "price": 1369000,
+        "price": 1439000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-14",
-        "price": 1369000,
+        "price": 1439000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-15",
-        "price": 1369000,
+        "price": 1439000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-16",
-        "price": 1369000,
+        "price": 1439000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-17",
-        "price": 1409000,
+        "price": 1459000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-18",
-        "price": 1409000,
+        "price": 1459000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-19",
-        "price": 1409000,
+        "price": 1459000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-20",
-        "price": 1369000,
+        "price": 1439000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-21",
-        "price": 1369000,
+        "price": 1439000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-22",
-        "price": 1369000,
+        "price": 1439000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-23",
-        "price": 1369000,
+        "price": 1439000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-24",
-        "price": 1409000,
+        "price": 1539000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-25",
-        "price": 1789000,
+        "price": 1839000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-26",
-        "price": 1789000,
+        "price": 1839000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-27",
-        "price": 1789000,
+        "price": 1539000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-28",
-        "price": 1289000,
+        "price": 1499000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-01",
-        "price": 1289000,
+        "price": 1279000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-02",
-        "price": 1289000,
+        "price": 1279000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-03",
-        "price": 1329000,
+        "price": 1319000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-04",
-        "price": 1329000,
+        "price": 1319000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-05",
-        "price": 1329000,
+        "price": 1319000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-06",
-        "price": 1289000,
+        "price": 1279000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-07",
-        "price": 1289000,
+        "price": 1279000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-08",
-        "price": 1289000,
+        "price": 1279000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-09",
-        "price": 1289000,
+        "price": 1279000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-10",
-        "price": 1329000,
+        "price": 1319000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-11",
-        "price": 1329000,
+        "price": 1319000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-12",
-        "price": 1329000,
+        "price": 1319000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-13",
-        "price": 1289000,
+        "price": 1279000,
         "nights": 3,
         "days": 5
       }
@@ -2006,7 +1998,7 @@
     ],
     "badge": "인천출발 신규",
     "departure": "incheon",
-    "priceUpdatedDate": "2026-10-06",
+    "priceUpdatedDate": "2026-11-06",
     "seoIntro": "인천 출발 태국 후아힌 골프여행으로, 잭 니클라우스 설계 스프링필드 로얄CC와 단지 안 리조트에서 3박5일 54홀을 즐기는 골프텔 상품입니다.",
     "seoKeywords": [
       "후아힌골프",
@@ -2017,8 +2009,8 @@
       "태국골프여행",
       "인천출발"
     ],
-    "price": "1,049,000원~",
-    "title": "[인천출발] 태국 후아힌 골프여행 스프링필드 로얄CC 골프텔 3박5일 54홀 1,049,000원부터",
+    "price": "1,249,000원~",
+    "title": "[인천출발] 태국 후아힌 골프여행 스프링필드 로얄CC 골프텔 3박5일 54홀 1,249,000원부터",
     "displayTitle": "스프링필드 로얄CC 골프텔 골프여행"
   },
   {
@@ -2070,7 +2062,7 @@
       "잭 니클라우스 설계 스프링필드 로얄CC 27홀 · 3박5일 54홀",
       "골프장 단지 안 스프링필드 빌리지 리조트 · 디럭스 자쿠지룸 55㎡",
       "12월 출발부터 조식·중식·석식 포함",
-      "2인부터 출발 · 에어부산·진에어"
+      "2인부터 출발 · 에어부산·제주항공"
     ],
     "includes": [
       "왕복 항공권",
@@ -2094,758 +2086,744 @@
     ],
     "departurePrices": [
       {
-        "date": "2026-11-01",
-        "price": 1099000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-02",
-        "price": 1099000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-03",
-        "price": 1099000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-04",
-        "price": 1139000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-05",
-        "price": 1139000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-11-06",
-        "price": 1139000,
-        "nights": 3,
-        "days": 5
-      },
-      {
         "date": "2026-11-07",
-        "price": 1099000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-08",
-        "price": 1099000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-09",
-        "price": 1099000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-10",
-        "price": 1099000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-11",
-        "price": 1139000,
+        "price": 1269000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-12",
-        "price": 1139000,
+        "price": 1269000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-13",
-        "price": 1139000,
+        "price": 1269000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-14",
-        "price": 1099000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-15",
-        "price": 1099000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-16",
-        "price": 1099000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-17",
-        "price": 1099000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-18",
-        "price": 1139000,
+        "price": 1269000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-19",
-        "price": 1139000,
+        "price": 1269000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-20",
-        "price": 1139000,
+        "price": 1269000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-21",
-        "price": 1099000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-22",
-        "price": 1099000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
+        "date": "2026-11-23",
+        "price": 1249000
+      },
+      {
+        "date": "2026-11-24",
+        "price": 1249000
+      },
+      {
+        "date": "2026-11-25",
+        "price": 1269000
+      },
+      {
         "date": "2026-11-26",
-        "price": 1139000,
+        "price": 1269000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-27",
-        "price": 1139000,
+        "price": 1269000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-28",
-        "price": 1129000,
+        "price": 1269000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-29",
-        "price": 1169000,
+        "price": 1299000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-11-30",
-        "price": 1199000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-01",
-        "price": 1199000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-02",
-        "price": 1239000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-03",
-        "price": 1239000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-04",
-        "price": 1239000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-05",
-        "price": 1199000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-06",
-        "price": 1199000,
-        "nights": 3,
-        "days": 5
-      },
-      {
-        "date": "2026-12-07",
-        "price": 1199000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-08",
-        "price": 1199000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-09",
-        "price": 1239000,
+        "price": 1329000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-10",
-        "price": 1239000,
+        "price": 1329000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-11",
-        "price": 1239000,
+        "price": 1329000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-12",
-        "price": 1199000,
+        "price": 1289000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-13",
-        "price": 1199000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-14",
-        "price": 1199000,
+        "price": 1289000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-15",
-        "price": 1199000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-16",
-        "price": 1239000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-17",
-        "price": 1239000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-18",
-        "price": 1279000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-19",
-        "price": 1239000,
+        "price": 1329000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-20",
-        "price": 1239000,
+        "price": 1329000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-21",
-        "price": 1239000,
+        "price": 1329000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-22",
-        "price": 1239000,
+        "price": 1329000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-23",
-        "price": 1399000,
+        "price": 1429000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-24",
-        "price": 1399000,
+        "price": 1429000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-25",
-        "price": 1399000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-26",
-        "price": 1319000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-27",
-        "price": 1319000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-28",
-        "price": 1319000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-29",
-        "price": 1319000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2026-12-30",
-        "price": 1399000,
+        "price": 1429000,
         "nights": 3,
         "days": 5
       },
       {
+        "date": "2026-12-31",
+        "price": 1429000
+      },
+      {
         "date": "2027-01-01",
-        "price": 1399000,
+        "price": 1419000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-02",
-        "price": 1319000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-03",
-        "price": 1319000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-04",
-        "price": 1319000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-05",
-        "price": 1319000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-06",
-        "price": 1359000,
+        "price": 1409000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-07",
-        "price": 1359000,
+        "price": 1489000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-08",
-        "price": 1359000,
+        "price": 1419000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-09",
-        "price": 1319000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-10",
-        "price": 1319000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-11",
-        "price": 1319000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-12",
-        "price": 1319000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-13",
-        "price": 1359000,
+        "price": 1489000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-14",
-        "price": 1359000,
+        "price": 1409000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-15",
-        "price": 1359000,
+        "price": 1409000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-16",
-        "price": 1319000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-17",
-        "price": 1319000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-18",
-        "price": 1319000,
+        "price": 1369000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-19",
-        "price": 1319000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-20",
-        "price": 1359000,
+        "price": 1489000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-21",
-        "price": 1359000,
+        "price": 1409000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-22",
-        "price": 1359000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-23",
-        "price": 1279000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-24",
-        "price": 1279000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-25",
-        "price": 1279000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-26",
-        "price": 1279000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-27",
-        "price": 1319000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-28",
-        "price": 1319000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-29",
-        "price": 1319000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-30",
-        "price": 1239000,
+        "price": 1299000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-01-31",
-        "price": 1239000,
+        "price": 1299000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-01",
-        "price": 1239000,
+        "price": 1299000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-02",
-        "price": 1239000,
+        "price": 1299000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-03",
-        "price": 1399000,
+        "price": 1339000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-04",
-        "price": 1599000,
+        "price": 1609000,
         "nights": 3,
         "days": 5
+      },
+      {
+        "date": "2027-02-05",
+        "price": 1909000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1809000
       },
       {
         "date": "2027-02-07",
-        "price": 1389000,
+        "price": 1509000,
         "nights": 3,
         "days": 5
       },
       {
+        "date": "2027-02-08",
+        "price": 1289000
+      },
+      {
         "date": "2027-02-09",
-        "price": 1239000,
+        "price": 1289000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-10",
-        "price": 1279000,
+        "price": 1329000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-11",
-        "price": 1279000,
+        "price": 1329000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-12",
-        "price": 1279000,
+        "price": 1329000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-13",
-        "price": 1239000,
+        "price": 1289000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-14",
-        "price": 1239000,
+        "price": 1289000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-15",
-        "price": 1239000,
+        "price": 1289000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-16",
-        "price": 1239000,
+        "price": 1289000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-17",
-        "price": 1359000,
+        "price": 1419000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-18",
-        "price": 1359000,
+        "price": 1419000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-19",
-        "price": 1359000,
+        "price": 1419000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-20",
-        "price": 1319000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-21",
-        "price": 1319000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-22",
-        "price": 1319000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-23",
-        "price": 1319000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-24",
-        "price": 1399000,
+        "price": 1419000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-25",
-        "price": 1499000,
+        "price": 1509000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-26",
-        "price": 1499000,
+        "price": 1509000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-27",
-        "price": 1319000,
+        "price": 1379000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-02-28",
-        "price": 1199000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-01",
-        "price": 1199000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-02",
-        "price": 1199000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-03",
-        "price": 1239000,
+        "price": 1289000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-04",
-        "price": 1239000,
+        "price": 1289000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-05",
-        "price": 1239000,
+        "price": 1289000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-06",
-        "price": 1199000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-07",
-        "price": 1199000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-08",
-        "price": 1199000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-09",
-        "price": 1199000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-10",
-        "price": 1239000,
+        "price": 1289000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-11",
-        "price": 1239000,
+        "price": 1289000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-12",
-        "price": 1239000,
+        "price": 1289000,
         "nights": 3,
         "days": 5
       },
       {
         "date": "2027-03-13",
-        "price": 1199000,
+        "price": 1249000,
         "nights": 3,
         "days": 5
       }
@@ -2878,7 +2856,7 @@
     ],
     "badge": "부산출발 신규",
     "departure": "busan",
-    "priceUpdatedDate": "2026-10-06",
+    "priceUpdatedDate": "2026-11-06",
     "seoIntro": "부산 출발 태국 후아힌 골프여행으로, 잭 니클라우스 설계 스프링필드 로얄CC와 단지 안 리조트에서 3박5일 54홀을 즐기는 골프텔 상품입니다.",
     "seoKeywords": [
       "후아힌골프",
@@ -2889,8 +2867,8 @@
       "태국골프여행",
       "부산출발"
     ],
-    "price": "1,099,000원~",
-    "title": "[부산출발] 태국 후아힌 골프여행 스프링필드 로얄CC 골프텔 3박5일 54홀 1,099,000원부터",
+    "price": "1,249,000원~",
+    "title": "[부산출발] 태국 후아힌 골프여행 스프링필드 로얄CC 골프텔 3박5일 54홀 1,249,000원부터",
     "displayTitle": "스프링필드 로얄CC 골프텔 골프여행"
   },
   {
@@ -49015,7 +48993,7 @@
     "country": "일본",
     "countryCode": "japan",
     "region": "오키나와",
-    "title": "[인천출발] 일본 오키나와 골프여행 미야코지마 시기라베이CC 산타모니카 골프텔 3박4일 54홀 1,490,000원부터",
+    "title": "[인천출발] 일본 오키나와 골프여행 미야코지마 시기라베이CC 산타모니카 골프텔 3박4일 54홀 1,390,000원부터",
     "subtitle": "진에어 인천-시모지시마 직항 · 핫 크로스 포인트 산타모니카 · 시기라베이CC 54홀",
     "nights": 3,
     "days": 4,
@@ -49078,10 +49056,6 @@
     ],
     "departurePrices": [
       {
-        "date": "2026-10-27",
-        "price": 1490000
-      },
-      {
         "date": "2026-11-16",
         "price": 1490000
       },
@@ -49119,14 +49093,18 @@
       },
       {
         "date": "2026-12-14",
-        "price": 1490000
+        "price": 1390000
       },
       {
         "date": "2026-12-15",
-        "price": 1490000
+        "price": 1390000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1390000
       }
     ],
-    "price": "1,490,000원~",
+    "price": "1,390,000원~",
     "image": "/images/okinawa-miyako-shigira/course-1.jpg",
     "images": [
       "/images/okinawa-miyako-shigira/course-1.jpg",
@@ -49154,7 +49132,7 @@
     ],
     "badge": "인천출발 신규",
     "departure": "incheon",
-    "priceUpdatedDate": "2026-10-02",
+    "priceUpdatedDate": "2026-11-06",
     "seoIntro": "인천 출발 미야코지마 골프여행 3박4일 상품으로, 시기라베이CC에서 54홀을 라운드하고 시기라 리조트 산타모니카 골프텔에 머무는 진에어 직항 골프패키지입니다.",
     "seoKeywords": [
       "미야코지마골프",
@@ -91181,7 +91159,7 @@
     "country": "태국",
     "countryCode": "thailand",
     "region": "치앙마이",
-    "title": "[부산출발] 태국 치앙마이 골프여행 하이랜드·노스힐·레거시·파노라마 다색 3박5일 54홀 석식 포함 노쇼핑 1,339,000원부터",
+    "title": "[부산출발] 태국 치앙마이 골프여행 하이랜드·노스힐·레거시·파노라마 다색 3박5일 54홀 석식 포함 노쇼핑 1,369,000원부터",
     "subtitle": "에어부산 김해-치앙마이 직항 · 푸라마 호텔 치앙마이 · 하이랜드·노스힐·가산 레거시·가산 파노라마 중 54홀 · 전 일정 석식 포함 · 노쇼핑",
     "nights": 3,
     "days": 5,
@@ -91255,47 +91233,39 @@
     "departurePrices": [
       {
         "date": "2026-11-11",
-        "price": 1389000
+        "price": 1429000
       },
       {
         "date": "2026-11-12",
-        "price": 1389000
+        "price": 1429000
       },
       {
         "date": "2026-11-18",
-        "price": 1389000
+        "price": 1429000
       },
       {
         "date": "2026-11-19",
-        "price": 1389000
+        "price": 1429000
       },
       {
         "date": "2026-11-26",
-        "price": 1389000
+        "price": 1429000
       },
       {
         "date": "2026-12-02",
-        "price": 1339000
+        "price": 1429000
       },
       {
         "date": "2026-12-03",
-        "price": 1389000
-      },
-      {
-        "date": "2026-12-09",
-        "price": 1389000
-      },
-      {
-        "date": "2026-12-10",
-        "price": 1389000
+        "price": 1429000
       },
       {
         "date": "2026-12-16",
-        "price": 1339000
+        "price": 1429000
       },
       {
         "date": "2026-12-17",
-        "price": 1339000
+        "price": 1429000
       },
       {
         "date": "2026-12-19",
@@ -91307,10 +91277,18 @@
       },
       {
         "date": "2026-12-22",
-        "price": 1389000
+        "price": 1369000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1509000
       },
       {
         "date": "2026-12-26",
+        "price": 1469000
+      },
+      {
+        "date": "2026-12-27",
         "price": 1469000
       },
       {
@@ -91334,10 +91312,6 @@
         "price": 1509000
       },
       {
-        "date": "2027-01-07",
-        "price": 1509000
-      },
-      {
         "date": "2027-01-09",
         "price": 1469000
       },
@@ -91348,10 +91322,6 @@
       {
         "date": "2027-01-12",
         "price": 1469000
-      },
-      {
-        "date": "2027-01-13",
-        "price": 1509000
       },
       {
         "date": "2027-01-14",
@@ -91371,10 +91341,6 @@
       },
       {
         "date": "2027-01-20",
-        "price": 1509000
-      },
-      {
-        "date": "2027-01-21",
         "price": 1509000
       },
       {
@@ -91408,6 +91374,10 @@
       {
         "date": "2027-02-02",
         "price": 1389000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1429000
       },
       {
         "date": "2027-02-09",
@@ -91452,9 +91422,13 @@
       {
         "date": "2027-02-23",
         "price": 1469000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1509000
       }
     ],
-    "price": "1,339,000원~",
+    "price": "1,369,000원~",
     "image": "/images/chiangmai-poolvilla-busan/course-1.jpg",
     "images": [
       "/images/chiangmai-poolvilla-busan/course-1.jpg",
@@ -91482,7 +91456,7 @@
     ],
     "badge": "부산출발 신규",
     "departure": "busan",
-    "priceUpdatedDate": "2026-10-27",
+    "priceUpdatedDate": "2026-11-06",
     "seoIntro": "부산 출발 태국 치앙마이 골프여행 3박5일 상품으로, 하이랜드·노스힐·가산 레거시·가산 파노라마 중 54홀을 라운드하고 푸라마 호텔에 머무는 석식 포함 노쇼핑 에어부산 직항 골프패키지입니다.",
     "seoKeywords": [
       "치앙마이골프",
@@ -118219,7 +118193,7 @@
     "courses": 2,
     "roundsIncluded": 3,
     "holes": "0+18+18+18 (총 54홀)\n신동양CC 18홀 · 해협CC 18홀 × 2회",
-    "period": "2027년 1월 7일 ~ 1월 28일 매주 목요일 출발 (1/7·1/14·1/21·1/28)",
+    "period": "2026년 12월 17일 ~ 2027년 1월 28일 매주 목요일 출발 (12/17·12/24·1/7·1/14·1/21·1/28)",
     "hotel": "캠핀스키호텔 푸저우 (5성, 2인 1실)",
     "hotelDesc": "푸저우 시내 중심에 있는 5성급 캠핀스키호텔에서 2인 1실로 3박합니다. 객실과 스위트 327실, 레스토랑·바, 피트니스·수영장·스파를 갖췄고 지하철역이 걸어갈 만한 거리에 있어 주변 번화가에서 쇼핑과 먹거리를 즐기기 좋습니다. 푸저우 창러공항에서 호텔까지는 차로 약 40분, 호텔에서 신동양CC까지는 약 30분, 해협CC까지는 약 45분입니다.",
     "golfCourse": "신동양CC · 해협CC",
@@ -118274,6 +118248,14 @@
       "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
     ],
     "departurePrices": [
+      {
+        "date": "2026-12-17",
+        "price": 1390000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1390000
+      },
       {
         "date": "2027-01-07",
         "price": 1390000,
@@ -118331,7 +118313,7 @@
       "/images/fuzhou-kempinski-2color-incheon/hotel-6.jpg",
       "/images/fuzhou-kempinski-2color-incheon/hotel-7.jpg"
     ],
-    "priceUpdatedDate": "2026-11-05",
+    "priceUpdatedDate": "2026-11-06",
     "seoIntro": "인천 출발 중국 푸저우 골프여행으로, 5성급 캠핀스키호텔에 묵으며 신동양CC와 해협CC를 라운딩하는 3박4일 54홀 2색 골프패키지입니다.",
     "seoKeywords": [
       "푸저우골프",
@@ -121631,10 +121613,6 @@
       {
         "date": "2026-12-21",
         "price": 2349000
-      },
-      {
-        "date": "2026-12-23",
-        "price": 2299000
       },
       {
         "date": "2026-12-28",
