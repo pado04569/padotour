@@ -10270,5 +10270,133 @@
       "일본골프여행"
     ],
     "relatedTourIds": []
+  },
+  {
+    "slug": "cykan-winners-gc",
+    "name": "사이칸 위너스CC",
+    "nameEn": "CYKAN Winners Golf Club",
+    "region": "사가",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "다쿠시의 파72 18홀 코스, 호텔에서 가까운 사가 지역 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,740야드"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 사가현 다쿠시"
+      }
+    ],
+    "description": "사이칸 위너스CC는 사가현 다쿠시에 있는 18홀 파72, 전장 6,740야드 골프장입니다. 아웃과 인 모두 파36으로 구성되어 있습니다.\n\n산줄기를 배경으로 넓은 잔디가 펼쳐져 라운드 내내 시골 풍경을 즐기기 좋습니다. 여행의파도 사가 골프여행은 타쿠시티 호텔 마쓰야에 묵으며 이 골프장을 포함한 사가 지역 코스를 하루 18홀씩 라운딩합니다.",
+    "images": [
+      "/images/saga-taku-matsuya/course-3.jpg",
+      "/images/saga-taku-matsuya/course-4.jpg",
+      "/images/saga-taku-matsuya/course-5.jpg"
+    ],
+    "hashtags": [
+      "사이칸위너스CC",
+      "사가골프",
+      "사가골프여행",
+      "규슈골프여행",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-saga-taku-matsuya-3n4d-incheon",
+      "japan-saga-taku-matsuya-4n5d-incheon"
+    ]
+  },
+  {
+    "slug": "hanamatsuri-gc",
+    "name": "하나마츠리CC",
+    "nameEn": "Hanamatsuri Golf Club (花祭ゴルフ倶楽部)",
+    "region": "사가",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "사토 겐타로가 설계한 사가현 고호쿠의 파72 18홀 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,834야드"
+      },
+      {
+        "label": "설계",
+        "value": "사토 겐타로"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 사가현 기시마군 고호쿠초"
+      }
+    ],
+    "description": "하나마츠리CC는 사가현 기시마군 고호쿠초에 있는 18홀 파72 골프장으로 사토 겐타로가 설계했습니다. 전장은 6,834야드이며 연못과 언덕이 어우러진 풍경이 시원합니다.\n\n여행의파도 사가 골프여행에서는 타쿠시티 호텔 마쓰야에서 차로 가까운 거리에 있어 이동 부담 없이 라운딩할 수 있습니다.",
+    "images": [
+      "/images/saga-taku-matsuya/course-6.jpg",
+      "/images/saga-taku-matsuya/course-7.jpg",
+      "/images/saga-taku-matsuya/course-2.jpg"
+    ],
+    "hashtags": [
+      "하나마츠리CC",
+      "사가골프",
+      "사가골프여행",
+      "규슈골프여행",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-saga-taku-matsuya-3n4d-incheon",
+      "japan-saga-taku-matsuya-4n5d-incheon"
+    ]
+  },
+  {
+    "slug": "tenzan-cc-saga",
+    "name": "텐잔CC",
+    "nameEn": "Tenzan Country Club (天山カントリークラブ)",
+    "region": "사가",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "평탄한 지형과 넓은 페어웨이, 오자사 쇼조 설계의 다쿠시 파72 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "설계",
+        "value": "오자사 쇼조"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 사가현 다쿠시 기타타쿠초"
+      }
+    ],
+    "description": "텐잔CC는 사가현 다쿠시 기타타쿠초에 있는 18홀 파72 골프장으로 오자사 쇼조가 설계했습니다. 전체적으로 평탄한 지형에 페어웨이가 넓어 편안하게 라운딩하기 좋습니다.\n\n그린은 벤트와 티프턴 두 종류로 운영됩니다. 여행의파도 사가 골프여행의 숙소인 타쿠시티 호텔 마쓰야에서 차로 약 6분 거리입니다.",
+    "images": [
+      "/images/saga-taku-matsuya/course-9.jpg",
+      "/images/saga-taku-matsuya/course-1.jpg",
+      "/images/saga-taku-matsuya/course-10.jpg"
+    ],
+    "hashtags": [
+      "텐잔CC",
+      "사가골프",
+      "사가골프여행",
+      "규슈골프여행",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-saga-taku-matsuya-3n4d-incheon",
+      "japan-saga-taku-matsuya-4n5d-incheon"
+    ]
   }
 ]
