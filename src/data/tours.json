@@ -50603,7 +50603,7 @@
     ],
     "badge": "부산출발 신규",
     "departure": "busan",
-    "priceUpdatedDate": "2026-10-27",
+    "priceUpdatedDate": "2026-11-06",
     "seoIntro": "부산 출발 태국 치앙마이 골프여행으로, 에어부산 직항과 로얄 치앙마이CC 안 골프텔에서 3박5일 54홀을 라운딩하는 올포함 상품입니다.",
     "seoKeywords": [
       "치앙마이골프",
@@ -50613,52 +50613,44 @@
       "태국골프여행",
       "부산출발"
     ],
-    "price": "999,000원~",
-    "title": "[부산출발] 태국 치앙마이 골프여행 로얄 치앙마이CC 골프텔 3박5일 54홀 1,049,000원부터",
+    "price": "1,079,000원~",
+    "title": "[부산출발] 태국 치앙마이 골프여행 로얄 치앙마이CC 골프텔 3박5일 54홀 1,079,000원부터",
     "departurePrices": [
       {
         "date": "2026-11-11",
-        "price": 1049000
+        "price": 1089000
       },
       {
         "date": "2026-11-12",
-        "price": 1049000
+        "price": 1089000
       },
       {
         "date": "2026-11-18",
-        "price": 1049000
+        "price": 1089000
       },
       {
         "date": "2026-11-19",
-        "price": 1049000
+        "price": 1089000
       },
       {
         "date": "2026-11-26",
-        "price": 1049000
+        "price": 1089000
       },
       {
         "date": "2026-12-02",
-        "price": 1049000
+        "price": 1119000
       },
       {
         "date": "2026-12-03",
-        "price": 1099000
-      },
-      {
-        "date": "2026-12-09",
-        "price": 1099000
-      },
-      {
-        "date": "2026-12-10",
-        "price": 1099000
+        "price": 1139000
       },
       {
         "date": "2026-12-16",
-        "price": 1049000
+        "price": 1119000
       },
       {
         "date": "2026-12-17",
-        "price": 1049000
+        "price": 1139000
       },
       {
         "date": "2026-12-20",
@@ -50666,7 +50658,11 @@
       },
       {
         "date": "2026-12-22",
-        "price": 1099000
+        "price": 1079000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1219000
       },
       {
         "date": "2026-12-26",
@@ -50697,10 +50693,6 @@
         "price": 1219000
       },
       {
-        "date": "2027-01-07",
-        "price": 1219000
-      },
-      {
         "date": "2027-01-09",
         "price": 1179000
       },
@@ -50711,10 +50703,6 @@
       {
         "date": "2027-01-12",
         "price": 1179000
-      },
-      {
-        "date": "2027-01-13",
-        "price": 1219000
       },
       {
         "date": "2027-01-14",
@@ -50734,10 +50722,6 @@
       },
       {
         "date": "2027-01-20",
-        "price": 1219000
-      },
-      {
-        "date": "2027-01-21",
         "price": 1219000
       },
       {
@@ -50771,6 +50755,10 @@
       {
         "date": "2027-02-02",
         "price": 1099000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1139000
       },
       {
         "date": "2027-02-09",
@@ -50815,6 +50803,10 @@
       {
         "date": "2027-02-23",
         "price": 1179000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1219000
       }
     ],
     "displayTitle": "로얄 치앙마이CC 골프텔 골프여행"
@@ -132396,5 +132388,1252 @@
       "/images/danang-muongthanh-busan/course-6.jpg"
     ],
     "price": "1,349,000원~"
+  },
+  {
+    "id": "japan-kumamoto-asoskyblue-2n3d-incheon",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "구마모토",
+    "title": "[인천출발] 구마모토 아소스카이블루 골프텔 2박3일 63홀 천연온천 티웨이·대한항공 1,030,000원부터",
+    "displayTitle": "구마모토 아소스카이블루 골프텔 2박3일 63홀",
+    "subtitle": "가는 편 티웨이 TW287 · 오는 편 대한항공 KE2156 · 화요일 출발 · 18홀+27홀+18홀 · 아소스카이블루 골프 리조트(2인 1실) · 조·석식 포함",
+    "nights": 2,
+    "days": 3,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "63홀 (출발일 18홀 · 체류일 27홀 · 귀국일 18홀)",
+    "minPeople": "2인",
+    "period": "2026년 11월 10일 ~ 12월 8일 화요일 출발 (11/10·17·24, 12/1·8)",
+    "hotel": "아소 스카이 블루 골프 리조트 (2인 1실)",
+    "hotelDesc": "아소산 자락의 골프 리조트로 천연온천 대욕탕을 이용할 수 있고 객실에도 온천수가 공급됩니다. 클럽하우스까지 도보 5분(차량 1분)이며, 객실은 마운틴뷰 기준으로 우선 안내합니다.",
+    "golfCourse": "아소스카이블루GC",
+    "golfCourseDesc": "첫날 18홀, 체류일 18홀 + 서비스 9홀, 귀국일 18홀로 2박3일에 63홀을 라운딩합니다. 전동카트 셀프 플레이로 진행되며 카트는 페어웨이에 들어가지 않습니다.",
+    "productSummary": "아침 티웨이 직항으로 구마모토에 도착해 첫날부터 18홀을 라운딩하고, 저녁 대한항공 편으로 돌아오는 2박3일 일정입니다.\n3일 동안 18홀·27홀·18홀 총 63홀을 라운딩하며 천연온천과 호텔 조식·석식을 함께 즐깁니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 구마모토 · 아소스카이블루 18홀",
+        "desc": "인천국제공항 제1여객터미널 출발(티웨이 TW287 07:55) → 구마모토공항 도착(09:25) → 직원 미팅 후 리조트 이동 → 클럽하우스 중식 후 아소스카이블루 18홀 셀프 카트(17시까지) → 천연온천욕 후 석식 및 휴식 [조식·중식 불포함 / 석식 호텔식]"
+      },
+      {
+        "day": "2일차",
+        "label": "아소스카이블루 27홀",
+        "desc": "호텔 조식 후 아소스카이블루 27홀 셀프 카트(18홀 + 서비스 9홀) → 천연온천욕 후 석식 및 휴식 [조식 뷔페 / 중식 불포함 / 석식 호텔식]"
+      },
+      {
+        "day": "3일차",
+        "label": "아소스카이블루 18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 아소스카이블루 18홀 셀프 카트 → 16:00 공항 이동 → 구마모토공항 출발(대한항공 KE2156 19:35) → 인천국제공항 제2여객터미널 도착(21:20) [조식 뷔페 / 중식 불포함 / 석식 기내식]"
+      }
+    ],
+    "highlights": [
+      "가는 편 티웨이 · 오는 편 대한항공 직항",
+      "첫날부터 라운딩 · 2박3일 총 63홀",
+      "천연온천 대욕탕 골프 리조트",
+      "호텔 조식·석식 포함 · 2명부터 출발"
+    ],
+    "includes": [
+      "왕복 항공 (유류할증료·제세공과금 포함, 티웨이 위탁 수하물 15kg / 대한항공 23kg)",
+      "공항 왕복 송영",
+      "리조트 2인 1실",
+      "조식 + 석식 (1일차 조식 제외, 3일차 석식은 기내식)",
+      "일정 내 그린피 + 카트",
+      "여행자보험"
+    ],
+    "excludes": [
+      "중식, 개인경비",
+      "싱글차지 1박 30,000원(마운틴뷰)·40,000원(골프장뷰)",
+      "2인 플레이 지정 또는 조인이 안 될 때 1인 9홀당 1,000엔 (현지 지불, 조인되면 추가금 없음)"
+    ],
+    "cancelPolicy": [
+      "요금은 2인 1실 1인 일반 패키지 기준이며, 객실은 마운틴뷰로 우선 안내합니다.",
+      "중식·석식 특식(사시미·와규·장어구이)이 포함된 풀패키지는 1인 1,177,000원입니다.",
+      "귀국일 18홀은 스루 플레이로 진행되어 귀국 항공 시간에 맞춰 라운딩하실 수 있습니다.",
+      "3인 플레이는 추가 비용이 없습니다.",
+      "천재지변 등 날씨로 라운드를 못 하면 그린피는 환불되지 않습니다.",
+      "출발 31일 전까지 취소 시 예약금 100% 환불, 30일 전 예약금 환불 불가, 29~20일 전 25%, 19~10일 전 30%, 9~8일 전 35%, 7~2일 전 45%, 1일 전~당일 65%의 위약금이 발생합니다. 항공권 발권 후 취소 시 항공사 규정에 따른 수수료가 별도로 발생할 수 있습니다.",
+      "항공 시간은 항공사 사정으로 바뀔 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-10",
+        "price": 1030000
+      },
+      {
+        "date": "2026-11-17",
+        "price": 1030000
+      },
+      {
+        "date": "2026-11-24",
+        "price": 1030000
+      },
+      {
+        "date": "2026-12-01",
+        "price": 1030000
+      },
+      {
+        "date": "2026-12-08",
+        "price": 1030000
+      }
+    ],
+    "image": "/images/japan-kumamoto-busan/course-4.jpg",
+    "hotelImages": [
+      "/images/japan-kumamoto-busan/hotel-exterior.jpg",
+      "/images/japan-kumamoto-busan/hotel-room-western.jpg",
+      "/images/japan-kumamoto-busan/hotel-room-japanese.jpg",
+      "/images/japan-kumamoto-busan/hotel-onsen-1.jpg",
+      "/images/japan-kumamoto-busan/hotel-onsen-2.jpg",
+      "/images/japan-kumamoto-busan/hotel-onsen-3.jpg"
+    ],
+    "courseImages": [
+      "/images/japan-kumamoto-busan/course-1.jpg",
+      "/images/japan-kumamoto-busan/course-2.jpg",
+      "/images/japan-kumamoto-busan/course-3.jpg",
+      "/images/japan-kumamoto-busan/course-4.jpg",
+      "/images/japan-kumamoto-busan/course-5.jpg",
+      "/images/japan-kumamoto-busan/course-6.jpg"
+    ],
+    "seoIntro": "인천 출발 구마모토 골프여행으로, 티웨이로 가서 대한항공으로 돌아오며 아소스카이블루 골프 리조트에서 2박3일 63홀과 천연온천을 즐기는 골프패키지입니다.",
+    "seoKeywords": [
+      "구마모토골프",
+      "구마모토골프여행",
+      "아소스카이블루",
+      "일본골프여행",
+      "인천출발",
+      "골프패키지"
+    ],
+    "price": "1,030,000원~",
+    "priceUpdatedDate": "2026-11-06",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "images": [
+      "/images/japan-kumamoto-busan/course-4.jpg",
+      "/images/japan-kumamoto-busan/hotel-exterior.jpg",
+      "/images/japan-kumamoto-busan/hotel-room-western.jpg",
+      "/images/japan-kumamoto-busan/course-1.jpg",
+      "/images/japan-kumamoto-busan/course-2.jpg",
+      "/images/japan-kumamoto-busan/hotel-room-japanese.jpg"
+    ]
+  },
+  {
+    "id": "japan-kagoshima-shiroyama-3color-incheon",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "가고시마",
+    "title": "[인천출발] 일본 가고시마 골프여행 시로야마 호텔 치란·난코쿠·골든팜CC 3색 3박4일 54홀 이스타항공 1,550,000원부터",
+    "displayTitle": "가고시마 시로야마 호텔 3색 3박4일",
+    "subtitle": "이스타항공 직항 · 시로야마 호텔(2인 1실) · 치란·난코쿠·골든팜CC 18홀 x 3회 · 조식·첫날 석식 뷔페·온천 포함 · 12월~2월",
+    "nights": 3,
+    "days": 4,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)",
+    "minPeople": "2인 (2~3인은 추가요금)",
+    "period": "2026년 12월 14일 ~ 2027년 2월 23일 (표시된 출발일)",
+    "hotel": "시로야마 호텔 가고시마 (2인 1실)",
+    "hotelDesc": "가고시마 시내를 내려다보는 시로야마 언덕의 호텔로, 사쿠라지마를 바라보는 전망 노천온천을 이용할 수 있습니다. 조식은 4층 레인보우홀(06:30~10:30, 09:30 입장 마감)에서, 첫날 석식은 이탈리아 홀트 뷔페(17:30~21:00, 19:30 입장 마감)로 드십니다. 프런트는 4층, 대욕장은 3층입니다.",
+    "golfCourse": "치란CC · 난코쿠CC · 골든팜CC",
+    "golfCourseDesc": "치란CC·난코쿠CC·골든팜CC를 18홀씩 라운딩하는 3색 상품으로, 셀프 플레이 + 카트 방식입니다. 호텔에서 골프장까지 차로 약 30~40분입니다.",
+    "productSummary": "이스타항공 직항으로 가고시마에 가서 시로야마 호텔에 3박하며 치란·난코쿠·골든팜CC를 18홀씩 라운딩하는 상품입니다.\n조식과 첫날 뷔페 석식, 온천 입욕이 포함되어 숙소에서의 휴식까지 챙기려는 분께 맞습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 가고시마",
+        "desc": "인천국제공항 출발(이스타항공 ZE651 15:35) → 가고시마국제공항 도착(17:15) → 기사 미팅 후 호텔 이동(약 40분) → 호텔 체크인, 온천욕 후 휴식 [석식: 이탈리아 홀트 뷔페] 호텔: 시로야마 호텔 가고시마"
+      },
+      {
+        "day": "2~3일차",
+        "label": "치란·난코쿠·골든팜CC 중 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 30~40분) → 치란·난코쿠·골든팜CC 중 18홀 셀프 + 카트 → 호텔로 이동 후 온천욕 및 자유시간 [조식: 호텔식 / 중식·석식: 불포함] 호텔: 시로야마 호텔 가고시마"
+      },
+      {
+        "day": "4일차",
+        "label": "18홀 → 인천",
+        "desc": "호텔 조식, 체크아웃 후 골프장 이동(약 30~40분) → 치란·난코쿠·골든팜CC 중 18홀 셀프 + 카트 → 공항으로 이동(약 40분) → 가고시마국제공항 출발(이스타항공 ZE652 18:10) → 인천국제공항 도착(20:40) 후 해산"
+      }
+    ],
+    "highlights": [
+      "이스타항공 인천-가고시마 직항",
+      "치란·난코쿠·골든팜CC 3색 54홀",
+      "사쿠라지마 전망 노천온천 호텔",
+      "조식 · 첫날 이탈리아 뷔페 석식 포함"
+    ],
+    "includes": [
+      "왕복 항공권 (이스타항공, 위탁 수하물 20kg: 골프백 1 + 캐리어 1)",
+      "시로야마 호텔 2인 1실",
+      "조식, 1일차 석식 (이탈리아 홀트 뷔페)",
+      "온천 입욕료",
+      "골프 3회 그린피 + 카트비",
+      "공항 왕복 송영",
+      "여행자보험"
+    ],
+    "excludes": [
+      "중식, 2~3일차 석식, 개인비용",
+      "공항 송영: 동승 인원이 없을 때 3인 1인 5만원 · 2인 1인 10만원 추가",
+      "2인 라운딩: 18홀 1인 치란CC 2만원 · 난코쿠CC 3만원 · 골든팜CC 1만원 추가 (주중·주말 같음)",
+      "3인 라운딩: 18홀 1인 치란CC 5천원 · 난코쿠CC 1만원 · 골든팜CC 5천원 추가 (주중·주말 같음)",
+      "트윈룸을 혼자 쓰시면 1박 1인 11만원 추가 (싱글룸 타입은 추가요금 없음)"
+    ],
+    "cancelPolicy": [
+      "표시되지 않은 날짜는 예약 가능 여부와 요금을 문의해 주세요.",
+      "항공 좌석과 호텔·골프장을 확인한 뒤 1인 200,000원(항공 발권 및 예약금)을 입금하시면 확정되고, 출발 2주 전 잔금을 입금합니다.",
+      "예약 때 여권 정보와 여권 사본이 필요합니다.",
+      "항공 좌석이 소진되면 요금이 오를 수 있고, 예약 후 바로 발권될 수 있습니다.",
+      "2~3일차 석식은 사전 요청으로 진행할 수 있습니다(뷔페·가이세키·스키야키·스시 정식·덴푸라 정식).",
+      "9홀 추가는 사전 요청 조건이며 요금은 문의해 주세요.",
+      "항공권은 항공사 규정을 따르며, 현지 취소 수수료는 출발 30일 전부터 발생합니다.",
+      "상기 일정은 항공 및 현지 사정에 의하여 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-14",
+        "price": 1600000
+      },
+      {
+        "date": "2026-12-15",
+        "price": 1600000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1640000
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1760000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1700000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1600000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1640000
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1700000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1790000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1550000
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1550000
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1550000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1620000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1790000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1790000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1760000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1640000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1550000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1600000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1720000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1660000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1550000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1550000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1890000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1810000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1740000
+      },
+      {
+        "date": "2027-02-08",
+        "price": 1660000
+      },
+      {
+        "date": "2027-02-09",
+        "price": 1660000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1720000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1810000
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1740000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1810000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1740000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1780000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1660000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1660000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1570000
+      }
+    ],
+    "image": "/images/kagoshima-shiroyama-incheon/course-1.jpg",
+    "hotelImages": [
+      "/images/kagoshima-shiroyama-incheon/hotel-1.jpg",
+      "/images/kagoshima-shiroyama-incheon/hotel-2.jpg",
+      "/images/kagoshima-shiroyama-incheon/hotel-3.jpg",
+      "/images/kagoshima-shiroyama-incheon/hotel-4.jpg",
+      "/images/kagoshima-shiroyama-incheon/hotel-5.jpg",
+      "/images/kagoshima-shiroyama-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/kagoshima-shiroyama-incheon/course-1.jpg",
+      "/images/kagoshima-shiroyama-incheon/course-3.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-1.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-3.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-5.jpg"
+    ],
+    "seoIntro": "인천 출발 가고시마 골프여행으로, 이스타항공 직항과 시로야마 호텔에서 치란·난코쿠·골든팜CC 3색 3박4일 54홀을 라운딩하는 골프패키지입니다.",
+    "seoKeywords": [
+      "가고시마골프",
+      "가고시마골프여행",
+      "시로야마호텔",
+      "치란CC",
+      "난코쿠CC",
+      "골든팜CC",
+      "일본골프여행",
+      "인천출발"
+    ],
+    "price": "1,550,000원~",
+    "priceUpdatedDate": "2026-11-06",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "images": [
+      "/images/kagoshima-shiroyama-incheon/course-1.jpg",
+      "/images/kagoshima-shiroyama-incheon/hotel-1.jpg",
+      "/images/kagoshima-shiroyama-incheon/hotel-2.jpg",
+      "/images/kagoshima-shiroyama-incheon/course-3.jpg",
+      "/images/kagoshima-shiroyama-incheon/hotel-3.jpg"
+    ]
+  },
+  {
+    "id": "japan-kagoshima-tenmonkan-sundays-2color-incheon",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "가고시마",
+    "title": "[인천출발] 일본 가고시마 골프여행 텐몬칸 시내호텔 선데이즈·렉스턴 치란·난코쿠CC 2색 3박4일 54홀 이스타항공 1,210,000원부터",
+    "displayTitle": "가고시마 텐몬칸 선데이즈·렉스턴 호텔 2색 3박4일",
+    "subtitle": "이스타항공 직항 · 텐몬칸 시내호텔 선데이즈 또는 렉스턴(2인 1실) · 치란·난코쿠CC 18홀 x 3회 · 조식 포함 · 12월~2월",
+    "nights": 3,
+    "days": 4,
+    "courses": 2,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)",
+    "minPeople": "2인 (2~3인은 추가요금)",
+    "period": "2026년 12월 1일 ~ 2027년 2월 24일 (표시된 출발일)",
+    "hotel": "호텔 선데이즈 가고시마 또는 렉스턴 호텔 (텐몬칸 시내, 2인 1실)",
+    "hotelDesc": "라운딩 후 시내에서 식사와 쇼핑을 즐기기 좋은 텐몬칸 시내 호텔입니다. 트윈룸은 선데이즈, 싱글룸은 렉스턴으로 배정될 수 있습니다. 선데이즈 호텔에는 대욕장이 없고, 렉스턴 호텔에는 남성 대욕장만 있습니다.",
+    "golfCourse": "치란CC · 난코쿠CC",
+    "golfCourseDesc": "치란CC 또는 난코쿠CC에서 18홀씩 3회 라운딩하는 2색 상품으로, 셀프 플레이 + 카트 방식입니다. 호텔에서 골프장까지 차로 약 20~40분입니다.",
+    "productSummary": "이스타항공 직항으로 가고시마에 가서 텐몬칸 시내 호텔에 3박하며 치란CC·난코쿠CC를 3회 라운딩하는 상품입니다.\n조식이 포함되고 저녁은 시내에서 자유롭게 드실 수 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 가고시마",
+        "desc": "인천국제공항 출발(이스타항공 ZE651 15:35) → 가고시마국제공항 도착(17:15) → 기사 미팅 후 호텔 이동(약 40분) → 호텔 체크인 후 휴식 [석식: 불포함] 호텔: 선데이즈 또는 렉스턴 (2인 1실)"
+      },
+      {
+        "day": "2~3일차",
+        "label": "치란 또는 난코쿠CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 20~40분) → 치란 또는 난코쿠CC 중 18홀 셀프 + 카트 → 호텔로 이동 후 자유시간 [조식: 호텔식 / 중식·석식: 불포함] 호텔: 선데이즈 또는 렉스턴 (2인 1실)"
+      },
+      {
+        "day": "4일차",
+        "label": "18홀 → 인천",
+        "desc": "호텔 조식, 체크아웃 후 골프장 이동(약 20~40분) → 치란 또는 난코쿠CC 중 18홀 셀프 + 카트 → 공항으로 이동(약 40분) → 가고시마국제공항 출발(이스타항공 ZE652 18:10) → 인천국제공항 도착(20:40) 후 해산"
+      }
+    ],
+    "highlights": [
+      "이스타항공 인천-가고시마 직항",
+      "치란CC·난코쿠CC 2색 54홀",
+      "텐몬칸 시내 호텔 · 시내 식사와 쇼핑",
+      "조식 포함 · 2명부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (이스타항공, 위탁 수하물 20kg: 골프백 1 + 캐리어 1)",
+      "텐몬칸 시내 호텔 2인 1실",
+      "조식",
+      "골프 3회 그린피 + 카트비",
+      "공항 왕복 송영",
+      "여행자보험"
+    ],
+    "excludes": [
+      "중식, 석식, 개인비용",
+      "송영 차량은 4인 기준: 3인 1인 2만원 · 2인 1인 5만원 추가",
+      "2인 라운딩: 18홀 1인 치란CC 2만원 · 난코쿠CC 3만원 추가 (주중·주말 같음)",
+      "3인 라운딩: 18홀 1인 치란CC 5천원 · 난코쿠CC 1만원 추가 (주중·주말 같음)",
+      "9홀 추가: 치란CC 4인 3만5천원·3인 4만원·2인 5만원 / 난코쿠CC 4인 5만원·3인 5만5천원·2인 6만5천원 (1인)"
+    ],
+    "cancelPolicy": [
+      "표시되지 않은 날짜는 예약 가능 여부와 요금을 문의해 주세요.",
+      "항공 좌석과 호텔·골프장을 확인한 뒤 1인 200,000원(항공 발권 및 예약금)을 입금하시면 확정되고, 출발 2주 전 잔금을 입금합니다.",
+      "예약 때 여권 정보와 여권 사본이 필요합니다.",
+      "항공 좌석이 소진되면 요금이 오를 수 있고, 예약 후 바로 발권될 수 있습니다.",
+      "골프장 자체 휴장 외에는 환불되지 않습니다.",
+      "항공권은 항공사 규정을 따르며, 현지 취소 수수료는 출발 30일 전부터 발생합니다.",
+      "상기 일정은 항공 및 현지 사정에 의하여 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-01",
+        "price": 1210000
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1250000
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1320000
+      },
+      {
+        "date": "2026-12-08",
+        "price": 1210000
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1250000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1280000
+      },
+      {
+        "date": "2026-12-15",
+        "price": 1280000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1320000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1280000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1330000
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1380000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1490000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1280000
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1280000
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1280000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1340000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1460000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1440000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1400000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1330000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1280000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1320000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1280000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1280000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1350000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1280000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1280000
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1280000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1340000
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1410000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1370000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1300000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1300000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1300000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1340000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1480000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1410000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1420000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1350000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1350000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1300000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1340000
+      }
+    ],
+    "image": "/images/japan-kagoshima-tenmonkan/course-1.jpg",
+    "hotelImages": [
+      "/images/kagoshima-sundays-tenmonkan-incheon/hotel-1.jpg",
+      "/images/kagoshima-sundays-tenmonkan-incheon/hotel-2.jpg",
+      "/images/kagoshima-sundays-tenmonkan-incheon/hotel-3.jpg",
+      "/images/kagoshima-sundays-tenmonkan-incheon/hotel-4.jpg",
+      "/images/kagoshima-sundays-tenmonkan-incheon/hotel-5.jpg",
+      "/images/kagoshima-sundays-tenmonkan-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/japan-kagoshima-tenmonkan/course-1.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-2.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-3.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-4.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-5.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-6.jpg"
+    ],
+    "seoIntro": "인천 출발 가고시마 골프여행으로, 이스타항공 직항과 텐몬칸 시내 호텔에서 치란CC·난코쿠CC 2색 3박4일 54홀을 라운딩하는 골프패키지입니다.",
+    "seoKeywords": [
+      "가고시마골프",
+      "가고시마골프여행",
+      "텐몬칸골프",
+      "치란CC",
+      "난코쿠CC",
+      "일본골프여행",
+      "인천출발"
+    ],
+    "price": "1,210,000원~",
+    "priceUpdatedDate": "2026-11-06",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "images": [
+      "/images/japan-kagoshima-tenmonkan/course-1.jpg",
+      "/images/kagoshima-sundays-tenmonkan-incheon/hotel-1.jpg",
+      "/images/kagoshima-sundays-tenmonkan-incheon/hotel-2.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-2.jpg",
+      "/images/japan-kagoshima-tenmonkan/course-3.jpg",
+      "/images/kagoshima-sundays-tenmonkan-incheon/hotel-3.jpg"
+    ]
+  },
+  {
+    "id": "malaysia-kualalumpur-impian-incheon",
+    "country": "말레이시아",
+    "countryCode": "malaysia",
+    "region": "쿠알라룸푸르",
+    "title": "[인천출발] 말레이시아 쿠알라룸푸르 골프여행 임피안CC 4박6일 72홀·5박7일 90홀 바틱에어 1월 지정일 1,440,000원부터",
+    "displayTitle": "쿠알라룸푸르 임피안CC 4박6일·5박7일",
+    "subtitle": "바틱에어 인천-쿠알라룸푸르 · 임피안CC · 오리엔탈 크리스탈 호텔(2인 1실) · 그린피·카트·세 끼 포함(1일차 석식 제외) · 2027년 1월 5회 출발",
+    "nights": 4,
+    "days": 6,
+    "courses": 1,
+    "roundsIncluded": 4,
+    "holes": "4박6일 72홀 · 5박7일 90홀",
+    "minPeople": "2인부터 출발 (조인 플레이가 될 수 있습니다)",
+    "period": "2027년 1월 7일 ~ 1월 28일 (1/7 4박6일, 1/8·14·21·28 5박7일)",
+    "hotel": "오리엔탈 크리스탈 호텔 (2인 1실)",
+    "hotelDesc": "현지인 생활권인 카장에 있는 호텔로, 마트와 음식점이 걸어갈 수 있는 거리에 있어 간단한 쇼핑과 식사가 편합니다. 쿠알라룸푸르 공항에서 약 50분, 골프장까지 약 15분 걸립니다.",
+    "golfCourse": "임피안CC",
+    "golfCourseDesc": "임피안CC는 카장에 있는 18홀 파72 코스로, 캐디 없이 카트로 셀프 플레이합니다. 주중은 오전, 주말·공휴일은 오후 티타임이 배정될 수 있습니다. 캐디는 사전 신청 시 2인 1캐디로 이용할 수 있습니다.",
+    "productSummary": "바틱에어로 쿠알라룸푸르에 가서 카장의 오리엔탈 크리스탈 호텔에 묵으며 임피안CC를 라운딩하는 1월 지정일 상품입니다.\n1월 7일 출발은 4박6일 72홀, 1월 8·14·21·28일 출발은 5박7일 90홀이며, 1일차 석식을 뺀 전 일정 식사가 포함됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 쿠알라룸푸르",
+        "desc": "인천국제공항 출발(바틱에어 OD821 06:50) → 쿠알라룸푸르 공항 도착(12:30) → 미팅 후 호텔 이동(약 50분) → 체크인 및 휴식 [석식 불포함, 요청 시 1인 1만원] 호텔: 오리엔탈 크리스탈"
+      },
+      {
+        "day": "체류일",
+        "label": "임피안CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 15분) → 임피안CC 18홀 셀프 카트 → 호텔 휴식 [조식·중식·석식 포함] (4박6일 총 72홀 · 5박7일 총 90홀)"
+      },
+      {
+        "day": "귀국 전날",
+        "label": "쿠알라룸푸르 출발",
+        "desc": "마지막 라운딩 후 쿠알라룸푸르 공항으로 이동 → 쿠알라룸푸르 공항 출발(바틱에어 OD820 22:00)"
+      },
+      {
+        "day": "마지막 날",
+        "label": "인천 도착",
+        "desc": "인천국제공항 도착(05:50) 후 해산"
+      }
+    ],
+    "highlights": [
+      "바틱에어 인천-쿠알라룸푸르",
+      "4박6일 72홀 · 5박7일 90홀",
+      "그린피·카트비 포함, 캐디 없는 셀프 플레이",
+      "1일차 석식 빼고 전 일정 식사 포함",
+      "2인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공권 및 유류세 (바틱에어)",
+      "일정 내 그린피",
+      "일정 내 카트비 (캐디 없는 셀프 플레이)",
+      "호텔 2인 1실",
+      "조식·중식·석식 (1일차 석식 제외)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "1일차 석식 (요청 시 1인 1만원), 개인비용",
+      "미팅·샌딩비 왕복 1인 $50 (4인 기준, 2~3인은 문의)",
+      "캐디 (사전 신청 필수, 2인 1캐디 18홀 1인 $20)",
+      "스타필드CC 외부 라운딩 추가금 (주중 한정 배정, 확약 후 취소 불가)"
+    ],
+    "cancelPolicy": [
+      "1월 7일 출발은 4박6일 1,440,000원, 1월 8·14·21·28일 출발은 5박7일 1,640,000원입니다(1인).",
+      "단체 항공권이 소진되면 마감됩니다. 대한항공 등 다른 항공은 별도 문의해 주세요.",
+      "2인 출발 시 조인 플레이가 될 수 있습니다.",
+      "주말·공휴일은 오후 티타임이 배정될 수 있습니다."
+    ],
+    "holePriceTiers": [
+      {
+        "label": "4박6일",
+        "holes": 72,
+        "pattern": "1월 7일 출발 · 72홀",
+        "price": 1440000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "label": "5박7일",
+        "holes": 90,
+        "pattern": "1월 8·14·21·28일 출발 · 90홀",
+        "price": 1640000,
+        "nights": 5,
+        "days": 7
+      }
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-07",
+        "price": 1440000,
+        "nights": 4,
+        "days": 6
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1640000,
+        "nights": 5,
+        "days": 7
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1640000,
+        "nights": 5,
+        "days": 7
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1640000,
+        "nights": 5,
+        "days": 7
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1640000,
+        "nights": 5,
+        "days": 7
+      }
+    ],
+    "image": "/images/kualalumpur-impian-incheon/course-1.jpg",
+    "hotelImages": [
+      "/images/kualalumpur-impian-incheon/hotel-1.jpg",
+      "/images/kualalumpur-impian-incheon/hotel-2.jpg",
+      "/images/kualalumpur-impian-incheon/hotel-3.jpg",
+      "/images/kualalumpur-impian-incheon/hotel-4.jpg",
+      "/images/kualalumpur-impian-incheon/hotel-5.jpg",
+      "/images/kualalumpur-impian-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/kualalumpur-impian-incheon/course-1.jpg",
+      "/images/kualalumpur-impian-incheon/course-2.jpg",
+      "/images/kualalumpur-impian-incheon/course-3.jpg",
+      "/images/kualalumpur-impian-incheon/course-4.jpg",
+      "/images/kualalumpur-impian-incheon/course-5.jpg",
+      "/images/kualalumpur-impian-incheon/course-6.jpg",
+      "/images/kualalumpur-impian-incheon/course-7.jpg",
+      "/images/kualalumpur-impian-incheon/course-8.jpg"
+    ],
+    "seoIntro": "인천 출발 쿠알라룸푸르 골프여행으로, 바틱에어와 카장의 오리엔탈 크리스탈 호텔에서 임피안CC 4박6일 72홀 또는 5박7일 90홀을 라운딩하는 골프패키지입니다.",
+    "seoKeywords": [
+      "쿠알라룸푸르골프",
+      "쿠알라룸푸르골프여행",
+      "임피안CC",
+      "말레이시아골프",
+      "카장",
+      "인천출발"
+    ],
+    "price": "1,440,000원~",
+    "priceUpdatedDate": "2026-11-06",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "images": [
+      "/images/kualalumpur-impian-incheon/course-1.jpg",
+      "/images/kualalumpur-impian-incheon/hotel-1.jpg",
+      "/images/kualalumpur-impian-incheon/hotel-2.jpg",
+      "/images/kualalumpur-impian-incheon/course-2.jpg",
+      "/images/kualalumpur-impian-incheon/course-3.jpg",
+      "/images/kualalumpur-impian-incheon/hotel-3.jpg"
+    ]
+  },
+  {
+    "id": "thailand-ayutthaya-centara-1214-incheon",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "방콕",
+    "title": "[인천출발] 태국 아유타야 골프여행 센타라 호텔 시내 다색 매일 36홀 3박5일 12월 14일 출발 1,150,000원",
+    "displayTitle": "아유타야 센타라 호텔 다색 매일 36홀 3박5일",
+    "subtitle": "트리니티항공(구 티웨이) 인천-방콕 · 준5성 센타라 아유타야 호텔(2인 1실) · 아유타야·왕노이·노턴랑싯·방사이CC · 매일 36홀 그린피 · 전 일정 식사 · 12월 14일 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 4,
+    "roundsIncluded": 3,
+    "holes": "매일 36홀\n아유타야·왕노이·노턴랑싯·방사이CC 다색",
+    "minPeople": 2,
+    "period": "2026년 12월 14일(월) ~ 12월 18일(금) 1회 출발",
+    "hotel": "센타라 아유타야 호텔 (준5성, 2인 1실)",
+    "hotelDesc": "아유타야 시내에 있는 준5성 호텔로, 차로 5분 정도면 아유타야 역사 공원과 일본 마을에 갈 수 있습니다. 왓 야이 차이몽콘까지 3.4km, 왓 파난 청까지 4.4km이며, 저녁에는 야시장과 마사지 등 시내 관광을 즐기실 수 있습니다.",
+    "golfCourse": "아유타야CC · 왕노이CC · 노턴랑싯CC · 방사이CC",
+    "golfCourseDesc": "이용 골프장은 아유타야CC·왕노이CC·노턴랑싯CC·방사이CC이고 매일 36홀을 라운딩합니다. 기본 일정 순서는 방사이→아유타야→노턴랑싯이며, 방사이CC는 특별한 경우 외에는 주중에만 라운딩할 수 있습니다. 골프장 부킹과 행사 등 현지 사정으로 골프장 일정이 바뀔 수 있습니다.",
+    "productSummary": "12월 14일 인천에서 출발해 아유타야 시내 준5성 센타라 호텔에 묵으며 매일 36홀을 라운딩하는 3박5일 지정일 상품입니다.\n방콕 공항에서 약 50분 거리이고, 전 일정 식사와 매일 36홀 그린피가 포함됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 방콕",
+        "desc": "인천국제공항 출발(트리니티항공 TW101 19:50) → 방콕 공항 도착(다음 날 00:10) → 미팅 후 호텔 이동(약 50분) → 체크인 및 휴식 [호텔: 센타라 아유타야]"
+      },
+      {
+        "day": "2일차",
+        "label": "방사이CC 36홀",
+        "desc": "식사 후 골프장 이동 → 방사이CC 36홀 → 호텔 휴식 및 자유시간 [전 일정 식사 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "아유타야CC 36홀",
+        "desc": "식사 후 골프장 이동 → 아유타야CC 36홀 → 호텔 휴식 및 자유시간 [전 일정 식사 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "노턴랑싯CC 36홀 → 공항",
+        "desc": "식사 후 골프장 이동 → 노턴랑싯CC 36홀 → 방콕 공항으로 이동 [전 일정 식사 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "방콕 → 인천",
+        "desc": "방콕 공항 출발(트리니티항공 TW102 01:30) → 인천국제공항 도착(09:00) 후 해산"
+      }
+    ],
+    "highlights": [
+      "12월 14일 출발 3박5일 지정일 1,150,000원",
+      "아유타야·왕노이·노턴랑싯·방사이CC 다색",
+      "매일 36홀 그린피 포함",
+      "준5성 센타라 호텔 · 전 일정 식사",
+      "공항에서 약 50분 · 야시장·마사지 등 시내 관광"
+    ],
+    "includes": [
+      "왕복 항공료 및 유류세 (트리니티항공, 구 티웨이)",
+      "준5성 센타라 호텔 2인 1실",
+      "전 일정 식사",
+      "매일 36홀 그린피",
+      "골프장 이동 차량",
+      "여행자보험"
+    ],
+    "excludes": [
+      "미팅·샌딩 1인 $50 (4인 출발) / $100 (2인 출발)",
+      "카트비 18홀 1인 600~700바트",
+      "캐디피 18홀 1인 400바트",
+      "캐디팁 18홀 1인 300바트",
+      "태국 달력 기준 주말·공휴일 그린피 1일 1인 4만원 추가",
+      "싱글룸 1박 1인 55,000원"
+    ],
+    "cancelPolicy": [
+      "2인 1카트는 18홀 2인 400바트이며 노턴랑싯CC와 아유타야CC(주중만) 가능합니다.",
+      "4박 이상은 별도 문의해 주세요.",
+      "현지 사정으로 골프장 일정이 바뀌는 경우 동의를 받고 진행합니다.",
+      "라운딩 후 저녁시간은 자유시간이며, 개별 외출 중 사고와 불이익은 본인 책임입니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-14",
+        "price": 1150000
+      }
+    ],
+    "image": "/images/ayutthaya-centara-incheon/course-1.jpg",
+    "hotelImages": [
+      "/images/ayutthaya-centara-incheon/hotel-1.jpg",
+      "/images/ayutthaya-centara-incheon/hotel-2.jpg",
+      "/images/ayutthaya-centara-incheon/hotel-3.jpg",
+      "/images/ayutthaya-centara-incheon/hotel-4.jpg",
+      "/images/ayutthaya-centara-incheon/hotel-5.jpg",
+      "/images/ayutthaya-centara-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/ayutthaya-centara-incheon/course-1.jpg",
+      "/images/ayutthaya-centara-incheon/course-2.jpg",
+      "/images/ayutthaya-centara-incheon/course-3.jpg",
+      "/images/ayutthaya-centara-incheon/course-4.jpg",
+      "/images/ayutthaya-centara-incheon/course-5.jpg",
+      "/images/ayutthaya-centara-incheon/course-6.jpg",
+      "/images/ayutthaya-centara-incheon/course-7.jpg",
+      "/images/ayutthaya-centara-incheon/course-8.jpg"
+    ],
+    "seoIntro": "인천 출발 태국 아유타야 골프여행으로, 준5성 센타라 호텔에 묵으며 아유타야·왕노이·노턴랑싯·방사이CC 중 기본 일정에 따라 매일 36홀을 라운딩하는 3박5일 지정일 상품입니다.",
+    "seoKeywords": [
+      "아유타야골프",
+      "방콕골프",
+      "태국골프여행",
+      "매일36홀",
+      "아유타야골프여행",
+      "인천출발"
+    ],
+    "price": "1,150,000원~",
+    "priceUpdatedDate": "2026-11-06",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "images": [
+      "/images/ayutthaya-centara-incheon/course-1.jpg",
+      "/images/ayutthaya-centara-incheon/hotel-1.jpg",
+      "/images/ayutthaya-centara-incheon/hotel-2.jpg",
+      "/images/ayutthaya-centara-incheon/course-2.jpg",
+      "/images/ayutthaya-centara-incheon/course-3.jpg",
+      "/images/ayutthaya-centara-incheon/hotel-3.jpg"
+    ]
+  },
+  {
+    "id": "philippines-clark-clover-3color-incheon",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "region": "클락",
+    "title": "[인천출발] 필리핀 클락 골프여행 클로버 호텔 베버리·뉴아시아·더 비스타 3색 3박5일 54홀 11월 일·월·화 출발 1,090,000원",
+    "displayTitle": "클락 클로버 호텔 3색 3박5일",
+    "subtitle": "제주항공 또는 진에어 · 클로버 호텔(2인 1실) · 베버리·뉴아시아·더 비스타 18홀 x 3회 · 전용 차량과 전담 기사 · 22시 레이트 체크아웃 · 11월 일·월·화 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)",
+    "minPeople": "4인 기준 (2~3인은 별도 문의)",
+    "period": "2026년 11월 8일 ~ 11월 30일 일·월·화 출발",
+    "hotel": "클로버 호텔 (2인 1실)",
+    "hotelDesc": "클락의 실속형 호텔로 2인 1실에 묵고 조식이 포함됩니다. 마지막 날은 22시까지 레이트 체크아웃을 이용할 수 있습니다. 클락 내 호텔은 모두 금연이며, 객실 보증금은 체크인 때 내시고 체크아웃 때 발생 내역이 없으면 돌려받습니다.",
+    "golfCourse": "베버리CC · 뉴아시아CC · 더 비스타CC",
+    "golfCourseDesc": "베버리CC·뉴아시아CC·더 비스타CC를 18홀씩 라운딩하는 3색 상품입니다. 그린피는 포함이고, 카트비와 캐디피는 18홀 1인 베버리 1,800페소·뉴아시아 1,800페소·더 비스타 1,500페소(총 5,100페소)를 골프장에 직접 냅니다.",
+    "productSummary": "노가이드·노쇼핑·노옵션 자유 골프 투어로, 일행만을 위한 전용 차량과 전담 기사가 배정됩니다.\n클로버 호텔에 묵으며 베버리·뉴아시아·더 비스타를 18홀씩 라운딩하고, 라운딩 뒤에는 클락 안에서 기사와 함께 자유롭게 일정을 보냅니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 클락",
+        "desc": "인천국제공항 출발(제주항공 7C2107 21:40) → 클락 국제공항 도착(다음 날 00:45) → 전담 기사 미팅 후 호텔로 이동 → 체크인 및 투숙 [호텔: 클로버 호텔 2인 1실] (제주항공 또는 진에어 랜덤 배정)"
+      },
+      {
+        "day": "2일차",
+        "label": "베버리CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 베버리CC 18홀 → 자유시간 및 투숙 [조식: 호텔식 / 중식·석식: 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "뉴아시아CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동 → 뉴아시아CC 18홀 → 자유시간 및 투숙 [조식: 호텔식 / 중식·석식: 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "더 비스타CC 18홀 → 공항",
+        "desc": "호텔 조식 후 골프장 이동 → 더 비스타CC 18홀 → 22:00 이전 공항으로 이동 [조식: 호텔식 / 중식·석식: 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "클락 → 인천",
+        "desc": "클락 국제공항 출발(제주항공 7C2108 01:45) → 인천국제공항 도착(06:40) 후 해산"
+      }
+    ],
+    "highlights": [
+      "베버리·뉴아시아·더 비스타 3색 54홀",
+      "일행 전용 차량 + 전담 기사 (클락 안)",
+      "노가이드·노쇼핑·노옵션 자유 골프",
+      "마지막 날 22시 레이트 체크아웃",
+      "11월 일·월·화 출발 1,090,000원"
+    ],
+    "includes": [
+      "왕복 항공권 (유류할증료·TAX 포함, 제주항공 또는 진에어 랜덤 배정)",
+      "호텔 2인 1실 및 조식",
+      "그린피 18홀 3회",
+      "전용 차량 및 전담 기사 (클락 안 이용 조건)",
+      "일정상 주유비",
+      "22시 레이트 체크아웃",
+      "여행자보험"
+    ],
+    "excludes": [
+      "카트비 + 캐디피 총 1인 5,100페소 (베버리 1,800 + 뉴아시아 1,800 + 더 비스타 1,500, 골프장에 직접 지불)",
+      "중식, 석식",
+      "캐디팁 18홀 1인 100페소~",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "4인 예약 기준 요금이며 2~3인 출발은 별도 문의해 주세요.",
+      "항공 편명·시간은 제주항공 기준이며 진에어로 배정되면 달라집니다.",
+      "골프장과 숙소는 원칙적으로 변경할 수 없으며 별도 문의해 주세요. 뉴아시아를 디하이츠로 바꾸면 1인 7만원과 카트비+캐디피 1,600페소가 듭니다.",
+      "기사와 차량은 1일 12시간 기준이며 19시 이후에는 기사 비용 500페소가 추가됩니다.",
+      "싱글룸은 1박 1인 4만원 추가되며 사전 예약 조건입니다.",
+      "캐디 부족으로 2인 1캐디로 플레이해도 캐디피는 전액 내셔야 합니다.",
+      "이른 티업 시간에는 조식을 못 드실 수 있습니다.",
+      "귀국편이 늦어도 22:00 이전 공항 출발이 원칙입니다.",
+      "우천 환불 규정은 골프장 규정을 따릅니다.",
+      "골프장에 따라 외부 음식·음료 반입이 금지되며, 적발 시 플레이가 중단됩니다.",
+      "상기 일정은 항공사, 천재지변, 현지 사정에 의해 변동될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-08",
+        "price": 1090000
+      },
+      {
+        "date": "2026-11-09",
+        "price": 1090000
+      },
+      {
+        "date": "2026-11-10",
+        "price": 1090000
+      },
+      {
+        "date": "2026-11-15",
+        "price": 1090000
+      },
+      {
+        "date": "2026-11-16",
+        "price": 1090000
+      },
+      {
+        "date": "2026-11-17",
+        "price": 1090000
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1090000
+      },
+      {
+        "date": "2026-11-23",
+        "price": 1090000
+      },
+      {
+        "date": "2026-11-24",
+        "price": 1090000
+      },
+      {
+        "date": "2026-11-29",
+        "price": 1090000
+      },
+      {
+        "date": "2026-11-30",
+        "price": 1090000
+      }
+    ],
+    "image": "/images/clark-clover-incheon/course-1.jpg",
+    "hotelImages": [
+      "/images/clark-clover-incheon/hotel-1.jpg",
+      "/images/clark-clover-incheon/hotel-2.jpg",
+      "/images/clark-clover-incheon/hotel-3.jpg",
+      "/images/clark-clover-incheon/hotel-4.jpg"
+    ],
+    "courseImages": [
+      "/images/clark-clover-incheon/course-1.jpg",
+      "/images/clark-clover-incheon/course-2.jpg",
+      "/images/clark-clover-incheon/course-3.jpg",
+      "/images/clark-clover-incheon/course-4.jpg",
+      "/images/clark-clover-incheon/course-5.jpg",
+      "/images/clark-clover-incheon/course-6.jpg",
+      "/images/clark-clover-incheon/course-7.jpg",
+      "/images/clark-clover-incheon/course-8.jpg"
+    ],
+    "seoIntro": "인천 출발 필리핀 클락 골프여행으로, 클로버 호텔에 묵으며 베버리·뉴아시아·더 비스타 3색 3박5일 54홀을 전용 차량과 함께 즐기는 자유 골프패키지입니다.",
+    "seoKeywords": [
+      "클락골프",
+      "클락골프여행",
+      "필리핀골프",
+      "베버리CC",
+      "뉴아시아CC",
+      "더비스타CC",
+      "인천출발"
+    ],
+    "price": "1,090,000원~",
+    "priceUpdatedDate": "2026-11-06",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "images": [
+      "/images/clark-clover-incheon/course-1.jpg",
+      "/images/clark-clover-incheon/hotel-1.jpg",
+      "/images/clark-clover-incheon/hotel-2.jpg",
+      "/images/clark-clover-incheon/course-2.jpg",
+      "/images/clark-clover-incheon/course-3.jpg",
+      "/images/clark-clover-incheon/hotel-3.jpg"
+    ]
+  },
+  {
+    "id": "china-shenzhen-missionhills-dongguan-1127-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "심천",
+    "title": "[인천출발] 중국 심천 골프여행 미션힐스 동관 리조트 3박5일 54홀 파라타항공 11월 27일 출발 1,790,000원",
+    "displayTitle": "심천 미션힐스 동관 3박5일 54홀",
+    "subtitle": "파라타항공 인천-심천 직항 · 미션힐스 동관 리조트(5성, 2인 1실) · 매일 18홀 총 54홀 · 그린피·카트비·캐디피 포함 · 11월 27일 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)\n코스는 랜덤 배정",
+    "minPeople": "2인 (4인 미만은 현지 조인 가능)",
+    "period": "2026년 11월 27일(금) ~ 12월 1일(화) 1회 출발",
+    "hotel": "미션힐스 동관 리조트 (5성, 2인 1실)",
+    "hotelDesc": "푸른 골프 코스에 둘러싸인 5성급 리조트로, 골프장까지 도보 약 3분입니다. 리조트 안에 한식·중식·일식 등 식당이 다양합니다. 체크인 때 객실당 약 2,000위안의 보증금(신용카드·현금)이 필요합니다.",
+    "golfCourse": "미션힐스 동관·심천",
+    "golfCourseDesc": "12개 코스 216홀 규모의 미션힐스에서 코스를 랜덤 배정받아 매일 18홀씩 라운딩합니다. 동관 주요 코스는 그렉 노먼 코스(파72 · 7,219야드), 애니카 코스(파72 · 6,703야드), 로즈-폴터 코스(파72 · 7,034야드), 리드베터 코스(파72 · 7,105야드)입니다. 심천 리조트 코스를 이용하려면 셔틀버스를 직접 타셔야 합니다.",
+    "productSummary": "파라타항공 직항으로 심천에 가서 미션힐스 동관 리조트에 3박하며 매일 18홀씩 총 54홀을 라운딩하는 11월 27일 출발 상품입니다.\n그린피·카트비·캐디피가 포함되고, 리조트에서 골프장까지 걸어서 약 3분입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 심천",
+        "desc": "11/27(금) 인천국제공항 제1터미널 출발(파라타항공 WE853 23:10) → 심천 국제공항 도착(다음 날 02:00) → 입국 심사 후 기사 미팅, 호텔로 이동(약 1시간) → 체크인 후 휴식 [호텔: 미션힐스 동관 리조트 2인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "미션힐스 18홀",
+        "desc": "11/28(토) 호텔 조식(06:00~09:30) 후 골프장으로 이동(도보 3분) → 미션힐스 18홀(코스 랜덤 배정) → 호텔로 이동 후 자유시간 [조식: 호텔식 / 중식·석식: 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "미션힐스 18홀",
+        "desc": "11/29(일) 호텔 조식(06:00~09:30) 후 골프장으로 이동(도보 3분) → 미션힐스 18홀(코스 랜덤 배정) → 호텔로 이동 후 자유시간 [조식: 호텔식 / 중식·석식: 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "미션힐스 18홀 → 공항",
+        "desc": "11/30(월) 호텔 조식(06:00~09:30) 후 체크아웃, 골프장으로 이동(도보 3분) → 미션힐스 18홀(코스 랜덤 배정) → 자유시간 → 22:30 기사 미팅 후 공항으로 이동(약 1시간) [조식: 호텔식 / 중식·석식: 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "심천 → 인천",
+        "desc": "12/1(화) 심천 국제공항 출발(파라타항공 WE854 03:30) → 인천국제공항 제1터미널 도착(07:40) 후 해산"
+      }
+    ],
+    "highlights": [
+      "파라타항공 인천-심천 직항 11월 27일 출발",
+      "12개 코스 216홀 미션힐스 · 총 54홀",
+      "5성급 동관 리조트 · 골프장까지 도보 3분",
+      "그린피·카트비·캐디피 포함",
+      "2인부터 예약"
+    ],
+    "includes": [
+      "왕복 항공권 (유류할증료·TAX 포함, 파라타항공, 위탁 15kg 캐리어+골프백 합산, 기내 10kg 1개)",
+      "미션힐스 동관 리조트 3박 (2인 1실)",
+      "호텔 조식",
+      "총 54홀 그린피 + 카트비 + 캐디피",
+      "여행자보험"
+    ],
+    "excludes": [
+      "공항 미팅·샌딩비 1인 400위안 (4인 이상) / 535위안 (3인) / 800위안 (2인)",
+      "캐디팁 1인 1캐디 18홀 200위안",
+      "중식, 석식",
+      "가이드, 개인경비",
+      "싱글룸 1박 1인 9만원",
+      "싱글카트 18홀 50위안"
+    ],
+    "cancelPolicy": [
+      "플래티넘 카드는 1인 10만원 추가이며 중식 1회·석식 1회(날짜 나눠 사용 가능)와 FOREST SPRINGS SPA 20% 할인이 포함됩니다.",
+      "리조트 식당 중·석식은 끼니당 150위안부터입니다.",
+      "예약 시 지정된 홀수는 의무 라운딩이며, 불포함 비용은 현지 도착 후 한 번에 냅니다. 라운딩하지 않아도 환불되지 않습니다.",
+      "예약 확정 시 1인 50만원 예약금을 입금합니다.",
+      "특별약관 상품으로, 예약금 입금 후 취소 시 예약금은 환불되지 않고, 항공권은 예약 확정 또는 발권 후 취소 시 100% 부과되며, 출발 일주일 전 완납 후 취소 시 여행경비 전액 환불되지 않습니다.",
+      "마지막 날 유료 관광은 4명부터 가능하며 첫날 기사 미팅 때 예약합니다(문의).",
+      "좌석이 소진되면 요금이 오를 수 있습니다. 항공과 현지 일정은 상황에 따라 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-27",
+        "price": 1790000
+      }
+    ],
+    "image": "/images/guangzhou-missionhills-dongguan/course-1.jpg",
+    "hotelImages": [
+      "/images/guangzhou-missionhills-dongguan/hotel-1.jpg",
+      "/images/guangzhou-missionhills-dongguan/hotel-2.jpg",
+      "/images/guangzhou-missionhills-dongguan/hotel-3.jpg",
+      "/images/guangzhou-missionhills-dongguan/hotel-4.jpg",
+      "/images/guangzhou-missionhills-dongguan/hotel-5.jpg",
+      "/images/guangzhou-missionhills-dongguan/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/guangzhou-missionhills-dongguan/course-1.jpg",
+      "/images/guangzhou-missionhills-dongguan/course-2.jpg",
+      "/images/guangzhou-missionhills-dongguan/course-3.jpg",
+      "/images/guangzhou-missionhills-dongguan/course-4.jpg",
+      "/images/guangzhou-missionhills-dongguan/course-5.jpg",
+      "/images/guangzhou-missionhills-dongguan/course-6.jpg"
+    ],
+    "seoIntro": "인천 출발 심천 골프여행으로, 파라타항공 직항과 5성급 미션힐스 동관 리조트에서 3박5일 54홀을 라운딩하는 11월 27일 출발 골프패키지입니다.",
+    "seoKeywords": [
+      "심천골프",
+      "심천골프여행",
+      "미션힐스",
+      "미션힐스동관",
+      "중국골프여행",
+      "인천출발"
+    ],
+    "price": "1,790,000원~",
+    "priceUpdatedDate": "2026-11-06",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "images": [
+      "/images/guangzhou-missionhills-dongguan/course-1.jpg",
+      "/images/guangzhou-missionhills-dongguan/hotel-1.jpg",
+      "/images/guangzhou-missionhills-dongguan/hotel-2.jpg",
+      "/images/guangzhou-missionhills-dongguan/course-2.jpg",
+      "/images/guangzhou-missionhills-dongguan/course-3.jpg",
+      "/images/guangzhou-missionhills-dongguan/hotel-3.jpg"
+    ]
   }
 ]

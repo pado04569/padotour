@@ -10398,5 +10398,59 @@
       "japan-saga-taku-matsuya-3n4d-incheon",
       "japan-saga-taku-matsuya-4n5d-incheon"
     ]
+  },
+  {
+    "slug": "impian-golf-country-club",
+    "name": "임피안CC",
+    "nameEn": "Impian Golf & Country Club",
+    "aliases": [
+      "임피안",
+      "Impian"
+    ],
+    "region": "쿠알라룸푸르",
+    "country": "말레이시아",
+    "countryCode": "malaysia",
+    "summary": "쿠알라룸푸르 근교 카장의 18홀 파72 코스, 1995년 개장 · 로스 왓슨 설계",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파",
+        "value": "파72"
+      },
+      {
+        "label": "설계",
+        "value": "로스 왓슨 (Ross Watson)"
+      },
+      {
+        "label": "개장",
+        "value": "1995년"
+      },
+      {
+        "label": "소재지",
+        "value": "말레이시아 슬랑오르주 카장"
+      }
+    ],
+    "description": "임피안CC는 쿠알라룸푸르 시내에서 남쪽으로 멀지 않은 카장에 있는 18홀 파72 코스입니다. 1995년 문을 열었고 호주 출신 코스 설계가 로스 왓슨이 설계했습니다.\n\n여행의파도 임피안 상품은 캐디 없이 카트로 셀프 플레이하는 방식이며, 카장의 오리엔탈 크리스탈 호텔에서 골프장까지 약 15분 걸립니다.",
+    "images": [
+      "/images/kualalumpur-impian-incheon/course-1.jpg",
+      "/images/kualalumpur-impian-incheon/course-2.jpg",
+      "/images/kualalumpur-impian-incheon/course-3.jpg",
+      "/images/kualalumpur-impian-incheon/course-4.jpg",
+      "/images/kualalumpur-impian-incheon/course-5.jpg",
+      "/images/kualalumpur-impian-incheon/course-6.jpg"
+    ],
+    "hashtags": [
+      "임피안CC",
+      "쿠알라룸푸르골프",
+      "말레이시아골프",
+      "카장골프",
+      "해외골프패키지"
+    ],
+    "relatedTourIds": [
+      "malaysia-kualalumpur-impian-incheon"
+    ]
   }
 ]
