@@ -11814,5 +11814,66 @@
       "china-guangzhou-wuyi-heshan-zhaoqing-busan-4n6d",
       "china-guangzhou-wuyi-zhaoqing-crowne-incheon"
     ]
+  },
+  {
+    "slug": "emerald-golf-club-guangzhou",
+    "name": "에메랄드CC",
+    "nameEn": "Emerald Lakes Golf Club (佛山云东海高尔夫球会)",
+    "aliases": [
+      "에메랄드 CC",
+      "에머랄드CC"
+    ],
+    "region": "광저우",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "포산 윈둥하이의 산지형 18홀 파72·7,136야드 코스, 광저우 권역 대표 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,136야드"
+      },
+      {
+        "label": "설계",
+        "value": "미국 JFO 골프설계사"
+      },
+      {
+        "label": "개장",
+        "value": "2009년"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 광둥성 포산시 싼수이구 윈둥하이"
+      },
+      {
+        "label": "접근",
+        "value": "광저우 공항에서 약 64km"
+      }
+    ],
+    "description": "에메랄드CC(Emerald Lakes Golf Club)는 광저우 서쪽 포산시 싼수이구 윈둥하이에 있는 18홀 파72, 전장 7,136야드 골프장입니다. 2009년에 문을 열었고 미국 JFO 골프설계사가 설계했습니다. 광저우 공항에서는 약 64km 떨어져 있습니다.\n\n산으로 둘러싸인 산지형 코스로, 자연 지형을 살려 홀마다 기복이 있고 곳곳에 워터해저드와 벙커가 자리합니다. 그린에도 언듈레이션이 있어 공략을 생각하며 라운딩하게 됩니다.\n\n2012년 1월 '2011 중국 골프대상'에서 최우수 산림 코스로 선정된 이력이 있습니다. 여행의파도 광저우 3색 골프여행에서 조경CC·그랜드레이크CC와 함께 라운딩하는 코스입니다.",
+    "images": [
+      "/images/emerald-golf-club-guangzhou/course-1.jpg",
+      "/images/emerald-golf-club-guangzhou/course-2.jpg",
+      "/images/emerald-golf-club-guangzhou/course-3.jpg",
+      "/images/emerald-golf-club-guangzhou/course-4.jpg",
+      "/images/emerald-golf-club-guangzhou/course-5.jpg"
+    ],
+    "hashtags": [
+      "에메랄드CC",
+      "광저우골프장",
+      "포산골프",
+      "광저우골프여행",
+      "중국골프여행",
+      "광저우3색골프"
+    ],
+    "relatedTourIds": [
+      "china-guangzhou-3color-shenzhen-incheon",
+      "china-guangzhou-3color-shenzhen-incheon-4n6d",
+      "china-guangzhou-emerald-busan",
+      "china-guangzhou-emerald-busan-4n6d"
+    ]
   }
 ]
