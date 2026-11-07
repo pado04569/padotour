@@ -316,9 +316,9 @@
   },
   {
     "slug": "winners-golf-club",
-    "name": "위너스CC",
-    "nameEn": "CYKAN Winner's Golf Club (구 WITHIN STYLE G.C)",
-    "region": "후쿠오카",
+    "name": "사이칸 위너스CC",
+    "nameEn": "CYKAN Winners Golf Club (구 WITHIN STYLE G.C)",
+    "region": "사가",
     "country": "일본",
     "countryCode": "japan",
     "summary": "사가현 다쿠시의 18홀 파72·6,740야드 퍼블릭 코스, 홀마다 성격이 다른 밸런스 레이아웃",
@@ -340,13 +340,16 @@
         "value": "나가사키자동차도 다쿠IC 인근"
       }
     ],
-    "description": "위너스CC는 사가현 다쿠시에 자리한 18홀 파72·6,740야드 퍼블릭 코스입니다. 홀마다 성격이 뚜렷해, 정교하게 끊어 가야 하는 트리키한 홀과 시원하게 밀어붙이고 싶어지는 홀이 번갈아 나옵니다.\n\n그래서 여성 골퍼와 입문자부터 거리를 내는 상급자까지 폭넓게 선호하는 코스로 꼽힙니다. 나가사키자동차도 다쿠IC에서 가까워 도스 지역 숙소에서 이동하기도 편합니다.\n\n여행의파도 후쿠오카 도스 다색 골프여행에서 배정되는 코스 중 한 곳으로, 골프장은 현지 사정에 따라 배정되며 지정은 불가합니다.",
+    "description": "사이칸 위너스CC(구 WITHIN STYLE G.C)는 사가현 다쿠시에 자리한 18홀 파72·6,740야드 퍼블릭 코스입니다. 아웃과 인 모두 파36이며, 정교하게 끊어 가야 하는 트리키한 홀과 시원하게 밀어붙이고 싶어지는 홀이 번갈아 나옵니다.\n\n산줄기를 배경으로 넓은 잔디가 펼쳐져 있어 여성 골퍼와 입문자부터 거리를 내는 상급자까지 폭넓게 선호하는 코스로 꼽힙니다. 나가사키자동차도 다쿠IC에서 가까워 도스·다쿠 지역 숙소에서 이동하기 편합니다.\n\n여행의파도 후쿠오카 도스·사가 골프여행에서 배정되는 코스 중 한 곳이며, 상품에 따라 골프장은 현지 사정으로 배정될 수 있습니다.",
     "images": [
       "/images/japan-fukuoka-tosu/course-5.jpg",
       "/images/japan-fukuoka-tosu/course-1.jpg",
       "/images/japan-fukuoka-tosu/course-4.jpg",
       "/images/japan-fukuoka-tosu/course-3.jpg",
-      "/images/japan-fukuoka-tosu/course-6.jpg"
+      "/images/japan-fukuoka-tosu/course-6.jpg",
+      "/images/saga-taku-matsuya/course-3.jpg",
+      "/images/saga-taku-matsuya/course-4.jpg",
+      "/images/saga-taku-matsuya/course-5.jpg"
     ],
     "hashtags": [
       "위너스CC",
@@ -356,19 +359,29 @@
       "후쿠오카골프여행",
       "도스골프",
       "규슈골프여행",
-      "일본골프여행"
+      "일본골프여행",
+      "사이칸위너스CC",
+      "사가골프",
+      "사가골프여행"
     ],
     "relatedTourIds": [
       "japan-fukuoka-tosu",
       "japan-fukuoka-tosu-3n4d-am",
-      "japan-fukuoka-tosu-3n4d-pm"
+      "japan-fukuoka-tosu-3n4d-pm",
+      "japan-saga-taku-matsuya-3n4d-incheon",
+      "japan-saga-taku-matsuya-4n5d-incheon"
+    ],
+    "aliases": [
+      "위너스CC",
+      "사이칸위너스",
+      "CYKAN Winners"
     ]
   },
   {
     "slug": "greenland-golf-club",
     "name": "그린랜드CC",
     "nameEn": "Greenland Resort Golf Course",
-    "region": "후쿠오카",
+    "region": "구마모토",
     "country": "일본",
     "countryCode": "japan",
     "summary": "아리아케해 너머 운젠다케를 바라보는 36홀 구릉 코스, 성격이 다른 세 코스로 구성",
@@ -1133,6 +1146,9 @@
       "thailand-chiangmai-4n6d",
       "thailand-chiangmai-3n5d",
       "thailand-chiangmai-4color-dinner-busan"
+    ],
+    "aliases": [
+      "가산 레가시CC"
     ]
   },
   {
@@ -3691,7 +3707,7 @@
     "slug": "flc-halong-bay-golf",
     "name": "FLC 하롱베이CC",
     "nameEn": "FLC Ha Long Bay Golf Club",
-    "region": "하노이/하이퐁",
+    "region": "하롱베이",
     "country": "베트남",
     "countryCode": "vietnam",
     "summary": "슈미트-컬리 설계 파71, 언덕 위에서 하롱베이를 내려다보는 코스",
@@ -3748,7 +3764,7 @@
     "slug": "tuan-chau-golf-resort",
     "name": "뚜언쩌우CC",
     "nameEn": "Tuan Chau Golf Resort",
-    "region": "하노이/하이퐁",
+    "region": "하롱베이",
     "country": "베트남",
     "countryCode": "vietnam",
     "summary": "파72 챔피언십 코스, 하롱베이 뚜언쩌우섬 매립지의 해안 코스",
@@ -4172,6 +4188,11 @@
     ],
     "relatedTourIds": [
       "japan-tokyo-itako"
+    ],
+    "excludeTourIds": [
+      "japan-kumamoto-aso-trial-2color",
+      "japan-kumamoto-aso-trial-2color-2n3d",
+      "japan-kumamoto-aso-kadoman-cheongju"
     ]
   },
   {
@@ -5303,6 +5324,10 @@
     ],
     "relatedTourIds": [
       "japan-takamatsu-okura-busan"
+    ],
+    "excludeTourIds": [
+      "japan-takamatsu-shinkabakawa-3color-busan",
+      "japan-takamatsu-city-3color-incheon"
     ]
   },
   {
@@ -6362,7 +6387,7 @@
     "slug": "mission-hills-shenzhen-dongguan",
     "name": "미션힐스 동관·심천",
     "nameEn": "Mission Hills Golf Club Shenzhen·Dongguan (观澜湖高尔夫球会)",
-    "region": "광저우",
+    "region": "심천",
     "country": "중국",
     "countryCode": "china",
     "aliases": [
@@ -10270,46 +10295,6 @@
       "일본골프여행"
     ],
     "relatedTourIds": []
-  },
-  {
-    "slug": "cykan-winners-gc",
-    "name": "사이칸 위너스CC",
-    "nameEn": "CYKAN Winners Golf Club",
-    "region": "사가",
-    "country": "일본",
-    "countryCode": "japan",
-    "summary": "다쿠시의 파72 18홀 코스, 호텔에서 가까운 사가 지역 골프장",
-    "specs": [
-      {
-        "label": "코스 구성",
-        "value": "18홀"
-      },
-      {
-        "label": "파 / 전장",
-        "value": "파72 · 6,740야드"
-      },
-      {
-        "label": "소재지",
-        "value": "일본 사가현 다쿠시"
-      }
-    ],
-    "description": "사이칸 위너스CC는 사가현 다쿠시에 있는 18홀 파72, 전장 6,740야드 골프장입니다. 아웃과 인 모두 파36으로 구성되어 있습니다.\n\n산줄기를 배경으로 넓은 잔디가 펼쳐져 라운드 내내 시골 풍경을 즐기기 좋습니다. 여행의파도 사가 골프여행은 타쿠시티 호텔 마쓰야에 묵으며 이 골프장을 포함한 사가 지역 코스를 하루 18홀씩 라운딩합니다.",
-    "images": [
-      "/images/saga-taku-matsuya/course-3.jpg",
-      "/images/saga-taku-matsuya/course-4.jpg",
-      "/images/saga-taku-matsuya/course-5.jpg"
-    ],
-    "hashtags": [
-      "사이칸위너스CC",
-      "사가골프",
-      "사가골프여행",
-      "규슈골프여행",
-      "일본골프여행"
-    ],
-    "relatedTourIds": [
-      "japan-saga-taku-matsuya-3n4d-incheon",
-      "japan-saga-taku-matsuya-4n5d-incheon"
-    ]
   },
   {
     "slug": "hanamatsuri-gc",

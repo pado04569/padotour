@@ -169,6 +169,12 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
       course: c,
       chips: courseChips(c),
       showSummary: Boolean(c.summary) && !summaryOverlaps(c.summary ?? "") && !(relatedCourses.length === 1 && descText.length >= 40),
+      // 설명에 "요청하면 ○○로 바꿀 수 있습니다(추가)"처럼 적힌 코스는 기본 포함이 아니다 — 카드에 '선택 코스' 표시 (가산 레거시CC, 2026-11-07)
+      optional: (() => {
+        const hay = tour.golfCourseDesc ?? "";
+        const i = [c.name, ...(c.aliases ?? [])].map((k) => hay.indexOf(k)).filter((n) => n >= 0).sort((a, b) => a - b)[0];
+        return i != null && !(tour.golfCourse ?? "").includes(c.name) && /바꿀 수|변경도? 가능|추가\s*요금|원 추가/.test(hay.slice(i, i + 60));
+      })(),
     }))
     .filter((x) => x.chips.length > 0 || x.showSummary);
 
@@ -566,9 +572,12 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             {/* 소개 페이지 링크는 빼고 글로만 — 상품을 보던 고객이 페이지를 떠나지 않게 (사장님 확정 가안, 2026-10-25) */}
             {linkedCourses.length > 0 && (
               <ul className="space-y-2 mb-3">
-                {linkedCourses.map(({ course: c, chips, showSummary }) => (
+                {linkedCourses.map(({ course: c, chips, showSummary, optional }) => (
                   <li key={c.slug} className="bg-white border border-gray-100 rounded-xl px-4 py-3.5">
-                    <p className="font-bold text-[16px] text-slate-900">{c.name}</p>
+                    <p className="font-bold text-[16px] text-slate-900">
+                      {c.name}
+                      {optional && <span className="ml-2 align-middle inline-flex items-center rounded-md border border-slate-300 px-2 py-0.5 text-[13px] font-bold text-slate-600">선택 코스 · 요청 시 추가요금</span>}
+                    </p>
                     {chips.length > 0 && (
                       <ul className="flex flex-wrap gap-1.5 mt-2" aria-label={`${c.name} 기본 정보`}>
                         {chips.map((chip, i) => (

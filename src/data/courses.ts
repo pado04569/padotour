@@ -49,5 +49,6 @@ export const courses: Course[] = (coursesData as Course[]).map((c) => {
   const auto = tourTexts
     .filter((t) => t.country === c.country && !c.excludeTourIds?.includes(t.id) && keys.some((k) => t.text.includes(k)))
     .map((t) => t.id);
-  return { ...c, relatedTourIds: [...new Set([...c.relatedTourIds, ...auto])] };
+  // 손으로 적은 relatedTourIds 에도 제외 목록을 적용한다 (Codex 검수 2026-11-07)
+  return { ...c, relatedTourIds: [...new Set([...c.relatedTourIds, ...auto])].filter((id) => !c.excludeTourIds?.includes(id)) };
 });
