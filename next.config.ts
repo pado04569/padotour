@@ -24,6 +24,9 @@ const nextConfig: NextConfig = {
       { source: "/blog-bs", destination: "/?utm_source=naverblog&utm_medium=post&utm_content=busan", permanent: false },
       { source: "/tistory", destination: "/?utm_source=tistory&utm_medium=post", permanent: false },
       { source: "/clip", destination: "/?utm_source=clip&utm_medium=video", permanent: false },
+      // 밴드 글 속 상품 링크 — 밴드는 글자 그대로 링크가 보여서 긴 utm 대신 짧은 주소를 쓴다 (pado-band 도구가 자동으로 바꿈, 2026-11-07)
+      { source: "/bi/:id", destination: "/tours/:id?utm_source=band&utm_medium=sns&utm_content=incheon&utm_campaign=product", permanent: false },
+      { source: "/bb/:id", destination: "/tours/:id?utm_source=band&utm_medium=sns&utm_content=busan&utm_campaign=product", permanent: false },
       { source: "/card", destination: "/?utm_source=namecard&utm_medium=offline", permanent: false },
     ];
   },
