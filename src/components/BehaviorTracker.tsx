@@ -52,6 +52,8 @@ export default function BehaviorTracker() {
         page_path: window.location.pathname,
         link_url: href,
       });
+      // 실제 문의는 카톡·전화가 대부분인데 주요 이벤트는 문의 폼(generate_lead)만 셌다 → 따로 하나 더 보낸다
+      if (method === "phone" || method === "kakao") track("contact_lead", { method, page_path: window.location.pathname });
     };
     document.addEventListener("click", onClick);
     return () => document.removeEventListener("click", onClick);

@@ -18,6 +18,7 @@ declare global {
 export type EventName =
   | "scroll_depth"      // 페이지를 어디까지 읽었나 (25/50/75/100)
   | "contact_click"     // 전화·카톡·밴드·블로그 링크 클릭
+  | "contact_lead"      // 전화·카톡 문의 버튼만 (GA4 '주요 이벤트'용 — 밴드·블로그 이동은 문의가 아니라 뺌, 2026-11-07)
   | "view_item"         // 상품 상세 진입
   | "inquiry_open"      // 예약 문의 영역을 펼침
   | "inquiry_start"     // 문의 폼에 입력을 시작함
