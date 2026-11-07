@@ -11069,5 +11069,678 @@
       "바탐래디슨골프"
     ],
     "relatedTourIds": []
+  },
+  {
+    "slug": "ayutthaya-golf-club",
+    "name": "아유타야CC",
+    "nameEn": "Ayutthaya Golf Club",
+    "aliases": [
+      "아유타야GC",
+      "아유타야 골프클럽"
+    ],
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "아타난 욤친다가 설계한 2009년 개장 파72 7,095야드, 아유타야 대표 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "약 7,095야드"
+      },
+      {
+        "label": "설계",
+        "value": "아타난 욤친다 (Attanan Yomchinda)"
+      },
+      {
+        "label": "개장",
+        "value": "2009년"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 아유타야주 (방콕 북쪽)"
+      }
+    ],
+    "description": "아유타야CC는 방콕 북쪽 아유타야주에 있는 18홀 파72 골프장입니다. 2009년에 문을 열었고, 태국 설계가 아타난 욤친다가 코스를 설계했습니다.\n\n전장은 약 7,095야드로 뒤 티에서는 거리가 충분히 나오는 편이며, 평탄한 지형에 물과 벙커가 곳곳에 배치되어 있어 방향을 먼저 생각하며 라운딩하게 됩니다. 넓은 들판 사이에 자리 잡아 시야가 트여 있습니다.\n\n아유타야 시내 숙소와 가까워 이동 부담이 적고, 아유타야 권역 다른 골프장과 묶어 하루 36홀 일정으로 라운딩하기 좋습니다. 방콕 시내에서는 차량으로 약 1시간 30분 거리입니다.",
+    "images": [
+      "/images/ayutthaya-golf-club/course-1.jpg",
+      "/images/ayutthaya-golf-club/course-2.jpg",
+      "/images/ayutthaya-golf-club/course-3.jpg",
+      "/images/ayutthaya-golf-club/course-4.jpg"
+    ],
+    "hashtags": [
+      "아유타야CC",
+      "아유타야골프장",
+      "아유타야골프",
+      "방콕골프여행",
+      "태국골프여행",
+      "태국무제한골프"
+    ],
+    "relatedTourIds": [
+      "thailand-ayutthaya-busan",
+      "thailand-ayutthaya-centara-1214-incheon"
+    ]
+  },
+  {
+    "slug": "bangsai-country-club",
+    "name": "방사이CC",
+    "nameEn": "Bangsai Country Club",
+    "aliases": [
+      "방사이 컨트리클럽",
+      "방사이GC"
+    ],
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "아유타야 논 사이에 자리한 27홀 골프장, 1996년 개장·2010년 코스 증설",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "27홀 (18홀 기준 파72)"
+      },
+      {
+        "label": "전장",
+        "value": "약 6,725야드 (18홀 기준)"
+      },
+      {
+        "label": "개장",
+        "value": "1996년 (2010년 리노베이션·코스 증설)"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 아유타야주 방사이 (방콕 북쪽 약 55km)"
+      }
+    ],
+    "description": "방사이CC는 방콕에서 북쪽으로 약 55km 떨어진 아유타야주에 있는 27홀 골프장입니다. 1996년에 문을 열었고, 2010년에 기존 코스 리노베이션과 코스 증설을 거쳤습니다.\n\n9홀 코스 세 개로 이루어져 그날 두 코스를 이어 18홀 파72로 라운딩합니다. 18홀 기준 전장은 약 6,725야드로 길이 부담이 크지 않으며, 논과 작은 마을이 둘러싼 시골 풍경 속에 코스가 펼쳐집니다.\n\n주중에는 내장객이 많지 않아 여유 있게 라운딩할 수 있는 편입니다. 상품에서는 특별한 경우가 아니면 주중에만 이용하며, 아유타야 숙소에서 차량으로 45~50분 걸립니다.",
+    "images": [
+      "/images/bangsai-country-club/course-1.jpg",
+      "/images/bangsai-country-club/course-2.jpg",
+      "/images/bangsai-country-club/course-3.jpg",
+      "/images/bangsai-country-club/course-4.jpg"
+    ],
+    "hashtags": [
+      "방사이CC",
+      "방사이골프장",
+      "아유타야골프",
+      "방콕골프여행",
+      "태국골프여행",
+      "태국무제한골프"
+    ],
+    "relatedTourIds": [
+      "thailand-ayutthaya-busan",
+      "thailand-ayutthaya-centara-1214-incheon"
+    ]
+  },
+  {
+    "slug": "northern-rangsit-golf-club",
+    "name": "노턴랑싯CC",
+    "nameEn": "Northern Rangsit Golf Club",
+    "aliases": [
+      "노던랑싯CC",
+      "노던 랑싯 골프클럽",
+      "노턴랑싯GC"
+    ],
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "1993년 개장한 파72 6,793야드, 아일랜드 그린이 있는 왕노이 지역 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "약 6,793야드"
+      },
+      {
+        "label": "개장",
+        "value": "1993년"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 아유타야주 왕노이 (파혼요틴 도로 58km 지점)"
+      }
+    ],
+    "description": "노턴랑싯CC는 방콕 돈므앙 공항을 지나 북쪽으로 올라간 아유타야주 왕노이에 있는 18홀 파72 골프장입니다. 1993년에 문을 열었습니다.\n\n전장은 약 6,793야드이며, 반드시 넘겨야 하는 해저드 구간이 많지 않아 실력에 관계없이 편하게 라운딩할 수 있는 코스로 알려져 있습니다. 물로 둘러싸인 아일랜드 그린 홀과 곳곳의 워터 해저드가 코스의 특징입니다.\n\n클럽하우스는 새로 단장했고 태국 음식을 내는 식당이 있습니다. 아유타야 숙소에서 차량으로 35~40분 거리입니다.",
+    "images": [
+      "/images/northern-rangsit-golf-club/course-1.jpg",
+      "/images/northern-rangsit-golf-club/course-2.jpg",
+      "/images/northern-rangsit-golf-club/course-3.jpg",
+      "/images/northern-rangsit-golf-club/course-4.jpg"
+    ],
+    "hashtags": [
+      "노턴랑싯CC",
+      "노던랑싯",
+      "아유타야골프",
+      "방콕골프장",
+      "방콕골프여행",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-ayutthaya-busan",
+      "thailand-ayutthaya-centara-1214-incheon"
+    ]
+  },
+  {
+    "slug": "eastern-star-country-club",
+    "name": "이스턴스타CC",
+    "nameEn": "Eastern Star Country Club & Resort",
+    "aliases": [
+      "이스턴스타 컨트리클럽",
+      "이스턴스타GC"
+    ],
+    "region": "파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "로버트 트렌트 존스 주니어 설계 파72 7,134야드, 반창의 숲길 파크랜드 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "약 7,134야드"
+      },
+      {
+        "label": "설계",
+        "value": "로버트 트렌트 존스 주니어"
+      },
+      {
+        "label": "개장",
+        "value": "1992년"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 라용주 반창 (파타야 남동쪽 약 35km)"
+      }
+    ],
+    "description": "이스턴스타CC는 파타야에서 남동쪽으로 약 35km 떨어진 라용주 반창에 있는 18홀 파72 골프장입니다. 미국 설계가 로버트 트렌트 존스 주니어가 설계했고, 1992년에 문을 열었습니다.\n\n전장은 약 7,134야드이며, 나무가 줄지어 선 페어웨이와 완만하게 오르내리는 지형의 파크랜드 코스입니다. 넓게 열린 홀과 나무로 좁아지는 홀이 섞여 있어 클럽 선택을 고민하게 됩니다.\n\n옛 코코넛 농장 부지에 리조트와 함께 조성되어 있습니다. 파타야 시내에서는 차량으로 약 1시간, 시라차 쪽 숙소에서는 일정에 따라 25~45분 정도 걸립니다.",
+    "images": [
+      "/images/eastern-star-country-club/course-1.jpg",
+      "/images/eastern-star-country-club/course-2.jpg",
+      "/images/eastern-star-country-club/course-3.jpg",
+      "/images/eastern-star-country-club/course-4.jpg"
+    ],
+    "hashtags": [
+      "이스턴스타CC",
+      "이스턴스타골프",
+      "파타야골프장",
+      "파타야골프여행",
+      "시라차골프",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-sriracha-ariz-incheon",
+      "thailand-pattaya-3color-value-incheon",
+      "thailand-pattaya-onepatio-busan"
+    ]
+  },
+  {
+    "slug": "silverlake-links-golf-club",
+    "name": "실버레이크CC",
+    "nameEn": "SilverLake Links Golf Club",
+    "aliases": [
+      "실버레이크",
+      "실버레이크 링크스",
+      "실버레이크GC"
+    ],
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "방나-뜨랏 도로변 2015년 개장 파72 7,107야드 링크스 스타일 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "약 7,107야드"
+      },
+      {
+        "label": "개장",
+        "value": "2015년"
+      },
+      {
+        "label": "소재지",
+        "value": "태국 사뭇쁘라깐 방나-뜨랏 도로 18km 지점 (수완나품 공항 인근)"
+      }
+    ],
+    "description": "실버레이크CC는 방콕 동남쪽 방나-뜨랏 도로변, 수완나품 공항 가까이에 있는 18홀 파72 골프장입니다. 2015년에 문을 열었고, 예전에는 레이크우드 링크스라는 이름으로 불렸습니다.\n\n전장은 약 7,107야드이며, 나무가 적고 둔덕과 벙커로 홀을 나누는 링크스 스타일 코스입니다. 바람의 영향을 받는 날이 많아 탄도와 방향을 함께 생각하며 라운딩하게 됩니다.\n\n레이크우드CC와 같은 방나-뜨랏 도로 권역이라 두 곳을 묶은 일정에서 이동이 편합니다. 방콕 시내에서는 차량으로 약 30~40분 거리입니다.",
+    "images": [
+      "/images/silverlake-links-golf-club/course-1.jpg",
+      "/images/silverlake-links-golf-club/course-2.jpg",
+      "/images/silverlake-links-golf-club/course-3.jpg",
+      "/images/silverlake-links-golf-club/course-4.jpg"
+    ],
+    "hashtags": [
+      "실버레이크CC",
+      "실버레이크링크스",
+      "방콕골프장",
+      "방콕골프여행",
+      "방콕명품골프",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok-premium-5color-busan",
+      "thailand-bangkok-premium-5color-incheon",
+      "thailand-bangkok-premium-5color-daegu"
+    ]
+  },
+  {
+    "slug": "takamatsu-gold-cc",
+    "name": "다카마쓰 골드CC",
+    "nameEn": "Takamatsu Gold Country Club (高松ゴールドカントリー倶楽部)",
+    "aliases": [
+      "다카마츠 골드CC",
+      "다카마쓰 골드컨트리클럽"
+    ],
+    "region": "다카마쓰",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "18번 홀 아일랜드 그린이 상징인 가가와현 아야가와의 18홀 구릉 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,684야드"
+      },
+      {
+        "label": "개장",
+        "value": "1996년"
+      },
+      {
+        "label": "설계",
+        "value": "론 페리스 (ロン・フェーリス)"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가가와현 아야우타군 아야가와초"
+      }
+    ],
+    "description": "다카마쓰 골드CC는 가가와현 아야가와초의 구릉지에 자리한 18홀 골프장으로 1996년에 문을 열었습니다. 파72에 전장은 6,684야드이며, 피트 다이의 제자로 소개되는 론 페리스가 설계했습니다.\n\n코스 전체에 미세한 언듈레이션이 있어 거리감을 신중하게 잡아야 합니다. 가장 유명한 홀은 마지막 18번 파5로, 그린 사방이 연못으로 둘러싸인 아일랜드 그린입니다. 전장이 502야드로 길지 않아 투온을 노릴지 끊어 갈지 선택하는 재미가 있습니다. 그린은 벤트 원그린으로 크기와 굴곡이 있는 편입니다.\n\n여행의파도 다카마쓰 3색 골프여행에서는 다카마쓰 그랜드CC, 로얄 다카마쓰CC와 함께 하루 한 곳씩 라운딩합니다. 골프장은 현지 사정에 따라 동급 골프장으로 바뀔 수 있습니다.",
+    "images": [
+      "/images/takamatsu-gold-cc/course-1.jpg",
+      "/images/takamatsu-gold-cc/course-2.jpg",
+      "/images/takamatsu-gold-cc/course-3.jpg"
+    ],
+    "hashtags": [
+      "다카마쓰골드CC",
+      "다카마쓰골프",
+      "시코쿠골프",
+      "가가와골프",
+      "아일랜드그린",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-takamatsu-shinkabakawa-3color-busan",
+      "japan-takamatsu-city-3color-incheon"
+    ]
+  },
+  {
+    "slug": "royal-takamatsu-cc",
+    "name": "로얄 다카마쓰CC",
+    "nameEn": "Royal Takamatsu Country Club (ロイヤル高松カントリークラブ)",
+    "aliases": [
+      "로얄 다카마츠CC",
+      "로열 다카마쓰CC",
+      "로얄 다카마쓰 컨트리클럽"
+    ],
+    "region": "다카마쓰",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "1975년 개장, 다카마쓰공항과 가까운 아야가와초의 파72 18홀 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,690야드"
+      },
+      {
+        "label": "개장",
+        "value": "1975년"
+      },
+      {
+        "label": "설계",
+        "value": "가가미 류지 (各務鉚二)"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가가와현 아야우타군 아야가와초"
+      }
+    ],
+    "description": "로얄 다카마쓰CC는 가가와현 아야가와초에 있는 18홀 골프장으로 1975년에 개장했습니다. 파72, 전장 6,690야드이며 설계는 가가미 류지가 맡았습니다. 다카마쓰공항과 가까운 위치입니다.\n\n산악형 코스로 분류되며, 전반은 비교적 평탄하고 후반은 기복과 계곡을 넘기는 홀, 도그레그 홀이 이어진다는 평가가 많습니다. 소나무가 줄지어 선 홀이 많아 차분한 분위기에서 라운딩할 수 있습니다.\n\n여행의파도 다카마쓰 3색 골프여행에서는 다카마쓰 그랜드CC, 다카마쓰 골드CC와 함께 라운딩하는 골프장입니다. 골프장은 현지 사정에 따라 동급 골프장으로 바뀔 수 있습니다.",
+    "images": [
+      "/images/royal-takamatsu-cc/course-1.jpg",
+      "/images/royal-takamatsu-cc/course-2.jpg",
+      "/images/royal-takamatsu-cc/course-3.jpg",
+      "/images/royal-takamatsu-cc/course-4.jpg"
+    ],
+    "hashtags": [
+      "로얄다카마쓰CC",
+      "다카마쓰골프",
+      "시코쿠골프",
+      "가가와골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-takamatsu-shinkabakawa-3color-busan",
+      "japan-takamatsu-city-3color-incheon"
+    ]
+  },
+  {
+    "slug": "takamatsu-grand-cc",
+    "name": "다카마쓰 그랜드CC",
+    "nameEn": "Takamatsu Grand Country Club (高松グランドカントリークラブ)",
+    "aliases": [
+      "다카마츠 그랜드CC",
+      "다카마쓰 그랜드컨트리클럽"
+    ],
+    "region": "다카마쓰",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "히카미·가니와 두 코스로 이뤄진 가가와현 유일의 36홀 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 (히카미 코스 · 가니와 코스)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파144 · 13,192야드 (36홀 합계)"
+      },
+      {
+        "label": "설계",
+        "value": "도미자와 세이조 (富澤誠造)"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가가와현 기타군 미키초"
+      }
+    ],
+    "description": "다카마쓰 그랜드CC는 가가와현 미키초에 있는 36홀 골프장으로, 가가와현에서 유일한 36홀 클럽으로 소개됩니다. 분위기가 다른 히카미(氷上) 코스와 가니와(鹿庭) 코스 두 개로 이뤄져 있습니다.\n\n36홀 합계 파144, 전장 13,192야드의 구릉 코스이며 설계는 도미자와 세이조가 맡았습니다. 업다운은 크지 않지만 적당한 언듈레이션이 있어 정확한 샷이 필요합니다.\n\n여행의파도 다카마쓰 3색 골프여행에서는 두 코스를 나눠 라운딩하는 일정이 포함되며, 다카마쓰 골드CC·로얄 다카마쓰CC와 함께 이용합니다. 골프장은 현지 사정에 따라 동급 골프장으로 바뀔 수 있습니다.",
+    "images": [
+      "/images/takamatsu-grand-cc/course-1.jpg",
+      "/images/takamatsu-grand-cc/course-2.jpg"
+    ],
+    "hashtags": [
+      "다카마쓰그랜드CC",
+      "다카마쓰골프",
+      "36홀골프장",
+      "시코쿠골프",
+      "가가와골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-takamatsu-shinkabakawa-3color-busan",
+      "japan-takamatsu-city-3color-incheon"
+    ]
+  },
+  {
+    "slug": "takagawa-nishi-tokushima-gc",
+    "name": "다카가와 니시 도쿠시마CC",
+    "nameEn": "Takagawa Nishi Tokushima Golf Club (タカガワ西徳島ゴルフ倶楽部)",
+    "aliases": [
+      "다카가와 니시도쿠시마CC",
+      "타카가와 니시 도쿠시마CC",
+      "니시 도쿠시마 골프클럽"
+    ],
+    "region": "다카마쓰",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "요시노강을 내려다보는 도쿠시마현 아와시의 남향 18홀 구릉 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,614야드"
+      },
+      {
+        "label": "개장",
+        "value": "1978년"
+      },
+      {
+        "label": "설계",
+        "value": "데라다 진키치 (寺田甚吉)"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 도쿠시마현 아와시 아와초"
+      }
+    ],
+    "description": "다카가와 니시 도쿠시마CC는 도쿠시마현 아와시에 있는 18홀 골프장으로 1978년에 문을 열었습니다. 예전 이름은 아와 컨트리클럽이며, 파72에 전장 6,614야드입니다. 설계는 데라다 진키치로 소개됩니다.\n\n코스 전체가 남쪽을 향한 구릉 코스로, 아래로 요시노강이 내려다보입니다. 페어웨이는 평탄한 편이고 홀 사이 이동 거리가 짧습니다. 인코스 14·15번은 소나무 숲에 둘러싸여 있고, 명물 홀인 16번 파3는 그린 앞의 큰 연못을 넘겨야 합니다.\n\n여행의파도 부산출발 다카마쓰 3색 골프여행에서 상황에 따라 라운딩하는 골프장 중 하나입니다. 골프장은 현지 사정에 따라 동급 골프장으로 바뀔 수 있습니다.",
+    "images": [
+      "/images/takagawa-nishi-tokushima-gc/course-1.jpg",
+      "/images/takagawa-nishi-tokushima-gc/course-2.jpg",
+      "/images/takagawa-nishi-tokushima-gc/course-3.jpg",
+      "/images/takagawa-nishi-tokushima-gc/course-4.jpg"
+    ],
+    "hashtags": [
+      "니시도쿠시마CC",
+      "도쿠시마골프",
+      "시코쿠골프",
+      "다카마쓰골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-takamatsu-shinkabakawa-3color-busan"
+    ]
+  },
+  {
+    "slug": "ocean-links-miyakojima",
+    "name": "오션링크스",
+    "nameEn": "Ocean Links Miyakojima (オーシャンリンクス宮古島)",
+    "aliases": [
+      "오션링크스 미야코지마",
+      "오션링크스 골프장"
+    ],
+    "region": "오키나와",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "미야코지마 동쪽 끝 바다 곁 아웃코스와 아열대 인코스의 18홀",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,200야드(챔피언티)"
+      },
+      {
+        "label": "설계",
+        "value": "아라이 쓰요시 (新井剛)"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오키나와현 미야코지마시 구스쿠베 보라"
+      }
+    ],
+    "description": "오션링크스는 미야코지마 동쪽 구스쿠베 보라 지역, 히가시헨나자키 곶 근처에 있는 18홀 골프장입니다. 파72에 전장은 7,200야드(챔피언티)로 소개되며, 설계는 아라이 쓰요시가 맡았습니다.\n\n아웃코스는 해안을 따라 바다를 보며 라운딩하는 홀로 이뤄지고, 인코스는 아열대 자연 지형을 그대로 살려 공략을 신중하게 해야 합니다. 클럽하우스는 거의 사방이 바다로 둘러싸인 자리에 있습니다. 카트에는 GPS 내비가 있습니다.\n\n여행의파도 미야코지마 3색 골프여행에서는 시기라베이CC, 에메랄드코스트 골프링크스와 함께 하루 18홀씩 셀프+카트로 라운딩합니다. 골프장은 현지 사정에 따라 중복되거나 바뀔 수 있습니다.",
+    "images": [
+      "/images/ocean-links-miyakojima/course-1.jpg",
+      "/images/ocean-links-miyakojima/course-2.jpg",
+      "/images/ocean-links-miyakojima/course-3.jpg",
+      "/images/ocean-links-miyakojima/course-4.jpg"
+    ],
+    "hashtags": [
+      "오션링크스",
+      "미야코지마골프",
+      "오키나와골프장",
+      "오키나와골프여행",
+      "일본골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "japan-miyakojima-risingsun-3color-incheon",
+      "japan-miyakojima-breezebay-3color-incheon"
+    ]
+  },
+  {
+    "slug": "emerald-coast-golf-links",
+    "name": "에메랄드코스트 골프링크스",
+    "nameEn": "Emerald Coast Golf Links (エメラルドコーストゴルフリンクス)",
+    "aliases": [
+      "에메랄드코스트 골프링크",
+      "에메랄드 코스트 골프링크스"
+    ],
+    "region": "오키나와",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "미야코지마 서쪽 요나하 해안을 따라 놓인 파72 18홀 시사이드 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,912야드 (챔피언 티)"
+      },
+      {
+        "label": "설계",
+        "value": "미야자와 조헤이 (宮澤長平)"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 오키나와현 미야코지마시 시모지 요나하"
+      }
+    ],
+    "description": "에메랄드코스트 골프링크스는 미야코지마 서쪽 시모지 요나하 해안에 있는 18홀 골프장입니다. 파72이며 챔피언 티 기준 전장은 6,912야드, 레귤러 티는 6,025야드입니다. 설계는 미야자와 조헤이입니다.\n\n바다를 넘겨 공략하는 16번 홀과 천연 해변 벙커에서 샷을 하게 되는 18번 홀이 특징으로 소개됩니다. 해안선을 따라 홀이 이어져 라운딩 내내 바다가 가까이 보입니다. 캐디 없는 셀프 플레이이며, 중간 휴식 없이 18홀을 이어서 라운딩하는 스루 플레이 방식입니다.\n\n여행의파도 미야코지마 3색 골프여행에서는 오션링크스, 시기라베이CC와 함께 하루 18홀씩 라운딩합니다. 예약이 많은 코스라 확정이 어려우면 다른 골프장으로 바뀔 수 있습니다.",
+    "images": [
+      "/images/emerald-coast-golf-links/course-1.jpg",
+      "/images/emerald-coast-golf-links/course-2.jpg",
+      "/images/emerald-coast-golf-links/course-3.jpg",
+      "/images/emerald-coast-golf-links/course-4.jpg"
+    ],
+    "hashtags": [
+      "에메랄드코스트골프링크스",
+      "미야코지마골프",
+      "오키나와골프장",
+      "오키나와골프여행",
+      "일본골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "japan-miyakojima-risingsun-3color-incheon",
+      "japan-miyakojima-breezebay-3color-incheon"
+    ]
+  },
+  {
+    "slug": "saganomori-golf-club",
+    "name": "사가노모리CC",
+    "nameEn": "Saganomori Golf Club (さがの森ゴルフ倶楽部)",
+    "aliases": [
+      "사가노모리 골프클럽",
+      "사가노모리GC"
+    ],
+    "region": "사가",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "옛 다케오GC, 사가현 다케오시의 1965년 개장 파72 18홀 구릉 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 6,713야드"
+      },
+      {
+        "label": "개장",
+        "value": "1965년"
+      },
+      {
+        "label": "설계",
+        "value": "이즈노 쓰토무 · 아베 쓰네오"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 사가현 다케오시 기타가타초"
+      }
+    ],
+    "description": "사가노모리CC는 사가현 다케오시 기타가타초에 있는 18홀 골프장으로, 예전 이름은 다케오 골프클럽입니다. 1965년에 개장했으며 파72, 전장 6,713야드의 구릉 코스입니다. 나가사키 자동차도 다케오기타가타 IC에서 5km 이내 거리입니다.\n\n시원하게 티샷할 수 있는 10·15·18번 홀과 공략을 고민해야 하는 11·13·17번 홀이 섞여 있습니다. 파3 홀도 벙커와 나무 배치, 티 위치에 따라 아이언샷 난도가 달라집니다.\n\n여행의파도 사가 다쿠 골프여행에서는 텐잔CC, 사이칸 위너스CC, 하나마츠리CC 등과 함께 상황에 따라 라운딩하는 골프장입니다. 골프장은 현지 사정에 따라 중복되거나 동급 골프장으로 바뀔 수 있습니다.",
+    "images": [
+      "/images/saganomori-golf-club/course-1.jpg",
+      "/images/saganomori-golf-club/course-2.jpg",
+      "/images/saganomori-golf-club/course-3.jpg",
+      "/images/saganomori-golf-club/course-4.jpg"
+    ],
+    "hashtags": [
+      "사가노모리CC",
+      "사가골프",
+      "다케오골프",
+      "규슈골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-saga-taku-matsuya-3n4d-incheon",
+      "japan-saga-taku-matsuya-4n5d-incheon"
+    ]
+  },
+  {
+    "slug": "golden-palm-cc",
+    "name": "골든팜CC",
+    "nameEn": "Golden Palm Country Club (ゴールデンパームカントリークラブ)",
+    "aliases": [
+      "골든팜 컨트리클럽"
+    ],
+    "region": "가고시마",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "큰 연못과 야자수가 어우러진 가고시마시의 7,083야드 18홀 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파72 · 7,083야드"
+      },
+      {
+        "label": "개장",
+        "value": "1995년"
+      },
+      {
+        "label": "설계",
+        "value": "J. 마이클 폴렛"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가고시마현 가고시마시 혼조초"
+      }
+    ],
+    "description": "골든팜CC는 가고시마시 혼조초에 있는 18홀 골프장으로 1995년에 문을 열었습니다. 파72에 전장 7,083야드의 구릉 코스이며, 설계는 J. 마이클 폴렛입니다. 가고시마공항과 가고시마 시내에서 각각 차로 약 30분, 25분 거리로 소개됩니다.\n\n큰 연못과 물가 벙커, 남국풍 야자수를 배치해 하와이 골프장 같은 분위기를 낸 코스입니다. 그린은 벤트 잔디이며 적당한 업다운이 있습니다. 클럽하우스에는 온천이 있습니다.\n\n여행의파도 가고시마 3색 골프여행에서는 치란CC, 난코쿠CC와 함께 18홀씩 셀프 플레이와 카트로 라운딩합니다.",
+    "images": [
+      "/images/golden-palm-cc/course-1.jpg",
+      "/images/golden-palm-cc/course-2.jpg"
+    ],
+    "hashtags": [
+      "골든팜CC",
+      "가고시마골프",
+      "가고시마골프장",
+      "규슈골프",
+      "일본골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "japan-kagoshima-shiroyama-3color-incheon"
+    ]
   }
 ]
