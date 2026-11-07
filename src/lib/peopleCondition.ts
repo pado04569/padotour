@@ -45,13 +45,55 @@ export type PeopleCondition = {
   conditionLines: string[];
   /** 추가금·인원별 요금 확인 원문 */
   extraLines: string[];
+  /** 불포함 내역 가운데 인원 수에 따라 금액이 달라지는 현지 비용(샌딩·송영비 등) 원문 — withLocalCosts 가 채운다 */
+  localLines: string[];
 };
 
 // 호출마다 새 객체 — 배열을 공유하면 앞 상품의 덩어리가 뒤 상품에 섞인다
 const empty = (): PeopleCondition => ({
   raw: "", minDeparture: null, priceBasis: null, roomBasis: null, airfareBasis: null, capacity: null,
-  extra: "none", clauses: [], needsConfirm: false, chip: "", basisText: "", airfareText: "", conditionLines: [], extraLines: [],
+  extra: "none", clauses: [], needsConfirm: false, chip: "", basisText: "", airfareText: "", conditionLines: [], extraLines: [], localLines: [],
 });
+
+/** 칩 꼬리 — 현지에서 내는 비용이 인원별로 다를 때 (상품 요금에 더해지는 '추가비용 별도'와 구분, 2026-11-07 작업지시서) */
+export const LOCAL_TAIL = " · 2~3인은 현지비용 추가"; // 사장님 B안 선택 2026-11-08 (Codex A 6.5 / B 8)
+
+const MONEY_RE = /\$\s*\d|\d[\d,]*\s*(?:원|위안|바트|불|달러|엔|링깃|페소|만\s*원)|[¥€£]\s*\d|RM\s*\d|HKD\s*\d/;
+const LOCAL_NONE_RE = /추가\s*(?:요금|비용)?\s*없|인원\s*(?:상관없이|무관)/;
+/** 객실·캐디·카트 배정 기준("2인 1실"·"2인 1캐디"·"1인 1카트")은 출발 인원이 아니다 */
+const UNIT_BASIS_RE = /\d\s*(?:인|명)\s*1\s*(?:실|캐디|카트|카|룸|대)/g;
+const LOCAL_MARK_WORDS = "이상|미만|이하|기준|출발|라운딩|플레이|팀당|단독|부터";
+
+/**
+ * 불포함 줄 가운데 '인원 수에 따라 금액이 달라지는' 줄만 고른다 (작업지시서 2026-11-07).
+ *  - 잡는 것: 금액이 있고 ①서로 다른 인원 수가 둘 이상("4인 $50 / 3인 $70 / 2인 $100") 또는 ②최소 출발 인원보다 큰 인원에 기준·이상·미만 같은 말("1인 $60 (4인 기준)", "4인 미만 시 …")
+ *  - 안 잡는 것: "2인 1실"·"2인 1캐디" 같은 배정 기준, "추가요금 없음"·"인원 무관", 최소 출발 인원 자체만 적힌 줄("(2인 기준)")
+ */
+export function localPeopleLines(excludes: readonly string[] | undefined, minDeparture: number | null): string[] {
+  const min = minDeparture ?? 2;
+  const out: string[] = [];
+  for (const line of excludes ?? []) {
+    if (LOCAL_NONE_RE.test(line)) continue;
+    const l = line.replace(UNIT_BASIS_RE, " ");
+    if (!MONEY_RE.test(l)) continue;
+    const counts = Array.from(l.matchAll(/(\d)\s*(?:인|명)/g), (m) => Number(m[1])).filter((n) => n >= 2);
+    const distinct = Array.from(new Set(counts));
+    // 모든 인원이 최소 출발 인원보다 적으면(4인 출발 상품의 "2인·3인 플레이 추가") 출발 인원별 차이가 아니다
+    if (!distinct.some((n) => n >= min)) continue;
+    if (distinct.length >= 2) { out.push(line); continue; }
+    if (distinct.length === 1 && distinct[0] > min && new RegExp(`${distinct[0]}\\s*(?:인|명)\\s*(?:${LOCAL_MARK_WORDS})`).test(l)) out.push(line);
+  }
+  return out;
+}
+
+/** 불포함 줄의 인원별 현지 비용을 인원 조건에 얹는다. 금액은 합산하지 않고 원문 줄을 그대로 보존한다 */
+export function withLocalCosts(c: PeopleCondition, excludes: readonly string[] | undefined): PeopleCondition {
+  const localLines = localPeopleLines(excludes, c.minDeparture);
+  if (!localLines.length) return c;
+  const next: PeopleCondition = { ...c, localLines };
+  if (next.minDeparture && next.extra === "none") next.chip = `${next.minDeparture}인 출발 가능${LOCAL_TAIL}`;
+  return next;
+}
 
 const NONE_RE = /(?:추가\s*(?:비용|요금)?|비용|요금|싱글카트비)\s*(?:은\s*)?(?:없|불필요)|추가\s*없|없이|없음/;
 const SURCHARGE_RE = /추가|별도|\$\s*\d|\+\s*\d|\d[\d,]*\s*원|\d+\s*만\s*원?|합계|\d+\s*위안|\d+\s*바트/;

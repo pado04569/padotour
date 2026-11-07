@@ -1,7 +1,7 @@
 import { tours, type Tour } from "@/data/tours";
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
 import { stayText } from "@/lib/stay";
-import { parsePeopleCondition } from "@/lib/peopleCondition";
+import { parsePeopleCondition, withLocalCosts } from "@/lib/peopleCondition";
 
 /**
  * 상품별 자주 묻는 질문 — 손님이 전화로 실제로 묻는 것들을 상품 데이터에서 그대로 답한다.
@@ -61,7 +61,8 @@ export function tourFaqs(tour: Tour): Faq[] {
 
   // 3) 최소 인원
   // 인원 해석은 lib/peopleCondition.ts — 항공 운임·객실 기준·모집 정원을 최소 출발 인원으로 쓰지 않는다
-  const pc = parsePeopleCondition(tour.minPeople);
+  // 불포함 줄의 인원별 현지 비용(샌딩·송영비)도 같이 읽는다 (2인 안내 보강 2026-11-07)
+  const pc = withLocalCosts(parsePeopleCondition(tour.minPeople), tour.excludes);
   if (pc.minDeparture != null) {
     faqs.push({
       q: "몇 명부터 갈 수 있나요?",
@@ -69,6 +70,7 @@ export function tourFaqs(tour: Tour): Faq[] {
         `${pc.minDeparture}인부터 출발할 수 있습니다.`,
         pc.basisText && `${pc.basisText}입니다.`,
         pc.extra === "surcharge" ? "인원에 따라 추가요금이 있을 수 있습니다." : pc.extra === "varies" ? "인원별 요금은 확인 후 안내해 드립니다." : "",
+        pc.localLines.length ? "현지에서 내는 비용(미팅·샌딩비 등)은 인원 수에 따라 달라지며 불포함 내역에 적힌 대로입니다." : "",
         `인원 조건은 전화(${PHONE})로 상담해 드립니다.`,
       ].filter(Boolean).join(" "),
     });

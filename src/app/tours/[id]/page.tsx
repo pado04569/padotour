@@ -48,7 +48,7 @@ import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
 import { tourFaqs } from "@/lib/tourFaq";
 import { stayText } from "@/lib/stay";
-import { parsePeopleCondition, roomBasisOf } from "@/lib/peopleCondition";
+import { parsePeopleCondition, roomBasisOf, withLocalCosts } from "@/lib/peopleCondition";
 import { IconChevron } from "@/components/icons/Chevron";
 import { regionGuides } from "@/lib/regionGuides";
 import { tourSeoTitle, tourSeoDescription } from "@/lib/seoMeta";
@@ -114,7 +114,10 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const galleryImages = tour.images && tour.images.length > 0 ? tour.images : tour.image ? [tour.image] : [];
   // 인원 조건 해석은 lib/peopleCondition.ts 한 곳 — 칩·문의 기본값·인원 선택 제한·?people= 검증이 같은 결과를 쓴다 (챗GPT 감사 10/27)
   //   최소 출발 인원 · 표시 요금 기준 · 객실 기준 · 항공 운임 기준 · 추가금/요금 확인을 따로 읽는다. 인원을 곱한 합계는 만들지 않는다.
-  const peopleCond = parsePeopleCondition(tour.minPeople);
+  //   불포함 줄의 인원별 현지 비용(샌딩·송영비)도 읽어 칩에 "2~3인은 현지비용 추가"를 붙인다. 원문 줄은 불포함 내역에 그대로 두고 칩이 그 줄로 안내한다 (작업지시서 2026-11-07)
+  const peopleCond = withLocalCosts(parsePeopleCondition(tour.minPeople), tour.excludes);
+  const localPeopleSet = new Set(peopleCond.localLines);
+  const peopleChipHref = peopleCond.localLines.length ? "#local-people" : peopleCond.extraLines.length || peopleCond.airfareText ? "#extra-people" : "";
   const peopleInfo = {
     chip: peopleCond.chip,
     basis: peopleCond.basisText,
@@ -389,11 +392,18 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                 { icon: <IconMoon className="w-4 h-4" />, text: tierNightsText ?? stayText(tour.nights, tour.days, " ") },
                 { icon: <IconFlag className="w-4 h-4" />, text: String(tour.roundsIncluded).includes("무제한") ? "무제한 라운드" : holesShortTop },
                 // 본문 핵심 정보 4칸을 없애고 칩으로 합쳤다 (사장님 확정 '나', 2026-10-25)
-                ...(minPeopleChip ? [{ icon: <IconUsers className="w-4 h-4" />, text: minPeopleChip }] : []),
+                ...(minPeopleChip ? [{ icon: <IconUsers className="w-4 h-4" />, text: minPeopleChip, href: peopleChipHref }] : []),
                 { icon: <IconCalendarDays className="w-4 h-4" />, text: periodChip || "연중 출발" },
               ].map((c) => (
                 <li key={c.text} className="inline-flex items-center gap-1.5 min-h-9 px-3 rounded-lg bg-slate-50 border border-slate-200 text-[13px] font-bold text-slate-700">
-                  <span className="text-brand-blue">{c.icon}</span>{c.text}
+                  {/* 인원 칩은 불포함 내역의 해당 원문 줄로 바로 간다 (2인 안내 보강 2026-11-07) */}
+                  {"href" in c && c.href ? (
+                    <a href={c.href} className="inline-flex items-center gap-1.5 underline decoration-dotted underline-offset-4" aria-label={`${c.text} — 불포함 내역의 인원 조건 보기`}>
+                      <span className="text-brand-blue">{c.icon}</span>{c.text}
+                    </a>
+                  ) : (
+                    <><span className="text-brand-blue">{c.icon}</span>{c.text}</>
+                  )}
                 </li>
               ))}
             </ul>
@@ -621,12 +631,15 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             </h3>
             <ul className="space-y-1.5">
               {tour.excludes.map((item, i) => (
-                <li key={i} className="text-sm text-gray-700 flex items-center gap-2">
-                  <span className="text-red-400">•</span> {item}
+                // 인원 수에 따라 달라지는 현지 비용 줄은 '인원별' 표를 붙여 원문 그대로 보여 준다 (금액 합산·새 숫자 금지, 2026-11-07)
+                <li key={i} id={localPeopleSet.has(item) && item === peopleCond.localLines[0] ? "local-people" : undefined} className="text-sm text-gray-700 flex items-center gap-2 scroll-mt-24 target:bg-amber-100/70 target:rounded-md">
+                  <span className="text-red-400">•</span>
+                  {localPeopleSet.has(item) && <span className="shrink-0 inline-flex items-center h-5 px-1.5 rounded bg-amber-50 border border-amber-200 text-[12px] font-bold text-amber-800">인원별</span>}
+                  <span>{item}</span>
                 </li>
               ))}
               {(peopleInfo.extra || peopleInfo.airfare) && (
-                <li id="extra-people" className="text-sm text-gray-700 flex items-center gap-2">
+                <li id="extra-people" className="text-sm text-gray-700 flex items-center gap-2 scroll-mt-24">
                   <span className="text-red-400">•</span> 인원 조건: {[peopleInfo.extra, peopleInfo.airfare].filter(Boolean).join(" · ")} (확인 후 안내)
                 </li>
               )}

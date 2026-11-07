@@ -1,6 +1,6 @@
 // 인원 조건 해석 회귀 테스트 — node scripts/test-people-condition.mjs (빌드 전 검사에는 넣지 않는다)
 import { readFileSync } from "node:fs";
-import { parsePeopleCondition as P, peopleAllowed, selectionNotes, shortPeopleNotice, peopleOptionsFor } from "../src/lib/peopleCondition.ts";
+import { parsePeopleCondition as P, peopleAllowed, selectionNotes, shortPeopleNotice, peopleOptionsFor, localPeopleLines, withLocalCosts, LOCAL_TAIL } from "../src/lib/peopleCondition.ts";
 
 let fail = 0;
 const eq = (name, got, want) => {
@@ -67,6 +67,30 @@ eq("조인 조건 보존", P("2인부터 (2인은 조인 라운드)").conditionL
 eq("시즌 제한 보존", P("2인 (2인 플레이는 비수기 한정, 주중 5인 플레이 가능)").conditionLines.length, 2);
 eq("검색 인원이 적을 때 안내", shortPeopleNotice(P("4인"), 2), "검색하신 2명은 이 상품의 최소 출발 인원(4명) 미만이라 4명으로 맞췄어요.");
 eq("미정 인원은 제한 없음", peopleAllowed(P(null), 1), true);
+
+// 불포함 줄의 인원별 현지 비용 (작업지시서 2026-11-07) — 잡을 것 4 · 잡지 말 것 3
+{
+  const catchLines = [
+    "미팅·샌딩 1인 $50 (4인 이상 기준, 2~3인 출발 시 총 $200)", // thailand-chiangmai-royal-golftel
+    "미팅·샌딩 1인 $50 (4인 기준 / 2인 $100)", // thailand-pattaya-onepatio-busan
+    "차량 송영비 1인 $70 (4인 기준 / 2인 $140)", // vietnam-halong-flc-busan
+    "공항 미팅·샌딩비 (4인 기준 1인 $50 / 3인 팀당 $200 / 2인 단독차량 1인 $100)", // thailand-bangkok-lotusvalley-busan
+  ];
+  for (const l of catchLines) eq(`인원별 현지비용 잡음: ${l}`, localPeopleLines([l], 2), [l]);
+  const skipLines = [
+    "캐디피 (18홀 1인 30,000원, 2인 1캐디 기준)", // 캐디 배정 기준
+    "싱글룸 사용료 (2인 1실 기준, 1실 1박 170,000원)", // 객실 기준
+    "미팅 & 샌딩비 (400위안/1인, 2인부터 출발 확정 시 추가요금 없음)", // 금액 차이 없음
+  ];
+  for (const l of skipLines) eq(`잡지 않음: ${l}`, localPeopleLines([l], 2), []);
+  eq("최소 인원 자체만 적힌 줄은 잡지 않음", localPeopleLines(["미팅·샌딩비 1인 $50 (2인 기준)"], 2), []);
+  eq("인원 무관은 잡지 않음", localPeopleLines(["미팅·샌딩비 (인원 상관없이 1인 400위안)"], 2), []);
+  const c = withLocalCosts(P("2인"), ["캐디팁 (18홀 1인 50만동)", "미팅 & 샌딩비 (1인당 70불, 4인 기준 / 3인 90불 / 2인 140불, 인원별 상이)"]);
+  eq("2인 + 불포함 인원별 샌딩비 → 칩 꼬리 '현지비용 인원별 상이', 원문 그대로 보존", { chip: c.chip, lines: c.localLines, extra: c.extra }, { chip: `2인 출발 가능${LOCAL_TAIL}`, lines: ["미팅 & 샌딩비 (1인당 70불, 4인 기준 / 3인 90불 / 2인 140불, 인원별 상이)"], extra: "none" });
+  const s = withLocalCosts(P("4인 (2~3인은 차량 추가요금)"), ["미팅·샌딩 1인 $50 (4인 기준 / 2인 $100)"]);
+  eq("minPeople 에 추가요금이 있으면 기존 칩 유지", s.chip, "2인 출발 가능 · 추가비용 별도");
+  eq("불포함 없으면 그대로", withLocalCosts(P("2인"), []).chip, "2인 출발 가능");
+}
 
 // 실제 상품 전체 점검 (참고용 출력)
 const tours = JSON.parse(readFileSync(new URL("../src/data/tours.json", import.meta.url), "utf8"));
