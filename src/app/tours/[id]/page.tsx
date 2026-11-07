@@ -416,7 +416,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
         {/* ── 출발일 캘린더 + 요금 / 홀수별 요금 ── */}
         {tour.holePriceTiers && tour.holePriceTiers.length > 0 ? (
-          <div id="departure" className="mb-8 scroll-mt-28 md:scroll-mt-32">
+          <div id="departure" className="mb-8 scroll-mt-32 md:scroll-mt-36">
             {tour.period && (
               <p className="text-sm text-gray-500 mb-2">{tour.period} · {tierNightsText ? "일정 선택제 요금" : "홀수 선택제 요금"}</p>
             )}
@@ -432,7 +432,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             />
           </div>
         ) : tour.departurePrices && tour.departurePrices.length > 0 ? (
-          <div id="departure" className="mb-8 scroll-mt-28 md:scroll-mt-32">
+          <div id="departure" className="mb-8 scroll-mt-32 md:scroll-mt-36">
             <DeparturePriceCalendar
               departurePrices={tour.departurePrices}
               nights={tour.nights}
@@ -440,7 +440,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             />
           </div>
         ) : (
-          <div id="departure" className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8 scroll-mt-28 md:scroll-mt-32 flex flex-col md:flex-row items-center justify-between gap-4">
+          <div id="departure" className="bg-emerald-50 border border-emerald-200 rounded-2xl p-5 md:p-6 mb-8 scroll-mt-32 md:scroll-mt-36 flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
               <p className="text-sm text-gray-500 mb-0.5">{depLabel} 기준</p>
               <p className="text-3xl md:text-4xl font-black text-red-600">{tour.price}</p>
