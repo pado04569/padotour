@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Image from "next/image";
 import { IconChevron } from "@/components/icons/Chevron";
 
@@ -11,12 +11,14 @@ export default function TourGallery({ images, alt }: { images: string[]; alt: st
   const list = images.length > 0 ? images : [];
   const [idx, setIdx] = useState(0);
   const [full, setFull] = useState(false);
+  const mainRef = useRef<HTMLButtonElement>(null);
   if (list.length === 0) return null;
   const move = (d: number) => setIdx((i) => (i + d + list.length) % list.length);
 
   return (
     <div className="min-w-0">
       <button
+        ref={mainRef}
         type="button"
         onClick={() => setFull(true)}
         aria-label="사진 크게 보기"
@@ -41,7 +43,15 @@ export default function TourGallery({ images, alt }: { images: string[]; alt: st
             <li key={i} className="flex-none">
               <button
                 type="button"
-                onClick={() => setIdx(i)}
+                onClick={() => {
+                  setIdx(i);
+                  // 휴대폰에서 큰 사진이 화면 위로 지나가 있으면 눌러도 반응 없어 보임(클래리티 11/6 스마일호텔) — 큰 사진이 보이게 올려 준다
+                  const big = mainRef.current;
+                  if (big) {
+                    const r = big.getBoundingClientRect();
+                    if (r.top < 70 || r.bottom > window.innerHeight) big.scrollIntoView({ behavior: "smooth", block: "center" });
+                  }
+                }}
                 aria-label={`${i + 1}번째 사진 보기`}
                 aria-current={i === idx ? "true" : undefined}
                 className={`relative block w-[76px] h-14 rounded-lg overflow-hidden transition-shadow ${i === idx ? "ring-2 ring-brand-blue" : "ring-1 ring-black/10 hover:ring-brand-blue/50"}`}

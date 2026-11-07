@@ -7,6 +7,7 @@ import { endedTourTarget } from "@/lib/endedTourRedirect";
 import type { Metadata } from "next";
 import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
 import TourGallery from "@/components/TourGallery";
+import DepartureJumpButton from "@/components/DepartureJumpButton";
 import InquiryDock from "@/components/InquiryDock";
 import CountryFlag from "@/components/CountryFlag";
 import HolePriceTierSelector from "@/components/HolePriceTierSelector";
@@ -401,9 +402,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             )}
             {peopleInfo.basis && <p className="mt-1.5 text-[13px] font-semibold text-slate-600">{peopleInfo.basis}</p>}
             {peopleInfo.airfare && <p className="mt-1.5 text-[13px] font-semibold text-slate-600">{peopleInfo.airfare}</p>}
-            <a href="#departure" className="mt-4 w-full min-h-12 rounded-xl border-[1.5px] border-brand-blue text-brand-blue hover:bg-blue-50 text-[15px] font-black flex items-center justify-center gap-1.5">
+            <DepartureJumpButton className="mt-4 w-full min-h-12 rounded-xl border-[1.5px] border-brand-blue text-brand-blue hover:bg-blue-50 text-[15px] font-black flex items-center justify-center gap-1.5">
               <IconCalendarDays className="w-5 h-5" />출발일별 요금 보기
-            </a>
+            </DepartureJumpButton>
           </div>
         </div>
       </div>
