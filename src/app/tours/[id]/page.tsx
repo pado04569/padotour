@@ -129,7 +129,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
     const p = (tour.period ?? "연중 출발").replace(/\([^)]*\)/g, "").trim().replace(/\s*(매일|지정일?)\s*출발$/, "").trim().replace(/(\d+월)\s*\d+일/g, "$1").trim();
     const m = p.match(/^(\d{4})년\s*(\d{1,2})월/);
     if (!m) return p;
-    const nowYm = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 7);
+    const nowYm = new Date(new Date().getTime() + 9 * 3600 * 1000).toISOString().slice(0, 7);
     const next = (tour.departurePrices ?? []).map((d) => d.date).filter((d) => d.slice(0, 7) >= nowYm).sort()[0];
     const startYm = (next ?? nowYm).slice(0, 7);
     if (`${m[1]}-${m[2].padStart(2, "0")}` >= startYm) return p;
