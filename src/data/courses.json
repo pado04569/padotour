@@ -11752,5 +11752,67 @@
     "relatedTourIds": [
       "japan-kagoshima-shiroyama-3color-incheon"
     ]
+  },
+  {
+    "slug": "zhaoqing-resort-golf-club",
+    "name": "조경CC",
+    "nameEn": "Zhaoqing Resort & Golf Club (肇庆高尔夫度假村)",
+    "aliases": [
+      "조경 CC",
+      "조경골프장",
+      "Zhaoqing Resort"
+    ],
+    "region": "광저우",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "게리 플레이어가 중국에서 처음 설계한 코스, 1994년 개장해 2017년 9홀을 더한 27홀 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (기존 18홀 + 2017년 9홀 추가)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "파73 · 7,260야드 (A/B코스, 골드티)"
+      },
+      {
+        "label": "설계",
+        "value": "게리 플레이어 (Gary Player)"
+      },
+      {
+        "label": "개장",
+        "value": "1994년"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 광둥성 자오칭시 가오야오 후이룽진"
+      }
+    ],
+    "description": "조경CC는 광둥성 자오칭(肇庆) 가오야오 지역에 있는 골프장으로, 1994년 문을 열었습니다. 남아공 출신 프로골퍼 게리 플레이어가 중국에서 처음 설계한 코스로 알려져 있으며, 처음 18홀로 개장한 뒤 2017년 9홀이 더해져 지금은 27홀 규모로 운영됩니다.\n\n대표 코스인 A/B코스는 골드티 기준 파73·7,260야드입니다. 비교적 평탄한 파크랜드형 레이아웃에 나무가 늘어선 페어웨이가 이어지고, 여러 홀에 워터 해저드가 자리해 공략 지점을 고르는 재미가 있습니다. 2017년에 추가된 9홀은 나무가 빽빽하고 대부분의 홀에 물이 끼어 있어 기존 18홀과는 또 다른 분위기로 라운딩할 수 있습니다.\n\n자오칭 시내에서 차로 약 35분 거리이며, 광저우 근교 다른 골프장과 묶어 하루 한 곳씩 라운딩하는 다색 골프 일정에 자주 포함됩니다. 상품에 따라 하루 18홀 또는 27홀을 라운딩하고, 그린피·카트비·캐디피 포함 여부는 상품마다 다르니 상품 안내를 확인해 주시기 바랍니다.",
+    "images": [
+      "/images/zhaoqing-resort-golf-club/course-1.jpg",
+      "/images/zhaoqing-resort-golf-club/course-2.jpg",
+      "/images/zhaoqing-resort-golf-club/course-3.jpg",
+      "/images/zhaoqing-resort-golf-club/course-4.jpg",
+      "/images/zhaoqing-resort-golf-club/course-5.jpg"
+    ],
+    "hashtags": [
+      "조경CC",
+      "조경골프장",
+      "광저우골프여행",
+      "광저우골프",
+      "중국골프여행",
+      "게리플레이어코스",
+      "해외골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-guangzhou-3color-shenzhen-incheon",
+      "china-guangzhou-3color-shenzhen-incheon-4n6d",
+      "china-guangzhou-emerald-busan",
+      "china-guangzhou-emerald-busan-4n6d",
+      "china-guangzhou-wuyi-heshan-zhaoqing-busan",
+      "china-guangzhou-wuyi-heshan-zhaoqing-busan-4n6d",
+      "china-guangzhou-wuyi-zhaoqing-crowne-incheon"
+    ]
   }
 ]
