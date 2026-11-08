@@ -8,6 +8,8 @@
  *  - 같은 행동은 한 번만 보낸다. (중복 방지는 호출하는 쪽에서 처리)
  */
 
+import { entryParams } from "@/lib/attribution";
+
 declare global {
   interface Window {
     gtag?: (...args: unknown[]) => void;
@@ -36,5 +38,7 @@ export function track(name: EventName, params: Params = {}) {
     console.log("[track]", name, params);
   }
 
-  window.gtag?.("event", name, params);
+  // 문의·상품 조회에는 ChatGPT로 시작한 세션 표시를 덧붙인다 (없으면 아무것도 안 붙음)
+  const withEntry = name === "generate_lead" || name === "contact_lead" || name === "view_item" ? { ...entryParams(), ...params } : params;
+  window.gtag?.("event", name, withEntry);
 }

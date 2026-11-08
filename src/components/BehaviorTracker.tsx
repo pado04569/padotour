@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { track } from "@/lib/analytics";
+import { captureEntry } from "@/lib/attribution";
 
 /**
  * 여행의파도 자체 행동 데이터 수집기 (GA4 커스텀 이벤트)
@@ -12,6 +13,9 @@ import { track } from "@/lib/analytics";
  */
 export default function BehaviorTracker() {
   const pathname = usePathname();
+
+  // ChatGPT로 들어온 세션이면 표시해 둔다 (처음 한 번만 정해지고 덮어쓰지 않음)
+  useEffect(() => { captureEntry(); }, []);
 
   // 스크롤 깊이 (페이지 이동 시 초기화)
   useEffect(() => {

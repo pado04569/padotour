@@ -117,6 +117,9 @@ export default function BusanHome() {
           >
             전체 상품 보기 ({allBusanTours.length}개)
           </Link>
+          <p className="mt-4 text-[15px] text-gray-600 break-keep">
+            어디로 갈지 고민이라면 <Link href="/guide/busan-winter-golf" className="font-bold text-brand-blue underline underline-offset-2">부산 출발 겨울 골프여행 비교</Link>
+          </p>
         </div>
       </section>
 

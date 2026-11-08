@@ -1,7 +1,7 @@
 import { tours, type Tour } from "@/data/tours";
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
 import { stayText } from "@/lib/stay";
-import { parsePeopleCondition, withLocalCosts } from "@/lib/peopleCondition";
+import { parsePeopleCondition, roomBasisOf, withLocalCosts } from "@/lib/peopleCondition";
 
 /**
  * 상품별 자주 묻는 질문 — 손님이 전화로 실제로 묻는 것들을 상품 데이터에서 그대로 답한다.
@@ -59,6 +59,20 @@ export function tourFaqs(tour: Tour): Faq[] {
     });
   }
 
+  // 2-1) 최저가 기준 — 어떤 날짜·객실·인원 기준인지 (날짜별 요금이 있을 때만. 없으면 지어내지 않는다)
+  if (d) {
+    const room = roomBasisOf(tour);
+    const basisPeople = parsePeopleCondition(tour.minPeople).priceBasis;
+    faqs.push({
+      q: "표시된 최저가는 어떤 조건의 요금인가요?",
+      a: [
+        `현재 남은 출발일 중 가장 낮은 1인 요금은 ${d.cheapestDateText} 출발 ${d.lowPriceText}이고, ${room}인 1실 사용 기준입니다.`,
+        basisPeople ? `표시 요금은 ${basisPeople}인 출발 기준입니다.` : "",
+        "다른 출발일은 요금이 다를 수 있어 출발일 달력에서 날짜별로 확인하셔야 합니다.",
+      ].filter(Boolean).join(" "),
+    });
+  }
+
   // 3) 최소 인원
   // 인원 해석은 lib/peopleCondition.ts — 항공 운임·객실 기준·모집 정원을 최소 출발 인원으로 쓰지 않는다
   // 불포함 줄의 인원별 현지 비용(샌딩·송영비)도 같이 읽는다 (2인 안내 보강 2026-11-07)
@@ -73,6 +87,15 @@ export function tourFaqs(tour: Tour): Faq[] {
         pc.localLines.length ? "현지에서 내는 비용(미팅·샌딩비 등)은 인원 수에 따라 달라지며 불포함 내역에 적힌 대로입니다." : "",
         `인원 조건은 전화(${PHONE})로 상담해 드립니다.`,
       ].filter(Boolean).join(" "),
+    });
+  }
+
+  // 3-1) 도착일 라운딩 — 일정표 첫째 날에 라운딩이 적혀 있을 때만 (없으면 질문을 뺀다)
+  const day1 = tour.schedule?.[0];
+  if (day1 && /라운딩|라운드|티오프|18홀/.test(day1.desc)) {
+    faqs.push({
+      q: "도착하는 날에도 라운딩을 하나요?",
+      a: `일정표 기준 ${day1.day}(${day1.label})에 "${day1.desc.replace(/\s+/g, " ").trim().slice(0, 120)}"로 안내되어 있습니다. 실제 비행 시각에 따라 달라질 수 있어 예약 시 다시 확인해 드립니다.`,
     });
   }
 
@@ -104,6 +127,17 @@ export function tourFaqs(tour: Tour): Faq[] {
     faqs.push({
       q: "그린피·캐디피·카트비는 포함인가요?",
       a: [golfIn.length && `포함: ${golfIn.join(", ")}.`, golfOut.length && `불포함(현지 지불): ${golfOut.join(", ")}.`].filter(Boolean).join(" "),
+    });
+  }
+
+  const mealOutAll = pick(tour.excludes, /식/);
+  // 5-1) 현지에서 따로 내는 비용 — 불포함 목록 원문 그대로 (금액을 지어내지 않는다)
+  // 캐디·카트·식사 항목은 위의 해당 질문에서 이미 답했으므로 겹치지 않게 뺀다
+  const localOut = tour.excludes.filter((x) => /현지|팁|샌딩|송영|싱글|미팅|개인|옵션/.test(x) && !golfOut.includes(x) && !mealOutAll.includes(x));
+  if (localOut.length) {
+    faqs.push({
+      q: "현지에서 따로 내야 하는 비용이 있나요?",
+      a: `불포함 내역은 다음과 같습니다: ${localOut.join(", ")}. 금액은 상품 상세의 불포함 항목에 적힌 대로이며, 적혀 있지 않은 항목은 예약 시 확인해 드립니다.`,
     });
   }
 

@@ -53,8 +53,13 @@ const fmtDate = (iso: string) => {
 };
 
 /** 지금 이후의 출발일 요약: 기간·횟수·최저가 */
+/** 한국 날짜(YYYY-MM-DD). 서버는 UTC라 toISOString()을 쓰면 한국 오전 9시 전에 하루 전 날짜가 된다 */
+export function kstTodayIso(now = new Date()): string {
+  return new Date(now.getTime() + 9 * 3600 * 1000).toISOString().slice(0, 10);
+}
+
 export function departureSummary(tour: Tour, today = new Date()) {
-  const todayIso = today.toISOString().slice(0, 10);
+  const todayIso = kstTodayIso(today);
   const upcoming = (tour.departurePrices ?? [])
     .filter((dp) => dp.date >= todayIso)
     .sort((a, b) => a.date.localeCompare(b.date));

@@ -18,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       .filter((d) => tours.some((t) => t.departure === d))
       .map((d) => ({ url: `${BASE_URL}/${d}`, priority: 0.8 })),
     { url: `${BASE_URL}/tours`, priority: 0.9 },
+    { url: `${BASE_URL}/guide/busan-winter-golf`, priority: 0.8 },
     ...regionGuides.map((g) => ({ url: `${BASE_URL}/guide/${g.slug}`, priority: 0.9 })),
     { url: `${BASE_URL}/courses`, priority: 0.8 },
     { url: `${BASE_URL}/reviews`, priority: 0.7 },

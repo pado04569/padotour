@@ -74,6 +74,7 @@ ${countryLines}
 - [홈](${BASE}/): 전체 안내
 - [인천출발 골프여행](${BASE}/incheon): 인천공항 출발 상품
 - [부산출발 골프여행](${BASE}/busan): 김해공항 출발 상품
+- [부산 출발 겨울 골프여행 비교](${BASE}/guide/busan-winter-golf): 오키나와·클락·치앙마이 상품을 기간·인원 조건·요금 기준으로 비교
 - [전체 상품 목록](${BASE}/tours): 나라별 필터
 - [골프장 소개](${BASE}/courses): 코스 정보
 - [고객 후기](${BASE}/reviews)

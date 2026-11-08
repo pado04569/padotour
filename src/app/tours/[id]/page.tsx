@@ -507,6 +507,16 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                 </dd>
               </div>
             )}
+            {departures && (
+              <div className="flex gap-3">
+                <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500 flex items-center gap-2 h-5"><span className="text-brand-blue"><IconCalendarDays /></span>최저 요금</dt>
+                {/* 날짜별 요금표의 남은 출발일 기준 — 달력·문의 패널과 같은 값(departureSummary). 객실 기준·인원 조건은 있는 것만 적는다 */}
+                <dd className="text-gray-800 leading-5">
+                  <span className="whitespace-nowrap">{departures.cheapestDateText} 출발</span> <b className="text-red-600">{departures.lowPriceText}</b> (1인 · {roomBasisOf(tour)}인 1실 기준)
+                  {peopleCond.chip && <span className="block text-gray-600">인원 조건: {peopleCond.chip}</span>}
+                </dd>
+              </div>
+            )}
           </dl>
           </Link>
         )}
