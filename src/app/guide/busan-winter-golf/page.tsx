@@ -138,7 +138,8 @@ export default function BusanWinterGolfPage() {
   };
 
   const regionSummary = (rows: Row[]) => ({
-    stays: [...new Set(rows.map((r) => r.stay))].join(" / "),
+    // 상품마다 "3박5일 / 4박6일"처럼 여러 박수를 가질 수 있어 낱개로 풀어 중복 없이 모은다
+    stays: [...new Set(rows.flatMap((r) => r.stay.split(" / ")))].join(" / "),
     // 상품마다 인원 조건이 달라 한 줄로 합치지 않고 최소 인원별 상품 수로 센다 (추가·조인 조건은 상품 카드에서 확인)
     people: (() => {
       const n = new Map<number, number>();
@@ -154,6 +155,8 @@ export default function BusanWinterGolfPage() {
     first: rows.map((r) => r.first).sort()[0],
     last: rows.map((r) => r.last).sort().slice(-1)[0],
     lowest: rows[0],
+    // 2인으로 갈 수 있는 상품 중 가장 낮은 요금 — 전체 최저가가 4인 이상 상품일 때 2인 손님이 오해하지 않도록 따로 보여 준다
+    low2: rows.find((r) => r.minPeople != null && r.minPeople <= 2),
   });
 
   return (
@@ -208,7 +211,13 @@ export default function BusanWinterGolfPage() {
                           <td className="p-3 break-keep">{r.stays}</td>
                           <td className="p-3 break-keep">{ymd(r.first)} ~ {ymd(r.last)}</td>
                           <td className="p-3 break-keep">{r.people}</td>
-                          <td className="p-3"><b className="text-red-600">{fmtWon(r.lowest.low)}</b><span className="block text-xs text-slate-ink">{ymd(r.lowest.lowDate)} 출발 · {r.lowest.lowStay} · {r.lowest.room}인 1실 기준</span></td>
+                          <td className="p-3">
+                            <b className="text-red-600">{fmtWon(r.lowest.low)}</b>
+                            <span className="block text-xs text-slate-ink">{ymd(r.lowest.lowDate)} 출발 · {r.lowest.lowStay} · {r.lowest.room}인 1실 · {r.lowest.people}</span>
+                            {r.low2 && r.low2 !== r.lowest && (
+                              <span className="block mt-1.5 text-xs text-slate-ink">2인 출발 가능 상품 중 <b className="text-red-600">{fmtWon(r.low2.low)}</b> ({ymd(r.low2.lowDate)} 출발 · {r.low2.lowStay} · {r.low2.room}인 1실)</span>
+                            )}
+                          </td>
                         </tr>
                       );
                     })}
@@ -225,7 +234,10 @@ export default function BusanWinterGolfPage() {
                       <dd><span className="text-slate-ink">기간 </span>{r.stays}</dd>
                       <dd><span className="text-slate-ink">출발 가능 기간 </span>{ymd(r.first)} ~ {ymd(r.last)}</dd>
                       <dd><span className="text-slate-ink">인원 조건 </span>{r.people}</dd>
-                      <dd><span className="text-slate-ink">낮은 요금(1인) </span><b className="text-red-600">{fmtWon(r.lowest.low)}</b> ({ymd(r.lowest.lowDate)} 출발 · {r.lowest.lowStay} · {r.lowest.room}인 1실 기준)</dd>
+                      <dd><span className="text-slate-ink">낮은 요금(1인) </span><b className="text-red-600">{fmtWon(r.lowest.low)}</b> ({ymd(r.lowest.lowDate)} 출발 · {r.lowest.lowStay} · {r.lowest.room}인 1실 · {r.lowest.people})</dd>
+                      {r.low2 && r.low2 !== r.lowest && (
+                        <dd><span className="text-slate-ink">2인 출발 가능 상품 중 </span><b className="text-red-600">{fmtWon(r.low2.low)}</b> ({ymd(r.low2.lowDate)} 출발 · {r.low2.lowStay} · {r.low2.room}인 1실)</dd>
+                      )}
                     </dl>
                   );
                 })}
