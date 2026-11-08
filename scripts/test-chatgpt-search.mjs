@@ -36,5 +36,10 @@ eq("전부 지나면 요약 없음(현재 최저가로 표시 안 함)", departu
 eq("요금표 없음 → 요약 없음(0원으로 대체 안 함)", departureSummary({ id: "x" }, now), undefined);
 eq("출발 당일은 아직 남은 것으로 본다", departureSummary(base, new Date("2026-11-10T00:30:00Z"))?.cheapestDate, "2026-11-10");
 
+// ── 박수가 섞인 상품: 최저가의 박수를 밝힌다 ──
+const mixed = { id: "m", nights: 3, days: 5, departurePrices: [{ date: "2026-11-10", price: 900000, nights: 4, days: 6 }, { date: "2026-11-20", price: 800000, nights: 3, days: 5 }] };
+eq("박수 혼재 → 최저가 박수 표기", departureSummary(mixed, now)?.cheapestStay, "3박5일");
+eq("박수 단일 → 표기 없음", departureSummary(base, now)?.cheapestStay, undefined);
+
 console.log(fail ? `\n실패 ${fail}건` : "\n모두 통과");
 process.exit(fail ? 1 : 0);

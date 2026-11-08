@@ -7,7 +7,7 @@
 
 | 항목 | 현재 구현·근거 | 문제 | 조치 | 확인 필요 |
 |---|---|---|---|---|
-| robots.txt | `src/app/robots.txt` — `*`와 OAI-SearchBot·GPTBot·ChatGPT-User 등 모두 Allow, `/admin`·`/api`만 Disallow | 없음 (OAI-SearchBot 차단 안 함) | 유지. GPTBot 정책 안 바꿈 | 변경 후 반영은 공식 문서상 약 24시간 |
+| robots.txt | `src/app/robots.txt` — `*`와 OAI-SearchBot·GPTBot·ChatGPT-User 등 모두 Allow, `/admin`·`/api`만 Disallow | 없음 (OAI-SearchBot 차단 안 함) | 유지. GPTBot 정책 안 바꿈 | 이번 작업은 robots.txt를 바꾸지 않았다. (참고: OpenAI 문서는 robots.txt를 바꿨을 때 자기 시스템이 조정되는 데 약 24시간이 걸릴 수 있다고 안내한다. 이는 robots.txt 변경에 대한 설명일 뿐, 이번 배포나 검색 반영·노출 시점을 뜻하지 않는다) |
 | CDN·방화벽 | Vercel. 일반 UA 요청 200 확인(홈·목록·상세·sitemap·llms.txt) | UA만 바꾼 요청이라 실제 OpenAI IP 접근 성공은 **확인 불가** | 기록만 | Vercel 방화벽·봇 보호에서 openai.com/searchbot.json IP 대역 차단 여부 |
 | 상품 본문 | 정적 생성(SSG), 초기 HTML에 제목·항공편·출발일·FAQ 포함, TouristTrip·FAQPage·Breadcrumb JSON-LD | 최저가 기준(날짜·객실·인원)이 글로 없었음 | 요약 박스에 "최저 요금" 줄 추가 | — |
 | canonical·noindex | 상세 canonical 자기 자신, robots index,follow | 없음 | 유지 | — |

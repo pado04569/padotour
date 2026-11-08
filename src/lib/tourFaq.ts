@@ -66,7 +66,7 @@ export function tourFaqs(tour: Tour): Faq[] {
     faqs.push({
       q: "표시된 최저가는 어떤 조건의 요금인가요?",
       a: [
-        `현재 남은 출발일 중 가장 낮은 1인 요금은 ${d.cheapestDateText} 출발 ${d.lowPriceText}이고, ${room}인 1실 사용 기준입니다.`,
+        `현재 남은 출발일 중 가장 낮은 1인 요금은 ${d.cheapestDateText} 출발${d.cheapestStay ? ` ${d.cheapestStay}` : ""} ${d.lowPriceText}이고, ${room}인 1실 사용 기준입니다.`,
         basisPeople ? `표시 요금은 ${basisPeople}인 출발 기준입니다.` : "",
         "다른 출발일은 요금이 다를 수 있어 출발일 달력에서 날짜별로 확인하셔야 합니다.",
       ].filter(Boolean).join(" "),

@@ -34,6 +34,8 @@ type Row = {
   low: number;
   lowDate: string;
   stay: string;
+  /** 최저가가 붙은 출발일의 박수 (한 상품에 3박5일·4박6일 출발일이 섞여 있을 수 있다) */
+  lowStay: string;
   people: string;
   minPeople: number | null;
   room: number;
@@ -42,6 +44,7 @@ type Row = {
   localOut: string[];
 };
 
+const stayOf = (n?: number, d?: number) => (n && d ? stayText(n, d) : "확인 필요");
 const winterMonth = (iso: string) => /^\d{4}-(11|12|01|02|03)-/.test(iso);
 
 function build(): { region: (typeof REGIONS)[number]; rows: Row[] }[] {
@@ -69,7 +72,12 @@ function build(): { region: (typeof REGIONS)[number]; rows: Row[] }[] {
         last: sum.last,
         low: sum.lowPrice,
         lowDate: sum.cheapestDate,
-        stay: t.nights && t.days ? stayText(t.nights, t.days) : "확인 필요",
+        // 겨울 출발일에 실제로 있는 박수만 적는다 (상품 대표 박수와 다른 박수의 출발일이 섞인 상품 대응)
+        stay: [...new Set(winter.map((d) => stayOf(d.nights ?? t.nights, d.days ?? t.days)))].join(" / "),
+        lowStay: (() => {
+          const low = winter.find((d) => d.date === sum.cheapestDate && d.price === sum.lowPrice) ?? winter[0];
+          return stayOf(low.nights ?? t.nights, low.days ?? t.days);
+        })(),
         people,
         minPeople: pc.minDeparture,
         room: roomBasisOf(t),
@@ -200,7 +208,7 @@ export default function BusanWinterGolfPage() {
                           <td className="p-3 break-keep">{r.stays}</td>
                           <td className="p-3 break-keep">{ymd(r.first)} ~ {ymd(r.last)}</td>
                           <td className="p-3 break-keep">{r.people}</td>
-                          <td className="p-3"><b className="text-red-600">{fmtWon(r.lowest.low)}</b><span className="block text-xs text-slate-ink">{ymd(r.lowest.lowDate)} 출발 · {r.lowest.room}인 1실 기준</span></td>
+                          <td className="p-3"><b className="text-red-600">{fmtWon(r.lowest.low)}</b><span className="block text-xs text-slate-ink">{ymd(r.lowest.lowDate)} 출발 · {r.lowest.lowStay} · {r.lowest.room}인 1실 기준</span></td>
                         </tr>
                       );
                     })}
@@ -217,7 +225,7 @@ export default function BusanWinterGolfPage() {
                       <dd><span className="text-slate-ink">기간 </span>{r.stays}</dd>
                       <dd><span className="text-slate-ink">출발 가능 기간 </span>{ymd(r.first)} ~ {ymd(r.last)}</dd>
                       <dd><span className="text-slate-ink">인원 조건 </span>{r.people}</dd>
-                      <dd><span className="text-slate-ink">낮은 요금(1인) </span><b className="text-red-600">{fmtWon(r.lowest.low)}</b> ({ymd(r.lowest.lowDate)} 출발 · {r.lowest.room}인 1실 기준)</dd>
+                      <dd><span className="text-slate-ink">낮은 요금(1인) </span><b className="text-red-600">{fmtWon(r.lowest.low)}</b> ({ymd(r.lowest.lowDate)} 출발 · {r.lowest.lowStay} · {r.lowest.room}인 1실 기준)</dd>
                     </dl>
                   );
                 })}
@@ -242,7 +250,7 @@ export default function BusanWinterGolfPage() {
                           <div><dt className="inline text-slate-ink">포함 </dt><dd className="inline">{r.inc.length ? r.inc.join("·") : "상품 상세에서 확인"}</dd></div>
                           {r.localOut.length > 0 && <div className="sm:col-span-2"><dt className="inline text-slate-ink">현지 별도 </dt><dd className="inline">{r.localOut.join(", ")}</dd></div>}
                         </dl>
-                        <p className="mt-2 text-sm"><b className="text-red-600">{fmtWon(r.low)}</b> <span className="text-slate-ink">(1인 · {r.room}인 1실 · {ymd(r.lowDate)} 출발 기준)</span></p>
+                        <p className="mt-2 text-sm"><b className="text-red-600">{fmtWon(r.low)}</b> <span className="text-slate-ink">(1인 · {r.lowStay} · {r.room}인 1실 · {ymd(r.lowDate)} 출발 기준)</span></p>
                       </Link>
                     </li>
                   ))}

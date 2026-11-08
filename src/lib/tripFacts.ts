@@ -73,6 +73,8 @@ export function departureSummary(tour: Tour, today = new Date()) {
     lowPrice: Math.min(...prices),
     highPrice: Math.max(...prices),
     cheapestDate: cheapest.date,
+    /** 출발일마다 박수가 다른 상품(3박5일·4박6일 혼재)일 때만 값이 있다 — 최저가가 몇 박 요금인지 밝히려고 */
+    cheapestStay: new Set(upcoming.map((u) => `${u.nights ?? tour.nights}/${u.days ?? tour.days}`)).size > 1 ? `${cheapest.nights ?? tour.nights}박${cheapest.days ?? tour.days}일` : undefined,
     rangeText: `${fmtDate(upcoming[0].date)} ~ ${fmtDate(upcoming[upcoming.length - 1].date)} 중 ${upcoming.length}일 출발`,
     lowPriceText: `${cheapest.price.toLocaleString("ko-KR")}원`,
     cheapestDateText: fmtDate(cheapest.date),
