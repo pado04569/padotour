@@ -133,6 +133,26 @@ function ToursContent() {
     return sortTours(list, sort, today, dateParam || undefined);
   })();
   const altShown = altAll.slice(0, ALT_MAX);
+  // 그 날짜에 출발하는 상품이 하나도 없을 때: 같은 지역·박수 상품의 남은 출발일에서 요일 패턴을 읽어 "화·목요일 출발만 가능" 안내 (사장님 지시 11/8, 클래리티 푸저우 죽은 탭)
+  const noDeparture = Boolean(dateParam) && filtered.length === 0 && onDate.length === 0;
+  const weekdayPattern = (() => {
+    if (!noDeparture) return null;
+    const names = ["일", "월", "화", "수", "목", "금", "토"];
+    const seen = new Set<number>();
+    // 박수·낱말로 거르기 전의 지역 상품 기준 — "4박"을 골라 목록이 비어도 지역의 출발 요일은 알려 준다
+    const parts = regionParam.split("/").map((x) => x.trim()).filter(Boolean);
+    const regionTours = (selected === "all" ? pool : pool.filter((t) => t.countryCode === selected))
+      .filter((t) => !regionParam || (t.region && (t.region.includes(regionParam) || parts.some((x) => t.region!.includes(x)))));
+    for (const t of regionTours) for (const d of departureMap(t).keys()) {
+      if (d < today) continue;
+      const [y, m, dd] = d.split("-").map(Number);
+      seen.add(new Date(y, m - 1, dd).getDay());
+    }
+    if (seen.size === 0 || seen.size > 4) return null; // 요일이 많으면 패턴 안내가 오히려 헷갈린다
+    const [qy, qm, qd] = dateParam.split("-").map(Number);
+    if (seen.has(new Date(qy, qm - 1, qd).getDay())) return null; // 고른 날이 출발 요일이면 박수·인원 때문이라 요일 안내가 맞지 않다
+    return [1, 2, 3, 4, 5, 6, 0].filter((n) => seen.has(n)).map((n) => names[n]).join("·");
+  })();
   const countryName = countries.find((c) => c.code === selected)?.label ?? "전체";
   const monthText = monthParam ? `${+monthParam.slice(5)}월 출발` : "";
   const placeText = regionParam ? (regionParam === "괌" ? "괌/사이판" : regionParam) : selected === "all" ? "전체 여행지" : countryName;
@@ -214,8 +234,9 @@ function ToursContent() {
           <>
             {/* 조건을 몰래 풀거나 다른 출발공항 상품을 섞지 않는다 — 고객이 직접 고치거나 초기화(출발공항은 유지) (사장님 지시서 2026-10-25) */}
             <div className="px-4 py-4 rounded-2xl bg-slate-50 border-[1.5px] border-slate-200">
-              <p className="text-[17px] md:text-lg font-black text-slate-900">선택하신 조건에 맞는 상품이 없습니다.</p>
-              <p className="text-[15px] text-slate-700 mt-1">출발일이나 여행지를 변경해 보세요.</p>
+              <p className="text-[17px] md:text-lg font-black text-slate-900">{weekdayPattern ? `${dateLabel(dateParam)}에 출발하는 상품이 없습니다.` : "선택하신 조건에 맞는 상품이 없습니다."}</p>
+              {weekdayPattern && <p className="text-[15px] font-bold text-brand-blue mt-1">{regionParam ? `${placeText} 골프여행은 ` : ""}{weekdayPattern}요일 출발만 가능합니다.</p>}
+              <p className="text-[15px] text-slate-700 mt-1">{weekdayPattern ? "다른 출발일을 선택해 보세요." : "출발일이나 여행지를 변경해 보세요."}</p>
               <p className="text-sm text-slate-500 mt-1">{[dateParam ? dateLabel(dateParam) : "", conditionText].filter(Boolean).join(" · ")}</p>
               <div className="flex flex-wrap gap-2 mt-3">
                 <button type="button" onClick={() => setOpenSignal((n) => n + 1)} className="inline-flex items-center justify-center min-h-12 px-5 rounded-full bg-brand-blue hover:bg-blue-700 text-white text-[15px] font-bold">

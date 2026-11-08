@@ -167,7 +167,7 @@ export default function DepartureSearch({
           </Link>
         </div>
       </div>
-      {sameNote && <p role="status" className="mt-2 text-center text-[14px] font-bold text-brand-blue">지금 조건 그대로 검색한 결과예요. 아래에서 확인해 주세요.</p>}
+      {sameNote && <p role="status" className="mt-2 text-center text-[14px] font-bold text-brand-blue">지금 조건 그대로 검색했어요. 아래 안내를 확인해 주세요.</p>}
 
       {open && (
         <DateSheet
