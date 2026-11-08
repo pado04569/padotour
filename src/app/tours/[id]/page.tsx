@@ -471,7 +471,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
         {/* ── 항공편·출발일 한눈에 ── */}
         {/* 그림·달력이 아니라 글자로 둔다 — AI 검색이 이 문장을 그대로 읽어 간다 (2026-10, ChatGPT 유입 손님 사례) */}
         {(flights.outbound || flights.inbound || departures) && (
-          <dl className="bg-white border border-gray-200 rounded-2xl p-4 md:p-5 mb-8 space-y-2.5 text-sm break-keep">
+          <Link href="#departure" className="block mb-8 group">
+          {/* 아이콘·이름 글자를 눌러도 달력으로 이동 (클래리티 11/8 죽은 탭: 클락 뉴아시아) */}
+          <dl className="bg-white border border-gray-200 group-hover:bg-gray-50 transition-colors rounded-2xl p-4 md:p-5 space-y-2.5 text-sm break-keep">
             {flights.outbound && (
               <div className="flex gap-3">
                 <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500 flex flex-col items-start gap-1 md:flex-row md:items-center md:gap-2 md:h-5"><span className="flex items-center gap-2 h-5"><span className="text-brand-blue"><IconPlaneTakeoff /></span>가는 편</span>{flightNoOf(flights.outbound) && <b className="px-1.5 py-0.5 rounded bg-blue-50 text-brand-blue text-[13px] font-extrabold">{flightNoOf(flights.outbound)}</b>}</dt>
@@ -489,7 +491,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                 <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500 flex items-center gap-2 h-5"><span className="text-brand-blue"><IconCalendarDays /></span>출발일</dt>
                 <dd className="text-gray-800 leading-5">
                   {/* 좁은 화면에서 날짜·"중 40일 출발"이 중간에 끊기지 않게 덩어리로 (사장님 지시 10/25) */}
-                  <Link href="#departure" className="hover:underline">
+                  <span className="group-hover:underline">
                     {(() => {
                       const [range, tail] = departures.rangeText.split(/ 중 (.+)/);
                       const [a, bPart] = range.split(" ~ ");
@@ -501,11 +503,12 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                         </>
                       );
                     })()}
-                  </Link>
+                  </span>
                 </dd>
               </div>
             )}
           </dl>
+          </Link>
         )}
 
         {/* ── 상품 요약 박스 ── */}

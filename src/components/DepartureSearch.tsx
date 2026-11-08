@@ -86,6 +86,8 @@ export default function DepartureSearch({
   openSignal?: number;
 }) {
   const [open, setOpen] = useState(false);
+  const rootRef = useRef<HTMLDivElement>(null);
+  const [sameNote, setSameNote] = useState(false);
   const [draft, setDraft] = useState({ date, people, nights, departure });
   // 주소가 바뀌면(뒤로가기 등) 부모가 key 를 바꿔 입력값을 새로 맞춘다
 
@@ -98,7 +100,7 @@ export default function DepartureSearch({
   const value = "text-[17px] font-extrabold leading-tight truncate";
 
   return (
-    <div className="rounded-2xl bg-soft-blue p-2.5 md:p-3 mb-4">
+    <div ref={rootRef} className="rounded-2xl bg-soft-blue p-2.5 md:p-3 mb-4 scroll-mt-3">
       <div className="grid grid-cols-2 md:grid-cols-[1fr_1.1fr_1fr_1.15fr_auto] gap-2 md:gap-2.5">
         {/* 출발공항 — 홈과 같은 용어 (사장님 지시 ①) */}
         <label className={`relative ${field} cursor-pointer`}>
@@ -147,12 +149,25 @@ export default function DepartureSearch({
           <Link
             href={searchHref}
             scroll={false}
+            onClick={(e) => {
+              // 조건을 안 바꾸고 누르면 같은 주소라 화면이 그대로다 → 결과 쪽으로 내려 보이고 안내 (클래리티 11/8 죽은 탭)
+              const cur = window.location.pathname + window.location.search;
+              let same = false;
+              try { const u = new URL(searchHref, window.location.origin); same = u.pathname + u.search === cur; } catch { /* 무시 */ }
+              if (same) {
+                e.preventDefault();
+                rootRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+                setSameNote(true);
+                window.setTimeout(() => setSameNote(false), 3500);
+              }
+            }}
             className="flex items-center justify-center gap-1.5 min-h-14 px-6 rounded-xl bg-brand-blue hover:bg-blue-700 text-white text-[17px] font-extrabold whitespace-nowrap"
           >
             <IconSearch />골프여행 검색
           </Link>
         </div>
       </div>
+      {sameNote && <p role="status" className="mt-2 text-center text-[14px] font-bold text-brand-blue">지금 조건 그대로 검색한 결과예요. 아래에서 확인해 주세요.</p>}
 
       {open && (
         <DateSheet
