@@ -116,9 +116,12 @@ export default function HolePriceTierSelector({
         setSent(true);
         track("generate_lead", { item_name: tourTitle, people });
       } else {
+        // 실패도 기록한다 — 문의 패널과 같은 이벤트·사유 (성공과 구분, 개인정보 없음)
+        track("inquiry_fail", { item_name: tourTitle, reason: `status_${res.status}`, method: "tier" });
         alert("전송 중 오류가 발생했습니다. 전화(010-5301-5250)로 문의해 주세요.");
       }
     } catch {
+      track("inquiry_fail", { item_name: tourTitle, reason: "network", method: "tier" });
       alert("전송 중 오류가 발생했습니다. 전화(010-5301-5250)로 문의해 주세요.");
     } finally {
       submittingRef.current = false;
