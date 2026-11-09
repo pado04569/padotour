@@ -87,16 +87,20 @@ export default async function CourseDetailPage({ params }: { params: Promise<{ s
 
       <section className="bg-hero-info text-white py-10 md:py-12">
         <div className="max-w-6xl mx-auto px-4">
-          <nav aria-label="breadcrumb" className="text-emerald-100 text-xs md:text-sm mb-2">
-            <Link href="/" className="hover:text-white">홈</Link>
+          {/* 클래리티 11/8~10: 휴대폰에서 작은 글자·링크 아닌 줄을 눌러 반응 없음 → 터치 44px, 지역 줄은 지역 목록 링크 (사장님 지시 11/10) */}
+          <nav aria-label="breadcrumb" className="flex items-center text-emerald-100 text-xs md:text-sm -mt-3">
+            <Link href="/" className="inline-flex items-center min-h-11 hover:text-white">홈</Link>
             <IconChevron className="w-3.5 h-3.5 mx-1 opacity-80" />
-            <Link href="/courses" className="hover:text-white">골프장 소개</Link>
+            <Link href="/courses" className="inline-flex items-center min-h-11 hover:text-white">골프장 소개</Link>
             <IconChevron className="w-3.5 h-3.5 mx-1 opacity-80" />
             <span className="text-white">{course.name}</span>
           </nav>
-          <p className="text-emerald-100 text-sm mb-1">
+          <Link
+            href={`/courses?country=${course.countryCode}&region=${encodeURIComponent(course.region)}`}
+            className="inline-flex items-center min-h-11 -mt-2 text-emerald-100 text-sm hover:text-white"
+          >
             {course.country} · {course.region} 골프장 소개
-          </p>
+          </Link>
           <h1 className="text-2xl md:text-4xl font-black">{course.name}</h1>
           {course.nameEn && <p className="text-emerald-100 text-sm md:text-base mt-1.5">{course.nameEn}</p>}
           {course.summary && (
