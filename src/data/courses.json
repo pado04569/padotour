@@ -9333,24 +9333,43 @@
     "aliases": [
       "시사이드",
       "시사이드CC",
-      "체리골프 가고시마 시사이드"
+      "체리골프 가고시마 시사이드",
+      "체리 골프 가고시마 씨사이드",
+      "체리골프가고시마",
+      "체리 씨사이드",
+      "チェリーゴルフ鹿児島シーサイドコース"
     ],
-    "summary": "가고시마 히오키시 해안 쪽 코스, 체리골프 운영",
+    "summary": "동중국해가 내려다보이는 가고시마 히오키시의 바닷가 구릉 코스, 18홀 파72 6,991야드",
     "specs": [
       {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "6,991야드 (백 티 기준)"
+      },
+      {
+        "label": "개장",
+        "value": "1976년"
+      },
+      {
         "label": "운영",
-        "value": "체리골프"
+        "value": "체리골프 그룹"
       },
       {
         "label": "소재지",
         "value": "일본 가고시마현 히오키시 히가시이치키초"
       }
     ],
-    "description": "가고시마 시사이드CC는 체리골프가 운영하는 코스로, 가고시마현 히오키시 히가시이치키초에 있습니다. 예전 이름은 가고시마 시사이드 골프클럽이었고, 바다가 내려다보이는 해안 쪽 지형에 홀이 놓여 있습니다.\n\n여행의파도 가고시마 텐몬칸 다색 상품에서 가고시마 국제·난코쿠CC와 함께 기본으로 배정되는 골프장입니다. 클럽하우스 중식이 포함되고, 카트를 이용하는 노캐디 셀프 플레이 기준입니다.",
+    "description": "가고시마 시사이드CC(체리 골프 가고시마 씨사이드, チェリーゴルフ鹿児島シーサイドコース)는 체리골프 그룹이 운영하는 18홀 파72 골프장으로, 가고시마현 히오키시 히가시이치키초 바닷가 언덕에 1976년 문을 열었습니다. 백 티 기준 전장은 6,991야드이고, 예전 이름은 가고시마 시사이드 골프클럽이었습니다.\n\n여러 홀에서 동중국해가 내려다보이는 구릉 코스로, 지형을 살린 공략이 필요합니다. 5인승 승용카트를 이용해 캐디 없이 셀프 플레이로 운영됩니다.\n\n여행의파도 가고시마 텐몬칸 다색 상품에서 가고시마 국제·난코쿠CC와 함께 기본으로 배정되며, 이 상품은 클럽하우스 중식이 포함됩니다. 인천 출발 오션리조트 에구치야 온천 골프여행에서는 미나미큐슈CC와 함께 배정되는 골프장입니다.",
     "images": [
       "/images/courses-1106/kagoshima-seaside-cc/course-1.jpg",
       "/images/courses-1106/kagoshima-seaside-cc/course-2.jpg",
-      "/images/courses-1106/kagoshima-seaside-cc/course-3.jpg"
+      "/images/courses-1106/kagoshima-seaside-cc/course-3.jpg",
+      "/images/kagoshima-eguchiya-incheon/course-1.jpg",
+      "/images/kagoshima-eguchiya-incheon/course-3.jpg",
+      "/images/kagoshima-eguchiya-incheon/course-5.jpg"
     ],
     "hashtags": [
       "가고시마시사이드CC",
@@ -9359,7 +9378,58 @@
       "가고시마골프장",
       "일본골프여행"
     ],
-    "relatedTourIds": []
+    "relatedTourIds": [
+      "japan-kagoshima-eguchiya-incheon"
+    ]
+  },
+  {
+    "slug": "minami-kyushu-cc",
+    "name": "미나미큐슈CC",
+    "nameEn": "Minami Kyushu Country Club (南九州カントリークラブ)",
+    "region": "가고시마",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "미나미큐슈",
+      "미나미큐슈 컨트리클럽",
+      "南九州カントリークラブ"
+    ],
+    "summary": "1967년 개장, 가고시마현 히오키시 이주인초의 18홀 파72 6,900야드 구릉 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "6,900야드 (백 티 기준)"
+      },
+      {
+        "label": "개장",
+        "value": "1967년"
+      },
+      {
+        "label": "설계",
+        "value": "스즈키 마사카즈(鈴木正一)"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 가고시마현 히오키시 이주인초"
+      }
+    ],
+    "description": "미나미큐슈CC(南九州カントリークラブ)는 가고시마현 히오키시 이주인초에 1967년 문을 연 18홀 파72 골프장으로, 백 티 기준 전장은 6,900야드입니다. 오스미CC와 같은 미나미큐슈개발 그룹이 운영합니다.\n\n구릉 지형을 따라 완만한 기복이 이어지며, 그린 주변의 벙커와 까다로운 퍼팅 라인이 공략 포인트입니다. 5인승 승용카트로 셀프 플레이하며, 카트로 페어웨이에 진입할 수 있습니다(당일 코스 상태에 따라 제한될 수 있음).\n\n여행의파도 인천 출발 가고시마 오션리조트 에구치야 온천 골프여행에서 가고시마 시사이드CC(체리 골프 가고시마 씨사이드)와 함께 배정되는 골프장입니다.",
+    "images": [
+      "/images/kagoshima-eguchiya-incheon/course-4.jpg"
+    ],
+    "hashtags": [
+      "미나미큐슈CC",
+      "가고시마골프장",
+      "가고시마골프여행",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-kagoshima-eguchiya-incheon"
+    ]
   },
   {
     "slug": "kai-kou-xiamen-gc",
