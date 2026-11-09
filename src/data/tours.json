@@ -133634,5 +133634,1607 @@
       "/images/guangzhou-missionhills-dongguan/course-3.jpg",
       "/images/guangzhou-missionhills-dongguan/hotel-3.jpg"
     ]
+  },
+  {
+    "id": "thailand-chiangmai-khuntan-golftel-incheon",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "치앙마이",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-09",
+    "title": "[인천출발] 태국 치앙마이 골프여행 가산 쿤탄 골프텔 3박5일 108홀 매일 36홀 제주항공 1,290,000원부터",
+    "subtitle": "제주항공 인천-치앙마이 직항 · 쿤탄 리조트 신관(2인 1실) · 가산 쿤탄CC 1일 36홀 x 3일 · 조식·중식·석식 포함 · 노쇼핑 · 2인부터",
+    "nights": 3,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 6,
+    "holes": "108홀 (1일 36홀 x 3일)\n가산 쿤탄CC",
+    "minPeople": "2인부터 출발",
+    "period": "2027년 1월 1일 ~ 2월 26일 매일 출발 (출발일별 요금)",
+    "hotel": "쿤탄 리조트 신관 (2인 1실)",
+    "hotelDesc": "가산 쿤탄CC와 같은 곳에 있는 쿤탄 리조트 신관에 2인 1실로 3박합니다. 숙소와 골프장이 한 곳이라 걸어서 오가며, 조식·중식·석식은 클럽하우스 식사로 포함됩니다. 싱글룸은 1박 1인 40,000원이 추가되며 체크아웃은 12시입니다.",
+    "golfCourse": "가산 쿤탄CC (1일 36홀)",
+    "golfCourseDesc": "가산 쿤탄CC에서 하루 36홀씩 3일 동안, 총 108홀을 라운딩합니다. 오전 18홀은 의무 라운딩이고, 오후에 9홀만 하셔도 18홀 기준 캐디피·카트비를 냅니다. 오전 18홀만 하시면 오후 비용은 내지 않습니다.",
+    "productSummary": "제주항공 직항으로 치앙마이에 가서 쿤탄 리조트 신관에 3박하며 가산 쿤탄CC에서 하루 36홀씩, 총 108홀을 라운딩하는 골프텔 상품입니다.\n조식·중식·석식이 포함되는 노쇼핑 일정이고 2027년 1월 1일부터 2월 26일까지 2인부터 매일 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 치앙마이",
+        "desc": "인천국제공항 출발(제주항공 7C2515, 19:15) → 치앙마이 국제공항 도착(23:45) → 미팅 차량으로 쿤탄CC 이동 → 체크인 및 휴식 [숙소: 쿤탄 리조트 신관]"
+      },
+      {
+        "day": "2일차",
+        "label": "가산 쿤탄CC 36홀",
+        "desc": "클럽하우스 조식 후 가산 쿤탄CC 18홀 라운딩 → 중식 후 18홀 라운딩 → 석식 후 리조트 휴식 [조식·중식·석식 클럽식]"
+      },
+      {
+        "day": "3일차",
+        "label": "가산 쿤탄CC 36홀",
+        "desc": "클럽하우스 조식 후 가산 쿤탄CC 18홀 라운딩 → 중식 후 18홀 라운딩 → 석식 후 리조트 휴식 [조식·중식·석식 클럽식]"
+      },
+      {
+        "day": "4일차",
+        "label": "가산 쿤탄CC 36홀 → 공항",
+        "desc": "클럽하우스 조식 후 가산 쿤탄CC 18홀 라운딩 → 중식 후 18홀 라운딩 → 석식 후 공항 이동 [조식·중식·석식 클럽식]"
+      },
+      {
+        "day": "5일차",
+        "label": "치앙마이 → 인천",
+        "desc": "치앙마이 국제공항 출발(7C2516, 00:45) → 인천국제공항 도착(07:30) 후 해산"
+      }
+    ],
+    "highlights": [
+      "제주항공 인천-치앙마이 직항 · 수하물 1인 20kg(골프백 포함)",
+      "가산 쿤탄CC 1일 36홀 x 3일 · 108홀",
+      "골프장과 같은 곳의 쿤탄 리조트 신관 · 조식·중식·석식 포함",
+      "노쇼핑 · 2인부터 출발",
+      "1/1~2/26 매일 출발 1,290,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (제주항공, 유류할증료·TAX 포함)",
+      "쿤탄 리조트 신관 (2인 1실)",
+      "조식·중식·석식",
+      "그린피 1일 36홀 x 3일",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디피 18홀 1인 300바트",
+      "전동카트 18홀 1인 750바트",
+      "캐디팁 18홀 1인 400바트",
+      "미팅·샌딩 차량비 1인 $50 (4인 이상 / 3인 $70·2인 $100)",
+      "싱글룸 1박 1인 40,000원",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "전용 가이드·차량 없이 기사 또는 미팅·샌딩 직원이 공항-리조트 이동을 돕고 안내 설명문을 전해 드립니다. 마지막 날에는 샌딩 시간에 맞춰 골프장으로 모시러 갑니다.",
+      "오전 18홀은 의무 라운딩입니다. 오후에 9홀만 하셔도 18홀 기준 캐디피·카트비를 내셔야 하며, 오전 18홀만 하시면 오후 비용은 없습니다.",
+      "리조트 체크아웃은 12시입니다.",
+      "위탁 수하물은 캐리어 1개와 골프백을 합쳐 1인 20kg입니다.",
+      "항공 하드블럭 상품이라 예약금 1인 400,000원을 입금해야 예약이 확정되며, 입금하지 않으면 자동 취소됩니다. 예약 후 취소 시 환불되지 않습니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "seoIntro": "인천 출발 치앙마이 골프여행 3박5일 상품으로, 제주항공 직항을 타고 쿤탄 리조트 신관에 머물며 가산 쿤탄CC에서 하루 36홀씩 108홀을 라운딩하는 골프텔 패키지입니다.",
+    "seoKeywords": [
+      "치앙마이골프",
+      "치앙마이골프여행",
+      "치앙마이골프텔",
+      "쿤탄CC",
+      "가산쿤탄",
+      "인천출발"
+    ],
+    "courseImages": [
+      "/images/chiangmai-khuntan-golftel-incheon/course-1.jpg",
+      "/images/chiangmai-khuntan-golftel-incheon/course-2.jpg",
+      "/images/chiangmai-khuntan-golftel-incheon/course-3.jpg",
+      "/images/chiangmai-khuntan-golftel-incheon/course-4.jpg",
+      "/images/chiangmai-khuntan-golftel-incheon/course-5.jpg",
+      "/images/chiangmai-khuntan-golftel-incheon/course-6.jpg",
+      "/images/chiangmai-khuntan-busan/course-1.jpg",
+      "/images/chiangmai-khuntan-busan/course-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/chiangmai-khuntan-golftel-incheon/hotel-1.jpg",
+      "/images/chiangmai-khuntan-golftel-incheon/hotel-2.jpg",
+      "/images/chiangmai-khuntan-golftel-incheon/hotel-3.jpg",
+      "/images/chiangmai-khuntan-busan/hotel-1.jpg",
+      "/images/chiangmai-khuntan-busan/hotel-4.jpg",
+      "/images/chiangmai-khuntan-busan/hotel-5.jpg"
+    ],
+    "image": "/images/chiangmai-khuntan-golftel-incheon/course-1.jpg",
+    "images": [
+      "/images/chiangmai-khuntan-golftel-incheon/course-1.jpg",
+      "/images/chiangmai-khuntan-golftel-incheon/hotel-1.jpg",
+      "/images/chiangmai-khuntan-golftel-incheon/course-2.jpg",
+      "/images/chiangmai-khuntan-golftel-incheon/hotel-2.jpg",
+      "/images/chiangmai-khuntan-golftel-incheon/course-3.jpg",
+      "/images/chiangmai-khuntan-golftel-incheon/hotel-3.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-01",
+        "price": 1360000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1320000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1320000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1320000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1320000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1320000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1320000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1320000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1320000
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1320000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1320000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1320000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1320000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1510000
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1690000
+      },
+      {
+        "date": "2027-02-05",
+        "price": 2050000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 2050000
+      },
+      {
+        "date": "2027-02-07",
+        "price": 1940000
+      },
+      {
+        "date": "2027-02-08",
+        "price": 1510000
+      },
+      {
+        "date": "2027-02-09",
+        "price": 1310000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1320000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1320000
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1320000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1320000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1320000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1320000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1360000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1360000
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1360000
+      }
+    ],
+    "price": "1,290,000원~",
+    "displayTitle": "치앙마이 쿤탄 골프텔 36홀 3박5일"
+  },
+  {
+    "id": "china-hainan-haikou-nanyang-ibl-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "하이난",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-09",
+    "title": "[인천출발] 중국 하이난 해구 골프여행 남양하CC·일피랑CC 2색 3박5일 81홀 매일 27홀 트리니티항공 직항 899,000원부터",
+    "subtitle": "트리니티항공 인천-해구 직항 · 홀리데이인 또는 보화해경 또는 동급(2인 1실) · 남양하·일피랑CC 매일 27홀 · 호텔 조식·석식 포함 · 목요일 출발 · 4인부터",
+    "nights": 3,
+    "days": 5,
+    "courses": 2,
+    "roundsIncluded": 3,
+    "holes": "81홀 (매일 27홀 x 3일)\n남양하CC · 일피랑CC(아이비엘CC)",
+    "minPeople": "4인부터 출발",
+    "period": "2026년 12월 24일 ~ 2027년 2월 28일 매주 목요일 출발 (출발일별 요금)",
+    "hotel": "홀리데이인 익스프레스 해구 또는 보화해경 또는 동급 (2인 1실)",
+    "hotelDesc": "해구 시내의 홀리데이인 익스프레스 해구 월드트레이드센터 또는 보화해경 또는 동급 호텔에 2인 1실로 묵습니다. 해구 공항에서 차로 약 30분이며, 24시간 피트니스센터·셀프 세탁실·레스토랑과 무료 와이파이가 있습니다. 홀리데이인이 안 되면 보화해경 또는 동급으로 바뀌며 사전 지정은 할 수 없습니다. 조식은 호텔식, 석식은 불고기전골·한정식 등 한식으로 포함됩니다.",
+    "golfCourse": "남양하CC · 일피랑CC(아이비엘CC)",
+    "golfCourseDesc": "해구의 남양하CC와 일피랑CC(아이비엘CC)를 묶어 매일 27홀씩 3일, 총 81홀을 라운딩합니다. 호텔에서 골프장까지 차로 약 50분입니다. 그린피는 포함이고, 전동카트+캐디피(27홀 1인 $75)와 캐디팁·클럽 중식은 현지에서 냅니다. 9홀 추가는 1인 $40(그린피·전동카트·캐디피 포함, 캐디팁 별도)입니다.",
+    "productSummary": "트리니티항공 직항으로 해구에 가서 시내 호텔에 묵으며 남양하CC와 일피랑CC에서 매일 27홀, 총 81홀을 라운딩하는 3박5일 상품입니다.\n호텔 조식과 한식 석식이 포함되고 2026년 12월 24일부터 2027년 2월 28일까지 매주 목요일에 4인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 해구",
+        "desc": "인천국제공항 출발(트리니티항공 TW623, 21:30) → 해구 공항 도착(다음 날 01:30) → 입국 수속 후 가이드 미팅 → 호텔 이동(약 30분) 후 체크인 [호텔: 홀리데이인 또는 보화해경 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "남양하·일피랑CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동(약 50분) → 남양하CC·일피랑CC 27홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 불고기전골]"
+      },
+      {
+        "day": "3일차",
+        "label": "남양하·일피랑CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동(약 50분) → 남양하CC·일피랑CC 27홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 한정식]"
+      },
+      {
+        "day": "4일차",
+        "label": "남양하·일피랑CC 27홀 → 공항",
+        "desc": "호텔 조식 후 골프장 이동(약 50분) → 남양하CC·일피랑CC 27홀 라운딩 → 석식 후 공항 이동 [조식 호텔식 / 중식 불포함 / 석식 냉면정식]"
+      },
+      {
+        "day": "5일차",
+        "label": "해구 → 인천",
+        "desc": "해구 공항 출발(TW624, 02:30) → 인천국제공항 도착(07:30) 후 해산"
+      }
+    ],
+    "highlights": [
+      "트리니티항공 인천-해구 직항 · 수하물 골프백+캐리어 20kg",
+      "남양하CC·일피랑CC 매일 27홀 · 81홀",
+      "해구 시내 홀리데이인 또는 보화해경 또는 동급",
+      "호텔 조식 · 한식 석식 포함 · 한국어 안내 가이드",
+      "매주 목요일 출발 899,000원부터 · 4인부터"
+    ],
+    "includes": [
+      "왕복 항공권 (트리니티항공, TAX 포함)",
+      "홀리데이인 또는 보화해경 또는 동급 3박 (2인 1실)",
+      "호텔 조식 · 석식",
+      "그린피",
+      "한국어 안내 가이드",
+      "여행자보험"
+    ],
+    "excludes": [
+      "전동카트+캐디피 27홀 1인 $75",
+      "캐디팁 27홀 1인 250위안 (2인 1캐디)",
+      "전동카트 싱글차지 18홀 카트당 $15",
+      "미팅·샌딩 1인 $50",
+      "클럽 중식 1인 $15부터 (의무)",
+      "싱글룸 1박 1인 50,000원",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "전세기 항공편 이용 상품으로 항공편명과 출·도착 시간은 바뀔 수 있습니다.",
+      "예약 후 2일 안에 1석당 예약금 500,000원을 입금해야 하며, 예약 확정 후 취소하면 항공료 위약금이 부과됩니다.",
+      "골프·숙박은 출발 21일 전 취소 시 1박 비용(골프 포함), 20일 전부터 당일 취소 시 전액 환불되지 않습니다.",
+      "현지 도착 후 전동카트+캐디피와 클럽 중식(의무) 비용은 한 번에 내며, 라운딩을 하지 않아도 환불되지 않습니다.",
+      "클럽 중식은 한식 도시락으로 나오며 현지 사정에 따라 클럽하우스 식사로 바뀔 수 있습니다.",
+      "현지 조인 합류 연합 일정이며 토산품 셀렉트숍 방문 일정이 있습니다. 단독 행사는 별도 문의(추가 비용)입니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "seoIntro": "인천 출발 하이난 해구 골프여행 3박5일 상품으로, 트리니티항공 직항을 타고 해구 시내 호텔에 머물며 남양하CC와 일피랑CC에서 매일 27홀씩 81홀을 라운딩합니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "하이난골프여행",
+      "해구골프",
+      "남양하CC",
+      "일피랑CC",
+      "인천출발"
+    ],
+    "courseImages": [
+      "/images/hainan-haikou-nanyang-incheon/course-1.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-2.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-3.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-4.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-5.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-6.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-7.jpg",
+      "/images/hainan-haikou-charter-cheongju/nanyang-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/hainan-haikou-charter-cheongju/holiday-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-2.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-3.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-4.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-5.jpg"
+    ],
+    "image": "/images/hainan-haikou-nanyang-incheon/course-1.jpg",
+    "images": [
+      "/images/hainan-haikou-nanyang-incheon/course-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-1.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-2.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-3.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-3.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-2.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-24",
+        "price": 899000
+      },
+      {
+        "date": "2026-12-31",
+        "price": 899000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 899000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 899000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 899000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-04",
+        "price": 999000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 999000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 899000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 949000
+      }
+    ],
+    "price": "899,000원~",
+    "displayTitle": "하이난 해구 남양하·일피랑 매일 27홀 3박5일"
+  },
+  {
+    "id": "china-hainan-haikou-nanyang-ibl-incheon-4n6d",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "하이난",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-09",
+    "title": "[인천출발] 중국 하이난 해구 골프여행 남양하CC·일피랑CC 2색 4박6일 108홀 매일 27홀 트리니티항공 직항 929,000원부터",
+    "subtitle": "트리니티항공 인천-해구 직항 · 홀리데이인 또는 보화해경 또는 동급(2인 1실) · 남양하·일피랑CC 매일 27홀 · 호텔 조식·석식 포함 · 지정 일요일 출발 · 4인부터",
+    "nights": 4,
+    "days": 6,
+    "courses": 2,
+    "roundsIncluded": 4,
+    "holes": "108홀 (매일 27홀 x 4일)\n남양하CC · 일피랑CC(아이비엘CC)",
+    "minPeople": "4인부터 출발",
+    "period": "2027년 1월 3일 ~ 2월 28일 중 지정 일요일 출발 (1/3·10·17·24·31, 2/7·14·28)",
+    "hotel": "홀리데이인 익스프레스 해구 또는 보화해경 또는 동급 (2인 1실)",
+    "hotelDesc": "해구 시내의 홀리데이인 익스프레스 해구 월드트레이드센터 또는 보화해경 또는 동급 호텔에 2인 1실로 묵습니다. 해구 공항에서 차로 약 30분이며, 24시간 피트니스센터·셀프 세탁실·레스토랑과 무료 와이파이가 있습니다. 홀리데이인이 안 되면 보화해경 또는 동급으로 바뀌며 사전 지정은 할 수 없습니다. 조식은 호텔식, 석식은 불고기전골·한정식 등 한식으로 포함됩니다.",
+    "golfCourse": "남양하CC · 일피랑CC(아이비엘CC)",
+    "golfCourseDesc": "해구의 남양하CC와 일피랑CC(아이비엘CC)를 묶어 매일 27홀씩 4일, 총 108홀을 라운딩합니다. 호텔에서 골프장까지 차로 약 50분입니다. 그린피는 포함이고, 전동카트+캐디피(27홀 1인 $75)와 캐디팁·클럽 중식은 현지에서 냅니다. 9홀 추가는 1인 $40(그린피·전동카트·캐디피 포함, 캐디팁 별도)입니다.",
+    "productSummary": "트리니티항공 직항으로 해구에 가서 시내 호텔에 묵으며 남양하CC와 일피랑CC에서 매일 27홀, 총 108홀을 라운딩하는 4박6일 상품입니다.\n호텔 조식과 한식 석식이 포함되고 2027년 1월 3일부터 2월 28일까지 지정된 일요일 8회, 4인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 해구",
+        "desc": "인천국제공항 출발(트리니티항공 TW623, 21:30) → 해구 공항 도착(다음 날 01:30) → 입국 수속 후 가이드 미팅 → 호텔 이동(약 30분) 후 체크인 [호텔: 홀리데이인 또는 보화해경 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "남양하·일피랑CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동(약 50분) → 남양하CC·일피랑CC 27홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 불고기전골]"
+      },
+      {
+        "day": "3일차",
+        "label": "남양하·일피랑CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동(약 50분) → 남양하CC·일피랑CC 27홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 한정식]"
+      },
+      {
+        "day": "4일차",
+        "label": "남양하·일피랑CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동(약 50분) → 남양하CC·일피랑CC 27홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 쌈밥정식]"
+      },
+      {
+        "day": "5일차",
+        "label": "남양하·일피랑CC 27홀 → 공항",
+        "desc": "호텔 조식 후 골프장 이동(약 50분) → 남양하CC·일피랑CC 27홀 라운딩 → 석식 후 공항 이동 [조식 호텔식 / 중식 불포함 / 석식 냉면정식]"
+      },
+      {
+        "day": "6일차",
+        "label": "해구 → 인천",
+        "desc": "해구 공항 출발(TW624, 02:30) → 인천국제공항 도착(07:30) 후 해산"
+      }
+    ],
+    "highlights": [
+      "트리니티항공 인천-해구 직항 · 수하물 골프백+캐리어 20kg",
+      "남양하CC·일피랑CC 매일 27홀 · 108홀",
+      "해구 시내 홀리데이인 또는 보화해경 또는 동급",
+      "호텔 조식 · 한식 석식 포함 · 한국어 안내 가이드",
+      "지정 일요일 출발 929,000원부터 · 4인부터"
+    ],
+    "includes": [
+      "왕복 항공권 (트리니티항공, TAX 포함)",
+      "홀리데이인 또는 보화해경 또는 동급 4박 (2인 1실)",
+      "호텔 조식 · 석식",
+      "그린피",
+      "한국어 안내 가이드",
+      "여행자보험"
+    ],
+    "excludes": [
+      "전동카트+캐디피 27홀 1인 $75",
+      "캐디팁 27홀 1인 250위안 (2인 1캐디)",
+      "전동카트 싱글차지 18홀 카트당 $15",
+      "미팅·샌딩 1인 $50",
+      "클럽 중식 1인 $15부터 (의무)",
+      "싱글룸 1박 1인 50,000원",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "전세기 항공편 이용 상품으로 항공편명과 출·도착 시간은 바뀔 수 있습니다.",
+      "예약 후 2일 안에 1석당 예약금 500,000원을 입금해야 하며, 예약 확정 후 취소하면 항공료 위약금이 부과됩니다.",
+      "골프·숙박은 출발 21일 전 취소 시 1박 비용(골프 포함), 20일 전부터 당일 취소 시 전액 환불되지 않습니다.",
+      "현지 도착 후 전동카트+캐디피와 클럽 중식(의무) 비용은 한 번에 내며, 라운딩을 하지 않아도 환불되지 않습니다.",
+      "클럽 중식은 한식 도시락으로 나오며 현지 사정에 따라 클럽하우스 식사로 바뀔 수 있습니다.",
+      "현지 조인 합류 연합 일정이며 토산품 셀렉트숍 방문 일정이 있습니다. 단독 행사는 별도 문의(추가 비용)입니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "seoIntro": "인천 출발 하이난 해구 골프여행 4박6일 상품으로, 트리니티항공 직항을 타고 해구 시내 호텔에 머물며 남양하CC와 일피랑CC에서 매일 27홀씩 108홀을 라운딩합니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "하이난골프여행",
+      "해구골프",
+      "남양하CC",
+      "일피랑CC",
+      "인천출발"
+    ],
+    "courseImages": [
+      "/images/hainan-haikou-nanyang-incheon/course-1.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-2.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-3.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-4.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-5.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-6.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-7.jpg",
+      "/images/hainan-haikou-charter-cheongju/nanyang-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/hainan-haikou-charter-cheongju/holiday-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-2.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-3.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-4.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-5.jpg"
+    ],
+    "image": "/images/hainan-haikou-nanyang-incheon/course-1.jpg",
+    "images": [
+      "/images/hainan-haikou-nanyang-incheon/course-1.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-1.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-2.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-3.jpg",
+      "/images/hainan-haikou-nanyang-incheon/course-3.jpg",
+      "/images/hainan-haikou-charter-cheongju/holiday-2.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-03",
+        "price": 929000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 929000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 929000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 929000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 929000
+      },
+      {
+        "date": "2027-02-07",
+        "price": 1049000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 929000
+      },
+      {
+        "date": "2027-02-28",
+        "price": 929000
+      }
+    ],
+    "price": "929,000원~",
+    "displayTitle": "하이난 해구 남양하·일피랑 매일 27홀 4박6일"
+  },
+  {
+    "id": "china-hainan-ibl-wyndham-trinity-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "하이난",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-09",
+    "title": "[인천출발] 중국 하이난 골프여행 일피랑CC 윈덤 호텔 3박5일 72홀 트리니티항공 12월 24일·31일 출발 1,450,000원부터",
+    "subtitle": "트리니티항공 인천-해구 직항 · 윈게이트 바이 윈덤 하이난 청마이 또는 동급(2인 1실) · 일피랑CC 27+27+18홀 · 카트비·캐디피 포함 · 조식·석식(주류 무제한) · 12/24·12/31 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "72홀 (27홀 + 27홀 + 18홀)\n일피랑CC(아이비엘CC)",
+    "minPeople": "2인부터 출발",
+    "period": "2026년 12월 24일(목)·12월 31일(목) 출발",
+    "hotel": "윈게이트 바이 윈덤 하이난 청마이 또는 동급 (2인 1실)",
+    "hotelDesc": "해구 공항 근처 청마이의 윈게이트 바이 윈덤 하이난 청마이 또는 동급 호텔에 2인 1실로 3박합니다. 조식과 석식은 호텔 뷔페식이며 석식에는 주류가 무제한으로 나옵니다. 인원이 적을 때는 석식이 한식으로 바뀌고 주류는 별도입니다.",
+    "golfCourse": "일피랑CC(아이비엘CC)",
+    "golfCourseDesc": "일피랑CC(아이비엘CC) 한 곳에서 2·3일차 27홀씩, 4일차 18홀로 총 72홀을 라운딩합니다. 호텔에서 골프장까지 차로 약 50분입니다. 그린피·카트비·캐디피가 포함되고 캐디팁만 현지에서 냅니다. 9홀 추가는 현지에서 1인 300위안(그린피·캐디피·전동카트 포함)입니다.",
+    "productSummary": "트리니티항공 직항으로 해구에 가서 윈게이트 바이 윈덤 하이난 청마이에 3박하며 일피랑CC에서 72홀을 라운딩하는 3박5일 지정일 상품입니다.\n그린피·카트비·캐디피와 조식·석식(주류 무제한)이 포함되며 12월 24일과 12월 31일 목요일에 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 해구",
+        "desc": "인천국제공항 출발(트리니티항공 TW623, 21:30) → 해구 국제공항 도착(다음 날 01:00) → 직원 미팅 후 호텔 이동 → 체크인 및 휴식 [호텔: 윈게이트 바이 윈덤 하이난 청마이 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "일피랑CC 27홀",
+        "desc": "조식 후 골프장 이동(약 50분) → 일피랑CC 27홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 호텔식·주류 무제한]"
+      },
+      {
+        "day": "3일차",
+        "label": "일피랑CC 27홀",
+        "desc": "조식 후 골프장 이동(약 50분) → 일피랑CC 27홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 호텔식·주류 무제한]"
+      },
+      {
+        "day": "4일차",
+        "label": "일피랑CC 18홀 → 공항",
+        "desc": "조식 후 골프장 이동(약 50분) → 일피랑CC 18홀 라운딩 → 체크아웃 후 석식 → 공항 이동(약 50분) [조식 호텔식 / 중식 불포함 / 석식 호텔식·주류 무제한]"
+      },
+      {
+        "day": "5일차",
+        "label": "해구 → 인천",
+        "desc": "해구 국제공항 출발(TW624, 02:00) → 인천국제공항 도착(06:45) 후 해산"
+      }
+    ],
+    "highlights": [
+      "12/24 1,450,000원 · 12/31 1,470,000원 지정일",
+      "트리니티항공 인천-해구 직항 · 수하물 골프백+캐리어 20kg",
+      "일피랑CC 27+27+18홀 · 72홀",
+      "그린피·카트비·캐디피 포함",
+      "윈게이트 바이 윈덤 · 조식·석식(주류 무제한)"
+    ],
+    "includes": [
+      "왕복 항공권 (트리니티항공, 유류할증료·TAX 포함)",
+      "윈게이트 바이 윈덤 하이난 청마이 또는 동급 3박 (2인 1실)",
+      "조식 · 석식 (호텔 뷔페식 + 주류 무제한)",
+      "전 일정 그린피 · 카트비 · 캐디피",
+      "미팅·샌딩비",
+      "여행자보험"
+    ],
+    "excludes": [
+      "중식",
+      "캐디팁 (18홀 1인 150위안 · 27홀 1인 250위안)",
+      "싱글 캐디팁 (1인 1캐디 18홀 1인 200위안)",
+      "싱글카트 18홀 100위안",
+      "1인 1실 1박 6만원 (1/1~3 7만원)"
+    ],
+    "cancelPolicy": [
+      "블럭 좌석 상품으로 모객 인원이 안 되거나 좌석이 빠지면 요금이 바뀔 수 있습니다.",
+      "2인 1카트·2인 1캐디가 기본이며 골프장 사정에 따라 4인 1카트·4인 1캐디로 배정될 수 있습니다.",
+      "항공 발권 후 취소 시 100% 위약금이 적용되며, 당일 취소는 상품가의 100%가 부과됩니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "seoIntro": "인천 출발 하이난 골프여행 3박5일 지정일 상품으로, 트리니티항공 직항을 타고 윈게이트 바이 윈덤 하이난 청마이에 머물며 일피랑CC에서 72홀을 라운딩합니다. 카트비·캐디피와 조식·석식이 포함됩니다.",
+    "seoKeywords": [
+      "하이난골프",
+      "하이난골프여행",
+      "해구골프",
+      "일피랑CC",
+      "아이비엘CC",
+      "인천출발"
+    ],
+    "courseImages": [
+      "/images/hainan-ibl-incheon/course-1.jpg",
+      "/images/hainan-ibl-incheon/course-2.jpg",
+      "/images/hainan-ibl-incheon/course-3.jpg",
+      "/images/hainan-ibl-incheon/course-4.jpg",
+      "/images/hainan-ibl-incheon/course-5.jpg",
+      "/images/hainan-ibl-incheon/course-6.jpg",
+      "/images/hainan-ibl-incheon/course-7.jpg",
+      "/images/hainan-ibl-incheon/course-8.jpg"
+    ],
+    "hotelImages": [
+      "/images/hainan-hongshuiwan-incheon/hotel-1.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-5.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-3.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-2.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-4.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-6.jpg"
+    ],
+    "image": "/images/hainan-ibl-incheon/course-1.jpg",
+    "images": [
+      "/images/hainan-ibl-incheon/course-1.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-1.jpg",
+      "/images/hainan-ibl-incheon/course-2.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-5.jpg",
+      "/images/hainan-ibl-incheon/course-5.jpg",
+      "/images/hainan-hongshuiwan-incheon/hotel-3.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-24",
+        "price": 1450000
+      },
+      {
+        "date": "2026-12-31",
+        "price": 1470000
+      }
+    ],
+    "price": "1,450,000원~",
+    "displayTitle": "하이난 일피랑CC 윈덤 3박5일 72홀 12월 지정일"
+  },
+  {
+    "id": "laos-vientiane-whitehouse-villa-incheon",
+    "country": "라오스",
+    "countryCode": "other",
+    "region": "비엔티안",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-09",
+    "title": "[인천출발] 라오스 비엔티안 골프여행 화이트 하우스 빌라 1인 1실 3색 3박5일 54홀 트리니티항공 직항 1,299,000원",
+    "subtitle": "트리니티항공 인천-비엔티안 직항 · 화이트 하우스 빌라 1인 1실 · 롱비엔·레이크뷰·부영·메콩 중 3곳 54홀 · 조식 포함 · 노쇼핑·노옵션",
+    "nights": 3,
+    "days": 5,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)\n롱비엔·레이크뷰·부영·메콩CC 중 3곳",
+    "minPeople": "출발 인원 문의 (1인 1실 기준)",
+    "period": "2027년 1월 7일 ~ 3월 24일 매일 출발 (설 연휴 2/2~2/9 출발 제외)",
+    "hotel": "비엔티안 화이트 하우스 빌라 (1인 1실)",
+    "hotelDesc": "비엔티안의 화이트 하우스 빌라에서 한 분이 한 방을 쓰는 1인 1실로 3박합니다. 하얀 빌라 단지 안에 정원과 수영장, 단체 식당이 있고, 빌라에는 넓은 거실과 침실·욕실이 갖춰져 있습니다. 조식은 빌라식으로 포함됩니다.",
+    "golfCourse": "롱비엔CC · 레이크뷰CC · 부영CC · 메콩CC 중 3곳",
+    "golfCourseDesc": "비엔티안 골프장 4곳(롱비엔·레이크뷰·부영·메콩) 가운데 3곳에서 하루 18홀씩 3회, 총 54홀을 라운딩합니다. 빌라에서 골프장까지 전용 차량으로 약 30~50분 걸립니다. 그린피는 포함이고 카트비+캐디피는 18홀 1인 $40을 현지에서 냅니다.",
+    "productSummary": "트리니티항공 직항으로 비엔티안에 가서 화이트 하우스 빌라에 1인 1실로 3박하며 골프장 4곳 중 3곳에서 54홀을 라운딩하는 상품입니다.\n노쇼핑·노옵션 일정이며 2027년 1월 7일부터 3월 24일까지 매일 출발합니다(설 연휴 출발 제외).",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 비엔티안",
+        "desc": "인천국제공항 제1터미널 출발(트리니티항공 TW131, 19:35) → 비엔티안 국제공항 도착(23:15) → 입국 수속 후 기사 미팅 → 빌라 체크인 및 휴식 [숙소: 화이트 하우스 빌라 / 석식 불포함]"
+      },
+      {
+        "day": "2일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "빌라 조식 후 전용 차량으로 골프장 이동(약 30~50분) → 4곳 중 1곳 18홀 라운딩 → 오후 휴식 및 자유시간 → 석식(개별) [조식 빌라식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "빌라 조식 후 전용 차량으로 골프장 이동(약 30~50분) → 4곳 중 1곳 18홀 라운딩 → 오후 휴식 및 자유시간 → 석식(개별) [조식 빌라식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "비엔티안 골프 18홀 → 공항",
+        "desc": "빌라 조식 후 체크아웃 → 전용 차량으로 골프장 이동(약 20~40분) → 4곳 중 1곳 18홀 라운딩 → 오후 자유시간 → 석식(개별) 후 비엔티안 야시장 자유관광 → 공항 이동 [조식 빌라식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "비엔티안 → 인천",
+        "desc": "비엔티안 국제공항 출발(TW132, 00:15) → 인천국제공항 도착(06:50) 후 해산 [조식 불포함]"
+      }
+    ],
+    "highlights": [
+      "트리니티항공 인천-비엔티안 직항",
+      "화이트 하우스 빌라 1인 1실 · 조식 포함",
+      "롱비엔·레이크뷰·부영·메콩 중 3곳 54홀",
+      "노쇼핑 · 노옵션",
+      "1/7~3/24 매일 출발 1,299,000원 (설 연휴 출발 제외)"
+    ],
+    "includes": [
+      "왕복 항공권 (트리니티항공, 유류할증료·TAX 포함)",
+      "화이트 하우스 빌라 3박 (1인 1실)",
+      "빌라 조식",
+      "그린피 18홀 x 3회 (54홀)",
+      "골프장 이동 차량",
+      "여행자보험"
+    ],
+    "excludes": [
+      "공항 미팅·샌딩 차량비 1인 $50 (4인 이상 기준)",
+      "카트비+캐디피 18홀 1인 $40",
+      "캐디팁 18홀 1인 $15",
+      "중식·석식 1끼 1인 $15부터",
+      "기사 팁 1일 1팀 $10",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "예약 시 여권 사본과 예약금 1인 200,000원을 보내 주셔야 하며, 항공권은 바로 발권됩니다.",
+      "라오스는 30일 관광 무비자 입국이 가능하며, 여권 만료일이 6개월 이상 남아 있어야 입국할 수 있습니다.",
+      "라오스에서는 한국 돈이 통용되지 않으니 달러로 환전해 가셔야 합니다.",
+      "차량과 기사는 20시까지 이용 기준이며, 넘으면 시간당 $20이 추가됩니다.",
+      "가이드가 없는 상품으로 현지 사무실 직원이 안내를 도와드립니다. 가이드를 요청하시면 1일 1팀 $100이 추가됩니다.",
+      "설 연휴(2027년 2월 6일~9일)에 여행 기간이 걸치는 출발일은 판매하지 않습니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "seoIntro": "인천 출발 라오스 비엔티안 골프여행 3박5일 상품으로, 트리니티항공 직항을 타고 화이트 하우스 빌라에 1인 1실로 머물며 롱비엔·레이크뷰·부영·메콩CC 중 3곳에서 54홀을 라운딩합니다.",
+    "seoKeywords": [
+      "비엔티안골프",
+      "라오스골프",
+      "라오스골프여행",
+      "비엔티안골프여행",
+      "1인1실골프",
+      "인천출발"
+    ],
+    "courseImages": [
+      "/images/vientiane-busan/course-lakeview-1.jpg",
+      "/images/vientiane-busan/course-longvien-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/course-mekong-1.jpg",
+      "/images/vientiane-busan/course-lakeview-3.jpg",
+      "/images/vientiane-busan/course-longvien-2.jpg",
+      "/images/vientiane-busan/course-booyoung-2.jpg",
+      "/images/vientiane-busan/course-mekong-2.jpg",
+      "/images/vientiane-busan/course-lakeview-2.jpg",
+      "/images/vientiane-busan/course-longvien-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/vientiane-whitehouse-incheon/hotel-1.jpg",
+      "/images/vientiane-whitehouse-incheon/hotel-2.jpg",
+      "/images/vientiane-whitehouse-incheon/hotel-3.jpg",
+      "/images/vientiane-whitehouse-incheon/hotel-4.jpg",
+      "/images/vientiane-whitehouse-incheon/hotel-5.jpg",
+      "/images/vientiane-whitehouse-incheon/hotel-6.jpg",
+      "/images/vientiane-whitehouse-incheon/hotel-7.jpg",
+      "/images/vientiane-whitehouse-incheon/hotel-8.jpg"
+    ],
+    "image": "/images/vientiane-busan/course-lakeview-1.jpg",
+    "images": [
+      "/images/vientiane-busan/course-lakeview-1.jpg",
+      "/images/vientiane-whitehouse-incheon/hotel-1.jpg",
+      "/images/vientiane-busan/course-longvien-1.jpg",
+      "/images/vientiane-whitehouse-incheon/hotel-2.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-whitehouse-incheon/hotel-3.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-07",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1299000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1299000
+      },
+      {
+        "date": "2027-02-28",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-01",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-02",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-03",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-05",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-07",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-08",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-09",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-10",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-12",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-14",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-15",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-16",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-17",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-19",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-21",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-22",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-23",
+        "price": 1299000
+      },
+      {
+        "date": "2027-03-24",
+        "price": 1299000
+      }
+    ],
+    "price": "1,299,000원~",
+    "displayTitle": "비엔티안 화이트 하우스 빌라 1인1실 3색 3박5일"
+  },
+  {
+    "id": "thailand-sriracha-oakwood-1214-incheon",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "방콕",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-09",
+    "title": "[인천출발] 태국 시라차 골프여행 5성 오크우드 호텔 시내 다색 3박5일 12월 14일 출발 1,150,000원",
+    "displayTitle": "시라차 오크우드 호텔 다색 3박5일 12월 14일",
+    "subtitle": "트리니티항공(구 티웨이) 인천-방콕 · 5성 오크우드 호텔(2인 1실) · 카오키여우·방프라·로얄레이크사이드·프레젠트밸리·그린우드·파타비아 중 배정 · 조식·중식 포함 · 12월 14일 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "전 일정 그린피 포함 (방프라·로얄레이크사이드 배정일은 18홀)\n시라차 근교 6개 골프장 중 배정",
+    "minPeople": "2인부터 출발",
+    "period": "2026년 12월 14일(월) ~ 12월 18일(금) 1회 출발",
+    "hotel": "오크우드 호텔 (5성급, 2인 1실)",
+    "hotelDesc": "2017년에 완공된 시라차의 5성급 레지던스형 호텔로, 걸어서 1분 거리에 수라삭 몬트리 공원, 11분 거리에 로빈슨 시라차가 있습니다. 방사엔 비치까지 13.7km, 시라차 호랑이 동물원까지 13.8km입니다. 레이트 체크아웃(18시)은 1실 55,000원이 추가됩니다.",
+    "golfCourse": "카오키여우CC · 방프라CC · 로얄레이크사이드CC · 프레젠트밸리CC · 그린우드CC · 파타비아CC 중 배정",
+    "golfCourseDesc": "시라차 근교 골프장 6곳(카오키여우·방프라·로얄레이크사이드·프레젠트밸리·그린우드·파타비아) 중에서 날마다 배정받아 라운딩합니다. 방프라CC와 로얄레이크사이드CC가 배정되는 날은 18홀로 진행합니다. 주중에 한해 시암 컨트리클럽 등 외부 골프장으로 업그레이드할 수 있습니다(별도 문의).",
+    "productSummary": "12월 14일 인천에서 출발해 시라차 시내 5성급 오크우드 호텔에 묵으며 근교 골프장 6곳 중 배정받아 라운딩하는 3박5일 지정일 상품입니다.\n조식·중식과 전 일정 그린피가 포함되고, 라운딩 후에는 시라차 시내와 파타야 인근에서 자유시간을 보내실 수 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 방콕",
+        "desc": "인천국제공항 출발(트리니티항공 TW101 19:50) → 방콕 공항 도착(다음 날 00:10) → 미팅 후 시라차 호텔로 이동 → 체크인 및 휴식 [호텔: 오크우드 호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "시라차 근교 골프장 라운딩",
+        "desc": "호텔 조식 후 골프장 이동 → 6곳 중 배정 골프장 라운딩 → 호텔 휴식 및 자유시간 [조식·중식 포함 / 석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "시라차 근교 골프장 라운딩",
+        "desc": "호텔 조식 후 골프장 이동 → 6곳 중 배정 골프장 라운딩 → 호텔 휴식 및 자유시간 [조식·중식 포함 / 석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "시라차 근교 골프장 라운딩 → 공항",
+        "desc": "호텔 조식 후 골프장 이동 → 6곳 중 배정 골프장 라운딩 → 자유시간 후 방콕 공항으로 이동 [조식·중식 포함 / 석식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "방콕 → 인천",
+        "desc": "방콕 공항 출발(트리니티항공 TW102 01:30) → 인천국제공항 도착(09:00) 후 해산"
+      }
+    ],
+    "highlights": [
+      "12월 14일 출발 3박5일 지정일 1,150,000원",
+      "5성급 오크우드 호텔 · 시라차 시내 중심",
+      "카오키여우·방프라·로얄레이크사이드·프레젠트밸리·그린우드·파타비아 중 배정",
+      "조식·중식 포함 · 전 일정 그린피",
+      "라운딩 후 시라차 시내·파타야 인근 자유시간"
+    ],
+    "includes": [
+      "왕복 항공료 (트리니티항공, 구 티웨이)",
+      "5성급 오크우드 호텔 2인 1실",
+      "조식·중식",
+      "전 일정 그린피",
+      "여행자보험"
+    ],
+    "excludes": [
+      "석식",
+      "미팅·샌딩 1인 $50 (4인 이상 / 3인 $70·2인 $100)",
+      "캐디피 18홀 1인 400바트 (로얄레이크사이드 500바트)",
+      "카트비 18홀 1인 600바트 (카오키여우 800바트·로얄레이크사이드 850바트)",
+      "캐디팁 18홀 1인 400바트"
+    ],
+    "cancelPolicy": [
+      "골프장은 6곳 중 현지에서 배정되며, 방프라CC·로얄레이크사이드CC 배정일은 18홀로 진행합니다.",
+      "9홀 추가 시 그린피는 주중·주말 모두 1인 40,000원(1박 기준)입니다.",
+      "마사지 2시간은 1인 25,000원에 추가하실 수 있습니다.",
+      "차량 대여(8시간)는 1대 $100, 자정 이후 $50 추가 / 한국어 가능 태국인 가이드(8시간) $100입니다.",
+      "레이트 체크아웃(18시)은 1실 55,000원입니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-14",
+        "price": 1150000
+      }
+    ],
+    "image": "/images/sriracha-oakwood-incheon/course-1.jpg",
+    "courseImages": [
+      "/images/sriracha-oakwood-incheon/course-1.jpg",
+      "/images/sriracha-oakwood-incheon/course-2.jpg",
+      "/images/sriracha-oakwood-incheon/course-3.jpg",
+      "/images/sriracha-oakwood-incheon/course-4.jpg",
+      "/images/sriracha-oakwood-incheon/course-5.jpg",
+      "/images/sriracha-oakwood-incheon/course-6.jpg",
+      "/images/sriracha-busan/course-2.jpg",
+      "/images/sriracha-busan/course-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/sriracha-oakwood-incheon/hotel-1.jpg",
+      "/images/sriracha-oakwood-incheon/hotel-2.jpg",
+      "/images/sriracha-oakwood-incheon/hotel-3.jpg",
+      "/images/sriracha-oakwood-incheon/hotel-4.jpg",
+      "/images/sriracha-oakwood-incheon/hotel-5.jpg",
+      "/images/sriracha-oakwood-incheon/hotel-6.jpg"
+    ],
+    "images": [
+      "/images/sriracha-oakwood-incheon/course-1.jpg",
+      "/images/sriracha-oakwood-incheon/hotel-1.jpg",
+      "/images/sriracha-oakwood-incheon/course-2.jpg",
+      "/images/sriracha-oakwood-incheon/hotel-2.jpg",
+      "/images/sriracha-oakwood-incheon/course-3.jpg",
+      "/images/sriracha-oakwood-incheon/hotel-4.jpg"
+    ],
+    "seoIntro": "인천 출발 태국 시라차 골프여행으로, 5성급 오크우드 호텔에 묵으며 카오키여우·방프라·로얄레이크사이드·프레젠트밸리·그린우드·파타비아 중 배정 골프장에서 라운딩하는 12월 14일 출발 3박5일 지정일 상품입니다.",
+    "seoKeywords": [
+      "시라차골프",
+      "태국골프여행",
+      "시라차골프여행",
+      "방콕골프",
+      "오크우드호텔",
+      "인천출발"
+    ],
+    "price": "1,150,000원~"
+  },
+  {
+    "id": "thailand-chiangmai-legacy-panorama-1130-incheon",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "치앙마이",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-09",
+    "title": "[인천출발] 태국 치앙마이 골프여행 레가시·파노라마 2색 파노라마 리조트 3박5일 매일 36홀 이스타항공 11월 30일 출발 1,290,000원",
+    "displayTitle": "치앙마이 레가시·파노라마 2색 36홀 3박5일 11월 30일",
+    "subtitle": "이스타항공 인천-치앙마이 직항 · 파노라마 리조트(2인 1실) · 레가시CC·파노라마CC 1일 36홀 · 조식·중식·석식 포함 · 노쇼핑 · 11월 30일 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 2,
+    "roundsIncluded": 6,
+    "holes": "1일 36홀 (전 일정 그린피)\n가산 레가시CC · 가산 파노라마CC",
+    "minPeople": "2인부터 출발",
+    "period": "2026년 11월 30일(월) ~ 12월 4일(금) 1회 출발",
+    "hotel": "파노라마 리조트 (2인 1실)",
+    "hotelDesc": "람푼 반티에 있는 가산 파노라마CC의 파노라마 리조트에 2인 1실로 3박합니다. 레스토랑·실내 수영장·피트니스 센터가 있고 전 객실 무료 와이파이를 쓸 수 있습니다. 조식·중식·석식이 모두 포함됩니다.",
+    "golfCourse": "가산 레가시CC · 가산 파노라마CC (1일 36홀)",
+    "golfCourseDesc": "가산 레가시CC(18홀 파72)와 가산 파노라마CC(18홀 파72) 두 곳을 이용해 하루 36홀을 라운딩하며, 날짜별 골프장 배정은 현지에서 안내합니다. 레가시CC는 워터 해저드가 많은 코스이고, 파노라마CC는 큰 호수를 따라 홀이 이어지는 긴 코스입니다. 오전 18홀은 의무 라운딩이라 오후에 9홀만 하셔도 18홀 기준 캐디피·카트비를 냅니다.",
+    "productSummary": "11월 30일 인천에서 이스타항공 직항으로 출발해 파노라마 리조트에 3박하며 가산 레가시CC와 파노라마CC에서 하루 36홀을 라운딩하는 3박5일 지정일 상품입니다.\n조식·중식·석식이 모두 포함되는 노쇼핑 일정이고 2인부터 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 치앙마이",
+        "desc": "인천국제공항 출발(이스타항공 ZE517, 17:25) → 치앙마이 국제공항 도착(21:20) → 미팅 후 리조트 이동 → 체크인 및 휴식 [숙소: 파노라마 리조트]"
+      },
+      {
+        "day": "2일차",
+        "label": "36홀 라운딩",
+        "desc": "조식 후 레가시CC·파노라마CC 중 배정 골프장 36홀 라운딩 → 석식 후 리조트 휴식 [조식·중식·석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "36홀 라운딩",
+        "desc": "조식 후 레가시CC·파노라마CC 중 배정 골프장 36홀 라운딩 → 석식 후 리조트 휴식 [조식·중식·석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "36홀 라운딩 → 공항",
+        "desc": "조식 후 레가시CC·파노라마CC 중 배정 골프장 36홀 라운딩 → 석식 후 치앙마이 국제공항 출발(ZE518, 22:20) [조식·중식·석식 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "→ 인천",
+        "desc": "인천국제공항 도착(05:30) 후 해산"
+      }
+    ],
+    "highlights": [
+      "11월 30일 출발 3박5일 지정일 1,290,000원",
+      "이스타항공 인천-치앙마이 직항",
+      "가산 레가시CC·파노라마CC 2색 · 1일 36홀",
+      "파노라마 리조트 · 조식·중식·석식 포함",
+      "노쇼핑 · 2인부터 출발"
+    ],
+    "includes": [
+      "왕복 항공료 (이스타항공)",
+      "파노라마 리조트 3박 (2인 1실)",
+      "전 일정 식사 (조식·중식·석식)",
+      "전 일정 그린피 (1일 36홀)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디피 18홀 1인 300바트",
+      "카트비 18홀 1인 750바트",
+      "캐디팁 18홀 1인 350~400바트",
+      "미팅·샌딩 차량비 1인 $50 (4인 이상 / 3인 $70·2인 $100)"
+    ],
+    "cancelPolicy": [
+      "전용 가이드·차량 없이 기사 또는 미팅·샌딩 직원이 공항-리조트 이동을 돕고 리조트 안 골프 일정을 설명해 드립니다.",
+      "오전 18홀은 의무 라운딩입니다. 오후에 9홀만 하셔도 18홀 기준 캐디피·카트비를 내셔야 하며, 오전 18홀만 하시면 오후 비용은 없습니다.",
+      "노쇼핑 상품입니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-30",
+        "price": 1290000
+      }
+    ],
+    "image": "/images/chiangmai-legacy-36-incheon/course-1.jpg",
+    "courseImages": [
+      "/images/chiangmai-legacy-36-incheon/course-1.jpg",
+      "/images/chiangmai-legacy-36-incheon/course-2.jpg",
+      "/images/chiangmai-legacy-36-incheon/course-3.jpg",
+      "/images/chiangmai-legacy-36-incheon/course-4.jpg",
+      "/images/chiangmai-legacy-36-incheon/course-5.jpg",
+      "/images/chiangmai-legacy-36-incheon/course-6.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-1.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-2.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-3.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-4.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-5.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-6.jpg"
+    ],
+    "hotelImages": [
+      "/images/chiangmai-panorama-golftel-incheon/hotel-1.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/hotel-2.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/hotel-3.jpg",
+      "/images/chiangmai-gassan-golftel-busan/hotel-3.jpg",
+      "/images/chiangmai-gassan-golftel-busan/hotel-2.jpg",
+      "/images/chiangmai-gassan-golftel-busan/hotel-6.jpg"
+    ],
+    "images": [
+      "/images/chiangmai-legacy-36-incheon/course-1.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/hotel-1.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-1.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/hotel-2.jpg",
+      "/images/chiangmai-legacy-36-incheon/course-2.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/hotel-3.jpg"
+    ],
+    "seoIntro": "인천 출발 치앙마이 골프여행으로, 이스타항공 직항을 타고 파노라마 리조트에 머물며 가산 레가시CC와 파노라마CC에서 하루 36홀을 라운딩하는 11월 30일 출발 3박5일 지정일 상품입니다.",
+    "seoKeywords": [
+      "치앙마이골프",
+      "치앙마이골프여행",
+      "레가시CC",
+      "파노라마CC",
+      "치앙마이골프텔",
+      "인천출발"
+    ],
+    "price": "1,290,000원~"
+  },
+  {
+    "id": "vietnam-danang-cnpalace-join-3color-incheon",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "region": "다낭",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-09",
+    "title": "[인천출발] 베트남 다낭 골프여행 조인 3색 3박5일 54홀 4성 CN 팰리스 시내 호텔 12월 일·목 출발 1,390,000원부터",
+    "subtitle": "티웨이 등 인천-다낭 직항 · 4성 CN 팰리스 또는 만딜라 비치(2인 1실) · 몽고메리·빈펄·바나힐·다낭CC 중 3곳 · 그린피·카트비·캐디피 포함 · 12월 일·목 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)\n몽고메리·빈펄·바나힐·다낭CC 중 3곳",
+    "minPeople": "2인부터 (출발일별 2~8인 조인, 1인 참가는 별도 문의)",
+    "period": "2026년 12월 매주 일요일·목요일 출발 (출발일별 요금)",
+    "hotel": "CN 팰리스 호텔 또는 만딜라 비치 호텔 (4성급, 2인 1실)",
+    "hotelDesc": "다낭 미케비치 해변 근처 시내의 4성급 CN 팰리스 호텔 또는 만딜라 비치 호텔 중 한 곳에 2인 1실로 묵습니다(현지 배정). 호텔 조식이 포함되며, 5성급(포 포인츠 바이 쉐라톤 또는 네스타 셀리아 중 배정)으로 바꾸면 1인 100,000원이 추가됩니다.",
+    "golfCourse": "몽고메리 링크스 · 빈펄 골프 남호이안 · 바나힐CC · 다낭CC 중 3곳",
+    "golfCourseDesc": "다낭의 몽고메리 링크스, 빈펄 골프 남호이안, 바나힐CC, 다낭CC 중 3곳에서 하루 18홀씩 총 54홀을 라운딩합니다. 그린피·카트비(2인 1카트)·캐디피(1인 1캐디)가 포함되고 캐디팁만 현지에서 냅니다. 조인 행사라 인원이 홀수이면 현지 조인으로 라운딩할 수 있습니다.",
+    "productSummary": "12월 매주 일요일·목요일 인천에서 출발해 다낭 시내 4성급 호텔에 묵으며 몽고메리·빈펄·바나힐·다낭CC 중 3곳에서 54홀을 라운딩하는 조인 3박5일 상품입니다.\n그린피·카트비·캐디피와 골프장 송영 차량이 포함되고 출발일마다 2~8인이 함께 조인합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 다낭",
+        "desc": "인천국제공항 출발(티웨이 TW011, 19:00) → 다낭 국제공항 도착(22:20) → 한국말 현지인 가이드 피켓 미팅 후 호텔 이동 → 체크인 [호텔: CN 팰리스 또는 만딜라 비치]"
+      },
+      {
+        "day": "2일차",
+        "label": "다낭 골프 18홀",
+        "desc": "호텔 조식 후 송영 차량(조인)으로 골프장 이동 → 몽고메리·빈펄·바나힐·다낭CC 중 1곳 18홀 라운딩 → 호텔 복귀 후 자유시간 [조식 호텔식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "다낭 골프 18홀",
+        "desc": "호텔 조식 후 송영 차량(조인)으로 골프장 이동 → 몽고메리·빈펄·바나힐·다낭CC 중 1곳 18홀 라운딩 → 호텔 복귀 후 자유시간 [조식 호텔식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "다낭 골프 18홀 → 공항",
+        "desc": "호텔 조식 후 체크아웃 → 송영 차량(조인)으로 골프장 이동 → 몽고메리·빈펄·바나힐·다낭CC 중 1곳 18홀 라운딩 → 22시 이전 공항 이동 [조식 호텔식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "다낭 → 인천",
+        "desc": "다낭 국제공항 출발(TW012, 4일차 밤 23:35) → 인천국제공항 도착(06:05) 후 해산"
+      }
+    ],
+    "highlights": [
+      "12월 일요일 1,390,000원 · 목요일 1,490,000원부터",
+      "몽고메리·빈펄·바나힐·다낭CC 중 3곳 54홀",
+      "그린피·카트비·캐디피 포함 · 골프장 송영 차량",
+      "미케비치 근처 4성급 시내 호텔 · 조식 포함",
+      "출발일별 2~8인 조인"
+    ],
+    "includes": [
+      "왕복 항공권 (유류할증료·TAX 포함)",
+      "CN 팰리스 또는 만딜라 비치 호텔 (2인 1실) · 조식",
+      "그린피 + 카트비(2인 1카트) + 캐디피(1인 1캐디) 18홀 x 3회",
+      "골프장↔호텔 송영 차량",
+      "공항 미팅 가이드 (한국말)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "미팅·샌딩비 1인 $50",
+      "중식 · 석식",
+      "캐디팁 18홀 1인 $15",
+      "홀수 예약 시 싱글룸 1박 1인 50,000원",
+      "5성급 호텔 변경 시 1인 100,000원"
+    ],
+    "cancelPolicy": [
+      "항공은 티웨이 기준이며 이스타항공·제주항공·에어서울 중 랜덤 배정될 수 있습니다.",
+      "호텔은 CN 팰리스와 만딜라 비치 중 현지에서 배정됩니다.",
+      "모객 인원에 따라 홀수 인원일 때 골프는 현지 조인으로 진행될 수 있습니다.",
+      "가이드는 첫날 공항 미팅 때만 함께하며 이후에는 카카오톡으로 안내해 드립니다.",
+      "귀국일 샌딩 차량은 늦어도 22시 이전에 공항으로 출발합니다.",
+      "골프장 사정으로 아침 일찍 티업하면 조식을 못 드실 수 있고, 확정된 티타임이 바뀔 수 있습니다.",
+      "우천 시 환불은 골프장 규정을 따릅니다."
+    ],
+    "seoIntro": "인천 출발 다낭 골프여행 조인 3박5일 상품으로, 4성급 CN 팰리스 또는 만딜라 비치 호텔에 묵으며 몽고메리·빈펄·바나힐·다낭CC 중 3곳에서 54홀을 라운딩하는 12월 일·목 출발 패키지입니다.",
+    "seoKeywords": [
+      "다낭골프",
+      "다낭골프여행",
+      "다낭골프패키지",
+      "몽고메리",
+      "바나힐",
+      "인천출발"
+    ],
+    "courseImages": [
+      "/images/danang-alacarte-busan/course-1.jpg",
+      "/images/danang-fourpoints-incheon/course-1.jpg",
+      "/images/danang-fourpoints-incheon/course-2.jpg",
+      "/images/danang-fourpoints-incheon/course-3.jpg",
+      "/images/danang-fourpoints-incheon/course-4.jpg",
+      "/images/danang-muongthanh-busan/course-2.jpg",
+      "/images/danang-alacarte-busan/course-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/danang-cnpalace-incheon/hotel-1.jpg",
+      "/images/danang-cnpalace-incheon/hotel-2.jpg",
+      "/images/danang-cnpalace-incheon/hotel-3.jpg",
+      "/images/danang-cnpalace-incheon/hotel-4.jpg",
+      "/images/danang-cnpalace-incheon/hotel-5.jpg",
+      "/images/danang-cnpalace-incheon/hotel-6.jpg",
+      "/images/danang-cnpalace-incheon/hotel-7.jpg",
+      "/images/danang-cnpalace-incheon/hotel-8.jpg"
+    ],
+    "image": "/images/danang-alacarte-busan/course-1.jpg",
+    "images": [
+      "/images/danang-alacarte-busan/course-1.jpg",
+      "/images/danang-cnpalace-incheon/hotel-1.jpg",
+      "/images/danang-fourpoints-incheon/course-2.jpg",
+      "/images/danang-cnpalace-incheon/hotel-5.jpg",
+      "/images/danang-muongthanh-busan/course-2.jpg",
+      "/images/danang-cnpalace-incheon/hotel-4.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-03",
+        "price": 1490000
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1390000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1490000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1390000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1490000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1390000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1590000
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1490000
+      },
+      {
+        "date": "2026-12-31",
+        "price": 1640000
+      }
+    ],
+    "price": "1,390,000원~",
+    "displayTitle": "다낭 조인 3색 CN 팰리스 3박5일 54홀"
   }
 ]
