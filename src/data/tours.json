@@ -141726,5 +141726,452 @@
         "price": 1549000
       }
     ]
+  },
+  {
+    "country": "사이판",
+    "countryCode": "other",
+    "region": "괌/사이판",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "minPeople": "2인부터 예약 가능",
+    "hotel": "PIC 리조트 사이판 (또는 동급, 디럭스룸 2인 1실)",
+    "hotelDesc": "사이판 해변 앞 PIC 리조트 디럭스룸에서 2인 1실로 묵습니다. 워터파크와 전용 비치, 리조트 안 여러 레스토랑을 이용할 수 있고, 조식·석식은 리조트에서 먹습니다. 리조트와 골프장 사이는 왕복 셔틀이 다니며, 마지막 날은 공항 이동 전까지 레이트 체크아웃이 됩니다.",
+    "golfCourse": "코랄오션CC · 라오라오베이CC 2색",
+    "image": "/images/saipan-2color-pic-dec/course-1.jpg",
+    "hotelImages": [
+      "/images/saipan-2color-pic-dec/hotel-1.jpg",
+      "/images/saipan-2color-pic-dec/hotel-2.jpg",
+      "/images/saipan-2color-pic-dec/hotel-3.jpg",
+      "/images/saipan-2color-pic-dec/hotel-4.jpg",
+      "/images/saipan-2color-pic-dec/hotel-5.jpg",
+      "/images/saipan-2color-pic-dec/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/saipan-2color-pic-dec/course-1.jpg",
+      "/images/saipan-2color-pic-dec/course-2.jpg",
+      "/images/saipan-2color-pic-dec/course-3.jpg",
+      "/images/saipan-2color-pic-dec/course-4.jpg",
+      "/images/saipan-2color-pic-dec/course-5.jpg",
+      "/images/saipan-2color-pic-dec/course-6.jpg",
+      "/images/saipan-2color-pic-dec/course-7.jpg",
+      "/images/saipan-2color-pic-dec/course-8.jpg"
+    ],
+    "images": [
+      "/images/saipan-2color-pic-dec/course-1.jpg",
+      "/images/saipan-2color-pic-dec/hotel-1.jpg",
+      "/images/saipan-2color-pic-dec/course-2.jpg",
+      "/images/saipan-2color-pic-dec/hotel-2.jpg",
+      "/images/saipan-2color-pic-dec/course-5.jpg",
+      "/images/saipan-2color-pic-dec/hotel-3.jpg"
+    ],
+    "priceUpdatedDate": "2026-11-10",
+    "id": "saipan-2color-pic-dec-incheon",
+    "title": "[인천출발] 사이판 골프여행 코랄오션·라오라오베이 2색 3박5일 72홀 PIC리조트 조·석식 포함 1,499,000원부터",
+    "displayTitle": "코랄오션·라오라오베이 2색 PIC리조트 3박5일",
+    "subtitle": "제주항공 인천 직항 · 코랄오션CC 54홀 + 라오라오베이CC 18홀 · PIC 리조트 디럭스룸 · 조·석식 포함 · 12월 지정일 출발 · 2인부터",
+    "nights": 3,
+    "days": 5,
+    "courses": 2,
+    "roundsIncluded": 4,
+    "holes": "72홀 (코랄오션CC 18홀 × 3회 + 라오라오베이CC 18홀)",
+    "period": "2026년 12월 지정일 출발 (12/4·7·10·11·14·17·18·21·28)",
+    "golfCourseDesc": "코랄오션CC는 1988년에 문을 연 래리 넬슨 설계의 18홀 파72(약 7,156야드) 코스로, 사이판 남서쪽 해안 절벽을 따라 남태평양을 보며 라운딩합니다. 라오라오베이CC는 그렉 노먼이 설계한 36홀(이스트·웨스트) 골프장으로 사이판 동쪽 라오라오만에 있습니다. 이 상품은 코랄오션CC 3회와 라오라오베이CC 1회, 총 72홀을 라운딩하며 그린피와 전동카트가 포함됩니다.",
+    "productSummary": "제주항공 밤 비행기로 사이판에 가서 PIC 리조트 디럭스룸에 묵으며 코랄오션CC 54홀과 라오라오베이CC 18홀, 총 72홀을 라운딩하는 2색 골프 상품입니다. 리조트 조식·석식과 그린피·전동카트, 리조트-골프장 셔틀이 포함됩니다. 12월 지정일 출발이며 2인부터 1,499,000원부터입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 사이판",
+        "desc": "인천국제공항 출발(제주항공 7C3217, 22:15) → 사이판 국제공항 도착(익일 03:40) → 현지직원 미팅 후 이동(약 15분) → 리조트 체크인 및 휴식 [숙소: PIC 리조트 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "코랄오션CC 18홀",
+        "desc": "조식 후 골프장 이동(약 10분) → 코랄오션CC 18홀 라운딩[티오프 미정] → 리조트 투숙 및 휴식 [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "라오라오베이CC 18홀 + 코랄오션CC 18홀",
+        "desc": "조식 후 골프장 이동(약 20분) → 오전 라오라오베이CC 18홀 라운딩 → 오후 코랄오션CC 18홀 서비스 라운딩(17:30까지 종료) → 리조트 투숙 및 휴식 [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "코랄오션CC 18홀",
+        "desc": "조식 후 골프장 이동 → 코랄오션CC 18홀 라운딩[티오프 미정] → 리조트 투숙 및 휴식(공항 이동 전까지 레이트 체크아웃) [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "사이판 → 인천",
+        "desc": "공항 이동(02:00) → 사이판 국제공항 출발(제주항공 7C3218, 04:50) → 인천국제공항 도착(08:50) 후 해산"
+      }
+    ],
+    "highlights": [
+      "제주항공 인천-사이판 직항 (무료 위탁수하물 23kg 1개)",
+      "코랄오션CC 54홀 + 라오라오베이CC 18홀, 2색 72홀",
+      "PIC 리조트 디럭스룸 · 워터파크·전용 비치",
+      "전 일정 조식·석식 리조트 포함",
+      "12월 지정일 출발 · 2인부터 · 1,499,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (제주항공, TAX·유류할증료 포함)",
+      "PIC 리조트 디럭스룸 (2인 1실)",
+      "전 일정 조식·석식 (리조트)",
+      "그린피·전동카트 (72홀)",
+      "리조트-골프장 왕복 셔틀",
+      "레이트 체크아웃 (공항 이동 전까지)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "공항 미팅·샌딩 (1인 US$25)",
+      "중식",
+      "1인 1실 추가 (1인 전 일정 US$240)"
+    ],
+    "cancelPolicy": [
+      "추가 라운드(사전 예약 필수): 코랄오션CC 9홀 1인 US$70 / 18홀 US$90, 라오라오베이CC 9홀 1인 US$80 / 18홀 US$110",
+      "3일차 오후 코랄오션CC 서비스 라운드는 17:30까지 마쳐야 합니다.",
+      "항공 좌석이 마감되면 요금이 오를 수 있습니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 다소 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-04",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1599000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1599000
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1599000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1599000
+      }
+    ],
+    "price": "1,499,000원~",
+    "seoIntro": "인천 출발 사이판 골프여행 3박5일 상품으로, 코랄오션CC와 라오라오베이CC에서 72홀을 라운딩하고 PIC 리조트 디럭스룸에 묵는 조·석식 포함 2색 골프패키지입니다.",
+    "seoKeywords": [
+      "사이판골프",
+      "사이판골프여행",
+      "코랄오션CC",
+      "라오라오베이CC",
+      "PIC리조트",
+      "인천출발",
+      "골프패키지"
+    ]
+  },
+  {
+    "country": "사이판",
+    "countryCode": "other",
+    "region": "괌/사이판",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "minPeople": "2인부터 예약 가능",
+    "hotel": "PIC 리조트 사이판 (또는 동급, 디럭스룸 2인 1실)",
+    "hotelDesc": "사이판 해변 앞 PIC 리조트 디럭스룸에서 2인 1실로 묵습니다. 워터파크와 전용 비치, 리조트 안 여러 레스토랑을 이용할 수 있고, 조식·석식은 리조트에서 먹습니다. 리조트와 골프장 사이는 왕복 셔틀이 다니며, 마지막 날은 공항 이동 전까지 레이트 체크아웃이 됩니다.",
+    "golfCourse": "코랄오션CC · 라오라오베이CC 2색",
+    "image": "/images/saipan-2color-pic-dec/course-1.jpg",
+    "hotelImages": [
+      "/images/saipan-2color-pic-dec/hotel-1.jpg",
+      "/images/saipan-2color-pic-dec/hotel-2.jpg",
+      "/images/saipan-2color-pic-dec/hotel-3.jpg",
+      "/images/saipan-2color-pic-dec/hotel-4.jpg",
+      "/images/saipan-2color-pic-dec/hotel-5.jpg",
+      "/images/saipan-2color-pic-dec/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/saipan-2color-pic-dec/course-1.jpg",
+      "/images/saipan-2color-pic-dec/course-2.jpg",
+      "/images/saipan-2color-pic-dec/course-3.jpg",
+      "/images/saipan-2color-pic-dec/course-4.jpg",
+      "/images/saipan-2color-pic-dec/course-5.jpg",
+      "/images/saipan-2color-pic-dec/course-6.jpg",
+      "/images/saipan-2color-pic-dec/course-7.jpg",
+      "/images/saipan-2color-pic-dec/course-8.jpg"
+    ],
+    "images": [
+      "/images/saipan-2color-pic-dec/course-1.jpg",
+      "/images/saipan-2color-pic-dec/hotel-1.jpg",
+      "/images/saipan-2color-pic-dec/course-2.jpg",
+      "/images/saipan-2color-pic-dec/hotel-2.jpg",
+      "/images/saipan-2color-pic-dec/course-5.jpg",
+      "/images/saipan-2color-pic-dec/hotel-3.jpg"
+    ],
+    "priceUpdatedDate": "2026-11-10",
+    "id": "saipan-2color-pic-dec-incheon-4n6d",
+    "title": "[인천출발] 사이판 골프여행 코랄오션·라오라오베이 2색 4박6일 90홀 PIC리조트 조·석식 포함 1,699,000원부터",
+    "displayTitle": "코랄오션·라오라오베이 2색 PIC리조트 4박6일",
+    "subtitle": "제주항공 인천 직항 · 코랄오션CC 72홀 + 라오라오베이CC 18홀 · PIC 리조트 디럭스룸 · 조·석식 포함 · 12월 지정일 출발 · 2인부터",
+    "nights": 4,
+    "days": 6,
+    "courses": 2,
+    "roundsIncluded": 5,
+    "holes": "90홀 (코랄오션CC 18홀 × 4회 + 라오라오베이CC 18홀)",
+    "period": "2026년 12월 지정일 출발 (12/3·6·7·10·13·14·17·20·21)",
+    "golfCourseDesc": "코랄오션CC는 1988년에 문을 연 래리 넬슨 설계의 18홀 파72(약 7,156야드) 코스로, 사이판 남서쪽 해안 절벽을 따라 남태평양을 보며 라운딩합니다. 라오라오베이CC는 그렉 노먼이 설계한 36홀(이스트·웨스트) 골프장으로 사이판 동쪽 라오라오만에 있습니다. 이 상품은 코랄오션CC 4회와 라오라오베이CC 1회, 총 90홀을 라운딩하며 그린피와 전동카트가 포함됩니다.",
+    "productSummary": "제주항공 밤 비행기로 사이판에 가서 PIC 리조트 디럭스룸에 묵으며 코랄오션CC 72홀과 라오라오베이CC 18홀, 총 90홀을 라운딩하는 4박6일 2색 골프 상품입니다. 리조트 조식·석식과 그린피·전동카트, 리조트-골프장 셔틀이 포함됩니다. 12월 지정일 출발이며 2인부터 1,699,000원부터입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 사이판",
+        "desc": "인천국제공항 출발(제주항공 7C3217, 22:15) → 사이판 국제공항 도착(익일 03:40) → 현지직원 미팅 후 이동(약 15분) → 리조트 체크인 및 휴식 [숙소: PIC 리조트 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "코랄오션CC 18홀",
+        "desc": "조식 후 골프장 이동(약 10분) → 코랄오션CC 18홀 라운딩[티오프 미정] → 리조트 투숙 및 휴식 [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "라오라오베이CC 18홀 + 코랄오션CC 18홀",
+        "desc": "조식 후 골프장 이동(약 20분) → 오전 라오라오베이CC 18홀 라운딩 → 오후 코랄오션CC 18홀 서비스 라운딩(17:30까지 종료) → 리조트 투숙 및 휴식 [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "코랄오션CC 18홀",
+        "desc": "조식 후 골프장 이동 → 코랄오션CC 18홀 라운딩[티오프 미정] → 리조트 투숙 및 휴식 [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "코랄오션CC 18홀",
+        "desc": "조식 후 골프장 이동 → 코랄오션CC 18홀 라운딩[티오프 미정] → 리조트 투숙 및 휴식(공항 이동 전까지 레이트 체크아웃) [조식·석식 리조트 / 중식 불포함]"
+      },
+      {
+        "day": "6일차",
+        "label": "사이판 → 인천",
+        "desc": "공항 이동(02:00) → 사이판 국제공항 출발(제주항공 7C3218, 04:50) → 인천국제공항 도착(08:50) 후 해산"
+      }
+    ],
+    "highlights": [
+      "제주항공 인천-사이판 직항 (무료 위탁수하물 23kg 1개)",
+      "코랄오션CC 72홀 + 라오라오베이CC 18홀, 2색 90홀",
+      "PIC 리조트 디럭스룸 · 워터파크·전용 비치",
+      "전 일정 조식·석식 리조트 포함",
+      "12월 지정일 출발 · 2인부터 · 1,699,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (제주항공, TAX·유류할증료 포함)",
+      "PIC 리조트 디럭스룸 (2인 1실)",
+      "전 일정 조식·석식 (리조트)",
+      "그린피·전동카트 (90홀)",
+      "리조트-골프장 왕복 셔틀",
+      "레이트 체크아웃 (공항 이동 전까지)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "공항 미팅·샌딩 (1인 US$25)",
+      "중식",
+      "1인 1실 추가 (1인 전 일정 US$300)"
+    ],
+    "cancelPolicy": [
+      "추가 라운드(사전 예약 필수): 코랄오션CC 9홀 1인 US$70 / 18홀 US$90, 라오라오베이CC 9홀 1인 US$80 / 18홀 US$110",
+      "3일차 오후 코랄오션CC 서비스 라운드는 17:30까지 마쳐야 합니다.",
+      "항공 좌석이 마감되면 요금이 오를 수 있습니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 다소 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-03",
+        "price": 1899000
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1699000
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1699000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1899000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1699000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1699000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1899000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1699000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1699000
+      }
+    ],
+    "price": "1,699,000원~",
+    "seoIntro": "인천 출발 사이판 골프여행 4박6일 상품으로, 코랄오션CC와 라오라오베이CC에서 90홀을 라운딩하고 PIC 리조트 디럭스룸에 묵는 조·석식 포함 2색 골프패키지입니다.",
+    "seoKeywords": [
+      "사이판골프",
+      "사이판골프여행",
+      "코랄오션CC",
+      "라오라오베이CC",
+      "PIC리조트",
+      "인천출발",
+      "골프패키지"
+    ]
+  },
+  {
+    "id": "china-fuzhou-kempinski-3color-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "푸저우",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "title": "[인천출발] 중국 푸저우 골프여행 신동양·마조·해협CC 3색 캠핀스키호텔 5성 3박4일 54홀 샤먼항공 1,390,000원부터",
+    "displayTitle": "신동양·마조·해협CC 3색 캠핀스키호텔 골프여행",
+    "subtitle": "신동양CC + 마조CC + 해협CC 3색 54홀 · 캠핀스키호텔 푸저우(5성) · 조식·석식 포함 · 2027년 1월 목요일 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "0+18+18+18 (총 54홀)\n신동양CC 18홀 · 마조CC 18홀 · 해협CC 18홀",
+    "period": "2027년 1월 매주 목요일 출발 (1/7·1/14·1/21·1/28)",
+    "hotel": "캠핀스키호텔 푸저우 (5성, 2인 1실)",
+    "hotelDesc": "푸저우 시내 중심에 있는 5성급 캠핀스키호텔에서 2인 1실로 3박합니다. 객실과 스위트 327실, 레스토랑·바 5곳, 피트니스·수영장·스파를 갖췄고 지하철역이 걸어갈 만한 거리에 있어 주변 번화가에서 쇼핑과 먹거리, 야시장 구경을 즐기기 좋습니다. 푸저우 창러공항에서 호텔까지는 차로 약 40분입니다.",
+    "golfCourse": "신동양CC · 마조CC · 해협CC 3색",
+    "golfCourseDesc": "신동양CC는 1995년에 문을 연 27홀 골프장으로 테드 파슬로우가 설계했고, 푸저우 서쪽 산자락에 호수와 나무가 어우러진 코스입니다. 해협CC(푸저우 해협올림픽골프클럽)는 로버트 트렌트 존스 주니어가 설계해 1997년 10월에 문을 연 18홀 파72 링크스 스타일 코스로, 창러공항에서 차로 약 10분입니다. 둘째 날 신동양CC, 셋째 날 마조CC, 넷째 날 해협CC에서 18홀씩 총 54홀을 라운딩합니다.",
+    "productSummary": "샤먼항공 목요일 저녁 비행기로 푸저우에 가서 5성급 캠핀스키호텔에 3박하며 신동양CC·마조CC·해협CC 3곳에서 18홀씩, 총 54홀을 라운딩하는 3색 골프 상품입니다.\n2027년 1월 매주 목요일(1/7·1/14·1/21·1/28) 출발하며 1인 1,390,000원입니다. 그린피·캐디피·카트피와 호텔 조식, 2·3일차 현지식 석식(70위안 기준)이 포함됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 푸저우",
+        "desc": "인천국제공항 미팅 및 수속(17:00) → 인천국제공항 출발(샤먼항공 MF878, 20:05) → 푸저우 창러국제공항 도착(22:00, 현지시간) → 가이드 미팅 후 호텔 이동(약 40분) → 체크인 및 휴식 [숙소: 캠핀스키호텔 2인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "신동양CC 18홀",
+        "desc": "조식 후 골프장 이동(약 30분) → 신동양CC 18홀 라운딩 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 불포함 / 석식 현지식, 숙소: 캠핀스키호텔]"
+      },
+      {
+        "day": "3일차",
+        "label": "마조CC 18홀",
+        "desc": "조식 후 골프장 이동 → 마조CC 18홀 라운딩 → 석식 후 호텔 투숙 [조식 호텔식 / 중식 불포함 / 석식 현지식, 숙소: 캠핀스키호텔]"
+      },
+      {
+        "day": "4일차",
+        "label": "해협CC 18홀 → 인천",
+        "desc": "조식 후 체크아웃 → 골프장 이동(약 45분) → 해협CC 18홀 라운딩 → 공항 이동(약 10분) → 푸저우 창러국제공항 출발(샤먼항공 MF877, 15:25) → 인천국제공항 도착(19:00) 후 해산 [조식 호텔식 / 중식 불포함]"
+      }
+    ],
+    "highlights": [
+      "신동양CC + 마조CC + 해협CC 3색 · 3박4일 54홀",
+      "5성급 캠핀스키호텔 푸저우 3박 · 호텔 주변 야시장 도보 관광",
+      "그린피·캐디피·카트피 · 조식·석식 포함",
+      "2027년 1월 매주 목요일 출발 · 1,390,000원"
+    ],
+    "includes": [
+      "왕복 항공권 (샤먼항공) · 유류할증료·TAX",
+      "캠핀스키호텔 푸저우 (5성, 2인 1실)",
+      "호텔 조식 · 현지식 석식 (2·3일차, 70위안 기준)",
+      "전 일정 그린피·캐디피·카트피",
+      "일정 내 송영 차량",
+      "여행자보험"
+    ],
+    "excludes": [
+      "중식",
+      "미팅·샌딩 1인 400위안",
+      "캐디팁 18홀당 신동양CC 150위안 / 해협CC 130위안 (마조CC는 예약 때 확인)"
+    ],
+    "cancelPolicy": [
+      "샤먼항공 무료 위탁수하물: 캐리어 1개(23kg) + 골프백 1개",
+      "매주 목요일 블록좌석 상품입니다. 12월 24일·31일 출발과 그 밖의 날짜, 단독 행사는 따로 문의해 주세요.",
+      "예약 때 영문 이름과 여권 사본이 필요합니다.",
+      "예약 후 1인당 예약금 50만원을 입금해 주세요.",
+      "상기 일정은 항공 및 현지 사정에 의해 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-07",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1390000
+      }
+    ],
+    "price": "1,390,000원~",
+    "image": "/images/fuzhou-kempinski-3color-incheon/course-1.jpg",
+    "images": [
+      "/images/fuzhou-kempinski-3color-incheon/course-1.jpg",
+      "/images/fuzhou-kempinski-3color-incheon/course-2.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/hotel-1.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/course-6.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/hotel-2.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/course-7.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/fuzhou-kempinski-3color-incheon/course-1.jpg",
+      "/images/fuzhou-kempinski-3color-incheon/course-2.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/course-6.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/course-7.jpg",
+      "/images/fuzhou-kempinski-3color-incheon/course-3.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/course-3.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/course-9.jpg",
+      "/images/fuzhou-kempinski-3color-incheon/course-4.jpg",
+      "/images/fuzhou-kempinski-3color-incheon/course-5.jpg",
+      "/images/fuzhou-kempinski-3color-incheon/course-6.jpg",
+      "/images/fuzhou-kempinski-3color-incheon/course-7.jpg",
+      "/images/fuzhou-kempinski-3color-incheon/course-8.jpg"
+    ],
+    "hotelImages": [
+      "/images/fuzhou-kempinski-2color-incheon/hotel-1.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/hotel-2.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/hotel-3.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/hotel-4.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/hotel-5.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/hotel-6.jpg",
+      "/images/fuzhou-kempinski-2color-incheon/hotel-7.jpg"
+    ],
+    "priceUpdatedDate": "2026-11-10",
+    "seoIntro": "인천 출발 중국 푸저우 골프여행으로, 5성급 캠핀스키호텔에 묵으며 신동양CC·마조CC·해협CC를 라운딩하는 3박4일 54홀 3색 골프패키지입니다.",
+    "seoKeywords": [
+      "푸저우골프",
+      "복주골프",
+      "신동양CC",
+      "마조CC",
+      "해협CC",
+      "푸저우골프여행",
+      "중국골프",
+      "인천출발"
+    ]
   }
 ]

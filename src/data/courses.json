@@ -5184,6 +5184,11 @@
       "빈펄CC",
       "빈펄 남호이안"
     ],
+    "excludeTourIds": [
+      "vietnam-nhatrang-3color-busan",
+      "vietnam-nhatrang-vinpearl-beachfront-busan",
+      "vietnam-haiphong-3color-sunflower"
+    ],
     "region": "다낭",
     "country": "베트남",
     "countryCode": "vietnam",
