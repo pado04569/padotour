@@ -145933,5 +145933,516 @@
         "price": 1259000
       }
     ]
+  },
+  {
+    "id": "china-guangzhou-courtyard-3color-busan",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "광저우",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-11-11",
+    "title": "[부산출발] 중국 광저우 골프여행 은해·남해·조경 3색 3박5일 54홀 코트야드 메리어트 전 일정 식사 2인 출발 1,099,000원부터",
+    "subtitle": "에어부산 부산-광저우 직항 · 은해CC·남해CC·조경CC 3색 · 코트야드 바이 메리어트 포산 가오밍(2인 1실) · 조식·중식·석식 포함 · 매주 수·목 출발 · 2인부터",
+    "nights": 3,
+    "days": 5,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 × 3회)",
+    "minPeople": "2인부터 출발",
+    "period": "2026년 12월 ~ 2027년 3월 매주 수·목 출발 (출발일별 요금)",
+    "hotel": "코트야드 바이 메리어트 포산 가오밍 (특급, 2인 1실)",
+    "hotelDesc": "은해CC가 있는 포산 가오밍구 시내에 2022년 문을 연 메리어트 계열 호텔로, 2인 1실로 묵습니다. 실내 온수 수영장과 피트니스 센터가 있고 쇼핑몰과 붙어 있어 라운딩 뒤 자유 시간을 보내기 좋습니다.",
+    "golfCourse": "은해CC · 남해CC · 조경CC 3색",
+    "golfCourseDesc": "광저우 서쪽 포산·자오칭의 골프장 세 곳을 하루 한 곳씩 라운딩합니다. 은해CC는 가오밍 다사 저수지 옆 숲과 언덕 사이에 놓인 18홀 파72 코스, 남해CC는 포산 난하이의 18홀 파72 코스, 조경CC는 1994년 문을 연 자오칭의 골프장입니다. 라운딩 순서는 현지 사정에 따라 바뀔 수 있습니다.",
+    "productSummary": "에어부산 직항으로 밤에 출발해 광저우에 내려, 포산 가오밍의 코트야드 바이 메리어트에 3박하며 은해·남해·조경CC 3색 54홀을 라운딩하는 상품입니다.\n전 일정 조식·중식·석식과 그린피가 포함되고, 캐디피·카트비·캐디팁과 공항 송영비는 현지에서 냅니다. 2인부터 출발하며 매주 수·목 출발, 1,099,000원부터입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 광저우",
+        "desc": "김해국제공항 출발(에어부산 BX783 22:00) → 광저우 바이윈 국제공항 도착(다음 날 00:45) → 미팅 후 호텔 이동 → 체크인 후 휴식 [호텔: 코트야드 바이 메리어트 포산 가오밍]"
+      },
+      {
+        "day": "2일차",
+        "label": "은해CC 18홀",
+        "desc": "호텔 조식 후 은해CC 18홀 라운드 → 호텔 복귀 후 휴식 [조식 호텔식 / 중식 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "남해CC 18홀",
+        "desc": "호텔 조식 후 남해CC 18홀 라운드 → 호텔 복귀 후 휴식 [조식 호텔식 / 중식 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "조경CC 18홀 → 공항",
+        "desc": "호텔 조식 후 체크아웃 → 조경CC 18홀 라운드 → 석식 후 공항 이동 [조식 호텔식 / 중식 / 석식 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "광저우 → 부산",
+        "desc": "광저우 바이윈 국제공항 출발(BX784 02:05) → 김해국제공항 도착(06:30) 후 해산"
+      }
+    ],
+    "highlights": [
+      "에어부산 부산-광저우 직항",
+      "은해·남해·조경CC 3색 54홀",
+      "코트야드 바이 메리어트 포산 가오밍 · 쇼핑몰 연결",
+      "전 일정 조식·중식·석식 포함",
+      "2인부터 · 매주 수·목 출발 · 1,099,000원부터"
+    ],
+    "includes": [
+      "에어부산 왕복 항공권",
+      "코트야드 바이 메리어트 포산 가오밍 3박 (2인 1실)",
+      "전 일정 식사 (조식·중식·석식)",
+      "그린피 18홀 × 3회 (54홀)",
+      "일정상 골프장 셔틀 차량 (다른 일행과 함께 이동)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "공항 왕복 송영비 1인 400위안",
+      "캐디피 + 전동카트비 18홀 1인 300위안",
+      "캐디팁 18홀 1인 150위안",
+      "개인경비 · 매너팁"
+    ],
+    "cancelPolicy": [
+      "출발일별 요금은 2인 1실 기준 1인 항공팩 요금이며, 항공 좌석 상황에 따라 예약 때 다시 확인합니다.",
+      "에어부산 위탁 수하물을 23kg으로 바꾸면 1인 50,000원이 추가됩니다. 추가 9홀 라운딩과 1인 1실은 따로 문의해 주세요.",
+      "캐디피·전동카트비·캐디팁은 상품가에 포함되지 않으며 현지에서 냅니다. 골프장 라운딩 순서와 티타임은 현지 사정에 따라 바뀔 수 있습니다.",
+      "항공 시간은 에어부산 2026~27 동계 스케줄(주 4회)·현지 시각 기준이며, 출발일별 실제 운항 시간은 예약 때 확인합니다.",
+      "일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "price": "1,099,000원~",
+    "image": "/images/guangzhou-yinhai-nanhai/yinhai-1.jpg",
+    "images": [
+      "/images/guangzhou-yinhai-nanhai/yinhai-1.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-1.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-2.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-2.jpg",
+      "/images/zhaoqing-resort-golf-club/course-1.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/guangzhou-yinhai-nanhai/yinhai-1.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-2.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-3.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-4.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-5.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-6.jpg",
+      "/images/zhaoqing-resort-golf-club/course-1.jpg",
+      "/images/zhaoqing-resort-golf-club/course-2.jpg",
+      "/images/zhaoqing-resort-golf-club/course-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-1.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-2.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-3.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-4.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-5.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-6.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-7.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-8.jpg"
+    ],
+    "seoIntro": "부산 출발 중국 광저우 골프여행 3박5일 상품으로, 에어부산 직항을 타고 코트야드 바이 메리어트 포산 가오밍에 머물며 은해·남해·조경CC 3색을 라운딩하고 전 일정 식사가 포함된 골프패키지입니다.",
+    "seoKeywords": [
+      "광저우골프",
+      "광저우골프여행",
+      "중국골프여행",
+      "은해CC",
+      "남해CC",
+      "조경CC",
+      "부산출발",
+      "에어부산"
+    ],
+    "displayTitle": "광저우 은해·남해·조경 3색 코트야드 메리어트 3박5일",
+    "departurePrices": [
+      {
+        "date": "2026-12-02",
+        "price": 1119000
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1149000
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1119000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1149000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1119000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1149000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1119000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1149000
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1119000
+      },
+      {
+        "date": "2026-12-31",
+        "price": 1149000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1179000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1209000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1179000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1209000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1179000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1209000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1179000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1209000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1179000
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1209000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1179000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1209000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1179000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1209000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1179000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1209000
+      },
+      {
+        "date": "2027-03-03",
+        "price": 1099000
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1129000
+      },
+      {
+        "date": "2027-03-10",
+        "price": 1099000
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1129000
+      },
+      {
+        "date": "2027-03-17",
+        "price": 1099000
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1129000
+      },
+      {
+        "date": "2027-03-24",
+        "price": 1099000
+      },
+      {
+        "date": "2027-03-25",
+        "price": 1129000
+      }
+    ]
+  },
+  {
+    "id": "china-guangzhou-courtyard-3color-busan-4n6d",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "광저우",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-11-11",
+    "title": "[부산출발] 중국 광저우 골프여행 은해·남해·조경 3색 4박6일 72홀 코트야드 메리어트 전 일정 식사 2인 출발 899,000원부터",
+    "subtitle": "에어부산 부산-광저우 직항 · 은해CC·남해CC·조경CC 3색 + 은해CC 한 번 더 · 코트야드 바이 메리어트 포산 가오밍(2인 1실) · 조식·중식·석식 포함 · 매주 토·일 출발 · 2인부터",
+    "nights": 4,
+    "days": 6,
+    "courses": 3,
+    "roundsIncluded": 4,
+    "holes": "72홀 (18홀 × 4회)",
+    "minPeople": "2인부터 출발",
+    "period": "2026년 12월 ~ 2027년 3월 매주 토·일 출발 (출발일별 요금)",
+    "hotel": "코트야드 바이 메리어트 포산 가오밍 (특급, 2인 1실)",
+    "hotelDesc": "은해CC가 있는 포산 가오밍구 시내에 2022년 문을 연 메리어트 계열 호텔로, 2인 1실로 묵습니다. 실내 온수 수영장과 피트니스 센터가 있고 쇼핑몰과 붙어 있어 라운딩 뒤 자유 시간을 보내기 좋습니다.",
+    "golfCourse": "은해CC · 남해CC · 조경CC 3색",
+    "golfCourseDesc": "광저우 서쪽 포산·자오칭의 골프장 세 곳을 하루 한 곳씩 라운딩합니다. 은해CC는 가오밍 다사 저수지 옆 숲과 언덕 사이에 놓인 18홀 파72 코스, 남해CC는 포산 난하이의 18홀 파72 코스, 조경CC는 1994년 문을 연 자오칭의 골프장입니다. 4박 일정은 은해CC를 한 번 더 라운딩합니다. 라운딩 순서는 현지 사정에 따라 바뀔 수 있습니다.",
+    "productSummary": "에어부산 직항으로 밤에 출발해 광저우에 내려, 포산 가오밍의 코트야드 바이 메리어트에 4박하며 은해·남해·조경CC 3색에 은해CC를 한 번 더 더한 72홀을 라운딩하는 상품입니다.\n전 일정 조식·중식·석식과 그린피가 포함되고, 캐디피·카트비·캐디팁과 공항 송영비는 현지에서 냅니다. 2인부터 출발하며 매주 토·일 출발, 899,000원부터입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 광저우",
+        "desc": "김해국제공항 출발(에어부산 BX783 22:00) → 광저우 바이윈 국제공항 도착(다음 날 00:45) → 미팅 후 호텔 이동 → 체크인 후 휴식 [호텔: 코트야드 바이 메리어트 포산 가오밍]"
+      },
+      {
+        "day": "2일차",
+        "label": "은해CC 18홀",
+        "desc": "호텔 조식 후 은해CC 18홀 라운드 → 호텔 복귀 후 휴식 [조식 호텔식 / 중식 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "남해CC 18홀",
+        "desc": "호텔 조식 후 남해CC 18홀 라운드 → 호텔 복귀 후 휴식 [조식 호텔식 / 중식 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "조경CC 18홀",
+        "desc": "호텔 조식 후 조경CC 18홀 라운드 → 호텔 복귀 후 휴식 [조식 호텔식 / 중식 / 석식 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "은해CC 18홀 → 공항",
+        "desc": "호텔 조식 후 체크아웃 → 은해CC 18홀 라운드 → 석식 후 공항 이동 [조식 호텔식 / 중식 / 석식 포함]"
+      },
+      {
+        "day": "6일차",
+        "label": "광저우 → 부산",
+        "desc": "광저우 바이윈 국제공항 출발(BX784 02:05) → 김해국제공항 도착(06:30) 후 해산"
+      }
+    ],
+    "highlights": [
+      "에어부산 부산-광저우 직항",
+      "은해·남해·조경CC 3색 72홀 (은해CC 한 번 더)",
+      "코트야드 바이 메리어트 포산 가오밍 · 쇼핑몰 연결",
+      "전 일정 조식·중식·석식 포함",
+      "2인부터 · 매주 토·일 출발 · 899,000원부터"
+    ],
+    "includes": [
+      "에어부산 왕복 항공권",
+      "코트야드 바이 메리어트 포산 가오밍 4박 (2인 1실)",
+      "전 일정 식사 (조식·중식·석식)",
+      "그린피 18홀 × 4회 (72홀)",
+      "일정상 골프장 셔틀 차량 (다른 일행과 함께 이동)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "공항 왕복 송영비 1인 400위안",
+      "캐디피 + 전동카트비 18홀 1인 300위안",
+      "캐디팁 18홀 1인 150위안",
+      "개인경비 · 매너팁"
+    ],
+    "cancelPolicy": [
+      "출발일별 요금은 2인 1실 기준 1인 항공팩 요금이며, 항공 좌석 상황에 따라 예약 때 다시 확인합니다.",
+      "에어부산 위탁 수하물을 23kg으로 바꾸면 1인 50,000원이 추가됩니다. 추가 9홀 라운딩과 1인 1실은 따로 문의해 주세요.",
+      "캐디피·전동카트비·캐디팁은 상품가에 포함되지 않으며 현지에서 냅니다. 골프장 라운딩 순서와 티타임은 현지 사정에 따라 바뀔 수 있습니다.",
+      "항공 시간은 에어부산 2026~27 동계 스케줄(주 4회)·현지 시각 기준이며, 출발일별 실제 운항 시간은 예약 때 확인합니다.",
+      "일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "price": "899,000원~",
+    "image": "/images/guangzhou-yinhai-nanhai/yinhai-1.jpg",
+    "images": [
+      "/images/guangzhou-yinhai-nanhai/yinhai-1.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-1.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-2.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-2.jpg",
+      "/images/zhaoqing-resort-golf-club/course-1.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/guangzhou-yinhai-nanhai/yinhai-1.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-2.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-3.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-4.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-5.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-6.jpg",
+      "/images/zhaoqing-resort-golf-club/course-1.jpg",
+      "/images/zhaoqing-resort-golf-club/course-2.jpg",
+      "/images/zhaoqing-resort-golf-club/course-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-1.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-2.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-3.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-4.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-5.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-6.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-7.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-8.jpg"
+    ],
+    "seoIntro": "부산 출발 중국 광저우 골프여행 4박6일 상품으로, 에어부산 직항을 타고 코트야드 바이 메리어트 포산 가오밍에 머물며 은해·남해·조경CC 3색을 라운딩하고 전 일정 식사가 포함된 골프패키지입니다.",
+    "seoKeywords": [
+      "광저우골프",
+      "광저우골프여행",
+      "중국골프여행",
+      "은해CC",
+      "남해CC",
+      "조경CC",
+      "부산출발",
+      "에어부산"
+    ],
+    "displayTitle": "광저우 은해·남해·조경 3색 코트야드 메리어트 4박6일",
+    "departurePrices": [
+      {
+        "date": "2026-12-05",
+        "price": 1179000
+      },
+      {
+        "date": "2026-12-06",
+        "price": 929000
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1179000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 929000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1179000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 929000
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1179000
+      },
+      {
+        "date": "2026-12-27",
+        "price": 929000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1239000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 989000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1239000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 989000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1239000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 989000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1239000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 989000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1239000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 989000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1239000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 989000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1239000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 989000
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1239000
+      },
+      {
+        "date": "2027-02-28",
+        "price": 989000
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1159000
+      },
+      {
+        "date": "2027-03-07",
+        "price": 899000
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1159000
+      },
+      {
+        "date": "2027-03-14",
+        "price": 899000
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1159000
+      },
+      {
+        "date": "2027-03-21",
+        "price": 899000
+      },
+      {
+        "date": "2027-03-27",
+        "price": 1159000
+      }
+    ]
   }
 ]
