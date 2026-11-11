@@ -222,7 +222,12 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCon
         <p className="text-[13px] font-bold text-slate-600 mt-4 mb-1.5">문의 인원</p>
         {peopleSelect}
 
-        <div className="mt-4">{priceBlock}</div>
+        {/* 날짜 고르기 전 요금·안내 글("출발일을 선택하면 날짜별 요금이 보여요")을 누르는 손님이 있어 달력으로 이동 (클래리티 11/11) */}
+        {!sel && hasCalendar ? (
+          <div role="button" tabIndex={0} aria-label="출발일 달력으로 이동" onClick={goCalendar} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); goCalendar(); } }} className="mt-4 cursor-pointer">{priceBlock}</div>
+        ) : (
+          <div className="mt-4">{priceBlock}</div>
+        )}
         {peopleBlock}
         <button type="button" onClick={() => document.getElementById("extra-costs")?.scrollIntoView({ behavior: "smooth", block: "start" })} className="mt-2 inline-flex items-center gap-1 text-[13px] font-bold text-brand-blue underline underline-offset-2 hover:text-blue-800">
           현지 별도 비용 보기
