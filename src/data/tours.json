@@ -36428,7 +36428,12 @@
       "/images/japan-kagoshima-tenmonkan/course-5.jpg",
       "/images/kagoshima-mystays-tenmonkan-incheon/hotel-3.jpg"
     ],
-    "departurePrices": [],
+    "departurePrices": [
+      {
+        "date": "2026-11-10",
+        "price": 969000
+      }
+    ],
     "price": "969,000원~",
     "displayTitle": "가고시마 텐몬칸 마이스테이 3색 3박4일"
   },
