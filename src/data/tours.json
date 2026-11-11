@@ -145844,5 +145844,1690 @@
         "price": 1699000
       }
     ]
+  },
+  {
+    "id": "china-guangzhou-courtyard-3color-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "광저우",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "title": "[인천출발] 중국 광저우 포산 골프여행 남해·조경·은해 3색 3박5일 54홀 코트야드 메리어트 11월 27일·30일 출발 1,199,000원",
+    "displayTitle": "광저우 포산 3색 코트야드 메리어트 3박5일 11월 지정일",
+    "subtitle": "파라타항공 인천-심천 · 남해CC·조경CC·은해CC 3색 54홀 · 코트야드 바이 메리어트 포산 가오밍(2인 1실) · 일정상 식사 포함 · 11월 27일·30일 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 × 3회)",
+    "minPeople": "출발 인원은 예약 때 확인",
+    "period": "2026년 11월 27일(금)~12월 1일(화), 11월 30일(월)~12월 4일(금) 2회 출발",
+    "hotel": "코트야드 바이 메리어트 포산 가오밍 (2인 1실)",
+    "hotelDesc": "포산 가오밍구 시내에 있는 메리어트 계열 호텔로, 2인 1실로 3박합니다. 실내 수영장과 피트니스 센터가 있고, 은해CC까지 차로 약 15분 거리입니다.",
+    "golfCourse": "남해CC · 조경CC · 은해CC 3색",
+    "golfCourseDesc": "광저우 서쪽 포산·자오칭의 골프장 세 곳을 하루 한 곳씩 18홀 라운딩합니다. 호텔에서 남해CC는 약 30분, 조경CC는 약 35분, 은해CC(은빛바다CC)는 약 15분 거리입니다. 골프장 순서는 현지 사정에 따라 바뀔 수 있습니다.",
+    "productSummary": "파라타항공으로 밤에 인천을 출발해 심천에 내려, 포산 가오밍의 코트야드 바이 메리어트에 3박하며 남해·조경·은해CC 3색 54홀을 라운딩하는 상품입니다.\n일정상 식사와 그린피·카트피가 포함되고 11월 27일과 30일 두 날짜만 출발하며 1인 1,199,000원입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 심천",
+        "desc": "인천국제공항 출발(파라타항공 WE853, 23:10) → 심천 바오안 국제공항 도착(다음 날 02:00) → 가이드 미팅 후 호텔 이동 → 체크인 후 휴식 [호텔: 코트야드 바이 메리어트 포산 가오밍]"
+      },
+      {
+        "day": "2일차",
+        "label": "남해CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 30분) → 남해CC 18홀 라운드 → 석식 후 호텔 휴식 [일정상 식사 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "조경CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 35분) → 조경CC 18홀 라운드 → 석식 후 호텔 휴식 [일정상 식사 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "은해CC 18홀 → 공항",
+        "desc": "호텔 조식 후 체크아웃 → 골프장 이동(약 15분) → 은해CC(은빛바다CC) 18홀 라운드 → 석식 후 심천 공항으로 이동 [일정상 식사 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "심천 → 인천",
+        "desc": "심천 바오안 국제공항 출발(WE854, 03:30) → 인천국제공항 도착(08:05) 후 해산"
+      }
+    ],
+    "highlights": [
+      "11월 27일·30일 출발 3박5일 1,199,000원",
+      "파라타항공 인천-심천 왕복",
+      "남해CC·조경CC·은해CC 3색 54홀",
+      "코트야드 바이 메리어트 포산 가오밍 3박",
+      "일정상 식사 · 그린피 · 카트피 포함"
+    ],
+    "includes": [
+      "왕복 항공권 (파라타항공), 공항세·유류할증료",
+      "코트야드 바이 메리어트 포산 가오밍 3박 (2인 1실)",
+      "일정상 식사 (조식·중식·석식)",
+      "그린피 18홀 × 3회 (54홀) · 카트피",
+      "여행자보험"
+    ],
+    "excludes": [
+      "미팅·샌딩비 1인 400위안",
+      "캐디팁 18홀 1인 200위안",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "출발일 요금은 2인 1실 기준 1인 요금입니다.",
+      "항공 시간과 골프장 순서는 현지 사정에 따라 바뀔 수 있습니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-27",
+        "price": 1199000
+      },
+      {
+        "date": "2026-11-30",
+        "price": 1199000
+      }
+    ],
+    "image": "/images/guangzhou-yinhai-nanhai/yinhai-1.jpg",
+    "images": [
+      "/images/guangzhou-yinhai-nanhai/yinhai-1.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-1.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-2.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-2.jpg",
+      "/images/zhaoqing-resort-golf-club/course-1.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/guangzhou-yinhai-nanhai/yinhai-1.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-2.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-3.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-4.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-5.jpg",
+      "/images/guangzhou-yinhai-nanhai/yinhai-6.jpg",
+      "/images/zhaoqing-resort-golf-club/course-1.jpg",
+      "/images/zhaoqing-resort-golf-club/course-2.jpg",
+      "/images/zhaoqing-resort-golf-club/course-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-1.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-2.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-3.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-4.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-5.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-6.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-7.jpg",
+      "/images/guangzhou-courtyard-gaoming-busan/hotel-8.jpg"
+    ],
+    "priceUpdatedDate": "2026-11-11",
+    "seoIntro": "인천 출발 광저우 포산 골프여행 3박5일 상품으로, 파라타항공을 타고 코트야드 바이 메리어트 포산 가오밍에 머물며 남해·조경·은해CC 3색 54홀을 라운딩하는 11월 지정일 골프패키지입니다.",
+    "seoKeywords": [
+      "광저우골프",
+      "광저우골프여행",
+      "포산골프",
+      "중국골프여행",
+      "남해CC",
+      "조경CC",
+      "은해CC",
+      "인천출발"
+    ],
+    "price": "1,199,000원~"
+  },
+  {
+    "id": "indonesia-batam-palmsprings-viewbeach-incheon-4n6d",
+    "country": "인도네시아",
+    "countryCode": "indonesia",
+    "region": "바탐",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-11",
+    "title": "[인천출발] 인도네시아 바탐 골프여행 팜스프링CC 27홀 4박6일 72홀 뷰 비치 리조트 제주항공 직항 1,560,000원부터",
+    "subtitle": "제주항공 인천-바탐 직항 · 바탐 뷰 비치 리조트(2인 1실) · 팜스프링CC 매일 18홀 · 조식·중식·석식 포함 · 매주 토요일 출발",
+    "nights": 4,
+    "days": 6,
+    "courses": 1,
+    "roundsIncluded": 4,
+    "holes": "72홀 (18홀 x 4회)\n팜스프링CC (바탐 27홀)",
+    "minPeople": "인원 문의 (공항 이동·골프장 이동은 조인 진행)",
+    "period": "2026년 12월 26일 ~ 2027년 2월 20일 (매주 토요일 출발 지정일)",
+    "hotel": "바탐 뷰 비치 리조트 (2인 1실)",
+    "hotelDesc": "바탐 북쪽 해변에 있는 리조트로 2인 1실에 묵습니다. 수영장과 투숙객 전용 비치가 있고, 팜스프링CC까지 차로 약 5분이라 골프장 오가는 시간이 짧습니다. 바탐 항나딤 공항에서는 차로 약 20분입니다.",
+    "golfCourse": "팜스프링CC (Palm Springs Golf & Country Club)",
+    "golfCourseDesc": "바탐 섬의 27홀 골프장 팜스프링CC에서 매일 18홀씩 4회 라운딩합니다. 리조트에서 차로 약 5분 거리이고 골프장에 한국인 직원이 있어 티오프·식사·옵션 안내를 받을 수 있습니다. 골프장 토너먼트 등으로 예약이 어려우면 동급 골프장으로 바뀔 수 있습니다.",
+    "productSummary": "제주항공 직항으로 바탐에 가서 바탐 뷰 비치 리조트에 4박하며 팜스프링CC에서 매일 18홀씩 72홀을 라운딩하는 상품입니다.\n전 일정 조식·중식·석식이 포함되고 매주 토요일에 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 바탐",
+        "desc": "인천국제공항 제1터미널 개별 수속 → 인천 출발(제주항공 7C2701 18:05) → 바탐 항나딤 공항 도착(23:05) → 가이드 미팅 후 호텔 이동(차로 약 20분) → 체크인 후 휴식 [호텔: 바탐 뷰 비치 리조트]"
+      },
+      {
+        "day": "2~4일차",
+        "label": "팜스프링CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(차로 약 5분) → 팜스프링CC 18홀 라운딩 → 라운딩 후 호텔 휴식 [조식 호텔식 / 중식·석식 클럽식] [호텔: 바탐 뷰 비치 리조트]"
+      },
+      {
+        "day": "5일차",
+        "label": "팜스프링CC 18홀 → 공항",
+        "desc": "호텔 조식 후 체크아웃 → 가이드 미팅 후 골프장 이동 → 팜스프링CC 18홀 라운딩 → 자유시간 후 시간 맞춰 바탐 항나딤 공항으로 이동 [조식 호텔식 / 중식·석식 클럽식]"
+      },
+      {
+        "day": "6일차",
+        "label": "바탐 → 인천",
+        "desc": "바탐 항나딤 공항 출발(7C2702 00:05) → 인천국제공항 도착(08:35) 후 해산"
+      }
+    ],
+    "highlights": [
+      "제주항공 인천-바탐 직항 왕복 항공권 포함",
+      "팜스프링CC 27홀 · 매일 18홀 x 4회",
+      "바탐 뷰 비치 리조트 · 골프장까지 차로 약 5분",
+      "매주 토요일 출발 1,560,000원부터 · 전 일정 식사 포함"
+    ],
+    "includes": [
+      "왕복 항공권 (제주항공 직항, TAX·유류할증료 포함, 위탁 수하물 15kg)",
+      "바탐 뷰 비치 리조트 4박 (2인 1실)",
+      "조식·중식·석식 (전 일정)",
+      "매일 18홀 그린피 (4회)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "공항 미팅·샌딩 및 핸들링 차지 1인 $40",
+      "카트비·캐디피 18홀 1인 $20",
+      "캐디팁 18홀 1인 $15 (1인 1캐디) / $10 (2인 1캐디)",
+      "인도네시아 입국 비자 1인 $35",
+      "싱글룸 1박 1인 40,000원",
+      "추가 라운드 18홀 주중 $35 / 주말 $50",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "2인 1실 1인 요금이며 출발일마다 요금이 다릅니다.",
+      "여권 유효기간이 6개월 이상 남아 있어야 합니다.",
+      "공항 미팅·차량·골프장 이동은 조인으로 진행되며 단독 차량은 추가요금이 발생됩니다.",
+      "확정 티오프 시간은 현지 직원이 안내하며, 골프장 토너먼트 등으로 예약이 어려우면 동급 골프장으로 바뀔 수 있습니다.",
+      "패키지 상품이라 라운드·식사 등 포함된 일정을 이용하지 않아도 환불되지 않습니다(천재지변·우천 포함).",
+      "선택 관광: 나이트 시티 투어(씨푸드 석식+야시장+전신 마사지) 1인 $70, 전신 마사지 90분 1인 $30(매너팁 별도).",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "price": "1,560,000원~",
+    "image": "/images/courses-1106b/palm-springs-batam/course-4.jpg",
+    "images": [
+      "/images/courses-1106b/palm-springs-batam/course-4.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-1.jpg",
+      "/images/courses-1106b/palm-springs-batam/course-2.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-2.jpg",
+      "/images/batam-palmsprings-viewbeach/course-1.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/courses-1106b/palm-springs-batam/course-4.jpg",
+      "/images/courses-1106b/palm-springs-batam/course-2.jpg",
+      "/images/batam-palmsprings-viewbeach/course-1.jpg",
+      "/images/courses-1106b/palm-springs-batam/course-3.jpg",
+      "/images/batam-palmsprings-viewbeach/course-2.jpg",
+      "/images/courses-1106b/palm-springs-batam/course-1.jpg",
+      "/images/batam-palmsprings-viewbeach/course-3.jpg",
+      "/images/batam-palmsprings-viewbeach/course-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/batam-palmsprings-viewbeach/hotel-1.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-2.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-3.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-4.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-5.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-6.jpg"
+    ],
+    "seoIntro": "인천 출발 바탐 골프여행 4박6일 상품으로, 제주항공 직항을 타고 바탐 뷰 비치 리조트에 머물며 27홀 팜스프링CC에서 매일 18홀씩 라운딩하는 식사 포함 골프패키지입니다.",
+    "seoKeywords": [
+      "바탐골프",
+      "바탐골프여행",
+      "팜스프링CC",
+      "바탐뷰비치리조트",
+      "인천출발",
+      "겨울골프"
+    ],
+    "displayTitle": "바탐 팜스프링 뷰 비치 리조트 골프여행 4박6일",
+    "departurePrices": [
+      {
+        "date": "2026-12-26",
+        "price": 1590000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1560000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1560000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1560000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1560000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1560000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1990000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1590000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1590000
+      }
+    ]
+  },
+  {
+    "id": "indonesia-batam-palmsprings-viewbeach-incheon",
+    "country": "인도네시아",
+    "countryCode": "indonesia",
+    "region": "바탐",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-11",
+    "title": "[인천출발] 인도네시아 바탐 골프여행 팜스프링CC 27홀 3박5일 54홀 뷰 비치 리조트 제주항공 직항 1,390,000원부터",
+    "subtitle": "제주항공 인천-바탐 직항 · 바탐 뷰 비치 리조트(2인 1실) · 팜스프링CC 매일 18홀 · 조식·중식·석식 포함 · 매주 수요일 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)\n팜스프링CC (바탐 27홀)",
+    "minPeople": "인원 문의 (공항 이동·골프장 이동은 조인 진행)",
+    "period": "2026년 12월 23일 ~ 2027년 2월 24일 (매주 수요일 출발 지정일)",
+    "hotel": "바탐 뷰 비치 리조트 (2인 1실)",
+    "hotelDesc": "바탐 북쪽 해변에 있는 리조트로 2인 1실에 묵습니다. 수영장과 투숙객 전용 비치가 있고, 팜스프링CC까지 차로 약 5분이라 골프장 오가는 시간이 짧습니다. 바탐 항나딤 공항에서는 차로 약 20분입니다.",
+    "golfCourse": "팜스프링CC (Palm Springs Golf & Country Club)",
+    "golfCourseDesc": "바탐 섬의 27홀 골프장 팜스프링CC에서 매일 18홀씩 3회 라운딩합니다. 리조트에서 차로 약 5분 거리이고 골프장에 한국인 직원이 있어 티오프·식사·옵션 안내를 받을 수 있습니다. 골프장 토너먼트 등으로 예약이 어려우면 동급 골프장으로 바뀔 수 있습니다.",
+    "productSummary": "제주항공 직항으로 바탐에 가서 바탐 뷰 비치 리조트에 3박하며 팜스프링CC에서 매일 18홀씩 54홀을 라운딩하는 상품입니다.\n전 일정 조식·중식·석식이 포함되고 매주 수요일에 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 바탐",
+        "desc": "인천국제공항 제1터미널 개별 수속 → 인천 출발(제주항공 7C2701 18:05) → 바탐 항나딤 공항 도착(23:05) → 가이드 미팅 후 호텔 이동(차로 약 20분) → 체크인 후 휴식 [호텔: 바탐 뷰 비치 리조트]"
+      },
+      {
+        "day": "2~3일차",
+        "label": "팜스프링CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(차로 약 5분) → 팜스프링CC 18홀 라운딩 → 라운딩 후 호텔 휴식 [조식 호텔식 / 중식·석식 클럽식] [호텔: 바탐 뷰 비치 리조트]"
+      },
+      {
+        "day": "4일차",
+        "label": "팜스프링CC 18홀 → 공항",
+        "desc": "호텔 조식 후 체크아웃 → 가이드 미팅 후 골프장 이동 → 팜스프링CC 18홀 라운딩 → 자유시간 후 시간 맞춰 바탐 항나딤 공항으로 이동 [조식 호텔식 / 중식·석식 클럽식]"
+      },
+      {
+        "day": "5일차",
+        "label": "바탐 → 인천",
+        "desc": "바탐 항나딤 공항 출발(7C2702 00:05) → 인천국제공항 도착(08:35) 후 해산"
+      }
+    ],
+    "highlights": [
+      "제주항공 인천-바탐 직항 왕복 항공권 포함",
+      "팜스프링CC 27홀 · 매일 18홀 x 3회",
+      "바탐 뷰 비치 리조트 · 골프장까지 차로 약 5분",
+      "매주 수요일 출발 1,390,000원부터 · 전 일정 식사 포함"
+    ],
+    "includes": [
+      "왕복 항공권 (제주항공 직항, TAX·유류할증료 포함, 위탁 수하물 15kg)",
+      "바탐 뷰 비치 리조트 3박 (2인 1실)",
+      "조식·중식·석식 (전 일정)",
+      "매일 18홀 그린피 (3회)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "공항 미팅·샌딩 및 핸들링 차지 1인 $40",
+      "카트비·캐디피 18홀 1인 $20",
+      "캐디팁 18홀 1인 $15 (1인 1캐디) / $10 (2인 1캐디)",
+      "인도네시아 입국 비자 1인 $35",
+      "싱글룸 1박 1인 40,000원",
+      "추가 라운드 18홀 주중 $35 / 주말 $50",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "2인 1실 1인 요금이며 출발일마다 요금이 다릅니다.",
+      "여권 유효기간이 6개월 이상 남아 있어야 합니다.",
+      "공항 미팅·차량·골프장 이동은 조인으로 진행되며 단독 차량은 추가요금이 발생됩니다.",
+      "확정 티오프 시간은 현지 직원이 안내하며, 골프장 토너먼트 등으로 예약이 어려우면 동급 골프장으로 바뀔 수 있습니다.",
+      "패키지 상품이라 라운드·식사 등 포함된 일정을 이용하지 않아도 환불되지 않습니다(천재지변·우천 포함).",
+      "선택 관광: 나이트 시티 투어(씨푸드 석식+야시장+전신 마사지) 1인 $70, 전신 마사지 90분 1인 $30(매너팁 별도).",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "price": "1,390,000원~",
+    "image": "/images/courses-1106b/palm-springs-batam/course-4.jpg",
+    "images": [
+      "/images/courses-1106b/palm-springs-batam/course-4.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-1.jpg",
+      "/images/courses-1106b/palm-springs-batam/course-2.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-2.jpg",
+      "/images/batam-palmsprings-viewbeach/course-1.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/courses-1106b/palm-springs-batam/course-4.jpg",
+      "/images/courses-1106b/palm-springs-batam/course-2.jpg",
+      "/images/batam-palmsprings-viewbeach/course-1.jpg",
+      "/images/courses-1106b/palm-springs-batam/course-3.jpg",
+      "/images/batam-palmsprings-viewbeach/course-2.jpg",
+      "/images/courses-1106b/palm-springs-batam/course-1.jpg",
+      "/images/batam-palmsprings-viewbeach/course-3.jpg",
+      "/images/batam-palmsprings-viewbeach/course-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/batam-palmsprings-viewbeach/hotel-1.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-2.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-3.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-4.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-5.jpg",
+      "/images/batam-palmsprings-viewbeach/hotel-6.jpg"
+    ],
+    "seoIntro": "인천 출발 바탐 골프여행 3박5일 상품으로, 제주항공 직항을 타고 바탐 뷰 비치 리조트에 머물며 27홀 팜스프링CC에서 매일 18홀씩 라운딩하는 식사 포함 골프패키지입니다.",
+    "seoKeywords": [
+      "바탐골프",
+      "바탐골프여행",
+      "팜스프링CC",
+      "바탐뷰비치리조트",
+      "인천출발",
+      "겨울골프"
+    ],
+    "displayTitle": "바탐 팜스프링 뷰 비치 리조트 골프여행 3박5일",
+    "departurePrices": [
+      {
+        "date": "2026-12-23",
+        "price": 1390000
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1490000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1390000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1490000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1390000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1390000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1390000
+      }
+    ]
+  },
+  {
+    "id": "japan-takamatsu-grandee-naruto-incheon",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "다카마쓰",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "title": "[인천출발] 일본 다카마쓰 골프여행 그란디 나루토 36홀 리조트 3박4일 54홀 진에어 직항 1,499,000원부터",
+    "displayTitle": "그란디 나루토 골프&리조트 3박4일 인천출발",
+    "subtitle": "진에어 인천-다카마쓰 직항 · JLPGA 대회 코스 그란디 나루토 GC 36 · 코스 옆 그란디 나루토 더 롯지 · 조식·석식·스파 포함 · 12월~3월 매일 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 × 3회)",
+    "minPeople": "4인 출발 기준 (2·3인도 출발 가능, 송영비 추가)",
+    "period": "2026년 12월 1일 ~ 2027년 3월 27일 매일 출발 (연말연시 12/27~1/2, 설 연휴 제외)",
+    "hotel": "그란디 나루토 더 롯지 (2인 1실)",
+    "hotelDesc": "골프장 안에 있는 숙소로, 걸어서 바로 코스로 나갈 수 있습니다. 앞으로는 세토내해가, 뒤로는 36홀 코스가 펼쳐지고 리조트 안 아로마 하우스 스파를 이용할 수 있습니다. 조식은 뷔페, 석식은 가이세키 정식·이탈리안 정식·중식 중 현지 식당 상황에 맞춰 예약해 드립니다.",
+    "golfCourse": "그란디 나루토 골프클럽 36",
+    "golfCourseDesc": "그란디 나루토 골프클럽 36은 도쿠시마현 나루토시의 EAST·WEST 36홀 코스로, EAST 코스에서 2025년 5월 JLPGA 투어 대회가 열렸습니다. 세토내해 전망의 언덕 위에 놓인 코스이며, 동코스 또는 서코스에서 하루 18홀씩 3일 라운딩합니다.",
+    "productSummary": "진에어 직항으로 인천에서 다카마쓰에 내려 나루토의 그란디 나루토 골프&리조트에 3박하며 36홀 코스에서 54홀을 라운딩하는 상품입니다.\n조식·석식과 송영, 리조트 스파가 포함되고 12월부터 3월까지 매일 출발합니다. 4인 기준 1,499,000원부터입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 다카마쓰 → 나루토",
+        "desc": "인천국제공항 제2터미널 출발(진에어 LJ299, 14:10) → 다카마쓰 공항 도착(15:50) → 현지 직원 미팅 후 송영차량으로 리조트 이동 → 체크인 → 아로마 하우스 스파 → 석식(간이 정식 세트) 후 휴식 [석식 호텔식 / 숙소: 그란디 나루토 더 롯지]"
+      },
+      {
+        "day": "2일차",
+        "label": "그란디 나루토 18홀",
+        "desc": "리조트 조식 후 골프장으로 도보 이동 → 그란디 나루토 동코스 또는 서코스 18홀 라운드 → 리조트 휴식, 아로마 하우스 스파 → 석식(이탈리안·중식·일식 중 선택) 후 자유시간 [조식 뷔페 / 중식 불포함 / 석식 호텔식]"
+      },
+      {
+        "day": "3일차",
+        "label": "그란디 나루토 18홀",
+        "desc": "리조트 조식 후 골프장으로 도보 이동 → 그란디 나루토 동코스 또는 서코스 18홀 라운드 → 리조트 휴식, 아로마 하우스 스파 → 석식(이탈리안·중식·일식 중 선택) 후 자유시간 [조식 뷔페 / 중식 불포함 / 석식 호텔식]"
+      },
+      {
+        "day": "4일차",
+        "label": "18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃(07:00) → 골프장으로 도보 이동 → 그란디 나루토 동코스 또는 서코스 18홀 라운드(스루 플레이로 귀국 항공 시간에 맞춰 진행) → 송영차량으로 다카마쓰 공항 이동(14:00 출발) → 다카마쓰 공항 출발(LJ300, 16:50) → 인천국제공항 도착(18:35) [조식 뷔페 / 중식 불포함]"
+      }
+    ],
+    "highlights": [
+      "진에어 인천-다카마쓰 직항 · 무료 위탁수하물 15kg",
+      "2025년 JLPGA 대회 코스 그란디 나루토 36홀",
+      "코스 바로 옆 그란디 나루토 더 롯지 숙박",
+      "조식·석식·스파·공항 송영 포함",
+      "12월~3월 매일 출발 · 1,499,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (진에어), 유류할증료·TAX",
+      "그란디 나루토 더 롯지 3박 (2인 1실)",
+      "호텔 조식(뷔페) · 석식",
+      "공항-리조트 송영차량",
+      "그린피 · 전동카트비 (4BAG 기준)",
+      "아로마 하우스 스파 이용료",
+      "여행자보험"
+    ],
+    "excludes": [
+      "라운드 시 중식",
+      "싱글룸 1인 1박 50,000원",
+      "2·3인 출발 시 송영비 추가 (인원별 금액은 예약 때 안내)",
+      "2인 라운드 전동카트 추가요금 1일 1인 주중 35,000원 · 주말 45,000원",
+      "9홀 추가 주중 55,000원 · 주말 75,000원 (사전 예약)"
+    ],
+    "cancelPolicy": [
+      "요일별 요금이며 1/3, 1/8~1/11, 2/10, 2/20~2/22, 3/19~3/21 출발은 일본 휴일로 1인 10만원이 더해진 요금입니다.",
+      "연말연시 12/27~1/2 출발과 설 연휴(2/6~2/9)에 걸치는 출발은 별도 문의입니다.",
+      "예약 확정을 위해 1인 400,000원의 예약금을 입금해 주셔야 합니다.",
+      "항공권은 발권 후 취소하면 취소수수료가 부과됩니다(취소 날짜별로 다르며 최대 21만원). 현지 취소수수료는 출발 30일 전 20% · 19~10일 전 40% · 9~5일 전 50% · 3일 전~당일 100%입니다.",
+      "송영차량은 다카마쓰 공항-리조트 이동에만 쓰입니다. 골프장 휴장이 아닌 손님 사정으로 라운드를 못 하시면 환불되지 않습니다.",
+      "석식은 현지 식당 상황에 따라 장소가 바뀔 수 있고, 예약 시점의 항공료와 현지 호텔·골프장 상황에 따라 요금이 바뀔 수 있습니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-01",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1599000
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1699000
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1649000
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1599000
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-08",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1599000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1699000
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1649000
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1599000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-15",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1599000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1699000
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1649000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1599000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1549000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1549000
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1549000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1649000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1899000
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1899000
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1599000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1749000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1799000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1749000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1749000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1699000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1749000
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1699000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1749000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1699000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1649000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1749000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1749000
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1699000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1649000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1649000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1749000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1699000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1749000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1649000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1649000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1649000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1749000
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1699000
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1649000
+      },
+      {
+        "date": "2027-02-28",
+        "price": 1549000
+      },
+      {
+        "date": "2027-03-01",
+        "price": 1549000
+      },
+      {
+        "date": "2027-03-02",
+        "price": 1549000
+      },
+      {
+        "date": "2027-03-03",
+        "price": 1649000
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1749000
+      },
+      {
+        "date": "2027-03-05",
+        "price": 1699000
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1649000
+      },
+      {
+        "date": "2027-03-07",
+        "price": 1549000
+      },
+      {
+        "date": "2027-03-08",
+        "price": 1549000
+      },
+      {
+        "date": "2027-03-09",
+        "price": 1499000
+      },
+      {
+        "date": "2027-03-10",
+        "price": 1599000
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1699000
+      },
+      {
+        "date": "2027-03-12",
+        "price": 1649000
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1599000
+      },
+      {
+        "date": "2027-03-14",
+        "price": 1499000
+      },
+      {
+        "date": "2027-03-15",
+        "price": 1499000
+      },
+      {
+        "date": "2027-03-16",
+        "price": 1499000
+      },
+      {
+        "date": "2027-03-17",
+        "price": 1599000
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1699000
+      },
+      {
+        "date": "2027-03-19",
+        "price": 1749000
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1699000
+      },
+      {
+        "date": "2027-03-21",
+        "price": 1599000
+      },
+      {
+        "date": "2027-03-22",
+        "price": 1499000
+      },
+      {
+        "date": "2027-03-23",
+        "price": 1499000
+      },
+      {
+        "date": "2027-03-24",
+        "price": 1599000
+      },
+      {
+        "date": "2027-03-25",
+        "price": 1699000
+      },
+      {
+        "date": "2027-03-26",
+        "price": 1649000
+      },
+      {
+        "date": "2027-03-27",
+        "price": 1599000
+      }
+    ],
+    "image": "/images/japan-takamatsu-grandee-naruto-busan/course-1.jpg",
+    "images": [
+      "/images/japan-takamatsu-grandee-naruto-busan/course-1.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-2.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-1.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-3.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-2.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-4.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-1.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-2.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-3.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-4.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-5.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-6.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-7.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/hotel-8.jpg"
+    ],
+    "courseImages": [
+      "/images/japan-takamatsu-grandee-naruto-busan/course-1.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-2.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-3.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-4.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-5.jpg",
+      "/images/japan-takamatsu-grandee-naruto-busan/course-6.jpg"
+    ],
+    "priceUpdatedDate": "2026-11-11",
+    "seoIntro": "인천 출발 다카마쓰 골프여행으로, JLPGA 대회가 열린 그란디 나루토 36홀 코스와 코스 옆 리조트를 묶은 진에어 직항 3박4일 골프패키지입니다.",
+    "seoKeywords": [
+      "다카마쓰골프",
+      "다카마쓰골프여행",
+      "그란디나루토",
+      "그란디나루토골프",
+      "일본골프여행",
+      "인천출발"
+    ],
+    "price": "1,499,000원~"
+  },
+  {
+    "id": "japan-tokyo-mana-90hole-3n4d-incheon",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "도쿄",
+    "title": "[인천출발] 일본 도쿄 이바라키 골프여행 마나리조트 3박4일 90홀 츠치우라 이온몰 쇼핑 나리타 IN-OUT 진에어 1,249,000원부터",
+    "subtitle": "인천-나리타 진에어 아침 출발·저녁 귀국 · 첫날 센트럴CC 18홀 + 이온몰 쇼핑 · 마나CC 27홀 · 신세이잔소CC 27홀 · 마지막 날 마나CC 18홀 · 일·수 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 3,
+    "roundsIncluded": 4,
+    "holes": "90홀 (18 + 27 + 27 + 18)",
+    "minPeople": "2인부터 (2인 플레이 1인 1일 30,000원 추가)",
+    "period": "2026년 11월 15일 ~ 12월 23일 매주 일·수 출발 (연말·연휴 별도 문의)",
+    "hotel": "마나호텔 (마나 골프클럽 클럽하우스, 2인 1실)",
+    "hotelDesc": "마나 골프클럽 클럽하우스와 붙어 있는 마나호텔로, 아침을 먹고 도보로 마나CC 라운드를 시작합니다. 객실 욕실 통창으로 코스가 내려다보이고, 라운드 뒤 대욕장에서 피로를 풀 수 있습니다. 저녁은 카이세키 정식 수준의 호텔식입니다. 1인 1실은 1박 50,000원이 추가됩니다.",
+    "golfCourse": "센트럴CC · 마나CC · 신세이잔소CC (3색, 90홀)",
+    "golfCourseDesc": "첫날은 나리타공항에서 가까운 센트럴CC(아코디아 골프, 36홀)에서 18홀을 라운딩하고, 이후 이바라키 히타치오미야의 마나CC(18홀 파72, 6,837야드)와 피트 다이가 설계한 신세이잔소CC(18홀 파72, 7,004야드)에서 하루씩 18홀 + 9홀 서비스로 라운드합니다. 마지막 날 아침에 마나CC 18홀을 한 번 더 라운딩하고 공항으로 갑니다. 마나CC는 떡갈나무·벚나무 숲에 둘러싸인 구릉 코스이고, 신세이잔소CC는 태평양이 보이는 링크스 느낌의 코스입니다.",
+    "productSummary": "인천에서 진에어 아침 비행기로 나리타에 내려 첫날 센트럴CC 18홀을 라운딩하고 츠치우라 이온몰에서 쇼핑한 뒤, 마나 골프클럽 안 마나호텔에 3박 숙박하며 모두 90홀을 라운딩하는 상품입니다.\n마지막 날도 18홀을 라운딩하고 저녁 비행기로 인천에 돌아옵니다. 일요일 출발 1,249,000원, 수요일 출발 1,299,000원입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 나리타 · 센트럴CC 18홀 · 이온몰",
+        "desc": "인천국제공항 출발(진에어 LJ201 07:25) → 도쿄 나리타공항 도착(09:50) → 한국인 직원 미팅 후 골프장 이동(약 45분) → 13:00 센트럴CC 18홀 스루 플레이 → 츠치우라 이온몰 쇼핑 후 자유 석식(한국인 직원 동행) → 마나호텔 체크인 [중식·석식 불포함]"
+      },
+      {
+        "day": "2일차",
+        "label": "마나CC 27홀",
+        "desc": "호텔 조식 후 걸어서 골프장 이동 → 08:30 마나CC 18홀 + 9홀 서비스 → 호텔 석식 후 휴식 [조식 호텔식 / 중식 클럽식 / 석식 호텔식]"
+      },
+      {
+        "day": "3일차",
+        "label": "신세이잔소CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 08:30 신세이잔소CC 18홀 + 9홀 서비스 → 호텔 석식 후 휴식 [조식 호텔식 / 중식 클럽식 / 석식 호텔식]"
+      },
+      {
+        "day": "4일차",
+        "label": "마나CC 18홀 → 나리타 → 인천",
+        "desc": "호텔 조식 후 걸어서 골프장 이동 → 07:30 마나CC 18홀 → 14:30 공항행 버스 탑승 → 도쿄 나리타공항 출발(진에어 LJ210 18:50) → 인천국제공항 도착(21:20) 후 해산 [조식 호텔식 / 중식 클럽식]"
+      }
+    ],
+    "highlights": [
+      "인천-나리타 진에어 직항 · 아침 출발·저녁 귀국",
+      "첫날 센트럴CC 18홀 + 츠치우라 이온몰 쇼핑 (한국인 직원 동행)",
+      "마나CC 클럽하우스 호텔 · 걸어서 라운드",
+      "3박 90홀 · 마지막 날까지 18홀",
+      "일·수 출발 · 2인부터 · 1,249,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (진에어, 유류할증료·세금 포함, 수하물 15kg)",
+      "마나호텔 숙박 (2인 1실)",
+      "호텔 조식 3회 · 중식 3회 · 석식 2회",
+      "그린피 + 전동카트 (90홀)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "차량비 1인 10,000엔 (현지 지불)",
+      "첫날 중식 (스루 플레이)",
+      "첫날 석식 (츠치우라 이온몰 자유 석식)",
+      "1인 1실 1박 50,000원",
+      "2인 플레이 1인 1일 30,000원 (출발 15일 전까지 신청)",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "실시간 항공 발권 조건이라 항공 요금이 오르면 상품 요금이 달라질 수 있습니다. 예약 때 확정 요금을 안내합니다. 발권 후 취소하면 수수료가 생깁니다.",
+      "연휴 출발은 따로 문의해 주세요.",
+      "2인 플레이는 당일 신청이 안 되고 출발 15일 전까지 신청하며 1인 1일 30,000원이 추가됩니다. 3인 플레이는 추가 요금이 없습니다.",
+      "현지 사정으로 라운드를 못 하면 그린피는 환불되지만, 날씨 등 천재지변으로 못 하면 환불되지 않습니다.",
+      "항공 시간은 진에어 시간표 기준이며 항공사 사정으로 바뀔 수 있습니다. 확정 시간은 예약 때 안내합니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-15",
+        "price": 1249000
+      },
+      {
+        "date": "2026-11-18",
+        "price": 1299000
+      },
+      {
+        "date": "2026-11-22",
+        "price": 1249000
+      },
+      {
+        "date": "2026-11-25",
+        "price": 1299000
+      },
+      {
+        "date": "2026-11-29",
+        "price": 1249000
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1299000
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1249000
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1299000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1249000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1299000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1249000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1299000
+      }
+    ],
+    "price": "1,249,000원~",
+    "image": "/images/tokyo-mana-tsuchiura-incheon/course-1.jpg",
+    "images": [
+      "/images/tokyo-mana-tsuchiura-incheon/course-1.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-1.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-2.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-2.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-3.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-1.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-2.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-3.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-4.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-5.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/tokyo-mana-tsuchiura-incheon/course-1.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-2.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-3.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-4.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-5.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-6.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-7.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-8.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-9.jpg",
+      "/images/tokyo-mana-tsuchiura-incheon/course-10.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-11-11",
+    "seoIntro": "인천 출발 일본 도쿄 이바라키 골프여행 3박4일 상품으로, 진에어로 나리타에 가서 첫날 센트럴CC 18홀과 이온몰 쇼핑을 즐기고 마나CC 클럽하우스 호텔에 숙박하며 90홀을 라운딩하는 골프패키지입니다.",
+    "seoKeywords": [
+      "인천출발골프",
+      "인천출발골프여행",
+      "도쿄골프",
+      "이바라키골프",
+      "마나CC",
+      "인천출발일본골프"
+    ],
+    "displayTitle": "마나리조트 골프여행"
+  },
+  {
+    "id": "thailand-chiangmai-city-bx-incheon-4n6d",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "치앙마이",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "title": "[인천출발] 태국 치앙마이 골프여행 시내 4성 호텔 요일별 골프장 4박6일 72홀 에어부산 12월 지정일 1,359,000원부터",
+    "displayTitle": "치앙마이 시내 4성 요일별 골프 4박6일 12월",
+    "subtitle": "에어부산 인천-치앙마이 직항 · 푸라마·머큐어·란나팔레스 중 4성 호텔(2인 1실) · 요일별 골프장 매일 18홀 · 오후 시내 자유 일정 · 12월 토·일 출발",
+    "nights": 4,
+    "days": 6,
+    "courses": 6,
+    "roundsIncluded": 4,
+    "holes": "72홀 (매일 18홀 × 4회)",
+    "minPeople": "2인 출발 기준 (2인은 현장 조인 라운딩 가능)",
+    "period": "2026년 12월 지정일 토·일 출발 (12/12·12/13·12/19·12/20)",
+    "hotel": "푸라마 또는 머큐어 또는 란나팔레스 호텔 치앙마이 (4성, 2인 1실) 또는 동급",
+    "hotelDesc": "치앙마이 시내의 4성 호텔(푸라마·머큐어·란나팔레스 중 하나 또는 동급)에 2인 1실로 묵으며 조식이 포함됩니다. 라운딩이 끝나면 호텔로 돌아와 오후에는 시내에서 자유롭게 지내실 수 있습니다.",
+    "golfCourse": "파노라마 · 노스힐 · 알파인 · 레가시 · 메조 · 하이랜드 (요일별 배정)",
+    "golfCourseDesc": "요일에 맞춰 정해진 골프장에서 매일 18홀을 라운딩합니다. 월 가산 파노라마, 화·금 노스힐, 수 알파인, 목 가산 레가시, 토 메조, 일 하이랜드이며 좋은 티오프 시간을 위해 순서가 바뀔 수 있습니다. 공항 미팅·골프장 왕복·공항 샌딩만 차량을 이용하고 가이드는 동행하지 않습니다.",
+    "productSummary": "에어부산 인천 직항으로 밤에 치앙마이에 도착해 시내 4성 호텔에 4박하며, 요일마다 정해진 골프장에서 매일 18홀씩 라운딩하는 상품입니다.\n오후에는 시내 자유 일정이고 조식이 포함됩니다. 12월 토·일 지정일 출발이며 1,359,000원부터입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 치앙마이",
+        "desc": "인천국제공항 제2터미널 출발(에어부산 BX9029, 19:00) → 치앙마이 국제공항 도착(23:10) → 직원 미팅 후 호텔 이동, 상품 이용 안내서 전달 → 체크인 후 휴식 [숙소: 4성 호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "골프 18홀 · 자유 일정",
+        "desc": "호텔 조식 후 기사 미팅, 요일별 배정 골프장으로 이동 → 18홀 라운드 → 기사 미팅 후 호텔 복귀 → 오후 개별 자유 일정 [조식 호텔식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "골프 18홀 · 자유 일정",
+        "desc": "호텔 조식 후 기사 미팅, 요일별 배정 골프장으로 이동 → 18홀 라운드 → 기사 미팅 후 호텔 복귀 → 오후 개별 자유 일정 [조식 호텔식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "골프 18홀 · 자유 일정",
+        "desc": "호텔 조식 후 기사 미팅, 요일별 배정 골프장으로 이동 → 18홀 라운드 → 기사 미팅 후 호텔 복귀 → 오후 개별 자유 일정 [조식 호텔식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "골프 18홀 → 공항",
+        "desc": "호텔 조식 후 체크아웃(골프백 외 짐은 호텔 보관) → 기사 미팅 후 골프장 이동 → 18홀 라운드 → 호텔 복귀 후 개별 자유 일정 → 차량으로 치앙마이 공항 이동 [조식 호텔식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "6일차",
+        "label": "치앙마이 → 인천",
+        "desc": "치앙마이 국제공항 출발(BX9030, 00:10) → 인천국제공항 도착(07:10) 후 해산"
+      }
+    ],
+    "highlights": [
+      "에어부산 인천-치앙마이 직항",
+      "요일별 골프장 매일 18홀 · 72홀",
+      "시내 4성 호텔 · 오후 자유 일정",
+      "공항 미팅·골프장 왕복·공항 샌딩 차량 이용",
+      "12월 토·일 지정일 1,359,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (에어부산)",
+      "시내 4성 호텔 4박 (푸라마·머큐어·란나팔레스 또는 동급, 2인 1실) · 조식",
+      "매일 18홀 그린피 × 4회 (1인 1캐디·1카트 의무)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "공항 미팅·골프장 왕복 픽업·공항 샌딩 차량비 1인 $79 (3박 4인 기준 $60 + 1박 추가 $19, 3인 미만은 팀당 $240 + $76)",
+      "캐디피 18홀 300~400바트 · 전동카트 700~800바트 · 캐디팁 300~400바트 (골프장마다 다름)",
+      "중식 · 석식",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "알파인 골프장은 클럽 중식이 라운딩 조건이라 공항 미팅 때 1인 400바트가 추가로 청구됩니다.",
+      "골프장 업그레이드: 파노라마·레가시 → 알파인 1인 8만원 / 하이랜드 1인 6만원, 로얄·노스힐 → 알파인 1인 9만원 / 하이랜드 1인 7만원 추가.",
+      "4성 호텔 싱글 차지 1인 1박 3만원. 센타라 리버사이드·샹그릴라로 바꾸면 추가요금이 있습니다(12/20~1/5 써차지, 예약 때 확인).",
+      "추가 라운드(그린피·캐디피·카트·픽업 대기 포함): 알파인 18홀 $170·9홀 $110, 하이랜드 $150·$100, 메조·레가시·파노라마 $120·$80, 노스힐 $110·$70.",
+      "가이드·차량 동행 일정이 아니며, 공항 미팅·골프장 왕복·공항 샌딩에만 차량을 이용합니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-12",
+        "price": 1389000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1389000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1389000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1359000
+      }
+    ],
+    "image": "/images/gassan-panorama/course-1.jpg",
+    "images": [
+      "/images/gassan-panorama/course-1.jpg",
+      "/images/chiangmai-golf/hotel-5.jpg",
+      "/images/chiangmai-northhill/course-1.jpg",
+      "/images/chiangmai-golf/hotel-3.jpg",
+      "/images/chiangmai-premium-highland-alpine-busan/course-1.jpg",
+      "/images/chiangmai-golf/hotel-1.jpg"
+    ],
+    "courseImages": [
+      "/images/gassan-panorama/course-1.jpg",
+      "/images/chiangmai-northhill/course-1.jpg",
+      "/images/chiangmai-premium-highland-alpine-busan/course-1.jpg",
+      "/images/gassan-legacy/course-1.jpg",
+      "/images/chiangmai-maejo/course-1.jpg",
+      "/images/chiangmai-premium-highland-alpine-busan/course-2.jpg",
+      "/images/chiangmai-northhill/course-4.jpg",
+      "/images/gassan-panorama/course-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/chiangmai-golf/hotel-5.jpg",
+      "/images/chiangmai-golf/hotel-3.jpg",
+      "/images/chiangmai-golf/hotel-1.jpg",
+      "/images/chiangmai-golf/hotel-2.jpg",
+      "/images/chiangmai-golf/hotel-4.jpg"
+    ],
+    "priceUpdatedDate": "2026-11-11",
+    "seoIntro": "인천 출발 치앙마이 골프여행 4박6일 상품으로, 에어부산 인천 직항을 타고 시내 4성 호텔에 머물며 요일별 골프장에서 매일 18홀을 라운딩하고 오후에는 자유 일정을 보내는 12월 지정일 골프패키지입니다.",
+    "seoKeywords": [
+      "치앙마이골프",
+      "치앙마이골프여행",
+      "태국골프여행",
+      "치앙마이자유골프",
+      "푸라마호텔",
+      "에어부산",
+      "인천출발"
+    ],
+    "price": "1,359,000원~"
+  },
+  {
+    "id": "thailand-chiangmai-city-bx-incheon",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "치앙마이",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "title": "[인천출발] 태국 치앙마이 골프여행 시내 4성 호텔 요일별 골프장 3박5일 54홀 에어부산 12월 지정일 1,269,000원부터",
+    "displayTitle": "치앙마이 시내 4성 요일별 골프 3박5일 12월",
+    "subtitle": "에어부산 인천-치앙마이 직항 · 푸라마·머큐어·란나팔레스 중 4성 호텔(2인 1실) · 요일별 골프장 매일 18홀 · 오후 시내 자유 일정 · 12월 수·목 출발",
+    "nights": 3,
+    "days": 5,
+    "courses": 6,
+    "roundsIncluded": 3,
+    "holes": "54홀 (매일 18홀 × 3회)",
+    "minPeople": "2인 출발 기준 (2인은 현장 조인 라운딩 가능)",
+    "period": "2026년 12월 지정일 수·목 출발 (12/9·12/10·12/16·12/23·12/24)",
+    "hotel": "푸라마 또는 머큐어 또는 란나팔레스 호텔 치앙마이 (4성, 2인 1실) 또는 동급",
+    "hotelDesc": "치앙마이 시내의 4성 호텔(푸라마·머큐어·란나팔레스 중 하나 또는 동급)에 2인 1실로 묵으며 조식이 포함됩니다. 라운딩이 끝나면 호텔로 돌아와 오후에는 시내에서 자유롭게 지내실 수 있습니다.",
+    "golfCourse": "파노라마 · 노스힐 · 알파인 · 레가시 · 메조 · 하이랜드 (요일별 배정)",
+    "golfCourseDesc": "요일에 맞춰 정해진 골프장에서 매일 18홀을 라운딩합니다. 월 가산 파노라마, 화·금 노스힐, 수 알파인, 목 가산 레가시, 토 메조, 일 하이랜드이며 좋은 티오프 시간을 위해 순서가 바뀔 수 있습니다. 공항 미팅·골프장 왕복·공항 샌딩만 차량을 이용하고 가이드는 동행하지 않습니다.",
+    "productSummary": "에어부산 인천 직항으로 밤에 치앙마이에 도착해 시내 4성 호텔에 3박하며, 요일마다 정해진 골프장에서 매일 18홀씩 라운딩하는 상품입니다.\n오후에는 시내 자유 일정이고 조식이 포함됩니다. 12월 수·목 지정일 출발이며 1,269,000원부터입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 치앙마이",
+        "desc": "인천국제공항 제2터미널 출발(에어부산 BX9029, 19:00) → 치앙마이 국제공항 도착(23:10) → 직원 미팅 후 호텔 이동, 상품 이용 안내서 전달 → 체크인 후 휴식 [숙소: 4성 호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "골프 18홀 · 자유 일정",
+        "desc": "호텔 조식 후 기사 미팅, 요일별 배정 골프장으로 이동 → 18홀 라운드 → 기사 미팅 후 호텔 복귀 → 오후 개별 자유 일정 [조식 호텔식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "골프 18홀 · 자유 일정",
+        "desc": "호텔 조식 후 기사 미팅, 요일별 배정 골프장으로 이동 → 18홀 라운드 → 기사 미팅 후 호텔 복귀 → 오후 개별 자유 일정 [조식 호텔식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "골프 18홀 → 공항",
+        "desc": "호텔 조식 후 체크아웃(골프백 외 짐은 호텔 보관) → 기사 미팅 후 골프장 이동 → 18홀 라운드 → 호텔 복귀 후 개별 자유 일정 → 차량으로 치앙마이 공항 이동 [조식 호텔식 / 중식·석식 불포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "치앙마이 → 인천",
+        "desc": "치앙마이 국제공항 출발(BX9030, 00:10) → 인천국제공항 도착(07:10) 후 해산"
+      }
+    ],
+    "highlights": [
+      "에어부산 인천-치앙마이 직항",
+      "요일별 골프장 매일 18홀 · 54홀",
+      "시내 4성 호텔 · 오후 자유 일정",
+      "공항 미팅·골프장 왕복·공항 샌딩 차량 이용",
+      "12월 수·목 지정일 1,269,000원부터"
+    ],
+    "includes": [
+      "왕복 항공권 (에어부산)",
+      "시내 4성 호텔 3박 (푸라마·머큐어·란나팔레스 또는 동급, 2인 1실) · 조식",
+      "매일 18홀 그린피 × 3회 (1인 1캐디·1카트 의무)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "공항 미팅·골프장 왕복 픽업·공항 샌딩 차량비 1인 $60 (3박 4인 기준, 3인 미만은 팀당 $240)",
+      "캐디피 18홀 300~400바트 · 전동카트 700~800바트 · 캐디팁 300~400바트 (골프장마다 다름)",
+      "중식 · 석식",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "수요일 출발 3박 손님은 레가시 골프장을 하이랜드 골프장으로 바꿀 수 있습니다(추가요금은 예약 때 확인).",
+      "골프장 업그레이드: 파노라마·레가시 → 알파인 1인 8만원 / 하이랜드 1인 6만원, 로얄·노스힐 → 알파인 1인 9만원 / 하이랜드 1인 7만원 추가.",
+      "4성 호텔 싱글 차지 1인 1박 3만원. 센타라 리버사이드·샹그릴라로 바꾸면 추가요금이 있습니다(12/20~1/5 써차지, 예약 때 확인).",
+      "추가 라운드(그린피·캐디피·카트·픽업 대기 포함): 알파인 18홀 $170·9홀 $110, 하이랜드 $150·$100, 메조·레가시·파노라마 $120·$80, 노스힐 $110·$70.",
+      "가이드·차량 동행 일정이 아니며, 공항 미팅·골프장 왕복·공항 샌딩에만 차량을 이용합니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-09",
+        "price": 1369000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1269000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1269000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1529000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1529000
+      }
+    ],
+    "image": "/images/chiangmai-northhill/course-1.jpg",
+    "images": [
+      "/images/chiangmai-northhill/course-1.jpg",
+      "/images/chiangmai-golf/hotel-5.jpg",
+      "/images/gassan-panorama/course-1.jpg",
+      "/images/chiangmai-golf/hotel-3.jpg",
+      "/images/chiangmai-premium-highland-alpine-busan/course-1.jpg",
+      "/images/chiangmai-golf/hotel-1.jpg"
+    ],
+    "courseImages": [
+      "/images/chiangmai-northhill/course-1.jpg",
+      "/images/gassan-panorama/course-1.jpg",
+      "/images/chiangmai-premium-highland-alpine-busan/course-1.jpg",
+      "/images/gassan-legacy/course-1.jpg",
+      "/images/chiangmai-maejo/course-1.jpg",
+      "/images/chiangmai-premium-highland-alpine-busan/course-2.jpg",
+      "/images/chiangmai-northhill/course-4.jpg",
+      "/images/gassan-panorama/course-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/chiangmai-golf/hotel-5.jpg",
+      "/images/chiangmai-golf/hotel-3.jpg",
+      "/images/chiangmai-golf/hotel-1.jpg",
+      "/images/chiangmai-golf/hotel-2.jpg",
+      "/images/chiangmai-golf/hotel-4.jpg"
+    ],
+    "priceUpdatedDate": "2026-11-11",
+    "seoIntro": "인천 출발 치앙마이 골프여행 3박5일 상품으로, 에어부산 인천 직항을 타고 시내 4성 호텔에 머물며 요일별 골프장에서 매일 18홀을 라운딩하고 오후에는 자유 일정을 보내는 12월 지정일 골프패키지입니다.",
+    "seoKeywords": [
+      "치앙마이골프",
+      "치앙마이골프여행",
+      "태국골프여행",
+      "치앙마이자유골프",
+      "푸라마호텔",
+      "에어부산",
+      "인천출발"
+    ],
+    "price": "1,269,000원~"
+  },
+  {
+    "id": "thailand-chiangmai-legacy-bx-incheon-4n6d",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "치앙마이",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "title": "[인천출발] 태국 치앙마이 골프여행 가산 레가시·파노라마 골프텔 4박6일 1일 36홀 무제한 에어부산 12월 지정일 1,459,000원부터",
+    "displayTitle": "치앙마이 레가시·파노라마 무제한 골프텔 4박6일 12월",
+    "subtitle": "에어부산 인천-치앙마이 직항 · 가산 레거시 골프리조트(2인 1실) · 레가시CC + 파노라마CC 1일 36홀 무제한 · 전 일정 식사 포함 · 12월 토·일 출발 · 2인부터",
+    "nights": 4,
+    "days": 6,
+    "courses": 2,
+    "roundsIncluded": 8,
+    "holes": "1일 36홀 무제한 (4일)\n가산 레가시CC · 가산 파노라마CC",
+    "minPeople": "2인부터 출발",
+    "period": "2026년 12월 지정일 토·일 출발 (12/12·12/13·12/19·12/20)",
+    "hotel": "가산 레거시 골프리조트 (2인 1실)",
+    "hotelDesc": "가산 레가시CC 안에 있는 골프리조트에 2인 1실로 4박하며, 치앙마이 공항에서 차로 약 30분 거리입니다. 조식·중식·석식 모두 클럽식으로 포함되고 성수기에는 한국인 직원이 상주합니다.",
+    "golfCourse": "가산 레가시CC · 가산 파노라마CC (1일 36홀 무제한)",
+    "golfCourseDesc": "가산 레가시CC(18홀 파72)와 가산 파노라마CC(18홀 파72)를 교차로 하루 36홀씩 라운딩합니다. 오전 18홀은 의무 라운딩이며, 마지막 날은 교차 라운딩 없이 레가시CC에서 라운딩합니다. 차량 이동 없이 리조트에서 바로 골프를 즐길 수 있습니다.",
+    "productSummary": "에어부산 인천 직항으로 치앙마이에 가서 가산 레거시 골프리조트에 4박하며 레가시CC와 파노라마CC에서 하루 36홀씩 무제한 라운딩하는 상품입니다.\n조식·중식·석식이 모두 포함되고 12월 토·일 지정일 2인부터 출발하며 1,459,000원부터입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 치앙마이",
+        "desc": "인천국제공항 제2터미널 출발(에어부산 BX9029, 19:00) → 치앙마이 국제공항 도착(23:10) → 가이드 미팅 후 리조트 이동(약 30분) → 체크인 후 휴식 [숙소: 가산 레거시 골프리조트]"
+      },
+      {
+        "day": "2일차",
+        "label": "레가시 18홀 + 파노라마 18홀",
+        "desc": "리조트 조식 후 가산 레가시CC 18홀 + 가산 파노라마CC 18홀 교차 라운딩 → 석식 후 리조트 휴식 [조식·중식·석식 클럽식]"
+      },
+      {
+        "day": "3일차",
+        "label": "레가시 18홀 + 파노라마 18홀",
+        "desc": "리조트 조식 후 가산 레가시CC 18홀 + 가산 파노라마CC 18홀 교차 라운딩 → 석식 후 리조트 휴식 [조식·중식·석식 클럽식]"
+      },
+      {
+        "day": "4일차",
+        "label": "레가시 18홀 + 파노라마 18홀",
+        "desc": "리조트 조식 후 가산 레가시CC 18홀 + 가산 파노라마CC 18홀 교차 라운딩 → 석식 후 리조트 휴식 [조식·중식·석식 클럽식]"
+      },
+      {
+        "day": "5일차",
+        "label": "레가시 36홀 → 공항",
+        "desc": "리조트 조식 후 가산 레가시CC 36홀 라운딩(오전 라운드 후 12시경 체크아웃, 마지막 날 교차 라운딩 불가) → 석식 후 공항으로 이동 [조식·중식·석식 클럽식]"
+      },
+      {
+        "day": "6일차",
+        "label": "치앙마이 → 인천",
+        "desc": "치앙마이 국제공항 출발(BX9030, 00:10) → 인천국제공항 도착(07:10) 후 해산"
+      }
+    ],
+    "highlights": [
+      "에어부산 인천-치앙마이 직항",
+      "가산 레가시CC + 파노라마CC 1일 36홀 무제한",
+      "골프장 안 리조트 · 차량 이동 없는 골프",
+      "조식·중식·석식 전 일정 포함",
+      "12월 토·일 지정일 1,459,000원부터 · 2인부터"
+    ],
+    "includes": [
+      "왕복 항공권 (에어부산)",
+      "가산 레거시 골프리조트 4박 (2인 1실)",
+      "전 일정 식사 (조식·중식·석식)",
+      "1일 36홀 무제한 그린피",
+      "여행자보험"
+    ],
+    "excludes": [
+      "미팅·샌딩 차량비 1인 $50 (4인 이상 / 3인 $70 · 2인 $100)",
+      "전동카트 18홀 1인 750바트 (1인 1카트)",
+      "캐디피 18홀 1인 300바트",
+      "캐디팁 18홀 1인 400바트 / 9홀 200바트",
+      "싱글룸 1인 1박 40,000원",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "36홀 예약 후 오전 18홀(의무 라운딩)만 하고 오후를 9홀만 하거나 취소하면 오후 18홀 기준 그린피·전동카트·캐디피(1,050바트)를 내셔야 합니다(캐디팁은 없음).",
+      "레이트 체크아웃은 객실당 40,000원에 오후 6시까지 가능하며, 현지 사정상 안 될 수 있습니다.",
+      "출장 태국 전통 마사지 2시간 1,000바트(팁 100바트 별도), 라운딩 전 리조트 프론트에 미리 예약해야 합니다.",
+      "리조트에서 개별적으로 외부에 나가 생기는 일은 책임지지 않습니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-12",
+        "price": 1489000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1489000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1489000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1459000
+      }
+    ],
+    "image": "/images/chiangmai-legacy-36-incheon/course-1.jpg",
+    "images": [
+      "/images/chiangmai-legacy-36-incheon/course-1.jpg",
+      "/images/chiangmai-legacy-36-incheon/hotel-1.jpg",
+      "/images/chiangmai-legacy-bx-incheon/course-1.jpg",
+      "/images/chiangmai-legacy-bx-incheon/hotel-1.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-1.jpg",
+      "/images/chiangmai-legacy-36-incheon/hotel-2.jpg"
+    ],
+    "courseImages": [
+      "/images/chiangmai-legacy-36-incheon/course-1.jpg",
+      "/images/chiangmai-legacy-bx-incheon/course-1.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-1.jpg",
+      "/images/chiangmai-legacy-36-incheon/course-2.jpg",
+      "/images/chiangmai-legacy-bx-incheon/course-2.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-2.jpg",
+      "/images/chiangmai-legacy-36-incheon/course-3.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/chiangmai-legacy-36-incheon/hotel-1.jpg",
+      "/images/chiangmai-legacy-bx-incheon/hotel-1.jpg",
+      "/images/chiangmai-legacy-36-incheon/hotel-2.jpg",
+      "/images/chiangmai-legacy-bx-incheon/hotel-2.jpg",
+      "/images/chiangmai-legacy-36-incheon/hotel-3.jpg"
+    ],
+    "priceUpdatedDate": "2026-11-11",
+    "seoIntro": "인천 출발 치앙마이 골프여행 4박6일 상품으로, 에어부산 인천 직항을 타고 가산 레거시 골프리조트에 머물며 레가시CC·파노라마CC에서 하루 36홀 무제한 라운딩하는 12월 지정일 골프텔 패키지입니다.",
+    "seoKeywords": [
+      "치앙마이골프",
+      "치앙마이골프여행",
+      "치앙마이골프텔",
+      "가산레가시",
+      "가산파노라마",
+      "태국골프여행",
+      "에어부산",
+      "인천출발"
+    ],
+    "price": "1,459,000원~"
+  },
+  {
+    "id": "thailand-chiangmai-legacy-bx-incheon",
+    "country": "태국",
+    "countryCode": "thailand",
+    "region": "치앙마이",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "title": "[인천출발] 태국 치앙마이 골프여행 가산 레가시·파노라마 골프텔 3박5일 1일 36홀 무제한 에어부산 12월 지정일 1,339,000원부터",
+    "displayTitle": "치앙마이 레가시·파노라마 무제한 골프텔 3박5일 12월",
+    "subtitle": "에어부산 인천-치앙마이 직항 · 가산 레거시 골프리조트(2인 1실) · 레가시CC + 파노라마CC 1일 36홀 무제한 · 전 일정 식사 포함 · 12월 수·목 출발 · 2인부터",
+    "nights": 3,
+    "days": 5,
+    "courses": 2,
+    "roundsIncluded": 6,
+    "holes": "1일 36홀 무제한 (3일)\n가산 레가시CC · 가산 파노라마CC",
+    "minPeople": "2인부터 출발",
+    "period": "2026년 12월 지정일 수·목 출발 (12/9·12/10·12/16·12/23·12/24)",
+    "hotel": "가산 레거시 골프리조트 (2인 1실)",
+    "hotelDesc": "가산 레가시CC 안에 있는 골프리조트에 2인 1실로 3박하며, 치앙마이 공항에서 차로 약 30분 거리입니다. 조식·중식·석식 모두 클럽식으로 포함되고 성수기에는 한국인 직원이 상주합니다.",
+    "golfCourse": "가산 레가시CC · 가산 파노라마CC (1일 36홀 무제한)",
+    "golfCourseDesc": "가산 레가시CC(18홀 파72)와 가산 파노라마CC(18홀 파72)를 교차로 하루 36홀씩 라운딩합니다. 오전 18홀은 의무 라운딩이며, 마지막 날은 교차 라운딩 없이 레가시CC에서 라운딩합니다. 차량 이동 없이 리조트에서 바로 골프를 즐길 수 있습니다.",
+    "productSummary": "에어부산 인천 직항으로 치앙마이에 가서 가산 레거시 골프리조트에 3박하며 레가시CC와 파노라마CC에서 하루 36홀씩 무제한 라운딩하는 상품입니다.\n조식·중식·석식이 모두 포함되고 12월 수·목 지정일 2인부터 출발하며 1,339,000원부터입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 치앙마이",
+        "desc": "인천국제공항 제2터미널 출발(에어부산 BX9029, 19:00) → 치앙마이 국제공항 도착(23:10) → 가이드 미팅 후 리조트 이동(약 30분) → 체크인 후 휴식 [숙소: 가산 레거시 골프리조트]"
+      },
+      {
+        "day": "2일차",
+        "label": "레가시 18홀 + 파노라마 18홀",
+        "desc": "리조트 조식 후 가산 레가시CC 18홀 + 가산 파노라마CC 18홀 교차 라운딩 → 석식 후 리조트 휴식 [조식·중식·석식 클럽식]"
+      },
+      {
+        "day": "3일차",
+        "label": "레가시 18홀 + 파노라마 18홀",
+        "desc": "리조트 조식 후 가산 레가시CC 18홀 + 가산 파노라마CC 18홀 교차 라운딩 → 석식 후 리조트 휴식 [조식·중식·석식 클럽식]"
+      },
+      {
+        "day": "4일차",
+        "label": "레가시 36홀 → 공항",
+        "desc": "리조트 조식 후 가산 레가시CC 36홀 라운딩(오전 라운드 후 12시경 체크아웃, 마지막 날 교차 라운딩 불가) → 석식 후 공항으로 이동 [조식·중식·석식 클럽식]"
+      },
+      {
+        "day": "5일차",
+        "label": "치앙마이 → 인천",
+        "desc": "치앙마이 국제공항 출발(BX9030, 00:10) → 인천국제공항 도착(07:10) 후 해산"
+      }
+    ],
+    "highlights": [
+      "에어부산 인천-치앙마이 직항",
+      "가산 레가시CC + 파노라마CC 1일 36홀 무제한",
+      "골프장 안 리조트 · 차량 이동 없는 골프",
+      "조식·중식·석식 전 일정 포함",
+      "12월 수·목 지정일 1,339,000원부터 · 2인부터"
+    ],
+    "includes": [
+      "왕복 항공권 (에어부산)",
+      "가산 레거시 골프리조트 3박 (2인 1실)",
+      "전 일정 식사 (조식·중식·석식)",
+      "1일 36홀 무제한 그린피",
+      "여행자보험"
+    ],
+    "excludes": [
+      "미팅·샌딩 차량비 1인 $50 (4인 이상 / 3인 $70 · 2인 $100)",
+      "전동카트 18홀 1인 750바트 (1인 1카트)",
+      "캐디피 18홀 1인 300바트",
+      "캐디팁 18홀 1인 400바트 / 9홀 200바트",
+      "싱글룸 1인 1박 40,000원",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "36홀 예약 후 오전 18홀(의무 라운딩)만 하고 오후를 9홀만 하거나 취소하면 오후 18홀 기준 그린피·전동카트·캐디피(1,050바트)를 내셔야 합니다(캐디팁은 없음).",
+      "레이트 체크아웃은 객실당 40,000원에 오후 6시까지 가능하며, 현지 사정상 안 될 수 있습니다.",
+      "출장 태국 전통 마사지 2시간 1,000바트(팁 100바트 별도), 라운딩 전 리조트 프론트에 미리 예약해야 합니다.",
+      "리조트에서 개별적으로 외부에 나가 생기는 일은 책임지지 않습니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-09",
+        "price": 1439000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1339000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1339000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1539000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1539000
+      }
+    ],
+    "image": "/images/chiangmai-legacy-36-incheon/course-1.jpg",
+    "images": [
+      "/images/chiangmai-legacy-36-incheon/course-1.jpg",
+      "/images/chiangmai-legacy-36-incheon/hotel-1.jpg",
+      "/images/chiangmai-legacy-bx-incheon/course-1.jpg",
+      "/images/chiangmai-legacy-bx-incheon/hotel-1.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-1.jpg",
+      "/images/chiangmai-legacy-36-incheon/hotel-2.jpg"
+    ],
+    "courseImages": [
+      "/images/chiangmai-legacy-36-incheon/course-1.jpg",
+      "/images/chiangmai-legacy-bx-incheon/course-1.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-1.jpg",
+      "/images/chiangmai-legacy-36-incheon/course-2.jpg",
+      "/images/chiangmai-legacy-bx-incheon/course-2.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-2.jpg",
+      "/images/chiangmai-legacy-36-incheon/course-3.jpg",
+      "/images/chiangmai-panorama-golftel-incheon/course-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/chiangmai-legacy-36-incheon/hotel-1.jpg",
+      "/images/chiangmai-legacy-bx-incheon/hotel-1.jpg",
+      "/images/chiangmai-legacy-36-incheon/hotel-2.jpg",
+      "/images/chiangmai-legacy-bx-incheon/hotel-2.jpg",
+      "/images/chiangmai-legacy-36-incheon/hotel-3.jpg"
+    ],
+    "priceUpdatedDate": "2026-11-11",
+    "seoIntro": "인천 출발 치앙마이 골프여행 3박5일 상품으로, 에어부산 인천 직항을 타고 가산 레거시 골프리조트에 머물며 레가시CC·파노라마CC에서 하루 36홀 무제한 라운딩하는 12월 지정일 골프텔 패키지입니다.",
+    "seoKeywords": [
+      "치앙마이골프",
+      "치앙마이골프여행",
+      "치앙마이골프텔",
+      "가산레가시",
+      "가산파노라마",
+      "태국골프여행",
+      "에어부산",
+      "인천출발"
+    ],
+    "price": "1,339,000원~"
   }
 ]
