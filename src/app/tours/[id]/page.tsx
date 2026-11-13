@@ -451,6 +451,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <div id="departure" className="mb-8 scroll-mt-32 md:scroll-mt-36">
             <DeparturePriceCalendar
               departurePrices={tour.departurePrices}
+              closedDates={tour.closedDates}
               nights={tour.nights}
               days={tour.days}
             />

@@ -27,6 +27,8 @@ export type Tour = {
   excludes: string[];
   cancelPolicy?: string[];
   departurePrices?: { date: string; price: number; nights?: number; days?: number }[];
+  /** 거래처에 확인한 마감·별도문의 날짜 — 달력에만 표시, 요금 계산·판매 여부에는 쓰지 않는다 (사장님 11/13) */
+  closedDates?: { date: string; status: "마감" | "문의" }[];
   /** 날짜별이 아니라 홀수(선택 라운딩량)에 따라 요금이 갈리는 상품용 — 예: 54/72/90홀 3단계 */
   holePriceTiers?: { holes: number; pattern?: string; price: number; label?: string; nights?: number; days?: number; dates?: string[] }[];
   /** holePriceTiers 상품의 실제 출발일(YYYY-MM-DD) — 문의 접수 시 departureDate로 사용.

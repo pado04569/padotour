@@ -8,12 +8,16 @@ import { announceTourDate, requestInquiryOpen, onCalendarFocus } from "@/lib/tou
 // 출발일 달력 — 한 달씩, 날짜마다 1인 요금을 만원 단위로 미리 보여준다 (사장님 작업지시 2026-10-25)
 //  - 이달 최저가 날짜는 빨간 요금으로 표시하고, 머리에 "N월 최저가"를 단다. 최저가 판단은 실제 원 단위 가격.
 //  - 날짜를 고르면 문의 패널(PC 오른쪽·휴대폰 아래 바)에 정확한 원 단위 요금이 뜬다. 입력창은 패널 하나로 통합.
-//  - 마감 표시는 없다 — 마감은 거래처 확인 후에만 알 수 있어, 접수 후 안내한다 (사장님 확정 10/25).
+//  - 마감·별도문의는 거래처에 확인한 날짜만(closedDates) 표시 — 사장님이 알려 주실 때 넣는다 (사장님 11/13, 10/25 '표시 안 함'을 바꿈).
+//    "마감" = 고객 문의로 거래처에 물어 마감된 날짜, "문의" = 요금이 너무 올라 별도 문의로 돌린 날짜. 둘 다 요금 계산·최저가에는 쓰지 않는다.
 
 type PriceEntry = { date: string; price: number; nights?: number; days?: number };
 
+type ClosedEntry = { date: string; status: "마감" | "문의" };
+
 type Props = {
   departurePrices: PriceEntry[];
+  closedDates?: ClosedEntry[];
   nights: number;
   days: number;
 };
@@ -21,7 +25,7 @@ type Props = {
 const fmtWon = (p: number) => p.toLocaleString("ko-KR") + "원";
 const shortWon = (p: number) => `${Math.floor(p / 10000)}만`;
 
-export default function DeparturePriceCalendar({ departurePrices, nights, days }: Props) {
+export default function DeparturePriceCalendar({ departurePrices, closedDates = [], nights, days }: Props) {
   const today = new Date();
   // 한국 날짜 글자로 비교 — 시간대 섞인 Date 비교로 하루 어긋나던 것 통일, 오늘 출발은 예약 불가라 제외 (2026-10-25)
   const todayStr = new Date(Date.now() + 9 * 3600 * 1000).toISOString().slice(0, 10);
@@ -34,7 +38,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
   // 목록에서 검색한 날짜(?date=)를 들고 오면 그 날짜를 고른다.
   const [selected, setSelected] = useState<string | null>(null);
   // 출발 없는 날짜를 눌렀을 때 안내 — 반응 없는 클릭 방지 (클래리티 2026-09-15). searched = 검색해서 들고 온 날짜
-  const [hint, setHint] = useState<{ day: string; nearest: string | null; searched?: boolean } | null>(null);
+  const [hint, setHint] = useState<{ day: string; nearest: string | null; searched?: boolean; closed?: "마감" | "문의" } | null>(null);
 
   // 오른쪽 박스를 눌렀을 때 달력 테두리를 잠깐 강조 — 달력이 이미 보여도 눌렀다는 반응이 눈에 보이게 (클래리티 2026-11-01)
   const hintRef = useRef<HTMLDivElement>(null);
@@ -51,6 +55,7 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
   }, []);
 
   const entryMap = new Map(departurePrices.map((p) => [p.date, p]));
+  const closedMap = new Map(closedDates.filter((c) => !entryMap.has(c.date)).map((c) => [c.date, c.status]));
   const upcoming = departurePrices.map((p) => p.date).filter((d) => d > todayStr).sort();
   const lastDeparture = upcoming[upcoming.length - 1] ?? null;
 
@@ -172,6 +177,21 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
                 <div key={i} className="h-[56px] flex flex-col items-center justify-start pt-1 text-[14px] text-gray-300">{day}</div>
               );
             }
+            const closed = !entry ? closedMap.get(ds) : undefined;
+            if (closed) {
+              return (
+                <button
+                  key={i}
+                  type="button"
+                  aria-label={`${month + 1}월 ${day}일 출발 ${closed === "마감" ? "마감" : "별도 문의"}`}
+                  onClick={() => setHint({ day: ds, nearest: nearestDeparture(ds), closed })}
+                  className={`h-[56px] rounded-lg flex flex-col items-center justify-start pt-1 gap-0.5 hover:bg-gray-50 ${hint?.day === ds ? "bg-gray-100" : ""}`}
+                >
+                  <span className="w-7 h-7 flex items-center justify-center text-[14px] font-semibold leading-none text-gray-400">{day}</span>
+                  <span className={`text-[11px] md:text-[12px] font-bold leading-none ${closed === "마감" ? "text-gray-400" : "text-slate-600"}`}>{closed}</span>
+                </button>
+              );
+            }
             if (!entry) {
               const inGap = lastDeparture !== null && ds < lastDeparture;
               return (
@@ -208,12 +228,18 @@ export default function DeparturePriceCalendar({ departurePrices, nights, days }
 
         <p className="mt-3 text-[12px] text-gray-500 break-keep">
           <span className="whitespace-nowrap">숫자는 1인 요금(만원 단위)</span> · <span className="whitespace-nowrap"><b className="text-red-500">최저가</b>는 이달 가장 낮은 요금</span> · <span className="whitespace-nowrap"><b>-</b>는 출발일이 없는 날짜</span>
+          {[...closedMap.values()].includes("마감") && <> · <span className="whitespace-nowrap"><b className="text-gray-500">마감</b>은 마감된 출발일</span></>}
+          {[...closedMap.values()].includes("문의") && <> · <span className="whitespace-nowrap"><b className="text-slate-600">문의</b>는 요금 별도 문의</span></>}
         </p>
 
         {/* 안내가 화면 밖이면 눌러도 반응이 없어 보인다 — 뜰 때 화면 안으로 끌어온다 (클래리티 2026-11-01) */}
         {hint && (
           <div ref={hintRef} role="status" className="mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 rounded-xl bg-gray-50 border border-gray-200 px-3 py-2 text-sm text-gray-600">
-            {hint.searched ? (
+            {hint.closed === "마감" ? (
+              <span><b className="text-gray-800">{shortDate(hint.day)}</b> 출발은 마감되었어요.</span>
+            ) : hint.closed === "문의" ? (
+              <span><b className="text-gray-800">{shortDate(hint.day)}</b> 출발은 요금을 따로 안내해 드려요. 전화·카톡으로 문의해 주세요.</span>
+            ) : hint.searched ? (
               <span>선택하신 날짜(<b className="text-gray-800">{shortDate(hint.day)}</b>)는 출발이 없습니다. 다른 날짜를 선택해 주세요.</span>
             ) : (
               <span><b className="text-gray-800">{shortDate(hint.day)}</b>은 출발이 없어요.</span>
