@@ -187,8 +187,8 @@ export default function DeparturePriceCalendar({ departurePrices, closedDates = 
                   onClick={() => setHint({ day: ds, nearest: nearestDeparture(ds), closed })}
                   className={`h-[56px] rounded-lg flex flex-col items-center justify-start pt-1 gap-0.5 hover:bg-gray-50 ${hint?.day === ds ? "bg-gray-100" : ""}`}
                 >
-                  <span className="w-7 h-7 flex items-center justify-center text-[14px] font-semibold leading-none text-gray-400">{day}</span>
-                  <span className={`text-[11px] md:text-[12px] font-bold leading-none ${closed === "마감" ? "text-gray-400" : "text-slate-600"}`}>{closed}</span>
+                  <span className="w-7 h-7 flex items-center justify-center text-[14px] font-semibold leading-none text-gray-500">{day}</span>
+                  <span className={`text-[11px] md:text-[12px] font-bold leading-none ${closed === "마감" ? "text-gray-500" : "text-slate-600"}`}>{closed}</span>
                 </button>
               );
             }
