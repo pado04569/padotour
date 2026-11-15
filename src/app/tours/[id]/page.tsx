@@ -593,13 +593,23 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
               {tour.golfCourseDesc && <Sentences text={tour.golfCourseDesc} />}
             </Link>
             {/* 골프장마다 한 줄 소개 — 이름만 나열하지 않는다 (사장님 지시 10/25). 소개 페이지의 한 줄 요약을 그대로 가져온다 */}
-            {/* 소개 페이지 링크는 빼고 글로만 — 상품을 보던 고객이 페이지를 떠나지 않게 (사장님 확정 가안, 2026-10-25) */}
+            {/* 골프장 이름은 소개 페이지로 새 창 연결 — 이름을 눌러도 반응이 없다는 클릭이 잡혀(클래리티 11/15, 하이난 삼공리 5회)
+                10/25 '링크 제거'를 바꿈. 새 창이라 상품 페이지는 그대로 남는다 (사장님 확정 2026-11-15) */}
             {linkedCourses.length > 0 && (
               <ul className="space-y-2 mb-3">
                 {linkedCourses.map(({ course: c, chips, showSummary, optional }) => (
                   <li key={c.slug} className="bg-white border border-gray-100 rounded-xl px-4 py-3.5">
                     <p className="font-bold text-[16px] text-slate-900">
-                      {c.name}
+                      <a
+                        href={`/courses/${c.slug}`}
+                        target="_blank"
+                        rel="noopener"
+                        aria-label={`${c.name} 골프장 소개 새 창으로 보기`}
+                        className="inline-flex items-baseline gap-2 py-2.5 -my-2.5 hover:text-brand-blue"
+                      >
+                        <span className="underline decoration-slate-300 underline-offset-4">{c.name}</span>
+                        <span className="text-[14px] font-bold text-brand-blue whitespace-nowrap">소개 보기</span>
+                      </a>
                       {optional && <span className="ml-2 align-middle inline-flex items-center rounded-md border border-slate-300 px-2 py-0.5 text-[13px] font-bold text-slate-600">선택 코스 · 요청 시 추가요금</span>}
                     </p>
                     {chips.length > 0 && (
