@@ -32910,7 +32910,25 @@
       "골프패키지"
     ],
     "priceUpdatedDate": "2026-10-23",
-    "displayTitle": "야마구치 우베 초요CC 골프 주중 추가 서비스"
+    "displayTitle": "야마구치 우베 초요CC 골프 주중 추가 서비스",
+    "closedDates": [
+      {
+        "date": "2026-12-22",
+        "status": "문의"
+      },
+      {
+        "date": "2026-12-23",
+        "status": "문의"
+      },
+      {
+        "date": "2026-12-24",
+        "status": "문의"
+      },
+      {
+        "date": "2026-12-25",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "japan-yamaguchi-island-sanyo-3n4d-incheon",
@@ -34762,7 +34780,29 @@
       "인천출발",
       "골프패키지"
     ],
-    "displayTitle": "야마구치 우베 초요CC 골프 주중 추가 서비스"
+    "displayTitle": "야마구치 우베 초요CC 골프 주중 추가 서비스",
+    "closedDates": [
+      {
+        "date": "2026-12-21",
+        "status": "문의"
+      },
+      {
+        "date": "2026-12-22",
+        "status": "문의"
+      },
+      {
+        "date": "2026-12-23",
+        "status": "문의"
+      },
+      {
+        "date": "2026-12-24",
+        "status": "문의"
+      },
+      {
+        "date": "2026-12-25",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "japan-kagoshima-tenmonkan",
