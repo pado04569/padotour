@@ -3251,10 +3251,6 @@
         "price": 1139000
       },
       {
-        "date": "2027-02-09",
-        "price": 1139000
-      },
-      {
         "date": "2027-02-10",
         "price": 1179000
       },
@@ -3409,7 +3405,13 @@
       "부산출발",
       "에어부산"
     ],
-    "displayTitle": "레이크뷰CC 골프텔 골프여행"
+    "displayTitle": "레이크뷰CC 골프텔 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "country": "중국",
@@ -19696,14 +19698,6 @@
         "price": 1489000
       },
       {
-        "date": "2027-02-08",
-        "price": 1429000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1429000
-      },
-      {
         "date": "2027-02-10",
         "price": 1489000
       },
@@ -19808,7 +19802,17 @@
       "골프패키지"
     ],
     "priceUpdatedDate": "2026-11-09",
-    "displayTitle": "괌 파인이스트 골프텔"
+    "displayTitle": "괌 파인이스트 골프텔",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "guam-hilton-ccp-busan",
@@ -20248,10 +20252,6 @@
         "price": 1489000
       },
       {
-        "date": "2027-02-09",
-        "price": 1449000
-      },
-      {
         "date": "2027-02-10",
         "price": 1489000
       },
@@ -20346,7 +20346,13 @@
       "부산출발",
       "괌여행"
     ],
-    "displayTitle": "힐튼 리조트 오션뷰 + CCP 골프여행"
+    "displayTitle": "힐튼 리조트 오션뷰 + CCP 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "vietnam-halongbay-3color",
@@ -38938,14 +38944,6 @@
         "price": 979000
       },
       {
-        "date": "2027-02-08",
-        "price": 939000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 939000
-      },
-      {
         "date": "2027-02-10",
         "price": 979000
       },
@@ -39105,7 +39103,17 @@
       "/images/thailand-bangkok-sunvalley-busan/course-6.jpg"
     ],
     "priceUpdatedDate": "2026-11-14",
-    "displayTitle": "무제한 2색골프 골프여행"
+    "displayTitle": "무제한 2색골프 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "thailand-bangkok-riverdale-tinidee-busan",
@@ -41801,14 +41809,6 @@
         "price": 1069000
       },
       {
-        "date": "2027-02-08",
-        "price": 1029000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1029000
-      },
-      {
         "date": "2027-02-10",
         "price": 1069000
       },
@@ -41929,7 +41929,17 @@
         "price": 989000
       }
     ],
-    "displayTitle": "로터스밸리CC 골프여행"
+    "displayTitle": "로터스밸리CC 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "japan-miyazaki-onsen-2color",
@@ -46958,10 +46968,6 @@
         "price": 1079000
       },
       {
-        "date": "2027-02-09",
-        "price": 1079000
-      },
-      {
         "date": "2027-02-10",
         "price": 1099000
       },
@@ -47147,7 +47153,13 @@
       }
     ],
     "price": "899,000원~",
-    "displayTitle": "마닐라 2색 센추리팍 호텔 골프여행 3박4일"
+    "displayTitle": "마닐라 2색 센추리팍 호텔 골프여행 3박4일",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "philippines-manila-casino-3color-newcoast-busan",
@@ -47377,14 +47389,6 @@
         "price": 1199000
       },
       {
-        "date": "2027-02-08",
-        "price": 1199000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1199000
-      },
-      {
         "date": "2027-02-12",
         "price": 1319000
       },
@@ -47478,7 +47482,17 @@
       }
     ],
     "price": "1,049,000원~",
-    "displayTitle": "마닐라 5성급 호텔 3색 골프여행 3박5일"
+    "displayTitle": "마닐라 5성급 호텔 3색 골프여행 3박5일",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "philippines-manila-cavite-poolvilla-busan",
@@ -47710,14 +47724,6 @@
         "price": 1229000
       },
       {
-        "date": "2027-02-08",
-        "price": 1229000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1229000
-      },
-      {
         "date": "2027-02-12",
         "price": 1349000
       },
@@ -47811,7 +47817,17 @@
       }
     ],
     "price": "1,059,000원~",
-    "displayTitle": "마닐라 카비테 풀빌라 1인 1실 3색 골프여행 3박5일"
+    "displayTitle": "마닐라 카비테 풀빌라 1인 1실 3색 골프여행 3박5일",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "philippines-manila-pinehills-golftel-busan",
@@ -50640,10 +50656,6 @@
         "price": 1139000
       },
       {
-        "date": "2027-02-09",
-        "price": 1099000
-      },
-      {
         "date": "2027-02-10",
         "price": 1139000
       },
@@ -50688,7 +50700,13 @@
         "price": 1219000
       }
     ],
-    "displayTitle": "로얄 치앙마이CC 골프텔 골프여행"
+    "displayTitle": "로얄 치앙마이CC 골프텔 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "philippines-cebu-liloan-busan",
@@ -60116,14 +60134,6 @@
         "price": 1179000
       },
       {
-        "date": "2027-02-08",
-        "price": 1139000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1139000
-      },
-      {
         "date": "2027-02-10",
         "price": 1179000
       },
@@ -60248,7 +60258,17 @@
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-11-04",
     "title": "[부산출발] 태국 방콕 시라차 골프여행 6개 골프장 다색 27홀 3박5일 1,099,000원부터",
-    "displayTitle": "6개 골프장 다색 골프여행"
+    "displayTitle": "6개 골프장 다색 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "thailand-ayutthaya-busan",
@@ -60670,14 +60690,6 @@
         "price": 1199000
       },
       {
-        "date": "2027-02-08",
-        "price": 1159000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1159000
-      },
-      {
         "date": "2027-02-10",
         "price": 1199000
       },
@@ -60802,7 +60814,17 @@
     "period": "2026년 11월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-11-04",
     "title": "[부산출발] 태국 방콕 아유타야 골프여행 4개 골프장 다색 무제한 3박5일 1,119,000원부터",
-    "displayTitle": "4개 골프장 다색 무제한 골프여행"
+    "displayTitle": "4개 골프장 다색 무제한 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "thailand-chiangmai-gassan-golftel-busan",
@@ -62847,10 +62869,6 @@
         "price": 1079000
       },
       {
-        "date": "2027-02-09",
-        "price": 1079000
-      },
-      {
         "date": "2027-02-10",
         "price": 1119000
       },
@@ -62971,7 +62989,13 @@
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
     "title": "[부산출발] 태국 파타야 골프여행 시내호텔 3색골프 단독차량 3박5일 1,039,000원부터",
-    "displayTitle": "시내호텔 3색골프 단독차량 골프여행"
+    "displayTitle": "시내호텔 3색골프 단독차량 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "thailand-pattaya-jinspired-3color-busan",
@@ -67590,14 +67614,6 @@
         "price": 1239000
       },
       {
-        "date": "2027-02-08",
-        "price": 1199000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1199000
-      },
-      {
         "date": "2027-02-10",
         "price": 1239000
       },
@@ -67722,7 +67738,17 @@
     "period": "2026년 10월 ~ 2027년 2월",
     "priceUpdatedDate": "2026-11-10",
     "title": "[부산출발] 베트남 나트랑 골프여행 아나라 빈티엔CC 81홀 3박5일 1,049,000원부터",
-    "displayTitle": "아나라 빈티엔CC 골프여행"
+    "displayTitle": "아나라 빈티엔CC 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "vietnam-nhatrang-diamondbay-busan",
@@ -68171,10 +68197,6 @@
         "price": 1279000
       },
       {
-        "date": "2027-02-09",
-        "price": 1279000
-      },
-      {
         "date": "2027-02-10",
         "price": 1319000
       },
@@ -68295,7 +68317,13 @@
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-10-07",
     "title": "[부산출발] 베트남 나트랑 골프여행 다이아몬드베이CC 골프텔 3박5일 1,059,000원부터",
-    "displayTitle": "다이아몬드베이CC 골프텔 골프여행"
+    "displayTitle": "다이아몬드베이CC 골프텔 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "vietnam-nhatrang-3color-busan",
@@ -68630,14 +68658,6 @@
         "price": 1199000
       },
       {
-        "date": "2027-02-08",
-        "price": 1159000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1159000
-      },
-      {
         "date": "2027-02-10",
         "price": 1199000
       },
@@ -68762,7 +68782,17 @@
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-11-10",
     "title": "[부산출발] 베트남 나트랑 골프여행 빈펄·다이아몬드베이·KN 3색 3박5일 999,000원부터",
-    "displayTitle": "빈펄·다이아몬드베이·KN 3색 골프여행"
+    "displayTitle": "빈펄·다이아몬드베이·KN 3색 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "vietnam-nhatrang-vinpearl-beachfront-busan",
@@ -74369,10 +74399,6 @@
         "price": 1199000
       },
       {
-        "date": "2027-02-09",
-        "price": 1199000
-      },
-      {
         "date": "2027-02-10",
         "price": 1249000
       },
@@ -74533,7 +74559,13 @@
     "period": "2026년 10월 ~ 2027년 3월",
     "priceUpdatedDate": "2026-11-11",
     "title": "[부산출발] 태국 로얄라차부리CC 골프여행 무제한 골프텔 3박5일 999,000원부터",
-    "displayTitle": "무제한 골프텔 골프여행"
+    "displayTitle": "무제한 골프텔 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "thailand-ratchaburi-busan-4n6d",
@@ -74921,10 +74953,6 @@
         "price": 1580000
       },
       {
-        "date": "2027-02-09",
-        "price": 1350000
-      },
-      {
         "date": "2027-02-10",
         "price": 1430000
       },
@@ -75251,6 +75279,10 @@
       {
         "date": "2026-12-20",
         "status": "마감"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
       }
     ]
   },
@@ -76849,10 +76881,6 @@
         "price": 1190000
       },
       {
-        "date": "2027-02-08",
-        "price": 1230000
-      },
-      {
         "date": "2027-02-10",
         "price": 1290000
       },
@@ -76978,7 +77006,13 @@
       }
     ],
     "price": "1,090,000원~",
-    "displayTitle": "가고시마 카모우CC 3박4일 제주항공"
+    "displayTitle": "가고시마 카모우CC 3박4일 제주항공",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "japan-kagoshima-kamou-jeju-4n5d-incheon",
@@ -91470,10 +91504,6 @@
         "price": 1429000
       },
       {
-        "date": "2027-02-09",
-        "price": 1389000
-      },
-      {
         "date": "2027-02-10",
         "price": 1429000
       },
@@ -91557,7 +91587,13 @@
       "태국골프여행",
       "부산출발"
     ],
-    "displayTitle": "하이랜드·노스힐·레거시·파노라마 다색 골프여행"
+    "displayTitle": "하이랜드·노스힐·레거시·파노라마 다색 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "thailand-chiangmai-premium-highland-alpine-busan",
@@ -95971,10 +96007,6 @@
         "price": 1149000
       },
       {
-        "date": "2027-02-09",
-        "price": 1149000
-      },
-      {
         "date": "2027-02-10",
         "price": 1179000
       },
@@ -96201,7 +96233,13 @@
       "부산출발",
       "필리핀항공"
     ],
-    "displayTitle": "스플랜디도 골프텔 무제한 골프여행"
+    "displayTitle": "스플랜디도 골프텔 무제한 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "philippines-manila-caliraya-golftel-busan",
@@ -96561,10 +96599,6 @@
         "price": 899000
       },
       {
-        "date": "2027-02-09",
-        "price": 899000
-      },
-      {
         "date": "2027-02-10",
         "price": 929000
       },
@@ -96790,7 +96824,13 @@
       "필리핀항공",
       "아놀드파머"
     ],
-    "displayTitle": "깔리라야 골프텔 골프여행"
+    "displayTitle": "깔리라야 골프텔 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "philippines-manila-splendido-golftel-busan-7c",
@@ -97737,10 +97777,6 @@
         "price": 909000
       },
       {
-        "date": "2027-02-09",
-        "price": 869000
-      },
-      {
         "date": "2027-02-10",
         "price": 909000
       },
@@ -97945,7 +97981,13 @@
       "필리핀골프여행",
       "부산출발"
     ],
-    "displayTitle": "릴로안·알타비스타·클럽필리피노 실속 3색 골프여행"
+    "displayTitle": "릴로안·알타비스타·클럽필리피노 실속 3색 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "vietnam-haiphong-sonofelice",
@@ -108516,14 +108558,6 @@
         "price": 1299000
       },
       {
-        "date": "2027-02-08",
-        "price": 1259000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1259000
-      },
-      {
         "date": "2027-02-10",
         "price": 1299000
       },
@@ -108684,7 +108718,17 @@
       "부산출발",
       "2색골프"
     ],
-    "displayTitle": "키리마야·란초찬위 명문 2색 골프여행"
+    "displayTitle": "키리마야·란초찬위 명문 2색 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "thailand-pattaya-siam-3color-incheon",
@@ -110370,10 +110414,6 @@
         "price": 1040000
       },
       {
-        "date": "2027-02-09",
-        "price": 1000000
-      },
-      {
         "date": "2027-02-10",
         "price": 1040000
       },
@@ -110441,7 +110481,13 @@
       "부산출발",
       "겨울골프"
     ],
-    "displayTitle": "실속 3색 골프여행"
+    "displayTitle": "실속 3색 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "thailand-bangkok-sratchada-3color-daegu",
@@ -112991,10 +113037,6 @@
         "price": 1310000
       },
       {
-        "date": "2027-02-09",
-        "price": 1270000
-      },
-      {
         "date": "2027-02-10",
         "price": 1310000
       },
@@ -113066,7 +113108,13 @@
     ],
     "price": "1,270,000원~",
     "priceUpdatedDate": "2026-11-06",
-    "displayTitle": "명품 5색 골프여행"
+    "displayTitle": "명품 5색 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "vietnam-haiphong-sonofelice-city-combo",
@@ -114840,14 +114888,6 @@
         "price": 1540000
       },
       {
-        "date": "2027-02-08",
-        "price": 1540000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1540000
-      },
-      {
         "date": "2027-02-10",
         "price": 1540000
       },
@@ -115053,7 +115093,17 @@
       "베트남골프여행",
       "인천출발"
     ],
-    "displayTitle": "골든샌즈CC 무제한 골프여행"
+    "displayTitle": "골든샌즈CC 무제한 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "vietnam-danang-fourpoints-3color-incheon",
@@ -115371,14 +115421,6 @@
         "price": 1790000
       },
       {
-        "date": "2027-02-08",
-        "price": 1790000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1790000
-      },
-      {
         "date": "2027-02-10",
         "price": 1790000
       },
@@ -115489,7 +115531,17 @@
       "바나힐CC",
       "인천출발"
     ],
-    "displayTitle": "다낭 포 포인츠 바이 쉐라톤 3색 골프여행 3박5일"
+    "displayTitle": "다낭 포 포인츠 바이 쉐라톤 3색 골프여행 3박5일",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "vietnam-danang-6course-alacarte-busan",
@@ -115889,14 +115941,6 @@
         "price": 1429000
       },
       {
-        "date": "2027-02-08",
-        "price": 1389000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1389000
-      },
-      {
         "date": "2027-02-10",
         "price": 1429000
       },
@@ -116055,7 +116099,17 @@
       "부산출발",
       "베트남골프"
     ],
-    "displayTitle": "몽고메리·바나힐·빈펄 등 다색 골프여행"
+    "displayTitle": "몽고메리·바나힐·빈펄 등 다색 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "vietnam-danang-vedana-goldensands-busan",
@@ -127643,10 +127697,6 @@
         "price": 1149000
       },
       {
-        "date": "2027-02-07",
-        "price": 1029000
-      },
-      {
         "date": "2027-02-10",
         "price": 1079000
       },
@@ -127693,6 +127743,12 @@
       {
         "date": "2027-02-23",
         "price": 1029000
+      }
+    ],
+    "closedDates": [
+      {
+        "date": "2027-02-07",
+        "status": "문의"
       }
     ]
   },
@@ -136862,10 +136918,6 @@
         "price": 950000
       },
       {
-        "date": "2027-02-09",
-        "price": 910000
-      },
-      {
         "date": "2027-02-10",
         "price": 950000
       },
@@ -136934,7 +136986,13 @@
     ],
     "price": "910,000원~",
     "priceUpdatedDate": "2026-11-09",
-    "displayTitle": "실속 3색 골프여행"
+    "displayTitle": "실속 3색 골프여행",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "vietnam-haiphong-dragon-links-54-incheon",
@@ -138637,14 +138695,6 @@
         "price": 1369000
       },
       {
-        "date": "2027-02-08",
-        "price": 1329000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1329000
-      },
-      {
         "date": "2027-02-10",
         "price": 1369000
       },
@@ -138804,7 +138854,17 @@
       "에어부산",
       "부산출발"
     ],
-    "displayTitle": "나트랑 아나라 빈티엔 빌라 골프텔"
+    "displayTitle": "나트랑 아나라 빈티엔 빌라 골프텔",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "japan-okinawa-shurei-ginoza-3color-busan",
@@ -140388,10 +140448,6 @@
         "price": 1469000
       },
       {
-        "date": "2027-02-09",
-        "price": 1469000
-      },
-      {
         "date": "2027-02-10",
         "price": 1519000
       },
@@ -140603,7 +140659,13 @@
       "솔레어호텔",
       "부산출발"
     ],
-    "displayTitle": "마닐라 솔레어 & 말라라얏 VIP 골프"
+    "displayTitle": "마닐라 솔레어 & 말라라얏 VIP 골프",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "philippines-manila-solaire-malarayat-7c-busan",
@@ -140796,14 +140858,6 @@
         "price": 1359000
       },
       {
-        "date": "2027-02-08",
-        "price": 1359000
-      },
-      {
-        "date": "2027-02-09",
-        "price": 1359000
-      },
-      {
         "date": "2027-02-12",
         "price": 1479000
       },
@@ -140939,7 +140993,17 @@
       "솔레어호텔",
       "부산출발"
     ],
-    "displayTitle": "마닐라 솔레어 & 말라라얏 VIP 골프"
+    "displayTitle": "마닐라 솔레어 & 말라라얏 VIP 골프",
+    "closedDates": [
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "vietnam-nhatrang-havana-incheon",
@@ -144890,10 +144954,6 @@
         "price": 1340000
       },
       {
-        "date": "2027-02-09",
-        "price": 1340000
-      },
-      {
         "date": "2027-02-10",
         "price": 1360000
       },
@@ -145079,7 +145139,13 @@
       }
     ],
     "price": "1,190,000원~",
-    "displayTitle": "마닐라 카비테 3색 마이크로텔 골프여행 3박4일"
+    "displayTitle": "마닐라 카비테 3색 마이크로텔 골프여행 3박4일",
+    "closedDates": [
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      }
+    ]
   },
   {
     "id": "vietnam-hanoi-phoenix-3color-busan",
