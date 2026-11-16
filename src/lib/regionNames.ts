@@ -2,7 +2,14 @@
 // 머리말 메뉴(navRegions)와 첫 화면 검색(HomeSearch, 브라우저)이 같이 쓴다 (2026-10-25)
 
 // 메뉴에 보일 이름 (데이터 지역 이름 → 메뉴 이름). 없으면 지역 이름 그대로
+// 칸 주소(키)는 그대로 두고 글자만 줄여 보일 이름 — 목록 화면·메뉴·첫 화면 검색이 같이 쓴다 (사장님 지시 2026-11-16 "하노이·하롱·하이퐁")
+export const REGION_SHORT: Record<string, string> = {
+  "하노이/하롱베이/하이퐁": "하노이·하롱·하이퐁",
+};
+export const shortRegion = (key: string) => REGION_SHORT[key] ?? key;
+
 export const REGION_LABELS: Record<string, string> = {
+  ...REGION_SHORT,
   샤먼: "샤먼(하문)",
   청도: "청도(칭다오)",
   하이난: "하이난(해남도)",

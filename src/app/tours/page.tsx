@@ -9,6 +9,7 @@ import { IconChevron } from "@/components/icons/Chevron";
 import { IconFlag, IconChat } from "@/components/icons/MenuIcons";
 import RegionNavigator, { type RegionOption } from "@/components/RegionNavigator";
 import { REGION_MERGE } from "@/lib/navRegions";
+import { shortRegion } from "@/lib/regionNames";
 import DepartureSearch, { SortBar, type SearchPatch } from "@/components/DepartureSearch";
 import type { Tour } from "@/data/tours";
 import { matchesNights, nightsText, parseNights, datesWithin, pickBalanced, dateLabel, departureMap, isIsoDate, localIso, minPeopleOf, sortTours, tourFacts, type SortKey } from "@/lib/tourSearch";
@@ -155,7 +156,7 @@ function ToursContent() {
   })();
   const countryName = countries.find((c) => c.code === selected)?.label ?? "전체";
   const monthText = monthParam ? `${+monthParam.slice(5)}월 출발` : "";
-  const placeText = regionParam ? (regionParam === "괌" ? "괌/사이판" : regionParam) : selected === "all" ? "전체 여행지" : countryName;
+  const placeText = regionParam ? (regionParam === "괌" ? "괌/사이판" : shortRegion(regionParam)) : selected === "all" ? "전체 여행지" : countryName;
   // 조건 줄의 출발지는 주소에 출발공항이 있을 때만 — '전체 공항'인데 저장된 출발지가 보이면 부산 상품이 섞여 보였다 (가상 고객 체험 10/25)
   const depName = isDep(departureParam) ? DEP_NAME[departureParam] : "";
   // 검색한 출발일·인원을 상세·문의창까지 들고 간다 (가상 고객 체험·사장님 A안 10/25)
@@ -378,7 +379,7 @@ function ToursContent() {
           <div className="max-w-6xl mx-auto px-4">
             <h1 className="text-2xl md:text-4xl font-black mb-1 md:mb-2">{countryName} 골프여행</h1>
             <p className="text-white/[0.82] text-sm md:text-lg">
-              {regionOptions.length >= 2 ? `${regionOptions[0].label}부터 ${regionOptions[1].label}까지, 원하는 지역을 골라보세요.` : "원하는 지역을 골라보세요."}
+              {regionOptions.length >= 2 ? `${shortRegion(regionOptions[0].label)}부터 ${shortRegion(regionOptions[1].label)}까지, 원하는 지역을 골라보세요.` : "원하는 지역을 골라보세요."}
             </p>
           </div>
         </section>

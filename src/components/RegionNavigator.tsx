@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { shortRegion } from "@/lib/regionNames";
 import Link from "next/link";
 import RegionGeoMap from "./RegionGeoMap";
 import { COUNTRY_VIEWS } from "@/lib/mapRegions";
@@ -74,7 +75,7 @@ export default function RegionNavigator({
         </Link>
         {regions.map((r) => (
           <Link key={r.label} href={href(r.label)} className={chip(selected === r.label)} aria-current={selected === r.label ? "page" : undefined}>
-            {r.label}
+            {shortRegion(r.label)}
           </Link>
         ))}
       </div>
@@ -86,7 +87,7 @@ export default function RegionNavigator({
         <div id="region-map" className="mt-3 p-3 border border-gray-300 rounded-2xl bg-white shadow-sm">
           {/* 초록 배지 대신 일반 텍스트 (사장님 지시 10/25) */}
           <p className="mb-2 px-1 text-[15px] text-gray-600">
-            선택 지역: <b className="font-bold text-main-text">{selected ?? `${name} 전체`}</b>
+            선택 지역: <b className="font-bold text-main-text">{selected ? shortRegion(selected) : `${name} 전체`}</b>
           </p>
           <RegionGeoMap countryCode={countryCode} regions={regions.map((r) => r.label)} selected={selected} hrefFor={(r) => href(r, true)} />
           <p className="text-sm text-gray-600 mt-2.5 leading-relaxed break-keep">
