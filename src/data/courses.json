@@ -12008,5 +12008,217 @@
       "thailand-ayutthaya-busan",
       "thailand-ayutthaya-centara-1214-incheon"
     ]
+  },
+  {
+    "slug": "chisan-cc-mifune",
+    "name": "치산 미후네CC",
+    "nameEn": "Chisan Country Club Mifune (PGM)",
+    "aliases": [
+      "치산미후네",
+      "치산 미후네",
+      "미후네CC"
+    ],
+    "region": "구마모토",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "구마모토공항 남쪽 미후네마치의 18홀 파72·6,716야드 구릉 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "6,716야드 (블랙 티·벤트 그린 기준)"
+      },
+      {
+        "label": "개장",
+        "value": "1987년"
+      },
+      {
+        "label": "그린",
+        "value": "벤트·버뮤다 2그린"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 구마모토현 가미마시키군 미후네마치"
+      },
+      {
+        "label": "접근",
+        "value": "구마모토공항에서 차량 약 25~40분"
+      }
+    ],
+    "description": "치산 미후네CC는 구마모토현 가미마시키군 미후네마치에 있는 18홀 파72, 전장 6,716야드(블랙 티·벤트 그린 기준) 골프장으로 1987년에 문을 열었으며 현재 PGM이 운영합니다.\n\n자연 지형을 살린 구릉 코스로 오르내림이 적당하고 전장이 긴 홀이 많아 시원하게 칠 수 있습니다. 해저드가 공략을 요구하는 자리에 놓여 있고, 그린은 벤트와 버뮤다 두 종류입니다.\n\n여행의파도 구마모토 야츠시로 골프여행에서 월드CC와 함께 2색으로 라운딩하는 코스입니다.",
+    "images": [
+      "/images/chisan-cc-mifune/course-1.jpg",
+      "/images/chisan-cc-mifune/course-2.jpg",
+      "/images/chisan-cc-mifune/course-3.jpg",
+      "/images/chisan-cc-mifune/course-4.jpg"
+    ],
+    "hashtags": [
+      "치산미후네CC",
+      "구마모토골프",
+      "구마모토골프장",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-kumamoto-yatsushiro-chisan-world-incheon",
+      "japan-kumamoto-yatsushiro-chisan-world-6n7d-incheon"
+    ]
+  },
+  {
+    "slug": "world-country-club-kumamoto",
+    "name": "월드CC",
+    "nameEn": "World Country Club Kumamoto (PGM)",
+    "aliases": [
+      "월드 CC",
+      "월드컨트리클럽"
+    ],
+    "region": "구마모토",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "구마모토현 우키시의 18홀 파72·7,016야드, 넓은 페어웨이의 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "전장",
+        "value": "7,016야드 (블랙 티)"
+      },
+      {
+        "label": "설계",
+        "value": "사토 겐타로"
+      },
+      {
+        "label": "개장",
+        "value": "1996년"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 구마모토현 우키시 오가와마치"
+      },
+      {
+        "label": "접근",
+        "value": "규슈자동차도 우키히카와 스마트IC에서 약 3분, 야츠시로IC에서 약 20분"
+      }
+    ],
+    "description": "월드CC(월드 컨트리클럽)는 구마모토현 우키시 오가와마치에 있는 18홀 파72, 전장 7,016야드(블랙 티) 골프장입니다. 사토 겐타로가 설계해 1996년에 개장했고 PGM이 운영합니다.\n\n전체 고저차는 약 30m인 구릉지이지만 홀 자체는 거의 평탄하고 페어웨이가 넓은 레이아웃입니다. 크리크와 마운드가 전략적으로 놓여 있고 티잉그라운드가 5개라 실력에 맞춰 칠 수 있으며, 그린은 벤트 원그린입니다.\n\n여행의파도 구마모토 야츠시로 골프여행에서 치산 미후네CC와 함께 2색으로 라운딩하는 코스입니다.",
+    "images": [
+      "/images/world-country-club-kumamoto/course-1.jpg",
+      "/images/world-country-club-kumamoto/course-2.jpg",
+      "/images/world-country-club-kumamoto/course-3.jpg",
+      "/images/world-country-club-kumamoto/course-4.jpg"
+    ],
+    "hashtags": [
+      "월드CC",
+      "구마모토골프",
+      "구마모토골프장",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-kumamoto-yatsushiro-chisan-world-incheon",
+      "japan-kumamoto-yatsushiro-chisan-world-6n7d-incheon"
+    ],
+    "excludeTourIds": [
+      "japan-saga-tosu-7color-2n3d",
+      "japan-saga-tosu-7color-3n4d"
+    ]
+  },
+  {
+    "slug": "grand-champion-golf-club",
+    "name": "그랜드챔피언CC",
+    "nameEn": "Grand Champion Golf Club",
+    "aliases": [
+      "그랜드 챔피언CC",
+      "그랜드챔피언 CC",
+      "그랜드 챔피온"
+    ],
+    "region": "구마모토",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "구마모토공항에서 약 15분, 아소산 기슭의 18홀 파72 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "개장",
+        "value": "1977년"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 구마모토현 아소군 니시하라무라"
+      },
+      {
+        "label": "접근",
+        "value": "구마모토공항에서 차량 약 15분"
+      }
+    ],
+    "description": "그랜드챔피언CC(그랜드 챔피언 골프클럽)는 구마모토현 아소군 니시하라무라에 있는 18홀 파72 골프장으로 1977년에 개장했습니다. 구마모토공항에서 차로 약 15분 거리라 도착일 라운딩에 잘 쓰입니다.\n\n아소산 기슭에 넓게 펼쳐진 코스로 큰 오르내림이 적고 곳곳의 연못이 변화를 줍니다. 아웃 코스는 나무 사이로 이어지는 평탄한 숲 코스이고, 인 코스는 기복이 조금 더 있으며 연못이 공략에 관여합니다.\n\n여행의파도 구마모토 야츠시로 골프여행에서 첫날 공항 도착 후 라운딩하는 코스입니다.",
+    "images": [
+      "/images/grand-champion-golf-club/course-1.jpg",
+      "/images/grand-champion-golf-club/course-2.jpg",
+      "/images/grand-champion-golf-club/course-3.jpg",
+      "/images/grand-champion-golf-club/course-4.jpg"
+    ],
+    "hashtags": [
+      "그랜드챔피언CC",
+      "구마모토골프",
+      "구마모토골프장",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-kumamoto-yatsushiro-grandchampion-4n5d-incheon"
+    ]
+  },
+  {
+    "slug": "yatsushiro-golf-club",
+    "name": "야츠시로CC",
+    "nameEn": "Yatsushiro Golf Club",
+    "aliases": [
+      "야츠시로 CC",
+      "야츠시로 골프클럽",
+      "야츠시로골프클럽"
+    ],
+    "region": "구마모토",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "구마모토현 야츠시로시의 18홀 파72 숲 구릉 코스",
+    "specs": [
+      {
+        "label": "홀 / 파",
+        "value": "18홀 · 파72"
+      },
+      {
+        "label": "코스 개조",
+        "value": "2011년 6월"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 구마모토현 야츠시로시 후타미혼마치"
+      },
+      {
+        "label": "접근",
+        "value": "미나미규슈자동차도 히나구IC에서 약 5분(5km 이내), JR 야츠시로역에서 차량 약 25분"
+      }
+    ],
+    "description": "야츠시로CC(야츠시로 골프클럽)는 구마모토현 야츠시로시 후타미혼마치에 있는 18홀 파72 골프장으로 2011년 6월에 코스를 개조했습니다.\n\n숲 속 구릉 코스지만 홀 안은 평탄하고 홀 사이 이동이 짧습니다. 폭이 좁은 홀이 있어 비거리보다 정확도가 중요하고 그린 주변 벙커가 까다롭습니다. 연못을 넘기는 파3 14번 홀과 롱 파5 18번 홀이 승부처입니다.\n\n여행의파도 구마모토 야츠시로 골프여행에서 루트인 야츠시로에 머물며 라운딩하는 코스입니다.",
+    "images": [
+      "/images/yatsushiro-golf-club/course-1.jpg",
+      "/images/yatsushiro-golf-club/course-2.jpg",
+      "/images/yatsushiro-golf-club/course-3.jpg"
+    ],
+    "hashtags": [
+      "야츠시로CC",
+      "구마모토골프",
+      "구마모토골프장",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-kumamoto-yatsushiro-grandchampion-4n5d-incheon"
+    ]
   }
 ]
