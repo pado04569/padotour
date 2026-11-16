@@ -131024,6 +131024,270 @@
     "price": "1,890,000원~"
   },
   {
+    "id": "japan-kumamoto-greenland-verde-0111-tw-incheon",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "구마모토",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-16",
+    "title": "[인천출발] 일본 구마모토 골프여행 그린랜드CC 베르데호텔 1월 3회 특가 3박4일 72홀 트리니티항공 직항 1,190,000원부터",
+    "subtitle": "트리니티항공 인천-구마모토 직항 · 그린랜드 리조트 공식 베르데호텔 · 그린랜드CC 72홀(주중 9홀 서비스) · 가이세키 석식 1회 · 1/11·12·13 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "72홀 (1일차 18홀 + 2일차 27홀 + 3일차 27홀)",
+    "minPeople": "2인 (4인 출발 기준 요금, 인원별 추가요금)",
+    "period": "2027년 1월 11일(월) · 12일(화) · 13일(수) 3회 출발",
+    "hotel": "베르데호텔 또는 동급 (2인 1실)",
+    "hotelDesc": "구마모토현 아라오시 그린랜드 리조트의 공식 호텔입니다. 객실이 넓고 천연 온천과 노천탕이 있으며 입욕료가 포함됩니다. 그린랜드 골프장까지 차로 약 2분이고 슈퍼마켓·편의점·식당과 유원지가 걸어서 10분 안쪽에 있습니다. 석식은 뷔페 2회와 가이세키 1회로 구성됩니다.",
+    "golfCourse": "그린랜드CC (오렌지 18홀 · 그린 9홀 · 화이트 9홀, 총 36홀)",
+    "golfCourseDesc": "그린랜드 유원지 바로 옆에 있는 36홀 셀프 코스로 오렌지 18홀과 그린·화이트 각 9홀로 나뉩니다. 2인승 카트로 페어웨이에 진입할 수 있고 카트 내비게이션으로 거리를 확인하며 라운딩합니다. 구릉 지형에 하얀 모래 벙커와 연못이 어우러져 초보자부터 상급자까지 즐길 수 있습니다.",
+    "productSummary": "트리니티항공 직항으로 구마모토공항에 내려 그린랜드 리조트 베르데호텔에 머무는 1월 3회 한정 3박4일 상품입니다. 그린랜드CC에서 총 72홀(주중 9홀 서비스 포함)을 라운딩하고, 조식·석식(가이세키 1회)과 온천 입욕, 송영차량이 포함됩니다. 조조 패턴이라 첫날부터 18홀을 칩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 구마모토 · 그린랜드CC 18홀",
+        "desc": "인천국제공항 출발(트리니티항공 TW287 07:50) → 구마모토공항 도착(09:25) → 기사 미팅 후 골프장 이동(약 60분) → 그린랜드CC 18홀(셀프+카트, 스루플레이·일몰까지) → 호텔 체크인 후 석식 [중식 불포함 / 석식 뷔페] [호텔: 베르데호텔 또는 동급 2인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "그린랜드CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 그린랜드CC 27홀(셀프+카트) → 호텔 복귀 후 석식 [조식 호텔식 / 중식 불포함 / 석식 가이세키]"
+      },
+      {
+        "day": "3일차",
+        "label": "그린랜드CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 그린랜드CC 27홀(셀프+카트) → 호텔 복귀 후 석식 [조식 호텔식 / 중식 불포함 / 석식 뷔페]"
+      },
+      {
+        "day": "4일차",
+        "label": "구마모토 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 기사 미팅 후 공항 이동(약 60분) → 구마모토공항 출발(TW288 10:25) → 인천국제공항 도착(12:05) [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "1월 3회 한정 특가, 트리니티항공 인천-구마모토 직항",
+      "그린랜드CC 총 72홀 (주중 9홀 서비스 포함)",
+      "2인승 카트 페어웨이 진입, 카트 내비게이션",
+      "베르데호텔 온천 입욕 포함, 노천탕 있음",
+      "석식 뷔페·가이세키 1회 업그레이드"
+    ],
+    "includes": [
+      "왕복 항공권 (트리니티항공, 실시간 항공료 1인 370,000원 기준)",
+      "베르데호텔 또는 동급 (2인 1실)",
+      "조식 · 석식 (가이세키 1회 포함)",
+      "온천 입욕료",
+      "그린피·카트피·락카피",
+      "송영차량",
+      "여행자보험"
+    ],
+    "excludes": [
+      "클럽 중식",
+      "캐디 없는 골프장, 가이드 없음",
+      "싱글룸 평일·주말 1인 1박 40,000원",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "4인 출발 기준 요금입니다. 2인 출발은 송영비(전 일정) 1인 130,000원과 주말·일본 연휴 라운드 18홀당 1인 20,000원이, 3인 출발은 송영비 1인 50,000원과 주말·일본 연휴 라운드 18홀당 1인 10,000원이 추가됩니다.",
+      "다른 손님과 동승하면 송영 추가요금이 없고, 주중에는 2백·3백 추가요금이 없습니다.",
+      "송영차량은 공항-골프장-호텔 간 이용만 가능하며 다른 일행과 동승할 수 있으니 시간을 지켜 주세요.",
+      "1일차는 18홀 스루플레이로 일몰까지 라운딩하며, 입국 수속 지연·항공 연착으로 못 친 라운드는 환불되지 않습니다.",
+      "실시간 항공권 기준 요금이라 좌석이 소진되면 요금이 오를 수 있습니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변동될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-11",
+        "price": 1250000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1190000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1190000
+      }
+    ],
+    "seoIntro": "인천 출발 일본 구마모토 골프여행 1월 3회 특가 3박4일 상품으로, 그린랜드 리조트 베르데호텔에 묵으며 그린랜드CC에서 72홀을 라운딩하는 트리니티항공 직항 골프패키지입니다.",
+    "seoKeywords": [
+      "구마모토골프",
+      "구마모토골프여행",
+      "그린랜드CC",
+      "베르데호텔",
+      "일본골프여행",
+      "1월골프여행",
+      "인천출발"
+    ],
+    "displayTitle": "구마모토 그린랜드CC 베르데호텔 1월 특가 (트리니티)",
+    "image": "/images/kumamoto-greenland-verde-incheon/course-1.jpg",
+    "images": [
+      "/images/kumamoto-greenland-verde-incheon/course-1.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-2.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-1.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-3.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-2.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/kumamoto-greenland-verde-incheon/hotel-1.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-2.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-3.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-4.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-5.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-6.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-7.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-8.jpg"
+    ],
+    "courseImages": [
+      "/images/kumamoto-greenland-verde-incheon/course-1.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-2.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-3.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-4.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-5.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-6.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-7.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-8.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-9.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-10.jpg"
+    ],
+    "price": "1,190,000원~"
+  },
+  {
+    "id": "japan-kumamoto-greenland-verde-0111-ke-incheon",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "구마모토",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-16",
+    "title": "[인천출발] 일본 구마모토 골프여행 그린랜드CC 베르데호텔 1월 3회 특가 3박4일 72홀 대한항공 직항 1,250,000원부터",
+    "subtitle": "대한항공 인천-구마모토 직항 · 그린랜드 리조트 공식 베르데호텔 · 그린랜드CC 72홀(주중 9홀 서비스) · 가이세키 석식 1회 · 1/11·12·13 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "72홀 (2일차 27홀 + 3일차 27홀 + 4일차 18홀)",
+    "minPeople": "2인 (4인 출발 기준 요금, 인원별 추가요금)",
+    "period": "2027년 1월 11일(월) · 12일(화) · 13일(수) 3회 출발",
+    "hotel": "베르데호텔 또는 동급 (2인 1실)",
+    "hotelDesc": "구마모토현 아라오시 그린랜드 리조트의 공식 호텔입니다. 객실이 넓고 천연 온천과 노천탕이 있으며 입욕료가 포함됩니다. 그린랜드 골프장까지 차로 약 2분이고 슈퍼마켓·편의점·식당과 유원지가 걸어서 10분 안쪽에 있습니다. 석식은 뷔페 2회와 가이세키 1회로 구성됩니다.",
+    "golfCourse": "그린랜드CC (오렌지 18홀 · 그린 9홀 · 화이트 9홀, 총 36홀)",
+    "golfCourseDesc": "그린랜드 유원지 바로 옆에 있는 36홀 셀프 코스로 오렌지 18홀과 그린·화이트 각 9홀로 나뉩니다. 2인승 카트로 페어웨이에 진입할 수 있고 카트 내비게이션으로 거리를 확인하며 라운딩합니다. 구릉 지형에 하얀 모래 벙커와 연못이 어우러져 초보자부터 상급자까지 즐길 수 있습니다.",
+    "productSummary": "대한항공 직항으로 구마모토공항에 내려 그린랜드 리조트 베르데호텔에 머무는 1월 3회 한정 3박4일 상품입니다. 그린랜드CC에서 총 72홀(주중 9홀 서비스 포함)을 라운딩하고, 조식·석식(가이세키 1회)과 온천 입욕, 송영차량이 포함됩니다. 석석 패턴이라 마지막 날 18홀을 치고 저녁 비행기로 돌아옵니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 구마모토",
+        "desc": "인천국제공항 출발(대한항공 KE2155 16:45) → 구마모토공항 도착(18:20) → 기사 미팅 후 호텔 이동(약 60분) → 체크인 후 석식(도시락) [석식 도시락] [호텔: 베르데호텔 또는 동급 2인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "그린랜드CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 그린랜드CC 27홀(셀프+카트) → 호텔 복귀 후 석식 [조식 호텔식 / 중식 불포함 / 석식 가이세키]"
+      },
+      {
+        "day": "3일차",
+        "label": "그린랜드CC 27홀",
+        "desc": "호텔 조식 후 골프장 이동 → 그린랜드CC 27홀(셀프+카트) → 호텔 복귀 후 석식 [조식 호텔식 / 중식 불포함 / 석식 뷔페]"
+      },
+      {
+        "day": "4일차",
+        "label": "그린랜드CC 18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 그린랜드CC 18홀(셀프+카트) → 구마모토공항 이동(약 60분) → 구마모토공항 출발(KE2156 19:30) → 인천국제공항 도착(21:15) [조식 호텔식 / 중식·석식 불포함]"
+      }
+    ],
+    "highlights": [
+      "1월 3회 한정 특가, 대한항공 인천-구마모토 직항",
+      "그린랜드CC 총 72홀 (주중 9홀 서비스 포함)",
+      "2인승 카트 페어웨이 진입, 카트 내비게이션",
+      "베르데호텔 온천 입욕 포함, 노천탕 있음",
+      "석식 뷔페·가이세키 1회 업그레이드"
+    ],
+    "includes": [
+      "왕복 항공권 (대한항공, 실시간 항공료 1인 430,000원 기준)",
+      "베르데호텔 또는 동급 (2인 1실)",
+      "조식 · 석식 (가이세키 1회 포함)",
+      "온천 입욕료",
+      "그린피·카트피·락카피",
+      "송영차량",
+      "여행자보험"
+    ],
+    "excludes": [
+      "클럽 중식",
+      "캐디 없는 골프장, 가이드 없음",
+      "싱글룸 평일·주말 1인 1박 40,000원",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "4인 출발 기준 요금입니다. 2인 출발은 송영비(전 일정) 1인 130,000원과 주말·일본 연휴 라운드 18홀당 1인 20,000원이, 3인 출발은 송영비 1인 50,000원과 주말·일본 연휴 라운드 18홀당 1인 10,000원이 추가됩니다.",
+      "다른 손님과 동승하면 송영 추가요금이 없고, 주중에는 2백·3백 추가요금이 없습니다.",
+      "송영차량은 공항-골프장-호텔 간 이용만 가능하며 다른 일행과 동승할 수 있으니 시간을 지켜 주세요.",
+      "1일차 석식은 항공 시간 때문에 도시락으로 제공되며, 원하지 않으면 빼고 1인 20,000원을 차감합니다.",
+      "실시간 항공권 기준 요금이라 좌석이 소진되면 요금이 오를 수 있습니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변동될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-11",
+        "price": 1250000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1250000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1290000
+      }
+    ],
+    "seoIntro": "인천 출발 일본 구마모토 골프여행 1월 3회 특가 3박4일 상품으로, 그린랜드 리조트 베르데호텔에 묵으며 그린랜드CC에서 72홀을 라운딩하는 대한항공 직항 골프패키지입니다.",
+    "seoKeywords": [
+      "구마모토골프",
+      "구마모토골프여행",
+      "그린랜드CC",
+      "베르데호텔",
+      "일본골프여행",
+      "1월골프여행",
+      "인천출발"
+    ],
+    "displayTitle": "구마모토 그린랜드CC 베르데호텔 1월 특가 (대한항공)",
+    "image": "/images/kumamoto-greenland-verde-incheon/course-1.jpg",
+    "images": [
+      "/images/kumamoto-greenland-verde-incheon/course-1.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-2.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-1.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-3.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-2.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-4.jpg"
+    ],
+    "hotelImages": [
+      "/images/kumamoto-greenland-verde-incheon/hotel-1.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-2.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-3.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-4.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-5.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-6.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-7.jpg",
+      "/images/kumamoto-greenland-verde-incheon/hotel-8.jpg"
+    ],
+    "courseImages": [
+      "/images/kumamoto-greenland-verde-incheon/course-1.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-2.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-3.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-4.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-5.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-6.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-7.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-8.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-9.jpg",
+      "/images/kumamoto-greenland-verde-incheon/course-10.jpg"
+    ],
+    "price": "1,250,000원~"
+  },
+  {
     "id": "japan-miyakojima-risingsun-3color-incheon",
     "country": "일본",
     "countryCode": "japan",
