@@ -13,6 +13,7 @@ import CountryFlag from "@/components/CountryFlag";
 import HolePriceTierSelector from "@/components/HolePriceTierSelector";
 import ViewItemTracker from "@/components/ViewItemTracker";
 import ShareButton from "@/components/ShareButton";
+import SearchBackLink from "@/components/SearchBackLink";
 import { Sentences, Steps } from "@/components/ReadableText";
 import { IconCalendarDays, IconCircleHelp, IconPlaneTakeoff, IconPlaneLanding, IconArrowRight, IconArrowLeft, IconMoon, IconUsers, IconSparkles, IconCheck, IconCircleCheck, IconCircleX, IconBuilding, IconPin, IconFlag } from "@/components/icons/MenuIcons";
 
@@ -361,6 +362,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
           <li aria-current="page" className="hidden min-[400px]:block text-slate-800 font-semibold truncate">상품 상세</li>
         </ol>
       </nav>
+
+      {/* 검색 카드로 들어왔으면 검색 결과로 돌아가는 줄 (2026-11-17) */}
+      <SearchBackLink variant="top" />
 
       {/* ── 상단: 왼쪽 사진 갤러리 55 + 오른쪽 상품 정보 45 (사장님 작업지시 2026-10-25, 어두운 덮개 제거) ── */}
       <div className="max-w-6xl mx-auto px-4 pt-5 md:pt-7">
@@ -786,9 +790,14 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
 
         {/* ── 뒤로가기 — 화면 전체 기준 가운데, 위아래 여백은 기존의 1/3 (사장님 지시 2026-10-25) */}
         <div className="text-center pt-3 pb-7 md:py-3 -mt-2 md:mt-0">
-          <Link href={`/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}`} className="group inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-800 font-semibold text-[15px]">
-            <IconArrowLeft className="w-[18px] h-[18px] transition-transform md:group-hover:-translate-x-0.5" />{tour.country} 상품 목록으로
-          </Link>
+          <SearchBackLink
+            variant="bottom"
+            fallback={
+              <Link href={`/tours?country=${tour.countryCode}${dep ? `&departure=${dep}` : ""}`} className="group inline-flex items-center gap-2 text-emerald-700 hover:text-emerald-800 font-semibold text-[15px]">
+                <IconArrowLeft className="w-[18px] h-[18px] transition-transform md:group-hover:-translate-x-0.5" />{tour.country} 상품 목록으로
+              </Link>
+            }
+          />
         </div>
       </div>
     </div>

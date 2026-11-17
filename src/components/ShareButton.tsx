@@ -16,15 +16,22 @@ export default function ShareButton({
   title,
   itemId,
   className = "",
+  keepQuery = false,
+  label = "공유하기",
+  ariaLabel = "이 상품 공유하기",
 }: {
   title: string;
   itemId: string;
   className?: string;
+  /** 검색 결과처럼 조건이 주소에 들어 있는 화면 — 물음표 뒤까지 그대로 보낸다 (2026-11-17) */
+  keepQuery?: boolean;
+  label?: string;
+  ariaLabel?: string;
 }) {
   const [copied, setCopied] = useState(false);
 
   async function handleShare() {
-    const url = typeof window !== "undefined" ? window.location.href.split("?")[0] : "";
+    const url = typeof window !== "undefined" ? (keepQuery ? window.location.href.split("#")[0] : window.location.href.split("?")[0]) : "";
 
     // 휴대폰 기본 공유 시트 (지원되는 기기에서만)
     if (typeof navigator !== "undefined" && navigator.share) {
@@ -53,7 +60,8 @@ export default function ShareButton({
   return (
     <button
       onClick={handleShare}
-      aria-label="이 상품 공유하기"
+      type="button"
+      aria-label={ariaLabel}
       className={`inline-flex items-center justify-center gap-2 transition-colors ${className}`}
     >
       {copied ? (
@@ -64,7 +72,7 @@ export default function ShareButton({
       ) : (
         <>
           <IconLink className="w-4 h-4" />
-          공유하기
+          {label}
         </>
       )}
     </button>

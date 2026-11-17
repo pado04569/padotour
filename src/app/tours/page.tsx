@@ -1,6 +1,8 @@
 "use client";
 
-import { Suspense, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
+import ShareButton from "@/components/ShareButton";
+import { saveLastSearch } from "@/components/SearchBackLink";
 import Link from "next/link";
 import TourCard from "@/components/TourCard";
 import { tours, countries } from "@/data/tours";
@@ -197,6 +199,11 @@ function ToursContent() {
     nightsParam ? nightsText(nightsParam) : "",
     peopleUnset ? "" : `${people}명`,
   ].filter(Boolean).join(" · ");
+  // 상세에서 "검색 결과로 돌아가기"가 쓸 마지막 검색 주소·조건 (이 탭에만 저장, 2026-11-17)
+  const queryKey = searchParams.toString();
+  useEffect(() => {
+    saveLastSearch(searching ? { href: `/tours?${queryKey}`, label: searchCondition } : null);
+  }, [searching, queryKey, searchCondition]);
   // 검색 결과 — ① 조건에 맞는 상품 ② (없으면) 가까운 출발일 ③ 인원이 더 필요한 상품. 서로 섞지 않는다
   function renderResults() {
     return (
@@ -228,6 +235,15 @@ function ToursContent() {
               </p>
               <p className="text-sm text-body-text mt-0.5">{conditionText}</p>
               {dateParam && <p className="text-sm text-body-text">카드의 요금은 {dateLabel(dateParam, "plain")} 출발 1인 요금입니다.</p>}
+              {/* 휴대폰은 주소창이 안 보여 검색 결과를 보낼 방법이 없었다 (사장님 지적 2026-11-17) */}
+              <ShareButton
+                keepQuery
+                title={`여행의 파도 ${searchCondition} 골프여행 상품 ${filtered.length}개`}
+                itemId="search-results"
+                label="이 검색 결과 공유하기"
+                ariaLabel="이 검색 결과 공유하기"
+                className="mt-2.5 min-h-11 px-4 rounded-full border-[1.5px] border-emerald-500 bg-white hover:bg-emerald-50 text-emerald-800 text-base font-bold"
+              />
             </div>
             <div className={grid}>{filtered.map(card)}</div>
           </>
