@@ -1,3 +1,4 @@
+import { OG_DEFAULT_IMAGES } from "@/lib/ogImage";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -57,7 +58,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
     title,
     description,
     alternates: { canonical: `${SITE}/guide/${d.g.slug}` },
-    openGraph: { title, description, url: `${SITE}/guide/${d.g.slug}`, images: d.hero ? [{ url: d.hero }] : undefined },
+    openGraph: { title, description, url: `${SITE}/guide/${d.g.slug}`, images: d.hero ? [{ url: d.hero }] : OG_DEFAULT_IMAGES },
   };
 }
 

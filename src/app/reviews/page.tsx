@@ -1,3 +1,4 @@
+import { OG_DEFAULT_IMAGES } from "@/lib/ogImage";
 import { reviews } from "@/data/reviews";
 import ReviewBrowser from "@/components/ReviewBrowser";
 
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
     title: "고객 후기 | 여행의 파도 골프여행",
     description: "여행의 파도와 함께 해외 골프여행을 다녀오신 고객들의 실제 후기입니다.",
     url: "https://www.padotour.com/reviews",
+    images: OG_DEFAULT_IMAGES,
   },
 };
 

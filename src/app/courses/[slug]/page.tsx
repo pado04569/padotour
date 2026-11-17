@@ -1,3 +1,4 @@
+import { OG_DEFAULT_IMAGES } from "@/lib/ogImage";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -35,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title,
       description,
       url: `${SITE_URL}/courses/${course.slug}`,
-      images: course.images.length > 0 ? [{ url: course.images[0] }] : undefined,
+      images: course.images.length > 0 ? [{ url: course.images[0] }] : OG_DEFAULT_IMAGES,
     },
   };
 }

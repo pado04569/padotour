@@ -1,3 +1,4 @@
+import { OG_DEFAULT_IMAGES } from "@/lib/ogImage";
 import { notices } from "@/data/reviews";
 import { IconMegaphone, IconChat } from "@/components/icons/MenuIcons";
 import { tours } from "@/data/tours";
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
     title: "공지·이벤트 | 여행의 파도 골프여행",
     description: "여행의 파도 골프여행 특가 소식과 신규 상품 안내입니다.",
     url: "https://www.padotour.com/notice",
+    images: OG_DEFAULT_IMAGES,
   },
 };
 

@@ -1,3 +1,4 @@
+import { OG_DEFAULT_IMAGES } from "@/lib/ogImage";
 import Link from "next/link";
 import TourCard from "@/components/TourCard";
 import DestinationSpotlight from "@/components/DestinationSpotlight";
@@ -17,6 +18,7 @@ export const metadata: Metadata = {
     title: "인천출발 골프여행 | 여행의 파도",
     description: "인천공항 출발 해외 골프여행 패키지. 일본·태국·중국·베트남·필리핀 골프투어 일정과 요금을 확인하세요.",
     url: "https://www.padotour.com/incheon",
+    images: OG_DEFAULT_IMAGES,
   },
 };
 

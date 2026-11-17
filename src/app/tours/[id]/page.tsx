@@ -1,3 +1,4 @@
+import { OG_DEFAULT_IMAGES } from "@/lib/ogImage";
 import Link from "next/link";
 import { tours, endedTours } from "@/data/tours";
 import { courses } from "@/data/courses";
@@ -73,7 +74,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
       title: tour.title,
       description,
       url: `https://www.padotour.com/tours/${tour.id}`,
-      images: tour.image ? [{ url: tour.image }] : undefined,
+      images: tour.image ? [{ url: tour.image }] : OG_DEFAULT_IMAGES,
     },
   };
 }

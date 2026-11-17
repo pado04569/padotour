@@ -1,3 +1,4 @@
+import { OG_DEFAULT_IMAGES } from "@/lib/ogImage";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { tours, type Tour } from "@/data/tours";
@@ -109,7 +110,7 @@ export function generateMetadata(): Metadata {
     title,
     description,
     alternates: { canonical: `${SITE}${PATH}` },
-    openGraph: { title, description, url: `${SITE}${PATH}` },
+    openGraph: { title, description, url: `${SITE}${PATH}`, images: OG_DEFAULT_IMAGES },
   };
 }
 
