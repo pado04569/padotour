@@ -114,7 +114,8 @@ export default function DeparturePriceCalendar({ departurePrices, closedDates = 
     // 문의 패널(InquiryDock)이 듣기 시작한 뒤에 알리도록 한 박자 늦춘다 — 같은 순간에 보내면 패널이 못 받는다 (2026-10-25 검증에서 발견)
     const id = window.setTimeout(() => {
       if (entryMap.has(ds)) pick(ds);
-      else setHint({ day: ds, nearest: nearestDeparture(ds), searched: true });
+      // 검색해 온 날짜가 마감·별도문의 날짜면 달력에서 눌렀을 때와 같은 안내를 보여 준다 (2026-11-17 점검)
+      else setHint({ day: ds, nearest: nearestDeparture(ds), searched: true, closed: closedMap.get(ds) });
     }, 0);
     return () => window.clearTimeout(id);
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
