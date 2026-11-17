@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       title,
       description,
       url: `${SITE_URL}/courses/${course.slug}`,
-      images: course.images.length > 0 ? [{ url: course.images[0] }] : OG_DEFAULT_IMAGES,
+      images: OG_DEFAULT_IMAGES, // 카톡 미리보기는 전 화면 같은 그림 (사장님 2026-11-17 '통일')
     },
   };
 }

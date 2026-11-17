@@ -74,7 +74,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
       title: tour.title,
       description,
       url: `https://www.padotour.com/tours/${tour.id}`,
-      images: tour.image ? [{ url: tour.image }] : OG_DEFAULT_IMAGES,
+      images: OG_DEFAULT_IMAGES, // 카톡 미리보기는 전 화면 같은 그림 (사장님 2026-11-17 '통일')
     },
   };
 }

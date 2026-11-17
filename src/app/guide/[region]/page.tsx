@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: { params: Promise<{ region: s
     title,
     description,
     alternates: { canonical: `${SITE}/guide/${d.g.slug}` },
-    openGraph: { title, description, url: `${SITE}/guide/${d.g.slug}`, images: d.hero ? [{ url: d.hero }] : OG_DEFAULT_IMAGES },
+    openGraph: { title, description, url: `${SITE}/guide/${d.g.slug}`, images: OG_DEFAULT_IMAGES },
   };
 }
 
