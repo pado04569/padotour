@@ -6322,7 +6322,8 @@
     ],
     "relatedTourIds": [
       "vietnam-haiphong-sonofelice",
-      "vietnam-haiphong-sonofelice-city-combo"
+      "vietnam-haiphong-sonofelice-city-combo",
+      "vietnam-haiphong-sonofelice-vinpearl-2color-incheon"
     ]
   },
   {
@@ -12219,6 +12220,62 @@
     ],
     "relatedTourIds": [
       "japan-kumamoto-yatsushiro-grandchampion-4n5d-incheon"
+    ]
+  },
+  {
+    "slug": "vinpearl-golf-haiphong",
+    "name": "빈펄 골프 하이퐁",
+    "nameEn": "Vinpearl Golf Hai Phong",
+    "region": "하롱·하이퐁",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "aliases": [
+      "빈펄CC 하이퐁",
+      "빈펄 하이퐁",
+      "빈펄CC",
+      "빈펄골프 하이퐁"
+    ],
+    "summary": "하이퐁 부옌섬의 36홀 골프장, 레이크사이드·마시랜드 두 코스(각 파72)를 갖춘 빈펄 계열 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 (레이크사이드 18홀 · 마시랜드 18홀)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "각 파72 · 레이크사이드 7,318야드 · 마시랜드 7,508야드 (빈펄 공식 안내 기준)"
+      },
+      {
+        "label": "설계",
+        "value": "IMG 월드와이드 (IMG Worldwide)"
+      },
+      {
+        "label": "개장",
+        "value": "2017년"
+      },
+      {
+        "label": "소재지",
+        "value": "베트남 하이퐁시 부옌섬 (Vu Yen Island)"
+      }
+    ],
+    "description": "빈펄 골프 하이퐁은 하이퐁 시내에서 강 건너편 부옌섬에 있는 36홀 골프장입니다. 2017년에 문을 열었고 IMG 월드와이드가 설계했습니다.\n\n레이크사이드와 마시랜드 두 코스가 모두 파72이며, 빈펄 공식 안내 기준 레이크사이드는 7,318야드, 마시랜드는 7,508야드입니다. 섬 지형을 따라 물길과 호수가 코스 곳곳에 이어집니다.\n\n여행의파도 하이퐁 2색 골프여행에서는 소노펠리체 리조트에 머물며 이곳에서 18홀을 한 번 라운딩합니다.",
+    "images": [
+      "/images/haiphong-vinpearl/course-1.jpg",
+      "/images/haiphong-vinpearl/course-2.jpg",
+      "/images/haiphong-vinpearl/course-3.jpg"
+    ],
+    "hashtags": [
+      "빈펄골프하이퐁",
+      "하이퐁골프장",
+      "하이퐁골프여행",
+      "베트남골프여행",
+      "골프패키지",
+      "빈펄하이퐁",
+      "하롱베이골프",
+      "베트남골프장"
+    ],
+    "relatedTourIds": [
+      "vietnam-haiphong-sonofelice-vinpearl-2color-incheon"
     ]
   }
 ]
