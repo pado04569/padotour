@@ -3219,7 +3219,8 @@
       "china-xiamen-landin-3color-3n4d",
       "china-xiamen-landin-3color-4n5d",
       "china-xiamen-nantaiwu-3n4d",
-      "china-xiamen-nantaiwu-4n5d"
+      "china-xiamen-nantaiwu-4n5d",
+      "china-xiamen-dongfang-quanzhou-mazu-4n5d-incheon"
     ]
   },
   {
@@ -10938,7 +10939,10 @@
       "중국골프여행",
       "샤먼3색골프"
     ],
-    "relatedTourIds": []
+    "relatedTourIds": [
+      "china-xiamen-quanzhou-mazu-3n4d-incheon",
+      "china-xiamen-dongfang-quanzhou-mazu-4n5d-incheon"
+    ]
   },
   {
     "slug": "rsu-vista-gc",

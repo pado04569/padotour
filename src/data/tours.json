@@ -1092,6 +1092,519 @@
     "displayTitle": "동방·천주·남태무CC 3색 골프여행"
   },
   {
+    "id": "china-xiamen-quanzhou-mazu-3n4d-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "샤먼",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-18",
+    "title": "[인천출발] 중국 샤먼 골프여행 천주CC·마조CC 2색 3박4일 72홀 푸텐 JI호텔·마조리조트 이스타항공 직항 1,150,000원부터",
+    "subtitle": "이스타항공 인천-샤먼 직항 · 천주CC 18홀 + 마조CC 27홀 x 2회 · 푸텐 JI호텔 또는 마조리조트 3박 · 조식·석식 3회 포함 · 수·목 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 2,
+    "roundsIncluded": 3,
+    "holes": "72홀 (천주CC 18홀 + 마조CC 27홀 x 2회)",
+    "minPeople": "4인부터 (2~3인은 예약 때 문의)",
+    "period": "2026년 11월 25일 ~ 2027년 3월 24일 (매주 수·목 출발, 출발일별 요금)",
+    "hotel": "푸텐 JI호텔 또는 마조리조트 (2인 1실)",
+    "hotelDesc": "현대적인 시설과 동양적인 분위기가 어우러진 호텔로, 깔끔한 객실과 편안한 침구, 현대적인 편의시설을 갖췄습니다. 조식 레스토랑·피트니스센터·세탁시설이 있습니다. 현지 사정에 따라 마조리조트로 배정될 수 있습니다.",
+    "golfCourse": "천주CC · 마조CC",
+    "golfCourseDesc": "첫날 샤먼에 도착해 천주CC(코스코 골프장)에서 18홀을 라운딩하고, 2~3일차에는 푸텐의 마조CC에서 하루 27홀씩 라운딩해 총 72홀을 칩니다. 마조CC는 바다와 산세가 어우러진 해안 산악형 코스입니다.",
+    "productSummary": "이스타항공 직항으로 샤먼에 가서 첫날 천주CC 18홀, 이후 푸텐 마조CC에서 27홀씩 두 번, 총 72홀을 라운딩하는 2색 상품입니다.\n항공·호텔·조식·석식 3회·그린피가 포함되고, 카트비·캐디피와 미팅·샌딩비는 현지에서 냅니다. 매주 수·목 출발입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 샤먼 · 천주CC 18홀",
+        "desc": "인천국제공항 출발(이스타항공 ZE891 09:30) → 샤먼 국제공항 도착(12:05) → 천주로 이동(약 60분) → 천주CC 18홀 라운딩(라이트 비용 무료) → 석식 후 푸텐으로 이동(약 60분) → 호텔 투숙 [중식 기내식 / 석식 현지식] [호텔: 푸텐 JI호텔 또는 마조리조트]"
+      },
+      {
+        "day": "2일차",
+        "label": "마조CC 27홀",
+        "desc": "호텔 조식 후 마조CC 27홀 라운딩 → 호텔 투숙 및 휴식 [조식 호텔식 / 중식 불포함 / 석식 샤브샤브]"
+      },
+      {
+        "day": "3일차",
+        "label": "마조CC 27홀",
+        "desc": "호텔 조식 후 마조CC 27홀 라운딩 → 호텔 투숙 및 휴식 [조식 호텔식 / 중식 불포함 / 석식 동북요리]"
+      },
+      {
+        "day": "4일차",
+        "label": "샤먼 → 인천",
+        "desc": "호텔 조식 후 샤먼 공항으로 이동 → 샤먼 출발(ZE892 12:55) → 인천 도착(17:10) [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "이스타항공 인천-샤먼 직항",
+      "천주CC 18홀 + 마조CC 27홀 x 2회 = 72홀",
+      "푸텐 JI호텔 또는 마조리조트 3박 · 조식·석식 3회 포함",
+      "매주 수·목 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (이스타항공, 유류할증료·TAX 포함)",
+      "푸텐 JI호텔 또는 마조리조트 3박 (2인 1실)",
+      "조식 3회 · 석식 3회",
+      "72홀 그린피",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디피+카트비 (18홀당 1인 300위안, 현지 지불)",
+      "미팅·샌딩비 (1인 400위안, 현지 지불)",
+      "클럽 중식",
+      "캐디팁 (18홀당 150위안)",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "12월 30·31일, 2월 3·4일 출발은 연휴 기간이라 요금을 따로 문의해 주세요.",
+      "상기 일정은 여러 여행사 손님이 함께 움직이는 연합 행사입니다.",
+      "카트비·캐디피는 현지 도착 후 한꺼번에 내며, 천재지변 외 개인 사정으로 라운딩을 취소하면 환불되지 않습니다.",
+      "주말·명절 기간 2인 단독 라운딩은 예약이 안 되거나 현지에서 다른 팀과 조인될 수 있습니다. 골프장 라운딩 순서는 현지 사정에 따라 바뀔 수 있습니다.",
+      "신정·설 연휴 기간은 지상비가 올라 요금을 따로 문의해 주세요.",
+      "상기 일정은 항공 및 현지 사정에 의해 다소 변동될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-25",
+        "price": 1150000
+      },
+      {
+        "date": "2026-11-26",
+        "price": 1180000
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1180000
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1210000
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1180000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1210000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1180000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1210000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1220000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1250000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1220000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1250000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1220000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1250000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1220000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1250000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1220000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1250000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1220000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1250000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1220000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1250000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1220000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1250000
+      },
+      {
+        "date": "2027-03-03",
+        "price": 1150000
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1180000
+      },
+      {
+        "date": "2027-03-10",
+        "price": 1150000
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1180000
+      },
+      {
+        "date": "2027-03-17",
+        "price": 1150000
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1180000
+      },
+      {
+        "date": "2027-03-24",
+        "price": 1150000
+      }
+    ],
+    "price": "1,150,000원~",
+    "image": "/images/xiamen-quanzhou-mazu-incheon/course-1.jpg",
+    "images": [
+      "/images/xiamen-quanzhou-mazu-incheon/course-1.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/hotel-1.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-2.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/hotel-2.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-7.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-3.jpg"
+    ],
+    "courseImages": [
+      "/images/xiamen-quanzhou-mazu-incheon/course-1.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-2.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-3.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-4.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-5.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-6.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-7.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-8.jpg"
+    ],
+    "hotelImages": [
+      "/images/xiamen-quanzhou-mazu-incheon/hotel-1.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/hotel-2.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/hotel-3.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/hotel-4.jpg"
+    ],
+    "seoIntro": "인천 출발 중국 샤먼 골프여행 3박4일 상품으로, 이스타항공 직항을 타고 천주CC 18홀과 푸텐 마조CC 27홀 두 번으로 72홀을 라운딩하는 골프패키지입니다.",
+    "seoKeywords": [
+      "샤먼골프",
+      "샤먼골프여행",
+      "마조CC",
+      "천주CC",
+      "중국골프여행",
+      "인천출발"
+    ],
+    "displayTitle": "샤먼 천주·마조CC 2색 골프여행 3박4일",
+    "closedDates": [
+      {
+        "date": "2026-12-30",
+        "status": "문의"
+      },
+      {
+        "date": "2026-12-31",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-03",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-04",
+        "status": "문의"
+      }
+    ]
+  },
+  {
+    "id": "china-xiamen-dongfang-quanzhou-mazu-4n5d-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "샤먼",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-18",
+    "title": "[인천출발] 중국 샤먼 골프여행 동방CC·천주CC·마조CC 3색 4박5일 90홀 푸텐 JI호텔·마조리조트 이스타항공 직항 1,440,000원부터",
+    "subtitle": "이스타항공 인천-샤먼 직항 · 동방CC 18홀 + 천주CC 18홀 + 마조CC 27홀 x 2회 · 샤먼 1박 + 푸텐 JI호텔 또는 마조리조트 3박 · 조식·석식 4회 포함 · 토·일 출발",
+    "nights": 4,
+    "days": 5,
+    "courses": 3,
+    "roundsIncluded": 4,
+    "holes": "90홀 (동방CC 18홀 + 천주CC 18홀 + 마조CC 27홀 x 2회)",
+    "minPeople": "4인부터 (2~3인은 예약 때 문의)",
+    "period": "2026년 11월 22일 ~ 2027년 3월 21일 (매주 토·일 출발, 출발일별 요금)",
+    "hotel": "샤먼 디스커버리호텔 또는 동급 1박 + 푸텐 JI호텔 또는 마조리조트 3박 (2인 1실)",
+    "hotelDesc": "현대적인 시설과 동양적인 분위기가 어우러진 호텔로, 깔끔한 객실과 편안한 침구, 현대적인 편의시설을 갖췄습니다. 조식 레스토랑·피트니스센터·세탁시설이 있습니다. 현지 사정에 따라 마조리조트로 배정될 수 있습니다.",
+    "golfCourse": "동방CC · 천주CC · 마조CC",
+    "golfCourseDesc": "첫날 샤먼 동방CC 18홀, 2일차 천주CC 18홀, 3~4일차 푸텐 마조CC에서 하루 27홀씩 라운딩해 총 90홀을 칩니다. 동방CC는 로널드 프림이 설계한 27홀 명문 코스이고, 마조CC는 바다와 산세가 어우러진 해안 산악형 코스입니다.",
+    "productSummary": "이스타항공 직항으로 샤먼에 가서 동방CC·천주CC를 한 번씩, 푸텐 마조CC를 27홀씩 두 번, 총 90홀을 라운딩하는 3색 상품입니다.\n항공·호텔 4박·조식·석식 4회·그린피가 포함되고, 카트비·캐디피와 미팅·샌딩비는 현지에서 냅니다. 매주 토·일 출발입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 샤먼 · 동방CC 18홀",
+        "desc": "인천국제공항 출발(이스타항공 ZE891 09:30) → 샤먼 국제공항 도착(12:05) → 골프장 이동(약 35분) → 동방CC 18홀 라운딩(첫날은 일몰이 약 18시라 18홀을 다 못 마칠 수 있으며 라이트 요청 시 1인 홀당 $4 추가) → 호텔 투숙 [중식 기내식 / 석식 항주요리] [호텔: 샤먼 디스커버리호텔 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "천주CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 65분) → 천주CC 18홀 라운딩 → 푸텐 호텔 투숙 [조식 호텔식 / 중식 불포함 / 석식 사천요리] [호텔: 푸텐 JI호텔 또는 마조리조트]"
+      },
+      {
+        "day": "3일차",
+        "label": "마조CC 27홀",
+        "desc": "호텔 조식 후 마조CC 27홀 라운딩 → 호텔 투숙 및 휴식 [조식 호텔식 / 중식 불포함 / 석식 샤브샤브]"
+      },
+      {
+        "day": "4일차",
+        "label": "마조CC 27홀",
+        "desc": "호텔 조식 후 마조CC 27홀 라운딩 → 호텔 투숙 및 휴식 [조식 호텔식 / 중식 불포함 / 석식 동북요리]"
+      },
+      {
+        "day": "5일차",
+        "label": "샤먼 → 인천",
+        "desc": "호텔 조식 후 샤먼 공항으로 이동 → 샤먼 출발(ZE892 12:55) → 인천 도착(17:10) [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "이스타항공 인천-샤먼 직항",
+      "동방CC·천주CC 18홀 + 마조CC 27홀 x 2회 = 90홀",
+      "샤먼 1박 + 푸텐 JI호텔 또는 마조리조트 3박 · 조식·석식 4회 포함",
+      "매주 토·일 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (이스타항공, 유류할증료·TAX 포함)",
+      "샤먼 디스커버리호텔 또는 동급 1박 + 푸텐 JI호텔 또는 마조리조트 3박 (2인 1실)",
+      "조식 4회 · 석식 4회",
+      "90홀 그린피",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디피+카트비 (18홀당 1인 300위안, 현지 지불)",
+      "미팅·샌딩비 (1인 400위안, 현지 지불)",
+      "클럽 중식",
+      "캐디팁 (18홀당 150위안)",
+      "첫날 동방CC 라이트 요청 시 1인 홀당 $4",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "2월 6·7일 출발은 설 연휴 기간이라 요금을 따로 문의해 주세요.",
+      "상기 일정은 여러 여행사 손님이 함께 움직이는 연합 행사입니다.",
+      "카트비·캐디피는 현지 도착 후 한꺼번에 내며, 천재지변 외 개인 사정으로 라운딩을 취소하면 환불되지 않습니다.",
+      "주말·명절 기간 2인 단독 라운딩은 예약이 안 되거나 현지에서 다른 팀과 조인될 수 있습니다. 골프장 라운딩 순서는 현지 사정에 따라 바뀔 수 있습니다.",
+      "신정·설 연휴 기간은 지상비가 올라 요금을 따로 문의해 주세요.",
+      "상기 일정은 항공 및 현지 사정에 의해 다소 변동될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-22",
+        "price": 1440000
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1490000
+      },
+      {
+        "date": "2026-11-29",
+        "price": 1440000
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1490000
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1440000
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1490000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1440000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1490000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1440000
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1530000
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1480000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1480000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1480000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1480000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1480000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1480000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1530000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1480000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1530000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1480000
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1530000
+      },
+      {
+        "date": "2027-02-28",
+        "price": 1480000
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1490000
+      },
+      {
+        "date": "2027-03-07",
+        "price": 1440000
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1490000
+      },
+      {
+        "date": "2027-03-14",
+        "price": 1440000
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1490000
+      },
+      {
+        "date": "2027-03-21",
+        "price": 1440000
+      }
+    ],
+    "price": "1,440,000원~",
+    "image": "/images/xiamen-quanzhou-mazu-incheon/course-1.jpg",
+    "images": [
+      "/images/xiamen-quanzhou-mazu-incheon/course-1.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/hotel-1.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-2.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/hotel-2.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-7.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-3.jpg"
+    ],
+    "courseImages": [
+      "/images/xiamen-quanzhou-mazu-incheon/course-1.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-2.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-3.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-4.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-5.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-6.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-7.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-8.jpg"
+    ],
+    "hotelImages": [
+      "/images/xiamen-quanzhou-mazu-incheon/hotel-1.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/hotel-2.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/hotel-3.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/hotel-4.jpg"
+    ],
+    "seoIntro": "인천 출발 중국 샤먼 골프여행 4박5일 상품으로, 이스타항공 직항을 타고 동방CC·천주CC와 푸텐 마조CC 27홀 두 번으로 90홀을 라운딩하는 3색 골프패키지입니다.",
+    "seoKeywords": [
+      "샤먼골프",
+      "샤먼골프여행",
+      "마조CC",
+      "동방CC",
+      "천주CC",
+      "중국골프여행",
+      "인천출발"
+    ],
+    "displayTitle": "샤먼 동방·천주·마조CC 3색 골프여행 4박5일",
+    "closedDates": [
+      {
+        "date": "2027-02-06",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-07",
+        "status": "문의"
+      }
+    ]
+  },
+  {
     "id": "thailand-huahin-springfield",
     "country": "태국",
     "countryCode": "thailand",
