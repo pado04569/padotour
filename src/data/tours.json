@@ -83005,6 +83005,379 @@
     "displayTitle": "가오슝 명문 골프장 특급호텔 골프여행"
   },
   {
+    "id": "laos-vientiane-woodcastle-poolvilla-busan",
+    "country": "라오스",
+    "countryCode": "other",
+    "region": "비엔티안",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-11-18",
+    "title": "[부산출발] 라오스 비엔티안 골프여행 우드캐슬 풀빌라 1인 1실 3박5일 54홀 노쇼핑 제주항공 전세기 1,449,000원부터",
+    "subtitle": "제주항공 김해-비엔티안 직항 전세기(수하물 20KG) · 우드캐슬빌라 1인 1실 3박 · 롱비엔·레이크뷰·메콩·부영CC 중 18홀 x 3회 · 캐디피·카트비 포함 · 조식·석식 · 노쇼핑",
+    "nights": 3,
+    "days": 5,
+    "courses": 4,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 x 3회)\n롱비엔 · 레이크뷰 · 메콩 · 부영CC 중",
+    "minPeople": "4인",
+    "period": "2026년 12월 30일 ~ 2027년 2월 25일 (지정일 수·목 출발)",
+    "hotel": "우드캐슬빌라 (1인 1실)",
+    "hotelDesc": "비엔티안의 우드캐슬빌라에 1인 1실로 머뭅니다. 조식은 빌라에서 제공되고, 석식은 수끼·무제한 삼겹살·한식 등으로 매일 포함됩니다.",
+    "golfCourse": "롱비엔CC · 레이크뷰CC · 메콩CC · 부영CC 중 (18홀 x 3회)",
+    "golfCourseDesc": "롱비엔CC·레이크뷰CC·메콩CC·부영CC 중에서 하루 18홀씩 3회 라운딩합니다. 주중 그린피·캐디피·전동카트(2인 1카트)가 포함되며, 캐디팁·클럽 중식·주말 및 공휴일 추가비·싱글카트 이용료는 별도입니다.",
+    "productSummary": "제주항공 전세기로 부산에서 라오스 비엔티안까지 직항으로 가서, 우드캐슬빌라에 1인 1실로 3박하며 롱비엔·레이크뷰·메콩·부영CC 중에서 18홀씩 3회 라운딩하는 노쇼핑 상품입니다.\n그린피·캐디피·전동카트와 조식·석식, 전신 마사지 60분이 포함되고 4명부터 출발합니다.",
+    "highlights": [
+      "제주항공 김해-비엔티안 직항 전세기 · 수하물 20KG",
+      "롱비엔·레이크뷰·메콩·부영CC 중 18홀 x 3회 (54홀)",
+      "그린피·캐디피·전동카트(2인 1카트) 포함",
+      "우드캐슬빌라 1인 1실 · 노쇼핑",
+      "전신 마사지 60분 · 수·목 출발 · 4명부터"
+    ],
+    "includes": [
+      "4명부터 우리 일행만 단독 행사",
+      "왕복 항공권(제주항공 전세기), 유류할증료(11월 기준) 및 텍스, 수하물 20KG",
+      "우드캐슬빌라 (1인 1실)",
+      "전 일정 조식·석식",
+      "18홀 그린피+캐디피+전동카트(2인 1카트) 3회 (주중 기준)",
+      "전용 차량 · 한국인 가이드",
+      "전신 마사지 60분, 과일 도시락(1인 1개)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "클럽 중식",
+      "캐디팁 (18홀 1인 $15~16, 메콩CC는 2인 1캐디·18홀 1인 $10)",
+      "싱글카트 이용 시 18홀 $15~$25",
+      "주말·공휴일 라운딩 추가 (1일 $10)",
+      "전신 마사지 팁",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "제주항공 전세기 좌석이라 예약 후 예약금 1인 300,000원을 입금하셔야 예약이 확정됩니다.",
+      "4명부터 출발하는 단독 행사이며 숙소는 1인 1실 기준입니다.",
+      "노쇼핑 일정이며, 행사 중 정해진 일정 외 개별 활동은 어렵고 개별 일정 진행 시 1인 $100가 추가됩니다. 선택관광: 전신 마사지 2시간 $40, 비엔티안 시내관광 1인 30,000원.",
+      "라오스는 전자담배 단속이 강화되어 공항·거리에서 적발 시 압수·벌금이 부과될 수 있습니다.",
+      "11월 유류할증료·2026년 11월 30일까지 발권 기준 요금이며, 일정은 항공 및 현지 골프장 사정에 의해 변동될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-30",
+        "price": 1449000
+      },
+      {
+        "date": "2026-12-31",
+        "price": 1449000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1449000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1679000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1699000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1449000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1679000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1449000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1699000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1599000
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1599000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1579000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1579000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1579000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1579000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1579000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1599000
+      }
+    ],
+    "price": "1,449,000원~",
+    "image": "/images/vientiane-busan/course-lakeview-1.jpg",
+    "images": [
+      "/images/vientiane-busan/course-lakeview-1.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-1.jpg",
+      "/images/vientiane-busan/course-longvien-1.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-2.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/vientiane-busan/course-lakeview-1.jpg",
+      "/images/vientiane-busan/course-longvien-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/course-longvien-2.jpg",
+      "/images/vientiane-busan/course-lakeview-2.jpg",
+      "/images/vientiane-busan/course-booyoung-2.jpg",
+      "/images/vientiane-busan/course-longvien-3.jpg",
+      "/images/vientiane-busan/course-lakeview-3.jpg",
+      "/images/vientiane-busan/course-booyoung-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/vientiane-woodcastle-busan/hotel-1.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-2.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-3.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-4.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-5.jpg"
+    ],
+    "seoIntro": "부산 출발 라오스 비엔티안 골프여행으로, 제주항공 직항 전세기를 타고 우드캐슬빌라에 1인 1실로 머물며 18홀씩 3회 라운딩하는 노쇼핑 3박5일 상품입니다.",
+    "seoKeywords": [
+      "라오스골프",
+      "비엔티안골프",
+      "라오스골프여행",
+      "비엔티엔골프",
+      "라오스풀빌라골프",
+      "부산출발"
+    ],
+    "displayTitle": "라오스 비엔티안 우드캐슬 풀빌라 골프여행 3박5일",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 비엔티안",
+        "desc": "김해국제공항 출발(제주항공 전세기 7C2483, 21:00) → 비엔티안 국제공항 도착(다음 날 00:25) → 가이드 미팅 후 풀빌라 체크인 및 휴식 [숙소: 우드캐슬빌라 1인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "풀빌라 조식 → 골프장 이동 → 롱비엔·레이크뷰·메콩·부영CC 중 18홀 라운딩 → 전신 마사지 60분 [조식 빌라식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "풀빌라 조식 → 골프장 이동 → 롱비엔·레이크뷰·메콩·부영CC 중 18홀 라운딩 [조식 빌라식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "비엔티안 골프 18홀 → 공항",
+        "desc": "풀빌라 조식 → 골프장 이동 → 롱비엔·레이크뷰·메콩·부영CC 중 18홀 라운딩 → 열대과일 시식 → 석식 후 공항 이동 [조식 빌라식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "비엔티안 → 부산",
+        "desc": "비엔티안 국제공항 출발(7C2484, 01:25) → 김해국제공항 도착(08:00)"
+      }
+    ]
+  },
+  {
+    "id": "laos-vientiane-woodcastle-poolvilla-busan-4n6d",
+    "country": "라오스",
+    "countryCode": "other",
+    "region": "비엔티안",
+    "departure": "busan",
+    "badge": "부산출발 신규",
+    "priceUpdatedDate": "2026-11-18",
+    "title": "[부산출발] 라오스 비엔티안 골프여행 우드캐슬 풀빌라 1인 1실 4박6일 72홀 노쇼핑 제주항공 전세기 1,449,000원부터",
+    "subtitle": "제주항공 김해-비엔티안 직항 전세기(수하물 20KG) · 우드캐슬빌라 1인 1실 4박 · 롱비엔·레이크뷰·메콩·부영CC 중 18홀 x 4회 · 캐디피·카트비 포함 · 조식·석식 · 노쇼핑",
+    "nights": 4,
+    "days": 6,
+    "courses": 4,
+    "roundsIncluded": 4,
+    "holes": "72홀 (18홀 x 4회)\n롱비엔 · 레이크뷰 · 메콩 · 부영CC 중",
+    "minPeople": "4인",
+    "period": "2027년 1월 2일 ~ 2월 21일 (지정일 토·일 출발)",
+    "hotel": "우드캐슬빌라 (1인 1실)",
+    "hotelDesc": "비엔티안의 우드캐슬빌라에 1인 1실로 머뭅니다. 조식은 빌라에서 제공되고, 석식은 수끼·무제한 삼겹살·한식 등으로 매일 포함됩니다.",
+    "golfCourse": "롱비엔CC · 레이크뷰CC · 메콩CC · 부영CC 중 (18홀 x 4회)",
+    "golfCourseDesc": "롱비엔CC·레이크뷰CC·메콩CC·부영CC 중에서 하루 18홀씩 4회 라운딩합니다. 주중 그린피·캐디피·전동카트(2인 1카트)가 포함되며, 캐디팁·클럽 중식·주말 및 공휴일 추가비·싱글카트 이용료는 별도입니다.",
+    "productSummary": "제주항공 전세기로 부산에서 라오스 비엔티안까지 직항으로 가서, 우드캐슬빌라에 1인 1실로 4박하며 롱비엔·레이크뷰·메콩·부영CC 중에서 18홀씩 4회 라운딩하는 노쇼핑 상품입니다.\n그린피·캐디피·전동카트와 조식·석식, 전신 마사지 60분이 포함되고 4명부터 출발합니다.",
+    "highlights": [
+      "제주항공 김해-비엔티안 직항 전세기 · 수하물 20KG",
+      "롱비엔·레이크뷰·메콩·부영CC 중 18홀 x 4회 (72홀)",
+      "그린피·캐디피·전동카트(2인 1카트) 포함",
+      "우드캐슬빌라 1인 1실 · 노쇼핑",
+      "전신 마사지 60분 · 토·일 출발 · 4명부터"
+    ],
+    "includes": [
+      "4명부터 우리 일행만 단독 행사",
+      "왕복 항공권(제주항공 전세기), 유류할증료(11월 기준) 및 텍스, 수하물 20KG",
+      "우드캐슬빌라 (1인 1실)",
+      "전 일정 조식·석식",
+      "18홀 그린피+캐디피+전동카트(2인 1카트) 4회 (주중 기준)",
+      "전용 차량 · 한국인 가이드",
+      "전신 마사지 60분, 과일 도시락(1인 1개)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "클럽 중식",
+      "캐디팁 (18홀 1인 $15~16, 메콩CC는 2인 1캐디·18홀 1인 $10)",
+      "싱글카트 이용 시 18홀 $15~$25",
+      "주말·공휴일 라운딩 추가 (1일 $10)",
+      "전신 마사지 팁",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "제주항공 전세기 좌석이라 예약 후 예약금 1인 300,000원을 입금하셔야 예약이 확정됩니다.",
+      "4명부터 출발하는 단독 행사이며 숙소는 1인 1실 기준입니다.",
+      "노쇼핑 일정이며, 행사 중 정해진 일정 외 개별 활동은 어렵고 개별 일정 진행 시 1인 $100가 추가됩니다. 선택관광: 전신 마사지 2시간 $40, 비엔티안 시내관광 1인 30,000원.",
+      "라오스는 전자담배 단속이 강화되어 공항·거리에서 적발 시 압수·벌금이 부과될 수 있습니다.",
+      "11월 유류할증료·2026년 11월 30일까지 발권 기준 요금이며, 일정은 항공 및 현지 골프장 사정에 의해 변동될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2027-01-02",
+        "price": 1449000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1449000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1529000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1529000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1529000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1529000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1449000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1449000
+      },
+      {
+        "date": "2027-02-06",
+        "price": 1599000
+      },
+      {
+        "date": "2027-02-07",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1549000
+      }
+    ],
+    "price": "1,449,000원~",
+    "image": "/images/vientiane-busan/course-lakeview-1.jpg",
+    "images": [
+      "/images/vientiane-busan/course-lakeview-1.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-1.jpg",
+      "/images/vientiane-busan/course-longvien-1.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-2.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/vientiane-busan/course-lakeview-1.jpg",
+      "/images/vientiane-busan/course-longvien-1.jpg",
+      "/images/vientiane-busan/course-booyoung-1.jpg",
+      "/images/vientiane-busan/course-longvien-2.jpg",
+      "/images/vientiane-busan/course-lakeview-2.jpg",
+      "/images/vientiane-busan/course-booyoung-2.jpg",
+      "/images/vientiane-busan/course-longvien-3.jpg",
+      "/images/vientiane-busan/course-lakeview-3.jpg",
+      "/images/vientiane-busan/course-booyoung-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/vientiane-woodcastle-busan/hotel-1.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-2.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-3.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-4.jpg",
+      "/images/vientiane-woodcastle-busan/hotel-5.jpg"
+    ],
+    "seoIntro": "부산 출발 라오스 비엔티안 골프여행으로, 제주항공 직항 전세기를 타고 우드캐슬빌라에 1인 1실로 머물며 18홀씩 4회 라운딩하는 노쇼핑 4박6일 상품입니다.",
+    "seoKeywords": [
+      "라오스골프",
+      "비엔티안골프",
+      "라오스골프여행",
+      "비엔티엔골프",
+      "라오스풀빌라골프",
+      "부산출발"
+    ],
+    "displayTitle": "라오스 비엔티안 우드캐슬 풀빌라 골프여행 4박6일",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "부산 → 비엔티안",
+        "desc": "김해국제공항 출발(제주항공 전세기 7C2483, 21:00) → 비엔티안 국제공항 도착(다음 날 00:25) → 가이드 미팅 후 풀빌라 체크인 및 휴식 [숙소: 우드캐슬빌라 1인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "풀빌라 조식 → 골프장 이동 → 롱비엔·레이크뷰·메콩·부영CC 중 18홀 라운딩 → 전신 마사지 60분 [조식 빌라식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "풀빌라 조식 → 골프장 이동 → 롱비엔·레이크뷰·메콩·부영CC 중 18홀 라운딩 [조식 빌라식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "비엔티안 골프 18홀",
+        "desc": "풀빌라 조식 → 골프장 이동 → 롱비엔·레이크뷰·메콩·부영CC 중 18홀 라운딩 [조식 빌라식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "5일차",
+        "label": "비엔티안 골프 18홀 → 공항",
+        "desc": "풀빌라 조식 → 골프장 이동 → 롱비엔·레이크뷰·메콩·부영CC 중 18홀 라운딩 → 열대과일 시식 → 석식 후 공항 이동 [조식 빌라식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "6일차",
+        "label": "비엔티안 → 부산",
+        "desc": "비엔티안 국제공항 출발(7C2484, 01:25) → 김해국제공항 도착(08:00)"
+      }
+    ]
+  },
+  {
     "country": "라오스",
     "countryCode": "other",
     "region": "비엔티안",
