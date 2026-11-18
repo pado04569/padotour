@@ -12291,5 +12291,66 @@
     "relatedTourIds": [
       "vietnam-haiphong-sonofelice-vinpearl-2color-incheon"
     ]
+  },
+  {
+    "slug": "putian-mazu-golf-club",
+    "name": "마조CC",
+    "nameEn": "Putian Mazu Golf Club",
+    "region": "푸저우",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "마조 CC",
+      "마조골프장",
+      "푸텐 마조CC",
+      "Mazu Golf Club"
+    ],
+    "summary": "푸젠성 푸텐시의 27홀 골프장, 2012년 개장, 2016년 PGA 차이나 투어 푸텐 오픈 개최",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (A 산악 · B 바다 · C 호수 9홀 코스)"
+      },
+      {
+        "label": "설계",
+        "value": "Contour Golf Design Group (설계사 소개 기준)"
+      },
+      {
+        "label": "개장",
+        "value": "2012년"
+      },
+      {
+        "label": "대회",
+        "value": "2016년 11월 PGA 차이나 투어 '푸텐 오픈' 개최"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 푸젠성 푸텐시"
+      }
+    ],
+    "description": "마조CC는 중국 푸젠성 푸텐시에 있는 27홀 골프장입니다. 2012년에 문을 열었고, 2016년 11월에는 PGA 차이나 투어 '푸텐 오픈'이 열렸습니다.\n\n산악·바다·호수를 주제로 한 세 개의 9홀 코스로 이뤄져 있으며, 바다와 산이 어우러진 지형이라 홀마다 높낮이와 굴곡이 있습니다. 라운딩하는 코스 조합은 현지 사정에 따라 정해집니다.\n\n여행의파도 푸저우·샤먼 골프여행에서는 푸텐의 호텔에 머물며 이곳에서 라운딩합니다.",
+    "images": [
+      "/images/xiamen-quanzhou-mazu-incheon/course-1.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-2.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-3.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-4.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-5.jpg",
+      "/images/xiamen-quanzhou-mazu-incheon/course-6.jpg"
+    ],
+    "hashtags": [
+      "마조CC",
+      "푸저우골프장",
+      "푸텐골프",
+      "푸저우골프여행",
+      "샤먼골프여행",
+      "중국골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "china-fuzhou-mazu-54-incheon",
+      "china-xiamen-quanzhou-mazu-3n4d-incheon",
+      "china-xiamen-dongfang-quanzhou-mazu-4n5d-incheon",
+      "china-fuzhou-kempinski-3color-incheon"
+    ]
   }
 ]
