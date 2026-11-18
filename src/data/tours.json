@@ -76235,7 +76235,13 @@
       "2027-01-25 마감(삭제)",
       "2027-01-26 마감(삭제)"
     ],
-    "_source": "https://band.us/band/8505440/post/426515438 요금표 1110.xlsx — 그 외 날짜 요금 동일, 11/10 이전 날짜 제외"
+    "_source": "https://band.us/band/8505440/post/426515438 요금표 1110.xlsx — 그 외 날짜 요금 동일, 11/10 이전 날짜 제외",
+    "closedDates": [
+      {
+        "date": "2026-12-27",
+        "status": "마감"
+      }
+    ]
   },
   {
     "id": "japan-kagoshima-kamou-eastar-3n4d-incheon",
