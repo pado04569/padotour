@@ -36852,10 +36852,6 @@
         "price": 1440000
       },
       {
-        "date": "2026-12-08",
-        "price": 1240000
-      },
-      {
         "date": "2026-12-09",
         "price": 1340000
       },
@@ -37316,7 +37312,13 @@
       "난코쿠CC",
       "인천출발"
     ],
-    "displayTitle": "가고시마 텐몬칸 그란세렛소 3색 골프여행 3박4일"
+    "displayTitle": "가고시마 텐몬칸 그란세렛소 3색 골프여행 3박4일",
+    "closedDates": [
+      {
+        "date": "2026-12-08",
+        "status": "마감"
+      }
+    ]
   },
   {
     "id": "japan-kagoshima-mystays-tenmonkan-3color-incheon",
