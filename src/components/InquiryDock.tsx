@@ -108,7 +108,6 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCon
     track("inquiry_start", { item_name: tourTitle, first_field: field, method: "panel" });
   };
   const goCalendar = () => { document.getElementById("departure")?.scrollIntoView({ behavior: "smooth", block: "start" }); requestCalendarFocus(); };
-  const scrollToCalendar = () => document.getElementById("departure")?.scrollIntoView({ behavior: "smooth", block: "start" });
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -208,7 +207,8 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCon
       <aside className="hidden lg:block sticky top-32 rounded-2xl border border-slate-200 bg-white shadow-sm p-5" aria-label="예약 문의 패널">
         <h2 className="text-[17px] font-black text-slate-900 mb-3">선택한 여행 일정</h2>
         {/* 날짜를 바꾸려고 누르는 손님이 많아 출발일 달력으로 이동 (클래리티 10/29) */}
-        <div role="button" tabIndex={0} onClick={goCalendar} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); goCalendar(); } }} className="cursor-pointer rounded-xl bg-soft-blue hover:bg-blue-100 px-3.5 py-3 text-[14px] font-bold text-slate-800 space-y-1 transition-colors">
+        {/* 달력이 없는 상품은 갈 곳이 없어 눌러도 반응이 없었다 — 예약문의 창을 연다 (클래리티 11/19 클락 카니빌) */}
+        <div role="button" tabIndex={0} aria-label={hasCalendar ? undefined : "예약문의 창 열기"} onClick={hasCalendar ? goCalendar : openModal} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); (hasCalendar ? goCalendar : openModal)(); } }} className="cursor-pointer rounded-xl bg-soft-blue hover:bg-blue-100 px-3.5 py-3 text-[14px] font-bold text-slate-800 space-y-1 transition-colors">
           {sel ? (
             <>
               <p className="flex items-center gap-2"><IconCalendarDays className="w-[18px] h-[18px] text-brand-blue" />{fmtDate(sel.date)} 출발 · {selNights}박 {selDays}일</p>
@@ -246,10 +246,10 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCon
         </a>
       </aside>
 
-      {/* 휴대폰 아래 고정 바 */}
+      {/* 휴대폰 아래 고정 바 — 달력이 이미 보일 때 눌러도 반응이 보이게 달력 강조까지 (클래리티 11/19 사가 타쿠) */}
       <div className="lg:hidden fixed inset-x-0 bottom-0 z-40 bg-white border-t border-slate-200 px-4 pt-9 pb-[max(52px,calc(env(safe-area-inset-bottom)+34px))] shadow-[0_-4px_14px_rgba(15,40,70,0.08)]">
         <div className="flex items-center gap-3">
-          <div className="min-w-0 cursor-pointer" onClick={sel || !hasCalendar ? openModal : scrollToCalendar}>
+          <div className="min-w-0 cursor-pointer" onClick={sel || !hasCalendar ? openModal : goCalendar}>
             <p className="text-[13px] text-slate-500 leading-none mb-2">{sel ? `1인 요금 · ${fmtDate(sel.date)} 출발 · 성인 ${people}명` : "1인 최저 요금"}</p>
             <p className="text-[24px] leading-none font-black text-red-600 whitespace-nowrap">{sel ? fmtWon(sel.price) : hasPrice ? `${priceText}부터` : "요금 문의"}</p>
             {barNote && <p className="text-[11px] text-slate-500 mt-1.5 leading-tight break-keep max-w-[150px]">{barNote}</p>}
@@ -257,7 +257,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCon
           {sel || !hasCalendar ? (
             <button type="button" onClick={openModal} className="flex-1 min-h-[88px] rounded-2xl bg-brand-blue text-white text-[21px] font-black">예약문의</button>
           ) : (
-            <button type="button" onClick={scrollToCalendar} className="flex-1 min-h-[88px] rounded-2xl bg-emerald-600 text-white text-[21px] font-black">출발일·요금 확인</button>
+            <button type="button" onClick={goCalendar} className="flex-1 min-h-[88px] rounded-2xl bg-emerald-600 text-white text-[21px] font-black">출발일·요금 확인</button>
           )}
         </div>
       </div>
