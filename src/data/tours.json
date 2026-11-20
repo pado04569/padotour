@@ -143542,6 +143542,271 @@
     "displayTitle": "심천 남사CC 12월 4일 출발"
   },
   {
+    "id": "china-shenzhen-nansha-only-1222-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "광저우",
+    "title": "[인천출발] 중국 심천 골프여행 남사CC 3박5일 54홀 남사 리조트 파라타항공 12월 22일 출발 1,389,000원",
+    "subtitle": "파라타항공 인천-심천 직항 · 남사CC 레이크·마운틴 코스 18홀 × 3회 · 남사 리조트(2인 1실) · 그린피·카트·미팅샌딩 포함 · 2인부터 예약",
+    "nights": 3,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "54홀 (하루 18홀 × 3회)",
+    "minPeople": "2인부터 예약 가능",
+    "period": "2026년 12월 22일 ~ 12월 26일 (1회 출발)",
+    "hotel": "남사 골프리조트 (2인 1실) · 5성급 남사 쉐라톤 호텔로 변경 가능 (1박 35,000원 추가)",
+    "hotelDesc": "남사CC 안에 있는 빌라형 골프 리조트로 골프장까지 약 2분 거리입니다. 드라이빙레인지·클럽하우스·바비큐장이 있습니다. 원하시면 남사 시내 5성급 쉐라톤 호텔로 바꿀 수 있습니다(1박 1인 35,000원 추가, 완다 쇼핑까지 도보 5분, 중간 변경 불가).",
+    "golfCourse": "남사CC (레이크·마운틴 36홀) 18홀 × 3회",
+    "golfCourseDesc": "남사CC는 1997년 개장한 36홀 챔피언십 골프장으로 넓은 페어웨이의 레이크 코스(파72)와 산세를 따라 펼쳐진 마운틴 코스로 나뉩니다. 마운틴 코스는 우천 시를 빼고 전동카트 페어웨이 진입이 가능하고, 후반 9홀에는 야간 조명 시설이 있습니다. 4인 플레이는 노캐디로 진행할 수 있습니다(2인 라운드는 캐디 필수).",
+    "productSummary": "파라타항공 직항으로 심천에 가서 남사CC 골프리조트에 3박하며 남사CC에서 매일 18홀, 총 54홀을 라운딩하는 12월 지정일 상품입니다. 그린피·카트비, 공항 미팅·샌딩, 조식·석식이 포함됩니다. 2인부터 예약할 수 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 심천",
+        "desc": "인천국제공항 파라타항공 WE853 23:10 출발 → 심천 국제공항 02:00(다음 날) 도착 → 가이드 미팅 후 리조트 이동(약 45분) → 체크인 후 휴식 [호텔: 남사 골프리조트]"
+      },
+      {
+        "day": "2일차",
+        "label": "남사CC 18홀",
+        "desc": "조식 후 골프장 이동 → 남사CC 18홀 라운드(레이크·마운틴 코스 중 선택) → 리조트 휴식 [조식 리조트식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "3일차",
+        "label": "남사CC 18홀",
+        "desc": "조식 후 골프장 이동 → 남사CC 18홀 라운드(레이크·마운틴 코스 중 선택) → 리조트 휴식 [조식 리조트식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "4일차",
+        "label": "남사CC 18홀 → 공항",
+        "desc": "조식 후 골프장 이동(약 10분, 체크아웃 12시) → 남사CC 18홀 라운드 → 석식 후 공항 이동 [조식 리조트식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "5일차",
+        "label": "심천 → 인천",
+        "desc": "심천 국제공항 WE854 03:30 출발 → 인천국제공항 08:05 도착 후 해산"
+      }
+    ],
+    "highlights": [
+      "파라타항공 인천-심천 직항 (A330 대형기)",
+      "남사CC 매일 18홀 총 54홀",
+      "남사 골프리조트 3박 (쉐라톤 변경 가능)",
+      "그린피·카트비 · 미팅샌딩 · 조식·석식 포함",
+      "12월 지정일 · 2인부터 예약"
+    ],
+    "includes": [
+      "왕복 항공권 (파라타항공, TAX·유류세 포함)",
+      "공항 미팅·샌딩 (1인 400위안 상당)",
+      "공항-호텔-골프장 차량",
+      "남사 골프리조트 3박 (2인 1실)",
+      "조식·석식",
+      "그린피 + 카트비 (54홀)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "클럽 중식 1인 1끼 100위안",
+      "캐디팁 18홀 1인 150위안",
+      "싱글룸 1박 1인 60,000원",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "항공 블록 좌석이 소진되면 요금이 오를 수 있습니다.",
+      "숙소는 남사 골프리조트 또는 쉐라톤 호텔(1박 1인 35,000원 추가) 중 한 곳을 고르며 중간 변경은 안 됩니다.",
+      "4인 플레이는 노캐디로 진행할 수 있고, 2인 라운드는 캐디가 필수입니다(캐디팁 18홀 1인 150위안). 카트·캐디는 상황에 따라 1:2 또는 1:4로 바뀔 수 있습니다.",
+      "싱글 카트가 생기면 18홀 120위안입니다. 9홀 추가는 평일 90,000원 · 주말 110,000원(한국에서 사전 예약 조건)입니다.",
+      "비가 와서 라운드를 못 하거나 골프장이 휴장해도 그린피·카트비는 환불되지 않으며, 식사를 이용하지 않아도 환불되지 않습니다.",
+      "여권 만료일은 출발일 기준 6개월 이상 남아 있어야 합니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-22",
+        "price": 1389000
+      }
+    ],
+    "price": "1,389,000원~",
+    "image": "/images/guangzhou-nansha-incheon/course-1.jpg",
+    "images": [
+      "/images/guangzhou-nansha-incheon/course-1.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-1.jpg",
+      "/images/guangzhou-nansha-incheon/course-2.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-2.jpg",
+      "/images/guangzhou-nansha-incheon/course-3.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/guangzhou-nansha-incheon/hotel-1.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-2.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-3.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-4.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-5.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-6.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-7.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-8.jpg"
+    ],
+    "courseImages": [
+      "/images/guangzhou-nansha-incheon/course-1.jpg",
+      "/images/guangzhou-nansha-incheon/course-2.jpg",
+      "/images/guangzhou-nansha-incheon/course-3.jpg",
+      "/images/guangzhou-nansha-incheon/course-4.jpg",
+      "/images/guangzhou-nansha-incheon/course-5.jpg",
+      "/images/guangzhou-nansha-incheon/course-6.jpg",
+      "/images/guangzhou-nansha-incheon/course-7.jpg",
+      "/images/guangzhou-nansha-incheon/course-8.jpg",
+      "/images/guangzhou-nansha-incheon/course-9.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-11-20",
+    "seoIntro": "인천 출발 중국 심천 골프여행 3박5일 상품으로, 파라타항공 직항으로 가서 남사 골프리조트에 묵으며 남사CC에서 54홀을 라운딩하는 지정일 특가 골프패키지입니다.",
+    "seoKeywords": [
+      "심천골프",
+      "심천골프여행",
+      "광저우골프",
+      "남사CC",
+      "파라타항공",
+      "인천출발"
+    ],
+    "displayTitle": "심천 남사CC 12월 22일 출발"
+  },
+  {
+    "id": "china-shenzhen-nansha-only-4n6d-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "광저우",
+    "title": "[인천출발] 중국 심천 골프여행 남사CC 4박6일 72홀 남사 리조트 파라타항공 12월 지정일 1,599,000원부터",
+    "subtitle": "파라타항공 인천-심천 직항 · 남사CC 레이크·마운틴 코스 18홀 × 4회 · 남사 리조트(2인 1실) · 그린피·카트·미팅샌딩 포함 · 2인부터 예약",
+    "nights": 4,
+    "days": 6,
+    "courses": 1,
+    "roundsIncluded": 4,
+    "holes": "72홀 (하루 18홀 × 4회)",
+    "minPeople": "2인부터 예약 가능",
+    "period": "2026년 12월 11일·12월 24일 출발 (2회)",
+    "hotel": "남사 골프리조트 (2인 1실) · 5성급 남사 쉐라톤 호텔로 변경 가능 (1박 35,000원 추가)",
+    "hotelDesc": "남사CC 안에 있는 빌라형 골프 리조트로 골프장까지 약 2분 거리입니다. 드라이빙레인지·클럽하우스·바비큐장이 있습니다. 원하시면 남사 시내 5성급 쉐라톤 호텔로 바꿀 수 있습니다(1박 1인 35,000원 추가, 완다 쇼핑까지 도보 5분, 중간 변경 불가).",
+    "golfCourse": "남사CC (레이크·마운틴 36홀) 18홀 × 4회",
+    "golfCourseDesc": "남사CC는 1997년 개장한 36홀 챔피언십 골프장으로 넓은 페어웨이의 레이크 코스(파72)와 산세를 따라 펼쳐진 마운틴 코스로 나뉩니다. 마운틴 코스는 우천 시를 빼고 전동카트 페어웨이 진입이 가능하고, 후반 9홀에는 야간 조명 시설이 있습니다. 4인 플레이는 노캐디로 진행할 수 있습니다(2인 라운드는 캐디 필수).",
+    "productSummary": "파라타항공 직항으로 심천에 가서 남사CC 골프리조트에 4박하며 남사CC에서 매일 18홀, 총 72홀을 라운딩하는 12월 지정일 상품입니다. 그린피·카트비, 공항 미팅·샌딩, 조식·석식이 포함됩니다. 2인부터 예약할 수 있습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 심천",
+        "desc": "인천국제공항 파라타항공 WE853 23:10 출발 → 심천 국제공항 02:00(다음 날) 도착 → 가이드 미팅 후 리조트 이동(약 45분) → 체크인 후 휴식 [호텔: 남사 골프리조트]"
+      },
+      {
+        "day": "2일차",
+        "label": "남사CC 18홀",
+        "desc": "조식 후 골프장 이동 → 남사CC 18홀 라운드(레이크·마운틴 코스 중 선택) → 리조트 휴식 [조식 리조트식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "3일차",
+        "label": "남사CC 18홀",
+        "desc": "조식 후 골프장 이동 → 남사CC 18홀 라운드(레이크·마운틴 코스 중 선택) → 리조트 휴식 [조식 리조트식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "4일차",
+        "label": "남사CC 18홀",
+        "desc": "조식 후 골프장 이동 → 남사CC 18홀 라운드(레이크·마운틴 코스 중 선택) → 리조트 휴식 [조식 리조트식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "5일차",
+        "label": "남사CC 18홀 → 공항",
+        "desc": "조식 후 골프장 이동(약 10분, 체크아웃 12시) → 남사CC 18홀 라운드 → 석식 후 공항 이동 [조식 리조트식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "6일차",
+        "label": "심천 → 인천",
+        "desc": "심천 국제공항 WE854 03:30 출발 → 인천국제공항 08:05 도착 후 해산"
+      }
+    ],
+    "highlights": [
+      "파라타항공 인천-심천 직항 (A330 대형기)",
+      "남사CC 매일 18홀 총 72홀",
+      "남사 골프리조트 4박 (쉐라톤 변경 가능)",
+      "그린피·카트비 · 미팅샌딩 · 조식·석식 포함",
+      "12월 지정일 · 2인부터 예약"
+    ],
+    "includes": [
+      "왕복 항공권 (파라타항공, TAX·유류세 포함)",
+      "공항 미팅·샌딩 (1인 400위안 상당)",
+      "공항-호텔-골프장 차량",
+      "남사 골프리조트 4박 (2인 1실)",
+      "조식·석식",
+      "그린피 + 카트비 (72홀)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "클럽 중식 1인 1끼 100위안",
+      "캐디팁 18홀 1인 150위안",
+      "싱글룸 1박 1인 60,000원",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "항공 블록 좌석이 소진되면 요금이 오를 수 있습니다.",
+      "숙소는 남사 골프리조트 또는 쉐라톤 호텔(1박 1인 35,000원 추가) 중 한 곳을 고르며 중간 변경은 안 됩니다.",
+      "4인 플레이는 노캐디로 진행할 수 있고, 2인 라운드는 캐디가 필수입니다(캐디팁 18홀 1인 150위안). 카트·캐디는 상황에 따라 1:2 또는 1:4로 바뀔 수 있습니다.",
+      "싱글 카트가 생기면 18홀 120위안입니다. 9홀 추가는 평일 90,000원 · 주말 110,000원(한국에서 사전 예약 조건)입니다.",
+      "비가 와서 라운드를 못 하거나 골프장이 휴장해도 그린피·카트비는 환불되지 않으며, 식사를 이용하지 않아도 환불되지 않습니다.",
+      "여권 만료일은 출발일 기준 6개월 이상 남아 있어야 합니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-11",
+        "price": 1599000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1749000
+      }
+    ],
+    "price": "1,599,000원~",
+    "image": "/images/guangzhou-nansha-incheon/course-1.jpg",
+    "images": [
+      "/images/guangzhou-nansha-incheon/course-1.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-1.jpg",
+      "/images/guangzhou-nansha-incheon/course-2.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-2.jpg",
+      "/images/guangzhou-nansha-incheon/course-3.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/guangzhou-nansha-incheon/hotel-1.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-2.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-3.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-4.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-5.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-6.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-7.jpg",
+      "/images/guangzhou-nansha-incheon/hotel-8.jpg"
+    ],
+    "courseImages": [
+      "/images/guangzhou-nansha-incheon/course-1.jpg",
+      "/images/guangzhou-nansha-incheon/course-2.jpg",
+      "/images/guangzhou-nansha-incheon/course-3.jpg",
+      "/images/guangzhou-nansha-incheon/course-4.jpg",
+      "/images/guangzhou-nansha-incheon/course-5.jpg",
+      "/images/guangzhou-nansha-incheon/course-6.jpg",
+      "/images/guangzhou-nansha-incheon/course-7.jpg",
+      "/images/guangzhou-nansha-incheon/course-8.jpg",
+      "/images/guangzhou-nansha-incheon/course-9.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-11-20",
+    "seoIntro": "인천 출발 중국 심천 골프여행 4박6일 상품으로, 파라타항공 직항으로 가서 남사 골프리조트에 묵으며 남사CC에서 72홀을 라운딩하는 지정일 특가 골프패키지입니다.",
+    "seoKeywords": [
+      "심천골프",
+      "심천골프여행",
+      "광저우골프",
+      "남사CC",
+      "파라타항공",
+      "인천출발"
+    ],
+    "displayTitle": "심천 남사CC 4박6일 12월 지정일"
+  },
+  {
     "id": "guam-pineeast-ke-incheon",
     "country": "괌",
     "countryCode": "other",
