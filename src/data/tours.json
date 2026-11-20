@@ -121533,6 +121533,141 @@
     "displayTitle": "해협CC 메리어트 호텔 골프여행"
   },
   {
+    "id": "china-fuzhou-marriott-3color-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "푸저우",
+    "title": "[인천출발] 중국 푸저우 골프여행 해협·신동양·온천 3색 메리어트 호텔 3박4일 54홀 하문항공 1,470,000원부터",
+    "subtitle": "하문항공 인천-푸저우 창러공항 직항(하드블록) · 푸저우 메리어트 호텔 리버사이드 · 신동양·온천·해협 3색 54홀 · 그린피·카트피·캐디피 포함",
+    "nights": 3,
+    "days": 4,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (신동양CC 18홀 + 온천CC 18홀 + 해협CC 18홀)",
+    "minPeople": "4인 이상 (2~3인은 예약 때 확인)",
+    "period": "2026년 12월 24일 · 2027년 1월 7·14·21·28일 · 2월 26일 (하드블록 6회 출발)",
+    "hotel": "푸저우 메리어트 호텔 리버사이드 (Fuzhou Marriott Hotel Riverside, 2인 1실)",
+    "hotelDesc": "푸저우 둥후 디지털타운의 5성급 메리어트 호텔 리버사이드에 2인 1실로 숙박합니다. 실내 수영장, 피트니스센터, 레스토랑이 있습니다. 조식과 일정상 석식, 해협CC 클럽 중식 1회가 포함되며 신동양CC·온천CC 중식 2회는 불포함입니다.",
+    "golfCourse": "신동양CC 18홀 · 온천CC 18홀 · 해협CC 18홀",
+    "golfCourseDesc": "푸저우 근교 골프장 세 곳을 하루씩 라운드합니다. 해협CC는 창러국제공항에서 약 20분, 호텔에서 약 10분 거리의 바닷가 링크스 스타일 코스이고, 신동양CC는 호텔에서 약 50분, 온천CC는 약 70분 거리입니다. 그린피·카트피·캐디피가 포함됩니다.",
+    "productSummary": "하문항공 하드블록 좌석으로 떠나는 푸저우 3색 골프 상품입니다. 5성급 푸저우 메리어트 호텔 3박에 신동양·온천·해협CC를 하루씩 라운드하며, 조식·석식과 해협CC 클럽 중식 1회, 그린피·카트피·캐디피가 포함됩니다. 12월 24일과 1월 매주 목요일, 2월 26일 출발입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 푸저우",
+        "desc": "인천국제공항 하문항공 출발(저녁 출발편) → 푸저우 창러국제공항 도착 → 가이드 미팅 후 호텔 이동 → 체크인 및 휴식 [호텔: 푸저우 메리어트 호텔 리버사이드]"
+      },
+      {
+        "day": "2일차",
+        "label": "신동양CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 50분) → 신동양CC 18홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "3일차",
+        "label": "온천CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 70분) → 온천CC 18홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 포함]"
+      },
+      {
+        "day": "4일차",
+        "label": "해협CC 18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 해협CC 18홀 라운드(클럽 중식) → 푸저우 창러국제공항 하문항공 출발 → 인천국제공항 도착(저녁) [조식 호텔식 / 중식 클럽식]"
+      }
+    ],
+    "highlights": [
+      "하문항공 인천-푸저우 창러공항 직항 하드블록 (수하물 23kg+골프백)",
+      "5성급 푸저우 메리어트 호텔 리버사이드 3박",
+      "신동양·온천·해협 3색 54홀",
+      "그린피·카트피·캐디피 · 조식·석식 포함",
+      "12/24 · 1월 매주 목 · 2/26 출발"
+    ],
+    "includes": [
+      "왕복 항공료 (하문항공, 수하물 23kg+골프백)",
+      "푸저우 메리어트 호텔 (2인 1실)",
+      "조식·석식 · 해협CC 클럽 중식 1회",
+      "그린피·카트피·캐디피 (54홀)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "미팅·샌딩비 (1인 300위안)",
+      "클럽 중식 2회 (신동양·온천)",
+      "캐디팁 (1인 18홀 기준 해협CC 130위안 / 신동양CC·온천CC 각 150위안)",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "하문항공 하드블록 좌석 상품입니다(11/20 안내 기준 12/24 6석, 1/7 8석, 1/14·21·28 각 12석, 2/26 16석 — 예약 때 잔여석 확인).",
+      "석석 일정(저녁 출발·저녁 귀국)입니다.",
+      "상기 일정은 항공 및 현지 사정에 의해 변동될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-24",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1470000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1470000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1470000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1470000
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1630000
+      }
+    ],
+    "price": "1,470,000원~",
+    "image": "/images/fuzhou-marriott-3color/course-xdy-1.jpg",
+    "images": [
+      "/images/fuzhou-marriott-3color/course-xdy-1.jpg",
+      "/images/fuzhou-marriott-straits/hotel-1.jpg",
+      "/images/fuzhou-marriott-3color/course-wq-1.jpg",
+      "/images/fuzhou-marriott-straits/course-1.jpg",
+      "/images/fuzhou-marriott-straits/hotel-2.jpg",
+      "/images/fuzhou-marriott-3color/course-xdy-2.jpg"
+    ],
+    "hotelImages": [
+      "/images/fuzhou-marriott-straits/hotel-1.jpg",
+      "/images/fuzhou-marriott-straits/hotel-2.jpg",
+      "/images/fuzhou-marriott-straits/hotel-3.jpg",
+      "/images/fuzhou-marriott-straits/hotel-4.jpg",
+      "/images/fuzhou-marriott-straits/hotel-5.jpg",
+      "/images/fuzhou-marriott-straits/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/fuzhou-marriott-3color/course-xdy-1.jpg",
+      "/images/fuzhou-marriott-3color/course-xdy-2.jpg",
+      "/images/fuzhou-marriott-3color/course-xdy-3.jpg",
+      "/images/fuzhou-marriott-3color/course-wq-1.jpg",
+      "/images/fuzhou-marriott-3color/course-wq-2.jpg",
+      "/images/fuzhou-marriott-3color/course-wq-3.jpg",
+      "/images/fuzhou-marriott-straits/course-1.jpg",
+      "/images/fuzhou-marriott-straits/course-2.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-11-20",
+    "seoIntro": "인천 출발 중국 푸저우 골프여행 3박4일 상품으로, 5성급 푸저우 메리어트 호텔에 머물며 신동양·온천·해협CC 3색 54홀을 라운드하는 하문항공 직항 골프패키지입니다.",
+    "seoKeywords": [
+      "푸저우골프",
+      "푸저우골프여행",
+      "해협CC",
+      "신동양CC",
+      "메리어트",
+      "하문항공",
+      "인천출발"
+    ],
+    "displayTitle": "푸저우 메리어트 3색 골프여행"
+  },
+  {
     "id": "china-fuzhou-haixia-unlimited-polyport-ke-incheon",
     "country": "중국",
     "countryCode": "china",
