@@ -118387,7 +118387,7 @@
     "minPeople": "2인 (요청 시 다른 골프장으로 변경 가능)",
     "period": "2026년 10월 16일 ~ 2027년 3월 27일 (날짜별 요금)",
     "hotel": "윈덤 가든 레전드 하롱 호텔 (Wyndham Garden Legend Halong, 2인 1실)",
-    "hotelDesc": "하롱베이 바이짜이 지역 고급 빌라 단지(Lot C4)에 있는 윈덤 가든 계열 호텔(객실 162개)입니다. 바이짜이 해변·선월드·크루즈 선착장이 가깝고 호텔 수영장과 레스토랑이 있습니다. 하이퐁 공항에서 차로 약 60분입니다.",
+    "hotelDesc": "하롱베이 바이짜이 지역 고급 빌라 단지(Lot C4)에 있는 윈덤 가든 계열 호텔(객실 162개)입니다. 바이짜이 해변·선월드·크루즈 선착장이 가깝고 실내 수영장과 레스토랑이 있습니다. 하이퐁 공항에서 차로 약 60분입니다.",
     "golfCourse": "FLC 하롱베이CC / 드래곤링크스CC / 뚜언쩌우CC",
     "golfCourseDesc": "바다를 낀 세 골프장을 하루 한 곳씩 라운딩합니다. FLC 하롱베이CC는 하롱베이의 섬들이 내려다보이는 언덕 코스, 드래곤링크스CC는 하이퐁 도선에 그렉 노먼이 설계한 해안 링크스형 27홀, 뚜언쩌우CC는 뚜언쩌우섬의 시사이드 링크스 코스입니다. 그린피·카트비·캐디피와 클럽 중식 3회가 포함되며 골프장 순서는 바뀔 수 있습니다.",
     "productSummary": "하롱베이 시내 윈덤 가든 레전드 하롱 호텔 3박에 FLC 하롱베이·드래곤링크스·뚜언쩌우 3색 54홀을 라운딩하는 상품입니다. 조식과 클럽 중식 3회, 그린피·카트비·캐디피, 공항·골프장 차량, 여행자보험이 포함되고 첫날 중식, 전 일정 석식, 캐디팁은 별도입니다. 2027년 3월까지 날짜별로 출발합니다.",
@@ -119074,10 +119074,15 @@
       "/images/halongbay-wyndham-3color/course-3.jpg",
       "/images/halongbay-wyndham-3color/hotel-garden-1.jpg",
       "/images/halongbay-wyndham-3color/course-5.jpg",
+      "/images/halongbay-wyndham-3color/hotel-garden-3.jpg",
       "/images/halongbay-wyndham-3color/course-2.jpg"
     ],
     "hotelImages": [
-      "/images/halongbay-wyndham-3color/hotel-garden-1.jpg"
+      "/images/halongbay-wyndham-3color/hotel-garden-1.jpg",
+      "/images/halongbay-wyndham-3color/hotel-garden-6.jpg",
+      "/images/halongbay-wyndham-3color/hotel-garden-3.jpg",
+      "/images/halongbay-wyndham-3color/hotel-garden-4.jpg",
+      "/images/halongbay-wyndham-3color/hotel-garden-5.jpg"
     ],
     "courseImages": [
       "/images/halongbay-wyndham-3color/course-1.jpg",

@@ -8081,6 +8081,53 @@
     ]
   },
   {
+    "slug": "fuzhou-hot-spring-golf-club",
+    "name": "온천CC",
+    "nameEn": "Fuzhou Hot Spring Golf Club (福州温泉高尔夫球场)",
+    "region": "푸저우",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "푸저우 북쪽 롄장현의 18홀 파72 파크랜드 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72"
+      },
+      {
+        "label": "개장",
+        "value": "1998년"
+      },
+      {
+        "label": "설계",
+        "value": "가토 가이치 (Kaichi Kato)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "완만한 기복에 나무가 늘어선 산자락 파크랜드 코스"
+      },
+      {
+        "label": "접근",
+        "value": "푸저우 메리어트 호텔 리버사이드에서 차로 약 70분(여행사 안내 기준)"
+      }
+    ],
+    "description": "온천CC(푸저우 온천 골프클럽)는 푸젠성 푸저우시 롄장현에 있는 18홀 파72 골프장으로, 1998년에 정식 개장했습니다.\n\n완만하게 기복이 있는 산자락 지형에 나무가 늘어선 파크랜드 코스입니다.\n\n여행의파도 푸저우 메리어트 3색 상품은 메리어트 호텔 리버사이드에 3박하며 신동양CC·온천CC·해협CC를 하루씩 라운딩합니다.",
+    "images": [
+      "/images/fuzhou-marriott-3color/course-wq-1.jpg",
+      "/images/fuzhou-marriott-3color/course-wq-2.jpg",
+      "/images/fuzhou-marriott-3color/course-wq-3.jpg"
+    ],
+    "hashtags": [
+      "온천CC",
+      "푸저우온천골프",
+      "푸저우골프",
+      "복주골프",
+      "중국골프여행"
+    ],
+    "relatedTourIds": [
+      "china-fuzhou-marriott-3color-incheon"
+    ]
+  },
+  {
     "slug": "vinpearl-golf-phu-quoc",
     "name": "빈펄 푸꾸옥CC",
     "nameEn": "Vinpearl Golf Phu Quoc",
