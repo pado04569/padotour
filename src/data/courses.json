@@ -12449,5 +12449,270 @@
       "indonesia-bintan-movenpick-lagoon-3n5d-incheon",
       "indonesia-bintan-movenpick-lagoon-4n6d-incheon"
     ]
+  },
+  {
+    "slug": "harmonie-golf-park",
+    "name": "하모니CC",
+    "nameEn": "Harmonie Golf Park",
+    "region": "호치민",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "호치민 북쪽 빈즈엉의 18홀 파72 챔피언십 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72 (최장 약 7,348야드)"
+      },
+      {
+        "label": "설계",
+        "value": "짐 엥 (Jim Engh)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "라니·다니 두 나인, 물이 많은 코스"
+      },
+      {
+        "label": "접근",
+        "value": "엘리자베스 호텔에서 차로 약 20분(여행사 안내 기준)"
+      }
+    ],
+    "description": "하모니CC(Harmonie Golf Park)는 호치민 북쪽 빈즈엉성 투저우못에 있는 18홀 파72 골프장으로, 미국 설계가 짐 엥이 설계했습니다.\n\n라니·다니 두 개의 나인으로 나뉘며 곳곳에 물이 많아 공략이 재미있는 코스입니다.\n\n여행의파도 호치민 3색 상품은 엘리자베스 호텔에 3박하며 하모니CC·송베CC·트윈도브즈CC를 하루씩 라운딩합니다.",
+    "images": [
+      "/images/courses/harmonie-golf-park-1.jpg",
+      "/images/courses/harmonie-golf-park-2.jpg",
+      "/images/courses/harmonie-golf-park-3.jpg"
+    ],
+    "hashtags": [
+      "하모니CC",
+      "하모니골프파크",
+      "호치민골프",
+      "빈즈엉골프",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-hochiminh-3color-elizabeth-lj-incheon"
+    ]
+  },
+  {
+    "slug": "song-be-golf-resort",
+    "name": "송베CC",
+    "nameEn": "Song Be Golf Resort",
+    "region": "호치민",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "1994년 문을 연 빈즈엉의 27홀 골프 리조트",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (로터스·팜·데저트 각 9홀)"
+      },
+      {
+        "label": "개장",
+        "value": "1994년"
+      },
+      {
+        "label": "접근",
+        "value": "호치민 시내에서 북쪽으로 약 20km, 엘리자베스 호텔에서 차로 약 20분(여행사 안내 기준)"
+      }
+    ],
+    "description": "송베CC(Song Be Golf Resort)는 호치민 북쪽 빈즈엉성에 있는 27홀 골프장으로, 1994년에 문을 연 베트남 초기 국제 규격 골프장입니다.\n\n로터스·팜·데저트 3개 나인 가운데 두 곳을 이어 18홀을 라운딩합니다.\n\n여행의파도 호치민 3색 상품은 엘리자베스 호텔에 3박하며 하모니CC·송베CC·트윈도브즈CC를 하루씩 라운딩합니다.",
+    "images": [
+      "/images/courses/song-be-golf-resort-1.jpg",
+      "/images/courses/song-be-golf-resort-2.jpg",
+      "/images/courses/song-be-golf-resort-3.jpg"
+    ],
+    "hashtags": [
+      "송베CC",
+      "송베골프",
+      "호치민골프",
+      "빈즈엉골프",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-hochiminh-3color-elizabeth-lj-incheon"
+    ]
+  },
+  {
+    "slug": "twin-doves-golf-club",
+    "name": "트윈도브즈CC",
+    "nameEn": "Twin Doves Golf Club",
+    "region": "호치민",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "summary": "빈즈엉 165헥타르 부지의 27홀 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (루나·스텔라·솔레 각 9홀)"
+      },
+      {
+        "label": "접근",
+        "value": "엘리자베스 호텔에서 차로 약 20분(여행사 안내 기준)"
+      }
+    ],
+    "description": "트윈도브즈CC(Twin Doves Golf Club)는 호치민 북쪽 빈즈엉성에 있는 27홀 골프장으로, 약 165헥타르 부지에 루나·스텔라·솔레 3개 나인이 있습니다.\n\n여행의파도 호치민 3색 상품은 엘리자베스 호텔에 3박하며 하모니CC·송베CC·트윈도브즈CC를 하루씩 라운딩합니다.",
+    "images": [
+      "/images/courses/twin-doves-golf-club-1.jpg",
+      "/images/courses/twin-doves-golf-club-2.jpg",
+      "/images/courses/twin-doves-golf-club-3.jpg"
+    ],
+    "hashtags": [
+      "트윈도브즈",
+      "트윈도브즈CC",
+      "호치민골프",
+      "빈즈엉골프",
+      "베트남골프여행"
+    ],
+    "relatedTourIds": [
+      "vietnam-hochiminh-3color-elizabeth-lj-incheon"
+    ]
+  },
+  {
+    "slug": "nilai-springs-golf-country-club",
+    "name": "닐라이스프링스CC",
+    "nameEn": "Nilai Springs Golf & Country Club",
+    "region": "쿠알라룸푸르",
+    "country": "말레이시아",
+    "countryCode": "malaysia",
+    "aliases": [
+      "닐라이스프링스 CC",
+      "닐라이 스프링스CC",
+      "닐라이스프링스골프장",
+      "Nilai Springs"
+    ],
+    "summary": "쿠알라룸푸르 국제공항 가까운 닐라이의 27홀 회원제 골프장, 1996년 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (망고 · 아일랜드 · 파인 9홀 코스)"
+      },
+      {
+        "label": "개장",
+        "value": "1996년"
+      },
+      {
+        "label": "소재지",
+        "value": "말레이시아 네게리슴빌란주 닐라이"
+      },
+      {
+        "label": "숙소",
+        "value": "닐라이스프링스 호텔이 골프장 바로 옆"
+      }
+    ],
+    "description": "닐라이스프링스CC는 쿠알라룸푸르 남쪽 닐라이에 있는 27홀 회원제 골프장입니다. 1996년에 문을 열었고, 망고·아일랜드·파인 세 개의 9홀 코스로 이뤄져 있습니다.\n\n숲에 둘러싸인 코스라 조용하게 라운딩할 수 있고, 골프장 바로 옆에 닐라이스프링스 호텔이 있어 이동이 짧습니다. 쿠알라룸푸르 국제공항에서도 가깝습니다.\n\n여행의파도 쿠알라룸푸르 골프여행에서는 닐라이스프링스 호텔에 머물며 이곳에서 라운딩합니다.",
+    "images": [
+      "/images/malaysia-kualalumpur-nilaisprings-batik-incheon/course-1.jpg",
+      "/images/malaysia-kualalumpur-nilaisprings-batik-incheon/course-2.jpg",
+      "/images/malaysia-kualalumpur-nilaisprings-batik-incheon/course-3.jpg",
+      "/images/malaysia-kualalumpur-nilaisprings-batik-incheon/course-4.jpg"
+    ],
+    "hashtags": [
+      "닐라이스프링스CC",
+      "쿠알라룸푸르골프장",
+      "말레이시아골프",
+      "쿠알라룸푸르골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "malaysia-kualalumpur-nilaisprings-batik-incheon"
+    ]
+  },
+  {
+    "slug": "bangi-golf-resort",
+    "name": "방이CC",
+    "nameEn": "Bangi Golf Resort",
+    "region": "쿠알라룸푸르",
+    "country": "말레이시아",
+    "countryCode": "malaysia",
+    "aliases": [
+      "방이 CC",
+      "방이골프장",
+      "방기CC",
+      "Bangi Golf Resort"
+    ],
+    "summary": "셀랑고르주 방이의 27홀 골프장, 로널드 프림 설계, 파72",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (방이 · 카장 · 푸트라자야 9홀 코스)"
+      },
+      {
+        "label": "설계",
+        "value": "로널드 프림 (Ronald Fream)"
+      },
+      {
+        "label": "파",
+        "value": "18홀 기준 파72"
+      },
+      {
+        "label": "소재지",
+        "value": "말레이시아 셀랑고르주 방이"
+      }
+    ],
+    "description": "방이CC는 쿠알라룸푸르 남쪽 셀랑고르주 방이에 있는 27홀 골프장입니다. 로널드 프림이 설계했고, 방이·카장·푸트라자야 세 개의 9홀 코스로 이뤄져 있습니다.\n\n18홀 기준 파72이며, 라운딩하는 코스 조합은 현지 사정에 따라 정해집니다. 행정 수도 푸트라자야와 가깝습니다.\n\n여행의파도 쿠알라룸푸르 골프여행에서는 방이의 테네라 호텔에 머물며 이곳에서 라운딩합니다.",
+    "images": [
+      "/images/malaysia-kualalumpur-tenera-bangi-batik-incheon/course-1.jpg",
+      "/images/malaysia-kualalumpur-tenera-bangi-batik-incheon/course-2.jpg",
+      "/images/malaysia-kualalumpur-tenera-bangi-batik-incheon/course-3.jpg",
+      "/images/malaysia-kualalumpur-tenera-bangi-batik-incheon/course-4.jpg",
+      "/images/malaysia-kualalumpur-tenera-bangi-batik-incheon/course-5.jpg"
+    ],
+    "hashtags": [
+      "방이CC",
+      "쿠알라룸푸르골프장",
+      "말레이시아골프",
+      "쿠알라룸푸르골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "malaysia-kualalumpur-tenera-bangi-batik-incheon"
+    ]
+  },
+  {
+    "slug": "ureshino-country-club",
+    "name": "우레시노CC",
+    "nameEn": "Takeo Ureshino Country Club",
+    "region": "사가",
+    "country": "일본",
+    "countryCode": "japan",
+    "aliases": [
+      "우레시노 CC",
+      "다케오 우레시노CC",
+      "다케오·우레시노CC",
+      "우레시노골프장"
+    ],
+    "summary": "사가현 다케오시의 18홀 파72 구릉 코스, 1978년 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72 · 6,700야드"
+      },
+      {
+        "label": "개장",
+        "value": "1978년"
+      },
+      {
+        "label": "소재지",
+        "value": "일본 사가현 다케오시"
+      },
+      {
+        "label": "접근",
+        "value": "나가사키자동차도 우레시노IC 인근"
+      }
+    ],
+    "description": "우레시노CC(다케오·우레시노 컨트리클럽)는 사가현 다케오시에 있는 18홀 파72, 6,700야드 골프장으로 1978년에 문을 열었습니다. 녹차밭이 곳곳에 있는 구릉 지대에 자리하며, 클럽하우스에 온천이 있어 라운딩 후 쉬어 가기 좋습니다.\n\n여행의파도 사가 시내 3색 골프여행에서 라운딩합니다.",
+    "images": [],
+    "hashtags": [
+      "우레시노CC",
+      "사가골프",
+      "사가골프여행",
+      "규슈골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-saga-apa-3color-2n3d-incheon",
+      "japan-saga-apa-3color-3n4d-incheon",
+      "japan-saga-apa-3color-4n5d-incheon"
+    ]
   }
 ]
