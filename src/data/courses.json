@@ -12399,5 +12399,55 @@
       "china-xiamen-dongfang-quanzhou-mazu-4n5d-incheon",
       "china-fuzhou-kempinski-3color-incheon"
     ]
+  },
+  {
+    "slug": "bintan-lagoon-golf-club",
+    "name": "빈탄라군CC",
+    "nameEn": "Bintan Lagoon Golf Club",
+    "aliases": [
+      "빈탄라군",
+      "빈탄 라군",
+      "빈탄라군 CC"
+    ],
+    "region": "빈탄",
+    "country": "인도네시아",
+    "countryCode": "indonesia",
+    "summary": "빈탄섬 바닷가 리조트의 36홀(시뷰·우드랜드, 각 파72) 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 — 잭 니클라우스 시뷰 18홀 파72 · 이안 베이커핀치 우드랜드 18홀 파72"
+      },
+      {
+        "label": "설계",
+        "value": "잭 니클라우스 (시뷰) · 이안 베이커핀치 (우드랜드)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "시뷰는 숲 지형과 해안 구간이 어우러지고, 우드랜드는 열대 숲 사이 기복 있는 코스"
+      },
+      {
+        "label": "접근",
+        "value": "바탐에서 스피드보트로 빈탄 이동 후 차로 약 60분(여행사 안내 기준), 모벤픽 리조트에서 도보"
+      }
+    ],
+    "description": "빈탄라군CC는 인도네시아 빈탄섬의 빈탄 라군 리조트 안에 있는 36홀 골프장으로, 잭 니클라우스가 설계한 시뷰 코스(파72)와 이안 베이커핀치가 설계한 우드랜드 코스(파72)로 이뤄져 있습니다.\n\n시뷰 코스는 숲 지형과 해안 구간이 어우러지며, 12번 파3 홀에서 남중국해가 내려다보입니다. 우드랜드 코스는 열대 숲에 둘러싸인 언덕 지형이라 오르내림이 있습니다.\n\n여행의파도 인천 출발 상품은 바탐에서 1박한 뒤 빈탄으로 건너가 모벤픽 리조트에 묵으며 매일 27홀을 라운딩합니다.",
+    "images": [
+      "/images/bintan-movenpick-lagoon/course-1.jpg",
+      "/images/bintan-movenpick-lagoon/course-2.jpg",
+      "/images/bintan-movenpick-lagoon/course-3.jpg",
+      "/images/bintan-movenpick-lagoon/course-4.jpg"
+    ],
+    "hashtags": [
+      "빈탄라군CC",
+      "빈탄골프",
+      "빈탄골프여행",
+      "모벤픽리조트빈탄",
+      "인도네시아골프"
+    ],
+    "relatedTourIds": [
+      "indonesia-bintan-movenpick-lagoon-3n5d-incheon",
+      "indonesia-bintan-movenpick-lagoon-4n6d-incheon"
+    ]
   }
 ]
