@@ -12714,5 +12714,139 @@
       "japan-saga-apa-3color-3n4d-incheon",
       "japan-saga-apa-3color-4n5d-incheon"
     ]
+  },
+  {
+    "slug": "kgsaas-golf-club",
+    "name": "KG SAAS CC",
+    "nameEn": "Kelab Golf Sultan Abdul Aziz Shah",
+    "region": "쿠알라룸푸르",
+    "country": "말레이시아",
+    "countryCode": "malaysia",
+    "aliases": [
+      "KG사스CC",
+      "KG사스",
+      "KGSAAS",
+      "KG SAAS",
+      "케이지사스CC",
+      "Kelab Golf Sultan Abdul Aziz Shah"
+    ],
+    "summary": "셀랑고르주 샤알람의 27홀 골프장, 피터 톰슨 설계, 1992년 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (프레지던트 · 술탄 · 알람샤 9홀 코스)"
+      },
+      {
+        "label": "설계",
+        "value": "피터 톰슨 (Peter Thomson)"
+      },
+      {
+        "label": "개장",
+        "value": "1992년"
+      },
+      {
+        "label": "소재지",
+        "value": "말레이시아 셀랑고르주 샤알람 13구역"
+      }
+    ],
+    "description": "KG SAAS CC(Kelab Golf Sultan Abdul Aziz Shah)는 쿠알라룸푸르 서쪽 샤알람에 있는 27홀 골프장입니다. 브리티시 오픈을 다섯 번 우승한 피터 톰슨이 설계했고 1992년에 문을 열었습니다.\n\n프레지던트·술탄·알람샤 세 개의 9홀 코스로 이뤄져 있으며, 큰 대회는 주로 술탄·알람샤 코스에서 열립니다. 코스마다 클럽하우스에서 내려갔다가 다시 올라오는 구조라 높낮이 변화가 있습니다.\n\n여행의파도 쿠알라룸푸르 골프여행에서는 골프장 가까운 샤알람 호텔에 머물며 이곳에서 라운딩합니다.",
+    "images": [
+      "/images/malaysia-kualalumpur-kgsaas-acappella-batik-incheon/course-1.jpg",
+      "/images/malaysia-kualalumpur-kgsaas-acappella-batik-incheon/course-2.jpg",
+      "/images/malaysia-kualalumpur-kgsaas-acappella-batik-incheon/course-3.jpg",
+      "/images/malaysia-kualalumpur-kgsaas-acappella-batik-incheon/course-4.jpg"
+    ],
+    "hashtags": [
+      "KG사스CC",
+      "쿠알라룸푸르골프장",
+      "샤알람골프",
+      "말레이시아골프",
+      "쿠알라룸푸르골프여행",
+      "골프패키지"
+    ],
+    "relatedTourIds": [
+      "malaysia-kualalumpur-kgsaas-acappella-batik-incheon"
+    ]
+  },
+  {
+    "slug": "hefei-shuangfenghu-golf-club",
+    "name": "쌍봉호CC",
+    "nameEn": "Hefei Shuangfeng Lake Golf Club",
+    "region": "합비",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "쌍봉호 CC",
+      "쌍봉호골프장",
+      "합비 쌍봉호CC",
+      "허페이 쌍봉호CC"
+    ],
+    "summary": "합비(허페이) 쌍봉호 호반의 18홀 파72 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72 (여행사 안내 기준)"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 안후이성 합비시 쌍봉호 일대"
+      },
+      {
+        "label": "접근",
+        "value": "합비 신차오국제공항에서 차로 약 30분 (여행사 안내 기준)"
+      }
+    ],
+    "description": "쌍봉호CC는 중국 안후이성 합비(허페이) 북쪽 쌍봉호 호반 지형을 따라 만든 18홀 파72 골프장입니다. 전반은 넓고 시원한 레이크뷰 홀이 이어지고, 후반은 지형 변화가 있어 플레이하는 재미가 있습니다.\n\n여행의파도 합비 2색 골프여행에서는 도착 당일 오후와 다음 날 이곳에서 라운딩합니다.",
+    "images": [],
+    "hashtags": [
+      "쌍봉호CC",
+      "합비골프",
+      "허페이골프",
+      "합비골프여행",
+      "중국골프여행"
+    ],
+    "relatedTourIds": [
+      "china-hefei-shuangfenghu-ke-3n4d-incheon",
+      "china-hefei-shuangfenghu-ke-4n5d-incheon"
+    ]
+  },
+  {
+    "slug": "hefei-zipeng-bay-golf-club",
+    "name": "즈펑베이CC",
+    "nameEn": "Hefei Zipeng Bay International Golf Club",
+    "region": "합비",
+    "country": "중국",
+    "countryCode": "china",
+    "aliases": [
+      "즈펑베이 CC",
+      "즈펑베이골프장",
+      "즈팽베이CC",
+      "자봉만CC",
+      "紫蓬湾"
+    ],
+    "summary": "합비 즈펑산 국립삼림공원 안의 18홀 챔피언십 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72 · 약 7,206야드 (여행사 안내 기준)"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 안후이성 합비시 페이시현 즈펑산 국립삼림공원"
+      }
+    ],
+    "description": "즈펑베이CC(자봉만 국제골프클럽)는 합비 서쪽 페이시현 즈펑산 국립삼림공원 안에 있는 18홀 챔피언십 골프장입니다. 호수와 숲, 벙커가 어우러져 전략적인 플레이가 필요한 코스입니다.\n\n여행의파도 합비 2색 골프여행에서 하루 라운딩합니다.",
+    "images": [],
+    "hashtags": [
+      "즈펑베이CC",
+      "합비골프",
+      "허페이골프",
+      "합비골프여행",
+      "중국골프여행"
+    ],
+    "relatedTourIds": [
+      "china-hefei-shuangfenghu-ke-3n4d-incheon",
+      "china-hefei-shuangfenghu-ke-4n5d-incheon"
+    ]
   }
 ]
