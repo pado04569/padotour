@@ -12848,5 +12848,269 @@
       "china-hefei-shuangfenghu-ke-3n4d-incheon",
       "china-hefei-shuangfenghu-ke-4n5d-incheon"
     ]
+  },
+  {
+    "slug": "alpine-golf-sports-club-bangkok",
+    "name": "알파인CC (방콕)",
+    "nameEn": "Alpine Golf & Sports Club",
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "방콕 북쪽 빠툼타니의 18홀 파72 챔피언십 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72 (약 7,044야드)"
+      },
+      {
+        "label": "개장",
+        "value": "1996년"
+      },
+      {
+        "label": "설계",
+        "value": "로널드 갈 (Ronald M. Garl)"
+      },
+      {
+        "label": "위치",
+        "value": "빠툼타니 클롱루앙 (방콕 북쪽 외곽순환도로 인근)"
+      }
+    ],
+    "description": "알파인CC(알파인 골프 & 스포츠클럽)는 방콕 북쪽 빠툼타니주 클롱루앙에 있는 18홀 파72 골프장으로, 1996년에 문을 열었습니다. 로널드 갈이 설계했습니다.\n\n여행의파도 방콕 VIP 3색 상품은 S31 스쿰빗호텔에 머물며 알파인CC·타이CC·로얄방파인CC를 하루씩 라운딩합니다.",
+    "images": [
+      "/images/thailand-bangkok-vip-3color-s31-ke-incheon/course-1.jpg",
+      "/images/thailand-bangkok-vip-3color-s31-ke-incheon/course-2.jpg",
+      "/images/thailand-bangkok-vip-3color-s31-ke-incheon/course-4.jpg"
+    ],
+    "hashtags": [
+      "알파인CC",
+      "방콕골프",
+      "방콕골프여행",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok-vip-3color-s31-ke-incheon"
+    ]
+  },
+  {
+    "slug": "thai-country-club",
+    "name": "타이CC (방콕)",
+    "nameEn": "Thai Country Club",
+    "region": "방콕",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "방콕 동쪽 차층사오의 18홀 파72 챔피언십 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72"
+      },
+      {
+        "label": "개장",
+        "value": "1996년"
+      },
+      {
+        "label": "설계",
+        "value": "데니스 그리피스 (Denis Griffiths)"
+      },
+      {
+        "label": "위치",
+        "value": "차층사오 방파꽁 (방나-뜨랏 고속도로 방면, 수완나품 공항에서 차로 약 30분)"
+      }
+    ],
+    "description": "타이CC(타이 컨트리클럽)는 방콕 동쪽 차층사오주에 있는 18홀 파72 골프장으로, 1996년에 문을 열었습니다. 데니스 그리피스가 설계했고, 1997년 아시안 혼다 클래식 등 국제 대회를 치른 코스입니다.\n\n여행의파도 방콕 VIP 3색 상품은 S31 스쿰빗호텔에 머물며 알파인CC·타이CC·로얄방파인CC를 하루씩 라운딩합니다.",
+    "images": [
+      "/images/thailand-bangkok-vip-3color-s31-ke-incheon/course-3.jpg",
+      "/images/thailand-bangkok-vip-3color-s31-ke-incheon/course-5.jpg"
+    ],
+    "hashtags": [
+      "타이CC",
+      "방콕골프",
+      "방콕골프여행",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok-vip-3color-s31-ke-incheon"
+    ]
+  },
+  {
+    "slug": "royal-bang-pa-in-golf-club",
+    "name": "로얄방파인CC",
+    "nameEn": "Royal Bang Pa-In Golf Club",
+    "region": "방콕/아유타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "아유타야 방파인의 18홀 파72 챔피언십 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72 (약 7,054야드)"
+      },
+      {
+        "label": "개장",
+        "value": "2017년"
+      },
+      {
+        "label": "설계",
+        "value": "슈미트-컬리 (Schmidt-Curley)"
+      },
+      {
+        "label": "위치",
+        "value": "아유타야주 방파인, 방콕에서 차로 약 1시간"
+      }
+    ],
+    "description": "로얄방파인CC(로얄 방파인 골프클럽)는 방콕 북쪽 아유타야주 방파인에 있는 18홀 파72 골프장입니다. 슈미트-컬리가 설계했으며 방콕 시내에서 차로 약 1시간 거리입니다.\n\n여행의파도 방콕 VIP 3색 상품은 S31 스쿰빗호텔에 머물며 알파인CC·타이CC·로얄방파인CC를 하루씩 라운딩합니다.",
+    "images": [],
+    "hashtags": [
+      "로얄방파인",
+      "로얄방파인CC",
+      "방콕골프",
+      "아유타야골프"
+    ],
+    "relatedTourIds": [
+      "thailand-bangkok-vip-3color-s31-ke-incheon"
+    ]
+  },
+  {
+    "slug": "nomozaki-golf-club",
+    "name": "노모자키CC",
+    "nameEn": "Nomozaki Golf Club (野母崎ゴルフクラブ)",
+    "region": "나가사키",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "나가사키 반도 끝 바닷가의 18홀 파72 오션뷰 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72 (약 6,622야드)"
+      },
+      {
+        "label": "개장",
+        "value": "1997년"
+      },
+      {
+        "label": "설계",
+        "value": "가토 슌스케 (加藤俊輔)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "바다를 내려다보는 언덕 지형, 숲을 살린 오션뷰 코스"
+      },
+      {
+        "label": "접근",
+        "value": "나가사키 공항에서 차로 약 60분, 나가사키 시내에서 약 30분"
+      }
+    ],
+    "description": "노모자키CC(노모자키 골프클럽)는 나가사키현 나가사키시 와키미사키초에 있는 18홀 파72 골프장으로, 1997년에 문을 열었습니다. 가토 슌스케가 설계했으며 숲을 최대한 살려 코스를 배치했습니다.\n\n나가사키 반도 끝 바닷가 언덕에 있어 여러 홀에서 바다가 보이고, 18번 홀에서 보는 일몰이 특히 아름답습니다. 코스 안에 빌라형 골프텔 선셋 빌리지가 있습니다.\n\n여행의파도 나가사키 상품은 선셋 빌리지에 머물며 노모자키CC를 매일 라운딩합니다.",
+    "images": [
+      "/images/japan-nagasaki-nomozaki-ke-3n4d-1214-incheon/course-1.jpg",
+      "/images/japan-nagasaki-nomozaki-ke-3n4d-1214-incheon/course-2.jpg",
+      "/images/japan-nagasaki-nomozaki-ke-3n4d-1214-incheon/course-4.jpg",
+      "/images/nagasaki-nomozaki-ke-incheon/course-1.jpg"
+    ],
+    "hashtags": [
+      "노모자키CC",
+      "나가사키골프",
+      "나가사키골프여행",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-nagasaki-nomozaki-ke-3n4d-1214-incheon",
+      "japan-nagasaki-nomozaki-ke-1215-incheon"
+    ]
+  },
+  {
+    "slug": "ria-bintan-golf-club",
+    "name": "리아빈탄CC",
+    "nameEn": "Ria Bintan Golf Club",
+    "aliases": [
+      "리아빈탄",
+      "리아 빈탄",
+      "Ria Bintan"
+    ],
+    "region": "빈탄",
+    "country": "인도네시아",
+    "countryCode": "indonesia",
+    "summary": "빈탄섬 북쪽 바닷가의 게리 플레이어 설계 오션 코스(18홀 파72)",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "오션 코스 18홀 파72 + 포레스트 코스 9홀"
+      },
+      {
+        "label": "개장",
+        "value": "1998년 (오션 코스)"
+      },
+      {
+        "label": "설계",
+        "value": "게리 플레이어 (Gary Player)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "남중국해를 따라 이어지는 해안 홀이 많은 오션 코스"
+      },
+      {
+        "label": "접근",
+        "value": "바탐에서 스피드보트로 빈탄 이동 후 차로 약 60분(여행사 안내 기준)"
+      }
+    ],
+    "description": "리아빈탄CC는 인도네시아 빈탄섬 북쪽 해안에 있는 골프장으로, 게리 플레이어가 설계한 오션 코스(18홀 파72)가 1998년에 문을 열었고 같은 설계자의 포레스트 코스 9홀이 더해졌습니다.\n\n오션 코스는 남중국해를 따라 해안 홀이 이어져 바다를 보며 치는 홀이 많습니다.\n\n여행의파도 바탐·빈탄 7박9일 상품은 빈탄 모벤픽 리조트에 묵으며 리아빈탄·빈탄라군·라구나CC 중에서 하루 1곳씩 라운딩합니다.",
+    "images": [],
+    "hashtags": [
+      "리아빈탄CC",
+      "빈탄골프",
+      "빈탄골프여행",
+      "인도네시아골프"
+    ],
+    "relatedTourIds": [
+      "indonesia-batam-bintan-7n9d-incheon"
+    ]
+  },
+  {
+    "slug": "laguna-golf-bintan",
+    "name": "라구나CC (빈탄)",
+    "nameEn": "Laguna Golf Bintan",
+    "aliases": [
+      "라구나CC",
+      "라구나 빈탄",
+      "라구나골프빈탄",
+      "Laguna Bintan"
+    ],
+    "region": "빈탄",
+    "country": "인도네시아",
+    "countryCode": "indonesia",
+    "summary": "빈탄섬 라군 지형의 그렉 노먼 설계 18홀 파72 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72"
+      },
+      {
+        "label": "개장",
+        "value": "1998년 (2016년 리뉴얼)"
+      },
+      {
+        "label": "설계",
+        "value": "그렉 노먼 (Greg Norman)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "2~4번 홀 바다 전망, 6~8번 홀은 라군을 끼고 도는 코스"
+      },
+      {
+        "label": "접근",
+        "value": "바탐에서 스피드보트로 빈탄 이동 후 차로 약 60분(여행사 안내 기준)"
+      }
+    ],
+    "description": "라구나CC(라구나 골프 빈탄)는 인도네시아 빈탄섬 라군 리조트 지역에 있는 18홀 파72 골프장으로, 그렉 노먼이 설계해 1998년에 문을 열었고 2016년에 새로 단장했습니다.\n\n초반 2~4번 홀에서 바다가 보이고 6~8번 홀은 라군을 끼고 돌며, 9번 홀은 클럽하우스를 향해 올라가는 파4입니다.\n\n여행의파도 바탐·빈탄 7박9일 상품은 빈탄 모벤픽 리조트에 묵으며 리아빈탄·빈탄라군·라구나CC 중에서 하루 1곳씩 라운딩합니다.",
+    "images": [],
+    "hashtags": [
+      "라구나CC",
+      "라구나골프빈탄",
+      "빈탄골프",
+      "인도네시아골프"
+    ],
+    "relatedTourIds": [
+      "indonesia-batam-bintan-7n9d-incheon"
+    ]
   }
 ]
