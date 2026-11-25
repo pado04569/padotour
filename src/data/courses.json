@@ -13112,5 +13112,49 @@
     "relatedTourIds": [
       "indonesia-batam-bintan-7n9d-incheon"
     ]
+  },
+  {
+    "slug": "srinagarind-dam-golf-course-kanchanaburi",
+    "name": "에라완CC",
+    "nameEn": "Srinagarind Dam Golf Course (Kanchanaburi)",
+    "region": "칸차나부리",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "칸차나부리 시나카린댐 호수 옆 산자락의 18홀 파72 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72"
+      },
+      {
+        "label": "위치",
+        "value": "태국 칸차나부리주 시사왓 군 타끄라단 (시나카린댐 인근)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "호수와 산, 숲에 둘러싸인 기복 있는 코스"
+      },
+      {
+        "label": "접근",
+        "value": "방콕 수완나품 공항에서 차량 이동(시간은 예약 때 안내)"
+      }
+    ],
+    "description": "에라완CC는 태국 칸차나부리주 시나카린댐 근처에 있는 18홀 파72 골프장으로, 현지에서는 시나카린댐 골프장(Srinagarind Dam Golf Course)으로 불립니다.\n\n시나카린댐 호수와 산자락, 숲이 어우러진 코스로 페어웨이 양옆으로 큰 나무가 늘어서 있습니다.\n\n여행의파도 칸차나부리 상품은 근처 에라완빌리지 골프텔에 3박하며 이 골프장에서 하루 36홀씩 3일 라운딩합니다.",
+    "images": [
+      "/images/thailand-kanchanaburi-erawan-vz-incheon/course-1.jpg",
+      "/images/thailand-kanchanaburi-erawan-vz-incheon/course-2.jpg",
+      "/images/thailand-kanchanaburi-erawan-vz-incheon/course-3.jpg",
+      "/images/thailand-kanchanaburi-erawan-vz-incheon/course-4.jpg"
+    ],
+    "hashtags": [
+      "에라완CC",
+      "에라완골프텔",
+      "칸차나부리골프",
+      "시나카린댐골프장",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-kanchanaburi-erawan-vz-incheon"
+    ]
   }
 ]
