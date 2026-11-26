@@ -123639,7 +123639,7 @@
       "개인경비"
     ],
     "cancelPolicy": [
-      "요일별 시작 요금입니다: 일·월·화 출발 1,386,000원~ / 수·토 1,456,000원~ / 목·금 1,526,000원~. 연말 특가는 12/24(목) 1,490,000원, 12/31(목) 1,590,000원입니다. 항공 최저가 좌석이 다 팔리면 요금이 올라갈 수 있어 예약 때 확정 요금을 안내합니다.",
+      "요일별 시작 요금입니다: 일·월·화 출발 1,386,000원~ / 수·토 1,456,000원~ / 목·금 1,526,000원~. 12/24·12/31 출발은 별도 연말 특가 상품으로 안내합니다. 항공 최저가 좌석이 다 팔리면 요금이 올라갈 수 있어 예약 때 확정 요금을 안내합니다.",
       "연휴와 특정일 출발은 따로 문의해 주세요. 아시아나항공(중석)·대한항공(조조) 일정과 부산·제주 출발도 문의로 안내합니다.",
       "은행호CC 외부 라운드는 18홀 1인 주중 110,000원, 주말 130,000원이 추가됩니다(그린피·차량 포함). 현지 9홀 추가는 주중 400위안, 주말 550위안입니다.",
       "카트비·캐디피는 일괄 조건이라 라운드를 하지 않아도 환불되지 않습니다."
@@ -123896,14 +123896,6 @@
       {
         "date": "2026-12-23",
         "price": 1456000
-      },
-      {
-        "date": "2026-12-24",
-        "price": 1490000
-      },
-      {
-        "date": "2026-12-31",
-        "price": 1590000
       },
       {
         "date": "2027-01-03",
@@ -164513,5 +164505,875 @@
       "/images/thailand-khaoyai-kabinburi-tg-incheon/hotel-3.jpg",
       "/images/thailand-khaoyai-kabinburi-tg-incheon/hotel-4.jpg"
     ]
+  },
+  {
+    "id": "china-guangzhou-holiday-island-cz-incheon-4n5d",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "광저우",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "priceUpdatedDate": "2026-11-26",
+    "title": "[인천출발] 중국 광저우 골프여행 홀리데이 아일랜드CC 4박5일 72홀 미림호 글로디아 호텔 남방항공 직항 1,470,000원부터",
+    "subtitle": "남방항공 인천-광저우 직항(오후 출발·저녁 귀국) · 미림호 글로디아 호텔(2인 1실) · 홀리데이 아일랜드CC 18홀 x 4회 · 조식·석식 포함 · 매일 출발 · 2인부터",
+    "nights": 4,
+    "days": 5,
+    "courses": 1,
+    "roundsIncluded": 4,
+    "holes": "72홀 (18홀 x 4회)",
+    "minPeople": "2인부터 출발",
+    "period": "2026년 11월 27일 ~ 2027년 3월 31일 매일 출발 (크리스마스·원단·구정 연휴 별도 문의, 출발일별 요금)",
+    "hotel": "미림호 글로디아 호텔 (5성급, 2인 1실)",
+    "hotelDesc": "미림호 글로디아 호텔(5성급)에 2인 1실로 4박합니다. 공항에서 약 30분, 홀리데이 아일랜드CC까지 약 10분이며 호텔 앞 광장에 식당·마트·대관람차가 있어 걸어서 시내를 즐길 수 있습니다. 조식과 석식(현지식·한식)이 포함됩니다.",
+    "golfCourse": "홀리데이 아일랜드CC (27홀)",
+    "golfCourseDesc": "호수와 숲이 어우러진 27홀 리조트형 골프장에서 둘째 날부터 하루 18홀씩 4회 라운딩합니다. 2인 1카트·2인 1캐디이며 카트비+캐디피와 캐디팁은 현지에서 냅니다.",
+    "productSummary": "남방항공 직항 석석편(인천 오후 출발·광저우 저녁 출발)으로 광저우에 가서 미림호 글로디아 호텔에 4박하며 홀리데이 아일랜드CC에서 하루 18홀씩, 총 72홀을 라운딩하는 상품입니다.\n조식·석식이 포함되고 2027년 3월 31일까지 출발일별 요금으로 2인부터 매일 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 광저우",
+        "desc": "인천국제공항 출발(남방항공 CZ338, 15:15) → 광저우 바이윈 국제공항 도착(18:05) → 가이드 미팅 후 호텔 이동(약 30분) → 석식 후 체크인 및 휴식 [중식 기내식 / 석식 현지식·한식] [호텔: 미림호 글로디아 호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "홀리데이 아일랜드CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 10분) → 홀리데이 아일랜드CC 18홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식·한식]"
+      },
+      {
+        "day": "3일차",
+        "label": "홀리데이 아일랜드CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 10분) → 홀리데이 아일랜드CC 18홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식·한식]"
+      },
+      {
+        "day": "4일차",
+        "label": "홀리데이 아일랜드CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 10분) → 홀리데이 아일랜드CC 18홀 라운딩 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식·한식]"
+      },
+      {
+        "day": "5일차",
+        "label": "홀리데이 아일랜드CC 18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 홀리데이 아일랜드CC 18홀 라운딩 → 공항 이동(약 30분) → 광저우 바이윈 국제공항 출발(CZ339, 17:30) → 인천국제공항 도착(21:50) 후 해산 [조식 호텔식 / 중식 불포함 / 석식 기내식]"
+      }
+    ],
+    "highlights": [
+      "남방항공 인천-광저우 직항 석석편 (오후 출발·저녁 귀국)",
+      "홀리데이 아일랜드CC 18홀 x 4회 · 72홀",
+      "5성급 미림호 글로디아 호텔 4박 · 조식·석식 포함",
+      "출발일별 요금 1,470,000원부터 · 2인부터"
+    ],
+    "includes": [
+      "왕복 항공권 (남방항공, 유류할증료·세금 포함)",
+      "미림호 글로디아 호텔 (2인 1실)",
+      "조식·석식 (현지식·한식)",
+      "그린피 18홀 x 4회",
+      "여행자보험"
+    ],
+    "excludes": [
+      "중식",
+      "미팅·샌딩비 1인 350위안",
+      "캐디피+카트비 18홀 1인 300위안 (27홀 450위안)",
+      "캐디팁 18홀 1인 150위안 (27홀 250위안, 2인 1캐디)",
+      "싱글룸 1박 70,000원(원단 1/1~3·구정 2/5~13 80,000원) · 싱글카트 18홀 110위안",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "최저 항공 운임 기준 요금이라 좌석이 소진되면 요금이 오를 수 있습니다. 크리스마스·원단·구정 연휴는 별도 문의해 주세요.",
+      "카트비+캐디피는 현지 도착 때 한 번에 내며, 라운딩을 못 하거나 날씨·개인 사정으로 빠져도 환불되지 않습니다. 석식을 이용하지 않아도 환불되지 않습니다.",
+      "라운딩 홀수는 예약할 때 정해야 하며 현지에서 바꿀 수 없습니다.",
+      "사자호CC 외부 라운딩은 1인 100,000원(첫날·마지막 날 80,000원, 홀리데이 2회 이상 조건)입니다.",
+      "석식을 호텔식 뷔페·주류 무제한으로 바꾸면 1회 1인 20,000원이 추가됩니다.",
+      "항공권 발권 후 취소하면 운임 규정에 따라 위약금이 있고, 출발 당일 취소는 상품가의 100%입니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "seoIntro": "인천 출발 광저우 골프여행 4박5일 상품으로, 남방항공 직항을 타고 미림호 글로디아 호텔에 머물며 홀리데이 아일랜드CC에서 72홀을 라운딩하는 골프패키지입니다.",
+    "seoKeywords": [
+      "광저우골프",
+      "광저우골프여행",
+      "홀리데이아일랜드",
+      "미림호",
+      "남방항공",
+      "인천출발"
+    ],
+    "courseImages": [
+      "/images/guangzhou-holiday-island-busan/course-1.jpg",
+      "/images/guangzhou-holiday-island-busan/course-2.jpg",
+      "/images/guangzhou-holiday-island-busan/course-3.jpg",
+      "/images/guangzhou-holiday-island-busan/course-4.jpg",
+      "/images/guangzhou-holiday-island-busan/course-5.jpg",
+      "/images/guangzhou-holiday-island-busan/course-6.jpg"
+    ],
+    "hotelImages": [
+      "/images/guangzhou-holiday-island-busan/hotel-1.jpg",
+      "/images/guangzhou-holiday-island-busan/hotel-2.jpg",
+      "/images/guangzhou-holiday-island-busan/hotel-3.jpg",
+      "/images/guangzhou-holiday-island-busan/hotel-4.jpg",
+      "/images/guangzhou-holiday-island-busan/hotel-5.jpg",
+      "/images/guangzhou-holiday-island-busan/hotel-6.jpg"
+    ],
+    "image": "/images/guangzhou-holiday-island-busan/course-1.jpg",
+    "images": [
+      "/images/guangzhou-holiday-island-busan/course-1.jpg",
+      "/images/guangzhou-holiday-island-busan/hotel-1.jpg",
+      "/images/guangzhou-holiday-island-busan/course-2.jpg",
+      "/images/guangzhou-holiday-island-busan/hotel-2.jpg",
+      "/images/guangzhou-holiday-island-busan/course-3.jpg",
+      "/images/guangzhou-holiday-island-busan/hotel-3.jpg"
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-11-27",
+        "price": 1530000
+      },
+      {
+        "date": "2026-11-28",
+        "price": 1500000
+      },
+      {
+        "date": "2026-11-29",
+        "price": 1470000
+      },
+      {
+        "date": "2026-11-30",
+        "price": 1470000
+      },
+      {
+        "date": "2026-12-01",
+        "price": 1500000
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1530000
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1530000
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1530000
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1500000
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1470000
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1470000
+      },
+      {
+        "date": "2026-12-08",
+        "price": 1500000
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1530000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1530000
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1530000
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1500000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1470000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1470000
+      },
+      {
+        "date": "2026-12-15",
+        "price": 1500000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1530000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1530000
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1530000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1500000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1470000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1470000
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1500000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1530000
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1530000
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1500000
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1470000
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1470000
+      },
+      {
+        "date": "2026-12-29",
+        "price": 1500000
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1470000
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1500000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1500000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1470000
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1470000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1500000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1500000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1470000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1470000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1500000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1500000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1470000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1470000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1500000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1530000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1500000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1470000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1470000
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1500000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1470000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1470000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1500000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1530000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1530000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1530000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1500000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1470000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1470000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1500000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1530000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1530000
+      },
+      {
+        "date": "2027-02-26",
+        "price": 1530000
+      },
+      {
+        "date": "2027-02-27",
+        "price": 1500000
+      },
+      {
+        "date": "2027-02-28",
+        "price": 1470000
+      },
+      {
+        "date": "2027-03-01",
+        "price": 1470000
+      },
+      {
+        "date": "2027-03-02",
+        "price": 1500000
+      },
+      {
+        "date": "2027-03-03",
+        "price": 1530000
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1530000
+      },
+      {
+        "date": "2027-03-05",
+        "price": 1530000
+      },
+      {
+        "date": "2027-03-06",
+        "price": 1500000
+      },
+      {
+        "date": "2027-03-07",
+        "price": 1470000
+      },
+      {
+        "date": "2027-03-08",
+        "price": 1470000
+      },
+      {
+        "date": "2027-03-09",
+        "price": 1500000
+      },
+      {
+        "date": "2027-03-10",
+        "price": 1530000
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1530000
+      },
+      {
+        "date": "2027-03-12",
+        "price": 1530000
+      },
+      {
+        "date": "2027-03-13",
+        "price": 1500000
+      },
+      {
+        "date": "2027-03-14",
+        "price": 1470000
+      },
+      {
+        "date": "2027-03-15",
+        "price": 1470000
+      },
+      {
+        "date": "2027-03-16",
+        "price": 1500000
+      },
+      {
+        "date": "2027-03-17",
+        "price": 1530000
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1530000
+      },
+      {
+        "date": "2027-03-19",
+        "price": 1530000
+      },
+      {
+        "date": "2027-03-20",
+        "price": 1500000
+      },
+      {
+        "date": "2027-03-21",
+        "price": 1470000
+      },
+      {
+        "date": "2027-03-22",
+        "price": 1470000
+      },
+      {
+        "date": "2027-03-23",
+        "price": 1500000
+      },
+      {
+        "date": "2027-03-24",
+        "price": 1530000
+      },
+      {
+        "date": "2027-03-25",
+        "price": 1530000
+      },
+      {
+        "date": "2027-03-26",
+        "price": 1530000
+      },
+      {
+        "date": "2027-03-27",
+        "price": 1500000
+      },
+      {
+        "date": "2027-03-28",
+        "price": 1470000
+      },
+      {
+        "date": "2027-03-29",
+        "price": 1470000
+      },
+      {
+        "date": "2027-03-30",
+        "price": 1500000
+      },
+      {
+        "date": "2027-03-31",
+        "price": 1530000
+      }
+    ],
+    "closedDates": [
+      {
+        "date": "2026-12-24",
+        "status": "문의"
+      },
+      {
+        "date": "2026-12-30",
+        "status": "문의"
+      },
+      {
+        "date": "2026-12-31",
+        "status": "문의"
+      },
+      {
+        "date": "2027-01-01",
+        "status": "문의"
+      },
+      {
+        "date": "2027-01-02",
+        "status": "문의"
+      },
+      {
+        "date": "2027-01-03",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-03",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-04",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-05",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-06",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-07",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-09",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-10",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-11",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-12",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-13",
+        "status": "문의"
+      }
+    ],
+    "price": "1,470,000원~",
+    "displayTitle": "광저우 홀리데이 아일랜드 4박5일 남방항공"
+  },
+  {
+    "id": "china-yangjiang-hailingdao-crowneplaza-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "광저우",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "title": "[인천출발] 중국 양장 골프여행 해릉도CC 크라운플라자 4박6일 72홀 아시아나항공 심천 직항 1,390,000원부터",
+    "displayTitle": "양장 해릉도CC 크라운플라자 72홀",
+    "subtitle": "아시아나항공 인천-심천 직항 · 해릉도CC 18홀 × 4회 · 5성급 크라운플라자 호텔(골프장 도보 5분) · 조식·클럽 중식·석식 포함 · 시즌·주말 추가요금 없음",
+    "nights": 4,
+    "days": 6,
+    "courses": 1,
+    "roundsIncluded": 4,
+    "holes": "72홀 (하루 18홀 × 4회)",
+    "minPeople": "4인 기준 (2~3인은 미팅·샌딩비가 달라 예약 때 확인)",
+    "period": "2026년 12월 7일 · 12월 14일 월요일 출발 (2회)",
+    "hotel": "크라운플라자 호텔 하이링아일랜드 (5성급, 2인 1실)",
+    "hotelDesc": "양장 해릉도 십리은탄(十里银滩) 해변에 있는 5성급 리조트 호텔로, 해릉도CC까지 걸어서 약 5분이면 갑니다. 실내·실외 수영장이 있고 바다 전망을 즐길 수 있습니다. 4박 모두 같은 호텔에 묵어 짐을 다시 쌀 필요가 없습니다.",
+    "golfCourse": "해릉도CC 18홀 × 4회",
+    "golfCourseDesc": "해릉도CC는 광둥성 양장시 해릉도의 바닷가를 따라 자리한 18홀 골프장입니다. 페어웨이 옆으로 남중국해 바다와 야자수가 펼쳐지는 시사이드 코스로, 숙소인 크라운플라자 호텔에서 걸어서 갈 수 있습니다. 시즌 구분이나 주말 추가요금 없이 4일 동안 매일 18홀을 라운딩합니다.",
+    "productSummary": "아시아나항공 직항으로 심천에 도착해 전용차량으로 양장 해릉도로 이동한 뒤, 5성급 크라운플라자 호텔에 4박하며 해릉도CC에서 매일 18홀, 총 72홀을 라운딩하는 12월 월요일 출발 상품입니다. 그린피 72홀, 호텔 조식, 클럽 중식·석식이 포함되며 시즌·주말 추가요금이 없습니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 심천 → 양장",
+        "desc": "인천국제공항 아시아나항공 OZ371 22:10 출발 → 심천 국제공항 01:10(다음 날) 도착 → 기사 미팅 후 전용차량으로 양장 호텔 이동(약 4시간) → 체크인 후 휴식 [호텔: 크라운플라자 호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "해릉도CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(도보 5분) → 해릉도CC 18홀 라운딩 → 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 클럽식]"
+      },
+      {
+        "day": "3일차",
+        "label": "해릉도CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(도보 5분) → 해릉도CC 18홀 라운딩 → 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 클럽식]"
+      },
+      {
+        "day": "4일차",
+        "label": "해릉도CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(도보 5분) → 해릉도CC 18홀 라운딩 → 호텔 휴식 [조식 호텔식 / 중식 클럽식 / 석식 클럽식]"
+      },
+      {
+        "day": "5일차",
+        "label": "해릉도CC 18홀 → 공항",
+        "desc": "호텔 조식 후 골프장 이동(도보 5분) → 해릉도CC 18홀 라운딩 → 석식 후 심천 국제공항으로 이동(약 4시간) [조식 호텔식 / 중식 클럽식 / 석식 클럽식]"
+      },
+      {
+        "day": "6일차",
+        "label": "심천 → 인천",
+        "desc": "심천 국제공항 아시아나항공 OZ372 02:25 출발 → 인천국제공항 06:50 도착 후 해산"
+      }
+    ],
+    "highlights": [
+      "아시아나항공 인천-심천 직항 (위탁수하물 23kg)",
+      "5성급 크라운플라자 호텔 4박 · 골프장 도보 5분",
+      "해릉도CC 매일 18홀 총 72홀",
+      "그린피 · 조식 · 클럽 중식·석식 포함",
+      "시즌·주말 추가요금 없음 · 캐디피·카트비 포함 시 1인 1,630,000원",
+      "12월 7일 · 14일 월요일 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (아시아나항공, TAX·유류세 포함 / 기내 12kg·위탁 23kg)",
+      "크라운플라자 호텔 4박 (2인 1실, 조식 포함)",
+      "전 일정 클럽 중식·석식 (한식·중식 메뉴)",
+      "그린피 (72홀)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "공항 미팅·샌딩 (4인 이상 1인 100달러 / 2~3인은 합계 400달러)",
+      "캐디피(2인 1캐디)·카트비(2인 1카트) 18홀 1인 300위안 (한국에서 함께 결제하면 1인 1,630,000원)",
+      "캐디팁 18홀 1인 150위안",
+      "싱글룸 1박 1인 70,000원",
+      "중국 명절 기간 추가요금 (개별 문의)",
+      "개인경비 및 매너팁"
+    ],
+    "cancelPolicy": [
+      "실시간 항공 요금 기준 상품으로, 특가 좌석이 소진되면 항공 차액이 생길 수 있습니다.",
+      "항공권 발권 후 취소 시 항공사 규정과 현지 규정에 따라 취소료가 부과됩니다.",
+      "18홀 추가 시 그린피 50,000원 + 캐디피·카트비 300위안이 추가됩니다. 싱글카트는 18홀 150위안, 1인 1캐디 시 캐디팁은 18홀 200위안입니다.",
+      "중국 무비자 입국(30일 이내)은 2026년 12월 31일까지 시행되며, 입국 전 중국 온라인 입국신고서를 작성하고 QR 코드를 저장해 가셔야 합니다.",
+      "여권 만료일은 출발일 기준 6개월 이상 남아 있어야 합니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다.",
+      "가이드 없이 공항 미팅·샌딩 직원이 이동을 돕는 노가이드 상품입니다. 12/14 출발팀 귀국편(12/19)은 항공사 공동운항 전환으로 편명이 바뀔 수 있어 예약 때 확정 편명을 안내합니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-07",
+        "price": 1390000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1390000
+      }
+    ],
+    "price": "1,390,000원~",
+    "image": "/images/china-yangjiang-hailingdao-crowneplaza-incheon/course-1.jpg",
+    "images": [
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/course-1.jpg",
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/hotel-1.jpg",
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/course-2.jpg",
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/hotel-2.jpg",
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/course-3.jpg",
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/hotel-3.jpg"
+    ],
+    "courseImages": [
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/course-1.jpg",
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/course-2.jpg",
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/course-3.jpg",
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/course-4.jpg",
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/course-5.jpg",
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/course-6.jpg"
+    ],
+    "hotelImages": [
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/hotel-1.jpg",
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/hotel-2.jpg",
+      "/images/china-yangjiang-hailingdao-crowneplaza-incheon/hotel-3.jpg"
+    ],
+    "seoIntro": "인천 출발 중국 양장 골프여행 4박6일 상품으로, 아시아나항공 직항으로 심천에 가서 해릉도 5성급 크라운플라자 호텔에 묵으며 걸어서 5분 거리인 해릉도CC에서 72홀을 라운딩하는 골프패키지입니다.",
+    "seoKeywords": [
+      "양장골프",
+      "해릉도골프",
+      "해릉도CC",
+      "광저우골프",
+      "중국골프여행",
+      "아시아나항공",
+      "인천출발"
+    ],
+    "priceUpdatedDate": "2026-11-26"
+  },
+  {
+    "id": "china-nanjing-sunisland-1224-incheon",
+    "country": "중국",
+    "countryCode": "china",
+    "region": "난징",
+    "title": "[인천출발] 중국 난징 골프여행 태양도CC 신세계호텔 3박4일 54홀 동방항공 저녁 출발 12/24·12/31 특가 1,390,000원부터",
+    "subtitle": "동방항공 인천-난징 저녁 출발 · 태양도CC 18홀 × 3회 · 그린피·카트비·캐디피·미팅샌딩 포함 · 조식·석식 포함 · 12/24·12/31 출발",
+    "nights": 3,
+    "days": 4,
+    "courses": 1,
+    "roundsIncluded": 3,
+    "holes": "54홀 (18홀 × 3회)",
+    "minPeople": "2인부터 예약 문의",
+    "period": "2026년 12월 24일(목)·31일(목) 출발 한정",
+    "hotel": "그랜드 뉴 센추리 호텔 리수이(신세계호텔, 5성급) 또는 동급 (2인 1실)",
+    "hotelDesc": "난징 리수이구에 있는 5성급 호텔로 객실과 욕실이 넓고 욕조·샤워부스가 따로 있습니다. 골프장까지 차로 약 10분, 리수이 시내까지 약 10분이며 길 건너에 대형 마트와 양꼬치집이 있어 저녁 시간을 보내기 좋습니다.",
+    "golfCourse": "태양도CC (18홀)",
+    "golfCourseDesc": "난징 리수이구 구릉지대에 자리한 18홀 골프장으로, 필드와 그린에 기복이 있고 세컨샷 지점과 그린 주변에 깊은 벙커가 많아 전략적인 공략이 필요합니다. 2인 1카트·2인 1캐디가 기본이며, 골프장 사정에 따라 4인 1카트·4인 1캐디로 배정될 수 있습니다.",
+    "productSummary": "동방항공 저녁 비행기로 인천을 떠나 난징에 도착한 뒤 5성급 신세계호텔에 3박 숙박하며, 호텔에서 차로 10분 거리 태양도CC에서 둘째 날부터 마지막 날까지 매일 18홀, 총 54홀을 라운딩하는 연말 특가 상품입니다. 그린피·카트비·캐디피와 미팅·샌딩, 조식·석식이 포함되어 현지에서는 캐디팁과 중식만 냅니다. 크리스마스(12/24)와 신정(12/31) 두 날짜만 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 난징",
+        "desc": "인천국제공항 동방항공 MU2922 20:50 출발 → 난징 루커우 국제공항 21:55 도착 → 직원 미팅 후 호텔 이동 → 체크인 후 휴식 [호텔: 신세계호텔 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "태양도CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 10분) → 태양도CC 18홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "3일차",
+        "label": "태양도CC 18홀",
+        "desc": "호텔 조식 후 골프장 이동(약 10분) → 태양도CC 18홀 라운드 → 석식 후 호텔 휴식 [조식 호텔식 / 중식 불포함 / 석식 현지식]"
+      },
+      {
+        "day": "4일차",
+        "label": "태양도CC 18홀 → 인천",
+        "desc": "조식·체크아웃 후 태양도CC 18홀 라운드(이른 티업) → 공항 이동 → 난징 루커우 국제공항 동방항공 MU2921 16:40 출발 → 인천국제공항 19:50 도착 후 해산 [조식 호텔식]"
+      }
+    ],
+    "highlights": [
+      "동방항공 인천-난징 직항 (저녁 출발·오후 귀국)",
+      "태양도CC 18홀 × 3회 · 54홀",
+      "그린피·카트비·캐디피·미팅샌딩 포함",
+      "5성급 신세계호텔 · 조식·석식 포함",
+      "12/24 1,390,000원 · 12/31 1,500,000원"
+    ],
+    "includes": [
+      "왕복 항공권 (동방항공, 유류할증료·세금 포함)",
+      "신세계호텔 또는 동급 3박 (2인 1실)",
+      "조식·석식",
+      "그린피·카트비·캐디피 (18홀 × 3회)",
+      "미팅·샌딩",
+      "여행자보험"
+    ],
+    "excludes": [
+      "중식",
+      "캐디팁 (18홀 1인 150위안)",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "크리스마스·신정 연말 특가로 12/24(목) 1,390,000원, 12/31(목) 1,500,000원 두 날짜만 출발합니다.",
+      "항공 최저가 좌석 기준 요금이라 좌석이 다 팔리면 요금이 올라갈 수 있어 예약 때 확정 요금을 안내합니다.",
+      "2인 1카트·2인 1캐디가 기본이며, 골프장 사정에 따라 4인 1카트·4인 1캐디로 배정될 수 있습니다.",
+      "항공권 발권 후 취소 시 항공사 규정과 현지 규정에 따라 취소료가 생깁니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-24",
+        "price": 1390000
+      },
+      {
+        "date": "2026-12-31",
+        "price": 1500000
+      }
+    ],
+    "price": "1,390,000원~",
+    "image": "/images/nanjing-sunisland-incheon/course-1.jpg",
+    "images": [
+      "/images/nanjing-sunisland-incheon/course-1.jpg",
+      "/images/nanjing-sunisland-incheon/hotel-1.jpg",
+      "/images/nanjing-sunisland-incheon/course-2.jpg",
+      "/images/nanjing-sunisland-incheon/hotel-2.jpg",
+      "/images/nanjing-sunisland-incheon/course-3.jpg",
+      "/images/nanjing-sunisland-incheon/hotel-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/nanjing-sunisland-incheon/hotel-1.jpg",
+      "/images/nanjing-sunisland-incheon/hotel-2.jpg",
+      "/images/nanjing-sunisland-incheon/hotel-3.jpg",
+      "/images/nanjing-sunisland-incheon/hotel-4.jpg",
+      "/images/nanjing-sunisland-incheon/hotel-5.jpg"
+    ],
+    "courseImages": [
+      "/images/nanjing-sunisland-incheon/course-1.jpg",
+      "/images/nanjing-sunisland-incheon/course-2.jpg",
+      "/images/nanjing-sunisland-incheon/course-3.jpg",
+      "/images/nanjing-sunisland-incheon/course-4.jpg",
+      "/images/nanjing-sunisland-incheon/course-5.jpg",
+      "/images/nanjing-sunisland-incheon/course-6.jpg",
+      "/images/nanjing-sunisland-incheon/course-7.jpg",
+      "/images/nanjing-sunisland-incheon/course-8.jpg",
+      "/images/nanjing-sunisland-incheon/course-9.jpg"
+    ],
+    "badge": "인천출발 신규",
+    "departure": "incheon",
+    "priceUpdatedDate": "2026-11-26",
+    "seoIntro": "인천 출발 중국 난징 골프여행 3박4일 연말 특가 상품으로, 동방항공 저녁 직항으로 가서 5성급 신세계호텔에 숙박하며 태양도CC에서 54홀을 라운딩하고 캐디피·석식까지 포함된 골프패키지입니다.",
+    "seoKeywords": [
+      "난징골프",
+      "남경골프",
+      "난징골프여행",
+      "태양도CC",
+      "중국골프여행",
+      "인천출발"
+    ],
+    "displayTitle": "난징 태양도CC 연말 특가 3박4일"
   }
 ]
