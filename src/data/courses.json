@@ -13156,5 +13156,103 @@
     "relatedTourIds": [
       "thailand-kanchanaburi-erawan-vz-incheon"
     ]
+  },
+  {
+    "slug": "kabinburi-sport-club",
+    "name": "카빈부리CC",
+    "nameEn": "Kabinburi Sport Club",
+    "region": "카오야이",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "쁘라친부리주의 18홀 파72, 맨 뒤 티 8,075야드 장타 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72"
+      },
+      {
+        "label": "전장",
+        "value": "맨 뒤 티 8,075야드 · 레드 티 5,829야드"
+      },
+      {
+        "label": "설계",
+        "value": "가토 요시카즈 (Yoshikazu Kato)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "좌우로 물이 많은 평지형 코스, 파3가 어려운 편"
+      },
+      {
+        "label": "접근",
+        "value": "방콕에서 약 160km · 수완나품 공항에서 차로 약 2시간 30분(블로그 지도 기준)"
+      },
+      {
+        "label": "개장",
+        "value": "2007년"
+      }
+    ],
+    "description": "카빈부리CC(카빈부리 스포츠클럽)는 태국 쁘라친부리주 카빈부리에 있는 18홀 파72 골프장으로, 카오야이 국립공원과 가깝고 방콕에서 약 160km 떨어져 있습니다.\n\n일본 설계가 가토 요시카즈가 설계했으며 맨 뒤 티 기준 8,075야드로 태국에서 손꼽히게 긴 코스입니다. 좌우로 물이 많아 정확한 샷이 필요합니다.\n\n여행의파도 카빈부리 상품은 카빈부리 리조트에 묵으며 매일 18홀 + 서비스 18홀을 라운딩합니다.",
+    "images": [
+      "/images/thailand-khaoyai-kabinburi-tg-incheon/course-1.jpg",
+      "/images/thailand-khaoyai-kabinburi-tg-incheon/course-2.jpg",
+      "/images/thailand-khaoyai-kabinburi-tg-incheon/course-3.jpg"
+    ],
+    "hashtags": [
+      "카빈부리CC",
+      "카빈부리골프",
+      "카오야이골프",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-khaoyai-kabinburi-tg-incheon",
+      "thailand-khaoyai-kabinburi-tg-incheon-5n7d"
+    ]
+  },
+  {
+    "slug": "sanyo-kokusai-golf-club",
+    "name": "산요국제CC",
+    "nameEn": "Sanyo Kokusai Golf Club (山陽国際ゴルフクラブ)",
+    "region": "야마구치",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "야마구치현 산요오노다시의 36홀(동·서 코스) 골프장, 1980년 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 파144 (동코스 18홀 · 서코스 18홀, 운영사 공시 총 12,482야드)"
+      },
+      {
+        "label": "개장",
+        "value": "1980년"
+      },
+      {
+        "label": "설계",
+        "value": "아사카와 요시오"
+      },
+      {
+        "label": "코스 특징",
+        "value": "동코스는 거리가 길고 물이 많이 끼며, 서코스는 정확한 샷이 필요한 전략형 코스"
+      },
+      {
+        "label": "접근",
+        "value": "기타큐슈 공항에서 차로 약 50분(여행사 안내 기준)"
+      }
+    ],
+    "description": "산요국제CC(산요국제 골프클럽)는 야마구치현 산요오노다시에 있는 36홀 골프장으로, 1980년에 개장했습니다.\n\n동코스와 서코스로 나뉘며, 동코스는 거리가 길고 많은 홀에 물이 끼어 있고 서코스는 더 정확한 샷이 필요한 전략적인 코스입니다.\n\n여행의파도 기타큐슈·야마구치 상품에서 귀국일 라운딩 골프장으로 이용합니다.",
+    "images": [
+      "/images/kitakyushu-sanyo-cheongju/course-1.jpg",
+      "/images/kitakyushu-sanyo-cheongju/course-4.jpg",
+      "/images/kitakyushu-sanyo-cheongju/course-8.jpg"
+    ],
+    "hashtags": [
+      "산요국제CC",
+      "야마구치골프",
+      "기타큐슈골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-yamaguchi-island-sanyo-3n4d-incheon",
+      "japan-kitakyushu-sanyo-onsen-2n3d-cheongju"
+    ]
   }
 ]
