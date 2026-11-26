@@ -165375,5 +165375,1027 @@
       "인천출발"
     ],
     "displayTitle": "난징 태양도CC 연말 특가 3박4일"
+  },
+  {
+    "id": "vietnam-hochiminh-binhduong-mira-yp-incheon",
+    "country": "베트남",
+    "countryCode": "vietnam",
+    "region": "호치민",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "title": "[인천출발] 베트남 호치민 골프여행 빈증 트윈도브즈·송베·하모니 3색 미라 부띠크 호텔 3박5일 54홀 에어프레미아 직항 1,339,000원부터",
+    "subtitle": "에어프레미아 인천-호치민 직항(수하물 23kg) · 미라 부띠크 호텔(2인 1실) · 트윈도브즈·송베·하모니 3색 54홀 · 그린피·카트비·캐디피 포함 · 공항 미팅·샌딩 포함",
+    "nights": 3,
+    "days": 5,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "54홀 (하루 18홀 × 3회)",
+    "minPeople": "2인부터 예약 가능",
+    "period": "2026년 12월 3일 ~ 2027년 3월 24일 (일·월·수·목 출발)",
+    "hotel": "미라 부띠크 호텔 (빈증 투저우못, 2인 1실)",
+    "hotelDesc": "호치민 북쪽 빈증성 투저우못에 있는 부띠크 호텔로, 떤선녓 공항에서 차로 약 50분입니다. 객실이 넓고 안전금고·소파·책상이 있으며 야외 수영장이 있습니다. 걸어서 10분 정도면 식당·마사지·카페·마트가 모인 번화가가 나오고, 골프장 세 곳은 모두 차로 15분 안팎입니다.",
+    "golfCourse": "트윈도브즈CC 18홀 · 송베CC 18홀 · 하모니CC 18홀",
+    "golfCourseDesc": "호치민 북쪽 빈증의 골프장 세 곳을 하루씩 라운딩합니다. 트윈도브즈CC(Twin Doves Golf Club)는 루나·스텔라·솔레 3개 코스의 27홀 골프장으로 KLPGA 대회가 열린 곳입니다. 송베CC(Song Be Golf Resort)는 1994년 문을 연 27홀 골프장으로 나무가 많고 전통이 있는 코스입니다. 하모니CC(Harmonie Golf Park)는 짐 엥(Jim Engh)이 설계한 18홀 파72 코스로 물이 많고, 전동카트가 페어웨이에 들어갈 수 있습니다.",
+    "productSummary": "에어프레미아 직항으로 호치민에 가서 빈증의 미라 부띠크 호텔에 3박하며 트윈도브즈·송베·하모니CC를 하루씩, 총 54홀을 라운딩하는 자유골프 상품입니다. 가이드는 없지만 공항에서 현지 직원이 마중해 호텔까지 함께 가고, 라운드 뒤에도 카톡으로 차량과 안내를 도와드립니다. 그린피·카트비·캐디피, 호텔 조식, 송영 차량이 포함됩니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 호치민",
+        "desc": "인천국제공항 에어프레미아 YP651 19:20 출발 → 호치민 떤선녓 국제공항 23:00 도착 → 현지 직원 미팅 후 호텔 이동(약 50분) → 체크인 후 휴식 [호텔: 미라 부띠크 호텔]"
+      },
+      {
+        "day": "2일차",
+        "label": "트윈도브즈CC 18홀",
+        "desc": "호텔 조식 후 트윈도브즈CC 18홀 라운드 → 호텔 휴식 [조식 호텔 뷔페 / 중식 클럽식 / 석식 자유식]"
+      },
+      {
+        "day": "3일차",
+        "label": "송베CC 18홀",
+        "desc": "호텔 조식 후 송베CC 18홀 라운드 → 호텔 휴식 [조식 호텔 뷔페 / 중식 클럽식 / 석식 자유식]"
+      },
+      {
+        "day": "4일차",
+        "label": "하모니CC 18홀 → 공항",
+        "desc": "호텔 조식 후 하모니CC 18홀 라운드 → 떤선녓 국제공항 이동 [조식 호텔 뷔페 / 중식 클럽식 / 석식 자유식]"
+      },
+      {
+        "day": "5일차",
+        "label": "호치민 → 인천",
+        "desc": "호치민 떤선녓 국제공항 YP652 00:30 출발 → 인천국제공항 07:40 도착 후 해산"
+      }
+    ],
+    "highlights": [
+      "에어프레미아 인천-호치민 직항 (수하물 23kg)",
+      "트윈도브즈·송베·하모니 3색 54홀 · 골프장 15분대",
+      "그린피·카트비·캐디피 · 조식 · 클럽 중식 제공(주말 송베CC 제외)",
+      "공항 미팅·샌딩 · 라운드 송영 차량 포함",
+      "12/3~3/24 일·월·수·목 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (에어프레미아, TAX 포함, 수하물 23kg)",
+      "공항 미팅·샌딩",
+      "호텔-골프장 송영 차량",
+      "미라 부띠크 호텔 3박 (2인 1실)",
+      "호텔 조식",
+      "그린피 + 카트비 + 캐디피 (54홀)",
+      "클럽 중식 (주중 3곳 제공 · 주말 송베CC는 미제공, 확정서로 안내)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "캐디팁 18홀 50만동",
+      "석식",
+      "매너팁",
+      "개인경비"
+    ],
+    "cancelPolicy": [
+      "선발권 특가 기준 요금이라 좌석이 소진되면 요금이 바뀔 수 있습니다.",
+      "설 연휴 2/7·2/8·2/10·2/11 출발은 별도 문의입니다.",
+      "가이드가 동행하지 않는 자유골프 상품이며, 현지 직원이 공항 마중과 차량 안내를 맡습니다.",
+      "클럽 중식 제공 여부는 확정서로 안내합니다(26년 10월 기준 주중 트윈도브즈·하모니·송베, 주말 트윈도브즈·하모니만 제공).",
+      "항공권 발권 후 취소 시 항공사 규정에 따른 수수료와 현지 규정에 따른 수수료가 부과됩니다.",
+      "여권 만료일은 출발일 기준 6개월 이상 남아 있어야 합니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-03",
+        "price": 1489000
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1339000
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1339000
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1439000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1489000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1339000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1339000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1439000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1489000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1439000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1439000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1649000
+      },
+      {
+        "date": "2026-12-24",
+        "price": 1699000
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1499000
+      },
+      {
+        "date": "2026-12-30",
+        "price": 1699000
+      },
+      {
+        "date": "2026-12-31",
+        "price": 1779000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1639000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1689000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1639000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1689000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1639000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1689000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1549000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1639000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1689000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1549000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1699000
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1769000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1529000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1529000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1619000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1669000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1529000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1529000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1619000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1669000
+      },
+      {
+        "date": "2027-02-28",
+        "price": 1529000
+      },
+      {
+        "date": "2027-03-01",
+        "price": 1399000
+      },
+      {
+        "date": "2027-03-03",
+        "price": 1499000
+      },
+      {
+        "date": "2027-03-04",
+        "price": 1559000
+      },
+      {
+        "date": "2027-03-07",
+        "price": 1399000
+      },
+      {
+        "date": "2027-03-08",
+        "price": 1399000
+      },
+      {
+        "date": "2027-03-10",
+        "price": 1499000
+      },
+      {
+        "date": "2027-03-11",
+        "price": 1559000
+      },
+      {
+        "date": "2027-03-14",
+        "price": 1399000
+      },
+      {
+        "date": "2027-03-15",
+        "price": 1399000
+      },
+      {
+        "date": "2027-03-17",
+        "price": 1499000
+      },
+      {
+        "date": "2027-03-18",
+        "price": 1559000
+      },
+      {
+        "date": "2027-03-21",
+        "price": 1399000
+      },
+      {
+        "date": "2027-03-22",
+        "price": 1399000
+      },
+      {
+        "date": "2027-03-24",
+        "price": 1499000
+      }
+    ],
+    "closedDates": [
+      {
+        "date": "2027-02-07",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-08",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-10",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-11",
+        "status": "문의"
+      }
+    ],
+    "price": "1,339,000원~",
+    "image": "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/course-1.jpg",
+    "images": [
+      "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/course-1.jpg",
+      "/images/courses/twin-doves-golf-club-1.jpg",
+      "/images/courses/song-be-golf-resort-1.jpg",
+      "/images/courses/harmonie-golf-park-1.jpg",
+      "/images/courses/twin-doves-golf-club-2.jpg",
+      "/images/courses/song-be-golf-resort-2.jpg",
+      "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/hotel-1.jpg",
+      "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/hotel-2.jpg",
+      "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/hotel-3.jpg",
+      "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/hotel-4.jpg",
+      "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/hotel-5.jpg"
+    ],
+    "courseImages": [
+      "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/course-1.jpg",
+      "/images/courses/twin-doves-golf-club-1.jpg",
+      "/images/courses/song-be-golf-resort-1.jpg",
+      "/images/courses/harmonie-golf-park-1.jpg",
+      "/images/courses/twin-doves-golf-club-2.jpg",
+      "/images/courses/song-be-golf-resort-2.jpg",
+      "/images/courses/harmonie-golf-park-2.jpg",
+      "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/course-2.jpg"
+    ],
+    "hotelImages": [
+      "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/hotel-1.jpg",
+      "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/hotel-2.jpg",
+      "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/hotel-3.jpg",
+      "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/hotel-4.jpg",
+      "/images/vietnam-hochiminh-binhduong-mira-yp-incheon/hotel-5.jpg"
+    ],
+    "seoIntro": "인천 출발 베트남 호치민 골프여행 3박5일 상품으로, 에어프레미아 직항으로 가서 빈증의 미라 부띠크 호텔에 묵으며 트윈도브즈·송베·하모니CC에서 54홀을 라운딩하는 자유골프 패키지입니다.",
+    "seoKeywords": [
+      "호치민골프",
+      "호치민골프여행",
+      "빈증골프",
+      "트윈도브즈",
+      "송베CC",
+      "하모니CC",
+      "에어프레미아",
+      "인천출발"
+    ],
+    "priceUpdatedDate": "2026-11-26",
+    "displayTitle": "호치민 빈증 3색 미라 부띠크"
+  },
+  {
+    "id": "japan-takamatsu-secondstage-3color-incheon",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "다카마쓰",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "title": "[인천출발] 일본 다카마쓰 골프여행 세컨드스테이지 온천호텔 3색 3박4일 최대 72홀 진에어 직항 1,230,000원부터",
+    "subtitle": "진에어 인천-다카마쓰 직항 오후 출발 · 시오노에 온천 호텔 세컨드스테이지 · 그랜드·골드·로얄CC 등 3색 · 조식·가이세키 석식·송영 포함",
+    "nights": 3,
+    "days": 4,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "3박4일 최대 72홀 (평일 27홀 x 2일 + 마지막 날 18홀)\n다카마쓰 그랜드CC · 다카마쓰 골드CC · 로얄 다카마쓰CC · 썬라이즈CC 중 3곳",
+    "minPeople": "2인부터 출발 (4인 기준 요금, 2인·3인은 추가요금)",
+    "period": "2026년 12월 1일 ~ 2027년 2월 25일 (매일 출발)",
+    "hotel": "호텔 세컨드스테이지 또는 동급 (시오노에 온천, 2인 1실 트윈, 양실 또는 화실)",
+    "hotelDesc": "다카마쓰 남쪽 시오노에 온천 마을에 있는 온천 호텔로, 다카마쓰 공항에서 차로 약 20분 거리입니다. 원천을 그대로 쓰는 대욕장과 노천탕이 있어 라운딩 후 온천욕으로 피로를 풀 수 있습니다. 객실은 양실 또는 화실(다다미)로 2인 1실 트윈 배정이며, 조식은 호텔 뷔페, 석식은 매일 차림이 바뀌는 가이세키 정식입니다.",
+    "golfCourse": "다카마쓰 그랜드CC · 다카마쓰 골드CC · 로얄 다카마쓰CC (썬라이즈CC 포함 4곳 중 배정)",
+    "golfCourseDesc": "호텔에서 차로 30~40분 거리의 골프장 네 곳 중 3곳을 라운딩합니다. 다카마쓰 그랜드CC는 가니와·히카미 두 코스로 된 36홀 골프장으로 업다운은 작지만 적당한 언듈레이션이 있어 정확한 샷이 필요합니다. 다카마쓰 골드CC(18홀)는 아일랜드 그린의 18번 홀이 유명하고, 로얄 다카마쓰CC(18홀)는 넓은 페어웨이의 아웃코스와 연못·계곡을 넘기는 인코스가 대비되는 코스입니다. 골프비용(카트비·락카비 포함)이 들어 있습니다.",
+    "productSummary": "진에어 오후 2시 출발편으로 다카마쓰에 가서 시오노에 온천 호텔 세컨드스테이지에 3박하며 다카마쓰 3색 골프를 즐기는 상품입니다. 평일에는 하루 27홀까지 라운딩해 3박4일 최대 72홀입니다.\n조식 뷔페와 매일 다른 가이세키 석식, 온천 입욕, 공항·호텔·골프장 송영이 포함되고 클럽 중식만 따로 냅니다. 2인부터 매일 출발합니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 다카마쓰",
+        "desc": "인천국제공항 출발(진에어 LJ299 14:10) → 다카마쓰 공항 도착(15:50) → 송영 기사 미팅 후 호텔 이동(약 20분) → 체크인 후 온천욕 → 가이세키 석식 [석식 가이세키 / 호텔: 세컨드스테이지 또는 동급]"
+      },
+      {
+        "day": "2일차",
+        "label": "3색 골프 라운드",
+        "desc": "호텔 조식 후 골프장 이동(약 30~40분) → 다카마쓰 3색 골프장 중 1곳 라운드(평일 27홀 가능) → 호텔 복귀 후 온천욕 → 가이세키 석식 [조식 뷔페 / 중식 불포함 / 석식 가이세키]"
+      },
+      {
+        "day": "3일차",
+        "label": "3색 골프 라운드",
+        "desc": "호텔 조식 후 골프장 이동 → 다카마쓰 3색 골프장 중 1곳 라운드(평일 27홀 가능) → 호텔 복귀 후 온천욕 → 가이세키 석식 [조식 뷔페 / 중식 불포함 / 석식 가이세키]"
+      },
+      {
+        "day": "4일차",
+        "label": "18홀 → 인천",
+        "desc": "호텔 조식 후 체크아웃 → 다카마쓰 3색 골프장 중 1곳 18홀 라운드 → 공항 이동 → 다카마쓰 공항 출발(진에어 LJ300 16:50) → 인천국제공항 도착(18:35) 후 해산 [조식 뷔페]"
+      }
+    ],
+    "highlights": [
+      "진에어 인천-다카마쓰 직항 · 오후 2시 출발로 새벽 기상 없음",
+      "시오노에 온천 호텔 3박 · 매일 다른 가이세키 석식",
+      "그랜드·골드·로얄CC 등 3색 · 평일 하루 27홀 가능",
+      "공항·호텔·골프장 송영 포함 · 2인부터 매일 출발"
+    ],
+    "includes": [
+      "왕복 항공권 (진에어, 위탁 수하물 15kg · 기내 10kg)",
+      "호텔 세컨드스테이지 또는 동급 (2인 1실)",
+      "조식 뷔페 · 석식 가이세키 · 온천 입욕료",
+      "골프비용 (카트비 · 락카비 포함)",
+      "공항-호텔-골프장 송영",
+      "여행자보험"
+    ],
+    "excludes": [
+      "클럽 중식",
+      "2인 플레이 1인 1박 2만원 · 3인 플레이 1인 1박 1만원 추가",
+      "1인 1실 1박 4만원",
+      "개인 경비"
+    ],
+    "cancelPolicy": [
+      "요금은 왕복 위탁 수하물 15kg 포함 실시간 항공 기준 1인 요금이라 좌석 상황에 따라 바뀔 수 있습니다.",
+      "1/1·1/11·2/11·2/23 출발은 일본 연휴 요금이 적용된 금액입니다.",
+      "항공권 발권 후 취소 시 항공사 규정과 현지 규정에 따라 취소료가 부과됩니다.",
+      "상기 일정은 항공 및 현지 사정에 따라 변경될 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-01",
+        "price": 1270000
+      },
+      {
+        "date": "2026-12-02",
+        "price": 1310000
+      },
+      {
+        "date": "2026-12-03",
+        "price": 1520000
+      },
+      {
+        "date": "2026-12-04",
+        "price": 1380000
+      },
+      {
+        "date": "2026-12-05",
+        "price": 1310000
+      },
+      {
+        "date": "2026-12-06",
+        "price": 1260000
+      },
+      {
+        "date": "2026-12-07",
+        "price": 1230000
+      },
+      {
+        "date": "2026-12-08",
+        "price": 1240000
+      },
+      {
+        "date": "2026-12-09",
+        "price": 1360000
+      },
+      {
+        "date": "2026-12-10",
+        "price": 1440000
+      },
+      {
+        "date": "2026-12-11",
+        "price": 1470000
+      },
+      {
+        "date": "2026-12-12",
+        "price": 1390000
+      },
+      {
+        "date": "2026-12-13",
+        "price": 1310000
+      },
+      {
+        "date": "2026-12-14",
+        "price": 1450000
+      },
+      {
+        "date": "2026-12-15",
+        "price": 1330000
+      },
+      {
+        "date": "2026-12-16",
+        "price": 1340000
+      },
+      {
+        "date": "2026-12-17",
+        "price": 1490000
+      },
+      {
+        "date": "2026-12-18",
+        "price": 1490000
+      },
+      {
+        "date": "2026-12-19",
+        "price": 1450000
+      },
+      {
+        "date": "2026-12-20",
+        "price": 1340000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1290000
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1290000
+      },
+      {
+        "date": "2026-12-23",
+        "price": 1430000
+      },
+      {
+        "date": "2026-12-25",
+        "price": 1560000
+      },
+      {
+        "date": "2026-12-26",
+        "price": 1460000
+      },
+      {
+        "date": "2026-12-27",
+        "price": 1370000
+      },
+      {
+        "date": "2026-12-28",
+        "price": 1350000
+      },
+      {
+        "date": "2027-01-01",
+        "price": 1470000
+      },
+      {
+        "date": "2027-01-02",
+        "price": 1350000
+      },
+      {
+        "date": "2027-01-03",
+        "price": 1270000
+      },
+      {
+        "date": "2027-01-04",
+        "price": 1340000
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1310000
+      },
+      {
+        "date": "2027-01-06",
+        "price": 1340000
+      },
+      {
+        "date": "2027-01-07",
+        "price": 1430000
+      },
+      {
+        "date": "2027-01-08",
+        "price": 1430000
+      },
+      {
+        "date": "2027-01-09",
+        "price": 1380000
+      },
+      {
+        "date": "2027-01-10",
+        "price": 1270000
+      },
+      {
+        "date": "2027-01-11",
+        "price": 1380000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1270000
+      },
+      {
+        "date": "2027-01-13",
+        "price": 1410000
+      },
+      {
+        "date": "2027-01-14",
+        "price": 1450000
+      },
+      {
+        "date": "2027-01-15",
+        "price": 1420000
+      },
+      {
+        "date": "2027-01-16",
+        "price": 1350000
+      },
+      {
+        "date": "2027-01-17",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1280000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-20",
+        "price": 1370000
+      },
+      {
+        "date": "2027-01-21",
+        "price": 1440000
+      },
+      {
+        "date": "2027-01-22",
+        "price": 1430000
+      },
+      {
+        "date": "2027-01-23",
+        "price": 1370000
+      },
+      {
+        "date": "2027-01-24",
+        "price": 1270000
+      },
+      {
+        "date": "2027-01-25",
+        "price": 1270000
+      },
+      {
+        "date": "2027-01-26",
+        "price": 1290000
+      },
+      {
+        "date": "2027-01-27",
+        "price": 1390000
+      },
+      {
+        "date": "2027-01-28",
+        "price": 1490000
+      },
+      {
+        "date": "2027-01-29",
+        "price": 1430000
+      },
+      {
+        "date": "2027-01-30",
+        "price": 1340000
+      },
+      {
+        "date": "2027-01-31",
+        "price": 1250000
+      },
+      {
+        "date": "2027-02-01",
+        "price": 1310000
+      },
+      {
+        "date": "2027-02-02",
+        "price": 1270000
+      },
+      {
+        "date": "2027-02-03",
+        "price": 1330000
+      },
+      {
+        "date": "2027-02-04",
+        "price": 1380000
+      },
+      {
+        "date": "2027-02-05",
+        "price": 1670000
+      },
+      {
+        "date": "2027-02-07",
+        "price": 1450000
+      },
+      {
+        "date": "2027-02-08",
+        "price": 1280000
+      },
+      {
+        "date": "2027-02-09",
+        "price": 1270000
+      },
+      {
+        "date": "2027-02-10",
+        "price": 1360000
+      },
+      {
+        "date": "2027-02-11",
+        "price": 1480000
+      },
+      {
+        "date": "2027-02-12",
+        "price": 1420000
+      },
+      {
+        "date": "2027-02-13",
+        "price": 1340000
+      },
+      {
+        "date": "2027-02-14",
+        "price": 1320000
+      },
+      {
+        "date": "2027-02-15",
+        "price": 1290000
+      },
+      {
+        "date": "2027-02-16",
+        "price": 1310000
+      },
+      {
+        "date": "2027-02-17",
+        "price": 1360000
+      },
+      {
+        "date": "2027-02-18",
+        "price": 1480000
+      },
+      {
+        "date": "2027-02-19",
+        "price": 1460000
+      },
+      {
+        "date": "2027-02-20",
+        "price": 1340000
+      },
+      {
+        "date": "2027-02-21",
+        "price": 1280000
+      },
+      {
+        "date": "2027-02-22",
+        "price": 1310000
+      },
+      {
+        "date": "2027-02-23",
+        "price": 1370000
+      },
+      {
+        "date": "2027-02-24",
+        "price": 1350000
+      },
+      {
+        "date": "2027-02-25",
+        "price": 1480000
+      }
+    ],
+    "closedDates": [
+      {
+        "date": "2026-12-24",
+        "status": "마감"
+      },
+      {
+        "date": "2026-12-29",
+        "status": "문의"
+      },
+      {
+        "date": "2026-12-30",
+        "status": "문의"
+      },
+      {
+        "date": "2026-12-31",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-06",
+        "status": "마감"
+      },
+      {
+        "date": "2027-02-26",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-27",
+        "status": "문의"
+      },
+      {
+        "date": "2027-02-28",
+        "status": "문의"
+      }
+    ],
+    "image": "/images/japan-takamatsu-secondstage-3color-incheon/course-1.jpg",
+    "images": [
+      "/images/japan-takamatsu-secondstage-3color-incheon/course-1.jpg",
+      "/images/japan-takamatsu-secondstage-3color-incheon/course-2.jpg",
+      "/images/takamatsu-gold-cc/course-1.jpg",
+      "/images/japan-takamatsu-secondstage-3color-incheon/course-3.jpg",
+      "/images/royal-takamatsu-cc/course-1.jpg",
+      "/images/japan-takamatsu-secondstage-3color-incheon/course-4.jpg",
+      "/images/japan-takamatsu-secondstage-3color-incheon/hotel-1.jpg",
+      "/images/japan-takamatsu-secondstage-3color-incheon/hotel-2.jpg",
+      "/images/japan-takamatsu-secondstage-3color-incheon/hotel-3.jpg",
+      "/images/japan-takamatsu-secondstage-3color-incheon/hotel-4.jpg"
+    ],
+    "courseImages": [
+      "/images/japan-takamatsu-secondstage-3color-incheon/course-1.jpg",
+      "/images/japan-takamatsu-secondstage-3color-incheon/course-2.jpg",
+      "/images/japan-takamatsu-secondstage-3color-incheon/course-3.jpg",
+      "/images/japan-takamatsu-secondstage-3color-incheon/course-4.jpg",
+      "/images/takamatsu-gold-cc/course-1.jpg",
+      "/images/royal-takamatsu-cc/course-1.jpg"
+    ],
+    "hotelImages": [
+      "/images/japan-takamatsu-secondstage-3color-incheon/hotel-1.jpg",
+      "/images/japan-takamatsu-secondstage-3color-incheon/hotel-2.jpg",
+      "/images/japan-takamatsu-secondstage-3color-incheon/hotel-3.jpg",
+      "/images/japan-takamatsu-secondstage-3color-incheon/hotel-4.jpg"
+    ],
+    "seoIntro": "인천 출발 일본 다카마쓰 골프여행 3박4일 상품으로, 시오노에 온천 호텔 세컨드스테이지에 머물며 다카마쓰 그랜드·골드·로얄CC 등 3색 골프를 평일 하루 27홀까지 즐기는 진에어 직항 온천 골프패키지입니다.",
+    "seoKeywords": [
+      "다카마쓰골프",
+      "다카마쓰골프여행",
+      "다카마쓰온천골프",
+      "다카마쓰그랜드CC",
+      "일본골프여행",
+      "진에어",
+      "인천출발"
+    ],
+    "price": "1,230,000원~",
+    "priceUpdatedDate": "2026-11-26",
+    "displayTitle": "세컨드스테이지 온천호텔 3색 골프여행"
+  },
+  {
+    "id": "japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon",
+    "country": "일본",
+    "countryCode": "japan",
+    "region": "기타큐슈",
+    "departure": "incheon",
+    "badge": "인천출발 신규",
+    "title": "[인천출발] 일본 기타큐슈·야마구치 골프여행 센트럴파크·레이크스완·산요국제 3색 온천료칸 3박4일 72홀 진에어 직항 1,399,000원부터",
+    "subtitle": "진에어 인천-기타큐슈 직항 · 시모노세키 워싱턴호텔 1박(1인 1실) + 이치노마타 온천 료칸 2박 · 체류일 주중 27홀 · 가이세키 석식 2회 · 2인부터",
+    "nights": 3,
+    "days": 4,
+    "courses": 3,
+    "roundsIncluded": 3,
+    "holes": "72홀 (레이크스완CC 또는 센트럴파크GC 27홀 × 2일 + 산요국제CC 18홀, 체류일 주중 18홀 + 서비스 9홀)",
+    "minPeople": "2인부터 (요금은 4인 기준, 2인 출발 시 추가요금)",
+    "period": "2026년 12월 20·21·22일 · 2027년 1월 5·12·18·19일 출발 (7회)",
+    "hotel": "시모노세키역 서쪽 워싱턴호텔플라자 1박 (1인 1실) + 이치노마타 온천 그랜드호텔(료칸) 2박 (화실 또는 양실)",
+    "hotelDesc": "첫날은 JR 시모노세키역 서쪽 출구에서 걸어서 약 2분 거리의 워싱턴호텔플라자에 1인 1실로 묵습니다. 주변에 쇼핑몰·맛집·편의점이 있어 도착한 날 저녁을 자유롭게 보내기 좋습니다. 둘째·셋째 날은 야마구치현 산속의 이치노마타 온천 그랜드호텔(료칸)에 묵으며, 알칼리성 온천(pH 약 10)의 대욕장·노천탕을 이용하고 저녁은 1인 6천엔 상당의 가이세키 요리로 2회 제공됩니다.",
+    "golfCourse": "센트럴파크GC · 레이크스완CC 미네코스 · 산요국제CC",
+    "golfCourseDesc": "체류일 이틀은 레이크스완CC 또는 센트럴파크GC에서 주중 18홀 + 서비스 9홀(주말·공휴일은 18홀)을 라운딩하고, 마지막 날은 산요국제CC 18홀 후 공항으로 갑니다. 센트럴파크GC는 1993년 개장한 18홀 파72, 레이크스완CC 미네코스는 1978년 개장한 18홀 파72, 산요국제CC는 1980년 개장한 36홀 골프장입니다. 골프장은 현지에서 배정되며 고를 수 없습니다. 캐디 없이 전동카트 셀프 라운딩입니다.",
+    "productSummary": "기타큐슈 공항으로 들어가 야마구치현 골프장 세 곳을 도는 3박4일 72홀 상품입니다. 첫날은 시모노세키 시내 워싱턴호텔(1인 1실), 이후 2박은 이치노마타 온천 료칸에서 묵으며 가이세키 석식 2회가 포함됩니다. 그린피·전동카트, 조식·클럽 중식, 공항·호텔·골프장 송영이 포함된 요금입니다.",
+    "schedule": [
+      {
+        "day": "1일차",
+        "label": "인천 → 기타큐슈",
+        "desc": "인천국제공항 출발(진에어 LJ385 16:05) → 기타큐슈 공항 도착(17:30) → 직원 미팅 후 워싱턴호텔로 이동(약 40분) → 체크인 후 자유 시간 [석식 불포함] [호텔: 시모노세키 워싱턴호텔플라자 1인 1실]"
+      },
+      {
+        "day": "2일차",
+        "label": "레이크스완CC 또는 센트럴파크GC 27홀",
+        "desc": "호텔 조식 후 체크아웃 → 골프장 이동(약 35~40분) → 레이크스완CC 또는 센트럴파크GC 18홀 + 서비스 9홀(주말·공휴일 18홀) → 이치노마타 온천 료칸 이동(약 20~25분) → 체크인 후 가이세키 석식 [조식 호텔식 / 중식 클럽식 / 석식 가이세키] [숙소: 이치노마타 온천 료칸]"
+      },
+      {
+        "day": "3일차",
+        "label": "레이크스완CC 또는 센트럴파크GC 27홀",
+        "desc": "료칸 조식 후 골프장 이동(약 20~25분) → 레이크스완CC 또는 센트럴파크GC 18홀 + 서비스 9홀(주말·공휴일 18홀) → 료칸 복귀 후 가이세키 석식·온천 휴식 [조식 일본 정식 / 중식 클럽식 / 석식 가이세키]"
+      },
+      {
+        "day": "4일차",
+        "label": "산요국제CC 18홀 → 인천",
+        "desc": "료칸 조식 후 체크아웃 → 골프장 이동(약 40분) → 산요국제CC 18홀 라운딩 → 기타큐슈 공항 이동(약 50분) → 기타큐슈 공항 출발(진에어 LJ386 18:30) → 인천국제공항 도착(20:05) 후 해산 [조식 일본 정식 / 중식 클럽식]"
+      }
+    ],
+    "highlights": [
+      "진에어 인천-기타큐슈 직항 (비행 약 1시간 25분)",
+      "센트럴파크·레이크스완·산요국제 3색 72홀",
+      "체류일 주중 18홀 + 서비스 9홀",
+      "시내 워싱턴호텔 1박(1인 1실) + 온천 료칸 2박 · 가이세키 2회",
+      "12/20·21·22 · 1/5·12·18·19 출발 1,399,000원"
+    ],
+    "includes": [
+      "왕복 항공권 (유류할증료·TAX 포함)",
+      "시모노세키 워싱턴호텔플라자 1박 (1인 1실)",
+      "이치노마타 온천 료칸 2박 (화실 또는 양실)",
+      "조식 · 클럽 중식 (기본 메뉴)",
+      "료칸 가이세키 석식 2회 (1인 6천엔 상당)",
+      "그린피 + 전동카트 (체류일 주중 18홀 + 서비스 9홀 / 주말·공휴일 18홀, 마지막 날 18홀)",
+      "공항·호텔·골프장 송영 차량",
+      "한국인 또는 일본인 상주 직원 일정 안내 (가이드 아님)",
+      "여행자보험"
+    ],
+    "excludes": [
+      "도착일 석식 1회 (호텔 주변 걸어서 식당 이용 가능)",
+      "현지 지불 1인 8,000엔 (호텔비 일부·숙박세)",
+      "클럽 중식 기본 금액 초과분 (레이크스완 1,430엔 · 산요국제 1,000엔 기준, 센트럴파크는 일반 점심 메뉴 제공)",
+      "2인 출발 시 추가요금",
+      "개인경비",
+      "산요국제CC 페어웨이 카트 진입 비용(이용 시)",
+      "센트럴파크GC 클럽하우스 사이드메뉴·주류"
+    ],
+    "cancelPolicy": [
+      "특가 항공 요금이 오르거나 좌석이 마감되면 상품 요금이 오르거나 마감될 수 있습니다.",
+      "골프장은 현지 사정에 따라 배정되며 임의로 고를 수 없고, 상황에 따라 2곳으로 진행될 수 있습니다.",
+      "주중 서비스 9홀은 골프장 혼잡·풀부킹·대회 등으로 제공되지 않을 수 있으며 환불되지 않습니다.",
+      "캐디·직원 없이 손님이 직접 하는 셀프 라운딩입니다. 산요국제CC는 골프백을 직접 카트에 싣습니다.",
+      "송영 차량은 호텔·골프장·공항만 운행하며 같은 시간대 다른 팀과 함께 탈 수 있습니다.",
+      "2인 신청·2인 라운딩이 가능하지만 주말 혼잡 시 조인 요청이 있을 수 있습니다.",
+      "항공권 발권 후 취소 시 항공사 규정과 현지 규정에 따라 취소수수료가 생깁니다. 상기 일정은 항공·골프장·현지 사정에 따라 바뀔 수 있습니다."
+    ],
+    "departurePrices": [
+      {
+        "date": "2026-12-20",
+        "price": 1399000
+      },
+      {
+        "date": "2026-12-21",
+        "price": 1399000
+      },
+      {
+        "date": "2026-12-22",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-05",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-12",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-18",
+        "price": 1399000
+      },
+      {
+        "date": "2027-01-19",
+        "price": 1399000
+      }
+    ],
+    "image": "/images/kitakyushu-sanyo-cheongju/course-1.jpg",
+    "images": [
+      "/images/kitakyushu-sanyo-cheongju/course-1.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-cp-1.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-cp-2.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-cp-3.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-ls-1.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-ls-2.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-ls-3.jpg",
+      "/images/kitakyushu-sanyo-cheongju/course-4.jpg",
+      "/images/kitakyushu-sanyo-cheongju/course-8.jpg",
+      "/images/kitakyushu-sanyo-cheongju/course-3.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/hotel-1.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/hotel-2.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/hotel-3.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/hotel-4.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/hotel-5.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/hotel-6.jpg"
+    ],
+    "courseImages": [
+      "/images/kitakyushu-sanyo-cheongju/course-1.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-cp-1.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-cp-2.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-cp-3.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-ls-1.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-ls-2.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-ls-3.jpg",
+      "/images/kitakyushu-sanyo-cheongju/course-4.jpg",
+      "/images/kitakyushu-sanyo-cheongju/course-8.jpg",
+      "/images/kitakyushu-sanyo-cheongju/course-3.jpg"
+    ],
+    "hotelImages": [
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/hotel-1.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/hotel-2.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/hotel-3.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/hotel-4.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/hotel-5.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/hotel-6.jpg"
+    ],
+    "seoIntro": "인천 출발 일본 기타큐슈·야마구치 골프여행 3박4일 상품으로, 시모노세키 시내 호텔 1박과 이치노마타 온천 료칸 2박에 센트럴파크·레이크스완·산요국제 3색 72홀을 라운딩하는 진에어 직항 골프패키지입니다.",
+    "seoKeywords": [
+      "야마구치골프",
+      "기타큐슈골프",
+      "기타큐슈골프여행",
+      "온천료칸골프",
+      "일본골프여행",
+      "인천출발",
+      "겨울골프"
+    ],
+    "price": "1,399,000원~",
+    "priceUpdatedDate": "2026-11-26",
+    "displayTitle": "기타큐슈·야마구치 온천료칸 3색 골프"
   }
 ]

@@ -13252,7 +13252,92 @@
     ],
     "relatedTourIds": [
       "japan-yamaguchi-island-sanyo-3n4d-incheon",
-      "japan-kitakyushu-sanyo-onsen-2n3d-cheongju"
+      "japan-kitakyushu-sanyo-onsen-2n3d-cheongju",
+      "japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon"
+    ]
+  },
+  {
+    "slug": "lake-swan-country-club-mine",
+    "name": "레이크스완CC 미네코스",
+    "nameEn": "Lake Swan Country Club Mine Course (レークスワンカントリー倶楽部 美祢コース)",
+    "region": "야마구치",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "야마구치현 미네시의 18홀 파72 셀프 코스, 1978년 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72 · 백티 6,546야드(공식 코스표 기준)"
+      },
+      {
+        "label": "개장",
+        "value": "1978년 6월"
+      },
+      {
+        "label": "코스 특징",
+        "value": "구릉 지형의 코스로 후반(IN) 9홀이 길고 미들홀이 어려움, 전 조 셀프 승용카트 플레이"
+      },
+      {
+        "label": "접근",
+        "value": "이치노마타 온천 료칸에서 차로 약 19분(여행사 안내 기준)"
+      }
+    ],
+    "description": "레이크스완CC 미네코스는 야마구치현 미네시 도요타마에초에 있는 18홀 파72 골프장으로, 1978년에 개장했습니다.\n\n구릉 지형에 놓인 코스로 후반 9홀은 전체적으로 거리가 길고 특히 미들홀이 어렵다는 평을 듣습니다. 모든 조가 승용카트 셀프 플레이로 진행합니다.\n\n여행의파도 기타큐슈·야마구치 온천료칸 3색 상품에서 센트럴파크GC와 함께 체류일 라운딩 골프장으로 배정됩니다.",
+    "images": [
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-ls-1.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-ls-2.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-ls-3.jpg"
+    ],
+    "hashtags": [
+      "레이크스완CC",
+      "야마구치골프",
+      "기타큐슈골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon"
+    ]
+  },
+  {
+    "slug": "central-park-golf-club-mine",
+    "name": "센트럴파크GC",
+    "nameEn": "Central Park Golf Club (セントラルパークゴルフ倶楽部)",
+    "region": "야마구치",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "야마구치현 미네시의 18홀 파72 코스, 1993년 개장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72 · 백티 6,835야드(공식 코스표 기준)"
+      },
+      {
+        "label": "개장",
+        "value": "1993년"
+      },
+      {
+        "label": "코스 특징",
+        "value": "평탄한 페어웨이에 마운드와 연못이 어우러진 코스, 원 그린"
+      },
+      {
+        "label": "접근",
+        "value": "주고쿠 자동차도로 미네니시 IC에서 약 6km · 시모노세키 시내에서 차로 약 35분(여행사 안내 기준)"
+      }
+    ],
+    "description": "센트럴파크GC(센트럴파크 골프클럽)는 야마구치현 미네시에 있는 18홀 파72 골프장으로, 1993년에 개장했습니다.\n\n평탄한 페어웨이에 마운드와 연못이 어우러져 있고 그린은 하나만 쓰는 원 그린 코스라 어프로치와 퍼팅이 중요합니다.\n\n여행의파도 기타큐슈·야마구치 온천료칸 3색 상품은 이치노마타 온천 료칸에 묵으며 센트럴파크GC·레이크스완CC·산요국제CC를 라운딩합니다.",
+    "images": [
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-cp-1.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-cp-2.jpg",
+      "/images/japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon/course-cp-3.jpg"
+    ],
+    "hashtags": [
+      "센트럴파크GC",
+      "야마구치골프",
+      "기타큐슈골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon"
     ]
   }
 ]
