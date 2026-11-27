@@ -50,7 +50,7 @@ import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
 import { tourFaqs } from "@/lib/tourFaq";
 import { stayText } from "@/lib/stay";
-import { parsePeopleCondition, roomBasisOf, withLocalCosts, withPeopleSurcharge } from "@/lib/peopleCondition";
+import { parsePeopleCondition, roomBasisText, withLocalCosts, withPeopleSurcharge } from "@/lib/peopleCondition";
 import { IconChevron } from "@/components/icons/Chevron";
 import { regionGuides } from "@/lib/regionGuides";
 import { tourSeoTitle, tourSeoDescription } from "@/lib/seoMeta";
@@ -111,7 +111,9 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   // 칩은 짧게 — "54홀 (18홀 × 3회)" 같은 부연은 뺀다 (사장님 지시 10/25)
   const holesRaw0 = tour.holes ?? `${tour.roundsIncluded * 18}`;
   const holesNum = String(holesRaw0).match(/총\s*(\d+)\s*홀/)?.[1] ?? String(holesRaw0).match(/(\d+)\s*홀/)?.[1];
-  const holesShortTop = holesNum ? `총 ${holesNum}홀` : `${String(holesRaw0).split("\n")[0]}`;
+  // 원문이 "최대"면 "총"이라 하지 않는다. "하루 최대 36홀"은 하루 기준임을 살린다 (11/27)
+  const holesCap = holesNum ? String(holesRaw0).match(new RegExp(`(하루\\s*)?최대\\s*${holesNum}\\s*홀`)) : null;
+  const holesShortTop = holesNum ? `${holesCap ? (holesCap[1] ? "하루 최대" : "최대") : "총"} ${holesNum}홀` : `${String(holesRaw0).split("\n")[0]}`;
   const depLabel = tour.departure === "both" ? "인천·부산 출발" : tour.departure === "busan" ? "부산 출발" : "인천 출발";
   const galleryImages = tour.images && tour.images.length > 0 ? tour.images : tour.image ? [tour.image] : [];
   // 인원 조건 해석은 lib/peopleCondition.ts 한 곳 — 칩·문의 기본값·인원 선택 제한·?people= 검증이 같은 결과를 쓴다 (챗GPT 감사 10/27)
@@ -518,7 +520,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
                 <dt className="flex-shrink-0 whitespace-nowrap font-bold text-gray-500 flex items-center gap-2 h-5"><span className="text-brand-blue"><IconCalendarDays /></span>최저 요금</dt>
                 {/* 날짜별 요금표의 남은 출발일 기준 — 달력·문의 패널과 같은 값(departureSummary). 객실 기준·인원 조건은 있는 것만 적는다 */}
                 <dd className="text-gray-800 leading-5">
-                  <span className="whitespace-nowrap">{departures.cheapestDateText} 출발</span> <b className="text-red-600">{departures.lowPriceText}</b> (1인 · {departures.cheapestStay ? `${departures.cheapestStay} · ` : ""}{roomBasisOf(tour)}인 1실 기준)
+                  <span className="whitespace-nowrap">{departures.cheapestDateText} 출발</span> <b className="text-red-600">{departures.lowPriceText}</b> (1인 · {departures.cheapestStay ? `${departures.cheapestStay} · ` : ""}{roomBasisText(tour)})
                   {peopleCond.chip && <span className="block text-gray-600">인원 조건: {peopleCond.chip}</span>}
                 </dd>
               </div>
@@ -782,7 +784,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
             nights={tour.nights}
             days={tour.days}
             peopleCond={peopleCond}
-            roomBasis={roomBasisOf(tour)}
+            roomText={roomBasisText(tour)}
             defaultSel={null /* 날짜를 미리 고르지 않는다 — 검색 날짜는 달력이 주소에서 받아 알린다 (사장님 A안 10/25) */}
             priceText={departures?.lowPriceText ?? (tour.price ?? "").replace(/~\s*$/, "")}
             hasCalendar={Boolean(!tour.holePriceTiers?.length && tour.departurePrices?.length)}

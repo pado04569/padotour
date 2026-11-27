@@ -61,12 +61,12 @@ export function tourFaqs(tour: Tour): Faq[] {
 
   // 2-1) 최저가 기준 — 어떤 날짜·객실·인원 기준인지 (날짜별 요금이 있을 때만. 없으면 지어내지 않는다)
   if (d) {
-    const room = roomBasisOf(tour);
+    const lowest = `현재 남은 출발일 중 가장 낮은 1인 요금은 ${d.cheapestDateText} 출발${d.cheapestStay ? ` ${d.cheapestStay}` : ""} ${d.lowPriceText}`;
     const basisPeople = parsePeopleCondition(tour.minPeople).priceBasis;
     faqs.push({
       q: "표시된 최저가는 어떤 조건의 요금인가요?",
       a: [
-        `현재 남은 출발일 중 가장 낮은 1인 요금은 ${d.cheapestDateText} 출발${d.cheapestStay ? ` ${d.cheapestStay}` : ""} ${d.lowPriceText}이고, ${room}인 1실 사용 기준입니다.`,
+        tour.roomBasisNote?.trim() ?`${lowest}입니다. 객실 기준: ${tour.roomBasisNote}.` : `${lowest}이고, ${roomBasisOf(tour)}인 1실 사용 기준입니다.`,
         basisPeople ? `표시 요금은 ${basisPeople}인 출발 기준입니다.` : "",
         "다른 출발일은 요금이 다를 수 있어 출발일 달력에서 날짜별로 확인하셔야 합니다.",
       ].filter(Boolean).join(" "),
@@ -84,7 +84,8 @@ export function tourFaqs(tour: Tour): Faq[] {
         `${pc.minDeparture}인부터 출발할 수 있습니다.`,
         pc.basisText && `${pc.basisText}입니다.`,
         pc.extra === "surcharge" ? "인원에 따라 추가요금이 있을 수 있습니다." : pc.extra === "varies" ? "인원별 요금은 확인 후 안내해 드립니다." : "",
-        pc.localLines.length ? "현지에서 내는 비용(미팅·샌딩비 등)은 인원 수에 따라 달라지며 불포함 내역에 적힌 대로입니다." : "",
+        // 어디서 내는지는 줄마다 다르다(2·3인 플레이 추가, 사전 입금 송영비 등) — "현지 비용"이라 단정하지 않는다 (11/27)
+        pc.localLines.length ? "인원 수에 따라 달라지는 추가 비용은 불포함 내역에 적힌 대로입니다." : "",
         `인원 조건은 전화(${PHONE})로 상담해 드립니다.`,
       ].filter(Boolean).join(" "),
     });
@@ -110,8 +111,8 @@ export function tourFaqs(tour: Tour): Faq[] {
     const rounds = typeof tour.roundsIncluded === "number" ? `${tour.roundsIncluded}라운드` : "";
     const holesRaw = tour.holes != null ? String(tour.holes).split("\n")[0].trim() : rounds ? `${tour.roundsIncluded * 18}` : "";
     const holes = /^\d+$/.test(holesRaw) ? `${holesRaw}홀` : holesRaw;
-    // "18홀 x 3회"처럼 횟수가 이미 들어 있으면 "3라운드"를 또 붙이지 않는다
-    let play = rounds && !/라운|회/.test(holes) ? `${rounds} ${holes}` : holes || rounds;
+    // "18홀 x 3회"처럼 횟수가 이미 들어 있거나 "최대 72홀"처럼 홀수가 정해지지 않았으면 "3라운드"를 붙이지 않는다
+    let play = rounds && !/라운|회|최대/.test(holes) ? `${rounds} ${holes}` : holes || rounds;
     // 일정·홀수를 고르는 상품(holePriceTiers)은 선택지 전체로 답한다 — 한 가지만 쓰면 AI가 "이 상품은 3박5일 54홀"로 단정한다 (2026-10-09)
     if (tierChoices.length > 1) play = `${tierChoices.join(" / ")} 중에서 고르실 수 있습니다`;
     faqs.push({

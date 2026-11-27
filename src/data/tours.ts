@@ -18,6 +18,8 @@ export type Tour = {
   minPeople?: number | string;
   /** 일정표·요금표에 적힌 인원별 추가 금액 — {"2": "1인 16,000엔 추가", "3": "1인 4,000엔 추가"} (사장님 11/27) */
   peopleSurcharge?: Record<string, string>;
+  /** "2인 1실 기준"처럼 한 숫자로 말할 수 없는 객실 기준 — 있으면 화면·FAQ·문의창에 이 글을 그대로 보여 준다 (11/27) */
+  roomBasisNote?: string;
   period?: string;
   hotel?: string;
   hotelDesc?: string;

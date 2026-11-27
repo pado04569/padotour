@@ -21,7 +21,7 @@ type Props = {
   /** 인원 조건 해석 결과(lib/peopleCondition.ts) — 최소 출발 인원·요금 기준·추가요금 */
   peopleCond: PeopleCondition;
   /** 요금의 객실 기준 (2인 1실 / 1인 1실) */
-  roomBasis: 1 | 2;
+  roomText: string;
   /** 오늘 이후 가장 가까운 출발일 (패널 기본값) — 없으면 날짜 미선택 상태로 시작 */
   defaultSel: TourDateSel;
   /** 날짜별 요금 데이터가 없는 상품(요금 문의) 여부 */
@@ -35,7 +35,7 @@ const fmtDate = (ds: string) => {
   return `${m}월 ${d}일`;
 };
 
-export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCond, roomBasis, defaultSel, priceText, hasCalendar }: Props) {
+export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCond, roomText, defaultSel, priceText, hasCalendar }: Props) {
   const minPeople = peopleCond.minDeparture ?? undefined;
   const options = peopleOptionsFor(peopleCond, PEOPLE_OPTIONS); // 1인 출발이 적힌 상품만 1명부터
   const [sel, setSel] = useState<TourDateSel>(defaultSel);
@@ -149,7 +149,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCon
   const priceBlock = sel ? (
     <>
       <p className="leading-none text-slate-900"><b className="text-[28px] font-black text-red-600">{fmtWon(sel.price)}</b> <span className="text-[14px] font-semibold">(1인요금)</span></p>
-      <p className="text-[12px] text-slate-600 mt-1.5">성인 · {roomBasis}인 1실 기준 · 유류할증료 포함</p>
+      <p className="text-[12px] text-slate-600 mt-1.5">성인 · {roomText} · 유류할증료 포함</p>
     </>
   ) : (
     <>
@@ -158,7 +158,7 @@ export default function InquiryDock({ tourId, tourTitle, nights, days, peopleCon
       ) : (
         <p className="text-[22px] leading-none font-black text-red-600">요금 문의</p>
       )}
-      <p className="text-[12px] text-slate-600 mt-1.5">성인 · {roomBasis}인 1실 기준{hasCalendar ? " · 출발일을 선택하면 날짜별 요금이 보여요" : " · 요금은 문의해 주세요"}</p>
+      <p className="text-[12px] text-slate-600 mt-1.5">성인 · {roomText}{hasCalendar ? " · 출발일을 선택하면 날짜별 요금이 보여요" : " · 요금은 문의해 주세요"}</p>
     </>
   );
 

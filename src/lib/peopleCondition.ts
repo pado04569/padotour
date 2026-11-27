@@ -292,6 +292,14 @@ export function roomBasisOf(t: { minPeople?: unknown; title?: string; subtitle?:
   return /1인\s*1실(?!\s*(?:사용|추가|이용|요금은|은\s*1박|싱글))|1인실\s*우선/.test(text) ? 1 : 2;
 }
 
+/**
+ * 화면에 보일 객실 기준 글. 숙소마다 객실 기준이 달라 한 숫자로 말할 수 없는 상품은 tours.json roomBasisNote 를 그대로 쓴다
+ * (예: 첫날 시내호텔만 1인 1실이고 료칸 객실 인원은 원문에 없을 때 — 11/27)
+ */
+export function roomBasisText(t: Parameters<typeof roomBasisOf>[0] & { roomBasisNote?: string }): string {
+  return t.roomBasisNote?.trim() || `${roomBasisOf(t)}인 1실 기준`;
+}
+
 /** 선택 인원에 해당하는 추가요금·요금 확인 안내 — 없으면 null. 금액은 합산하지 않고 원문 그대로 보여 준다 */
 export function selectionInfo(c: PeopleCondition, people: number): { label: string; lines: string[] } | null {
   const lines = selectionNotes(c, people);
