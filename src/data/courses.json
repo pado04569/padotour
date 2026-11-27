@@ -13814,5 +13814,59 @@
     "relatedTourIds": [
       "cambodia-siemreap-3color-royalempire-incheon"
     ]
+  },
+  {
+    "slug": "crystal-bay-golf-club",
+    "name": "크리스탈베이CC",
+    "aliases": [
+      "크리스탈베이",
+      "크리스탈베이GC",
+      "크리스탈 베이",
+      "Crystal Bay"
+    ],
+    "nameEn": "Crystal Bay Golf Club",
+    "region": "파타야",
+    "country": "태국",
+    "countryCode": "thailand",
+    "summary": "파타야 북쪽 시라차군 방프라에 있는 완만한 기복의 27홀 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 (9홀 코스 A·B·C 3개)"
+      },
+      {
+        "label": "위치",
+        "value": "태국 촌부리주 시라차군 방프라"
+      },
+      {
+        "label": "코스 특징",
+        "value": "연못과 야자수가 어우러진 완만한 기복의 코스"
+      },
+      {
+        "label": "접근",
+        "value": "파타야 중심부에서 차로 약 40~45분 (교통 상황에 따라 변동)"
+      }
+    ],
+    "description": "크리스탈베이CC는 태국 촌부리주 시라차군 방프라에 있는 27홀 골프장으로, 9홀 코스 3개 중 2개를 조합해 18홀을 라운딩합니다.\n\n연못과 야자수가 곳곳에 있는 완만한 기복의 코스이며, 클럽하우스 인근에는 고층 콘도 건물이 있습니다.\n\n여행의파도 파타야·시라차 골프 상품 일부에 포함되며, 실제 배정은 상품 일정에 따릅니다.",
+    "images": [
+      "/images/crystal-bay-golf-club/course-1.jpg",
+      "/images/crystal-bay-golf-club/course-2.jpg",
+      "/images/crystal-bay-golf-club/course-3.jpg",
+      "/images/crystal-bay-golf-club/course-4.jpg",
+      "/images/crystal-bay-golf-club/course-5.jpg",
+      "/images/crystal-bay-golf-club/course-6.jpg"
+    ],
+    "hashtags": [
+      "크리스탈베이CC",
+      "파타야골프",
+      "태국골프여행"
+    ],
+    "relatedTourIds": [
+      "thailand-sriracha-suntara-3color-incheon",
+      "thailand-pattaya-value-3color-daegu",
+      "thailand-pattaya-mikegarden-3color-incheon",
+      "thailand-pattaya-mikegarden-3color-busan",
+      "thailand-pattaya-mikegarden-3color-vz-incheon"
+    ]
   }
 ]
