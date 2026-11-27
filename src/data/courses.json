@@ -13339,5 +13339,419 @@
     "relatedTourIds": [
       "japan-kitakyushu-yamaguchi-onsen-3color-3n4d-incheon"
     ]
+  },
+  {
+    "slug": "aino-country-club",
+    "name": "아이노CC",
+    "nameEn": "Aino Country Club (愛野カントリー倶楽部)",
+    "aliases": [
+      "아이노",
+      "아이노 컨트리클럽"
+    ],
+    "region": "나가사키",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "운젠시 아이노초의 18홀 파72 구릉 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72 (백티 기준 약 7,153야드)"
+      },
+      {
+        "label": "개장",
+        "value": "1989년"
+      },
+      {
+        "label": "설계",
+        "value": "요코마쓰 가즈오 (横松和夫)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "페어웨이가 넓은 구릉 코스, 18번·1번·9번 홀 주변 연못과 폭포"
+      }
+    ],
+    "description": "아이노CC(아이노 컨트리클럽)는 나가사키현 운젠시 아이노초에 있는 18홀 파72 골프장으로, 1989년에 문을 열었고 요코마쓰 가즈오가 설계했습니다.\n\n전장은 긴 편이지만 페어웨이가 넓고, 적당한 오르내림이 있는 구릉 코스입니다. 18번·1번·9번 홀 주변에 연못과 폭포를 둔 물 경관이 볼거리입니다.\n\n여행의파도 나가사키 3색 골프 상품에서 만나실 수 있습니다.",
+    "images": [
+      "/images/japan-nagasaki-isahaya-onsen-3color-ke-incheon/course-4.jpg",
+      "/images/japan-nagasaki-isahaya-onsen-3color-ke-incheon/course-5.jpg",
+      "/images/nagasaki-isahaya-onsen-busan/course-3.jpg",
+      "/images/nagasaki-isahaya-onsen-busan/course-4.jpg"
+    ],
+    "hashtags": [
+      "아이노CC",
+      "나가사키골프",
+      "나가사키골프여행",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-nagasaki-isahaya-onsen-3color-ke-incheon",
+      "japan-nagasaki-isahaya-onsen-3color-ke-incheon-2n3d",
+      "japan-nagasaki-isahaya-onsen-3color-ke-incheon-4n5d",
+      "japan-nagasaki-isahaya-onsen-3color-ke-incheon-5n6d",
+      "japan-nagasaki-isahaya-onsen-3color-busan",
+      "japan-nagasaki-isahaya-onsen-3color-busan-2n3d"
+    ]
+  },
+  {
+    "slug": "caliraya-springs-golf-country-club",
+    "name": "깔리라야CC",
+    "nameEn": "Caliraya Springs Golf & Country Club",
+    "region": "마닐라",
+    "country": "필리핀",
+    "countryCode": "philippines",
+    "summary": "아놀드 파머·그레이엄 마시 설계 2개 코스 36홀, 칼리라야 호수를 낀 라구나 고원 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 (아놀드 파머 코스 18홀 + 그레이엄 마시 코스 18홀)"
+      },
+      {
+        "label": "파 / 전장",
+        "value": "아놀드 파머 코스 파72 · 6,788야드 / 그레이엄 마시 코스 파72 · 6,690야드"
+      },
+      {
+        "label": "설계",
+        "value": "아놀드 파머, 그레이엄 마시"
+      },
+      {
+        "label": "코스 특징",
+        "value": "해발 약 366m(1,200피트)로 소개되는 고원, 칼리라야 호수를 끼고 조성"
+      },
+      {
+        "label": "소재지",
+        "value": "필리핀 라구나주 카빈티"
+      }
+    ],
+    "description": "깔리라야CC(칼리라야 스프링스 골프 앤 컨트리클럽)는 필리핀 라구나주 카빈티, 해발 약 366m(1,200피트)로 소개되는 고원에 있는 36홀 골프장입니다. 칼리라야 호수를 끼고 있어 호수 전망이 함께합니다.\n\n아놀드 파머가 설계한 코스(레이크사이드 코스, 파72·6,788야드)와 그레이엄 마시가 설계한 코스(파72·6,690야드) 두 개로 이뤄져 있습니다. 골프장 안에 골프텔(숙박시설)이 있습니다.\n\n여행의파도 마닐라 깔리라야 골프텔 상품에서 만나실 수 있습니다.",
+    "images": [
+      "/images/manila-caliraya-golftel-busan/course-1.jpg",
+      "/images/manila-caliraya-golftel-busan/course-4.jpg",
+      "/images/manila-caliraya-golftel-busan/course-2.jpg",
+      "/images/manila-caliraya-golftel-busan/course-5.jpg",
+      "/images/manila-caliraya-golftel-busan/course-3.jpg",
+      "/images/manila-caliraya-golftel-busan/course-6.jpg"
+    ],
+    "hashtags": [
+      "깔리라야CC",
+      "깔리라야골프텔",
+      "마닐라골프",
+      "마닐라골프여행",
+      "필리핀골프여행",
+      "아놀드파머",
+      "부산출발골프"
+    ],
+    "relatedTourIds": [
+      "philippines-manila-caliraya-golftel-busan",
+      "philippines-manila-caliraya-golftel-7c-busan",
+      "philippines-manila-caliraya-golftel-7c-busan-4n6d"
+    ]
+  },
+  {
+    "slug": "chisan-cc-moriyama",
+    "name": "치산CC 모리야마",
+    "nameEn": "Chisan Country Club Moriyama (チサンカントリークラブ森山)",
+    "aliases": [
+      "치산CC",
+      "치산 모리야마",
+      "치산CC모리야마"
+    ],
+    "region": "나가사키",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "이사하야시 구릉지의 27홀(아리아케·다치바나·운젠) 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "27홀 파108 (아리아케·다치바나·운젠 코스 각 9홀 파36, 27홀 합계 약 9,763야드)"
+      },
+      {
+        "label": "개장",
+        "value": "1974년"
+      },
+      {
+        "label": "코스 특징",
+        "value": "운젠산을 배경으로 오무라만·다치바나만을 내려다보는 구릉 코스"
+      }
+    ],
+    "description": "치산CC 모리야마(치산 컨트리클럽 모리야마)는 나가사키현 이사하야시 모리야마초에 있는 27홀 골프장으로, 1974년에 문을 열었습니다. 아리아케·다치바나·운젠 세 코스가 각각 9홀 파36입니다.\n\n운젠산을 배경으로 오무라만과 다치바나만을 내려다보는 구릉 코스입니다. 아리아케 코스는 숲 사이로 평탄하게 이어지고, 다치바나 코스는 기복이 있고 연못이 3곳 있으며, 운젠 코스는 페어웨이가 넓고 평탄한 시원한 배치입니다.\n\n여행의파도 나가사키 3색 골프 상품에서 만나실 수 있습니다.",
+    "images": [
+      "/images/japan-nagasaki-isahaya-onsen-3color-ke-incheon/course-2.jpg",
+      "/images/japan-nagasaki-isahaya-onsen-3color-ke-incheon/course-3.jpg",
+      "/images/nagasaki-isahaya-onsen-busan/course-6.jpg"
+    ],
+    "hashtags": [
+      "치산CC",
+      "치산모리야마",
+      "나가사키골프",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-nagasaki-isahaya-onsen-3color-ke-incheon",
+      "japan-nagasaki-isahaya-onsen-3color-ke-incheon-2n3d",
+      "japan-nagasaki-isahaya-onsen-3color-ke-incheon-4n5d",
+      "japan-nagasaki-isahaya-onsen-3color-ke-incheon-5n6d",
+      "japan-nagasaki-isahaya-onsen-3color-busan",
+      "japan-nagasaki-isahaya-onsen-3color-busan-2n3d",
+      "japan-nagasaki-omurawan-chisan-busan"
+    ]
+  },
+  {
+    "slug": "dunes-shenzhou-peninsula",
+    "name": "페닌슐라CC",
+    "nameEn": "The Dunes at Shenzhou Peninsula (神州半岛沙丘高尔夫)",
+    "region": "하이난",
+    "country": "중국",
+    "countryCode": "china",
+    "summary": "톰 와이스코프 설계, 남중국해 해안에 조성한 사구형 동·서 36홀 링크스 스타일 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "동코스 18홀 + 서코스 18홀 (36홀)"
+      },
+      {
+        "label": "개장",
+        "value": "동코스 2012년"
+      },
+      {
+        "label": "설계",
+        "value": "톰 와이스코프 (Tom Weiskopf)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "남중국해 해안에 조성한 사구형 링크스 스타일"
+      },
+      {
+        "label": "소재지",
+        "value": "중국 하이난 완닝 선저우 반도"
+      },
+      {
+        "label": "접근",
+        "value": "하이커우 메이란공항에서 차로 약 2~2.5시간(교통상황에 따라 변동)"
+      }
+    ],
+    "description": "페닌슐라CC(더 듄스 앳 선저우 페닌슐라)는 하이난 남동쪽 완닝시 선저우 반도의 바닷가에 있는 36홀 골프장입니다. 톰 와이스코프가 설계했고, 동코스는 2012년에 문을 열었습니다.\n\n남중국해 해안에 조성한 사구형 링크스 스타일 코스로, 바닷바람을 읽으며 치는 재미가 큽니다.\n\n여행의파도 하이난 페닌슐라 골프 상품에서 만나실 수 있습니다.",
+    "images": [
+      "/images/hainan-peninsula-sheraton-incheon/course-4.jpg",
+      "/images/hainan-peninsula-sheraton-incheon/course-1.jpg",
+      "/images/hainan-peninsula-sheraton-incheon/course-2.jpg",
+      "/images/hainan-peninsula-sheraton-incheon/course-3.jpg",
+      "/images/hainan-peninsula-sheraton-incheon/course-5.jpg",
+      "/images/hainan-peninsula-sheraton-incheon/course-6.jpg"
+    ],
+    "hashtags": [
+      "페닌슐라CC",
+      "더듄스",
+      "선저우반도",
+      "하이난골프장",
+      "하이난골프여행",
+      "중국골프여행"
+    ],
+    "relatedTourIds": [
+      "china-hainan-peninsula-sheraton-3n5d",
+      "china-hainan-peninsula-blackstone-sheraton-incheon",
+      "china-hainan-peninsula-blackstone-sheraton-incheon-4n6d"
+    ]
+  },
+  {
+    "slug": "omurawan-country-club",
+    "name": "오무라완CC",
+    "nameEn": "Omurawan Country Club (大村湾カントリー倶楽部)",
+    "aliases": [
+      "오무라완",
+      "오무라완 컨트리클럽"
+    ],
+    "region": "나가사키",
+    "country": "일본",
+    "countryCode": "japan",
+    "summary": "나가사키현 오무라시 구릉지의 36홀(뉴·올드 코스) 골프장",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "36홀 — 뉴 코스 18홀 파72(6,827야드) · 올드 코스 18홀 파72(7,055야드)"
+      },
+      {
+        "label": "설계",
+        "value": "뉴 코스 론 프림(Ron Fream) · 올드 코스 오자사 쇼조(小笹昭三)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "적당한 오르내림이 있는 구릉 코스"
+      },
+      {
+        "label": "접근",
+        "value": "나가사키공항에서 차로 약 15~20분(교통상황에 따라 변동)"
+      }
+    ],
+    "description": "오무라완CC(오무라완 컨트리클럽)는 나가사키현 오무라시 히가시노다케마치에 있는 36홀 골프장으로, 뉴 코스와 올드 코스가 각각 18홀 파72입니다. 뉴 코스는 론 프림(Ron Fream)이 설계했습니다.\n\n적당한 오르내림이 있는 구릉 코스이며, 셀프 플레이로 전동카트를 타고 페어웨이까지 들어갈 수 있습니다(잔디 상태와 당일 골프장 판단에 따라 페어웨이 진입이 제한될 수 있습니다).\n\n여행의파도 나가사키 3색 골프 상품에서 만나실 수 있습니다.",
+    "images": [
+      "/images/japan-nagasaki-isahaya-onsen-3color-ke-incheon/course-1.jpg",
+      "/images/japan-nagasaki-isahaya-onsen-3color-ke-incheon/course-6.jpg",
+      "/images/nagasaki-isahaya-onsen-busan/course-1.jpg",
+      "/images/nagasaki-isahaya-onsen-busan/course-2.jpg"
+    ],
+    "hashtags": [
+      "오무라완CC",
+      "나가사키골프",
+      "나가사키골프여행",
+      "일본골프여행"
+    ],
+    "relatedTourIds": [
+      "japan-nagasaki-isahaya-onsen-3color-ke-incheon",
+      "japan-nagasaki-isahaya-onsen-3color-ke-incheon-2n3d",
+      "japan-nagasaki-isahaya-onsen-3color-ke-incheon-4n5d",
+      "japan-nagasaki-isahaya-onsen-3color-ke-incheon-5n6d",
+      "japan-nagasaki-isahaya-onsen-3color-busan",
+      "japan-nagasaki-isahaya-onsen-3color-busan-2n3d"
+    ]
+  },
+  {
+    "slug": "phokeethra-country-club",
+    "name": "포키트라CC",
+    "aliases": [
+      "포케트라CC",
+      "포케트라",
+      "포키트라",
+      "Phokeethra"
+    ],
+    "nameEn": "Phokeethra Country Club",
+    "region": "씨엠립",
+    "country": "캄보디아",
+    "countryCode": "other",
+    "summary": "아시안투어 캄보디아 오픈을 연 씨엠립 18홀 파72 챔피언십 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72"
+      },
+      {
+        "label": "개장",
+        "value": "2007년"
+      },
+      {
+        "label": "설계",
+        "value": "위요스 골프 디자인 (Weeyos Golf Design)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "호수와 열대 숲이 어우러진 챔피언십 코스, 아시안투어 캄보디아 오픈 개최"
+      },
+      {
+        "label": "접근",
+        "value": "씨엠립 시내 중심에서 차로 약 25분"
+      }
+    ],
+    "description": "포키트라CC는 캄보디아 씨엠립 북서쪽에 있는 18홀 파72 골프장으로 2007년에 문을 열었으며, 씨엠립 최초의 국제 규격 18홀 코스로 알려져 있습니다.\n\n아시안투어 캄보디아 오픈을 연 챔피언십 코스로, 호수와 열대 자연 경관 사이를 도는 홀이 많습니다.\n\n여행의파도 씨엠립 골프 상품에서 만나실 수 있습니다.",
+    "images": [
+      "/images/cambodia-siemreap-3color-royalempire-incheon/course-5.jpg"
+    ],
+    "hashtags": [
+      "포키트라CC",
+      "포케트라CC",
+      "씨엠립골프",
+      "캄보디아골프여행"
+    ],
+    "relatedTourIds": [
+      "cambodia-siemreap-3color-royalempire-incheon",
+      "cambodia-siemreap-booyoung-phokeethra-incheon"
+    ]
+  },
+  {
+    "slug": "siem-reap-booyoung-country-club",
+    "name": "부영CC",
+    "aliases": [
+      "씨엠립부영",
+      "씨엠립 부영CC",
+      "Booyoung Country Club"
+    ],
+    "nameEn": "Siem Reap Booyoung Country Club (구 Siem Reap Lake Golf Club)",
+    "region": "씨엠립",
+    "country": "캄보디아",
+    "countryCode": "other",
+    "summary": "씨엠립 동쪽의 호수가 많은 18홀 파72 리조트 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72"
+      },
+      {
+        "label": "개장",
+        "value": "2009년"
+      },
+      {
+        "label": "설계",
+        "value": "사토 겐타로 (Kentaro Sato)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "넓은 페어웨이 사이로 호수와 야자수가 어우러진 평지형 코스"
+      },
+      {
+        "label": "접근",
+        "value": "씨엠립 시내 중심에서 차로 약 25분"
+      }
+    ],
+    "description": "부영CC는 캄보디아 씨엠립에 있는 18홀 파72 골프장으로 2009년에 문을 열었습니다. 예전 이름은 씨엠립 레이크 골프클럽입니다.\n\n넓고 평탄한 페어웨이와 곳곳의 호수, 야자수가 어우러진 열대 코스라 실력에 맞는 티를 고르면 초보·시니어 골퍼도 편하게 라운딩할 수 있습니다.\n\n여행의파도 씨엠립 골프 상품에서 만나실 수 있습니다.",
+    "images": [
+      "/images/cambodia-siemreap-3color-royalempire-incheon/course-1.jpg"
+    ],
+    "hashtags": [
+      "부영CC",
+      "씨엠립부영CC",
+      "씨엠립골프",
+      "캄보디아골프여행"
+    ],
+    "relatedTourIds": [
+      "cambodia-siemreap-3color-royalempire-incheon",
+      "cambodia-siemreap-booyoung-phokeethra-incheon"
+    ]
+  },
+  {
+    "slug": "villea-rompin-golf",
+    "name": "롬핀CC",
+    "aliases": [
+      "롬핀",
+      "빌라롬핀",
+      "Villea Rompin",
+      "Lanjut Beach"
+    ],
+    "nameEn": "Villea Rompin Resort & Golf (구 Lanjut Beach & Golf Resort)",
+    "region": "쿠알라룸푸르",
+    "country": "말레이시아",
+    "countryCode": "malaysia",
+    "summary": "파항주 쿠알라 롬핀 남중국해 해변 리조트 안의 18홀 파72 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72"
+      },
+      {
+        "label": "위치",
+        "value": "말레이시아 파항주 쿠알라 롬핀, 남중국해 해변"
+      },
+      {
+        "label": "코스 특징",
+        "value": "열대우림 지형을 살린 코스, 큰 나무와 대형 벙커, 굴곡이 있는 빠른 그린"
+      },
+      {
+        "label": "접근",
+        "value": "쿠알라룸푸르 국제공항에서 차량 이동"
+      }
+    ],
+    "description": "롬핀CC는 말레이시아 파항주 쿠알라 롬핀의 해변 리조트(Villea Rompin Resort & Golf) 안에 있는 18홀 파72 골프장입니다. 예전 이름은 란줏 비치 앤 골프 리조트입니다.\n\n열대우림 지형을 살린 코스로 큰 나무와 대형 벙커, 굴곡이 있는 빠른 그린이 특징이며 카트가 페어웨이에 들어갈 수 있습니다. 리조트에는 약 3.5km 해변과 수영장이 있습니다.\n\n여행의파도 롬핀 골프 상품에서 만나실 수 있습니다.",
+    "images": [
+      "/images/malaysia-rompin-villea-unlimited-incheon/course-1.jpg",
+      "/images/malaysia-rompin-villea-unlimited-incheon/course-2.jpg",
+      "/images/malaysia-rompin-villea-unlimited-incheon/course-3.jpg"
+    ],
+    "hashtags": [
+      "롬핀CC",
+      "롬핀골프",
+      "말레이시아골프",
+      "무제한골프"
+    ],
+    "relatedTourIds": [
+      "malaysia-rompin-villea-unlimited-incheon",
+      "malaysia-rompin-villea-unlimited-incheon-5n7d"
+    ]
   }
 ]
