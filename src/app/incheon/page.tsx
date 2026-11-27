@@ -49,7 +49,7 @@ export default function IncheonHome() {
   return (
     <div>
       {/* ===== 골프여행 검색 — 공항을 고른 뒤 바로 조건을 넣게 사진 배너보다 위에 (사장님 확정 A안, 2026-10-25) ===== */}
-      <HomeSearch dep="incheon" meta={SEARCH_META} />
+      <HomeSearch dep="incheon" meta={SEARCH_META} mainTitle />
 
       {/* ===== 여행지 추천 — 큰 슬라이드 배너 대체 (사장님 작업지시·B안 초록 탭, 2026-10-25) ===== */}
       <DestinationSpotlight regions={buildSpotlight("incheon")} />

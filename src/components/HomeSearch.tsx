@@ -24,7 +24,9 @@ const DEP_SHORT: Record<Dep, string> = { incheon: "인천", busan: "부산", che
 type Sheet = null | "airport" | "place" | "date";
 type Draft = { dep: Dep; country: string; region: string; date: string; people: number; nights: NightsFilter };
 
-export default function HomeSearch({ dep, meta }: { dep: Dep; meta: SearchMeta }) {
+// mainTitle — 인천·부산 홈은 이 제목이 화면 대표 제목(h1). 청주·대구 홈은 아래 "○○ 골프여행"이 h1이라 h2 (검색 노출 개선 2026-11-27)
+export default function HomeSearch({ dep, meta, mainTitle }: { dep: Dep; meta: SearchMeta; mainTitle?: boolean }) {
+  const Title = mainTitle ? "h1" : "h2";
   const [draft, setDraft] = useState<Draft>({ dep, country: "all", region: "", date: "", people: 2, nights: 0 });
   const [sheet, setSheet] = useState<Sheet>(null);
   // 국가·지역 창 임시 선택 — '선택 완료'를 눌러야 반영, X·바깥·ESC로 닫으면 이전 값 유지 (사장님 지시 10/25)
@@ -77,7 +79,7 @@ export default function HomeSearch({ dep, meta }: { dep: Dep; meta: SearchMeta }
   return (
     <section className="bg-soft-blue border-b border-line">
       <div className="max-w-6xl mx-auto px-4 py-4 md:py-8">
-        <h2 className="text-[22px] md:text-[30px] font-black text-main-text tracking-tight leading-tight">나에게 맞는 골프여행 찾기</h2>
+        <Title className="text-[22px] md:text-[30px] font-black text-main-text tracking-tight leading-tight">나에게 맞는 골프여행 찾기</Title>
         <p className="text-[15px] md:text-[17px] text-body-text mt-1 mb-3 md:mb-5 break-keep">여행지와 출발일을 선택해 보세요.</p>
 
         <div className="grid grid-cols-2 gap-2 md:grid-cols-[1fr_1.6fr_1.05fr_1.25fr_auto] md:gap-0 md:bg-white md:rounded-2xl md:overflow-hidden md:border-[1.5px] md:border-[#D9E1EA] md:shadow-[0_6px_22px_rgba(23,52,95,0.10)]">

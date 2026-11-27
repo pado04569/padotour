@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import DepartureChooser from "@/components/DepartureChooser";
 import { tours } from "@/data/tours";
@@ -5,6 +6,10 @@ import { tours } from "@/data/tours";
 // 청주·대구 출발 칸은 판매 중인(출발일이 남은) 상품이 1개라도 있을 때만 켠다 (사장님 10/25)
 // 3칸이 되면 칸이 좁아 PC 폭을 1240px로 넓힌다 (사장님 확정 시안과 같은 폭)
 const EXTRA = (["cheongju", "daegu"] as const).filter((d) => tours.some((t) => t.departure === d));
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://www.padotour.com/" },
+};
 
 // 첫 화면 — 골프장 사진을 화면 가득 + 출발공항 카드 2개(청주·대구 상품이 있으면 3칸) (사장님 확정 L1, 2026-10-10)
 // 목표: 2초 안에 "해외 골프여행 전문 여행사"로 보이고 바로 인천/부산을 고르게.

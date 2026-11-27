@@ -18,8 +18,7 @@ import { matchesNights, nightsText, parseNights, datesWithin, pickBalanced, date
 import { parseQuery, matchesKeywords } from "@/lib/queryParser";
 import { isDep, DEP_HOME, DEP_NAME } from "@/lib/departure";
 
-function ToursContent() {
-  const searchParams = useSearchParams();
+function ToursContent({ searchParams }: { searchParams: Pick<URLSearchParams, "get" | "toString"> }) {
   const today = localIso();
   // 머리말 검색창 글(search=) — "11월5일 일본 2명"을 날짜·나라·지역·인원·낱말로 풀어 아래 조건에 채운다 (작업지시서 13-E, 2026-10-11)
   // 주소에 직접 들어온 조건(country= 등)이 있으면 그쪽이 먼저다.
@@ -533,10 +532,26 @@ function ToursContent() {
   );
 }
 
+function ToursWithQuery() {
+  const searchParams = useSearchParams();
+  return <ToursContent searchParams={searchParams} />;
+}
+
+// 처음 내려주는 HTML에 "조건 없는 전체 목록"을 담는다 — 비어 있으면 검색로봇이 상품 링크를 못 본다 (검색 노출 개선 2026-11-27).
+// 조건이 붙은 주소(?country= 등)는 전체 목록이 잠깐 비치지 않게 숨긴다(예전처럼 빈 화면 → 걸러진 목록).
 export default function ToursPage() {
   return (
-    <Suspense>
-      <ToursContent />
+    <Suspense
+      fallback={
+        <>
+          <div id="tours-fallback">
+            <ToursContent searchParams={new URLSearchParams()} />
+          </div>
+          <script dangerouslySetInnerHTML={{ __html: "if(location.search)document.getElementById('tours-fallback').style.display='none'" }} />
+        </>
+      }
+    >
+      <ToursWithQuery />
     </Suspense>
   );
 }
