@@ -13692,6 +13692,11 @@
     ],
     "description": "부영CC는 캄보디아 씨엠립에 있는 18홀 파72 골프장으로 2009년에 문을 열었습니다. 예전 이름은 씨엠립 레이크 골프클럽입니다.\n\n넓고 평탄한 페어웨이와 곳곳의 호수, 야자수가 어우러진 열대 코스라 실력에 맞는 티를 고르면 초보·시니어 골퍼도 편하게 라운딩할 수 있습니다.\n\n여행의파도 씨엠립 골프 상품에서 만나실 수 있습니다.",
     "images": [
+      "/images/siem-reap-booyoung-country-club/course-1.jpg",
+      "/images/siem-reap-booyoung-country-club/course-2.jpg",
+      "/images/siem-reap-booyoung-country-club/course-3.jpg",
+      "/images/siem-reap-booyoung-country-club/course-4.jpg",
+      "/images/siem-reap-booyoung-country-club/course-5.jpg",
       "/images/cambodia-siemreap-3color-royalempire-incheon/course-1.jpg"
     ],
     "hashtags": [
@@ -13752,6 +13757,56 @@
     "relatedTourIds": [
       "malaysia-rompin-villea-unlimited-incheon",
       "malaysia-rompin-villea-unlimited-incheon-5n7d"
+    ]
+  },
+  {
+    "slug": "angkor-golf-resort",
+    "name": "앙코르CC",
+    "aliases": [
+      "앙코르골프리조트",
+      "앙코르 골프 리조트",
+      "Angkor Golf Resort"
+    ],
+    "nameEn": "Angkor Golf Resort",
+    "region": "씨엠립",
+    "country": "캄보디아",
+    "countryCode": "other",
+    "summary": "닉 팔도가 설계한 씨엠립 시내 인근 18홀 파72 코스",
+    "specs": [
+      {
+        "label": "코스 구성",
+        "value": "18홀 파72"
+      },
+      {
+        "label": "설계",
+        "value": "닉 팔도 (Nick Faldo)"
+      },
+      {
+        "label": "코스 특징",
+        "value": "워터해저드와 전략적인 벙커 배치가 돋보이는 코스"
+      },
+      {
+        "label": "접근",
+        "value": "씨엠립 시내 중심에서 차로 약 10분"
+      }
+    ],
+    "description": "앙코르CC(앙코르 골프 리조트)는 캄보디아 씨엠립 시내 서쪽에 있는 18홀 파72 골프장으로, 메이저 대회 6승의 닉 팔도가 설계했습니다.\n\n물을 낀 홀과 전략적으로 배치된 벙커가 많아 코스 공략의 재미가 있고, 관리 상태가 좋은 곳으로 알려져 있습니다. 시내 중심에서 가까워 이동이 짧습니다.\n\n여행의파도 씨엠립 3색 골프 상품에서 만나실 수 있습니다.",
+    "images": [
+      "/images/angkor-golf-resort/course-1.jpg",
+      "/images/angkor-golf-resort/course-2.jpg",
+      "/images/angkor-golf-resort/course-3.jpg",
+      "/images/angkor-golf-resort/course-4.jpg",
+      "/images/angkor-golf-resort/course-5.jpg",
+      "/images/angkor-golf-resort/course-6.jpg"
+    ],
+    "hashtags": [
+      "앙코르CC",
+      "앙코르골프리조트",
+      "씨엠립골프",
+      "캄보디아골프여행"
+    ],
+    "relatedTourIds": [
+      "cambodia-siemreap-3color-royalempire-incheon"
     ]
   }
 ]
