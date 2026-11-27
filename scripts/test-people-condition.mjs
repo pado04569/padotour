@@ -106,5 +106,14 @@ for (const { v, ids } of seen.values()) {
   const c = P(v);
   console.log(`${String(v).padEnd(52)} → min ${c.minDeparture ?? "-"} | 요금기준 ${c.priceBasis ?? "-"} | 객실 ${c.roomBasis ?? "-"} | 항공 ${c.airfareBasis ?? "-"} | ${c.extra} | 칩 "${c.chip}"  (${ids.length})`);
 }
+// 사장님 11/27: 일정표·요금표에 인원별 금액이 있으면 "2·3인 출발 시 추가요금" 대신 금액
+{
+  const { withPeopleSurcharge, selectionInfo } = await import("../src/lib/peopleCondition.ts");
+  const c = withPeopleSurcharge(P("2인 (4인 출발 기준 요금, 2·3인 출발 시 추가요금)"), { "2": "1인 16,000엔 추가", "3": "1인 4,000엔 추가" });
+  const a = selectionInfo(c, 2), b = selectionInfo(c, 3), d = selectionInfo(c, 4);
+  if (a?.lines[0] !== "2인 출발 1인 16,000엔 추가" || a.label !== "추가요금 별도" || b?.lines[0] !== "3인 출발 1인 4,000엔 추가" || d !== null) { console.error("peopleSurcharge 실패", a, b, d); fail++; }
+  else console.log("peopleSurcharge 금액 표시 통과");
+}
 console.log(fail ? `\n실패 ${fail}건` : "\n회귀 테스트 모두 통과");
 process.exit(fail ? 1 : 0);
+

@@ -16,6 +16,8 @@ export type Tour = {
   holes?: number;
   /** 숫자(2·4) 또는 "4인 (2~3인은 추가요금)" 같은 글 — 해석은 lib/peopleCondition.ts */
   minPeople?: number | string;
+  /** 일정표·요금표에 적힌 인원별 추가 금액 — {"2": "1인 16,000엔 추가", "3": "1인 4,000엔 추가"} (사장님 11/27) */
+  peopleSurcharge?: Record<string, string>;
   period?: string;
   hotel?: string;
   hotelDesc?: string;

@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { tours, type Tour } from "@/data/tours";
 import { departureSummary, kstTodayIso } from "@/lib/tripFacts";
-import { parsePeopleCondition, roomBasisOf, withLocalCosts } from "@/lib/peopleCondition";
+import { parsePeopleCondition, roomBasisOf, withLocalCosts, withPeopleSurcharge } from "@/lib/peopleCondition";
 import { stayText } from "@/lib/stay";
 
 /**
@@ -60,7 +60,7 @@ function build(): { region: (typeof REGIONS)[number]; rows: Row[] }[] {
       if (winter.length === 0) continue;
       const sum = departureSummary({ ...t, departurePrices: winter });
       if (!sum) continue;
-      const pc = withLocalCosts(parsePeopleCondition(t.minPeople), t.excludes);
+      const pc = withPeopleSurcharge(withLocalCosts(parsePeopleCondition(t.minPeople), t.excludes), t.peopleSurcharge);
       const people = pc.minDeparture != null ? (pc.chip || `${pc.minDeparture}인부터`) : "확인 필요";
       const holes = t.holes != null ? String(t.holes).split("\n")[0].trim() : "";
       const rounds =

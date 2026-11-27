@@ -50,7 +50,7 @@ import { STANDARD_CANCEL_POLICY, CANCEL_POLICY_NOTE, isCancelLadderLine } from "
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
 import { tourFaqs } from "@/lib/tourFaq";
 import { stayText } from "@/lib/stay";
-import { parsePeopleCondition, roomBasisOf, withLocalCosts } from "@/lib/peopleCondition";
+import { parsePeopleCondition, roomBasisOf, withLocalCosts, withPeopleSurcharge } from "@/lib/peopleCondition";
 import { IconChevron } from "@/components/icons/Chevron";
 import { regionGuides } from "@/lib/regionGuides";
 import { tourSeoTitle, tourSeoDescription } from "@/lib/seoMeta";
@@ -117,7 +117,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   // 인원 조건 해석은 lib/peopleCondition.ts 한 곳 — 칩·문의 기본값·인원 선택 제한·?people= 검증이 같은 결과를 쓴다 (챗GPT 감사 10/27)
   //   최소 출발 인원 · 표시 요금 기준 · 객실 기준 · 항공 운임 기준 · 추가금/요금 확인을 따로 읽는다. 인원을 곱한 합계는 만들지 않는다.
   //   불포함 줄의 인원별 현지 비용(샌딩·송영비)도 읽어 칩에 "2~3인은 현지비용 추가"를 붙인다. 원문 줄은 불포함 내역에 그대로 두고 칩이 그 줄로 안내한다 (작업지시서 2026-11-07)
-  const peopleCond = withLocalCosts(parsePeopleCondition(tour.minPeople), tour.excludes);
+  const peopleCond = withPeopleSurcharge(withLocalCosts(parsePeopleCondition(tour.minPeople), tour.excludes), tour.peopleSurcharge);
   const localPeopleSet = new Set(peopleCond.localLines);
   const peopleChipHref = peopleCond.localLines.length ? "#local-people" : peopleCond.extraLines.length || peopleCond.airfareText ? "#extra-people" : "";
   const peopleInfo = {

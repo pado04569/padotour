@@ -47,12 +47,14 @@ export type PeopleCondition = {
   extraLines: string[];
   /** 불포함 내역 가운데 인원 수에 따라 금액이 달라지는 현지 비용(샌딩·송영비 등) 원문 — withLocalCosts 가 채운다 */
   localLines: string[];
+  /** 일정표·요금표에 적힌 인원별 추가 금액 (tours.json peopleSurcharge, 예: {2: "1인 16,000엔 추가"}) — 있으면 그 인원 안내는 이 글로 보여 준다 (사장님 11/27) */
+  amounts: Record<number, string>;
 };
 
 // 호출마다 새 객체 — 배열을 공유하면 앞 상품의 덩어리가 뒤 상품에 섞인다
 const empty = (): PeopleCondition => ({
   raw: "", minDeparture: null, priceBasis: null, roomBasis: null, airfareBasis: null, capacity: null,
-  extra: "none", clauses: [], needsConfirm: false, chip: "", basisText: "", airfareText: "", conditionLines: [], extraLines: [], localLines: [],
+  extra: "none", clauses: [], needsConfirm: false, chip: "", basisText: "", airfareText: "", conditionLines: [], extraLines: [], localLines: [], amounts: {},
 });
 
 /** 칩 꼬리 — 현지에서 내는 비용이 인원별로 다를 때 (상품 요금에 더해지는 '추가비용 별도'와 구분, 2026-11-07 작업지시서) */
@@ -232,6 +234,14 @@ function finalize(c: PeopleCondition): PeopleCondition {
   return c;
 }
 
+/** tours.json peopleSurcharge(인원 → 금액 글)를 인원 조건에 얹는다. 합산하지 않고 적힌 글 그대로 */
+export function withPeopleSurcharge(c: PeopleCondition, map: Record<string, string> | undefined): PeopleCondition {
+  if (!map) return c;
+  const amounts: Record<number, string> = {};
+  for (const [k, v] of Object.entries(map)) if (Number(k) > 0 && v) amounts[Number(k)] = v;
+  return Object.keys(amounts).length ? { ...c, amounts } : c;
+}
+
 /** 이 인원으로 문의할 수 있는가 — 최소 출발 인원 미만이면 false */
 export function peopleAllowed(c: PeopleCondition, people: number): boolean {
   return c.minDeparture == null || people >= c.minDeparture;
@@ -243,6 +253,9 @@ export function peopleAllowed(c: PeopleCondition, people: number): boolean {
  *  - 인원이 안 적힌 덩어리는 표시 요금 기준보다 적을 때(기준이 없으면 항상)만
  */
 export function selectionNotes(c: PeopleCondition, people: number): string[] {
+  // 일정표·요금표에 그 인원 금액이 적혀 있으면 "2·3인 출발 시 추가요금" 대신 금액을 보여 준다 (사장님 11/27)
+  const amt = c.amounts?.[people];
+  if (amt) return [`${people}인 출발 ${amt}`];
   const out: string[] = [];
   for (const cl of c.clauses) {
     if (cl.kind === "condition") continue;
@@ -283,6 +296,6 @@ export function roomBasisOf(t: { minPeople?: unknown; title?: string; subtitle?:
 export function selectionInfo(c: PeopleCondition, people: number): { label: string; lines: string[] } | null {
   const lines = selectionNotes(c, people);
   if (!lines.length) return null;
-  const surcharge = c.clauses.some((cl) => lines.includes(cl.text) && cl.kind === "surcharge");
+  const surcharge = Boolean(c.amounts?.[people]) || c.clauses.some((cl) => lines.includes(cl.text) && cl.kind === "surcharge");
   return { label: surcharge ? "추가요금 별도" : "인원별 요금 확인", lines };
 }

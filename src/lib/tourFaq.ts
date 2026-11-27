@@ -1,7 +1,7 @@
 import { tours, type Tour } from "@/data/tours";
 import { flightInfo, departureSummary } from "@/lib/tripFacts";
 import { stayText } from "@/lib/stay";
-import { parsePeopleCondition, roomBasisOf, withLocalCosts } from "@/lib/peopleCondition";
+import { parsePeopleCondition, roomBasisOf, withLocalCosts, withPeopleSurcharge } from "@/lib/peopleCondition";
 
 /**
  * 상품별 자주 묻는 질문 — 손님이 전화로 실제로 묻는 것들을 상품 데이터에서 그대로 답한다.
@@ -76,7 +76,7 @@ export function tourFaqs(tour: Tour): Faq[] {
   // 3) 최소 인원
   // 인원 해석은 lib/peopleCondition.ts — 항공 운임·객실 기준·모집 정원을 최소 출발 인원으로 쓰지 않는다
   // 불포함 줄의 인원별 현지 비용(샌딩·송영비)도 같이 읽는다 (2인 안내 보강 2026-11-07)
-  const pc = withLocalCosts(parsePeopleCondition(tour.minPeople), tour.excludes);
+  const pc = withPeopleSurcharge(withLocalCosts(parsePeopleCondition(tour.minPeople), tour.excludes), tour.peopleSurcharge);
   if (pc.minDeparture != null) {
     faqs.push({
       q: "몇 명부터 갈 수 있나요?",
