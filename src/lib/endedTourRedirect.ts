@@ -9,7 +9,7 @@ import { regionGuides } from "@/lib/regionGuides";
  *  ③ 지역·나라를 모를 때만 전체 상품 목록
  * 지역별 예외를 두지 않는다. 안내 페이지가 새로 생기면(regionGuides) 저절로 ①을 탄다.
  */
-export function endedTourTarget(ended: Tour, active: Tour[]): string {
+export function endedTourTarget(ended: Pick<Tour, "countryCode" | "region" | "departure">, active: Tour[]): string {
   const regionParts = (ended.region || "").split("/").map((s) => s.trim()).filter(Boolean);
 
   const guide = regionGuides.find((g) => regionParts.some((r) => r.includes(g.regionKey)));
@@ -34,3 +34,15 @@ export function endedTourTarget(ended: Tour, active: Tour[]): string {
   if (ended.countryCode && active.some((t) => t.countryCode === ended.countryCode)) return `/tours?country=${ended.countryCode}`;
   return "/tours";
 }
+
+// tours.json 에서 상품 자체를 지웠던 옛 주소 — endedTours 에 없어 404 였다 (구글 서치콘솔 2026-11-27 확인).
+// 이동할 곳은 적지 않고 위 규칙으로 계산한다. 상품은 지우지 말고 남겨야 이 목록이 늘지 않는다.
+export const removedTours: Record<string, Pick<Tour, "countryCode" | "region" | "departure">> = {
+  "malaysia-kota-busan": { countryCode: "malaysia", region: "코타키나발루", departure: "busan" },
+  "japan-ube-choyo": { countryCode: "japan", region: "야마구치", departure: "incheon" },
+  "japan-aomori-lakewood": { countryCode: "japan", region: "아오모리", departure: "incheon" },
+  "china-hainan": { countryCode: "china", region: "하이난", departure: "both" },
+  "japan-fukuoka": { countryCode: "japan", region: "후쿠오카", departure: "both" },
+  "japan-hokkaido": { countryCode: "japan", region: "홋카이도", departure: "incheon" },
+  "japan-matsuyama": { countryCode: "japan", region: "마쓰야마", departure: "incheon" },
+};

@@ -4,7 +4,7 @@ import { tours, endedTours } from "@/data/tours";
 import { courses } from "@/data/courses";
 import PhotoGrid from "@/components/PhotoGrid";
 import { notFound, permanentRedirect } from "next/navigation";
-import { endedTourTarget } from "@/lib/endedTourRedirect";
+import { endedTourTarget, removedTours } from "@/lib/endedTourRedirect";
 import type { Metadata } from "next";
 import DeparturePriceCalendar from "@/components/DeparturePriceCalendar";
 import TourGallery from "@/components/TourGallery";
@@ -84,7 +84,7 @@ export default async function TourDetailPage({ params }: { params: Promise<{ id:
   const tour = tours.find((t) => t.id === id);
   if (!tour) {
     // 출발일이 끝난 상품: 서버에서 영구 이동(308) — 검색엔진이 새 주소로 옮겨 간다. 모르는 주소만 404
-    const ended = endedTours.find((t) => t.id === id);
+    const ended = endedTours.find((t) => t.id === id) ?? removedTours[id];
     if (ended) permanentRedirect(endedTourTarget(ended, tours));
     notFound();
   }
